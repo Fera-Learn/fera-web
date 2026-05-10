@@ -41,4 +41,4 @@ A **combination** is a selection of items where order does not matter.
 <Equation label="Relationship" tex="P(n,r) = r! \times \binom{n}{r}" />
 
 where $P(n,r)$ are permutations (order matters) and $\binom{n}{r}$ are combinations (order doesn't matter).
-`
+`;

@@ -41,4 +41,4 @@ When using u-substitution with definite integrals, you must change the limits:
 <Equation label="Definite Example" tex="u = x^2 + 1, \quad du = 2x \, dx; \quad x = 0 \Rightarrow u = 1, \quad x = 1 \Rightarrow u = 2" />
 
 <Equation label="Result" tex="\int_1^2 u^3 \, du = \left[\frac{u^4}{4}\right]_1^2 = \frac{16}{4} - \frac{1}{4} = \frac{15}{4}" />
-`
+`;

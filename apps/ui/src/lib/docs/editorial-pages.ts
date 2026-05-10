@@ -52,7 +52,8 @@ export const editorialDocs: DocPage[] = [
     slug: [],
     title: "Fera UI",
     navLabel: "Overview",
-    description: "A shared component library and docs framework for the Fera monorepo.",
+    description:
+      "A shared component library and docs framework for the Fera monorepo.",
     section: "Start Here",
     category: "Overview",
     order: 0,
@@ -95,7 +96,8 @@ That keeps the UI library reusable while still letting each app control its own 
   createEditorialDoc({
     slug: ["installation"],
     title: "Installation",
-    description: "Wire the shared UI package and docs shell into an app with a single styling entrypoint.",
+    description:
+      "Wire the shared UI package and docs shell into an app with a single styling entrypoint.",
     section: "Start Here",
     category: "Getting Started",
     order: 10,
@@ -147,7 +149,8 @@ return (
   createEditorialDoc({
     slug: ["theming"],
     title: "Theming",
-    description: "Use the shared token layer from packages/ui and keep app-level styling intentionally thin.",
+    description:
+      "Use the shared token layer from packages/ui and keep app-level styling intentionally thin.",
     section: "Start Here",
     category: "Foundations",
     order: 20,
@@ -180,7 +183,8 @@ That means the host app only needs the provider once in the root layout.
   createEditorialDoc({
     slug: ["patterns"],
     title: "Patterns",
-    description: "Composition guidelines for pairing shared primitives into consistent product flows.",
+    description:
+      "Composition guidelines for pairing shared primitives into consistent product flows.",
     section: "Start Here",
     category: "Patterns",
     order: 30,
@@ -209,7 +213,8 @@ Route files in the host app should resolve a page, render the shared shell, and 
   createEditorialDoc({
     slug: ["components"],
     title: "Components",
-    description: "Generated reference pages for the shared modules exported from @repo/ui.",
+    description:
+      "Generated reference pages for the shared modules exported from @repo/ui.",
     section: "Components",
     category: "Components",
     order: 40,

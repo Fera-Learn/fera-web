@@ -51,4 +51,4 @@ Solving: $A=2$, $B=1$
 After decomposition:
 
 <Equation label="Integration" tex="\int \frac{2}{x-1} \, dx + \int \frac{1}{x+2} \, dx = 2\ln|x-1| + \ln|x+2| + C" />
-`
+`;

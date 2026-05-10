@@ -38,7 +38,10 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Primary navigation">
+        <nav
+          className="hidden items-center gap-1 md:flex"
+          aria-label="Primary navigation"
+        >
           {navItems.map((item) => (
             <Link
               className="rounded-lg px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50"

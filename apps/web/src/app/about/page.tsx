@@ -33,7 +33,9 @@ export default function AboutPage() {
           eyebrow="About Fera"
           title="Built for students who learn by doing."
         >
-          Fera Academy is built around a simple idea: technical subjects become clearer when explanations, practice, and exam preparation are connected.
+          Fera Academy is built around a simple idea: technical subjects become
+          clearer when explanations, practice, and exam preparation are
+          connected.
         </PageHero>
 
         <Section className="pt-0">
@@ -41,7 +43,8 @@ export default function AboutPage() {
             eyebrow="Method"
             title="Fera is organised around the way technical subjects are mastered."
           >
-            Students need a clear path from topic sequence to deliberate practice and then exam readiness.
+            Students need a clear path from topic sequence to deliberate
+            practice and then exam readiness.
           </SectionHeading>
 
           <div className="mt-10">

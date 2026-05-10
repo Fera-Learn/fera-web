@@ -30,4 +30,4 @@ These identities are essential for:
 For example, to simplify $\sin^2 x + \cos^2 x + \tan^2 x$:
 
 <Equation label="Simplification" tex="\sin^2 x + \cos^2 x + \tan^2 x = 1 + \tan^2 x = \sec^2 x" />
-`
+`;

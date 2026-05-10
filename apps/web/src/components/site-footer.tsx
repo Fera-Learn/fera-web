@@ -41,7 +41,9 @@ export function SiteFooter() {
             </span>
           </Link>
           <p className="max-w-md text-sm leading-6 text-foreground/75">
-            Fera Academy helps university students study physics and maths through structured courses, targeted practice questions, and exam preparation.
+            Fera Academy helps university students study physics and maths
+            through structured courses, targeted practice questions, and exam
+            preparation.
           </p>
           <Button asChild variant="outline">
             <Link href={productLinks.root}>Open courses.fera.academy</Link>
@@ -71,7 +73,10 @@ function FooterLinkGroup({
       <ul className="mt-4 grid gap-3 text-sm text-foreground/75">
         {links.map((link) => (
           <li key={link.href}>
-            <Link className="transition-colors hover:text-foreground" href={link.href}>
+            <Link
+              className="transition-colors hover:text-foreground"
+              href={link.href}
+            >
               {link.label}
             </Link>
           </li>

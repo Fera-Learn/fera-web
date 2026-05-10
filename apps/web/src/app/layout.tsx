@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 import { cn } from "@repo/ui/lib/utils";
 import { brandAssets } from "@/lib/brand-assets";
@@ -35,6 +36,7 @@ export default function RootLayout({
     >
       <body className="fera-page-background min-h-full text-foreground">
         {children}
+        <Analytics />
       </body>
     </html>
   );

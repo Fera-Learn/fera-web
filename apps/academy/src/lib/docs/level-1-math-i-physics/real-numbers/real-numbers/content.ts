@@ -71,4 +71,4 @@ For all $a, b \in \mathbb{R}$:
 Between any two distinct real numbers, there exists infinitely many other real numbers.
 
 <Equation label="Density" tex="\text{If } a < b, \text{ then } \exists c \in \mathbb{R} \text{ such that } a < c < b" />
-`
+`;

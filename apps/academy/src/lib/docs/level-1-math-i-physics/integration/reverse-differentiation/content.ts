@@ -42,4 +42,4 @@ Always differentiate your answer to verify it's correct:
 <Equation label="Verification" tex="\frac{d}{dx}\left(\frac{x^{n+1}}{n+1} + C\right) = x^n \checkmark" />
 
 This reverse relationship is why integration is often called "antidifferentiation."
-`
+`;

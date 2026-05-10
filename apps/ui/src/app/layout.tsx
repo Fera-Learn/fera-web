@@ -6,7 +6,6 @@ import { cn } from "@repo/ui/lib/utils";
 
 const figtree = Figtree({ subsets: ["latin"], variable: "--font-sans" });
 
-
 export const metadata: Metadata = {
   title: {
     default: "Fera UI",
@@ -24,7 +23,12 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("h-svh", "overflow-hidden", "antialiased", figtree.variable)}
+      className={cn(
+        "h-svh",
+        "overflow-hidden",
+        "antialiased",
+        figtree.variable,
+      )}
     >
       <body className="h-svh overflow-hidden bg-background text-foreground">
         <DocsProvider>{children}</DocsProvider>

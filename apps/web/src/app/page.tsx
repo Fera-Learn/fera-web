@@ -42,7 +42,9 @@ export default async function Home() {
                 Technical study, connected from course to exam paper.
               </h1>
               <p className="mt-6 text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-                Fera gives physics and maths students one serious workspace for structured course study, targeted question practice, and full exam preparation.
+                Fera gives physics and maths students one serious workspace for
+                structured course study, targeted question practice, and full
+                exam preparation.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button asChild size="lg">
@@ -67,7 +69,8 @@ export default async function Home() {
             eyebrow="Study workflow"
             title="One course context across the whole study loop."
           >
-            Learn the topic, practise the method, then test exam readiness without moving between disconnected resources.
+            Learn the topic, practise the method, then test exam readiness
+            without moving between disconnected resources.
           </SectionHeading>
           <div className="mt-10">
             <WorkflowRows steps={studyWorkflow} />
@@ -79,7 +82,8 @@ export default async function Home() {
             eyebrow="Courses"
             title="Structured courses for university-level technical subjects."
           >
-            Start with a course path that keeps explanations, topics, questions, and papers connected around the same subject context.
+            Start with a course path that keeps explanations, topics, questions,
+            and papers connected around the same subject context.
           </SectionHeading>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {stats.courses.map((course) => (
@@ -93,7 +97,9 @@ export default async function Home() {
             eyebrow="Product evidence"
             title="Practice and papers are part of the same learning system."
           >
-            Question practice and exam preparation sit alongside the course material, so students can move from explanation to evidence of understanding.
+            Question practice and exam preparation sit alongside the course
+            material, so students can move from explanation to evidence of
+            understanding.
           </SectionHeading>
           <div className="mt-10 grid gap-5 lg:grid-cols-2">
             <SampleQuestionCard preview={sampleQuestionPreview} />
@@ -107,13 +113,18 @@ export default async function Home() {
               eyebrow="For students"
               title="Use Fera when technical study needs structure."
             >
-              The platform is built for students who need more than generic revision: clear course sequence, deliberate practice, and exam preparation in one place.
+              The platform is built for students who need more than generic
+              revision: clear course sequence, deliberate practice, and exam
+              preparation in one place.
             </SectionHeading>
 
             <div>
               <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-1">
                 {studentUseCases.map((useCase) => (
-                  <div className="border-t border-border pt-5" key={useCase.title}>
+                  <div
+                    className="border-t border-border pt-5"
+                    key={useCase.title}
+                  >
                     <h3 className="text-lg font-semibold tracking-[-0.025em]">
                       {useCase.title}
                     </h3>

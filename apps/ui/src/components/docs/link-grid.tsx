@@ -44,7 +44,9 @@ export function DocsLinkGrid({
                 <div className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
                   {item.eyebrow ?? "Docs"}
                 </div>
-                {item.badge ? <Badge variant="outline">{item.badge}</Badge> : null}
+                {item.badge ? (
+                  <Badge variant="outline">{item.badge}</Badge>
+                ) : null}
               </div>
               <div className="flex items-start justify-between gap-3">
                 <div className="space-y-1">

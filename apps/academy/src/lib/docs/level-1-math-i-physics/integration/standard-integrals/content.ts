@@ -49,4 +49,4 @@ These are the fundamental integrals that form the building blocks for solving mo
 | $\sqrt{x^2 - a^2}$ | $x = a \sec\theta$ |
 
 These standard forms and substitution patterns enable integration of many rational and radical expressions.
-`
+`;

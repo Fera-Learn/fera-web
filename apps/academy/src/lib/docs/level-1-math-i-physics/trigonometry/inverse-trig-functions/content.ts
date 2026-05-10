@@ -40,4 +40,4 @@ Inverse trigonometric functions often appear when solving for angles in right tr
 
 <Equation label="Arctan formula" tex="\theta = \arctan\left(\frac{y}{x}\right)" />
 
-This gives the angle whose tangent is $y/x$, useful for converting between Cartesian and polar coordinates.`
+This gives the angle whose tangent is $y/x$, useful for converting between Cartesian and polar coordinates.`;

@@ -55,7 +55,8 @@ export type ExamPaperPreview = {
 
 export const marketingCourses: MarketingCourse[] = [
   {
-    audience: "Physics students building the maths toolkit behind mechanics, waves, fields, and modelling.",
+    audience:
+      "Physics students building the maths toolkit behind mechanics, waves, fields, and modelling.",
     description:
       "The core maths toolkit for physics: algebra, functions, graphs, trigonometry, vectors, units, and introductory calculus.",
     fallbackPaperCount: 0,
@@ -64,11 +65,18 @@ export const marketingCourses: MarketingCourse[] = [
     questionHref: academyUrl("/level-1-math-i-physics/questions"),
     shortTitle: "Math I",
     slug: "level-1-math-i-physics",
-    topics: ["Algebra", "Functions", "Trigonometry", "Limits", "Differentiation"],
+    topics: [
+      "Algebra",
+      "Functions",
+      "Trigonometry",
+      "Limits",
+      "Differentiation",
+    ],
     title: "Level 1 - Math I (Physics)",
   },
   {
-    audience: "Students ready for the extended methods used in more advanced physics modelling.",
+    audience:
+      "Students ready for the extended methods used in more advanced physics modelling.",
     description:
       "Extended mathematical methods for physics modelling, including integration, differential equations, complex numbers, matrices, and vector calculus.",
     fallbackPaperCount: 0,
@@ -77,11 +85,18 @@ export const marketingCourses: MarketingCourse[] = [
     questionHref: academyUrl("/level-1-math-ii-physics/questions"),
     shortTitle: "Math II",
     slug: "level-1-math-ii-physics",
-    topics: ["Integration", "Differential equations", "Complex numbers", "Matrices", "Vector calculus"],
+    topics: [
+      "Integration",
+      "Differential equations",
+      "Complex numbers",
+      "Matrices",
+      "Vector calculus",
+    ],
     title: "Level 1 - Math II (Physics)",
   },
   {
-    audience: "University physics students who need derivations, modelling, worked questions, and exam preparation.",
+    audience:
+      "University physics students who need derivations, modelling, worked questions, and exam preparation.",
     description:
       "A calculus-based physics course built around derivations, physical modelling, worked questions, and full exam practice.",
     examHref: academyUrl("/level-1-physics/exam-papers"),
@@ -91,7 +106,13 @@ export const marketingCourses: MarketingCourse[] = [
     questionHref: academyUrl("/level-1-physics/questions"),
     shortTitle: "Physics",
     slug: "level-1-physics",
-    topics: ["Mechanics", "Waves", "Thermal physics", "Electricity and magnetism", "Quantum physics"],
+    topics: [
+      "Mechanics",
+      "Waves",
+      "Thermal physics",
+      "Electricity and magnetism",
+      "Quantum physics",
+    ],
     title: "Level 1 - Physics",
   },
 ];

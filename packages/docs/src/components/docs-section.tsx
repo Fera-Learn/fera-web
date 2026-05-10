@@ -21,9 +21,13 @@ export function DocsSection({
     <section className={cn("space-y-4", className)} id={id}>
       {title ? (
         <div className="space-y-2">
-          <h2 className="font-heading text-2xl font-semibold tracking-tight">{title}</h2>
+          <h2 className="font-heading text-2xl font-semibold tracking-tight">
+            {title}
+          </h2>
           {description ? (
-            <p className="max-w-3xl text-sm text-muted-foreground">{description}</p>
+            <p className="max-w-3xl text-sm text-muted-foreground">
+              {description}
+            </p>
           ) : null}
         </div>
       ) : null}

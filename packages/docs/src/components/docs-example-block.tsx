@@ -26,12 +26,18 @@ export function DocsExampleBlock({
       )}
     >
       <Tabs defaultValue="preview" className="w-full">
-        <TabsContent className="mt-0 border-b border-border/70 p-0" value="preview">
+        <TabsContent
+          className="mt-0 border-b border-border/70 p-0"
+          value="preview"
+        >
           <div className="flex min-h-[280px] items-center justify-center p-6 md:p-8 [&>[data-slot=accordion]]:max-w-2xl [&>[data-slot=breadcrumb]]:max-w-2xl">
             {children}
           </div>
         </TabsContent>
-        <TabsContent className="mt-0 border-b border-border/70 p-0" value="code">
+        <TabsContent
+          className="mt-0 border-b border-border/70 p-0"
+          value="code"
+        >
           <pre className="overflow-x-auto bg-subtle-surface px-4 py-4 text-sm leading-6 text-foreground">
             <code>{code}</code>
           </pre>

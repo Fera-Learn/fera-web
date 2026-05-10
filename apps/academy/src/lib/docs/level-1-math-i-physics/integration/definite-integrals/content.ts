@@ -37,4 +37,4 @@ The area between two curves $f(x)$ and $g(x)$ from $a$ to $b$:
 <Equation label="Between Curves" tex="\text{Area} = \int_a^b |f(x) - g(x)| \, dx" />
 
 When $f(x) \geq g(x)$ on $[a,b]$: $\int_a^b [f(x) - g(x)] \, dx$
-`
+`;

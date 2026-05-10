@@ -66,4 +66,4 @@ This form reveals the vertex of the parabola at $\left(-\frac{b}{2a}, -\frac{b^2
 2. **Simplify first** — Combine like terms, factor out GCF
 3. **Choose the technique** — Expand, factor, or complete the square
 4. **Verify** — Check by expanding your result
-`
+`;

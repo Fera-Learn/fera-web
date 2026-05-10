@@ -5,7 +5,10 @@ import type { DocPage } from "@repo/docs";
 
 import { DocsComponentCatalog } from "@/components/docs/component-catalog";
 import { DocsLinkGrid } from "@/components/docs/link-grid";
-import { componentCatalog, getComponentCatalogByGroup } from "@/lib/docs/components";
+import {
+  componentCatalog,
+  getComponentCatalogByGroup,
+} from "@/lib/docs/components";
 import { docsPages } from "@/lib/docs/pages";
 
 type DocsPageEnhancementsProps = {
@@ -19,7 +22,12 @@ function countPages(kind: "editorial" | "component") {
 
 function getGuideCards() {
   return docsPages
-    .filter((page) => page.kind === "editorial" && page.slug.length > 0 && page.slug[0] !== "components")
+    .filter(
+      (page) =>
+        page.kind === "editorial" &&
+        page.slug.length > 0 &&
+        page.slug[0] !== "components",
+    )
     .slice(0, 3)
     .map((page) => ({
       title: page.title,
@@ -35,7 +43,10 @@ function getFeaturedComponentCards() {
 
   return featuredOrder
     .map((slug) => componentCatalog.find((entry) => entry.slug === slug))
-    .filter((entry): entry is (typeof componentCatalog)[number] => entry !== undefined)
+    .filter(
+      (entry): entry is (typeof componentCatalog)[number] =>
+        entry !== undefined,
+    )
     .map((entry) => ({
       title: entry.title,
       description: entry.description,
@@ -59,7 +70,8 @@ function OverviewPanels() {
             <CardTitle className="text-3xl">{componentCount}</CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
-            Reusable shared components documented from the monorepo package boundary.
+            Reusable shared components documented from the monorepo package
+            boundary.
           </CardContent>
         </Card>
         <Card className="rounded-[1.75rem]">
@@ -68,7 +80,8 @@ function OverviewPanels() {
             <CardTitle className="text-3xl">{guideCount}</CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
-            Editorial pages that explain installation, theming, and composition patterns.
+            Editorial pages that explain installation, theming, and composition
+            patterns.
           </CardContent>
         </Card>
         <Card className="rounded-[1.75rem]">
@@ -77,7 +90,8 @@ function OverviewPanels() {
             <CardTitle className="text-3xl">{demoCount}</CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
-            Interactive examples rendered through the same docs engine the app consumes.
+            Interactive examples rendered through the same docs engine the app
+            consumes.
           </CardContent>
         </Card>
       </div>
@@ -104,7 +118,9 @@ function ComponentsIndexPanels() {
         <Card className="rounded-[1.75rem]">
           <CardHeader className="gap-3">
             <Badge variant="outline">Catalog</Badge>
-            <CardTitle className="text-3xl">{componentCatalog.length}</CardTitle>
+            <CardTitle className="text-3xl">
+              {componentCatalog.length}
+            </CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
             Shared components generated into docs pages from typed metadata.
@@ -113,21 +129,28 @@ function ComponentsIndexPanels() {
         <Card className="rounded-[1.75rem]">
           <CardHeader className="gap-3">
             <Badge variant="outline">Categories</Badge>
-            <CardTitle className="text-3xl">{getComponentCatalogByGroup().length}</CardTitle>
+            <CardTitle className="text-3xl">
+              {getComponentCatalogByGroup().length}
+            </CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
-            Grouped by the job they do so the library is easier to scan and maintain.
+            Grouped by the job they do so the library is easier to scan and
+            maintain.
           </CardContent>
         </Card>
         <Card className="rounded-[1.75rem]">
           <CardHeader className="gap-3">
             <Badge variant="outline">Featured demos</Badge>
             <CardTitle className="text-3xl">
-              {componentCatalog.filter((entry) => entry.demos.length > 0).length}
+              {
+                componentCatalog.filter((entry) => entry.demos.length > 0)
+                  .length
+              }
             </CardTitle>
           </CardHeader>
           <CardContent className="text-sm leading-6 text-muted-foreground">
-            Components with curated live examples and tighter guidance beyond the generated baseline.
+            Components with curated live examples and tighter guidance beyond
+            the generated baseline.
           </CardContent>
         </Card>
       </div>

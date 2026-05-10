@@ -24,8 +24,7 @@ export type Level1PhysicsEquationSheet = {
 export const level1PhysicsEquationSheet =
   equationSheetData satisfies Level1PhysicsEquationSheet;
 
-export const level1PhysicsEquationSheetHref =
-  "/level-1-physics/equation-sheet";
+export const level1PhysicsEquationSheetHref = "/level-1-physics/equation-sheet";
 
 export const level1PhysicsEquationSheetPrintHref =
   "/level-1-physics/equation-sheet/print";

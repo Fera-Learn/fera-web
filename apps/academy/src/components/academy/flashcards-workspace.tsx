@@ -35,11 +35,7 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from "@repo/ui/dropdown-menu";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@repo/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@repo/ui/popover";
 
 import type { FlashcardEntry, FlashcardSourceFilter } from "@/lib/flashcards";
 
@@ -205,7 +201,10 @@ function getTopicOptionId(option: TopicFilterOption) {
   return option.value.slice(`${option.kind}:`.length);
 }
 
-function getTopicLabel(selectedSections: string[], options: TopicFilterOption[]) {
+function getTopicLabel(
+  selectedSections: string[],
+  options: TopicFilterOption[],
+) {
   if (selectedSections.length === 0) {
     return "All topics";
   }
@@ -386,11 +385,11 @@ export function FlashcardsWorkspace({
   const [selectedSections, setSelectedSections] = useState(
     storedState.sections ?? [],
   );
-  const [selectedTopics, setSelectedTopics] = useState(storedState.topics ?? []);
-  const [shuffle, setShuffle] = useState(Boolean(storedState.shuffle));
-  const [shuffledIds, setShuffledIds] = useState(
-    storedState.shuffledIds ?? [],
+  const [selectedTopics, setSelectedTopics] = useState(
+    storedState.topics ?? [],
   );
+  const [shuffle, setShuffle] = useState(Boolean(storedState.shuffle));
+  const [shuffledIds, setShuffledIds] = useState(storedState.shuffledIds ?? []);
   const [source, setSource] = useState<FlashcardSourceFilter>(
     storedState.source ?? "all",
   );
@@ -811,7 +810,11 @@ export function FlashcardsWorkspace({
             </button>
 
             <div className="flex flex-wrap items-center justify-center gap-2">
-              <Button onClick={() => goToOffset(-1)} size="sm" variant="outline">
+              <Button
+                onClick={() => goToOffset(-1)}
+                size="sm"
+                variant="outline"
+              >
                 Previous
               </Button>
               <Button

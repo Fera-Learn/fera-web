@@ -35,11 +35,7 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from "@repo/ui/dropdown-menu";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@repo/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@repo/ui/popover";
 import {
   ResizableHandle,
   ResizablePanel,

@@ -1,4 +1,9 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@repo/ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@repo/ui/accordion";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -12,7 +17,12 @@ import {
 } from "@repo/ui/alert-dialog";
 import { Alert, AlertDescription, AlertTitle } from "@repo/ui/alert";
 import { AspectRatio } from "@repo/ui/aspect-ratio";
-import { Avatar, AvatarFallback, AvatarGroup, AvatarGroupCount } from "@repo/ui/avatar";
+import {
+  Avatar,
+  AvatarFallback,
+  AvatarGroup,
+  AvatarGroupCount,
+} from "@repo/ui/avatar";
 import { Badge } from "@repo/ui/badge";
 import {
   Breadcrumb,
@@ -26,18 +36,89 @@ import { Button } from "@repo/ui/button";
 import { ButtonGroup } from "@repo/ui/button-group";
 import { Calendar } from "@repo/ui/calendar";
 import { Checkbox } from "@repo/ui/checkbox";
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@repo/ui/collapsible";
-import { Combobox, ComboboxContent, ComboboxEmpty, ComboboxInput, ComboboxItem, ComboboxList } from "@repo/ui/combobox";
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandShortcut } from "@repo/ui/command";
-import { ContextMenu, ContextMenuContent, ContextMenuItem, ContextMenuTrigger } from "@repo/ui/context-menu";
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@repo/ui/card";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@repo/ui/dialog";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@repo/ui/collapsible";
+import {
+  Combobox,
+  ComboboxContent,
+  ComboboxEmpty,
+  ComboboxInput,
+  ComboboxItem,
+  ComboboxList,
+} from "@repo/ui/combobox";
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+  CommandShortcut,
+} from "@repo/ui/command";
+import {
+  ContextMenu,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuTrigger,
+} from "@repo/ui/context-menu";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@repo/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@repo/ui/dialog";
 import { DirectionProvider } from "@repo/ui/direction";
-import { Drawer, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@repo/ui/drawer";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@repo/ui/dropdown-menu";
-import { Empty, EmptyContent, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from "@repo/ui/empty";
-import { Field, FieldContent, FieldDescription, FieldError, FieldGroup, FieldLabel } from "@repo/ui/field";
-import { HoverCard, HoverCardContent, HoverCardTrigger } from "@repo/ui/hover-card";
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@repo/ui/drawer";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@repo/ui/dropdown-menu";
+import {
+  Empty,
+  EmptyContent,
+  EmptyDescription,
+  EmptyHeader,
+  EmptyMedia,
+  EmptyTitle,
+} from "@repo/ui/empty";
+import {
+  Field,
+  FieldContent,
+  FieldDescription,
+  FieldError,
+  FieldGroup,
+  FieldLabel,
+} from "@repo/ui/field";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@repo/ui/hover-card";
 import { Input } from "@repo/ui/input";
 import {
   InputGroup,
@@ -46,11 +127,31 @@ import {
   InputGroupInput,
   InputGroupText,
 } from "@repo/ui/input-group";
-import { InputOTP, InputOTPGroup, InputOTPSeparator, InputOTPSlot } from "@repo/ui/input-otp";
-import { Item, ItemActions, ItemContent, ItemDescription, ItemGroup, ItemMedia, ItemTitle } from "@repo/ui/item";
+import {
+  InputOTP,
+  InputOTPGroup,
+  InputOTPSeparator,
+  InputOTPSlot,
+} from "@repo/ui/input-otp";
+import {
+  Item,
+  ItemActions,
+  ItemContent,
+  ItemDescription,
+  ItemGroup,
+  ItemMedia,
+  ItemTitle,
+} from "@repo/ui/item";
 import { Kbd, KbdGroup } from "@repo/ui/kbd";
 import { Label } from "@repo/ui/label";
-import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarTrigger } from "@repo/ui/menubar";
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarTrigger,
+} from "@repo/ui/menubar";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -60,25 +161,73 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@repo/ui/navigation-menu";
-import { NativeSelect, NativeSelectOptGroup, NativeSelectOption } from "@repo/ui/native-select";
-import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "@repo/ui/pagination";
-import { Popover, PopoverContent, PopoverDescription, PopoverHeader, PopoverTitle, PopoverTrigger } from "@repo/ui/popover";
+import {
+  NativeSelect,
+  NativeSelectOptGroup,
+  NativeSelectOption,
+} from "@repo/ui/native-select";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@repo/ui/pagination";
+import {
+  Popover,
+  PopoverContent,
+  PopoverDescription,
+  PopoverHeader,
+  PopoverTitle,
+  PopoverTrigger,
+} from "@repo/ui/popover";
 import { Progress } from "@repo/ui/progress";
 import { RadioGroup, RadioGroupItem } from "@repo/ui/radio-group";
-import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@repo/ui/resizable";
+import {
+  ResizableHandle,
+  ResizablePanel,
+  ResizablePanelGroup,
+} from "@repo/ui/resizable";
 import { ScrollArea } from "@repo/ui/scroll-area";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@repo/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@repo/ui/select";
 import { Separator } from "@repo/ui/separator";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@repo/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@repo/ui/sheet";
 import { Skeleton } from "@repo/ui/skeleton";
 import { Slider } from "@repo/ui/slider";
 import { Spinner } from "@repo/ui/spinner";
 import { Switch } from "@repo/ui/switch";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@repo/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@repo/ui/table";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@repo/ui/tabs";
 import { Textarea } from "@repo/ui/textarea";
 import { Toggle } from "@repo/ui/toggle";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@repo/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@repo/ui/tooltip";
 import { CircleAlertIcon, PlusIcon } from "lucide-react";
 
 import type { InlineDemoEntry } from "@repo/docs";
@@ -162,7 +311,8 @@ function CardLayoutDemo() {
         <div>
           <CardTitle>Shared team updates</CardTitle>
           <CardDescription>
-            Keep release notes, experiments, and internal guidance in one surface.
+            Keep release notes, experiments, and internal guidance in one
+            surface.
           </CardDescription>
         </div>
         <CardAction>
@@ -170,8 +320,14 @@ function CardLayoutDemo() {
         </CardAction>
       </CardHeader>
       <CardContent className="space-y-3 text-sm text-muted-foreground">
-        <p>Each card inherits the shared color tokens and radius scale from `@repo/ui`.</p>
-        <p>That keeps product-level pages consistent without hardcoding app-specific styles.</p>
+        <p>
+          Each card inherits the shared color tokens and radius scale from
+          `@repo/ui`.
+        </p>
+        <p>
+          That keeps product-level pages consistent without hardcoding
+          app-specific styles.
+        </p>
       </CardContent>
       <CardFooter className="gap-2">
         <Button size="sm">Review</Button>
@@ -208,7 +364,8 @@ function DialogFlowDemo() {
         <DialogHeader>
           <DialogTitle>Ship the shared component update</DialogTitle>
           <DialogDescription>
-            Review the copy, confirm the API surface, and publish the package when you are ready.
+            Review the copy, confirm the API surface, and publish the package
+            when you are ready.
           </DialogDescription>
         </DialogHeader>
         <div className="flex gap-2">
@@ -249,13 +406,23 @@ function TabsPreviewDemo() {
         <TabsTrigger value="tokens">Tokens</TabsTrigger>
         <TabsTrigger value="notes">Notes</TabsTrigger>
       </TabsList>
-      <TabsContent value="preview" className="rounded-3xl border bg-background p-4">
-        Live previews sit next to source snippets so people can inspect both quickly.
+      <TabsContent
+        value="preview"
+        className="rounded-3xl border bg-background p-4"
+      >
+        Live previews sit next to source snippets so people can inspect both
+        quickly.
       </TabsContent>
-      <TabsContent value="tokens" className="rounded-3xl border bg-background p-4">
+      <TabsContent
+        value="tokens"
+        className="rounded-3xl border bg-background p-4"
+      >
         Keep visual decisions inside shared tokens, not duplicated in each app.
       </TabsContent>
-      <TabsContent value="notes" className="rounded-3xl border bg-background p-4">
+      <TabsContent
+        value="notes"
+        className="rounded-3xl border bg-background p-4"
+      >
         Tabs work well for short, peer views that share the same context.
       </TabsContent>
     </Tabs>
@@ -369,7 +536,12 @@ function SliderVolumeDemo() {
         <span>Volume</span>
         <span className="text-muted-foreground">68%</span>
       </div>
-      <Slider aria-label="Volume" className="w-full" defaultValue={[68]} max={100} />
+      <Slider
+        aria-label="Volume"
+        className="w-full"
+        defaultValue={[68]}
+        max={100}
+      />
     </div>
   );
 }
@@ -436,12 +608,16 @@ function SeparatorContentDemo() {
       <div className="space-y-3">
         <div>
           <p className="font-medium">Overview</p>
-          <p className="text-sm text-muted-foreground">A short summary of the current release.</p>
+          <p className="text-sm text-muted-foreground">
+            A short summary of the current release.
+          </p>
         </div>
         <Separator />
         <div>
           <p className="font-medium">Details</p>
-          <p className="text-sm text-muted-foreground">Longer implementation notes and rollout guidance.</p>
+          <p className="text-sm text-muted-foreground">
+            Longer implementation notes and rollout guidance.
+          </p>
         </div>
       </div>
     </div>
@@ -455,7 +631,9 @@ function TooltipHintDemo() {
         <TooltipTrigger asChild>
           <Button variant="outline">Hover for hint</Button>
         </TooltipTrigger>
-        <TooltipContent>Shared previews live next to code examples.</TooltipContent>
+        <TooltipContent>
+          Shared previews live next to code examples.
+        </TooltipContent>
       </Tooltip>
     </TooltipProvider>
   );
@@ -580,7 +758,8 @@ function FieldFeedbackDemo() {
             <FieldLabel htmlFor="release-name">Release name</FieldLabel>
             <Input id="release-name" placeholder="Q2 docs refresh" />
             <FieldDescription>
-              Keep labels, inputs, hints, and validation messaging grouped together.
+              Keep labels, inputs, hints, and validation messaging grouped
+              together.
             </FieldDescription>
           </FieldContent>
         </Field>
@@ -588,7 +767,9 @@ function FieldFeedbackDemo() {
           <FieldContent>
             <FieldLabel htmlFor="reviewer-name">Reviewer</FieldLabel>
             <Input id="reviewer-name" placeholder="Design systems" />
-            <FieldError>Needs one approving reviewer before publishing.</FieldError>
+            <FieldError>
+              Needs one approving reviewer before publishing.
+            </FieldError>
           </FieldContent>
         </Field>
       </FieldGroup>
@@ -734,17 +915,26 @@ function NavigationMenuPreviewDemo() {
           <NavigationMenuTrigger>Components</NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="grid w-[320px] gap-2 p-4">
-              <a className="rounded-xl border border-border/80 p-3 text-sm hover:bg-muted/60" href="#">
+              <a
+                className="rounded-xl border border-border/80 p-3 text-sm hover:bg-muted/60"
+                href="#"
+              >
                 Buttons and actions
               </a>
-              <a className="rounded-xl border border-border/80 p-3 text-sm hover:bg-muted/60" href="#">
+              <a
+                className="rounded-xl border border-border/80 p-3 text-sm hover:bg-muted/60"
+                href="#"
+              >
                 Forms and inputs
               </a>
             </div>
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink className="rounded-4xl px-3 py-2 text-sm" href="#">
+          <NavigationMenuLink
+            className="rounded-4xl px-3 py-2 text-sm"
+            href="#"
+          >
             Patterns
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -851,7 +1041,10 @@ function HoverCardProfileDemo() {
 function AspectRatioMediaDemo() {
   return (
     <div className="max-w-xl">
-      <AspectRatio className="overflow-hidden rounded-[1.5rem] border border-border/80 bg-muted/40" ratio={16 / 9}>
+      <AspectRatio
+        className="overflow-hidden rounded-[1.5rem] border border-border/80 bg-muted/40"
+        ratio={16 / 9}
+      >
         <div className="flex h-full items-center justify-center text-sm text-muted-foreground">
           16:9 media preview
         </div>
@@ -862,11 +1055,16 @@ function AspectRatioMediaDemo() {
 
 function CollapsibleDetailsDemo() {
   return (
-    <Collapsible className="max-w-xl rounded-[1.5rem] border border-border/80 p-4" defaultOpen>
+    <Collapsible
+      className="max-w-xl rounded-[1.5rem] border border-border/80 p-4"
+      defaultOpen
+    >
       <div className="flex items-center justify-between gap-4">
         <div>
           <p className="font-medium">Release notes</p>
-          <p className="text-sm text-muted-foreground">Show or hide the longer summary.</p>
+          <p className="text-sm text-muted-foreground">
+            Show or hide the longer summary.
+          </p>
         </div>
         <CollapsibleTrigger asChild>
           <Button size="sm" variant="outline">
@@ -875,7 +1073,8 @@ function CollapsibleDetailsDemo() {
         </CollapsibleTrigger>
       </div>
       <CollapsibleContent className="pt-4 text-sm text-muted-foreground">
-        Keep long supporting details available without forcing the full page to stay expanded.
+        Keep long supporting details available without forcing the full page to
+        stay expanded.
       </CollapsibleContent>
     </Collapsible>
   );
@@ -884,7 +1083,10 @@ function CollapsibleDetailsDemo() {
 function DirectionRtlDemo() {
   return (
     <DirectionProvider direction="rtl">
-      <div className="max-w-xl rounded-[1.5rem] border border-border/80 p-4" dir="rtl">
+      <div
+        className="max-w-xl rounded-[1.5rem] border border-border/80 p-4"
+        dir="rtl"
+      >
         <p className="mb-3 text-sm font-medium">واجهة من اليمين إلى اليسار</p>
         <ButtonGroup>
           <Button variant="outline">رجوع</Button>
@@ -923,7 +1125,9 @@ function ItemSummaryDemo() {
         </ItemMedia>
         <ItemContent>
           <ItemTitle>Sidebar rollout</ItemTitle>
-          <ItemDescription>Responsive navigation shell ready for review.</ItemDescription>
+          <ItemDescription>
+            Responsive navigation shell ready for review.
+          </ItemDescription>
         </ItemContent>
         <ItemActions>
           <Badge variant="outline">Stable</Badge>
@@ -935,7 +1139,9 @@ function ItemSummaryDemo() {
         </ItemMedia>
         <ItemContent>
           <ItemTitle>Command palette</ItemTitle>
-          <ItemDescription>Keyboard-first search surface for dense docs navigation.</ItemDescription>
+          <ItemDescription>
+            Keyboard-first search surface for dense docs navigation.
+          </ItemDescription>
         </ItemContent>
         <ItemActions>
           <Badge variant="secondary">Beta</Badge>
@@ -978,7 +1184,10 @@ function ScrollAreaLogDemo() {
           "Opened the beta feedback window.",
           "Captured final release notes.",
         ].map((entry) => (
-          <div className="rounded-2xl border border-border/70 px-3 py-2 text-sm text-muted-foreground" key={entry}>
+          <div
+            className="rounded-2xl border border-border/70 px-3 py-2 text-sm text-muted-foreground"
+            key={entry}
+          >
             {entry}
           </div>
         ))}
@@ -1023,7 +1232,8 @@ const demos: Record<string, InlineDemoEntry> = {
   "button-pair": {
     id: "button-pair",
     title: "Complete button matrix",
-    description: "Variants, sizes, icon sizes, and state patterns for the shared button primitive.",
+    description:
+      "Variants, sizes, icon sizes, and state patterns for the shared button primitive.",
     code: `import { Button } from "@repo/ui/button"
 import { PlusIcon } from "lucide-react"
 
@@ -1062,7 +1272,8 @@ export function Example() {
   "card-layout": {
     id: "card-layout",
     title: "Surface composition",
-    description: "A flexible card layout with header, content, and footer slots.",
+    description:
+      "A flexible card layout with header, content, and footer slots.",
     code: `import {
   Card,
   CardAction,
@@ -1095,7 +1306,8 @@ export function Example() {
   "input-states": {
     id: "input-states",
     title: "Simple form row",
-    description: "Inputs inherit the shared token palette and rounded field treatment.",
+    description:
+      "Inputs inherit the shared token palette and rounded field treatment.",
     code: `import { Input } from "@repo/ui/input"
 import { Label } from "@repo/ui/label"
 
@@ -1118,7 +1330,8 @@ export function Example() {
   "dialog-flow": {
     id: "dialog-flow",
     title: "Focused modal flow",
-    description: "A concise dialog flow for actions that need explicit confirmation.",
+    description:
+      "A concise dialog flow for actions that need explicit confirmation.",
     code: `import {
   Dialog,
   DialogContent,
@@ -1151,7 +1364,8 @@ export function Example() {
   "accordion-overview": {
     id: "accordion-overview",
     title: "Progressive disclosure",
-    description: "Accordion items help compress dense guidance without hiding important structure.",
+    description:
+      "Accordion items help compress dense guidance without hiding important structure.",
     code: `import {
   Accordion,
   AccordionContent,
@@ -1176,7 +1390,8 @@ export function Example() {
   "tabs-preview": {
     id: "tabs-preview",
     title: "Peer views",
-    description: "Tabs are useful when multiple views share context and should stay close together.",
+    description:
+      "Tabs are useful when multiple views share context and should stay close together.",
     code: `import { Tabs, TabsContent, TabsList, TabsTrigger } from "@repo/ui/tabs"
 
 export function Example() {
@@ -1254,7 +1469,8 @@ export function Example() {
   "checkbox-list": {
     id: "checkbox-list",
     title: "Checklist row",
-    description: "Checkboxes are useful for multi-select or completion-style tasks.",
+    description:
+      "Checkboxes are useful for multi-select or completion-style tasks.",
     code: `import { Checkbox } from "@repo/ui/checkbox"
 
 export function Example() {
@@ -1270,7 +1486,8 @@ export function Example() {
   "select-plan": {
     id: "select-plan",
     title: "Single-choice menu",
-    description: "Select menus help people choose one option from a longer list.",
+    description:
+      "Select menus help people choose one option from a longer list.",
     code: `import {
   Select,
   SelectContent,
@@ -1296,7 +1513,8 @@ export function Example() {
   "textarea-feedback": {
     id: "textarea-feedback",
     title: "Long-form field",
-    description: "Textareas give longer feedback or summary input more room to breathe.",
+    description:
+      "Textareas give longer feedback or summary input more room to breathe.",
     code: `import { Textarea } from "@repo/ui/textarea"
 
 export function Example() {
@@ -1307,7 +1525,8 @@ export function Example() {
   "slider-volume": {
     id: "slider-volume",
     title: "Range control",
-    description: "Sliders are useful for quick numeric adjustment inside a bounded range.",
+    description:
+      "Sliders are useful for quick numeric adjustment inside a bounded range.",
     code: `import { Slider } from "@repo/ui/slider"
 
 export function Example() {
@@ -1318,7 +1537,8 @@ export function Example() {
   "progress-status": {
     id: "progress-status",
     title: "Progress state",
-    description: "Progress bars communicate current completion without blocking the surrounding layout.",
+    description:
+      "Progress bars communicate current completion without blocking the surrounding layout.",
     code: `import { Progress } from "@repo/ui/progress"
 
 export function Example() {
@@ -1329,7 +1549,8 @@ export function Example() {
   "alert-inline": {
     id: "alert-inline",
     title: "Inline callout",
-    description: "Alerts are useful for status, warnings, and guidance that should stay inline.",
+    description:
+      "Alerts are useful for status, warnings, and guidance that should stay inline.",
     code: `import { Alert, AlertDescription, AlertTitle } from "@repo/ui/alert"
 import { CircleAlertIcon } from "lucide-react"
 
@@ -1347,7 +1568,8 @@ export function Example() {
   "avatar-group": {
     id: "avatar-group",
     title: "Presence cluster",
-    description: "Avatars work well for people, reviewers, and shared ownership indicators.",
+    description:
+      "Avatars work well for people, reviewers, and shared ownership indicators.",
     code: `import {
   Avatar,
   AvatarFallback,
@@ -1368,7 +1590,8 @@ export function Example() {
   "radio-preference": {
     id: "radio-preference",
     title: "Single-select choice",
-    description: "Radio groups help with mutually exclusive choices in a compact layout.",
+    description:
+      "Radio groups help with mutually exclusive choices in a compact layout.",
     code: `import { RadioGroup, RadioGroupItem } from "@repo/ui/radio-group"
 
 export function Example() {
@@ -1383,7 +1606,8 @@ export function Example() {
   "separator-content": {
     id: "separator-content",
     title: "Section divider",
-    description: "Separators create visual rhythm between related blocks of content.",
+    description:
+      "Separators create visual rhythm between related blocks of content.",
     code: `import { Separator } from "@repo/ui/separator"
 
 export function Example() {
@@ -1457,7 +1681,8 @@ export function Example() {
   "sheet-panel": {
     id: "sheet-panel",
     title: "Sliding panel",
-    description: "Sheets are useful for side tasks and mobile-friendly secondary flows.",
+    description:
+      "Sheets are useful for side tasks and mobile-friendly secondary flows.",
     code: `import {
   Sheet,
   SheetContent,
@@ -1488,7 +1713,8 @@ export function Example() {
   "pagination-basic": {
     id: "pagination-basic",
     title: "Page navigation",
-    description: "Pagination keeps long result sets navigable without overwhelming the page.",
+    description:
+      "Pagination keeps long result sets navigable without overwhelming the page.",
     code: `import {
   Pagination,
   PaginationContent,
@@ -1516,7 +1742,8 @@ export function Example() {
   "button-group-actions": {
     id: "button-group-actions",
     title: "Grouped actions",
-    description: "Button groups keep sibling actions visually connected without losing hierarchy.",
+    description:
+      "Button groups keep sibling actions visually connected without losing hierarchy.",
     code: `import { Button } from "@repo/ui/button"
 import { ButtonGroup } from "@repo/ui/button-group"
 
@@ -1534,7 +1761,8 @@ export function Example() {
   "toggle-states": {
     id: "toggle-states",
     title: "Pressed states",
-    description: "Toggles work well for independent pressed and unpressed controls.",
+    description:
+      "Toggles work well for independent pressed and unpressed controls.",
     code: `import { Toggle } from "@repo/ui/toggle"
 
 export function Example() {
@@ -1552,7 +1780,8 @@ export function Example() {
   "toggle-group-view": {
     id: "toggle-group-view",
     title: "Exclusive selection",
-    description: "Toggle groups are useful when someone should pick one view or mode.",
+    description:
+      "Toggle groups are useful when someone should pick one view or mode.",
     code: `import { ToggleGroup, ToggleGroupItem } from "@repo/ui/toggle-group"
 
 export function Example() {
@@ -1580,7 +1809,8 @@ export function Example() {
   "combobox-owner": {
     id: "combobox-owner",
     title: "Searchable choice",
-    description: "Comboboxes help when the list is longer and search should stay close to selection.",
+    description:
+      "Comboboxes help when the list is longer and search should stay close to selection.",
     code: `import {
   Combobox,
   ComboboxContent,
@@ -1609,7 +1839,8 @@ export function Example() {
   "field-feedback": {
     id: "field-feedback",
     title: "Field scaffolding",
-    description: "Field primitives keep labels, descriptions, and errors structured around the input.",
+    description:
+      "Field primitives keep labels, descriptions, and errors structured around the input.",
     code: `import {
   Field,
   FieldContent,
@@ -1645,7 +1876,8 @@ export function Example() {
   "input-group-url": {
     id: "input-group-url",
     title: "Composed field",
-    description: "Input groups combine add-ons, text, and actions into one cohesive field.",
+    description:
+      "Input groups combine add-ons, text, and actions into one cohesive field.",
     code: `import {
   InputGroup,
   InputGroupAddon,
@@ -1672,7 +1904,8 @@ export function Example() {
   "input-otp-code": {
     id: "input-otp-code",
     title: "Verification input",
-    description: "Input OTP slots make multi-digit verification flows easier to scan.",
+    description:
+      "Input OTP slots make multi-digit verification flows easier to scan.",
     code: `import {
   InputOTP,
   InputOTPGroup,
@@ -1719,7 +1952,8 @@ export function Example() {
   "native-select-country": {
     id: "native-select-country",
     title: "Native select",
-    description: "Native selects are useful when browser affordances are the right tradeoff.",
+    description:
+      "Native selects are useful when browser affordances are the right tradeoff.",
     code: `import {
   NativeSelect,
   NativeSelectOptGroup,
@@ -1741,7 +1975,8 @@ export function Example() {
   "breadcrumb-trail": {
     id: "breadcrumb-trail",
     title: "Route context",
-    description: "Breadcrumbs help people orient themselves inside deeper information structures.",
+    description:
+      "Breadcrumbs help people orient themselves inside deeper information structures.",
     code: `import {
   Breadcrumb,
   BreadcrumbItem,
@@ -1769,7 +2004,8 @@ export function Example() {
   "command-palette": {
     id: "command-palette",
     title: "Keyboard-first search",
-    description: "Command menus keep dense action lists searchable and fast to navigate.",
+    description:
+      "Command menus keep dense action lists searchable and fast to navigate.",
     code: `import {
   Command,
   CommandEmpty,
@@ -1799,7 +2035,8 @@ export function Example() {
   "menubar-tools": {
     id: "menubar-tools",
     title: "Desktop actions",
-    description: "Menubars work well for persistent desktop-style command surfaces.",
+    description:
+      "Menubars work well for persistent desktop-style command surfaces.",
     code: `import {
   Menubar,
   MenubarContent,
@@ -1828,7 +2065,8 @@ export function Example() {
   "navigation-menu-preview": {
     id: "navigation-menu-preview",
     title: "Structured flyout",
-    description: "Navigation menus are useful for higher-level IA with optional flyout detail.",
+    description:
+      "Navigation menus are useful for higher-level IA with optional flyout detail.",
     code: `import {
   NavigationMenu,
   NavigationMenuContent,
@@ -1865,7 +2103,8 @@ export function Example() {
   "sidebar-layout": {
     id: "sidebar-layout",
     title: "Navigation shell",
-    description: "Sidebar primitives compose responsive app and docs navigation shells.",
+    description:
+      "Sidebar primitives compose responsive app and docs navigation shells.",
     code: `import {
   Sidebar,
   SidebarContent,
@@ -1899,7 +2138,8 @@ export function Example() {
   "alert-dialog-confirm": {
     id: "alert-dialog-confirm",
     title: "Destructive confirmation",
-    description: "Alert dialogs are suited to high-stakes or destructive actions.",
+    description:
+      "Alert dialogs are suited to high-stakes or destructive actions.",
     code: `import {
   AlertDialog,
   AlertDialogAction,
@@ -1937,7 +2177,8 @@ export function Example() {
   "context-menu-actions": {
     id: "context-menu-actions",
     title: "Right-click actions",
-    description: "Context menus surface secondary actions at the point of interaction.",
+    description:
+      "Context menus surface secondary actions at the point of interaction.",
     code: `import {
   ContextMenu,
   ContextMenuContent,
@@ -1961,7 +2202,8 @@ export function Example() {
   "drawer-mobile": {
     id: "drawer-mobile",
     title: "Bottom sheet",
-    description: "Drawers help keep secondary flows compact and mobile-friendly.",
+    description:
+      "Drawers help keep secondary flows compact and mobile-friendly.",
     code: `import {
   Drawer,
   DrawerContent,
@@ -1996,7 +2238,8 @@ export function Example() {
   "dropdown-actions": {
     id: "dropdown-actions",
     title: "Compact action menu",
-    description: "Dropdown menus group short action lists behind a lightweight trigger.",
+    description:
+      "Dropdown menus group short action lists behind a lightweight trigger.",
     code: `import {
   DropdownMenu,
   DropdownMenuContent,
@@ -2025,7 +2268,8 @@ export function Example() {
   "hover-card-profile": {
     id: "hover-card-profile",
     title: "Hover details",
-    description: "Hover cards surface short supplemental information without breaking flow.",
+    description:
+      "Hover cards surface short supplemental information without breaking flow.",
     code: `import { Button } from "@repo/ui/button"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@repo/ui/hover-card"
 
@@ -2046,7 +2290,8 @@ export function Example() {
   "aspect-ratio-media": {
     id: "aspect-ratio-media",
     title: "Fixed media frame",
-    description: "Aspect ratio containers keep media and previews stable as layouts resize.",
+    description:
+      "Aspect ratio containers keep media and previews stable as layouts resize.",
     code: `import { AspectRatio } from "@repo/ui/aspect-ratio"
 
 export function Example() {
@@ -2061,7 +2306,8 @@ export function Example() {
   "carousel-gallery": {
     id: "carousel-gallery",
     title: "Paged surface list",
-    description: "Carousels are useful when a small number of preview cards need horizontal paging.",
+    description:
+      "Carousels are useful when a small number of preview cards need horizontal paging.",
     code: `import {
   Carousel,
   CarouselContent,
@@ -2087,7 +2333,8 @@ export function Example() {
   "collapsible-details": {
     id: "collapsible-details",
     title: "Expandable detail",
-    description: "Collapsibles are useful for optional supporting content that should stay close by.",
+    description:
+      "Collapsibles are useful for optional supporting content that should stay close by.",
     code: `import {
   Collapsible,
   CollapsibleContent,
@@ -2112,7 +2359,8 @@ export function Example() {
   "direction-rtl": {
     id: "direction-rtl",
     title: "Directional layout",
-    description: "Direction providers help shared interfaces adapt cleanly to RTL contexts.",
+    description:
+      "Direction providers help shared interfaces adapt cleanly to RTL contexts.",
     code: `import { Button } from "@repo/ui/button"
 import { ButtonGroup } from "@repo/ui/button-group"
 import { DirectionProvider } from "@repo/ui/direction"
@@ -2134,7 +2382,8 @@ export function Example() {
   "empty-state": {
     id: "empty-state",
     title: "No-results state",
-    description: "Empty states give structure and guidance to first-use and no-results moments.",
+    description:
+      "Empty states give structure and guidance to first-use and no-results moments.",
     code: `import {
   Empty,
   EmptyContent,
@@ -2164,7 +2413,8 @@ export function Example() {
   "item-summary": {
     id: "item-summary",
     title: "Compact row composition",
-    description: "Items are useful for list rows that need media, copy, and actions.",
+    description:
+      "Items are useful for list rows that need media, copy, and actions.",
     code: `import {
   Item,
   ItemActions,
@@ -2194,7 +2444,8 @@ export function Example() {
   "resizable-panels": {
     id: "resizable-panels",
     title: "Adjustable split view",
-    description: "Resizable panels help dense workspaces stay flexible without new routes.",
+    description:
+      "Resizable panels help dense workspaces stay flexible without new routes.",
     code: `import {
   ResizableHandle,
   ResizablePanel,
@@ -2215,7 +2466,8 @@ export function Example() {
   "scroll-area-log": {
     id: "scroll-area-log",
     title: "Constrained scrolling",
-    description: "Scroll areas keep long content usable inside fixed-height layouts.",
+    description:
+      "Scroll areas keep long content usable inside fixed-height layouts.",
     code: `import { ScrollArea } from "@repo/ui/scroll-area"
 
 export function Example() {
@@ -2246,7 +2498,8 @@ export function Example() {
   "sonner-mounted": {
     id: "sonner-mounted",
     title: "Toast trigger",
-    description: "Fire themed notifications once the shared toaster is mounted near the app root.",
+    description:
+      "Fire themed notifications once the shared toaster is mounted near the app root.",
     code: `"use client"
 
 import { Button } from "@repo/ui/button"
@@ -2270,7 +2523,8 @@ export function Example() {
   "spinner-inline": {
     id: "spinner-inline",
     title: "Inline loading",
-    description: "Spinners are useful for small loading states and pending actions.",
+    description:
+      "Spinners are useful for small loading states and pending actions.",
     code: `import { Spinner } from "@repo/ui/spinner"
 
 export function Example() {
@@ -2286,7 +2540,8 @@ export function Example() {
   "chart-revenue": {
     id: "chart-revenue",
     title: "Themed chart surface",
-    description: "Charts inherit the shared token system while wrapping Recharts primitives cleanly.",
+    description:
+      "Charts inherit the shared token system while wrapping Recharts primitives cleanly.",
     code: `import {
   ChartContainer,
   ChartLegend,
@@ -2325,7 +2580,8 @@ export function Example() {
   "kbd-shortcut": {
     id: "kbd-shortcut",
     title: "Shortcut hint",
-    description: "Keyboard hint primitives keep shortcuts readable and consistent.",
+    description:
+      "Keyboard hint primitives keep shortcuts readable and consistent.",
     code: `import { Kbd, KbdGroup } from "@repo/ui/kbd"
 
 export function Example() {

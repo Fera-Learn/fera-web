@@ -56,4 +56,4 @@ For repeated differentiation of one factor, use a table:
 | $0$ | $e^x$ |
 
 This efficiently handles products like $\int x^2 e^x \, dx$.
-`
+`;

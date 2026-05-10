@@ -41,7 +41,8 @@ export default async function QuestionBankPage() {
           eyebrow="Question Bank"
           title="Targeted practice when reading is not enough."
         >
-          Use course-linked questions to test understanding, strengthen weak topics, and build the problem-solving fluency needed for exams.
+          Use course-linked questions to test understanding, strengthen weak
+          topics, and build the problem-solving fluency needed for exams.
         </PageHero>
 
         <Section className="pt-0">
@@ -54,7 +55,8 @@ export default async function QuestionBankPage() {
               eyebrow="Practice system"
               title="Questions stay attached to the course context."
             >
-              Fera is designed so practice reinforces the topic you are studying instead of becoming a disconnected pile of exercises.
+              Fera is designed so practice reinforces the topic you are studying
+              instead of becoming a disconnected pile of exercises.
             </SectionHeading>
 
             <SampleQuestionCard preview={sampleQuestionPreview} />
@@ -65,7 +67,9 @@ export default async function QuestionBankPage() {
           </div>
 
           <Button asChild className="mt-10" size="lg">
-            <Link href={productLinks.questionBank}>Open practice questions</Link>
+            <Link href={productLinks.questionBank}>
+              Open practice questions
+            </Link>
           </Button>
         </Section>
 

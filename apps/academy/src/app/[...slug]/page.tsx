@@ -12,6 +12,12 @@ import {
 } from "@/lib/render-exam-print-page";
 import { RenderDocsPage } from "@/lib/render-doc-page";
 
+const siteName = "Fera Academy";
+
+function getPageTitle(title: string) {
+  return `${title} | ${siteName}`;
+}
+
 type DocsRouteProps = {
   params: Promise<{ slug: string[] }>;
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -29,15 +35,23 @@ export async function generateMetadata({
       examPrintPage.mode === "answers" ? "Answers PDF" : "Question PDF";
 
     return {
-      title: `${examPrintPage.paperTitle} ${modeLabel} | Fera Academy`,
+      title: getPageTitle(`${examPrintPage.paperTitle} ${modeLabel}`),
       description: `${modeLabel} export for ${examPrintPage.paperTitle}.`,
+      robots: {
+        follow: false,
+        index: false,
+      },
     };
   }
 
   if (equationSheetPrintPage) {
     return {
-      title: `${equationSheetPrintPage.title} PDF | Fera Academy`,
+      title: getPageTitle(`${equationSheetPrintPage.title} PDF`),
       description: `PDF view for ${equationSheetPrintPage.title}.`,
+      robots: {
+        follow: false,
+        index: false,
+      },
     };
   }
 
@@ -48,8 +62,22 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${page.title} | Fera Academy`,
+    title: getPageTitle(page.title),
     description: page.description,
+    alternates: {
+      canonical: page.href,
+    },
+    openGraph: {
+      description: page.description,
+      siteName,
+      title: getPageTitle(page.title),
+      type: "website",
+      url: page.href,
+    },
+    robots: {
+      follow: true,
+      index: true,
+    },
   };
 }
 

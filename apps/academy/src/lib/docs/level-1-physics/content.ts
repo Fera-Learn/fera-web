@@ -454,16 +454,10 @@ export const level1PhysicsTopicBodies = new Map<string, string>([
   ["Fields from Moving Charges", fieldsFromMovingChargesContent],
   ["Biot-Savart for Current Elements", biotSavartCurrentElementsContent],
   ["Fields Around Straight Currents", fieldsAroundStraightCurrentsContent],
-  [
-    "Forces Between Parallel Currents",
-    forcesBetweenParallelCurrentsContent,
-  ],
+  ["Forces Between Parallel Currents", forcesBetweenParallelCurrentsContent],
   ["Fields from Current Loops", fieldsFromCurrentLoopsContent],
   ["Ampere's Law", ampereLawContent],
-  [
-    "Symmetry Applications of Ampere's Law",
-    ampereSymmetryApplicationsContent,
-  ],
+  ["Symmetry Applications of Ampere's Law", ampereSymmetryApplicationsContent],
   ["Magnetic Materials", magneticMaterialsContent],
   ["Induction Observations", inductionObservationsContent],
   ["Faraday's Law", faradayLawContent],
@@ -488,10 +482,7 @@ export const level1PhysicsTopicBodies = new Map<string, string>([
   ["Transformers", transformersContent],
   ["Maxwell's Equations to Waves", maxwellEquationsToWavesContent],
   ["Plane Waves and Light Speed", planeWavesLightSpeedContent],
-  [
-    "Sinusoidal Electromagnetic Waves",
-    sinusoidalElectromagneticWavesContent,
-  ],
+  ["Sinusoidal Electromagnetic Waves", sinusoidalElectromagneticWavesContent],
   [
     "Energy and Momentum in Electromagnetic Waves",
     energyMomentumElectromagneticWavesContent,
@@ -516,10 +507,7 @@ export const level1PhysicsTopicBodies = new Map<string, string>([
   ["Telescopes", telescopesContent],
   ["Coherence and Interference", coherenceInterferenceContent],
   ["Two-Source Light Interference", twoSourceLightInterferenceContent],
-  [
-    "Intensity in Interference Patterns",
-    intensityInterferencePatternsContent,
-  ],
+  ["Intensity in Interference Patterns", intensityInterferencePatternsContent],
   ["Thin-Film Interference", thinFilmInterferenceContent],
   ["Michelson Interferometer", michelsonInterferometerContent],
   ["Fresnel and Fraunhofer Regimes", fresnelFraunhoferRegimesContent],

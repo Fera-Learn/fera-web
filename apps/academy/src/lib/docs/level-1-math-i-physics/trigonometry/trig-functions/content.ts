@@ -40,4 +40,4 @@ Three additional trigonometric functions exist as reciprocals:
 <Equation label="Secant" tex="\sec\theta = \frac{1}{\cos\theta}" />
 
 <Equation label="Cotangent" tex="\cot\theta = \frac{1}{\tan\theta} = \frac{\cos\theta}{\sin\theta}" />
-`
+`;

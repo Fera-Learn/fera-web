@@ -11,7 +11,9 @@ export const docsSidebarConfig: DocsShellSidebarConfig = {
   },
   footer: (
     <div className="space-y-1">
-      <p className="text-xs text-sidebar-foreground/65">Shared docs for @repo/ui</p>
+      <p className="text-xs text-sidebar-foreground/65">
+        Shared docs for @repo/ui
+      </p>
       <p className="text-xs text-sidebar-foreground/65">
         Built with{" "}
         <Link

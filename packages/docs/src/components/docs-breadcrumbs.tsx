@@ -20,10 +20,7 @@ type DocsBreadcrumbsProps = {
   currentTitle: string;
 };
 
-export function DocsBreadcrumbs({
-  items,
-  currentTitle,
-}: DocsBreadcrumbsProps) {
+export function DocsBreadcrumbs({ items, currentTitle }: DocsBreadcrumbsProps) {
   return (
     <Breadcrumb>
       <BreadcrumbList className="gap-2.5 leading-none">
@@ -31,7 +28,10 @@ export function DocsBreadcrumbs({
           <Fragment key={`${item.title}-${item.href ?? "static"}`}>
             <BreadcrumbItem className="min-h-5">
               {item.href ? (
-                <BreadcrumbLink asChild className="inline-flex items-center leading-none">
+                <BreadcrumbLink
+                  asChild
+                  className="inline-flex items-center leading-none"
+                >
                   <Link href={item.href}>{item.title}</Link>
                 </BreadcrumbLink>
               ) : (

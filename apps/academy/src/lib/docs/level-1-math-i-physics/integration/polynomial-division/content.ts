@@ -42,4 +42,4 @@ So: $\frac{2x^3 + 4x^2 - 3x + 1}{x^2 + 1} = 2x + 4 + \frac{-5x - 3}{x^2 + 1}$
 <Equation label="Result" tex="= x^2 + 4x - \frac{5}{2}\ln(x^2+1) - 3\arctan x + C" />
 
 This technique makes otherwise difficult rational integrals manageable.
-`
+`;

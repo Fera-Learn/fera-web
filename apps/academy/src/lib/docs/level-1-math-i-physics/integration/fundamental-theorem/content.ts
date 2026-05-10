@@ -44,4 +44,4 @@ The two parts of the FTC show:
 <Equation label="Connection" tex="\frac{d}{dx}\int_a^x f(t) \, dt = f(x) \quad \text{and} \quad \int_a^b F'(x) \, dx = F(b) - F(a)" />
 
 This duality is central to mathematical analysis and enables solving problems in physics, engineering, and economics involving rates of change and accumulated quantities.
-`
+`;

@@ -100,23 +100,34 @@ const componentGroupDefinitions: ComponentGroupDefinition[] = [
 ];
 
 const descriptionOverrides: Record<string, string> = {
-  "alert-dialog": "A focused confirmation dialog for destructive or high-stakes actions.",
-  alert: "Inline status callout for informative, warning, and destructive messaging.",
+  "alert-dialog":
+    "A focused confirmation dialog for destructive or high-stakes actions.",
+  alert:
+    "Inline status callout for informative, warning, and destructive messaging.",
   avatar: "Circular identity surface for people, teams, and grouped presence.",
-  badge: "Small metadata accent for status, labels, and compact categorization.",
-  breadcrumb: "Compact wayfinding for nested content and longer information paths.",
+  badge:
+    "Small metadata accent for status, labels, and compact categorization.",
+  breadcrumb:
+    "Compact wayfinding for nested content and longer information paths.",
   checkbox: "Compact multi-select control for checklists and form rows.",
   chart: "Shared chart wrappers and theme-aware helpers for data-rich views.",
-  command: "Command surface primitives for searchable action menus and keyboard-first flows.",
-  direction: "Directional layout helpers for switching UI flow cleanly across contexts.",
-  empty: "Empty-state scaffolding for first-use, no-results, and post-action states.",
-  field: "Composable field wrapper pieces for labels, hints, and validation messaging.",
+  command:
+    "Command surface primitives for searchable action menus and keyboard-first flows.",
+  direction:
+    "Directional layout helpers for switching UI flow cleanly across contexts.",
+  empty:
+    "Empty-state scaffolding for first-use, no-results, and post-action states.",
+  field:
+    "Composable field wrapper pieces for labels, hints, and validation messaging.",
   item: "A small composition primitive for icon-and-copy rows and compact content groupings.",
   kbd: "Inline keyboard hint styling for shortcuts and command affordances.",
-  pagination: "Page navigation controls for stepping through longer result sets.",
-  popover: "Lightweight anchored surface for secondary details and short actions.",
+  pagination:
+    "Page navigation controls for stepping through longer result sets.",
+  popover:
+    "Lightweight anchored surface for secondary details and short actions.",
   progress: "Progress indicator for long-running or multi-step work.",
-  "radio-group": "Single-choice selection group for mutually exclusive options.",
+  "radio-group":
+    "Single-choice selection group for mutually exclusive options.",
   select: "Token-aware select menu for choosing one option from a list.",
   separator: "Subtle divider for grouping related content.",
   sheet: "Sliding side surface for secondary flows and mobile-friendly tasks.",
@@ -553,13 +564,20 @@ If the app is hosted through \`@repo/docs\`, the shared \`DocsProvider\` already
 };
 
 const groupDescriptionTemplates: Record<string, string> = {
-  Actions: "Action primitives for primary flows, supporting controls, and toggled states.",
-  Forms: "Form inputs and field-building primitives for collecting and validating data.",
-  Navigation: "Navigation patterns for moving through dense interfaces and information architecture.",
-  Overlays: "Layered UI for focused tasks, contextual menus, and temporary surfaces.",
-  Layout: "Layout helpers for surfaces, spacing, responsive containers, and composition.",
-  Feedback: "Feedback states for messaging, progress, notifications, and loading.",
-  "Data Display": "Display primitives for status, data, keyboard hints, and structured information.",
+  Actions:
+    "Action primitives for primary flows, supporting controls, and toggled states.",
+  Forms:
+    "Form inputs and field-building primitives for collecting and validating data.",
+  Navigation:
+    "Navigation patterns for moving through dense interfaces and information architecture.",
+  Overlays:
+    "Layered UI for focused tasks, contextual menus, and temporary surfaces.",
+  Layout:
+    "Layout helpers for surfaces, spacing, responsive containers, and composition.",
+  Feedback:
+    "Feedback states for messaging, progress, notifications, and loading.",
+  "Data Display":
+    "Display primitives for status, data, keyboard hints, and structured information.",
 };
 
 function defaultHeadings(hasExamples: boolean): DocHeading[] {
@@ -620,8 +638,8 @@ ${exampleSection}
 - Reach for the shared token layer before introducing one-off visual overrides.`;
 }
 
-export const componentCatalog: ComponentDocEntry[] = componentGroupDefinitions.flatMap(
-  ({ group, slugs }, groupIndex) =>
+export const componentCatalog: ComponentDocEntry[] =
+  componentGroupDefinitions.flatMap(({ group, slugs }, groupIndex) =>
     slugs.map((slug, index) => {
       const title = titleFromSlug(slug);
       const featured = featuredComponents[slug];
@@ -645,7 +663,7 @@ export const componentCatalog: ComponentDocEntry[] = componentGroupDefinitions.f
         order: groupIndex * 100 + index,
       };
     }),
-);
+  );
 
 export const componentGroups = componentGroupDefinitions.map((definition) => ({
   group: definition.group,
@@ -664,7 +682,9 @@ export function getComponentCatalogByGroup(
   }));
 }
 
-export function buildComponentDocs(entries: ComponentDocEntry[] = componentCatalog): DocPage[] {
+export function buildComponentDocs(
+  entries: ComponentDocEntry[] = componentCatalog,
+): DocPage[] {
   return entries.map((entry) => ({
     slug: ["components", entry.slug],
     href: slugToHref(["components", entry.slug]),

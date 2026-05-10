@@ -51,4 +51,4 @@ For $\sec^n x$ with even $n$, separate $\sec^2 x$:
 <Equation label="Cos Reduction" tex="\int \cos^n x \, dx = \frac{\cos^{n-1} x \sin x}{n} + \frac{n-1}{n} \int \cos^{n-2} x \, dx" />
 
 These reduce the power by 2 each time, eventually reaching a solvable integral.
-`
+`;

@@ -21,7 +21,9 @@ export function DocsPager({ neighbors }: DocsPagerProps) {
               <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
                 Previous
               </p>
-              <CardTitle className="text-base">{neighbors.previous.title}</CardTitle>
+              <CardTitle className="text-base">
+                {neighbors.previous.title}
+              </CardTitle>
             </CardHeader>
           </Card>
         </Link>
@@ -35,7 +37,9 @@ export function DocsPager({ neighbors }: DocsPagerProps) {
               <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
                 Next
               </p>
-              <CardTitle className="text-base">{neighbors.next.title}</CardTitle>
+              <CardTitle className="text-base">
+                {neighbors.next.title}
+              </CardTitle>
             </CardHeader>
           </Card>
         </Link>

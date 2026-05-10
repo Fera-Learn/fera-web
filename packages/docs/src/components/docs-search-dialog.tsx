@@ -62,7 +62,11 @@ function filterEntries(index: DocSearchEntry[], query: string) {
       score: scoreEntry(entry, query),
     }))
     .filter((item) => item.score > 0)
-    .sort((left, right) => right.score - left.score || left.entry.title.localeCompare(right.entry.title))
+    .sort(
+      (left, right) =>
+        right.score - left.score ||
+        left.entry.title.localeCompare(right.entry.title),
+    )
     .slice(0, MAX_RESULTS)
     .map((item) => item.entry);
 }
@@ -156,7 +160,10 @@ export function DocsSearchDialog({
         )}
       </Button>
       <Dialog onOpenChange={setOpen} open={open}>
-        <DialogContent className="overflow-hidden p-0 sm:max-w-2xl" showCloseButton={false}>
+        <DialogContent
+          className="overflow-hidden p-0 sm:max-w-2xl"
+          showCloseButton={false}
+        >
           <DialogTitle className="sr-only">Search docs</DialogTitle>
           <DialogDescription className="sr-only">
             Search component docs, guides, and section headings.
@@ -181,10 +188,14 @@ export function DocsSearchDialog({
                     >
                       <div className="space-y-1">
                         <div className="flex flex-wrap items-center gap-2">
-                          <span className="font-medium text-foreground">{entry.title}</span>
+                          <span className="font-medium text-foreground">
+                            {entry.title}
+                          </span>
                           <Badge variant="outline">{entry.category}</Badge>
                         </div>
-                        <p className="text-sm text-muted-foreground">{entry.description}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {entry.description}
+                        </p>
                       </div>
                       <ArrowRightIcon className="mt-0.5 size-4 shrink-0 text-muted-foreground" />
                     </Link>

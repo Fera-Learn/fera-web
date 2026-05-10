@@ -90,10 +90,7 @@ const level1MathIPhysicsSections: CourseSection[] = [
   {
     id: "functions",
     title: "Functions",
-    topics: [
-      { title: "Functions" },
-      { title: "Inverse Functions" },
-    ],
+    topics: [{ title: "Functions" }, { title: "Inverse Functions" }],
   },
   {
     id: "trigonometry",
@@ -1454,7 +1451,8 @@ const level1MathIPhysicsQuestionsPage = createEditorialPage({
 const level1MathIPhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1MathIPhysicsEquationSheetSlug(),
   title: "Equation Sheet",
-  description: "A Level 1 - Math I (Physics) formula reference will appear here once the sheet is written.",
+  description:
+    "A Level 1 - Math I (Physics) formula reference will appear here once the sheet is written.",
   category: "Level 1 - Math I (Physics)",
   order: 46,
   badges: ["Equation Sheet"],
@@ -1472,7 +1470,8 @@ const level1MathIIPhysicsQuestionsPage = createEditorialPage({
 const level1MathIIPhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1MathIIPhysicsEquationSheetSlug(),
   title: "Equation Sheet",
-  description: "A Level 1 - Math II (Physics) formula reference will appear here once the sheet is written.",
+  description:
+    "A Level 1 - Math II (Physics) formula reference will appear here once the sheet is written.",
   category: "Level 1 - Math II (Physics)",
   order: 56,
   badges: ["Equation Sheet"],
@@ -1490,7 +1489,8 @@ const level1PhysicsQuestionsPage = createEditorialPage({
 const level1PhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1PhysicsEquationSheetSlug(),
   title: "Equation Sheet",
-  description: "A curated Level 1 - Physics formula reference with a print-ready PDF view.",
+  description:
+    "A curated Level 1 - Physics formula reference with a print-ready PDF view.",
   category: "Level 1 - Physics",
   order: 96,
   badges: ["Equation Sheet"],

@@ -1,4 +1,10 @@
-export { buildSearchIndex, createDocsTree, flattenDocsTree, getDocBySlug, getPrevNextDoc } from "./core/tree";
+export {
+  buildSearchIndex,
+  createDocsTree,
+  flattenDocsTree,
+  getDocBySlug,
+  getPrevNextDoc,
+} from "./core/tree";
 export type {
   ComponentDocEntry,
   DocHeading,

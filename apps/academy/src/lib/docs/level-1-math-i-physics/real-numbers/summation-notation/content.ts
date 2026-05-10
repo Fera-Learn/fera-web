@@ -54,4 +54,4 @@ When summing over two indices:
 <Equation label="Double Sum" tex="\sum_{i=1}^{m} \sum_{j=1}^{n} a_{ij} = \sum_{j=1}^{n} \sum_{i=1}^{m} a_{ij}" />
 
 The order of summation can be interchanged (under appropriate conditions).
-`
+`;

@@ -58,4 +58,4 @@ Therefore, the formula holds for all positive integers $n$.
 1. The inductive hypothesis must be assumed for **some arbitrary** $k$, not a specific value
 2. Both steps are essential—omitting either invalidates the proof
 3. Sometimes the base case starts at $n = 0$ or another value depending on the statement
-`
+`;

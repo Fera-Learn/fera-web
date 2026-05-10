@@ -40,4 +40,4 @@ Always verify by differentiating your result:
 <Equation label="Verification" tex="\frac{d}{dx}\left(\frac{x^{n+1}}{n+1} + C\right) = x^n" />
 
 The constant of integration ensures we capture **all** possible antiderivatives, not just one specific solution.
-`
+`;

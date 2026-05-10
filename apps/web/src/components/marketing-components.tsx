@@ -6,7 +6,10 @@ import { Button } from "@repo/ui/button";
 import { Card, CardContent, CardHeader } from "@repo/ui/card";
 import { cn } from "@repo/ui/lib/utils";
 
-import type { CourseMarketingStats, MarketingStats } from "@/lib/marketing-stats";
+import type {
+  CourseMarketingStats,
+  MarketingStats,
+} from "@/lib/marketing-stats";
 
 export function MarketingShell({ children }: { children: ReactNode }) {
   return <main className="fera-page-background min-w-0">{children}</main>;
@@ -90,7 +93,10 @@ export function LiveStats({ stats }: { stats: MarketingStats }) {
 export function ProofStrip({ stats }: { stats: MarketingStats }) {
   const items = [
     { label: "Courses", value: stats.courseCount.toLocaleString() },
-    { label: "Practice questions", value: stats.questionCount.toLocaleString() },
+    {
+      label: "Practice questions",
+      value: stats.questionCount.toLocaleString(),
+    },
     { label: "Exam papers", value: stats.paperCount.toLocaleString() },
   ];
 
@@ -144,7 +150,9 @@ export function ProductPreview({ stats }: { stats: MarketingStats }) {
                 <li
                   className={cn(
                     "border border-border px-3 py-3 text-sm",
-                    isActive ? "bg-muted text-foreground" : "text-muted-foreground",
+                    isActive
+                      ? "bg-muted text-foreground"
+                      : "text-muted-foreground",
                   )}
                   key={item.slug}
                 >
@@ -167,7 +175,8 @@ export function ProductPreview({ stats }: { stats: MarketingStats }) {
                 {course?.title ?? "Course library"}
               </h3>
               <p className="mt-2 max-w-xl text-sm leading-6 text-muted-foreground">
-                {course?.description ?? "Structured course material, practice questions, and exam papers in one workspace."}
+                {course?.description ??
+                  "Structured course material, practice questions, and exam papers in one workspace."}
               </p>
             </div>
             {course ? (
@@ -178,14 +187,23 @@ export function ProductPreview({ stats }: { stats: MarketingStats }) {
           </div>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             <ProductMetric label="Topics" value={course?.topics.length ?? 0} />
-            <ProductMetric label="Questions" value={course?.questionCount ?? stats.questionCount} />
-            <ProductMetric label="Papers" value={course?.paperCount ?? stats.paperCount} />
+            <ProductMetric
+              label="Questions"
+              value={course?.questionCount ?? stats.questionCount}
+            />
+            <ProductMetric
+              label="Papers"
+              value={course?.paperCount ?? stats.paperCount}
+            />
           </div>
           <div className="mt-6 border border-border p-4">
             <p className="text-sm font-medium">Active topics</p>
             <ul className="mt-3 grid gap-2 sm:flex sm:flex-wrap">
               {(course?.topics ?? []).map((topic) => (
-                <li className="w-fit max-w-full border border-border px-2.5 py-1 text-xs text-muted-foreground" key={topic}>
+                <li
+                  className="w-fit max-w-full border border-border px-2.5 py-1 text-xs text-muted-foreground"
+                  key={topic}
+                >
                   {topic}
                 </li>
               ))}
@@ -208,17 +226,28 @@ function ProductMetric({ label, value }: { label: string; value: number }) {
   );
 }
 
-export function WorkflowRows({ steps }: { steps: { label: string; body: string }[] }) {
+export function WorkflowRows({
+  steps,
+}: {
+  steps: { label: string; body: string }[];
+}) {
   return (
     <div className="divide-y divide-border border-y border-border">
       {steps.map((step, index) => (
-        <div className="grid gap-3 py-5 sm:grid-cols-[120px_1fr] sm:gap-6" key={step.label}>
+        <div
+          className="grid gap-3 py-5 sm:grid-cols-[120px_1fr] sm:gap-6"
+          key={step.label}
+        >
           <div className="text-sm font-semibold uppercase tracking-[0.16em] text-accent">
             Step {index + 1}
           </div>
           <div>
-            <h3 className="text-lg font-semibold tracking-[-0.025em]">{step.label}</h3>
-            <p className="mt-2 text-sm leading-6 text-muted-foreground">{step.body}</p>
+            <h3 className="text-lg font-semibold tracking-[-0.025em]">
+              {step.label}
+            </h3>
+            <p className="mt-2 text-sm leading-6 text-muted-foreground">
+              {step.body}
+            </p>
           </div>
         </div>
       ))}
@@ -242,7 +271,9 @@ export function SampleQuestionCard({
       <CardHeader>
         <div className="flex flex-wrap items-center gap-3">
           <Badge variant="secondary">{preview.topic}</Badge>
-          <span className="text-sm text-muted-foreground">{preview.marks} marks</span>
+          <span className="text-sm text-muted-foreground">
+            {preview.marks} marks
+          </span>
         </div>
         <p className="text-sm font-medium text-accent">{preview.course}</p>
       </CardHeader>
@@ -257,7 +288,9 @@ export function SampleQuestionCard({
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
             Answer approach
           </p>
-          <p className="mt-2 text-sm leading-6 text-muted-foreground">{preview.answer}</p>
+          <p className="mt-2 text-sm leading-6 text-muted-foreground">
+            {preview.answer}
+          </p>
         </div>
       </CardContent>
     </Card>
@@ -279,17 +312,23 @@ export function ExamPaperCard({
     <Card className="rounded-2xl border-border shadow-none">
       <CardHeader>
         <p className="text-sm font-medium text-accent">{preview.course}</p>
-        <h3 className="text-2xl font-semibold tracking-[-0.04em]">{preview.title}</h3>
+        <h3 className="text-2xl font-semibold tracking-[-0.04em]">
+          {preview.title}
+        </h3>
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-2 gap-3 border-y border-border py-4 text-sm">
           <div>
             <span className="block text-muted-foreground">Duration</span>
-            <strong className="mt-1 block font-semibold">{preview.duration}</strong>
+            <strong className="mt-1 block font-semibold">
+              {preview.duration}
+            </strong>
           </div>
           <div>
             <span className="block text-muted-foreground">Marks</span>
-            <strong className="mt-1 block font-semibold">{preview.marks}</strong>
+            <strong className="mt-1 block font-semibold">
+              {preview.marks}
+            </strong>
           </div>
         </div>
         <div className="mt-5">
@@ -315,14 +354,14 @@ export function CourseCard({ course }: { course: CourseMarketingStats }) {
       <CardHeader>
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="text-sm font-medium text-accent">{course.shortTitle}</p>
+            <p className="text-sm font-medium text-accent">
+              {course.shortTitle}
+            </p>
             <h3 className="mt-2 text-2xl font-semibold leading-none tracking-[-0.04em]">
               {course.title}
             </h3>
           </div>
-          <Badge variant="secondary">
-            {course.paperCount} papers
-          </Badge>
+          <Badge variant="secondary">{course.paperCount} papers</Badge>
         </div>
       </CardHeader>
       <CardContent className="space-y-5">
@@ -408,7 +447,9 @@ export function ClosingCta({ href }: { href: string }) {
             Start with the course, practise the topic, then test the paper.
           </h2>
           <p className="mt-5 text-base leading-7 text-muted-foreground">
-            Fera is designed around the way technical subjects are actually mastered: structure first, deliberate practice second, exam preparation last.
+            Fera is designed around the way technical subjects are actually
+            mastered: structure first, deliberate practice second, exam
+            preparation last.
           </p>
         </div>
         <Button asChild size="lg">

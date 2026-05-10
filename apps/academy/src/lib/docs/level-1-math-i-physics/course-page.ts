@@ -4,7 +4,11 @@ export const level1MathIPhysicsCourseIntroHeadings: DocHeading[] = [
   { id: "course-purpose", level: 2, title: "Course Purpose" },
   { id: "what-you-will-study", level: 2, title: "What You Will Study" },
   { id: "how-the-course-works", level: 2, title: "How The Course Works" },
-  { id: "recommended-starting-points", level: 2, title: "Recommended Starting Points" },
+  {
+    id: "recommended-starting-points",
+    level: 2,
+    title: "Recommended Starting Points",
+  },
 ];
 
 export const level1MathIPhysicsCourseIntroBody = String.raw`<h2 id="course-purpose">Course Purpose</h2>

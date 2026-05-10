@@ -169,8 +169,10 @@ function renderExampleText(value: string) {
     .split(/(\\\(.+?\\\)|\\\[.+?\\\]|\(.+?\)|\[[^\]]+\])/g)
     .filter(Boolean)
     .map((part, index) => {
-      const inlineMath = part.match(/^\\\((.+)\\\)$/) ?? part.match(/^\((.+)\)$/);
-      const displayMath = part.match(/^\\\[(.+)\\\]$/) ?? part.match(/^\[(.+)\]$/);
+      const inlineMath =
+        part.match(/^\\\((.+)\\\)$/) ?? part.match(/^\((.+)\)$/);
+      const displayMath =
+        part.match(/^\\\[(.+)\\\]$/) ?? part.match(/^\[(.+)\]$/);
 
       if (inlineMath || displayMath) {
         let tex;
@@ -198,7 +200,10 @@ function renderExampleText(value: string) {
         previousWasDisplayEquation = true;
 
         return (
-          <div className="docs-physics-example-equation" key={`${part}-${index}`}>
+          <div
+            className="docs-physics-example-equation"
+            key={`${part}-${index}`}
+          >
             {`\\[${tex}\\]`}
           </div>
         );
@@ -239,7 +244,10 @@ export function DocsNotation({ items }: DocsNotationProps) {
   return (
     <div className="docs-notation" ref={ref}>
       {items.map((item) => (
-        <div className="docs-notation-row" key={`${item.symbol}-${item.meaning}`}>
+        <div
+          className="docs-notation-row"
+          key={`${item.symbol}-${item.meaning}`}
+        >
           <div className="docs-notation-symbol">{`\\(${item.symbol}\\)`}</div>
           <div className="docs-notation-meaning">{item.meaning}</div>
           {item.unit ? (
@@ -268,7 +276,10 @@ export function DocsPhysicsDerivation({ items }: DocsPhysicsDerivationProps) {
   return (
     <div className="docs-physics-derivation" ref={ref}>
       {items.map((item) => (
-        <div className="docs-physics-derivation-row" key={`${item.label}-${item.tex}`}>
+        <div
+          className="docs-physics-derivation-row"
+          key={`${item.label}-${item.tex}`}
+        >
           <div className="docs-physics-derivation-label">{item.label}</div>
           <div className="docs-physics-derivation-equation">{`\\[${item.tex}\\]`}</div>
           {item.note ? (

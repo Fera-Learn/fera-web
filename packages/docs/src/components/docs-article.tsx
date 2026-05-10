@@ -1,7 +1,13 @@
 import type { ReactNode } from "react";
 
 import { Badge } from "@repo/ui/badge";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@repo/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@repo/ui/card";
 
 import type { DocPage, DocPageNeighbors } from "../core/types";
 import { DocsBreadcrumbs, type DocsBreadcrumbItem } from "./docs-breadcrumbs";
@@ -53,7 +59,10 @@ export function DocsArticle({
   return (
     <article className="space-y-8">
       <div className="space-y-4">
-        <DocsBreadcrumbs currentTitle={page.title} items={buildBreadcrumbs(page)} />
+        <DocsBreadcrumbs
+          currentTitle={page.title}
+          items={buildBreadcrumbs(page)}
+        />
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex flex-wrap gap-2">
             {metadataBadges.map((badge) => (
@@ -72,7 +81,9 @@ export function DocsArticle({
           <h1 className="font-heading text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">
             {page.title}
           </h1>
-          <p className="text-lg leading-8 text-muted-foreground">{page.description}</p>
+          <p className="text-lg leading-8 text-muted-foreground">
+            {page.description}
+          </p>
         </div>
       </div>
 
@@ -108,7 +119,8 @@ export function DocsArticle({
             <CardHeader className="gap-1">
               <CardTitle>Source file</CardTitle>
               <CardDescription>
-                The generated docs stay tied to the real implementation path in the monorepo.
+                The generated docs stay tied to the real implementation path in
+                the monorepo.
               </CardDescription>
             </CardHeader>
             <CardContent>

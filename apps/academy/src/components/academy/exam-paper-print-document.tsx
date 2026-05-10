@@ -284,7 +284,9 @@ function estimateQuestionIntroHeightMm({
 }
 
 function estimatePartHeightMm(part: Level1PhysicsExamPart) {
-  return estimateTextHeightMm(part.prompt, 105) + answerSpaceHeightMm(part.marks) + 9;
+  return (
+    estimateTextHeightMm(part.prompt, 105) + answerSpaceHeightMm(part.marks) + 9
+  );
 }
 
 function estimateQuestionPagePartHeightMm(entry: QuestionPagePart) {

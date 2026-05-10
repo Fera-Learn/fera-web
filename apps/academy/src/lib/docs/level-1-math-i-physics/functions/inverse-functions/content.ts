@@ -11,4 +11,4 @@ A function has an inverse only if it is **one-to-one**.
 ## Fundamental Property
 
 <Equation label="Inverse Composition" tex="f^{-1}(f(x)) = x" />
-`
+`;

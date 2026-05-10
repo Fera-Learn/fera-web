@@ -45,4 +45,4 @@ The cover-up rule only works for:
 - Numerators that are constants (not polynomials with $x$)
 
 For repeated factors or quadratic factors, use the standard method of multiplying and equating coefficients.
-`
+`;

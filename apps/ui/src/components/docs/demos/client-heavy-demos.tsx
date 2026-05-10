@@ -77,8 +77,12 @@ export function SidebarLayoutDemo() {
           <Sidebar collapsible="none">
             <SidebarHeader>
               <div className="rounded-2xl border border-sidebar-border/80 bg-sidebar-accent/40 p-3">
-                <p className="text-sm font-medium text-sidebar-foreground">Fera UI</p>
-                <p className="text-xs text-sidebar-foreground/70">Docs navigation</p>
+                <p className="text-sm font-medium text-sidebar-foreground">
+                  Fera UI
+                </p>
+                <p className="text-xs text-sidebar-foreground/70">
+                  Docs navigation
+                </p>
               </div>
             </SidebarHeader>
             <SidebarContent>
@@ -134,7 +138,9 @@ export function CarouselGalleryDemo() {
             <Card className="rounded-[1.5rem]">
               <CardHeader>
                 <CardTitle>{title}</CardTitle>
-                <CardDescription>One reusable surface in the gallery.</CardDescription>
+                <CardDescription>
+                  One reusable surface in the gallery.
+                </CardDescription>
               </CardHeader>
             </Card>
           </CarouselItem>
@@ -176,7 +182,8 @@ export function SonnerToastDemo() {
       <Button
         onClick={() =>
           toast("Review requested", {
-            description: "A reviewer has been invited to check the latest changes.",
+            description:
+              "A reviewer has been invited to check the latest changes.",
           })
         }
         variant="outline"

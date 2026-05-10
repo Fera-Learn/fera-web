@@ -32,7 +32,10 @@ export function DocsToc({ headings }: DocsTocProps) {
     visible: false,
   });
 
-  const headingIds = useMemo(() => headings.map((heading) => heading.id), [headings]);
+  const headingIds = useMemo(
+    () => headings.map((heading) => heading.id),
+    [headings],
+  );
   const setLinkRef = useCallback(
     (id: string) => (node: HTMLAnchorElement | null) => {
       if (node) {
@@ -91,7 +94,9 @@ export function DocsToc({ headings }: DocsTocProps) {
 
     updateActiveHeading();
     const raf = requestAnimationFrame(updateActiveHeading);
-    scrollTarget.addEventListener("scroll", updateActiveHeading, { passive: true });
+    scrollTarget.addEventListener("scroll", updateActiveHeading, {
+      passive: true,
+    });
     window.addEventListener("hashchange", onHashChange);
 
     return () => {
@@ -158,7 +163,11 @@ export function DocsToc({ headings }: DocsTocProps) {
               onClick={() => setActiveId(heading.id)}
               ref={setLinkRef(heading.id)}
             >
-              <span className={heading.level === 3 ? "ml-4 text-[0.95em]" : undefined}>
+              <span
+                className={
+                  heading.level === 3 ? "ml-4 text-[0.95em]" : undefined
+                }
+              >
                 {heading.title}
               </span>
             </Link>

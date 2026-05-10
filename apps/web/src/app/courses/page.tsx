@@ -34,7 +34,8 @@ export default async function CoursesPage() {
           eyebrow="Courses"
           title="Courses built for technical study."
         >
-          Choose a structured path through the maths and physics foundations behind university-level problem solving.
+          Choose a structured path through the maths and physics foundations
+          behind university-level problem solving.
         </PageHero>
 
         <Section className="pt-0">
@@ -47,7 +48,8 @@ export default async function CoursesPage() {
               eyebrow="Catalogue"
               title="Course structure before practice volume."
             >
-              Each course connects explanations, topic practice, and exam preparation so progress stays practical.
+              Each course connects explanations, topic practice, and exam
+              preparation so progress stays practical.
             </SectionHeading>
 
             <ProductPreview stats={stats} />
@@ -55,8 +57,12 @@ export default async function CoursesPage() {
         </Section>
 
         <Section className="fera-section-rule">
-          <SectionHeading eyebrow="Courses" title="Start where your study needs structure.">
-            Browse the live course catalogue and choose the subject context that matches your study plan.
+          <SectionHeading
+            eyebrow="Courses"
+            title="Start where your study needs structure."
+          >
+            Browse the live course catalogue and choose the subject context that
+            matches your study plan.
           </SectionHeading>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {stats.courses.map((course) => (

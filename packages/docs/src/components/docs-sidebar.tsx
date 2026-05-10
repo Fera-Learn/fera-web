@@ -1,6 +1,12 @@
 "use client";
 
-import { type ReactNode, useCallback, useEffect, useLayoutEffect, useRef } from "react";
+import {
+  type ReactNode,
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+} from "react";
 import { PanelRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -92,7 +98,9 @@ export function DocsSidebar({
     ...DEFAULT_BRAND,
     ...brand,
   };
-  const showSearchInput = Boolean(showSearch && searchIndex && searchIndex.length > 0);
+  const showSearchInput = Boolean(
+    showSearch && searchIndex && searchIndex.length > 0,
+  );
   const showOnPageControl = Boolean(hasToc && onToggleToc);
   const showFooter = Boolean(showFooterControls || footer);
 
