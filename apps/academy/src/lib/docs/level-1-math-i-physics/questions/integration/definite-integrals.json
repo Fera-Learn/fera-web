@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "definite-integrals",
+  "topicTitle": "Definite Integrals",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "di-1",
+      "prompt": "Evaluate the integral from 0 to 2 of x dx.",
+      "answer": "2",
+      "hints": ["Find antiderivative: x^2/2, then evaluate at bounds."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-2",
+      "prompt": "Evaluate the integral from 0 to 1 of x^2 dx.",
+      "answer": "1/3",
+      "hints": ["Antiderivative of x^2 is x^3/3."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-3",
+      "prompt": "Evaluate the integral from 0 to pi of sin x dx.",
+      "answer": "2",
+      "hints": ["Antiderivative of sin x is -cos x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-4",
+      "prompt": "Evaluate the integral from 1 to 2 of 3x^2 dx.",
+      "answer": "7",
+      "hints": ["Antiderivative: x^3, then 8 - 1 = 7."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-5",
+      "prompt": "Evaluate the integral from 0 to 1 of e^x dx.",
+      "answer": "e - 1",
+      "hints": ["Antiderivative of e^x is e^x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-6",
+      "prompt": "Evaluate the integral from 0 to 3 of (2x + 1) dx.",
+      "answer": "12",
+      "hints": ["Antiderivative: x^2 + x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-7",
+      "prompt": "Evaluate the integral from 0 to 2 of (x^3 - x) dx.",
+      "answer": "2",
+      "hints": ["FTC: x^4/4 - x^2/2 from 0 to 2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-8",
+      "prompt": "Evaluate the integral from 0 to 1 of x e^x dx.",
+      "answer": "1",
+      "hints": ["Integration by parts or recognize derivative of (x-1)e^x."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-9",
+      "prompt": "Evaluate the integral from 0 to pi of x sin x dx.",
+      "answer": "pi",
+      "hints": ["Integration by parts: u=x, dv=sin x dx."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "di-10",
+      "prompt": "Evaluate the integral from 1 to e of ln x dx.",
+      "answer": "1",
+      "hints": ["Integration by parts or known result."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

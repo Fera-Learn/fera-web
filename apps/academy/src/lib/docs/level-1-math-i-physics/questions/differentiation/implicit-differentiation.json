@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "implicit-differentiation",
+  "topicTitle": "Implicit Differentiation",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "id-1",
+      "prompt": "Find dy/dx for x^2 + y^2 = 9.",
+      "answer": "-x/y",
+      "hints": ["Differentiate both sides.", "2x + 2y(dy/dx) = 0, so dy/dx = -x/y."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-2",
+      "prompt": "Find dy/dx for x^2 + 2y = 4.",
+      "answer": "-x",
+      "hints": ["Differentiate both sides: 2x + 2(dy/dx) = 0.", "dy/dx = -x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-3",
+      "prompt": "Find dy/dx for xy = 6.",
+      "answer": "-y/x",
+      "hints": ["Use the product rule on the left side.", "y + x(dy/dx) = 0, so dy/dx = -y/x."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-4",
+      "prompt": "Find the slope of the tangent to x^2 + y^2 = 25 at (3,4).",
+      "answer": "-3/4",
+      "hints": ["Find dy/dx first.", "dy/dx = -x/y, so at (3,4): dy/dx = -3/4."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-5",
+      "prompt": "Find dy/dx for x^3 + y^3 = 8.",
+      "answer": "-x^2/y^2",
+      "hints": ["Differentiate: 3x^2 + 3y^2(dy/dx) = 0.", "dy/dx = -x^2/y^2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-6",
+      "prompt": "Find dy/dx for 2x^2 + 3xy + y^2 = 1.",
+      "answer": "-(4x + 3y)/(3x + 2y)",
+      "hints": ["Differentiate each term carefully.", "4x + 3y + 3x(dy/dx) + 2y(dy/dx) = 0."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-7",
+      "prompt": "Find dy/dx for x^2y + y^2 = 5.",
+      "answer": "-2xy/(x^2 + 2y)",
+      "hints": ["Product rule for x^2y.", "2xy + x^2(dy/dx) + 2y(dy/dx) = 0."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-8",
+      "prompt": "Find dy/dx for sqrt(x) + sqrt(y) = 2.",
+      "answer": "-sqrt(y)/sqrt(x)",
+      "hints": ["Rewrite as x^(1/2) + y^(1/2) = 2.", "Differentiate: 1/(2 sqrt(x)) + (1/(2 sqrt(y)))(dy/dx) = 0."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-9",
+      "prompt": "Find the second derivative d^2y/dx^2 when x^2 + y^2 = 1.",
+      "answer": "-1/y^3",
+      "hints": ["First find dy/dx = -x/y.", "Then differentiate dy/dx with respect to x using the quotient rule.", "d^2y/dx^2 = -(1*y - x*dy/dx)/y^2 = -(y + x^2/y)/y^2 = -1/y^3."],
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "id-10",
+      "prompt": "Find dy/dx for sin(xy) = x + y.",
+      "answer": "(1 - y cos(xy))/(x cos(xy) - 1)",
+      "hints": ["Use the chain rule on sin(xy): cos(xy) times (y + x dy/dx).", "Collect dy/dx terms and solve."],
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

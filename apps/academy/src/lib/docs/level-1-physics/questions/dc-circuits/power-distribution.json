@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "dc-circuits",
+  "topicId": "power-distribution",
+  "topicTitle": "Power Distribution",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "power-distribution-01",
+      "prompt": "State the basic electrical power relation between power, current, and voltage.",
+      "answer": "The basic relation is\n\\[\nP=IV\n\\]\nwhere \\(V\\) is the potential difference across the element and \\(I\\) is the current through it.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-02",
+      "prompt": "A \\(12\\,\\mathrm{V}\\) load draws \\(3.0\\,\\mathrm{A}\\). Find the power delivered to the load.",
+      "answer": "\\[\nP=IV=(3.0)(12)=36\\,\\mathrm{W}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-03",
+      "prompt": "A \\(4.0\\,\\Omega\\) resistor carries \\(2.0\\,\\mathrm{A}\\). Find the power dissipated in the resistor.",
+      "answer": "For a resistor,\n\\[\nP=I^2R\n\\]\n\\[\nP=(2.0)^2(4.0)=16\\,\\mathrm{W}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-04",
+      "prompt": "A line with total resistance \\(0.50\\,\\Omega\\) carries \\(10.0\\,\\mathrm{A}\\). Find the line voltage drop and line power loss.",
+      "answer": "The voltage drop is\n\\[\n\\Delta V_{\\mathrm{line}}=IR=(10.0)(0.50)=5.0\\,\\mathrm{V}\n\\]\nThe line loss is\n\\[\nP_{\\mathrm{loss}}=I^2R=(10.0)^2(0.50)=50\\,\\mathrm{W}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-05",
+      "prompt": "A \\(2.0\\,\\mathrm{kW}\\) load is delivered through a \\(2.0\\,\\Omega\\) line. Compare the line loss if the delivery voltage is \\(100\\,\\mathrm{V}\\) with the line loss if it is \\(1000\\,\\mathrm{V}\\).",
+      "answer": "At \\(100\\,\\mathrm{V}\\),\n\\[\nI=\\frac{2000}{100}=20\\,\\mathrm{A}\n\\]\n\\[\nP_{\\mathrm{loss}}=I^2R=(20)^2(2.0)=800\\,\\mathrm{W}\n\\]\nAt \\(1000\\,\\mathrm{V}\\),\n\\[\nI=\\frac{2000}{1000}=2.0\\,\\mathrm{A}\n\\]\n\\[\nP_{\\mathrm{loss}}=(2.0)^2(2.0)=8.0\\,\\mathrm{W}\n\\]\nRaising the voltage by a factor of \\(10\\) lowers the current by \\(10\\) and the loss by \\(100\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-06",
+      "prompt": "A \\(120\\,\\mathrm{V}\\) source feeds a \\(10.0\\,\\Omega\\) load through total line resistance \\(2.0\\,\\Omega\\). Find the current, load power, line loss, and efficiency.",
+      "answer": "The total series resistance is\n\\[\nR_{\\mathrm{tot}}=10.0+2.0=12.0\\,\\Omega\n\\]\nso\n\\[\nI=\\frac{120}{12.0}=10.0\\,\\mathrm{A}\n\\]\nLoad power:\n\\[\nP_L=I^2R_L=(10.0)^2(10.0)=1000\\,\\mathrm{W}\n\\]\nLine loss:\n\\[\nP_{\\mathrm{loss}}=I^2R_{\\mathrm{line}}=(10.0)^2(2.0)=200\\,\\mathrm{W}\n\\]\nEfficiency:\n\\[\n\\eta=\\frac{P_L}{P_L+P_{\\mathrm{loss}}}\n=\\frac{1000}{1200}=0.833\n\\]\nSo the efficiency is \\(83.3\\%\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-07",
+      "prompt": "A battery has emf \\(12.0\\,\\mathrm{V}\\) and internal resistance \\(0.50\\,\\Omega\\). If it delivers \\(4.0\\,\\mathrm{A}\\), find the terminal voltage and load power.",
+      "answer": "For a discharging source,\n\\[\nV_{\\mathrm{terminal}}=\\mathcal E-Ir\n\\]\n\\[\nV_{\\mathrm{terminal}}=12.0-(4.0)(0.50)=10.0\\,\\mathrm{V}\n\\]\nThe load power is\n\\[\nP_L=IV_{\\mathrm{terminal}}=(4.0)(10.0)=40\\,\\mathrm{W}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-08",
+      "prompt": "A source has \\(\\mathcal E=24\\,\\mathrm{V}\\) and internal resistance \\(r=2.0\\,\\Omega\\). It powers a \\(6.0\\,\\Omega\\) load. Find the current, load power, and efficiency.",
+      "answer": "The current is\n\\[\nI=\\frac{\\mathcal E}{r+R_L}\n=\\frac{24}{2.0+6.0}=3.0\\,\\mathrm{A}\n\\]\nLoad power:\n\\[\nP_L=I^2R_L=(3.0)^2(6.0)=54\\,\\mathrm{W}\n\\]\nEfficiency:\n\\[\n\\eta=\\frac{R_L}{R_L+r}\n=\\frac{6.0}{6.0+2.0}=0.75\n\\]\nSo the efficiency is \\(75\\%\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-09",
+      "prompt": "For a source with \\(\\mathcal E=10\\,\\mathrm{V}\\) and internal resistance \\(r=5.0\\,\\Omega\\), what load resistance gives maximum load power, and what is that maximum power?",
+      "answer": "Maximum load power occurs when\n\\[\nR_L=r=5.0\\,\\Omega\n\\]\nThe maximum power is\n\\[\nP_{\\max}=\\frac{\\mathcal E^2}{4r}\n=\\frac{(10)^2}{4(5.0)}\n=5.0\\,\\mathrm{W}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-10",
+      "prompt": "Why is the maximum-power-transfer condition not the same as maximum efficiency for power distribution?",
+      "answer": "At maximum power transfer, \\(R_L=r\\). Then the load and internal resistance dissipate equal powers because the same current flows through equal resistances.\n\nThat means only half the source power reaches the load:\n\\[\n\\eta=\\frac{R_L}{R_L+r}=\\frac{r}{2r}=\\frac{1}{2}\n\\]\nFor power distribution, losing half the power internally or in lines is usually unacceptable.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-11",
+      "prompt": "For fixed delivered power \\(P\\), delivery voltage \\(V\\), and line resistance \\(R_{\\mathrm{line}}\\), derive the approximate scaling \\(P_{\\mathrm{loss}}=\\frac{P^2R_{\\mathrm{line}}}{V^2}\\).",
+      "answer": "For high-efficiency delivery, the line drop is small compared with the delivery voltage, so the current is approximately\n\\[\nI\\approx\\frac{P}{V}\n\\]\nLine loss is\n\\[\nP_{\\mathrm{loss}}=I^2R_{\\mathrm{line}}\n\\]\nSubstitute \\(I=P/V\\):\n\\[\nP_{\\mathrm{loss}}\\approx\\left(\\frac{P}{V}\\right)^2R_{\\mathrm{line}}\n=\\frac{P^2R_{\\mathrm{line}}}{V^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-12",
+      "prompt": "For the same delivered power and same line resistance, the delivery voltage is tripled. By what factor does the line loss change?",
+      "answer": "Line loss scales as\n\\[\nP_{\\mathrm{loss}}\\propto\\frac{1}{V^2}\n\\]\nIf \\(V\\) is tripled,\n\\[\nP\u0027_{\\mathrm{loss}}=\\frac{1}{3^2}P_{\\mathrm{loss}}\n=\\frac{1}{9}P_{\\mathrm{loss}}\n\\]\nThe loss becomes one ninth as large.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-13",
+      "prompt": "A system must deliver \\(5.0\\,\\mathrm{kW}\\) through a line with \\(R_{\\mathrm{line}}=1.0\\,\\Omega\\). What delivery voltage is needed so line loss is no more than \\(100\\,\\mathrm{W}\\)? Use the approximate high-efficiency relation.",
+      "answer": "Use\n\\[\nP_{\\mathrm{loss}}\\approx\\frac{P^2R_{\\mathrm{line}}}{V^2}\n\\]\nRequire \\(P_{\\mathrm{loss}}\\le 100\\,\\mathrm{W}\\):\n\\[\n100\\ge\\frac{(5000)^2(1.0)}{V^2}\n\\]\n\\[\nV^2\\ge\\frac{25.0\\times10^6}{100}=2.50\\times10^5\n\\]\n\\[\nV\\ge500\\,\\mathrm{V}\n\\]\nSo the delivery voltage should be at least \\(500\\,\\mathrm{V}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-14",
+      "prompt": "Two loads, \\(60\\,\\Omega\\) and \\(30\\,\\Omega\\), are connected in parallel across \\(120\\,\\mathrm{V}\\). Find the power in each load, the total power, and the total current.",
+      "answer": "Each load has \\(120\\,\\mathrm{V}\\) across it.\n\\[\nP_{60}=\\frac{V^2}{R}=\\frac{(120)^2}{60}=240\\,\\mathrm{W}\n\\]\n\\[\nP_{30}=\\frac{(120)^2}{30}=480\\,\\mathrm{W}\n\\]\nTotal power:\n\\[\nP_{\\mathrm{tot}}=240+480=720\\,\\mathrm{W}\n\\]\nTotal current:\n\\[\nI_{\\mathrm{tot}}=\\frac{P_{\\mathrm{tot}}}{V}=\\frac{720}{120}=6.0\\,\\mathrm{A}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-15",
+      "prompt": "A \\(15\\,\\mathrm{A}\\) fuse protects an ideal \\(120\\,\\mathrm{V}\\) circuit. What is the maximum ideal load power before the fuse rating is exceeded?",
+      "answer": "For an ideal \\(120\\,\\mathrm{V}\\) circuit,\n\\[\nP_{\\max}=IV=(15)(120)=1800\\,\\mathrm{W}\n\\]\nReal circuits should include safety margins, but the ideal rating gives \\(1.8\\,\\mathrm{kW}\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-16",
+      "prompt": "A conductor\u0027s resistance is halved, but the current through it is doubled. By what factor does the resistive power loss change?",
+      "answer": "Resistive loss is\n\\[\nP_{\\mathrm{loss}}=I^2R\n\\]\nIf \\(I\\) is doubled, \\(I^2\\) increases by \\(4\\). If \\(R\\) is halved, multiply by \\(1/2\\). Therefore\n\\[\nP\u0027_{\\mathrm{loss}}=4\\left(\\frac{1}{2}\\right)P_{\\mathrm{loss}}=2P_{\\mathrm{loss}}\n\\]\nThe loss doubles.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-17",
+      "prompt": "For a source with emf \\(\\mathcal E\\), internal resistance \\(r\\), and load resistance \\(R_L\\), derive \\(P_L=\\frac{\\mathcal E^2R_L}{(r+R_L)^2}\\).",
+      "answer": "The source, internal resistance, and load are in series, so\n\\[\nI=\\frac{\\mathcal E}{r+R_L}\n\\]\nThe load power is\n\\[\nP_L=I^2R_L\n\\]\nSubstitute the current:\n\\[\nP_L=\\left(\\frac{\\mathcal E}{r+R_L}\\right)^2R_L\n=\\frac{\\mathcal E^2R_L}{(r+R_L)^2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-18",
+      "prompt": "Use the load-power expression \\(P_L=\\frac{\\mathcal E^2R_L}{(r+R_L)^2}\\) to show that maximum load power occurs when \\(R_L=r\\).",
+      "answer": "Treat \\(\\mathcal E\\) and \\(r\\) as constants:\n\\[\nP_L=\\mathcal E^2R_L(r+R_L)^{-2}\n\\]\nDifferentiate with respect to \\(R_L\\):\n\\[\n\\frac{dP_L}{dR_L}\n=\\mathcal E^2\\left[(r+R_L)^{-2}-2R_L(r+R_L)^{-3}\\right]\n\\]\nFactor:\n\\[\n\\frac{dP_L}{dR_L}\n=\\mathcal E^2(r+R_L)^{-3}\\left[(r+R_L)-2R_L\\right]\n\\]\n\\[\n\\frac{dP_L}{dR_L}\n=\\mathcal E^2(r+R_L)^{-3}(r-R_L)\n\\]\nSet the derivative to zero:\n\\[\nr-R_L=0\n\\]\nThus\n\\[\nR_L=r\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-19",
+      "prompt": "Explain why high-voltage transmission can reduce conductor size or heating for the same delivered power.",
+      "answer": "For the same delivered power,\n\\[\nI\\approx\\frac{P}{V}\n\\]\nHigher voltage means lower current. Since heating in conductors is\n\\[\nP_{\\mathrm{loss}}=I^2R_{\\mathrm{line}}\n\\]\nlower current strongly reduces heating. For a fixed allowed heating, the line can then tolerate a larger resistance, which can mean less conductor material. The engineering tradeoff is that higher voltage requires stronger insulation and safer clearances.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "power-distribution-20",
+      "prompt": "A \\(48\\,\\mathrm{V}\\) supply feeds a \\(10.0\\,\\Omega\\) load through two conductors, each with \\(0.20\\,\\Omega\\) resistance. Find the current, load voltage, line loss, and efficiency.",
+      "answer": "The total line resistance is\n\\[\nR_{\\mathrm{line}}=0.20+0.20=0.40\\,\\Omega\n\\]\nThe total series resistance is\n\\[\nR_{\\mathrm{tot}}=10.0+0.40=10.40\\,\\Omega\n\\]\nCurrent:\n\\[\nI=\\frac{48}{10.40}=4.62\\,\\mathrm{A}\n\\]\nLoad voltage:\n\\[\nV_L=IR_L=(4.62)(10.0)=46.2\\,\\mathrm{V}\n\\]\nLine loss:\n\\[\nP_{\\mathrm{loss}}=I^2R_{\\mathrm{line}}=(4.62)^2(0.40)=8.5\\,\\mathrm{W}\n\\]\nLoad power:\n\\[\nP_L=I^2R_L=(4.62)^2(10.0)=213\\,\\mathrm{W}\n\\]\nEfficiency:\n\\[\n\\eta=\\frac{P_L}{P_L+P_{\\mathrm{loss}}}\n=\\frac{213}{213+8.5}=0.962\n\\]\nSo the efficiency is about \\(96.2\\%\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

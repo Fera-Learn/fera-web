@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "limit-laws",
+  "topicTitle": "Limit Laws",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-limit-laws-01",
+      "prompt": "If \\(\\lim_{x\\to2}f(x)=3\\) and \\(\\lim_{x\\to2}g(x)=5\\), find \\(\\lim_{x\\to2}(4f(x)-g(x))\\).",
+      "answer": "Use the constant multiple and difference laws:\n\\[\n\\lim_{x\\to2}(4f(x)-g(x))=4\\cdot3-5=7.\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-limit-laws-02",
+      "prompt": "If \\(\\lim_{x\\to1}p(x)=2\\) and \\(\\lim_{x\\to1}q(x)=-4\\), find \\(\\lim_{x\\to1}p(x)^2q(x)\\).",
+      "answer": "Use the power and product laws:\n\\[\n\\lim_{x\\to1}p(x)^2q(x)=2^2(-4)=-16.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-limit-laws-03",
+      "prompt": "Explain why the quotient law cannot be used directly on \\(\\lim_{x\\to0}\\frac{x^2}{x}\\) by substituting separate numerator and denominator limits.",
+      "answer": "The numerator limit is \\(0\\) and the denominator limit is also \\(0\\). The quotient law requires the denominator limit to be nonzero, so it cannot be applied directly. Instead simplify for \\(x\\ne0\\):\n\\[\n\\frac{x^2}{x}=x,\n\\]\nso the limit is \\(0\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

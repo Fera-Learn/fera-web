@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "satellite-motion",
+  "topicTitle": "Satellite Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "satellite-motion-01",
+      "prompt": "In a circular orbit, is gravity absent, balanced away, or providing the inward acceleration?",
+      "answer": "Gravity is providing the inward acceleration. The satellite is not force-free; its velocity is continually being turned toward the central body.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-02",
+      "prompt": "Find the circular-orbit speed at radius \\(7.5\\times10^6\\,\\mathrm{m}\\) around a planet of mass \\(6.0\\times10^{24}\\,\\mathrm{kg}\\). Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "\\[\nv=\\sqrt{\\frac{GM}{r}}\n\\]\n\\[\nv=\\sqrt{\\frac{(6.67\\times10^{-11})(6.0\\times10^{24})}{7.5\\times10^6}}\n=7.3\\times10^3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-03",
+      "prompt": "Why does the satellite mass not appear in \\(v=\\sqrt{GM/r}\\) for a circular orbit?",
+      "answer": "In the circular-orbit balance,\n\\[\nG\\frac{Mm}{r^2}=m\\frac{v^2}{r}\n\\]\nthe satellite mass \\(m\\) appears on both sides and cancels. The required orbital speed is set by the central mass and orbital radius, not by the satellite mass.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-04",
+      "prompt": "A satellite moves in a circular orbit of radius \\(7.5\\times10^6\\,\\mathrm{m}\\) with speed \\(7.3\\times10^3\\,\\mathrm{m\\,s^{-1}}\\). Estimate its period.",
+      "answer": "One orbit covers distance \\(2\\pi r\\), so\n\\[\nT=\\frac{2\\pi r}{v}\n\\]\n\\[\nT=\\frac{2\\pi(7.5\\times10^6)}{7.3\\times10^3}\n=6.5\\times10^3\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-05",
+      "prompt": "A satellite has circular-orbit period \\(5400\\,\\mathrm{s}\\) around a planet of mass \\(5.0\\times10^{24}\\,\\mathrm{kg}\\). Find the orbital radius.",
+      "answer": "Use\n\\[\nT=2\\pi\\sqrt{\\frac{r^3}{GM}}\n\\]\nso\n\\[\nr=\\left(\\frac{GMT^2}{4\\pi^2}\\right)^{1/3}\n\\]\n\\[\nr=\\left(\\frac{(6.67\\times10^{-11})(5.0\\times10^{24})(5400)^2}{4\\pi^2}\\right)^{1/3}\n=6.3\\times10^6\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-06",
+      "prompt": "A circular orbit has radius \\(8.0\\times10^6\\,\\mathrm{m}\\) and period \\(7000\\,\\mathrm{s}\\). Find the local gravitational field magnitude from the orbit data.",
+      "answer": "For a circular orbit,\n\\[\ng(r)=\\frac{4\\pi^2r}{T^2}\n\\]\n\\[\ng(r)=\\frac{4\\pi^2(8.0\\times10^6)}{(7000)^2}\n=6.4\\,\\mathrm{N\\,kg^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-07",
+      "prompt": "One circular orbit has radius \\(r\\). Another around the same body has radius \\(4r\\). Compare their speeds and periods.",
+      "answer": "Circular-orbit speed scales as\n\\[\nv\\propto r^{-1/2}\n\\]\nso at \\(4r\\),\n\\[\nv_{4r}=\\frac{v_r}{2}\n\\]\nThe period scales as\n\\[\nT\\propto r^{3/2}\n\\]\nso\n\\[\nT_{4r}=4^{3/2}T_r=8T_r\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-08",
+      "prompt": "Find the radius of a circular orbit around Earth with period \\(86164\\,\\mathrm{s}\\). Use \\(M_\\oplus=5.97\\times10^{24}\\,\\mathrm{kg}\\) and \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "\\[\nr=\\left(\\frac{GMT^2}{4\\pi^2}\\right)^{1/3}\n\\]\n\\[\nr=\\left(\\frac{(6.67\\times10^{-11})(5.97\\times10^{24})(86164)^2}{4\\pi^2}\\right)^{1/3}\n=4.22\\times10^7\\,\\mathrm{m}\n\\]\nThis is the distance from Earth\u0027s center, not the altitude above the surface.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-09",
+      "prompt": "A planet\u0027s mass is unknown, but a moon is observed in a circular orbit of radius \\(1.8\\times10^8\\,\\mathrm{m}\\) with period \\(3.0\\times10^5\\,\\mathrm{s}\\). Estimate the planet mass.",
+      "answer": "Rearrange the period relation:\n\\[\nT^2=\\frac{4\\pi^2r^3}{GM}\n\\]\n\\[\nM=\\frac{4\\pi^2r^3}{GT^2}\n\\]\n\\[\nM=\\frac{4\\pi^2(1.8\\times10^8)^3}{(6.67\\times10^{-11})(3.0\\times10^5)^2}\n=3.8\\times10^{25}\\,\\mathrm{kg}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "satellite-motion-10",
+      "prompt": "A spherical planet has radius \\(R\\) and surface field magnitude \\(g_s\\). Derive the circular-orbit speed and period at radius \\(r=kR\\), and interpret how both change as \\(k\\) increases.",
+      "answer": "At the surface,\n\\[\ng_s=\\frac{GM}{R^2}\n\\]\nso\n\\[\nGM=g_sR^2\n\\]\nAt \\(r=kR\\),\n\\[\nv=\\sqrt{\\frac{GM}{r}}\n=\\sqrt{\\frac{g_sR^2}{kR}}\n=\\sqrt{\\frac{g_sR}{k}}\n\\]\nThe period is\n\\[\nT=2\\pi\\sqrt{\\frac{r^3}{GM}}\n=2\\pi\\sqrt{\\frac{k^3R^3}{g_sR^2}}\n=2\\pi\\sqrt{\\frac{k^3R}{g_s}}\n\\]\nAs \\(k\\) increases, speed falls as \\(k^{-1/2}\\), while period grows as \\(k^{3/2}\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-potential",
+  "topicId": "calculating-potential",
+  "topicTitle": "Calculating Potential",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "calculating-potential-01",
+      "prompt": "What is the electric potential from a point charge \\(Q\\) at distance \\(r\\), using \\(V(\\infty)=0\\)?",
+      "answer": "Using \\(V(\\infty)=0\\), the point-charge potential is\n\\[\nV=k\\frac{Q}{r}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-02",
+      "prompt": "When adding electric potentials from several point charges, do you add scalars or vector components?",
+      "answer": "Electric potential is a scalar, so you add scalar contributions with their signs.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-03",
+      "prompt": "At equal distance from charges \\(+Q\\) and \\(-Q\\), what is the net electric potential?",
+      "answer": "At equal distance from \\(+Q\\) and \\(-Q\\),\n\\[\nV=k\\frac{Q}{R}+k\\frac{-Q}{R}=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-04",
+      "prompt": "Find the potential \\(0.40\\,\\mathrm{m}\\) from a \\(+5.0\\,\\mathrm{nC}\\) charge.",
+      "answer": "\\[\nV=k\\frac{Q}{r}\n\\]\n\\[\nV=\\frac{(8.99\\times10^9)(5.0\\times10^{-9})}{0.40}\n\\]\n\\[\nV=1.12\\times10^2\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-05",
+      "prompt": "Charges \\(+3.0\\,\\mathrm{nC}\\) and \\(-1.0\\,\\mathrm{nC}\\) are both \\(0.20\\,\\mathrm{m}\\) from point P. Find \\(V_P\\).",
+      "answer": "Because both charges are the same distance from P,\n\\[\nV_P=k\\frac{Q_1+Q_2}{R}\n\\]\n\\[\nV_P=\\frac{(8.99\\times10^9)(3.0\\times10^{-9}-1.0\\times10^{-9})}{0.20}\n\\]\n\\[\nV_P=90\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-06",
+      "prompt": "Two charges \\(+Q\\) are at \\(x=\\pm a\\). Find the potential at the origin.",
+      "answer": "Each charge is distance \\(a\\) from the origin. Potential adds as a scalar:\n\\[\nV= k\\frac{Q}{a}+k\\frac{Q}{a}\n\\]\n\\[\nV=\\frac{2kQ}{a}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-07",
+      "prompt": "Two charges \\(+Q\\) and \\(-Q\\) are at \\(x=-a\\) and \\(x=+a\\). At the origin, compare the electric potential and electric field qualitatively.",
+      "answer": "At the origin, the two potentials cancel:\n\\[\nV=k\\frac{Q}{a}+k\\frac{-Q}{a}=0\n\\]\nThe electric field does not cancel. The field from \\(+Q\\) at \\(-a\\) points to the right, and the field from \\(-Q\\) at \\(+a\\) also points to the right. Thus \\(V=0\\) at the origin but \\(\\vec E\\ne0\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-08",
+      "prompt": "A uniformly charged ring has total charge \\(Q\\) and radius \\(R\\). Derive the potential at a point on its axis a distance \\(x\\) from the center.",
+      "answer": "Every charge element on the ring is the same distance from the axial point:\n\\[\ns=\\sqrt{R^2+x^2}\n\\]\nThe potential contribution is\n\\[\ndV=k\\frac{dq}{s}\n\\]\nSince \\(s\\) is constant over the ring,\n\\[\nV=\\int k\\frac{dq}{s}=\\frac{k}{s}\\int dq\n\\]\n\\[\nV=\\frac{kQ}{\\sqrt{R^2+x^2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-09",
+      "prompt": "A uniform line charge with density \\(\\lambda\\) lies on the \\(x\\)-axis from \\(0\\) to \\(L\\). Derive an integral expression for the potential at point \\(x=a\u003eL\\), then evaluate it.",
+      "answer": "For a source element at coordinate \\(x\\), the field point is at \\(a\u003eL\\), so the distance is\n\\[\nR=a-x\n\\]\nand\n\\[\ndq=\\lambda\\,dx\n\\]\nThus\n\\[\nV=\\int_0^L k\\frac{\\lambda\\,dx}{a-x}\n\\]\nEvaluate:\n\\[\nV=k\\lambda\\int_0^L\\frac{dx}{a-x}\n\\]\n\\[\nV=k\\lambda\\left[-\\ln(a-x)\\right]_0^L\n\\]\n\\[\nV=k\\lambda\\ln\\left(\\frac{a}{a-L}\\right)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-potential-10",
+      "prompt": "Charges \\(+Q\\) at \\(x=-a\\) and \\(-\\alpha Q\\) at \\(x=+a\\) create potential at the origin. Derive \\(V(0)\\), find \\(\\alpha\\) for which \\(V(0)=0\\), and explain whether the electric field at the origin is also zero for that \\(\\alpha\\).",
+      "answer": "At the origin, both charges are distance \\(a\\), so\n\\[\nV(0)=k\\frac{Q}{a}+k\\frac{-\\alpha Q}{a}\n\\]\n\\[\nV(0)=k\\frac{Q}{a}(1-\\alpha)\n\\]\nFor \\(V(0)=0\\),\n\\[\n1-\\alpha=0\n\\]\n\\[\n\\alpha=1\n\\]\nFor \\(\\alpha=1\\), the charges are equal and opposite. The electric field at the origin is not zero: the field from \\(+Q\\) at \\(-a\\) points in \\(+\\hat\\imath\\), and the field from \\(-Q\\) at \\(+a\\) also points in \\(+\\hat\\imath\\). The scalar potentials cancel, but the vector fields add.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

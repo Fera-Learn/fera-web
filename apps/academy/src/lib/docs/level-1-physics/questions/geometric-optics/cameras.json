@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "cameras",
+  "topicTitle": "Cameras",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "cameras-01",
+      "prompt": "What type of image does a simple camera lens form on the sensor?",
+      "answer": "A camera lens forms a real, inverted image on the sensor or film.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-02",
+      "prompt": "For a distant object, where should the camera sensor be placed relative to the lens?",
+      "answer": "For a distant object, \\(s\\rightarrow\\infty\\), so\n\\[\ns'\\approx f\n\\]\nThe sensor should be near the focal plane.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-03",
+      "prompt": "State the lens equation used for camera focusing.",
+      "answer": "Camera focusing uses\n\\[\n\\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{f}\n\\]\nwith the sensor placed at the image distance \\(s'\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-04",
+      "prompt": "Why must the sensor move farther from the lens to focus on a closer object?",
+      "answer": "As \\(s\\) decreases, \\(1/s\\) increases. Since \\(1/s'=1/f-1/s\\), the value of \\(1/s'\\) decreases, so \\(s'\\) increases.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-05",
+      "prompt": "A camera lens has \\(f=50\\,\\mathrm{mm}\\). Approximately where is the sensor for a very distant object?",
+      "answer": "For a very distant object,\n\\[\ns'\\approx f=50\\,\\mathrm{mm}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-06",
+      "prompt": "A \\(50\\,\\mathrm{mm}\\) lens focuses on an object \\(2.0\\,\\mathrm{m}\\) away. Find the image distance.",
+      "answer": "Use metres: \\(f=0.050\\,\\mathrm{m}\\), \\(s=2.0\\,\\mathrm{m}\\).\n\\[\n\\frac{1}{s'}=\\frac{1}{0.050}-\\frac{1}{2.0}=20.0-0.5=19.5\n\\]\n\\[\ns'=0.0513\\,\\mathrm{m}=51.3\\,\\mathrm{mm}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-07",
+      "prompt": "Define the f-number of a camera lens.",
+      "answer": "The f-number is\n\\[\nN=\\frac{f}{D}\n\\]\nwhere \\(f\\) is focal length and \\(D\\) is aperture diameter.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-08",
+      "prompt": "A \\(50\\,\\mathrm{mm}\\) lens is set to f/2.0. Find the aperture diameter.",
+      "answer": "\\[\nD=\\frac{f}{N}=\\frac{50\\,\\mathrm{mm}}{2.0}=25\\,\\mathrm{mm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-09",
+      "prompt": "A lens changes from f/4 to f/2 with the same focal length. How does the aperture diameter change?",
+      "answer": "Since \\(D=f/N\\), halving \\(N\\) doubles \\(D\\). The aperture diameter is twice as large at f/2.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-10",
+      "prompt": "A lens changes from f/4 to f/2. How does the light-gathering area change?",
+      "answer": "Aperture area is proportional to \\(D^2\\). Doubling \\(D\\) increases the area by\n\\[\n2^2=4\n\\]\nso four times as much light can enter for the same exposure time.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-11",
+      "prompt": "What happens to image size on the sensor when focal length is increased for the same distant object?",
+      "answer": "For distant objects, the image height is approximately proportional to focal length. A longer focal length gives a larger image on the sensor and a narrower field of view.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-12",
+      "prompt": "A \\(1.8\\,\\mathrm{m}\\) person is \\(10\\,\\mathrm{m}\\) from a \\(50\\,\\mathrm{mm}\\) lens. Estimate the image height.",
+      "answer": "For a distant object, \\(|m|\\approx f/s\\):\n\\[\n|m|=\\frac{0.050}{10}=0.0050\n\\]\n\\[\ny'=0.0050(1.8)=0.0090\\,\\mathrm{m}=9.0\\,\\mathrm{mm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-13",
+      "prompt": "What is the magnification in macro photography at 1:1 reproduction?",
+      "answer": "At 1:1 reproduction, the image height equals the object height, so\n\\[\n|m|=1\n\\]\nFor a real camera image, \\(m=-1\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-14",
+      "prompt": "For a simple thin lens, what object and image distances give 1:1 reproduction?",
+      "answer": "For \\(m=-1\\), \\(s'=s\\). The lens equation gives\n\\[\n\\frac{2}{s}=\\frac{1}{f}\n\\]\nso\n\\[\ns=s'=2f\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-15",
+      "prompt": "What does stopping down a camera lens mean?",
+      "answer": "Stopping down means reducing the aperture diameter, which increases the f-number. It lets in less light but usually increases depth of field.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-16",
+      "prompt": "Why does a larger aperture usually give a shallower depth of field?",
+      "answer": "A larger aperture accepts a wider cone of rays. When the sensor is not exactly at the image plane for nearby distances, that wider cone makes larger blur circles.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-17",
+      "prompt": "Why is a real image required in a camera?",
+      "answer": "The sensor must receive actual converging light rays at the image plane. A virtual image cannot be projected directly onto a sensor.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-18",
+      "prompt": "A camera lens has \\(f=35\\,\\mathrm{mm}\\) and aperture diameter \\(12.5\\,\\mathrm{mm}\\). Find the f-number.",
+      "answer": "\\[\nN=\\frac{f}{D}=\\frac{35}{12.5}=2.8\n\\]\nThe lens is set to f/2.8.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-19",
+      "prompt": "A camera focuses at infinity with sensor distance \\(s'=80\\,\\mathrm{mm}\\). Estimate the focal length.",
+      "answer": "For infinity focus,\n\\[\ns'\\approx f\n\\]\nso\n\\[\nf\\approx80\\,\\mathrm{mm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "cameras-20",
+      "prompt": "A \\(100\\,\\mathrm{mm}\\) lens photographs a distant object. Compared with a \\(50\\,\\mathrm{mm}\\) lens on the same sensor, how does the image size compare?",
+      "answer": "For distant objects, image size is proportional to focal length:\n\\[\n\\frac{100}{50}=2\n\\]\nThe \\(100\\,\\mathrm{mm}\\) lens gives about twice the image height.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

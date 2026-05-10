@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "black-holes",
+  "topicTitle": "Black Holes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "black-holes-01",
+      "prompt": "Is the Schwarzschild radius a material surface or a radius scale for the event horizon?",
+      "answer": "It is a radius scale for the event horizon in the non-rotating black-hole model. It is not a material surface.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-02",
+      "prompt": "Find the Schwarzschild radius of a mass \\(6.0\\times10^{30}\\,\\mathrm{kg}\\). Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\) and \\(c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nr_s=\\frac{2GM}{c^2}\n\\]\n\\[\nr_s=\\frac{2(6.67\\times10^{-11})(6.0\\times10^{30})}{(3.00\\times10^8)^2}\n=8.9\\times10^3\\,\\mathrm{m}\n\\]\nSo \\(r_s\\approx 8.9\\,\\mathrm{km}\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-03",
+      "prompt": "A compact object has radius \\(20\\,\\mathrm{km}\\) and Schwarzschild radius \\(35\\,\\mathrm{km}\\). In this model, is it inside its horizon condition?",
+      "answer": "Yes. The condition is\n\\[\nr\\le r_s\n\\]\nand \\(20\\,\\mathrm{km}\u003c35\\,\\mathrm{km}\\), so the object\u0027s radius lies inside the Schwarzschild radius.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-04",
+      "prompt": "Find the escape speed from radius \\(5.0\\times10^7\\,\\mathrm{m}\\) around a mass \\(4.0\\times10^{30}\\,\\mathrm{kg}\\).",
+      "answer": "\\[\nv_{\\mathrm{esc}}=\\sqrt{\\frac{2GM}{r}}\n\\]\n\\[\nv_{\\mathrm{esc}}=\\sqrt{\\frac{2(6.67\\times10^{-11})(4.0\\times10^{30})}{5.0\\times10^7}}\n=3.3\\times10^6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-05",
+      "prompt": "What mass has Schwarzschild radius \\(30\\,\\mathrm{km}\\)? Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\) and \\(c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "Rearrange\n\\[\nr_s=\\frac{2GM}{c^2}\n\\]\nto get\n\\[\nM=\\frac{r_sc^2}{2G}\n\\]\nWith \\(r_s=30\\,\\mathrm{km}=3.0\\times10^4\\,\\mathrm{m}\\),\n\\[\nM=\\frac{(3.0\\times10^4)(3.00\\times10^8)^2}{2(6.67\\times10^{-11})}\n=2.0\\times10^{31}\\,\\mathrm{kg}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-06",
+      "prompt": "At what radius, in terms of \\(r_s\\), does the Newtonian escape-speed formula give \\(v_{\\mathrm{esc}}=c/2\\)?",
+      "answer": "Use\n\\[\nv_{\\mathrm{esc}}^2=\\frac{2GM}{r}\n\\]\nand\n\\[\nr_s=\\frac{2GM}{c^2}\n\\]\nso\n\\[\nv_{\\mathrm{esc}}^2=c^2\\frac{r_s}{r}\n\\]\nSet \\(v_{\\mathrm{esc}}=c/2\\):\n\\[\n\\frac{c^2}{4}=c^2\\frac{r_s}{r}\n\\]\nTherefore\n\\[\nr=4r_s\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-07",
+      "prompt": "A star\u0027s Schwarzschild radius is \\(9.0\\,\\mathrm{km}\\), but its actual radius is \\(9000\\,\\mathrm{km}\\). By what factor would its radius need to shrink to reach \\(r_s\\)?",
+      "answer": "The shrink factor is\n\\[\n\\frac{9000\\,\\mathrm{km}}{9.0\\,\\mathrm{km}}=1000\n\\]\nThe star\u0027s radius would need to shrink by a factor of \\(1000\\), assuming its mass stayed fixed.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-08",
+      "prompt": "A compact body has radius \\(3r_s\\). Use the escape-speed model to find \\(v_{\\mathrm{esc}}\\) as a fraction of \\(c\\).",
+      "answer": "Using\n\\[\nv_{\\mathrm{esc}}^2=c^2\\frac{r_s}{r}\n\\]\nwith \\(r=3r_s\\),\n\\[\nv_{\\mathrm{esc}}^2=\\frac{c^2}{3}\n\\]\nso\n\\[\nv_{\\mathrm{esc}}=\\frac{c}{\\sqrt{3}}\\approx0.58c\n\\]\nThis is below \\(c\\), so \\(3r_s\\) is outside the horizon scale.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-09",
+      "prompt": "A body of mass \\(M\\) and initial radius \\(R\\) is compressed without changing its mass. Derive the minimum compression factor \\(k\\), where final radius is \\(R/k\\), needed for \\(R/k\\le r_s\\).",
+      "answer": "The final radius is \\(R/k\\). The black-hole condition is\n\\[\n\\frac{R}{k}\\le r_s\n\\]\nwith\n\\[\nr_s=\\frac{2GM}{c^2}\n\\]\nTherefore\n\\[\nk\\ge \\frac{R}{r_s}\n\\]\nor\n\\[\nk\\ge \\frac{Rc^2}{2GM}\n\\]\nIf the original radius is already less than or equal to \\(r_s\\), then \\(k=1\\) is sufficient.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "black-holes-10",
+      "prompt": "Treat \\(r_s\\) as the radius scale of a black hole and define an average density \\(\\bar\\rho=3M/(4\\pi r_s^3)\\). Derive \\(\\bar\\rho(M)\\) and interpret how it changes as \\(M\\) increases.",
+      "answer": "Start with\n\\[\n\\bar\\rho=\\frac{3M}{4\\pi r_s^3}\n\\]\nand\n\\[\nr_s=\\frac{2GM}{c^2}\n\\]\nSubstitute:\n\\[\n\\bar\\rho=\\frac{3M}{4\\pi\\left(\\frac{2GM}{c^2}\\right)^3}\n\\]\n\\[\n\\bar\\rho=\\frac{3M}{4\\pi\\frac{8G^3M^3}{c^6}}\n\\]\n\\[\n\\bar\\rho=\\frac{3c^6}{32\\pi G^3M^2}\n\\]\nThe average density defined this way scales as \\(M^{-2}\\), so larger black holes have lower average density over their Schwarzschild-radius volume.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "one-dimensional-schrodinger-equation",
+  "topicTitle": "One-Dimensional Schrodinger Equation",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "one-dimensional-schrodinger-equation-01",
+      "prompt": "Write the time-dependent Schrodinger equation for a nonrelativistic particle in one dimension with potential \\(V(x)\\).",
+      "answer": "\\[\\ni\\hbar\\frac{\\partial\\psi}{\\partial t}=\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\psi\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-02",
+      "prompt": "Identify the Hamiltonian operator for a one-dimensional particle in potential \\(V(x)\\).",
+      "answer": "\\[\\n\\hat H=-\\frac{\\hbar^2}{2m}\\frac{d^2}{dx^2}+V(x)\\n\\]\\nThe first term is kinetic energy and the second is potential energy.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-03",
+      "prompt": "For a stationary state \\(\\psi(x,t)=\\phi(x)e^{-iEt/\\hbar}\\), what happens to \\(|\\psi|^2\\) in time?",
+      "answer": "The time factor has unit magnitude, so\\n\\[\\n|\\psi(x,t)|^2=|\\phi(x)|^2|e^{-iEt/\\hbar}|^2=|\\phi(x)|^2\\n\\]\\nThe probability density is time independent.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-04",
+      "prompt": "Derive the time-independent Schrodinger equation from \\(\\psi(x,t)=\\phi(x)e^{-iEt/\\hbar}\\) for a time-independent potential.",
+      "answer": "Substitute the separated form into the time-dependent equation. The left side becomes\\n\\[\\ni\\hbar\\frac{\\partial\\psi}{\\partial t}=E\\phi e^{-iEt/\\hbar}\\n\\]\\nThe right side is\\n\\[\\n\\left[-\\frac{\\hbar^2}{2m}\\frac{d^2\\phi}{dx^2}+V\\phi\\right]e^{-iEt/\\hbar}\\n\\]\\nCancel the common time factor to get\\n\\[\\n-\\frac{\\hbar^2}{2m}\\frac{d^2\\phi}{dx^2}+V(x)\\phi=E\\phi\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-05",
+      "prompt": "Show that \\(\\psi=Ae^{i(kx-\\omega t)}\\) is a free-particle solution only if \\(\\hbar\\omega=\\hbar^2k^2/(2m)\\).",
+      "answer": "For \\(V=0\\),\\n\\[\\n\\frac{\\partial\\psi}{\\partial t}=-i\\omega\\psi,\\qquad \\frac{\\partial^2\\psi}{\\partial x^2}=-k^2\\psi\\n\\]\\nThe Schrodinger equation gives\\n\\[\\n\\hbar\\omega\\psi=\\frac{\\hbar^2k^2}{2m}\\psi\\n\\]\\nso\\n\\[\\n\\hbar\\omega=\\frac{\\hbar^2k^2}{2m}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-06",
+      "prompt": "In a region where \\(V\\) is constant and \\(E>V\\), what is the spatial form of a stationary solution?",
+      "answer": "The time-independent equation reduces to\\n\\[\\n\\frac{d^2\\phi}{dx^2}=-k^2\\phi,\\qquad k=\\frac{\\sqrt{2m(E-V)}}{\\hbar}\\n\\]\\nso \\(\\phi\\) is a combination of sines/cosines or complex exponentials.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-07",
+      "prompt": "In a region where \\(V\\) is constant and \\(E<V\\), what is the spatial form of a stationary solution?",
+      "answer": "The time-independent equation becomes\\n\\[\\n\\frac{d^2\\phi}{dx^2}=\\kappa^2\\phi,\\qquad \\kappa=\\frac{\\sqrt{2m(V-E)}}{\\hbar}\\n\\]\\nso the spatial solution is a combination of growing and decaying exponentials.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-08",
+      "prompt": "What matching conditions apply to \\(\\phi\\) at a finite step in potential energy?",
+      "answer": "For a finite jump in \\(V\\), both the wave function and its first derivative are continuous:\\n\\[\\n\\phi_{\\mathrm{left}}=\\phi_{\\mathrm{right}},\\qquad \\frac{d\\phi_{\\mathrm{left}}}{dx}=\\frac{d\\phi_{\\mathrm{right}}}{dx}\\n\\]\\nThese conditions come from integrating the Schrodinger equation across an infinitesimal interval around the step.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-09",
+      "prompt": "Why may \\(d\\phi/dx\\) be discontinuous at an infinite potential wall?",
+      "answer": "The usual derivative-continuity argument assumes a finite potential. An infinite wall is an idealized singular limit. The physical boundary condition becomes \\(\\phi=0\\) at the wall, while the derivative need not match a finite exterior solution.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-10",
+      "prompt": "A proposed stationary state in a finite potential is continuous but has a kink where \\(V\\) is finite. Explain why it cannot satisfy the Schrodinger equation there.",
+      "answer": "A kink means the first derivative jumps. Then the second derivative contains a singular contribution, but the terms \\(V\\phi\\) and \\(E\\phi\\) are finite. The time-independent Schrodinger equation cannot balance this singular second derivative unless the potential itself has a corresponding singularity.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-11",
+      "prompt": "For a constant potential \\(V_0\\), express the wave number \\(k\\) of an oscillatory stationary state in terms of \\(E\\), \\(V_0\\), \\(m\\), and \\(\\hbar\\).",
+      "answer": "For \\(E>V_0\\),\\n\\[\\nk=\\frac{\\sqrt{2m(E-V_0)}}{\\hbar}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-12",
+      "prompt": "If \\(\\phi_1\\) and \\(\\phi_2\\) are energy eigenstates with energies \\(E_1\\) and \\(E_2\\), write the correct time evolution of \\(c_1\\phi_1+c_2\\phi_2\\).",
+      "answer": "Each energy component gets its own phase:\\n\\[\\n\\psi(x,t)=c_1\\phi_1(x)e^{-iE_1t/\\hbar}+c_2\\phi_2(x)e^{-iE_2t/\\hbar}\\n\\]\\nA common time factor is valid only when the components have the same energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-13",
+      "prompt": "A normalized state is \\(\\psi=c_1\\phi_1+c_2\\phi_2\\), where \\(\\phi_1\\) and \\(\\phi_2\\) are orthonormal energy eigenstates. Find the expectation value of energy.",
+      "answer": "Because the Hamiltonian eigenstates are orthonormal, cross terms vanish:\\n\\[\\n\\langle H\\rangle=|c_1|^2E_1+|c_2|^2E_2\\n\\]\\nassuming \\(|c_1|^2+|c_2|^2=1\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-14",
+      "prompt": "Check the dimensions of the kinetic-energy operator \\(-\\hbar^2(2m)^{-1}d^2/dx^2\\).",
+      "answer": "\\(\\hbar\\) has units \\(\\mathrm{kg\\,m^2\\,s^{-1}}\\), so\\n\\[\\n\\frac{\\hbar^2}{m}\\frac{1}{x^2}\\sim \\frac{\\mathrm{kg^2\\,m^4\\,s^{-2}}}{\\mathrm{kg}}\\frac{1}{\\mathrm{m^2}}=\\mathrm{kg\\,m^2\\,s^{-2}}=\\mathrm{J}\\n\\]\\nThe operator has units of energy.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-15",
+      "prompt": "Why is the Schrodinger equation linear important for superposition?",
+      "answer": "If \\(\\psi_1\\) and \\(\\psi_2\\) solve the same linear Schrodinger equation, then derivatives and multiplication by \\(V\\) act term by term. Therefore \\(a\\psi_1+b\\psi_2\\) also solves the equation. This is the mathematical basis for quantum superposition.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-16",
+      "prompt": "A real stationary bound-state wave function in one dimension has probability current \\(j=(\\hbar/m)\\mathrm{Im}(\\phi^*d\\phi/dx)\\). What is \\(j\\), and why?",
+      "answer": "If \\(\\phi\\) is real, then \\(\\phi^*d\\phi/dx=\\phi d\\phi/dx\\) is real. Its imaginary part is zero, so\\n\\[\\nj=0\\n\\]\\nA real bound stationary state carries no net probability flow.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-17",
+      "prompt": "Use integration across a finite potential step to justify derivative continuity for \\(\\phi\\).",
+      "answer": "Integrate the time-independent equation from \\(x_0-\\epsilon\\) to \\(x_0+\\epsilon\\):\\n\\[\\n-\\frac{\\hbar^2}{2m}\\int \\phi''dx+\\int (V-E)\\phi\\,dx=0\\n\\]\\nThe finite-potential integral vanishes as \\(\\epsilon\\to0\\), leaving\\n\\[\\n-\\frac{\\hbar^2}{2m}\\left[\\phi'\\right]_{x_0^-}^{x_0^+}=0\\n\\]\\nThus \\(\\phi'\\) is continuous.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-18",
+      "prompt": "A wave function is an energy eigenstate of a time-independent Hamiltonian. Show that the probability density is stationary even though the wave function is not constant in time.",
+      "answer": "The state evolves as\\n\\[\\n\\psi(x,t)=\\phi(x)e^{-iEt/\\hbar}\\n\\]\\nThus\\n\\[\\n|\\psi(x,t)|^2=\\phi^*(x)e^{iEt/\\hbar}\\phi(x)e^{-iEt/\\hbar}=|\\phi(x)|^2\\n\\]\\nThe phase changes in time, but the measurable position density does not.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-19",
+      "prompt": "For a constant potential region, explain how the same differential equation predicts both propagation and evanescence.",
+      "answer": "The TISE can be written\\n\\[\\n\\phi''=-\\frac{2m(E-V)}{\\hbar^2}\\phi\\n\\]\\nIf \\(E>V\\), the coefficient is negative and the solutions oscillate. If \\(E<V\\), the coefficient is positive in the form \\(\\phi''=\\kappa^2\\phi\\), giving exponentials. The sign of \\(E-V\\) selects the behavior.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "one-dimensional-schrodinger-equation-20",
+      "prompt": "Prove that two normalizable eigenstates of a Hermitian Hamiltonian with distinct energies are orthogonal.",
+      "answer": "Let \\(H\\phi_a=E_a\\phi_a\\) and \\(H\\phi_b=E_b\\phi_b\\). Hermiticity gives\\n\\[\\n\\langle\\phi_a|H\\phi_b\\rangle=\\langle H\\phi_a|\\phi_b\\rangle\\n\\]\\nso\\n\\[\\nE_b\\langle\\phi_a|\\phi_b\\rangle=E_a\\langle\\phi_a|\\phi_b\\rangle\\n\\]\\nThus\\n\\[\\n(E_b-E_a)\\langle\\phi_a|\\phi_b\\rangle=0\\n\\]\\nFor \\(E_a\\ne E_b\\), \\(\\langle\\phi_a|\\phi_b\\rangle=0\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "acoustic-resonance",
+  "topicTitle": "Acoustic Resonance",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-resonance-01",
+      "prompt": "A resonator has natural frequency \\(256\\,\\mathrm{Hz}\\). At what driving frequency is the strongest simple resonance expected?",
+      "answer": "The strongest simple resonance is expected when the drive matches the natural frequency:\n\\[\nf=256\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-02",
+      "prompt": "A resonance peak is centered at \\(500\\,\\mathrm{Hz}\\) with width \\(25\\,\\mathrm{Hz}\\). Find the quality factor \\(Q\\).",
+      "answer": "\\[\nQ=\\frac{f_0}{\\Delta f}=\\frac{500}{25}=20\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-03",
+      "prompt": "A resonator has \\(Q=40\\) and resonance frequency \\(800\\,\\mathrm{Hz}\\). Estimate the resonance width \\(\\Delta f\\).",
+      "answer": "\\[\n\\Delta f=\\frac{f_0}{Q}=\\frac{800}{40}=20\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-04",
+      "prompt": "A closed tube resonates at its fundamental at \\(170\\,\\mathrm{Hz}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to estimate its length.",
+      "answer": "For an open-closed fundamental,\n\\[\nf_1=\\frac{v}{4L}\n\\]\nso\n\\[\nL=\\frac{v}{4f_1}=\\frac{340}{4(170)}=0.50\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-05",
+      "prompt": "An open-open tube of length \\(0.50\\,\\mathrm{m}\\) is driven by a speaker. Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the first three resonant frequencies.",
+      "answer": "For open-open modes,\n\\[\nf_n=\\frac{nv}{2L}\n\\]\nWith \\(L=0.50\\,\\mathrm{m}\\),\n\\[\nf_1=340\\,\\mathrm{Hz},\\quad f_2=680\\,\\mathrm{Hz},\\quad f_3=1020\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-06",
+      "prompt": "An open-closed tube of length \\(0.50\\,\\mathrm{m}\\) is driven by a speaker. Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the first three resonant frequencies.",
+      "answer": "For open-closed modes,\n\\[\nf_n=\\frac{(2n-1)v}{4L}\n\\]\nWith \\(L=0.50\\,\\mathrm{m}\\),\n\\[\nf_1=170\\,\\mathrm{Hz},\\quad f_2=510\\,\\mathrm{Hz},\\quad f_3=850\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-07",
+      "prompt": "A resonance has \\(f_0=1000\\,\\mathrm{Hz}\\) and \\(Q=25\\). Find \\(\\Delta f\\).",
+      "answer": "\\[\n\\Delta f=\\frac{f_0}{Q}=\\frac{1000}{25}=40\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-08",
+      "prompt": "A flute-like open-open air column is shortened from \\(0.60\\,\\mathrm{m}\\) to \\(0.40\\,\\mathrm{m}\\). By what factor does its fundamental frequency change?",
+      "answer": "For a fixed sound speed, \\(f_1=v/(2L)\\), so \\(f\\propto1/L\\). Therefore\n\\[\n\\frac{f_2}{f_1}=\\frac{0.60}{0.40}=1.5\n\\]\nThe fundamental frequency increases by a factor of \\(1.5\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-09",
+      "prompt": "The speed of sound in a pipe increases by \\(3\\%\\) when the air warms. By what approximate percentage do all ideal resonant frequencies change if the pipe length is fixed?",
+      "answer": "For fixed pipe length,\n\\[\nf_n\\propto v\n\\]\nso a \\(3\\%\\) increase in sound speed gives a \\(3\\%\\) increase in every ideal resonant frequency.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-10",
+      "prompt": "A resonance peak narrows while its center frequency remains fixed. Does \\(Q\\) increase, decrease, or stay the same?",
+      "answer": "Since\n\\[\nQ=\\frac{f_0}{\\Delta f}\n\\]\na smaller \\(\\Delta f\\) with fixed \\(f_0\\) means \\(Q\\) increases.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-11",
+      "prompt": "An open-closed tube of adjustable length resonates at \\(440\\,\\mathrm{Hz}\\) in its fundamental. Find its length for \\(v=343\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nL=\\frac{v}{4f_1}=\\frac{343}{4(440)}=0.195\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-12",
+      "prompt": "An open-open pipe of length \\(0.75\\,\\mathrm{m}\\) resonates near \\(686\\,\\mathrm{Hz}\\). Determine the mode number using \\(v=343\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "For open-open modes,\n\\[\nf_n=\\frac{nv}{2L}\n\\]\nso\n\\[\nn=\\frac{2Lf_n}{v}=\\frac{2(0.75)(686)}{343}=3.0\n\\]\nIt is the third mode.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-13",
+      "prompt": "A resonator has \\(f_0=600\\,\\mathrm{Hz}\\). Resonance remains strong from about \\(588\\,\\mathrm{Hz}\\) to \\(612\\,\\mathrm{Hz}\\). Estimate \\(Q\\).",
+      "answer": "The width is\n\\[\n\\Delta f=612-588=24\\,\\mathrm{Hz}\n\\]\nso\n\\[\nQ=\\frac{600}{24}=25\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-14",
+      "prompt": "A pipe has resonant frequencies \\(150\\,\\mathrm{Hz}\\), \\(450\\,\\mathrm{Hz}\\), and \\(750\\,\\mathrm{Hz}\\). Decide whether it behaves more like an open-open or open-closed resonator.",
+      "answer": "The resonances are \\(150,3(150),5(150)\\). That odd-harmonic pattern matches an open-closed resonator in the ideal model.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-15",
+      "prompt": "An open-open pipe is driven at fixed frequency \\(f\\). Derive the lengths \\(L_n\\) that resonate for mode number \\(n\\).",
+      "answer": "For open-open resonance,\n\\[\nf=\\frac{nv}{2L_n}\n\\]\nSolving for length,\n\\[\nL_n=\\frac{nv}{2f}\n\\]\nfor \\(n=1,2,3,\\ldots\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-16",
+      "prompt": "An open-closed pipe is driven at fixed frequency \\(f\\). Derive the lengths \\(L_n\\) that resonate for allowed mode number \\(n\\).",
+      "answer": "For open-closed resonance,\n\\[\nf=\\frac{(2n-1)v}{4L_n}\n\\]\nSolving for length,\n\\[\nL_n=\\frac{(2n-1)v}{4f}\n\\]\nfor \\(n=1,2,3,\\ldots\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-17",
+      "prompt": "A resonance tube closed at one end shows adjacent resonances in length at \\(0.18\\,\\mathrm{m}\\) and \\(0.52\\,\\mathrm{m}\\) for the same tuning fork. Derive the wavelength and sound speed if the fork frequency is \\(500\\,\\mathrm{Hz}\\).",
+      "answer": "Adjacent resonant lengths for the same open-closed tube differ by half a wavelength:\n\\[\n\\Delta L=\\frac{\\lambda}{2}\n\\]\nThus\n\\[\n\\lambda=2(0.52-0.18)=0.68\\,\\mathrm{m}\n\\]\nThe sound speed is\n\\[\nv=f\\lambda=(500)(0.68)=340\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-18",
+      "prompt": "Two resonators have the same center frequency, but \\(Q_A=20\\) and \\(Q_B=80\\). Compare their bandwidths and explain which is more selective.",
+      "answer": "For the same \\(f_0\\),\n\\[\n\\Delta f=\\frac{f_0}{Q}\n\\]\nThus\n\\[\n\\frac{\\Delta f_A}{\\Delta f_B}=\\frac{Q_B}{Q_A}=\\frac{80}{20}=4\n\\]\nResonator B has one quarter the bandwidth of A, so B is more frequency-selective.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-19",
+      "prompt": "A pipe\u0027s resonant frequencies are proportional to sound speed. Using \\(v\\propto\\sqrt{T}\\), derive the fractional frequency change for a small temperature change \\(\\Delta T\\ll T\\).",
+      "answer": "Since pipe resonant frequency is proportional to sound speed and\n\\[\nv\\propto T^{1/2}\n\\]\nthen\n\\[\nf\\propto T^{1/2}\n\\]\nFor small changes,\n\\[\n\\frac{\\Delta f}{f}\\approx\\frac{1}{2}\\frac{\\Delta T}{T}\n\\]\nThe resonant frequency increases by about half the fractional temperature increase.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-resonance-20",
+      "prompt": "A measured pipe spectrum contains \\(f_1\\), \\(2f_1\\), \\(3f_1\\), and weak non-harmonic peaks. Explain which peaks belong to the ideal air-column resonance model and give two physical reasons extra peaks might appear.",
+      "answer": "The peaks \\(f_1,2f_1,3f_1\\) belong to the ideal harmonic air-column model for an open-open pipe. Weak non-harmonic peaks are outside that simple model. They may arise from end corrections, coupling to the instrument body or driver, nonuniform tube geometry, losses, or measurement noise. The ideal model keeps only the modes set by the simplest boundary conditions.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

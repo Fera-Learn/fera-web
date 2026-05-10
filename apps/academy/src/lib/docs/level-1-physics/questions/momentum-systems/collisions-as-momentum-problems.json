@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "collisions-as-momentum-problems",
+  "topicTitle": "Collisions as Momentum Problems",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "collisions-momentum-01",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) cart moving at \\(8.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to a \\(1.5\\,\\mathrm{kg}\\) cart at rest. Find the final speed.",
+      "answer": "\\[\n0.50(8.0)=(0.50+1.5)v_f\n\\]\n\\[\nv_f=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-02",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) cart changes velocity from \\(5.0\\,\\mathrm{m\\,s^{-1}}\\) right to \\(1.0\\,\\mathrm{m\\,s^{-1}}\\) left. Find the impulse on it, taking right as positive.",
+      "answer": "\\[\nJ=m(v_f-v_i)=2.0(-1.0-5.0)=-12\\,\\mathrm{N\\,s}\n\\]\nThe impulse is leftward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-03",
+      "prompt": "A collision conserves total momentum but the objects stick together. Is the collision elastic?",
+      "answer": "No. If the objects stick together, the collision is perfectly inelastic unless there was no relative motion before impact. Momentum can be conserved while kinetic energy is lost.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-04",
+      "prompt": "A \\(3.0\\,\\mathrm{kg}\\) cart moving at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to a \\(2.0\\,\\mathrm{kg}\\) cart moving in the same direction at \\(1.0\\,\\mathrm{m\\,s^{-1}}\\). Find their final speed.",
+      "answer": "\\[\n3.0(4.0)+2.0(1.0)=(3.0+2.0)v_f\n\\]\n\\[\nv_f=2.8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-05",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) cart moving at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to a \\(2.0\\,\\mathrm{kg}\\) cart at rest. Find the kinetic energy lost.",
+      "answer": "Momentum gives\n\\[\n1.0(6.0)=3.0v_f\n\\]\n\\[\nv_f=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nInitial kinetic energy:\n\\[\nK_i=\\frac{1}{2}(1.0)(6.0^2)=18\\,\\mathrm{J}\n\\]\nFinal kinetic energy:\n\\[\nK_f=\\frac{1}{2}(3.0)(2.0^2)=6\\,\\mathrm{J}\n\\]\nThe loss is \\(12\\,\\mathrm{J}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-06",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) cart moving east at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to a \\(2.0\\,\\mathrm{kg}\\) cart moving north at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\). Find the final velocity vector.",
+      "answer": "\\[\n\\vec{P}=2.0(3.0)\\hat{\\imath}+2.0(4.0)\\hat{\\jmath}=6\\hat{\\imath}+8\\hat{\\jmath}\n\\]\nTotal mass is \\(4.0\\,\\mathrm{kg}\\), so\n\\[\n\\vec{v}_f=1.5\\hat{\\imath}+2.0\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-07",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) ball moving east at \\(15\\,\\mathrm{m\\,s^{-1}}\\) hits a wall and leaves west at \\(10\\,\\mathrm{m\\,s^{-1}}\\). Find the impulse from the wall and state what happens to the wall\u0027s momentum.",
+      "answer": "Take east as positive:\n\\[\nJ=0.20(-10-15)=-5.0\\,\\mathrm{N\\,s}\n\\]\nThe wall gives the ball a westward impulse. By the third law, the ball gives the wall an equal eastward impulse; Earth\u0027s large mass makes the wall\u0027s speed change negligible.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-08",
+      "prompt": "A \\(1000\\,\\mathrm{kg}\\) car moving east at \\(20\\,\\mathrm{m\\,s^{-1}}\\) collides and locks with a \\(1500\\,\\mathrm{kg}\\) van moving north at \\(12\\,\\mathrm{m\\,s^{-1}}\\). Find the wreckage speed and direction.",
+      "answer": "Total momentum is\n\\[\n\\vec{P}=1000(20)\\hat{\\imath}+1500(12)\\hat{\\jmath}\n\\]\nTotal mass is \\(2500\\,\\mathrm{kg}\\), so\n\\[\n\\vec{v}_f=8.0\\hat{\\imath}+7.2\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n|\\vec{v}_f|=\\sqrt{8.0^2+7.2^2}=10.8\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n\\theta=\\tan^{-1}\\left(\\frac{7.2}{8.0}\\right)=42.0^\\circ\n\\]\nnorth of east.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-09",
+      "prompt": "A \\(0.020\\,\\mathrm{kg}\\) projectile embeds in a \\(1.98\\,\\mathrm{kg}\\) block suspended as a pendulum. After the collision, the block-projectile system rises \\(0.20\\,\\mathrm{m}\\). Find the projectile\u0027s speed before impact. State which conservation law applies during each stage and why.",
+      "answer": "During the collision, use momentum because the impact is short and external impulse is negligible. After the collision, use mechanical energy for the swing:\n\\[\n\\frac{1}{2}(2.00)v^2=(2.00)gh\n\\]\n\\[\nv=\\sqrt{2gh}=\\sqrt{2(9.8)(0.20)}=1.98\\,\\mathrm{m\\,s^{-1}}\n\\]\nMomentum during impact gives\n\\[\n0.020u=(2.00)(1.98)\n\\]\n\\[\nu=198\\,\\mathrm{m\\,s^{-1}}\n\\]\nMechanical energy is not conserved during the embedding collision; it is used only for the post-collision rise.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "collisions-momentum-10",
+      "prompt": "A projectile of mass \\(m\\) embeds in a block of mass \\(M\\) attached to a horizontal spring of stiffness \\(k\\). The surface is frictionless and the spring compresses by maximum distance \\(x\\). Derive the projectile\u0027s incoming speed. Explain why mechanical energy is not conserved during the collision.",
+      "answer": "Assume the collision time is short, the surface is frictionless, and the spring energy relation applies after embedding. Momentum during impact:\n\\[\nmu=(M+m)V\n\\]\nAfter impact, spring compression gives\n\\[\n\\frac{1}{2}(M+m)V^2=\\frac{1}{2}kx^2\n\\]\nso\n\\[\nV=x\\sqrt{\\frac{k}{M+m}}\n\\]\nand\n\\[\nu=\\frac{M+m}{m}x\\sqrt{\\frac{k}{M+m}}=\\frac{x\\sqrt{k(M+m)}}{m}\n\\]\nMechanical energy is not conserved during the collision because the projectile embeds and internal deformation/thermal energy is produced.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

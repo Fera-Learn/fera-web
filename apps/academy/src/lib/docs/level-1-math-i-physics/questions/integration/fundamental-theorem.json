@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "fundamental-theorem",
+  "topicTitle": "Fundamental Theorem",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "ft-1",
+      "prompt": "Evaluate the integral from 0 to 2 of x^2 dx using the Fundamental Theorem.",
+      "answer": "8/3",
+      "hints": ["FTC: find antiderivative, evaluate at bounds."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-2",
+      "prompt": "If F(x) = integral from 0 to x of t^2 dt, find F'(x).",
+      "answer": "x^2",
+      "hints": ["FTC Part 1: derivative of integral equals integrand."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-3",
+      "prompt": "Evaluate the integral from 0 to 1 of 3x^2 dx.",
+      "answer": "1",
+      "hints": ["Antiderivative is x^3."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-4",
+      "prompt": "Find d/dx of integral from 1 to x^2 of sin t dt.",
+      "answer": "2x sin(x^2)",
+      "hints": ["Chain rule: derivative of upper bound times integrand at upper bound."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-5",
+      "prompt": "Evaluate the integral from 0 to 1 of e^x dx.",
+      "answer": "e - 1",
+      "hints": ["Antiderivative of e^x is e^x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-6",
+      "prompt": "If F(x) = integral from 0 to x of cos t dt, find F(pi/2).",
+      "answer": "1",
+      "hints": ["FTC: sin(x) evaluated from 0 to pi/2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-7",
+      "prompt": "Find d/dx of integral from x to 1 of sqrt(t) dt.",
+      "answer": "-sqrt(x)",
+      "hints": ["Swap limits to make lower variable: negative integral from 1 to x."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-8",
+      "prompt": "Evaluate the integral from 0 to 4 of (2x - 1) dx.",
+      "answer": "12",
+      "hints": ["Antiderivative: x^2 - x."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-9",
+      "prompt": "Find the average value of f(x) = x on [0, 2].",
+      "answer": "1",
+      "hints": ["Average value = (1/(b-a)) times integral from a to b."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ft-10",
+      "prompt": "If F'(x) = 1/x and F(1) = 0, find F(e).",
+      "answer": "1",
+      "hints": ["F(x) = ln x + C, F(1) = 0 gives C = 0."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

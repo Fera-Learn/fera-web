@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "apparent-weight-on-earth",
+  "topicTitle": "Apparent Weight on Earth",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "apparent-weight-earth-01",
+      "prompt": "In the apparent-weight model, what does a bathroom scale read: \\(mg\\), \\(m\\vec g\\), or the normal reaction \\(N\\)?",
+      "answer": "A scale reads the normal reaction \\(N\\). This can be close to \\(mg\\), but it is not always identical to the gravitational force magnitude.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-02",
+      "prompt": "Is the rotational correction to apparent weight largest at the equator or at the poles?",
+      "answer": "The correction is largest at the equator. It vanishes at the poles because the distance from the rotation axis is zero in the ideal spherical model.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-03",
+      "prompt": "At latitude \\(\\lambda=60^\\circ\\), write the distance \\(r_\\perp\\) from Earth\u0027s rotation axis in terms of Earth\u0027s radius \\(R\\).",
+      "answer": "\\[\nr_\\perp=R\\cos\\lambda\n\\]\nAt \\(\\lambda=60^\\circ\\),\n\\[\nr_\\perp=R\\cos60^\\circ=\\frac{R}{2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-04",
+      "prompt": "Using \\(\\omega=7.29\\times10^{-5}\\,\\mathrm{rad\\,s^{-1}}\\) and \\(R=6.37\\times10^6\\,\\mathrm{m}\\), find the equatorial reduction in scale reading for a \\(75\\,\\mathrm{kg}\\) person compared with \\(mg\\).",
+      "answer": "At the equator, the scale-reading reduction is\n\\[\n\\Delta N=m\\omega^2R\n\\]\n\\[\n\\omega^2R=(7.29\\times10^{-5})^2(6.37\\times10^6)\n=0.0339\\,\\mathrm{m\\,s^{-2}}\n\\]\nso\n\\[\n\\Delta N=75(0.0339)=2.54\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-05",
+      "prompt": "At latitude \\(45^\\circ\\), what fraction of the equatorial rotational correction remains?",
+      "answer": "The correction is proportional to \\(\\cos^2\\lambda\\). At \\(45^\\circ\\),\n\\[\n\\cos^2 45^\\circ=\\left(\\frac{1}{\\sqrt{2}}\\right)^2=\\frac{1}{2}\n\\]\nHalf of the equatorial correction remains.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-06",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) person stands where \\(g=9.81\\,\\mathrm{N\\,kg^{-1}}\\). Find \\(N\\) at the equator using \\(\\omega^2R=0.0339\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "At the equator,\n\\[\nN=m(g-\\omega^2R)\n\\]\n\\[\nN=70(9.81-0.0339)=684\\,\\mathrm{N}\n\\]\nThis is about \\(2.37\\,\\mathrm{N}\\) less than \\(mg\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-07",
+      "prompt": "At what latitude is the rotational correction to apparent weight half its equatorial value?",
+      "answer": "The latitude correction is\n\\[\n\\Delta N(\\lambda)=m\\omega^2R\\cos^2\\lambda\n\\]\nHalf the equatorial value means\n\\[\n\\cos^2\\lambda=\\frac{1}{2}\n\\]\nso\n\\[\n\\lambda=45^\\circ\n\\]\nin either hemisphere.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-08",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) object has a scale reading \\(2.0\\,\\mathrm{N}\\) larger at the pole than at the equator. Estimate Earth\u0027s angular speed using \\(R=6.37\\times10^6\\,\\mathrm{m}\\).",
+      "answer": "The pole-equator difference is\n\\[\nN_{\\mathrm{pole}}-N_{\\mathrm{eq}}=m\\omega^2R\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{N_{\\mathrm{pole}}-N_{\\mathrm{eq}}}{mR}}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{2.0}{(60)(6.37\\times10^6)}}\n=7.2\\times10^{-5}\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-09",
+      "prompt": "Show that the scale reading at latitude \\(\\lambda\\) differs from the equatorial scale reading by \\(m\\omega^2R\\sin^2\\lambda\\).",
+      "answer": "The latitude model gives\n\\[\nN(\\lambda)=m(g-\\omega^2R\\cos^2\\lambda)\n\\]\nAt the equator,\n\\[\nN_{\\mathrm{eq}}=m(g-\\omega^2R)\n\\]\nSubtract:\n\\[\nN(\\lambda)-N_{\\mathrm{eq}}\n=m(g-\\omega^2R\\cos^2\\lambda)-m(g-\\omega^2R)\n\\]\n\\[\nN(\\lambda)-N_{\\mathrm{eq}}\n=m\\omega^2R(1-\\cos^2\\lambda)\n=m\\omega^2R\\sin^2\\lambda\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "apparent-weight-earth-10",
+      "prompt": "In the spherical-Earth model, derive the angular speed \\(\\omega\\) that would make the scale reading zero at latitude \\(\\lambda\\). State where the expression fails physically or mathematically.",
+      "answer": "Set the latitude model to zero:\n\\[\nN=m(g-\\omega^2R\\cos^2\\lambda)=0\n\\]\nAssuming \\(m\\ne 0\\),\n\\[\ng=\\omega^2R\\cos^2\\lambda\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{g}{R\\cos^2\\lambda}}\n\\]\nThe expression fails mathematically at the poles because \\(\\cos\\lambda=0\\). Physically, the simple spherical-Earth contact model would also break down before real Earth behaved like a rigid planet at such high angular speed.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "energy-in-oscillators",
+  "topicTitle": "Energy in Oscillators",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "oscillator-energy-01",
+      "prompt": "A spring oscillator has \\(k=120\\,\\mathrm{N\\,m^{-1}}\\) and amplitude \\(0.050\\,\\mathrm{m}\\). Find its total energy.",
+      "answer": "\\[\nE=\\frac{1}{2}kA^2\n\\]\n\\[\nE=\\frac{1}{2}(120)(0.050)^2=0.150\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-02",
+      "prompt": "Where is the speed of an undamped spring oscillator maximum: at equilibrium or at a turning point?",
+      "answer": "The speed is maximum at equilibrium. There the spring potential energy is minimum, so the kinetic energy is maximum.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-11",
+      "prompt": "If the amplitude of an undamped spring oscillator is doubled, by what factor does its total energy change?",
+      "answer": "Total energy is\n\\[\nE=\\frac{1}{2}kA^2\n\\]\nso \\(E\\propto A^2\\). Doubling amplitude increases energy by\n\\[\n2^2=4\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-03",
+      "prompt": "An oscillator has total energy \\(0.80\\,\\mathrm{J}\\) and spring constant \\(100\\,\\mathrm{N\\,m^{-1}}\\). Find its amplitude.",
+      "answer": "\\[\nE=\\frac{1}{2}kA^2\n\\]\nso\n\\[\nA=\\sqrt{\\frac{2E}{k}}\n=\\sqrt{\\frac{2(0.80)}{100}}\n=0.126\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-12",
+      "prompt": "At \\(x=0\\) in an undamped spring oscillator, what are the spring potential energy and kinetic energy in terms of total energy \\(E\\)?",
+      "answer": "At equilibrium \\(x=0\\), the spring potential energy is\n\\[\nU_s=\\frac{1}{2}kx^2=0\n\\]\nso all the mechanical energy is kinetic:\n\\[\nK=E\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-04",
+      "prompt": "A \\(0.25\\,\\mathrm{kg}\\) mass on a spring has \\(k=64\\,\\mathrm{N\\,m^{-1}}\\) and amplitude \\(0.15\\,\\mathrm{m}\\). Find its maximum speed.",
+      "answer": "At equilibrium all the energy is kinetic:\n\\[\n\\frac{1}{2}mv_{\\max}^2=\\frac{1}{2}kA^2\n\\]\n\\[\nv_{\\max}=A\\sqrt{\\frac{k}{m}}\n=0.15\\sqrt{\\frac{64}{0.25}}\n=2.4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-05",
+      "prompt": "A spring oscillator has amplitude \\(A\\). What fraction of its total energy is potential energy at \\(x=A/2\\)?",
+      "answer": "The potential energy fraction is\n\\[\n\\frac{U_s}{E}=\n\\frac{\\frac{1}{2}kx^2}{\\frac{1}{2}kA^2}\n=\\frac{x^2}{A^2}\n\\]\nAt \\(x=A/2\\),\n\\[\n\\frac{U_s}{E}=\\frac{1}{4}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-13",
+      "prompt": "A spring oscillator has total energy \\(2.5\\,\\mathrm{J}\\) and amplitude \\(0.25\\,\\mathrm{m}\\). Find the spring constant.",
+      "answer": "Use\n\\[\nE=\\frac{1}{2}kA^2\n\\]\nso\n\\[\nk=\\frac{2E}{A^2}\n\\]\n\\[\nk=\\frac{2(2.5)}{0.25^2}=80\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-14",
+      "prompt": "An oscillator has \\(E=3.6\\,\\mathrm{J}\\) and mass \\(0.80\\,\\mathrm{kg}\\). Find its maximum speed.",
+      "answer": "At equilibrium,\n\\[\nE=\\frac{1}{2}mv_{\\max}^2\n\\]\nso\n\\[\nv_{\\max}=\\sqrt{\\frac{2E}{m}}\n=\\sqrt{\\frac{2(3.6)}{0.80}}\n=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-06",
+      "prompt": "A spring oscillator has \\(A=0.20\\,\\mathrm{m}\\) and \\(\\omega=10\\,\\mathrm{rad\\,s^{-1}}\\). Find the speed magnitude at \\(x=0.12\\,\\mathrm{m}\\).",
+      "answer": "Use\n\\[\nv=\\pm\\omega\\sqrt{A^2-x^2}\n\\]\nThe speed magnitude is\n\\[\n|v|=10\\sqrt{0.20^2-0.12^2}\n\\]\n\\[\n|v|=10\\sqrt{0.0256}=1.6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-15",
+      "prompt": "At \\(x=A/3\\), what fraction of an undamped spring oscillator\u0027s total energy is kinetic energy?",
+      "answer": "The potential energy fraction is\n\\[\n\\frac{U_s}{E}=\\frac{x^2}{A^2}\n\\]\nAt \\(x=A/3\\),\n\\[\n\\frac{U_s}{E}=\\frac{1}{9}\n\\]\nTherefore\n\\[\n\\frac{K}{E}=1-\\frac{1}{9}=\\frac{8}{9}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-07",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) mass on a spring has speed \\(1.2\\,\\mathrm{m\\,s^{-1}}\\) as it passes \\(x=0.030\\,\\mathrm{m}\\). The spring constant is \\(200\\,\\mathrm{N\\,m^{-1}}\\). Find the amplitude.",
+      "answer": "Use energy:\n\\[\n\\frac{1}{2}mv^2+\\frac{1}{2}kx^2=\\frac{1}{2}kA^2\n\\]\nso\n\\[\nA^2=x^2+\\frac{m}{k}v^2\n\\]\n\\[\nA^2=(0.030)^2+\\frac{0.50}{200}(1.2)^2\n=0.00450\n\\]\n\\[\nA=0.067\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-08",
+      "prompt": "At what displacement magnitude is the kinetic energy equal to the spring potential energy in an undamped oscillator of amplitude \\(A\\)?",
+      "answer": "Set \\(K=U_s\\). Since \\(E=K+U_s\\), each is \\(E/2\\). Therefore\n\\[\n\\frac{1}{2}kx^2=\\frac{1}{2}\\left(\\frac{1}{2}kA^2\\right)\n\\]\nor more directly,\n\\[\n\\frac{U_s}{E}=\\frac{x^2}{A^2}=\\frac{1}{2}\n\\]\nso\n\\[\n|x|=\\frac{A}{\\sqrt{2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-16",
+      "prompt": "An oscillator has maximum speed \\(0.90\\,\\mathrm{m\\,s^{-1}}\\) and angular frequency \\(6.0\\,\\mathrm{rad\\,s^{-1}}\\). Find its amplitude.",
+      "answer": "For SHM,\n\\[\nv_{\\max}=A\\omega\n\\]\nso\n\\[\nA=\\frac{v_{\\max}}{\\omega}=\\frac{0.90}{6.0}=0.15\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-17",
+      "prompt": "At what displacement magnitude is the speed \\(80\\%\\) of its maximum value in an undamped oscillator of amplitude \\(A\\)?",
+      "answer": "Use\n\\[\n|v|=\\omega\\sqrt{A^2-x^2},\\qquad v_{\\max}=\\omega A\n\\]\nSet \\(|v|=0.80v_{\\max}\\):\n\\[\n\\omega\\sqrt{A^2-x^2}=0.80\\omega A\n\\]\n\\[\nA^2-x^2=0.64A^2\n\\]\n\\[\nx^2=0.36A^2\n\\]\nso\n\\[\n|x|=0.60A\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-09",
+      "prompt": "An oscillator has amplitude \\(A\\). Derive the displacement magnitude where the speed is half its maximum speed.",
+      "answer": "For SHM,\n\\[\nv_{\\max}=\\omega A\n\\]\nand\n\\[\n|v|=\\omega\\sqrt{A^2-x^2}\n\\]\nSet \\(|v|=v_{\\max}/2=\\omega A/2\\):\n\\[\n\\omega\\sqrt{A^2-x^2}=\\frac{\\omega A}{2}\n\\]\n\\[\nA^2-x^2=\\frac{A^2}{4}\n\\]\n\\[\nx^2=\\frac{3A^2}{4}\n\\]\nso\n\\[\n|x|=\\frac{\\sqrt{3}}{2}A\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-18",
+      "prompt": "A damp-free oscillator loses \\(36\\%\\) of its mechanical energy in a brief interaction and then continues oscillating with the same spring constant. By what factor does its amplitude change?",
+      "answer": "If \\(36\\%\\) of the energy is lost, the new energy is\n\\[\nE\u0027=0.64E\n\\]\nFor the same spring,\n\\[\nE\\propto A^2\n\\]\nso\n\\[\n\\frac{A\u0027}{A}=\\sqrt{\\frac{E\u0027}{E}}=\\sqrt{0.64}=0.80\n\\]\nThe amplitude becomes \\(80\\%\\) of its previous value.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-10",
+      "prompt": "A mass \\(m\\) on a spring \\(k\\) is released from rest at \\(x=A\\). When it reaches \\(x=A/3\\), a rough patch removes energy \\(Q\\) instantly without changing position. Derive the condition on \\(Q\\) for the mass still to pass through equilibrium, and find its speed there if it does.",
+      "answer": "The initial energy is\n\\[\nE_i=\\frac{1}{2}kA^2\n\\]\nAt \\(x=A/3\\), just after energy \\(Q\\) is removed, the remaining total energy is\n\\[\nE\u0027=\\frac{1}{2}kA^2-Q\n\\]\nTo pass through equilibrium, the oscillator must have nonnegative kinetic energy at \\(x=0\\), so\n\\[\nE\u0027\u003e0\n\\]\nFor strictly passing through with nonzero speed,\n\\[\nQ\u003c\\frac{1}{2}kA^2\n\\]\nThen at equilibrium,\n\\[\n\\frac{1}{2}mv_0^2=E\u0027\n\\]\nso\n\\[\nv_0=\\sqrt{\\frac{kA^2-2Q}{m}}\n\\]\nThe position \\(A/3\\) matters as a consistency check: immediately after the loss, the remaining energy must also exceed the spring energy there,\n\\[\nE\u0027\\ge \\frac{1}{2}k\\left(\\frac{A}{3}\\right)^2\n\\]\notherwise that instantaneous state would be impossible after the removal. This gives \\(Q\\le \\frac{4}{9}kA^2\\), which is stricter than the equilibrium-passing condition in this setup.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-19",
+      "prompt": "A mass \\(m\\) on a spring \\(k\\) passes \\(x=x_0\\) with speed \\(v_0\\). Derive the amplitude using energy, and state the condition on \\(x_0\\) and \\(v_0\\) for the state to be physically possible.",
+      "answer": "Energy gives\n\\[\n\\frac{1}{2}mv_0^2+\\frac{1}{2}kx_0^2=\\frac{1}{2}kA^2\n\\]\nMultiply by \\(2/k\\):\n\\[\n\\frac{m}{k}v_0^2+x_0^2=A^2\n\\]\nThus\n\\[\nA=\\sqrt{x_0^2+\\frac{m}{k}v_0^2}\n\\]\nThe expression under the square root is nonnegative for real \\(x_0\\) and \\(v_0\\), so it gives a physical amplitude. The state must also satisfy \\(|x_0|\\le A\\), which follows automatically because the added kinetic term is nonnegative.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "oscillator-energy-20",
+      "prompt": "A spring oscillator has amplitude \\(A\\). A sensor may be active only where the kinetic energy is at least a fraction \\(q\\) of the total energy. Derive the allowed interval of \\(x\\), and state the allowed range of \\(q\\).",
+      "answer": "The kinetic energy fraction is\n\\[\n\\frac{K}{E}=1-\\frac{U_s}{E}=1-\\frac{x^2}{A^2}\n\\]\nRequire\n\\[\n\\frac{K}{E}\\ge q\n\\]\nso\n\\[\n1-\\frac{x^2}{A^2}\\ge q\n\\]\n\\[\n\\frac{x^2}{A^2}\\le 1-q\n\\]\nTherefore the allowed interval is\n\\[\n|x|\\le A\\sqrt{1-q}\n\\]\nor\n\\[\n-A\\sqrt{1-q}\\le x\\le A\\sqrt{1-q}\n\\]\nFor a kinetic-energy fraction threshold, the meaningful range is\n\\[\n0\\le q\\le1\n\\]\nIf \\(q=1\\), only \\(x=0\\) qualifies; if \\(q=0\\), the full interval \\([-A,A]\\) qualifies.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

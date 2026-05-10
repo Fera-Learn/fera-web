@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "fluids",
+  "topicId": "fluid-flow",
+  "topicTitle": "Fluid Flow",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fluids-flow-01",
+      "prompt": "Water flows through a pipe of area \\(3.0\\times10^{-4}\\,\\mathrm{m^2}\\) at speed \\(2.0\\,\\mathrm{m\\,s^{-1}}\\). Find the volume flow rate.",
+      "answer": "\\[\nQ=Av=(3.0\\times10^{-4})(2.0)=6.0\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-02",
+      "prompt": "Oil of density \\(850\\,\\mathrm{kg\\,m^{-3}}\\) flows through area \\(4.0\\times10^{-4}\\,\\mathrm{m^2}\\) at speed \\(1.5\\,\\mathrm{m\\,s^{-1}}\\). Find the mass flow rate.",
+      "answer": "\\[\n\\dot m=\\rho Av=(850)(4.0\\times10^{-4})(1.5)=0.51\\,\\mathrm{kg\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-03",
+      "prompt": "Incompressible fluid flows from area \\(8.0\\times10^{-4}\\,\\mathrm{m^2}\\) at speed \\(1.2\\,\\mathrm{m\\,s^{-1}}\\) into area \\(2.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the new speed.",
+      "answer": "For incompressible steady flow,\n\\[\nA_1v_1=A_2v_2\n\\]\n\\[\nv_2=\\frac{A_1}{A_2}v_1\n=\\frac{8.0\\times10^{-4}}{2.0\\times10^{-4}}(1.2)\n=4.8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-04",
+      "prompt": "A flow rate of \\(1.5\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\\) passes through a pipe at average speed \\(0.75\\,\\mathrm{m\\,s^{-1}}\\). Find the pipe area.",
+      "answer": "\\[\nA=\\frac{Q}{v}=\\frac{1.5\\times10^{-3}}{0.75}\n=2.0\\times10^{-3}\\,\\mathrm{m^2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-05",
+      "prompt": "An incompressible fluid moves from a pipe of radius \\(4.0\\,\\mathrm{cm}\\) into a nozzle of radius \\(2.0\\,\\mathrm{cm}\\). If the pipe speed is \\(0.60\\,\\mathrm{m\\,s^{-1}}\\), find the nozzle speed.",
+      "answer": "Area is proportional to \\(r^2\\), so\n\\[\n\\frac{A_1}{A_2}=\\left(\\frac{4.0}{2.0}\\right)^2=4\n\\]\nThus\n\\[\nv_2=4v_1=4(0.60)=2.4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-06",
+      "prompt": "A tank of volume \\(0.30\\,\\mathrm{m^3}\\) is filled by a steady inflow of \\(2.5\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\\). How long does it take to fill?",
+      "answer": "\\[\nt=\\frac{V}{Q}=\\frac{0.30}{2.5\\times10^{-3}}=120\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-07",
+      "prompt": "A steady incompressible flow of \\(9.0\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\\) splits into two branches. One branch carries \\(3.5\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\\). The other branch has area \\(2.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the speed in the other branch.",
+      "answer": "The second branch carries\n\\[\nQ_2=9.0\\times10^{-4}-3.5\\times10^{-4}=5.5\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\nso\n\\[\nv_2=\\frac{Q_2}{A_2}=\\frac{5.5\\times10^{-4}}{2.0\\times10^{-4}}\n=2.75\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-08",
+      "prompt": "A compressible gas flows steadily with \\(\\rho_1=1.2\\,\\mathrm{kg\\,m^{-3}}\\), \\(A_1=0.080\\,\\mathrm{m^2}\\), and \\(v_1=25\\,\\mathrm{m\\,s^{-1}}\\). Downstream, \\(\\rho_2=0.90\\,\\mathrm{kg\\,m^{-3}}\\) and \\(A_2=0.12\\,\\mathrm{m^2}\\). Find \\(v_2\\).",
+      "answer": "Use steady mass conservation:\n\\[\n\\rho_1A_1v_1=\\rho_2A_2v_2\n\\]\n\\[\nv_2=\\frac{\\rho_1A_1v_1}{\\rho_2A_2}\n=\\frac{(1.2)(0.080)(25)}{(0.90)(0.12)}\n=22\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-09",
+      "prompt": "A nozzle delivers \\(12\\,\\mathrm{L}\\) of water in \\(30\\,\\mathrm{s}\\). The nozzle area is \\(5.0\\times10^{-5}\\,\\mathrm{m^2}\\). Find the average exit speed.",
+      "answer": "Convert \\(12\\,\\mathrm{L}=0.012\\,\\mathrm{m^3}\\):\n\\[\nQ=\\frac{0.012}{30}=4.0\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\n\\[\nv=\\frac{Q}{A}=\\frac{4.0\\times10^{-4}}{5.0\\times10^{-5}}\n=8.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-10",
+      "prompt": "Two sections of the same steady gas flow have equal area. If the density at section 2 is \\(80\\%\\) of the density at section 1, find \\(v_2/v_1\\).",
+      "answer": "Steady mass flow with equal areas gives\n\\[\n\\rho_1v_1=\\rho_2v_2\n\\]\nWith \\(\\rho_2=0.80\\rho_1\\),\n\\[\n\\frac{v_2}{v_1}=\\frac{\\rho_1}{\\rho_2}=\\frac{1}{0.80}=1.25\n\\]\nThe lower-density section must move faster to carry the same mass per second.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-11",
+      "prompt": "Water has flow rate \\(4.0\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\\) in a circular pipe of radius \\(2.5\\,\\mathrm{cm}\\). Find the average speed.",
+      "answer": "The area is\n\\[\nA=\\pi r^2=\\pi(0.025)^2=1.96\\times10^{-3}\\,\\mathrm{m^2}\n\\]\nso\n\\[\nv=\\frac{Q}{A}=\\frac{4.0\\times10^{-3}}{1.96\\times10^{-3}}\n=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-12",
+      "prompt": "An incompressible flow enters one pipe of area \\(7.0\\times10^{-4}\\,\\mathrm{m^2}\\) at \\(1.8\\,\\mathrm{m\\,s^{-1}}\\) and leaves through two outlets. Outlet A has area \\(2.0\\times10^{-4}\\,\\mathrm{m^2}\\) and speed \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). Outlet B has area \\(3.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the speed in outlet B.",
+      "answer": "Inflow:\n\\[\nQ_{\\mathrm{in}}=A_{\\mathrm{in}}v_{\\mathrm{in}}=(7.0\\times10^{-4})(1.8)=1.26\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\nOutlet A:\n\\[\nQ_A=(2.0\\times10^{-4})(3.0)=6.0\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\nOutlet B carries\n\\[\nQ_B=1.26\\times10^{-3}-6.0\\times10^{-4}=6.6\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\nThus\n\\[\nv_B=\\frac{Q_B}{A_B}=\\frac{6.6\\times10^{-4}}{3.0\\times10^{-4}}\n=2.2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-13",
+      "prompt": "In a tapered tube, the radius doubles between section 1 and section 2. For incompressible steady flow, find \\(v_2/v_1\\) and explain the physical reason.",
+      "answer": "If radius doubles, area increases by a factor of \\(4\\). Since \\(Av\\) is constant for incompressible steady flow,\n\\[\n\\frac{v_2}{v_1}=\\frac{A_1}{A_2}=\\frac{1}{4}\n\\]\nThe flow slows because the same volume per second is spread across a larger cross-section.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-14",
+      "prompt": "A storage tank receives water at \\(3.2\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\\) and drains at \\(2.5\\times10^{-3}\\,\\mathrm{m^3\\,s^{-1}}\\). Find the rate at which the water volume in the tank changes and state whether the tank volume is steady.",
+      "answer": "\\[\n\\frac{dV}{dt}=Q_{\\mathrm{in}}-Q_{\\mathrm{out}}\n=3.2\\times10^{-3}-2.5\\times10^{-3}\n=7.0\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]\nThe tank volume is increasing, so the amount of water in the tank is not steady.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-15",
+      "prompt": "A steady flow has mass flow rate \\(0.72\\,\\mathrm{kg\\,s^{-1}}\\). At one section the fluid density is \\(900\\,\\mathrm{kg\\,m^{-3}}\\) and the area is \\(4.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the speed and decide whether treating \\(Q\\) as constant would require constant density.",
+      "answer": "Use mass flow rate:\n\\[\n\\dot m=\\rho Av\n\\]\n\\[\nv=\\frac{\\dot m}{\\rho A}\n=\\frac{0.72}{(900)(4.0\\times10^{-4})}\n=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nTreating \\(Q=Av\\) as constant across sections requires constant density. Mass flow rate is the conserved quantity for general steady flow.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-16",
+      "prompt": "A pipe radius varies as \\(r(x)=r_0(1+x/L)\\) for \\(0\\le x\\le L\\). For incompressible steady flow with speed \\(v_0\\) at \\(x=0\\), derive \\(v(x)\\).",
+      "answer": "For incompressible steady flow,\n\\[\nA(x)v(x)=A(0)v_0\n\\]\nSince \\(A=\\pi r^2\\),\n\\[\n\\pi r_0^2v_0=\\pi r_0^2\\left(1+\\frac{x}{L}\\right)^2v(x)\n\\]\nTherefore\n\\[\nv(x)=\\frac{v_0}{(1+x/L)^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-17",
+      "prompt": "A channel of width \\(w\\) and height \\(H\\) has velocity profile \\(v(y)=v_0y/H\\) for \\(0\\le y\\le H\\). Derive the volume flow rate and the average speed across the section.",
+      "answer": "For a strip of thickness \\(dy\\), \\(dA=w\\,dy\\). Then\n\\[\nQ=\\int v\\,dA=w\\int_0^H v_0\\frac{y}{H}\\,dy\n\\]\n\\[\nQ=\\frac{wv_0}{H}\\frac{H^2}{2}=\\frac{1}{2}wHv_0\n\\]\nThe area is \\(wH\\), so\n\\[\nv_{\\mathrm{avg}}=\\frac{Q}{wH}=\\frac{v_0}{2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-18",
+      "prompt": "A circular pipe has velocity profile \\(v(r)=v_{\\max}(1-r^2/R^2)\\). Derive the volume flow rate \\(Q\\) and average speed \\(Q/(\\pi R^2)\\).",
+      "answer": "Use rings of area \\(dA=2\\pi r\\,dr\\):\n\\[\nQ=\\int_0^R v_{\\max}\\left(1-\\frac{r^2}{R^2}\\right)2\\pi r\\,dr\n\\]\n\\[\nQ=2\\pi v_{\\max}\\left[\\frac{r^2}{2}-\\frac{r^4}{4R^2}\\right]_0^R\n=\\frac{1}{2}\\pi R^2v_{\\max}\n\\]\nTherefore\n\\[\nv_{\\mathrm{avg}}=\\frac{Q}{\\pi R^2}=\\frac{v_{\\max}}{2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-19",
+      "prompt": "For an incompressible steady flow in a smoothly varying tube, \\(A(x)v(x)=Q\\). Derive \\(dv/dx\\) in terms of \\(v\\), \\(A\\), and \\(dA/dx\\), and interpret the sign when the tube narrows.",
+      "answer": "Differentiate \\(A(x)v(x)=Q\\), where \\(Q\\) is constant:\n\\[\n\\frac{d}{dx}(Av)=A\\frac{dv}{dx}+v\\frac{dA}{dx}=0\n\\]\nso\n\\[\n\\frac{dv}{dx}=-\\frac{v}{A}\\frac{dA}{dx}\n\\]\nIf the tube narrows, \\(dA/dx\u003c0\\), so \\(dv/dx\u003e0\\): the speed increases.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-flow-20",
+      "prompt": "A steady stream of liquid enters a mixing junction with \\(\\rho_1,A_1,v_1\\), while a second stream enters with \\(\\rho_2,A_2,v_2\\). The mixed stream exits through area \\(A_3\\) with density \\(\\rho_3\\). Derive \\(v_3\\) from mass conservation and state the condition under which you could instead conserve volume flow rate.",
+      "answer": "Mass conservation at the junction gives\n\\[\n\\rho_1A_1v_1+\\rho_2A_2v_2=\\rho_3A_3v_3\n\\]\nso\n\\[\nv_3=\\frac{\\rho_1A_1v_1+\\rho_2A_2v_2}{\\rho_3A_3}\n\\]\nYou can conserve volume flow rate instead only when the density is the same for the streams being compared, or when density changes are negligible for the model.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

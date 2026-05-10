@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "x-ray-diffraction",
+  "topicTitle": "X-Ray Diffraction",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "x-ray-diffraction-01",
+      "prompt": "State Bragg's law for x-ray diffraction.",
+      "answer": "\\[\n2d\\sin\\theta=m\\lambda\n\\]\nwhere \\(d\\) is plane spacing and \\(\\theta\\) is the Bragg angle.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-02",
+      "prompt": "What physical path difference leads to Bragg's law?",
+      "answer": "Reflections from adjacent crystal planes have path difference\n\\[\n\\Delta r=2d\\sin\\theta\n\\]\nConstructive interference requires \\(\\Delta r=m\\lambda\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-03",
+      "prompt": "Why are x-rays used for crystal diffraction?",
+      "answer": "X-ray wavelengths are comparable with atomic spacings in crystals, so waves scattered from adjacent planes can interfere strongly.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-04",
+      "prompt": "X-rays of wavelength \\(0.154\\,\\mathrm{nm}\\) reflect from planes spaced \\(0.200\\,\\mathrm{nm}\\). Find the first-order Bragg angle.",
+      "answer": "\\[\n\\sin\\theta=\\frac{m\\lambda}{2d}=\\frac{0.154}{2(0.200)}=0.385\n\\]\nso\n\\[\n\\theta=22.6^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-05",
+      "prompt": "A first-order x-ray reflection occurs at \\(30.0^\\circ\\) for \\(\\lambda=0.150\\,\\mathrm{nm}\\). Find \\(d\\).",
+      "answer": "\\[\nd=\\frac{m\\lambda}{2\\sin\\theta}=\\frac{0.150\\,\\mathrm{nm}}{2\\sin30.0^\\circ}=0.150\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-06",
+      "prompt": "For \\(d=0.300\\,\\mathrm{nm}\\) and \\(\\lambda=0.100\\,\\mathrm{nm}\\), find the first-order Bragg angle.",
+      "answer": "\\[\n\\sin\\theta=\\frac{0.100}{2(0.300)}=0.1667\n\\]\nso\n\\[\n\\theta=9.59^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-07",
+      "prompt": "For \\(d=0.300\\,\\mathrm{nm}\\) and \\(\\lambda=0.100\\,\\mathrm{nm}\\), find the third-order Bragg angle.",
+      "answer": "\\[\n\\sin\\theta=\\frac{3(0.100)}{2(0.300)}=0.500\n\\]\nso\n\\[\n\\theta=30.0^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-08",
+      "prompt": "What is the maximum possible order for x-ray diffraction?",
+      "answer": "Allowed orders satisfy\n\\[\nm\\lambda\\le2d\n\\]\nso\n\\[\nm_{\\max}=\\left\\lfloor\\frac{2d}{\\lambda}\\right\\rfloor\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-09",
+      "prompt": "For \\(d=0.250\\,\\mathrm{nm}\\) and \\(\\lambda=0.120\\,\\mathrm{nm}\\), find the largest possible order.",
+      "answer": "\\[\n\\frac{2d}{\\lambda}=\\frac{2(0.250)}{0.120}=4.17\n\\]\nso \\(m_{\\max}=4\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-10",
+      "prompt": "Why is a proposed Bragg reflection impossible if \\(m\\lambda>2d\\)?",
+      "answer": "Bragg's law would require\n\\[\n\\sin\\theta=\\frac{m\\lambda}{2d}>1\n\\]\nwhich is impossible for a real angle.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-11",
+      "prompt": "In Bragg's law, is \\(\\theta\\) measured from the crystal plane or from the normal to the plane?",
+      "answer": "The Bragg angle \\(\\theta\\) is measured from the crystal planes. This differs from many reflection/refraction angles, which are measured from the normal.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-12",
+      "prompt": "A second-order reflection occurs at \\(45.0^\\circ\\) for \\(\\lambda=0.100\\,\\mathrm{nm}\\). Find \\(d\\).",
+      "answer": "\\[\nd=\\frac{m\\lambda}{2\\sin\\theta}=\\frac{2(0.100\\,\\mathrm{nm})}{2\\sin45.0^\\circ}=0.141\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-13",
+      "prompt": "How does the Bragg angle change with order \\(m\\) for fixed \\(d\\) and \\(\\lambda\\)?",
+      "answer": "Since \\(\\sin\\theta=m\\lambda/(2d)\\), increasing \\(m\\) increases \\(\\theta\\), as long as the order is possible.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-14",
+      "prompt": "How does the Bragg angle change if the plane spacing \\(d\\) increases while \\(m\\) and \\(\\lambda\\) stay fixed?",
+      "answer": "Since \\(\\sin\\theta=m\\lambda/(2d)\\), increasing \\(d\\) decreases \\(\\sin\\theta\\), so the Bragg angle decreases.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-15",
+      "prompt": "A first-order Bragg peak is at \\(20.0^\\circ\\) for \\(0.0710\\,\\mathrm{nm}\\) x-rays. Find the plane spacing.",
+      "answer": "\\[\nd=\\frac{0.0710\\,\\mathrm{nm}}{2\\sin20.0^\\circ}=0.104\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-16",
+      "prompt": "Why does x-ray diffraction provide evidence for regular crystal structure?",
+      "answer": "Sharp Bragg peaks occur only when many regularly spaced scattering planes reinforce at specific angles. Random atomic positions would not produce the same sharp pattern.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-17",
+      "prompt": "Derive Bragg's law from path difference.",
+      "answer": "The extra distance for a ray reflecting from the lower plane is \\(d\\sin\\theta\\) on the way in and \\(d\\sin\\theta\\) on the way out, so\n\\[\n\\Delta r=2d\\sin\\theta\n\\]\nConstructive interference requires \\(\\Delta r=m\\lambda\\), giving\n\\[\n2d\\sin\\theta=m\\lambda\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-18",
+      "prompt": "A diffraction peak at \\(\\theta=25.0^\\circ\\) is mistakenly treated as an angle from the normal. What common error results?",
+      "answer": "Bragg's law uses the angle from the crystal planes. Using a normal-measured angle without conversion substitutes the complementary angle and gives the wrong plane spacing.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-19",
+      "prompt": "For \\(d=0.200\\,\\mathrm{nm}\\), what x-ray wavelength gives a first-order Bragg angle of \\(30.0^\\circ\\)?",
+      "answer": "\\[\n\\lambda=\\frac{2d\\sin\\theta}{m}=2(0.200\\,\\mathrm{nm})\\sin30.0^\\circ=0.200\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "x-ray-diffraction-20",
+      "prompt": "A crystal has \\(d=0.180\\,\\mathrm{nm}\\). Can \\(0.500\\,\\mathrm{nm}\\) radiation produce a first-order Bragg reflection?",
+      "answer": "For first order, a solution requires \\(\\lambda\\le2d\\). Here\n\\[\n2d=0.360\\,\\mathrm{nm}<0.500\\,\\mathrm{nm}\n\\]\nso no first-order Bragg reflection is possible.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

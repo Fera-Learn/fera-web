@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "fields-from-moving-charges",
+  "topicTitle": "Fields from Moving Charges",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "fields-moving-charges-01",
+      "prompt": "What condition must a point charge satisfy in order to produce a magnetic field?",
+      "answer": "The charge must be moving. A stationary charge produces an electric field, but the magnetic field from this model depends on its velocity.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-02",
+      "prompt": "State the magnetic field magnitude from a slowly moving point charge.",
+      "answer": "For a point charge moving slowly compared with the speed of light,\n\\[\nB=\\frac{\\mu_0}{4\\pi}\\frac{|q|v\\sin\\theta}{r^2}\n\\]\nwhere \\(\\theta\\) is the angle between the velocity and the line from the charge to the field point.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-03",
+      "prompt": "A positive charge moves to the right. At a point directly above the charge, is the magnetic field into or out of the page?",
+      "answer": "For a positive charge, use \\(\\vec v\\times\\hat r\\). Right crossed with up points out of the page, so the magnetic field is out of the page.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-04",
+      "prompt": "A charge \\(3.0\\times10^{-6}\\,\\mathrm C\\) moves at \\(2.0\\times10^4\\,\\mathrm{m\\,s^{-1}}\\). Find \\(B\\) at a point \\(0.30\\,\\mathrm m\\) away, perpendicular to the velocity.",
+      "answer": "Here \\(\\sin\\theta=1\\):\n\\[\nB=\\frac{\\mu_0}{4\\pi}\\frac{qv}{r^2}\n\\]\n\\[\nB=10^{-7}\\frac{(3.0\\times10^{-6})(2.0\\times10^4)}{0.30^2}\n\\]\n\\[\nB=6.7\\times10^{-8}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-05",
+      "prompt": "A positive charge moves so that the angle between \\(\\vec v\\) and \\(\\vec r\\) is \\(30^\\circ\\). With \\(q=4.0\\times10^{-6}\\,\\mathrm C\\), \\(v=5.0\\times10^4\\,\\mathrm{m\\,s^{-1}}\\), and \\(r=0.20\\,\\mathrm m\\), find \\(B\\).",
+      "answer": "Use \\(\\sin30^\\circ=0.50\\):\n\\[\nB=10^{-7}\\frac{(4.0\\times10^{-6})(5.0\\times10^4)(0.50)}{0.20^2}\n\\]\n\\[\nB=2.5\\times10^{-7}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-06",
+      "prompt": "Why is the magnetic field from a moving charge zero at a point directly in front of the charge's instantaneous velocity?",
+      "answer": "At a point directly in front of the charge, \\(\\vec v\\) is parallel to \\(\\hat r\\). Therefore\n\\[\n\\vec v\\times\\hat r=\\vec 0\n\\]\nand\n\\[\nB\\propto \\sin0=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-07",
+      "prompt": "A negative charge moves to the right. At a point directly above it, is the magnetic field into or out of the page?",
+      "answer": "For a positive charge, right crossed with up gives out of the page. The source charge is negative, so the field reverses. The magnetic field is into the page.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-08",
+      "prompt": "A charge \\(+1.0\\,\\mathrm{nC}\\) moves with \\(\\vec v=2.0\\times10^5\\hat\\imath\\,\\mathrm{m\\,s^{-1}}\\). Find \\(\\vec B\\) at a point \\(0.10\\,\\mathrm m\\) in the \\(+y\\) direction from the charge.",
+      "answer": "Here \\(\\hat r=\\hat\\jmath\\), so\n\\[\n\\vec v\\times\\hat r=(2.0\\times10^5\\hat\\imath)\\times\\hat\\jmath=2.0\\times10^5\\hat k\n\\]\nThe magnitude is\n\\[\nB=10^{-7}\\frac{(1.0\\times10^{-9})(2.0\\times10^5)}{0.10^2}\n\\]\n\\[\nB=2.0\\times10^{-9}\\,\\mathrm T\n\\]\nThus\n\\[\n\\vec B=2.0\\times10^{-9}\\hat k\\,\\mathrm T\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-09",
+      "prompt": "For the same moving charge and same angle \\(\\theta\\), the speed is doubled and the field point is moved three times farther away. By what factor does \\(B\\) change?",
+      "answer": "The moving-charge field scales as\n\\[\nB\\propto \\frac{v}{r^2}\n\\]\nDoubling \\(v\\) multiplies \\(B\\) by \\(2\\). Tripling \\(r\\) divides \\(B\\) by \\(3^2=9\\). Therefore\n\\[\n\\frac{B'}{B}=\\frac{2}{9}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fields-moving-charges-10",
+      "prompt": "A positive charge moves along the \\(+x\\)-axis. Compare the magnetic fields at points \\((0,a,0)\\) and \\((0,0,a)\\), both measured from the charge at the same instant.",
+      "answer": "Both points are the same distance \\(a\\) from the charge and are perpendicular to \\(\\vec v\\), so the magnitudes are equal:\n\\[\nB=\\frac{\\mu_0}{4\\pi}\\frac{qv}{a^2}\n\\]\nAt \\((0,a,0)\\), \\(\\hat r=\\hat\\jmath\\), so\n\\[\n\\vec v\\times\\hat r=\\hat\\imath\\times\\hat\\jmath=\\hat k\n\\]\nAt \\((0,0,a)\\), \\(\\hat r=\\hat k\\), so\n\\[\n\\vec v\\times\\hat r=\\hat\\imath\\times\\hat k=-\\hat\\jmath\n\\]\nThe fields have equal magnitude but different perpendicular directions.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

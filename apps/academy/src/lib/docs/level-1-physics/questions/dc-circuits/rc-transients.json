@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "dc-circuits",
+  "topicId": "rc-transients",
+  "topicTitle": "RC Transients",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "rc-transients-01",
+      "prompt": "What is the time constant of a simple RC circuit?",
+      "answer": "For a simple RC circuit,\n\\[\n\\tau=RC\n\\]\nIt has units of seconds and sets the exponential time scale.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-02",
+      "prompt": "A capacitor charges from an ideal DC source of emf \\(\\mathcal E\\). What is the final capacitor voltage after a very long time?",
+      "answer": "After a very long time, the current goes to zero and the capacitor voltage equals the source emf:\n\\[\nV_C(\\infty)=\\mathcal E\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-03",
+      "prompt": "An initially uncharged capacitor charges through a resistor \\(R\\) from an ideal source \\(\\mathcal E\\). What is the initial current?",
+      "answer": "At \\(t=0\\), an initially uncharged capacitor has \\(V_C=0\\). The full source voltage is across the resistor, so\n\\[\nI_0=\\frac{\\mathcal E}{R}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-04",
+      "prompt": "What fraction of its final voltage has a charging capacitor reached after one time constant?",
+      "answer": "For charging,\n\\[\n\\frac{V_C(\\tau)}{V_f}=1-e^{-1}=0.632\n\\]\nSo the capacitor has reached about \\(63.2\\%\\) of its final voltage.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-05",
+      "prompt": "How many time constants are needed for a charging capacitor to reach \\(90\\%\\) of its final voltage?",
+      "answer": "For charging,\n\\[\n\\frac{V_C}{V_f}=1-e^{-t/\\tau}\n\\]\nSet this equal to \\(0.90\\):\n\\[\n0.90=1-e^{-t/\\tau}\n\\]\n\\[\ne^{-t/\\tau}=0.10\n\\]\n\\[\nt=\\tau\\ln 10=2.30\\tau\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-06",
+      "prompt": "A discharging capacitor has been connected to a resistor for two time constants. What fraction of its initial voltage remains?",
+      "answer": "For discharge,\n\\[\n\\frac{V_C}{V_0}=e^{-t/\\tau}\n\\]\nAt \\(t=2\\tau\\),\n\\[\n\\frac{V_C}{V_0}=e^{-2}=0.135\n\\]\nAbout \\(13.5\\%\\) remains.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-07",
+      "prompt": "Find the time constant for \\(R=20\\,\\mathrm{k}\\Omega\\) and \\(C=50\\,\\mu\\mathrm{F}\\).",
+      "answer": "\\[\n\\tau=RC=(20\\times10^3)(50\\times10^{-6})=1.0\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-08",
+      "prompt": "A \\(10\\,\\mathrm{V}\\) source charges a \\(100\\,\\mu\\mathrm{F}\\) capacitor through \\(2.0\\,\\mathrm{k}\\Omega\\). Find the initial current, the time constant, and \\(V_C\\) at \\(t=0.20\\,\\mathrm{s}\\).",
+      "answer": "Initial current:\n\\[\nI_0=\\frac{10}{2.0\\times10^3}=5.0\\times10^{-3}\\,\\mathrm{A}\n=5.0\\,\\mathrm{mA}\n\\]\nTime constant:\n\\[\n\\tau=RC=(2.0\\times10^3)(100\\times10^{-6})=0.20\\,\\mathrm{s}\n\\]\nAt \\(t=0.20\\,\\mathrm{s}=\\tau\\),\n\\[\nV_C=10(1-e^{-1})=6.32\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-09",
+      "prompt": "A capacitor initially at \\(12\\,\\mathrm{V}\\) discharges through \\(3.0\\,\\mathrm{k}\\Omega\\). The capacitance is \\(200\\,\\mu\\mathrm{F}\\). Find the capacitor voltage after \\(1.2\\,\\mathrm{s}\\).",
+      "answer": "The time constant is\n\\[\n\\tau=RC=(3.0\\times10^3)(200\\times10^{-6})=0.60\\,\\mathrm{s}\n\\]\nSince \\(1.2\\,\\mathrm{s}=2\\tau\\),\n\\[\nV_C=12e^{-2}=1.62\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-10",
+      "prompt": "Derive the charging differential equation for a series \\(RC\\) circuit connected to a source \\(\\mathcal E\\).",
+      "answer": "For a source, resistor, and capacitor in series,\n\\[\n\\mathcal E-IR-\\frac{q}{C}=0\n\\]\nUse \\(I=dq/dt\\):\n\\[\n\\mathcal E-R\\frac{dq}{dt}-\\frac{q}{C}=0\n\\]\nor\n\\[\nR\\frac{dq}{dt}+\\frac{q}{C}=\\mathcal E\n\\]\nThis is the charging differential equation.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-11",
+      "prompt": "Derive the discharging equation \\(q(t)=q_0e^{-t/RC}\\) from the loop equation.",
+      "answer": "For discharge, there is no source. The resistor and capacitor loop gives\n\\[\nIR+\\frac{q}{C}=0\n\\]\nDuring discharge, if \\(q\\) is defined as the remaining capacitor charge, the current leaving the capacitor makes \\(I=-dq/dt\\). Thus\n\\[\n-R\\frac{dq}{dt}+\\frac{q}{C}=0\n\\]\nor\n\\[\n\\frac{dq}{dt}=-\\frac{q}{RC}\n\\]\nSeparate variables:\n\\[\n\\frac{dq}{q}=-\\frac{dt}{RC}\n\\]\nIntegrate:\n\\[\n\\ln q=-\\frac{t}{RC}+\\text{constant}\n\\]\nUsing \\(q(0)=q_0\\),\n\\[\nq(t)=q_0e^{-t/RC}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-12",
+      "prompt": "In charging a capacitor \\(C\\) from an ideal source \\(\\mathcal E\\) through a resistor, how much energy is ultimately stored in the capacitor, how much energy is supplied by the source, and where does the difference go?",
+      "answer": "The final stored energy is\n\\[\nU_C=\\frac{1}{2}C\\mathcal E^2\n\\]\nThe source supplies charge \\(Q=C\\mathcal E\\) through emf \\(\\mathcal E\\), so\n\\[\nE_{\\mathrm{source}}=Q\\mathcal E=C\\mathcal E^2\n\\]\nThe difference is\n\\[\nC\\mathcal E^2-\\frac{1}{2}C\\mathcal E^2\n=\\frac{1}{2}C\\mathcal E^2\n\\]\nThat energy is dissipated as thermal energy in the resistor.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-13",
+      "prompt": "During charging, how long does it take for the current to fall to \\(25\\%\\) of its initial value?",
+      "answer": "Charging current decays as\n\\[\nI(t)=I_0e^{-t/\\tau}\n\\]\nSet \\(I/I_0=0.25\\):\n\\[\n0.25=e^{-t/\\tau}\n\\]\n\\[\nt=\\tau\\ln 4=1.39\\tau\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-14",
+      "prompt": "In a DC circuit after a very long time, how does an ideal capacitor branch behave? Explain using current.",
+      "answer": "After a very long time in a DC circuit, the capacitor voltage is constant, so\n\\[\nI=C\\frac{dV_C}{dt}=0\n\\]\nThe capacitor branch behaves like an open circuit for steady DC current.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-15",
+      "prompt": "Immediately after an uncharged capacitor is connected in series with a resistor and ideal source, what is the capacitor voltage and why is the initial current finite?",
+      "answer": "An initially uncharged capacitor has\n\\[\nV_C(0)=0\n\\]\nCapacitor voltage cannot jump instantly in a finite-current circuit, so at the first instant the source voltage appears across the resistor. The initial current is finite:\n\\[\nI_0=\\frac{\\mathcal E}{R}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-16",
+      "prompt": "A capacitor initially at \\(5.0\\,\\mathrm{V}\\) is connected through a resistor to a \\(12\\,\\mathrm{V}\\) source. Write \\(V_C(t)\\) in terms of \\(\\tau=RC\\).",
+      "answer": "For a first-order RC circuit, the capacitor voltage moves exponentially from its initial value to its final value:\n\\[\nV_C(t)=V_f+(V_i-V_f)e^{-t/\\tau}\n\\]\nHere \\(V_i=5.0\\,\\mathrm{V}\\) and \\(V_f=12\\,\\mathrm{V}\\), so\n\\[\nV_C(t)=12+(5.0-12)e^{-t/\\tau}\n=12-7.0e^{-t/\\tau}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-17",
+      "prompt": "A capacitor is connected from a divider node to ground. The divider has \\(4.0\\,\\mathrm{k}\\Omega\\) from a \\(12\\,\\mathrm{V}\\) source to the node and \\(6.0\\,\\mathrm{k}\\Omega\\) from the node to ground. The capacitor is \\(10\\,\\mu\\mathrm{F}\\). Find the final capacitor voltage and the time constant.",
+      "answer": "The final capacitor voltage is the open-circuit divider voltage:\n\\[\nV_f=12\\frac{6.0}{4.0+6.0}=7.2\\,\\mathrm{V}\n\\]\nFor the time constant, replace the ideal source by a short circuit. The capacitor sees\n\\[\nR_{\\mathrm{th}}=4.0\\,\\mathrm{k}\\Omega\\parallel6.0\\,\\mathrm{k}\\Omega\n=2.4\\,\\mathrm{k}\\Omega\n\\]\nThus\n\\[\n\\tau=R_{\\mathrm{th}}C=(2.4\\times10^3)(10\\times10^{-6})\n=2.4\\times10^{-2}\\,\\mathrm{s}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-18",
+      "prompt": "During charging from zero, at what time does the capacitor voltage equal the resistor voltage? Express the answer in terms of \\(\\tau\\).",
+      "answer": "During charging,\n\\[\nV_C=\\mathcal E(1-e^{-t/\\tau}),\\qquad V_R=\\mathcal E e^{-t/\\tau}\n\\]\nSet \\(V_C=V_R\\):\n\\[\n1-e^{-t/\\tau}=e^{-t/\\tau}\n\\]\n\\[\n1=2e^{-t/\\tau}\n\\]\n\\[\ne^{-t/\\tau}=\\frac{1}{2}\n\\]\nTherefore\n\\[\nt=\\tau\\ln 2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-19",
+      "prompt": "Use \\(I=C\\,dV_C/dt\\) to explain why capacitor voltage cannot change discontinuously in a circuit with finite current.",
+      "answer": "The capacitor relation is\n\\[\nI=C\\frac{dV_C}{dt}\n\\]\nIf \\(V_C\\) changed discontinuously, \\(dV_C/dt\\) would be infinite at that instant. That would require infinite current. In a circuit with finite resistance and finite source voltage, the current is finite, so capacitor voltage must change continuously.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rc-transients-20",
+      "prompt": "Design a series resistance so a \\(100\\,\\mu\\mathrm{F}\\) capacitor reaches \\(95\\%\\) of its final charging voltage in \\(2.0\\,\\mathrm{s}\\).",
+      "answer": "For charging from zero,\n\\[\n\\frac{V_C}{V_f}=1-e^{-t/RC}\n\\]\nSet \\(V_C/V_f=0.95\\):\n\\[\n0.95=1-e^{-t/RC}\n\\]\n\\[\ne^{-t/RC}=0.05=\\frac{1}{20}\n\\]\n\\[\nt=RC\\ln 20\n\\]\nThus\n\\[\nR=\\frac{t}{C\\ln20}\n=\\frac{2.0}{(100\\times10^{-6})\\ln20}\n=6.7\\times10^3\\,\\Omega\n\\]\nA resistance of about \\(6.7\\,\\mathrm{k}\\Omega\\) is required.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

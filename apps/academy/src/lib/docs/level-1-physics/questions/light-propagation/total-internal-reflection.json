@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "total-internal-reflection",
+  "topicTitle": "Total Internal Reflection",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "total-internal-reflection-01",
+      "prompt": "What two conditions are required for total internal reflection?",
+      "answer": "Light must travel from a higher-index medium to a lower-index medium, and the incident angle must be greater than the critical angle.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-02",
+      "prompt": "State the critical angle formula for light going from \\(n_1\\) to \\(n_2\\), where \\(n_1>n_2\\).",
+      "answer": "The critical angle is\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{n_2}{n_1}\\right)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-03",
+      "prompt": "Find the critical angle for glass \\((n=1.50)\\) to air \\((n=1.00)\\).",
+      "answer": "\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.00}{1.50}\\right)=41.8^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-04",
+      "prompt": "Light in glass \\((n=1.50)\\) reaches an air boundary at \\(50^\\circ\\). Does total internal reflection occur?",
+      "answer": "For glass to air,\n\\[\n\\theta_c=41.8^\\circ\n\\]\nSince \\(50^\\circ>41.8^\\circ\\), total internal reflection occurs.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-05",
+      "prompt": "Light travels from water \\((n=1.33)\\) to air. Find the critical angle.",
+      "answer": "\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.00}{1.33}\\right)=48.8^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-06",
+      "prompt": "Can total internal reflection occur when light travels from air into glass? Explain.",
+      "answer": "No. Total internal reflection requires light to travel from higher refractive index to lower refractive index. Air to glass is lower index to higher index.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-07",
+      "prompt": "At the critical angle, what is the refracted angle?",
+      "answer": "At the critical angle, the refracted ray skims along the boundary:\n\\[\n\\theta_2=90^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-08",
+      "prompt": "A transparent material has critical angle \\(35.0^\\circ\\) at an air boundary. Find its refractive index.",
+      "answer": "For material to air,\n\\[\n\\sin\\theta_c=\\frac{1.00}{n}\n\\]\nso\n\\[\nn=\\frac{1.00}{\\sin35.0^\\circ}=1.74\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-09",
+      "prompt": "Derive the critical angle formula from Snell's law.",
+      "answer": "Start with Snell's law:\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]\nAt the critical angle, \\(\\theta_1=\\theta_c\\) and \\(\\theta_2=90^\\circ\\), so\n\\[\nn_1\\sin\\theta_c=n_2\\sin90^\\circ=n_2\n\\]\nTherefore\n\\[\n\\sin\\theta_c=\\frac{n_2}{n_1}\n\\]\nand\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{n_2}{n_1}\\right)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-10",
+      "prompt": "An optical fiber core has \\(n=1.48\\) and cladding has \\(n=1.46\\). Find the critical angle at the core-cladding boundary and explain why the angle is large.",
+      "answer": "\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.46}{1.48}\\right)=80.6^\\circ\n\\]\nThe angle is large because the two refractive indices are very close, so \\(n_2/n_1\\) is close to \\(1\\). Only rays that strike the boundary at very large angles to the normal undergo total internal reflection.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-11",
+      "prompt": "Diamond has \\(n=2.42\\). Find its critical angle at a diamond-air boundary.",
+      "answer": "\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.00}{2.42}\\right)=24.4^\\circ\n\\]\nThe small critical angle helps diamond trap light by total internal reflection.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-12",
+      "prompt": "A ray inside glass \\((n=1.50)\\) hits a glass-air boundary at \\(40^\\circ\\). Does it refract or totally internally reflect?",
+      "answer": "The critical angle is\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.00}{1.50}\\right)=41.8^\\circ\n\\]\nSince \\(40^\\circ<41.8^\\circ\\), total internal reflection does not occur. The ray refracts into air.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-13",
+      "prompt": "For glass \\((n=1.50)\\) to air, find the refracted angle when the incident angle is \\(40^\\circ\\).",
+      "answer": "Use Snell's law:\n\\[\n1.50\\sin40^\\circ=1.00\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.964\n\\]\n\\[\n\\theta_2=74.6^\\circ\n\\]\nThis is close to grazing because \\(40^\\circ\\) is just below the critical angle.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-14",
+      "prompt": "A material has critical angle \\(60^\\circ\\) at an air boundary. Find its refractive index.",
+      "answer": "For material to air,\n\\[\n\\sin\\theta_c=\\frac{1.00}{n}\n\\]\nso\n\\[\nn=\\frac{1}{\\sin60^\\circ}=1.15\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-15",
+      "prompt": "A ray travels inside a fiber core \\((n=1.50)\\) surrounded by cladding \\((n=1.45)\\). The ray makes \\(12^\\circ\\) with the fiber axis. Assuming the wall is parallel to the axis, does it totally internally reflect at the core-cladding boundary?",
+      "answer": "The incidence angle at the side wall is measured from the normal. If the ray makes \\(12^\\circ\\) with the axis, it makes\n\\[\n\\theta_i=90^\\circ-12^\\circ=78^\\circ\n\\]\nwith the normal. The critical angle is\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.45}{1.50}\\right)=75.2^\\circ\n\\]\nSince \\(78^\\circ>75.2^\\circ\\), total internal reflection occurs.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-16",
+      "prompt": "Derive the largest ray angle to the fiber axis for total internal reflection inside a straight fiber with core index \\(n_1\\) and cladding index \\(n_2\\).",
+      "answer": "At the side wall, the incidence angle from the normal is\n\\[\n\\theta_i=90^\\circ-\\alpha\n\\]\nwhere \\(\\alpha\\) is the ray angle to the fiber axis. Total internal reflection requires\n\\[\n\\theta_i>\\theta_c\n\\]\nso\n\\[\n90^\\circ-\\alpha>\\theta_c\n\\]\nThus\n\\[\n\\alpha<90^\\circ-\\theta_c\n\\]\nwith\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{n_2}{n_1}\\right)\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-17",
+      "prompt": "For a fiber with \\(n_1=1.50\\) and \\(n_2=1.45\\), find the largest internal ray angle to the fiber axis that still totally internally reflects.",
+      "answer": "The critical angle is\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.45}{1.50}\\right)=75.2^\\circ\n\\]\nThe largest ray angle to the axis is\n\\[\n\\alpha_{\\max}=90^\\circ-\\theta_c=14.8^\\circ\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-18",
+      "prompt": "Use Snell's law to show why no real refracted angle exists beyond the critical angle.",
+      "answer": "For light from \\(n_1\\) to \\(n_2\\), with \\(n_1>n_2\\), Snell's law gives\n\\[\n\\sin\\theta_2=\\frac{n_1}{n_2}\\sin\\theta_1\n\\]\nAt the critical angle, \\(\\sin\\theta_2=1\\). If \\(\\theta_1>\\theta_c\\), then\n\\[\n\\frac{n_1}{n_2}\\sin\\theta_1>1\n\\]\nBut no real angle has sine greater than \\(1\\), so there is no real refracted ray in the ray model.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-19",
+      "prompt": "A glass prism in air is used so a ray inside the prism hits a face at \\(45^\\circ\\). If the glass has \\(n=1.52\\), determine whether total internal reflection occurs.",
+      "answer": "The critical angle is\n\\[\n\\theta_c=\\sin^{-1}\\left(\\frac{1.00}{1.52}\\right)=41.1^\\circ\n\\]\nSince\n\\[\n45^\\circ>41.1^\\circ\n\\]\ntotal internal reflection occurs.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "total-internal-reflection-20",
+      "prompt": "Explain why total internal reflection can be nearly lossless even though ordinary reflection from glass can be weak.",
+      "answer": "Ordinary reflection at an interface usually sends only part of the incident energy back, with the rest transmitted. In total internal reflection, Snell's law gives no propagating refracted ray in the lower-index medium. In the ideal model, all the energy remains in the higher-index medium and is reflected, apart from small real-material losses and evanescent-field effects.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

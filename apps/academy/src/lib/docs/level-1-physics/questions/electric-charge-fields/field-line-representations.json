@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "field-line-representations",
+  "topicTitle": "Field Line Representations",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "field-lines-01",
+      "prompt": "Do electric field lines point away from positive charges or toward positive charges?",
+      "answer": "Electric field lines point away from positive charges.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-02",
+      "prompt": "What does the tangent to an electric field line show?",
+      "answer": "The tangent to an electric field line shows the direction of \\(\\vec E\\) at that point.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-03",
+      "prompt": "If field lines are closer together in one region than another, what does that indicate about \\(|\\vec E|\\)?",
+      "answer": "Closer field lines indicate a larger electric field magnitude \\(|\\vec E|\\), assuming the diagram uses one consistent line convention.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-04",
+      "prompt": "A field-line diagram around a point charge has arrows radially inward. What is the sign of the charge?",
+      "answer": "Field lines point into negative charges. Radially inward arrows indicate a negative point charge.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-05",
+      "prompt": "Why can two electric field lines not cross at an ordinary point in space?",
+      "answer": "At a single point, the electric field has one vector direction. If two field lines crossed, the crossing point would have two different tangents and therefore two different directions for \\(\\vec E\\), which is impossible for a single-valued field.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-06",
+      "prompt": "A diagram assigns twice as many field lines to charge A as to charge B. What does that imply about the relative charge magnitudes, assuming the same line convention?",
+      "answer": "If the same line convention is used, twice as many assigned lines means twice the charge magnitude:\n\\[\n|Q_A|=2|Q_B|\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-07",
+      "prompt": "Sketch verbally the field-line pattern for equal and opposite charges separated by a small distance. Include where lines start, end, and are densest.",
+      "answer": "For equal and opposite charges, field lines start on the positive charge and end on the negative charge. The pattern is symmetric about the line joining the charges.\n\nThe lines are densest between the charges, where the fields from the two charges point in the same general direction and the field is strongest.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-08",
+      "prompt": "A student says field lines show the paths followed by released positive charges. Explain what is wrong or incomplete about that statement.",
+      "answer": "Field lines show the direction of the electric field, so a released positive charge initially accelerates tangent to the field line.\n\nBut field lines are not generally particle paths. A particle\u0027s later path also depends on its velocity and inertia. If it already has sideways velocity, its trajectory need not stay on one field line.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-09",
+      "prompt": "A proposed electrostatic field-line diagram shows a line beginning on a negative charge, two lines crossing, and denser lines far from every charge than near a charge. Identify all three representation errors and the physical rule each violates.",
+      "answer": "The diagram has three errors:\n\n1. A line beginning on a negative charge violates the source-sink rule. Lines end on negative charges, not begin there.\n2. Crossing lines violate the uniqueness of \\(\\vec E\\). A crossing would give two field directions at one point.\n3. Denser lines far from every charge than near a charge misrepresents the usual field-strength pattern for localized charges, where field magnitude decreases with distance unless other sources are present.\n",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "field-lines-10",
+      "prompt": "For charges \\(+2Q\\) and \\(-Q\\), describe how a consistent field-line diagram should allocate line counts and endpoints, including what happens to any lines that do not terminate on the negative charge.",
+      "answer": "A consistent diagram should assign line count proportional to charge magnitude. If the \\(-Q\\) charge has \\(N\\) lines ending on it, the \\(+2Q\\) charge should have \\(2N\\) lines leaving it.\n\nOnly \\(N\\) of the \\(2N\\) lines can terminate on the \\(-Q\\) charge. The remaining \\(N\\) lines extend to infinity because the two-charge system has net charge\n\\[\n+2Q-Q=+Q\n\\]\nSo the diagram has more outgoing lines than incoming lines.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

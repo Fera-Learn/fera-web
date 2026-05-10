@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "particle-in-a-box",
+  "topicTitle": "Particle in a Box",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "particle-in-a-box-01",
+      "prompt": "For an infinite square well from \\(0\\) to \\(L\\), what boundary conditions must the spatial wave function satisfy?",
+      "answer": "The wave function must vanish at the hard walls:\\n\\[\\n\\psi(0)=0,\\qquad \\psi(L)=0\\n\\]\\nThe particle cannot be found inside the infinite-potential wall.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-02",
+      "prompt": "Find the allowed wave numbers for a particle in an infinite square well of width \\(L\\).",
+      "answer": "The boundary conditions require\\n\\[\\n\\sin(kL)=0\\Rightarrow kL=n\\pi\\n\\]\\nThus\\n\\[\\nk_n=\\frac{n\\pi}{L},\\qquad n=1,2,3,\\ldots\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-03",
+      "prompt": "Write the normalized eigenfunction \\(\\psi_n(x)\\) for a particle in a one-dimensional infinite well from \\(0\\) to \\(L\\).",
+      "answer": "\\[\\n\\psi_n(x)=\\sqrt{\\frac{2}{L}}\\sin\\left(\\frac{n\\pi x}{L}\\right),\\qquad n=1,2,3,\\ldots\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-04",
+      "prompt": "Derive the energy levels for a particle of mass \\(m\\) in an infinite square well of width \\(L\\).",
+      "answer": "The allowed wave numbers are \\(k_n=n\\pi/L\\). Since \\(p=\\hbar k\\),\\n\\[\\nE_n=\\frac{p_n^2}{2m}=\\frac{\\hbar^2k_n^2}{2m}=\\frac{n^2\\pi^2\\hbar^2}{2mL^2}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-05",
+      "prompt": "What is the ratio \\(E_4/E_1\\) for a particle in a one-dimensional infinite well?",
+      "answer": "Since \\(E_n\\propto n^2\\),\\n\\[\\n\\frac{E_4}{E_1}=4^2=16\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-06",
+      "prompt": "How many interior nodes does the \\(n=5\\) state have in a one-dimensional infinite well?",
+      "answer": "The \\(n\\)th state has \\(n-1\\) interior nodes. For \\(n=5\\), it has\\n\\[\\n5-1=4\\n\\]\\ninterior nodes.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-07",
+      "prompt": "Find the de Broglie wavelength of the \\(n\\)th state in a box of width \\(L\\).",
+      "answer": "The standing wave fits \\(n\\) half-wavelengths in the box:\\n\\[\\nL=\\frac{n\\lambda_n}{2}\\n\\]\\nso\\n\\[\\n\\lambda_n=\\frac{2L}{n}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-08",
+      "prompt": "A particle in a box emits a photon when it changes from \\(n=3\\) to \\(n=1\\). Find the photon energy in terms of \\(E_1\\).",
+      "answer": "\\[\\nE_3=9E_1\\n\\]\\nso the photon energy is\\n\\[\\n\\Delta E=E_3-E_1=8E_1\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-09",
+      "prompt": "Find \\(\\langle x\\rangle\\) for any stationary state in an infinite well from \\(0\\) to \\(L\\).",
+      "answer": "The probability density \\(|\\psi_n|^2\\) is symmetric about the center of the box, so\\n\\[\\n\\langle x\\rangle=\\frac{L}{2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-10",
+      "prompt": "For the \\(n\\)th stationary state in a box, find \\(\\langle p\\rangle\\) and \\(\\langle p^2\\rangle\\).",
+      "answer": "The standing wave is an equal superposition of momenta \\(+\\hbar k_n\\) and \\(-\\hbar k_n\\), so\\n\\[\\n\\langle p\\rangle=0\\n\\]\\nwhile\\n\\[\\n\\langle p^2\\rangle=(\\hbar k_n)^2=\\left(\\frac{n\\pi\\hbar}{L}\\right)^2\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-11",
+      "prompt": "For the ground state \\(\\psi_1=\\sqrt{2/L}\\sin(\\pi x/L)\\), find the probability of locating the particle in the middle half of the box.",
+      "answer": "\\[\\nP=\\frac{2}{L}\\int_{L/4}^{3L/4}\\sin^2\\left(\\frac{\\pi x}{L}\\right)dx\\n\\]\\nUsing \\(\\int\\sin^2u\\,du=u/2-\\sin(2u)/4\\),\\n\\[\\nP=\\frac12+\\frac{1}{\\pi}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-12",
+      "prompt": "Why is \\(n=0\\) not an allowed state for a particle in an infinite square well?",
+      "answer": "If \\(n=0\\), then \\(k=0\\) and the boundary conditions force the wave function to be zero everywhere. That cannot be normalized, so it is not a physical state.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-13",
+      "prompt": "If the width of a box is doubled, how do all energy levels change?",
+      "answer": "The energies scale as\\n\\[\\nE_n\\propto \\frac{1}{L^2}\\n\\]\\nDoubling \\(L\\) makes each energy level one quarter as large.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-14",
+      "prompt": "If the particle mass is doubled while \\(L\\) is fixed, how do the box energy levels change?",
+      "answer": "The energies scale as\\n\\[\\nE_n=\\frac{n^2\\pi^2\\hbar^2}{2mL^2}\\propto \\frac{1}{m}\\n\\]\\nDoubling the mass halves every energy level.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-15",
+      "prompt": "A box state is \\((\\psi_1+\\psi_2)/\\sqrt2\\). Is it an energy eigenstate? Explain.",
+      "answer": "No. It is a superposition of two different energy eigenstates with different energies. It is a valid state, but an energy measurement can return \\(E_1\\) or \\(E_2\\), not one definite energy before measurement.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-16",
+      "prompt": "For \\(\\psi=(\\psi_1+\\psi_2)/\\sqrt2\\) in a box, find the angular frequency of oscillation of the interference term in \\(|\\psi(x,t)|^2\\).",
+      "answer": "The cross term oscillates at\\n\\[\\n\\omega_{21}=\\frac{E_2-E_1}{\\hbar}\\n\\]\\nFor a box, \\(E_2=4E_1\\), so\\n\\[\\n\\omega_{21}=\\frac{3E_1}{\\hbar}=\\frac{3\\pi^2\\hbar}{2mL^2}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-17",
+      "prompt": "Show that the normalized box eigenfunctions are orthogonal for different quantum numbers.",
+      "answer": "For \\(m\\ne n\\),\\n\\[\\n\\int_0^L\\sin\\left(\\frac{m\\pi x}{L}\\right)\\sin\\left(\\frac{n\\pi x}{L}\\right)dx=0\\n\\]\\nThis follows from product-to-sum identities: the integral becomes a sum of cosines with integer numbers of half-periods over the box. Including the normalization constants preserves zero overlap.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-18",
+      "prompt": "Compare an infinite well and a finite well of the same nominal width. Which has lower bound-state energies, and why?",
+      "answer": "The finite well has lower energies. Its wave functions leak into the classically forbidden outside region, so the effective width is larger. Larger spatial extent means less curvature and lower kinetic energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-19",
+      "prompt": "A box has width \\(L\\). Find the frequency of a photon emitted in the transition \\(n=2\\to n=1\\).",
+      "answer": "\\[\\n\\Delta E=E_2-E_1=\\frac{(4-1)\\pi^2\\hbar^2}{2mL^2}=\\frac{3\\pi^2\\hbar^2}{2mL^2}\\n\\]\\nThus\\n\\[\\nf=\\frac{\\Delta E}{h}=\\frac{3\\pi^2\\hbar^2}{2mL^2h}=\\frac{3h}{8mL^2}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-in-a-box-20",
+      "prompt": "Prove that the ground-state energy of an infinite well cannot be zero without using the energy formula directly.",
+      "answer": "A zero-energy state in the well would have zero kinetic energy, so the spatial wave function would have zero curvature and be linear. The boundary conditions require \\(\\psi(0)=\\psi(L)=0\\). The only linear function satisfying both is \\(\\psi=0\\), which cannot be normalized. Therefore any physical confined state must have nonzero curvature and nonzero kinetic energy.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

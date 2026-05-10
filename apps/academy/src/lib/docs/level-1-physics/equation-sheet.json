@@ -1,0 +1,2102 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "title": "Level 1 - Physics Equation Sheet",
+  "selectionNote": "Curated from the displayed equations in Level 1 - Physics topic content. Derivation-only steps, narrow example substitutions, naming-only expressions, and repeated rearrangements are intentionally omitted.",
+  "sections": [
+    {
+      "sectionId": "measurement-vectors",
+      "sectionTitle": "Measurement and Vectors",
+      "equations": [
+        {
+          "topicId": "measurement-uncertainty",
+          "topicTitle": "Measurement Uncertainty",
+          "label": "Reported value",
+          "tex": "x=x_{\\mathrm{best}}\\pm\\Delta x"
+        },
+        {
+          "topicId": "measurement-uncertainty",
+          "topicTitle": "Measurement Uncertainty",
+          "label": "Fractional uncertainty",
+          "tex": "\\mathrm{fractional}=\\frac{\\Delta x}{|x_{\\mathrm{best}}|}"
+        },
+        {
+          "topicId": "resolving-vectors-into-components",
+          "topicTitle": "Resolving Vectors into Components",
+          "label": "Vector components",
+          "tex": "a_x=a\\cos\\theta,\\qquad a_y=a\\sin\\theta"
+        },
+        {
+          "topicId": "resolving-vectors-into-components",
+          "topicTitle": "Resolving Vectors into Components",
+          "label": "Vector magnitude",
+          "tex": "a=\\sqrt{a_x^2+a_y^2}"
+        },
+        {
+          "topicId": "unit-vector-notation",
+          "topicTitle": "Unit Vector Notation",
+          "label": "Component form",
+          "tex": "\\vec a=a_x\\hat{\\imath}+a_y\\hat{\\jmath}+a_z\\hat{k}"
+        },
+        {
+          "topicId": "dot-and-cross-products",
+          "topicTitle": "Dot and Cross Products",
+          "label": "Dot product",
+          "tex": "\\vec a\\cdot\\vec b=|\\vec a||\\vec b|\\cos\\theta"
+        },
+        {
+          "topicId": "dot-and-cross-products",
+          "topicTitle": "Dot and Cross Products",
+          "label": "Cross product magnitude",
+          "tex": "|\\vec a\\times\\vec b|=|\\vec a||\\vec b|\\sin\\theta"
+        }
+      ]
+    },
+    {
+      "sectionId": "one-dimensional-motion",
+      "sectionTitle": "One-Dimensional Motion",
+      "equations": [
+        {
+          "topicId": "average-velocity",
+          "topicTitle": "Average Velocity",
+          "label": "Average velocity",
+          "tex": "\\bar v_x=\\frac{\\Delta x}{\\Delta t}"
+        },
+        {
+          "topicId": "instantaneous-velocity",
+          "topicTitle": "Instantaneous Velocity",
+          "label": "Instantaneous velocity",
+          "tex": "v_x=\\frac{dx}{dt}"
+        },
+        {
+          "topicId": "acceleration-as-a-rate-of-change",
+          "topicTitle": "Acceleration as a Rate of Change",
+          "label": "Acceleration",
+          "tex": "a_x=\\frac{dv_x}{dt}=\\frac{d^2x}{dt^2}"
+        },
+        {
+          "topicId": "constant-acceleration-models",
+          "topicTitle": "Constant-Acceleration Models",
+          "label": "Constant acceleration",
+          "tex": "v_x=v_{0x}+a_xt,\\qquad x=x_0+v_{0x}t+\\frac12a_xt^2"
+        },
+        {
+          "topicId": "constant-acceleration-models",
+          "topicTitle": "Constant-Acceleration Models",
+          "label": "No-time form",
+          "tex": "v_x^2=v_{0x}^2+2a_x(x-x_0)"
+        },
+        {
+          "topicId": "free-fall-motion",
+          "topicTitle": "Free-Fall Motion",
+          "label": "Free fall",
+          "tex": "a_y=-g,\\qquad y=y_0+v_{0y}t-\\frac12gt^2"
+        },
+        {
+          "topicId": "position-and-velocity-from-calculus",
+          "topicTitle": "Position and Velocity from Calculus",
+          "label": "Integral relationships",
+          "tex": "\\Delta x=\\int_{t_i}^{t_f}v_x(t)\\,dt,\\qquad \\Delta v_x=\\int_{t_i}^{t_f}a_x(t)\\,dt"
+        }
+      ]
+    },
+    {
+      "sectionId": "motion-in-space",
+      "sectionTitle": "Motion in Space",
+      "equations": [
+        {
+          "topicId": "position-and-velocity-vectors",
+          "topicTitle": "Position and Velocity Vectors",
+          "label": "Position and velocity",
+          "tex": "\\vec r=x\\hat{\\imath}+y\\hat{\\jmath}+z\\hat{k},\\qquad \\vec v=\\frac{d\\vec r}{dt}"
+        },
+        {
+          "topicId": "position-and-velocity-vectors",
+          "topicTitle": "Position and Velocity Vectors",
+          "label": "Speed",
+          "tex": "v=|\\vec v|=\\sqrt{v_x^2+v_y^2+v_z^2}"
+        },
+        {
+          "topicId": "projectile-models",
+          "topicTitle": "Projectile Models",
+          "label": "Projectile position",
+          "tex": "x=x_0+v_0\\cos\\theta\\,t,\\qquad y=y_0+v_0\\sin\\theta\\,t-\\frac12gt^2"
+        },
+        {
+          "topicId": "projectile-models",
+          "topicTitle": "Projectile Models",
+          "label": "Level-ground range",
+          "tex": "R=\\frac{v_0^2\\sin 2\\theta}{g}"
+        },
+        {
+          "topicId": "circular-motion-kinematics",
+          "topicTitle": "Circular Motion Kinematics",
+          "label": "Circular kinematics",
+          "tex": "v=R|\\omega|,\\qquad a_c=R\\omega^2=\\frac{v^2}{R}"
+        },
+        {
+          "topicId": "relative-motion",
+          "topicTitle": "Relative Motion",
+          "label": "Relative motion",
+          "tex": "\\vec r_{PA}=\\vec r_{PB}+\\vec r_{BA},\\qquad \\vec v_{PA}=\\vec v_{PB}+\\vec v_{BA}"
+        }
+      ]
+    },
+    {
+      "sectionId": "forces-newtons-laws",
+      "sectionTitle": "Forces and Newton's Laws",
+      "equations": [
+        {
+          "topicId": "force-mass-and-acceleration",
+          "topicTitle": "Force, Mass, and Acceleration",
+          "label": "Newton's second law",
+          "tex": "\\sum\\vec F=m\\vec a"
+        },
+        {
+          "topicId": "force-mass-and-acceleration",
+          "topicTitle": "Force, Mass, and Acceleration",
+          "label": "Component law",
+          "tex": "\\sum F_x=ma_x,\\qquad \\sum F_y=ma_y"
+        },
+        {
+          "topicId": "weight-versus-mass",
+          "topicTitle": "Weight Versus Mass",
+          "label": "Weight",
+          "tex": "\\vec W=m\\vec g,\\qquad W=mg"
+        },
+        {
+          "topicId": "action-reaction-pairs",
+          "topicTitle": "Action-Reaction Pairs",
+          "label": "Newton's third law",
+          "tex": "\\vec F_{AB}=-\\vec F_{BA}"
+        },
+        {
+          "topicId": "drawing-free-body-diagrams",
+          "topicTitle": "Drawing Free-Body Diagrams",
+          "label": "Incline components",
+          "tex": "W_{\\parallel}=mg\\sin\\theta,\\qquad W_{\\perp}=mg\\cos\\theta"
+        }
+      ]
+    },
+    {
+      "sectionId": "applying-force-models",
+      "sectionTitle": "Applying Force Models",
+      "equations": [
+        {
+          "topicId": "equilibrium-with-newtons-first-law",
+          "topicTitle": "Equilibrium with Newton's First Law",
+          "label": "Force equilibrium",
+          "tex": "\\sum\\vec F=\\vec 0"
+        },
+        {
+          "topicId": "static-and-kinetic-friction",
+          "topicTitle": "Static and Kinetic Friction",
+          "label": "Friction",
+          "tex": "0\\le f_s\\le\\mu_sN,\\qquad f_k=\\mu_kN"
+        },
+        {
+          "topicId": "dynamics-of-circular-motion",
+          "topicTitle": "Dynamics of Circular Motion",
+          "label": "Radial dynamics",
+          "tex": "\\sum F_r=m\\frac{v^2}{r}=mr\\omega^2"
+        },
+        {
+          "topicId": "dynamics-of-circular-motion",
+          "topicTitle": "Dynamics of Circular Motion",
+          "label": "Flat curve limit",
+          "tex": "v_{\\max}=\\sqrt{\\mu_sgr}"
+        },
+        {
+          "topicId": "dynamics-of-circular-motion",
+          "topicTitle": "Dynamics of Circular Motion",
+          "label": "Banked curve",
+          "tex": "\\tan\\theta=\\frac{v^2}{rg}"
+        }
+      ]
+    },
+    {
+      "sectionId": "work-energy-power",
+      "sectionTitle": "Work, Energy, and Power",
+      "equations": [
+        {
+          "topicId": "work-by-a-force",
+          "topicTitle": "Work by a Force",
+          "label": "Constant-force work",
+          "tex": "W=\\vec F\\cdot\\Delta\\vec r=F\\Delta r\\cos\\theta"
+        },
+        {
+          "topicId": "energy-transfer-with-variable-forces",
+          "topicTitle": "Energy Transfer with Variable Forces",
+          "label": "Variable-force work",
+          "tex": "W=\\int_{\\vec r_i}^{\\vec r_f}\\vec F\\cdot d\\vec r"
+        },
+        {
+          "topicId": "kinetic-energy-and-the-work-energy-principle",
+          "topicTitle": "Kinetic Energy and the Work-Energy Principle",
+          "label": "Kinetic energy",
+          "tex": "K=\\frac12mv^2"
+        },
+        {
+          "topicId": "kinetic-energy-and-the-work-energy-principle",
+          "topicTitle": "Kinetic Energy and the Work-Energy Principle",
+          "label": "Work-energy principle",
+          "tex": "W_{\\mathrm{net}}=\\Delta K=K_f-K_i"
+        },
+        {
+          "topicId": "power-and-rate-of-work",
+          "topicTitle": "Power and Rate of Work",
+          "label": "Power",
+          "tex": "P=\\frac{dW}{dt}=\\vec F\\cdot\\vec v"
+        }
+      ]
+    },
+    {
+      "sectionId": "potential-energy",
+      "sectionTitle": "Potential Energy and Conservation",
+      "equations": [
+        {
+          "topicId": "gravitational-potential-energy",
+          "topicTitle": "Gravitational Potential Energy",
+          "label": "Near-Earth gravitational energy",
+          "tex": "U_g=mgy,\\qquad \\Delta U_g=mg\\Delta y"
+        },
+        {
+          "topicId": "elastic-potential-energy",
+          "topicTitle": "Elastic Potential Energy",
+          "label": "Spring energy",
+          "tex": "F_s=-kx,\\qquad U_s=\\frac12kx^2"
+        },
+        {
+          "topicId": "conservative-forces",
+          "topicTitle": "Conservative Forces",
+          "label": "Mechanical energy accounting",
+          "tex": "K_i+U_i+W_{nc}=K_f+U_f"
+        },
+        {
+          "topicId": "force-from-potential-energy",
+          "topicTitle": "Force from Potential Energy",
+          "label": "Force from potential",
+          "tex": "F_x=-\\frac{dU}{dx},\\qquad \\vec F=-\\nabla U"
+        },
+        {
+          "topicId": "reading-energy-diagrams",
+          "topicTitle": "Reading Energy Diagrams",
+          "label": "Speed from energy",
+          "tex": "v=\\sqrt{\\frac{2(E-U)}{m}}"
+        }
+      ]
+    },
+    {
+      "sectionId": "momentum-systems",
+      "sectionTitle": "Momentum Systems",
+      "equations": [
+        {
+          "topicId": "momentum-and-impulse",
+          "topicTitle": "Momentum and Impulse",
+          "label": "Momentum",
+          "tex": "\\vec p=m\\vec v"
+        },
+        {
+          "topicId": "momentum-and-impulse",
+          "topicTitle": "Momentum and Impulse",
+          "label": "Impulse-momentum",
+          "tex": "\\vec J=\\int_{t_1}^{t_2}\\vec F\\,dt=\\Delta\\vec p"
+        },
+        {
+          "topicId": "momentum-conservation",
+          "topicTitle": "Momentum Conservation",
+          "label": "Momentum conservation",
+          "tex": "\\vec P_f=\\vec P_i\\quad(\\vec J_{\\mathrm{ext}}=\\vec 0)"
+        },
+        {
+          "topicId": "center-of-mass",
+          "topicTitle": "Center of Mass",
+          "label": "Center of mass",
+          "tex": "\\vec r_{\\mathrm{cm}}=\\frac{1}{M}\\sum_i m_i\\vec r_i"
+        },
+        {
+          "topicId": "center-of-mass",
+          "topicTitle": "Center of Mass",
+          "label": "Center-of-mass dynamics",
+          "tex": "\\sum\\vec F_{\\mathrm{ext}}=M\\vec a_{\\mathrm{cm}}"
+        },
+        {
+          "topicId": "elastic-collision-models",
+          "topicTitle": "Elastic Collision Models",
+          "label": "Elastic collision",
+          "tex": "m_1u_1+m_2u_2=m_1v_1+m_2v_2,\\qquad K_i=K_f"
+        },
+        {
+          "topicId": "rocket-motion",
+          "topicTitle": "Rocket Motion",
+          "label": "Rocket equation",
+          "tex": "\\Delta v=v_e\\ln\\left(\\frac{m_0}{m_f}\\right)"
+        }
+      ]
+    },
+    {
+      "sectionId": "rigid-body-rotation",
+      "sectionTitle": "Rigid-Body Rotation",
+      "equations": [
+        {
+          "topicId": "angular-velocity",
+          "topicTitle": "Angular Velocity",
+          "label": "Angular velocity",
+          "tex": "\\omega=\\frac{d\\theta}{dt}=2\\pi f=\\frac{2\\pi}{T}"
+        },
+        {
+          "topicId": "angular-acceleration",
+          "topicTitle": "Angular Acceleration",
+          "label": "Angular acceleration",
+          "tex": "\\alpha=\\frac{d\\omega}{dt}=\\frac{d^2\\theta}{dt^2}"
+        },
+        {
+          "topicId": "constant-angular-acceleration",
+          "topicTitle": "Constant Angular Acceleration",
+          "label": "Constant angular acceleration",
+          "tex": "\\omega=\\omega_0+\\alpha t,\\qquad \\theta=\\theta_0+\\omega_0t+\\frac12\\alpha t^2"
+        },
+        {
+          "topicId": "constant-angular-acceleration",
+          "topicTitle": "Constant Angular Acceleration",
+          "label": "No-time angular form",
+          "tex": "\\omega^2=\\omega_0^2+2\\alpha(\\theta-\\theta_0)"
+        },
+        {
+          "topicId": "connecting-linear-and-angular-motion",
+          "topicTitle": "Connecting Linear and Angular Motion",
+          "label": "Linear-angular links",
+          "tex": "s=r\\theta,\\qquad v_t=r\\omega,\\qquad a_t=r\\alpha"
+        },
+        {
+          "topicId": "connecting-linear-and-angular-motion",
+          "topicTitle": "Connecting Linear and Angular Motion",
+          "label": "Centripetal acceleration",
+          "tex": "a_c=r\\omega^2=\\frac{v_t^2}{r}"
+        },
+        {
+          "topicId": "calculating-moments-of-inertia",
+          "topicTitle": "Calculating Moments of Inertia",
+          "label": "Moment of inertia",
+          "tex": "I=\\sum_i m_ir_{\\perp i}^2,\\qquad I=\\int r_\\perp^2\\,dm"
+        },
+        {
+          "topicId": "parallel-axis-theorem",
+          "topicTitle": "Parallel-Axis Theorem",
+          "label": "Parallel-axis theorem",
+          "tex": "I=I_{\\mathrm{cm}}+Md^2"
+        },
+        {
+          "topicId": "rotational-kinetic-energy",
+          "topicTitle": "Rotational Kinetic Energy",
+          "label": "Rotational kinetic energy",
+          "tex": "K_{\\mathrm{rot}}=\\frac12I\\omega^2"
+        },
+        {
+          "topicId": "rotational-kinetic-energy",
+          "topicTitle": "Rotational Kinetic Energy",
+          "label": "Rolling kinetic energy",
+          "tex": "K=\\frac12Mv_{\\mathrm{cm}}^2+\\frac12I_{\\mathrm{cm}}\\omega^2"
+        }
+      ]
+    },
+    {
+      "sectionId": "rotational-dynamics",
+      "sectionTitle": "Rotational Dynamics",
+      "equations": [
+        {
+          "topicId": "torque",
+          "topicTitle": "Torque",
+          "label": "Torque",
+          "tex": "\\vec\\tau=\\vec r\\times\\vec F,\\qquad \\tau=rF\\sin\\phi"
+        },
+        {
+          "topicId": "torque-and-angular-acceleration",
+          "topicTitle": "Torque and Angular Acceleration",
+          "label": "Rotational law",
+          "tex": "\\sum\\tau_z=I\\alpha"
+        },
+        {
+          "topicId": "work-and-power-in-rotation",
+          "topicTitle": "Work and Power in Rotation",
+          "label": "Rotational work and power",
+          "tex": "W=\\int_{\\theta_i}^{\\theta_f}\\tau\\,d\\theta,\\qquad P=\\tau\\omega"
+        },
+        {
+          "topicId": "angular-momentum",
+          "topicTitle": "Angular Momentum",
+          "label": "Angular momentum",
+          "tex": "\\vec L=\\vec r\\times\\vec p,\\qquad L=I\\omega"
+        },
+        {
+          "topicId": "angular-momentum",
+          "topicTitle": "Angular Momentum",
+          "label": "Torque and angular momentum",
+          "tex": "\\vec\\tau_{\\mathrm{ext}}=\\frac{d\\vec L}{dt}"
+        },
+        {
+          "topicId": "conserving-angular-momentum",
+          "topicTitle": "Conserving Angular Momentum",
+          "label": "Angular momentum conservation",
+          "tex": "\\tau_{\\mathrm{ext}}=0\\Rightarrow L_i=L_f"
+        },
+        {
+          "topicId": "gyroscopes-and-precession",
+          "topicTitle": "Gyroscopes and Precession",
+          "label": "Slow precession",
+          "tex": "\\Omega=\\frac{\\tau}{L}=\\frac{Mgd}{I_s\\omega_s}"
+        }
+      ]
+    },
+    {
+      "sectionId": "equilibrium-materials",
+      "sectionTitle": "Equilibrium and Materials",
+      "equations": [
+        {
+          "topicId": "conditions-for-static-equilibrium",
+          "topicTitle": "Conditions for Static Equilibrium",
+          "label": "Static equilibrium",
+          "tex": "\\sum\\vec F=\\vec 0,\\qquad \\sum\\vec\\tau=\\vec 0"
+        },
+        {
+          "topicId": "center-of-gravity",
+          "topicTitle": "Center of Gravity",
+          "label": "Center of gravity",
+          "tex": "x_{\\mathrm{cg}}=\\frac{\\sum_i m_ix_i}{\\sum_i m_i}"
+        },
+        {
+          "topicId": "stress-and-strain",
+          "topicTitle": "Stress and Strain",
+          "label": "Normal stress and strain",
+          "tex": "\\sigma=\\frac{F_\\perp}{A},\\qquad \\epsilon=\\frac{\\Delta L}{L_0}"
+        },
+        {
+          "topicId": "stress-and-strain",
+          "topicTitle": "Stress and Strain",
+          "label": "Shear stress and strain",
+          "tex": "\\tau=\\frac{F_\\parallel}{A},\\qquad \\gamma=\\frac{\\Delta x}{h}"
+        },
+        {
+          "topicId": "elastic-moduli",
+          "topicTitle": "Elastic Moduli",
+          "label": "Young modulus",
+          "tex": "Y=\\frac{\\sigma}{\\epsilon}=\\frac{FL_0}{A\\Delta L}"
+        },
+        {
+          "topicId": "elastic-moduli",
+          "topicTitle": "Elastic Moduli",
+          "label": "Bulk modulus",
+          "tex": "B=-\\frac{\\Delta p}{\\Delta V/V}"
+        },
+        {
+          "topicId": "elastic-versus-plastic-behavior",
+          "topicTitle": "Elastic Versus Plastic Behavior",
+          "label": "Elastic energy density",
+          "tex": "u=\\frac12\\sigma\\epsilon"
+        }
+      ]
+    },
+    {
+      "sectionId": "fluids",
+      "sectionTitle": "Fluids",
+      "equations": [
+        {
+          "topicId": "density-in-gases-and-liquids",
+          "topicTitle": "Density in Gases and Liquids",
+          "label": "Density",
+          "tex": "\\rho=\\frac{m}{V}"
+        },
+        {
+          "topicId": "pressure-in-fluids",
+          "topicTitle": "Pressure in Fluids",
+          "label": "Pressure",
+          "tex": "p=\\frac{F_\\perp}{A}"
+        },
+        {
+          "topicId": "pressure-in-fluids",
+          "topicTitle": "Pressure in Fluids",
+          "label": "Hydrostatic pressure",
+          "tex": "p=p_0+\\rho gh"
+        },
+        {
+          "topicId": "buoyancy",
+          "topicTitle": "Buoyancy",
+          "label": "Buoyant force",
+          "tex": "F_B=\\rho_fgV_{\\mathrm{disp}}"
+        },
+        {
+          "topicId": "fluid-flow",
+          "topicTitle": "Fluid Flow",
+          "label": "Continuity",
+          "tex": "\\rho_1A_1v_1=\\rho_2A_2v_2,\\qquad A_1v_1=A_2v_2\\ \\text{if incompressible}"
+        },
+        {
+          "topicId": "bernoulli-models",
+          "topicTitle": "Bernoulli Models",
+          "label": "Bernoulli equation",
+          "tex": "p+\\frac12\\rho v^2+\\rho gy=\\mathrm{constant}"
+        },
+        {
+          "topicId": "viscosity-and-turbulence",
+          "topicTitle": "Viscosity and Turbulence",
+          "label": "Viscous law",
+          "tex": "\\tau=\\eta\\frac{dv}{dy}"
+        },
+        {
+          "topicId": "viscosity-and-turbulence",
+          "topicTitle": "Viscosity and Turbulence",
+          "label": "Reynolds number",
+          "tex": "\\mathrm{Re}=\\frac{\\rho vL}{\\eta}"
+        }
+      ]
+    },
+    {
+      "sectionId": "gravitation",
+      "sectionTitle": "Gravitation",
+      "equations": [
+        {
+          "topicId": "universal-gravitation",
+          "topicTitle": "Universal Gravitation",
+          "label": "Universal gravitation",
+          "tex": "F_g=G\\frac{m_1m_2}{r^2}"
+        },
+        {
+          "topicId": "universal-gravitation",
+          "topicTitle": "Universal Gravitation",
+          "label": "Gravitational field",
+          "tex": "\\vec g=-G\\frac{M}{r^2}\\hat e_r,\\qquad \\vec F_g=m\\vec g"
+        },
+        {
+          "topicId": "satellite-motion",
+          "topicTitle": "Satellite Motion",
+          "label": "Circular orbit",
+          "tex": "v=\\sqrt{\\frac{GM}{r}},\\qquad T=2\\pi\\sqrt{\\frac{r^3}{GM}}"
+        },
+        {
+          "topicId": "kepler-models-of-orbits",
+          "topicTitle": "Kepler Models of Orbits",
+          "label": "Kepler third law",
+          "tex": "T^2=\\frac{4\\pi^2}{GM}a^3"
+        },
+        {
+          "topicId": "black-holes",
+          "topicTitle": "Black Holes",
+          "label": "Escape speed",
+          "tex": "v_{\\mathrm{esc}}=\\sqrt{\\frac{2GM}{r}}"
+        },
+        {
+          "topicId": "black-holes",
+          "topicTitle": "Black Holes",
+          "label": "Schwarzschild radius",
+          "tex": "r_s=\\frac{2GM}{c^2}"
+        }
+      ]
+    },
+    {
+      "sectionId": "oscillations",
+      "sectionTitle": "Oscillations",
+      "equations": [
+        {
+          "topicId": "describing-oscillation",
+          "topicTitle": "Describing Oscillation",
+          "label": "Frequency and angular frequency",
+          "tex": "f=\\frac1T,\\qquad \\omega=2\\pi f=\\frac{2\\pi}{T}"
+        },
+        {
+          "topicId": "simple-harmonic-motion",
+          "topicTitle": "Simple Harmonic Motion",
+          "label": "SHM condition",
+          "tex": "a=-\\omega^2x"
+        },
+        {
+          "topicId": "simple-harmonic-motion",
+          "topicTitle": "Simple Harmonic Motion",
+          "label": "Mass-spring oscillator",
+          "tex": "\\omega=\\sqrt{\\frac{k}{m}},\\qquad T=2\\pi\\sqrt{\\frac{m}{k}}"
+        },
+        {
+          "topicId": "simple-harmonic-motion",
+          "topicTitle": "Simple Harmonic Motion",
+          "label": "SHM displacement",
+          "tex": "x=A\\cos(\\omega t+\\phi)"
+        },
+        {
+          "topicId": "energy-in-oscillators",
+          "topicTitle": "Energy in Oscillators",
+          "label": "Oscillator energy",
+          "tex": "E=\\frac12mv^2+\\frac12kx^2=\\frac12kA^2"
+        },
+        {
+          "topicId": "simple-pendulums",
+          "topicTitle": "Simple Pendulums",
+          "label": "Simple pendulum",
+          "tex": "\\omega=\\sqrt{\\frac{g}{L}},\\qquad T=2\\pi\\sqrt{\\frac{L}{g}}"
+        },
+        {
+          "topicId": "physical-pendulums",
+          "topicTitle": "Physical Pendulums",
+          "label": "Physical pendulum",
+          "tex": "T=2\\pi\\sqrt{\\frac{I}{mgd}}"
+        },
+        {
+          "topicId": "damping",
+          "topicTitle": "Damping",
+          "label": "Damped frequency",
+          "tex": "\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}"
+        }
+      ]
+    },
+    {
+      "sectionId": "mechanical-waves",
+      "sectionTitle": "Mechanical Waves",
+      "equations": [
+        {
+          "topicId": "periodic-wave-patterns",
+          "topicTitle": "Periodic Wave Patterns",
+          "label": "Wave speed",
+          "tex": "v_w=f\\lambda=\\frac{\\lambda}{T}"
+        },
+        {
+          "topicId": "mathematical-wave-descriptions",
+          "topicTitle": "Mathematical Wave Descriptions",
+          "label": "Sinusoidal wave",
+          "tex": "y(x,t)=A\\cos(kx-\\omega t+\\phi)"
+        },
+        {
+          "topicId": "mathematical-wave-descriptions",
+          "topicTitle": "Mathematical Wave Descriptions",
+          "label": "Wave number and angular frequency",
+          "tex": "k=\\frac{2\\pi}{\\lambda},\\qquad \\omega=\\frac{2\\pi}{T}"
+        },
+        {
+          "topicId": "mathematical-wave-descriptions",
+          "topicTitle": "Mathematical Wave Descriptions",
+          "label": "Phase speed",
+          "tex": "v_w=\\frac{\\omega}{k}"
+        },
+        {
+          "topicId": "speed-of-transverse-waves",
+          "topicTitle": "Speed of Transverse Waves",
+          "label": "String wave speed",
+          "tex": "v_w=\\sqrt{\\frac{T}{\\mu}}"
+        },
+        {
+          "topicId": "energy-transport-in-waves",
+          "topicTitle": "Energy Transport in Waves",
+          "label": "Average wave power",
+          "tex": "\\langle P\\rangle=\\frac12\\mu A^2\\omega^2v_w"
+        },
+        {
+          "topicId": "string-normal-modes",
+          "topicTitle": "String Normal Modes",
+          "label": "String normal modes",
+          "tex": "\\lambda_n=\\frac{2L}{n},\\qquad f_n=\\frac{nv_w}{2L}"
+        },
+        {
+          "topicId": "superposition",
+          "topicTitle": "Superposition",
+          "label": "Superposition",
+          "tex": "y=y_1+y_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "sound",
+      "sectionTitle": "Sound",
+      "equations": [
+        {
+          "topicId": "sound-as-a-wave",
+          "topicTitle": "Sound as a Wave",
+          "label": "Sound wave speed",
+          "tex": "v=f\\lambda=\\frac{\\omega}{k}"
+        },
+        {
+          "topicId": "speed-of-sound",
+          "topicTitle": "Speed of Sound",
+          "label": "Speed of sound",
+          "tex": "v=\\sqrt{\\frac{B}{\\rho}},\\qquad v=\\sqrt{\\frac{\\gamma RT}{M}}"
+        },
+        {
+          "topicId": "sound-intensity",
+          "topicTitle": "Sound Intensity",
+          "label": "Intensity",
+          "tex": "I=\\frac{P}{A},\\qquad I=\\frac{P}{4\\pi r^2}"
+        },
+        {
+          "topicId": "sound-intensity",
+          "topicTitle": "Sound Intensity",
+          "label": "Decibel level",
+          "tex": "\\beta=10\\log_{10}\\left(\\frac{I}{I_0}\\right)"
+        },
+        {
+          "topicId": "standing-sound-waves",
+          "topicTitle": "Standing Sound Waves",
+          "label": "Open-open pipe",
+          "tex": "\\lambda_n=\\frac{2L}{n},\\qquad f_n=\\frac{nv}{2L}"
+        },
+        {
+          "topicId": "standing-sound-waves",
+          "topicTitle": "Standing Sound Waves",
+          "label": "Open-closed pipe",
+          "tex": "\\lambda_n=\\frac{4L}{2n-1},\\qquad f_n=\\frac{(2n-1)v}{4L}"
+        },
+        {
+          "topicId": "beats",
+          "topicTitle": "Beats",
+          "label": "Beat frequency",
+          "tex": "f_{\\mathrm{beat}}=|f_1-f_2|"
+        },
+        {
+          "topicId": "doppler-shifts",
+          "topicTitle": "Doppler Shifts",
+          "label": "Sound Doppler shift",
+          "tex": "f_L=f_S\\frac{v+v_L}{v-v_S}"
+        },
+        {
+          "topicId": "shock-waves",
+          "topicTitle": "Shock Waves",
+          "label": "Mach number",
+          "tex": "M=\\frac{v_S}{v},\\qquad \\sin\\theta=\\frac1M"
+        }
+      ]
+    },
+    {
+      "sectionId": "temperature-heat",
+      "sectionTitle": "Temperature and Heat",
+      "equations": [
+        {
+          "topicId": "gas-thermometers-and-absolute-temperature",
+          "topicTitle": "Gas Thermometers and Absolute Temperature",
+          "label": "Kelvin and Celsius",
+          "tex": "T=T_C+273.15"
+        },
+        {
+          "topicId": "heat-as-energy-transfer",
+          "topicTitle": "Heat as Energy Transfer",
+          "label": "Temperature-change heat",
+          "tex": "Q=mc\\Delta T"
+        },
+        {
+          "topicId": "calorimetry-and-phase-change",
+          "topicTitle": "Calorimetry and Phase Change",
+          "label": "Phase-change heat",
+          "tex": "Q=\\pm mL"
+        },
+        {
+          "topicId": "calorimetry-and-phase-change",
+          "topicTitle": "Calorimetry and Phase Change",
+          "label": "Calorimetry",
+          "tex": "\\sum_iQ_i=0"
+        },
+        {
+          "topicId": "thermal-expansion",
+          "topicTitle": "Thermal Expansion",
+          "label": "Thermal expansion",
+          "tex": "\\Delta L=\\alpha L_0\\Delta T,\\qquad \\Delta V=\\beta V_0\\Delta T"
+        },
+        {
+          "topicId": "heat-transfer-mechanisms",
+          "topicTitle": "Heat Transfer Mechanisms",
+          "label": "Conduction",
+          "tex": "H=kA\\frac{T_H-T_C}{L}"
+        },
+        {
+          "topicId": "heat-transfer-mechanisms",
+          "topicTitle": "Heat Transfer Mechanisms",
+          "label": "Thermal radiation",
+          "tex": "H=e\\sigma AT^4,\\qquad H_{\\mathrm{net}}=e\\sigma A(T^4-T_s^4)"
+        }
+      ]
+    },
+    {
+      "sectionId": "matter-thermal-scale",
+      "sectionTitle": "Matter at Thermal Scale",
+      "equations": [
+        {
+          "topicId": "equations-of-state",
+          "topicTitle": "Equations of State",
+          "label": "Ideal gas",
+          "tex": "pV=nRT=Nk_BT"
+        },
+        {
+          "topicId": "molecular-properties-of-matter",
+          "topicTitle": "Molecular Properties of Matter",
+          "label": "Molecules and moles",
+          "tex": "N=nN_A,\\qquad m=nM"
+        },
+        {
+          "topicId": "heat-capacity",
+          "topicTitle": "Heat Capacity",
+          "label": "Heat capacity",
+          "tex": "Q=mc\\Delta T=nC_m\\Delta T"
+        },
+        {
+          "topicId": "ideal-gas-model",
+          "topicTitle": "Ideal Gas Model",
+          "label": "Molecular pressure",
+          "tex": "pV=\\frac13Nm_0v_{\\mathrm{rms}}^2"
+        },
+        {
+          "topicId": "ideal-gas-model",
+          "topicTitle": "Ideal Gas Model",
+          "label": "Average molecular kinetic energy",
+          "tex": "\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT"
+        },
+        {
+          "topicId": "molecular-speeds",
+          "topicTitle": "Molecular Speeds",
+          "label": "RMS speed",
+          "tex": "v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}"
+        },
+        {
+          "topicId": "phases-of-matter",
+          "topicTitle": "Phases of Matter",
+          "label": "Clapeyron relation",
+          "tex": "\\frac{dp}{dT}=\\frac{L}{T\\Delta v}"
+        }
+      ]
+    },
+    {
+      "sectionId": "first-law-thermodynamics",
+      "sectionTitle": "First-Law Thermodynamics",
+      "equations": [
+        {
+          "topicId": "thermodynamic-systems",
+          "topicTitle": "Thermodynamic Systems",
+          "label": "Ideal gas state",
+          "tex": "pV=nRT"
+        },
+        {
+          "topicId": "work-during-volume-changes",
+          "topicTitle": "Work During Volume Changes",
+          "label": "Boundary work",
+          "tex": "W=\\int_{V_i}^{V_f}p\\,dV"
+        },
+        {
+          "topicId": "internal-energy-and-the-first-law",
+          "topicTitle": "Internal Energy and the First Law",
+          "label": "First law",
+          "tex": "\\Delta U=Q-W"
+        },
+        {
+          "topicId": "internal-energy-of-ideal-gases",
+          "topicTitle": "Internal Energy of Ideal Gases",
+          "label": "Ideal-gas internal energy",
+          "tex": "\\Delta U=nC_V\\Delta T,\\qquad U=\\frac{f}{2}nRT"
+        },
+        {
+          "topicId": "heat-capacity-of-ideal-gases",
+          "topicTitle": "Heat Capacity of Ideal Gases",
+          "label": "Ideal-gas heat capacities",
+          "tex": "Q_V=nC_V\\Delta T,\\qquad Q_P=nC_P\\Delta T"
+        },
+        {
+          "topicId": "heat-capacity-of-ideal-gases",
+          "topicTitle": "Heat Capacity of Ideal Gases",
+          "label": "Mayer relation",
+          "tex": "C_P-C_V=R,\\qquad \\gamma=\\frac{C_P}{C_V}"
+        },
+        {
+          "topicId": "adiabatic-ideal-gas-processes",
+          "topicTitle": "Adiabatic Ideal-Gas Processes",
+          "label": "Adiabatic ideal gas",
+          "tex": "pV^\\gamma=\\mathrm{constant},\\qquad TV^{\\gamma-1}=\\mathrm{constant}"
+        },
+        {
+          "topicId": "adiabatic-ideal-gas-processes",
+          "topicTitle": "Adiabatic Ideal-Gas Processes",
+          "label": "Adiabatic work",
+          "tex": "W=nC_V(T_i-T_f)"
+        }
+      ]
+    },
+    {
+      "sectionId": "entropy-heat-engines",
+      "sectionTitle": "Entropy and Heat Engines",
+      "equations": [
+        {
+          "topicId": "entropy",
+          "topicTitle": "Entropy",
+          "label": "Entropy change",
+          "tex": "\\Delta S=\\int_i^f\\frac{\\delta Q_{\\mathrm{rev}}}{T}"
+        },
+        {
+          "topicId": "entropy",
+          "topicTitle": "Entropy",
+          "label": "Constant-temperature entropy",
+          "tex": "\\Delta S=\\frac{Q_{\\mathrm{rev}}}{T}"
+        },
+        {
+          "topicId": "entropy",
+          "topicTitle": "Entropy",
+          "label": "Phase-change entropy",
+          "tex": "\\Delta S=\\frac{mL}{T}"
+        },
+        {
+          "topicId": "entropy",
+          "topicTitle": "Entropy",
+          "label": "Ideal-gas entropy",
+          "tex": "\\Delta S=nC_V\\ln\\left(\\frac{T_f}{T_i}\\right)+nR\\ln\\left(\\frac{V_f}{V_i}\\right)"
+        },
+        {
+          "topicId": "entropy",
+          "topicTitle": "Entropy",
+          "label": "Second-law test",
+          "tex": "\\Delta S_{\\mathrm{univ}}=\\Delta S_{\\mathrm{sys}}+\\Delta S_{\\mathrm{surr}}\\ge0"
+        }
+      ]
+    },
+    {
+      "sectionId": "electric-charge-fields",
+      "sectionTitle": "Electric Charge and Fields",
+      "equations": [
+        {
+          "topicId": "electric-charge",
+          "topicTitle": "Electric Charge",
+          "label": "Quantized charge",
+          "tex": "q=Ne,\\qquad e=1.60\\times10^{-19}\\,\\mathrm C"
+        },
+        {
+          "topicId": "coulomb-forces",
+          "topicTitle": "Coulomb Forces",
+          "label": "Coulomb force",
+          "tex": "F=k\\frac{|q_1q_2|}{r^2},\\qquad k=\\frac{1}{4\\pi\\epsilon_0}"
+        },
+        {
+          "topicId": "electric-fields-and-forces",
+          "topicTitle": "Electric Fields and Forces",
+          "label": "Electric field and force",
+          "tex": "\\vec E=\\frac{\\vec F_0}{q_0},\\qquad \\vec F=q\\vec E"
+        },
+        {
+          "topicId": "calculating-electric-fields",
+          "topicTitle": "Calculating Electric Fields",
+          "label": "Point-charge field",
+          "tex": "\\vec E=k\\frac{Q}{R^2}\\hat R"
+        },
+        {
+          "topicId": "calculating-electric-fields",
+          "topicTitle": "Calculating Electric Fields",
+          "label": "Field superposition",
+          "tex": "\\vec E_{\\mathrm{net}}=\\sum_i\\vec E_i"
+        },
+        {
+          "topicId": "electric-dipoles",
+          "topicTitle": "Electric Dipoles",
+          "label": "Electric dipole",
+          "tex": "\\vec p=q\\vec d,\\qquad \\vec\\tau=\\vec p\\times\\vec E"
+        },
+        {
+          "topicId": "electric-dipoles",
+          "topicTitle": "Electric Dipoles",
+          "label": "Dipole energy",
+          "tex": "U=-\\vec p\\cdot\\vec E"
+        }
+      ]
+    },
+    {
+      "sectionId": "gausss-law",
+      "sectionTitle": "Gauss's Law",
+      "equations": [
+        {
+          "topicId": "charge-and-electric-flux",
+          "topicTitle": "Charge and Electric Flux",
+          "label": "Electric flux",
+          "tex": "\\Phi_E=\\int_S\\vec E\\cdot d\\vec A"
+        },
+        {
+          "topicId": "gauss-s-law",
+          "topicTitle": "Gauss's Law",
+          "label": "Gauss's law",
+          "tex": "\\oint_S\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}"
+        },
+        {
+          "topicId": "charge-on-conductors",
+          "topicTitle": "Charge on Conductors",
+          "label": "Conductor electrostatics",
+          "tex": "\\vec E=0\\ \\text{inside a conductor},\\qquad \\vec E_{\\mathrm{outside}}=\\frac{\\sigma}{\\epsilon_0}\\hat n"
+        },
+        {
+          "topicId": "symmetry-applications-of-gauss-s-law",
+          "topicTitle": "Symmetry Applications of Gauss's Law",
+          "label": "Spherical symmetry",
+          "tex": "E=\\frac{q_{\\mathrm{enc}}}{4\\pi\\epsilon_0r^2}"
+        },
+        {
+          "topicId": "symmetry-applications-of-gauss-s-law",
+          "topicTitle": "Symmetry Applications of Gauss's Law",
+          "label": "Line charge",
+          "tex": "E=\\frac{\\lambda}{2\\pi\\epsilon_0r}"
+        },
+        {
+          "topicId": "symmetry-applications-of-gauss-s-law",
+          "topicTitle": "Symmetry Applications of Gauss's Law",
+          "label": "Infinite sheet",
+          "tex": "E=\\frac{\\sigma}{2\\epsilon_0}"
+        }
+      ]
+    },
+    {
+      "sectionId": "electric-potential",
+      "sectionTitle": "Electric Potential",
+      "equations": [
+        {
+          "topicId": "electric-potential",
+          "topicTitle": "Electric Potential",
+          "label": "Electric potential",
+          "tex": "V=\\frac{U}{q},\\qquad \\Delta U=q\\Delta V"
+        },
+        {
+          "topicId": "electric-potential",
+          "topicTitle": "Electric Potential",
+          "label": "Electric work",
+          "tex": "W_{\\mathrm{elec}}=-q\\Delta V"
+        },
+        {
+          "topicId": "electric-potential-energy",
+          "topicTitle": "Electric Potential Energy",
+          "label": "Point-charge potential energy",
+          "tex": "U=k\\frac{q_1q_2}{r}"
+        },
+        {
+          "topicId": "calculating-potential",
+          "topicTitle": "Calculating Potential",
+          "label": "Point-source potential",
+          "tex": "V=k\\frac{Q}{r}"
+        },
+        {
+          "topicId": "calculating-potential",
+          "topicTitle": "Calculating Potential",
+          "label": "Potential superposition",
+          "tex": "V=k\\sum_i\\frac{Q_i}{R_i}"
+        },
+        {
+          "topicId": "potential-gradients",
+          "topicTitle": "Potential Gradients",
+          "label": "Field from potential",
+          "tex": "E_x=-\\frac{dV}{dx},\\qquad \\vec E=-\\nabla V"
+        }
+      ]
+    },
+    {
+      "sectionId": "capacitors-dielectrics",
+      "sectionTitle": "Capacitors and Dielectrics",
+      "equations": [
+        {
+          "topicId": "capacitance",
+          "topicTitle": "Capacitance",
+          "label": "Capacitance",
+          "tex": "C=\\frac{Q}{\\Delta V}"
+        },
+        {
+          "topicId": "capacitance",
+          "topicTitle": "Capacitance",
+          "label": "Parallel-plate capacitor",
+          "tex": "C=\\epsilon_0\\frac{A}{d}"
+        },
+        {
+          "topicId": "series-and-parallel-capacitors",
+          "topicTitle": "Series and Parallel Capacitors",
+          "label": "Capacitor networks",
+          "tex": "C_{\\mathrm{eq}}=\\sum_iC_i\\ \\text{(parallel)},\\qquad \\frac{1}{C_{\\mathrm{eq}}}=\\sum_i\\frac{1}{C_i}\\ \\text{(series)}"
+        },
+        {
+          "topicId": "stored-energy-and-field-energy",
+          "topicTitle": "Stored Energy and Field Energy",
+          "label": "Capacitor energy",
+          "tex": "U=\\frac{Q^2}{2C}=\\frac12CV^2=\\frac12QV"
+        },
+        {
+          "topicId": "stored-energy-and-field-energy",
+          "topicTitle": "Stored Energy and Field Energy",
+          "label": "Electric field energy density",
+          "tex": "u_E=\\frac12\\epsilon_0E^2"
+        },
+        {
+          "topicId": "dielectrics",
+          "topicTitle": "Dielectrics",
+          "label": "Dielectric capacitance",
+          "tex": "C=\\kappa C_0,\\qquad \\epsilon=\\kappa\\epsilon_0"
+        },
+        {
+          "topicId": "molecular-view-of-induced-charge",
+          "topicTitle": "Molecular View of Induced Charge",
+          "label": "Induced dipoles",
+          "tex": "p=q\\ell,\\qquad U=-\\vec p\\cdot\\vec E"
+        },
+        {
+          "topicId": "gauss-s-law-in-materials",
+          "topicTitle": "Gauss's Law in Materials",
+          "label": "Material Gauss law",
+          "tex": "\\vec D=\\epsilon_0\\vec E+\\vec P,\\qquad \\oint\\vec D\\cdot d\\vec A=q_{\\mathrm f}"
+        }
+      ]
+    },
+    {
+      "sectionId": "current-resistance",
+      "sectionTitle": "Current and Resistance",
+      "equations": [
+        {
+          "topicId": "electric-current",
+          "topicTitle": "Electric Current",
+          "label": "Current",
+          "tex": "I=\\frac{dQ}{dt},\\qquad J=\\frac{I}{A}"
+        },
+        {
+          "topicId": "resistance",
+          "topicTitle": "Resistance",
+          "label": "Resistance and Ohm's law",
+          "tex": "R=\\frac{V}{I},\\qquad V=IR"
+        },
+        {
+          "topicId": "resistance",
+          "topicTitle": "Resistance",
+          "label": "Uniform wire",
+          "tex": "R=\\rho\\frac{L}{A}"
+        },
+        {
+          "topicId": "resistivity",
+          "topicTitle": "Resistivity",
+          "label": "Resistivity and conductivity",
+          "tex": "\\vec E=\\rho\\vec J,\\qquad \\vec J=\\sigma\\vec E"
+        },
+        {
+          "topicId": "resistivity",
+          "topicTitle": "Resistivity",
+          "label": "Temperature model",
+          "tex": "\\rho(T)=\\rho_0[1+\\alpha(T-T_0)]"
+        },
+        {
+          "topicId": "electric-power",
+          "topicTitle": "Electric Power",
+          "label": "Electric power",
+          "tex": "P=IV=I^2R=\\frac{V^2}{R}"
+        },
+        {
+          "topicId": "emf-and-circuit-models",
+          "topicTitle": "emf and Circuit Models",
+          "label": "Source with internal resistance",
+          "tex": "V_{\\mathrm{term}}=\\mathcal E-Ir,\\qquad I=\\frac{\\mathcal E}{R+r}"
+        },
+        {
+          "topicId": "microscopic-model-of-conduction",
+          "topicTitle": "Microscopic Model of Conduction",
+          "label": "Drift current",
+          "tex": "I=n|q|Av_d,\\qquad \\vec J=nq\\vec v_d"
+        }
+      ]
+    },
+    {
+      "sectionId": "dc-circuits",
+      "sectionTitle": "DC Circuits",
+      "equations": [
+        {
+          "topicId": "series-and-parallel-resistor-networks",
+          "topicTitle": "Series and Parallel Resistor Networks",
+          "label": "Resistor networks",
+          "tex": "R_{\\mathrm{eq}}=R_1+R_2+\\cdots,\\qquad \\frac{1}{R_{\\mathrm{eq}}}=\\frac{1}{R_1}+\\frac{1}{R_2}+\\cdots"
+        },
+        {
+          "topicId": "series-and-parallel-resistor-networks",
+          "topicTitle": "Series and Parallel Resistor Networks",
+          "label": "Two parallel resistors",
+          "tex": "R_{\\mathrm{eq}}=\\frac{R_1R_2}{R_1+R_2}"
+        },
+        {
+          "topicId": "kirchhoff-analysis",
+          "topicTitle": "Kirchhoff Analysis",
+          "label": "Kirchhoff laws",
+          "tex": "\\sum I_{\\mathrm{in}}=\\sum I_{\\mathrm{out}},\\qquad \\sum_{\\mathrm{loop}}\\Delta V=0"
+        },
+        {
+          "topicId": "rc-transients",
+          "topicTitle": "RC Transients",
+          "label": "RC time constant",
+          "tex": "\\tau=RC"
+        },
+        {
+          "topicId": "rc-transients",
+          "topicTitle": "RC Transients",
+          "label": "RC charging",
+          "tex": "V_C(t)=\\mathcal E(1-e^{-t/\\tau}),\\qquad I(t)=\\frac{\\mathcal E}{R}e^{-t/\\tau}"
+        },
+        {
+          "topicId": "rc-transients",
+          "topicTitle": "RC Transients",
+          "label": "RC discharging",
+          "tex": "V_C(t)=V_0e^{-t/\\tau}"
+        },
+        {
+          "topicId": "power-distribution",
+          "topicTitle": "Power Distribution",
+          "label": "Line loss and efficiency",
+          "tex": "P_{\\mathrm{loss}}=I^2R_{\\mathrm{line}},\\qquad \\eta=\\frac{P_{\\mathrm{out}}}{P_{\\mathrm{in}}}"
+        }
+      ]
+    },
+    {
+      "sectionId": "magnetic-fields-forces",
+      "sectionTitle": "Magnetic Fields and Forces",
+      "equations": [
+        {
+          "topicId": "magnetic-fields",
+          "topicTitle": "Magnetic Fields",
+          "label": "Magnetic force on charge",
+          "tex": "\\vec F_B=q\\vec v\\times\\vec B,\\qquad F_B=|q|vB\\sin\\theta"
+        },
+        {
+          "topicId": "magnetic-flux",
+          "topicTitle": "Magnetic Flux",
+          "label": "Magnetic flux",
+          "tex": "\\Phi_B=BA\\cos\\theta=\\int\\vec B\\cdot d\\vec A"
+        },
+        {
+          "topicId": "charged-particles-in-magnetic-fields",
+          "topicTitle": "Charged Particles in Magnetic Fields",
+          "label": "Circular magnetic motion",
+          "tex": "r=\\frac{mv_\\perp}{|q|B},\\qquad \\omega=\\frac{|q|B}{m}"
+        },
+        {
+          "topicId": "forces-on-current-carrying-conductors",
+          "topicTitle": "Forces on Current-Carrying Conductors",
+          "label": "Force on current",
+          "tex": "\\vec F=I\\vec L\\times\\vec B,\\qquad F=ILB\\sin\\theta"
+        },
+        {
+          "topicId": "torque-on-current-loops",
+          "topicTitle": "Torque on Current Loops",
+          "label": "Current-loop torque",
+          "tex": "\\mu=NIA,\\qquad \\vec\\tau=\\vec\\mu\\times\\vec B,\\qquad \\tau=NIAB\\sin\\theta"
+        },
+        {
+          "topicId": "torque-on-current-loops",
+          "topicTitle": "Torque on Current Loops",
+          "label": "Magnetic dipole energy",
+          "tex": "U=-\\vec\\mu\\cdot\\vec B"
+        },
+        {
+          "topicId": "hall-effect",
+          "topicTitle": "Hall Effect",
+          "label": "Hall voltage",
+          "tex": "V_H=\\frac{IB}{nqt}"
+        },
+        {
+          "topicId": "particle-motion-applications",
+          "topicTitle": "Particle Motion Applications",
+          "label": "Velocity selector and rigidity",
+          "tex": "v=\\frac{E}{B},\\qquad p=|q|Br"
+        }
+      ]
+    },
+    {
+      "sectionId": "magnetic-field-sources",
+      "sectionTitle": "Sources of Magnetic Fields",
+      "equations": [
+        {
+          "topicId": "fields-from-moving-charges",
+          "topicTitle": "Fields from Moving Charges",
+          "label": "Moving charge field",
+          "tex": "\\vec B=\\frac{\\mu_0}{4\\pi}\\frac{q\\vec v\\times\\hat r}{r^2}"
+        },
+        {
+          "topicId": "biot-savart-for-current-elements",
+          "topicTitle": "Biot-Savart for Current Elements",
+          "label": "Biot-Savart law",
+          "tex": "d\\vec B=\\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec l\\times\\hat r}{r^2}"
+        },
+        {
+          "topicId": "fields-around-straight-currents",
+          "topicTitle": "Fields Around Straight Currents",
+          "label": "Long straight wire",
+          "tex": "B=\\frac{\\mu_0I}{2\\pi r}"
+        },
+        {
+          "topicId": "fields-from-current-loops",
+          "topicTitle": "Fields from Current Loops",
+          "label": "Current loop field",
+          "tex": "B(x)=\\frac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}},\\qquad B_{\\mathrm{center}}=\\frac{\\mu_0I}{2R}"
+        },
+        {
+          "topicId": "forces-between-parallel-currents",
+          "topicTitle": "Forces Between Parallel Currents",
+          "label": "Parallel currents",
+          "tex": "\\frac{F}{L}=\\frac{\\mu_0I_1I_2}{2\\pi d}"
+        },
+        {
+          "topicId": "ampere-s-law",
+          "topicTitle": "Ampere's Law",
+          "label": "Ampere's law",
+          "tex": "\\oint\\vec B\\cdot d\\vec l=\\mu_0I_{\\mathrm{enc}}"
+        },
+        {
+          "topicId": "symmetry-applications-of-ampere-s-law",
+          "topicTitle": "Symmetry Applications of Ampere's Law",
+          "label": "Solenoid and toroid",
+          "tex": "B=\\mu_0nI\\ \\text{(solenoid)},\\qquad B=\\frac{\\mu_0NI}{2\\pi r}\\ \\text{(toroid)}"
+        }
+      ]
+    },
+    {
+      "sectionId": "electromagnetic-induction",
+      "sectionTitle": "Electromagnetic Induction",
+      "equations": [
+        {
+          "topicId": "induction-observations",
+          "topicTitle": "Induction Observations",
+          "label": "Magnetic flux",
+          "tex": "\\Phi_B=\\int\\vec B\\cdot d\\vec A"
+        },
+        {
+          "topicId": "faraday-s-law",
+          "topicTitle": "Faraday's Law",
+          "label": "Faraday's law",
+          "tex": "\\mathcal E=-N\\frac{d\\Phi_B}{dt}"
+        },
+        {
+          "topicId": "motional-emf",
+          "topicTitle": "Motional emf",
+          "label": "Motional emf",
+          "tex": "|\\mathcal E|=B\\ell v"
+        },
+        {
+          "topicId": "induced-electric-fields",
+          "topicTitle": "Induced Electric Fields",
+          "label": "Field form of Faraday's law",
+          "tex": "\\oint\\vec E\\cdot d\\vec\\ell=-\\frac{d\\Phi_B}{dt}"
+        },
+        {
+          "topicId": "displacement-current",
+          "topicTitle": "Displacement Current",
+          "label": "Displacement current",
+          "tex": "I_d=\\epsilon_0\\frac{d\\Phi_E}{dt}"
+        },
+        {
+          "topicId": "maxwell-s-equations",
+          "topicTitle": "Maxwell's Equations",
+          "label": "Maxwell equations",
+          "tex": "\\oint\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0},\\quad \\oint\\vec B\\cdot d\\vec A=0,\\quad \\oint\\vec B\\cdot d\\vec\\ell=\\mu_0I_{\\mathrm{enc}}+\\mu_0\\epsilon_0\\frac{d\\Phi_E}{dt}"
+        },
+        {
+          "topicId": "maxwell-s-equations",
+          "topicTitle": "Maxwell's Equations",
+          "label": "Electromagnetic wave speed",
+          "tex": "c=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}"
+        },
+        {
+          "topicId": "superconductivity",
+          "topicTitle": "Superconductivity",
+          "label": "Flux quantum",
+          "tex": "\\Phi_0=\\frac{h}{2e},\\qquad \\Phi=n\\Phi_0"
+        }
+      ]
+    },
+    {
+      "sectionId": "inductance",
+      "sectionTitle": "Inductance",
+      "equations": [
+        {
+          "topicId": "self-inductance-and-inductors",
+          "topicTitle": "Self-Inductance and Inductors",
+          "label": "Self-inductance",
+          "tex": "L=\\frac{N\\Phi_B}{I},\\qquad \\mathcal E_L=-L\\frac{dI}{dt}"
+        },
+        {
+          "topicId": "self-inductance-and-inductors",
+          "topicTitle": "Self-Inductance and Inductors",
+          "label": "Solenoid inductance",
+          "tex": "L=\\mu\\frac{N^2A}{l}"
+        },
+        {
+          "topicId": "magnetic-field-energy",
+          "topicTitle": "Magnetic Field Energy",
+          "label": "Inductor energy",
+          "tex": "U_B=\\frac12LI^2,\\qquad u_B=\\frac{B^2}{2\\mu}"
+        },
+        {
+          "topicId": "rl-transients",
+          "topicTitle": "RL Transients",
+          "label": "RL time constant",
+          "tex": "\\tau=\\frac{L}{R}"
+        },
+        {
+          "topicId": "rl-transients",
+          "topicTitle": "RL Transients",
+          "label": "RL transients",
+          "tex": "I(t)=\\frac{\\mathcal E}{R}(1-e^{-tR/L}),\\qquad I(t)=I_0e^{-tR/L}"
+        },
+        {
+          "topicId": "lc-oscillations",
+          "topicTitle": "LC Oscillations",
+          "label": "LC oscillations",
+          "tex": "\\omega_0=\\frac{1}{\\sqrt{LC}},\\qquad T=2\\pi\\sqrt{LC}"
+        },
+        {
+          "topicId": "lc-oscillations",
+          "topicTitle": "LC Oscillations",
+          "label": "LC energy",
+          "tex": "\\frac{q^2}{2C}+\\frac12LI^2=\\mathrm{constant}"
+        },
+        {
+          "topicId": "mutual-inductance",
+          "topicTitle": "Mutual Inductance",
+          "label": "Mutual inductance",
+          "tex": "M=\\frac{N_2\\Phi_{21}}{I_1},\\qquad \\mathcal E_2=-M\\frac{dI_1}{dt}"
+        }
+      ]
+    },
+    {
+      "sectionId": "alternating-current",
+      "sectionTitle": "Alternating Current",
+      "equations": [
+        {
+          "topicId": "phasors-and-ac-signals",
+          "topicTitle": "Phasors and AC Signals",
+          "label": "AC frequency and rms",
+          "tex": "\\omega=2\\pi f,\\qquad V_{\\mathrm{rms}}=\\frac{V_0}{\\sqrt2},\\qquad I_{\\mathrm{rms}}=\\frac{I_0}{\\sqrt2}"
+        },
+        {
+          "topicId": "resistance-and-reactance",
+          "topicTitle": "Resistance and Reactance",
+          "label": "Reactance",
+          "tex": "X_C=\\frac{1}{\\omega C},\\qquad X_L=\\omega L"
+        },
+        {
+          "topicId": "lrc-series-circuits-in-ac",
+          "topicTitle": "LRC Series Circuits in AC",
+          "label": "Series LRC impedance",
+          "tex": "Z=\\sqrt{R^2+(X_L-X_C)^2}"
+        },
+        {
+          "topicId": "lrc-series-circuits-in-ac",
+          "topicTitle": "LRC Series Circuits in AC",
+          "label": "Series LRC current and phase",
+          "tex": "I_{\\mathrm{rms}}=\\frac{V_{\\mathrm{rms}}}{Z},\\qquad \\tan\\phi=\\frac{X_L-X_C}{R}"
+        },
+        {
+          "topicId": "power-in-ac-circuits",
+          "topicTitle": "Power in AC Circuits",
+          "label": "Average AC power",
+          "tex": "P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi=I_{\\mathrm{rms}}^2R"
+        },
+        {
+          "topicId": "resonance-in-ac-circuits",
+          "topicTitle": "Resonance in AC Circuits",
+          "label": "AC resonance",
+          "tex": "X_L=X_C,\\qquad \\omega_0=\\frac{1}{\\sqrt{LC}},\\qquad f_0=\\frac{1}{2\\pi\\sqrt{LC}}"
+        },
+        {
+          "topicId": "resonance-in-ac-circuits",
+          "topicTitle": "Resonance in AC Circuits",
+          "label": "Quality factor",
+          "tex": "Q=\\frac{\\omega_0L}{R}"
+        },
+        {
+          "topicId": "transformers",
+          "topicTitle": "Transformers",
+          "label": "Ideal transformer",
+          "tex": "\\frac{V_s}{V_p}=\\frac{N_s}{N_p},\\qquad V_pI_p=V_sI_s,\\qquad \\frac{I_s}{I_p}=\\frac{N_p}{N_s}"
+        }
+      ]
+    },
+    {
+      "sectionId": "electromagnetic-waves",
+      "sectionTitle": "Electromagnetic Waves",
+      "equations": [
+        {
+          "topicId": "maxwell-s-equations-to-waves",
+          "topicTitle": "Maxwell's Equations to Waves",
+          "label": "Vacuum wave speed",
+          "tex": "c=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}"
+        },
+        {
+          "topicId": "maxwell-s-equations-to-waves",
+          "topicTitle": "Maxwell's Equations to Waves",
+          "label": "Field ratio",
+          "tex": "\\frac{E}{B}=c"
+        },
+        {
+          "topicId": "plane-waves-and-light-speed",
+          "topicTitle": "Plane Waves and Light Speed",
+          "label": "Wave relations",
+          "tex": "c=f\\lambda=\\frac{\\omega}{k},\\qquad n=\\frac{c}{v}"
+        },
+        {
+          "topicId": "energy-and-momentum-in-electromagnetic-waves",
+          "topicTitle": "Energy and Momentum in Electromagnetic Waves",
+          "label": "Poynting vector",
+          "tex": "\\vec S=\\frac{1}{\\mu_0}\\vec E\\times\\vec B"
+        },
+        {
+          "topicId": "energy-and-momentum-in-electromagnetic-waves",
+          "topicTitle": "Energy and Momentum in Electromagnetic Waves",
+          "label": "Average intensity",
+          "tex": "I=\\frac12c\\epsilon_0E_0^2"
+        },
+        {
+          "topicId": "energy-and-momentum-in-electromagnetic-waves",
+          "topicTitle": "Energy and Momentum in Electromagnetic Waves",
+          "label": "Radiation pressure",
+          "tex": "p_{\\mathrm{rad}}=\\frac{I}{c}\\ \\text{or}\\ \\frac{2I}{c}"
+        },
+        {
+          "topicId": "standing-electromagnetic-waves",
+          "topicTitle": "Standing Electromagnetic Waves",
+          "label": "Standing EM modes",
+          "tex": "\\lambda_n=\\frac{2L}{n},\\qquad f_n=\\frac{nc}{2L}"
+        }
+      ]
+    },
+    {
+      "sectionId": "light-propagation",
+      "sectionTitle": "Light Propagation",
+      "equations": [
+        {
+          "topicId": "nature-of-light",
+          "topicTitle": "Nature of Light",
+          "label": "Light wave relation",
+          "tex": "v=f\\lambda,\\qquad c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+        },
+        {
+          "topicId": "nature-of-light",
+          "topicTitle": "Nature of Light",
+          "label": "Refractive index",
+          "tex": "n=\\frac{c}{v},\\qquad \\lambda=\\frac{\\lambda_0}{n}"
+        },
+        {
+          "topicId": "reflection-and-refraction",
+          "topicTitle": "Reflection and Refraction",
+          "label": "Reflection and refraction",
+          "tex": "\\theta_r=\\theta_i,\\qquad n_1\\sin\\theta_1=n_2\\sin\\theta_2"
+        },
+        {
+          "topicId": "total-internal-reflection",
+          "topicTitle": "Total Internal Reflection",
+          "label": "Critical angle",
+          "tex": "\\theta_c=\\sin^{-1}\\left(\\frac{n_2}{n_1}\\right)\\quad(n_1>n_2)"
+        },
+        {
+          "topicId": "polarization",
+          "topicTitle": "Polarization",
+          "label": "Polarization",
+          "tex": "I=I_0\\cos^2\\theta,\\qquad \\tan\\theta_B=\\frac{n_2}{n_1}"
+        },
+        {
+          "topicId": "scattering",
+          "topicTitle": "Scattering",
+          "label": "Rayleigh scattering",
+          "tex": "I_{\\mathrm{scattered}}\\propto\\lambda^{-4}"
+        }
+      ]
+    },
+    {
+      "sectionId": "geometric-optics",
+      "sectionTitle": "Geometric Optics",
+      "equations": [
+        {
+          "topicId": "plane-surface-reflection",
+          "topicTitle": "Plane-Surface Reflection",
+          "label": "Plane mirror",
+          "tex": "\\theta_r=\\theta_i,\\qquad s'=-s,\\qquad m=+1"
+        },
+        {
+          "topicId": "spherical-mirrors",
+          "topicTitle": "Spherical Mirrors",
+          "label": "Spherical mirror",
+          "tex": "f=\\frac{R}{2},\\qquad \\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{f},\\qquad m=-\\frac{s'}{s}"
+        },
+        {
+          "topicId": "spherical-refraction",
+          "topicTitle": "Spherical Refraction",
+          "label": "Spherical refraction",
+          "tex": "\\frac{n_1}{s}+\\frac{n_2}{s'}=\\frac{n_2-n_1}{R}"
+        },
+        {
+          "topicId": "thin-lenses",
+          "topicTitle": "Thin Lenses",
+          "label": "Thin lens",
+          "tex": "\\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{f},\\qquad m=-\\frac{s'}{s}"
+        },
+        {
+          "topicId": "thin-lenses",
+          "topicTitle": "Thin Lenses",
+          "label": "Lens power and lensmaker",
+          "tex": "P=\\frac1f,\\qquad \\frac{1}{f}=(n-1)\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right)"
+        },
+        {
+          "topicId": "magnifiers",
+          "topicTitle": "Magnifiers",
+          "label": "Magnifier",
+          "tex": "M=\\frac{N}{f}\\ \\text{(relaxed)},\\qquad M=1+\\frac{N}{f}\\ \\text{(near point)}"
+        },
+        {
+          "topicId": "microscopes",
+          "topicTitle": "Microscopes",
+          "label": "Microscope",
+          "tex": "M\\approx-\\frac{LN}{f_of_e}"
+        },
+        {
+          "topicId": "telescopes",
+          "topicTitle": "Telescopes",
+          "label": "Telescope",
+          "tex": "M=-\\frac{f_o}{f_e},\\qquad L=f_o+f_e"
+        }
+      ]
+    },
+    {
+      "sectionId": "interference",
+      "sectionTitle": "Interference",
+      "equations": [
+        {
+          "topicId": "coherence-and-interference",
+          "topicTitle": "Coherence and Interference",
+          "label": "Path and phase difference",
+          "tex": "\\Delta\\phi=\\frac{2\\pi\\Delta r}{\\lambda}"
+        },
+        {
+          "topicId": "coherence-and-interference",
+          "topicTitle": "Coherence and Interference",
+          "label": "Interference conditions",
+          "tex": "\\Delta r=m\\lambda\\ \\text{(constructive)},\\qquad \\Delta r=\\left(m+\\frac12\\right)\\lambda\\ \\text{(destructive)}"
+        },
+        {
+          "topicId": "two-source-light-interference",
+          "topicTitle": "Two-Source Light Interference",
+          "label": "Double-slit fringes",
+          "tex": "d\\sin\\theta=m\\lambda,\\qquad y_m\\approx\\frac{m\\lambda L}{d},\\qquad \\Delta y\\approx\\frac{\\lambda L}{d}"
+        },
+        {
+          "topicId": "intensity-in-interference-patterns",
+          "topicTitle": "Intensity in Interference Patterns",
+          "label": "Two-beam intensity",
+          "tex": "I=4I_0\\cos^2\\left(\\frac{\\delta}{2}\\right)"
+        },
+        {
+          "topicId": "thin-film-interference",
+          "topicTitle": "Thin-Film Interference",
+          "label": "Thin-film reflection",
+          "tex": "2nt=\\left(m+\\frac12\\right)\\lambda_0\\ \\text{(constructive)},\\qquad 2nt=m\\lambda_0\\ \\text{(destructive)}"
+        },
+        {
+          "topicId": "michelson-interferometer",
+          "topicTitle": "Michelson Interferometer",
+          "label": "Michelson displacement",
+          "tex": "N=\\frac{2\\Delta L}{\\lambda},\\qquad \\Delta L=\\frac{N\\lambda}{2}"
+        }
+      ]
+    },
+    {
+      "sectionId": "diffraction",
+      "sectionTitle": "Diffraction",
+      "equations": [
+        {
+          "topicId": "fresnel-and-fraunhofer-regimes",
+          "topicTitle": "Fresnel and Fraunhofer Regimes",
+          "label": "Fresnel number",
+          "tex": "N_F=\\frac{a^2}{\\lambda L}"
+        },
+        {
+          "topicId": "single-slit-diffraction",
+          "topicTitle": "Single-Slit Diffraction",
+          "label": "Single-slit minima",
+          "tex": "a\\sin\\theta_m=m\\lambda,\\qquad y_m\\approx\\frac{m\\lambda L}{a}"
+        },
+        {
+          "topicId": "intensity-in-single-slit-patterns",
+          "topicTitle": "Intensity in Single-Slit Patterns",
+          "label": "Single-slit intensity",
+          "tex": "I=I_0\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2,\\qquad \\beta=\\frac{\\pi a\\sin\\theta}{\\lambda}"
+        },
+        {
+          "topicId": "diffraction-gratings",
+          "topicTitle": "Diffraction Gratings",
+          "label": "Diffraction grating",
+          "tex": "d\\sin\\theta_m=m\\lambda,\\qquad d=\\frac1{n_L}"
+        },
+        {
+          "topicId": "diffraction-gratings",
+          "topicTitle": "Diffraction Gratings",
+          "label": "Grating resolving power",
+          "tex": "R=mN"
+        },
+        {
+          "topicId": "x-ray-diffraction",
+          "topicTitle": "X-Ray Diffraction",
+          "label": "Bragg law",
+          "tex": "2d\\sin\\theta=m\\lambda"
+        },
+        {
+          "topicId": "circular-apertures-and-resolution",
+          "topicTitle": "Circular Apertures and Resolution",
+          "label": "Rayleigh criterion",
+          "tex": "\\theta_R\\approx1.22\\frac{\\lambda}{D},\\qquad s_{\\min}\\approx1.22\\frac{\\lambda L}{D}"
+        }
+      ]
+    },
+    {
+      "sectionId": "relativity",
+      "sectionTitle": "Relativity",
+      "equations": [
+        {
+          "topicId": "invariance-of-physical-laws",
+          "topicTitle": "Invariance of Physical Laws",
+          "label": "Lorentz factor",
+          "tex": "\\beta=\\frac{v}{c},\\qquad \\gamma=\\frac{1}{\\sqrt{1-\\beta^2}}"
+        },
+        {
+          "topicId": "time-dilation",
+          "topicTitle": "Time Dilation",
+          "label": "Time dilation",
+          "tex": "\\Delta t=\\gamma\\Delta\\tau"
+        },
+        {
+          "topicId": "length-contraction",
+          "topicTitle": "Length Contraction",
+          "label": "Length contraction",
+          "tex": "L=\\frac{L_0}{\\gamma}"
+        },
+        {
+          "topicId": "lorentz-transformations",
+          "topicTitle": "Lorentz Transformations",
+          "label": "Lorentz transformation",
+          "tex": "x'=\\gamma(x-vt),\\qquad t'=\\gamma\\left(t-\\frac{vx}{c^2}\\right)"
+        },
+        {
+          "topicId": "lorentz-transformations",
+          "topicTitle": "Lorentz Transformations",
+          "label": "Velocity addition",
+          "tex": "u_x'=\\frac{u_x-v}{1-u_xv/c^2}"
+        },
+        {
+          "topicId": "relativistic-doppler-effect",
+          "topicTitle": "Relativistic Doppler Effect",
+          "label": "Relativistic Doppler effect",
+          "tex": "f_o=f_s\\sqrt{\\frac{1+\\beta}{1-\\beta}}\\ \\text{(approaching)},\\qquad f_o=f_s\\sqrt{\\frac{1-\\beta}{1+\\beta}}\\ \\text{(receding)}"
+        },
+        {
+          "topicId": "relativistic-momentum",
+          "topicTitle": "Relativistic Momentum",
+          "label": "Relativistic momentum",
+          "tex": "\\vec p=\\gamma m\\vec v"
+        },
+        {
+          "topicId": "relativistic-work-and-energy",
+          "topicTitle": "Relativistic Work and Energy",
+          "label": "Relativistic energy",
+          "tex": "E=\\gamma mc^2,\\qquad E_0=mc^2,\\qquad K=(\\gamma-1)mc^2"
+        },
+        {
+          "topicId": "relativistic-work-and-energy",
+          "topicTitle": "Relativistic Work and Energy",
+          "label": "Energy-momentum relation",
+          "tex": "E^2=(pc)^2+(mc^2)^2"
+        }
+      ]
+    },
+    {
+      "sectionId": "photons",
+      "sectionTitle": "Photons",
+      "equations": [
+        {
+          "topicId": "wave-particle-duality",
+          "topicTitle": "Wave-Particle Duality",
+          "label": "Photon energy and momentum",
+          "tex": "E=hf=\\frac{hc}{\\lambda},\\qquad p=\\frac{h}{\\lambda}"
+        },
+        {
+          "topicId": "photoelectric-effect",
+          "topicTitle": "Photoelectric Effect",
+          "label": "Photoelectric effect",
+          "tex": "K_{\\max}=hf-\\phi,\\qquad eV_s=K_{\\max}"
+        },
+        {
+          "topicId": "photoelectric-effect",
+          "topicTitle": "Photoelectric Effect",
+          "label": "Photoelectric thresholds",
+          "tex": "f_0=\\frac{\\phi}{h},\\qquad \\lambda_0=\\frac{hc}{\\phi}"
+        },
+        {
+          "topicId": "x-ray-production",
+          "topicTitle": "X-Ray Production",
+          "label": "X-ray cutoff",
+          "tex": "K=eV,\\qquad \\lambda_{\\min}=\\frac{hc}{eV}"
+        },
+        {
+          "topicId": "compton-scattering",
+          "topicTitle": "Compton Scattering",
+          "label": "Compton shift",
+          "tex": "\\lambda'-\\lambda=\\frac{h}{m_ec}(1-\\cos\\theta)"
+        },
+        {
+          "topicId": "pair-production",
+          "topicTitle": "Pair Production",
+          "label": "Pair production threshold",
+          "tex": "E_{\\mathrm{th}}=2m_ec^2=1.022\\,\\mathrm{MeV}"
+        },
+        {
+          "topicId": "uncertainty-principle",
+          "topicTitle": "Uncertainty Principle",
+          "label": "Uncertainty principle",
+          "tex": "\\Delta x\\,\\Delta p\\ge\\frac{\\hbar}{2},\\qquad \\Delta E\\,\\Delta t\\gtrsim\\frac{\\hbar}{2}"
+        },
+        {
+          "topicId": "wave-particle-duality",
+          "topicTitle": "Wave-Particle Duality",
+          "label": "de Broglie wavelength",
+          "tex": "\\lambda=\\frac{h}{p}"
+        }
+      ]
+    },
+    {
+      "sectionId": "matter-waves",
+      "sectionTitle": "Matter Waves",
+      "equations": [
+        {
+          "topicId": "electron-waves",
+          "topicTitle": "Electron Waves",
+          "label": "Electron de Broglie wavelength",
+          "tex": "\\lambda=\\frac{h}{p},\\qquad \\lambda=\\frac{h}{\\sqrt{2m_eeV}}"
+        },
+        {
+          "topicId": "atomic-spectra",
+          "topicTitle": "Atomic Spectra",
+          "label": "Atomic photon energy",
+          "tex": "E_\\gamma=hf=\\frac{hc}{\\lambda}=E_i-E_f"
+        },
+        {
+          "topicId": "bohr-energy-levels",
+          "topicTitle": "Bohr Energy Levels",
+          "label": "Bohr model",
+          "tex": "m_evr_n=n\\hbar,\\qquad r_n=n^2a_0"
+        },
+        {
+          "topicId": "bohr-energy-levels",
+          "topicTitle": "Bohr Energy Levels",
+          "label": "Hydrogen energies",
+          "tex": "E_n=-\\frac{13.6\\,\\mathrm{eV}}{n^2}"
+        },
+        {
+          "topicId": "continuous-spectra",
+          "topicTitle": "Continuous Spectra",
+          "label": "Wien law",
+          "tex": "\\lambda_{\\max}T=b"
+        },
+        {
+          "topicId": "nuclear-atom",
+          "topicTitle": "Nuclear Atom",
+          "label": "Closest approach",
+          "tex": "r_{\\min}=\\frac{2kZe^2}{K}"
+        },
+        {
+          "topicId": "uncertainty-revisited",
+          "topicTitle": "Uncertainty Revisited",
+          "label": "Confinement estimate",
+          "tex": "K\\sim\\frac{\\hbar^2}{2mL^2}"
+        }
+      ]
+    },
+    {
+      "sectionId": "quantum-wave-functions",
+      "sectionTitle": "Quantum Wave Functions",
+      "equations": [
+        {
+          "topicId": "wave-functions",
+          "topicTitle": "Wave Functions",
+          "label": "Normalization and probability",
+          "tex": "\\int_{-\\infty}^{\\infty}|\\psi|^2\\,dx=1,\\qquad P_{[a,b]}=\\int_a^b|\\psi|^2\\,dx"
+        },
+        {
+          "topicId": "wave-functions",
+          "topicTitle": "Wave Functions",
+          "label": "Expectation value",
+          "tex": "\\langle x\\rangle=\\int_{-\\infty}^{\\infty}x|\\psi|^2\\,dx"
+        },
+        {
+          "topicId": "one-dimensional-schrodinger-equation",
+          "topicTitle": "One-Dimensional Schrodinger Equation",
+          "label": "One-dimensional Schrodinger equation",
+          "tex": "i\\hbar\\frac{\\partial\\psi}{\\partial t}=\\left[-\\frac{\\hbar^2}{2m}\\frac{\\partial^2}{\\partial x^2}+V(x)\\right]\\psi"
+        },
+        {
+          "topicId": "one-dimensional-schrodinger-equation",
+          "topicTitle": "One-Dimensional Schrodinger Equation",
+          "label": "Stationary Schrodinger equation",
+          "tex": "-\\frac{\\hbar^2}{2m}\\frac{d^2\\phi}{dx^2}+V(x)\\phi=E\\phi"
+        },
+        {
+          "topicId": "particle-in-a-box",
+          "topicTitle": "Particle in a Box",
+          "label": "Particle in a box",
+          "tex": "\\psi_n(x)=\\sqrt{\\frac{2}{L}}\\sin\\left(\\frac{n\\pi x}{L}\\right),\\qquad E_n=\\frac{n^2\\pi^2\\hbar^2}{2mL^2}"
+        },
+        {
+          "topicId": "potential-barriers-and-tunneling",
+          "topicTitle": "Potential Barriers and Tunneling",
+          "label": "Tunneling estimate",
+          "tex": "\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar},\\qquad T\\sim e^{-2\\kappa a}"
+        },
+        {
+          "topicId": "harmonic-oscillator",
+          "topicTitle": "Harmonic Oscillator",
+          "label": "Quantum harmonic oscillator",
+          "tex": "V(x)=\\frac12m\\omega^2x^2,\\qquad E_n=\\left(n+\\frac12\\right)\\hbar\\omega"
+        },
+        {
+          "topicId": "measurement-in-quantum-mechanics",
+          "topicTitle": "Measurement in Quantum Mechanics",
+          "label": "Quantum measurement",
+          "tex": "P_n=|\\langle a_n|\\psi\\rangle|^2,\\qquad \\langle A\\rangle=\\langle\\psi|\\hat A|\\psi\\rangle"
+        }
+      ]
+    },
+    {
+      "sectionId": "atomic-quantum-structure",
+      "sectionTitle": "Atomic Quantum Structure",
+      "equations": [
+        {
+          "topicId": "three-dimensional-schrodinger-equation",
+          "topicTitle": "Three-Dimensional Schrodinger Equation",
+          "label": "Three-dimensional Schrodinger equation",
+          "tex": "i\\hbar\\frac{\\partial\\psi}{\\partial t}=\\left[-\\frac{\\hbar^2}{2m}\\nabla^2+U(\\vec r)\\right]\\psi"
+        },
+        {
+          "topicId": "three-dimensional-schrodinger-equation",
+          "topicTitle": "Three-Dimensional Schrodinger Equation",
+          "label": "Three-dimensional normalization",
+          "tex": "\\int|\\psi|^2\\,dV=1"
+        },
+        {
+          "topicId": "particle-in-a-three-dimensional-box",
+          "topicTitle": "Particle in a Three-Dimensional Box",
+          "label": "3D box energy",
+          "tex": "E=\\frac{h^2}{8m}\\left(\\frac{n_x^2}{L_x^2}+\\frac{n_y^2}{L_y^2}+\\frac{n_z^2}{L_z^2}\\right)"
+        },
+        {
+          "topicId": "hydrogen-atom",
+          "topicTitle": "Hydrogen Atom",
+          "label": "Hydrogen atom",
+          "tex": "E_n=-\\frac{13.6\\,\\mathrm{eV}}{n^2},\\qquad L=\\sqrt{\\ell(\\ell+1)}\\hbar,\\qquad L_z=m_\\ell\\hbar"
+        },
+        {
+          "topicId": "electron-spin",
+          "topicTitle": "Electron Spin",
+          "label": "Electron spin",
+          "tex": "s=\\frac12,\\qquad S=\\sqrt{s(s+1)}\\hbar,\\qquad S_z=m_s\\hbar"
+        },
+        {
+          "topicId": "exclusion-principle",
+          "topicTitle": "Exclusion Principle",
+          "label": "Pauli capacities",
+          "tex": "N_{\\mathrm{orbital}}=2,\\qquad N_e=2n^2"
+        },
+        {
+          "topicId": "zeeman-effect",
+          "topicTitle": "Zeeman Effect",
+          "label": "Zeeman effect",
+          "tex": "\\mu_B=\\frac{e\\hbar}{2m_e},\\qquad \\Delta E=m_\\ell\\mu_BB,\\qquad \\Delta f=\\frac{\\Delta E}{h}"
+        },
+        {
+          "topicId": "x-ray-spectra",
+          "topicTitle": "X-Ray Spectra",
+          "label": "Characteristic x-ray",
+          "tex": "E_\\gamma=E_i-E_f,\\qquad \\lambda=\\frac{hc}{E_\\gamma}"
+        }
+      ]
+    },
+    {
+      "sectionId": "nuclear-physics",
+      "sectionTitle": "Nuclear Physics",
+      "equations": [
+        {
+          "topicId": "nuclear-properties",
+          "topicTitle": "Nuclear Properties",
+          "label": "Nuclear composition and radius",
+          "tex": "A=Z+N,\\qquad R=R_0A^{1/3}"
+        },
+        {
+          "topicId": "binding-energy",
+          "topicTitle": "Binding Energy",
+          "label": "Binding energy",
+          "tex": "\\Delta m=Zm_{\\mathrm p}+Nm_{\\mathrm n}-M_{\\mathrm{nucleus}},\\qquad B=\\Delta mc^2"
+        },
+        {
+          "topicId": "radioactivity",
+          "topicTitle": "Radioactivity",
+          "label": "Radioactive decay",
+          "tex": "N=N_0e^{-\\lambda t},\\qquad A=\\lambda N,\\qquad t_{1/2}=\\frac{\\ln2}{\\lambda}"
+        },
+        {
+          "topicId": "activity-and-half-life",
+          "topicTitle": "Activity and Half-Life",
+          "label": "Radiometric dating",
+          "tex": "t=-\\frac1\\lambda\\ln\\left(\\frac{N}{N_0}\\right)"
+        },
+        {
+          "topicId": "biological-effects-of-radiation",
+          "topicTitle": "Biological Effects of Radiation",
+          "label": "Radiation dose",
+          "tex": "D=\\frac{E}{m},\\qquad H=w_RD"
+        },
+        {
+          "topicId": "nuclear-reactions",
+          "topicTitle": "Nuclear Reactions",
+          "label": "Nuclear reaction conservation",
+          "tex": "\\sum A_i=\\sum A_f,\\qquad \\sum Z_i=\\sum Z_f"
+        },
+        {
+          "topicId": "nuclear-reactions",
+          "topicTitle": "Nuclear Reactions",
+          "label": "Nuclear Q value",
+          "tex": "Q=(m_i-m_f)c^2"
+        },
+        {
+          "topicId": "fusion",
+          "topicTitle": "Fusion",
+          "label": "Coulomb barrier scale",
+          "tex": "U_C\\approx\\frac{1}{4\\pi\\epsilon_0}\\frac{Z_1Z_2e^2}{r}"
+        }
+      ]
+    },
+    {
+      "sectionId": "particles-cosmology",
+      "sectionTitle": "Particles and Cosmology",
+      "equations": [
+        {
+          "topicId": "accelerators-and-detectors",
+          "topicTitle": "Accelerators and Detectors",
+          "label": "Accelerator energy and track radius",
+          "tex": "\\Delta K=qV,\\qquad p=|q|Br"
+        },
+        {
+          "topicId": "history-of-fundamental-particles",
+          "topicTitle": "History of Fundamental Particles",
+          "label": "Rest energy",
+          "tex": "E_0=mc^2"
+        },
+        {
+          "topicId": "particle-families",
+          "topicTitle": "Particle Families",
+          "label": "Particle conservation",
+          "tex": "\\sum Q_i=\\sum Q_f,\\qquad \\sum B_i=\\sum B_f"
+        },
+        {
+          "topicId": "quarks-and-gluons",
+          "topicTitle": "Quarks and Gluons",
+          "label": "Quark charges",
+          "tex": "Q_u=+\\frac23,\\qquad Q_d=Q_s=-\\frac13"
+        },
+        {
+          "topicId": "expanding-universe",
+          "topicTitle": "Expanding Universe",
+          "label": "Hubble law and redshift",
+          "tex": "v=H_0d,\\qquad 1+z=\\frac{\\lambda_{\\mathrm{obs}}}{\\lambda_{\\mathrm{emit}}}=\\frac{a_0}{a_{\\mathrm{emit}}}"
+        },
+        {
+          "topicId": "early-universe",
+          "topicTitle": "Early Universe",
+          "label": "Early-universe scaling",
+          "tex": "T(z)=T_0(1+z),\\qquad E\\sim k_BT"
+        }
+      ]
+    }
+  ]
+}

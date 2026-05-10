@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "ampere-s-law",
+  "topicTitle": "Ampere's Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "amperes-law-01",
+      "prompt": "State Ampere's law for steady currents.",
+      "answer": "Ampere's law is\n\\[\n\\oint \\vec B\\cdot d\\vec l=\\mu_0I_{\\mathrm{enc}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-02",
+      "prompt": "What kind of path is used in the line integral in Ampere's law?",
+      "answer": "The integral is around a closed path, often called an Amperian loop.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-03",
+      "prompt": "What does \\(I_{\\mathrm{enc}}\\) mean in Ampere's law?",
+      "answer": "\\(I_{\\mathrm{enc}}\\) is the net signed current passing through any surface bounded by the chosen closed path.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-04",
+      "prompt": "A closed loop encloses \\(4.0\\,\\mathrm A\\) of current in the positive sense. Find \\(\\oint\\vec B\\cdot d\\vec l\\).",
+      "answer": "\\[\n\\oint\\vec B\\cdot d\\vec l=\\mu_0I_{\\mathrm{enc}}\n\\]\n\\[\n\\oint\\vec B\\cdot d\\vec l=(4\\pi\\times10^{-7})(4.0)=5.0\\times10^{-6}\\,\\mathrm{T\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-05",
+      "prompt": "A circular Amperian loop has radius \\(0.20\\,\\mathrm m\\) and encloses a long straight wire carrying \\(5.0\\,\\mathrm A\\). Use Ampere's law to find \\(B\\) on the loop.",
+      "answer": "By symmetry, \\(B\\) is constant and tangent on the circle:\n\\[\n\\oint\\vec B\\cdot d\\vec l=B(2\\pi r)\n\\]\nThus\n\\[\nB(2\\pi r)=\\mu_0I\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(5.0)}{2\\pi(0.20)}=5.0\\times10^{-6}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-06",
+      "prompt": "An Amperian loop encloses currents \\(6.0\\,\\mathrm A\\) and \\(2.0\\,\\mathrm A\\) in the positive sense, and \\(3.0\\,\\mathrm A\\) in the negative sense. Find \\(I_{\\mathrm{enc}}\\).",
+      "answer": "Add currents with signs:\n\\[\nI_{\\mathrm{enc}}=6.0+2.0-3.0=5.0\\,\\mathrm A\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-07",
+      "prompt": "Why can \\(\\oint\\vec B\\cdot d\\vec l\\) become \\(B(2\\pi r)\\) for a long straight wire?",
+      "answer": "For a circular loop centered on a long straight wire, symmetry makes \\(B\\) the same magnitude everywhere on the loop and tangent to the path. Therefore \\(\\vec B\\cdot d\\vec l=B\\,dl\\), and\n\\[\n\\oint\\vec B\\cdot d\\vec l=B\\oint dl=B(2\\pi r)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-08",
+      "prompt": "Ampere's law is always true for steady currents. Why might it still be unhelpful for finding \\(B\\) around a short bent wire?",
+      "answer": "The law gives one closed-loop integral, but without symmetry \\(B\\) may vary in magnitude and direction around the path. Then the integral cannot be simplified to a single unknown such as \\(B(2\\pi r)\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-09",
+      "prompt": "Check the units of Ampere's law by showing that \\(\\mu_0I\\) has units of \\(\\mathrm{T\\,m}\\).",
+      "answer": "One useful identity is\n\\[\n1\\,\\mathrm T=1\\,\\mathrm{N\\,A^{-1}\\,m^{-1}}\n\\]\nSince\n\\[\n\\mu_0\\text{ has units }\\mathrm{N\\,A^{-2}}\n\\]\nthen\n\\[\n\\mu_0I\\text{ has units }\\mathrm{N\\,A^{-1}}\n\\]\nBut\n\\[\n\\mathrm{T\\,m}=\\mathrm{N\\,A^{-1}}\n\\]\nso the units match the line integral \\(\\oint\\vec B\\cdot d\\vec l\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "amperes-law-10",
+      "prompt": "A loop direction is chosen counterclockwise as viewed by you. A current passes through the loop toward you. Is its contribution to \\(I_{\\mathrm{enc}}\\) positive or negative?",
+      "answer": "Curl the fingers of your right hand counterclockwise. Your thumb points toward you. Therefore a current toward you is in the positive sense and contributes positively to \\(I_{\\mathrm{enc}}\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

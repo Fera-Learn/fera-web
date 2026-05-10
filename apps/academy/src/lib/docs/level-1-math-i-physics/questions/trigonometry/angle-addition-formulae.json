@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "trigonometry",
+  "topicId": "angle-addition-formulae",
+  "topicTitle": "Angle Addition Formulae",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-angle-addition-formulae-01",
+      "prompt": "Use angle addition to find \\(\\sin75^\\circ\\).",
+      "answer": "Write \\(75^\\circ=45^\\circ+30^\\circ\\). Then\n\\[\n\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\n\\]\n\\[\n=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-angle-addition-formulae-02",
+      "prompt": "Use angle addition to find \\(\\cos(\\pi/3+\\pi/6)\\).",
+      "answer": "Use the cosine addition formula:\n\\[\n\\cos\\left(\\frac{\\pi}{3}+\\frac{\\pi}{6}\\right)=\\cos\\frac{\\pi}{3}\\cos\\frac{\\pi}{6}-\\sin\\frac{\\pi}{3}\\sin\\frac{\\pi}{6}\n\\]\n\\[\n=\\frac12\\frac{\\sqrt3}{2}-\\frac{\\sqrt3}{2}\\frac12=0\n\\]\nThis matches \\(\\cos(\\pi/2)=0\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-angle-addition-formulae-03",
+      "prompt": "Simplify \\(\\sin(x+\\pi)\\).",
+      "answer": "Use the sine addition formula:\n\\[\n\\sin(x+\\pi)=\\sin x\\cos\\pi+\\cos x\\sin\\pi\n\\]\nSince \\(\\cos\\pi=-1\\) and \\(\\sin\\pi=0\\),\n\\[\n\\sin(x+\\pi)=-\\sin x\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-angle-addition-formulae-04",
+      "prompt": "Derive \\(\\sin(2x)=2\\sin x\\cos x\\) from the sine addition formula.",
+      "answer": "Set both angles equal to \\(x\\):\n\\[\n\\sin(2x)=\\sin(x+x)=\\sin x\\cos x+\\cos x\\sin x\n\\]\nThe two terms are equal, so\n\\[\n\\sin(2x)=2\\sin x\\cos x\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-angle-addition-formulae-05",
+      "prompt": "Use \\(\\tan(a+b)=\\frac{\\tan a+\\tan b}{1-\\tan a\\tan b}\\) to find \\(\\tan75^\\circ\\).",
+      "answer": "Use \\(75^\\circ=45^\\circ+30^\\circ\\), with \\(\\tan45^\\circ=1\\) and \\(\\tan30^\\circ=1/\\sqrt3\\):\n\\[\n\\tan75^\\circ=\\frac{1+1/\\sqrt3}{1-1/\\sqrt3}\n\\]\nMultiply top and bottom by \\(\\sqrt3\\):\n\\[\n\\tan75^\\circ=\\frac{\\sqrt3+1}{\\sqrt3-1}=2+\\sqrt3\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-angle-addition-formulae-06",
+      "prompt": "If \\(\\sin x=3/5\\), \\(\\cos x=4/5\\), \\(\\sin y=5/13\\), and \\(\\cos y=12/13\\), find \\(\\cos(x-y)\\).",
+      "answer": "Use the cosine difference formula:\n\\[\n\\cos(x-y)=\\cos x\\cos y+\\sin x\\sin y\n\\]\nSubstitute the given values:\n\\[\n\\cos(x-y)=\\frac45\\frac{12}{13}+\\frac35\\frac5{13}=\\frac{48+15}{65}=\\frac{63}{65}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

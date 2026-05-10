@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "relativistic-doppler-effect",
+  "topicTitle": "Relativistic Doppler Effect",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-doppler-01",
+      "prompt": "What happens to the observed frequency of light when source and observer approach each other?",
+      "answer": "The observed frequency increases. This is a blueshift.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-02",
+      "prompt": "What happens to the observed wavelength of light from a receding source?",
+      "answer": "The observed wavelength increases. This is a redshift.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-03",
+      "prompt": "State the longitudinal relativistic Doppler formula for an approaching source.",
+      "answer": "\\[\nf_o=f_s\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-04",
+      "prompt": "State the longitudinal relativistic Doppler formula for a receding source.",
+      "answer": "\\[\nf_o=f_s\\sqrt{\\frac{1-\\beta}{1+\\beta}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-05",
+      "prompt": "A source emits \\(5.00\\times10^{14}\\,\\mathrm{Hz}\\) and approaches slowly enough that the observed frequency is \\(6.00\\times10^{14}\\,\\mathrm{Hz}\\). Is this a redshift or blueshift?",
+      "answer": "The observed frequency is higher than the emitted frequency, so it is a blueshift.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-06",
+      "prompt": "A spectral line has rest wavelength \\(500\\,\\mathrm{nm}\\) and observed wavelength \\(550\\,\\mathrm{nm}\\). Find the redshift \\(z\\).",
+      "answer": "\\[\nz=\\frac{\\lambda_o-\\lambda_s}{\\lambda_s}=\\frac{550-500}{500}=0.100\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-07",
+      "prompt": "A source emitting \\(5.00\\times10^{14}\\,\\mathrm{Hz}\\) approaches at \\(0.200c\\). Find the observed frequency.",
+      "answer": "\\[\nf_o=f_s\\sqrt{\\frac{1+0.200}{1-0.200}}\n\\]\n\\[\nf_o=(5.00\\times10^{14})(1.225)=6.12\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-08",
+      "prompt": "A source emitting \\(6.00\\times10^{14}\\,\\mathrm{Hz}\\) recedes at \\(0.200c\\). Find the observed frequency.",
+      "answer": "\\[\nf_o=f_s\\sqrt{\\frac{1-0.200}{1+0.200}}\n\\]\n\\[\nf_o=(6.00\\times10^{14})(0.816)=4.90\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-09",
+      "prompt": "A rest wavelength \\(500\\,\\mathrm{nm}\\) is observed at \\(650\\,\\mathrm{nm}\\). Find \\(z\\) and state whether the source is approaching or receding.",
+      "answer": "\\[\nz=\\frac{650-500}{500}=0.300\n\\]\nThe observed wavelength is longer, so the source is receding.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-10",
+      "prompt": "A source recedes at \\(0.600c\\). By what factor is the observed frequency changed?",
+      "answer": "\\[\n\\frac{f_o}{f_s}=\\sqrt{\\frac{1-0.600}{1+0.600}}=\\sqrt{\\frac{0.400}{1.600}}=0.500\n\\]\nThe observed frequency is half the emitted frequency.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-11",
+      "prompt": "A source approaches at \\(0.600c\\). By what factor is the observed wavelength changed?",
+      "answer": "For approach,\n\\[\n\\frac{f_o}{f_s}=\\sqrt{\\frac{1+0.600}{1-0.600}}=2.00\n\\]\nSince \\(c=f\\lambda\\), wavelength changes inversely:\n\\[\n\\frac{\\lambda_o}{\\lambda_s}=\\frac{1}{2.00}=0.500\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-12",
+      "prompt": "A galaxy has redshift \\(z=0.500\\). What is the ratio \\(\\lambda_o/\\lambda_s\\)?",
+      "answer": "By definition,\n\\[\n1+z=\\frac{\\lambda_o}{\\lambda_s}\n\\]\nso\n\\[\n\\frac{\\lambda_o}{\\lambda_s}=1.500\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-13",
+      "prompt": "For a receding source, derive \\(\\lambda_o/\\lambda_s=\\sqrt{(1+\\beta)/(1-\\beta)}\\).",
+      "answer": "For recession,\n\\[\n\\frac{f_o}{f_s}=\\sqrt{\\frac{1-\\beta}{1+\\beta}}\n\\]\nSince \\(c=f\\lambda\\),\n\\[\n\\frac{\\lambda_o}{\\lambda_s}=\\frac{f_s}{f_o}\n\\]\nTherefore\n\\[\n\\frac{\\lambda_o}{\\lambda_s}=\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-14",
+      "prompt": "A source has observed wavelength twice its rest wavelength. Find the recession speed.",
+      "answer": "For recession,\n\\[\nR=\\frac{\\lambda_o}{\\lambda_s}=\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]\nWith \\(R=2\\),\n\\[\n4=\\frac{1+\\beta}{1-\\beta}\n\\]\n\\[\n4-4\\beta=1+\\beta\n\\]\n\\[\n\\beta=0.600\n\\]\nSo \\(v=0.600c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-15",
+      "prompt": "A source emits at \\(400\\,\\mathrm{nm}\\) and approaches at \\(0.800c\\). Find the observed wavelength.",
+      "answer": "For approach,\n\\[\n\\frac{f_o}{f_s}=\\sqrt{\\frac{1+0.800}{1-0.800}}=3.00\n\\]\nThus\n\\[\n\\lambda_o=\\frac{\\lambda_s}{3.00}=\\frac{400}{3.00}=133\\,\\mathrm{nm}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-16",
+      "prompt": "Derive the source speed in terms of the wavelength ratio \\(R=\\lambda_o/\\lambda_s\\) for a receding source.",
+      "answer": "For recession,\n\\[\nR=\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]\nSquare both sides:\n\\[\nR^2=\\frac{1+\\beta}{1-\\beta}\n\\]\n\\[\nR^2(1-\\beta)=1+\\beta\n\\]\n\\[\n\\beta=\\frac{R^2-1}{R^2+1}\n\\]\nso\n\\[\nv=c\\frac{R^2-1}{R^2+1}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-17",
+      "prompt": "Why is the relativistic Doppler effect for light symmetric between source motion and observer motion?",
+      "answer": "Light does not require a material medium. The shift depends on the relative inertial motion between source and observer, with time dilation and wavefront spacing both included. Unlike sound, there is no preferred medium frame that distinguishes moving source from moving observer.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-18",
+      "prompt": "Show that the approaching and receding Doppler factors are reciprocals.",
+      "answer": "The approaching factor is\n\\[\nA=\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]\nThe receding factor is\n\\[\nR=\\sqrt{\\frac{1-\\beta}{1+\\beta}}\n\\]\nMultiplying,\n\\[\nAR=1\n\\]\nso they are reciprocals.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-19",
+      "prompt": "Explain why using the sound Doppler formula for light in vacuum is conceptually wrong.",
+      "answer": "The sound formula refers to speeds relative to a medium, such as air. Light in vacuum has no medium frame, and every inertial observer measures the same speed \\(c\\). The relativistic formula must include time dilation and depends on relative motion rather than source and observer speeds through a medium.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-doppler-20",
+      "prompt": "Show that the receding relativistic Doppler formula becomes the approximate low-speed redshift \\(z\\approx\\beta\\).",
+      "answer": "For recession,\n\\[\n1+z=\\sqrt{\\frac{1+\\beta}{1-\\beta}}\n\\]\nFor \\(\\beta\\ll1\\), use \\((1+\\beta)^{1/2}\\approx1+\\beta/2\\) and \\((1-\\beta)^{-1/2}\\approx1+\\beta/2\\). Then\n\\[\n1+z\\approx(1+\\beta/2)(1+\\beta/2)\\approx1+\beta\n\\]\nso \\(z\\approx\\beta\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

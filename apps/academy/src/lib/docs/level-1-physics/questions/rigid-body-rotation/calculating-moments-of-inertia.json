@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "calculating-moments-of-inertia",
+  "topicTitle": "Calculating Moments of Inertia",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "moments-of-inertia-01",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) point mass is \\(0.50\\,\\mathrm{m}\\) from an axis. Find \\(I\\).",
+      "answer": "\\[\nI=mr^2=2.0(0.50^2)=0.50\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-02",
+      "prompt": "A thin hoop has \\(M=3.0\\,\\mathrm{kg}\\) and \\(R=0.20\\,\\mathrm{m}\\). Find \\(I\\) about its symmetry axis.",
+      "answer": "\\[\nI=MR^2=3.0(0.20^2)=0.12\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-03",
+      "prompt": "A solid disk has \\(M=4.0\\,\\mathrm{kg}\\) and \\(R=0.30\\,\\mathrm{m}\\). Use \\(I=\\frac{1}{2}MR^2\\) to find its moment of inertia.",
+      "answer": "\\[\nI=\\frac{1}{2}MR^2=\\frac{1}{2}(4.0)(0.30^2)=0.18\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-04",
+      "prompt": "Three point masses \\(2.0\\,\\mathrm{kg}\\), \\(1.0\\,\\mathrm{kg}\\), and \\(3.0\\,\\mathrm{kg}\\) lie \\(0.20\\,\\mathrm{m}\\), \\(0.50\\,\\mathrm{m}\\), and \\(0.40\\,\\mathrm{m}\\) from an axis. Find \\(I\\).",
+      "answer": "\\[\nI=\\sum m_ir_i^2\n\\]\n\\[\nI=2.0(0.20^2)+1.0(0.50^2)+3.0(0.40^2)=0.81\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-05",
+      "prompt": "A uniform rod has \\(M=2.0\\,\\mathrm{kg}\\) and \\(L=1.5\\,\\mathrm{m}\\). Use \\(I_{\\mathrm{cm}}=\\frac{1}{12}ML^2\\) to find \\(I\\) about its center.",
+      "answer": "\\[\nI_{\\mathrm{cm}}=\\frac{1}{12}ML^2=\\frac{1}{12}(2.0)(1.5^2)=0.375\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-06",
+      "prompt": "The same rod has \\(M=2.0\\,\\mathrm{kg}\\) and \\(L=1.5\\,\\mathrm{m}\\). Use \\(I_{\\mathrm{end}}=\\frac{1}{3}ML^2\\) to find \\(I\\) about one end.",
+      "answer": "\\[\nI_{\\mathrm{end}}=\\frac{1}{3}ML^2=\\frac{1}{3}(2.0)(1.5^2)=1.50\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-07",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) point mass is at \\((3.0,4.0)\\,\\mathrm{m}\\), and a \\(1.0\\,\\mathrm{kg}\\) point mass is at \\((0,2.0)\\,\\mathrm{m}\\). Find \\(I\\) about the \\(z\\)-axis through the origin.",
+      "answer": "Distance from the \\(z\\)-axis is \\(r_\\perp^2=x^2+y^2\\). Thus\n\\[\nI=2.0(3.0^2+4.0^2)+1.0(0^2+2.0^2)\n\\]\n\\[\nI=54\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-08",
+      "prompt": "A flat annulus of mass \\(5.0\\,\\mathrm{kg}\\) has inner radius \\(0.10\\,\\mathrm{m}\\) and outer radius \\(0.30\\,\\mathrm{m}\\). Treat it as a uniform outer disk minus an inner disk and use \\(I=\\frac{1}{2}M(a^2+b^2)\\). Find \\(I\\).",
+      "answer": "\\[\nI=\\frac{1}{2}M(a^2+b^2)\n\\]\n\\[\nI=\\frac{1}{2}(5.0)(0.10^2+0.30^2)=0.25\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-09",
+      "prompt": "Derive the moment of inertia of a uniform rod of mass \\(M\\) and length \\(L\\) about an axis through one end and perpendicular to the rod. State why treating all mass as if it were at the center would be wrong.",
+      "answer": "For a uniform rod, use\n\\[\ndm=\\frac{M}{L}\\,dx\n\\]\nwith \\(x\\) measured from the end-axis:\n\\[\nI=\\int_0^L x^2\\,dm\n\\]\n\\[\nI=\\frac{M}{L}\\int_0^Lx^2\\,dx=\\frac{M}{L}\\frac{L^3}{3}\n\\]\n\\[\nI=\\frac{1}{3}ML^2\n\\]\nTreating all mass as if it were at the center would give \\(M(L/2)^2=\\frac{1}{4}ML^2\\), which misses the larger contribution from mass farther from the end.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moments-of-inertia-10",
+      "prompt": "A nonuniform rod lies on \\(0\\le x\\le L\\) with density \\(\\lambda(x)=\\lambda_0(1+x/L)\\). The rotation axis is at \\(x=0\\), perpendicular to the rod. Find \\(\\lambda_0\\) in terms of \\(M\\), then derive \\(I\\).",
+      "answer": "First normalize the density:\n\\[\nM=\\int_0^L\\lambda_0\\left(1+\\frac{x}{L}\\right)\\,dx\n\\]\n\\[\nM=\\lambda_0\\left(L+\\frac{L}{2}\\right)=\\frac{3}{2}\\lambda_0L\n\\]\n\\[\n\\lambda_0=\\frac{2M}{3L}\n\\]\nNow compute the moment of inertia:\n\\[\nI=\\int_0^L x^2\\lambda_0\\left(1+\\frac{x}{L}\\right)\\,dx\n\\]\n\\[\nI=\\lambda_0\\left(\\frac{L^3}{3}+\\frac{L^3}{4}\\right)=\\lambda_0\\frac{7L^3}{12}\n\\]\n\\[\nI=\\frac{2M}{3L}\\frac{7L^3}{12}=\\frac{7}{18}ML^2\n\\]\nThe density increases with \\(x\\), so \\(I\\) is larger than the uniform-end value scaled by the same mass distribution near the center would suggest.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "lhopitals-rule",
+  "topicTitle": "L'Hopital Rule",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "lh-1",
+      "prompt": "Evaluate lim x -> 0 of (sin x) / x.",
+      "answer": "1",
+      "hints": ["Both numerator and denominator approach 0.", "Apply L'Hopital's Rule."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-2",
+      "prompt": "Evaluate lim x -> 0 of (e^x - 1) / x.",
+      "answer": "1",
+      "hints": ["This is the definition of the derivative of e^x at x=0.", "Apply L'Hopital's Rule."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-3",
+      "prompt": "Evaluate lim x -> 0 of (tan x) / x.",
+      "answer": "1",
+      "hints": ["Both approach 0.", "L'Hopital's Rule: derivative of tan x is sec^2 x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-4",
+      "prompt": "Evaluate lim x -> infinity of x / e^x.",
+      "answer": "0",
+      "hints": ["Infinity over infinity form.", "Apply L'Hopital's Rule: 1/e^x = 0."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-5",
+      "prompt": "Evaluate lim x -> 0 of (ln(1+x)) / x.",
+      "answer": "1",
+      "hints": ["0/0 form.", "Apply L'Hopital's Rule."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-6",
+      "prompt": "Evaluate lim x -> 0 of (x - sin x) / x^3.",
+      "answer": "1/6",
+      "hints": ["0/0 form, may need to apply twice.", "sin x = x - x^3/6 + ..."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-7",
+      "prompt": "Evaluate lim x -> 0 of (e^x - e^{-x}) / (sin x).",
+      "answer": "2",
+      "hints": ["0/0 form.", "Apply L'Hopital's Rule once, then evaluate."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-8",
+      "prompt": "Evaluate lim x -> 0 of (1/x - 1/sin x).",
+      "answer": "0",
+      "hints": ["Rewrite as (sin x - x) / (x sin x).", "0/0 form, may need Taylor series."],
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-9",
+      "prompt": "Evaluate lim x -> 0 of (x^2) / (1 - cos x).",
+      "answer": "2",
+      "hints": ["0/0 form.", "Apply L'Hopital's Rule or use identity 1 - cos x = 2 sin^2(x/2)."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "lh-10",
+      "prompt": "Evaluate lim x -> 0 of (sin^2 x) / (x^2).",
+      "answer": "1",
+      "hints": ["0/0 form.", "Apply L'Hopital's Rule twice, or use (sin x)/x -> 1."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

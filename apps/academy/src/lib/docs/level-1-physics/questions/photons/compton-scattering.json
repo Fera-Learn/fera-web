@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "photons",
+  "topicId": "compton-scattering",
+  "topicTitle": "Compton Scattering",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "compton-scattering-01",
+      "prompt": "What does Compton scattering demonstrate about photons?",
+      "answer": "It demonstrates that photons carry momentum as well as energy. The photon changes wavelength when it scatters from an electron.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-02",
+      "prompt": "State the Compton wavelength-shift equation.",
+      "answer": "\\[\n\\Delta\\lambda=\\lambda'-\\lambda=\\frac{h}{m_ec}(1-\\cos\\theta)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-03",
+      "prompt": "What is the electron Compton wavelength?",
+      "answer": "\\[\n\\lambda_C=\\frac{h}{m_ec}=2.43\\times10^{-12}\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-04",
+      "prompt": "What is the photon momentum in terms of wavelength?",
+      "answer": "\\[\np=\\frac{h}{\\lambda}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-05",
+      "prompt": "Find the Compton shift for scattering through \\(90^\\circ\\).",
+      "answer": "\\[\n\\Delta\\lambda=\\lambda_C(1-\\cos90^\\circ)=\\lambda_C=2.43\\times10^{-12}\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-06",
+      "prompt": "Find the maximum possible Compton wavelength shift for an electron.",
+      "answer": "The maximum occurs for backscattering, \\(\\theta=180^\\circ\\):\n\\[\n\\Delta\\lambda=\\lambda_C(1-\\cos180^\\circ)=2\\lambda_C=4.86\\times10^{-12}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-07",
+      "prompt": "What is the Compton shift for forward scattering?",
+      "answer": "For \\(\\theta=0\\), \\(\\cos0=1\\), so\n\\[\n\\Delta\\lambda=\\lambda_C(1-1)=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-08",
+      "prompt": "An x-ray of wavelength \\(0.071\\,\\mathrm{nm}\\) scatters through \\(90^\\circ\\). Find the scattered wavelength.",
+      "answer": "\\[\n\\lambda'=\\lambda+\\Delta\\lambda=0.071\\,\\mathrm{nm}+0.00243\\,\\mathrm{nm}=0.0734\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-09",
+      "prompt": "A photon scatters through \\(60^\\circ\\). Find \\(\\Delta\\lambda\\) in terms of \\(\\lambda_C\\).",
+      "answer": "\\[\n\\Delta\\lambda=\\lambda_C(1-\\cos60^\\circ)=\\lambda_C(1-0.5)=0.5\\lambda_C\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-10",
+      "prompt": "For the \\(60^\\circ\\) scattering in question 9, find the numerical shift.",
+      "answer": "\\[\n\\Delta\\lambda=0.5(2.43\\times10^{-12})=1.22\\times10^{-12}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-11",
+      "prompt": "Why does the scattered photon have lower energy than the incident photon?",
+      "answer": "The photon transfers some energy to the recoiling electron. Since photon energy is \\(E=hc/\\lambda\\), the increased wavelength means lower photon energy.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-12",
+      "prompt": "Does the Compton wavelength shift depend on the incident wavelength?",
+      "answer": "For a free electron initially at rest, the shift\n\\[\n\\Delta\\lambda=\\lambda_C(1-\\cos\\theta)\n\\]\ndepends on scattering angle, not on the incident wavelength.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-13",
+      "prompt": "Why is Compton scattering easier to observe with x-rays than visible light?",
+      "answer": "The Compton shift is about \\(10^{-12}\\,\\mathrm{m}\\). This is a significant fraction of x-ray wavelengths but tiny compared with visible wavelengths.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-14",
+      "prompt": "A photon has wavelength \\(0.0500\\,\\mathrm{nm}\\). Find its momentum using \\(h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}\\).",
+      "answer": "\\[\np=\\frac{h}{\\lambda}=\\frac{6.63\\times10^{-34}}{0.0500\\times10^{-9}}=1.33\\times10^{-23}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-15",
+      "prompt": "What conservation laws are needed to derive the Compton formula?",
+      "answer": "Relativistic energy conservation and vector momentum conservation are both needed for the photon-electron collision.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-16",
+      "prompt": "Why is a classical wave picture insufficient for Compton scattering?",
+      "answer": "The scattering behaves like a collision between a photon and an electron, with conservation of photon momentum \\(h/\\lambda\\). A purely classical wave picture does not predict the angle-dependent wavelength shift.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-17",
+      "prompt": "A photon wavelength increases from \\(0.0400\\,\\mathrm{nm}\\) to \\(0.04243\\,\\mathrm{nm}\\). What scattering angle caused this shift?",
+      "answer": "The shift is\n\\[\n\\Delta\\lambda=0.00243\\,\\mathrm{nm}=\\lambda_C\n\\]\nso\n\\[\n1-\\cos\\theta=1\n\\]\nThus \\(\\cos\\theta=0\\), and\n\\[\n\\theta=90^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-18",
+      "prompt": "Can a Compton-scattered photon from an electron initially at rest have a shorter wavelength than before scattering?",
+      "answer": "No. Since \\(1-\\cos\\theta\\ge0\\), the shift \\(\\Delta\\lambda\\) is nonnegative. The scattered wavelength is equal to or longer than the incident wavelength.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-19",
+      "prompt": "Show that a \\(180^\\circ\\) scattered photon has the largest wavelength change.",
+      "answer": "The shift is\n\\[\n\\Delta\\lambda=\\lambda_C(1-\\cos\\theta)\n\\]\nThe largest value of \\(1-\\cos\\theta\\) occurs when \\(\\cos\\theta=-1\\), so \\(\\theta=180^\\circ\\). Then\n\\[\n\\Delta\\lambda=2\\lambda_C\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "compton-scattering-20",
+      "prompt": "An incident photon has energy \\(100\\,\\mathrm{keV}\\), and after scattering its energy is \\(90\\,\\mathrm{keV}\\). Estimate the recoil electron kinetic energy, ignoring binding and rest-energy bookkeeping.",
+      "answer": "Energy conservation gives the energy lost by the photon as electron kinetic energy:\n\\[\nK_e\\approx100-90=10\\,\\mathrm{keV}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

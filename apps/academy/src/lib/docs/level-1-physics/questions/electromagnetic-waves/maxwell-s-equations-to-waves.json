@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-waves",
+  "topicId": "maxwell-s-equations-to-waves",
+  "topicTitle": "Maxwell's Equations to Waves",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "maxwell-equations-to-waves-01",
+      "prompt": "In a source-free vacuum region, write the two Maxwell curl equations that allow electromagnetic waves.",
+      "answer": "\\[\\n\\nabla\\times\\vec E=-\\frac{\\partial\\vec B}{\\partial t}\\n\\]\\n\\[\\n\\nabla\\times\\vec B=\\mu_0\\epsilon_0\\frac{\\partial\\vec E}{\\partial t}\\n\\]\\nThese equations couple changing electric and magnetic fields without requiring charges or conduction currents.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-02",
+      "prompt": "Use Maxwell's equations to state the vacuum speed of electromagnetic waves.",
+      "answer": "\\[\\nc=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}\\n\\]\\nNumerically this is approximately \\(3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-03",
+      "prompt": "A plane wave in vacuum has \\(E_0=180\\,\\mathrm{V\\,m^{-1}}\\). Find \\(B_0\\).",
+      "answer": "For a vacuum plane wave, \\(E_0=cB_0\\), so\\n\\[\\nB_0=\\frac{E_0}{c}=\\frac{180}{3.0\\times10^8}=6.0\\times10^{-7}\\,\\mathrm{T}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-04",
+      "prompt": "A wave has \\(\\vec E\\) along \\(+z\\) and travels in the \\(+x\\) direction. Determine the direction of \\(\\vec B\\).",
+      "answer": "The propagation direction is \\(\\vec E\\times\\vec B\\). We need\\n\\[\\n\\hat z\\times\\vec B=\\hat x\\n\\]\\nSince \\(\\hat z\\times(-\\hat y)=\\hat x\\), \\(\\vec B\\) points along \\(-y\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-05",
+      "prompt": "Use \\(\\mu_0=4\\pi\\times10^{-7}\\,\\mathrm{N\\,A^{-2}}\\) and \\(\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}\\) to estimate \\(c\\), keeping the unit interpretation explicit.",
+      "answer": "\\[\\nc=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}=\\frac{1}{\\sqrt{(4\\pi\\times10^{-7})(8.85\\times10^{-12})}}\\approx3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nThe product \\(\\mu_0\\epsilon_0\\) has dimensions \\(\\mathrm{s^2\\,m^{-2}}\\), so its inverse square root is a speed.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-06",
+      "prompt": "A nonmagnetic dielectric has relative permittivity \\(\\epsilon_r=4.0\\). Use Maxwell's wave-speed result to find the EM wave speed in the dielectric.",
+      "answer": "For \\(\\mu_r\\approx1\\),\\n\\[\\nv=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0\\epsilon_r}}=\\frac{c}{\\sqrt{\\epsilon_r}}\\n\\]\\nThus\\n\\[\\nv=\\frac{3.0\\times10^8}{2.0}=1.5\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-07",
+      "prompt": "For a wave moving in \\(+x\\), take \\(E_y=E_0\\cos(kx-\\omega t)\\). Use Faraday's law to find the required form and sign of \\(B_z\\).",
+      "answer": "For this geometry, Faraday's law gives\\n\\[\\n\\frac{\\partial E_y}{\\partial x}=-\\frac{\\partial B_z}{\\partial t}\\n\\]\\nNow\\n\\[\\n\\frac{\\partial E_y}{\\partial x}=-kE_0\\sin(kx-\\omega t)\\n\\]\\nSo \\(B_z=B_0\\cos(kx-\\omega t)\\) gives\\n\\[\\n-\\frac{\\partial B_z}{\\partial t}=-\\omega B_0\\sin(kx-\\omega t)\\n\\]\\nTherefore \\(kE_0=\\omega B_0\\), so \\(E_0/B_0=\\omega/k=c\\). The positive \\(B_z\\) direction is consistent.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-08",
+      "prompt": "For the same wave \\(E_y=E_0\\cos(kx-\\omega t)\\), use the Ampere-Maxwell law to recover the speed condition.",
+      "answer": "For the geometry,\\n\\[\\n(\\nabla\\times\\vec B)_y=-\\frac{\\partial B_z}{\\partial x}\\n\\]\\nand Ampere-Maxwell gives\\n\\[\\n-\\frac{\\partial B_z}{\\partial x}=\\mu_0\\epsilon_0\\frac{\\partial E_y}{\\partial t}\\n\\]\\nSubstituting \\(B_z=B_0\\cos(kx-\\omega t)\\) gives\\n\\[\\nkB_0\\sin(kx-\\omega t)=\\mu_0\\epsilon_0\\omega E_0\\sin(kx-\\omega t)\\n\\]\\nUsing \\(E_0/B_0=\\omega/k\\),\\n\\[\\nk=\\mu_0\\epsilon_0\\omega\\frac{\\omega}{k}\\Rightarrow \\frac{\\omega^2}{k^2}=\\frac{1}{\\mu_0\\epsilon_0}\\n\\]\\nso \\(v=\\omega/k=c\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-09",
+      "prompt": "A proposed vacuum wave has \\(\\vec E=E_0\\cos(kx-\\omega t)\\hat x\\). Explain why it cannot be a source-free plane electromagnetic wave traveling in \\(x\\).",
+      "answer": "A source-free vacuum wave must satisfy\\n\\[\\n\\nabla\\cdot\\vec E=0\\n\\]\\nFor \\(\\vec E=E_x(x,t)\\hat x\\),\\n\\[\\n\\nabla\\cdot\\vec E=\\frac{\\partial E_x}{\\partial x}=-kE_0\\sin(kx-\\omega t)\\n\\]\\nwhich is not zero in general. The electric field has a longitudinal component, so this is not a source-free transverse plane wave.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-10",
+      "prompt": "A plane wave in vacuum is claimed to have \\(E/B=2.4\\times10^8\\,\\mathrm{m\\,s^{-1}}\\). Give two possible interpretations and decide whether it is a valid vacuum plane wave.",
+      "answer": "For a vacuum plane wave, Maxwell's equations require\\n\\[\\n\\frac{E}{B}=c\\approx3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nIf the fields are instantaneous values at the same phase point, the claim is invalid. If the fields were sampled at different points or times, the ratio is not a valid test of one plane wave. For corresponding amplitudes or simultaneous same-point fields, it is not a valid vacuum plane wave.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-11",
+      "prompt": "Derive the one-dimensional wave equation for \\(E_y(x,t)\\) from \\(\\partial E_y/\\partial x=-\\partial B_z/\\partial t\\) and \\(-\\partial B_z/\\partial x=\\mu_0\\epsilon_0\\partial E_y/\\partial t\\).",
+      "answer": "Differentiate Faraday's equation with respect to \\(x\\):\\n\\[\\n\\frac{\\partial^2E_y}{\\partial x^2}=-\\frac{\\partial}{\\partial t}\\left(\\frac{\\partial B_z}{\\partial x}\\right)\\n\\]\\nFrom Ampere-Maxwell,\\n\\[\\n\\frac{\\partial B_z}{\\partial x}=-\\mu_0\\epsilon_0\\frac{\\partial E_y}{\\partial t}\\n\\]\\nSubstitute:\\n\\[\\n\\frac{\\partial^2E_y}{\\partial x^2}=\\mu_0\\epsilon_0\\frac{\\partial^2E_y}{\\partial t^2}\\n\\]\\nThis is a wave equation with \\(v=1/\\sqrt{\\mu_0\\epsilon_0}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-12",
+      "prompt": "A medium has \\(\\epsilon=9\\epsilon_0\\) and \\(\\mu=4\\mu_0\\). Determine the wave speed and the field ratio \\(E/B\\).",
+      "answer": "\\[\\nv=\\frac{1}{\\sqrt{\\mu\\epsilon}}=\\frac{1}{\\sqrt{(4\\mu_0)(9\\epsilon_0)}}=\\frac{c}{6}\\n\\]\\nThus\\n\\[\\nv=5.0\\times10^7\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nFor a plane wave in a medium,\\n\\[\\n\\frac{E}{B}=v=\\frac{c}{6}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-13",
+      "prompt": "Explain why displacement current is not just a mathematical patch if electromagnetic waves exist in vacuum.",
+      "answer": "In vacuum there is no conduction current, so Ampere's original law would give no magnetic-field curl from a changing electric field. Maxwell's displacement-current term supplies\\n\\[\\n\\nabla\\times\\vec B=\\mu_0\\epsilon_0\\frac{\\partial\\vec E}{\\partial t}\\n\\]\\nThis is one half of the self-sustaining field coupling. Without it, source-free electromagnetic waves would not follow from the field equations.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-14",
+      "prompt": "A field pair has \\(E_y=E_0\\cos(kx-\\omega t)\\) and \\(B_z=-B_0\\cos(kx-\\omega t)\\), with positive \\(E_0,B_0\\). Determine the propagation direction and whether the pair can represent a wave moving in \\(+x\\).",
+      "answer": "When \\(E_y>0\\), \\(B_z<0\\), so\\n\\[\\n\\vec E\\times\\vec B=\\hat y\\times(-\\hat z)=-\\hat x\\n\\]\\nThe energy flow is in \\(-x\\). Also the phase \\(kx-\\omega t\\) normally represents \\(+x\\) travel, so the sign choice conflicts with a physical \\(+x\\) vacuum wave. A consistent \\(-x\\) wave would use phase \\(kx+\\omega t\\) with this field orientation.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-15",
+      "prompt": "Show that the electromagnetic wave speed decreases if either \\(\\epsilon\\) or \\(\\mu\\) increases, and interpret the result physically.",
+      "answer": "In a linear medium,\\n\\[\\nv=\\frac{1}{\\sqrt{\\mu\\epsilon}}\\n\\]\\nIf \\(\\epsilon\\) or \\(\\mu\\) increases while the other stays fixed, the denominator increases, so \\(v\\) decreases. Physically, electric polarization or magnetic response makes the fields less able to change freely, slowing the propagation of the coupled disturbance.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-16",
+      "prompt": "A source-free plane wave travels in direction \\(\\hat n\\). Use \\(\\nabla\\cdot\\vec E=0\\) to argue that \\(\\vec E\\perp\\hat n\\).",
+      "answer": "For a plane wave, spatial variation is along \\(\\hat n\\), so \\(\\nabla\\) acting on the phase is proportional to \\(\\hat n\\). The condition \\(\\nabla\\cdot\\vec E=0\\) becomes proportional to\\n\\[\\n\\hat n\\cdot\\vec E=0\\n\\]\\nfor nonzero wave amplitude. Therefore the electric field is transverse to the propagation direction.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-17",
+      "prompt": "A vacuum plane wave has \\(\\omega=7.5\\times10^{14}\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(k\\), then state what extra condition fixes the direction of \\(\\vec B\\).",
+      "answer": "For a vacuum wave, \\(\\omega=ck\\), so\\n\\[\\nk=\\frac{\\omega}{c}=\\frac{7.5\\times10^{14}}{3.0\\times10^8}=2.5\\times10^6\\,\\mathrm{rad\\,m^{-1}}\\n\\]\\nThe direction of \\(\\vec B\\) is fixed by requiring \\(\\vec E\\times\\vec B\\) to point in the propagation direction.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-18",
+      "prompt": "A wave in a medium has \\(E_0=90\\,\\mathrm{V\\,m^{-1}}\\), \\(B_0=6.0\\times10^{-7}\\,\\mathrm{T}\\), and frequency \\(1.0\\times10^{14}\\,\\mathrm{Hz}\\). Find its wavelength in the medium.",
+      "answer": "The speed in the medium is\\n\\[\\nv=\\frac{E_0}{B_0}=\\frac{90}{6.0\\times10^{-7}}=1.5\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nThen\\n\\[\\n\\lambda=\\frac{v}{f}=\\frac{1.5\\times10^8}{1.0\\times10^{14}}=1.5\\times10^{-6}\\,\\mathrm{m}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-19",
+      "prompt": "Construct a consistent set of field directions for a vacuum plane wave traveling in \\(-z\\) with \\(\\vec E\\) along \\(+x\\), and justify the magnetic-field direction.",
+      "answer": "We need\\n\\[\\n\\vec E\\times\\vec B=-\\hat z\\n\\]\\nWith \\(\\vec E=E\\hat x\\), choose \\(\\vec B=B\\hat y\\) because\\n\\[\\n\\hat x\\times\\hat y=\\hat z\\n\\]\\nwhich is the wrong direction. Therefore \\(\\vec B=-B\\hat y\\), since\\n\\[\\n\\hat x\\times(-\\hat y)=-\\hat z\\n\\]\\nThe magnitudes must also satisfy \\(E/B=c\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-to-waves-20",
+      "prompt": "Prove, for the 1D plane-wave ansatz, that Maxwell's equations require \\(E\\), \\(B\\), and propagation direction to form a right-handed triad rather than allowing either magnetic-field sign.",
+      "answer": "Let the wave travel in \\(+x\\) with \\(E_y=E_0\\cos(kx-\\omega t)\\). Faraday's law requires\\n\\[\\n\\frac{\\partial E_y}{\\partial x}=-\\frac{\\partial B_z}{\\partial t}\\n\\]\\nSubstitution gives \\(kE_0=\\omega B_z\\) for a positive-amplitude \\(B_z\\) in phase with \\(E_y\\). Choosing the opposite sign would make the two sides differ in sign. Therefore \\(\\vec B\\) must point \\(+z\\), and\\n\\[\\n\\hat y\\times\\hat z=\\hat x\\n\\]\\nso \\(\\vec E\\), \\(\\vec B\\), and the propagation direction form a right-handed triad. The sign is a Maxwell-equation constraint, not an arbitrary convention.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

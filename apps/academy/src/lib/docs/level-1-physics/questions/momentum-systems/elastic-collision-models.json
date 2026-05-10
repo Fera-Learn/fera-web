@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "elastic-collision-models",
+  "topicTitle": "Elastic Collision Models",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "elastic-collision-01",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) cart moving at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\) elastically hits an identical cart at rest in one dimension. Find both final velocities.",
+      "answer": "Identical masses exchange velocities in a one-dimensional elastic collision:\n\\[\nv_1=0,\\qquad v_2=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-02",
+      "prompt": "In a one-dimensional elastic collision, what happens to the relative speed of separation compared with the relative speed of approach?",
+      "answer": "For a one-dimensional elastic collision, the relative speed of separation equals the relative speed of approach:\n\\[\nv_2-v_1=u_1-u_2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-03",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) cart moving at \\(8.0\\,\\mathrm{m\\,s^{-1}}\\) elastically hits a \\(3.0\\,\\mathrm{kg}\\) cart at rest. Find the final velocities.",
+      "answer": "For a stationary target,\n\\[\nv_1=\\frac{m_1-m_2}{m_1+m_2}u_1=\\frac{1.0-3.0}{4.0}(8.0)=-4.0\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_2=\\frac{2m_1}{m_1+m_2}u_1=\\frac{2(1.0)}{4.0}(8.0)=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-04",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) cart moving at \\(5.0\\,\\mathrm{m\\,s^{-1}}\\) elastically hits a \\(1.0\\,\\mathrm{kg}\\) cart at rest. Find both final velocities.",
+      "answer": "\\[\nv_1=\\frac{2.0-1.0}{3.0}(5.0)=1.67\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_2=\\frac{2(2.0)}{3.0}(5.0)=6.67\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-05",
+      "prompt": "Two identical carts collide elastically in one dimension. Cart A has initial velocity \\(3.0\\,\\mathrm{m\\,s^{-1}}\\); cart B has initial velocity \\(-1.0\\,\\mathrm{m\\,s^{-1}}\\). Find the final velocities.",
+      "answer": "Identical masses exchange velocities:\n\\[\nv_A=-1.0\\,\\mathrm{m\\,s^{-1}},\\qquad v_B=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-06",
+      "prompt": "A small ball elastically rebounds from a massive stationary wall. If it approaches at \\(7.0\\,\\mathrm{m\\,s^{-1}}\\), find its final velocity in the wall frame.",
+      "answer": "In the wall frame, the speed is unchanged and direction reverses:\n\\[\nv_f=-7.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-07",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) ball moving at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) elastically hits a stationary target. The ball rebounds at \\(2.0\\,\\mathrm{m\\,s^{-1}}\\). Find the target mass and target final speed.",
+      "answer": "Take the ball\u0027s initial direction as positive. The rest-target formula gives\n\\[\n-2.0=\\frac{0.20-m_2}{0.20+m_2}(6.0)\n\\]\n\\[\nm_2=0.40\\,\\mathrm{kg}\n\\]\nThen\n\\[\nv_2=\\frac{2(0.20)}{0.20+0.40}(6.0)=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-08",
+      "prompt": "Show that identical masses exchange velocities in a one-dimensional elastic collision. State which two equations are being combined.",
+      "answer": "For identical masses, momentum conservation gives\n\\[\nu_1+u_2=v_1+v_2\n\\]\nElasticity gives the relative-speed equation\n\\[\nv_2-v_1=u_1-u_2\n\\]\nAdding the equations gives \\(v_2=u_1\\). Substituting back gives \\(v_1=u_2\\). Thus identical masses exchange velocities.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-09",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) cart moving right at \\(5.0\\,\\mathrm{m\\,s^{-1}}\\) collides elastically with a \\(3.0\\,\\mathrm{kg}\\) cart moving left at \\(1.0\\,\\mathrm{m\\,s^{-1}}\\). Find both final velocities, then verify momentum and kinetic energy.",
+      "answer": "Use the 1D elastic formulas:\n\\[\nv_1=\\frac{m_1-m_2}{m_1+m_2}u_1+\\frac{2m_2}{m_1+m_2}u_2\n\\]\n\\[\nv_1=\\frac{-1}{5}(5.0)+\\frac{6}{5}(-1.0)=-2.2\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_2=\\frac{2m_1}{m_1+m_2}u_1+\\frac{m_2-m_1}{m_1+m_2}u_2\n\\]\n\\[\nv_2=\\frac{4}{5}(5.0)+\\frac{1}{5}(-1.0)=3.8\\,\\mathrm{m\\,s^{-1}}\n\\]\nMomentum check:\n\\[\n2(5.0)+3(-1.0)=7\n\\]\n\\[\n2(-2.2)+3(3.8)=7\n\\]\nKinetic energy check:\n\\[\nK_i=26.5\\,\\mathrm{J},\\qquad K_f=26.5\\,\\mathrm{J}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-collision-10",
+      "prompt": "For a one-dimensional collision with coefficient of restitution \\(e\\), derive \\(v_1\\) for mass \\(m_1\\) striking a stationary mass \\(m_2\\). Then state the condition for \\(m_1\\) to rebound. Interpret the elastic case.",
+      "answer": "Assume a one-dimensional collision and a stationary target. Momentum gives\n\\[\nm_1u=m_1v_1+m_2v_2\n\\]\nRestitution gives\n\\[\nv_2-v_1=eu\n\\]\nso \\(v_2=v_1+eu\\). Substitute:\n\\[\nm_1u=(m_1+m_2)v_1+m_2eu\n\\]\n\\[\nv_1=\\frac{m_1-em_2}{m_1+m_2}u\n\\]\nThe incoming mass rebounds when \\(v_1\u003c0\\), so\n\\[\nm_1\u003cem_2\n\\]\nFor the elastic case \\(e=1\\), rebound requires the target to be more massive than the incoming object.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

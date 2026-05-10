@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "equilibrium-materials",
+  "topicId": "conditions-for-static-equilibrium",
+  "topicTitle": "Conditions for Static Equilibrium",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "static-equilibrium-conditions-01",
+      "prompt": "A \\(15\\,\\mathrm{N}\\) force acts perpendicular to a \\(0.40\\,\\mathrm{m}\\) spanner. Find the torque magnitude about the pivot at the end of the spanner.",
+      "answer": "For a force perpendicular to the spanner,\n\\[\n\\tau=rF=0.40(15)=6.0\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-02",
+      "prompt": "State the two vector conditions required for a rigid body to be in static equilibrium.",
+      "answer": "A rigid body in static equilibrium requires\n\\[\n\\sum\\vec{F}=\\vec{0}\n\\]\n\\[\n\\sum\\vec{\\tau}=\\vec{0}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-03",
+      "prompt": "A downward \\(80\\,\\mathrm{N}\\) force acts \\(0.30\\,\\mathrm{m}\\) to the right of a pivot. Taking counterclockwise as positive, find the torque.",
+      "answer": "A downward force to the right of the pivot causes clockwise rotation, so it is negative.\n\\[\n\\tau=-rF=-0.30(80)=-24\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-04",
+      "prompt": "A \\(10\\,\\mathrm{N}\\) force acts at \\(25^\\circ\\) to a \\(0.60\\,\\mathrm{m}\\) lever arm. Find the torque magnitude.",
+      "answer": "\\[\n\\tau=rF\\sin\\theta=0.60(10)\\sin25^\\circ=2.54\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-05",
+      "prompt": "A gate hinge experiences a clockwise torque of \\(18\\,\\mathrm{N\\,m}\\). What counterclockwise torque is required for rotational equilibrium?",
+      "answer": "Rotational equilibrium requires zero net torque, so the required counterclockwise torque is\n\\[\n18\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-06",
+      "prompt": "A force \\(F\\) is applied perpendicular to a \\(0.80\\,\\mathrm{m}\\) lever arm and must balance a \\(32\\,\\mathrm{N\\,m}\\) torque. Find \\(F\\).",
+      "answer": "\\[\n\\tau=rF\n\\]\n\\[\n32=0.80F\n\\]\n\\[\nF=40\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-07",
+      "prompt": "Explain why \\(\\sum\\vec{F}=0\\) alone is not enough to guarantee a rigid body remains at rest.",
+      "answer": "Zero net force prevents translational acceleration, but separated forces can still form a couple. A couple has \\(\\sum\\vec{F}=0\\) and nonzero \\(\\sum\\vec{\\tau}\\), so it causes angular acceleration.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-08",
+      "prompt": "A \\(4.0\\,\\mathrm{m}\\) beam is supported at both ends. The beam weighs \\(120\\,\\mathrm{N}\\) and a \\(260\\,\\mathrm{N}\\) crate is \\(1.0\\,\\mathrm{m}\\) from the left support. Find both support reactions and state which support carries more load.",
+      "answer": "Let \\(R_L\\) and \\(R_R\\) be the left and right reactions. Vertical balance gives\n\\[\nR_L+R_R=120+260=380\n\\]\nTorque about the left support:\n\\[\nR_R(4.0)=120(2.0)+260(1.0)\n\\]\n\\[\nR_R=125\\,\\mathrm{N}\n\\]\n\\[\nR_L=255\\,\\mathrm{N}\n\\]\nThe left support carries more load because the crate is closer to it.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-09",
+      "prompt": "A uniform horizontal beam of length \\(L\\) and weight \\(W_b\\) is pinned at the left end. A cable attached to the right end makes angle \\(\\theta\\) above the beam. Build the equilibrium equations, solve for the cable tension and hinge reactions, state your assumptions, and interpret the limit \\(\\theta\\to0\\).",
+      "answer": "Assume a rigid uniform beam, a frictionless pin, a massless cable, and static loading. With the cable pulling up and left:\n\\[\n\\sum\\tau_{\\mathrm{hinge}}=T\\sin\\theta\\,L-W_b\\frac{L}{2}=0\n\\]\n\\[\nT=\\frac{W_b}{2\\sin\\theta}\n\\]\nForce balance gives\n\\[\nR_x-T\\cos\\theta=0\n\\]\n\\[\nR_y+T\\sin\\theta-W_b=0\n\\]\n\\[\nR_x=\\frac{W_b}{2}\\cot\\theta,\\qquad R_y=\\frac{W_b}{2}\n\\]\nAs \\(\\theta\\to0\\), the cable becomes nearly horizontal, so an unbounded tension would be needed to provide a finite upward component.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "static-equilibrium-conditions-10",
+      "prompt": "A beam of length \\(L\\) and weight \\(W_b\\) rests on supports at \\(x=0\\) and \\(x=L\\). A load \\(P\\) may be placed at coordinate \\(x\\), even outside the supports. Derive the two support reactions and the symbolic condition on \\(x\\) for both supports to remain in contact. State the modeling assumptions.",
+      "answer": "Assume a rigid beam, vertical point supports, and downward weights. Vertical balance gives\n\\[\nR_0+R_L=W_b+P\n\\]\nTorque about \\(x=0\\):\n\\[\nR_L L=W_b\\frac{L}{2}+Px\n\\]\n\\[\nR_L=\\frac{W_b}{2}+\\frac{Px}{L}\n\\]\n\\[\nR_0=\\frac{W_b}{2}+P\\left(1-\\frac{x}{L}\\right)\n\\]\nBoth supports remain in contact when both reactions are nonnegative:\n\\[\n\\frac{W_b}{2}+\\frac{Px}{L}\\ge0\n\\]\n\\[\n\\frac{W_b}{2}+P\\left(1-\\frac{x}{L}\\right)\\ge0\n\\]\nFor \\(P\u003e0\\),\n\\[\n-\\frac{W_bL}{2P}\\le x\\le L\\left(1+\\frac{W_b}{2P}\\right)\n\\]\nOutside this interval one reaction would need to pull downward, so that support loses contact.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

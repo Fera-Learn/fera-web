@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "dielectrics",
+  "topicTitle": "Dielectrics",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "dielectrics-01",
+      "prompt": "An air capacitor has \\(C_0=25\\,\\mathrm{pF}\\). It is completely filled with dielectric of \\(\\kappa=4.0\\). Find the new capacitance.",
+      "answer": "\\[\nC=\\kappa C_0=(4.0)(25\\,\\mathrm{pF})=100\\,\\mathrm{pF}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-02",
+      "prompt": "A \\(12\\,\\mathrm{V}\\) battery remains connected to a capacitor while a dielectric with \\(\\kappa=3.0\\) is inserted. By what factor do the capacitance and free charge on the plates change?",
+      "answer": "The dielectric makes\n\\[\nC\u0027=\\kappa C_0=3.0C_0\n\\]\nThe battery fixes \\(V\\). Since\n\\[\nQ=CV\n\\]\nthe free charge also increases by a factor of \\(3.0\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-03",
+      "prompt": "An isolated capacitor is completely filled with a dielectric of \\(\\kappa=5.0\\). Determine the factors by which its capacitance, voltage, electric field, and stored energy change.",
+      "answer": "For complete filling,\n\\[\nC\u0027=\\kappa C=5.0C\n\\]\nThe capacitor is isolated, so \\(Q\\) is fixed. Therefore\n\\[\nV\u0027=\\frac{Q}{C\u0027}=\\frac{V}{5.0}\n\\]\nand the field also falls by the same factor:\n\\[\nE\u0027=\\frac{E}{5.0}\n\\]\nAt fixed charge,\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nso\n\\[\nU\u0027=\\frac{U}{5.0}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-04",
+      "prompt": "The same dielectric is inserted into two identical capacitors. Capacitor A remains connected to a battery at fixed \\(V\\); capacitor B is isolated at fixed \\(Q\\). Derive the energy change factor for each capacitor and explain why the two results are different.",
+      "answer": "Let the original capacitance be \\(C_0\\) and the filled capacitance be \\(C\u0027=\\kappa C_0\\).\n\nFor capacitor A, the battery fixes \\(V\\):\n\\[\nU_A=\\frac{1}{2}CV^2\n\\]\nso\n\\[\nU_A\u0027=\\frac{1}{2}(\\kappa C_0)V^2=\\kappa U_A\n\\]\nFor capacitor B, the capacitor is isolated, so \\(Q\\) is fixed:\n\\[\nU_B=\\frac{Q^2}{2C}\n\\]\nso\n\\[\nU_B\u0027=\\frac{Q^2}{2\\kappa C_0}=\\frac{U_B}{\\kappa}\n\\]\nThe results differ because the constraints differ. At fixed \\(V\\), the battery supplies additional free charge and energy to the capacitor-battery system. At fixed \\(Q\\), the dielectric reduces the field and the stored field energy; the energy decrease can appear as mechanical work as the dielectric is pulled inward or as dissipated energy depending on the setup.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-05",
+      "prompt": "A \\(60\\,\\mathrm{pF}\\) air capacitor is completely filled with a dielectric of \\(\\kappa=2.5\\). Find the new capacitance.",
+      "answer": "\\[\nC=\\kappa C_0=(2.5)(60\\,\\mathrm{pF})=150\\,\\mathrm{pF}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-06",
+      "prompt": "A dielectric-filled parallel-plate capacitor has \\(\\kappa=3.2\\), \\(A=0.015\\,\\mathrm{m^2}\\), and \\(d=0.75\\,\\mathrm{mm}\\). Find its capacitance.",
+      "answer": "\\[\nC=\\kappa\\epsilon_0\\frac{A}{d}\n\\]\n\\[\nC=(3.2)(8.85\\times10^{-12})\\frac{0.015}{0.75\\times10^{-3}}\n=5.7\\times10^{-10}\\,\\mathrm{F}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-07",
+      "prompt": "An isolated capacitor is filled with \\(\\kappa=4.0\\). If its original voltage was \\(80\\,\\mathrm{V}\\), find the final voltage.",
+      "answer": "For an isolated capacitor, \\(Q\\) is fixed. Since \\(C\\) increases by \\(\\kappa\\),\n\\[\nV=\\frac{Q}{C}\n\\]\ndecreases by \\(\\kappa\\). Thus\n\\[\nV_f=\\frac{80}{4.0}=20\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-08",
+      "prompt": "A capacitor remains connected to a \\(24\\,\\mathrm{V}\\) battery while a dielectric of \\(\\kappa=5.0\\) is inserted. If the original charge was \\(12\\,\\mu\\mathrm{C}\\), find the final charge.",
+      "answer": "The battery fixes \\(V\\). Inserting the dielectric increases \\(C\\) by \\(\\kappa=5.0\\). Since\n\\[\nQ=CV\n\\]\nthe charge increases by the same factor:\n\\[\nQ_f=5.0(12\\,\\mu\\mathrm{C})=60\\,\\mu\\mathrm{C}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-09",
+      "prompt": "A dielectric-filled parallel-plate capacitor has free surface charge density \\(1.8\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\) and \\(\\kappa=6.0\\). Find the electric field inside the dielectric.",
+      "answer": "For a filled parallel-plate capacitor,\n\\[\nE=\\frac{\\sigma_{\\mathrm f}}{\\kappa\\epsilon_0}\n\\]\nThus\n\\[\nE=\\frac{1.8\\times10^{-6}}{(6.0)(8.85\\times10^{-12})}\n=3.4\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-10",
+      "prompt": "An air capacitor has \\(C_0=120\\,\\mathrm{pF}\\). A material is inserted and the measured capacitance becomes \\(420\\,\\mathrm{pF}\\). Find \\(\\kappa\\). If the capacitor is isolated, by what factor does its voltage change?",
+      "answer": "Since\n\\[\nC=\\kappa C_0\n\\]\nthe dielectric constant is\n\\[\n\\kappa=\\frac{C}{C_0}=\\frac{420}{120}=3.5\n\\]\nIf the capacitor is isolated, \\(Q\\) is fixed and\n\\[\nV=\\frac{Q}{C}\n\\]\nso the voltage changes by\n\\[\n\\frac{V_f}{V_i}=\\frac{1}{\\kappa}=\\frac{1}{3.5}=0.286\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-11",
+      "prompt": "A dielectric has breakdown field \\(1.5\\times10^7\\,\\mathrm{V\\,m^{-1}}\\). It fills a parallel-plate capacitor with plate spacing \\(0.20\\,\\mathrm{mm}\\). Estimate the maximum safe voltage.",
+      "answer": "Breakdown occurs when\n\\[\nE=\\frac{V}{d}\n\\]\nreaches the breakdown field. Thus\n\\[\nV_{\\max}=E_{\\max}d\n=(1.5\\times10^7)(0.20\\times10^{-3})\n=3.0\\times10^3\\,\\mathrm{V}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-12",
+      "prompt": "A parallel-plate capacitor is half-filled side-by-side: half the plate area contains dielectric \\(\\kappa\\), and half remains vacuum, with both regions spanning the full separation \\(d\\). Derive the equivalent capacitance.",
+      "answer": "The two side-by-side regions share the same voltage, so they act as parallel capacitors.\n\nVacuum half:\n\\[\nC_1=\\epsilon_0\\frac{A/2}{d}\n\\]\nDielectric half:\n\\[\nC_2=\\kappa\\epsilon_0\\frac{A/2}{d}\n\\]\nThus\n\\[\nC=C_1+C_2\n=\\epsilon_0\\frac{A}{2d}(1+\\kappa)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-13",
+      "prompt": "A dielectric slab of thickness \\(t\\) and dielectric constant \\(\\kappa\\) is inserted between parallel plates of area \\(A\\) and separation \\(d\\), leaving vacuum in the remaining gap. Derive \\(C\\), neglecting fringing.",
+      "answer": "The dielectric slab and vacuum gap act like series layers with the same free charge. Their voltage drops add:\n\\[\nV=E_{\\mathrm{vac}}(d-t)+E_{\\mathrm{diel}}t\n\\]\nFor free surface charge density \\(\\sigma_f=Q/A\\),\n\\[\nE_{\\mathrm{vac}}=\\frac{\\sigma_f}{\\epsilon_0},\\qquad\nE_{\\mathrm{diel}}=\\frac{\\sigma_f}{\\kappa\\epsilon_0}\n\\]\nTherefore\n\\[\nV=\\frac{Q}{A\\epsilon_0}\\left(d-t+\\frac{t}{\\kappa}\\right)\n\\]\nso\n\\[\nC=\\frac{Q}{V}\n=\\frac{\\epsilon_0A}{d-t+t/\\kappa}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-14",
+      "prompt": "For an isolated capacitor, a dielectric of \\(\\kappa=3.0\\) is inserted. If the original stored energy was \\(9.0\\,\\mathrm{mJ}\\), find the final energy and explain the energy change.",
+      "answer": "For an isolated capacitor, \\(Q\\) is fixed and\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nThe dielectric makes \\(C\u0027=\\kappa C\\), so\n\\[\nU\u0027=\\frac{U}{\\kappa}\n\\]\nWith \\(\\kappa=3.0\\),\n\\[\nU\u0027=\\frac{9.0\\,\\mathrm{mJ}}{3.0}=3.0\\,\\mathrm{mJ}\n\\]\nThe field energy decreases because polarization reduces the field. The energy difference can appear as mechanical work as the dielectric is pulled into the capacitor or as dissipated energy if the insertion is not reversible.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-15",
+      "prompt": "For a battery-connected capacitor, a dielectric of \\(\\kappa=3.0\\) is inserted. If the original capacitor energy was \\(9.0\\,\\mathrm{mJ}\\), find the final capacitor energy and state whether the battery must supply charge.",
+      "answer": "For a battery-connected capacitor, \\(V\\) is fixed and\n\\[\nU=\\frac{1}{2}CV^2\n\\]\nThe dielectric makes \\(C\u0027=\\kappa C\\), so\n\\[\nU\u0027=\\kappa U\n\\]\nWith \\(\\kappa=3.0\\),\n\\[\nU\u0027=3.0(9.0\\,\\mathrm{mJ})=27\\,\\mathrm{mJ}\n\\]\nThe battery must supply additional free charge because\n\\[\nQ=CV\n\\]\nincreases by the same factor as \\(C\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-16",
+      "prompt": "A dielectric partially inserted into a battery-connected parallel-plate capacitor is pulled inward. Explain the direction of the force using capacitance and energy, without deriving a full force formula.",
+      "answer": "The dielectric is pulled inward because inserting more dielectric increases the capacitance.\n\nAt fixed battery voltage,\n\\[\nU_C=\\frac{1}{2}CV^2\n\\]\nso the capacitor\u0027s stored energy increases as \\(C\\) increases. But the battery supplies charge and changes the energy of the battery-capacitor system. The net mechanical effect favors the configuration with more dielectric in the high-field region.\n\nEquivalently, polarization lowers the field energy for a given free-charge distribution, and the system reduces its total energy by pulling the dielectric into the region between the plates.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-17",
+      "prompt": "A dielectric slab is removed slowly from an isolated capacitor. Determine how \\(C\\), \\(V\\), \\(E\\), and \\(U\\) change, assuming the dielectric initially filled the gap and had dielectric constant \\(\\kappa\\).",
+      "answer": "Initially \\(C_i=\\kappa C_0\\). After removal, \\(C_f=C_0\\), so\n\\[\n\\frac{C_f}{C_i}=\\frac{1}{\\kappa}\n\\]\nThe capacitor is isolated, so \\(Q\\) is fixed. Therefore\n\\[\nV=\\frac{Q}{C}\n\\]\nincreases by \\(\\kappa\\):\n\\[\nV_f=\\kappa V_i\n\\]\nThe field also increases by \\(\\kappa\\) because \\(E=V/d\\) for fixed geometry:\n\\[\nE_f=\\kappa E_i\n\\]\nAt fixed \\(Q\\),\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nso\n\\[\nU_f=\\kappa U_i\n\\]\nThe added energy comes from external work done removing the dielectric against the attractive force pulling it inward.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-18",
+      "prompt": "Two identical isolated capacitors carry the same charge. One is filled with dielectric \\(\\kappa_1\\), the other with \\(\\kappa_2\u003e\\kappa_1\\). Compare their voltages, fields, and stored energies.",
+      "answer": "For identical geometry,\n\\[\nC_i=\\kappa_i C_0\n\\]\nAt the same fixed charge,\n\\[\nV_i=\\frac{Q}{C_i}=\\frac{Q}{\\kappa_i C_0}\n\\]\nSince \\(\\kappa_2\u003e\\kappa_1\\),\n\\[\nV_2\u003cV_1\n\\]\nThe field scales the same way:\n\\[\nE_i=\\frac{E_0}{\\kappa_i}\n\\]\nso\n\\[\nE_2\u003cE_1\n\\]\nAt fixed charge,\n\\[\nU_i=\\frac{Q^2}{2C_i}\n\\]\nso the larger-\\(\\kappa\\) capacitor stores less energy:\n\\[\nU_2\u003cU_1\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-19",
+      "prompt": "A parallel-plate capacitor has plate separation \\(d\\). The first half of the gap is filled with dielectric \\(\\kappa_1\\), and the second half with dielectric \\(\\kappa_2\\). Derive the equivalent capacitance and check the case \\(\\kappa_1=\\kappa_2\\).",
+      "answer": "The two layers are in series along the field direction. Each has thickness \\(d/2\\), area \\(A\\), and permittivity \\(\\epsilon_i=\\kappa_i\\epsilon_0\\).\n\nThe layer capacitances are\n\\[\nC_1=\\kappa_1\\epsilon_0\\frac{A}{d/2}\n=\\frac{2\\kappa_1\\epsilon_0A}{d}\n\\]\n\\[\nC_2=\\frac{2\\kappa_2\\epsilon_0A}{d}\n\\]\nFor series layers,\n\\[\n\\frac{1}{C}=\\frac{1}{C_1}+\\frac{1}{C_2}\n\\]\nso\n\\[\n\\frac{1}{C}=\\frac{d}{2\\epsilon_0A}\\left(\\frac{1}{\\kappa_1}+\\frac{1}{\\kappa_2}\\right)\n\\]\nTherefore\n\\[\nC=\\epsilon_0\\frac{A}{d}\\frac{2\\kappa_1\\kappa_2}{\\kappa_1+\\kappa_2}\n\\]\nIf \\(\\kappa_1=\\kappa_2=\\kappa\\), this becomes\n\\[\nC=\\kappa\\epsilon_0\\frac{A}{d}\n\\]\nas expected for a uniformly filled gap.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dielectrics-20",
+      "prompt": "A capacitor of area \\(A\\) and separation \\(d\\) is filled with a dielectric whose constant varies linearly across the gap: \\(\\kappa(x)=\\kappa_0(1+\\alpha x/d)\\), where \\(0\\le x\\le d\\). Derive the capacitance, assuming the displacement field is uniform and normal to the plates.",
+      "answer": "With no free charge inside the dielectric, the normal displacement field is constant:\n\\[\nD=\\frac{Q}{A}\n\\]\nThe local electric field is\n\\[\nE(x)=\\frac{D}{\\epsilon_0\\kappa(x)}\n\\]\nThe potential difference is\n\\[\nV=\\int_0^d E(x)\\,dx\n=\\frac{D}{\\epsilon_0}\\int_0^d\\frac{dx}{\\kappa_0(1+\\alpha x/d)}\n\\]\n\\[\nV=\\frac{D}{\\epsilon_0\\kappa_0}\\frac{d}{\\alpha}\\ln(1+\\alpha)\n\\]\nSubstitute \\(D=Q/A\\):\n\\[\nV=\\frac{Qd}{A\\epsilon_0\\kappa_0\\alpha}\\ln(1+\\alpha)\n\\]\nThus\n\\[\nC=\\frac{Q}{V}\n=\\epsilon_0\\frac{A}{d}\\frac{\\kappa_0\\alpha}{\\ln(1+\\alpha)}\n\\]\nThe limit \\(\\alpha\\to0\\) gives \\(C\\to\\kappa_0\\epsilon_0A/d\\), since \\(\\ln(1+\\alpha)\\sim\\alpha\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

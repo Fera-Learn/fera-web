@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "fields-from-current-loops",
+  "topicTitle": "Fields from Current Loops",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "current-loops-fields-01",
+      "prompt": "A circular loop carries counterclockwise current as viewed by you. Does the magnetic field at the centre point toward you or away from you?",
+      "answer": "Curl the fingers of your right hand with the current. Your thumb points toward you, so the field at the centre points toward you.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-02",
+      "prompt": "State the magnetic field magnitude at the centre of a single circular loop of radius \\(R\\) carrying current \\(I\\).",
+      "answer": "At the centre of one circular loop,\n\\[\nB=\\frac{\\mu_0 I}{2R}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-03",
+      "prompt": "How does the centre field change if a coil has \\(N\\) tightly wound identical turns instead of one turn?",
+      "answer": "The fields from the turns add, so the centre field is multiplied by \\(N\\):\n\\[\nB=\\frac{\\mu_0NI}{2R}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-04",
+      "prompt": "A single loop has radius \\(0.10\\,\\mathrm m\\) and current \\(4.0\\,\\mathrm A\\). Find the magnetic field at its centre.",
+      "answer": "\\[\nB=\\frac{\\mu_0I}{2R}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(4.0)}{2(0.10)}=2.5\\times10^{-5}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-05",
+      "prompt": "A coil has \\(50\\) turns, radius \\(0.080\\,\\mathrm m\\), and current \\(0.60\\,\\mathrm A\\). Find the field at the centre.",
+      "answer": "For \\(N\\) turns,\n\\[\nB=\\frac{\\mu_0NI}{2R}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(50)(0.60)}{2(0.080)}=2.4\\times10^{-4}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-06",
+      "prompt": "State the magnetic field magnitude on the axis of a circular loop, a distance \\(x\\) from its centre.",
+      "answer": "The axial field of a single circular loop is\n\\[\nB(x)=\\frac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-07",
+      "prompt": "A loop has radius \\(R\\). Find the ratio of the axial field at \\(x=R\\) to the centre field.",
+      "answer": "The axial field is\n\\[\nB(R)=\\frac{\\mu_0IR^2}{2(R^2+R^2)^{3/2}}\n=\\frac{\\mu_0I}{2R}\\frac{1}{2^{3/2}}\n\\]\nThe centre field is\n\\[\nB(0)=\\frac{\\mu_0I}{2R}\n\\]\nTherefore\n\\[\n\\frac{B(R)}{B(0)}=\\frac{1}{2^{3/2}}\\approx0.354\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-08",
+      "prompt": "A \\(20\\)-turn circular coil has radius \\(0.050\\,\\mathrm m\\) and current \\(0.30\\,\\mathrm A\\). Find its magnetic dipole moment magnitude.",
+      "answer": "The magnetic dipole moment is\n\\[\nm=NIA\n\\]\nwith \\(A=\\pi R^2\\), so\n\\[\nm=(20)(0.30)\\pi(0.050)^2\n\\]\n\\[\nm=4.7\\times10^{-2}\\,\\mathrm{A\\,m^2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-09",
+      "prompt": "Show that the axial field formula reduces to the centre-field formula when \\(x=0\\).",
+      "answer": "Start with\n\\[\nB(x)=\\frac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}\n\\]\nSet \\(x=0\\):\n\\[\nB(0)=\\frac{\\mu_0IR^2}{2(R^2)^{3/2}}\n\\]\nSince \\((R^2)^{3/2}=R^3\\),\n\\[\nB(0)=\\frac{\\mu_0IR^2}{2R^3}=\\frac{\\mu_0I}{2R}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-loops-fields-10",
+      "prompt": "Use the axial loop field to find the far-field dependence when \\(x\\gg R\\), and express the result using \\(m=I\\pi R^2\\).",
+      "answer": "For \\(x\\gg R\\),\n\\[\n(R^2+x^2)^{3/2}\\approx x^3\n\\]\nso\n\\[\nB(x)\\approx\\frac{\\mu_0IR^2}{2x^3}\n\\]\nUsing \\(m=I\\pi R^2\\), this becomes\n\\[\nB(x)\\approx\\frac{\\mu_0m}{2\\pi x^3}\n\\]\nThe axial far field decreases as \\(1/x^3\\), characteristic of a dipole.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

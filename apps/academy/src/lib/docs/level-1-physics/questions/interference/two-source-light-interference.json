@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "interference",
+  "topicId": "two-source-light-interference",
+  "topicTitle": "Two-Source Light Interference",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "two-source-light-interference-01",
+      "prompt": "State the double-slit condition for bright fringes.",
+      "answer": "\\[\\nd\\sin\\theta=m\\lambda\\n\\]\\nwhere \\(m\\) is an integer order.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-02",
+      "prompt": "State the double-slit condition for dark fringes.",
+      "answer": "\\[\\nd\\sin\\theta=\\left(m+\\frac12\\right)\\lambda\\n\\]\\nwhere \\(m=0,1,2,\\ldots\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-03",
+      "prompt": "A double slit has \\(d=0.20\\,\\mathrm{mm}\\), \\(L=2.0\\,\\mathrm{m}\\), and \\(\\lambda=500\\,\\mathrm{nm}\\). Find the fringe spacing.",
+      "answer": "\\[\\n\\Delta y=\\frac{\\lambda L}{d}=\\frac{(500\\times10^{-9})(2.0)}{0.20\\times10^{-3}}=5.0\\times10^{-3}\\,\\mathrm{m}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-04",
+      "prompt": "A point has \\(d\\sin\\theta=3.5\\lambda\\). Is it bright or dark for in-phase slits?",
+      "answer": "\\(3.5\\lambda=(3+1/2)\\lambda\\), so it satisfies the dark-fringe condition.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-05",
+      "prompt": "For \\(d=0.40\\,\\mathrm{mm}\\) and \\(\\lambda=600\\,\\mathrm{nm}\\), find the first bright-fringe angle.",
+      "answer": "\\[\\n\\sin\\theta=\\frac{\\lambda}{d}=\\frac{600\\times10^{-9}}{0.40\\times10^{-3}}=1.5\\times10^{-3}\\n\\]\\nso \\(\\theta\\approx1.5\\times10^{-3}\\,\\mathrm{rad}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-06",
+      "prompt": "A double-slit pattern has fringe spacing \\(2.0\\,\\mathrm{mm}\\), screen distance \\(1.5\\,\\mathrm{m}\\), and wavelength \\(500\\,\\mathrm{nm}\\). Find \\(d\\).",
+      "answer": "\\[\\nd=\\frac{\\lambda L}{\\Delta y}=\\frac{(500\\times10^{-9})(1.5)}{2.0\\times10^{-3}}=3.75\\times10^{-4}\\,\\mathrm{m}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-07",
+      "prompt": "The fifth bright fringe is \\(18\\,\\mathrm{mm}\\) from the central maximum. If \\(L=2.0\\,\\mathrm{m}\\) and \\(d=0.30\\,\\mathrm{mm}\\), find \\(\\lambda\\).",
+      "answer": "Use \\(y_m=m\\lambda L/d\\):\\n\\[\\n\\lambda=\\frac{y_md}{mL}=\\frac{(18\\times10^{-3})(0.30\\times10^{-3})}{5(2.0)}=5.4\\times10^{-7}\\,\\mathrm{m}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-08",
+      "prompt": "The first dark fringe in a double-slit pattern is at \\(y=1.2\\,\\mathrm{mm}\\). If \\(L=1.0\\,\\mathrm{m}\\) and \\(d=0.25\\,\\mathrm{mm}\\), find \\(\\lambda\\).",
+      "answer": "For the first dark fringe,\\n\\[\\ny=\\frac{(1/2)\\lambda L}{d}\\n\\]\\nso\\n\\[\\n\\lambda=\\frac{2yd}{L}=\\frac{2(1.2\\times10^{-3})(0.25\\times10^{-3})}{1.0}=6.0\\times10^{-7}\\,\\mathrm{m}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-09",
+      "prompt": "A double-slit experiment is moved from air into water with \\(n=1.33\\), while source frequency, \\(d\\), and \\(L\\) remain fixed. How does fringe spacing change?",
+      "answer": "The wavelength in water is \\(\\lambda_0/n\\). Therefore\\n\\[\\n\\Delta y_{\\mathrm{water}}=\\frac{1}{n}\\Delta y_{\\mathrm{air}}\\n\\]\\nThe fringe spacing decreases by a factor of \\(1.33\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-10",
+      "prompt": "Two coherent slits have source phase difference \\(\\phi_0\\). Derive the modified bright-fringe condition.",
+      "answer": "The total phase difference is\\n\\[\\n\\Delta\\phi=\\phi_0+\\frac{2\\pi d\\sin\\theta}{\\lambda}\\n\\]\\nBright fringes require \\(\\Delta\\phi=2\\pi m\\), so\\n\\[\\nd\\sin\\theta=\\left(m-\\frac{\\phi_0}{2\\pi}\\right)\\lambda\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-11",
+      "prompt": "A source phase difference of \\(\\pi\\) is introduced between two slits. What happens to the central point that was formerly bright?",
+      "answer": "At the central point, path difference is zero. The total phase difference is now \\(\\pi\\), so equal-amplitude waves arrive out of phase. The old central bright point becomes dark.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-12",
+      "prompt": "A double-slit setup uses white light. Explain why the central fringe is white but outer fringes are colored.",
+      "answer": "At the central fringe, \\(\\Delta r=0\\) for all wavelengths, so all colors are constructive. Away from the center, the condition \\(d\\sin\\theta=m\\lambda\\) depends on \\(\\lambda\\), so different colors peak at different positions.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-13",
+      "prompt": "A pattern's fringe spacing doubles while wavelength and screen distance stay fixed. What happened to slit separation?",
+      "answer": "Since\\n\\[\\n\\Delta y=\\frac{\\lambda L}{d}\\n\\]\\nfringe spacing is inversely proportional to slit separation. If \\(\\Delta y\\) doubles, \\(d\\) was halved.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-14",
+      "prompt": "For \\(d=4.0\\lambda\\), what is the largest possible bright order? Explain the constraint.",
+      "answer": "Bright fringes require \\(d\\sin\\theta=m\\lambda\\), and \\(|\\sin\\theta|\\le1\\). Thus\\n\\[\\n|m|\\le\\frac{d}{\\lambda}=4\\n\\]\\nThe largest possible order is \\(|m|=4\\), occurring at \\(\\theta=90^\\circ\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-15",
+      "prompt": "A double-slit measurement uses \\(y_m\\approx m\\lambda L/d\\), but the measured fringe is at \\(y/L=0.30\\). Estimate whether the small-angle approximation is reliable and what correction direction is expected.",
+      "answer": "For \\(y/L=0.30\\), \\(\\tan\\theta=0.30\\), so \\(\\theta\\) is not extremely small. The approximation \\(\\sin\\theta\\approx\\tan\\theta\\) overestimates \\(\\sin\\theta\\) because \\(\\sin\\theta<\\tan\\theta\\). Therefore the small-angle formula tends to overestimate the path difference for a given screen position.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-16",
+      "prompt": "Derive the exact screen position formula for bright fringes without using the small-angle approximation.",
+      "answer": "Bright fringes satisfy\\n\\[\\nd\\sin\\theta=m\\lambda\\n\\]\\nOn a screen distance \\(L\\),\\n\\[\\ny=L\\tan\\theta\\n\\]\\nThus\\n\\[\\n\\theta_m=\\sin^{-1}\\left(\\frac{m\\lambda}{d}\\right)\\n\\]\\nand\\n\\[\\ny_m=L\\tan\\left[\\sin^{-1}\\left(\\frac{m\\lambda}{d}\\right)\\right]\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-17",
+      "prompt": "A double-slit system has \\(d=10\\lambda\\). How many bright fringes are physically allowed over all angles?",
+      "answer": "Bright orders satisfy\\n\\[\\n|m|\\le\\frac{d}{\\lambda}=10\\n\\]\\nSo \\(m=-10,-9,\\ldots,0,\\ldots,9,10\\). That is\\n\\[\\n2(10)+1=21\\n\\]\\nbright fringes over all angles.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-18",
+      "prompt": "A thin glass plate is placed in front of one slit, adding optical path \\((n-1)t\\). Derive the shift in fringe order at the original central point.",
+      "answer": "The added optical path creates phase equivalent to path difference\\n\\[\\n\\Delta r=(n-1)t\\n\\]\\nThe order shift is this path difference divided by wavelength:\\n\\[\\n\\Delta m=\\frac{(n-1)t}{\\lambda}\\n\\]\\nThe central point no longer corresponds to \\(m=0\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-19",
+      "prompt": "A detector sees the entire two-slit pattern translate by \\(3\\) fringe spacings after a plate is inserted before one slit. If \\(n=1.50\\) and \\(\\lambda=600\\,\\mathrm{nm}\\), find the plate thickness.",
+      "answer": "A shift of 3 fringes means\\n\\[\\n\\frac{(n-1)t}{\\lambda}=3\\n\\]\\nso\\n\\[\\nt=\\frac{3\\lambda}{n-1}=\\frac{3(600\\,\\mathrm{nm})}{0.50}=3600\\,\\mathrm{nm}=3.6\\,\\mu\\mathrm{m}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "two-source-light-interference-20",
+      "prompt": "Prove that the small-angle fringe spacing is constant, and identify the assumption that makes it constant.",
+      "answer": "Bright-fringe positions under the small-angle approximation are\\n\\[\\ny_m\\approx\\frac{m\\lambda L}{d}\\n\\]\\nAdjacent bright fringes differ by\\n\\[\\ny_{m+1}-y_m=\\frac{(m+1)\\lambda L}{d}-\\frac{m\\lambda L}{d}=\\frac{\\lambda L}{d}\\n\\]\\nwhich is independent of \\(m\\). The key assumption is \\(\\sin\\theta\\approx\\tan\\theta\\approx y/L\\); without it, the spacing is not exactly constant at large angles.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

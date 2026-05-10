@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "symmetry-applications-of-ampere-s-law",
+  "topicTitle": "Symmetry Applications of Ampere's Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ampere-symmetry-01",
+      "prompt": "State the magnetic field magnitude outside a long straight wire carrying current \\(I\\).",
+      "answer": "Outside a long straight wire,\n\\[\nB=\\frac{\\mu_0I}{2\\pi r}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-02",
+      "prompt": "State the ideal magnetic field inside a long solenoid with turns per unit length \\(n\\) and current \\(I\\).",
+      "answer": "Inside an ideal long solenoid,\n\\[\nB=\\mu_0nI\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-03",
+      "prompt": "State the magnetic field inside a toroid with \\(N\\) turns carrying current \\(I\\), at radius \\(r\\) inside the core.",
+      "answer": "Inside the toroid core,\n\\[\nB=\\frac{\\mu_0NI}{2\\pi r}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-04",
+      "prompt": "A long solenoid has \\(n=800\\,\\mathrm{m^{-1}}\\) and current \\(0.50\\,\\mathrm A\\). Find its internal field.",
+      "answer": "\\[\nB=\\mu_0nI\n\\]\n\\[\nB=(4\\pi\\times10^{-7})(800)(0.50)=5.0\\times10^{-4}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-05",
+      "prompt": "State the field inside a long wire of radius \\(R\\) carrying uniformly distributed current \\(I\\), for \\(r<R\\).",
+      "answer": "For uniform current density inside the wire,\n\\[\nI_{\\mathrm{enc}}=I\\frac{r^2}{R^2}\n\\]\nso\n\\[\nB=\\frac{\\mu_0Ir}{2\\pi R^2}\\qquad(r<R)\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-06",
+      "prompt": "A wire of radius \\(2.0\\,\\mathrm{mm}\\) carries a uniform current \\(10\\,\\mathrm A\\). Find \\(B\\) at \\(r=1.0\\,\\mathrm{mm}\\).",
+      "answer": "Inside a uniform current cylinder,\n\\[\nB=\\frac{\\mu_0Ir}{2\\pi R^2}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(10)(1.0\\times10^{-3})}{2\\pi(2.0\\times10^{-3})^2}\n\\]\n\\[\nB=5.0\\times10^{-4}\\,\\mathrm T\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-07",
+      "prompt": "The same wire carries \\(10\\,\\mathrm A\\). Find \\(B\\) outside the wire at \\(r=5.0\\,\\mathrm{mm}\\).",
+      "answer": "Outside the wire, all the current is enclosed:\n\\[\nB=\\frac{\\mu_0I}{2\\pi r}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(10)}{2\\pi(5.0\\times10^{-3})}=4.0\\times10^{-4}\\,\\mathrm T\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-08",
+      "prompt": "A toroid has \\(500\\) turns, current \\(0.20\\,\\mathrm A\\), and mean radius \\(0.10\\,\\mathrm m\\). Estimate the field at that radius.",
+      "answer": "\\[\nB=\\frac{\\mu_0NI}{2\\pi r}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(500)(0.20)}{2\\pi(0.10)}=2.0\\times10^{-4}\\,\\mathrm T\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-09",
+      "prompt": "For a long wire with uniform current density, explain why \\(B\\propto r\\) inside the wire but \\(B\\propto 1/r\\) outside it.",
+      "answer": "Inside the wire, the enclosed current grows with area:\n\\[\nI_{\\mathrm{enc}}=I\\frac{r^2}{R^2}\n\\]\nAmpere's law gives\n\\[\nB(2\\pi r)=\\mu_0I_{\\mathrm{enc}}\\propto r^2\n\\]\nso \\(B\\propto r\\). Outside the wire, \\(I_{\\mathrm{enc}}=I\\) is constant, so\n\\[\nB(2\\pi r)=\\mu_0I\n\\]\nand \\(B\\propto1/r\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ampere-symmetry-10",
+      "prompt": "A coaxial cable has current \\(+I\\) in the inner conductor and return current \\(-I\\) in the outer conductor. Use Ampere's law to describe \\(B\\) outside the cable.",
+      "answer": "Choose a circular Amperian loop outside both conductors. It encloses both currents:\n\\[\nI_{\\mathrm{enc}}=I-I=0\n\\]\nAmpere's law gives\n\\[\n\\oint\\vec B\\cdot d\\vec l=0\n\\]\nWith cylindrical symmetry, this means the external magnetic field is ideally zero outside the cable.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

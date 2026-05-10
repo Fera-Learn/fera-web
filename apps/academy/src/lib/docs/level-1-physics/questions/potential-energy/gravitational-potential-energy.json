@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "gravitational-potential-energy",
+  "topicTitle": "Gravitational Potential Energy",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "gpe-01",
+      "prompt": "A \\(2\\,\\mathrm{kg}\\) mass is raised by \\(5\\,\\mathrm{m}\\). Find \\(\\Delta U_g\\) using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\n\\Delta U_g=mg\\Delta y=2(9.8)(5)=98\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-02",
+      "prompt": "A \\(3\\,\\mathrm{kg}\\) object moves down \\(4\\,\\mathrm{m}\\). Find \\(\\Delta U_g\\).",
+      "answer": "\\[\n\\Delta U_g=mg\\Delta y=3(9.8)(-4)=-117.6\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-03",
+      "prompt": "An object is lifted at constant speed. What happens to \\(K\\) and \\(U_g\\)?",
+      "answer": "The kinetic energy stays constant because the speed is constant. The gravitational potential energy increases because height increases.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-04",
+      "prompt": "If the zero of \\(U_g\\) is moved upward by \\(2\\,\\mathrm{m}\\), does \\(\\Delta U_g\\) for the same motion change?",
+      "answer": "No. The absolute value of \\(U_g\\) changes, but the difference \\(\\Delta U_g=mg(y_f-y_i)\\) is unchanged.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-05",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) ball falls \\(8\\,\\mathrm{m}\\) from rest. Find its impact speed, ignoring air resistance.",
+      "answer": "\\[\n\\frac{1}{2}mv^2=mgh\n\\]\n\\[\nv=\\sqrt{2gh}=\\sqrt{2(9.8)(8)}=12.5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-06",
+      "prompt": "A \\(4\\,\\mathrm{kg}\\) mass gains \\(196\\,\\mathrm{J}\\) of gravitational potential energy. Find the height increase.",
+      "answer": "\\[\n\\Delta U_g=mg\\Delta y\n\\]\n\\[\n\\Delta y=\\frac{196}{4(9.8)}=5\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-07",
+      "prompt": "A \\(1.5\\,\\mathrm{kg}\\) object is thrown upward with speed \\(10\\,\\mathrm{m\\,s^{-1}}\\). Find its maximum height above launch point, ignoring air resistance.",
+      "answer": "\\[\n\\frac{1}{2}mv_0^2=mg h\n\\]\n\\[\nh=\\frac{v_0^2}{2g}=\\frac{100}{19.6}=5.10\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-08",
+      "prompt": "A \\(2\\,\\mathrm{kg}\\) object drops \\(3\\,\\mathrm{m}\\). Find the work done by gravity.",
+      "answer": "\\[\n\\Delta U_g=mg\\Delta y=2(9.8)(-3)=-58.8\\,\\mathrm{J}\n\\]\n\\[\nW_g=-\\Delta U_g=58.8\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-09",
+      "prompt": "A cart starts from rest at height \\(1.2\\,\\mathrm{m}\\) above the bottom of a frictionless track. Find its speed at the bottom.",
+      "answer": "\\[\nmgh=\\frac{1}{2}mv^2\n\\]\n\\[\nv=\\sqrt{2gh}=\\sqrt{2(9.8)(1.2)}=4.85\\,\\mathrm{m\\,s^{-1}}\n\\]\nMass cancels because both energy terms are proportional to \\(m\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-10",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) ball is launched vertically upward at \\(14\\,\\mathrm{m\\,s^{-1}}\\) from a balcony \\(12\\,\\mathrm{m}\\) above the ground. Find its speed just before it reaches the ground.",
+      "answer": "Use energy between launch and ground.\n\\[\n\\frac{1}{2}mv_0^2+mgy_0=\\frac{1}{2}mv_f^2\n\\]\n\\[\nv_f=\\sqrt{v_0^2+2gy_0}=\\sqrt{14^2+2(9.8)(12)}=20.8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-11",
+      "prompt": "A block starts from rest a vertical height \\(h\\) above a horizontal table, slides on a frictionless track, then leaves the table horizontally from height \\(H\\). It lands a horizontal distance \\(R\\) from the table edge. Derive \\(h\\) in terms of \\(R\\) and \\(H\\), and state the assumptions needed for the result.",
+      "answer": "Assume no nonconservative work, uniform \\(g\\), and a horizontal launch at the table edge. Energy gives the launch speed:\n\\[\n\\frac{1}{2}mv^2=mgh\\Rightarrow v=\\sqrt{2gh}\n\\]\nProjectile motion from the table gives\n\\[\nH=\\frac{1}{2}gt^2\\Rightarrow t=\\sqrt{\\frac{2H}{g}}\n\\]\nHorizontal motion gives\n\\[\nR=vt=\\sqrt{2gh}\\sqrt{\\frac{2H}{g}}=2\\sqrt{hH}\n\\]\nTherefore\n\\[\nh=\\frac{R^2}{4H}\n\\]\nThe mass and \\(g\\) cancel because the same uniform gravitational field sets both the track speed and the fall time.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gpe-12",
+      "prompt": "A bead is released from rest at height \\(h\\) above the bottom of a frictionless vertical circular loop of radius \\(r\\). Derive the regimes for \\(h\\): not enough energy to reach the top height, enough energy for the top height but not enough to stay in contact through the top, and enough to remain in contact.",
+      "answer": "At the top height, energy gives\n\\[\n\\frac{1}{2}mv_{\\mathrm{top}}^2=mg(h-2r)\n\\]\n\\[\nv_{\\mathrm{top}}^2=2g(h-2r)\n\\]\nSo the bead can only have a real speed at the top if\n\\[\nh\\geq 2r\n\\]\nFor contact at the top, the track can push inward but cannot pull. The radial equation is\n\\[\nmg+N=\\frac{mv_{\\mathrm{top}}^2}{r}\n\\]\nMinimum contact has \\(N=0\\), so\n\\[\nv_{\\mathrm{top}}^2\\geq gr\n\\]\nCombine this with the energy result:\n\\[\nh\\geq \\frac{5r}{2}\n\\]\nThe regimes are\n\\[\nh\u003c2r:\\quad \\text{not enough energy to reach the top height}\n\\]\n\\[\n2r\\leq h\u003c\\frac{5r}{2}:\\quad \\text{enough energy for the top height, but contact fails}\n\\]\n\\[\nh\\geq\\frac{5r}{2}:\\quad \\text{contact can be maintained through the top}\n\\]\nThis assumes a smooth track with no adhesive force between bead and track.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

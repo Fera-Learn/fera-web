@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "faraday-s-law",
+  "topicTitle": "Faraday's Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "faraday-law-01",
+      "prompt": "A single loop has flux changing from \\(0.030\\,\\mathrm{Wb}\\) to \\(0.010\\,\\mathrm{Wb}\\) in \\(0.20\\,\\mathrm{s}\\). Find the magnitude of the average induced emf.",
+      "answer": "\\[\\n|\\mathcal E|=\\left|\\frac{\\Delta\\Phi_B}{\\Delta t}\\right|=\\frac{|0.010-0.030|}{0.20}=0.10\\,\\mathrm{V}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-02",
+      "prompt": "A \\(50\\)-turn coil has flux per turn changing at \\(3.0\\times10^{-3}\\,\\mathrm{Wb\\,s^{-1}}\\). Find \\(|\\mathcal E|\\).",
+      "answer": "\\[\\n|\\mathcal E|=N\\left|\\frac{d\\Phi_B}{dt}\\right|=50(3.0\\times10^{-3})=0.150\\,\\mathrm{V}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-03",
+      "prompt": "A loop of area \\(0.080\\,\\mathrm{m^2}\\) is perpendicular to a field increasing at \\(0.60\\,\\mathrm{T\\,s^{-1}}\\). Find the induced emf magnitude.",
+      "answer": "For one turn with fixed area and perpendicular field,\\n\\[\\n|\\mathcal E|=A\\left|\\frac{dB}{dt}\\right|=(0.080)(0.60)=4.8\\times10^{-2}\\,\\mathrm{V}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-04",
+      "prompt": "A \\(120\\)-turn coil has area \\(2.0\\times10^{-3}\\,\\mathrm{m^2}\\). It is perpendicular to a field decreasing at \\(4.0\\,\\mathrm{T\\,s^{-1}}\\). Find \\(|\\mathcal E|\\).",
+      "answer": "\\[\\n|\\mathcal E|=NA\\left|\\frac{dB}{dt}\\right|=120(2.0\\times10^{-3})(4.0)=0.96\\,\\mathrm{V}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-05",
+      "prompt": "A coil has \\(N=40\\), \\(A=0.015\\,\\mathrm{m^2}\\), and \\(\\theta=60^\\circ\\). The field changes at \\(2.0\\,\\mathrm{T\\,s^{-1}}\\). Find \\(|\\mathcal E|\\).",
+      "answer": "\\[\\n|\\mathcal E|=NA\\cos\\theta\\left|\\frac{dB}{dt}\\right|=40(0.015)(\\cos60^\\circ)(2.0)=0.60\\,\\mathrm{V}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-06",
+      "prompt": "A loop has area increasing at \\(0.020\\,\\mathrm{m^2\\,s^{-1}}\\) in a steady perpendicular \\(0.30\\,\\mathrm{T}\\) field. Find \\(|\\mathcal E|\\).",
+      "answer": "With field steady and perpendicular,\\n\\[\\n|\\mathcal E|=B\\left|\\frac{dA}{dt}\\right|=(0.30)(0.020)=6.0\\times10^{-3}\\,\\mathrm{V}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-07",
+      "prompt": "A \\(200\\)-turn coil has average emf magnitude \\(3.0\\,\\mathrm{V}\\) while the flux per turn changes uniformly for \\(0.50\\,\\mathrm{s}\\). Find the magnitude of the flux change per turn.",
+      "answer": "\\[\\n|\\mathcal E|=N\\frac{|\\Delta\\Phi_B|}{\\Delta t}\\n\\]\\nso\\n\\[\\n|\\Delta\\Phi_B|=\\frac{|\\mathcal E|\\Delta t}{N}=\\frac{(3.0)(0.50)}{200}=7.5\\times10^{-3}\\,\\mathrm{Wb}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-08",
+      "prompt": "A coil's flux per turn is \\(\\Phi_B(t)=0.020t^2\\) in webers. If \\(N=10\\), find \\(\\mathcal E(t)\\).",
+      "answer": "\\[\\n\\mathcal E=-N\\frac{d\\Phi_B}{dt}\\n\\]\\nSince\\n\\[\\n\\frac{d\\Phi_B}{dt}=0.040t\\n\\]\\nwe get\\n\\[\\n\\mathcal E(t)=-10(0.040t)=-0.40t\\,\\mathrm{V}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-09",
+      "prompt": "A loop rotates in a uniform field with \\(\\theta=\\omega t\\). If \\(\\Phi_B=BA\\cos\\omega t\\), derive \\(\\mathcal E(t)\\) for one turn.",
+      "answer": "\\[\\n\\mathcal E=-\\frac{d}{dt}(BA\\cos\\omega t)\\n\\]\\nso\\n\\[\\n\\mathcal E=BA\\omega\\sin\\omega t\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-10",
+      "prompt": "A \\(80\\)-turn coil of area \\(0.010\\,\\mathrm{m^2}\\) rotates at \\(30\\,\\mathrm{rad\\,s^{-1}}\\) in a \\(0.20\\,\\mathrm{T}\\) field. Find the peak emf.",
+      "answer": "For a rotating coil,\\n\\[\\n\\mathcal E_{\\max}=NBA\\omega\\n\\]\\nThus\\n\\[\\n\\mathcal E_{\\max}=80(0.20)(0.010)(30)=4.8\\,\\mathrm{V}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-11",
+      "prompt": "A square loop of side \\(0.20\\,\\mathrm{m}\\) enters a uniform \\(0.60\\,\\mathrm{T}\\) field at \\(0.50\\,\\mathrm{m\\,s^{-1}}\\). While partly entering, find the emf magnitude.",
+      "answer": "The field-threaded area changes at\\n\\[\\n\\frac{dA}{dt}=\\ell v=(0.20)(0.50)=0.10\\,\\mathrm{m^2\\,s^{-1}}\\n\\]\\nso\\n\\[\\n|\\mathcal E|=B\\frac{dA}{dt}=(0.60)(0.10)=0.060\\,\\mathrm{V}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-12",
+      "prompt": "A field changes according to \\(B(t)=0.10+0.50t\\) through a fixed perpendicular loop of area \\(0.040\\,\\mathrm{m^2}\\). Find the induced emf.",
+      "answer": "The rate of change is\\n\\[\\n\\frac{dB}{dt}=0.50\\,\\mathrm{T\\,s^{-1}}\\n\\]\\nFor one turn,\\n\\[\\n\\mathcal E=-A\\frac{dB}{dt}=-(0.040)(0.50)=-0.020\\,\\mathrm{V}\\n\\]\\nThe sign depends on the chosen positive loop direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-13",
+      "prompt": "A student multiplies \\(N\\) by total coil area and also by flux per turn. Explain the double-counting error.",
+      "answer": "Flux per turn already uses the area of one turn. Faraday's law uses \\(N\\Phi_B\\), where \\(\\Phi_B\\) is flux through one turn. Multiplying by \\(N\\) again through a total area would count the turns twice.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-14",
+      "prompt": "A \\(25\\)-turn coil has flux per turn \\(\\Phi_B=0.012\\cos(100t)\\,\\mathrm{Wb}\\). Find the emf function.",
+      "answer": "\\[\\n\\mathcal E=-N\\frac{d\\Phi_B}{dt}\\n\\]\\nSince\\n\\[\\n\\frac{d\\Phi_B}{dt}=-1.2\\sin(100t)\\n\\]\\nwe have\\n\\[\\n\\mathcal E=25(1.2\\sin(100t))=30\\sin(100t)\\,\\mathrm{V}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-15",
+      "prompt": "A loop area decreases linearly from \\(0.050\\,\\mathrm{m^2}\\) to \\(0.020\\,\\mathrm{m^2}\\) in \\(0.30\\,\\mathrm{s}\\) in a steady perpendicular \\(0.80\\,\\mathrm{T}\\) field. Find the average emf magnitude.",
+      "answer": "\\[\\n|\\mathcal E|=B\\frac{|\\Delta A|}{\\Delta t}=0.80\\frac{|0.020-0.050|}{0.30}=0.080\\,\\mathrm{V}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-16",
+      "prompt": "A coil has \\(N\\), area \\(A\\), and rotates with angular speed \\(\\omega\\) in field \\(B\\). Derive the rms emf if \\(\\Phi_B=BA\\cos\\omega t\\).",
+      "answer": "The emf is\\n\\[\\n\\mathcal E(t)=NBA\\omega\\sin\\omega t\\n\\]\\nThe peak value is \\(NBA\\omega\\). For a sinusoid, rms is peak divided by \\(\\sqrt2\\):\\n\\[\\n\\mathcal E_{\\mathrm{rms}}=\\frac{NBA\\omega}{\\sqrt2}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-17",
+      "prompt": "A loop crosses a field boundary. Its flux is \\(\\Phi_B=Bhx(t)\\). Derive the emf in terms of \\(B\\), \\(h\\), and \\(dx/dt\\).",
+      "answer": "\\[\\n\\mathcal E=-\\frac{d\\Phi_B}{dt}=-\\frac{d}{dt}(Bhx)\\n\\]\\nFor constant \\(B\\) and \\(h\\),\\n\\[\\n\\mathcal E=-Bh\\frac{dx}{dt}\\n\\]\\nThe magnitude is \\(Bh|dx/dt|\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-18",
+      "prompt": "A coil has \\(N=100\\), \\(A=0.0040\\,\\mathrm{m^2}\\), and \\(B(t)=0.30e^{-2t}\\). The coil is perpendicular to the field. Find \\(\\mathcal E(t)\\).",
+      "answer": "\\[\\n\\mathcal E=-NA\\frac{dB}{dt}\\n\\]\\nSince\\n\\[\\n\\frac{dB}{dt}=-0.60e^{-2t}\\n\\]\\nthen\\n\\[\\n\\mathcal E=-(100)(0.0040)(-0.60e^{-2t})=0.24e^{-2t}\\,\\mathrm{V}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-19",
+      "prompt": "A flat loop in a uniform field has \\(B\\), \\(A\\), and \\(\\theta\\) all time-dependent. Write the full derivative for \\(\\mathcal E\\) from \\(\\Phi_B=BA\\cos\\theta\\).",
+      "answer": "Use the product rule:\\n\\[\\n\\mathcal E=-\\frac{d}{dt}(BA\\cos\\theta)\\n\\]\\n\\[\\n\\mathcal E=-\\left(A\\cos\\theta\\frac{dB}{dt}+B\\cos\\theta\\frac{dA}{dt}-BA\\sin\\theta\\frac{d\\theta}{dt}\\right)\\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "faraday-law-20",
+      "prompt": "A coil's measured emf is zero at an instant even though it is rotating in a magnetic field. Explain how this can happen using \\(\\mathcal E=NBA\\omega\\sin\\omega t\\).",
+      "answer": "For uniform rotation,\\n\\[\\n\\mathcal E=NBA\\omega\\sin\\omega t\\n\\]\\nThe emf is zero when \\(\\sin\\omega t=0\\). At those instants the flux \\(BA\\cos\\omega t\\) is momentarily maximum or minimum, so its time derivative is zero even though the coil is still rotating.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "sound-as-a-wave",
+  "topicTitle": "Sound as a Wave",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-wave-01",
+      "prompt": "A sound wave in air has frequency \\(680\\,\\mathrm{Hz}\\) and speed \\(340\\,\\mathrm{m\\,s^{-1}}\\). Find its wavelength.",
+      "answer": "\\[\n\\lambda=\\frac{v}{f}=\\frac{340}{680}=0.50\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-02",
+      "prompt": "A sound wave has wavelength \\(0.85\\,\\mathrm{m}\\) and speed \\(340\\,\\mathrm{m\\,s^{-1}}\\). Find its frequency.",
+      "answer": "\\[\nf=\\frac{v}{\\lambda}=\\frac{340}{0.85}=400\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-03",
+      "prompt": "A sound wave has frequency \\(250\\,\\mathrm{Hz}\\). Find its period.",
+      "answer": "\\[\nT=\\frac{1}{f}=\\frac{1}{250}=4.0\\times10^{-3}\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-04",
+      "prompt": "State whether sound in air is longitudinal or transverse, and describe the direction of air-particle motion relative to propagation.",
+      "answer": "Sound in air is longitudinal. The air parcels oscillate back and forth parallel to the direction that the pressure pattern travels.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-05",
+      "prompt": "At one point in a sound wave, the equilibrium pressure is \\(1.01\\times10^5\\,\\mathrm{Pa}\\) and the pressure variation is \\(+24\\,\\mathrm{Pa}\\). Find the instantaneous pressure and identify compression or rarefaction.",
+      "answer": "\\[\np=p_0+\\Delta p=1.01\\times10^5+24=1.01024\\times10^5\\,\\mathrm{Pa}\n\\]\nThe pressure variation is positive, so the point is in a compression.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-06",
+      "prompt": "At one point in a sound wave, \\(\\Delta p=-18\\,\\mathrm{Pa}\\). Is that point in a compression or a rarefaction?",
+      "answer": "A negative pressure variation means the instantaneous pressure is below equilibrium, so the point is in a rarefaction.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-07",
+      "prompt": "A sinusoidal sound wave has \\(k=12\\,\\mathrm{rad\\,m^{-1}}\\) and \\(\\omega=4080\\,\\mathrm{rad\\,s^{-1}}\\). Find its wave speed.",
+      "answer": "\\[\nv=\\frac{\\omega}{k}=\\frac{4080}{12}=340\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-08",
+      "prompt": "A sound wave has wavelength \\(0.50\\,\\mathrm{m}\\). Find its wavenumber \\(k\\).",
+      "answer": "\\[\nk=\\frac{2\\pi}{\\lambda}=\\frac{2\\pi}{0.50}=12.6\\,\\mathrm{rad\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-09",
+      "prompt": "A sound wave has frequency \\(440\\,\\mathrm{Hz}\\). Find its angular frequency.",
+      "answer": "\\[\n\\omega=2\\pi f=2\\pi(440)=2.76\\times10^3\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-10",
+      "prompt": "For \\(\\xi(x,t)=\\xi_0\\cos(kx-\\omega t)\\), determine the direction of propagation and explain the sign choice.",
+      "answer": "The phase \\(kx-\\omega t\\) has constant value when\n\\[\nkx-\\omega t=C\n\\]\nso\n\\[\n\\frac{dx}{dt}=\\frac{\\omega}{k}\u003e0\n\\]\nThe wave travels in the positive \\(x\\)-direction.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-11",
+      "prompt": "A sound wave is described by \\(\\xi(x,t)=2.0\\times10^{-6}\\cos(5.0x-1700t)\\), with SI units. Find the displacement amplitude, wavelength, frequency, and direction of travel.",
+      "answer": "From \\(\\xi(x,t)=2.0\\times10^{-6}\\cos(5.0x-1700t)\\),\n\\[\n\\xi_0=2.0\\times10^{-6}\\,\\mathrm{m}\n\\]\n\\[\n\\lambda=\\frac{2\\pi}{k}=\\frac{2\\pi}{5.0}=1.26\\,\\mathrm{m}\n\\]\n\\[\nf=\\frac{\\omega}{2\\pi}=\\frac{1700}{2\\pi}=271\\,\\mathrm{Hz}\n\\]\nThe form \\(kx-\\omega t\\) shows propagation in the positive \\(x\\)-direction.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-12",
+      "prompt": "A microphone records pressure variation \\(\\Delta p(t)=12\\sin(2\\pi(500)t)\\,\\mathrm{Pa}\\) at a fixed point. Find the pressure amplitude, frequency, and period.",
+      "answer": "The pressure amplitude is \\(12\\,\\mathrm{Pa}\\). Since the angular argument is \\(2\\pi(500)t\\),\n\\[\nf=500\\,\\mathrm{Hz}\n\\]\nand\n\\[\nT=\\frac{1}{500}=2.0\\times10^{-3}\\,\\mathrm{s}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-13",
+      "prompt": "A sound pulse travels \\(170\\,\\mathrm{m}\\) through air in \\(0.50\\,\\mathrm{s}\\). It then enters a different medium and travels \\(900\\,\\mathrm{m}\\) in \\(2.0\\,\\mathrm{s}\\). Find each sound speed and state which medium carries sound faster.",
+      "answer": "In air,\n\\[\nv_1=\\frac{170}{0.50}=340\\,\\mathrm{m\\,s^{-1}}\n\\]\nIn the second medium,\n\\[\nv_2=\\frac{900}{2.0}=450\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe second medium carries sound faster in this setup.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-14",
+      "prompt": "Two listeners are separated by \\(68\\,\\mathrm{m}\\) along the direction of propagation of a \\(340\\,\\mathrm{m\\,s^{-1}}\\) sound wave. Find the time delay between when the same compression reaches them.",
+      "answer": "\\[\n\\Delta t=\\frac{\\Delta x}{v}=\\frac{68}{340}=0.20\\,\\mathrm{s}\n\\]\nThe downstream listener detects the same compression \\(0.20\\,\\mathrm{s}\\) later.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-15",
+      "prompt": "A wave has pressure variation \\(\\Delta p(x,t)=30\\sin(4x-1360t)\\,\\mathrm{Pa}\\). Find its speed and classify the pressure state at \\(x=0\\), \\(t=0\\).",
+      "answer": "The speed is\n\\[\nv=\\frac{\\omega}{k}=\\frac{1360}{4}=340\\,\\mathrm{m\\,s^{-1}}\n\\]\nAt \\(x=0\\), \\(t=0\\),\n\\[\n\\Delta p=30\\sin(0)=0\n\\]\nso the pressure is instantaneously at equilibrium, neither a compression nor a rarefaction.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-16",
+      "prompt": "A sinusoidal sound wave has particle displacement \\(\\xi=\\xi_0\\cos(kx-\\omega t)\\) and pressure variation \\(\\Delta p=\\Delta p_{\\max}\\sin(kx-\\omega t)\\). At a position where the displacement is maximum positive, what is the pressure variation? Explain using phase.",
+      "answer": "Maximum positive displacement occurs when\n\\[\n\\cos(kx-\\omega t)=1\n\\]\nso the phase is \\(0\\) modulo \\(2\\pi\\). At that same phase,\n\\[\n\\sin(kx-\\omega t)=0\n\\]\nso\n\\[\n\\Delta p=0\n\\]\nThe pressure variation is one quarter-cycle out of phase with the displacement in this model.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-17",
+      "prompt": "A sound wave travels from air into another medium. Its frequency remains fixed at \\(500\\,\\mathrm{Hz}\\), while its speed changes from \\(340\\,\\mathrm{m\\,s^{-1}}\\) to \\(1500\\,\\mathrm{m\\,s^{-1}}\\). Derive the wavelength change and interpret why frequency is not changed by entering the new medium.",
+      "answer": "The source fixes the frequency at the boundary, so \\(f=500\\,\\mathrm{Hz}\\) on both sides. In air,\n\\[\n\\lambda_1=\\frac{340}{500}=0.68\\,\\mathrm{m}\n\\]\nIn the second medium,\n\\[\n\\lambda_2=\\frac{1500}{500}=3.0\\,\\mathrm{m}\n\\]\nThe wavelength increases by a factor\n\\[\n\\frac{\\lambda_2}{\\lambda_1}=\\frac{1500}{340}=4.41\n\\]\nThe frequency remains fixed because each arriving oscillation drives the next medium at the same temporal rate; the medium changes the propagation speed and therefore the wavelength.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-18",
+      "prompt": "A right-moving sound wave has constant phase \\(kx-\\omega t=C\\). Derive the speed of a compression from this constant-phase condition and explain why this is not the speed of an individual air parcel.",
+      "answer": "For a fixed phase point,\n\\[\nkx-\\omega t=C\n\\]\nDifferentiate:\n\\[\nk\\frac{dx}{dt}-\\omega=0\n\\]\nso\n\\[\n\\frac{dx}{dt}=\\frac{\\omega}{k}=v\n\\]\nThis is the speed of the pressure pattern, such as a compression. An individual air parcel oscillates about equilibrium and does not travel forward with the compression.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-19",
+      "prompt": "A detector measures two pressure maxima at the same point separated by time \\(\\Delta t\\), and two neighboring pressure maxima in space separated by distance \\(\\Delta x\\). Derive \\(f\\), \\(\\lambda\\), and the sound speed from these measurements.",
+      "answer": "At one fixed point, successive pressure maxima are one period apart, so\n\\[\nT=\\Delta t,\\qquad f=\\frac{1}{\\Delta t}\n\\]\nNeighboring pressure maxima in space are one wavelength apart, so\n\\[\n\\lambda=\\Delta x\n\\]\nThe sound speed is\n\\[\nv=f\\lambda=\\frac{\\Delta x}{\\Delta t}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-wave-20",
+      "prompt": "A sound wave and a transverse string wave have the same \\(f\\), \\(\\lambda\\), and speed. Construct a comparison that identifies what is the same mathematically and what differs physically between the two wave models.",
+      "answer": "Mathematically, both waves can share the same phase structure, for example\n\\[\n\\cos(kx-\\omega t)\n\\]\nand both obey\n\\[\nv=f\\lambda=\\frac{\\omega}{k}\n\\]\nPhysically, the string wave is transverse: the string displacement is perpendicular to the propagation direction. Sound in air is longitudinal: air-particle displacement is parallel to the propagation direction and is accompanied by pressure variations. The same wave mathematics describes different medium motions.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

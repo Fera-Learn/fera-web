@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "driven-oscillations-and-resonance",
+  "topicTitle": "Driven Oscillations and Resonance",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "driven-resonance-01",
+      "prompt": "In steady-state driven motion, does the oscillator move at the driving frequency or its undamped natural frequency?",
+      "answer": "In steady state, the oscillator moves at the driving frequency. The natural frequency still shapes the response amplitude and phase.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-02",
+      "prompt": "For light damping, near what angular frequency is the resonance peak?",
+      "answer": "For light damping, the resonance peak is near\n\\[\n\\omega_{\\mathrm{res}}\\approx\\omega_0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-11",
+      "prompt": "What prevents the steady-state resonance amplitude from becoming infinite in the driven oscillator model?",
+      "answer": "Damping limits the resonance amplitude. With \\(b\u003e0\\), energy is removed from the oscillator, so the steady-state peak remains finite.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-03",
+      "prompt": "A driven oscillator has \\(m=0.50\\,\\mathrm{kg}\\) and \\(k=18\\,\\mathrm{N\\,m^{-1}}\\). Find its natural angular frequency.",
+      "answer": "\\[\n\\omega_0=\\sqrt{\\frac{k}{m}}\n\\]\n\\[\n\\omega_0=\\sqrt{\\frac{18}{0.50}}=6.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-12",
+      "prompt": "For a drive \\(F_d(t)=F_0\\cos\\omega t\\), what is the driving period in terms of \\(\\omega\\)?",
+      "answer": "The drive completes one cycle when its phase changes by \\(2\\pi\\), so\n\\[\nT_d=\\frac{2\\pi}{\\omega}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-04",
+      "prompt": "Using \\(A=\\frac{F_0/m}{\\sqrt{(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2}}\\), find \\(A\\) for \\(F_0=2.0\\,\\mathrm{N}\\), \\(m=1.0\\,\\mathrm{kg}\\), \\(\\omega_0=5.0\\,\\mathrm{rad\\,s^{-1}}\\), \\(\\omega=3.0\\,\\mathrm{rad\\,s^{-1}}\\), and \\(b=1.0\\,\\mathrm{kg\\,s^{-1}}\\).",
+      "answer": "Substitute into\n\\[\nA=\\frac{F_0/m}{\\sqrt{(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2}}\n\\]\nThe numerator is\n\\[\n\\frac{F_0}{m}=2.0\n\\]\nThe denominator is\n\\[\n\\sqrt{(5.0^2-3.0^2)^2+(1.0\\cdot3.0/1.0)^2}\n\\]\n\\[\n=\\sqrt{16^2+3^2}=\\sqrt{265}=16.3\n\\]\nTherefore\n\\[\nA=\\frac{2.0}{16.3}=0.123\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-05",
+      "prompt": "What happens to the height and width of the resonance peak when damping is increased?",
+      "answer": "Increasing damping lowers the resonance peak and broadens it. The oscillator responds less sharply to one special drive frequency.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-13",
+      "prompt": "A very slowly driven spring oscillator has \\(F_0=3.0\\,\\mathrm{N}\\) and \\(k=150\\,\\mathrm{N\\,m^{-1}}\\). Estimate the steady amplitude.",
+      "answer": "At very low drive frequency, the response is approximately static:\n\\[\nA\\approx\\frac{F_0}{k}\n\\]\nso\n\\[\nA\\approx\\frac{3.0}{150}=0.020\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-14",
+      "prompt": "At exact \\(\\omega=\\omega_0=8.0\\,\\mathrm{rad\\,s^{-1}}\\), with \\(F_0=4.0\\,\\mathrm{N}\\) and \\(b=2.0\\,\\mathrm{kg\\,s^{-1}}\\), find the steady-state amplitude.",
+      "answer": "At exact resonance,\n\\[\nA=\\frac{F_0}{b\\omega_0}\n\\]\nso\n\\[\nA=\\frac{4.0}{(2.0)(8.0)}=0.25\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-06",
+      "prompt": "At very low driving frequency, \\(\\omega\\approx0\\). Show that the amplitude response reduces to approximately \\(F_0/k\\).",
+      "answer": "For \\(\\omega\\approx0\\),\n\\[\n(\\omega_0^2-\\omega^2)^2\\approx\\omega_0^4\n\\]\nand\n\\[\n\\left(\\frac{b\\omega}{m}\\right)^2\\approx0\n\\]\nso\n\\[\nA\\approx\\frac{F_0/m}{\\omega_0^2}\n\\]\nSince\n\\[\n\\omega_0^2=\\frac{k}{m}\n\\]\nthen\n\\[\nA\\approx\\frac{F_0/m}{k/m}=\\frac{F_0}{k}\n\\]\nThis is the static spring displacement.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-15",
+      "prompt": "For fixed \\(F_0\\), \\(m\\), and \\(\\omega_0\\), explain why the response is small when the driving frequency is much larger than \\(\\omega_0\\).",
+      "answer": "For \\(\\omega\\gg\\omega_0\\), the inertia term dominates the mismatch:\n\\[\n|\\omega_0^2-\\omega^2|\\approx \\omega^2\n\\]\nThe denominator in the response becomes large, so the amplitude becomes small. Physically, the drive reverses direction too quickly for the mass to follow with large displacement.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-07",
+      "prompt": "For \\(m=2.0\\,\\mathrm{kg}\\), \\(k=50\\,\\mathrm{N\\,m^{-1}}\\), and light damping, estimate the driving frequency in hertz that gives resonance.",
+      "answer": "For light damping,\n\\[\n\\omega_{\\mathrm{res}}\\approx\\omega_0=\\sqrt{\\frac{k}{m}}\n\\]\n\\[\n\\omega_0=\\sqrt{\\frac{50}{2.0}}=5.0\\,\\mathrm{rad\\,s^{-1}}\n\\]\nConvert to hertz:\n\\[\nf=\\frac{\\omega}{2\\pi}=\\frac{5.0}{2\\pi}=0.796\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-08",
+      "prompt": "At exact \\(\\omega=\\omega_0\\), use the amplitude response formula to derive the steady-state amplitude in terms of \\(F_0\\), \\(b\\), and \\(\\omega_0\\).",
+      "answer": "At \\(\\omega=\\omega_0\\),\n\\[\n\\omega_0^2-\\omega^2=0\n\\]\nThe amplitude denominator becomes\n\\[\n\\sqrt{0+\\left(\\frac{b\\omega_0}{m}\\right)^2}=\\frac{b\\omega_0}{m}\n\\]\nTherefore\n\\[\nA=\\frac{F_0/m}{b\\omega_0/m}\n\\]\nso\n\\[\nA=\\frac{F_0}{b\\omega_0}\n\\]\nThis finite amplitude requires nonzero damping.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-16",
+      "prompt": "At exact resonance, what damping coefficient \\(b\\) is needed to keep the amplitude at or below \\(A_{\\max}\\)? Express your answer in terms of \\(F_0\\), \\(\\omega_0\\), and \\(A_{\\max}\\).",
+      "answer": "At exact resonance,\n\\[\nA=\\frac{F_0}{b\\omega_0}\n\\]\nRequire\n\\[\n\\frac{F_0}{b\\omega_0}\\le A_{\\max}\n\\]\nso\n\\[\nb\\ge \\frac{F_0}{A_{\\max}\\omega_0}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-17",
+      "prompt": "A driven oscillator at exact resonance has \\(A=0.25\\,\\mathrm{m}\\), \\(b=0.80\\,\\mathrm{kg\\,s^{-1}}\\), and \\(\\omega_0=6.0\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(F_0\\).",
+      "answer": "At exact resonance,\n\\[\nA=\\frac{F_0}{b\\omega_0}\n\\]\nso\n\\[\nF_0=Ab\\omega_0\n\\]\n\\[\nF_0=(0.25)(0.80)(6.0)=1.2\\,\\mathrm{N}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-18",
+      "prompt": "Use the amplitude response to show that for \\(\\omega\\gg\\omega_0\\) and damping not dominant, \\(A\\) scales approximately as \\(1/\\omega^2\\).",
+      "answer": "The amplitude response is\n\\[\nA=\\frac{F_0/m}{\\sqrt{(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2}}\n\\]\nFor \\(\\omega\\gg\\omega_0\\), and if damping is not the dominant term,\n\\[\n(\\omega_0^2-\\omega^2)^2\\approx \\omega^4\n\\]\nso the denominator is approximately\n\\[\n\\sqrt{\\omega^4}=\\omega^2\n\\]\nTherefore\n\\[\nA\\approx\\frac{F_0/m}{\\omega^2}\n\\]\nso \\(A\\propto \\omega^{-2}\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-09",
+      "prompt": "For fixed \\(F_0\\), \\(m\\), \\(\\omega_0\\), and drive frequency \\(\\omega\\), derive the value of \\(b\\) needed to make the steady-state amplitude no larger than \\(A_{\\max}\\). State the condition for such a \\(b\\) to be necessary.",
+      "answer": "Require\n\\[\nA=\\frac{F_0/m}{\\sqrt{(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2}}\\le A_{\\max}\n\\]\nThis means\n\\[\n\\sqrt{(\\omega_0^2-\\omega^2)^2+\\left(\\frac{b\\omega}{m}\\right)^2}\\ge \\frac{F_0}{mA_{\\max}}\n\\]\nSquare both sides:\n\\[\n(\\omega_0^2-\\omega^2)^2+\\left(\\frac{b\\omega}{m}\\right)^2\\ge \\left(\\frac{F_0}{mA_{\\max}}\\right)^2\n\\]\nThus\n\\[\n\\left(\\frac{b\\omega}{m}\\right)^2\\ge \\left(\\frac{F_0}{mA_{\\max}}\\right)^2-(\\omega_0^2-\\omega^2)^2\n\\]\nIf the right side is positive,\n\\[\nb\\ge \\frac{m}{|\\omega|}\\sqrt{\\left(\\frac{F_0}{mA_{\\max}}\\right)^2-(\\omega_0^2-\\omega^2)^2}\n\\]\nAdditional damping is necessary only when\n\\[\n\\frac{F_0/m}{|\\omega_0^2-\\omega^2|}\u003eA_{\\max}\n\\]\nfor the undamped denominator contribution alone. If the right side under the square root is nonpositive, the amplitude limit is already met.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-19",
+      "prompt": "A driven oscillator is tested at two drive frequencies \\(\\omega_a\\) and \\(\\omega_b\\), with the same \\(F_0\\). Derive the ratio \\(A_a/A_b\\) in terms of \\(\\omega_a,\\omega_b,\\omega_0,b,\\) and \\(m\\).",
+      "answer": "For a given drive frequency,\n\\[\nA(\\omega)=\\frac{F_0/m}{\\sqrt{(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2}}\n\\]\nSince \\(F_0/m\\) is the same in both tests, it cancels in the ratio:\n\\[\n\\frac{A_a}{A_b}\n=\\frac{\\sqrt{(\\omega_0^2-\\omega_b^2)^2+(b\\omega_b/m)^2}}\n{\\sqrt{(\\omega_0^2-\\omega_a^2)^2+(b\\omega_a/m)^2}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-10",
+      "prompt": "Using the amplitude denominator \\(D(\\omega)=(\\omega_0^2-\\omega^2)^2+(b\\omega/m)^2\\), derive the drive angular frequency that maximizes amplitude for the underdamped driven oscillator, and state when this peak frequency is real and nonzero.",
+      "answer": "Maximizing amplitude is equivalent to minimizing\n\\[\nD(\\omega)=(\\omega_0^2-\\omega^2)^2+\\left(\\frac{b\\omega}{m}\\right)^2\n\\]\nDifferentiate:\n\\[\n\\frac{dD}{d\\omega}=2(\\omega_0^2-\\omega^2)(-2\\omega)+2\\frac{b^2}{m^2}\\omega\n\\]\n\\[\n\\frac{dD}{d\\omega}=-4\\omega(\\omega_0^2-\\omega^2)+2\\frac{b^2}{m^2}\\omega\n\\]\nSet this to zero:\n\\[\n\\omega\\left[-4(\\omega_0^2-\\omega^2)+2\\frac{b^2}{m^2}\\right]=0\n\\]\nThe nonzero peak satisfies\n\\[\n-4\\omega_0^2+4\\omega^2+2\\frac{b^2}{m^2}=0\n\\]\nso\n\\[\n\\omega^2=\\omega_0^2-\\frac{b^2}{2m^2}\n\\]\nTherefore\n\\[\n\\omega_{\\mathrm{peak}}=\\sqrt{\\omega_0^2-\\frac{b^2}{2m^2}}\n\\]\nThis peak frequency is real and nonzero when\n\\[\n\\omega_0^2\u003e\\frac{b^2}{2m^2}\n\\]\nor\n\\[\nb\u003c\\sqrt{2}\\,m\\omega_0\n\\]\nFor heavier damping, the largest response occurs at zero drive frequency rather than at a nonzero resonance peak.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "driven-resonance-20",
+      "prompt": "A driven oscillator has known \\(\\omega_0\\), but its damping coefficient is unknown. A resonance peak is measured at nonzero angular frequency \\(\\omega_p\\). Using the amplitude-denominator model, derive \\(b/m\\), and state the consistency condition on \\(\\omega_p\\).",
+      "answer": "From the denominator minimization result,\n\\[\n\\omega_p^2=\\omega_0^2-\\frac{b^2}{2m^2}\n\\]\nRearrange:\n\\[\n\\frac{b^2}{2m^2}=\\omega_0^2-\\omega_p^2\n\\]\nso\n\\[\n\\frac{b}{m}=\\sqrt{2(\\omega_0^2-\\omega_p^2)}\n\\]\nThe measured nonzero peak is consistent with this model only if\n\\[\n0\u003c\\omega_p\u003c\\omega_0\n\\]\nand the inferred damping is real. If \\(\\omega_p\\ge\\omega_0\\), this damped-oscillator peak model is inconsistent with the measurement.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

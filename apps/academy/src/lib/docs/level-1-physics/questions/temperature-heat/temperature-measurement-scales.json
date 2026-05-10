@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "temperature-measurement-scales",
+  "topicTitle": "Temperature Measurement Scales",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "temperature-scales-01",
+      "prompt": "Convert \\(25\\,{}^\\circ\\mathrm{C}\\) to Fahrenheit.",
+      "answer": "\\[\nT_F=\\frac{9}{5}T_C+32=\\frac{9}{5}(25)+32=77\\,{}^\\circ\\mathrm{F}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-02",
+      "prompt": "Convert \\(68\\,{}^\\circ\\mathrm{F}\\) to Celsius.",
+      "answer": "\\[\nT_C=\\frac{5}{9}(T_F-32)=\\frac{5}{9}(68-32)=20\\,{}^\\circ\\mathrm{C}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-03",
+      "prompt": "A temperature changes by \\(15\\,\\mathrm{C^\\circ}\\). What is this interval in Fahrenheit degrees?",
+      "answer": "For an interval, use only the scale factor:\n\\[\n\\Delta T_F=\\frac{9}{5}\\Delta T_C=\\frac{9}{5}(15)=27\\,\\mathrm{F^\\circ}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-04",
+      "prompt": "A temperature changes by \\(27\\,\\mathrm{F^\\circ}\\). What is this interval in Celsius degrees?",
+      "answer": "For an interval,\n\\[\n\\Delta T_C=\\frac{5}{9}\\Delta T_F=\\frac{5}{9}(27)=15\\,\\mathrm{C^\\circ}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-05",
+      "prompt": "Convert \\(-22\\,{}^\\circ\\mathrm{F}\\) to Celsius.",
+      "answer": "\\[\nT_C=\\frac{5}{9}(-22-32)=\\frac{5}{9}(-54)=-30\\,{}^\\circ\\mathrm{C}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-06",
+      "prompt": "A sample warms from \\(12\\,{}^\\circ\\mathrm{C}\\) to \\(47\\,{}^\\circ\\mathrm{C}\\). Find the initial and final temperatures in Fahrenheit and the temperature change in Fahrenheit degrees.",
+      "answer": "Convert each actual temperature:\n\\[\nT_{Fi}=\\frac{9}{5}(12)+32=53.6\\,{}^\\circ\\mathrm{F}\n\\]\n\\[\nT_{Ff}=\\frac{9}{5}(47)+32=116.6\\,{}^\\circ\\mathrm{F}\n\\]\nThe interval is\n\\[\n\\Delta T_F=116.6-53.6=63.0\\,\\mathrm{F^\\circ}\n\\]\nEquivalently, \\(\\Delta T_C=35\\,\\mathrm{C^\\circ}\\), so \\((9/5)(35)=63\\,\\mathrm{F^\\circ}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-07",
+      "prompt": "At what temperature do the Celsius and Fahrenheit scales have the same numerical reading?",
+      "answer": "Set the numerical readings equal: \\(T_F=T_C=T\\).\n\\[\nT=\\frac{9}{5}T+32\n\\]\n\\[\n-\\frac{4}{5}T=32\n\\]\n\\[\nT=-40\n\\]\nSo the scales agree numerically at\n\\[\n-40\\,{}^\\circ\\mathrm{C}=-40\\,{}^\\circ\\mathrm{F}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-08",
+      "prompt": "A thermometer scale \\(X\\) is linear. It reads \\(10\\,{}^\\circ\\mathrm{X}\\) at \\(0\\,{}^\\circ\\mathrm{C}\\) and \\(90\\,{}^\\circ\\mathrm{X}\\) at \\(100\\,{}^\\circ\\mathrm{C}\\). Derive \\(T_X\\) in terms of \\(T_C\\).",
+      "answer": "Let\n\\[\nT_X=aT_C+b\n\\]\nUsing \\(T_X=10\\) at \\(T_C=0\\) gives \\(b=10\\). Using \\(T_X=90\\) at \\(T_C=100\\):\n\\[\n90=100a+10\n\\]\n\\[\na=0.80\n\\]\nThus\n\\[\nT_X=0.80T_C+10\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-09",
+      "prompt": "A weather report says the temperature rose from \\(41\\,{}^\\circ\\mathrm{F}\\) to \\(59\\,{}^\\circ\\mathrm{F}\\). Find the temperature change in Celsius degrees and the final temperature in Celsius.",
+      "answer": "The Fahrenheit interval is\n\\[\n\\Delta T_F=59-41=18\\,\\mathrm{F^\\circ}\n\\]\nso\n\\[\n\\Delta T_C=\\frac{5}{9}(18)=10\\,\\mathrm{C^\\circ}\n\\]\nThe final actual temperature is\n\\[\nT_C=\\frac{5}{9}(59-32)=15\\,{}^\\circ\\mathrm{C}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "temperature-scales-10",
+      "prompt": "A proposed scale \\(Y\\) has equal degree size to the Celsius scale but reads \\(125\\,{}^\\circ\\mathrm{Y}\\) at \\(100\\,{}^\\circ\\mathrm{C}\\). Derive the conversion between \\(Y\\) and Celsius, then find the \\(Y\\) reading at \\(-40\\,{}^\\circ\\mathrm{C}\\).",
+      "answer": "Equal degree size means the conversion has slope \\(1\\):\n\\[\nT_Y=T_C+b\n\\]\nAt \\(100\\,{}^\\circ\\mathrm{C}\\), the reading is \\(125\\,{}^\\circ\\mathrm{Y}\\), so\n\\[\n125=100+b\\Rightarrow b=25\n\\]\nThus\n\\[\nT_Y=T_C+25\n\\]\nAt \\(-40\\,{}^\\circ\\mathrm{C}\\):\n\\[\nT_Y=-40+25=-15\\,{}^\\circ\\mathrm{Y}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-thermal-scale",
+  "topicId": "molecular-speeds",
+  "topicTitle": "Molecular Speeds",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "molecular-speeds-01",
+      "prompt": "Find \\(v_{\\mathrm{rms}}\\) for a gas with \\(M=2.0\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\) at \\(300\\,\\mathrm{K}\\).",
+      "answer": "\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}\n=\\sqrt{\\frac{3(8.31)(300)}{2.0\\times10^{-2}}}\n=6.12\\times10^2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-02",
+      "prompt": "For a Maxwell-Boltzmann speed distribution, order \\(v_{\\mathrm{mp}}\\), \\(\\bar v\\), and \\(v_{\\mathrm{rms}}\\) from smallest to largest.",
+      "answer": "For a Maxwell-Boltzmann distribution,\n\\[\nv_{\\mathrm{mp}}\u003c\\bar v\u003cv_{\\mathrm{rms}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-03",
+      "prompt": "If a gas temperature is increased from \\(300\\,\\mathrm{K}\\) to \\(1200\\,\\mathrm{K}\\), by what factor does \\(v_{\\mathrm{rms}}\\) change?",
+      "answer": "\\[\nv_{\\mathrm{rms}}\\propto\\sqrt{T}\n\\]\nThe temperature factor is\n\\[\n\\frac{1200}{300}=4\n\\]\nso the speed factor is\n\\[\n\\sqrt4=2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-04",
+      "prompt": "Find the most probable speed of nitrogen at \\(300\\,\\mathrm{K}\\), using \\(M=2.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\).",
+      "answer": "\\[\nv_{\\mathrm{mp}}=\\sqrt{\\frac{2RT}{M}}\n=\\sqrt{\\frac{2(8.31)(300)}{2.8\\times10^{-2}}}\n=4.22\\times10^2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-05",
+      "prompt": "Find the mean speed of helium at \\(300\\,\\mathrm{K}\\), using \\(M=4.0\\times10^{-3}\\,\\mathrm{kg\\,mol^{-1}}\\).",
+      "answer": "\\[\n\\bar v=\\sqrt{\\frac{8RT}{\\pi M}}\n=\\sqrt{\\frac{8(8.31)(300)}{\\pi(4.0\\times10^{-3})}}\n=1.26\\times10^3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-06",
+      "prompt": "At the same temperature, gas A has molar mass \\(M\\) and gas B has molar mass \\(9M\\). Find \\(\\bar v_A/\\bar v_B\\).",
+      "answer": "Mean speed scales as\n\\[\n\\bar v\\propto\\frac{1}{\\sqrt{M}}\n\\]\nso\n\\[\n\\frac{\\bar v_A}{\\bar v_B}=\\sqrt{\\frac{9M}{M}}=3\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-07",
+      "prompt": "A gas has molecular radius \\(1.5\\times10^{-10}\\,\\mathrm{m}\\) and number density \\(2.5\\times10^{25}\\,\\mathrm{m^{-3}}\\). Estimate its mean free path using \\(\\lambda=1/[4\\sqrt2\\pi r^2(N/V)]\\).",
+      "answer": "\\[\n\\lambda=\\frac{1}{4\\sqrt2\\pi r^2(N/V)}\n\\]\n\\[\n\\lambda=\\frac{1}{4\\sqrt2\\pi(1.5\\times10^{-10})^2(2.5\\times10^{25})}\n\\]\n\\[\n\\lambda=1.0\\times10^{-7}\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-08",
+      "prompt": "A molecule has mean free path \\(8.0\\times10^{-8}\\,\\mathrm{m}\\) and speed \\(500\\,\\mathrm{m\\,s^{-1}}\\). Estimate its mean free time.",
+      "answer": "\\[\nt_{\\mathrm{mean}}=\\frac{\\lambda}{v}\n=\\frac{8.0\\times10^{-8}}{500}\n=1.6\\times10^{-10}\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-09",
+      "prompt": "Explain why \\(v_{\\mathrm{rms}}\\) is more directly connected to average kinetic energy than the mean speed \\(\\bar v\\).",
+      "answer": "Translational kinetic energy depends on \\(v^2\\):\n\\[\nK=\\frac12m_0v^2\n\\]\nTherefore the average kinetic energy depends on \\(\\langle v^2\\rangle\\), not on \\(\\langle v\\rangle\\). The RMS speed is defined by\n\\[\nv_{\\mathrm{rms}}=\\sqrt{\\langle v^2\\rangle}\n\\]\nso it connects directly to \\(\\langle K\\rangle=\\frac12m_0v_{\\mathrm{rms}}^2\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-10",
+      "prompt": "A gas is compressed isothermally so its number density doubles. In the hard-sphere model, derive how the mean free path and mean free time change, assuming the characteristic molecular speed is unchanged.",
+      "answer": "In the hard-sphere model,\n\\[\n\\lambda=\\frac{1}{4\\sqrt2\\pi r^2(N/V)}\n\\]\nso \\(\\lambda\\) is inversely proportional to number density. If \\(N/V\\) doubles,\n\\[\n\\lambda_2=\\frac{\\lambda_1}{2}\n\\]\nFor isothermal compression, the speed distribution is unchanged in the ideal-gas model, so a characteristic speed \\(v\\) is unchanged. Since\n\\[\nt_{\\mathrm{mean}}=\\frac{\\lambda}{v}\n\\]\nthe mean free time also halves:\n\\[\nt_{\\mathrm{mean},2}=\\frac{t_{\\mathrm{mean},1}}{2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-11",
+      "prompt": "At what temperature would helium \\((M=4.0\\times10^{-3}\\,\\mathrm{kg\\,mol^{-1}})\\) have the same \\(v_{\\mathrm{rms}}\\) as nitrogen \\((M=2.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}})\\) at \\(300\\,\\mathrm{K}\\)?",
+      "answer": "For equal RMS speeds,\n\\[\n\\sqrt{\\frac{3RT_{\\mathrm{He}}}{M_{\\mathrm{He}}}}\n=\\sqrt{\\frac{3RT_{\\mathrm{N_2}}}{M_{\\mathrm{N_2}}}}\n\\]\nSquare both sides and cancel \\(3R\\):\n\\[\n\\frac{T_{\\mathrm{He}}}{M_{\\mathrm{He}}}\n=\\frac{T_{\\mathrm{N_2}}}{M_{\\mathrm{N_2}}}\n\\]\nThus\n\\[\nT_{\\mathrm{He}}=T_{\\mathrm{N_2}}\\frac{M_{\\mathrm{He}}}{M_{\\mathrm{N_2}}}\n=(300)\\frac{4.0\\times10^{-3}}{2.8\\times10^{-2}}\n=43\\,\\mathrm{K}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-12",
+      "prompt": "For nitrogen at \\(300\\,\\mathrm K\\), compare \\(v_{\\mathrm{mp}}\\), \\(\\bar v\\), and \\(v_{\\mathrm{rms}}\\) using their formula factors.",
+      "answer": "For one gas at one temperature,\n\\[\nv_{\\mathrm{mp}}=\\sqrt{\\frac{2RT}{M}},\\quad \\bar v=\\sqrt{\\frac{8RT}{\\pi M}},\\quad v_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}\n\\]\nThe numerical factors are \\(2\\), \\(8/\\pi=2.55\\), and \\(3\\), so\n\\[\nv_{\\mathrm{mp}}<\\bar v<v_{\\mathrm{rms}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-13",
+      "prompt": "A gas has mean free path \\(1.2\\times10^{-7}\\,\\mathrm m\\) and mean speed \\(480\\,\\mathrm{m\\,s^{-1}}\\). Estimate the collision frequency.",
+      "answer": "Mean free time is\n\\[\nt=\\frac{\\lambda}{\\bar v}\n\\]\nso collision frequency is\n\\[\nf=\\frac{1}{t}=\\frac{\\bar v}{\\lambda}\n\\]\nThus\n\\[\nf=\\frac{480}{1.2\\times10^{-7}}=4.0\\times10^9\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-14",
+      "prompt": "A gas expands isothermally to four times its original volume with the same number of molecules. How do mean free path and mean free time change?",
+      "answer": "Number density \\(N/V\\) falls by a factor of \\(4\\). Since\n\\[\n\\lambda\\propto\\frac{1}{N/V}\n\\]\nthe mean free path increases by a factor of \\(4\\). At constant temperature, characteristic speed is unchanged, so\n\\[\nt_{\\mathrm{mean}}=\\frac{\\lambda}{v}\n\\]\nalso increases by a factor of \\(4\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-15",
+      "prompt": "A gas has molecular radius doubled while number density and temperature stay fixed. In the hard-sphere model, how does mean free path change?",
+      "answer": "The hard-sphere estimate is\n\\[\n\\lambda=\\frac{1}{4\\sqrt2\\pi r^2(N/V)}\n\\]\nso \\(\\lambda\\propto1/r^2\\). Doubling \\(r\\) increases \\(r^2\\) by \\(4\\), so the mean free path becomes one quarter as large.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-16",
+      "prompt": "Derive \\(v_{\\mathrm{rms}}=\\sqrt{3RT/M}\\) from \\(\\langle K_{\\mathrm{tr}}\\rangle=3k_BT/2\\).",
+      "answer": "For one molecule,\n\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac12m_0v_{\\mathrm{rms}}^2=\\frac32k_BT\n\\]\nThus\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3k_BT}{m_0}\n\\]\nUsing \\(m_0=M/N_A\\) and \\(R=N_Ak_B\\),\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3RT}{M}\n\\]\nso\n\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-17",
+      "prompt": "Explain why the Maxwell-Boltzmann distribution broadens and shifts right as temperature increases.",
+      "answer": "Increasing temperature raises average translational kinetic energy. Since kinetic energy depends on \\(v^2\\), more molecules occupy higher speeds. The distribution shifts to larger characteristic speeds and broadens because a wider range of speeds becomes thermally probable.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-18",
+      "prompt": "A gas mixture contains helium and argon at the same temperature. Explain why their speed distributions are different but their average translational kinetic energies are the same.",
+      "answer": "Thermal equilibrium gives each species the same average translational kinetic energy:\n\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\n\\]\nHelium has smaller molecular mass, so it must have larger typical speeds to have the same average kinetic energy. Argon is heavier and has a lower speed distribution.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-19",
+      "prompt": "Derive the dependence of mean free path on pressure for an ideal gas at fixed temperature and molecular radius.",
+      "answer": "For hard spheres,\n\\[\n\\lambda\\propto\\frac{1}{N/V}\n\\]\nThe molecular ideal-gas equation gives\n\\[\np=\\frac{N}{V}k_BT\n\\]\nAt fixed \\(T\\), \\(N/V\\propto p\\). Therefore\n\\[\n\\lambda\\propto\\frac{1}{p}\n\\]\nIncreasing pressure decreases mean free path.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-speeds-20",
+      "prompt": "Why is \\(v_{\\mathrm{rms}}\\) not the same as the speed of every molecule, and why is that distinction important?",
+      "answer": "\\(v_{\\mathrm{rms}}\\) is a statistical average based on \\(\\langle v^2\\rangle\\). Individual molecules constantly collide and have a distribution of speeds. The distinction matters because pressure, kinetic energy, collision rates, and escape fractions depend on different averages or on the distribution shape, not on one common speed.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

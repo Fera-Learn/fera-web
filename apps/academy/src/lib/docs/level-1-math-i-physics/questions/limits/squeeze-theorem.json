@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "squeeze-theorem",
+  "topicTitle": "Squeeze Theorem",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-squeeze-theorem-01",
+      "prompt": "Use the squeeze theorem to evaluate \\(\\lim_{x\\to0}x^2\\sin(1/x)\\).",
+      "answer": "For all allowed \\(x\\),\n\\[\n-1\\le \\sin(1/x)\\le1.\n\\]\nMultiplying by \\(x^2\\ge0\\) gives\n\\[\n-x^2\\le x^2\\sin(1/x)\\le x^2.\n\\]\nBoth bounds tend to \\(0\\), so the squeeze theorem gives\n\\[\n\\lim_{x\\to0}x^2\\sin(1/x)=0.\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-02",
+      "prompt": "Suppose \\(4-2x^2\\le f(x)\\le4+x^2\\) for \\(x\\) near \\(0\\). Find \\(\\lim_{x\\to0}f(x)\\).",
+      "answer": "The lower bound tends to\n\\[\n\\lim_{x\\to0}(4-2x^2)=4,\n\\]\nand the upper bound tends to\n\\[\n\\lim_{x\\to0}(4+x^2)=4.\n\\]\nSince both bounds tend to \\(4\\), the squeeze theorem gives\n\\[\n\\lim_{x\\to0}f(x)=4.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-03",
+      "prompt": "Show that \\(\\lim_{x\\to0}|x|\\cos(7/x)=0\\).",
+      "answer": "Since \\(|\\cos(7/x)|\\le1\\),\n\\[\n\\big||x|\\cos(7/x)\\big|\\le |x|.\n\\]\nAs \\(x\\to0\\), \\(|x|\\to0\\). Therefore the absolute-value squeeze gives\n\\[\n\\lim_{x\\to0}|x|\\cos(7/x)=0.\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "elastic-potential-energy",
+  "topicTitle": "Elastic Potential Energy",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "elastic-pe-01",
+      "prompt": "A spring with \\(k=200\\,\\mathrm{N\\,m^{-1}}\\) is compressed by \\(0.10\\,\\mathrm{m}\\). Find \\(U_s\\).",
+      "answer": "\\[\nU_s=\\frac{1}{2}kx^2=\\frac{1}{2}(200)(0.10)^2=1.0\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-02",
+      "prompt": "A spring has \\(k=50\\,\\mathrm{N\\,m^{-1}}\\) and extension \\(0.20\\,\\mathrm{m}\\). Find the spring force magnitude.",
+      "answer": "\\[\n|F_s|=kx=50(0.20)=10\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-03",
+      "prompt": "If a spring is compressed by \\(-x\\) instead of stretched by \\(+x\\), how does \\(U_s\\) compare?",
+      "answer": "It is the same because\n\\[\nU_s=\\frac{1}{2}kx^2\n\\]\ndepends on \\(x^2\\), not the sign of \\(x\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-04",
+      "prompt": "What are the SI units of the spring constant \\(k\\)?",
+      "answer": "From \\(F=kx\\),\n\\[\nk=\\frac{F}{x}\n\\]\nso the unit is \\(\\mathrm{N\\,m^{-1}}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-05",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) block is launched by a \\(100\\,\\mathrm{N\\,m^{-1}}\\) spring compressed \\(0.20\\,\\mathrm{m}\\). Find launch speed on a frictionless surface.",
+      "answer": "\\[\n\\frac{1}{2}kx^2=\\frac{1}{2}mv^2\n\\]\n\\[\nv=x\\sqrt{\\frac{k}{m}}=0.20\\sqrt{\\frac{100}{0.50}}=2.83\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-06",
+      "prompt": "A spring stores \\(8\\,\\mathrm{J}\\) when compressed by \\(0.20\\,\\mathrm{m}\\). Find \\(k\\).",
+      "answer": "\\[\nU_s=\\frac{1}{2}kx^2\\Rightarrow k=\\frac{2U_s}{x^2}\n\\]\n\\[\nk=\\frac{16}{0.20^2}=400\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-07",
+      "prompt": "A spring with \\(k=300\\,\\mathrm{N\\,m^{-1}}\\) is stretched from \\(0.10\\,\\mathrm{m}\\) to \\(0.30\\,\\mathrm{m}\\). Find \\(\\Delta U_s\\).",
+      "answer": "\\[\n\\Delta U_s=\\frac{1}{2}k(x_f^2-x_i^2)\n\\]\n\\[\n\\Delta U_s=150(0.30^2-0.10^2)=12\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-08",
+      "prompt": "A \\(2\\,\\mathrm{kg}\\) block moving at \\(3\\,\\mathrm{m\\,s^{-1}}\\) compresses a spring with \\(k=400\\,\\mathrm{N\\,m^{-1}}\\). Find maximum compression.",
+      "answer": "\\[\n\\frac{1}{2}mv^2=\\frac{1}{2}kx^2\n\\]\n\\[\nx=v\\sqrt{\\frac{m}{k}}=3\\sqrt{\\frac{2}{400}}=0.212\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-09",
+      "prompt": "A vertical spring with \\(k=500\\,\\mathrm{N\\,m^{-1}}\\) is compressed \\(0.12\\,\\mathrm{m}\\) and launches a \\(0.30\\,\\mathrm{kg}\\) mass upward. Find the height gained after the spring returns to natural length.",
+      "answer": "Stored spring energy becomes gravitational energy:\n\\[\n\\frac{1}{2}kx^2=mgh\n\\]\n\\[\nh=\\frac{kx^2}{2mg}=\\frac{500(0.12)^2}{2(0.30)(9.8)}=1.22\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-10",
+      "prompt": "A block starts at rest against a compressed spring on a rough horizontal surface. The spring has \\(k=250\\,\\mathrm{N\\,m^{-1}}\\), compression \\(0.30\\,\\mathrm{m}\\), and friction does \\(4\\,\\mathrm{J}\\) of negative work before the block leaves the spring. Find the exit speed for \\(m=1.0\\,\\mathrm{kg}\\).",
+      "answer": "\\[\nK_f=U_{s,i}+W_{\\mathrm{fric}}=\\frac{1}{2}(250)(0.30)^2-4\n\\]\n\\[\nK_f=11.25-4=7.25\\,\\mathrm{J}\n\\]\n\\[\nv=\\sqrt{\\frac{2K_f}{m}}=3.81\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-11",
+      "prompt": "A block of mass \\(m\\) starts from rest a vertical height \\(h\\) above the point where it first touches an uncompressed spring mounted along a frictionless incline of angle \\(\\theta\\). During compression it moves an additional distance \\(x\\) down the incline. Derive the maximum compression \\(x\\).",
+      "answer": "At maximum compression the block is momentarily at rest. The total vertical drop is\n\\[\nh+x\\sin\\theta\n\\]\nEnergy conservation gives\n\\[\nmg(h+x\\sin\\theta)=\\frac{1}{2}kx^2\n\\]\nRearrange:\n\\[\nkx^2-2mgx\\sin\\theta-2mgh=0\n\\]\nThe physical root is the positive one:\n\\[\nx=\\frac{mg\\sin\\theta+\\sqrt{m^2g^2\\sin^2\\theta+2kmgh}}{k}\n\\]\nThe extra \\(x\\sin\\theta\\) term is the hidden gravitational drop during spring compression.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-pe-12",
+      "prompt": "A mass \\(m\\) hangs from a vertical spring of constant \\(k\\) and is released from rest at the spring\u0027s natural length. Taking \\(y\\) downward from the natural length, find the equilibrium position, the maximum downward displacement, and the shifted-coordinate form that explains the motion.",
+      "answer": "With \\(y\\) downward from natural length,\n\\[\nU(y)=\\frac{1}{2}ky^2-mgy\n\\]\nEquilibrium occurs where\n\\[\n\\frac{dU}{dy}=ky-mg=0\n\\]\n\\[\ny_{\\mathrm{eq}}=\\frac{mg}{k}\n\\]\nThe mass is released from rest at \\(y=0\\), so its initial energy is \\(0\\). Turning points satisfy\n\\[\n\\frac{1}{2}ky^2-mgy=0\n\\]\n\\[\ny\\left(\\frac{1}{2}ky-mg\\right)=0\n\\]\nThe maximum downward displacement is\n\\[\ny_{\\max}=\\frac{2mg}{k}\n\\]\nCompleting the square gives\n\\[\nU(y)=\\frac{1}{2}k\\left(y-\\frac{mg}{k}\\right)^2-\\frac{m^2g^2}{2k}\n\\]\nSo the motion is spring-like about \\(y_{\\mathrm{eq}}\\), with amplitude \\(mg/k\\) for this release condition.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

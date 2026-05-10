@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "work-energy-power",
+  "topicId": "energy-transfer-with-variable-forces",
+  "topicTitle": "Energy Transfer with Variable Forces",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "variable-work-01",
+      "prompt": "A force varies as \\(F_x=5x\\). Find the work done from \\(x=0\\) to \\(x=2.0\\,\\mathrm{m}\\).",
+      "answer": "\\[\nW=\\int_0^2 5x\\,dx=\\left[\\frac{5}{2}x^2\\right]_0^2=10\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-02",
+      "prompt": "On a force-position graph, what does the signed area under the \\(F_x\\) curve represent?",
+      "answer": "The signed area represents the work done by the force:\n\\[\nW=\\int F_x\\,dx\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-03",
+      "prompt": "A force-position graph is a triangle with base \\(3.0\\,\\mathrm{m}\\) and height \\(12\\,\\mathrm{N}\\), entirely above the axis. Find the work.",
+      "answer": "\\[\nW=\\frac{1}{2}(3.0)(12)=18\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-04",
+      "prompt": "A spring has \\(k=100\\,\\mathrm{N\\,m^{-1}}\\). Find the work done by the spring as it moves from \\(x=0.20\\,\\mathrm{m}\\) to \\(x=0\\).",
+      "answer": "\\[\nW_s=\\frac{1}{2}k(x_i^2-x_f^2)=\\frac{1}{2}(100)(0.20^2-0^2)=2.0\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-05",
+      "prompt": "A force is \\(F_x=6-2x\\) in newtons. Find the work from \\(x=0\\) to \\(x=4.0\\,\\mathrm{m}\\).",
+      "answer": "\\[\nW=\\int_0^4(6-2x)\\,dx\n\\]\n\\[\nW=[6x-x^2]_0^4=24-16=8\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-06",
+      "prompt": "A force is \\(F_x=3x^2\\) in newtons. Find the work from \\(x=1.0\\,\\mathrm{m}\\) to \\(x=3.0\\,\\mathrm{m}\\).",
+      "answer": "\\[\nW=\\int_1^3 3x^2\\,dx=[x^3]_1^3=27-1=26\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-07",
+      "prompt": "A graph of \\(F_x\\) against \\(x\\) is a rectangle at \\(8\\,\\mathrm{N}\\) from \\(x=0\\) to \\(x=2\\,\\mathrm{m}\\), followed by a triangle from \\(8\\,\\mathrm{N}\\) down to \\(0\\) between \\(x=2\\) and \\(x=5\\,\\mathrm{m}\\). Find the work.",
+      "answer": "Add the rectangle and triangle areas:\n\\[\nW=8(2)+\\frac{1}{2}(3)(8)=28\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-08",
+      "prompt": "A force is \\(F_x=10-4x\\) in newtons. Find the work from \\(x=0\\) to \\(x=5.0\\,\\mathrm{m}\\), keeping the sign.",
+      "answer": "\\[\nW=\\int_0^5(10-4x)\\,dx\n\\]\n\\[\nW=[10x-2x^2]_0^5=50-50=0\\,\\mathrm{J}\n\\]\nPositive and negative areas cancel.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-09",
+      "prompt": "A spring has \\(k=250\\,\\mathrm{N\\,m^{-1}}\\). Find the work done by an external force that slowly stretches it from \\(x=0\\) to \\(x=0.12\\,\\mathrm{m}\\).",
+      "answer": "For a slow stretch, the external force matches \\(kx\\).\n\\[\nW_{\\text{ext}}=\\int_0^{0.12}kx\\,dx=\\frac{1}{2}(250)(0.12^2)=1.8\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-10",
+      "prompt": "A force is \\(F_x=ax\\). If it does \\(24\\,\\mathrm{J}\\) of work from \\(x=0\\) to \\(x=4.0\\,\\mathrm{m}\\), find \\(a\\).",
+      "answer": "\\[\n24=\\int_0^4 ax\\,dx=\\left[\\frac{a}{2}x^2\\right]_0^4=8a\n\\]\n\\[\na=3\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-11",
+      "prompt": "A force is \\(F_x=4x-12\\). Find the work from \\(x=0\\) to \\(x=5.0\\,\\mathrm{m}\\), state whether the force adds or removes kinetic energy overall, and find the location where the force changes from removing to adding energy.",
+      "answer": "\\[\nW=\\int_0^5(4x-12)\\,dx=[2x^2-12x]_0^5\n\\]\n\\[\nW=50-60=-10\\,\\mathrm{J}\n\\]\nThe force removes kinetic energy overall.\nThe force changes sign at\n\\[\n4x-12=0\\Rightarrow x=3\\,\\mathrm m\n\\]\nFor \\(x\u003c3\\), it removes kinetic energy; for \\(x\u003e3\\), it adds kinetic energy.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-12",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) object starts from rest at \\(x=0\\). A force \\(F_x=6x\\) acts from \\(x=0\\) to \\(x=3.0\\,\\mathrm{m}\\). Find the final speed.",
+      "answer": "\\[\nW=\\int_0^3 6x\\,dx=[3x^2]_0^3=27\\,\\mathrm{J}\n\\]\n\\[\n\\frac{1}{2}mv_f^2=27\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(27)}{2.0}}=5.20\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-13",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) object starts at \\(x=0\\) with speed \\(2.0\\,\\mathrm{m\\,s^{-1}}\\). A force \\(F_x=9-3x\\) acts until \\(x=4.0\\,\\mathrm{m}\\). Find the speed at \\(x=4.0\\,\\mathrm{m}\\), then find the maximum speed reached in \\(0\\le x\\le4\\).",
+      "answer": "\\[\nK_i=\\frac{1}{2}(1.0)(2.0^2)=2.0\\,\\mathrm{J}\n\\]\n\\[\nW=\\int_0^4(9-3x)\\,dx=[9x-\\frac{3}{2}x^2]_0^4=12\\,\\mathrm{J}\n\\]\n\\[\nK_f=14\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{2K_f}=5.29\\,\\mathrm{m\\,s^{-1}}\n\\]\nMaximum speed in \\(0\\le x\\le4\\) occurs where \\(F_x=0\\):\n\\[\n9-3x=0\\Rightarrow x=3\\,\\mathrm m\n\\]\nWork to \\(x=3\\):\n\\[\nW_{0\\to3}=\\int_0^3(9-3x)dx=13.5\\,\\mathrm J\n\\]\n\\[\nK_{\\max}=K_i+W_{0\\to3}=15.5\\,\\mathrm J\n\\]\n\\[\nv_{\\max}=\\sqrt{2K_{\\max}}=5.57\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-14",
+      "prompt": "A spring force is \\(F_x=-kx\\). Starting from the integral definition of work, derive the work done by the spring from \\(x_i\\) to \\(x_f\\), then state the sign of work for (i) stretching further and (ii) relaxing toward equilibrium.",
+      "answer": "\\[\nW_s=\\int_{x_i}^{x_f}(-kx)\\,dx\n\\]\n\\[\nW_s=\\left[-\\frac{1}{2}kx^2\\right]_{x_i}^{x_f}\n\\]\n\\[\nW_s=\\frac{1}{2}k(x_i^2-x_f^2)\n\\]\nIf \\(x_f^2\u003ex_i^2\\) (stretch/compress farther from equilibrium), then \\(W_s\u003c0\\): spring removes kinetic energy.\nIf \\(x_f^2\u003cx_i^2\\) (moving toward equilibrium), then \\(W_s\u003e0\\): spring adds kinetic energy.\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-15",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) particle starts at \\(x=0\\) with speed \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). A force \\(F_x=8-4x\\) acts. Find all turning positions and classify the first one reached for motion initially toward +x.",
+      "answer": "At turning points, \\(K_f=0\\).\n\\[\nK_i=\\frac{1}{2}(1.0)(3.0^2)=4.5\\,\\mathrm{J}\n\\]\n\\[\n0=4.5+\\int_0^x(8-4s)\\,ds\n\\]\n\\[\n0=4.5+8x-2x^2\n\\]\n\\[\n2x^2-8x-4.5=0\n\\]\n\\[\nx=-0.50\\,\\mathrm m\\quad\\text{or}\\quad x=4.5\\,\\mathrm m\n\\]\nStarting with motion toward +x, the first turning point reached is\n\\[\nx=4.5\\,\\mathrm m\n\\]\nThe \\(-0.50\\,\\mathrm m\\) root is the turning point for motion in the opposite side/branch.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "variable-work-16",
+      "prompt": "A force-position graph has \\(F_x=6\\,\\mathrm{N}\\) from \\(x=0\\) to \\(2\\,\\mathrm{m}\\), then decreases linearly to \\(-6\\,\\mathrm{N}\\) at \\(x=6\\,\\mathrm{m}\\). A \\(2.0\\,\\mathrm{kg}\\) object starts at \\(x=0\\) with speed \\(4.0\\,\\mathrm{m\\,s^{-1}}\\). Find its speed at \\(x=6\\,\\mathrm{m}\\), then determine whether it can continue past \\(x=6\\) if \\(F_x=-6\\,\\mathrm N\\) remains constant beyond that point.",
+      "answer": "The graph work is the area from \\(0\\) to \\(2\\) plus the signed area from \\(2\\) to \\(6\\). The latter has equal positive and negative triangular areas, so it is zero.\n\\[\nW=6(2)=12\\,\\mathrm{J}\n\\]\n\\[\nK_i=\\frac{1}{2}(2.0)(4.0^2)=16\\,\\mathrm{J}\n\\]\n\\[\nK_f=28\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(28)}{2.0}}=5.29\\,\\mathrm{m\\,s^{-1}}\n\\]\nBeyond \\(x=6\\), if \\(F_x=-6\\,\\mathrm N\\) stays constant, stopping distance from \\(x=6\\) is\n\\[\nd_{\\text{stop}}=\\frac{K_f}{6}=\\frac{28}{6}=4.67\\,\\mathrm m\n\\]\nSo it continues past \\(x=6\\) and would stop at\n\\[\nx\\approx10.67\\,\\mathrm m\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

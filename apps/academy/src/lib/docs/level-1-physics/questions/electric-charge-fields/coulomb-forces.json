@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "coulomb-forces",
+  "topicTitle": "Coulomb Forces",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "coulomb-forces-01",
+      "prompt": "Two like charges are near each other. Is the electric force attractive or repulsive?",
+      "answer": "Like charges repel.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-02",
+      "prompt": "If the distance between two point charges doubles, by what factor does the force magnitude change?",
+      "answer": "Coulomb force magnitude follows\n\\[\nF\\propto\\frac{1}{r^2}\n\\]\nDoubling the distance gives\n\\[\nF\u0027=\\frac{F}{2^2}=\\frac{F}{4}\n\\]\nso the force magnitude becomes one quarter as large.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-03",
+      "prompt": "Two charges are \\(-2q\\) and \\(+3q\\). Is \\(q_1q_2\\) positive or negative, and what does that imply about attraction or repulsion?",
+      "answer": "The product is\n\\[\n(-2q)(+3q)=-6q^2\n\\]\nso \\(q_1q_2\u003c0\\). Opposite signs attract.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-04",
+      "prompt": "Find the force magnitude between \\(+4.0\\,\\mathrm{nC}\\) and \\(+6.0\\,\\mathrm{nC}\\) separated by \\(0.30\\,\\mathrm{m}\\).",
+      "answer": "Use\n\\[\nF=k\\frac{|q_1q_2|}{r^2}\n\\]\n\\[\nF=\\frac{(8.99\\times10^9)(4.0\\times10^{-9})(6.0\\times10^{-9})}{0.30^2}\n\\]\n\\[\nF=2.4\\times10^{-6}\\,\\mathrm{N}\n\\]\nThe charges are both positive, so the force is repulsive.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-05",
+      "prompt": "Two charges exert a force of \\(2.0\\,\\mathrm{mN}\\) at separation \\(r\\). What is the force magnitude at separation \\(3r\\), with charges unchanged?",
+      "answer": "With charges unchanged,\n\\[\nF\\propto\\frac{1}{r^2}\n\\]\nAt separation \\(3r\\),\n\\[\nF\u0027=\\frac{F}{9}\n\\]\n\\[\nF\u0027=\\frac{2.0\\,\\mathrm{mN}}{9}=0.22\\,\\mathrm{mN}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-06",
+      "prompt": "Charge \\(q_1=+5.0\\,\\mathrm{nC}\\) is at \\(x=0\\), and \\(q_2=-2.0\\,\\mathrm{nC}\\) is at \\(x=0.40\\,\\mathrm{m}\\). Find the direction of the force on \\(q_2\\).",
+      "answer": "The charges have opposite signs, so they attract. Charge \\(q_2\\) is to the right of \\(q_1\\), so the force on \\(q_2\\) is toward \\(q_1\\): to the left, in the negative \\(x\\)-direction.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-07",
+      "prompt": "Charges \\(+3.0\\,\\mathrm{nC}\\), \\(-3.0\\,\\mathrm{nC}\\), and \\(+1.0\\,\\mathrm{nC}\\) lie on the \\(x\\)-axis at \\(x=-0.20\\,\\mathrm{m}\\), \\(x=+0.20\\,\\mathrm{m}\\), and \\(x=0\\). Find the net force on the middle charge.",
+      "answer": "The middle charge is \\(+1.0\\,\\mathrm{nC}\\).\n\nThe \\(+3.0\\,\\mathrm{nC}\\) charge at \\(x=-0.20\\,\\mathrm{m}\\) repels it to the right:\n\\[\nF_L=k\\frac{(3.0\\times10^{-9})(1.0\\times10^{-9})}{0.20^2}\n=6.7\\times10^{-7}\\,\\mathrm{N}\n\\]\nThe \\(-3.0\\,\\mathrm{nC}\\) charge at \\(x=+0.20\\,\\mathrm{m}\\) attracts it to the right with the same magnitude.\n\nThus\n\\[\nF_{\\mathrm{net}}=2(6.7\\times10^{-7})=1.35\\times10^{-6}\\,\\mathrm{N}\n\\]\nto the right.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-08",
+      "prompt": "Two equal positive charges are fixed at \\((\\pm a,0)\\). A positive test charge is at \\((0,b)\\). Derive the direction of the net force on the test charge by symmetry.",
+      "answer": "The two fixed charges are equal and symmetrically placed. The force from the left charge has a rightward component and an upward component. The force from the right charge has an equal leftward component and an equal upward component.\n\nThe horizontal components cancel, and the vertical components add. Therefore the net force on the positive test charge points along \\(+\\hat\\jmath\\), upward on the symmetry axis.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-09",
+      "prompt": "Three charges lie on a line: \\(+Q\\) at \\(x=-a\\), \\(+4Q\\) at \\(x=+a\\), and a charge \\(q\\) somewhere between them. Find the position where the net force on \\(q\\) is zero, and state why the answer is independent of \\(q\\).",
+      "answer": "Let the charge \\(q\\) be at position \\(x\\), where \\(-a\u003cx\u003ca\\). The distances to the charges are\n\\[\nr_L=x+a,\\qquad r_R=a-x\n\\]\nFor zero net force, the two force magnitudes must match:\n\\[\nk\\frac{|Qq|}{(x+a)^2}=k\\frac{|4Qq|}{(a-x)^2}\n\\]\nCancel common factors:\n\\[\n\\frac{1}{(x+a)^2}=\\frac{4}{(a-x)^2}\n\\]\nTaking positive distances,\n\\[\na-x=2(x+a)\n\\]\n\\[\nx=-\\frac{a}{3}\n\\]\nThe answer is independent of \\(q\\) because \\(q\\) multiplies both forces and cancels. The same position also works for negative \\(q\\); both force directions reverse together.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "coulomb-forces-10",
+      "prompt": "Two fixed charges \\(Q_1\\) at \\(x=0\\) and \\(Q_2\\) at \\(x=L\\) have the same sign but unequal magnitudes. Derive the condition for a zero-force point between them, and explain why no between-the-charges zero exists if their signs are opposite.",
+      "answer": "For same-sign charges, fields and forces between them point in opposite directions. Let the zero point be a distance \\(x\\) from \\(Q_1\\), so its distance from \\(Q_2\\) is \\(L-x\\). The magnitudes must match:\n\\[\nk\\frac{|Q_1q|}{x^2}=k\\frac{|Q_2q|}{(L-x)^2}\n\\]\nCancel \\(k\\) and \\(|q|\\):\n\\[\n\\frac{|Q_1|}{x^2}=\\frac{|Q_2|}{(L-x)^2}\n\\]\n\\[\n\\frac{x}{L-x}=\\sqrt{\\frac{|Q_1|}{|Q_2|}}\n\\]\nso\n\\[\nx=\\frac{L\\sqrt{|Q_1|}}{\\sqrt{|Q_1|}+\\sqrt{|Q_2|}}\n\\]\nIf \\(Q_1\\) and \\(Q_2\\) have opposite signs, the two forces on a test charge between them point in the same direction, so they cannot cancel there.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

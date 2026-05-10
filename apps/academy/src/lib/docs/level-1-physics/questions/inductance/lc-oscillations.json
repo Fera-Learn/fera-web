@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "lc-oscillations",
+  "topicTitle": "LC Oscillations",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "lc-oscillations-01",
+      "prompt": "What energy forms are exchanged in an ideal LC circuit?",
+      "answer": "An ideal LC circuit exchanges electric-field energy in the capacitor and magnetic-field energy in the inductor.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-02",
+      "prompt": "State the natural angular frequency of an ideal LC circuit.",
+      "answer": "The natural angular frequency is\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-03",
+      "prompt": "State the period of an ideal LC circuit.",
+      "answer": "The period is\n\\[\nT=2\\pi\\sqrt{LC}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-04",
+      "prompt": "An LC circuit has \\(L=0.20\\,\\mathrm{H}\\) and \\(C=50\\,\\mu\\mathrm{F}\\). Find \\(\\omega_0\\).",
+      "answer": "\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}=\\frac{1}{\\sqrt{(0.20)(50\\times10^{-6})}}=316\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-05",
+      "prompt": "For the LC circuit with \\(L=0.20\\,\\mathrm{H}\\) and \\(C=50\\,\\mu\\mathrm{F}\\), find the period.",
+      "answer": "Using \\(\\omega_0=316\\,\\mathrm{rad\\,s^{-1}}\\),\n\\[\nT=\\frac{2\\pi}{\\omega_0}=\\frac{2\\pi}{316}=1.99\\times10^{-2}\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-06",
+      "prompt": "State the total energy in an ideal LC circuit in terms of \\(q\\), \\(C\\), \\(L\\), and \\(I\\).",
+      "answer": "The total energy is\n\\[\nU=\\frac{q^2}{2C}+\\frac12LI^2\n\\]\nand is constant in an ideal LC circuit.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-07",
+      "prompt": "At the instant capacitor charge is maximum in an ideal LC circuit, what is the current?",
+      "answer": "The current is zero. At maximum charge, all energy is electric-field energy in the capacitor, and the charge is momentarily not changing.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-08",
+      "prompt": "At the instant capacitor charge is zero in an ideal LC circuit, what is true about the current?",
+      "answer": "The current magnitude is maximum. At \\(q=0\\), capacitor energy is zero, so all ideal circuit energy is magnetic energy in the inductor.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-09",
+      "prompt": "A capacitor with \\(C=10\\,\\mu\\mathrm{F}\\) is initially charged to \\(12\\,\\mathrm{V}\\) and connected to an ideal inductor. Find the initial energy.",
+      "answer": "Initial energy is capacitor energy:\n\\[\nU=\\frac12CV^2=\\frac12(10\\times10^{-6})(12)^2=7.2\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-10",
+      "prompt": "Using the energy from the previous question with \\(L=0.20\\,\\mathrm{H}\\), find the maximum current.",
+      "answer": "At maximum current, all energy is in the inductor:\n\\[\nU=\\frac12LI_{\\max}^2\n\\]\n\\[\nI_{\\max}=\\sqrt{\\frac{2U}{L}}=\\sqrt{\\frac{2(7.2\\times10^{-4})}{0.20}}=8.5\\times10^{-2}\\,\\mathrm{A}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-11",
+      "prompt": "Derive the LC oscillator equation for charge.",
+      "answer": "The loop equation is\n\\[\nL\\frac{dI}{dt}+\\frac{q}{C}=0\n\\]\nUsing \\(I=dq/dt\\),\n\\[\nL\\frac{d^2q}{dt^2}+\\frac{q}{C}=0\n\\]\nso\n\\[\n\\frac{d^2q}{dt^2}+\\frac{1}{LC}q=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-12",
+      "prompt": "Why does an ideal LC circuit oscillate rather than settle?",
+      "answer": "There is no resistance to dissipate energy. Energy repeatedly transfers between the capacitor's electric field and the inductor's magnetic field, so the circuit keeps oscillating.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-13",
+      "prompt": "How does \\(\\omega_0\\) change if the capacitance is quadrupled while \\(L\\) is fixed?",
+      "answer": "Since\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]\nquadrupling \\(C\\) doubles \\(\\sqrt{LC}\\), so \\(\\omega_0\\) is halved.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-14",
+      "prompt": "How does the period change if both \\(L\\) and \\(C\\) are doubled?",
+      "answer": "The period is\n\\[\nT=2\\pi\\sqrt{LC}\n\\]\nDoubling both makes \\(LC\\) four times larger, so \\(\\sqrt{LC}\\) doubles. The period doubles.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-15",
+      "prompt": "An LC circuit has maximum capacitor charge \\(Q=4.0\\,\\mu\\mathrm{C}\\), \\(L=0.50\\,\\mathrm{H}\\), and \\(C=20\\,\\mu\\mathrm{F}\\). Find \\(I_{\\max}\\).",
+      "answer": "For ideal energy exchange,\n\\[\n\\frac{Q^2}{2C}=\\frac12LI_{\\max}^2\n\\]\nso\n\\[\nI_{\\max}=\\frac{Q}{\\sqrt{LC}}=\\frac{4.0\\times10^{-6}}{\\sqrt{(0.50)(20\\times10^{-6})}}=1.26\\times10^{-3}\\,\\mathrm{A}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-16",
+      "prompt": "If \\(q(t)=Q\\cos\\omega_0t\\), write the current \\(I(t)\\).",
+      "answer": "Current is the charge rate:\n\\[\nI(t)=\\frac{dq}{dt}=-\\omega_0Q\\sin\\omega_0t\n\\]\nThe current is a quarter-cycle out of phase with charge.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-17",
+      "prompt": "Why are charge and current out of phase in an LC oscillator?",
+      "answer": "Current is the rate of change of charge. When charge is maximum, its slope is zero, so current is zero. When charge passes through zero, its slope is largest, so current magnitude is maximum.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-18",
+      "prompt": "An LC circuit has \\(L=0.10\\,\\mathrm{H}\\). What capacitance gives \\(f=1.0\\,\\mathrm{kHz}\\)?",
+      "answer": "Use \\(\\omega_0=2\\pi f\\) and \\(\\omega_0=1/\\sqrt{LC}\\):\n\\[\nC=\\frac{1}{L(2\\pi f)^2}\n\\]\n\\[\nC=\\frac{1}{(0.10)(2\\pi\\times1000)^2}=2.5\\times10^{-7}\\,\\mathrm{F}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-19",
+      "prompt": "At some instant in an ideal LC circuit, \\(q=Q/2\\). What fraction of the total energy is magnetic?",
+      "answer": "Electric energy fraction is\n\\[\n\\frac{U_E}{U}=\\frac{q^2/(2C)}{Q^2/(2C)}=\\left(\\frac{q}{Q}\\right)^2=\\frac14\n\\]\nSo the magnetic energy fraction is\n\\[\n1-\\frac14=\\frac34\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lc-oscillations-20",
+      "prompt": "Explain why the LC circuit is mathematically analogous to a mass-spring oscillator.",
+      "answer": "The LC charge equation is\n\\[\n\\frac{d^2q}{dt^2}+\\frac{1}{LC}q=0\n\\]\nA mass-spring oscillator obeys\n\\[\n\\frac{d^2x}{dt^2}+\\frac{k}{m}x=0\n\\]\nCharge \\(q\\) plays the role of displacement, inductance \\(L\\) plays the inertial role, and \\(1/C\\) plays the restoring role. Both systems exchange two forms of energy sinusoidally.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

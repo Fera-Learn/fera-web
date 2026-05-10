@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "hydrogen-atom",
+  "topicTitle": "Hydrogen Atom",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "hydrogen-atom-01",
+      "prompt": "State the hydrogen atom energy formula.",
+      "answer": "\\[\nE_n=-\\frac{13.6\\,\\mathrm{eV}}{n^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-02",
+      "prompt": "What does negative energy mean for a hydrogen electron?",
+      "answer": "Negative energy means the electron is bound to the proton. Zero energy corresponds to a free electron at infinite separation.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-03",
+      "prompt": "Find the energy of the \\(n=2\\) hydrogen level.",
+      "answer": "\\[\nE_2=-\\frac{13.6}{2^2}=-3.40\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-04",
+      "prompt": "Find the energy of the \\(n=4\\) hydrogen level.",
+      "answer": "\\[\nE_4=-\\frac{13.6}{4^2}=-0.850\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-05",
+      "prompt": "A hydrogen atom emits a photon in the transition \\(n=3\\to n=2\\). Find the photon energy.",
+      "answer": "\\[\nE_3=-1.51\\,\\mathrm{eV},\\quad E_2=-3.40\\,\\mathrm{eV}\n\\]\n\\[\nE_\\gamma=E_3-E_2=1.89\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-06",
+      "prompt": "Find the ionization energy of hydrogen from the ground state.",
+      "answer": "The ground state has \\(E_1=-13.6\\,\\mathrm{eV}\\). Ionization to \\(E=0\\) requires\n\\[\n13.6\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-07",
+      "prompt": "List the allowed \\(\\ell\\) values for \\(n=3\\).",
+      "answer": "For a given \\(n\\), \\(\\ell=0,1,\\ldots,n-1\\). For \\(n=3\\),\n\\[\n\\ell=0,1,2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-08",
+      "prompt": "List the allowed \\(m_\\ell\\) values for \\(\\ell=2\\).",
+      "answer": "\\[\nm_\\ell=-2,-1,0,1,2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-09",
+      "prompt": "How many \\(m_\\ell\\) values exist for a given \\(\\ell\\)?",
+      "answer": "There are\n\\[\n2\\ell+1\n\\]\nvalues of \\(m_\\ell\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-10",
+      "prompt": "State the orbital angular momentum magnitude for hydrogen.",
+      "answer": "\\[\nL=\\sqrt{\\ell(\\ell+1)}\\hbar\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-11",
+      "prompt": "Find \\(L\\) for \\(\\ell=1\\).",
+      "answer": "\\[\nL=\\sqrt{1(1+1)}\\hbar=\\sqrt2\\hbar\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-12",
+      "prompt": "State the \\(z\\)-component of orbital angular momentum.",
+      "answer": "\\[\nL_z=m_\\ell\\hbar\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-13",
+      "prompt": "Find \\(L_z\\) for \\(m_\\ell=-2\\).",
+      "answer": "\\[\nL_z=-2\\hbar\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-14",
+      "prompt": "How many orbital states exist in the \\(n=3\\) shell before including spin?",
+      "answer": "The number of spatial orbitals in shell \\(n\\) is \\(n^2\\). For \\(n=3\\),\n\\[\nN=9\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-15",
+      "prompt": "How many electron states exist in the \\(n=3\\) shell including spin?",
+      "answer": "Including spin, the capacity is\n\\[\n2n^2=2(3^2)=18\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-16",
+      "prompt": "Why does the simple hydrogen energy formula depend only on \\(n\\), not on \\(\\ell\\)?",
+      "answer": "For a pure Coulomb potential, the Schrodinger equation has extra symmetry that makes states with the same \\(n\\) degenerate in the basic model.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-17",
+      "prompt": "Find the photon wavelength for the \\(n=3\\to n=2\\) transition using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "From the transition energy \\(E_\\gamma=1.89\\,\\mathrm{eV}\\),\n\\[\n\\lambda=\\frac{1240}{1.89}=656\\,\\mathrm{nm}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-18",
+      "prompt": "What is the physical difference between \\(n\\), \\(\\ell\\), and \\(m_\\ell\\)?",
+      "answer": "\\(n\\) mainly sets energy and size, \\(\\ell\\) sets orbital angular momentum and orbital shape, and \\(m_\\ell\\) sets the angular momentum projection along a chosen axis.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-19",
+      "prompt": "Why is the Coulomb potential for hydrogen negative?",
+      "answer": "The electron and proton have opposite charges, so their electric potential energy is attractive and is written negative when zero is chosen at infinite separation.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hydrogen-atom-20",
+      "prompt": "Derive the allowed \\(m_\\ell\\) count for a given \\(\\ell\\).",
+      "answer": "The magnetic quantum number runs from \\(-\\ell\\) to \\(+\\ell\\) in integer steps:\n\\[\n-\\ell,-\\ell+1,\\ldots,\\ell-1,+\\ell\n\\]\nCounting these gives\n\\[\n2\\ell+1\n\\]\nallowed values.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "momentum-conservation",
+  "topicTitle": "Momentum Conservation",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "momentum-conservation-01",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) cart moving at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to a \\(1.0\\,\\mathrm{kg}\\) cart at rest. Find the common speed.",
+      "answer": "\\[\n2.0(3.0)+1.0(0)=(2.0+1.0)v_f\n\\]\n\\[\nv_f=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-02",
+      "prompt": "An isolated object initially at rest splits into two pieces. One piece has momentum \\(5\\hat{\\imath}\\,\\mathrm{kg\\,m\\,s^{-1}}\\). Find the other piece\u0027s momentum.",
+      "answer": "Initial total momentum is zero, so the other piece has\n\\[\n\\vec{p}_2=-5\\hat{\\imath}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-03",
+      "prompt": "A \\(0.010\\,\\mathrm{kg}\\) pellet leaves a \\(4.0\\,\\mathrm{kg}\\) launcher at \\(400\\,\\mathrm{m\\,s^{-1}}\\). Find the launcher\u0027s recoil speed, assuming the system starts at rest.",
+      "answer": "Initial momentum is zero:\n\\[\n0=0.010(400)+4.0v\n\\]\n\\[\nv=-1.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe launcher recoils opposite the pellet.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-04",
+      "prompt": "Two objects have momenta \\(3\\hat{\\imath}+4\\hat{\\jmath}\\) and \\(-\\hat{\\imath}+2\\hat{\\jmath}\\), in \\(\\mathrm{kg\\,m\\,s^{-1}}\\). Find total momentum and its magnitude.",
+      "answer": "\\[\n\\vec{P}=(3\\hat{\\imath}+4\\hat{\\jmath})+(-\\hat{\\imath}+2\\hat{\\jmath})\n\\]\n\\[\n\\vec{P}=2\\hat{\\imath}+6\\hat{\\jmath}\n\\]\n\\[\n|\\vec{P}|=\\sqrt{2^2+6^2}=\\sqrt{40}=6.32\n\\]\nin \\(\\mathrm{kg\\,m\\,s^{-1}}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-05",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) skater at rest throws a \\(5.0\\,\\mathrm{kg}\\) package forward at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\). Find the skater\u0027s recoil speed.",
+      "answer": "Forward package momentum is\n\\[\np=5.0(6.0)=30\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]\nThe skater has momentum \\(-30\\,\\mathrm{kg\\,m\\,s^{-1}}\\), so\n\\[\nv=\\frac{-30}{60}=-0.50\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-06",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) system initially has total momentum \\(10\\hat{\\imath}\\,\\mathrm{kg\\,m\\,s^{-1}}\\). An external impulse \\(-6\\hat{\\imath}\\,\\mathrm{N\\,s}\\) acts. Find the final center-of-mass velocity.",
+      "answer": "\\[\n\\vec{P}_f=\\vec{P}_i+\\vec{J}_{\\mathrm{ext}}=10\\hat{\\imath}-6\\hat{\\imath}=4\\hat{\\imath}\n\\]\n\\[\n\\vec{v}_{\\mathrm{cm}}=\\frac{\\vec{P}_f}{M}=\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-07",
+      "prompt": "Two carts at rest push apart on a frictionless track. Cart A has mass \\(2.0\\,\\mathrm{kg}\\), cart B has mass \\(5.0\\,\\mathrm{kg}\\), and cart A moves left at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\). Find cart B\u0027s velocity and explain why total momentum is conserved.",
+      "answer": "Take right as positive. Initial momentum is zero:\n\\[\n2.0(-4.0)+5.0v_B=0\n\\]\n\\[\nv_B=1.6\\,\\mathrm{m\\,s^{-1}}\n\\]\nTotal momentum is conserved because the push forces are internal to the two-cart system and horizontal external impulse is negligible.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-08",
+      "prompt": "A \\(1.5\\,\\mathrm{kg}\\) object moving east at \\(8.0\\,\\mathrm{m\\,s^{-1}}\\) explodes into two fragments. A \\(0.50\\,\\mathrm{kg}\\) fragment moves north at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\). Find the velocity vector of the other fragment.",
+      "answer": "Initial momentum is\n\\[\n\\vec{P}_i=1.5(8.0)\\hat{\\imath}=12\\hat{\\imath}\n\\]\nThe north-moving fragment has\n\\[\n\\vec{p}_1=0.50(6.0)\\hat{\\jmath}=3\\hat{\\jmath}\n\\]\nThe other fragment has mass \\(1.0\\,\\mathrm{kg}\\), so\n\\[\n\\vec{p}_2=12\\hat{\\imath}-3\\hat{\\jmath}\n\\]\n\\[\n\\vec{v}_2=12\\hat{\\imath}-3\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-09",
+      "prompt": "A moving shell of mass \\(6.0\\,\\mathrm{kg}\\) travels east at \\(12\\,\\mathrm{m\\,s^{-1}}\\) and explodes into three fragments. Two fragments have momenta \\(20\\hat{\\imath}+15\\hat{\\jmath}\\) and \\(18\\hat{\\imath}-9\\hat{\\jmath}\\), in \\(\\mathrm{kg\\,m\\,s^{-1}}\\). Find the third fragment\u0027s momentum. State the isolation assumption and interpret the transverse components.",
+      "answer": "Assume the explosion is short enough that external impulse is negligible. Initial momentum is\n\\[\n\\vec{P}_i=6.0(12)\\hat{\\imath}=72\\hat{\\imath}\n\\]\nThus\n\\[\n\\vec{p}_3=72\\hat{\\imath}-(20\\hat{\\imath}+15\\hat{\\jmath})-(18\\hat{\\imath}-9\\hat{\\jmath})\n\\]\n\\[\n\\vec{p}_3=34\\hat{\\imath}-6\\hat{\\jmath}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]\nThe transverse components must sum to zero because the shell initially had no transverse momentum.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-conservation-10",
+      "prompt": "An isolated object of mass \\(M\\) moves with speed \\(V\\) in the \\(x\\)-direction and breaks into masses \\(\\alpha M\\) and \\((1-\\alpha)M\\), where \\(0\u003c\\alpha\u003c1\\). The first fragment moves perpendicular to the original direction with speed \\(u\\). Derive the second fragment\u0027s velocity components and the extra kinetic energy created by the breakup. State assumptions.",
+      "answer": "Assume the breakup is isolated and nonrelativistic. Initial momentum is\n\\[\n\\vec{P}_i=MV\\hat{\\imath}\n\\]\nThe first fragment has momentum\n\\[\n\\vec{p}_1=\\alpha M u\\hat{\\jmath}\n\\]\nso the second fragment has\n\\[\n\\vec{p}_2=MV\\hat{\\imath}-\\alpha M u\\hat{\\jmath}\n\\]\nand\n\\[\n\\vec{v}_2=\\frac{V}{1-\\alpha}\\hat{\\imath}-\\frac{\\alpha u}{1-\\alpha}\\hat{\\jmath}\n\\]\nThe kinetic energy increase is\n\\[\n\\Delta K=\\frac{M\\alpha}{2(1-\\alpha)}(V^2+u^2)\n\\]\nInterpretation: the breakup mechanism must supply this extra kinetic energy while internal impulses keep total momentum fixed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

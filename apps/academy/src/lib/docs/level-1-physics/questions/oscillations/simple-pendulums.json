@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "simple-pendulums",
+  "topicTitle": "Simple Pendulums",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "simple-pendulums-01",
+      "prompt": "A small-angle pendulum has length \\(1.00\\,\\mathrm{m}\\). Find its period using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\n\\[\nT=2\\pi\\sqrt{\\frac{1.00}{9.8}}=2.01\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-02",
+      "prompt": "If a simple pendulum\u0027s mass is doubled, what happens to its small-angle period?",
+      "answer": "Nothing changes in the small-angle model. The period\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\ndoes not depend on the bob mass.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-11",
+      "prompt": "If a simple pendulum\u0027s length is increased, does its small-angle period increase or decrease?",
+      "answer": "The period is\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nso increasing \\(L\\) increases the period.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-03",
+      "prompt": "For a pendulum with \\(L=0.60\\,\\mathrm{m}\\), find its small-angle angular frequency.",
+      "answer": "\\[\n\\omega=\\sqrt{\\frac{g}{L}}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{9.8}{0.60}}=4.04\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-12",
+      "prompt": "Convert a pendulum amplitude of \\(6.0^\\circ\\) to radians for use in \\(s=L\\theta\\).",
+      "answer": "\\[\n6.0^\\circ=6.0\\frac{\\pi}{180}=0.105\\,\\mathrm{rad}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-04",
+      "prompt": "A pendulum has period \\(2.4\\,\\mathrm{s}\\). Find its length using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "Rearrange\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nto get\n\\[\nL=g\\left(\\frac{T}{2\\pi}\\right)^2\n\\]\n\\[\nL=9.8\\left(\\frac{2.4}{2\\pi}\\right)^2=1.43\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-05",
+      "prompt": "A pendulum length is quadrupled. By what factor does its small-angle period change?",
+      "answer": "The period scales as\n\\[\nT\\propto\\sqrt{L}\n\\]\nIf \\(L\\) is quadrupled,\n\\[\n\\frac{T\u0027}{T}=\\sqrt{4}=2\n\\]\nThe period doubles.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-13",
+      "prompt": "A pendulum has length \\(0.25\\,\\mathrm{m}\\). Find its small-angle frequency in hertz using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "First find the angular frequency:\n\\[\n\\omega=\\sqrt{\\frac{g}{L}}=\\sqrt{\\frac{9.8}{0.25}}=6.26\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThen\n\\[\nf=\\frac{\\omega}{2\\pi}=\\frac{6.26}{2\\pi}=0.997\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-14",
+      "prompt": "Find the length of a small-angle pendulum with period \\(1.00\\,\\mathrm{s}\\) near Earth.",
+      "answer": "Use\n\\[\nL=g\\left(\\frac{T}{2\\pi}\\right)^2\n\\]\nWith \\(T=1.00\\,\\mathrm{s}\\),\n\\[\nL=9.8\\left(\\frac{1.00}{2\\pi}\\right)^2=0.248\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-06",
+      "prompt": "A small-angle pendulum has length \\(0.90\\,\\mathrm{m}\\) and amplitude \\(5.0^\\circ\\). Estimate its maximum arc displacement.",
+      "answer": "Use arc displacement \\(s=L\\theta\\), with \\(\\theta\\) in radians:\n\\[\n5.0^\\circ=\\frac{5.0\\pi}{180}=0.0873\\,\\mathrm{rad}\n\\]\n\\[\ns_{\\max}=L\\theta_{\\max}=0.90(0.0873)=0.0785\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-15",
+      "prompt": "A pendulum is moved from a field \\(g\\) to a field \\(g/4\\), with the same length. By what factor does its small-angle period change?",
+      "answer": "For fixed length,\n\\[\nT\\propto\\frac{1}{\\sqrt{g}}\n\\]\nIf \\(g\\) becomes \\(g/4\\),\n\\[\n\\frac{T\u0027}{T}=\\sqrt{\\frac{g}{g/4}}=2\n\\]\nThe period doubles.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-07",
+      "prompt": "A pendulum completes \\(20\\) small oscillations in \\(36\\,\\mathrm{s}\\). Estimate the local gravitational field strength if \\(L=0.80\\,\\mathrm{m}\\).",
+      "answer": "The period is\n\\[\nT=\\frac{36}{20}=1.8\\,\\mathrm{s}\n\\]\nFrom\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nrearrange:\n\\[\ng=\\frac{4\\pi^2L}{T^2}\n\\]\n\\[\ng=\\frac{4\\pi^2(0.80)}{(1.8)^2}=9.75\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-08",
+      "prompt": "Starting from \\(mL\\ddot{\\theta}=-mg\\sin\\theta\\), show how the small-angle SHM equation is obtained and identify \\(\\omega\\).",
+      "answer": "Start from\n\\[\nmL\\ddot{\\theta}=-mg\\sin\\theta\n\\]\nCancel \\(m\\):\n\\[\nL\\ddot{\\theta}=-g\\sin\\theta\n\\]\nFor small angles in radians,\n\\[\n\\sin\\theta\\approx\\theta\n\\]\nso\n\\[\n\\ddot{\\theta}=-\\frac{g}{L}\\theta\n\\]\nThis matches SHM,\n\\[\n\\ddot{\\theta}=-\\omega^2\\theta\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{g}{L}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-16",
+      "prompt": "A small-angle pendulum has \\(L=1.5\\,\\mathrm{m}\\) and angular amplitude \\(0.080\\,\\mathrm{rad}\\). Estimate the bob\u0027s maximum speed.",
+      "answer": "For small-angle motion, maximum arc speed is\n\\[\nv_{\\max}=L\\omega\\theta_0\n\\]\nwith\n\\[\n\\omega=\\sqrt{\\frac{g}{L}}\n\\]\nSo\n\\[\nv_{\\max}=L\\theta_0\\sqrt{\\frac{g}{L}}=\\theta_0\\sqrt{gL}\n\\]\n\\[\nv_{\\max}=0.080\\sqrt{9.8(1.5)}=0.307\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-17",
+      "prompt": "A pendulum has period \\(1.7\\,\\mathrm{s}\\) when \\(L=0.72\\,\\mathrm{m}\\). Use the small-angle model to estimate \\(g\\).",
+      "answer": "From\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nrearrange:\n\\[\ng=\\frac{4\\pi^2L}{T^2}\n\\]\n\\[\ng=\\frac{4\\pi^2(0.72)}{1.7^2}=9.84\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-09",
+      "prompt": "A pendulum clock is moved to a location where \\(g\\) is smaller by \\(4.0\\%\\). By approximately what percentage does its period change?",
+      "answer": "The period scales as\n\\[\nT\\propto g^{-1/2}\n\\]\nFor a small fractional change,\n\\[\n\\frac{\\Delta T}{T}\\approx-\\frac{1}{2}\\frac{\\Delta g}{g}\n\\]\nHere \\(\\Delta g/g=-0.040\\), so\n\\[\n\\frac{\\Delta T}{T}\\approx-\\frac{1}{2}(-0.040)=0.020\n\\]\nThe period increases by about \\(2.0\\%\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-18",
+      "prompt": "Two small-angle pendulums have the same period. One has length \\(L_1\\) in field \\(g_1\\), and the other has length \\(L_2\\) in field \\(g_2\\). Derive the relation between \\(L_1,L_2,g_1,g_2\\).",
+      "answer": "Equal periods mean\n\\[\n2\\pi\\sqrt{\\frac{L_1}{g_1}}=2\\pi\\sqrt{\\frac{L_2}{g_2}}\n\\]\nCancel \\(2\\pi\\) and square:\n\\[\n\\frac{L_1}{g_1}=\\frac{L_2}{g_2}\n\\]\nEquivalently,\n\\[\n\\frac{L_2}{L_1}=\\frac{g_2}{g_1}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-10",
+      "prompt": "A pendulum is designed to have period \\(T_0\\) in field \\(g_0\\). Derive the length \\(L\\). Then derive the fractional period change for a small field change \\(g=g_0(1+\\epsilon)\\), keeping first-order terms in \\(\\epsilon\\).",
+      "answer": "Design length follows from\n\\[\nT_0=2\\pi\\sqrt{\\frac{L}{g_0}}\n\\]\nso\n\\[\nL=g_0\\left(\\frac{T_0}{2\\pi}\\right)^2\n\\]\nFor \\(g=g_0(1+\\epsilon)\\), the new period is\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g_0(1+\\epsilon)}}\n\\]\nUse the design relation \\(2\\pi\\sqrt{L/g_0}=T_0\\):\n\\[\nT=T_0(1+\\epsilon)^{-1/2}\n\\]\nFor small \\(\\epsilon\\),\n\\[\n(1+\\epsilon)^{-1/2}\\approx1-\\frac{\\epsilon}{2}\n\\]\nso\n\\[\n\\frac{\\Delta T}{T_0}\\approx-\\frac{\\epsilon}{2}\n\\]\nA stronger field shortens the period; a weaker field lengthens it.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-19",
+      "prompt": "A small-angle pendulum clock should keep the same period after moving from field \\(g_0\\) to field \\(g_1\\). Derive the new length in terms of the old length \\(L_0\\), \\(g_0\\), and \\(g_1\\), and interpret the direction of adjustment when \\(g_1\u003cg_0\\).",
+      "answer": "The original period is\n\\[\nT_0=2\\pi\\sqrt{\\frac{L_0}{g_0}}\n\\]\nFor the same period in field \\(g_1\\),\n\\[\n2\\pi\\sqrt{\\frac{L_1}{g_1}}=2\\pi\\sqrt{\\frac{L_0}{g_0}}\n\\]\nso\n\\[\n\\frac{L_1}{g_1}=\\frac{L_0}{g_0}\n\\]\nand\n\\[\nL_1=L_0\\frac{g_1}{g_0}\n\\]\nIf \\(g_1\u003cg_0\\), the pendulum must be shortened to keep the same period.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-pendulums-20",
+      "prompt": "A pendulum is mounted in an elevator accelerating upward with constant acceleration \\(a_e\\). Using an effective field argument, derive the small-angle period and state the model assumptions.",
+      "answer": "In an elevator accelerating upward, the bob behaves as if the effective downward field is\n\\[\ng_{\\mathrm{eff}}=g+a_e\n\\]\nThe small-angle pendulum equation becomes\n\\[\n\\ddot{\\theta}=-\\frac{g_{\\mathrm{eff}}}{L}\\theta\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{g+a_e}{L}}\n\\]\nand\n\\[\nT=2\\pi\\sqrt{\\frac{L}{g+a_e}}\n\\]\nThis assumes constant elevator acceleration, small angular displacement, a light rigid string, and no damping or large-amplitude correction.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

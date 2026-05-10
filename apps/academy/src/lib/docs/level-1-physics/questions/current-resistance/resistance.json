@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "resistance",
+  "topicTitle": "Resistance",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "resistance-01",
+      "prompt": "What is the SI unit of resistance?",
+      "answer": "The SI unit of resistance is the ohm:\n\\[\n1\\,\\Omega=1\\,\\mathrm{V\\,A^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-02",
+      "prompt": "State Ohm\u0027s law for an ohmic resistor.",
+      "answer": "For an ohmic resistor,\n\\[\nV=IR\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-03",
+      "prompt": "On a graph of \\(V\\) against \\(I\\), what does the slope represent for an ohmic resistor?",
+      "answer": "On a graph of \\(V\\) against \\(I\\), the slope is\n\\[\n\\frac{\\Delta V}{\\Delta I}=R\n\\]\nfor an ohmic resistor.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-04",
+      "prompt": "A resistor has \\(9.0\\,\\mathrm{V}\\) across it and current \\(0.30\\,\\mathrm{A}\\). Find \\(R\\).",
+      "answer": "\\[\nR=\\frac{V}{I}\n\\]\n\\[\nR=\\frac{9.0}{0.30}=30\\,\\Omega\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-05",
+      "prompt": "A \\(15\\,\\Omega\\) resistor carries \\(0.20\\,\\mathrm{A}\\). Find the voltage across it.",
+      "answer": "\\[\nV=IR\n\\]\n\\[\nV=(0.20)(15)=3.0\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-06",
+      "prompt": "A wire has resistivity \\(4.0\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\\), length \\(3.0\\,\\mathrm{m}\\), and area \\(2.0\\times10^{-6}\\,\\mathrm{m^2}\\). Find its resistance.",
+      "answer": "\\[\nR=\\rho\\frac{L}{A}\n\\]\n\\[\nR=(4.0\\times10^{-8})\\frac{3.0}{2.0\\times10^{-6}}\n\\]\n\\[\nR=6.0\\times10^{-2}\\,\\Omega\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-07",
+      "prompt": "A wire is replaced by another of the same material with three times the length and twice the radius. By what factor does the resistance change?",
+      "answer": "For the same material,\n\\[\nR\\propto\\frac{L}{A}\n\\]\nThe new length is \\(3L\\). Twice the radius gives four times the area:\n\\[\nA\u0027=4A\n\\]\nTherefore\n\\[\n\\frac{R\u0027}{R}=\\frac{3L/4A}{L/A}=\\frac34\n\\]\nThe resistance becomes \\(0.75\\) times the original value.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-08",
+      "prompt": "A device has \\(I=0.10\\,\\mathrm{A}\\) at \\(2.0\\,\\mathrm{V}\\) and \\(I=0.50\\,\\mathrm{A}\\) at \\(5.0\\,\\mathrm{V}\\). Explain whether it behaves as a constant-resistance ohmic device over this range.",
+      "answer": "Check the ratio \\(V/I\\) at each operating point.\n\nAt \\(2.0\\,\\mathrm{V}\\):\n\\[\nR=\\frac{2.0}{0.10}=20\\,\\Omega\n\\]\nAt \\(5.0\\,\\mathrm{V}\\):\n\\[\nR=\\frac{5.0}{0.50}=10\\,\\Omega\n\\]\nThe resistance is not constant, so the device is not behaving as an ohmic constant-resistance device over this range.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-09",
+      "prompt": "A cylindrical resistor has fixed volume and material. Derive how its resistance scales with length \\(L\\), then find the factor change if \\(L\\) is doubled.",
+      "answer": "For fixed volume,\n\\[\nAL=\\mathrm{constant}\n\\]\nso\n\\[\nA=\\frac{\\mathrm{constant}}{L}\n\\]\nUsing\n\\[\nR=\\rho\\frac{L}{A}\n\\]\ngives\n\\[\nR\\propto \\frac{L}{1/L}=L^2\n\\]\nIf \\(L\\) is doubled,\n\\[\nR\u0027=4R\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistance-10",
+      "prompt": "A wire of length \\(L\\) is made from two materials joined end to end, each occupying length \\(L/2\\), with resistivities \\(\\rho_1,\\rho_2\\) and the same cross-sectional area \\(A\\). Derive the effective resistance and the equivalent uniform resistivity.",
+      "answer": "The two material sections are in series along the current path, so their resistances add:\n\\[\nR_1=\\rho_1\\frac{L/2}{A},\\qquad R_2=\\rho_2\\frac{L/2}{A}\n\\]\n\\[\nR_{\\mathrm{eff}}=R_1+R_2=\\frac{L}{2A}(\\rho_1+\\rho_2)\n\\]\nDefine the equivalent uniform resistivity by\n\\[\nR_{\\mathrm{eff}}=\\rho_{\\mathrm{eq}}\\frac{L}{A}\n\\]\nThus\n\\[\n\\rho_{\\mathrm{eq}}=\\frac{\\rho_1+\\rho_2}{2}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

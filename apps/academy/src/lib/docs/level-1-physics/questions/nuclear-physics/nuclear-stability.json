@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "nuclear-stability",
+  "topicTitle": "Nuclear Stability",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "nuclear-stability-01",
+      "prompt": "What condition on \\(Q\\) is required for a decay to be energetically spontaneous?",
+      "answer": "A spontaneous decay requires\\n\\[\\nQ=(m_i-m_f)c^2>0\\n\\]\\nso the final rest mass is lower than the initial rest mass.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-02",
+      "prompt": "In \\(\\alpha\\) decay, how do \\(A\\) and \\(Z\\) change?",
+      "answer": "An alpha particle is \\(^{4}_{2}\\mathrm{He}\\), so\\n\\[\\nA\\to A-4,\\qquad Z\\to Z-2\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-03",
+      "prompt": "In \\(\\beta^-\\) decay, how do \\(A\\), \\(Z\\), and \\(N\\) change?",
+      "answer": "A neutron changes into a proton, so\\n\\[\\nA\\text{ unchanged},\\qquad Z\\to Z+1,\\qquad N\\to N-1\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-04",
+      "prompt": "In \\(\\beta^+\\) decay, how do \\(A\\), \\(Z\\), and \\(N\\) change?",
+      "answer": "A proton changes into a neutron, so\\n\\[\\nA\\text{ unchanged},\\qquad Z\\to Z-1,\\qquad N\\to N+1\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-05",
+      "prompt": "A nucleus is neutron-rich compared with stable nuclei of similar \\(A\\). Which beta decay mode tends to move it toward stability?",
+      "answer": "A neutron-rich nucleus tends to undergo \\(\\beta^-\\) decay because a neutron becomes a proton, reducing \\(N\\) and increasing \\(Z\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-06",
+      "prompt": "A proton-rich nucleus is unstable. Which process can move it toward a larger neutron fraction?",
+      "answer": "It can undergo \\(\\beta^+\\) decay or electron capture. In both processes a proton is converted into a neutron, lowering \\(Z\\) and increasing \\(N\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-07",
+      "prompt": "Balance the alpha decay \\(^{238}_{92}\\mathrm U\\to ?+\\alpha\\).",
+      "answer": "Alpha emission removes \\(A=4\\) and \\(Z=2\\):\\n\\[\\n^{238}_{92}\\mathrm U\\to ^{234}_{90}\\mathrm{Th}+^{4}_{2}\\mathrm{He}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-08",
+      "prompt": "Balance the beta-minus decay of \\(^{14}_{6}\\mathrm C\\).",
+      "answer": "In \\(\\beta^-\\) decay, \\(Z\\) increases by 1 and \\(A\\) is unchanged:\\n\\[\\n^{14}_{6}\\mathrm C\\to ^{14}_{7}\\mathrm N+e^-+\\bar\\nu_e\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-09",
+      "prompt": "Why does gamma emission usually not change \\(A\\) or \\(Z\\)?",
+      "answer": "Gamma emission releases energy from an excited nucleus as a photon. No nucleons are converted or emitted, so proton number and nucleon number remain unchanged.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-10",
+      "prompt": "A proposed decay has \\(m_i=10.0000\\,\\mathrm u\\) and \\(m_f=10.0020\\,\\mathrm u\\). Find \\(Q\\) and decide if it is spontaneous.",
+      "answer": "\\[\\nQ=(10.0000-10.0020)(931.5)=-1.86\\,\\mathrm{MeV}\\n\\]\\nSince \\(Q<0\\), the decay is not energetically spontaneous.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-11",
+      "prompt": "Why are very heavy nuclei often alpha emitters?",
+      "answer": "Alpha emission lowers both \\(A\\) and \\(Z\\), reducing Coulomb repulsion in a heavy nucleus. The alpha particle is also tightly bound, which can make the final rest mass lower and produce \\(Q>0\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-12",
+      "prompt": "Explain why beta decay can occur even though the mass number \\(A\\) does not change.",
+      "answer": "Beta decay changes a neutron into a proton or a proton into a neutron. The total nucleon number stays the same, but the nuclear rest energy changes because proton-neutron balance, Coulomb energy, and binding energy change.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-13",
+      "prompt": "Why is high binding energy per nucleon related to stability but not a complete stability criterion?",
+      "answer": "Large \\(B/A\\) means nucleons are tightly bound on average, but a nucleus is unstable if a specific allowed decay leads to a lower total rest energy. Stability depends on available final states and conservation laws, not only the value of \\(B/A\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-14",
+      "prompt": "A nucleus has too many neutrons. Explain how \\(\\beta^-\\) decay changes \\(N/Z\\).",
+      "answer": "In \\(\\beta^-\\) decay, \\(N\\to N-1\\) and \\(Z\\to Z+1\\). The ratio changes from \\(N/Z\\) to\\n\\[\\n\\frac{N-1}{Z+1}\\n\\]\\nwhich is smaller for positive \\(N\\) and \\(Z\\). It moves a neutron-rich nucleus toward stability.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-15",
+      "prompt": "A nucleus has too many protons. Explain why electron capture can compete with \\(\\beta^+\\) decay.",
+      "answer": "Both processes convert a proton into a neutron. In electron capture, the nucleus absorbs an inner electron:\\n\\[\\np+e^-\to n+\nu_e\\n\\]\\nIt can occur when positron emission is energetically unavailable or less favorable.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-16",
+      "prompt": "Why must a neutrino or antineutrino be included in beta decay?",
+      "answer": "The neutrino carries away energy, momentum, and lepton number. It also explains the continuous beta-particle energy spectrum while preserving conservation laws event by event.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-17",
+      "prompt": "A decay chain has two alpha decays followed by one beta-minus decay. Find the net changes in \\(A\\) and \\(Z\\).",
+      "answer": "Two alpha decays give\\n\\[\\n\\Delta A=-8,\\qquad \\Delta Z=-4\\n\\]\\nOne \\(\\beta^-\\) decay gives \\(\\Delta A=0\\), \\(\\Delta Z=+1\\). Net change:\\n\\[\\n\\Delta A=-8,\\qquad \\Delta Z=-3\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-18",
+      "prompt": "Using atomic masses, why does \\(\\beta^+\\) decay require more mass excess than electron capture?",
+      "answer": "In atomic-mass bookkeeping, \\(\\beta^+\\) decay produces a positron and leaves the daughter atom with one fewer electron, requiring at least \\(2m_ec^2\\) of mass energy. Electron capture uses an existing atomic electron, so its threshold condition is less demanding.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-19",
+      "prompt": "Explain why a decay with \\(Q>0\\) may still have a very long half-life.",
+      "answer": "Positive \\(Q\\) only makes the decay energetically allowed. The decay rate also depends on barrier penetration, interaction strength, angular momentum changes, and matrix elements. Alpha decay, for example, can be slow because the alpha particle must tunnel through a Coulomb barrier.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-stability-20",
+      "prompt": "Prove that \\(\\beta^-\\) decay conserves charge and nucleon number at the nuclear level.",
+      "answer": "At the nucleon level,\\n\\[\\nn\\to p+e^-+\\bar\\nu_e\\n\\]\\nInitial charge is \\(0\\). Final charge is \\(+e-e+0=0\\). Baryon number is \\(1\\) initially and \\(1\\) finally because the proton is a baryon while the electron and antineutrino are leptons. In a nucleus, one neutron becomes one proton, so \\(A=N+Z\\) remains unchanged while \\(Z\\) increases by 1.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

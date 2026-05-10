@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "conserving-angular-momentum",
+  "topicTitle": "Conserving Angular Momentum",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "angular-momentum-conservation-01",
+      "prompt": "A skater changes from \\(I_i=3.0\\,\\mathrm{kg\\,m^2}\\) to \\(I_f=1.5\\,\\mathrm{kg\\,m^2}\\) while initially spinning at \\(4.0\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(\\omega_f\\).",
+      "answer": "\\[\nI_i\\omega_i=I_f\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{I_i}{I_f}\\omega_i=\\frac{3.0}{1.5}(4.0)=8.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-02",
+      "prompt": "State the condition required for angular momentum conservation about a chosen axis.",
+      "answer": "Angular momentum is conserved about a chosen axis when the net external torque about that axis is zero:\n\\[\n\\tau_{\\mathrm{ext}}=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-03",
+      "prompt": "If a spinning system\u0027s moment of inertia decreases and angular momentum is conserved, what happens to angular speed?",
+      "answer": "Angular speed increases because\n\\[\nI\\omega=\\text{constant}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-04",
+      "prompt": "If angular momentum is conserved during an inelastic rotational collision, must kinetic energy also be conserved?",
+      "answer": "No. Angular momentum can be conserved while kinetic energy changes, especially in inelastic rotational collisions.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-05",
+      "prompt": "A turntable has \\(I=0.80\\,\\mathrm{kg\\,m^2}\\) and spins at \\(5.0\\,\\mathrm{rad\\,s^{-1}}\\). A ring is dropped onto it, increasing the total inertia to \\(1.2\\,\\mathrm{kg\\,m^2}\\). Find the final angular speed.",
+      "answer": "\\[\nI_i\\omega_i=I_f\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{0.80(5.0)}{1.2}=3.33\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-06",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) clay ball moving at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) sticks to the rim of a stationary disk at radius \\(0.40\\,\\mathrm{m}\\). If the final moment of inertia is \\(0.18\\,\\mathrm{kg\\,m^2}\\), find \\(\\omega_f\\).",
+      "answer": "Initial angular momentum of the clay is\n\\[\nL_i=mvr=0.20(6.0)(0.40)=0.48\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\nThen\n\\[\nL_i=I_f\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{0.48}{0.18}=2.67\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-07",
+      "prompt": "A skater doubles their moment of inertia while spinning freely. Find the ratio \\(K_f/K_i\\).",
+      "answer": "With angular momentum fixed,\n\\[\nK=\\frac{L^2}{2I}\n\\]\nIf \\(I_f=2I_i\\), then\n\\[\n\\frac{K_f}{K_i}=\\frac{I_i}{I_f}=\\frac12\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-08",
+      "prompt": "A disk with \\(I_1=0.30\\,\\mathrm{kg\\,m^2}\\) spins at \\(12\\,\\mathrm{rad\\,s^{-1}}\\). A second nonspinning disk with \\(I_2=0.20\\,\\mathrm{kg\\,m^2}\\) lands on it and sticks. Find the final angular speed.",
+      "answer": "\\[\nI_1\\omega_i=(I_1+I_2)\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{0.30(12)}{0.30+0.20}=7.2\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-09",
+      "prompt": "A particle of mass \\(m\\) moves past an origin with speed \\(v\\) and impact parameter \\(b\\). It is captured by a rotating assembly whose final total moment of inertia about the origin is \\(I_f\\). Derive the final angular speed.",
+      "answer": "The particle\u0027s angular momentum about the origin is\n\\[\nL_i=mvb\n\\]\nIf the final total moment of inertia about the origin is \\(I_f\\), then\n\\[\nmvb=I_f\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{mvb}{I_f}\n\\]\nThe impact parameter matters because it is the perpendicular lever arm of the incoming momentum.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-10",
+      "prompt": "A person of mass \\(m\\) stands at radius \\(r\\) on a frictionless turntable of inertia \\(I\\) spinning at \\(\\omega_i\\). The person walks to the centre. Derive \\(\\omega_f\\) and explain why the person\u0027s walking changes kinetic energy.",
+      "answer": "Initially,\n\\[\nI_i=I+mr^2\n\\]\nFinally, if the person is at the centre,\n\\[\nI_f=I\n\\]\nConservation of angular momentum gives\n\\[\n(I+mr^2)\\omega_i=I\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{I+mr^2}{I}\\omega_i\n\\]\nThe kinetic energy changes because the person does internal work while walking radially; angular momentum conservation does not require kinetic energy conservation.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-11",
+      "prompt": "A uniform rod of length \\(L\\) and mass \\(M\\) is pivoted at its centre and initially at rest. A clay particle of mass \\(m\\) moving perpendicular to the rod with speed \\(v\\) sticks to the rod at distance \\(a\\) from the pivot. Derive the final angular speed and the kinetic energy lost.",
+      "answer": "Angular momentum about the pivot before impact is\n\\[\nL_i=mva\n\\]\nThe final moment of inertia is\n\\[\nI_f=\\frac{1}{12}ML^2+ma^2\n\\]\nAngular momentum is conserved during the brief impact:\n\\[\nmva=I_f\\omega_f\n\\]\n\\[\n\\omega_f=\\frac{mva}{\\frac{1}{12}ML^2+ma^2}\n\\]\nInitial kinetic energy is\n\\[\nK_i=\\frac12mv^2\n\\]\nFinal kinetic energy is\n\\[\nK_f=\\frac12I_f\\omega_f^2=\\frac{m^2v^2a^2}{2I_f}\n\\]\nSo the kinetic energy lost is\n\\[\n\\Delta K_{\\mathrm{lost}}=\\frac12mv^2-\\frac{m^2v^2a^2}{2\\left(\\frac{1}{12}ML^2+ma^2\\right)}\n\\]\nThe lost kinetic energy becomes internal energy during sticking.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-conservation-12",
+      "prompt": "Two identical masses \\(m\\) slide without friction on radial guides and rotate about the centre. Initially each mass is at radius \\(r_i\\) and the angular speed is \\(\\omega_i\\). An internal string pulls both masses to radius \\(r_f\\). Derive \\(\\omega_f\\), the change in kinetic energy, and the work that the internal pull must do.",
+      "answer": "The external torque about the centre is zero, so angular momentum is conserved. Initially,\n\\[\nI_i=2mr_i^2\n\\]\nFinally,\n\\[\nI_f=2mr_f^2\n\\]\nThus\n\\[\n2mr_i^2\\omega_i=2mr_f^2\\omega_f\n\\]\n\\[\n\\omega_f=\\omega_i\\left(\\frac{r_i}{r_f}\\right)^2\n\\]\nThe initial kinetic energy is\n\\[\nK_i=\\frac12I_i\\omega_i^2=mr_i^2\\omega_i^2\n\\]\nThe final kinetic energy is\n\\[\nK_f=\\frac12I_f\\omega_f^2=m\\frac{r_i^4}{r_f^2}\\omega_i^2\n\\]\nSo\n\\[\n\\Delta K=m r_i^2\\omega_i^2\\left(\\frac{r_i^2}{r_f^2}-1\\right)\n\\]\nFor \\(r_f\u003cr_i\\), \\(\\Delta K\u003e0\\). The internal pull must do positive work equal to this increase in kinetic energy.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

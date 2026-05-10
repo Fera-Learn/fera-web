@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gausss-law",
+  "topicId": "charge-on-conductors",
+  "topicTitle": "Charge on Conductors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "conductors-gauss-01",
+      "prompt": "What is the electric field inside conducting material in electrostatic equilibrium?",
+      "answer": "Inside conducting material in electrostatic equilibrium,\n\\[\n\\vec E=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-02",
+      "prompt": "Where does excess charge reside on an isolated conductor in electrostatic equilibrium?",
+      "answer": "Excess charge resides on the conductor\u0027s surfaces.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-03",
+      "prompt": "What is the electric field direction just outside a conductor\u0027s surface in electrostatic equilibrium?",
+      "answer": "The electric field just outside a conductor is perpendicular to the surface. It points outward for positive local surface charge and inward for negative local surface charge.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-04",
+      "prompt": "State the relation between the field just outside a conductor and the local surface charge density \\(\\sigma\\).",
+      "answer": "Just outside a conductor,\n\\[\nE_\\perp=\\frac{\\sigma}{\\epsilon_0}\n\\]\nor, with outward normal \\(\\hat n\\),\n\\[\n\\vec E_{\\mathrm{outside}}=\\frac{\\sigma}{\\epsilon_0}\\hat n\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-05",
+      "prompt": "A conductor has local surface charge density \\(3.0\\,\\mathrm{nC\\,m^{-2}}\\). Find the electric field magnitude just outside the surface.",
+      "answer": "\\[\nE=\\frac{\\sigma}{\\epsilon_0}\n\\]\n\\[\nE=\\frac{3.0\\times10^{-9}}{8.85\\times10^{-12}}\n\\]\n\\[\nE=3.39\\times10^2\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-06",
+      "prompt": "A Gaussian surface lies entirely inside the conducting material of a charged conductor. What net charge does it enclose?",
+      "answer": "It encloses zero net charge. Since \\(\\vec E=0\\) on a Gaussian surface entirely inside conducting material,\n\\[\n\\oint\\vec E\\cdot d\\vec A=0\n\\]\nso\n\\[\nq_{\\mathrm{enc}}=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-07",
+      "prompt": "An isolated conducting sphere has radius \\(0.12\\,\\mathrm{m}\\) and charge \\(+6.0\\,\\mathrm{nC}\\). Find the average surface charge density.",
+      "answer": "For a sphere,\n\\[\nA=4\\pi R^2\n\\]\nso\n\\[\n\\sigma_{\\mathrm{avg}}=\\frac{Q}{4\\pi R^2}\n\\]\n\\[\n\\sigma_{\\mathrm{avg}}=\\frac{6.0\\times10^{-9}}{4\\pi(0.12)^2}\n\\]\n\\[\n\\sigma_{\\mathrm{avg}}=3.32\\times10^{-8}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-08",
+      "prompt": "For the charged conducting sphere in question 7, find the electric field just outside the surface using \\(\\sigma/\\epsilon_0\\).",
+      "answer": "Use\n\\[\nE=\\frac{\\sigma}{\\epsilon_0}\n\\]\nWith \\(\\sigma=3.32\\times10^{-8}\\,\\mathrm{C\\,m^{-2}}\\),\n\\[\nE=\\frac{3.32\\times10^{-8}}{8.85\\times10^{-12}}\n\\]\n\\[\nE=3.75\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-09",
+      "prompt": "A charge \\(+q\\) is placed in a cavity inside a neutral conductor. What total charge appears on the inner cavity surface?",
+      "answer": "The inner cavity surface has total charge\n\\[\n-q\n\\]\nso that a Gaussian surface in the conductor enclosing the cavity has zero net enclosed charge.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-10",
+      "prompt": "A charge \\(+q\\) is placed in a cavity inside a neutral conductor. What total charge appears on the outer surface?",
+      "answer": "The conductor is neutral overall. If the inner surface has charge \\(-q\\), the outer surface must have\n\\[\n+q\n\\]\nso the conductor\u0027s total charge remains zero.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-11",
+      "prompt": "A charge \\(-3.0\\,\\mathrm{nC}\\) is placed in a cavity inside a neutral conductor. Find the total charge on the inner and outer conductor surfaces.",
+      "answer": "The cavity charge is \\(-3.0\\,\\mathrm{nC}\\). The inner surface must have the opposite charge:\n\\[\nq_{\\mathrm{inner}}=+3.0\\,\\mathrm{nC}\n\\]\nThe conductor is neutral, so the outer surface must carry\n\\[\nq_{\\mathrm{outer}}=-3.0\\,\\mathrm{nC}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-12",
+      "prompt": "A charge \\(+2.0\\,\\mathrm{nC}\\) is placed in a cavity inside a conductor whose net charge is \\(+5.0\\,\\mathrm{nC}\\). Find the total charge on the inner and outer surfaces.",
+      "answer": "The inner surface must cancel the cavity charge:\n\\[\nq_{\\mathrm{inner}}=-2.0\\,\\mathrm{nC}\n\\]\nThe conductor\u0027s net charge is the sum of charges on its surfaces:\n\\[\nq_{\\mathrm{inner}}+q_{\\mathrm{outer}}=+5.0\\,\\mathrm{nC}\n\\]\nThus\n\\[\nq_{\\mathrm{outer}}=+7.0\\,\\mathrm{nC}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-13",
+      "prompt": "Explain why the electric field at the surface of a conductor cannot have a tangential component in electrostatic equilibrium.",
+      "answer": "A tangential electric field would exert a tangential force on free charges at the surface:\n\\[\n\\vec F=q\\vec E\n\\]\nThose charges would move along the surface, so the conductor would not be in electrostatic equilibrium. Therefore the tangential component must vanish, and the field just outside is normal to the surface.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-14",
+      "prompt": "Use a pillbox Gaussian surface to derive \\(E_\\perp=\\sigma/\\epsilon_0\\) just outside a conductor.",
+      "answer": "Use a very thin pillbox crossing the conductor surface. The inner cap is inside the conducting material, where\n\\[\n\\vec E=0\n\\]\nThe side wall contributes negligible flux as the pillbox thickness shrinks. The outer cap contributes\n\\[\n\\Phi_E=E_\\perp A\n\\]\nThe enclosed charge is\n\\[\nq_{\\mathrm{enc}}=\\sigma A\n\\]\nGauss\u0027s law gives\n\\[\nE_\\perp A=\\frac{\\sigma A}{\\epsilon_0}\n\\]\nso\n\\[\nE_\\perp=\\frac{\\sigma}{\\epsilon_0}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-15",
+      "prompt": "A conducting spherical shell has inner radius \\(a\\), outer radius \\(b\\), and net charge \\(+Q\\). There is no charge in the cavity. Find \\(E\\) for \\(r\u003ca\\), \\(a\u003cr\u003cb\\), and \\(r\u003eb\\).",
+      "answer": "There is no charge in the cavity, so no charge is induced on the inner surface. All excess charge \\(+Q\\) lies on the outer surface.\n\nFor \\(r\u003ca\\), the cavity contains no charge and the shell is spherical, so\n\\[\nE=0\n\\]\nFor \\(a\u003cr\u003cb\\), the point is inside conducting material:\n\\[\nE=0\n\\]\nFor \\(r\u003eb\\), a Gaussian sphere encloses \\(+Q\\):\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{r^2}\n\\]\nradially outward.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-16",
+      "prompt": "A point charge \\(+q\\) is in the cavity of a conductor with net charge \\(Q\\). Derive the total charge on the inner and outer surfaces.",
+      "answer": "Draw a Gaussian surface inside the conducting material, surrounding the cavity. Since the surface lies in conductor material,\n\\[\n\\vec E=0\n\\]\nso\n\\[\nq_{\\mathrm{enc}}=0\n\\]\nThe enclosed charges are the cavity charge \\(+q\\) and the inner surface charge \\(q_{\\mathrm{inner}}\\):\n\\[\nq+q_{\\mathrm{inner}}=0\n\\]\nThus\n\\[\nq_{\\mathrm{inner}}=-q\n\\]\nThe conductor\u0027s net charge is\n\\[\nQ=q_{\\mathrm{inner}}+q_{\\mathrm{outer}}\n\\]\nso\n\\[\nq_{\\mathrm{outer}}=Q+q\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-17",
+      "prompt": "A neutral conducting shell contains a cavity with charge \\(+q\\). Explain why the field inside the conducting material is zero even though there is a charge in the cavity.",
+      "answer": "The charge in the cavity creates a field that drives free charges in the conductor to rearrange. They continue moving until the net field inside the conducting material is zero. At that point there is no electric force on free charges in the material.\n\nGauss\u0027s law then requires any Gaussian surface drawn within the conducting material around the cavity to enclose zero net charge, so the cavity wall carries induced charge opposite the charge inside the cavity.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-18",
+      "prompt": "A conductor has two separate cavities containing charges \\(q_1\\) and \\(q_2\\). If the conductor\u0027s net charge is \\(Q\\), derive the total charge on all inner cavity surfaces combined and on the outer surface.",
+      "answer": "For each cavity, a Gaussian surface in the conducting material around that cavity must enclose zero net charge. Therefore the total charge induced on the cavity surfaces is\n\\[\nq_{\\mathrm{inner,total}}=-(q_1+q_2)\n\\]\nThe conductor\u0027s net charge is\n\\[\nQ=q_{\\mathrm{inner,total}}+q_{\\mathrm{outer}}\n\\]\nso\n\\[\nq_{\\mathrm{outer}}=Q+q_1+q_2\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-19",
+      "prompt": "A charged conductor is not spherical. Explain which conductor results remain exact and which quantities can vary from point to point on the surface.",
+      "answer": "The exact equilibrium results are:\n\\[\n\\vec E=0\n\\]\ninside the conducting material, excess charge resides on surfaces, and the field just outside is normal to the surface with\n\\[\nE_\\perp=\\frac{\\sigma}{\\epsilon_0}\n\\]\nWhat can vary from point to point is \\(\\sigma\\), and therefore the outside field magnitude. Without spherical symmetry, the surface charge density is generally not uniform.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-gauss-20",
+      "prompt": "Use Gauss\u0027s law and electrostatic equilibrium to build a full argument for why excess charge in a solid conductor must reside on its surface.",
+      "answer": "In electrostatic equilibrium, free charges in the conductor are at rest. If the electric field inside the conducting material were nonzero, free charges would feel\n\\[\n\\vec F=q\\vec E\n\\]\nand move. Therefore\n\\[\n\\vec E=0\n\\]\ninside the conducting material.\n\nNow draw any closed Gaussian surface entirely within the conducting material. Since \\(\\vec E=0\\) everywhere on that surface,\n\\[\n\\oint\\vec E\\cdot d\\vec A=0\n\\]\nGauss\u0027s law gives\n\\[\nq_{\\mathrm{enc}}=0\n\\]\nSo there can be no net excess charge in the bulk of the conducting material. Any excess charge must lie on surfaces, where it is not enclosed by a Gaussian surface wholly inside the material.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

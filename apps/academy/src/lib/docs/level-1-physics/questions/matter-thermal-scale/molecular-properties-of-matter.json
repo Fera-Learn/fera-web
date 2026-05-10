@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-thermal-scale",
+  "topicId": "molecular-properties-of-matter",
+  "topicTitle": "Molecular Properties of Matter",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "molecular-matter-01",
+      "prompt": "How many molecules are in \\(0.400\\,\\mathrm{mol}\\) of a substance? Use \\(N_A=6.02\\times10^{23}\\,\\mathrm{mol^{-1}}\\).",
+      "answer": "\\[\nN=nN_A=(0.400)(6.02\\times10^{23})=2.41\\times10^{23}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-02",
+      "prompt": "A substance has molar mass \\(5.0\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\). Find the mass of one molecule.",
+      "answer": "\\[\nm_0=\\frac{M}{N_A}\n=\\frac{5.0\\times10^{-2}}{6.02\\times10^{23}}\n=8.3\\times10^{-26}\\,\\mathrm{kg}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-03",
+      "prompt": "A sample contains \\(3.01\\times10^{23}\\) molecules. Find the amount in moles.",
+      "answer": "\\[\nn=\\frac{N}{N_A}\n=\\frac{3.01\\times10^{23}}{6.02\\times10^{23}}\n=0.500\\,\\mathrm{mol}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-04",
+      "prompt": "Find the mass of \\(2.5\\,\\mathrm{mol}\\) of a substance with molar mass \\(1.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\).",
+      "answer": "\\[\nm=nM=(2.5)(1.8\\times10^{-2})=4.5\\times10^{-2}\\,\\mathrm{kg}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-05",
+      "prompt": "A gas sample has \\(n=0.80\\,\\mathrm{mol}\\), molar mass \\(2.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\), and volume \\(0.020\\,\\mathrm{m^3}\\). Find its density.",
+      "answer": "\\[\nm=nM=(0.80)(2.8\\times10^{-2})=2.24\\times10^{-2}\\,\\mathrm{kg}\n\\]\n\\[\n\\rho=\\frac{m}{V}=\\frac{2.24\\times10^{-2}}{0.020}\n=1.12\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-06",
+      "prompt": "A container of volume \\(1.0\\times10^{-3}\\,\\mathrm{m^3}\\) contains \\(2.0\\times10^{22}\\) molecules. Estimate the average molecular spacing using \\(r\\sim(V/N)^{1/3}\\).",
+      "answer": "\\[\nr\\sim\\left(\\frac{V}{N}\\right)^{1/3}\n=\\left(\\frac{1.0\\times10^{-3}}{2.0\\times10^{22}}\\right)^{1/3}\n\\]\n\\[\nr\\sim3.7\\times10^{-9}\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-07",
+      "prompt": "A material has density \\(900\\,\\mathrm{kg\\,m^{-3}}\\) and molar mass \\(0.060\\,\\mathrm{kg\\,mol^{-1}}\\). Estimate its molecular number density \\(N/V\\).",
+      "answer": "The amount per volume is\n\\[\n\\frac{n}{V}=\\frac{\\rho}{M}\n=\\frac{900}{0.060}=1.5\\times10^4\\,\\mathrm{mol\\,m^{-3}}\n\\]\nThus\n\\[\n\\frac{N}{V}=\\frac{n}{V}N_A\n=(1.5\\times10^4)(6.02\\times10^{23})\n=9.0\\times10^{27}\\,\\mathrm{m^{-3}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-08",
+      "prompt": "Explain, in molecular terms, why a gas is much more compressible than a liquid.",
+      "answer": "In a gas, molecules are separated by distances much larger than their molecular size, so reducing the volume mostly reduces empty space between molecules. In a liquid, molecules are already close together with little empty space, and intermolecular repulsion rises strongly if they are pushed much closer. That makes liquids far less compressible.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-09",
+      "prompt": "A substance has molecular mass \\(m_0\\) and number density \\(N/V\\). Derive its mass density \\(\\rho\\) in terms of these microscopic quantities, then rewrite it using molar mass \\(M\\) and moles per volume \\(n/V\\).",
+      "answer": "The total mass is the number of molecules times the mass per molecule:\n\\[\nm=Nm_0\n\\]\nDivide by volume:\n\\[\n\\rho=\\frac{m}{V}=m_0\\frac{N}{V}\n\\]\nUsing \\(m=nM\\),\n\\[\n\\rho=\\frac{nM}{V}=M\\frac{n}{V}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-10",
+      "prompt": "Two samples have the same mass density but molar masses \\(M_A\\) and \\(M_B=4M_A\\). Derive the ratio of their number densities and interpret what it implies about average molecular spacing.",
+      "answer": "For the same mass density,\n\\[\n\\rho=m_0\\frac{N}{V}\n\\]\nand \\(m_0=M/N_A\\), so number density is proportional to \\(1/M\\):\n\\[\n\\frac{(N/V)_B}{(N/V)_A}=\\frac{M_A}{M_B}=\\frac{1}{4}\n\\]\nSample B has one quarter the number density. Since spacing scales roughly as \\((V/N)^{1/3}\\), its average molecular spacing is larger by\n\\[\n4^{1/3}\\approx1.6\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-11",
+      "prompt": "Estimate the average molecular spacing in liquid water using \\(\\rho=1000\\,\\mathrm{kg\\,m^{-3}}\\), \\(M=1.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\), and \\(N_A=6.02\\times10^{23}\\,\\mathrm{mol^{-1}}\\).",
+      "answer": "The molecular number density is\n\\[\n\\frac{N}{V}=\\frac{\\rho N_A}{M}\n=\\frac{(1000)(6.02\\times10^{23})}{1.8\\times10^{-2}}\n=3.34\\times10^{28}\\,\\mathrm{m^{-3}}\n\\]\nThe spacing estimate is\n\\[\nr\\sim\\left(\\frac{V}{N}\\right)^{1/3}\n=\\left(\\frac{1}{3.34\\times10^{28}}\\right)^{1/3}\n=3.1\\times10^{-10}\\,\\mathrm{m}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-12",
+      "prompt": "A liquid and its vapor have the same molecular mass. If \\(\\rho_{\\mathrm{liquid}}=800\\,\\mathrm{kg\\,m^{-3}}\\) and \\(\\rho_{\\mathrm{vapor}}=1.25\\,\\mathrm{kg\\,m^{-3}}\\), estimate the ratio of average molecular spacing in the vapor to that in the liquid.",
+      "answer": "For the same molecular mass, number density is proportional to mass density:\n\\[\n\\frac{(N/V)_{\\mathrm{liquid}}}{(N/V)_{\\mathrm{vapor}}}\n=\\frac{\\rho_{\\mathrm{liquid}}}{\\rho_{\\mathrm{vapor}}}\n=\\frac{800}{1.25}=640\n\\]\nAverage spacing scales as\n\\[\nr\\sim (V/N)^{1/3}\n\\]\nso\n\\[\n\\frac{r_{\\mathrm{vapor}}}{r_{\\mathrm{liquid}}}\n=640^{1/3}\n=8.6\n\\]\nThe vapor molecules are roughly \\(9\\) times farther apart on average.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-13",
+      "prompt": "A material has density \\(1200\\,\\mathrm{kg\\,m^{-3}}\\) and molar mass \\(0.030\\,\\mathrm{kg\\,mol^{-1}}\\). Estimate the number of molecules in \\(2.0\\times10^{-6}\\,\\mathrm{m^3}\\).",
+      "answer": "First find the mass:\n\\[\nm=\\rho V=(1200)(2.0\\times10^{-6})=2.4\\times10^{-3}\\,\\mathrm{kg}\n\\]\nThen\n\\[\nn=\\frac{m}{M}=\\frac{2.4\\times10^{-3}}{0.030}=0.080\\,\\mathrm{mol}\n\\]\nso\n\\[\nN=nN_A=(0.080)(6.02\\times10^{23})=4.8\\times10^{22}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-14",
+      "prompt": "A gas has number density \\(2.5\\times10^{25}\\,\\mathrm{m^{-3}}\\). Estimate the average molecular spacing.",
+      "answer": "Use\n\\[\nr\\sim\\left(\\frac{V}{N}\\right)^{1/3}=\\left(\\frac{1}{N/V}\\right)^{1/3}\n\\]\nThus\n\\[\nr\\sim\\left(\\frac{1}{2.5\\times10^{25}}\\right)^{1/3}=3.4\\times10^{-9}\\,\\mathrm m\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-15",
+      "prompt": "A liquid has molecular spacing about \\(3.0\\times10^{-10}\\,\\mathrm m\\). Estimate its molecular number density.",
+      "answer": "The spacing estimate is\n\\[\nr\\sim\\left(\\frac{V}{N}\\right)^{1/3}\n\\]\nso\n\\[\n\\frac{N}{V}\\sim\\frac{1}{r^3}\n\\]\nWith \\(r=3.0\\times10^{-10}\\,\\mathrm m\\),\n\\[\n\\frac{N}{V}\\sim\\frac{1}{(3.0\\times10^{-10})^3}=3.7\\times10^{28}\\,\\mathrm{m^{-3}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-16",
+      "prompt": "Derive \\(m_0=M/N_A\\) and explain why molar mass must be in \\(\\mathrm{kg\\,mol^{-1}}\\) for SI calculations.",
+      "answer": "One mole contains \\(N_A\\) molecules and has mass \\(M\\). Therefore the mass per molecule is\n\\[\nm_0=\\frac{M}{N_A}\n\\]\nIf mass is needed in SI equations, \\(M\\) must be in \\(\\mathrm{kg\\,mol^{-1}}\\), because the result then has units of kilograms per molecule.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-17",
+      "prompt": "Use number density to explain why gases have low density compared with liquids made of similar molecules.",
+      "answer": "For similar molecules, mass density is\n\\[\n\\rho=m_0\\frac{N}{V}\n\\]\nThe molecular mass \\(m_0\\) is similar, so density mainly follows number density. Gas molecules are much farther apart, so \\(N/V\\) is far smaller than in a liquid, giving much lower mass density.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-18",
+      "prompt": "Two materials have the same number density, but molecule B has twice the molecular mass of molecule A. Compare their mass densities.",
+      "answer": "Mass density is\n\\[\n\\rho=m_0\\frac{N}{V}\n\\]\nIf \\(N/V\\) is the same and \\(m_{0,B}=2m_{0,A}\\), then\n\\[\n\\rho_B=2\\rho_A\n\\]\nThe denser material has the heavier molecules.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-19",
+      "prompt": "Explain why molecular spacing estimates are order-of-magnitude models, not exact nearest-neighbor distances.",
+      "answer": "The estimate assigns each molecule an average volume \\(V/N\\) and turns that volume into a length scale. Real materials have molecular shapes, correlations, empty spaces, and fluctuating positions, so the estimate gives a useful scale rather than a precise geometric distance.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "molecular-matter-20",
+      "prompt": "Connect molecular kinetic energy and intermolecular forces to the qualitative difference between solid, liquid, and gas.",
+      "answer": "In solids, intermolecular forces keep molecules near fixed equilibrium positions. In liquids, forces keep short-range spacing but allow rearrangement. In gases, kinetic energy dominates over long-range binding except during collisions, so molecules move freely through much of the container.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

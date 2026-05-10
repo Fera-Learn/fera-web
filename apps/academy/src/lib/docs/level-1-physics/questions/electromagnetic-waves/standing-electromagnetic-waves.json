@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-waves",
+  "topicId": "standing-electromagnetic-waves",
+  "topicTitle": "Standing Electromagnetic Waves",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "standing-em-waves-01",
+      "prompt": "What produces a standing electromagnetic wave?",
+      "answer": "Two coherent waves of the same frequency and amplitude traveling in opposite directions superpose to make a standing wave.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-02",
+      "prompt": "What boundary condition does a perfect conducting wall impose on the tangential electric field?",
+      "answer": "The tangential electric field at a perfect conductor is zero. In a cavity, conducting walls therefore act as electric-field nodes.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-03",
+      "prompt": "For a cavity of length \\(L\\) with electric-field nodes at both ends, write the allowed wavelengths.",
+      "answer": "\\[\\nL=\\frac{n\\lambda_n}{2}\\n\\]\\nso\\n\\[\\n\\lambda_n=\\frac{2L}{n}\\n\\]\\nwhere \\(n=1,2,3,\\ldots\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-04",
+      "prompt": "A vacuum cavity has length \\(0.50\\,\\mathrm{m}\\). Find the first three resonant frequencies.",
+      "answer": "\\[\\nf_n=\\frac{nc}{2L}=n\\frac{3.0\\times10^8}{2(0.50)}=n(3.0\\times10^8\\,\\mathrm{Hz})\\n\\]\\nThus \\(f_1=3.0\\times10^8\\,\\mathrm{Hz}\\), \\(f_2=6.0\\times10^8\\,\\mathrm{Hz}\\), and \\(f_3=9.0\\times10^8\\,\\mathrm{Hz}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-05",
+      "prompt": "Adjacent electric-field nodes in a standing EM wave are separated by \\(12.5\\,\\mathrm{cm}\\). Find the frequency in vacuum.",
+      "answer": "Node spacing is \\(\\lambda/2\\), so\\n\\[\\n\\lambda=2(0.125)=0.250\\,\\mathrm{m}\\n\\]\\nThen\\n\\[\\nf=\\frac{c}{\\lambda}=\\frac{3.0\\times10^8}{0.250}=1.2\\times10^9\\,\\mathrm{Hz}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-06",
+      "prompt": "Add \\(E_1=E_0\\sin(kx-\\omega t)\\) and \\(E_2=E_0\\sin(kx+\\omega t)\\).",
+      "answer": "Using \\(\\sin a+\\sin b=2\\sin[(a+b)/2]\\cos[(a-b)/2]\\),\\n\\[\\nE=2E_0\\sin(kx)\\cos(\\omega t)\\n\\]\\nThis is a standing wave with fixed nodes.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-07",
+      "prompt": "For \\(E=2E_0\\sin(kx)\\cos(\\omega t)\\), find the positions of electric-field nodes.",
+      "answer": "Nodes occur where the spatial factor is zero:\\n\\[\\n\\sin(kx)=0\\Rightarrow kx=m\\pi\\n\\]\\nso\\n\\[\\nx=\\frac{m\\pi}{k}=\\frac{m\\lambda}{2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-08",
+      "prompt": "For \\(E=2E_0\\sin(kx)\\cos(\\omega t)\\), find the positions of electric-field antinodes.",
+      "answer": "Antinodes occur where \\(|\\sin(kx)|=1\\):\\n\\[\\nkx=\\left(m+\\frac12\\right)\\pi\\n\\]\\nso\\n\\[\\nx=\\left(m+\\frac12\\right)\\frac{\\lambda}{2}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-09",
+      "prompt": "A cavity of length \\(1.20\\,\\mathrm{m}\\) resonates at \\(f=500\\,\\mathrm{MHz}\\). Determine the mode number in vacuum.",
+      "answer": "Use\\n\\[\\nf_n=\\frac{nc}{2L}\\n\\]\\nso\\n\\[\\nn=\\frac{2Lf}{c}=\\frac{2(1.20)(500\\times10^6)}{3.0\\times10^8}=4\\n\\]\\nIt is the fourth mode.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-10",
+      "prompt": "A cavity is filled with dielectric of refractive index \\(1.50\\). How do the resonant frequencies change compared with vacuum?",
+      "answer": "The wave speed becomes \\(v=c/n_r\\), so\\n\\[\\nf_m=\\frac{mv}{2L}=\\frac{1}{n_r}\\frac{mc}{2L}\\n\\]\\nAll resonant frequencies are reduced by a factor of \\(1/1.50\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-11",
+      "prompt": "A vacuum cavity has length \\(0.80\\,\\mathrm{m}\\). It is filled with material of \\(n_r=2.0\\). Find the fundamental frequency.",
+      "answer": "The speed is \\(v=c/2\\). Thus\\n\\[\\nf_1=\\frac{v}{2L}=\\frac{3.0\\times10^8/2}{2(0.80)}=9.38\\times10^7\\,\\mathrm{Hz}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-12",
+      "prompt": "Explain why the time-averaged net energy flow in an ideal standing wave is zero even though energy is present.",
+      "answer": "A standing wave is the sum of equal waves traveling in opposite directions. Their average Poynting vectors are equal in magnitude and opposite in direction, so the net average flow cancels. Energy remains stored and oscillates between electric and magnetic forms.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-13",
+      "prompt": "In a simple standing EM wave, electric-field nodes coincide with magnetic-field antinodes. Explain why this does not contradict energy conservation.",
+      "answer": "Electric and magnetic energy densities trade spatial and temporal roles. Where the electric field is always zero, the magnetic field can be maximal, so energy is not lost; it is stored in the magnetic field at that position during appropriate parts of the cycle.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-14",
+      "prompt": "A cavity has one end enforcing an electric node and the other enforcing an electric antinode. Derive the allowed wavelengths.",
+      "answer": "A node-to-antinode length contains an odd number of quarter wavelengths:\\n\\[\\nL=\\frac{(2m+1)\\lambda}{4}\\n\\]\\nTherefore\\n\\[\\n\\lambda_m=\\frac{4L}{2m+1}\\n\\]\\nwhere \\(m=0,1,2,\\ldots\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-15",
+      "prompt": "For the node-antinode cavity in the previous question, find the allowed frequencies in vacuum.",
+      "answer": "Using \\(f=c/\\lambda\\),\\n\\[\\nf_m=\\frac{(2m+1)c}{4L}\\n\\]\\nOnly odd harmonics of the fundamental occur.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-16",
+      "prompt": "A conducting cavity length expands thermally by fractional amount \\(\\alpha\\Delta T\\). Derive the fractional change in each resonant frequency.",
+      "answer": "For a node-node cavity,\\n\\[\\nf_n=\\frac{nc}{2L}\\n\\]\\nIf \\(L\\to L(1+\\alpha\\Delta T)\\), then\\n\\[\\nf_n\\to \\frac{f_n}{1+\\alpha\\Delta T}\\approx f_n(1-\\alpha\\Delta T)\\n\\]\\nThus\\n\\[\\n\\frac{\\Delta f}{f}\\approx-\\alpha\\Delta T\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-17",
+      "prompt": "A cavity supports modes up to \\(1.20\\,\\mathrm{GHz}\\). If \\(L=0.75\\,\\mathrm{m}\\), how many node-node vacuum modes are at or below this frequency?",
+      "answer": "The fundamental is\\n\\[\\nf_1=\\frac{c}{2L}=\\frac{3.0\\times10^8}{1.50}=2.0\\times10^8\\,\\mathrm{Hz}\\n\\]\\nModes satisfy \\(f_n=nf_1\\). Thus\\n\\[\\nn\\le\\frac{1.20\\times10^9}{2.0\\times10^8}=6\\n\\]\\nThere are 6 modes.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-18",
+      "prompt": "A measured standing wave has electric nodes at \\(x=0\\), \\(0.20\\,\\mathrm{m}\\), \\(0.40\\,\\mathrm{m}\\), and \\(0.60\\,\\mathrm{m}\\). If the cavity ends are at \\(0\\) and \\(0.60\\,\\mathrm{m}\\), identify the mode number and frequency in vacuum.",
+      "answer": "Adjacent nodes are separated by \\(0.20\\,\\mathrm{m}=\\lambda/2\\), so \\(\\lambda=0.40\\,\\mathrm{m}\\). The length contains\\n\\[\\nL=0.60=3\\frac{\\lambda}{2}\\n\\]\\nso \\(n=3\\). The frequency is\\n\\[\\nf=\\frac{c}{\\lambda}=7.5\\times10^8\\,\\mathrm{Hz}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-19",
+      "prompt": "A student claims that because a standing wave has zero average energy flow, its Poynting vector is zero at every instant. Correct the claim.",
+      "answer": "Zero average net flow does not mean zero instantaneous flow everywhere. The superposed waves carry energy in opposite directions, and local energy can oscillate between regions. The time average over a full cycle cancels, but \\(\\vec S(x,t)\\) can be nonzero at particular positions and times.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "standing-em-waves-20",
+      "prompt": "Prove that a node-node cavity has integer-spaced resonant frequencies, then contrast with a node-antinode cavity.",
+      "answer": "For node-node boundaries, the length must hold an integer number of half wavelengths:\\n\\[\\nL=\\frac{n\\lambda}{2}\\Rightarrow f_n=\\frac{nc}{2L}=nf_1\\n\\]\\nSo all integer harmonics occur. For node-antinode boundaries,\\n\\[\\nL=\\frac{(2m+1)\\lambda}{4}\\Rightarrow f_m=\\frac{(2m+1)c}{4L}\\n\\]\\nOnly odd multiples of the fundamental occur. The difference comes from the boundary-condition phase requirements.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "potential-wells",
+  "topicTitle": "Potential Wells",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "potential-wells-01",
+      "prompt": "In a finite potential well, what is the qualitative form of a bound-state wave function inside and outside the well?",
+      "answer": "Inside the classically allowed part of the well the wave function oscillates. Outside, where \\(E<V\\), a normalizable bound-state wave function decays exponentially.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-02",
+      "prompt": "For a finite well with outside potential \\(V_0\\) and bound-state energy \\(E<V_0\\), write the outside decay constant.",
+      "answer": "\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-03",
+      "prompt": "If the outside decay constant is \\(\\kappa=2.0\\,\\mathrm{nm^{-1}}\\), find the penetration depth.",
+      "answer": "\\[\\n\\ell=\\frac{1}{\\kappa}=\\frac{1}{2.0\\,\\mathrm{nm^{-1}}}=0.50\\,\\mathrm{nm}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-04",
+      "prompt": "For a finite well, what happens to the outside tail as \\(E\\) approaches \\(V_0\\) from below?",
+      "answer": "The decay constant\\n\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\n\\]\\ngets smaller, so the penetration depth \\(1/\\kappa\\) grows. The wave function leaks farther outside the well.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-05",
+      "prompt": "State the matching conditions at the edge of a finite square well.",
+      "answer": "At a finite potential jump, both the wave function and its derivative are continuous:\\n\\[\\n\\psi_{\\mathrm{in}}=\\psi_{\\mathrm{out}},\\qquad \\psi'_{\\mathrm{in}}=\\psi'_{\\mathrm{out}}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-06",
+      "prompt": "Why are the bound-state energies of a finite well discrete?",
+      "answer": "Only certain energies allow an oscillatory interior solution to match smoothly onto decaying exterior tails on both sides. Most trial energies fail the two-sided matching conditions, so only discrete energies are allowed.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-07",
+      "prompt": "A finite well is made wider while its depth stays fixed. Predict the change in the number of bound states.",
+      "answer": "A wider well can fit more standing-wave shapes while still matching to decaying tails, so the number of bound states generally increases.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-08",
+      "prompt": "A finite well is made deeper while its width stays fixed. Predict the change in bound-state energies relative to the bottom of the well.",
+      "answer": "More bound states can appear, and existing states usually become more strongly confined. The allowed energies shift toward the corresponding infinite-well pattern measured from the bottom, but remain below the outside potential.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-09",
+      "prompt": "Why are finite-well energies lower than infinite-well energies for the same central width?",
+      "answer": "In a finite well, the wave function penetrates outside the nominal well. This increases the effective width, reduces curvature, and lowers kinetic energy compared with a hard-wall infinite well.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-10",
+      "prompt": "For a symmetric finite well, why can bound states be chosen to have definite parity?",
+      "answer": "The potential satisfies \\(V(x)=V(-x)\\), so the Hamiltonian is unchanged by parity. Bound-state solutions can therefore be chosen as parity eigenstates: either even or odd. This reduces matching to one side of the well.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-11",
+      "prompt": "For a symmetric finite well with interior even solution \\(A\\cos(kx)\\) and exterior tail \\(Be^{-\\kappa x}\\) at \\(x=a\\), derive the even-state matching condition.",
+      "answer": "Continuity gives\\n\\[\\nA\\cos(ka)=Be^{-\\kappa a}\\n\\]\\nDerivative continuity gives\\n\\[\\n-Ak\\sin(ka)=-\\kappa Be^{-\\kappa a}\\n\\]\\nDivide the derivative equation by the value equation:\\n\\[\\nk\\tan(ka)=\\kappa\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-12",
+      "prompt": "For a symmetric finite well with interior odd solution \\(A\\sin(kx)\\) and exterior tail \\(Be^{-\\kappa x}\\) at \\(x=a\\), derive the odd-state matching condition.",
+      "answer": "Continuity gives\\n\\[\\nA\\sin(ka)=Be^{-\\kappa a}\\n\\]\\nDerivative continuity gives\\n\\[\\nAk\\cos(ka)=-\\kappa Be^{-\\kappa a}\\n\\]\\nDivide derivative by value:\\n\\[\\nk\\cot(ka)=-\\kappa\\n\\]\\nor equivalently \\(-k\\cot(ka)=\\kappa\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-13",
+      "prompt": "Why must the growing exponential outside a finite well be rejected for a bound state?",
+      "answer": "A growing exponential makes\\n\\[\\n\\int |\\psi|^2dx\\n\\]\\ndiverge on the infinite outside region. A bound-state wave function must be normalizable, so only the decaying exponential is allowed far from the well.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-14",
+      "prompt": "How does increasing particle mass affect the leakage of a finite-well bound state, all else fixed?",
+      "answer": "The decay constant is\\n\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\n\\]\\nA larger mass increases \\(\\kappa\\), so the penetration depth \\(1/\\kappa\\) decreases. The state leaks less.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-15",
+      "prompt": "A finite well has ground and first excited bound states. Which has a node, and what does that imply about energy ordering?",
+      "answer": "The ground state has no interior node. The first excited state has one node. More nodes require more curvature, so the first excited state has higher kinetic energy and higher total energy.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-16",
+      "prompt": "A finite well has \\(V_0-E\\) increased by a factor of \\(4\\). How does \\(\\kappa\\) change if \\(m\\) is unchanged?",
+      "answer": "Since\\n\\[\\n\\kappa\\propto \\sqrt{V_0-E}\\n\\]\\nincreasing \\(V_0-E\\) by \\(4\\) doubles \\(\\kappa\\). The penetration depth is halved.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-17",
+      "prompt": "Use the dimensionless parameter \\(z_0=a\\sqrt{2mV_0}/\\hbar\\) to explain qualitatively why a wider or deeper symmetric well supports more states.",
+      "answer": "The parameter \\(z_0\\) measures the maximum interior phase accumulation before the energy reaches the top of the well. Increasing \\(a\\), \\(m\\), or \\(V_0\\) increases \\(z_0\\), allowing more even and odd matching-condition roots and therefore more bound states.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-18",
+      "prompt": "Explain why a finite-well bound state can have nonzero probability in a classically forbidden region without having negative kinetic energy as a measurement result.",
+      "answer": "The local form of the stationary equation in the forbidden region is exponential because \\(E<V\\). That does not mean an isolated kinetic-energy measurement must return a negative value. The bound state is a global energy eigenstate shaped by boundary matching, and position localization in the tail is a probability amplitude effect, not a classical trajectory with negative kinetic energy.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-19",
+      "prompt": "A finite well approaches the infinite-well limit as \\(V_0\\to\\infty\\). What happens to the penetration depth and the boundary condition?",
+      "answer": "As \\(V_0\\to\\infty\\),\\n\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\to\\infty\\n\\]\\nso the penetration depth \\(1/\\kappa\\to0\\). The finite tail shrinks to a hard-wall boundary condition \\(\\psi=0\\) at the wall.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-wells-20",
+      "prompt": "Prove that a finite well bound-state wave function cannot simply become zero at one finite edge and stay nonzero inside if the potential is finite.",
+      "answer": "At a finite edge, both \\(\\psi\\) and \\(\\psi'\\) must be continuous. If the outside wave function were exactly zero beyond the edge, then at the edge it would have \\(\\psi=0\\) and \\(\\psi'=0\\). Continuity would impose the same two initial conditions on the inside solution. A second-order differential equation with \\(\\psi=0\\) and \\(\\psi'=0\\) at one point has the identically zero solution, contradicting a nonzero bound state. Therefore a finite well must have a tail.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

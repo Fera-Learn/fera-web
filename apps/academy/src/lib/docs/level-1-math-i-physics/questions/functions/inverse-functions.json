@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "functions",
+  "topicId": "inverse-functions",
+  "topicTitle": "Inverse Functions",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-inverse-functions-01",
+      "prompt": "What does it mean for a function to be one-to-one?",
+      "answer": "A function is one-to-one if different inputs always give different outputs. Formally: \\(x_1\\ne x_2\\) implies \\(f(x_1)\\ne f(x_2)\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-02",
+      "prompt": "If \\(f^{-1}\\) is the inverse of \\(f\\), what does \\(f^{-1}(f(x))=x\\) mean?",
+      "answer": "It means applying \\(f\\) and then applying \\(f^{-1}\\) returns the original input. The inverse undoes what \\(f\\) does.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-03",
+      "prompt": "Find the inverse of \\(f(x)=3x-2\\).",
+      "answer": "Set \\(y=3x-2\\) and solve for \\(x\\):\n\\[y+2=3x\\Longrightarrow x=\\frac{y+2}{3}\\]\nReplace y with x:\n\\[f^{-1}(x)=\\frac{x+2}{3}\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-04",
+      "prompt": "Find the inverse of \\(f(x)=x^3+1\\).",
+      "answer": "Set \\(y=x^3+1\\) and solve for \\(x\\):\n\\[y-1=x^3\\Longrightarrow x=\\sqrt[3]{y-1}\\]\nTherefore\n\\[f^{-1}(x)=\\sqrt[3]{x-1}\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-05",
+      "prompt": "Why does \\(f(x)=x^2\\) have no inverse function on \\(\\mathbb R\\)?",
+      "answer": "Because \\(f(2)=4\\) and \\(f(-2)=4\\). Since one output (4) comes from two different inputs (2 and -2), the inverse function would not know whether \\(f^{-1}(4)=2\\) or \\(f^{-1}(4)=-2\\). The function is not one-to-one.",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-06",
+      "prompt": "What domain restriction makes \\(f(x)=x^2\\) have an inverse?",
+      "answer": "Restricting to \\(x\\ge0\\) (or alternatively \\(x\\le0\\)) makes the function one-to-one. The inverse on \\(x\\ge0\\) is \\(f^{-1}(x)=\\sqrt{x}\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-07",
+      "prompt": "If \\(f^{-1}\\) is the inverse of \\(f\\), what is the relationship between the graphs of \\(f\\) and \\(f^{-1}\\)?",
+      "answer": "The graph of \\(f^{-1}\\) is the reflection of the graph of \\(f\\) across the line \\(y=x\\). This is because swapping \\(x\\) and \\(y\\) in the equation \\(y=f(x)\\) gives \\(x=f(y)\\), which is equivalent to \\(y=f^{-1}(x)\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-08",
+      "prompt": "Is \\(f^{-1}(x)=\\frac{1}{f(x)}\\)? Explain.",
+      "answer": "No. \\(f^{-1}(x)\\) denotes the inverse function that undoes \\(f\\), while \\(\\frac{1}{f(x)}\\) is the reciprocal of the output. These are completely different concepts. For example, if \\(f(x)=x^2\\), then \\(f^{-1}(x)=\\sqrt{x}\\) but \\(\\frac{1}{f(x)}=\\frac{1}{x^2}\\).",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-09",
+      "prompt": "Find the inverse of \\(f(x)=\\frac{x+1}{x-1}\\) for \\(x\\ne1\\).",
+      "answer": "Set \\(y=\\frac{x+1}{x-1}\\) and solve for \\(x\\):\n\\[y(x-1)=x+1\\Longrightarrow yx-y=x+1\\]\n\\[yx-x=y+1\\Longrightarrow x(y-1)=y+1\\]\n\\[x=\\frac{y+1}{y-1}\\]\nTherefore\n\\[f^{-1}(x)=\\frac{x+1}{x-1}\\]\nThis function is its own inverse (an involution).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-10",
+      "prompt": "What is the derivative of the inverse function at a point?",
+      "answer": "If \\(y=f^{-1}(x)\\) and \\(f\\) is differentiable with \\(f'(f^{-1}(x))\\ne0\\), then\n\\[\\frac{d}{dx}f^{-1}(x)=\\frac{1}{f'(f^{-1}(x))}\\]\nThis follows from differentiating \\(f(f^{-1}(x))=x\\) using the chain rule.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-11",
+      "prompt": "State the domain and range of \\(f^{-1}\\) if the domain of \\(f\\) is \\([0,\\infty)\\) and the range is \\([1,\\infty)\\).",
+      "answer": "The inverse swaps domain and range:\n- Domain of \\(f^{-1}\\) is \\([1,\\infty)\\) (the range of \\(f\\))\n- Range of \\(f^{-1}\\) is \\([0,\\infty)\\) (the domain of \\(f\\))",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-functions-12",
+      "prompt": "Use the inverse function derivative formula to find \\((f^{-1})'(4)\\) if \\(f(1)=4\\) and \\(f'(1)=3\\).",
+      "answer": "Using \\((f^{-1})'(x)=\\frac{1}{f'(f^{-1}(x))}\\):\n\\[f^{-1}(4)=1\\text{ (since }f(1)=4\\text{)}\\]\n\\[f'(f^{-1}(4))=f'(1)=3\\]\nTherefore\n\\[(f^{-1})'(4)=\\frac{1}{3}\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "momentum-and-impulse",
+  "topicTitle": "Momentum and Impulse",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "momentum-impulse-01",
+      "prompt": "A \\(0.25\\,\\mathrm{kg}\\) ball moves at \\(16\\,\\mathrm{m\\,s^{-1}}\\). Find its momentum magnitude.",
+      "answer": "\\[\np=mv=0.25(16)=4.0\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-02",
+      "prompt": "A constant \\(12\\,\\mathrm{N}\\) force acts for \\(0.50\\,\\mathrm{s}\\). Find the impulse magnitude.",
+      "answer": "\\[\nJ=F\\Delta t=12(0.50)=6.0\\,\\mathrm{N\\,s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-03",
+      "prompt": "A \\(0.15\\,\\mathrm{kg}\\) ball moves right at \\(10\\,\\mathrm{m\\,s^{-1}}\\), then rebounds left at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\). Find the impulse on the ball, taking right as positive.",
+      "answer": "Take right as positive:\n\\[\nJ=m(v_f-v_i)=0.15(-6.0-10)=-2.4\\,\\mathrm{N\\,s}\n\\]\nThe impulse is \\(2.4\\,\\mathrm{N\\,s}\\) left.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-04",
+      "prompt": "A \\(0.060\\,\\mathrm{kg}\\) ball moving at \\(30\\,\\mathrm{m\\,s^{-1}}\\) is stopped in \\(0.010\\,\\mathrm{s}\\). Find the average force on the ball.",
+      "answer": "Take the initial motion as positive:\n\\[\nJ=m(0-30)=-1.8\\,\\mathrm{N\\,s}\n\\]\n\\[\nF_{\\mathrm{avg}}=\\frac{J}{\\Delta t}=\\frac{-1.8}{0.010}=-180\\,\\mathrm{N}\n\\]\nThe force is opposite the initial motion.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-05",
+      "prompt": "A force-time graph is triangular with height \\(80\\,\\mathrm{N}\\) and base \\(0.20\\,\\mathrm{s}\\). The impulse acts on a \\(2.0\\,\\mathrm{kg}\\) object initially at rest. Find its final speed.",
+      "answer": "The impulse is the triangle area:\n\\[\nJ=\\frac{1}{2}(0.20)(80)=8.0\\,\\mathrm{N\\,s}\n\\]\nStarting from rest,\n\\[\n\\Delta v=\\frac{J}{m}=\\frac{8.0}{2.0}=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-06",
+      "prompt": "A \\(3.0\\,\\mathrm{kg}\\) object initially at rest receives impulse \\(\\vec{J}=6\\hat{\\imath}-2\\hat{\\jmath}\\,\\mathrm{N\\,s}\\). Find its final velocity vector.",
+      "answer": "From impulse-momentum,\n\\[\n\\vec{J}=m\\Delta\\vec{v}\n\\]\nso\n\\[\n\\vec{v}_f=\\frac{\\vec{J}}{m}=2\\hat{\\imath}-\\frac{2}{3}\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-07",
+      "prompt": "A force of \\(30\\,\\mathrm{N}\\) acts for \\(0.20\\,\\mathrm{s}\\), then \\(10\\,\\mathrm{N}\\) acts in the opposite direction for \\(0.30\\,\\mathrm{s}\\). Find the net impulse.",
+      "answer": "Take the first force direction as positive:\n\\[\nJ=30(0.20)-10(0.30)=6.0-3.0=3.0\\,\\mathrm{N\\,s}\n\\]\nThe net impulse is in the first force direction.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-08",
+      "prompt": "Two safety pads bring the same runner to rest. Pad A stops the runner in \\(0.10\\,\\mathrm{s}\\); pad B stops the runner in \\(0.40\\,\\mathrm{s}\\). Compare the average stopping forces and interpret the result.",
+      "answer": "Both pads produce the same momentum change:\n\\[\nF_{\\mathrm{avg}}\\Delta t=\\Delta p\n\\]\nTherefore\n\\[\n\\frac{F_B}{F_A}=\\frac{0.10}{0.40}=\\frac{1}{4}\n\\]\nPad B gives one quarter of the average stopping force because it spreads the same impulse over four times longer.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-09",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) puck hits a wall and rebounds with half its incoming speed. The contact lasts \\(0.020\\,\\mathrm{s}\\), and the average force magnitude from the wall is \\(90\\,\\mathrm{N}\\). Find the incoming speed. State the sign convention and the modeling assumption.",
+      "answer": "Take the incoming direction as positive. Then\n\\[\nv_i=u,\\qquad v_f=-\\frac{u}{2}\n\\]\nThe impulse magnitude is\n\\[\nJ=F_{\\mathrm{avg}}\\Delta t=90(0.020)=1.8\\,\\mathrm{N\\,s}\n\\]\nand\n\\[\n|J|=m\\left|-\\frac{u}{2}-u\\right|=\\frac{3}{2}mu\n\\]\nSo\n\\[\nu=\\frac{1.8}{(3/2)(0.50)}=2.4\\,\\mathrm{m\\,s^{-1}}\n\\]\nAssumption: the wall\u0027s average force accounts for the contact impulse and other impulses during contact are negligible. The impulse is opposite the incoming motion.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "momentum-impulse-10",
+      "prompt": "A mass \\(m\\) moves in the positive \\(x\\)-direction with speed \\(u\\). During \\(0\u003ct\u003c\\tau\\), a force pulse acts in the negative \\(x\\)-direction with magnitude \\(F(t)=F_0(1-t/\\tau)\\). Derive the condition on \\(F_0\\tau\\) for the mass to leave with speed at least \\(\\beta u\\) in the negative \\(x\\)-direction. State assumptions.",
+      "answer": "Assume one-dimensional motion, constant mass, and no other impulse. The force is negative, so\n\\[\nJ_x=-\\int_0^\\tau F_0\\left(1-\\frac{t}{\\tau}\\right)dt=-\\frac{F_0\\tau}{2}\n\\]\nThe final velocity is\n\\[\nv_f=u+\\frac{J_x}{m}=u-\\frac{F_0\\tau}{2m}\n\\]\nTo leave with speed at least \\(\\beta u\\) in the negative direction,\n\\[\nv_f\\le -\\beta u\n\\]\nso\n\\[\nF_0\\tau\\ge 2m(1+\\beta)u\n\\]\nInterpretation: the pulse area must remove the original momentum and add the required reverse momentum.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

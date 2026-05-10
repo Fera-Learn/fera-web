@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "interference",
+  "topicId": "thin-film-interference",
+  "topicTitle": "Thin-Film Interference",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thin-film-interference-01",
+      "prompt": "What phase shift occurs when light reflects from a boundary to a higher refractive index?",
+      "answer": "The reflected wave undergoes a half-cycle phase shift:\\n\\[\\n\\Delta\\phi=\\pi\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-02",
+      "prompt": "At normal incidence, what is the optical path difference for reflection from the two surfaces of a film of refractive index \\(n\\) and thickness \\(t\\)?",
+      "answer": "\\[\\n\\Delta=2nt\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-03",
+      "prompt": "For reflected light with exactly one reflection phase reversal, state the dark condition.",
+      "answer": "\\[\\n2nt=m\\lambda_0\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-04",
+      "prompt": "A film has \\(n=1.40\\) and \\(t=120\\,\\mathrm{nm}\\). Find \\(2nt\\).",
+      "answer": "\\[\\n2nt=2(1.40)(120\\,\\mathrm{nm})=336\\,\\mathrm{nm}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-05",
+      "prompt": "A soap film in air has one phase reversal. Is a film with \\(t\\to0\\) bright or dark in reflected light?",
+      "answer": "For \\(t\\to0\\), the path contribution is nearly zero, but one reflected ray has a \\(\\pi\\) phase shift. The reflected waves are out of phase, so the film is dark.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-06",
+      "prompt": "A film with one phase reversal has \\(n=1.50\\). Find the minimum nonzero thickness for reflected darkness at \\(\\lambda_0=600\\,\\mathrm{nm}\\).",
+      "answer": "For one phase reversal, reflected dark requires\\n\\[\\n2nt=m\\lambda_0\\n\\]\\nThe minimum nonzero thickness uses \\(m=1\\):\\n\\[\\nt=\\frac{600\\,\\mathrm{nm}}{2(1.50)}=200\\,\\mathrm{nm}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-07",
+      "prompt": "A coating has \\(n=1.25\\). Find the quarter-wave thickness for \\(\\lambda_0=500\\,\\mathrm{nm}\\).",
+      "answer": "\\[\\nt=\\frac{\\lambda_0}{4n}=\\frac{500\\,\\mathrm{nm}}{4(1.25)}=100\\,\\mathrm{nm}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-08",
+      "prompt": "For reflected light with zero or two phase reversals, state how the bright and dark conditions compare with the one-phase-reversal case.",
+      "answer": "With zero or two phase reversals, reflected bright occurs for\\n\\[\\n2nt=m\\lambda_0\\n\\]\\nand reflected dark occurs for\\n\\[\\n2nt=\\left(m+\\frac12\\right)\\lambda_0\\n\\]\\nThese are swapped relative to the one-phase-reversal case.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-09",
+      "prompt": "An oil film \\((n=1.45)\\) floats on water \\((n=1.33)\\) in air. Count the reflection phase reversals for reflected light.",
+      "answer": "At the air-oil boundary, reflection is from lower to higher index, so there is a \\(\\pi\\) shift. At the oil-water boundary, reflection is from higher to lower index, so there is no \\(\\pi\\) shift. There is exactly one phase reversal.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-10",
+      "prompt": "For the oil film in water with one phase reversal, find the minimum nonzero thickness for reflected brightness at \\(\\lambda_0=580\\,\\mathrm{nm}\\).",
+      "answer": "With one phase reversal, reflected bright requires\\n\\[\\n2nt=\\left(m+\\frac12\\right)\\lambda_0\\n\\]\\nThe minimum thickness uses \\(m=0\\):\\n\\[\\nt=\\frac{\\lambda_0}{4n}=\\frac{580\\,\\mathrm{nm}}{4(1.45)}=100\\,\\mathrm{nm}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-11",
+      "prompt": "A film has \\(n=1.33\\), \\(t=250\\,\\mathrm{nm}\\), and one phase reversal. Which reflected vacuum wavelengths are dark for integer \\(m\\)?",
+      "answer": "For reflected dark with one phase reversal,\\n\\[\\n2nt=m\\lambda_0\\n\\]\\nThus\\n\\[\\n\\lambda_0=\\frac{2nt}{m}=\\frac{2(1.33)(250\\,\\mathrm{nm})}{m}=\\frac{665\\,\\mathrm{nm}}{m}\\n\\]\\nVisible candidates require checking integer \\(m\\). For \\(m=1\\), \\(665\\,\\mathrm{nm}\\) is visible; higher orders are ultraviolet or shorter visible only if within range.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-12",
+      "prompt": "A film has \\(n=1.33\\), \\(t=250\\,\\mathrm{nm}\\), and one phase reversal. Which reflected vacuum wavelengths are bright?",
+      "answer": "Bright reflection requires\\n\\[\\n2nt=\\left(m+\\frac12\\right)\\lambda_0\\n\\]\\nso\\n\\[\\n\\lambda_0=\\frac{665\\,\\mathrm{nm}}{m+1/2}\\n\\]\\nFor \\(m=1\\), \\(\\lambda_0\\approx443\\,\\mathrm{nm}\\), which is visible. For \\(m=0\\), \\(1330\\,\\mathrm{nm}\\) is infrared.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-13",
+      "prompt": "A film in air has \\(n=1.20\\) on glass \\(n=1.50\\). Determine whether reflected dark uses \\(2nt=m\\lambda_0\\) or \\(2nt=(m+1/2)\\lambda_0\\).",
+      "answer": "At air-film, reflection is lower to higher index: one \\(\\pi\\) shift. At film-glass, reflection is also lower to higher index: another \\(\\pi\\) shift. There are two phase reversals, so they cancel relatively. Reflected dark uses\\n\\[\\n2nt=\\left(m+\\frac12\\right)\\lambda_0\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-14",
+      "prompt": "Design an anti-reflection coating for glass \\(n_g=1.50\\) using coating index \\(n_c=\\sqrt{n_g}\\). Find \\(n_c\\) and the quarter-wave thickness for \\(550\\,\\mathrm{nm}\\).",
+      "answer": "\\[\\nn_c=\\sqrt{1.50}=1.225\\n\\]\\nFor a quarter-wave coating,\\n\\[\\nt=\\frac{\\lambda_0}{4n_c}=\\frac{550\\,\\mathrm{nm}}{4(1.225)}=112\\,\\mathrm{nm}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-15",
+      "prompt": "Explain why a film can be bright in reflection and dark in transmission for the same wavelength.",
+      "answer": "For lossless films, energy redistributed away from reflected light appears in transmitted light. The two reflected rays and the transmitted rays have different phase relationships, so a wavelength suppressed in reflection is enhanced in transmission, and vice versa.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-16",
+      "prompt": "A wedge-shaped air film lies between two glass plates. Explain why fringes of equal thickness appear, and predict how fringe spacing changes if the wedge angle increases.",
+      "answer": "The air-film thickness varies with position, so the condition \\(2nt=m\\lambda\\) is met at repeated positions. For a wedge \\(t\\approx x\\alpha\\), adjacent thickness changes require fixed \\(\\Delta t\\), so\\n\\[\\n\\Delta x\\propto\\frac{1}{\\alpha}\\n\\]\\nA larger wedge angle gives closer fringes.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-17",
+      "prompt": "For a film with one phase reversal, derive the reflected bright and dark conditions from phase difference.",
+      "answer": "The round-trip optical phase is\\n\\[\\n\\frac{2\\pi}{\\lambda_0}(2nt)\\n\\]\\nOne reflection phase reversal adds \\(\\pi\\). Thus\\n\\[\\n\\Delta\\phi=\\frac{4\\pi nt}{\\lambda_0}+\\pi\\n\\]\\nBright reflection requires \\(\\Delta\\phi=2\\pi q\\), giving\\n\\[\\n2nt=\\left(q-\\frac12\\right)\\lambda_0\\n\\]\\nwhich is \\((m+1/2)\\lambda_0\\). Dark reflection requires \\(\\Delta\\phi=(2q+1)\\pi\\), giving \\(2nt=m\\lambda_0\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-18",
+      "prompt": "A film thickness is slowly increased from zero. For reflected light with one phase reversal, describe the sequence dark/bright/dark in terms of \\(2nt\\).",
+      "answer": "At \\(2nt=0\\), reflected light is dark. The first bright condition is\\n\\[\\n2nt=\\frac12\\lambda_0\\n\\]\\nThe next dark condition is\\n\\[\\n2nt=\\lambda_0\\n\\]\\nThe sequence alternates every additional half wavelength of optical path.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-19",
+      "prompt": "A film is designed to cancel \\(550\\,\\mathrm{nm}\\) reflected light at normal incidence. Explain why it does not cancel all visible wavelengths.",
+      "answer": "The destructive condition fixes optical thickness relative to one wavelength. For another wavelength, the same \\(2nt\\) corresponds to a different phase difference. Therefore only a band around the design wavelength is strongly suppressed, not the whole visible spectrum.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-film-interference-20",
+      "prompt": "A film is between media with indices \\(n_a<n_f<n_b\\). Prove which reflected condition is dark and explain the limiting case as \\(t\\to0\\).",
+      "answer": "At the top boundary \\(n_a\\to n_f\\), reflection is lower to higher index, so there is a \\(\\pi\\) shift. At the lower boundary \\(n_f\\to n_b\\), reflection is again lower to higher index, so there is another \\(\\pi\\) shift. The relative reflection phase shift is zero, so reflected darkness requires the path phase to be \\(\\pi\\):\\n\\[\\n2nt=\\left(m+\\frac12\\right)\\lambda_0\\n\\]\\nAs \\(t\\to0\\), the reflected rays are in phase rather than out of phase, so the film is not dark by phase cancellation.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

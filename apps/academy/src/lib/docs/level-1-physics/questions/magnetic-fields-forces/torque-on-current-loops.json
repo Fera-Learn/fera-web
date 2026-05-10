@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "torque-on-current-loops",
+  "topicTitle": "Torque on Current Loops",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "torque-current-loops-01",
+      "prompt": "State the magnetic dipole moment magnitude for an \\(N\\)-turn current loop.",
+      "answer": "The magnetic dipole moment magnitude is\n\\[\n\\mu=NIA\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-02",
+      "prompt": "State the torque magnitude on a current loop in a uniform magnetic field.",
+      "answer": "The torque magnitude is\n\\[\n\\tau=NIAB\\sin\\theta\n\\]\nwhere \\(\\theta\\) is the angle between \\(\\vec\\mu\\) and \\(\\vec B\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-03",
+      "prompt": "What is the direction of a current loop's magnetic moment?",
+      "answer": "Use the right-hand rule: curl fingers in the conventional current direction; the thumb points along \\(\\vec\\mu\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-04",
+      "prompt": "A \\(20\\)-turn coil has area \\(3.0\\times10^{-3}\\,\\mathrm{m^2}\\) and current \\(0.50\\,\\mathrm{A}\\). Find \\(\\mu\\).",
+      "answer": "\\[\n\\mu=NIA=(20)(0.50)(3.0\\times10^{-3})=3.0\\times10^{-2}\\,\\mathrm{A\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-05",
+      "prompt": "A coil has \\(N=50\\), \\(I=0.40\\,\\mathrm{A}\\), \\(A=2.0\\times10^{-3}\\,\\mathrm{m^2}\\), and \\(B=0.30\\,\\mathrm{T}\\). Find maximum torque.",
+      "answer": "\\[\n\\tau_{\\max}=NIAB=(50)(0.40)(2.0\\times10^{-3})(0.30)=1.2\\times10^{-2}\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-06",
+      "prompt": "When is the torque on a current loop maximum?",
+      "answer": "It is maximum when \\(\\sin\\theta=1\\), so \\(\\vec\\mu\\) is perpendicular to \\(\\vec B\\). Then \\(\\tau_{\\max}=NIAB\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-07",
+      "prompt": "When is the torque on a current loop zero?",
+      "answer": "It is zero when \\(\\vec\\mu\\) is parallel or antiparallel to \\(\\vec B\\), because \\(\\sin\\theta=0\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-08",
+      "prompt": "A coil with \\(\\mu=0.080\\,\\mathrm{A\\,m^2}\\) is in \\(0.50\\,\\mathrm{T}\\) at \\(30^\\circ\\) to the field. Find the torque.",
+      "answer": "\\[\n\\tau=\\mu B\\sin30^\\circ=(0.080)(0.50)(0.5)=2.0\\times10^{-2}\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-09",
+      "prompt": "State the vector torque law for a magnetic dipole in a magnetic field.",
+      "answer": "The torque is\n\\[\n\\vec\\tau=\\vec\\mu\\times\\vec B\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-10",
+      "prompt": "State the potential energy of a magnetic dipole in a magnetic field.",
+      "answer": "The potential energy is\n\\[\nU=-\\vec\\mu\\cdot\\vec B\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-11",
+      "prompt": "Which orientation of a current loop in a magnetic field is stable?",
+      "answer": "The stable orientation has \\(\\vec\\mu\\) parallel to \\(\\vec B\\), where\n\\[\nU=-\\mu B\n\\]\nis minimum.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-12",
+      "prompt": "Which orientation of a current loop in a magnetic field is unstable?",
+      "answer": "The unstable orientation has \\(\\vec\\mu\\) antiparallel to \\(\\vec B\\), where\n\\[\nU=+\\mu B\n\\]\nis maximum.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-13",
+      "prompt": "A coil has maximum torque \\(0.060\\,\\mathrm{N\\,m}\\) in \\(0.20\\,\\mathrm{T}\\). Find its magnetic moment.",
+      "answer": "At maximum torque,\n\\[\n\\tau_{\\max}=\\mu B\n\\]\nso\n\\[\n\\mu=\\frac{0.060}{0.20}=0.30\\,\\mathrm{A\\,m^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-14",
+      "prompt": "A \\(100\\)-turn coil with current \\(0.20\\,\\mathrm{A}\\) must have \\(\\mu=0.50\\,\\mathrm{A\\,m^2}\\). Find the area per turn.",
+      "answer": "Use \\(\\mu=NIA\\):\n\\[\nA=\\frac{\\mu}{NI}=\\frac{0.50}{(100)(0.20)}=2.5\\times10^{-2}\\,\\mathrm{m^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-15",
+      "prompt": "Why can a current loop have zero net force but nonzero torque in a uniform field?",
+      "answer": "Opposite sides of the loop can feel equal and opposite forces, so the net force is zero. Because the forces act at different positions, they form a couple that produces torque.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-16",
+      "prompt": "If the current in a loop is doubled, what happens to its maximum torque?",
+      "answer": "Since\n\\[\n\\tau_{\\max}=NIAB\n\\]\nmaximum torque is proportional to current. Doubling \\(I\\) doubles \\(\\tau_{\\max}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-17",
+      "prompt": "If the number of turns and the current are both doubled, what happens to maximum torque?",
+      "answer": "Maximum torque is proportional to \\(NI\\):\n\\[\n\\tau_{\\max}=NIAB\n\\]\nDoubling both \\(N\\) and \\(I\\) increases maximum torque by a factor of \\(4\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-18",
+      "prompt": "A dipole with \\(\\mu=0.10\\,\\mathrm{A\\,m^2}\\) rotates from perpendicular to parallel with a \\(0.40\\,\\mathrm{T}\\) field. Find the change in potential energy.",
+      "answer": "Initial energy at \\(90^\\circ\\):\n\\[\nU_i=-\\mu B\\cos90^\\circ=0\n\\]\nFinal energy parallel:\n\\[\nU_f=-\\mu B=-(0.10)(0.40)=-0.040\\,\\mathrm{J}\n\\]\nSo\n\\[\n\\Delta U=-0.040\\,\\mathrm{J}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-19",
+      "prompt": "A loop has \\(\\vec\\mu\\) along \\(+x\\) and \\(\\vec B\\) along \\(+z\\). What is the torque direction?",
+      "answer": "Use\n\\[\n\\vec\\tau=\\vec\\mu\\times\\vec B\n\\]\nSince \\(\\hat x\\times\\hat z=-\\hat y\\), the torque points in the \\(-y\\) direction.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "torque-current-loops-20",
+      "prompt": "Explain how the torque equation \\(\\tau=NIAB\\sin\\theta\\) connects wire forces to magnetic dipole alignment.",
+      "answer": "Each side of the loop experiences a wire force from \\(\\vec F=I\\vec L\\times\\vec B\\). In a uniform field the net force on the full loop is zero, but forces on opposite sides form a couple. Summing the torque of that couple gives \\(\\tau=NIAB\\sin\\theta\\), which rotates \\(\\vec\\mu\\) toward alignment with \\(\\vec B\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

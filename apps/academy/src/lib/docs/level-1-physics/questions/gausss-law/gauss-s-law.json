@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gausss-law",
+  "topicId": "gauss-s-law",
+  "topicTitle": "Gauss\u0027s Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "gauss-law-01",
+      "prompt": "State Gauss\u0027s law in integral form.",
+      "answer": "Gauss\u0027s law is\n\\[\n\\oint_S \\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-02",
+      "prompt": "What charge appears in Gauss\u0027s law: total charge in the universe, nearby charge, or net enclosed charge?",
+      "answer": "Gauss\u0027s law uses the net charge enclosed by the closed Gaussian surface.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-03",
+      "prompt": "A closed surface encloses no net charge. What is the net electric flux through it?",
+      "answer": "If\n\\[\nq_{\\mathrm{enc}}=0\n\\]\nthen\n\\[\n\\Phi_E=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-04",
+      "prompt": "A closed surface encloses \\(+2.0\\,\\mathrm{nC}\\). Find the net electric flux. Use \\(\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{C^2\\,N^{-1}\\,m^{-2}}\\).",
+      "answer": "\\[\n\\Phi_E=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]\n\\[\n\\Phi_E=\\frac{2.0\\times10^{-9}}{8.85\\times10^{-12}}\n\\]\n\\[\n\\Phi_E=2.26\\times10^2\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-05",
+      "prompt": "A closed surface encloses \\(-5.0\\,\\mathrm{nC}\\). Find the net electric flux and state its sign meaning.",
+      "answer": "\\[\n\\Phi_E=\\frac{-5.0\\times10^{-9}}{8.85\\times10^{-12}}\n\\]\n\\[\n\\Phi_E=-5.65\\times10^2\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]\nThe negative sign means the net field flux is inward through the closed surface.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-06",
+      "prompt": "A Gaussian surface encloses charges \\(+3.0\\,\\mathrm{nC}\\), \\(-1.0\\,\\mathrm{nC}\\), and \\(-4.0\\,\\mathrm{nC}\\). Find the net flux.",
+      "answer": "First find the net enclosed charge:\n\\[\nq_{\\mathrm{enc}}=(3.0-1.0-4.0)\\,\\mathrm{nC}=-2.0\\,\\mathrm{nC}\n\\]\nThen\n\\[\n\\Phi_E=\\frac{-2.0\\times10^{-9}}{8.85\\times10^{-12}}\n\\]\n\\[\n\\Phi_E=-2.26\\times10^2\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-07",
+      "prompt": "The net flux through a closed surface is \\(6.0\\times10^3\\,\\mathrm{N\\,m^2\\,C^{-1}}\\). Find the net enclosed charge.",
+      "answer": "Gauss\u0027s law gives\n\\[\nq_{\\mathrm{enc}}=\\epsilon_0\\Phi_E\n\\]\n\\[\nq_{\\mathrm{enc}}=(8.85\\times10^{-12})(6.0\\times10^3)\n\\]\n\\[\nq_{\\mathrm{enc}}=5.31\\times10^{-8}\\,\\mathrm{C}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-08",
+      "prompt": "A \\(+4.0\\,\\mathrm{nC}\\) charge is outside a closed surface. What is its contribution to the net flux through that surface?",
+      "answer": "A charge outside the closed surface contributes zero net flux through that surface. Its field may pass through the surface locally, but the net inward and outward contributions cancel.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-09",
+      "prompt": "A \\(+4.0\\,\\mathrm{nC}\\) charge is inside a closed surface, and a \\(-7.0\\,\\mathrm{nC}\\) charge is outside. Find the net flux through the surface.",
+      "answer": "Only enclosed charge contributes to net flux. The outside charge does not appear in \\(q_{\\mathrm{enc}}\\). Thus\n\\[\n\\Phi_E=\\frac{4.0\\times10^{-9}}{8.85\\times10^{-12}}\n\\]\n\\[\n\\Phi_E=4.52\\times10^2\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-10",
+      "prompt": "A point charge \\(q\\) is at the center of a spherical Gaussian surface of radius \\(r\\). Use Coulomb\u0027s field to derive the net flux through the sphere.",
+      "answer": "For a point charge at the center of a sphere,\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r^2}\n\\]\nThe field is radial and has constant magnitude on the sphere, so\n\\[\n\\Phi_E=EA\n\\]\nwith\n\\[\nA=4\\pi r^2\n\\]\nTherefore\n\\[\n\\Phi_E=\\left(\\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r^2}\\right)(4\\pi r^2)\n\\]\n\\[\n\\Phi_E=\\frac{q}{\\epsilon_0}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-11",
+      "prompt": "A point charge \\(q\\) is moved from the center of a spherical Gaussian surface to an off-center position, still inside the surface. What happens to the net flux? Explain.",
+      "answer": "The net flux does not change. Gauss\u0027s law depends on net enclosed charge:\n\\[\n\\Phi_E=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]\nMoving the charge off center changes the local field pattern on the sphere, but the enclosed charge is still \\(q\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-12",
+      "prompt": "A closed surface has zero net flux. Does this prove that \\(\\vec E=0\\) everywhere on the surface? Explain.",
+      "answer": "No. Zero net flux means the total outward flux equals the total inward flux:\n\\[\n\\oint_S\\vec E\\cdot d\\vec A=0\n\\]\nThe field can still be nonzero on the surface. A uniform field through a closed box is a simple example: field enters one side and leaves the other.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-13",
+      "prompt": "A closed surface encloses \\(+q\\) and \\(-q\\). A strong external field also passes through it. What is the net flux?",
+      "answer": "The enclosed net charge is\n\\[\nq_{\\mathrm{enc}}=+q-q=0\n\\]\nExternal fields do not change the net enclosed charge, so\n\\[\n\\Phi_E=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-14",
+      "prompt": "A closed surface encloses charge \\(Q\\). The surface is stretched into a different shape without crossing any charges. How does the net flux change?",
+      "answer": "The net flux does not change if the deformation does not move the surface across any charge. The enclosed charge remains \\(Q\\), so\n\\[\n\\Phi_E=\\frac{Q}{\\epsilon_0}\n\\]\nThe local value of \\(\\vec E\\cdot d\\vec A\\) may change, but the closed-surface integral does not.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-15",
+      "prompt": "A closed surface encloses charge \\(Q\\). Can Gauss\u0027s law always be used to find the electric field magnitude at every point on the surface from \\(Q\\) alone? Explain.",
+      "answer": "No. Gauss\u0027s law always gives the net flux:\n\\[\n\\oint_S\\vec E\\cdot d\\vec A=\\frac{Q}{\\epsilon_0}\n\\]\nTo solve directly for a field magnitude, symmetry must make \\(E\\) constant over useful parts of the surface and make the dot product simple. Without that symmetry, the integral is one equation involving many unknown local field values.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-16",
+      "prompt": "A closed surface encloses three point charges. Two are known, \\(+2q\\) and \\(-5q\\). The measured net flux is \\(-q/\\epsilon_0\\). Find the third enclosed charge.",
+      "answer": "The measured flux corresponds to\n\\[\nq_{\\mathrm{enc}}=\\epsilon_0\\Phi_E=-q\n\\]\nLet the third charge be \\(q_3\\). Then\n\\[\n2q-5q+q_3=-q\n\\]\n\\[\n-3q+q_3=-q\n\\]\n\\[\nq_3=2q\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-17",
+      "prompt": "A point charge outside a closed surface creates a nonzero electric field on the surface. Give a flux argument for why its net flux contribution is zero.",
+      "answer": "Field lines from an outside charge that enter the closed surface must also leave it, because the source of those lines is not enclosed. Entering portions contribute negative flux and leaving portions contribute positive flux. The total contribution from that outside charge is therefore zero:\n\\[\n\\Phi_{\\mathrm{outside\\ charge}}=0\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-18",
+      "prompt": "Two closed surfaces \\(S_1\\) and \\(S_2\\) enclose the same net charge but have different shapes. Explain what must be the same and what may be different about their electric flux integrals.",
+      "answer": "The total flux integrals must be the same because both surfaces enclose the same net charge:\n\\[\n\\oint_{S_1}\\vec E\\cdot d\\vec A=\\oint_{S_2}\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]\nWhat may differ is the local field magnitude, the local angle between \\(\\vec E\\) and \\(d\\vec A\\), and how the flux is distributed across each surface.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-19",
+      "prompt": "A Gaussian surface is chosen so that \\(\\vec E\\) is not constant and not everywhere normal to the surface. Explain why Gauss\u0027s law still holds but may not directly solve for \\(E\\).",
+      "answer": "Gauss\u0027s law still holds:\n\\[\n\\oint_S\\vec E\\cdot d\\vec A=\\frac{q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]\nBut if \\(\\vec E\\) is not constant and not everywhere normal or tangent in a useful way, the integral cannot be reduced to \\(EA\\). The law then gives a constraint on the total flux, not a direct value for the local field magnitude.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-law-20",
+      "prompt": "Starting with the field of a point charge at the center of a sphere, derive \\(\\Phi_E=q/\\epsilon_0\\). Then argue why this result supports the enclosed-charge form of Gauss\u0027s law rather than a law depending on surface radius.",
+      "answer": "For a centered point charge,\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r^2}\n\\]\nThe sphere area is\n\\[\nA=4\\pi r^2\n\\]\nThe field is radial and normal to the sphere, so\n\\[\n\\Phi_E=EA\n\\]\n\\[\n\\Phi_E=\\left(\\frac{1}{4\\pi\\epsilon_0}\\frac{q}{r^2}\\right)(4\\pi r^2)=\\frac{q}{\\epsilon_0}\n\\]\nThe radius cancels because the inverse-square decrease in field exactly balances the growth of spherical area. That cancellation points to a law about source charge enclosed by a closed surface, not a law about a particular radius.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

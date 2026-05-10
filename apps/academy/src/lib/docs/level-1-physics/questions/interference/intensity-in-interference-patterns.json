@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "interference",
+  "topicId": "intensity-in-interference-patterns",
+  "topicTitle": "Intensity in Interference Patterns",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "interference-intensity-01",
+      "prompt": "For two equal coherent beams each of intensity \\(I_0\\), write the intensity as a function of phase difference \\(\\delta\\).",
+      "answer": "\\[\\nI=4I_0\\cos^2\\left(\\frac{\\delta}{2}\\right)\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-02",
+      "prompt": "For two equal coherent beams each of intensity \\(I_0\\), find \\(I\\) at \\(\\delta=0\\) and \\(\\delta=\\pi\\).",
+      "answer": "At \\(\\delta=0\\),\\n\\[\\nI=4I_0\\n\\]\\nAt \\(\\delta=\\pi\\),\\n\\[\\nI=4I_0\\cos^2\\left(\\frac{\\pi}{2}\\right)=0\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-03",
+      "prompt": "Write the general two-beam interference intensity formula for intensities \\(I_1\\) and \\(I_2\\).",
+      "answer": "\\[\\nI=I_1+I_2+2\\sqrt{I_1I_2}\\cos\\delta\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-04",
+      "prompt": "Two equal beams each have \\(I_0=5.0\\,\\mathrm{W\\,m^{-2}}\\). Find the maximum and minimum intensities.",
+      "answer": "For equal coherent beams,\\n\\[\\nI_{\\max}=4I_0=20\\,\\mathrm{W\\,m^{-2}}\\n\\]\\nand\\n\\[\\nI_{\\min}=0\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-05",
+      "prompt": "Two coherent beams have intensities \\(16\\) and \\(9\\,\\mathrm{W\\,m^{-2}}\\). Find \\(I_{\\max}\\) and \\(I_{\\min}\\).",
+      "answer": "\\[\\nI_{\\max}=\\left(\\sqrt{16}+\\sqrt9\\right)^2=(4+3)^2=49\\,\\mathrm{W\\,m^{-2}}\\n\\]\\n\\[\\nI_{\\min}=\\left(4-3\\right)^2=1\\,\\mathrm{W\\,m^{-2}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-06",
+      "prompt": "For \\(I_1=16\\), \\(I_2=9\\,\\mathrm{W\\,m^{-2}}\\), find the intensity when \\(\\delta=\\pi/2\\).",
+      "answer": "Since \\(\\cos(\\pi/2)=0\\),\\n\\[\\nI=I_1+I_2=16+9=25\\,\\mathrm{W\\,m^{-2}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-07",
+      "prompt": "A pattern has \\(I_{\\max}=49\\) and \\(I_{\\min}=1\\,\\mathrm{W\\,m^{-2}}\\). Find the visibility.",
+      "answer": "\\[\\nV=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}=\\frac{49-1}{49+1}=0.96\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-08",
+      "prompt": "A double-slit point has path difference \\(\\lambda/3\\). For equal beams each of intensity \\(I_0\\), find the resultant intensity.",
+      "answer": "\\[\\n\\delta=\\frac{2\\pi}{3}\\n\\]\\nThus\\n\\[\\nI=4I_0\\cos^2\\left(\\frac{\\pi}{3}\\right)=I_0\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-09",
+      "prompt": "Derive \\(I=4I_0\\cos^2(\\delta/2)\\) for two equal coherent beams.",
+      "answer": "The resultant field amplitude is the phasor sum of two equal amplitudes:\\n\\[\\nE_{\\mathrm{net},0}=2E_0\\cos\\left(\\frac{\\delta}{2}\\right)\\n\\]\\nSince intensity is proportional to amplitude squared and \\(I_0\\propto E_0^2\\),\\n\\[\\nI=I_0\\left[2\\cos\\left(\\frac{\\delta}{2}\\right)\\right]^2=4I_0\\cos^2\\left(\\frac{\\delta}{2}\\right)\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-10",
+      "prompt": "Derive the unequal-beam maximum and minimum intensities from the general formula.",
+      "answer": "The general formula is\\n\\[\\nI=I_1+I_2+2\\sqrt{I_1I_2}\\cos\\delta\\n\\]\\nMaximum occurs when \\(\\cos\\delta=1\\):\\n\\[\\nI_{\\max}=I_1+I_2+2\\sqrt{I_1I_2}=\\left(\\sqrt{I_1}+\\sqrt{I_2}\\right)^2\\n\\]\\nMinimum occurs when \\(\\cos\\delta=-1\\):\\n\\[\\nI_{\\min}=\\left(\\sqrt{I_1}-\\sqrt{I_2}\\right)^2\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-11",
+      "prompt": "A measured interference pattern has visibility \\(V=0.80\\). If \\(I_{\\max}=90\\,\\mathrm{W\\,m^{-2}}\\), find \\(I_{\\min}\\).",
+      "answer": "\\[\\nV=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\\n\\]\\nLet \\(x=I_{\\min}\\). Then\\n\\[\\n0.80=\\frac{90-x}{90+x}\\n\\]\\n\\[\\n72+0.80x=90-x\\Rightarrow1.80x=18\\Rightarrow x=10\\,\\mathrm{W\\,m^{-2}}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-12",
+      "prompt": "Two beams have intensity ratio \\(9:1\\). Find the visibility of their interference fringes.",
+      "answer": "Let \\(I_1=9I\\), \\(I_2=I\\). Then\\n\\[\\nI_{\\max}=(3\\sqrt I+\\sqrt I)^2=16I\\n\\]\\nand\\n\\[\\nI_{\\min}=(3\\sqrt I-\\sqrt I)^2=4I\\n\\]\\nThus\\n\\[\\nV=\\frac{16I-4I}{16I+4I}=0.60\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-13",
+      "prompt": "A phase difference fluctuates uniformly over \\(0\\) to \\(2\\pi\\) during exposure. Use the intensity formula to find the observed average.",
+      "answer": "The average of \\(\\cos\\delta\\) over a full cycle is zero. Therefore\\n\\[\\n\\langle I\\rangle=I_1+I_2+2\\sqrt{I_1I_2}\\langle\\cos\\delta\\rangle=I_1+I_2\\n\\]\\nThe interference term disappears.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-14",
+      "prompt": "A pattern has nonzero minimum intensity. Give two distinct physical reasons and connect each to a model parameter.",
+      "answer": "First, unequal beam intensities make\\n\\[\\nI_{\\min}=\\left(\\sqrt{I_1}-\\sqrt{I_2}\\right)^2>0\\n\\]\\nSecond, imperfect coherence reduces or averages the interference term \\(2\\sqrt{I_1I_2}\\cos\\delta\\), so cancellation is incomplete even if average intensities are similar.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-15",
+      "prompt": "A two-beam pattern has \\(I_{\\max}=36\\) and \\(I_{\\min}=4\\,\\mathrm{W\\,m^{-2}}\\). Recover the individual beam intensities assuming perfect coherence.",
+      "answer": "Let \\(a=\\sqrt{I_1}\\), \\(b=\\sqrt{I_2}\\) with \\(a\\ge b\\). Then\\n\\[\\na+b=\\sqrt{36}=6,\\quad a-b=\\sqrt4=2\\n\\]\\nSolving gives \\(a=4\\), \\(b=2\\). Therefore\\n\\[\\nI_1=16\\,\\mathrm{W\\,m^{-2}},\\quad I_2=4\\,\\mathrm{W\\,m^{-2}}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-16",
+      "prompt": "For equal beams, find the phase width around a maximum for which intensity is at least half the maximum.",
+      "answer": "For equal beams,\\n\\[\\n\\frac{I}{I_{\\max}}=\\cos^2\\left(\\frac{\\delta}{2}\\right)\\n\\]\\nHalf maximum requires\\n\\[\\n\\cos^2\\left(\\frac{\\delta}{2}\\right)=\\frac12\\n\\]\\nNear \\(\\delta=0\\),\\n\\[\\n\\left|\\frac{\\delta}{2}\\right|=\\frac{\\pi}{4}\\Rightarrow |\\delta|=\\frac{\\pi}{2}\\n\\]\\nThe full phase width is \\(\\pi\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-17",
+      "prompt": "A detector saturates at \\(30\\,\\mathrm{W\\,m^{-2}}\\). Two equal coherent beams each have \\(I_0=10\\,\\mathrm{W\\,m^{-2}}\\). Which phase range causes saturation?",
+      "answer": "Intensity is\\n\\[\\nI=4I_0\\cos^2\\left(\\frac{\\delta}{2}\\right)=40\\cos^2\\left(\\frac{\\delta}{2}\\right)\\n\\]\\nSaturation requires \\(I\\ge30\\):\\n\\[\\n\\cos^2\\left(\\frac{\\delta}{2}\\right)\\ge0.75\\n\\]\\nNear a maximum,\\n\\[\\n\\left|\\frac{\\delta}{2}\\right|\\le\\frac{\\pi}{6}\\Rightarrow |\\delta|\\le\\frac{\\pi}{3}\\n\\]\\nmodulo \\(2\\pi\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-18",
+      "prompt": "Show that two coherent beams can produce local intensity greater than the sum of their separate intensities without violating energy conservation.",
+      "answer": "At maxima, constructive interference concentrates energy into bright regions. At minima, destructive interference removes energy from dark regions. Integrated over the full pattern, the redistributed intensity equals the total input power, assuming no loss. Energy is redistributed spatially, not created.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-19",
+      "prompt": "For unequal beams, derive visibility directly in terms of \\(I_1\\) and \\(I_2\\).",
+      "answer": "Using\\n\\[\\nI_{\\max}=I_1+I_2+2\\sqrt{I_1I_2}\\n\\]\\nand\\n\\[\\nI_{\\min}=I_1+I_2-2\\sqrt{I_1I_2}\\n\\]\\nthen\\n\\[\\nV=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}=\\frac{4\\sqrt{I_1I_2}}{2(I_1+I_2)}=\\frac{2\\sqrt{I_1I_2}}{I_1+I_2}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "interference-intensity-20",
+      "prompt": "Prove that maximum fringe visibility requires equal beam intensities.",
+      "answer": "The visibility for perfect coherence is\\n\\[\\nV=\\frac{2\\sqrt{I_1I_2}}{I_1+I_2}\\n\\]\\nBy the arithmetic-geometric mean inequality,\\n\\[\\nI_1+I_2\\ge2\\sqrt{I_1I_2}\\n\\]\\nso \\(V\\le1\\). Equality occurs only when \\(I_1=I_2\\). Therefore maximum visibility requires equal intensities.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

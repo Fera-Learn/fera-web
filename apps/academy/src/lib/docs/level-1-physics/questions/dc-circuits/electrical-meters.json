@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "dc-circuits",
+  "topicId": "electrical-meters",
+  "topicTitle": "Electrical Meters",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electrical-meters-01",
+      "prompt": "What resistance should an ideal ammeter have?",
+      "answer": "An ideal ammeter has zero resistance:\n\\[\nR_A=0\n\\]\nThat way it does not change the current it is meant to measure.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-02",
+      "prompt": "What resistance should an ideal voltmeter have?",
+      "answer": "An ideal voltmeter has infinite resistance:\n\\[\nR_V\\rightarrow\\infty\n\\]\nThat way it draws no current from the circuit it is measuring.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-03",
+      "prompt": "Should an ammeter be connected in series or in parallel with the element whose current is measured?",
+      "answer": "An ammeter must be connected in series with the element, so the same current passes through the element and the meter.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-04",
+      "prompt": "Should a voltmeter be connected in series or in parallel with the element whose voltage is measured?",
+      "answer": "A voltmeter must be connected in parallel with the element, so the meter and the element share the same potential difference.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-05",
+      "prompt": "A \\(10.0\\,\\Omega\\) resistor is connected to an ideal \\(5.0\\,\\mathrm{V}\\) source. The true current is measured with an ammeter of resistance \\(0.50\\,\\Omega\\). What current does the ammeter read, and what is the percent error relative to the undisturbed current?",
+      "answer": "The undisturbed current is\n\\[\nI_0=\\frac{5.0}{10.0}=0.500\\,\\mathrm{A}\n\\]\nWith the ammeter inserted, the total series resistance is\n\\[\nR_{\\mathrm{tot}}=10.0+0.50=10.50\\,\\Omega\n\\]\nso\n\\[\nI_{\\mathrm{meas}}=\\frac{5.0}{10.50}=0.476\\,\\mathrm{A}\n\\]\nPercent error:\n\\[\n\\frac{0.476-0.500}{0.500}\\times100\\%=-4.8\\%\n\\]\nThe meter reads low because it adds resistance.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-06",
+      "prompt": "A divider has \\(6.0\\,\\mathrm{k}\\Omega\\) on top and \\(6.0\\,\\mathrm{k}\\Omega\\) on bottom across \\(12\\,\\mathrm{V}\\). A voltmeter of resistance \\(6.0\\,\\mathrm{k}\\Omega\\) is connected across the bottom resistor. Find the loaded reading.",
+      "answer": "The meter is in parallel with the bottom resistor:\n\\[\nR_{\\mathrm{bottom,loaded}}=6.0\\,\\mathrm{k}\\Omega\\parallel6.0\\,\\mathrm{k}\\Omega=3.0\\,\\mathrm{k}\\Omega\n\\]\nThe loaded divider reading is\n\\[\nV_{\\mathrm{read}}=12\\frac{3.0}{6.0+3.0}=4.0\\,\\mathrm{V}\n\\]\nWithout loading it would have been \\(6.0\\,\\mathrm{V}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-07",
+      "prompt": "A galvanometer has \\(R_g=50\\,\\Omega\\) and full-scale current \\(I_g=1.0\\,\\mathrm{mA}\\). What shunt resistance converts it into a \\(1.0\\,\\mathrm{A}\\) ammeter?",
+      "answer": "The shunt carries \\(I-I_g\\), and it has the same voltage as the galvanometer:\n\\[\nR_s=\\frac{I_gR_g}{I-I_g}\n=\\frac{(1.0\\times10^{-3})(50)}{1.0-1.0\\times10^{-3}}\n=5.0\\times10^{-2}\\,\\Omega\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-08",
+      "prompt": "A galvanometer has \\(R_g=100\\,\\Omega\\) and \\(I_g=50\\,\\mu\\mathrm{A}\\). What series multiplier converts it into a \\(10\\,\\mathrm{V}\\) voltmeter?",
+      "answer": "For a voltmeter range,\n\\[\nR_m=\\frac{V}{I_g}-R_g\n\\]\nThus\n\\[\nR_m=\\frac{10}{50\\times10^{-6}}-100\n=199900\\,\\Omega\n\\]\nSo \\(R_m\\approx2.00\\times10^5\\,\\Omega\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-09",
+      "prompt": "A \\(10\\,\\mathrm{V}\\) divider has \\(100\\,\\mathrm{k}\\Omega\\) on top and \\(100\\,\\mathrm{k}\\Omega\\) on bottom. A \\(1.0\\,\\mathrm{M}\\Omega\\) voltmeter measures the bottom resistor. Find the measured voltage.",
+      "answer": "The bottom resistance is loaded by the meter:\n\\[\nR_b=100\\,\\mathrm{k}\\Omega\\parallel1.0\\,\\mathrm{M}\\Omega\n\\]\n\\[\nR_b=\\frac{(100)(1000)}{100+1000}\\,\\mathrm{k}\\Omega\n=90.9\\,\\mathrm{k}\\Omega\n\\]\nThe measured voltage is\n\\[\nV_{\\mathrm{meas}}=10\\frac{90.9}{100+90.9}\n=4.76\\,\\mathrm{V}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-10",
+      "prompt": "Why is it dangerous to connect an ammeter directly in parallel with a low-resistance source?",
+      "answer": "An ammeter has very small resistance. Placing it directly in parallel with a low-resistance source can create a very large current, nearly a short circuit. That can damage the meter, the source, or both.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-11",
+      "prompt": "Why should a voltmeter have a resistance much larger than the resistance it measures across?",
+      "answer": "A voltmeter is a parallel path. If \\(R_V\\) is not much larger than the measured resistance, it changes the equivalent resistance of that part of the circuit and changes the voltage. A large \\(R_V\\) makes the meter current negligible.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-12",
+      "prompt": "A \\(2.0\\,\\Omega\\) circuit is powered by \\(6.0\\,\\mathrm{V}\\). An ammeter with \\(0.20\\,\\Omega\\) resistance is inserted in series. Find the true current without the meter and the current with the meter.",
+      "answer": "Without the meter,\n\\[\nI_0=\\frac{6.0}{2.0}=3.0\\,\\mathrm{A}\n\\]\nWith the ammeter in series,\n\\[\nR_{\\mathrm{tot}}=2.0+0.20=2.20\\,\\Omega\n\\]\n\\[\nI_{\\mathrm{meas}}=\\frac{6.0}{2.20}=2.73\\,\\mathrm{A}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-13",
+      "prompt": "A voltmeter has sensitivity \\(20\\,\\mathrm{k}\\Omega/\\mathrm{V}\\). What is its resistance on the \\(10\\,\\mathrm{V}\\) range?",
+      "answer": "Sensitivity means resistance per volt of range:\n\\[\nR_V=(20\\,\\mathrm{k}\\Omega/\\mathrm{V})(10\\,\\mathrm{V})\n=200\\,\\mathrm{k}\\Omega\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-14",
+      "prompt": "Derive the ammeter shunt formula \\(R_s=\\frac{I_gR_g}{I-I_g}\\).",
+      "answer": "At full-scale total current \\(I\\), the galvanometer carries \\(I_g\\) and the shunt carries \\(I-I_g\\). Because they are in parallel, their voltages are equal:\n\\[\nI_gR_g=(I-I_g)R_s\n\\]\nSolving for the shunt gives\n\\[\nR_s=\\frac{I_gR_g}{I-I_g}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-15",
+      "prompt": "Derive the voltmeter multiplier formula \\(R_m=\\frac{V}{I_g}-R_g\\).",
+      "answer": "For a voltmeter range \\(V\\), the galvanometer and multiplier are in series, so the same full-scale current \\(I_g\\) flows through both:\n\\[\nV=I_g(R_g+R_m)\n\\]\nDivide by \\(I_g\\):\n\\[\n\\frac{V}{I_g}=R_g+R_m\n\\]\nThus\n\\[\nR_m=\\frac{V}{I_g}-R_g\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-16",
+      "prompt": "A meter movement has \\(I_g=100\\,\\mu\\mathrm{A}\\) and \\(R_g=1.0\\,\\mathrm{k}\\Omega\\). What voltage makes the bare movement full scale?",
+      "answer": "The bare movement reaches full scale when\n\\[\nV_g=I_gR_g\n\\]\n\\[\nV_g=(100\\times10^{-6})(1.0\\times10^3)=0.100\\,\\mathrm{V}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-17",
+      "prompt": "Using the same \\(I_g=100\\,\\mu\\mathrm{A}\\), \\(R_g=1.0\\,\\mathrm{k}\\Omega\\) movement, find the series resistor needed for a \\(5.0\\,\\mathrm{V}\\) voltmeter range.",
+      "answer": "Use\n\\[\nR_m=\\frac{V}{I_g}-R_g\n\\]\n\\[\nR_m=\\frac{5.0}{100\\times10^{-6}}-1.0\\times10^3\n=50000-1000\n=49000\\,\\Omega\n\\]\nSo the series resistor is \\(49\\,\\mathrm{k}\\Omega\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-18",
+      "prompt": "Using the same \\(I_g=100\\,\\mu\\mathrm{A}\\), \\(R_g=1.0\\,\\mathrm{k}\\Omega\\) movement, find the shunt resistor needed for a \\(10.0\\,\\mathrm{mA}\\) ammeter range.",
+      "answer": "Use\n\\[\nR_s=\\frac{I_gR_g}{I-I_g}\n\\]\n\\[\nR_s=\\frac{(100\\times10^{-6})(1.0\\times10^3)}{10.0\\times10^{-3}-100\\times10^{-6}}\n\\]\n\\[\nR_s=\\frac{0.100}{0.00990}=10.1\\,\\Omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-19",
+      "prompt": "An unknown resistor has a voltmeter connected across it. The voltmeter reads \\(10.0\\,\\mathrm{V}\\) and has resistance \\(1.0\\,\\mathrm{k}\\Omega\\). An ammeter outside the parallel combination reads \\(0.210\\,\\mathrm{A}\\). Find the unknown resistance after correcting for voltmeter current.",
+      "answer": "The voltmeter current is\n\\[\nI_V=\\frac{10.0}{1000}=0.0100\\,\\mathrm{A}\n\\]\nThe ammeter reads the sum of resistor current and voltmeter current:\n\\[\nI_R=0.210-0.0100=0.200\\,\\mathrm{A}\n\\]\nThus the unknown resistance is\n\\[\nR=\\frac{10.0}{0.200}=50.0\\,\\Omega\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electrical-meters-20",
+      "prompt": "In the ammeter-voltmeter method for measuring resistance, compare the preferred meter arrangement for a very low resistance with the preferred arrangement for a very high resistance. Explain the error being minimized in each case.",
+      "answer": "For a very low resistance, place the voltmeter across the unknown resistor itself. The main error to avoid is including the ammeter\u0027s voltage drop, because \\(R_A\\) may be comparable to the unknown resistance. The ammeter may read a tiny extra voltmeter current, but that is usually small compared with the large current through a low resistance.\n\nFor a very high resistance, arrange the ammeter so it measures only the current through the unknown resistor. The main error to avoid is the voltmeter current being comparable to the unknown-resistor current. The voltmeter may include the ammeter\u0027s small voltage drop, but \\(R_A\\) is usually negligible compared with a high resistance.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

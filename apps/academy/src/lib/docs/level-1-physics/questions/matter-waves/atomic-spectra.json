@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "atomic-spectra",
+  "topicTitle": "Atomic Spectra",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-atomic-spectra-01",
+      "prompt": "What is a line spectrum?",
+      "answer": "A line spectrum contains light at discrete wavelengths rather than a continuous range.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-02",
+      "prompt": "State the photon energy relation in terms of frequency.",
+      "answer": "\\[\nE=hf\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-03",
+      "prompt": "State the photon energy relation in terms of wavelength.",
+      "answer": "\\[\nE=\\frac{hc}{\\lambda}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-04",
+      "prompt": "A photon has frequency \\(5.00\\times10^{14}\\,\\mathrm{Hz}\\). Find its energy.",
+      "answer": "\\[\nE=hf=(6.63\\times10^{-34})(5.00\\times10^{14})=3.32\\times10^{-19}\\,\\mathrm J\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-05",
+      "prompt": "A transition emits a \\(2.00\\,\\mathrm{eV}\\) photon. Find its wavelength using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\n\\lambda=\\frac{hc}{E}=\\frac{1240}{2.00}=620\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-06",
+      "prompt": "For emission, how are the initial and final atomic energies related to the photon energy?",
+      "answer": "For emission the atom moves downward in energy:\n\\[\nE_\\gamma=E_i-E_f\n\\]\nwith \\(E_i>E_f\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-07",
+      "prompt": "An atom drops from \\(-1.50\\,\\mathrm{eV}\\) to \\(-3.40\\,\\mathrm{eV}\\). Find the emitted photon energy.",
+      "answer": "\\[\nE_\\gamma=E_i-E_f=(-1.50)-(-3.40)=1.90\\,\\mathrm{eV}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-08",
+      "prompt": "For the \\(1.90\\,\\mathrm{eV}\\) photon, find the wavelength using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\n\\lambda=\\frac{1240}{1.90}=653\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-09",
+      "prompt": "Why do atoms absorb only selected photon wavelengths?",
+      "answer": "An atom can absorb a photon only if the photon energy matches the difference between two allowed atomic energy levels. Other photon energies do not match an allowed transition.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-10",
+      "prompt": "An atom has levels \\(0\\), \\(2.0\\,\\mathrm{eV}\\), and \\(5.0\\,\\mathrm{eV}\\). List the possible emission photon energies.",
+      "answer": "Downward transitions give energy differences:\n\\[\n5.0-2.0=3.0\\,\\mathrm{eV}\n\\]\n\\[\n5.0-0=5.0\\,\\mathrm{eV}\n\\]\n\\[\n2.0-0=2.0\\,\\mathrm{eV}\n\\]\nPossible emitted photon energies are \\(2.0\\), \\(3.0\\), and \\(5.0\\,\\mathrm{eV}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-11",
+      "prompt": "Why are emission spectra useful for identifying elements?",
+      "answer": "Each element has a distinctive set of allowed electron energy levels. The photon energies from transitions between those levels form a characteristic pattern of spectral lines.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-12",
+      "prompt": "A spectral line at \\(410\\,\\mathrm{nm}\\) is emitted. Find the photon energy in electronvolts.",
+      "answer": "\\[\nE=\\frac{1240\\,\\mathrm{eV\\,nm}}{410\\,\\mathrm{nm}}=3.02\\,\\mathrm{eV}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-13",
+      "prompt": "An atom absorbs \\(3.0\\,\\mathrm{eV}\\) from its ground state and later emits photons of \\(1.0\\,\\mathrm{eV}\\) and \\(2.0\\,\\mathrm{eV}\\). Explain how this is possible.",
+      "answer": "The atom can absorb one photon to reach an excited state \\(3.0\\,\\mathrm{eV}\\) above the ground state, then return in two steps. The emitted photon energies add to the original absorbed energy: \\(1.0+2.0=3.0\\,\\mathrm{eV}\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-14",
+      "prompt": "How does an absorption spectrum differ from an emission spectrum for the same gas?",
+      "answer": "An emission spectrum has bright lines at wavelengths the gas emits. An absorption spectrum has dark lines at wavelengths removed from a continuous background. The line wavelengths correspond to the same allowed energy gaps.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-15",
+      "prompt": "Why does a line spectrum support quantized atomic energy rather than arbitrary electron energies?",
+      "answer": "If electron energies were arbitrary, emitted photon energies would form a continuous range. Discrete spectral lines show that only certain energy differences are available, so atomic energies are quantized.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-16",
+      "prompt": "Derive \\(E_i-E_f=hc/\\lambda\\) for an emitted photon.",
+      "answer": "Energy conservation gives\n\\[\nE_\\gamma=E_i-E_f\n\\]\nThe photon energy is\n\\[\nE_\\gamma=hf\n\\]\nand for light\n\\[\nf=\\frac{c}{\\lambda}\n\\]\nTherefore\n\\[\nE_i-E_f=\\frac{hc}{\\lambda}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-17",
+      "prompt": "Explain why a photon with slightly too little energy is not absorbed by an isolated atom.",
+      "answer": "The final atomic state must be an allowed energy level. If the photon energy is too small, energy conservation cannot place the atom exactly on that level. For an isolated atom, the unmatched photon is not absorbed in that transition.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-18",
+      "prompt": "A gas shows lines at energies \\(1.5\\), \\(2.0\\), and \\(3.5\\,\\mathrm{eV}\\). Suggest a simple three-level structure that could produce them.",
+      "answer": "One possible structure has levels at \\(0\\), \\(1.5\\,\\mathrm{eV}\\), and \\(3.5\\,\\mathrm{eV}\\). The possible downward differences are \\(1.5\\), \\(2.0\\), and \\(3.5\\,\\mathrm{eV}\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-19",
+      "prompt": "Why do real spectral lines have finite width rather than exact mathematical zero width?",
+      "answer": "Excited states have finite lifetimes, which creates an energy uncertainty. Collisions, thermal motion, and fields can also broaden lines. The ideal transition energy is discrete, but real measurements show finite linewidth.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-atomic-spectra-20",
+      "prompt": "Connect atomic spectra to the failure of a classical continuous-energy atom.",
+      "answer": "A classical atom would allow electrons to radiate over a continuous range of orbital energies, producing a continuous spectrum and unstable collapse. Observed line spectra require stationary states with discrete energies and transitions between them.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

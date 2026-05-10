@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "superconductivity",
+  "topicTitle": "Superconductivity",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "superconductivity-01",
+      "prompt": "What is the defining electrical property of a superconductor below its critical temperature?",
+      "answer": "Below its critical temperature \\(T_c\\), a superconductor has zero dc electrical resistance. A steady current can persist without an applied emf in an ideal superconducting loop.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-02",
+      "prompt": "What is the Meissner effect?",
+      "answer": "The Meissner effect is the expulsion of magnetic field from the bulk of a material when it becomes superconducting. It shows that a superconductor is more than just a perfect conductor.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-03",
+      "prompt": "What is meant by the critical temperature of a superconducting material?",
+      "answer": "The critical temperature \\(T_c\\) is the temperature below which the material enters the superconducting state, provided other conditions such as magnetic field and current remain below their critical values.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-04",
+      "prompt": "A superconducting wire carries \\(12\\,\\mathrm{A}\\) with resistance \\(0\\). What is the ideal dc power dissipated as heat?",
+      "answer": "\\[\\nP=I^2R=(12)^2(0)=0\\,\\mathrm{W}\\n\\]\\nIn the ideal superconducting state, there is no dc Joule heating.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-05",
+      "prompt": "A current persists in a superconducting ring after the battery used to start it is removed. Why is this possible?",
+      "answer": "Because the ring has zero dc resistance, no electric field is needed to maintain the current and there is no resistive energy loss. The current can persist for a very long time in an ideal superconductor.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-06",
+      "prompt": "What are the three common critical limits that can destroy superconductivity?",
+      "answer": "Superconductivity can be destroyed by exceeding the critical temperature \\(T_c\\), the critical magnetic field \\(B_c\\) or \\(H_c\\), or the critical current density \\(J_c\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-07",
+      "prompt": "A material has \\(T_c=9.2\\,\\mathrm{K}\\). Is it superconducting at \\(12\\,\\mathrm{K}\\), assuming the field and current are below critical values?",
+      "answer": "No. Since \\(12\\,\\mathrm{K}>9.2\\,\\mathrm{K}\\), the material is above its critical temperature and is in its normal resistive state.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-08",
+      "prompt": "A superconducting wire has critical current density \\(J_c=5.0\\times10^8\\,\\mathrm{A\\,m^{-2}}\\) and cross-sectional area \\(2.0\\times10^{-8}\\,\\mathrm{m^2}\\). Find its critical current.",
+      "answer": "\\[\\nI_c=J_cA=(5.0\\times10^8)(2.0\\times10^{-8})=10\\,\\mathrm{A}\\n\\]\\nCurrents larger than this can drive the wire out of the superconducting state.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-09",
+      "prompt": "What is the difference between type-I and type-II superconductors?",
+      "answer": "Type-I superconductors lose superconductivity abruptly above a critical field. Type-II superconductors have two critical fields and can enter a mixed state where magnetic flux penetrates in quantized vortices while the material remains superconducting between them.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-10",
+      "prompt": "What are Cooper pairs?",
+      "answer": "Cooper pairs are paired electrons that act collectively in the superconducting state. In conventional superconductors, an effective attraction mediated by lattice vibrations helps electrons form these pairs.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-11",
+      "prompt": "Why does zero resistance not mean that there is no current in a superconductor?",
+      "answer": "Ohm's law in the normal-resistor form \\(V=IR\\) does not imply \\(I=0\\) when \\(R=0\\). It implies that an ideal steady current can flow with zero voltage drop.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-12",
+      "prompt": "A superconducting loop has inductance \\(0.20\\,\\mathrm{H}\\) and carries \\(3.0\\,\\mathrm{A}\\). How much magnetic energy is stored?",
+      "answer": "\\[\\nU=\\frac12LI^2=\\frac12(0.20)(3.0)^2=0.90\\,\\mathrm{J}\\n\\]\\nThe energy is stored in the magnetic field associated with the current.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-13",
+      "prompt": "What is magnetic flux quantization in a superconducting loop?",
+      "answer": "The magnetic flux linked with a superconducting loop is restricted to discrete values, usually written as integer multiples of the flux quantum \\(\\Phi_0=h/(2e)\\). This follows from the coherent quantum state of Cooper pairs.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-14",
+      "prompt": "Calculate the superconducting flux quantum using \\(h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}\\) and \\(e=1.60\\times10^{-19}\\,\\mathrm{C}\\).",
+      "answer": "\\[\\n\\Phi_0=\\frac{h}{2e}=\\frac{6.63\\times10^{-34}}{2(1.60\\times10^{-19})}=2.07\\times10^{-15}\\,\\mathrm{Wb}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-15",
+      "prompt": "Why can a magnet levitate above a superconductor?",
+      "answer": "The Meissner effect induces surface currents that oppose magnetic-field penetration. Those currents create magnetic forces that can support the magnet. In type-II materials, flux pinning can also stabilize the levitation.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-16",
+      "prompt": "What is flux pinning in a type-II superconductor?",
+      "answer": "Flux pinning occurs when quantized magnetic vortices are held in place by defects or inhomogeneities in the material. It helps prevent vortex motion, which would otherwise dissipate energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-17",
+      "prompt": "A superconducting magnet is useful in MRI machines. Which superconducting property is most important for this application?",
+      "answer": "The key property is the ability to carry large persistent currents with negligible dc resistance. That allows strong, stable magnetic fields without continuous resistive power loss in the coil.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-18",
+      "prompt": "How does the Meissner effect distinguish a superconductor from an idealized perfect conductor?",
+      "answer": "A perfect conductor would keep whatever magnetic field pattern existed before its resistance became zero. A superconductor actively expels magnetic field from its interior when it enters the superconducting state, showing that it is a distinct thermodynamic phase.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-19",
+      "prompt": "What is the London penetration depth?",
+      "answer": "The London penetration depth is the characteristic distance over which an external magnetic field decays inside a superconductor. The field is not cut off infinitely sharply at the surface; it penetrates a thin surface layer.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "superconductivity-20",
+      "prompt": "A sample is below \\(T_c\\) but is placed in a magnetic field larger than its critical field. What happens?",
+      "answer": "It leaves the superconducting state and becomes normal, even though its temperature is below \\(T_c\\). Superconductivity requires temperature, magnetic field, and current to all remain within their critical limits.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

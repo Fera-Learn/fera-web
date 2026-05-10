@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "work-during-volume-changes",
+  "topicTitle": "Work During Volume Changes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "volume-work-01",
+      "prompt": "What is the pressure-volume work done by a gas during a constant-volume process?",
+      "answer": "Pressure-volume work is\n\\[\nW=\\int p\\,dV\n\\]\nFor a constant-volume process, \\(dV=0\\), so\n\\[\nW=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-02",
+      "prompt": "A gas expands at constant pressure \\(1.5\\times10^5\\,\\mathrm{Pa}\\) by \\(0.020\\,\\mathrm{m^3}\\). Find \\(W\\).",
+      "answer": "For constant pressure,\n\\[\nW=p\\Delta V\n\\]\n\\[\nW=(1.5\\times10^5)(0.020)=3.0\\times10^3\\,\\mathrm{J}\n\\]\nThe gas expands, so the work is positive.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-03",
+      "prompt": "A gas is compressed at constant pressure \\(2.0\\times10^5\\,\\mathrm{Pa}\\) from \\(0.050\\) to \\(0.030\\,\\mathrm{m^3}\\). Find \\(W\\).",
+      "answer": "The volume change is\n\\[\n\\Delta V=0.030-0.050=-0.020\\,\\mathrm{m^3}\n\\]\nAt constant pressure,\n\\[\nW=p\\Delta V\n\\]\n\\[\nW=(2.0\\times10^5)(-0.020)=-4.0\\times10^3\\,\\mathrm{J}\n\\]\nThe negative sign shows compression.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-04",
+      "prompt": "A gas pressure varies linearly from \\(1.0\\times10^5\\) to \\(3.0\\times10^5\\,\\mathrm{Pa}\\) while volume increases from \\(0.020\\) to \\(0.050\\,\\mathrm{m^3}\\). Find the work done by the gas.",
+      "answer": "For a linear pressure change, the work is the average pressure times the volume change:\n\\[\nW=\\frac{p_i+p_f}{2}(V_f-V_i)\n\\]\n\\[\nW=\\frac{1.0\\times10^5+3.0\\times10^5}{2}(0.050-0.020)\n\\]\n\\[\nW=(2.0\\times10^5)(0.030)=6.0\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-05",
+      "prompt": "A gas expands with pressure \\(p(V)=aV\\), where \\(a=4.0\\times10^6\\,\\mathrm{Pa\\,m^{-3}}\\), from \\(V=0.010\\) to \\(0.030\\,\\mathrm{m^3}\\). Find \\(W\\).",
+      "answer": "Use\n\\[\nW=\\int_{V_i}^{V_f}p(V)\\,dV\n\\]\nwith \\(p(V)=aV\\):\n\\[\nW=\\int_{V_i}^{V_f}aV\\,dV=\\frac{a}{2}(V_f^2-V_i^2)\n\\]\n\\[\nW=\\frac{4.0\\times10^6}{2}\\left(0.030^2-0.010^2\\right)\n\\]\n\\[\nW=1.6\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-06",
+      "prompt": "A piston of area \\(0.0040\\,\\mathrm{m^2}\\) moves outward \\(0.12\\,\\mathrm{m}\\) against constant pressure \\(1.8\\times10^5\\,\\mathrm{Pa}\\). Find the work done by the gas.",
+      "answer": "The volume change is piston area times displacement:\n\\[\n\\Delta V=A\\Delta x\n\\]\n\\[\n\\Delta V=(0.0040)(0.12)=4.8\\times10^{-4}\\,\\mathrm{m^3}\n\\]\nThen\n\\[\nW=p\\Delta V\n\\]\n\\[\nW=(1.8\\times10^5)(4.8\\times10^{-4})=86.4\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-07",
+      "prompt": "A gas follows \\(p(V)=p_0(V_0/V)\\) from \\(V_0\\) to \\(3V_0\\). Derive the work done by the gas.",
+      "answer": "The work is\n\\[\nW=\\int_{V_0}^{3V_0}p_0\\frac{V_0}{V}\\,dV\n\\]\n\\[\nW=p_0V_0\\int_{V_0}^{3V_0}\\frac{1}{V}\\,dV\n\\]\n\\[\nW=p_0V_0\\left[\\ln V\\right]_{V_0}^{3V_0}\n\\]\n\\[\nW=p_0V_0\\ln 3\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-08",
+      "prompt": "Two processes connect the same volumes \\(V_i\\) and \\(V_f\\). One expands at high pressure \\(p_h\\), the other at low pressure \\(p_l\\). Which does more work and why?",
+      "answer": "The high-pressure expansion does more work.\n\nFor expansion from \\(V_i\\) to \\(V_f\\),\n\\[\nW=\\int_{V_i}^{V_f}p\\,dV\n\\]\nThe path with larger pressure at the same volumes has a larger area under the \\(p\\)-\\(V\\) curve, so it gives a larger positive work value.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-09",
+      "prompt": "A gas expands from \\(V_1\\) to \\(V_2\\) along \\(p=a+bV\\), with \\(a,b\u003e0\\). Derive \\(W\\), then state the condition for positive work.",
+      "answer": "Use\n\\[\nW=\\int_{V_1}^{V_2}(a+bV)\\,dV\n\\]\n\\[\nW=a(V_2-V_1)+\\frac{b}{2}(V_2^2-V_1^2)\n\\]\nWith \\(a\u003e0\\), \\(b\u003e0\\), and positive volumes, the work is positive for expansion:\n\\[\nV_2\u003eV_1\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "volume-work-10",
+      "prompt": "A rectangular cycle on a \\(p\\)-\\(V\\) diagram has corners \\((V_1,p_1)\\), \\((V_2,p_1)\\), \\((V_2,p_2)\\), and \\((V_1,p_2)\\), with \\(V_2\u003eV_1\\) and \\(p_2\u003ep_1\\). Derive the net work for clockwise and counterclockwise traversal.",
+      "answer": "Only the horizontal parts contribute to \\(p\\,dV\\); the constant-volume parts have \\(dV=0\\).\n\nFor clockwise traversal, expansion occurs at the higher pressure \\(p_2\\) and compression occurs at the lower pressure \\(p_1\\):\n\\[\nW_{\\mathrm{net}}=p_2(V_2-V_1)+p_1(V_1-V_2)\n\\]\n\\[\nW_{\\mathrm{net}}=(p_2-p_1)(V_2-V_1)\n\\]\nFor counterclockwise traversal, the sign reverses:\n\\[\nW_{\\mathrm{net}}=-(p_2-p_1)(V_2-V_1)\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

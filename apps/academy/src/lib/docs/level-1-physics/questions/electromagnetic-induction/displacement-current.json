@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "displacement-current",
+  "topicTitle": "Displacement Current",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "displacement-current-01",
+      "prompt": "What is displacement current, and why did Maxwell introduce it?",
+      "answer": "Displacement current is the effective current term produced by a changing electric flux:\\n\\[\\nI_d=\\epsilon_0\\frac{d\\Phi_E}{dt}\\n\\]\\nMaxwell introduced it so Ampere's law works consistently for changing fields, especially in the gap of a charging capacitor.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-02",
+      "prompt": "The electric flux through a surface changes at \\(2.0\\times10^{10}\\,\\mathrm{V\\,m\\,s^{-1}}\\). Find the displacement current in vacuum.",
+      "answer": "\\[\\nI_d=\\epsilon_0\\frac{d\\Phi_E}{dt}=(8.85\\times10^{-12})(2.0\\times10^{10})=0.177\\,\\mathrm{A}\\n\\]\\nSo \\(I_d\\approx0.18\\,\\mathrm{A}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-03",
+      "prompt": "Write the Ampere-Maxwell law in integral form for a loop bounding a surface in vacuum.",
+      "answer": "\\[\\n\\oint \\vec B\\cdot d\\vec l=\\mu_0 I_{\\mathrm{through}}+\\mu_0\\epsilon_0\\frac{d\\Phi_E}{dt}\\n\\]\\nThe second term is Maxwell's displacement-current correction.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-04",
+      "prompt": "A parallel-plate capacitor has plate area \\(0.020\\,\\mathrm{m^2}\\). The electric field between the plates increases at \\(5.0\\times10^6\\,\\mathrm{V\\,m^{-1}\\,s^{-1}}\\). Find \\(I_d\\) in air.",
+      "answer": "For a uniform field, \\(\\Phi_E=EA\\), so\\n\\[\\nI_d=\\epsilon_0A\\frac{dE}{dt}\\n\\]\\n\\[\\nI_d=(8.85\\times10^{-12})(0.020)(5.0\\times10^6)=8.85\\times10^{-7}\\,\\mathrm{A}\\n\\]\\nSo \\(I_d\\approx8.9\\times10^{-7}\\,\\mathrm{A}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-05",
+      "prompt": "A capacitor has \\(C=5.0\\,\\mu\\mathrm{F}\\) and its voltage changes at \\(4.0\\times10^3\\,\\mathrm{V\\,s^{-1}}\\). Find the displacement current between the plates.",
+      "answer": "For a parallel-plate capacitor, the displacement current equals the charging current:\\n\\[\\nI_d=C\\frac{dV}{dt}\\n\\]\\n\\[\\nI_d=(5.0\\times10^{-6})(4.0\\times10^3)=2.0\\times10^{-2}\\,\\mathrm{A}\\n\\]\\nSo \\(I_d=20\\,\\mathrm{mA}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-06",
+      "prompt": "What is the displacement current density in vacuum if \\(dE/dt=3.0\\times10^7\\,\\mathrm{V\\,m^{-1}\\,s^{-1}}\\)?",
+      "answer": "\\[\\nJ_d=\\epsilon_0\\frac{dE}{dt}=(8.85\\times10^{-12})(3.0\\times10^7)=2.66\\times10^{-4}\\,\\mathrm{A\\,m^{-2}}\\n\\]\\nSo \\(J_d\\approx2.7\\times10^{-4}\\,\\mathrm{A\\,m^{-2}}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-07",
+      "prompt": "A capacitor is being charged by a \\(0.60\\,\\mathrm{A}\\) current in its wires. What is the displacement current in the gap between the plates?",
+      "answer": "During charging, charge continuity requires the displacement current in the gap to equal the conduction current in the wires. Therefore\\n\\[\\nI_d=0.60\\,\\mathrm{A}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-08",
+      "prompt": "A circular parallel-plate capacitor of radius \\(R=0.050\\,\\mathrm{m}\\) is charging with current \\(I=2.0\\,\\mathrm{A}\\). Find the magnetic field at radius \\(r=0.020\\,\\mathrm{m}\\) between the plates, assuming uniform displacement current density.",
+      "answer": "Inside the plates, only the fraction \\(r^2/R^2\\) of the displacement current is enclosed:\\n\\[\\nB(2\\pi r)=\\mu_0 I\\frac{r^2}{R^2}\\n\\]\\nso\\n\\[\\nB=\\frac{\\mu_0Ir}{2\\pi R^2}=\\frac{(4\\pi\\times10^{-7})(2.0)(0.020)}{2\\pi(0.050)^2}=3.2\\times10^{-6}\\,\\mathrm{T}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-09",
+      "prompt": "A circular capacitor is charging with current \\(I=2.0\\,\\mathrm{A}\\). Find the magnetic field at \\(r=0.10\\,\\mathrm{m}\\), outside the plate radius.",
+      "answer": "Outside the plate area, the full current is enclosed:\\n\\[\\nB(2\\pi r)=\\mu_0 I\\n\\]\\n\\[\\nB=\\frac{\\mu_0I}{2\\pi r}=\\frac{(4\\pi\\times10^{-7})(2.0)}{2\\pi(0.10)}=4.0\\times10^{-6}\\,\\mathrm{T}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-10",
+      "prompt": "Why does the original Ampere's law give an apparent contradiction for a charging capacitor?",
+      "answer": "A loop around the wire can be bounded by one surface that cuts through the wire, giving conduction current \\(I\\), or by another surface passing between the capacitor plates, giving no conduction current. The original law would predict two different magnetic fields for the same loop. Maxwell's displacement-current term removes the contradiction.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-11",
+      "prompt": "Does displacement current mean that charges physically cross the empty space between capacitor plates?",
+      "answer": "No. In a vacuum gap, no conduction charge crosses the gap. The term \\(I_d=\\epsilon_0 d\\Phi_E/dt\\) represents the magnetic effect of the changing electric field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-12",
+      "prompt": "Check the units of \\(\\epsilon_0 d\\Phi_E/dt\\). What physical unit should it have?",
+      "answer": "Electric flux has units \\(\\mathrm{V\\,m}\\). Since \\(\\epsilon_0\\) has units \\(\\mathrm{C\\,V^{-1}\\,m^{-1}}\\),\\n\\[\\n\\epsilon_0\\frac{d\\Phi_E}{dt}\\rightarrow \\frac{\\mathrm{C}}{\\mathrm{V\\,m}}\\frac{\\mathrm{V\\,m}}{\\mathrm{s}}=\\mathrm{A}\\n\\]\\nSo displacement current has units of current.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-13",
+      "prompt": "A dielectric with \\(\\kappa=4.0\\) fills a capacitor. If \\(A=0.010\\,\\mathrm{m^2}\\) and \\(dE/dt=2.0\\times10^6\\,\\mathrm{V\\,m^{-1}\\,s^{-1}}\\), find \\(I_d\\) using \\(\\epsilon=\\kappa\\epsilon_0\\).",
+      "answer": "\\[\\nI_d=\\epsilon A\\frac{dE}{dt}=\\kappa\\epsilon_0A\\frac{dE}{dt}\\n\\]\\n\\[\\nI_d=4.0(8.85\\times10^{-12})(0.010)(2.0\\times10^6)=7.08\\times10^{-7}\\,\\mathrm{A}\\n\\]\\nSo \\(I_d\\approx7.1\\times10^{-7}\\,\\mathrm{A}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-14",
+      "prompt": "For a steady electric field between capacitor plates, what is the displacement current?",
+      "answer": "A steady electric field has \\(d\\Phi_E/dt=0\\), so\\n\\[\\nI_d=\\epsilon_0\\frac{d\\Phi_E}{dt}=0\\n\\]\\nThere is no displacement current unless the electric flux changes.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-15",
+      "prompt": "The field between capacitor plates is \\(E(t)=E_0\\sin\\omega t\\). Write the displacement current for plate area \\(A\\) in vacuum.",
+      "answer": "\\[\\nI_d=\\epsilon_0A\\frac{dE}{dt}\\n\\]\\nSince \\(dE/dt=E_0\\omega\\cos\\omega t\\),\\n\\[\\nI_d(t)=\\epsilon_0AE_0\\omega\\cos\\omega t\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-16",
+      "prompt": "Why is displacement current important in electromagnetic waves?",
+      "answer": "In an electromagnetic wave, a changing electric field produces a magnetic field through the displacement-current term. That changing magnetic field can then produce an electric field through Faraday's law. The two fields sustain each other as the wave travels.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-17",
+      "prompt": "A charging current increases the electric flux between plates linearly from \\(0\\) to \\(6.0\\times10^9\\,\\mathrm{V\\,m}\\) in \\(0.30\\,\\mathrm{s}\\). Find \\(I_d\\).",
+      "answer": "\\[\\nI_d=\\epsilon_0\\frac{\\Delta\\Phi_E}{\\Delta t}\\n\\]\\n\\[\\nI_d=(8.85\\times10^{-12})\\frac{6.0\\times10^9}{0.30}=0.177\\,\\mathrm{A}\\n\\]\\nSo \\(I_d\\approx0.18\\,\\mathrm{A}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-18",
+      "prompt": "A loop encloses no conduction current, but the electric flux through its surface is changing. Can \\(\\oint \\vec B\\cdot d\\vec l\\) be nonzero?",
+      "answer": "Yes. Ampere-Maxwell law gives\\n\\[\\n\\oint \\vec B\\cdot d\\vec l=\\mu_0\\epsilon_0\\frac{d\\Phi_E}{dt}\\n\\]\\nwhen no conduction current is enclosed. A changing electric flux can produce a circulating magnetic field.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-19",
+      "prompt": "Explain why displacement current is not optional in a time-varying circuit model.",
+      "answer": "Without displacement current, the predicted magnetic field could depend on the arbitrary surface chosen for the same boundary loop. The added term makes the law surface-independent and consistent with charge conservation.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "displacement-current-20",
+      "prompt": "A capacitor has plate radius \\(0.040\\,\\mathrm{m}\\) and is charging with \\(I=0.50\\,\\mathrm{A}\\). What fraction of the displacement current is enclosed by an Amperian circle of radius \\(0.020\\,\\mathrm{m}\\) between the plates?",
+      "answer": "With uniform displacement current density, the enclosed fraction is the area fraction:\\n\\[\\n\\frac{I_{d,\\mathrm{enc}}}{I}=\\frac{\\pi r^2}{\\pi R^2}=\\frac{(0.020)^2}{(0.040)^2}=0.25\\n\\]\\nSo the circle encloses \\(25\\%\\) of the displacement current, or \\(0.125\\,\\mathrm{A}\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

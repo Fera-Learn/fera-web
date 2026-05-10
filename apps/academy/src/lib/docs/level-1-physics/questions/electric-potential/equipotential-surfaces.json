@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-potential",
+  "topicId": "equipotential-surfaces",
+  "topicTitle": "Equipotential Surfaces",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "equipotential-surfaces-01",
+      "prompt": "What is \\(\\Delta V\\) between two points on the same equipotential surface?",
+      "answer": "Between two points on the same equipotential surface,\n\\[\n\\Delta V=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-02",
+      "prompt": "How much work does the electric force do when a charge moves along an equipotential surface?",
+      "answer": "Electric work is\n\\[\nW_{\\mathrm{elec}}=-q\\Delta V\n\\]\nAlong an equipotential, \\(\\Delta V=0\\), so\n\\[\nW_{\\mathrm{elec}}=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-03",
+      "prompt": "Are electric field lines parallel or perpendicular to equipotential surfaces?",
+      "answer": "Electric field lines are perpendicular to equipotential surfaces.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-04",
+      "prompt": "A \\(+5.0\\,\\mathrm{nC}\\) charge moves along an equipotential from one point to another. Find \\(\\Delta U\\).",
+      "answer": "Along an equipotential,\n\\[\n\\Delta V=0\n\\]\nso\n\\[\n\\Delta U=q\\Delta V=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-05",
+      "prompt": "In a uniform electric field pointing in the \\(+x\\) direction, what is the orientation of equipotential lines in an \\(x\\)-\\(y\\) sketch?",
+      "answer": "The electric field is perpendicular to equipotentials. If \\(\\vec E\\) points in \\(+x\\), equipotential lines in an \\(x\\)-\\(y\\) sketch are vertical lines, parallel to the \\(y\\)-axis.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-06",
+      "prompt": "If neighboring equipotential surfaces are very close together in one region, what does that suggest about the electric field magnitude there?",
+      "answer": "Close equipotential spacing means the potential changes rapidly over a short distance. Since\n\\[\n|\\vec E|\\approx\\left|\\frac{\\Delta V}{\\Delta s}\\right|\n\\]\nthe electric field magnitude is large there.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-07",
+      "prompt": "Explain why the surface of a conductor in electrostatic equilibrium is an equipotential.",
+      "answer": "In electrostatic equilibrium, the electric field inside conducting material is zero:\n\\[\n\\vec E=0\n\\]\nIf there were a nonzero tangential field along the surface, free charges would move. Therefore the tangential field at the surface is zero, and moving along the surface gives\n\\[\n\\Delta V=0\n\\]\nSo the conductor surface is an equipotential.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-08",
+      "prompt": "A charge moves from \\(V=120\\,\\mathrm{V}\\) to another point on the same conductor surface in electrostatic equilibrium. What are \\(\\Delta V\\), \\(\\Delta U\\), and \\(W_{\\mathrm{elec}}\\)?",
+      "answer": "The two points are on the same conductor surface in electrostatic equilibrium, so\n\\[\n\\Delta V=0\n\\]\nThen\n\\[\n\\Delta U=q\\Delta V=0\n\\]\nand\n\\[\nW_{\\mathrm{elec}}=-q\\Delta V=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-09",
+      "prompt": "A proposed diagram shows equipotential lines crossing electric field lines at non-right angles and also shows field lines lying along one equipotential. Identify the errors using work and tangent-component reasoning.",
+      "answer": "For a small displacement along an equipotential,\n\\[\ndV=0\n\\]\nso\n\\[\ndW=-q\\,dV=0\n\\]\nBut electric work is also\n\\[\ndW=q\\vec E\\cdot d\\vec\\ell\n\\]\nTherefore\n\\[\n\\vec E\\cdot d\\vec\\ell=0\n\\]\nThe field has no tangential component along the equipotential, so field lines must cross equipotentials at right angles.\n\nA non-right-angle crossing implies a tangential field component. A field line lying along an equipotential would imply electric work along a constant-potential path, contradicting \\(W_{\\mathrm{elec}}=0\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "equipotential-surfaces-10",
+      "prompt": "A uniform electric field has magnitude \\(E\\). A family of parallel equipotential planes is separated by distance \\(d\\) measured along the field direction. Derive the potential difference between adjacent planes and explain how the sign depends on moving with or against \\(\\vec E\\).",
+      "answer": "For a uniform field, the potential change along the field direction is\n\\[\n\\Delta V=-E\\,\\Delta s\n\\]\nIf adjacent planes are separated by distance \\(d\\) measured along \\(\\vec E\\), then moving with the field gives\n\\[\n\\Delta V=-Ed\n\\]\nMoving against the field gives\n\\[\n\\Delta V=+Ed\n\\]\nThe magnitude of the potential difference between adjacent planes is\n\\[\n|\\Delta V|=Ed\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

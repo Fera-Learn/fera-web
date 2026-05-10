@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "measurement-in-quantum-mechanics",
+  "topicTitle": "Measurement in Quantum Mechanics",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "measurement-quantum-mechanics-01",
+      "prompt": "In the ideal measurement model, what possible results can be obtained when measuring an observable \\(\\hat A\\)?",
+      "answer": "The possible results are the eigenvalues \\(a_n\\) of the observable operator:\\n\\[\\n\\hat A|a_n\\rangle=a_n|a_n\\rangle\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-02",
+      "prompt": "State the Born rule for a state \\(|\\psi\\rangle=\\sum_n c_n|a_n\\rangle\\) measured in the \\(|a_n\\rangle\\) basis.",
+      "answer": "The probability of measuring \\(a_n\\) is\\n\\[\\nP_n=|c_n|^2\\n\\]\\nwith normalization \\(\\sum_n|c_n|^2=1\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-03",
+      "prompt": "A state is \\(|\\psi\\rangle=(3/5)|a_1\\rangle+(4/5)|a_2\\rangle\\). Find the probabilities of the two outcomes.",
+      "answer": "\\[\\nP_1=\\left|\\frac35\\right|^2=\\frac{9}{25},\\qquad P_2=\\left|\\frac45\\right|^2=\\frac{16}{25}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-04",
+      "prompt": "A state is \\(|\\psi\\rangle=C(|a_1\\rangle+2i|a_2\\rangle)\\). Find \\(C\\) for normalization and the outcome probabilities.",
+      "answer": "Normalization gives\\n\\[\\n1=|C|^2(1+|2i|^2)=5|C|^2\\n\\]\\nso choose \\(C=1/\\sqrt5\\). The probabilities are\\n\\[\\nP_1=\\frac15,\\qquad P_2=\\frac45\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-05",
+      "prompt": "For outcomes \\(a_1=2\\) and \\(a_2=5\\) with probabilities \\(1/4\\) and \\(3/4\\), find \\(\\langle A\\rangle\\).",
+      "answer": "\\[\\n\\langle A\\rangle=2\\left(\\frac14\\right)+5\\left(\\frac34\\right)=\\frac12+\\frac{15}{4}=\\frac{17}{4}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-06",
+      "prompt": "Using the same outcomes \\(2\\) and \\(5\\) with probabilities \\(1/4\\) and \\(3/4\\), find \\(\\Delta A\\).",
+      "answer": "First\\n\\[\\n\\langle A\\rangle=\\frac{17}{4}\\n\\]\\nand\\n\\[\\n\\langle A^2\\rangle=4\\left(\\frac14\\right)+25\\left(\\frac34\\right)=\\frac{79}{4}\\n\\]\\nThus\\n\\[\\n(\\Delta A)^2=\\frac{79}{4}-\\left(\\frac{17}{4}\\right)^2=\\frac{27}{16}\\n\\]\\nso\\n\\[\\n\\Delta A=\\frac{3\\sqrt3}{4}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-07",
+      "prompt": "What is the state immediately after a nondegenerate ideal measurement gives result \\(a_k\\)?",
+      "answer": "The state is projected onto the corresponding eigenstate:\\n\\[\\n|\\psi\\rangle\\to |a_k\\rangle\\n\\]\\nup to an irrelevant overall phase.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-08",
+      "prompt": "Why does immediately repeating the same ideal nondegenerate measurement give the same result?",
+      "answer": "After the first measurement gives \\(a_k\\), the state is \\(|a_k\\rangle\\). Measuring \\(\\hat A\\) again gives\\n\\[\\nP(a_k)=|\\langle a_k|a_k\\rangle|^2=1\\n\\]\\nso the result repeats.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-09",
+      "prompt": "A state is an eigenstate of \\(\\hat A\\), but a measurement of \\(\\hat B\\) is made instead. What determines the probabilities of \\(B\\) outcomes?",
+      "answer": "The probabilities are determined by expanding the state in the eigenbasis of \\(\\hat B\\). If \\(|\\psi\\rangle=\\sum_m d_m|b_m\\rangle\\), then\\n\\[\\nP(b_m)=|d_m|^2=|\\langle b_m|\\psi\\rangle|^2\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-10",
+      "prompt": "For a spin-half state \\(|+x\\rangle=(|+z\\rangle+|-z\\rangle)/\\sqrt2\\), find the probabilities for measuring \\(S_z\\).",
+      "answer": "The coefficients in the \\(S_z\\) basis both have magnitude \\(1/\\sqrt2\\), so\\n\\[\\nP(+z)=\\frac12,\\qquad P(-z)=\\frac12\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-11",
+      "prompt": "A state is \\((|E_1\\rangle+|E_2\\rangle)/\\sqrt2\\). What are the possible energy measurement results and their probabilities?",
+      "answer": "The possible results are \\(E_1\\) and \\(E_2\\). Since the amplitudes have equal magnitude,\\n\\[\\nP(E_1)=\\frac12,\\qquad P(E_2)=\\frac12\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-12",
+      "prompt": "For \\((|E_1\\rangle+|E_2\\rangle)/\\sqrt2\\), what state remains after measuring energy and obtaining \\(E_2\\)?",
+      "answer": "For a nondegenerate ideal energy measurement, the post-measurement state is\\n\\[\\n|E_2\\rangle\\n\\]\\nup to an overall phase.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-13",
+      "prompt": "Explain why an expectation value need not be a possible single measurement result.",
+      "answer": "The expectation value is a probability-weighted average over many trials. For example, outcomes \\(0\\) and \\(10\\) with equal probabilities have\\n\\[\\n\\langle A\\rangle=5\\n\\]\\nbut a single measurement gives either \\(0\\) or \\(10\\), not \\(5\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-14",
+      "prompt": "What does it mean for two observables to be compatible in the ideal operator model?",
+      "answer": "Compatible observables have a common eigenbasis, which is guaranteed when their operators commute in the relevant space:\\n\\[\\n[\\hat A,\\hat B]=0\\n\\]\\nThey can then have simultaneous definite values in shared eigenstates.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-15",
+      "prompt": "If \\([\\hat A,\\hat B]\\ne0\\), why can measuring \\(A\\) disturb later measurements of \\(B\\)?",
+      "answer": "The first measurement projects the state into an eigenstate of \\(\\hat A\\). If \\(\\hat A\\) and \\(\\hat B\\) do not share eigenstates, that projected state is generally a superposition of \\(B\\)-eigenstates. Therefore the probabilities for a later \\(B\\) measurement are changed.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-16",
+      "prompt": "A measurement has a degenerate eigenvalue \\(a\\) with two orthonormal eigenstates \\(|a,1\\rangle\\) and \\(|a,2\\rangle\\). If the initial state is \\(c_1|a,1\\rangle+c_2|a,2\\rangle+c_3|b\\rangle\\), what is the probability of result \\(a\\)?",
+      "answer": "For a degenerate result, add probabilities within the eigenspace:\\n\\[\\nP(a)=|c_1|^2+|c_2|^2\\n\\]\\nThe post-measurement state, if result \\(a\\) occurs, is the normalized projection into that two-dimensional eigenspace.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-17",
+      "prompt": "For a continuous position measurement, how is the probability of finding the particle in an interval related to \\(\\psi(x)\\)?",
+      "answer": "The probability is\\n\\[\\nP_{[a,b]}=\\int_a^b|\\psi(x)|^2dx\\n\\]\\nThe probability of an exact point is not obtained by assigning a finite point probability; position is treated by density over intervals.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-18",
+      "prompt": "Prove that Born-rule probabilities sum to one when the state is normalized and expanded in an orthonormal measurement basis.",
+      "answer": "If\\n\\[\\n|\\psi\\rangle=\\sum_n c_n|a_n\\rangle\\n\\]\\nwith orthonormal \\(|a_n\\rangle\\), then\\n\\[\\n\\langle\\psi|\\psi\\rangle=\\sum_n |c_n|^2\\n\\]\\nNormalization gives \\(\\langle\\psi|\\psi\\rangle=1\\), so\\n\\[\\n\\sum_nP_n=\\sum_n|c_n|^2=1\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-19",
+      "prompt": "Distinguish the pure state \\((|1\\rangle+|2\\rangle)/\\sqrt2\\) from a 50-50 classical mixture of \\(|1\\rangle\\) and \\(|2\\rangle\\).",
+      "answer": "They give the same probabilities if measured directly in the \\(|1\\rangle,|2\\rangle\\) basis. They differ in another basis because the pure state has a definite relative phase and can show interference. The mixture has no coherent cross terms, so interference terms average away.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "measurement-quantum-mechanics-20",
+      "prompt": "A spin-half system starts in \\(|+z\\rangle\\). Measure \\(S_x\\), ignore the result, then measure \\(S_z\\). Show that the final \\(S_z\\) probabilities are equal.",
+      "answer": "The first measurement gives \\(|+x\\rangle\\) or \\(|-x\\rangle\\), each with probability \\(1/2\\). Each of those states has equal probabilities for \\(+z\\) and \\(-z\\):\\n\\[\\nP(+z|+x)=P(+z|-x)=\\frac12\\n\\]\\nTherefore\\n\\[\\nP(+z)=\\frac12\\cdot\\frac12+\\frac12\\cdot\\frac12=\\frac12\\n\\]\\nand similarly \\(P(-z)=1/2\\). The intermediate incompatible measurement destroys the initial certainty in \\(S_z\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

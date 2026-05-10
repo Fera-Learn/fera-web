@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "series-and-parallel-capacitors",
+  "topicTitle": "Series and Parallel Capacitors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "capacitor-networks-01",
+      "prompt": "Find the equivalent capacitance of \\(4.0\\,\\mu\\mathrm{F}\\) and \\(7.0\\,\\mu\\mathrm{F}\\) connected in parallel.",
+      "answer": "For parallel capacitors,\n\\[\nC_{\\mathrm{eq}}=C_1+C_2=4.0+7.0=11.0\\,\\mu\\mathrm{F}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-02",
+      "prompt": "Two capacitors, \\(3.0\\,\\mu\\mathrm{F}\\) and \\(6.0\\,\\mu\\mathrm{F}\\), are connected in series across \\(18\\,\\mathrm{V}\\). Find \\(C_{\\mathrm{eq}}\\), the series charge, and the voltage across each capacitor.",
+      "answer": "For series capacitors,\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{3.0}+\\frac{1}{6.0}\n\\]\nwith capacitances in \\(\\mu\\mathrm{F}\\), so\n\\[\nC_{\\mathrm{eq}}=2.0\\,\\mu\\mathrm{F}\n\\]\nThe series charge is\n\\[\nQ=C_{\\mathrm{eq}}V=(2.0\\,\\mu\\mathrm{F})(18\\,\\mathrm{V})=36\\,\\mu\\mathrm{C}\n\\]\nThe voltages are\n\\[\nV_1=\\frac{Q}{C_1}=\\frac{36}{3.0}=12\\,\\mathrm{V}\n\\]\n\\[\nV_2=\\frac{Q}{C_2}=\\frac{36}{6.0}=6.0\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-03",
+      "prompt": "A \\(3.0\\,\\mu\\mathrm{F}\\) capacitor and a \\(6.0\\,\\mu\\mathrm{F}\\) capacitor are connected in parallel. That parallel combination is then connected in series with a \\(9.0\\,\\mu\\mathrm{F}\\) capacitor. Find the equivalent capacitance.",
+      "answer": "First reduce the parallel pair:\n\\[\nC_p=3.0+6.0=9.0\\,\\mu\\mathrm{F}\n\\]\nThis is in series with \\(9.0\\,\\mu\\mathrm{F}\\), so\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{9.0}+\\frac{1}{9.0}=\\frac{2}{9.0}\n\\]\n\\[\nC_{\\mathrm{eq}}=4.5\\,\\mu\\mathrm{F}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-04",
+      "prompt": "A \\(2.0\\,\\mu\\mathrm{F}\\) capacitor is charged to \\(12\\,\\mathrm{V}\\). It is disconnected from the battery and then connected positive-to-positive with an initially uncharged \\(4.0\\,\\mu\\mathrm{F}\\) capacitor. Find the final common voltage and the energy lost during redistribution.",
+      "answer": "The initial charge on the charged capacitor is\n\\[\nQ_{\\mathrm{tot}}=C_1V_1=(2.0\\,\\mu\\mathrm{F})(12\\,\\mathrm{V})=24\\,\\mu\\mathrm{C}\n\\]\nAfter positive-to-positive connection, charge is shared by the parallel combination:\n\\[\nV_f=\\frac{Q_{\\mathrm{tot}}}{C_1+C_2}\n=\\frac{24\\,\\mu\\mathrm{C}}{6.0\\,\\mu\\mathrm{F}}\n=4.0\\,\\mathrm{V}\n\\]\nInitial energy:\n\\[\nU_i=\\frac{1}{2}C_1V_1^2\n=\\frac{1}{2}(2.0\\times10^{-6})(12^2)\n=1.44\\times10^{-4}\\,\\mathrm{J}\n\\]\nFinal energy:\n\\[\nU_f=\\frac{1}{2}(C_1+C_2)V_f^2\n=\\frac{1}{2}(6.0\\times10^{-6})(4.0^2)\n=4.8\\times10^{-5}\\,\\mathrm{J}\n\\]\nThe lost energy is\n\\[\nU_i-U_f=9.6\\times10^{-5}\\,\\mathrm{J}\n\\]\nIt is dissipated during transient current flow in the connecting wires and circuit resistance.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-05",
+      "prompt": "A \\(2.0\\,\\mu\\mathrm{F}\\) capacitor and a \\(5.0\\,\\mu\\mathrm{F}\\) capacitor are connected in parallel across \\(10\\,\\mathrm{V}\\). Find the charge on each capacitor and the total charge supplied by the battery.",
+      "answer": "Parallel capacitors have the same voltage:\n\\[\nQ_1=C_1V=(2.0\\,\\mu\\mathrm{F})(10\\,\\mathrm{V})=20\\,\\mu\\mathrm{C}\n\\]\n\\[\nQ_2=C_2V=(5.0\\,\\mu\\mathrm{F})(10\\,\\mathrm{V})=50\\,\\mu\\mathrm{C}\n\\]\nThe battery supplies\n\\[\nQ_{\\mathrm{tot}}=Q_1+Q_2=70\\,\\mu\\mathrm{C}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-06",
+      "prompt": "Three capacitors \\(2.0\\,\\mu\\mathrm{F}\\), \\(3.0\\,\\mu\\mathrm{F}\\), and \\(6.0\\,\\mu\\mathrm{F}\\) are connected in series. Find their equivalent capacitance.",
+      "answer": "For series capacitors,\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{2.0}+\\frac{1}{3.0}+\\frac{1}{6.0}\n\\]\nwith capacitances in \\(\\mu\\mathrm{F}\\). The sum is\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=1\n\\]\nso\n\\[\nC_{\\mathrm{eq}}=1.0\\,\\mu\\mathrm{F}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-07",
+      "prompt": "A \\(2.0\\,\\mu\\mathrm{F}\\) capacitor and an \\(8.0\\,\\mu\\mathrm{F}\\) capacitor are connected in series across \\(20\\,\\mathrm{V}\\). Find the voltage across each capacitor.",
+      "answer": "The series equivalent is\n\\[\nC_{\\mathrm{eq}}=\\frac{(2.0)(8.0)}{2.0+8.0}=1.6\\,\\mu\\mathrm{F}\n\\]\nThe common charge is\n\\[\nQ=C_{\\mathrm{eq}}V=(1.6\\,\\mu\\mathrm{F})(20\\,\\mathrm{V})=32\\,\\mu\\mathrm{C}\n\\]\nThus\n\\[\nV_{2.0}=\\frac{32}{2.0}=16\\,\\mathrm{V}\n\\]\n\\[\nV_{8.0}=\\frac{32}{8.0}=4.0\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-08",
+      "prompt": "A \\(4.0\\,\\mu\\mathrm{F}\\) capacitor is in series with a \\(12\\,\\mu\\mathrm{F}\\) capacitor. That combination is in parallel with a \\(6.0\\,\\mu\\mathrm{F}\\) capacitor. Find the equivalent capacitance.",
+      "answer": "First reduce the series pair:\n\\[\nC_s=\\frac{(4.0)(12)}{4.0+12}=3.0\\,\\mu\\mathrm{F}\n\\]\nThis is in parallel with \\(6.0\\,\\mu\\mathrm{F}\\), so\n\\[\nC_{\\mathrm{eq}}=3.0+6.0=9.0\\,\\mu\\mathrm{F}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-09",
+      "prompt": "A network has \\(C_1\\) and \\(C_2\\) connected in parallel, and that parallel group connected in series with \\(C_3\\). Derive \\(C_{\\mathrm{eq}}\\) in terms of \\(C_1,C_2,C_3\\).",
+      "answer": "The parallel pair first gives\n\\[\nC_p=C_1+C_2\n\\]\nThis is in series with \\(C_3\\), so\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{C_p}+\\frac{1}{C_3}\n\\]\nTherefore\n\\[\nC_{\\mathrm{eq}}=\\frac{C_pC_3}{C_p+C_3}\n=\\frac{(C_1+C_2)C_3}{C_1+C_2+C_3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-10",
+      "prompt": "Two capacitors \\(4.0\\,\\mu\\mathrm{F}\\) and \\(12\\,\\mu\\mathrm{F}\\) are connected in series across \\(48\\,\\mathrm{V}\\). Find the charge and energy stored in each capacitor.",
+      "answer": "The series equivalent is\n\\[\nC_{\\mathrm{eq}}=\\frac{(4.0)(12)}{4.0+12}=3.0\\,\\mu\\mathrm{F}\n\\]\nThe common charge is\n\\[\nQ=C_{\\mathrm{eq}}V=(3.0\\,\\mu\\mathrm{F})(48\\,\\mathrm{V})=144\\,\\mu\\mathrm{C}\n\\]\nVoltages:\n\\[\nV_{4.0}=\\frac{144}{4.0}=36\\,\\mathrm{V},\\qquad\nV_{12}=\\frac{144}{12}=12\\,\\mathrm{V}\n\\]\nEnergies:\n\\[\nU_{4.0}=\\frac{1}{2}QV_{4.0}\n=\\frac{1}{2}(144\\times10^{-6})(36)\n=2.59\\times10^{-3}\\,\\mathrm{J}\n\\]\n\\[\nU_{12}=\\frac{1}{2}QV_{12}\n=\\frac{1}{2}(144\\times10^{-6})(12)\n=8.64\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-11",
+      "prompt": "Derive the two-capacitor series formula \\(C_{\\mathrm{eq}}=C_1C_2/(C_1+C_2)\\).",
+      "answer": "For two capacitors in series, the same charge \\(Q\\) appears on each:\n\\[\nV=V_1+V_2=\\frac{Q}{C_1}+\\frac{Q}{C_2}\n\\]\nThe equivalent capacitor satisfies\n\\[\nV=\\frac{Q}{C_{\\mathrm{eq}}}\n\\]\nTherefore\n\\[\n\\frac{Q}{C_{\\mathrm{eq}}}=Q\\left(\\frac{1}{C_1}+\\frac{1}{C_2}\\right)\n\\]\nCancel \\(Q\\):\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{C_1}+\\frac{1}{C_2}\n\\]\nInvert:\n\\[\nC_{\\mathrm{eq}}=\\frac{C_1C_2}{C_1+C_2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-12",
+      "prompt": "A \\(10\\,\\mu\\mathrm{F}\\) capacitor is connected in series with an unknown capacitor. Their equivalent capacitance is \\(4.0\\,\\mu\\mathrm{F}\\). Find the unknown capacitance.",
+      "answer": "For series capacitors,\n\\[\n\\frac{1}{C_{\\mathrm{eq}}}=\\frac{1}{10}+\\frac{1}{C_x}\n\\]\nwith capacitances in \\(\\mu\\mathrm{F}\\). Substitute \\(C_{\\mathrm{eq}}=4.0\\,\\mu\\mathrm{F}\\):\n\\[\n\\frac{1}{4.0}=\\frac{1}{10}+\\frac{1}{C_x}\n\\]\n\\[\n\\frac{1}{C_x}=0.25-0.10=0.15\n\\]\n\\[\nC_x=6.7\\,\\mu\\mathrm{F}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-13",
+      "prompt": "A \\(3.0\\,\\mu\\mathrm{F}\\) capacitor and a \\(6.0\\,\\mu\\mathrm{F}\\) capacitor are connected in parallel across \\(12\\,\\mathrm{V}\\), then disconnected from the battery while remaining connected to each other. Find the total stored charge and total stored energy.",
+      "answer": "In parallel,\n\\[\nC_{\\mathrm{eq}}=3.0+6.0=9.0\\,\\mu\\mathrm{F}\n\\]\nThe total stored charge supplied by the battery is\n\\[\nQ_{\\mathrm{tot}}=C_{\\mathrm{eq}}V=(9.0\\,\\mu\\mathrm{F})(12\\,\\mathrm{V})=108\\,\\mu\\mathrm{C}\n\\]\nThe total stored energy is\n\\[\nU=\\frac{1}{2}C_{\\mathrm{eq}}V^2\n=\\frac{1}{2}(9.0\\times10^{-6})(12^2)\n=6.48\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-14",
+      "prompt": "A \\(3.0\\,\\mu\\mathrm{F}\\) capacitor charged to \\(12\\,\\mathrm{V}\\) is disconnected and connected positive-to-positive with a \\(6.0\\,\\mu\\mathrm{F}\\) capacitor charged to \\(3.0\\,\\mathrm{V}\\). Find the final common voltage and the energy lost.",
+      "answer": "Initial total charge on the connected positive node is\n\\[\nQ_{\\mathrm{tot}}=C_1V_1+C_2V_2\n=(3.0)(12)+(6.0)(3.0)=54\\,\\mu\\mathrm{C}\n\\]\nThe final common voltage is\n\\[\nV_f=\\frac{Q_{\\mathrm{tot}}}{C_1+C_2}\n=\\frac{54\\,\\mu\\mathrm{C}}{9.0\\,\\mu\\mathrm{F}}\n=6.0\\,\\mathrm{V}\n\\]\nInitial energy:\n\\[\nU_i=\\frac{1}{2}(3.0\\times10^{-6})(12^2)\n+\\frac{1}{2}(6.0\\times10^{-6})(3.0^2)\n=2.43\\times10^{-4}\\,\\mathrm{J}\n\\]\nFinal energy:\n\\[\nU_f=\\frac{1}{2}(9.0\\times10^{-6})(6.0^2)\n=1.62\\times10^{-4}\\,\\mathrm{J}\n\\]\nEnergy lost:\n\\[\nU_i-U_f=8.1\\times10^{-5}\\,\\mathrm{J}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-15",
+      "prompt": "A \\(6.0\\,\\mu\\mathrm{F}\\) capacitor rated at \\(30\\,\\mathrm{V}\\) is connected in series with a \\(3.0\\,\\mu\\mathrm{F}\\) capacitor rated at \\(20\\,\\mathrm{V}\\). What is the maximum safe voltage across the series pair?",
+      "answer": "In series, both capacitors carry the same charge. The voltage on each is \\(V_i=Q/C_i\\).\n\nThe \\(6.0\\,\\mu\\mathrm{F}\\) capacitor reaches its limit at\n\\[\nQ=(6.0\\,\\mu\\mathrm{F})(30\\,\\mathrm{V})=180\\,\\mu\\mathrm{C}\n\\]\nThe \\(3.0\\,\\mu\\mathrm{F}\\) capacitor reaches its limit at\n\\[\nQ=(3.0\\,\\mu\\mathrm{F})(20\\,\\mathrm{V})=60\\,\\mu\\mathrm{C}\n\\]\nThe smaller safe charge is \\(60\\,\\mu\\mathrm{C}\\). Then\n\\[\nV_{6.0}=\\frac{60}{6.0}=10\\,\\mathrm{V}\n\\]\n\\[\nV_{3.0}=\\frac{60}{3.0}=20\\,\\mathrm{V}\n\\]\nSo the maximum safe series voltage is\n\\[\nV_{\\mathrm{max}}=30\\,\\mathrm{V}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-16",
+      "prompt": "Three identical capacitors \\(C\\) are arranged with two in parallel and the result in series with the third. Derive the equivalent capacitance and compare it with three identical capacitors all in series.",
+      "answer": "Two identical capacitors in parallel give\n\\[\nC_p=C+C=2C\n\\]\nThis is in series with a third capacitor \\(C\\):\n\\[\nC_{\\mathrm{eq}}=\\frac{(2C)(C)}{2C+C}=\\frac{2}{3}C\n\\]\nIf all three are in series,\n\\[\n\\frac{1}{C_{\\mathrm{series}}}=\\frac{3}{C}\n\\quad\\Rightarrow\\quad\nC_{\\mathrm{series}}=\\frac{C}{3}\n\\]\nThe mixed arrangement has twice the equivalent capacitance of the all-series arrangement:\n\\[\n\\frac{(2/3)C}{C/3}=2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-17",
+      "prompt": "An infinite ladder has a series capacitor \\(C\\) followed by a node where one branch is a capacitor \\(C\\) to ground and the other branch repeats the same ladder. Derive the equivalent capacitance seen at the input.",
+      "answer": "Let the equivalent capacitance of the whole ladder be \\(X\\). After the first series capacitor \\(C\\), the node sees a capacitor \\(C\\) in parallel with the repeated ladder \\(X\\), so that branch has capacitance \\(C+X\\).\n\nThe input equivalent is the series combination of \\(C\\) and \\(C+X\\):\n\\[\nX=\\frac{C(C+X)}{C+(C+X)}\n=\\frac{C(C+X)}{2C+X}\n\\]\nMultiply through:\n\\[\nX(2C+X)=C(C+X)\n\\]\n\\[\nX^2+CX-C^2=0\n\\]\nThe positive root is\n\\[\nX=\\frac{-C+\\sqrt{C^2+4C^2}}{2}\n=\\frac{\\sqrt5-1}{2}C\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-18",
+      "prompt": "Two capacitors \\(C_1\\) and \\(C_2\\) are initially charged to voltages \\(V_1\\) and \\(V_2\\) with the same polarity. They are disconnected from their batteries and connected positive-to-positive. Derive the final voltage and the energy lost.",
+      "answer": "Initial charge on the shared positive node is\n\\[\nQ_{\\mathrm{tot}}=C_1V_1+C_2V_2\n\\]\nAfter connection, the final voltage is common:\n\\[\nV_f=\\frac{C_1V_1+C_2V_2}{C_1+C_2}\n\\]\nInitial energy:\n\\[\nU_i=\\frac{1}{2}C_1V_1^2+\\frac{1}{2}C_2V_2^2\n\\]\nFinal energy:\n\\[\nU_f=\\frac{1}{2}(C_1+C_2)V_f^2\n\\]\nSubstitution and simplification give\n\\[\nU_i-U_f=\\frac{1}{2}\\frac{C_1C_2}{C_1+C_2}(V_1-V_2)^2\n\\]\nEnergy is lost unless the two initial voltages are already equal.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-19",
+      "prompt": "Two capacitors \\(C_1\\) and \\(C_2\\) are initially charged to voltages \\(V_1\\) and \\(V_2\\), then connected positive-to-negative so their charges partially cancel. Derive the final voltage magnitude and state the condition for complete cancellation.",
+      "answer": "With positive-to-negative connection, the charges on the common node subtract:\n\\[\nQ_{\\mathrm{net}}=C_1V_1-C_2V_2\n\\]\nThe final common voltage, with sign measured relative to the original \\(C_1\\) polarity, is\n\\[\nV_f=\\frac{C_1V_1-C_2V_2}{C_1+C_2}\n\\]\nThe final voltage magnitude is\n\\[\n|V_f|=\\frac{|C_1V_1-C_2V_2|}{C_1+C_2}\n\\]\nComplete cancellation occurs when\n\\[\nC_1V_1=C_2V_2\n\\]\nIn that case the final voltage is zero and all initial stored energy is dissipated in the redistribution process.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-networks-20",
+      "prompt": "A bridge network has capacitors \\(C_1\\) and \\(C_2\\) in series on the top branch, \\(C_3\\) and \\(C_4\\) in series on the bottom branch, and a capacitor \\(C_5\\) connecting the two middle nodes. Derive the condition under which \\(C_5\\) carries no charge, and find the equivalent capacitance under that condition.",
+      "answer": "If \\(C_5\\) carries no charge, the two middle nodes must be at the same potential. That requires the voltage division ratios in the top and bottom series branches to match.\n\nFor the top branch, the fraction of total voltage dropped across \\(C_1\\) is\n\\[\n\\frac{V_1}{V}=\\frac{1/C_1}{1/C_1+1/C_2}=\\frac{C_2}{C_1+C_2}\n\\]\nFor the bottom branch,\n\\[\n\\frac{V_3}{V}=\\frac{C_4}{C_3+C_4}\n\\]\nNo voltage across \\(C_5\\) requires\n\\[\n\\frac{C_2}{C_1+C_2}=\\frac{C_4}{C_3+C_4}\n\\]\nwhich simplifies to\n\\[\nC_2C_3=C_1C_4\n\\]\nUnder this balance condition, \\(C_5\\) can be ignored. The equivalent capacitance is the parallel sum of the two series branches:\n\\[\nC_{\\mathrm{eq}}=\\frac{C_1C_2}{C_1+C_2}+\\frac{C_3C_4}{C_3+C_4}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

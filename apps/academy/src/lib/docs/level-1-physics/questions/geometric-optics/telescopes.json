@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "telescopes",
+  "topicTitle": "Telescopes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "telescopes-01",
+      "prompt": "What is the main purpose of an astronomical telescope?",
+      "answer": "An astronomical telescope increases the angular size of distant objects as seen by the eye and collects more light than the unaided eye.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-02",
+      "prompt": "What are the two main lenses in a simple refracting astronomical telescope?",
+      "answer": "A simple refracting telescope uses a long-focal-length objective lens and a shorter-focal-length eyepiece lens.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-03",
+      "prompt": "State the angular magnification of an astronomical telescope in normal adjustment.",
+      "answer": "For normal adjustment,\n\\[\nM=-\\frac{f_o}{f_e}\n\\]\nwhere \\(f_o\\) is objective focal length and \\(f_e\\) is eyepiece focal length.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-04",
+      "prompt": "What does the negative sign in the astronomical telescope magnification mean?",
+      "answer": "The negative sign means the final image is inverted relative to the distant object.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-05",
+      "prompt": "A telescope has \\(f_o=100\\,\\mathrm{cm}\\) and \\(f_e=5.0\\,\\mathrm{cm}\\). Find its angular magnification.",
+      "answer": "\\[\nM=-\\frac{f_o}{f_e}=-\\frac{100}{5.0}=-20\n\\]\nThe magnitude is \\(20\\times\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-06",
+      "prompt": "What is the tube length of an astronomical telescope in normal adjustment?",
+      "answer": "For a refracting astronomical telescope in normal adjustment,\n\\[\nL=f_o+f_e\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-07",
+      "prompt": "Find the tube length for a telescope with \\(f_o=80\\,\\mathrm{cm}\\) and \\(f_e=4.0\\,\\mathrm{cm}\\).",
+      "answer": "\\[\nL=f_o+f_e=80+4.0=84\\,\\mathrm{cm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-08",
+      "prompt": "Why does a telescope objective usually have a long focal length?",
+      "answer": "For a given eyepiece, angular magnification is \\(|M|=f_o/f_e\\). A longer objective focal length gives larger angular magnification.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-09",
+      "prompt": "Why does a telescope eyepiece usually have a short focal length?",
+      "answer": "Angular magnification is inversely proportional to eyepiece focal length. A shorter \\(f_e\\) gives a larger \\(|M|\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-10",
+      "prompt": "A telescope gives \\(40\\times\\) magnification with \\(f_o=120\\,\\mathrm{cm}\\). Find the eyepiece focal length.",
+      "answer": "\\[\n|M|=\\frac{f_o}{f_e}\n\\]\nso\n\\[\nf_e=\\frac{f_o}{|M|}=\\frac{120\\,\\mathrm{cm}}{40}=3.0\\,\\mathrm{cm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-11",
+      "prompt": "What is normal adjustment for a telescope?",
+      "answer": "Normal adjustment means the final image is at infinity. The objective image lies at the common focal plane of the objective and eyepiece, so the eye views relaxed.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-12",
+      "prompt": "In a refracting telescope, what kind of image does the objective form before the eyepiece?",
+      "answer": "The objective forms a real, inverted image near its focal plane. The eyepiece then magnifies this image angularly.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-13",
+      "prompt": "Why does a larger objective diameter make a telescope more useful for faint objects?",
+      "answer": "A larger objective collects more light. Light-gathering area is proportional to objective diameter squared, \\(D_o^2\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-14",
+      "prompt": "A telescope objective diameter is doubled. How does its light-collecting area change?",
+      "answer": "Area is proportional to \\(D^2\\). Doubling the diameter increases collecting area by\n\\[\n2^2=4\n\\]\nso it collects four times as much light.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-15",
+      "prompt": "What is the exit pupil of a telescope?",
+      "answer": "The exit pupil is the image of the objective aperture formed by the eyepiece. It is the small beam of light leaving the eyepiece for the eye.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-16",
+      "prompt": "Estimate the exit pupil diameter for a telescope with objective diameter \\(80\\,\\mathrm{mm}\\) and magnification \\(20\\times\\).",
+      "answer": "\\[\nD_{\\mathrm{exit}}\\approx\\frac{D_o}{|M|}=\\frac{80\\,\\mathrm{mm}}{20}=4.0\\,\\mathrm{mm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-17",
+      "prompt": "How does a Galilean telescope differ from an astronomical refracting telescope?",
+      "answer": "A Galilean telescope uses a diverging eyepiece, so \\(f_e<0\\). It gives an upright final image and has a shorter tube length.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-18",
+      "prompt": "What is the approximate tube length of a Galilean telescope?",
+      "answer": "Because the eyepiece is diverging, \\(f_e<0\\), so the separation is approximately\n\\[\nL=f_o+f_e=f_o-|f_e|\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-19",
+      "prompt": "A Galilean telescope has \\(f_o=30\\,\\mathrm{cm}\\) and \\(f_e=-5.0\\,\\mathrm{cm}\\). Find its angular magnification and tube length.",
+      "answer": "\\[\nM=-\\frac{f_o}{f_e}=-\\frac{30}{-5.0}=+6.0\n\\]\nThe image is upright. The tube length is\n\\[\nL=f_o+f_e=30-5.0=25\\,\\mathrm{cm}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "telescopes-20",
+      "prompt": "Why does increasing telescope magnification too much make the image dimmer for the eye?",
+      "answer": "For a fixed objective, increasing magnification reduces the exit pupil diameter \\(D_{\\mathrm{exit}}\\approx D_o/|M|\\). Less light enters the eye's pupil, so the viewed image appears dimmer.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

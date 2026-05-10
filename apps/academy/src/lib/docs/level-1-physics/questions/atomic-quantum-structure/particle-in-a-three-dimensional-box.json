@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "particle-in-a-three-dimensional-box",
+  "topicTitle": "Particle in a Three-Dimensional Box",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "atomic-3d-box-01",
+      "prompt": "State the energy levels for a particle in a rectangular three-dimensional box.",
+      "answer": "\\[\nE=\\frac{h^2}{8m}\\left(\\frac{n_x^2}{L_x^2}+\\frac{n_y^2}{L_y^2}+\\frac{n_z^2}{L_z^2}\\right)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-02",
+      "prompt": "What values can \\(n_x\\), \\(n_y\\), and \\(n_z\\) take in a three-dimensional infinite box?",
+      "answer": "Each quantum number is a positive integer:\n\\[\nn_x,n_y,n_z=1,2,3,\\ldots\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-03",
+      "prompt": "State the cubic-box energy levels in terms of \\(E_0=h^2/(8mL^2)\\).",
+      "answer": "\\[\nE=E_0(n_x^2+n_y^2+n_z^2)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-04",
+      "prompt": "What is the ground-state quantum-number triple for a particle in a three-dimensional box?",
+      "answer": "The ground state is\n\\[\n(n_x,n_y,n_z)=(1,1,1)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-05",
+      "prompt": "For a cubic box, find the ground-state energy in units of \\(E_0\\).",
+      "answer": "\\[\nE_{111}=E_0(1^2+1^2+1^2)=3E_0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-06",
+      "prompt": "For a cubic box, find \\(E_{211}\\) in units of \\(E_0\\).",
+      "answer": "\\[\nE_{211}=E_0(2^2+1^2+1^2)=6E_0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-07",
+      "prompt": "How many states are degenerate with \\((2,1,1)\\) in a cubic box?",
+      "answer": "There are three permutations:\n\\[\n(2,1,1),(1,2,1),(1,1,2)\n\\]\nso the degeneracy is 3.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-08",
+      "prompt": "For a cubic box, find the energy of \\((2,2,1)\\) in units of \\(E_0\\).",
+      "answer": "\\[\nE_{221}=E_0(2^2+2^2+1^2)=9E_0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-09",
+      "prompt": "How many states are degenerate with \\((2,2,1)\\) in a cubic box?",
+      "answer": "There are three permutations:\n\\[\n(2,2,1),(2,1,2),(1,2,2)\n\\]\nso the degeneracy is 3.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-10",
+      "prompt": "For a cubic box, compare \\(E_{111}\\) and \\(E_{211}\\).",
+      "answer": "\\[\n\\frac{E_{211}}{E_{111}}=\\frac{6E_0}{3E_0}=2\n\\]\nThe \\((2,1,1)\\) energy is twice the ground-state energy.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-11",
+      "prompt": "Why is \\((0,1,1)\\) not an allowed state in an infinite three-dimensional box?",
+      "answer": "A zero quantum number would make the standing wave vanish everywhere in that direction. Each direction must have a positive integer quantum number.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-12",
+      "prompt": "What happens to the energy levels if all box side lengths are doubled?",
+      "answer": "Energy scales as \\(1/L^2\\). Doubling every side length reduces every energy level by a factor of 4.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-13",
+      "prompt": "For a rectangular box with \\(L_x=2L\\), \\(L_y=L\\), and \\(L_z=L\\), write the energy in units of \\(h^2/(8mL^2)\\).",
+      "answer": "The \\(x\\)-term has \\(L_x^2=4L^2\\), so\n\\[\nE=\\frac{h^2}{8mL^2}\\left(\\frac{n_x^2}{4}+n_y^2+n_z^2\\right)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-14",
+      "prompt": "Why does a cubic box have degeneracies that a rectangular box may not have?",
+      "answer": "A cube treats the three directions symmetrically, so permuting \\(n_x\\), \\(n_y\\), and \\(n_z\\) leaves the energy unchanged. Unequal side lengths break that symmetry.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-15",
+      "prompt": "For a cubic box, list all states with energy \\(6E_0\\).",
+      "answer": "The condition is\n\\[\nn_x^2+n_y^2+n_z^2=6\n\\]\nThe states are\n\\[\n(2,1,1),(1,2,1),(1,1,2)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-16",
+      "prompt": "For a cubic box, list all states with energy \\(11E_0\\).",
+      "answer": "\\[\n11=3^2+1^2+1^2\n\\]\nThe states are\n\\[\n(3,1,1),(1,3,1),(1,1,3)\n\\]\nso the degeneracy is 3.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-17",
+      "prompt": "Why is the ground-state energy nonzero in a three-dimensional infinite box?",
+      "answer": "The wave function must fit standing waves in all three directions. Since each quantum number starts at 1, the particle has nonzero momentum components and therefore nonzero kinetic energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-18",
+      "prompt": "What is the normalized wave function for the ground state in a cubic box from 0 to \\(L\\) in each direction?",
+      "answer": "\\[\n\\psi_{111}=\\left(\\frac{2}{L}\\right)^{3/2}\\sin\\frac{\\pi x}{L}\\sin\\frac{\\pi y}{L}\\sin\\frac{\\pi z}{L}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-19",
+      "prompt": "How does increasing mass affect all box energy levels?",
+      "answer": "The energies scale as \\(1/m\\). Increasing the mass lowers all energy levels and makes the spacing smaller.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-box-20",
+      "prompt": "Derive the cubic-box energy expression from the three rectangular-box terms.",
+      "answer": "Start with\n\\[\nE=\\frac{h^2}{8m}\\left(\\frac{n_x^2}{L_x^2}+\\frac{n_y^2}{L_y^2}+\\frac{n_z^2}{L_z^2}\\right)\n\\]\nFor a cube, \\(L_x=L_y=L_z=L\\), so\n\\[\nE=\\frac{h^2}{8mL^2}(n_x^2+n_y^2+n_z^2)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

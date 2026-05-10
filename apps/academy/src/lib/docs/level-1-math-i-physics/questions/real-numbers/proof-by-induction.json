@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "real-numbers",
+  "topicId": "proof-by-induction",
+  "topicTitle": "Proof by Induction",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-proof-by-induction-01",
+      "prompt": "State the two main parts of a proof by induction.",
+      "answer": "A proof by induction needs a base case and an induction step. The base case proves the first statement. The induction step proves that if the statement is true for \\(n=N\\), then it is true for \\(n=N+1\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-02",
+      "prompt": "For the statement \\(P(n): 1+2+\\cdots+n=\\frac{n(n+1)}{2}\\), verify the base case \\(n=1\\).",
+      "answer": "For \\(n=1\\), the left side is \\(1\\). The right side is\n\\[\n\\frac{1(1+1)}{2}=1\n\\]\nSo the base case holds.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-03",
+      "prompt": "What is the induction hypothesis for proving \\(\\sum_{k=1}^{n}k=\\frac{n(n+1)}{2}\\)?",
+      "answer": "Assume the formula is true for \\(n=N\\):\n\\[\n\\sum_{k=1}^{N}k=\\frac{N(N+1)}{2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-04",
+      "prompt": "Complete the induction step: if \\(\\sum_{k=1}^{N}k=\\frac{N(N+1)}{2}\\), find \\(\\sum_{k=1}^{N+1}k\\).",
+      "answer": "Add the next term:\n\\[\n\\sum_{k=1}^{N+1}k=\\sum_{k=1}^{N}k+(N+1)\n\\]\nUsing the hypothesis,\n\\[\n=\\frac{N(N+1)}{2}+(N+1)=\\frac{(N+1)(N+2)}{2}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-05",
+      "prompt": "Why is checking \\(n=1,2,3\\) not enough to prove a statement for all positive integers?",
+      "answer": "It only proves three cases. A proof for all positive integers needs a mechanism that carries truth from an arbitrary case to the next case. That mechanism is the induction step.",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-06",
+      "prompt": "Verify the base case \\(n=1\\) for \\(\\sum_{k=1}^{n}k^2=\\frac{n(n+1)(2n+1)}{6}\\).",
+      "answer": "The left side is \\(1^2=1\\). The right side is\n\\[\n\\frac{1(2)(3)}{6}=1\n\\]\nSo the base case holds.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-07",
+      "prompt": "State the induction hypothesis for \\(\\sum_{k=1}^{n}k^2=\\frac{n(n+1)(2n+1)}{6}\\).",
+      "answer": "Assume that for some arbitrary \\(N\\ge1\\),\n\\[\n\\sum_{k=1}^{N}k^2=\\frac{N(N+1)(2N+1)}{6}\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-08",
+      "prompt": "Using the induction hypothesis for squares, write \\(\\sum_{k=1}^{N+1}k^2\\) in terms of \\(N\\).",
+      "answer": "\\[\n\\sum_{k=1}^{N+1}k^2=\\sum_{k=1}^{N}k^2+(N+1)^2\n\\]\nUsing the hypothesis,\n\\[\n=\\frac{N(N+1)(2N+1)}{6}+(N+1)^2\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-09",
+      "prompt": "Simplify \\(\\frac{N(N+1)(2N+1)}{6}+(N+1)^2\\) into the formula for \\(N+1\\).",
+      "answer": "Factor \\(N+1\\):\n\\[\n\\frac{N(N+1)(2N+1)}{6}+(N+1)^2=(N+1)\\left(\\frac{N(2N+1)}{6}+N+1\\right)\n\\]\n\\[\n=\\frac{(N+1)(2N^2+7N+6)}{6}=\\frac{(N+1)(N+2)(2N+3)}{6}\n\\]\nThis is \\(\\frac{(N+1)((N+1)+1)(2(N+1)+1)}{6}\\).",
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-10",
+      "prompt": "Prove by induction that \\(1+3+5+\\cdots+(2n-1)=n^2\\).",
+      "answer": "Base case: for \\(n=1\\), both sides equal \\(1\\). Assume \\(\\sum_{k=1}^{N}(2k-1)=N^2\\). Then\n\\[\n\\sum_{k=1}^{N+1}(2k-1)=N^2+(2(N+1)-1)\n\\]\n\\[\n=N^2+2N+1=(N+1)^2\n\\]\nSo the result holds for all \\(n\\ge1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-11",
+      "prompt": "Prove by induction that \\(2^n\\ge n+1\\) for all integers \\(n\\ge1\\).",
+      "answer": "Base case: \\(2^1=2\\ge2\\). Assume \\(2^N\\ge N+1\\). Then\n\\[\n2^{N+1}=2\\cdot2^N\\ge2(N+1)=2N+2\n\\]\nSince \\(2N+2\\ge N+2\\) for \\(N\\ge0\\), we get \\(2^{N+1}\\ge (N+1)+1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-12",
+      "prompt": "Identify the flaw: 'Assume \\(P(n)\\) is true for all \\(n\\). Then \\(P(n+1)\\) is true.'",
+      "answer": "The assumption is too strong: it assumes the whole result being proved. In induction, assume only one arbitrary case, usually \\(P(N)\\), and use it to prove \\(P(N+1)\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-13",
+      "prompt": "For a statement starting at \\(n=0\\), what base case should be checked?",
+      "answer": "Check \\(n=0\\). The base case must match the first integer included in the statement.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-14",
+      "prompt": "Prove by induction that \\(\\sum_{k=0}^{n}2^k=2^{n+1}-1\\) for \\(n\\ge0\\).",
+      "answer": "Base case: for \\(n=0\\), both sides equal \\(1\\). Assume \\(\\sum_{k=0}^{N}2^k=2^{N+1}-1\\). Then\n\\[\n\\sum_{k=0}^{N+1}2^k=(2^{N+1}-1)+2^{N+1}=2^{N+2}-1\n\\]\nThis is the formula for \\(N+1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-15",
+      "prompt": "What should the final line of an induction proof state?",
+      "answer": "It should state that the base case and induction step together prove the result for all integers in the claimed range, usually by induction.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-16",
+      "prompt": "Prove by induction that \\(n!\\ge2^{n-1}\\) for all integers \\(n\\ge1\\).",
+      "answer": "Base case: \\(1!=1=2^0\\). Assume \\(N!\\ge2^{N-1}\\). Then\n\\[\n(N+1)!=(N+1)N!\\ge (N+1)2^{N-1}\n\\]\nFor \\(N\\ge1\\), \\(N+1\\ge2\\), so\n\\[\n(N+1)!\\ge2\\cdot2^{N-1}=2^N\n\\]\nThis is the required formula for \\(N+1\\).",
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-17",
+      "prompt": "Prove by induction that \\(3\\) divides \\(4^n-1\\) for all integers \\(n\\ge1\\).",
+      "answer": "Base case: \\(4^1-1=3\\), divisible by \\(3\\). Assume \\(4^N-1=3m\\). Then\n\\[\n4^{N+1}-1=4\\cdot4^N-1=4(4^N-1)+3\n\\]\n\\[\n=4(3m)+3=3(4m+1)\n\\]\nso it is divisible by \\(3\\).",
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-18",
+      "prompt": "For \\(P(n): n^2+n\\) is even, prove the induction step.",
+      "answer": "Assume \\(N^2+N\\) is even. Then\n\\[\n(N+1)^2+(N+1)=N^2+3N+2=(N^2+N)+2N+2\n\\]\nThe first term is even by the hypothesis, and \\(2N+2\\) is even, so the sum is even.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-19",
+      "prompt": "Why must \\(N\\) be arbitrary in the induction step?",
+      "answer": "The step must work from any true case to the next case. If it is proved only for a particular value such as \\(N=5\\), it proves only the move from \\(5\\) to \\(6\\), not the whole chain.",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-proof-by-induction-20",
+      "prompt": "Prove by induction that \\(\\sum_{k=1}^{n}(2k)=n(n+1)\\).",
+      "answer": "Base case: for \\(n=1\\), both sides equal \\(2\\). Assume \\(\\sum_{k=1}^{N}2k=N(N+1)\\). Then\n\\[\n\\sum_{k=1}^{N+1}2k=N(N+1)+2(N+1)\n\\]\n\\[\n=(N+1)(N+2)\n\\]\nwhich is the formula with \\(n=N+1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

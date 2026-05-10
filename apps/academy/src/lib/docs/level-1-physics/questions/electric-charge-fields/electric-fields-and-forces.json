@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "electric-fields-and-forces",
+  "topicTitle": "Electric Fields and Forces",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-fields-forces-01",
+      "prompt": "Electric field direction is defined as the force direction on what sign of test charge?",
+      "answer": "Electric field direction is defined as the force direction on a positive test charge.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-02",
+      "prompt": "State the relation between electric force and electric field for a charge \\(q\\).",
+      "answer": "The force on a charge \\(q\\) in an electric field is\n\\[\n\\vec F=q\\vec E\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-03",
+      "prompt": "A negative charge is placed in an electric field pointing east. Which way is the electric force on it?",
+      "answer": "A negative charge feels force opposite the electric field. If the field points east, the force points west.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-04",
+      "prompt": "A \\(+2.0\\,\\mathrm{nC}\\) charge experiences a \\(6.0\\times10^{-6}\\,\\mathrm{N}\\) force north. Find the electric field magnitude and direction.",
+      "answer": "Use\n\\[\n\\vec E=\\frac{\\vec F}{q}\n\\]\nFor a positive charge, the field has the same direction as the force:\n\\[\nE=\\frac{6.0\\times10^{-6}}{2.0\\times10^{-9}}\n=3.0\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]\nThe field is \\(3.0\\times10^3\\,\\mathrm{N\\,C^{-1}}\\) north.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-05",
+      "prompt": "A charge \\(-3.0\\,\\mu\\mathrm{C}\\) is placed in a uniform field \\(800\\,\\mathrm{N\\,C^{-1}}\\) upward. Find the electric force.",
+      "answer": "The force is\n\\[\n\\vec F=q\\vec E\n\\]\nWith upward as positive,\n\\[\nF=(-3.0\\times10^{-6})(800)=-2.4\\times10^{-3}\\,\\mathrm{N}\n\\]\nThe force magnitude is \\(2.4\\times10^{-3}\\,\\mathrm{N}\\), directed downward.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-06",
+      "prompt": "A particle with charge \\(+4.0\\,\\mu\\mathrm{C}\\) and mass \\(2.0\\times10^{-6}\\,\\mathrm{kg}\\) is in a \\(300\\,\\mathrm{N\\,C^{-1}}\\) field. Find its acceleration magnitude.",
+      "answer": "First find the force magnitude:\n\\[\nF=qE=(4.0\\times10^{-6})(300)=1.2\\times10^{-3}\\,\\mathrm{N}\n\\]\nThen use \\(F=ma\\):\n\\[\na=\\frac{F}{m}=\\frac{1.2\\times10^{-3}}{2.0\\times10^{-6}}\n\\]\n\\[\na=6.0\\times10^2\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-07",
+      "prompt": "A charged particle of mass \\(m\\) and charge \\(q\u003c0\\) starts from rest in a uniform electric field \\(\\vec E=E\\hat\\imath\\). Write \\(\\vec a\\) and describe the motion direction.",
+      "answer": "The acceleration is\n\\[\n\\vec a=\\frac{q}{m}\\vec E\n\\]\nWith\n\\[\n\\vec E=E\\hat\\imath\n\\]\nthe acceleration is\n\\[\n\\vec a=\\frac{qE}{m}\\hat\\imath\n\\]\nSince \\(q\u003c0\\), this vector points in the \\(-x\\) direction. The particle starts from rest and accelerates opposite the field.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-08",
+      "prompt": "A \\(+5.0\\,\\mathrm{nC}\\) test charge experiences forces \\(12\\,\\mu\\mathrm{N}\\) right and \\(9\\,\\mu\\mathrm{N}\\) up from different sources. Find the net electric field vector at the point.",
+      "answer": "The net force is\n\\[\n\\vec F=(12\\,\\mu\\mathrm{N})\\hat\\imath+(9\\,\\mu\\mathrm{N})\\hat\\jmath\n\\]\nThe field is\n\\[\n\\vec E=\\frac{\\vec F}{q}\n\\]\n\\[\n\\vec E=\\frac{12\\times10^{-6}}{5.0\\times10^{-9}}\\hat\\imath+\n\\frac{9\\times10^{-6}}{5.0\\times10^{-9}}\\hat\\jmath\n\\]\n\\[\n\\vec E=(2.4\\times10^3\\hat\\imath+1.8\\times10^3\\hat\\jmath)\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-09",
+      "prompt": "A particle of known mass \\(m\\) enters a uniform electric field with horizontal speed \\(v_0\\), and the field is vertical. Derive the vertical deflection after it travels horizontal distance \\(L\\), keeping the sign of \\(q\\).",
+      "answer": "The horizontal motion has no electric acceleration, so\n\\[\nt=\\frac{L}{v_0}\n\\]\nThe vertical acceleration is\n\\[\na_y=\\frac{qE}{m}\n\\]\nassuming \\(\\vec E=E\\hat\\jmath\\). Starting with no vertical velocity, the vertical deflection is\n\\[\ny=\\frac12 a_y t^2\n\\]\n\\[\ny=\\frac12\\frac{qE}{m}\\left(\\frac{L}{v_0}\\right)^2\n\\]\nThe sign of \\(y\\) is the sign of \\(qE\\), so a negative charge deflects opposite the field direction.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-fields-forces-10",
+      "prompt": "Two particles with charges \\(q_1\\) and \\(q_2\\) but the same mass are released from rest in the same uniform electric field. Derive the condition under which they have equal acceleration vectors, and distinguish equal magnitude from equal vector acceleration.",
+      "answer": "For each particle,\n\\[\n\\vec a_i=\\frac{q_i}{m}\\vec E\n\\]\nWith the same mass and same nonzero field, equal acceleration vectors require\n\\[\n\\frac{q_1}{m}\\vec E=\\frac{q_2}{m}\\vec E\n\\]\nso\n\\[\nq_1=q_2\n\\]\nEqual acceleration magnitudes require only\n\\[\n|q_1|=|q_2|\n\\]\nIf the charges have opposite signs but equal magnitudes, their acceleration magnitudes are equal, but their acceleration vectors point in opposite directions.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

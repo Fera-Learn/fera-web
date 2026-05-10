@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "self-inductance-and-inductors",
+  "topicTitle": "Self-Inductance and Inductors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "self-inductance-inductors-01",
+      "prompt": "What does self-inductance measure?",
+      "answer": "Self-inductance measures the flux linkage a circuit produces through itself per unit current.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-02",
+      "prompt": "State the definition of self-inductance.",
+      "answer": "Self-inductance is\n\\[\nL=\\frac{N\\Phi_B}{I}\n\\]\nfor a linear coil.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-03",
+      "prompt": "State the self-induced emf of an inductor.",
+      "answer": "For a linear inductor,\n\\[\n\\mathcal E_L=-L\\frac{dI}{dt}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-04",
+      "prompt": "What is the SI unit of inductance?",
+      "answer": "The SI unit of inductance is the henry:\n\\[\n1\\,\\mathrm{H}=1\\,\\mathrm{V\\,s\\,A^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-05",
+      "prompt": "An inductor has \\(L=0.40\\,\\mathrm{H}\\) and current increasing at \\(3.0\\,\\mathrm{A\\,s^{-1}}\\). Find \\(|\\mathcal E_L|\\).",
+      "answer": "\\[\n|\\mathcal E_L|=L\\left|\\frac{dI}{dt}\\right|=(0.40)(3.0)=1.2\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-06",
+      "prompt": "A coil has \\(N=500\\), flux per turn \\(2.0\\times10^{-5}\\,\\mathrm{Wb}\\), and current \\(4.0\\,\\mathrm{A}\\). Find \\(L\\).",
+      "answer": "\\[\nL=\\frac{N\\Phi_B}{I}=\\frac{(500)(2.0\\times10^{-5})}{4.0}=2.5\\times10^{-3}\\,\\mathrm{H}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-07",
+      "prompt": "Why does an inductor oppose changes in current?",
+      "answer": "A changing current changes the coil's magnetic flux linkage. Faraday's law induces an emf whose direction opposes that change, according to Lenz's law.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-08",
+      "prompt": "If the current through an ideal inductor is constant, what is the induced emf?",
+      "answer": "The induced emf is zero because\n\\[\n\\frac{dI}{dt}=0\n\\]\nso\n\\[\n\\mathcal E_L=-L\\frac{dI}{dt}=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-09",
+      "prompt": "A current decreases at \\(8.0\\,\\mathrm{A\\,s^{-1}}\\) in a \\(0.25\\,\\mathrm{H}\\) inductor. Find the self-induced emf magnitude.",
+      "answer": "\\[\n|\\mathcal E_L|=L\\left|\\frac{dI}{dt}\\right|=(0.25)(8.0)=2.0\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-10",
+      "prompt": "State the passive-sign voltage relation for an ideal inductor.",
+      "answer": "With current entering the positive-labeled terminal,\n\\[\nV_L=L\\frac{dI}{dt}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-11",
+      "prompt": "Derive \\(\\mathcal E_L=-L\\,dI/dt\\) from flux linkage.",
+      "answer": "For a linear inductor,\n\\[\nN\\Phi_B=LI\n\\]\nFaraday's law gives\n\\[\n\\mathcal E_L=-\\frac{d}{dt}(N\\Phi_B)\n\\]\nTherefore\n\\[\n\\mathcal E_L=-L\\frac{dI}{dt}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-12",
+      "prompt": "State the inductance of a long solenoid of length \\(l\\), area \\(A\\), turn count \\(N\\), and permeability \\(\\mu\\).",
+      "answer": "For a long solenoid,\n\\[\nL=\\mu\\frac{N^2A}{l}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-13",
+      "prompt": "A long air-core solenoid has \\(N=500\\), \\(A=2.0\\times10^{-4}\\,\\mathrm{m^2}\\), and \\(l=0.10\\,\\mathrm{m}\\). Estimate \\(L\\).",
+      "answer": "\\[\nL=\\mu_0\\frac{N^2A}{l}=(4\\pi\\times10^{-7})\\frac{(500)^2(2.0\\times10^{-4})}{0.10}=6.3\\times10^{-4}\\,\\mathrm{H}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-14",
+      "prompt": "How does solenoid inductance change if the number of turns is doubled while geometry and core stay fixed?",
+      "answer": "For a solenoid,\n\\[\nL=\\mu\\frac{N^2A}{l}\n\\]\nso \\(L\\propto N^2\\). Doubling \\(N\\) makes inductance four times larger.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-15",
+      "prompt": "How does inserting a high-permeability core affect an inductor?",
+      "answer": "A high-permeability core increases the magnetic field and flux linkage for the same current, so it usually increases the inductance.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-16",
+      "prompt": "A \\(2.0\\,\\mathrm{H}\\) inductor has voltage \\(10\\,\\mathrm{V}\\) across it using the passive sign convention. Find \\(dI/dt\\).",
+      "answer": "Using\n\\[\nV_L=L\\frac{dI}{dt}\n\\]\nwe get\n\\[\n\\frac{dI}{dt}=\\frac{V_L}{L}=\\frac{10}{2.0}=5.0\\,\\mathrm{A\\,s^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-17",
+      "prompt": "Why can inductor current not jump instantaneously in a finite-voltage circuit?",
+      "answer": "For an ideal inductor,\n\\[\nV_L=L\\frac{dI}{dt}\n\\]\nAn instantaneous current jump would require infinite \\(dI/dt\\), and therefore infinite voltage. A finite-voltage circuit cannot produce that.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-18",
+      "prompt": "A solenoid has inductance \\(0.010\\,\\mathrm{H}\\). If its length is doubled without changing \\(N\\), \\(A\\), or core, estimate the new inductance.",
+      "answer": "Since\n\\[\nL=\\mu\\frac{N^2A}{l}\n\\]\ninductance is inversely proportional to length. Doubling \\(l\\) halves \\(L\\):\n\\[\nL'=0.0050\\,\\mathrm{H}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-19",
+      "prompt": "A coil's flux linkage is \\(N\\Phi_B=0.030I\\) in SI units. Find the inductance and the emf when \\(dI/dt=12\\,\\mathrm{A\\,s^{-1}}\\).",
+      "answer": "Since \\(N\\Phi_B=LI\\), the inductance is\n\\[\nL=0.030\\,\\mathrm{H}\n\\]\nThe self-induced emf is\n\\[\n\\mathcal E_L=-L\\frac{dI}{dt}=-(0.030)(12)=-0.36\\,\\mathrm{V}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "self-inductance-inductors-20",
+      "prompt": "Explain the difference between an inductor's passive voltage \\(V_L=L\\,dI/dt\\) and its self-induced emf \\(\\mathcal E_L=-L\\,dI/dt\\).",
+      "answer": "The passive voltage is the terminal voltage required to drive an increasing current into the positive-labeled terminal. The self-induced emf is the internal Lenz-law emf that opposes the current change. They describe the same physical opposition with opposite sign conventions:\n\\[\nV_L=L\\frac{dI}{dt},\\qquad \\mathcal E_L=-L\\frac{dI}{dt}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

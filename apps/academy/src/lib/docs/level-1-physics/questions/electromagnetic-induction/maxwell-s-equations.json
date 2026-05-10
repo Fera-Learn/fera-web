@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "maxwell-s-equations",
+  "topicTitle": "Maxwell's Equations",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "maxwell-equations-01",
+      "prompt": "State Gauss's law for electric fields in integral form.",
+      "answer": "\\[\\n\\oint \\vec E\\cdot d\\vec A=\\frac{Q_{\\mathrm{enc}}}{\\epsilon_0}\\n\\]\\nIt says electric flux through a closed surface is set by the charge enclosed.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-02",
+      "prompt": "State Gauss's law for magnetism in integral form.",
+      "answer": "\\[\\n\\oint \\vec B\\cdot d\\vec A=0\\n\\]\\nThe net magnetic flux through any closed surface is zero, which reflects the absence of isolated magnetic monopoles in classical electromagnetism.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-03",
+      "prompt": "State Faraday's law in integral form.",
+      "answer": "\\[\\n\\oint \\vec E\\cdot d\\vec l=-\\frac{d\\Phi_B}{dt}\\n\\]\\nA changing magnetic flux produces a circulating electric field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-04",
+      "prompt": "State the Ampere-Maxwell law in integral form.",
+      "answer": "\\[\\n\\oint \\vec B\\cdot d\\vec l=\\mu_0I_{\\mathrm{enc}}+\\mu_0\\epsilon_0\\frac{d\\Phi_E}{dt}\\n\\]\\nMagnetic circulation is produced by conduction current and by changing electric flux.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-05",
+      "prompt": "What does \\(\\nabla\\cdot\\vec E=\\rho/\\epsilon_0\\) mean physically?",
+      "answer": "It is the differential form of Gauss's law for electric fields. Electric charge density is a source or sink of electric field lines: positive charge gives outward divergence and negative charge gives inward divergence.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-06",
+      "prompt": "What does \\(\\nabla\\cdot\\vec B=0\\) mean physically?",
+      "answer": "Magnetic field lines do not begin or end at isolated magnetic charges. They form closed loops or continue through space, so the net magnetic flux out of any closed volume is zero.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-07",
+      "prompt": "What does \\(\\nabla\\times\\vec E=-\\partial\\vec B/\\partial t\\) describe?",
+      "answer": "It describes Faraday induction locally: a changing magnetic field creates a curling electric field. The minus sign encodes Lenz's-law direction.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-08",
+      "prompt": "What does \\(\\nabla\\times\\vec B=\\mu_0\\vec J+\\mu_0\\epsilon_0\\partial\\vec E/\\partial t\\) describe?",
+      "answer": "It describes the local sources of magnetic-field circulation: conduction current density \\(\\vec J\\) and changing electric field \\(\\partial\\vec E/\\partial t\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-09",
+      "prompt": "Which Maxwell equation explains why there are no isolated north or south magnetic poles in the classical theory?",
+      "answer": "Gauss's law for magnetism:\\n\\[\\n\\oint \\vec B\\cdot d\\vec A=0\\n\\]\\nEquivalently, \\(\\nabla\\cdot\\vec B=0\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-10",
+      "prompt": "Which Maxwell equation must be used to find the emf around a loop when the magnetic flux changes?",
+      "answer": "Faraday's law:\\n\\[\\n\\mathcal E=\\oint \\vec E\\cdot d\\vec l=-\\frac{d\\Phi_B}{dt}\\n\\]\\nIt directly relates changing magnetic flux to induced emf.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-11",
+      "prompt": "In electrostatics, which Maxwell equations simplify and why?",
+      "answer": "In electrostatics, fields do not change with time and charges are stationary. The main equations are\\n\\[\\n\\nabla\\cdot\\vec E=\\rho/\\epsilon_0\\n\\]\\nand\\n\\[\\n\\nabla\\times\\vec E=0\\n\\]\\nThe zero curl means electrostatic fields are conservative.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-12",
+      "prompt": "In magnetostatics, what does the Ampere-Maxwell law reduce to?",
+      "answer": "For steady currents and steady electric fields, \\(\\partial\\vec E/\\partial t=0\\), so\\n\\[\\n\\nabla\\times\\vec B=\\mu_0\\vec J\\n\\]\\nor in integral form\\n\\[\\n\\oint \\vec B\\cdot d\\vec l=\\mu_0I_{\\mathrm{enc}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-13",
+      "prompt": "Use Maxwell's equations to identify the speed of electromagnetic waves in vacuum.",
+      "answer": "In vacuum, Maxwell's equations predict waves with speed\\n\\[\\nv=\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}\\n\\]\\nThis speed equals the speed of light \\(c\\), showing that light is an electromagnetic wave.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-14",
+      "prompt": "Calculate \\(1/\\sqrt{\\mu_0\\epsilon_0}\\) using \\(\\mu_0=4\\pi\\times10^{-7}\\,\\mathrm{N\\,A^{-2}}\\) and \\(\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}\\).",
+      "answer": "\\[\\n\\frac{1}{\\sqrt{\\mu_0\\epsilon_0}}=\\frac{1}{\\sqrt{(4\\pi\\times10^{-7})(8.85\\times10^{-12})}}\\approx3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nThis is the speed of light in vacuum.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-15",
+      "prompt": "What happens to Maxwell's equations in a charge-free, current-free vacuum region?",
+      "answer": "The source terms vanish: \\(\\rho=0\\) and \\(\\vec J=0\\). The equations become\\n\\[\\n\\nabla\\cdot\\vec E=0,\\quad \\nabla\\cdot\\vec B=0\\n\\]\\n\\[\\n\\nabla\\times\\vec E=-\\frac{\\partial\\vec B}{\\partial t},\\quad \\nabla\\times\\vec B=\\mu_0\\epsilon_0\\frac{\\partial\\vec E}{\\partial t}\\n\\]\\nThese coupled equations allow electromagnetic waves.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-16",
+      "prompt": "How does Maxwell's displacement-current term support charge conservation?",
+      "answer": "Taking the divergence of the Ampere-Maxwell law is consistent with the continuity equation \\(\\partial\\rho/\\partial t+\\nabla\\cdot\\vec J=0\\). Without the displacement-current term, changing charge distributions such as a charging capacitor would contradict charge conservation.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-17",
+      "prompt": "A closed surface encloses \\(+3.0\\,\\mu\\mathrm{C}\\). What is the electric flux through the surface?",
+      "answer": "Use Gauss's law:\\n\\[\\n\\Phi_E=\\frac{Q_{\\mathrm{enc}}}{\\epsilon_0}=\\frac{3.0\\times10^{-6}}{8.85\\times10^{-12}}=3.39\\times10^5\\,\\mathrm{N\\,m^2\\,C^{-1}}\\n\\]\\nThe positive sign means net outward electric flux.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-18",
+      "prompt": "A closed surface has \\(0.020\\,\\mathrm{Wb}\\) of magnetic flux entering it. How much magnetic flux must leave it?",
+      "answer": "Gauss's law for magnetism requires zero net magnetic flux through a closed surface. Therefore the same amount must leave:\\n\\[\\n\\Phi_{B,\\mathrm{out}}=0.020\\,\\mathrm{Wb}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-19",
+      "prompt": "Which pair of Maxwell equations shows how time-varying fields can sustain an electromagnetic wave?",
+      "answer": "Faraday's law and the Ampere-Maxwell law:\\n\\[\\n\\nabla\\times\\vec E=-\\frac{\\partial\\vec B}{\\partial t}\\n\\]\\n\\[\\n\\nabla\\times\\vec B=\\mu_0\\epsilon_0\\frac{\\partial\\vec E}{\\partial t}\\quad (\\rho=0,\\ \\vec J=0)\\n\\]\\nA changing magnetic field creates a curling electric field, and a changing electric field creates a curling magnetic field.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "maxwell-equations-20",
+      "prompt": "Why are Maxwell's equations often described as a unified theory of electricity, magnetism, and light?",
+      "answer": "They connect charges, currents, electric fields, magnetic fields, and time-varying induction in one framework. Their vacuum solutions are electromagnetic waves traveling at \\(c\\), which identifies light as an electromagnetic phenomenon.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

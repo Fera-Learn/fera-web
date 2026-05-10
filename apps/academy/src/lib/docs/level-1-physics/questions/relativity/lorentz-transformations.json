@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "lorentz-transformations",
+  "topicTitle": "Lorentz Transformations",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-lorentz-transformations-01",
+      "prompt": "State the Lorentz transformation for \\(x'\\) when \\(S'\\) moves at speed \\(v\\) along \\(+x\\) relative to \\(S\\).",
+      "answer": "\\[\nx'=\\gamma(x-vt)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-02",
+      "prompt": "State the Lorentz transformation for \\(t'\\).",
+      "answer": "\\[\nt'=\\gamma\\left(t-\\frac{vx}{c^2}\\right)\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-03",
+      "prompt": "What happens to \\(y\\) and \\(z\\) in the standard Lorentz transformation along \\(x\\)?",
+      "answer": "They are unchanged:\n\\[\ny'=y,\\qquad z'=z\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-04",
+      "prompt": "In \\(S\\), an event occurs at \\(x=300\\,\\mathrm m\\), \\(t=0\\). If \\(S'\\) moves at \\(0.600c\\), find \\(x'\\).",
+      "answer": "For \\(0.600c\\), \\(\\gamma=1.25\\). Thus\n\\[\nx'=\\gamma(x-vt)=1.25(300-0)=375\\,\\mathrm m\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-05",
+      "prompt": "In \\(S\\), an event occurs at \\(x=0\\), \\(t=2.00\\,\\mu\\mathrm s\\). If \\(S'\\) moves at \\(0.600c\\), find \\(t'\\).",
+      "answer": "With \\(x=0\\),\n\\[\nt'=\\gamma t\n\\]\nUsing \\(\\gamma=1.25\\),\n\\[\nt'=2.50\\,\\mu\\mathrm s\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-06",
+      "prompt": "Write the inverse Lorentz transformations for \\(x\\) and \\(t\\).",
+      "answer": "Reverse the sign of the relative velocity:\n\\[\nx=\\gamma(x'+vt')\n\\]\n\\[\nt=\\gamma\\left(t'+\\frac{vx'}{c^2}\\right)\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-07",
+      "prompt": "In \\(S\\), an event occurs at \\(x=900\\,\\mathrm m\\), \\(t=4.00\\,\\mu\\mathrm s\\). Frame \\(S'\\) moves at \\(0.600c\\). Find \\(x'\\).",
+      "answer": "\\[\n\\gamma=1.25\n\\]\n\\[\nx'=1.25\\left(900-(0.600)(3.00\\times10^8)(4.00\\times10^{-6})\\right)\n\\]\n\\[\nx'=1.25(180)=225\\,\\mathrm m\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-08",
+      "prompt": "For the same event \\(x=900\\,\\mathrm m\\), \\(t=4.00\\,\\mu\\mathrm s\\), and \\(v=0.600c\\), find \\(t'\\).",
+      "answer": "\\[\nt'=1.25\\left(4.00\\times10^{-6}-\\frac{(0.600c)(900)}{c^2}\\right)\n\\]\nThe second term is \\(1.80\\times10^{-6}\\,\\mathrm s\\), so\n\\[\nt'=1.25(2.20\\times10^{-6})=2.75\\,\\mu\\mathrm s\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-09",
+      "prompt": "State the relativistic velocity transformation for motion along \\(x\\).",
+      "answer": "If \\(S'\\) moves at \\(+v\\) relative to \\(S\\), then\n\\[\nu_x'=\\frac{u_x-v}{1-u_xv/c^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-10",
+      "prompt": "A particle moves at \\(0.900c\\) in \\(S\\). Frame \\(S'\\) moves at \\(0.500c\\) in the same direction. Find \\(u_x'\\).",
+      "answer": "\\[\nu_x'=\\frac{0.900c-0.500c}{1-(0.900)(0.500)}\n=\\frac{0.400c}{0.550}=0.727c\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-11",
+      "prompt": "A spaceship fires a probe forward at \\(0.700c\\) relative to the ship. The ship moves at \\(0.600c\\) relative to Earth. Find the probe speed relative to Earth.",
+      "answer": "Use the inverse velocity transformation:\n\\[\nu_x=\\frac{u_x'+v}{1+u_x'v/c^2}\n\\]\n\\[\nu_x=\\frac{0.700c+0.600c}{1+(0.700)(0.600)}=\\frac{1.300c}{1.420}=0.915c\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-12",
+      "prompt": "Show that the velocity transformation gives \\(u_x'=c\\) when \\(u_x=c\\).",
+      "answer": "Substitute \\(u_x=c\\):\n\\[\nu_x'=\\frac{c-v}{1-v/c}=\\frac{c(1-v/c)}{1-v/c}=c\n\\]\nSo light speed remains \\(c\\) in the moving inertial frame.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-13",
+      "prompt": "Two spacecraft approach each other. In Earth frame, one has velocity \\(+0.700c\\) and the other \\(-0.700c\\). What speed does one measure for the other?",
+      "answer": "Use the frame of the \\(+0.700c\\) spacecraft, so \\(v=0.700c\\) and \\(u_x=-0.700c\\):\n\\[\nu_x'=\\frac{-0.700c-0.700c}{1-(-0.700)(0.700)}=\\frac{-1.400c}{1.490}=-0.940c\n\\]\nThe measured speed is \\(0.940c\\), not \\(1.40c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-14",
+      "prompt": "An event has \\(x'=0\\) in a frame moving at \\(0.800c\\). Use the inverse Lorentz transformation to show its path in \\(S\\).",
+      "answer": "The inverse position transformation is\n\\[\nx=\\gamma(x'+vt')\n\\]\nIf \\(x'=0\\), then\n\\[\nx=\\gamma vt'\n\\]\nThe inverse time transformation gives\n\\[\nt=\\gamma t'\n\\]\nTherefore\n\\[\n\\frac{x}{t}=v\n\\]\nso the origin of \\(S'\\) moves at speed \\(v=0.800c\\) in \\(S\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-15",
+      "prompt": "Use the Lorentz transformation to find \\(x'\\) and \\(t'\\) for \\(x=600\\,\\mathrm m\\), \\(t=3.00\\,\\mu\\mathrm s\\), and \\(v=0.800c\\).",
+      "answer": "\\(\\gamma=1.67\\). First,\n\\[\nx'=1.67\\left(600-(0.800)(3.00\\times10^8)(3.00\\times10^{-6})\\right)\n\\]\n\\[\nx'=1.67(600-720)=-200\\,\\mathrm m\n\\]\nAlso,\n\\[\nt'=1.67\\left(3.00\\times10^{-6}-\\frac{(0.800c)(600)}{c^2}\\right)\n\\]\nThe second term is \\(1.60\\,\\mu\\mathrm s\\), so\n\\[\nt'=2.33\\,\\mu\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-16",
+      "prompt": "Derive the time-difference form of the Lorentz transformation from \\(t'=\\gamma(t-vx/c^2)\\).",
+      "answer": "For event 2 and event 1,\n\\[\nt_2'=\\gamma\\left(t_2-\\frac{vx_2}{c^2}\\right),\\qquad t_1'=\\gamma\\left(t_1-\\frac{vx_1}{c^2}\\right)\n\\]\nSubtract:\n\\[\n\\Delta t'=t_2'-t_1'=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-17",
+      "prompt": "Show that the Lorentz transformations reduce to Galilean transformations when \\(v\\ll c\\).",
+      "answer": "When \\(v\\ll c\\), \\(\\gamma\\approx1\\) and \\(vx/c^2\\) is negligible compared with ordinary times. Therefore\n\\[\nx'=\\gamma(x-vt)\\approx x-vt\n\\]\nand\n\\[\nt'=\\gamma\\left(t-\\frac{vx}{c^2}\\right)\\approx t\n\\]\nThese are the Galilean position and time transformations.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-18",
+      "prompt": "Use velocity addition to show that combining two sub-light speeds in the same direction cannot exceed \\(c\\).",
+      "answer": "For \\(0<a<c\\) and \\(0<b<c\\), the combined speed is\n\\[\nu=\\frac{a+b}{1+ab/c^2}\n\\]\nTo compare with \\(c\\), require\n\\[\na+b<c\\left(1+\\frac{ab}{c^2}\\right)=c+\\frac{ab}{c}\n\\]\nThis rearranges to\n\\[\n(c-a)(c-b)>0\n\\]\nwhich is true. Thus \\(u<c\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-19",
+      "prompt": "Explain why Lorentz transformations act on events rather than on objects.",
+      "answer": "A transformation assigns coordinates to a single occurrence with a definite place and time. An extended object requires many events, such as endpoint positions measured at specified times. Confusing objects with events leads to mistakes in length contraction and simultaneity.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-lorentz-transformations-20",
+      "prompt": "Derive the inverse Lorentz transformation by changing the sign of the relative velocity.",
+      "answer": "If \\(S'\\) moves at \\(+v\\) relative to \\(S\\), then \\(S\\) moves at \\(-v\\) relative to \\(S'\\). Starting from\n\\[\nx'=\\gamma(x-vt),\\qquad t'=\\gamma\\left(t-\\frac{vx}{c^2}\\right)\n\\]\ninterchange primed and unprimed coordinates and replace \\(v\\) by \\(-v\\):\n\\[\nx=\\gamma(x'+vt')\n\\]\n\\[\nt=\\gamma\\left(t'+\\frac{vx'}{c^2}\\right)\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

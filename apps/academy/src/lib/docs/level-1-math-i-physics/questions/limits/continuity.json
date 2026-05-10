@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "continuity",
+  "topicTitle": "Continuity",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-continuity-01",
+      "prompt": "Explain why \\(f(x)=x^2-3x+1\\) is continuous at \\(x=2\\), and find \\(f(2)\\).",
+      "answer": "The function is a polynomial, so it is continuous for every real \\(x\\). Its value at \\(2\\) is\n\\[\nf(2)=2^2-3(2)+1=4-6+1=-1.\n\\]\nTherefore \\(\\lim_{x\\to2}f(x)=f(2)=-1\\).",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-continuity-02",
+      "prompt": "Choose \\(c\\) so that \\(f(x)=2x+c\\) for \\(x<1\\), and \\(f(x)=5\\) for \\(x\\ge1\\), is continuous at \\(x=1\\).",
+      "answer": "The left-hand limit at \\(1\\) is\n\\[\n2(1)+c=2+c.\n\\]\nThe value at \\(1\\) is \\(5\\). Continuity requires\n\\[\n2+c=5,\n\\]\nso\n\\[\nc=3.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-continuity-03",
+      "prompt": "Let \\(g(x)=\\frac{x^2-9}{x-3}\\) for \\(x\\ne3\\), and \\(g(3)=8\\). Is \\(g\\) continuous at \\(x=3\\)?",
+      "answer": "For \\(x\\ne3\\),\n\\[\n\\frac{x^2-9}{x-3}=x+3.\n\\]\nSo\n\\[\n\\lim_{x\\to3}g(x)=6.\n\\]\nBut \\(g(3)=8\\). Since the limit and the function value are different, \\(g\\) is not continuous at \\(x=3\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "magnetic-materials",
+  "topicTitle": "Magnetic Materials",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "magnetic-materials-01",
+      "prompt": "What is relative permeability \\(\\mu_r\\)?",
+      "answer": "Relative permeability compares a material's permeability with the permeability of free space:\n\\[\n\\mu_r=\\frac{\\mu}{\\mu_0}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-02",
+      "prompt": "Name the three common classes of magnetic response discussed in introductory magnetism.",
+      "answer": "The three common classes are diamagnetic, paramagnetic, and ferromagnetic materials.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-03",
+      "prompt": "State the relation between \\(\\vec B\\), \\(\\vec H\\), and magnetization \\(\\vec M\\).",
+      "answer": "The relation is\n\\[\n\\vec B=\\mu_0(\\vec H+\\vec M)\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-04",
+      "prompt": "A linear material has \\(\\mu_r=200\\). If the same free current would produce \\(B_0=3.0\\times10^{-4}\\,\\mathrm T\\) in vacuum, estimate \\(B\\) in the material.",
+      "answer": "In the linear model,\n\\[\nB=\\mu_rB_0\n\\]\n\\[\nB=200(3.0\\times10^{-4})=6.0\\times10^{-2}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-05",
+      "prompt": "For a linear magnetic material, how are \\(\\mu_r\\) and magnetic susceptibility \\(\\chi_m\\) related?",
+      "answer": "For a linear material,\n\\[\n\\vec M=\\chi_m\\vec H\n\\]\nand\n\\[\n\\vec B=\\mu_0(1+\\chi_m)\\vec H\n\\]\nTherefore\n\\[\n\\mu_r=1+\\chi_m\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-06",
+      "prompt": "A material has \\(\\chi_m=-1.0\\times10^{-5}\\). Is it diamagnetic or paramagnetic, and why?",
+      "answer": "It is diamagnetic. A negative susceptibility means the induced magnetization is opposite the applied magnetizing field.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-07",
+      "prompt": "What is magnetic hysteresis?",
+      "answer": "Magnetic hysteresis is history dependence in a material's magnetic response. In a ferromagnet, \\(\\vec B\\) or \\(\\vec M\\) can depend on how the current value of \\(\\vec H\\) was reached, not just on the present \\(\\vec H\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-08",
+      "prompt": "Why can a ferromagnetic material remain magnetized after an external magnetizing field is removed?",
+      "answer": "Ferromagnetic materials contain magnetic domains. An external field can align many domains, and some alignment can remain after the field is removed. This remaining magnetization is called remanence.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-09",
+      "prompt": "A linear material has \\(\\chi_m=4.0\\times10^{-3}\\) and \\(H=2.5\\times10^3\\,\\mathrm{A\\,m^{-1}}\\). Find \\(M\\) and \\(B\\).",
+      "answer": "For a linear material,\n\\[\nM=\\chi_mH=(4.0\\times10^{-3})(2.5\\times10^3)=10\\,\\mathrm{A\\,m^{-1}}\n\\]\nThen\n\\[\nB=\\mu_0(H+M)\n\\]\n\\[\nB=(4\\pi\\times10^{-7})(2.5\\times10^3+10)=3.2\\times10^{-3}\\,\\mathrm T\n\\]\nThe magnetization is small compared with \\(H\\), so this is only slightly larger than the vacuum value.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-materials-10",
+      "prompt": "A long solenoid has \\(n=1000\\,\\mathrm{m^{-1}}\\), current \\(0.80\\,\\mathrm A\\), and a linear core with \\(\\mu_r=150\\). Estimate the internal field and state one limitation of this model.",
+      "answer": "For a linear magnetic core,\n\\[\nB=\\mu_0\\mu_r nI\n\\]\n\\[\nB=(4\\pi\\times10^{-7})(150)(1000)(0.80)=0.15\\,\\mathrm T\n\\]\nA limitation is that real ferromagnetic cores can saturate and show hysteresis, so \\(\\mu_r\\) may not remain constant.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

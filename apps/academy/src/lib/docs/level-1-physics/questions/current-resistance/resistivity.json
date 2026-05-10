@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "resistivity",
+  "topicTitle": "Resistivity",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "resistivity-01",
+      "prompt": "What is the SI unit of resistivity?",
+      "answer": "The SI unit of resistivity is\n\\[\n\\Omega\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-02",
+      "prompt": "State the relation between conductivity \\(\\sigma\\) and resistivity \\(\\rho\\).",
+      "answer": "Conductivity is the reciprocal of resistivity:\n\\[\n\\sigma=\\frac{1}{\\rho}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-03",
+      "prompt": "For an ohmic material with positive resistivity, are \\(\\vec E\\) and \\(\\vec J\\) parallel or anti-parallel?",
+      "answer": "For an ohmic material,\n\\[\n\\vec E=\\rho\\vec J\n\\]\nWith \\(\\rho\u003e0\\), \\(\\vec E\\) and \\(\\vec J\\) are parallel.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-04",
+      "prompt": "A material has \\(\\rho=1.7\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\\) and \\(J=2.0\\times10^6\\,\\mathrm{A\\,m^{-2}}\\). Find \\(E\\).",
+      "answer": "\\[\nE=\\rho J\n\\]\n\\[\nE=(1.7\\times10^{-8})(2.0\\times10^6)\n\\]\n\\[\nE=3.4\\times10^{-2}\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-05",
+      "prompt": "A material has conductivity \\(5.0\\times10^7\\,\\mathrm{S\\,m^{-1}}\\). Find its resistivity.",
+      "answer": "\\[\n\\rho=\\frac{1}{\\sigma}\n\\]\n\\[\n\\rho=\\frac{1}{5.0\\times10^7}\n\\]\n\\[\n\\rho=2.0\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-06",
+      "prompt": "A wire has length \\(2.0\\,\\mathrm{m}\\), area \\(1.0\\times10^{-6}\\,\\mathrm{m^2}\\), and resistivity \\(2.5\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\\). Find \\(V/I\\).",
+      "answer": "For a uniform wire,\n\\[\n\\frac{V}{I}=\\rho\\frac{L}{A}\n\\]\n\\[\n\\frac{V}{I}=(2.5\\times10^{-8})\\frac{2.0}{1.0\\times10^{-6}}\n\\]\n\\[\n\\frac{V}{I}=5.0\\times10^{-2}\\,\\Omega\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-07",
+      "prompt": "A metal has \\(\\rho_0=1.6\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\\) at \\(20^\\circ\\mathrm{C}\\) and \\(\\alpha=4.0\\times10^{-3}\\,\\mathrm{K^{-1}}\\). Estimate \\(\\rho\\) at \\(70^\\circ\\mathrm{C}\\).",
+      "answer": "Use\n\\[\n\\rho(T)=\\rho_0[1+\\alpha(T-T_0)]\n\\]\nHere\n\\[\nT-T_0=70-20=50\\,\\mathrm{K}\n\\]\n\\[\n\\rho=(1.6\\times10^{-8})[1+(4.0\\times10^{-3})(50)]\n\\]\n\\[\n\\rho=1.92\\times10^{-8}\\,\\Omega\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-08",
+      "prompt": "A cylindrical wire is stretched to twice its original length while its volume stays constant. Assuming resistivity is unchanged, by what factor does \\(V/I\\) change?",
+      "answer": "For fixed volume,\n\\[\nAL=\\mathrm{constant}\n\\]\nIf length doubles,\n\\[\nL\u0027=2L\n\\]\nthen area halves:\n\\[\nA\u0027=\\frac{A}{2}\n\\]\nSince\n\\[\n\\frac{V}{I}=R=\\rho\\frac{L}{A}\n\\]\nthe factor change is\n\\[\n\\frac{R\u0027}{R}=\\frac{(2L)/(A/2)}{L/A}=4\n\\]\nSo \\(V/I\\) increases by a factor of \\(4\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-09",
+      "prompt": "A conductor is tapered so its cross-sectional area varies as \\(A(x)=A_0(1+x/L)\\) from \\(x=0\\) to \\(L\\). With resistivity \\(\\rho\\), derive the resistance by integrating small slices.",
+      "answer": "Treat the conductor as slices of thickness \\(dx\\):\n\\[\ndR=\\rho\\frac{dx}{A(x)}\n\\]\nWith\n\\[\nA(x)=A_0\\left(1+\\frac{x}{L}\\right)\n\\]\n\\[\nR=\\int_0^L \\rho\\frac{dx}{A_0(1+x/L)}\n\\]\n\\[\nR=\\frac{\\rho}{A_0}\\int_0^L\\frac{dx}{1+x/L}\n\\]\nLet \\(u=1+x/L\\), so \\(dx=L\\,du\\), with limits \\(1\\) to \\(2\\):\n\\[\nR=\\frac{\\rho L}{A_0}\\int_1^2\\frac{du}{u}\n\\]\n\\[\nR=\\frac{\\rho L}{A_0}\\ln2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistivity-10",
+      "prompt": "A wire has \\(\\rho(T)=\\rho_0[1+\\alpha(T-T_0)]\\) and temperature varies linearly from \\(T_0\\) at one end to \\(T_0+\\Delta T\\) at the other. Derive the resistance for uniform area \\(A\\) and length \\(L\\).",
+      "answer": "For uniform area,\n\\[\ndR=\\rho(T(x))\\frac{dx}{A}\n\\]\nThe temperature varies linearly:\n\\[\nT(x)-T_0=\\Delta T\\frac{x}{L}\n\\]\nso\n\\[\n\\rho(x)=\\rho_0\\left[1+\\alpha\\Delta T\\frac{x}{L}\\right]\n\\]\nThen\n\\[\nR=\\frac{1}{A}\\int_0^L \\rho_0\\left[1+\\alpha\\Delta T\\frac{x}{L}\\right]dx\n\\]\n\\[\nR=\\frac{\\rho_0}{A}\\left[L+\\frac{\\alpha\\Delta T}{L}\\frac{L^2}{2}\\right]\n\\]\n\\[\nR=\\frac{\\rho_0L}{A}\\left(1+\\frac{\\alpha\\Delta T}{2}\\right)\n\\]\nThis is the same as using the average temperature rise \\(\\Delta T/2\\) in the linear model.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

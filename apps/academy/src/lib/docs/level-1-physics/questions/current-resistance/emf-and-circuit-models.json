@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "emf-and-circuit-models",
+  "topicTitle": "emf and Circuit Models",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "emf-circuit-models-01",
+      "prompt": "What does emf measure in energy terms?",
+      "answer": "emf measures energy supplied per unit charge:\n\\[\n\\mathcal E=\\frac{W_{\\mathrm{source}}}{q}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-02",
+      "prompt": "For an ideal source with no internal resistance, what is the terminal voltage?",
+      "answer": "For an ideal source with no internal resistance,\n\\[\nV_{\\mathrm{term}}=\\mathcal E\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-03",
+      "prompt": "For a discharging real battery with internal resistance \\(r\\), is \\(V_{\\mathrm{term}}\\) greater than or less than \\(\\mathcal E\\)?",
+      "answer": "For a discharging real battery,\n\\[\nV_{\\mathrm{term}}=\\mathcal E-Ir\n\\]\nso the terminal voltage is less than \\(\\mathcal E\\) when \\(I\u003e0\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-04",
+      "prompt": "A source has \\(\\mathcal E=12\\,\\mathrm{V}\\), internal resistance \\(1.0\\,\\Omega\\), and current \\(2.0\\,\\mathrm{A}\\). Find its terminal voltage while discharging.",
+      "answer": "\\[\nV_{\\mathrm{term}}=\\mathcal E-Ir\n\\]\n\\[\nV_{\\mathrm{term}}=12-(2.0)(1.0)=10\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-05",
+      "prompt": "A \\(6.0\\,\\mathrm{V}\\) source with internal resistance \\(0.50\\,\\Omega\\) is connected to a \\(5.5\\,\\Omega\\) load. Find the current.",
+      "answer": "For a simple loop,\n\\[\nI=\\frac{\\mathcal E}{R+r}\n\\]\n\\[\nI=\\frac{6.0}{5.5+0.50}=1.0\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-06",
+      "prompt": "A battery does \\(18\\,\\mathrm{J}\\) of non-electrostatic work moving \\(3.0\\,\\mathrm{C}\\) through it. Find its emf.",
+      "answer": "\\[\n\\mathcal E=\\frac{W_{\\mathrm{source}}}{q}\n\\]\n\\[\n\\mathcal E=\\frac{18}{3.0}=6.0\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-07",
+      "prompt": "A real battery has \\(\\mathcal E=9.0\\,\\mathrm{V}\\) and \\(r=0.80\\,\\Omega\\). Its terminal voltage is \\(8.2\\,\\mathrm{V}\\) while discharging. Find the current and external load resistance.",
+      "answer": "Use\n\\[\nV_{\\mathrm{term}}=\\mathcal E-Ir\n\\]\nso\n\\[\nI=\\frac{\\mathcal E-V_{\\mathrm{term}}}{r}\n\\]\n\\[\nI=\\frac{9.0-8.2}{0.80}=1.0\\,\\mathrm{A}\n\\]\nThe load resistance is\n\\[\nR=\\frac{V_{\\mathrm{term}}}{I}=\\frac{8.2}{1.0}=8.2\\,\\Omega\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-08",
+      "prompt": "Explain why the terminal voltage of a real discharging battery decreases as current increases.",
+      "answer": "A real battery has internal resistance. While discharging,\n\\[\nV_{\\mathrm{term}}=\\mathcal E-Ir\n\\]\nAs current increases, the internal voltage drop \\(Ir\\) increases. More energy per charge is dissipated inside the battery, so less potential difference remains across the external terminals.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-09",
+      "prompt": "A source with emf \\(\\mathcal E\\) and internal resistance \\(r\\) is connected to a variable load \\(R\\). Derive \\(V_{\\mathrm{term}}\\) as a function of \\(R\\), and give the limits as \\(R\\to0\\) and \\(R\\to\\infty\\).",
+      "answer": "The loop current is\n\\[\nI=\\frac{\\mathcal E}{R+r}\n\\]\nThe terminal voltage across the load is\n\\[\nV_{\\mathrm{term}}=IR\n\\]\nso\n\\[\nV_{\\mathrm{term}}=\\frac{\\mathcal E R}{R+r}\n\\]\nAs \\(R\\to0\\),\n\\[\nV_{\\mathrm{term}}\\to0\n\\]\nbecause the terminals are effectively shorted.\n\nAs \\(R\\to\\infty\\),\n\\[\nV_{\\mathrm{term}}\\to\\mathcal E\n\\]\nbecause the current tends to zero and there is no internal voltage drop.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "emf-circuit-models-10",
+      "prompt": "A rechargeable cell is being charged, so current is forced into its positive terminal. Using an internal resistance model, derive the charging terminal voltage and compare it with the discharging terminal voltage.",
+      "answer": "For a discharging cell, current leaves the positive terminal and the terminal voltage is\n\\[\nV_{\\mathrm{term}}=\\mathcal E-Ir\n\\]\nFor a charging cell, current is forced into the positive terminal. The external charger must overcome the emf and the internal resistive drop, so\n\\[\nV_{\\mathrm{term}}=\\mathcal E+Ir\n\\]\nThus charging requires a terminal voltage greater than the emf, while discharging gives a terminal voltage less than the emf for the same current magnitude.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

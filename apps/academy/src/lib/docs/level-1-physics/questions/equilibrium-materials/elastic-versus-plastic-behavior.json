@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "equilibrium-materials",
+  "topicId": "elastic-versus-plastic-behavior",
+  "topicTitle": "Elastic Versus Plastic Behavior",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "elastic-plastic-01",
+      "prompt": "A material has \\(Y=150\\,\\mathrm{GPa}\\) and yield stress \\(300\\,\\mathrm{MPa}\\). Find the yield strain in the linear elastic model.",
+      "answer": "\\[\n\\epsilon_y=\\frac{\\sigma_y}{Y}=\\frac{300\\times10^6}{150\\times10^9}=2.0\\times10^{-3}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-02",
+      "prompt": "Define plastic deformation in one sentence.",
+      "answer": "Plastic deformation is deformation that is not fully recovered after the load is removed.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-03",
+      "prompt": "A part has yield stress \\(240\\,\\mathrm{MPa}\\) and safety factor \\(3.0\\). Find the allowable working stress.",
+      "answer": "\\[\n\\sigma_{\\mathrm{allow}}=\\frac{\\sigma_y}{S}=\\frac{240\\,\\mathrm{MPa}}{3.0}=80\\,\\mathrm{MPa}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-04",
+      "prompt": "A \\(18\\,\\mathrm{kN}\\) tensile load is carried by a material with yield stress \\(360\\,\\mathrm{MPa}\\) using safety factor \\(2.5\\). Find the minimum area from yield alone.",
+      "answer": "Require \\(\\sigma=F/A\\le\\sigma_y/S\\), so\n\\[\nA\\ge\\frac{FS}{\\sigma_y}\n\\]\n\\[\nA\\ge\\frac{18000(2.5)}{360\\times10^6}=1.25\\times10^{-4}\\,\\mathrm{m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-05",
+      "prompt": "A material is loaded elastically to stress \\(80\\,\\mathrm{MPa}\\). Its Young modulus is \\(160\\,\\mathrm{GPa}\\). Find the elastic strain.",
+      "answer": "\\[\n\\epsilon=\\frac{\\sigma}{Y}=\\frac{80\\times10^6}{160\\times10^9}=5.0\\times10^{-4}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-06",
+      "prompt": "A stress-strain graph is linear up to \\(\\sigma_y\\), then no longer follows the original line. Which stress is associated with first permanent deformation: yield stress or ultimate stress?",
+      "answer": "First permanent deformation is associated with yield stress. Ultimate stress is associated with the maximum stress before failure, not the start of plastic deformation.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-07",
+      "prompt": "A specimen is loaded to stress below yield and then unloaded. Explain what happens to its strain and why.",
+      "answer": "If the stress stays below yield and the material behaves elastically, unloading follows the same linear path back to zero stress and zero strain. No permanent strain remains.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-08",
+      "prompt": "A material with \\(Y=100\\,\\mathrm{GPa}\\) is loaded to total strain \\(3.0\\times10^{-3}\\). On unloading, it follows slope \\(Y\\) from a maximum stress of \\(200\\,\\mathrm{MPa}\\). Find the permanent strain.",
+      "answer": "The elastic strain recovered during unloading is\n\\[\n\\epsilon_{\\mathrm{recovered}}=\\frac{\\sigma_{\\max}}{Y}=\\frac{200\\times10^6}{100\\times10^9}=2.0\\times10^{-3}\n\\]\nPermanent strain is\n\\[\n\\epsilon_p=3.0\\times10^{-3}-2.0\\times10^{-3}=1.0\\times10^{-3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-09",
+      "prompt": "A rod of area \\(A\\) and length \\(L\\) is loaded to force \\(F_{\\max}\\) beyond yield. At maximum load its measured total strain is \\(\\epsilon_{\\max}\\), and unloading is linear with slope \\(Y\\). Derive the permanent extension after unloading, state assumptions, and interpret the special case \\(F_{\\max}/A=Y\\epsilon_{\\max}\\).",
+      "answer": "Assume uniform stress, unloading is linear with slope \\(Y\\), and the rod returns to zero stress after unloading. At maximum load,\n\\[\n\\sigma_{\\max}=\\frac{F_{\\max}}{A}\n\\]\nThe recoverable elastic strain during unloading is\n\\[\n\\epsilon_e=\\frac{\\sigma_{\\max}}{Y}=\\frac{F_{\\max}}{AY}\n\\]\nThe permanent strain is\n\\[\n\\epsilon_p=\\epsilon_{\\max}-\\frac{F_{\\max}}{AY}\n\\]\nTherefore the permanent extension is\n\\[\n\\Delta L_p=L\\left(\\epsilon_{\\max}-\\frac{F_{\\max}}{AY}\\right)\n\\]\nIf \\(F_{\\max}/A=Y\\epsilon_{\\max}\\), then \\(\\epsilon_p=0\\). The loading point lies on the elastic line, so the deformation is fully recoverable in this model.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-plastic-10",
+      "prompt": "A tensile member must carry load \\(F\\), remain below yield stress \\(\\sigma_y\\) with safety factor \\(S\\), and extend by no more than \\(\\delta_{\\max}\\) over length \\(L\\) with Young modulus \\(Y\\). Derive the symbolic minimum area and state which constraint controls in each parameter regime.",
+      "answer": "Yield with safety factor requires\n\\[\n\\frac{F}{A}\\le\\frac{\\sigma_y}{S}\n\\]\n\\[\nA\\ge A_y=\\frac{FS}{\\sigma_y}\n\\]\nThe stiffness requirement is\n\\[\n\\delta=\\frac{FL}{YA}\\le\\delta_{\\max}\n\\]\n\\[\nA\\ge A_\\delta=\\frac{FL}{Y\\delta_{\\max}}\n\\]\nBoth constraints must hold, so\n\\[\nA_{\\min}=\\max\\left(\\frac{FS}{\\sigma_y},\\frac{FL}{Y\\delta_{\\max}}\\right)\n\\]\nYield controls when\n\\[\n\\frac{FS}{\\sigma_y}\\ge\\frac{FL}{Y\\delta_{\\max}}\n\\]\nThe extension limit controls in the opposite regime. The controlling constraint is the one demanding the larger area.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

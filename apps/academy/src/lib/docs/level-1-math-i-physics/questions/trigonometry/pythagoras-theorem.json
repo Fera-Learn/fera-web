@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "trigonometry",
+  "topicId": "pythagoras-theorem",
+  "topicTitle": "Pythagoras Theorem",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-pythagoras-theorem-01",
+      "prompt": "A right triangle has perpendicular sides \\(9\\) and \\(12\\). Find the hypotenuse.",
+      "answer": "Use Pythagoras' theorem:\n\\[\nc=\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-pythagoras-theorem-02",
+      "prompt": "A right triangle has hypotenuse \\(13\\) and one leg \\(5\\). Find the other leg.",
+      "answer": "Let the missing leg be \\(x\\). Then\n\\[\nx^2+5^2=13^2\n\\]\nso\n\\[\nx^2=169-25=144\n\\]\nHence \\(x=12\\), since side lengths are non-negative.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-pythagoras-theorem-03",
+      "prompt": "Find the distance between the points \\((-2,3)\\) and \\((4,-5)\\).",
+      "answer": "The coordinate changes are\n\\[\n\\Delta x=4-(-2)=6,\\qquad \\Delta y=-5-3=-8\n\\]\nTherefore\n\\[\nd=\\sqrt{6^2+(-8)^2}=\\sqrt{36+64}=10\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-pythagoras-theorem-04",
+      "prompt": "A vector has perpendicular components \\(v_x=-7\\) and \\(v_y=24\\). Find its magnitude.",
+      "answer": "The signs of the components do not affect their squared contribution:\n\\[\n|\\vec v|=\\sqrt{(-7)^2+24^2}=\\sqrt{49+576}=25\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-pythagoras-theorem-05",
+      "prompt": "Show that side lengths \\(7\\), \\(24\\), and \\(25\\) can form a right triangle.",
+      "answer": "The largest side would be the hypotenuse. Check:\n\\[\n7^2+24^2=49+576=625\n\\]\nand\n\\[\n25^2=625\n\\]\nSince the sums match, these side lengths satisfy Pythagoras' theorem and can form a right triangle.",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-pythagoras-theorem-06",
+      "prompt": "Explain why \\(\\sqrt{(-4)^2}\\) equals \\(4\\), not \\(-4\\).",
+      "answer": "The square root symbol means the non-negative square root. Since\n\\[\n(-4)^2=16\n\\]\nwe have\n\\[\n\\sqrt{(-4)^2}=\\sqrt{16}=4\n\\]\nIn general, \\(\\sqrt{x^2}=|x|\\).",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

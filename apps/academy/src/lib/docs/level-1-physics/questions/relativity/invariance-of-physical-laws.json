@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "invariance-of-physical-laws",
+  "topicTitle": "Invariance of Physical Laws",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-invariance-01",
+      "prompt": "State the principle of relativity for inertial frames.",
+      "answer": "The laws of physics have the same form in every inertial reference frame.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-02",
+      "prompt": "State the invariant-speed postulate of special relativity.",
+      "answer": "Every inertial observer measures the same vacuum speed of light, \\(c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\\), regardless of the motion of the source or observer.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-03",
+      "prompt": "What is an inertial reference frame?",
+      "answer": "An inertial frame is a frame in which a free particle, with no net force acting, moves with constant velocity.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-04",
+      "prompt": "A spacecraft moves at \\(0.600c\\). Find \\(\\beta\\).",
+      "answer": "\\[\n\\beta=\\frac{v}{c}=\\frac{0.600c}{c}=0.600\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-05",
+      "prompt": "Find the Lorentz factor for \\(v=0.600c\\).",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-\\beta^2}}=\\frac{1}{\\sqrt{1-0.600^2}}=1.25\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-06",
+      "prompt": "Why is the Galilean rule \\(u'=u-v\\) incompatible with invariant light speed?",
+      "answer": "If light has speed \\(u=c\\) in one inertial frame, the Galilean rule predicts \\(u'=c-v\\) in a frame moving at speed \\(v\\). That disagrees with the postulate that every inertial frame measures light in vacuum at speed \\(c\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-07",
+      "prompt": "A light pulse travels \\(12.0\\,\\mathrm m\\) in vacuum. How long does the trip take in an inertial frame where that path length is \\(12.0\\,\\mathrm m\\)?",
+      "answer": "\\[\n\\Delta t=\\frac{d}{c}=\\frac{12.0}{3.00\\times10^8}=4.00\\times10^{-8}\\,\\mathrm s\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-08",
+      "prompt": "Explain why special relativity requires space and time coordinates to mix between inertial frames.",
+      "answer": "If time were absolute and only position changed as \\(x'=x-vt\\), different inertial observers would assign different speeds to the same light pulse. To keep \\(c\\) invariant, the transformed time coordinate must also depend on position.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-09",
+      "prompt": "Find \\(\\gamma\\) for \\(v=0.800c\\) and explain why it is larger than the value at \\(0.600c\\).",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.800^2}}=1.67\n\\]\nIt is larger because \\(1-v^2/c^2\\) is smaller at the higher speed, so relativistic effects are stronger.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-10",
+      "prompt": "A pulse is emitted from the origin at \\(t=0\\). In frame \\(S\\), show that its wavefront after time \\(t\\) satisfies \\(x^2+y^2+z^2=c^2t^2\\).",
+      "answer": "In vacuum, light travels distance \\(r=ct\\) from the emission event. The spherical wavefront has\n\\[\nr^2=x^2+y^2+z^2\n\\]\nso\n\\[\nx^2+y^2+z^2=c^2t^2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-11",
+      "prompt": "A frame moves at \\(0.950c\\). Calculate \\(\\gamma\\) to three significant figures.",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.950^2}}=\\frac{1}{\\sqrt{0.0975}}=3.20\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-12",
+      "prompt": "At what speed is \\(\\gamma=2.00\\)? Give the answer as a fraction of \\(c\\).",
+      "answer": "\\[\n2.00=\\frac{1}{\\sqrt{1-\\beta^2}}\n\\]\n\\[\n1-\\beta^2=\\frac14\n\\]\n\\[\n\\beta=\\sqrt{\\frac34}=0.866\n\\]\nSo \\(v=0.866c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-13",
+      "prompt": "Explain why a massive particle cannot be accelerated to \\(c\\) in special relativity.",
+      "answer": "As \\(v\\) approaches \\(c\\), \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\) grows without bound. A massive particle's momentum and total energy also grow without bound, so reaching \\(c\\) would require infinite energy.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-14",
+      "prompt": "Two observers move relative to each other. One measures a laser pulse moving at \\(c\\). What speed must the other inertial observer measure for the same pulse?",
+      "answer": "The other inertial observer also measures \\(c\\). The invariant-speed postulate applies to every inertial observer and every light pulse in vacuum.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-15",
+      "prompt": "A proposed transformation keeps \\(t'=t\\) and \\(x'=x-vt\\). Use a light pulse moving along \\(+x\\) to show this cannot be relativistically correct.",
+      "answer": "For the light pulse in \\(S\\), \\(x=ct\\). The proposed transformation gives\n\\[\nx'=ct-vt=(c-v)t\n\\]\nand \\(t'=t\\), so\n\\[\n\\frac{x'}{t'}=c-v\n\\]\nThis is not \\(c\\) when \\(v\\ne0\\), so the transformation violates invariant light speed.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-16",
+      "prompt": "Show that \\(\\gamma\\ge1\\) for all allowed massive-particle speeds.",
+      "answer": "For a massive particle, \\(0\\le v<c\\), so \\(0\\le\\beta^2<1\\). Therefore\n\\[\n0<1-\\beta^2\\le1\n\\]\nTaking the square root keeps the denominator between \\(0\\) and \\(1\\):\n\\[\n0<\\sqrt{1-\\beta^2}\\le1\n\\]\nThus\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-\\beta^2}}\\ge1\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-17",
+      "prompt": "Why does the invariant speed of light remove the need for a mechanical ether frame?",
+      "answer": "An ether model would make one frame physically preferred: the frame in which light travels through the ether in a special way. Special relativity instead states that every inertial frame measures the same light speed and the same laws, so no inertial frame is singled out as the ether rest frame.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-18",
+      "prompt": "A student says, \"Relativity means everything is subjective.\" Correct this statement using invariants.",
+      "answer": "Relativity means some coordinate quantities, such as time intervals between separated events, depend on frame. It does not mean physics is arbitrary. The laws of physics, the vacuum speed of light, and spacetime intervals are invariant across inertial frames.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-19",
+      "prompt": "Use the light-cone equation to explain why the same event can have different coordinates in different frames but still describe the same physics.",
+      "answer": "Different frames may assign different values of \\(x,y,z,t\\) to the propagation from an emission event. For light, however, each inertial frame must satisfy its own light-cone equation, such as \\(x^2+y^2+z^2=c^2t^2\\). The coordinates change, but the invariant structure of light propagation remains the same.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-invariance-20",
+      "prompt": "Explain why special relativity changes kinematics before it changes dynamics.",
+      "answer": "The postulates first constrain how space and time coordinates transform between inertial frames. Once time intervals, lengths, and velocities transform differently, definitions of momentum, energy, and force must be adjusted so conservation laws and equations of motion remain frame-independent.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

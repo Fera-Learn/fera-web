@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "angular-acceleration",
+  "topicTitle": "Angular Acceleration",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "angular-acceleration-01",
+      "prompt": "A wheel\u0027s angular velocity changes from \\(3.0\\) to \\(15.0\\,\\mathrm{rad\\,s^{-1}}\\) in \\(4.0\\,\\mathrm{s}\\). Find average angular acceleration.",
+      "answer": "\\[\n\\alpha_{\\mathrm{av}}=\\frac{\\Delta\\omega}{\\Delta t}=\\frac{15.0-3.0}{4.0}=3.0\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-02",
+      "prompt": "For \\(\\omega(t)=5+2t\\), find \\(\\alpha\\).",
+      "answer": "\\[\n\\alpha=\\frac{d\\omega}{dt}=2\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-03",
+      "prompt": "At one instant, \\(\\omega=-4.0\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\alpha=+1.0\\,\\mathrm{rad\\,s^{-2}}\\). Is the angular speed increasing or decreasing?",
+      "answer": "The signs are opposite:\n\\[\n\\omega\\alpha=(-4.0)(+1.0)\u003c0\n\\]\nso the angular speed is decreasing.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-04",
+      "prompt": "For \\(\\theta(t)=2t^3-t^2\\), find \\(\\alpha\\) at \\(t=2.0\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\omega(t)=\\frac{d\\theta}{dt}=6t^2-2t\n\\]\n\\[\n\\alpha(t)=\\frac{d\\omega}{dt}=12t-2\n\\]\n\\[\n\\alpha(2.0)=22\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-05",
+      "prompt": "A point is \\(0.50\\,\\mathrm{m}\\) from an axis. If \\(\\alpha=6.0\\,\\mathrm{rad\\,s^{-2}}\\), find its tangential acceleration.",
+      "answer": "\\[\na_t=r\\alpha=0.50(6.0)=3.0\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-06",
+      "prompt": "A wheel changes from \\(+10\\,\\mathrm{rad\\,s^{-1}}\\) to \\(-5.0\\,\\mathrm{rad\\,s^{-1}}\\) in \\(3.0\\,\\mathrm{s}\\). Find average angular acceleration.",
+      "answer": "\\[\n\\alpha_{\\mathrm{av}}=\\frac{-5.0-10}{3.0}=-5.0\\,\\mathrm{rad\\,s^{-2}}\n\\]\nThe negative sign means the angular velocity changes in the negative direction.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-07",
+      "prompt": "For \\(\\theta(t)=t^3-6t^2\\), find when \\(\\alpha=0\\), then state whether the wheel is instantaneously at rest then.",
+      "answer": "\\[\n\\omega(t)=3t^2-12t\n\\]\n\\[\n\\alpha(t)=6t-12\n\\]\n\\[\n\\alpha=0\\Rightarrow t=2.0\\,\\mathrm{s}\n\\]\nAt that time,\n\\[\n\\omega(2.0)=3(2.0)^2-12(2.0)=-12\\,\\mathrm{rad\\,s^{-1}}\n\\]\nso the wheel is not instantaneously at rest.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-08",
+      "prompt": "For \\(\\omega(t)=8-4t+t^2\\), determine whether the rotation ever stops for \\(t\\ge0\\). Use the result to interpret the angular speed.",
+      "answer": "Check whether \\(\\omega=0\\):\n\\[\nt^2-4t+8=0\n\\]\nThe discriminant is\n\\[\n(-4)^2-4(1)(8)=-16\u003c0\n\\]\nso there is no real stopping time. Since the parabola opens upward and has minimum \\(\\omega(2)=4\\,\\mathrm{rad\\,s^{-1}}\\), the angular speed remains positive.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-09",
+      "prompt": "A wheel starts from rest with angular acceleration \\(\\alpha(t)=6.0-2.0t\\) in \\(\\mathrm{rad\\,s^{-2}}\\). Find when angular speed is maximum, the maximum angular speed, and the angular displacement up to that instant. State the assumption behind the maximum condition.",
+      "answer": "Starting from rest,\n\\[\n\\omega(t)=\\int_0^t(6.0-2.0t\u0027)\\,dt\u0027=6.0t-t^2\n\\]\nThe angular speed is maximum when acceleration changes from positive to negative:\n\\[\n\\alpha(t)=0\\Rightarrow 6.0-2.0t=0\n\\]\n\\[\nt=3.0\\,\\mathrm{s}\n\\]\n\\[\n\\omega_{\\max}=6.0(3.0)-3.0^2=9.0\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe angular displacement is\n\\[\n\\Delta\\theta=\\int_0^3(6.0t-t^2)\\,dt=18\\,\\mathrm{rad}\n\\]\nAssumption: \\(\\omega\\) stays positive up to this instant, so maximizing \\(\\omega\\) also maximizes angular speed.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-acceleration-10",
+      "prompt": "For \\(\\omega(t)=\\omega_0+\\alpha_0t-\\frac{1}{2}\\beta t^2\\) with \\(\\beta\u003e0\\), derive the condition for real stopping times and give the first positive stopping time when it exists.",
+      "answer": "Stopping requires\n\\[\n\\omega_0+\\alpha_0t-\\frac{1}{2}\\beta t^2=0\n\\]\nor\n\\[\n\\beta t^2-2\\alpha_0t-2\\omega_0=0\n\\]\nThe discriminant condition is\n\\[\nD=(-2\\alpha_0)^2+8\\beta\\omega_0=4(\\alpha_0^2+2\\beta\\omega_0)\\ge0\n\\]\nso\n\\[\n\\alpha_0^2+2\\beta\\omega_0\\ge0\n\\]\nThe two candidate times are\n\\[\nt=\\frac{\\alpha_0\\pm\\sqrt{\\alpha_0^2+2\\beta\\omega_0}}{\\beta}\n\\]\nThe first stopping time is the smallest positive candidate. If \\(\\omega_0\u003e0\\), this is\n\\[\nt_{\\mathrm{stop}}=\\frac{\\alpha_0+\\sqrt{\\alpha_0^2+2\\beta\\omega_0}}{\\beta}\n\\]\nThe sign and positivity checks matter because real roots can still lie outside the physical time interval.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

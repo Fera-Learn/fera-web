@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "one-dimensional-motion",
+  "topicId": "average-velocity",
+  "topicTitle": "Average Velocity",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "average-velocity-01",
+      "prompt": "A particle has displacement \\(30\\,\\mathrm{m}\\) in \\(5\\,\\mathrm{s}\\). Find its average velocity.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{\\Delta x}{\\Delta t}=\\frac{30}{5}=6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-02",
+      "prompt": "A particle moves from \\(12\\,\\mathrm{m}\\) to \\(-8\\,\\mathrm{m}\\) in \\(4\\,\\mathrm{s}\\). Find its average velocity.",
+      "answer": "\\[\n\\Delta x=-8-12=-20\\,\\mathrm{m}\n\\]\n\\[\n\\bar{v}_x=\\frac{-20}{4}=-5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-19",
+      "prompt": "Why is average speed always greater than or equal to the magnitude of average velocity?",
+      "answer": "Distance traveled is always greater than or equal to displacement magnitude:\n\\[\nd\\geq |\\Delta x|\n\\]\nDividing by the same positive \\(\\Delta t\\) gives the result.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-03",
+      "prompt": "A runner travels \\(100\\,\\mathrm{m}\\) out and \\(100\\,\\mathrm{m}\\) back in \\(20\\,\\mathrm{s}\\). Find average velocity and average speed.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{0}{20}=0\n\\]\n\\[\n\\mathrm{average\\ speed}=\\frac{200}{20}=10\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-04",
+      "prompt": "For \\(x(t)=3t+2\\), find the average velocity from \\(t=1\\,\\mathrm{s}\\) to \\(t=5\\,\\mathrm{s}\\).",
+      "answer": "\\[\nx(1)=5\\,\\mathrm{m},\\qquad x(5)=17\\,\\mathrm{m}\n\\]\n\\[\n\\bar{v}_x=\\frac{17-5}{5-1}=3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-16",
+      "prompt": "A particle is at \\(0\\,\\mathrm{m}\\) when \\(t=2\\,\\mathrm{s}\\) and \\(18\\,\\mathrm{m}\\) when \\(t=8\\,\\mathrm{s}\\). Find average velocity.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{18-0}{8-2}=3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-05",
+      "prompt": "A particle moves \\(+10\\,\\mathrm{m}\\) in \\(2\\,\\mathrm{s}\\), then \\(-4\\,\\mathrm{m}\\) in \\(3\\,\\mathrm{s}\\). Find average velocity and average speed.",
+      "answer": "\\[\n\\Delta x=10-4=6\\,\\mathrm{m},\\qquad \\Delta t=5\\,\\mathrm{s}\n\\]\n\\[\n\\bar{v}_x=\\frac{6}{5}=1.2\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n\\mathrm{average\\ speed}=\\frac{14}{5}=2.8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-06",
+      "prompt": "What are the SI units of average velocity?",
+      "answer": "Average velocity is displacement divided by time:\n\\[\n\\bar{v}_x=\\frac{\\Delta x}{\\Delta t}\n\\]\nSo the SI unit is \\(\\mathrm{m\\,s^{-1}}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-13",
+      "prompt": "A particle moves at \\(6\\,\\mathrm{m\\,s^{-1}}\\) for \\(2\\,\\mathrm{s}\\), then \\(-2\\,\\mathrm{m\\,s^{-1}}\\) for \\(6\\,\\mathrm{s}\\). Find the average velocity.",
+      "answer": "\\[\n\\Delta x=(6)(2)+(-2)(6)=0\n\\]\n\\[\n\\bar{v}_x=\\frac{0}{8}=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-17",
+      "prompt": "If a particle has zero average velocity over a nonzero time interval, what must be true about its initial and final positions?",
+      "answer": "The displacement must be zero:\n\\[\n\\bar{v}_x=0\\Rightarrow \\Delta x=0\n\\]\nSo \\(x_f=x_i\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-07",
+      "prompt": "A car moves from \\(x=-50\\,\\mathrm{m}\\) to \\(x=10\\,\\mathrm{m}\\) in \\(15\\,\\mathrm{s}\\). Find its average velocity.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{10-(-50)}{15}=4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-08",
+      "prompt": "Can average velocity be negative while average speed is positive?",
+      "answer": "Yes. Average velocity uses displacement, so it carries direction. Average speed uses distance, so it cannot be negative.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-14",
+      "prompt": "During a \\(10\\,\\mathrm{s}\\) interval, a particle travels \\(60\\,\\mathrm{m}\\) of distance but has displacement \\(-20\\,\\mathrm{m}\\). Find average velocity and average speed.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{-20}{10}=-2\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n\\mathrm{average\\ speed}=\\frac{60}{10}=6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-20",
+      "prompt": "A position table gives \\(x=1\\,\\mathrm{m}\\) at \\(t=0\\,\\mathrm{s}\\) and \\(x=19\\,\\mathrm{m}\\) at \\(t=6\\,\\mathrm{s}\\). Find the average velocity.",
+      "answer": "\\[\n\\bar{v}_x=\\frac{19-1}{6-0}=3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-09",
+      "prompt": "A particle has \\(\\bar{v}_x=-3\\,\\mathrm{m\\,s^{-1}}\\) for \\(8\\,\\mathrm{s}\\). Find its displacement.",
+      "answer": "\\[\n\\Delta x=\\bar{v}_x\\Delta t=(-3)(8)=-24\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-10",
+      "prompt": "A particle starts at \\(5\\,\\mathrm{m}\\) and has average velocity \\(2.5\\,\\mathrm{m\\,s^{-1}}\\) for \\(4\\,\\mathrm{s}\\). Find its final position.",
+      "answer": "\\[\n\\Delta x=\\bar{v}_x\\Delta t=(2.5)(4)=10\\,\\mathrm{m}\n\\]\n\\[\nx_f=5+10=15\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-15",
+      "prompt": "Why is average velocity undefined for \\(\\Delta t=0\\)?",
+      "answer": "The definition would require division by zero:\n\\[\n\\bar{v}_x=\\frac{\\Delta x}{0}\n\\]\nSo the time interval must be nonzero.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-11",
+      "prompt": "A particle moves \\(8\\,\\mathrm{m}\\) in \\(2\\,\\mathrm{s}\\), then \\(8\\,\\mathrm{m}\\) in \\(6\\,\\mathrm{s}\\). Find its average velocity for the whole motion.",
+      "answer": "\\[\n\\Delta x=8+8=16\\,\\mathrm{m}\n\\]\n\\[\n\\Delta t=2+6=8\\,\\mathrm{s}\n\\]\n\\[\n\\bar{v}_x=2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-12",
+      "prompt": "On a position-time graph, what does average velocity represent between two points?",
+      "answer": "It is the slope of the secant line:\n\\[\n\\bar{v}_x=\\frac{x_f-x_i}{t_f-t_i}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-18",
+      "prompt": "A particle has average velocity \\(7\\,\\mathrm{m\\,s^{-1}}\\) for \\(3\\,\\mathrm{s}\\). Find its displacement.",
+      "answer": "\\[\n\\Delta x=(7)(3)=21\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-21",
+      "prompt": "A particle moves from \\(x=0\\) to \\(x=12\\,\\mathrm{m}\\) in \\(3\\,\\mathrm{s}\\), then from \\(x=12\\,\\mathrm{m}\\) to \\(x=-4\\,\\mathrm{m}\\) in \\(5\\,\\mathrm{s}\\). Find average velocity and average speed over the whole motion.",
+      "answer": "\\[\n\\Delta x=-4-0=-4\\,\\mathrm{m}\n\\]\n\\[\n\\Delta t=3+5=8\\,\\mathrm{s}\n\\]\n\\[\n\\bar{v}_x=\\frac{-4}{8}=-0.5\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nd=12+16=28\\,\\mathrm{m},\\qquad \\bar{v}_{\\mathrm{speed}}=\\frac{28}{8}=3.5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "average-velocity-22",
+      "prompt": "A particle has \\(x(t)=t^2-6t+5\\). Find the average velocity from \\(t=1\\,\\mathrm{s}\\) to \\(t=7\\,\\mathrm{s}\\), and decide whether it equals the instantaneous velocity at the midpoint time.",
+      "answer": "\\[\nx(1)=1-6+5=0\\,\\mathrm{m}\n\\]\n\\[\nx(7)=49-42+5=12\\,\\mathrm{m}\n\\]\n\\[\n\\bar{v}_x=\\frac{12-0}{7-1}=2\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_x(t)=2t-6,\\qquad v_x(4)=2\\,\\mathrm{m\\,s^{-1}}\n\\]\nFor this quadratic position function, the average velocity over the interval equals the instantaneous velocity at the midpoint.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

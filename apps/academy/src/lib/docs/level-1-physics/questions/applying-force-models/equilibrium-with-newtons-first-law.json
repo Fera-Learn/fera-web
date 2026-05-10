@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "applying-force-models",
+  "topicId": "equilibrium-with-newtons-first-law",
+  "topicTitle": "equilibrium-with-newtons-first-law",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "force-equilibrium-01",
+      "prompt": "A particle has a \\(5\\,\\mathrm{N}\\) force to the right. What single force keeps it in equilibrium?",
+      "answer": "The balancing force must be equal and opposite: \\(5\\,\\mathrm{N}\\) to the left.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-02",
+      "prompt": "Find the weight of a \\(6.0\\,\\mathrm{kg}\\) object near Earth\u0027s surface, using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\nW=mg=6.0(9.8)=58.8\\,\\mathrm{N}\n\\]\nThe weight acts downward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-03",
+      "prompt": "An \\(80\\,\\mathrm{N}\\) load is supported by two identical vertical strings. Find the tension in each string.",
+      "answer": "By symmetry,\n\\[\n2T=80\\,\\mathrm{N}\n\\]\n\\[\nT=40\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-04",
+      "prompt": "A force of \\(50\\,\\mathrm{N}\\) acts \\(30^\\circ\\) above the positive \\(x\\)-axis. Find its \\(x\\)- and \\(y\\)-components.",
+      "answer": "\\[\nF_x=50\\cos30^\\circ=43.3\\,\\mathrm{N}\n\\]\n\\[\nF_y=50\\sin30^\\circ=25.0\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-05",
+      "prompt": "A \\(100\\,\\mathrm{N}\\) lamp hangs from two identical ropes, each \\(30^\\circ\\) above the horizontal. Find the tension in each rope.",
+      "answer": "Vertical equilibrium gives\n\\[\n2T\\sin30^\\circ=100\n\\]\n\\[\nT=100\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-06",
+      "prompt": "A \\(10.0\\,\\mathrm{kg}\\) block rests on a frictionless \\(20^\\circ\\) slope and is held by a rope parallel to the slope. Find the rope tension and normal reaction.",
+      "answer": "Along the slope:\n\\[\nT=mg\\sin20^\\circ=10.0(9.8)\\sin20^\\circ=33.5\\,\\mathrm{N}\n\\]\nPerpendicular to the slope:\n\\[\nN=mg\\cos20^\\circ=92.1\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-07",
+      "prompt": "A force \\(\\vec{F}=30\\hat{\\imath}-40\\hat{\\jmath}\\,\\mathrm{N}\\) acts on a particle. What single additional force puts the particle in equilibrium?",
+      "answer": "The added force must be \\(-\\vec{F}\\):\n\\[\n\\vec{F}_{\\mathrm{add}}=-30\\hat{\\imath}+40\\hat{\\jmath}\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-08",
+      "prompt": "A \\(50\\,\\mathrm{N}\\) weight is held by a cable at \\(40^\\circ\\) above horizontal and a second horizontal cable. Find both cable tensions.",
+      "answer": "Vertical balance gives\n\\[\nT\\sin40^\\circ=50\n\\]\n\\[\nT=77.8\\,\\mathrm{N}\n\\]\nHorizontal balance gives\n\\[\nT_h=T\\cos40^\\circ=59.6\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-09",
+      "prompt": "A knot has forces \\(20\\,\\mathrm{N}\\) east and \\(15\\,\\mathrm{N}\\) north acting on it. Find the third force needed for equilibrium, as a magnitude and direction.",
+      "answer": "The third force must cancel the resultant:\n\\[\n\\vec{F}_3=-20\\hat{\\imath}-15\\hat{\\jmath}\\,\\mathrm{N}\n\\]\n\\[\n|\\vec{F}_3|=\\sqrt{20^2+15^2}=25\\,\\mathrm{N}\n\\]\nIts direction is \\(36.9^\\circ\\) south of west.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-10",
+      "prompt": "A \\(12.0\\,\\mathrm{kg}\\) mass hangs from two ropes. The left rope is \\(50^\\circ\\) above horizontal and the right rope is \\(35^\\circ\\) above horizontal. Find the two tensions and identify which rope is more heavily loaded.",
+      "answer": "Let \\(T_L\\) be the left-rope tension and \\(T_R\\) the right-rope tension.\n\\[\nT_L\\cos50^\\circ=T_R\\cos35^\\circ\n\\]\n\\[\nT_L\\sin50^\\circ+T_R\\sin35^\\circ=12.0(9.8)\n\\]\nSolving gives\n\\[\nT_R=75.9\\,\\mathrm{N},\\qquad T_L=96.7\\,\\mathrm{N}\n\\]\nSo the left rope is more heavily loaded.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-11",
+      "prompt": "A \\(5.0\\,\\mathrm{kg}\\) lamp is held by a horizontal cable to the left and a cable \\(35^\\circ\\) above horizontal to the right. A fan adds a steady \\(18\\,\\mathrm{N}\\) force to the right on the lamp. Find both cable tensions.",
+      "answer": "Vertical balance:\n\\[\nT_R\\sin35^\\circ=5.0(9.8)\n\\]\n\\[\nT_R=85.4\\,\\mathrm{N}\n\\]\nHorizontal balance (rightward fan force included):\n\\[\nT_L=T_R\\cos35^\\circ+18\n\\]\n\\[\nT_L=88.0\\,\\mathrm{N}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-equilibrium-12",
+      "prompt": "A load is held by two cables. The left cable is \\(30^\\circ\\) above horizontal and can withstand \\(150\\,\\mathrm{N}\\); the right cable is \\(50^\\circ\\) above horizontal and can withstand \\(180\\,\\mathrm{N}\\). In addition, a horizontal wind applies \\(40\\,\\mathrm{N}\\) to the right on the load. Find the largest load weight and mass that can be held in equilibrium.",
+      "answer": "Horizontal balance with rightward wind force \\(40\\,\\mathrm N\\):\n\\[\nT_R\\cos50^\\circ+40=T_L\\cos30^\\circ\n\\]\nSo\n\\[\nT_R=\\frac{\\cos30^\\circ}{\\cos50^\\circ}T_L-\\frac{40}{\\cos50^\\circ}\n\\]\nThe right cable reaches its limit first (set \\(T_R=180\\,\\mathrm N\\)):\n\\[\nT_L=179.5\\,\\mathrm{N}\n\\]\nBut this exceeds the left-cable limit \\(150\\,\\mathrm N\\), so left cable is actually limiting.\nSet \\(T_L=150\\,\\mathrm N\\):\n\\[\nT_R=1.347(150)-\\frac{40}{\\cos50^\\circ}=140.3\\,\\mathrm N\n\\]\nThe supported weight is\n\\[\nW=T_L\\sin30^\\circ+T_R\\sin50^\\circ=182.5\\,\\mathrm{N}\n\\]\n\\[\nm=\\frac{W}{g}=\\frac{182.5}{9.8}=18.6\\,\\mathrm{kg}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

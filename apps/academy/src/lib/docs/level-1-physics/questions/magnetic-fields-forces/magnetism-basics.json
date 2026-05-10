@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "magnetism-basics",
+  "topicTitle": "Magnetism Basics",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "magnetism-basics-01",
+      "prompt": "What kind of electric charge produces magnetic effects?",
+      "answer": "Moving electric charge produces magnetic effects. In a wire, the moving charges form a current.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-02",
+      "prompt": "Can a stationary point charge in a steady magnetic field feel a magnetic force?",
+      "answer": "No. Magnetic force on a point charge requires motion:\n\\[\nF_B=|q|vB\\sin\\theta\n\\]\nIf \\(v=0\\), then \\(F_B=0\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-03",
+      "prompt": "What does a compass needle show about a magnetic field?",
+      "answer": "A compass needle aligns with the local magnetic field. Its north-seeking end points along the field direction.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-04",
+      "prompt": "What is the SI unit of magnetic field?",
+      "answer": "The SI unit of magnetic field is the tesla:\n\\[\n1\\,\\mathrm{T}=1\\,\\mathrm{N\\,A^{-1}\\,m^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-05",
+      "prompt": "What happens when a bar magnet is cut in half?",
+      "answer": "Each piece becomes a smaller magnet with both a north pole and a south pole. Ordinary magnets do not split into isolated north and south magnetic charges.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-06",
+      "prompt": "Why does a current-carrying wire deflect a nearby compass?",
+      "answer": "The current is moving charge, so it creates a magnetic field around the wire. The compass needle turns to align with the local resultant magnetic field.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-07",
+      "prompt": "Does a magnetic field do work on an isolated moving point charge? Explain.",
+      "answer": "No. The magnetic force is perpendicular to the particle velocity:\n\\[\n\\vec F_B=q\\vec v\\times\\vec B\n\\]\nBecause \\(\\vec F_B\\cdot\\vec v=0\\), magnetic force changes direction of motion but not speed.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-08",
+      "prompt": "How is conventional current direction defined in a conductor?",
+      "answer": "Conventional current points in the direction positive charge would move. In a metal, electrons drift opposite to the conventional current direction.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-09",
+      "prompt": "Why is magnetism usually connected to electric current in circuit problems?",
+      "answer": "Current is a flow of charge, and moving charge produces magnetic fields. Circuit magnetism therefore often comes from currents in wires, loops, coils, and devices.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-10",
+      "prompt": "Compare electric field and magnetic field forces on a point charge.",
+      "answer": "An electric field can exert force on a charge whether or not it moves:\n\\[\n\\vec F_E=q\\vec E\n\\]\nA magnetic field exerts force only on moving charge, and the force depends on velocity direction:\n\\[\n\\vec F_B=q\\vec v\\times\\vec B\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-11",
+      "prompt": "A charged particle moves parallel to a magnetic field. What magnetic force acts on it?",
+      "answer": "The force is zero because \\(\\theta=0\\):\n\\[\nF_B=|q|vB\\sin0=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-12",
+      "prompt": "A charged particle moves perpendicular to a magnetic field. What is the magnetic force magnitude?",
+      "answer": "For perpendicular motion, \\(\\theta=90^\\circ\\), so\n\\[\nF_B=|q|vB\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-13",
+      "prompt": "Why are magnetic pole names not the same as electric charge names?",
+      "answer": "Electric charges can exist as isolated positive or negative charges. Magnetic north and south poles are observed as paired ends of dipoles; ordinary magnets do not contain isolated single magnetic poles.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-14",
+      "prompt": "What direction does a magnetic dipole tend to rotate in an external magnetic field?",
+      "answer": "A magnetic dipole tends to rotate so its magnetic moment \\(\\vec\\mu\\) aligns with the external magnetic field \\(\\vec B\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-15",
+      "prompt": "A current in a loop is reversed. What happens to the loop's magnetic dipole direction?",
+      "answer": "The magnetic dipole direction reverses. The right-hand rule for a current loop gives \\(\\vec\\mu\\); reversing current reverses the curl direction and therefore reverses \\(\\vec\\mu\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-16",
+      "prompt": "Why can a magnetic field change the path of a particle without changing its kinetic energy?",
+      "answer": "The magnetic force is perpendicular to velocity, so it changes the direction of \\(\\vec v\\) but does no work. Since work changes kinetic energy, the speed and kinetic energy stay constant if only magnetic force acts.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-17",
+      "prompt": "A region contains a magnetic field, but no charged particle is moving through it. What evidence could still reveal the field?",
+      "answer": "A compass or small magnetic dipole could rotate to align with the field. A current-carrying test wire could also experience a force if placed in the region.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-18",
+      "prompt": "Explain why a magnetic field is a vector field rather than just a scalar strength.",
+      "answer": "At each point, a magnetic field has both magnitude and direction. The direction determines compass alignment and the direction of forces through cross products, so magnitude alone is not enough.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-19",
+      "prompt": "A positive charge and a negative charge move with the same velocity through the same magnetic field. Compare their magnetic force directions.",
+      "answer": "The force law is\n\\[\n\\vec F_B=q\\vec v\\times\\vec B\n\\]\nChanging the sign of \\(q\\) reverses the force direction. The magnitudes are equal if the charge magnitudes are equal.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetism-basics-20",
+      "prompt": "Give a concise model of magnetism in terms of sources and targets of magnetic effects.",
+      "answer": "Sources: moving charge and magnetic dipoles create magnetic fields. Targets: moving charges, currents, and magnetic dipoles respond to magnetic fields through forces or torques. The source and target roles are both rooted in moving charge.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

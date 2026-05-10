@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "heat-capacity-of-ideal-gases",
+  "topicTitle": "Heat Capacity of Ideal Gases",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "ideal-gas-heat-capacity-01",
+      "prompt": "For an ideal gas, which is larger: \\(C_P\\) or \\(C_V\\)?",
+      "answer": "For an ideal gas,\n\\[\nC_P\u003eC_V\n\\]\nAt constant pressure, heat input must both raise internal energy and supply expansion work.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-02",
+      "prompt": "State Mayer\u0027s relation for an ideal gas.",
+      "answer": "Mayer\u0027s relation for an ideal gas is\n\\[\nC_P-C_V=R\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-03",
+      "prompt": "A gas has \\(C_V=12.5\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\). Find \\(C_P\\).",
+      "answer": "Use Mayer\u0027s relation:\n\\[\nC_P=C_V+R\n\\]\n\\[\nC_P=12.5+8.31=20.8\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-04",
+      "prompt": "A gas has \\(C_P=29.1\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\) and \\(C_V=20.8\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\). Find \\(\\gamma\\).",
+      "answer": "The heat-capacity ratio is\n\\[\n\\gamma=\\frac{C_P}{C_V}\n\\]\n\\[\n\\gamma=\\frac{29.1}{20.8}=1.40\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-05",
+      "prompt": "Find the heat needed to raise \\(2.0\\,\\mathrm{mol}\\) of ideal gas by \\(30\\,\\mathrm{K}\\) at constant volume if \\(C_V=20.8\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\).",
+      "answer": "At constant volume,\n\\[\nQ_V=nC_V\\Delta T\n\\]\n\\[\nQ_V=(2.0)(20.8)(30)\n\\]\n\\[\nQ_V=1.25\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-06",
+      "prompt": "For the same gas in the previous question, find the heat needed at constant pressure.",
+      "answer": "First find\n\\[\nC_P=C_V+R=20.8+8.31=29.1\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\n\\]\nAt constant pressure,\n\\[\nQ_P=nC_P\\Delta T\n\\]\n\\[\nQ_P=(2.0)(29.1)(30)\n\\]\n\\[\nQ_P=1.75\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-07",
+      "prompt": "For a monatomic ideal gas, derive \\(C_P\\) and \\(\\gamma\\) from \\(C_V=3R/2\\).",
+      "answer": "For a monatomic ideal gas,\n\\[\nC_V=\\frac{3}{2}R\n\\]\nUsing Mayer\u0027s relation,\n\\[\nC_P=C_V+R=\\frac{3}{2}R+R=\\frac{5}{2}R\n\\]\nTherefore\n\\[\n\\gamma=\\frac{C_P}{C_V}=\\frac{(5/2)R}{(3/2)R}=\\frac{5}{3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-08",
+      "prompt": "A gas has \\(\\gamma=1.40\\). Derive \\(C_V\\) and \\(C_P\\) in terms of \\(R\\).",
+      "answer": "Use\n\\[\n\\gamma=\\frac{C_P}{C_V}\n\\]\nand\n\\[\nC_P-C_V=R\n\\]\nSince \\(C_P=\\gamma C_V\\),\n\\[\n\\gamma C_V-C_V=R\n\\]\n\\[\nC_V=\\frac{R}{\\gamma-1}\n\\]\nFor \\(\\gamma=1.40\\),\n\\[\nC_V=\\frac{R}{0.40}=2.5R\n\\]\nand\n\\[\nC_P=\\gamma C_V=(1.40)(2.5R)=3.5R\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-09",
+      "prompt": "Show from the first law why \\(C_P-C_V=R\\) for an ideal gas.",
+      "answer": "At constant volume,\n\\[\nW=0\n\\]\nso\n\\[\nQ_V=\\Delta U=nC_V\\Delta T\n\\]\nAt constant pressure,\n\\[\nQ_P=\\Delta U+W\n\\]\nFor an ideal gas,\n\\[\n\\Delta U=nC_V\\Delta T\n\\]\nand\n\\[\nW=p\\Delta V=nR\\Delta T\n\\]\nThus\n\\[\nQ_P=nC_V\\Delta T+nR\\Delta T=n(C_V+R)\\Delta T\n\\]\nBut also\n\\[\nQ_P=nC_P\\Delta T\n\\]\nso\n\\[\nC_P-C_V=R\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-heat-capacity-10",
+      "prompt": "An ideal gas is heated through \\(\\Delta T\\) at constant pressure. Derive the fraction of the heat input that becomes expansion work in terms of \\(\\gamma\\).",
+      "answer": "At constant pressure, the expansion work is\n\\[\nW=p\\Delta V=nR\\Delta T\n\\]\nThe heat input is\n\\[\nQ=nC_P\\Delta T\n\\]\nTherefore\n\\[\n\\frac{W}{Q}=\\frac{R}{C_P}\n\\]\nUsing \\(R=C_P-C_V\\),\n\\[\n\\frac{W}{Q}=\\frac{C_P-C_V}{C_P}=1-\\frac{1}{\\gamma}\n\\]\nso\n\\[\n\\frac{W}{Q}=\\frac{\\gamma-1}{\\gamma}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

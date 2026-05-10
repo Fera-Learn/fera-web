@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "rotation-about-moving-axes",
+  "topicTitle": "Rotation About Moving Axes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "moving-axes-01",
+      "prompt": "A wheel rolls without slipping with \\(v_{\\mathrm{cm}}=6.0\\,\\mathrm{m\\,s^{-1}}\\) and \\(R=0.30\\,\\mathrm{m}\\). Find \\(\\omega\\).",
+      "answer": "\\[\n\\omega=\\frac{v_{\\mathrm{cm}}}{R}=\\frac{6.0}{0.30}=20\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-02",
+      "prompt": "A rolling disk has \\(\\omega=12\\,\\mathrm{rad\\,s^{-1}}\\) and \\(R=0.20\\,\\mathrm{m}\\). Find \\(v_{\\mathrm{cm}}\\).",
+      "answer": "\\[\nv_{\\mathrm{cm}}=R\\omega=0.20(12)=2.4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-03",
+      "prompt": "A wheel rolls to the right without slipping. If counterclockwise is positive, what is the sign of \\(\\omega\\)?",
+      "answer": "Rolling to the right corresponds to clockwise rotation. If counterclockwise is positive, \\(\\omega\\) is negative.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-04",
+      "prompt": "A rolling object has \\(a_{\\mathrm{cm}}=2.4\\,\\mathrm{m\\,s^{-2}}\\) and \\(R=0.40\\,\\mathrm{m}\\). Find \\(|\\alpha|\\).",
+      "answer": "\\[\n|\\alpha|=\\frac{a_{\\mathrm{cm}}}{R}=\\frac{2.4}{0.40}=6.0\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-05",
+      "prompt": "A rolling hoop has \\(M=1.5\\,\\mathrm{kg}\\), \\(R=0.25\\,\\mathrm{m}\\), and \\(v_{\\mathrm{cm}}=4.0\\,\\mathrm{m\\,s^{-1}}\\). Find its total kinetic energy using \\(I_{\\mathrm{cm}}=MR^2\\).",
+      "answer": "For a hoop, \\(I_{\\mathrm{cm}}=MR^2\\), so \\(K_{\\mathrm{rot}}=\\frac12Mv^2\\). Thus\n\\[\nK=Mv^2=1.5(4.0^2)=24\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-06",
+      "prompt": "A solid cylinder rolls without slipping at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). Its mass is \\(2.0\\,\\mathrm{kg}\\). Find its total kinetic energy using \\(I_{\\mathrm{cm}}=\\frac12MR^2\\).",
+      "answer": "For a solid cylinder,\n\\[\nK=\\frac12Mv^2+\\frac12\\left(\\frac12MR^2\\right)\\left(\\frac{v}{R}\\right)^2\n\\]\n\\[\nK=\\frac34Mv^2=\\frac34(2.0)(3.0^2)=13.5\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-07",
+      "prompt": "A solid sphere rolls without slipping down an incline with \\(a_{\\mathrm{cm}}=3.5\\,\\mathrm{m\\,s^{-2}}\\) and \\(R=0.10\\,\\mathrm{m}\\). Find the angular acceleration magnitude and state the rotation sense if it rolls downhill to the right.",
+      "answer": "\\[\n|\\alpha|=\\frac{a_{\\mathrm{cm}}}{R}=\\frac{3.5}{0.10}=35\\,\\mathrm{rad\\,s^{-2}}\n\\]\nIf it rolls downhill to the right, the rotation is clockwise.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-08",
+      "prompt": "A rolling body has \\(K_{\\mathrm{trans}}=18\\,\\mathrm{J}\\) and \\(K_{\\mathrm{rot}}=9\\,\\mathrm{J}\\). Find the total kinetic energy and the fraction in rotation.",
+      "answer": "\\[\nK=K_{\\mathrm{trans}}+K_{\\mathrm{rot}}=18+9=27\\,\\mathrm{J}\n\\]\n\\[\n\\frac{K_{\\mathrm{rot}}}{K}=\\frac{9}{27}=\\frac13\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-09",
+      "prompt": "A solid cylinder rolls without slipping down an incline of angle \\(\\theta\\). Use \\(I_{\\mathrm{cm}}=\\frac12MR^2\\) to derive \\(a_{\\mathrm{cm}}\\).",
+      "answer": "Down the incline,\n\\[\nMg\\sin\\theta-f_s=Ma_{\\mathrm{cm}}\n\\]\nAbout the centre,\n\\[\nf_sR=I_{\\mathrm{cm}}\\alpha\n\\]\nFor rolling,\n\\[\na_{\\mathrm{cm}}=R\\alpha\n\\]\nWith \\(I_{\\mathrm{cm}}=\\frac12MR^2\\),\n\\[\nf_s=\\frac{I_{\\mathrm{cm}}a_{\\mathrm{cm}}}{R^2}=\\frac12Ma_{\\mathrm{cm}}\n\\]\nSubstitute:\n\\[\nMg\\sin\\theta-\\frac12Ma_{\\mathrm{cm}}=Ma_{\\mathrm{cm}}\n\\]\n\\[\na_{\\mathrm{cm}}=\\frac{2}{3}g\\sin\\theta\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-10",
+      "prompt": "A hoop, a solid cylinder, and a solid sphere roll without slipping from rest down the same vertical height. Rank their final speeds and justify using energy.",
+      "answer": "For rolling without slipping,\n\\[\nMgh=\\frac12Mv^2+\\frac12I_{\\mathrm{cm}}\\frac{v^2}{R^2}\n\\]\nWrite \\(I_{\\mathrm{cm}}=\\kappa MR^2\\):\n\\[\nv^2=\\frac{2gh}{1+\\kappa}\n\\]\nThe values are\n\\[\n\\kappa_{\\mathrm{sphere}}=\\frac25,\\qquad \\kappa_{\\mathrm{cylinder}}=\\frac12,\\qquad \\kappa_{\\mathrm{hoop}}=1\n\\]\nSmaller \\(\\kappa\\) gives larger speed, so\n\\[\nv_{\\mathrm{sphere}}\u003ev_{\\mathrm{cylinder}}\u003ev_{\\mathrm{hoop}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-11",
+      "prompt": "A cylinder of mass \\(M\\), radius \\(R\\), and moment of inertia \\(I_{\\mathrm{cm}}\\) is pulled horizontally by a force \\(F\\) applied through its centre while it rolls without slipping on a rough horizontal surface. Derive \\(a_{\\mathrm{cm}}\\), the static friction force, and the minimum \\(\\mu_s\\) required.",
+      "answer": "Assume the cylinder accelerates to the right and rolls without slipping. Static friction must act left to produce the clockwise angular acceleration. Let \\(f_s\\) be its magnitude.\n\\[\nF-f_s=Ma_{\\mathrm{cm}}\n\\]\nAbout the centre,\n\\[\nf_sR=I_{\\mathrm{cm}}\\alpha\n\\]\nRolling gives\n\\[\na_{\\mathrm{cm}}=R\\alpha\n\\]\nso\n\\[\nf_s=\\frac{I_{\\mathrm{cm}}a_{\\mathrm{cm}}}{R^2}\n\\]\nSubstitute:\n\\[\nF-\\frac{I_{\\mathrm{cm}}a_{\\mathrm{cm}}}{R^2}=Ma_{\\mathrm{cm}}\n\\]\n\\[\na_{\\mathrm{cm}}=\\frac{F}{M+I_{\\mathrm{cm}}/R^2}\n\\]\nThe friction magnitude is\n\\[\nf_s=\\frac{I_{\\mathrm{cm}}F}{MR^2+I_{\\mathrm{cm}}}\n\\]\nand it points left. Rolling is possible only if\n\\[\nf_s\\leq\\mu_sMg\n\\]\nso\n\\[\n\\mu_s\\geq \\frac{I_{\\mathrm{cm}}F}{Mg(MR^2+I_{\\mathrm{cm}})}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "moving-axes-12",
+      "prompt": "A spool of mass \\(M\\), outer rolling radius \\(R\\), hub radius \\(b\\), and moment of inertia \\(I_{\\mathrm{cm}}\\) rests on a rough floor. A horizontal string leaves the top of the hub and is pulled to the right with force \\(F\\). Assuming rolling without slipping, derive \\(a_{\\mathrm{cm}}\\), determine the direction of static friction, and give the condition for zero friction.",
+      "answer": "Let rightward force and friction be positive, and let counterclockwise torque be positive. Rolling to the right means\n\\[\n\\alpha=-\\frac{a_{\\mathrm{cm}}}{R}\n\\]\nTranslation gives\n\\[\nF+f_s=Ma_{\\mathrm{cm}}\n\\]\nTorques about the centre give\n\\[\nRf_s-bF=I_{\\mathrm{cm}}\\alpha=-\\frac{I_{\\mathrm{cm}}a_{\\mathrm{cm}}}{R}\n\\]\nDefine\n\\[\n\\beta=\\frac{b}{R},\\qquad \\kappa=\\frac{I_{\\mathrm{cm}}}{MR^2}\n\\]\nSolving the two equations gives\n\\[\na_{\\mathrm{cm}}=\\frac{F(1+\\beta)}{M(1+\\kappa)}\n\\]\nand\n\\[\nf_s=\\frac{F(\\beta-\\kappa)}{1+\\kappa}\n\\]\nSo friction points right if \\(\\beta\u003e\\kappa\\), left if \\(\\beta\u003c\\kappa\\), and is zero when\n\\[\n\\frac{b}{R}=\\frac{I_{\\mathrm{cm}}}{MR^2}\n\\]\nThe no-slip assumption also requires \\(|f_s|\\leq\\mu_sMg\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

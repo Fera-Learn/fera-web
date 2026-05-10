@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "induction-observations",
+  "topicTitle": "Induction Observations",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "induction-observations-01",
+      "prompt": "A loop of area \\(0.030\\,\\mathrm{m^2}\\) is perpendicular to a uniform \\(0.40\\,\\mathrm{T}\\) magnetic field. Find the magnetic flux.",
+      "answer": "For a perpendicular loop, \\(\\theta=0\\), so\\n\\[\\n\\Phi_B=BA=(0.40)(0.030)=1.2\\times10^{-2}\\,\\mathrm{Wb}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-02",
+      "prompt": "A fixed loop sits in a steady magnetic field. The flux through it is nonzero but constant. Is an emf induced?",
+      "answer": "No. Induction requires changing magnetic flux. If \\(d\\Phi_B/dt=0\\), then no emf is induced even when \\(\\Phi_B\\ne0\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-03",
+      "prompt": "Name three ways to change the magnetic flux \\(\\Phi_B=BA\\cos\\theta\\) through a flat loop in a uniform field.",
+      "answer": "Flux can be changed by changing the field magnitude \\(B\\), changing the loop area \\(A\\), or changing the orientation angle \\(\\theta\\). Moving a loop into or out of a field region can also change the amount of area threaded by field.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-04",
+      "prompt": "A loop of area \\(0.020\\,\\mathrm{m^2}\\) is at \\(60^\\circ\\) to a \\(0.50\\,\\mathrm{T}\\) field, where the angle is between the field and the area normal. Find the flux.",
+      "answer": "\\[\\n\\Phi_B=BA\\cos\\theta=(0.50)(0.020)\\cos60^\\circ=5.0\\times10^{-3}\\,\\mathrm{Wb}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-05",
+      "prompt": "A loop is pulled from a zero-field region into a uniform magnetic field. During the motion, what physical quantity through the loop is changing?",
+      "answer": "The magnetic flux through the loop is changing because the area of the loop that is threaded by magnetic field is changing. That changing flux is what produces the induced emf.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-06",
+      "prompt": "A conducting loop is open, not closed. Its magnetic flux changes. Is an emf induced? Is a sustained current induced?",
+      "answer": "An emf can be induced around the loop because the magnetic flux changes. A sustained current does not flow because the conducting path is not closed. Charges can still separate at the open ends.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-07",
+      "prompt": "A coil is moved parallel to a uniform magnetic field without changing its area or orientation. Its whole surface remains in the same field. Is induction expected?",
+      "answer": "No. The loop is moving, but its magnetic flux is unchanged: \\(B\\), \\(A\\), and \\(\\theta\\) are all constant. Induction depends on changing flux, not motion by itself.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-08",
+      "prompt": "A loop's flux changes from \\(0.018\\,\\mathrm{Wb}\\) to \\(0.006\\,\\mathrm{Wb}\\). Find the magnitude of the flux change.",
+      "answer": "\\[\\n|\\Delta\\Phi_B|=|0.006-0.018|=0.012\\,\\mathrm{Wb}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-09",
+      "prompt": "A loop rotates from \\(\\theta=0^\\circ\\) to \\(\\theta=90^\\circ\\) in a uniform field. Describe the change in flux.",
+      "answer": "The flux changes from maximum \\(BA\\) to zero because \\(\\Phi_B=BA\\cos\\theta\\). A changing flux means an emf is induced during the rotation.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-10",
+      "prompt": "A magnet is held still near a loop, then pushed toward it. When is an emf induced: while held still, while moving, or both?",
+      "answer": "An emf is induced while the magnet is moving because the magnetic field through the loop changes. When the magnet is held still, the flux is steady and no induction is expected.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-11",
+      "prompt": "A loop is squeezed so its area decreases while it remains perpendicular to a steady magnetic field. Does the flux increase or decrease?",
+      "answer": "With \\(\\Phi_B=BA\\), a decrease in area decreases the flux magnitude if \\(B\\) is steady and the orientation is unchanged.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-12",
+      "prompt": "A \\(15\\)-turn coil has the same flux \\(2.0\\times10^{-3}\\,\\mathrm{Wb}\\) through each turn. Find the flux linkage.",
+      "answer": "Flux linkage is\\n\\[\\nN\\Phi_B=15(2.0\\times10^{-3})=3.0\\times10^{-2}\\,\\mathrm{Wb}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-13",
+      "prompt": "A loop is entirely inside a uniform field. It is translated sideways but remains entirely inside the same field. Explain why this differs from pulling the loop out of the field.",
+      "answer": "When the loop remains entirely inside a uniform field, the flux through it stays constant. Pulling it out of the field changes the field-threaded area, so the flux changes and an emf is induced.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-14",
+      "prompt": "For a flat loop in a uniform field, derive the condition for zero flux using \\(\\Phi_B=BA\\cos\\theta\\).",
+      "answer": "For nonzero \\(B\\) and \\(A\\), zero flux requires\\n\\[\\n\\cos\\theta=0\\n\\]\\nso\\n\\[\\n\\theta=90^\\circ\\n\\]\\nThe magnetic field is then parallel to the plane of the loop, so no field passes through the surface.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-15",
+      "prompt": "A loop's area and field both double while its orientation stays fixed. By what factor does its flux change?",
+      "answer": "Since\\n\\[\\n\\Phi_B=BA\\cos\\theta\\n\\]\\nand \\(\\theta\\) is fixed, doubling \\(B\\) and doubling \\(A\\) gives\\n\\[\\n\\Phi'_B=4\\Phi_B\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-16",
+      "prompt": "A loop has changing flux but very large resistance. Explain what happens to the induced emf and induced current.",
+      "answer": "The induced emf is set by the rate of flux change, not by the resistance. The current is \\(I=\\mathcal E/R\\), so a very large resistance makes the induced current small even though emf is still present.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-17",
+      "prompt": "A student says induction happens whenever a conductor moves. Give a counterexample and state the correct condition.",
+      "answer": "A loop translated wholly inside a uniform magnetic field with fixed orientation has no changing flux, so no emf is induced. The correct condition is changing magnetic flux through a closed path, or equivalently a nonzero Faraday circulation.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-18",
+      "prompt": "A coil has \\(N\\) turns and area \\(A\\). It is perpendicular to a field that changes from \\(B_1\\) to \\(B_2\\). Write the change in flux linkage.",
+      "answer": "For each turn, \\(\\Phi_B=BA\\). The change in flux linkage is\\n\\[\\n\\Delta(N\\Phi_B)=N A(B_2-B_1)\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-19",
+      "prompt": "A rectangular loop is partly inside a uniform field region and moves so that the length inside the field is \\(x(t)\\). If the loop height is \\(h\\), write the flux in terms of \\(x\\), \\(h\\), and \\(B\\).",
+      "answer": "Only the area inside the field contributes. That area is\\n\\[\\nA_{\\mathrm{in}}=hx\\n\\]\\nso, for perpendicular field,\\n\\[\\n\\Phi_B=Bhx\\n\\]\\nThis flux changes if \\(x(t)\\) changes.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induction-observations-20",
+      "prompt": "A loop deforms while moving through a nonuniform magnetic field. Explain why the flux integral \\(\\Phi_B=\\int\\vec B\\cdot d\\vec A\\) is safer than \\(BA\\cos\\theta\\).",
+      "answer": "The formula \\(BA\\cos\\theta\\) assumes a flat loop in a uniform field with a single area normal. A deforming loop in a nonuniform field has different field values and surface directions over the surface. The integral \\(\\int\\vec B\\cdot d\\vec A\\) adds the local normal field contribution over the actual surface, so it remains the correct definition.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

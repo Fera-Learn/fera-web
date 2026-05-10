@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "adiabatic-ideal-gas-processes",
+  "topicTitle": "Adiabatic Ideal-Gas Processes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "adiabatic-ideal-gas-01",
+      "prompt": "What is \\(Q\\) for an adiabatic process?",
+      "answer": "For an adiabatic process,\n\\[\nQ=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-02",
+      "prompt": "During adiabatic expansion of an ideal gas, does the gas warm or cool?",
+      "answer": "During adiabatic expansion, the gas does work without receiving heat. Its internal energy decreases, so an ideal gas cools.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-03",
+      "prompt": "An adiabatic process has \\(W=250\\,\\mathrm{J}\\). Find \\(\\Delta U\\).",
+      "answer": "Adiabatic means\n\\[\nQ=0\n\\]\nUsing\n\\[\n\\Delta U=Q-W\n\\]\n\\[\n\\Delta U=0-250=-250\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-04",
+      "prompt": "A reversible adiabatic ideal-gas process has \\(p_1=1.0\\times10^5\\,\\mathrm{Pa}\\), \\(V_1=0.040\\,\\mathrm{m^3}\\), \\(V_2=0.020\\,\\mathrm{m^3}\\), and \\(\\gamma=1.40\\). Find \\(p_2\\).",
+      "answer": "For a reversible adiabatic ideal-gas process,\n\\[\np_1V_1^\\gamma=p_2V_2^\\gamma\n\\]\nso\n\\[\np_2=p_1\\left(\\frac{V_1}{V_2}\\right)^\\gamma\n\\]\n\\[\np_2=(1.0\\times10^5)\\left(\\frac{0.040}{0.020}\\right)^{1.40}\n\\]\n\\[\np_2=2.64\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-05",
+      "prompt": "A reversible adiabatic ideal gas has \\(T_1=300\\,\\mathrm{K}\\), \\(V_2=2V_1\\), and \\(\\gamma=5/3\\). Find \\(T_2\\).",
+      "answer": "For a reversible adiabatic ideal gas,\n\\[\nTV^{\\gamma-1}=\\mathrm{constant}\n\\]\nso\n\\[\nT_2=T_1\\left(\\frac{V_1}{V_2}\\right)^{\\gamma-1}\n\\]\nWith \\(V_2=2V_1\\) and \\(\\gamma=5/3\\),\n\\[\nT_2=300\\left(\\frac{1}{2}\\right)^{2/3}\n\\]\n\\[\nT_2=1.89\\times10^2\\,\\mathrm{K}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-06",
+      "prompt": "A monatomic ideal gas has \\(n=1.0\\,\\mathrm{mol}\\) and cools from \\(400\\,\\mathrm{K}\\) to \\(320\\,\\mathrm{K}\\) adiabatically. Find work done by the gas.",
+      "answer": "For an adiabatic process,\n\\[\nQ=0\n\\]\nso\n\\[\n\\Delta U=-W\n\\]\nFor a monatomic ideal gas,\n\\[\n\\Delta U=nC_V(T_f-T_i)\n\\]\nwith\n\\[\nC_V=\\frac{3}{2}R\n\\]\nThus\n\\[\nW=nC_V(T_i-T_f)\n\\]\n\\[\nW=(1.0)\\left(\\frac{3}{2}8.31\\right)(400-320)\n\\]\n\\[\nW=9.97\\times10^2\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-07",
+      "prompt": "Derive the work done by an ideal gas in an adiabatic process in terms of \\(T_i,T_f,n,\\) and \\(C_V\\).",
+      "answer": "For an adiabatic process,\n\\[\nQ=0\n\\]\nThe first law becomes\n\\[\n\\Delta U=-W\n\\]\nFor an ideal gas,\n\\[\n\\Delta U=nC_V(T_f-T_i)\n\\]\nTherefore\n\\[\nW=-\\Delta U=nC_V(T_i-T_f)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-08",
+      "prompt": "For reversible adiabatic compression, explain why pressure rises more steeply with decreasing volume than in isothermal compression.",
+      "answer": "In isothermal compression, the temperature is constant, so pressure rises only because volume decreases:\n\\[\npV=\\mathrm{constant}\n\\]\nIn reversible adiabatic compression, no heat escapes during the compression. Work done on the gas increases its internal energy and temperature. Pressure therefore rises because the volume decreases and because the temperature rises.\n\nThat is why the adiabatic relation\n\\[\npV^\\gamma=\\mathrm{constant}\n\\]\nwith \\(\\gamma\u003e1\\) is steeper than the isothermal relation \\(pV=\\mathrm{constant}\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-09",
+      "prompt": "Using \\(pV^\\gamma=\\mathrm{constant}\\), derive \\(W=(p_iV_i-p_fV_f)/(\\gamma-1)\\) for a reversible adiabatic ideal-gas process.",
+      "answer": "For a reversible adiabatic process,\n\\[\npV^\\gamma=K\n\\]\nso\n\\[\np=KV^{-\\gamma}\n\\]\nThe work is\n\\[\nW=\\int_{V_i}^{V_f}KV^{-\\gamma}\\,dV\n\\]\n\\[\nW=\\frac{K}{1-\\gamma}\\left(V_f^{1-\\gamma}-V_i^{1-\\gamma}\\right)\n\\]\nSince \\(K=p_iV_i^\\gamma=p_fV_f^\\gamma\\),\n\\[\nKV_i^{1-\\gamma}=p_iV_i\n\\]\nand\n\\[\nKV_f^{1-\\gamma}=p_fV_f\n\\]\nTherefore\n\\[\nW=\\frac{p_fV_f-p_iV_i}{1-\\gamma}\n\\]\nor\n\\[\nW=\\frac{p_iV_i-p_fV_f}{\\gamma-1}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "adiabatic-ideal-gas-10",
+      "prompt": "A reversible adiabatic expansion doubles the volume of an ideal gas. Derive \\(p_f/p_i\\), \\(T_f/T_i\\), and the sign of \\(W\\) in terms of \\(\\gamma\\).",
+      "answer": "For a reversible adiabatic expansion,\n\\[\npV^\\gamma=\\mathrm{constant}\n\\]\nIf \\(V_f=2V_i\\), then\n\\[\n\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=2^{-\\gamma}\n\\]\nAlso,\n\\[\nTV^{\\gamma-1}=\\mathrm{constant}\n\\]\nso\n\\[\n\\frac{T_f}{T_i}=\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=2^{1-\\gamma}\n\\]\nBecause the gas expands, \\(dV\u003e0\\), so the work done by the gas is positive:\n\\[\nW\u003e0\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

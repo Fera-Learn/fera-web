@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "center-of-mass",
+  "topicTitle": "Center of Mass",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "center-of-mass-01",
+      "prompt": "Masses \\(2.0\\,\\mathrm{kg}\\) at \\(x=0\\) and \\(6.0\\,\\mathrm{kg}\\) at \\(x=4.0\\,\\mathrm{m}\\) lie on a line. Find \\(x_{\\mathrm{cm}}\\).",
+      "answer": "\\[\nx_{\\mathrm{cm}}=\\frac{2.0(0)+6.0(4.0)}{2.0+6.0}=3.0\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-02",
+      "prompt": "A system has total momentum \\(30\\,\\mathrm{kg\\,m\\,s^{-1}}\\) and total mass \\(10\\,\\mathrm{kg}\\). Find the center-of-mass speed.",
+      "answer": "\\[\nv_{\\mathrm{cm}}=\\frac{P}{M}=\\frac{30}{10}=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-03",
+      "prompt": "Three masses lie on the \\(x\\)-axis: \\(1.0\\,\\mathrm{kg}\\) at \\(0\\), \\(2.0\\,\\mathrm{kg}\\) at \\(3.0\\,\\mathrm{m}\\), and \\(3.0\\,\\mathrm{kg}\\) at \\(6.0\\,\\mathrm{m}\\). Find \\(x_{\\mathrm{cm}}\\).",
+      "answer": "\\[\nx_{\\mathrm{cm}}=\\frac{1.0(0)+2.0(3.0)+3.0(6.0)}{1.0+2.0+3.0}=4.0\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-04",
+      "prompt": "A \\(12\\,\\mathrm{kg}\\) system has net external force \\(18\\,\\mathrm{N}\\) in the \\(+x\\)-direction. Find \\(a_{\\mathrm{cm}}\\).",
+      "answer": "\\[\na_{\\mathrm{cm}}=\\frac{F_{\\mathrm{ext}}}{M}=\\frac{18}{12}=1.5\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-05",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) object has velocity \\(4\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\\), and a \\(3.0\\,\\mathrm{kg}\\) object has velocity \\(-\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\\). Find \\(\\vec{v}_{\\mathrm{cm}}\\).",
+      "answer": "Total momentum is\n\\[\n\\vec{P}=2.0(4\\hat{\\imath})+3.0(-\\hat{\\imath})=5\\hat{\\imath}\n\\]\nTotal mass is \\(5.0\\,\\mathrm{kg}\\), so\n\\[\n\\vec{v}_{\\mathrm{cm}}=\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-06",
+      "prompt": "Two masses \\(m\\) and \\(3m\\) are released from rest by an internal spring on a frictionless table. If the lighter mass moves right at speed \\(6.0\\,\\mathrm{m\\,s^{-1}}\\), find the heavier mass velocity.",
+      "answer": "Initial total momentum is zero:\n\\[\nm(6.0)+3m v=0\n\\]\n\\[\nv=-2.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe heavier mass moves left.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-07",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) person walks \\(3.0\\,\\mathrm{m}\\) forward relative to a \\(140\\,\\mathrm{kg}\\) boat. The water exerts negligible horizontal force. How far does the boat move? Interpret the sign.",
+      "answer": "Let \\(x_b\\) be the boat displacement in the person\u0027s walking direction. The person moves \\(x_b+3.0\\) relative to the shore. With no horizontal external impulse,\n\\[\n140x_b+60(x_b+3.0)=0\n\\]\n\\[\n200x_b=-180\n\\]\n\\[\nx_b=-0.90\\,\\mathrm{m}\n\\]\nThe negative sign means the boat moves opposite the person\u0027s walking direction.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-08",
+      "prompt": "An isolated two-object system has total mass \\(5.0\\,\\mathrm{kg}\\) and center-of-mass velocity \\(2\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\\). One object has mass \\(2.0\\,\\mathrm{kg}\\) and velocity \\(5\\hat{\\imath}+\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\\). Find the other object\u0027s velocity.",
+      "answer": "The system momentum is\n\\[\n\\vec{P}=M\\vec{v}_{\\mathrm{cm}}=5.0(2\\hat{\\imath})=10\\hat{\\imath}\n\\]\nObject 1 has momentum\n\\[\n\\vec{p}_1=2.0(5\\hat{\\imath}+\\hat{\\jmath})=10\\hat{\\imath}+2\\hat{\\jmath}\n\\]\nThus object 2 has\n\\[\n\\vec{p}_2=-2\\hat{\\jmath}\n\\]\nIts mass is \\(3.0\\,\\mathrm{kg}\\), so\n\\[\n\\vec{v}_2=-\\frac{2}{3}\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-09",
+      "prompt": "Two spacecraft modules of masses \\(m\\) and \\(2m\\) are initially docked and drifting force-free. An internal actuator separates them by distance \\(d\\) along the \\(x\\)-axis. Find each module\u0027s displacement from the original center of mass. State the assumption and interpret why the center of mass does not move.",
+      "answer": "Assume no external force acts during separation, so the original center of mass stays fixed. Let the lighter module be at \\(x_1\\) and the heavier at \\(x_2\\):\n\\[\nmx_1+2mx_2=0\n\\]\nand\n\\[\nx_1-x_2=d\n\\]\nSolving gives\n\\[\nx_1=\\frac{2d}{3},\\qquad x_2=-\\frac{d}{3}\n\\]\nInterpretation: internal actuation can change separation, but it cannot move the center of mass of the isolated two-module system.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "center-of-mass-10",
+      "prompt": "A thin rod of length \\(L\\) lies on the \\(x\\)-axis from \\(0\\) to \\(L\\), with linear density \\(\\lambda(x)=\\lambda_0(1+\\alpha x/L)\\). Derive \\(x_{\\mathrm{cm}}\\) and state the allowed range of \\(\\alpha\\) for nonnegative density along the rod.",
+      "answer": "The total mass is\n\\[\nM=\\int_0^L \\lambda_0\\left(1+\\frac{\\alpha x}{L}\\right)dx\n\\]\n\\[\nM=\\lambda_0L\\left(1+\\frac{\\alpha}{2}\\right)\n\\]\nThe first moment is\n\\[\n\\int_0^L x\\lambda(x)\\,dx=\\lambda_0L^2\\left(\\frac{1}{2}+\\frac{\\alpha}{3}\\right)\n\\]\nTherefore\n\\[\nx_{\\mathrm{cm}}=L\\frac{\\frac{1}{2}+\\frac{\\alpha}{3}}{1+\\frac{\\alpha}{2}}\n\\]\nFor nonnegative density over the whole rod, require\n\\[\n1+\\frac{\\alpha x}{L}\\ge0\\quad\\text{for }0\\le x\\le L\n\\]\nso\n\\[\n\\alpha\\ge -1\n\\]\nPositive \\(\\alpha\\) shifts the center of mass toward \\(x=L\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "power-in-ac-circuits",
+  "topicTitle": "Power in AC Circuits",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ac-power-01",
+      "prompt": "State the average power formula for a sinusoidal AC circuit using rms quantities.",
+      "answer": "The average power is\n\\[\nP_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-02",
+      "prompt": "What is the power factor of an AC circuit?",
+      "answer": "The power factor is \\(\\cos\\phi\\), where \\(\\phi\\) is the phase angle between voltage and current.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-03",
+      "prompt": "What is the average power dissipated by an ideal inductor or ideal capacitor over a full cycle?",
+      "answer": "The average power is zero. Ideal inductors and capacitors store energy during part of the cycle and return it during another part.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-04",
+      "prompt": "An AC circuit has \\(V_{\\mathrm{rms}}=120\\,\\mathrm V\\), \\(I_{\\mathrm{rms}}=2.0\\,\\mathrm A\\), and power factor \\(0.80\\). Find average power.",
+      "answer": "\\[\nP_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\n\\]\n\\[\nP_{\\mathrm{avg}}=(120)(2.0)(0.80)=192\\,\\mathrm W\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-05",
+      "prompt": "A series circuit has \\(I_{\\mathrm{rms}}=3.0\\,\\mathrm A\\) and \\(R=25\\,\\Omega\\). Find average power.",
+      "answer": "Only the resistance dissipates average power:\n\\[\nP_{\\mathrm{avg}}=I_{\\mathrm{rms}}^2R=(3.0)^2(25)=225\\,\\mathrm W\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-06",
+      "prompt": "A series circuit has \\(R=30\\,\\Omega\\) and \\(Z=50\\,\\Omega\\). Find the power factor.",
+      "answer": "For a series circuit,\n\\[\n\\cos\\phi=\\frac{R}{Z}=\\frac{30}{50}=0.60\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-07",
+      "prompt": "A device draws \\(5.0\\,\\mathrm A\\) rms from a \\(230\\,\\mathrm V\\) rms supply at power factor \\(0.70\\). Find its average power and apparent power.",
+      "answer": "Average power is\n\\[\nP_{\\mathrm{avg}}=VI\\cos\\phi=(230)(5.0)(0.70)=805\\,\\mathrm W\n\\]\nApparent power is\n\\[\nS=VI=(230)(5.0)=1150\\,\\mathrm{VA}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-08",
+      "prompt": "A series LRC circuit has \\(V_{\\mathrm{rms}}=100\\,\\mathrm V\\), \\(R=20\\,\\Omega\\), and \\(Z=40\\,\\Omega\\). Find \\(I_{\\mathrm{rms}}\\), power factor, and average power.",
+      "answer": "\\[\nI_{\\mathrm{rms}}=\\frac{V}{Z}=\\frac{100}{40}=2.5\\,\\mathrm A\n\\]\n\\[\n\\cos\\phi=\\frac{R}{Z}=\\frac{20}{40}=0.50\n\\]\n\\[\nP_{\\mathrm{avg}}=VI\\cos\\phi=(100)(2.5)(0.50)=125\\,\\mathrm W\n\\]\nEquivalently, \\(P=I^2R=(2.5)^2(20)=125\\,\\mathrm W\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-09",
+      "prompt": "Derive \\(P_{\\mathrm{avg}}=I_{\\mathrm{rms}}^2R\\) for a series LRC circuit from \\(P_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\\).",
+      "answer": "Use\n\\[\nP_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\n\\]\nFor a series circuit,\n\\[\nV_{\\mathrm{rms}}=I_{\\mathrm{rms}}Z\n\\]\nand\n\\[\n\\cos\\phi=\\frac{R}{Z}\n\\]\nSubstitute:\n\\[\nP_{\\mathrm{avg}}=(I_{\\mathrm{rms}}Z)I_{\\mathrm{rms}}\\frac{R}{Z}\n\\]\nso\n\\[\nP_{\\mathrm{avg}}=I_{\\mathrm{rms}}^2R\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-power-10",
+      "prompt": "The instantaneous voltage and current are \\(v=V_0\\cos\\omega t\\) and \\(i=I_0\\cos(\\omega t-\\phi)\\). Show that the average power is \\(V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\\).",
+      "answer": "Instantaneous power is\n\\[\np=vi=V_0I_0\\cos\\omega t\\cos(\\omega t-\\phi)\n\\]\nUse\n\\[\n\\cos A\\cos B=\\frac12[\\cos(A-B)+\\cos(A+B)]\n\\]\nThen\n\\[\np=\\frac{V_0I_0}{2}[\\cos\\phi+\\cos(2\\omega t-\\phi)]\n\\]\nThe average of the double-frequency cosine over a cycle is zero, so\n\\[\nP_{\\mathrm{avg}}=\\frac{V_0I_0}{2}\\cos\\phi\n\\]\nSince \\(V_{\\mathrm{rms}}=V_0/\\sqrt2\\) and \\(I_{\\mathrm{rms}}=I_0/\\sqrt2\\),\n\\[\nP_{\\mathrm{avg}}=V_{\\mathrm{rms}}I_{\\mathrm{rms}}\\cos\\phi\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-thermal-scale",
+  "topicId": "ideal-gas-model",
+  "topicTitle": "Ideal Gas Model",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "ideal-gas-model-01",
+      "prompt": "Find the average translational kinetic energy per molecule of an ideal gas at \\(300\\,\\mathrm{K}\\). Use \\(k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}\\).",
+      "answer": "\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\n=\\frac32(1.38\\times10^{-23})(300)\n=6.21\\times10^{-21}\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-02",
+      "prompt": "Find \\(v_{\\mathrm{rms}}\\) for a gas molecule of mass \\(5.0\\times10^{-26}\\,\\mathrm{kg}\\) at \\(320\\,\\mathrm{K}\\).",
+      "answer": "\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3k_BT}{m_0}}\n=\\sqrt{\\frac{3(1.38\\times10^{-23})(320)}{5.0\\times10^{-26}}}\n=5.15\\times10^2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-03",
+      "prompt": "At the same temperature, gas A has molecular mass four times gas B. Find \\(v_{\\mathrm{rms},A}/v_{\\mathrm{rms},B}\\).",
+      "answer": "At the same temperature,\n\\[\nv_{\\mathrm{rms}}\\propto\\frac{1}{\\sqrt{m_0}}\n\\]\nWith \\(m_A=4m_B\\),\n\\[\n\\frac{v_{\\mathrm{rms},A}}{v_{\\mathrm{rms},B}}=\\sqrt{\\frac{m_B}{m_A}}=\\frac12\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-04",
+      "prompt": "Use \\(pV=\\frac13Nm_0v_{\\mathrm{rms}}^2\\) to find the pressure of \\(1.0\\times10^{22}\\) molecules of mass \\(4.0\\times10^{-26}\\,\\mathrm{kg}\\) in volume \\(2.0\\times10^{-3}\\,\\mathrm{m^3}\\), with \\(v_{\\mathrm{rms}}=500\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\np=\\frac{Nm_0v_{\\mathrm{rms}}^2}{3V}\n\\]\n\\[\np=\\frac{(1.0\\times10^{22})(4.0\\times10^{-26})(500^2)}{3(2.0\\times10^{-3})}\n=1.67\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-05",
+      "prompt": "Find \\(v_{\\mathrm{rms}}\\) for oxygen at \\(300\\,\\mathrm{K}\\), using molar mass \\(M=3.2\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\).",
+      "answer": "\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3RT}{M}}\n=\\sqrt{\\frac{3(8.31)(300)}{3.2\\times10^{-2}}}\n=4.84\\times10^2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-06",
+      "prompt": "If the Kelvin temperature of an ideal gas is tripled, by what factor does the average translational kinetic energy per molecule change? By what factor does \\(v_{\\mathrm{rms}}\\) change?",
+      "answer": "The average translational kinetic energy is\n\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\n\\]\nso it triples. Since\n\\[\nv_{\\mathrm{rms}}\\propto\\sqrt{T}\n\\]\n\\(v_{\\mathrm{rms}}\\) increases by a factor of \\(\\sqrt3\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-07",
+      "prompt": "A monatomic ideal gas contains \\(0.75\\,\\mathrm{mol}\\) at \\(310\\,\\mathrm{K}\\). Use the kinetic model to find its total translational kinetic energy.",
+      "answer": "For a monatomic ideal gas, total translational kinetic energy is\n\\[\nK_{\\mathrm{tr,total}}=\\frac32nRT\n\\]\n\\[\nK_{\\mathrm{tr,total}}=\\frac32(0.75)(8.31)(310)=2.90\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-08",
+      "prompt": "Starting from \\(pV=\\frac13Nm_0v_{\\mathrm{rms}}^2\\) and \\(pV=Nk_BT\\), derive \\(v_{\\mathrm{rms}}=\\sqrt{3k_BT/m_0}\\).",
+      "answer": "Set the two expressions for \\(pV\\) equal:\n\\[\n\\frac13Nm_0v_{\\mathrm{rms}}^2=Nk_BT\n\\]\nCancel \\(N\\):\n\\[\n\\frac13m_0v_{\\mathrm{rms}}^2=k_BT\n\\]\nThen\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3k_BT}{m_0}\n\\]\nso\n\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3k_BT}{m_0}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-09",
+      "prompt": "A gas mixture has light molecules and heavy molecules at the same temperature. Explain whether the two species have the same average translational kinetic energy and whether they have the same \\(v_{\\mathrm{rms}}\\).",
+      "answer": "At a common temperature, both species have the same average translational kinetic energy:\n\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\n\\]\nBut\n\\[\nv_{\\mathrm{rms}}=\\sqrt{\\frac{3k_BT}{m_0}}\n\\]\nso the lighter molecules have the larger \\(v_{\\mathrm{rms}}\\). Equal temperature means equal average translational kinetic energy, not equal speed.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-10",
+      "prompt": "A gas has the same \\(p,V,N\\) as an ideal gas prediction, but its molecule-wall collisions are not elastic because some translational energy is lost to internal modes at the wall. Explain which kinetic-model assumption fails and why the simple pressure derivation no longer applies without modification.",
+      "answer": "The elastic-collision assumption fails. In the simple kinetic derivation, a molecule rebounds from a wall with the same speed component reversed, giving a wall momentum change \\(2m_0v_x\\) and conserving translational kinetic energy during the collision.\n\nIf translational energy is lost to internal modes at the wall, the outgoing velocity distribution and impulse per collision are changed. Pressure can no longer be derived from the same \\(2m_0v_x\\) impulse and unchanged random velocity distribution without adding a model for the inelastic energy exchange and re-thermalization.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-11",
+      "prompt": "A monatomic ideal gas has \\(p=1.0\\times10^5\\,\\mathrm{Pa}\\) and \\(V=2.0\\times10^{-2}\\,\\mathrm{m^3}\\). Find the total translational kinetic energy of its molecules without first finding \\(n\\) or \\(T\\).",
+      "answer": "For a monatomic ideal gas, total translational kinetic energy is\n\\[\nK_{\\mathrm{tr,total}}=\\frac32Nk_BT\n\\]\nSince \\(pV=Nk_BT\\),\n\\[\nK_{\\mathrm{tr,total}}=\\frac32pV\n\\]\nThus\n\\[\nK_{\\mathrm{tr,total}}=\\frac32(1.0\\times10^5)(2.0\\times10^{-2})\n=3.0\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-12",
+      "prompt": "Two ideal gases have the same \\(N\\), \\(V\\), and \\(T\\), but gas B has molecules four times as massive as gas A. Use the kinetic pressure model to show that their pressures are still the same.",
+      "answer": "The kinetic pressure model gives\n\\[\npV=\\frac13Nm_0v_{\\mathrm{rms}}^2\n\\]\nAt temperature \\(T\\),\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3k_BT}{m_0}\n\\]\nSubstitute this into the pressure expression:\n\\[\npV=\\frac13Nm_0\\left(\\frac{3k_BT}{m_0}\\right)=Nk_BT\n\\]\nThe mass cancels. Heavier molecules move more slowly at the same temperature, but the product \\(m_0v_{\\mathrm{rms}}^2\\) is the same, so equal \\(N,V,T\\) gives equal pressure.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-13",
+      "prompt": "A monatomic ideal gas has \\(N=3.0\\times10^{23}\\) molecules at \\(T=400\\,\\mathrm{K}\\). Find its total translational kinetic energy.",
+      "answer": "For a monatomic ideal gas,\n\\[\nK_{\\mathrm{tr,total}}=\\frac32Nk_BT\n\\]\nThus\n\\[\nK_{\\mathrm{tr,total}}=\\frac32(3.0\\times10^{23})(1.38\\times10^{-23})(400)=2.5\\times10^3\\,\\mathrm J\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-14",
+      "prompt": "At fixed \\(N\\) and \\(V\\), an ideal gas temperature is doubled. Use the kinetic pressure model to explain why pressure doubles.",
+      "answer": "The kinetic model gives\n\\[\npV=\\frac13Nm_0v_{\\mathrm{rms}}^2\n\\]\nand\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3k_BT}{m_0}\n\\]\nThus \\(v_{\\mathrm{rms}}^2\\propto T\\). At fixed \\(N\\) and \\(V\\), doubling \\(T\\) doubles \\(m_0v_{\\mathrm{rms}}^2\\), so pressure doubles.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-15",
+      "prompt": "A gas has measured pressure lower than the ideal kinetic model predicts at the same \\(N,V,T\\). Give one molecular reason this can happen.",
+      "answer": "Attractive intermolecular forces can reduce the momentum transferred to the container walls. Molecules approaching the wall are pulled back by other molecules, so the measured wall pressure can be lower than the ideal model predicts.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-16",
+      "prompt": "Derive \\(\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\\) from the kinetic pressure relation and molecular ideal-gas equation.",
+      "answer": "Set\n\\[\npV=\\frac13Nm_0v_{\\mathrm{rms}}^2\n\\]\nequal to\n\\[\npV=Nk_BT\n\\]\nThen\n\\[\n\\frac13m_0v_{\\mathrm{rms}}^2=k_BT\n\\]\nMultiply by \\(3/2\\):\n\\[\n\\frac12m_0v_{\\mathrm{rms}}^2=\\frac32k_BT\n\\]\nThe left side is average translational kinetic energy, so\n\\[\n\\langle K_{\\mathrm{tr}}\\rangle=\\frac32k_BT\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-17",
+      "prompt": "Explain why ideal-gas pressure is independent of molecular mass when \\(N,V,T\\) are fixed.",
+      "answer": "At fixed temperature, heavier molecules move more slowly:\n\\[\nv_{\\mathrm{rms}}^2=\\frac{3k_BT}{m_0}\n\\]\nThe pressure expression contains \\(m_0v_{\\mathrm{rms}}^2\\):\n\\[\npV=\\frac13Nm_0v_{\\mathrm{rms}}^2\n\\]\nSubstitution cancels \\(m_0\\), giving \\(pV=Nk_BT\\).",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-18",
+      "prompt": "A gas is in thermal equilibrium but individual molecular speeds vary widely. Explain how one temperature can still describe the gas.",
+      "answer": "Temperature is tied to the average translational kinetic energy, not to every molecule having the same speed. In equilibrium the speed distribution is stable, and its average satisfies \\(\\langle K_{\\mathrm{tr}}\\rangle=3k_BT/2\\).",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-19",
+      "prompt": "Use the kinetic model to explain why pressure is isotropic in an equilibrium gas.",
+      "answer": "Molecular motion is random with no preferred direction. In equilibrium,\n\\[\n\\langle v_x^2\\rangle=\\langle v_y^2\\rangle=\\langle v_z^2\\rangle=\\frac13\\langle v^2\\rangle\n\\]\nso momentum transfer per unit area is the same for walls in all orientations. The pressure is therefore isotropic.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-model-20",
+      "prompt": "List the ideal kinetic-model assumptions and explain which two fail first at high density.",
+      "answer": "The model assumes many randomly moving point molecules, negligible molecular volume, no long-range intermolecular forces, elastic collisions, and equilibrium. At high density, molecular volume is no longer negligible and intermolecular forces become important because molecules spend more time close together.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

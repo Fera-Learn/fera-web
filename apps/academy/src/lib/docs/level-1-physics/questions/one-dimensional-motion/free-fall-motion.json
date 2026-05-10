@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "one-dimensional-motion",
+  "topicId": "free-fall-motion",
+  "topicTitle": "Free-Fall Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "free-fall-01",
+      "prompt": "An object is dropped from rest from \\(20\\,\\mathrm{m}\\). Ignoring air resistance, find the fall time using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\n20=\\frac{1}{2}gt^2\n\\]\n\\[\nt=\\sqrt{\\frac{40}{9.8}}=2.02\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-02",
+      "prompt": "An object is dropped from rest from \\(20\\,\\mathrm{m}\\). Find the impact speed using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\nv^2=2gh=2(9.8)(20)=392\n\\]\n\\[\nv=19.8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-19",
+      "prompt": "An object is launched upward at \\(9.8\\,\\mathrm{m\\,s^{-1}}\\). Find time to top and maximum height.",
+      "answer": "\\[\nt_{\\mathrm{top}}=\\frac{9.8}{9.8}=1.0\\,\\mathrm{s}\n\\]\n\\[\nh=\\frac{9.8^2}{2(9.8)}=4.9\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-03",
+      "prompt": "An object is launched upward at \\(14\\,\\mathrm{m\\,s^{-1}}\\). Find its maximum height above launch point.",
+      "answer": "\\[\n0=v_0^2-2g\\Delta y\n\\]\n\\[\n\\Delta y=\\frac{14^2}{2(9.8)}=10\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-04",
+      "prompt": "An object is launched upward at \\(14\\,\\mathrm{m\\,s^{-1}}\\). Find the time to reach the top.",
+      "answer": "\\[\n0=v_0-gt\n\\]\n\\[\nt=\\frac{14}{9.8}=1.43\\,\\mathrm{s}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-16",
+      "prompt": "An object is thrown upward from a \\(25\\,\\mathrm{m}\\) balcony with \\(v_{0y}=10\\,\\mathrm{m\\,s^{-1}}\\). Find its height after \\(3\\,\\mathrm{s}\\).",
+      "answer": "\\[\ny=25+10(3)-\\frac{1}{2}(9.8)(3^2)=10.9\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-05",
+      "prompt": "An object is launched upward from and returns to the same height with \\(v_0=14\\,\\mathrm{m\\,s^{-1}}\\). Find the total flight time.",
+      "answer": "\\[\nt_{\\mathrm{total}}=\\frac{2v_0}{g}=\\frac{28}{9.8}=2.86\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-06",
+      "prompt": "An object is dropped from \\(30\\,\\mathrm{m}\\). Find its height and velocity after \\(2\\,\\mathrm{s}\\), taking upward as positive.",
+      "answer": "\\[\ny=30-\\frac{1}{2}(9.8)(2^2)=10.4\\,\\mathrm{m}\n\\]\n\\[\nv_y=-9.8(2)=-19.6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-13",
+      "prompt": "If upward is positive, what is the sign of gravitational acceleration? What if downward is positive?",
+      "answer": "Upward positive gives\n\\[\na_y=-g\n\\]\nDownward positive gives\n\\[\na_y=+g\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-17",
+      "prompt": "An object is dropped from \\(10\\,\\mathrm{m}\\). Write and solve the equation for when it reaches the ground.",
+      "answer": "\\[\n0=10-\\frac{1}{2}(9.8)t^2\n\\]\n\\[\nt=\\sqrt{\\frac{20}{9.8}}=1.43\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-07",
+      "prompt": "An object is thrown downward from \\(40\\,\\mathrm{m}\\) with \\(v_{0y}=-5\\,\\mathrm{m\\,s^{-1}}\\). Find \\(y\\) and \\(v_y\\) after \\(2\\,\\mathrm{s}\\).",
+      "answer": "\\[\ny=40-5(2)-\\frac{1}{2}(9.8)(2^2)=10.4\\,\\mathrm{m}\n\\]\n\\[\nv_y=-5-9.8(2)=-24.6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-08",
+      "prompt": "Does mass appear in the ideal free-fall equations near Earth?",
+      "answer": "No. With air resistance ignored, every object has the same acceleration:\n\\[\na_y=-g\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-14",
+      "prompt": "An object is dropped from rest and falls \\(5\\,\\mathrm{m}\\). Find the fall time.",
+      "answer": "\\[\n5=\\frac{1}{2}(9.8)t^2\n\\]\n\\[\nt=\\sqrt{\\frac{10}{9.8}}=1.01\\,\\mathrm{s}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-20",
+      "prompt": "Why is acceleration not zero at the top of a free-fall trajectory?",
+      "answer": "The top only makes velocity zero. Gravity is still acting, so\n\\[\na_y=-g\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-09",
+      "prompt": "At the highest point of an upward launch, what are \\(v_y\\) and \\(a_y\\)?",
+      "answer": "\\[\nv_y=0\n\\]\n\\[\na_y=-g\n\\]\nThe velocity is zero only at that instant; acceleration is still downward.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-10",
+      "prompt": "An object is launched upward at \\(20\\,\\mathrm{m\\,s^{-1}}\\). Find \\(v_y\\) and height above launch after \\(1.5\\,\\mathrm{s}\\).",
+      "answer": "\\[\nv_y=20-9.8(1.5)=5.3\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n\\Delta y=20(1.5)-\\frac{1}{2}(9.8)(1.5^2)=18.975\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-15",
+      "prompt": "An object is launched upward and later returns to the launch height. How does its return velocity compare with its launch velocity?",
+      "answer": "Ignoring air resistance, the speed is the same and the direction is opposite:\n\\[\nv_y=-v_{0y}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-11",
+      "prompt": "What launch speed is needed to reach a maximum height of \\(15\\,\\mathrm{m}\\)?",
+      "answer": "\\[\n0=v_0^2-2g(15)\n\\]\n\\[\nv_0=\\sqrt{2(9.8)(15)}=17.1\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-12",
+      "prompt": "An object is dropped from rest. How far has it fallen after \\(3\\,\\mathrm{s}\\), and what is its velocity?",
+      "answer": "\\[\n\\Delta y_{\\mathrm{down}}=\\frac{1}{2}(9.8)(3^2)=44.1\\,\\mathrm{m}\n\\]\n\\[\nv_y=-9.8(3)=-29.4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-18",
+      "prompt": "Two objects of different masses are dropped together with air resistance ignored. Which has the larger acceleration?",
+      "answer": "Neither. Both have the same acceleration:\n\\[\na_y=-g\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-21",
+      "prompt": "A stone is thrown upward from a \\(30\\,\\mathrm{m}\\) cliff with \\(v_{0y}=12\\,\\mathrm{m\\,s^{-1}}\\). Taking upward positive, find the time when it reaches the ground.",
+      "answer": "\\[\n0=30+12t-\\frac{1}{2}(9.8)t^2\n\\]\n\\[\n4.9t^2-12t-30=0\n\\]\n\\[\nt=\\frac{12+\\sqrt{12^2+4(4.9)(30)}}{9.8}=3.95\\,\\mathrm{s}\n\\]\nUse the positive root because time after launch is required.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-fall-22",
+      "prompt": "A ball is thrown upward from ground level. It passes \\(15\\,\\mathrm{m}\\) on the way up at \\(t=1.0\\,\\mathrm{s}\\). Find its launch speed and the later time when it passes \\(15\\,\\mathrm{m}\\) again.",
+      "answer": "\\[\n15=v_0(1)-\\frac{1}{2}(9.8)(1)^2\n\\]\n\\[\nv_0=19.9\\,\\mathrm{m\\,s^{-1}}\n\\]\nNow solve\n\\[\n15=19.9t-4.9t^2\n\\]\nOne root is \\(t=1.0\\,\\mathrm{s}\\). The other root is\n\\[\nt=\\frac{15}{4.9}=3.06\\,\\mathrm{s}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

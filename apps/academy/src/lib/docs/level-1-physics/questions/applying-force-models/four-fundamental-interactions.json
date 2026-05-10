@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "applying-force-models",
+  "topicId": "four-fundamental-interactions",
+  "topicTitle": "Four Fundamental Interactions",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fundamental-interactions-01",
+      "prompt": "Which fundamental interaction acts between ordinary masses?",
+      "answer": "The gravitational interaction acts between ordinary masses.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-02",
+      "prompt": "Do two positive charges attract or repel?",
+      "answer": "Two positive charges repel because like charges repel.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-03",
+      "prompt": "If the separation in an inverse-square force doubles, what happens to the force magnitude?",
+      "answer": "An inverse-square force varies as\n\\[\nF\\propto\\frac{1}{r^2}\n\\]\nDoubling \\(r\\) makes the force \\(\\frac{1}{4}\\) as large.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-04",
+      "prompt": "A charge \\(q=3.0\\,\\mu\\mathrm{C}\\) is placed in an electric field of \\(200\\,\\mathrm{N\\,C^{-1}}\\). Find the force magnitude.",
+      "answer": "\\[\nF=qE=(3.0\\times10^{-6})(200)=6.0\\times10^{-4}\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-05",
+      "prompt": "Using \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\), find the gravitational force between \\(2.0\\,\\mathrm{kg}\\) and \\(5.0\\,\\mathrm{kg}\\) masses separated by \\(0.50\\,\\mathrm{m}\\).",
+      "answer": "\\[\nF_g=G\\frac{m_1m_2}{r^2}\n\\]\n\\[\nF_g=6.67\\times10^{-11}\\frac{(2.0)(5.0)}{0.50^2}=2.67\\times10^{-9}\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-06",
+      "prompt": "Using \\(k=8.99\\times10^9\\,\\mathrm{N\\,m^2\\,C^{-2}}\\), find the electric force magnitude between \\(+2.0\\,\\mu\\mathrm{C}\\) and \\(-3.0\\,\\mu\\mathrm{C}\\) charges separated by \\(0.20\\,\\mathrm{m}\\). State whether it is attractive or repulsive.",
+      "answer": "\\[\nF_E=k\\frac{|q_1q_2|}{r^2}\n\\]\n\\[\nF_E=8.99\\times10^9\\frac{|(2.0\\times10^{-6})(3.0\\times10^{-6})|}{0.20^2}=1.35\\,\\mathrm{N}\n\\]\nThe force is attractive because the charges have opposite signs.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-07",
+      "prompt": "In a gravitational inverse-square model, one mass is tripled and the separation is doubled. By what factor does the force change?",
+      "answer": "The force factor is\n\\[\n\\frac{3}{2^2}=\\frac{3}{4}\n\\]\nso the force becomes \\(0.75\\) of its original value.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-08",
+      "prompt": "A charge \\(q=-4.0\\,\\mu\\mathrm{C}\\) is in a uniform field \\(\\vec{E}=150\\hat{\\imath}\\,\\mathrm{N\\,C^{-1}}\\). Find \\(\\vec{F}\\).",
+      "answer": "\\[\n\\vec{F}=q\\vec{E}=(-4.0\\times10^{-6})(150\\hat{\\imath})\n\\]\n\\[\n\\vec{F}=-6.0\\times10^{-4}\\hat{\\imath}\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-09",
+      "prompt": "Which fundamental interaction is responsible for beta decay, and which one helps bind nuclei together?",
+      "answer": "Beta decay is governed by the weak interaction. Nuclear binding is mainly associated with the strong interaction.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-10",
+      "prompt": "For two objects with masses \\(m_1,m_2\\), charges \\(q_1,q_2\\), and the same separation \\(r\\), derive \\(\\frac{F_E}{F_g}\\), then state explicitly why it is independent of \\(r\\).",
+      "answer": "\\[\nF_E=k\\frac{|q_1q_2|}{r^2},\\qquad F_g=G\\frac{m_1m_2}{r^2}\n\\]\n\\[\n\\frac{F_E}{F_g}=\\frac{k|q_1q_2|}{Gm_1m_2}\n\\]\nThe separation cancels because both forces scale as \\(1/r^2\\), so the \\(r^2\\) factors divide out exactly.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-11",
+      "prompt": "For two protons separated by any distance \\(r\\), estimate \\(\\frac{F_E}{F_g}\\) using \\(k=8.99\\times10^9\\), \\(G=6.67\\times10^{-11}\\), \\(e=1.60\\times10^{-19}\\,\\mathrm{C}\\), and \\(m_p=1.67\\times10^{-27}\\,\\mathrm{kg}\\). Then estimate \\(\\frac{F_E}{F_g}\\) for an electron-proton pair and compare.",
+      "answer": "For two protons,\n\\[\n\\frac{F_E}{F_g}=\\frac{ke^2}{Gm_p^2}\n\\]\n\\[\n\\frac{F_E}{F_g}=\\frac{(8.99\\times10^9)(1.60\\times10^{-19})^2}{(6.67\\times10^{-11})(1.67\\times10^{-27})^2}\n\\]\n\\[\n\\frac{F_E}{F_g}\\approx1.2\\times10^{36}\n\\]\nFor an electron-proton pair:\n\\[\n\\frac{F_E}{F_g}=\\frac{ke^2}{Gm_em_p}\n\\]\nUsing \\(m_e=9.11\\times10^{-31}\\,\\mathrm{kg}\\),\n\\[\n\\frac{F_E}{F_g}\\approx2.3\\times10^{39}\n\\]\nSo the ratio is about \\(\\frac{m_p}{m_e}\\approx1836\\) times larger than the proton-proton case.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fundamental-interactions-12",
+      "prompt": "A particle of mass \\(m\\) and charge \\(q\\) is held at rest in a uniform gravitational field \\(\\vec{g}\\) by a uniform electric field \\(\\vec{E}\\). Derive \\(\\vec{E}\\), then derive \\(|q/m|\\) needed for support for a given \\(|\\vec E|\\), and state the field direction for positive and negative \\(q\\) near Earth\u0027s surface.",
+      "answer": "Equilibrium requires\n\\[\nq\\vec{E}+m\\vec{g}=\\vec{0}\n\\]\nso\n\\[\n\\vec{E}=-\\frac{m\\vec{g}}{q}\n\\]\nMagnitude relation for support under known field magnitude \\(E\\):\n\\[\n|q|E=mg\n\\Rightarrow\n\\left|\\frac{q}{m}\\right|=\\frac{g}{E}\n\\]\nNear Earth\u0027s surface, \\(\\vec{g}\\) points downward. For \\(q\u003e0\\), \\(\\vec{E}\\) must point upward. For \\(q\u003c0\\), \\(\\vec{E}\\) must point downward.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

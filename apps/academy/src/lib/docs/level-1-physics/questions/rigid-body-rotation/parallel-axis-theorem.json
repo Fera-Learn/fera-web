@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "parallel-axis-theorem",
+  "topicTitle": "Parallel-Axis Theorem",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "parallel-axis-01",
+      "prompt": "A body has \\(I_{\\mathrm{cm}}=0.20\\,\\mathrm{kg\\,m^2}\\), mass \\(3.0\\,\\mathrm{kg}\\), and axis offset \\(d=0.40\\,\\mathrm{m}\\). Find \\(I\\).",
+      "answer": "\\[\nI=I_{\\mathrm{cm}}+Md^2=0.20+3.0(0.40^2)=0.68\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-02",
+      "prompt": "A uniform rod has \\(M=2.0\\,\\mathrm{kg}\\) and \\(L=1.2\\,\\mathrm{m}\\). Using \\(I_{\\mathrm{end}}=\\frac{1}{3}ML^2\\), find its moment of inertia about one end.",
+      "answer": "\\[\nI_{\\mathrm{end}}=\\frac{1}{3}ML^2=\\frac{1}{3}(2.0)(1.2^2)=0.96\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-03",
+      "prompt": "In the added term \\(Md^2\\), what happens to the added moment of inertia if \\(d\\) doubles?",
+      "answer": "Since the added term is\n\\[\nMd^2\n\\]\ndoubling \\(d\\) makes the added moment of inertia four times larger.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-04",
+      "prompt": "A solid disk has \\(M=5.0\\,\\mathrm{kg}\\), \\(R=0.20\\,\\mathrm{m}\\), and \\(I_{\\mathrm{cm}}=\\frac{1}{2}MR^2\\). Find \\(I\\) about a parallel axis \\(0.10\\,\\mathrm{m}\\) from the center.",
+      "answer": "\\[\nI_{\\mathrm{cm}}=\\frac{1}{2}MR^2=\\frac{1}{2}(5.0)(0.20^2)=0.10\\,\\mathrm{kg\\,m^2}\n\\]\n\\[\nI=I_{\\mathrm{cm}}+Md^2=0.10+5.0(0.10^2)=0.15\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-05",
+      "prompt": "A uniform rod has \\(M=3.0\\,\\mathrm{kg}\\) and \\(L=2.0\\,\\mathrm{m}\\). Find \\(I\\) about an axis parallel to its center axis but \\(0.50\\,\\mathrm{m}\\) from the center.",
+      "answer": "\\[\nI_{\\mathrm{cm}}=\\frac{1}{12}ML^2=\\frac{1}{12}(3.0)(2.0^2)=1.00\\,\\mathrm{kg\\,m^2}\n\\]\n\\[\nI=I_{\\mathrm{cm}}+Md^2=1.00+3.0(0.50^2)=1.75\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-06",
+      "prompt": "An object\u0027s moment of inertia about a shifted axis is \\(2.0\\,\\mathrm{kg\\,m^2}\\). If \\(M=4.0\\,\\mathrm{kg}\\) and \\(d=0.50\\,\\mathrm{m}\\), find \\(I_{\\mathrm{cm}}\\).",
+      "answer": "\\[\nI=I_{\\mathrm{cm}}+Md^2\n\\]\n\\[\nI_{\\mathrm{cm}}=I-Md^2=2.0-4.0(0.50^2)=1.0\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-07",
+      "prompt": "A measured shifted-axis moment of inertia is smaller than \\(Md^2\\). Explain why that cannot be consistent with the parallel-axis theorem for a real object.",
+      "answer": "The theorem gives\n\\[\nI=I_{\\mathrm{cm}}+Md^2\n\\]\nand \\(I_{\\mathrm{cm}}\\ge0\\) for any real mass distribution. Therefore\n\\[\nI\\ge Md^2\n\\]\nA shifted-axis value smaller than \\(Md^2\\) would imply a negative \\(I_{\\mathrm{cm}}\\), which is not physical.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-08",
+      "prompt": "A uniform rod of mass \\(2.0\\,\\mathrm{kg}\\) and length \\(1.0\\,\\mathrm{m}\\) has a \\(0.50\\,\\mathrm{kg}\\) point mass attached at one end. Find \\(I\\) about an axis through the rod center and perpendicular to the rod.",
+      "answer": "Rod contribution about its center:\n\\[\nI_{\\mathrm{rod}}=\\frac{1}{12}ML^2=\\frac{1}{12}(2.0)(1.0^2)=0.1667\\,\\mathrm{kg\\,m^2}\n\\]\nPoint mass contribution at \\(r=L/2=0.50\\,\\mathrm{m}\\):\n\\[\nI_{\\mathrm{point}}=mr^2=0.50(0.50^2)=0.125\\,\\mathrm{kg\\,m^2}\n\\]\n\\[\nI_{\\mathrm{tot}}=0.292\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-09",
+      "prompt": "Two identical disks of mass \\(m\\) and radius \\(R\\) are fixed at the ends of a massless bar of length \\(L\\). The rotation axis passes through the bar midpoint and is parallel to each disk\u0027s symmetry axis. Derive \\(I_{\\mathrm{tot}}\\), stating the modeling assumptions.",
+      "answer": "Assume each disk is rigid, the bar is massless, and each disk\u0027s center is \\(L/2\\) from the final axis. For one disk,\n\\[\nI_{\\mathrm{one}}=I_{\\mathrm{cm}}+m\\left(\\frac{L}{2}\\right)^2\n\\]\nWith a disk symmetry axis,\n\\[\nI_{\\mathrm{cm}}=\\frac{1}{2}mR^2\n\\]\nFor two disks,\n\\[\nI_{\\mathrm{tot}}=2\\left(\\frac{1}{2}mR^2+m\\frac{L^2}{4}\\right)\n\\]\n\\[\nI_{\\mathrm{tot}}=mR^2+\\frac{1}{2}mL^2\n\\]\nThe hidden structure is that each disk must be shifted to the same final axis before adding.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "parallel-axis-10",
+      "prompt": "Two point masses \\(m_1\\) and \\(m_2\\) lie on a line at \\(x=0\\) and \\(x=L\\). For a rotation axis perpendicular to the line at position \\(x\\), derive the value of \\(x\\) that minimizes \\(I\\), and find the minimum \\(I\\).",
+      "answer": "The moment of inertia about an axis at \\(x\\) is\n\\[\nI(x)=m_1x^2+m_2(L-x)^2\n\\]\nMinimize:\n\\[\n\\frac{dI}{dx}=2m_1x-2m_2(L-x)=0\n\\]\n\\[\nm_1x=m_2(L-x)\n\\]\n\\[\nx=\\frac{m_2}{m_1+m_2}L\n\\]\nThis is the center-of-mass position measured from \\(m_1\\). Substitution gives\n\\[\nI_{\\min}=\\frac{m_1m_2}{m_1+m_2}L^2\n\\]\nThe result shows why the center-of-mass axis is the minimum parallel axis.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

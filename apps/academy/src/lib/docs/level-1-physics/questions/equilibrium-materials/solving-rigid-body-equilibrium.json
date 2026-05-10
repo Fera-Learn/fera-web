@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "equilibrium-materials",
+  "topicId": "solving-rigid-body-equilibrium",
+  "topicTitle": "Solving Rigid-Body Equilibrium",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "rigid-equilibrium-01",
+      "prompt": "A uniform \\(3.0\\,\\mathrm{m}\\) beam of weight \\(120\\,\\mathrm{N}\\) is hinged at one end and held horizontal by a vertical cable at the far end. Find the cable tension.",
+      "answer": "Take torques about the hinge:\n\\[\nT(3.0)-120(1.5)=0\n\\]\n\\[\nT=60\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-02",
+      "prompt": "In the pin-hinge model, how many force components can a hinge exert on a planar rigid body?",
+      "answer": "A planar pin hinge can exert two force components, usually modeled as \\(R_x\\) and \\(R_y\\). In the ideal pin model it exerts no couple torque.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-03",
+      "prompt": "A \\(5.0\\,\\mathrm{m}\\) horizontal beam is supported at its ends. A \\(200\\,\\mathrm{N}\\) load is at the midpoint and the beam weight is negligible. Find each support reaction.",
+      "answer": "By symmetry,\n\\[\nR_L=R_R=100\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-04",
+      "prompt": "A \\(6.0\\,\\mathrm{m}\\) light beam is supported at both ends. A \\(240\\,\\mathrm{N}\\) load is \\(1.5\\,\\mathrm{m}\\) from the left support. Find the support reactions.",
+      "answer": "Torque about the left support:\n\\[\nR_R(6.0)=240(1.5)\n\\]\n\\[\nR_R=60\\,\\mathrm{N}\n\\]\nVertical balance:\n\\[\nR_L=240-60=180\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-05",
+      "prompt": "A uniform \\(3.0\\,\\mathrm{m}\\) beam weighs \\(90\\,\\mathrm{N}\\) and is supported at both ends. Find each support reaction.",
+      "answer": "The beam is uniform and symmetrically supported, so\n\\[\nR_L=R_R=\\frac{90}{2}=45\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-06",
+      "prompt": "A \\(2.0\\,\\mathrm{m}\\) beam is hinged at the left and held horizontal by a cable at the right. The cable is vertical. A \\(60\\,\\mathrm{N}\\) load hangs \\(0.50\\,\\mathrm{m}\\) from the hinge. The beam weight is \\(40\\,\\mathrm{N}\\). Find the cable tension.",
+      "answer": "Take torques about the hinge:\n\\[\nT(2.0)-60(0.50)-40(1.0)=0\n\\]\n\\[\nT=\\frac{30+40}{2.0}=35\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-07",
+      "prompt": "Why is it often useful to take torques about a hinge or support before writing force-balance equations?",
+      "answer": "A force whose line of action passes through the pivot has zero torque about that pivot. Choosing a hinge or support as pivot can eliminate unknown reaction components from the torque equation, leaving fewer unknowns to solve first.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-08",
+      "prompt": "A uniform \\(5.0\\,\\mathrm{m}\\) ladder of weight \\(180\\,\\mathrm{N}\\) leans against a smooth wall at \\(60^\\circ\\) above the floor. Find the horizontal wall force and the floor friction force.",
+      "answer": "Let \\(N_w\\) be the wall force. Torque about the floor contact:\n\\[\nN_w L\\sin60^\\circ=180\\frac{L}{2}\\cos60^\\circ\n\\]\n\\[\nN_w=\\frac{180}{2}\\cot60^\\circ=52.0\\,\\mathrm{N}\n\\]\nHorizontal force balance gives the floor friction:\n\\[\nf_s=N_w=52.0\\,\\mathrm{N}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-09",
+      "prompt": "A uniform beam of length \\(L\\) and weight \\(W_b\\) is hinged at the left. A sign of weight \\(W_s\\) hangs from the right end. A cable attached to the right end pulls up and left at angle \\(\\theta\\) above the beam. Derive the cable tension and hinge reactions, state assumptions, and interpret why one hinge reaction is independent of \\(W_s\\).",
+      "answer": "Assume a rigid uniform beam, a frictionless hinge, a massless cable, and static loading. Torque about the hinge gives\n\\[\nT\\sin\\theta\\,L-W_b\\frac{L}{2}-W_sL=0\n\\]\n\\[\nT=\\frac{W_b/2+W_s}{\\sin\\theta}\n\\]\nHorizontal force balance:\n\\[\nR_x-T\\cos\\theta=0\n\\]\n\\[\nR_x=(W_b/2+W_s)\\cot\\theta\n\\]\nVertical force balance:\n\\[\nR_y+T\\sin\\theta-W_b-W_s=0\n\\]\n\\[\nR_y=W_b+W_s-(W_b/2+W_s)=\\frac{W_b}{2}\n\\]\nThe sign\u0027s weight is fully balanced by the cable\u0027s vertical component in this geometry, so it does not change \\(R_y\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rigid-equilibrium-10",
+      "prompt": "A uniform ladder of length \\(L\\) and weight \\(W\\) leans at angle \\(\\theta\\) against a smooth vertical wall on a rough floor. Derive the minimum coefficient of static friction needed for equilibrium, state assumptions, and interpret the limits \\(\\theta\\to90^\\circ\\) and \\(\\theta\\to0\\).",
+      "answer": "Assume a uniform ladder, smooth wall, static floor contact, and impending slip at the floor for the minimum \\(\\mu_s\\). Let \\(N_w\\) be the wall force.\n\nTorque about the floor contact:\n\\[\nN_wL\\sin\\theta-W\\frac{L}{2}\\cos\\theta=0\n\\]\n\\[\nN_w=\\frac{W}{2}\\cot\\theta\n\\]\nForce balance gives\n\\[\nN_f=W,\\qquad f_s=N_w\n\\]\nAt impending slip,\n\\[\nf_s=\\mu_s N_f\n\\]\n\\[\n\\mu_{s,\\min}=\\frac{N_w}{W}=\\frac{1}{2}\\cot\\theta\n\\]\nAs \\(\\theta\\to90^\\circ\\), \\(\\mu_{s,\\min}\\to0\\): an upright ladder needs little friction. As \\(\\theta\\to0\\), \\(\\mu_{s,\\min}\\to\\infty\\): a nearly horizontal ladder cannot be held by finite floor friction in this model.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

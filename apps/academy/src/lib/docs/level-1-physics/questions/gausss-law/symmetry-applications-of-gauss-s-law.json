@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gausss-law",
+  "topicId": "symmetry-applications-of-gauss-s-law",
+  "topicTitle": "Symmetry Applications of Gauss\u0027s Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "gauss-symmetry-01",
+      "prompt": "What must symmetry let you do before Gauss\u0027s law can directly solve for \\(E\\)?",
+      "answer": "Symmetry must let you simplify the flux integral, usually by making \\(E\\) constant over a useful part of the Gaussian surface and making \\(\\vec E\\) either normal or tangent there.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-02",
+      "prompt": "What Gaussian surface matches spherical symmetry?",
+      "answer": "A sphere centered on the charge distribution matches spherical symmetry.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-03",
+      "prompt": "What Gaussian surface matches an infinitely long uniform line charge?",
+      "answer": "A cylinder coaxial with the line charge matches cylindrical symmetry.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-04",
+      "prompt": "What Gaussian surface matches an infinite uniformly charged sheet?",
+      "answer": "A short pillbox crossing the sheet matches planar symmetry.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-05",
+      "prompt": "Use Gauss\u0027s law to find the electric field magnitude \\(0.20\\,\\mathrm{m}\\) from a \\(+5.0\\,\\mathrm{nC}\\) point charge.",
+      "answer": "For spherical symmetry,\n\\[\nE(4\\pi r^2)=\\frac{Q}{\\epsilon_0}\n\\]\nso\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{r^2}\n\\]\n\\[\nE=\\frac{(8.99\\times10^9)(5.0\\times10^{-9})}{(0.20)^2}\n\\]\n\\[\nE=1.12\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-06",
+      "prompt": "A long line has \\(\\lambda=3.0\\,\\mathrm{nC\\,m^{-1}}\\). Find \\(E\\) at \\(r=0.050\\,\\mathrm{m}\\).",
+      "answer": "For a long line charge,\n\\[\nE=\\frac{\\lambda}{2\\pi\\epsilon_0r}\n\\]\n\\[\nE=\\frac{3.0\\times10^{-9}}{2\\pi(8.85\\times10^{-12})(0.050)}\n\\]\n\\[\nE=1.08\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-07",
+      "prompt": "An infinite sheet has \\(\\sigma=4.0\\,\\mathrm{nC\\,m^{-2}}\\). Find the electric field magnitude on either side.",
+      "answer": "For an infinite sheet,\n\\[\nE=\\frac{\\sigma}{2\\epsilon_0}\n\\]\n\\[\nE=\\frac{4.0\\times10^{-9}}{2(8.85\\times10^{-12})}\n\\]\n\\[\nE=2.26\\times10^2\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-08",
+      "prompt": "A thin spherical shell has total charge \\(+Q\\). Find \\(E\\) for \\(r\u003cR\\), where \\(R\\) is the shell radius.",
+      "answer": "For \\(r\u003cR\\), a Gaussian sphere encloses no charge:\n\\[\nq_{\\mathrm{enc}}=0\n\\]\nBy Gauss\u0027s law and spherical symmetry,\n\\[\nE(4\\pi r^2)=0\n\\]\nso\n\\[\nE=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-09",
+      "prompt": "A thin spherical shell has total charge \\(+Q\\). Find \\(E\\) for \\(r\u003eR\\).",
+      "answer": "For \\(r\u003eR\\), the Gaussian sphere encloses the full charge \\(Q\\):\n\\[\nE(4\\pi r^2)=\\frac{Q}{\\epsilon_0}\n\\]\nso\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{r^2}\n\\]\nThe field outside is the same as if the shell\u0027s charge were concentrated at its center.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-10",
+      "prompt": "A uniformly charged solid sphere has total charge \\(Q\\) and radius \\(R\\). Derive \\(q_{\\mathrm{enc}}\\) for a Gaussian sphere of radius \\(r\u003cR\\).",
+      "answer": "For a uniform sphere, charge is proportional to volume. The fraction of total volume enclosed by radius \\(r\u003cR\\) is\n\\[\n\\frac{\\frac43\\pi r^3}{\\frac43\\pi R^3}=\\frac{r^3}{R^3}\n\\]\nThus\n\\[\nq_{\\mathrm{enc}}=Q\\frac{r^3}{R^3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-11",
+      "prompt": "Using the result for \\(q_{\\mathrm{enc}}\\) inside a uniformly charged solid sphere, derive \\(E(r)\\) for \\(r\u003cR\\).",
+      "answer": "Inside the uniform solid sphere,\n\\[\nq_{\\mathrm{enc}}=Q\\frac{r^3}{R^3}\n\\]\nGauss\u0027s law gives\n\\[\nE(4\\pi r^2)=\\frac{Q r^3}{\\epsilon_0R^3}\n\\]\nso\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Qr}{R^3}\n\\]\nThe field grows linearly with \\(r\\) inside the uniformly charged sphere.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-12",
+      "prompt": "A uniformly charged solid sphere has \\(Q=8.0\\,\\mathrm{nC}\\), \\(R=0.20\\,\\mathrm{m}\\). Find \\(E\\) at \\(r=0.10\\,\\mathrm{m}\\).",
+      "answer": "Inside a uniformly charged solid sphere,\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Qr}{R^3}\n\\]\n\\[\nE=(8.99\\times10^9)\\frac{(8.0\\times10^{-9})(0.10)}{(0.20)^3}\n\\]\n\\[\nE=8.99\\times10^2\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-13",
+      "prompt": "A very long insulating cylinder has uniform volume charge and radius \\(R\\). Explain why a coaxial Gaussian cylinder is useful and which parts of it contribute flux.",
+      "answer": "A coaxial Gaussian cylinder matches the symmetry because the field is radial and has the same magnitude at every point on the curved side. The curved side contributes flux:\n\\[\n\\Phi_{\\mathrm{side}}=E(2\\pi r\\ell)\n\\]\nThe end caps contribute no flux because their area vectors are along the cylinder axis while the electric field is radial.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-14",
+      "prompt": "An infinite sheet has negative surface charge density \\(-\\sigma\\). State the field magnitude and direction on both sides of the sheet.",
+      "answer": "The field magnitude is\n\\[\nE=\\frac{\\sigma}{2\\epsilon_0}\n\\]\nFor negative surface charge, the field points toward the sheet on both sides. On one side it points in one normal direction; on the other side it points in the opposite normal direction, always inward toward the sheet.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-15",
+      "prompt": "Derive the field of a long uniform line charge using a cylindrical Gaussian surface, including why the end caps contribute no flux.",
+      "answer": "Choose a cylinder of radius \\(r\\) and length \\(\\ell\\), coaxial with the line charge. The field is radial, so it is tangent to the end caps and normal to the curved side.\n\nEnd caps:\n\\[\n\\Phi_{\\mathrm{caps}}=0\n\\]\nCurved side:\n\\[\n\\Phi_{\\mathrm{side}}=E(2\\pi r\\ell)\n\\]\nEnclosed charge:\n\\[\nq_{\\mathrm{enc}}=\\lambda\\ell\n\\]\nGauss\u0027s law gives\n\\[\nE(2\\pi r\\ell)=\\frac{\\lambda\\ell}{\\epsilon_0}\n\\]\nso\n\\[\nE=\\frac{\\lambda}{2\\pi\\epsilon_0r}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-16",
+      "prompt": "Derive the field of an infinite uniformly charged sheet using a pillbox Gaussian surface, including the factor of 2.",
+      "answer": "Choose a pillbox of cap area \\(A\\) crossing the sheet. The field is perpendicular to the sheet and has equal magnitude on both sides.\n\nBoth caps contribute:\n\\[\n\\Phi_E=EA+EA=2EA\n\\]\nThe side wall contributes zero flux because the field is tangent to it. The enclosed charge is\n\\[\nq_{\\mathrm{enc}}=\\sigma A\n\\]\nGauss\u0027s law gives\n\\[\n2EA=\\frac{\\sigma A}{\\epsilon_0}\n\\]\nso\n\\[\nE=\\frac{\\sigma}{2\\epsilon_0}\n\\]\nThe factor of 2 appears because flux leaves through two caps.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-17",
+      "prompt": "A charge distribution is spherically symmetric but not uniform. Explain how Gauss\u0027s law determines \\(E(r)\\) if \\(q_{\\mathrm{enc}}(r)\\) is known.",
+      "answer": "For any spherically symmetric charge distribution, choose a centered Gaussian sphere of radius \\(r\\). Symmetry makes the field radial and constant over that sphere, so\n\\[\nE(4\\pi r^2)=\\frac{q_{\\mathrm{enc}}(r)}{\\epsilon_0}\n\\]\nThus\n\\[\nE(r)=\\frac{q_{\\mathrm{enc}}(r)}{4\\pi\\epsilon_0r^2}\n\\]\nThe direction is radial outward for positive enclosed charge and inward for negative enclosed charge.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-18",
+      "prompt": "A nonconducting spherical shell has inner radius \\(a\\), outer radius \\(b\\), and uniform volume charge density. Derive the form of \\(E(r)\\) in the three regions \\(r\u003ca\\), \\(a\u003cr\u003cb\\), and \\(r\u003eb\\) in terms of \\(q_{\\mathrm{enc}}(r)\\).",
+      "answer": "Use a centered Gaussian sphere.\n\nFor \\(r\u003ca\\), no charge is enclosed:\n\\[\nq_{\\mathrm{enc}}(r)=0\n\\]\nso\n\\[\nE=0\n\\]\nFor \\(a\u003cr\u003cb\\), only the charge in the material from radius \\(a\\) to \\(r\\) is enclosed:\n\\[\nE(r)=\\frac{q_{\\mathrm{enc}}(r)}{4\\pi\\epsilon_0r^2}\n\\]\nFor \\(r\u003eb\\), the full shell charge \\(Q\\) is enclosed:\n\\[\nE(r)=\\frac{Q}{4\\pi\\epsilon_0r^2}\n\\]\nThe key step is that \\(q_{\\mathrm{enc}}(r)\\) changes by region.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-19",
+      "prompt": "A long cylinder and an infinite sheet both have positive charge. Compare how their electric field magnitudes depend on distance and connect the difference to Gaussian-surface area growth.",
+      "answer": "For a long line charge,\n\\[\nE(2\\pi r\\ell)=\\frac{\\lambda\\ell}{\\epsilon_0}\n\\]\nso\n\\[\nE\\propto \\frac{1}{r}\n\\]\nThe Gaussian area grows like \\(r\\), while the enclosed charge for a chosen length \\(\\ell\\) is fixed.\n\nFor an infinite sheet,\n\\[\n2EA=\\frac{\\sigma A}{\\epsilon_0}\n\\]\nso \\(A\\) cancels and \\(E\\) is independent of distance. The Gaussian cap area and enclosed sheet charge grow together.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-symmetry-20",
+      "prompt": "For spherical, cylindrical, and planar symmetry, derive the distance dependence of \\(E\\) by comparing how the Gaussian surface area grows while enclosed charge is fixed or grows with the surface size.",
+      "answer": "For spherical symmetry outside a fixed enclosed charge,\n\\[\nE(4\\pi r^2)=\\frac{Q}{\\epsilon_0}\n\\]\nso\n\\[\nE\\propto r^{-2}\n\\]\nbecause spherical area grows as \\(r^2\\).\n\nFor cylindrical symmetry around a fixed length of line charge,\n\\[\nE(2\\pi r\\ell)=\\frac{\\lambda\\ell}{\\epsilon_0}\n\\]\nso\n\\[\nE\\propto r^{-1}\n\\]\nbecause the curved cylindrical area grows as \\(r\\).\n\nFor planar symmetry,\n\\[\n2EA=\\frac{\\sigma A}{\\epsilon_0}\n\\]\nso\n\\[\nE=\\frac{\\sigma}{2\\epsilon_0}\n\\]\nThe cap area and enclosed sheet charge both scale with \\(A\\), so there is no distance dependence in the infinite-sheet model.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

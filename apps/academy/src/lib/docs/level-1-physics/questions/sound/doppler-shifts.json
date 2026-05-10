@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "doppler-shifts",
+  "topicTitle": "Doppler Shifts",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-doppler-01",
+      "prompt": "A \\(600\\,\\mathrm{Hz}\\) source is stationary in air. A listener moves toward it at \\(20\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the heard frequency.",
+      "answer": "For a moving listener,\n\\[\nf_L=f_S\\frac{v+v_L}{v}\n\\]\n\\[\nf_L=600\\frac{340+20}{340}=635\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-02",
+      "prompt": "A \\(600\\,\\mathrm{Hz}\\) source moves toward a stationary listener at \\(20\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the heard frequency.",
+      "answer": "For a moving source,\n\\[\nf_L=f_S\\frac{v}{v-v_S}\n\\]\n\\[\nf_L=600\\frac{340}{340-20}=638\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-03",
+      "prompt": "A source and listener move away from each other. Is the heard frequency higher or lower than the source frequency?",
+      "answer": "The heard frequency is lower than the source frequency because the listener receives wavefronts less often when source and listener separate.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-04",
+      "prompt": "A listener moves away from a stationary \\(500\\,\\mathrm{Hz}\\) source at \\(10\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the heard frequency.",
+      "answer": "Moving away means \\(v_L=-10\\,\\mathrm{m\\,s^{-1}}\\):\n\\[\nf_L=500\\frac{340-10}{340}=485\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-05",
+      "prompt": "A stationary listener hears a \\(1000\\,\\mathrm{Hz}\\) source moving away at \\(30\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the heard frequency.",
+      "answer": "Moving away means \\(v_S=-30\\,\\mathrm{m\\,s^{-1}}\\) in the toward-listener sign convention:\n\\[\nf_L=1000\\frac{340}{340-(-30)}=919\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-06",
+      "prompt": "A \\(700\\,\\mathrm{Hz}\\) source is stationary. A listener moves toward it at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=345\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nf_L=700\\frac{345+15}{345}=730\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-07",
+      "prompt": "A \\(700\\,\\mathrm{Hz}\\) source moves toward a stationary listener at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=345\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nf_L=700\\frac{345}{345-15}=732\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-08",
+      "prompt": "A source emits \\(450\\,\\mathrm{Hz}\\). The listener moves toward the source at \\(12\\,\\mathrm{m\\,s^{-1}}\\), and the source moves toward the listener at \\(18\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nf_L=f_S\\frac{v+v_L}{v-v_S}\n=450\\frac{340+12}{340-18}\n=492\\,\\mathrm{Hz}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-09",
+      "prompt": "A source emits \\(450\\,\\mathrm{Hz}\\). The listener moves away from the source at \\(12\\,\\mathrm{m\\,s^{-1}}\\), and the source moves away from the listener at \\(18\\,\\mathrm{m\\,s^{-1}}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "Both motions are away, so \\(v_L=-12\\,\\mathrm{m\\,s^{-1}}\\) and \\(v_S=-18\\,\\mathrm{m\\,s^{-1}}\\):\n\\[\nf_L=450\\frac{340-12}{340-(-18)}\n=412\\,\\mathrm{Hz}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-10",
+      "prompt": "A stationary listener hears \\(880\\,\\mathrm{Hz}\\) from a source whose emitted frequency is \\(800\\,\\mathrm{Hz}\\). The source is moving toward the listener. Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the source speed.",
+      "answer": "For a source moving toward a stationary listener,\n\\[\nf_L=f_S\\frac{v}{v-v_S}\n\\]\nRearrange:\n\\[\nv-v_S=\\frac{f_Sv}{f_L}\n\\]\n\\[\nv_S=v-\\frac{f_Sv}{f_L}\n=340-\\frac{(800)(340)}{880}\n=30.9\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-11",
+      "prompt": "A listener moving toward a stationary source hears \\(660\\,\\mathrm{Hz}\\) from a \\(600\\,\\mathrm{Hz}\\) source. Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find the listener speed.",
+      "answer": "For a moving listener and stationary source,\n\\[\nf_L=f_S\\frac{v+v_L}{v}\n\\]\nso\n\\[\nv_L=v\\left(\\frac{f_L}{f_S}-1\\right)\n=340\\left(\\frac{660}{600}-1\\right)\n=34\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-12",
+      "prompt": "A car horn emits \\(500\\,\\mathrm{Hz}\\). A stationary observer hears \\(540\\,\\mathrm{Hz}\\) as the car approaches and \\(465\\,\\mathrm{Hz}\\) as it recedes. Are these values consistent with one car speed under the simple Doppler model? Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "Approaching:\n\\[\n540=500\\frac{340}{340-u}\n\\]\nso\n\\[\nu=340-\\frac{500(340)}{540}=25.2\\,\\mathrm{m\\,s^{-1}}\n\\]\nReceding:\n\\[\n465=500\\frac{340}{340+u}\n\\]\nso\n\\[\nu=\\frac{500(340)}{465}-340=25.6\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe values are consistent within rounding.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-13",
+      "prompt": "Explain why the source speed appears in the denominator of the Doppler formula, while listener speed appears in the numerator.",
+      "answer": "A moving source changes the wavelength in the medium by emitting successive crests from different positions, so the source motion changes the spacing of wavefronts and appears in the denominator through wavelength. A moving listener does not change the emitted wavelength; instead it changes how quickly the listener encounters existing wavefronts, so it changes the numerator as an encounter-rate factor.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-14",
+      "prompt": "A source and listener move together through still air at the same speed in the same direction, with the source behind the listener. Does the listener hear a Doppler shift? Use the combined formula to justify.",
+      "answer": "Take the positive direction from listener toward source. If source and listener move together at the same velocity through still air along their line, then \\(v_L=v_S\\). The combined formula gives\n\\[\nf_L=f_S\\frac{v+v_L}{v-v_S}\n\\]\nWith this geometry, the signs are opposite for equal ground motion along the same direction, giving equal wavefront spacing and encounter rate in the medium frame. There is no Doppler shift when both are at rest relative to each other and the medium shares no relative motion between them.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-15",
+      "prompt": "For a stationary listener and a moving source, derive \\(f_L=f_Sv/(v-v_S)\\) from the changed wavelength ahead of the source.",
+      "answer": "The source period is\n\\[\nT_S=\\frac{1}{f_S}\n\\]\nIn one period, the first crest moves distance \\(vT_S\\), while the source moves \\(v_ST_S\\) toward it. The wavelength ahead is\n\\[\n\\lambda\u0027=(v-v_S)T_S\n\\]\nA stationary listener receives frequency\n\\[\nf_L=\\frac{v}{\\lambda\u0027}=\\frac{v}{(v-v_S)T_S}\n=f_S\\frac{v}{v-v_S}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-16",
+      "prompt": "For a stationary source and moving listener, derive \\(f_L=f_S(v+v_L)/v\\) from the listener meeting wavefronts at a changed rate.",
+      "answer": "A stationary source emits wavelength\n\\[\n\\lambda=\\frac{v}{f_S}\n\\]\nA listener moving toward the source meets wavefronts at relative speed \\(v+v_L\\). Therefore\n\\[\nf_L=\\frac{v+v_L}{\\lambda}\n=\\frac{v+v_L}{v/f_S}\n=f_S\\frac{v+v_L}{v}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-17",
+      "prompt": "A source moves toward a wall at speed \\(u\\) and emits frequency \\(f_S\\). The wall is stationary and reflects the sound. Derive the frequency of the echo heard back at the moving source, assuming \\(u\u003cv\\).",
+      "answer": "First, the wall acts as a stationary listener while the source approaches it:\n\\[\nf_{\\mathrm{wall}}=f_S\\frac{v}{v-u}\n\\]\nThe wall reflects this as a source of frequency \\(f_{\\mathrm{wall}}\\). The original source is now a listener moving toward the reflected wave, so\n\\[\nf_{\\mathrm{echo}}=f_{\\mathrm{wall}}\\frac{v+u}{v}\n\\]\nThus\n\\[\nf_{\\mathrm{echo}}=f_S\\frac{v+u}{v-u}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-18",
+      "prompt": "A listener at rest hears frequency \\(f_+\\) as a source approaches and \\(f_-\\) as the same source recedes at the same speed. Derive the source speed \\(u\\) in terms of \\(f_+\\), \\(f_-\\), and \\(v\\).",
+      "answer": "For approach,\n\\[\nf_+=f_S\\frac{v}{v-u}\n\\]\nFor recession,\n\\[\nf_-=f_S\\frac{v}{v+u}\n\\]\nDivide:\n\\[\n\\frac{f_+}{f_-}=\\frac{v+u}{v-u}\n\\]\nLet \\(R=f_+/f_-\\). Then\n\\[\nR(v-u)=v+u\n\\]\n\\[\nu=v\\frac{R-1}{R+1}\n\\]\nEquivalently,\n\\[\nu=v\\frac{f_+-f_-}{f_++f_-}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-19",
+      "prompt": "Using \\(f_L=f_S(v+v_L)/(v-v_S)\\), derive the first-order fractional shift for speeds much smaller than \\(v\\). Keep terms only to first order in \\(v_L/v\\) and \\(v_S/v\\).",
+      "answer": "Start with\n\\[\n\\frac{f_L}{f_S}=\\frac{1+v_L/v}{1-v_S/v}\n\\]\nFor small \\(v_S/v\\),\n\\[\n\\frac{1}{1-v_S/v}\\approx1+\\frac{v_S}{v}\n\\]\nThus\n\\[\n\\frac{f_L}{f_S}\\approx\\left(1+\\frac{v_L}{v}\\right)\\left(1+\\frac{v_S}{v}\\right)\n\\]\nKeeping only first-order terms,\n\\[\n\\frac{f_L-f_S}{f_S}\\approx\\frac{v_L+v_S}{v}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-doppler-20",
+      "prompt": "A wind blows from source to listener at speed \\(w\\). A source and listener are both at rest relative to the ground. Explain whether the listener hears a Doppler shift, and distinguish changed wave speed relative to ground from changed emission frequency.",
+      "answer": "If source and listener are both at rest relative to the ground and the medium moves uniformly from source to listener, the wave speed relative to the ground changes, but the listener receives crests at the same rate the source emits them in steady conditions. There is no Doppler shift from wind alone in this setup. The wavelength relative to the ground changes consistently with the ground-frame wave speed, so \\(f=v_{\\mathrm{ground}}/\\lambda_{\\mathrm{ground}}\\) remains the source frequency.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

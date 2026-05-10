@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "conservative-forces",
+  "topicTitle": "Conservative Forces",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "conservative-forces-01",
+      "prompt": "What is the relationship between conservative work and potential energy change?",
+      "answer": "\\[\nW_c=-\\Delta U\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-02",
+      "prompt": "A conservative force does \\(12\\,\\mathrm{J}\\) of work. Find \\(\\Delta U\\).",
+      "answer": "\\[\n\\Delta U=-W_c=-12\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-03",
+      "prompt": "A particle returns to its starting point under a conservative force. What is the net work by that force?",
+      "answer": "For a closed path under a conservative force,\n\\[\nW_c=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-04",
+      "prompt": "Name two common conservative forces in introductory mechanics.",
+      "answer": "Gravity and the ideal spring force are conservative forces.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-05",
+      "prompt": "A conservative force changes potential energy from \\(20\\,\\mathrm{J}\\) to \\(5\\,\\mathrm{J}\\). Find the work done by the force.",
+      "answer": "\\[\nW_c=-\\Delta U=-(5-20)=15\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-06",
+      "prompt": "A particle has \\(K_i=8\\,\\mathrm{J}\\), \\(U_i=15\\,\\mathrm{J}\\), and later \\(U_f=6\\,\\mathrm{J}\\). Find \\(K_f\\) if only conservative forces act.",
+      "answer": "\\[\nK_i+U_i=K_f+U_f\n\\]\n\\[\n8+15=K_f+6\\Rightarrow K_f=17\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-07",
+      "prompt": "Why can a potential energy function be assigned to a conservative force?",
+      "answer": "Because the work depends only on endpoints. That makes \\(-W_c\\) a state change, so it can be represented as \\(\\Delta U\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-08",
+      "prompt": "A block slides along two different frictionless paths between the same two heights. Compare work done by gravity.",
+      "answer": "The work by gravity is the same for both paths because gravity is conservative and depends only on vertical displacement.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-09",
+      "prompt": "A particle moves under a conservative force from A to B. Along one path the force does \\(18\\,\\mathrm{J}\\) of work. Along a second path from B back to A, find the work.",
+      "answer": "Endpoint reversal changes the sign.\n\\[\nW_{B\\to A}=-W_{A\\to B}=-18\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-10",
+      "prompt": "A particle moves from \\(x=1\\,\\mathrm{m}\\) to \\(x=4\\,\\mathrm{m}\\) under a conservative force with \\(U(x)=3x^2\\,\\mathrm{J}\\). Find the work done by the force.",
+      "answer": "\\[\n\\Delta U=U(4)-U(1)=3(16)-3(1)=45\\,\\mathrm{J}\n\\]\n\\[\nW_c=-45\\,\\mathrm{J}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-11",
+      "prompt": "A force field is \\(\\vec{F}=2axy\\,\\hat{\\imath}+ax^2\\,\\hat{\\jmath}\\), where \\(a\\) is constant. Decide whether the force is conservative, find a potential \\(U(x,y)\\) with \\(U(0,0)=0\\), and find the work done by the force from \\((0,0)\\) to \\((X,Y)\\).",
+      "answer": "For a two-dimensional force field on a simply connected region, check the cross-derivatives:\n\\[\n\\frac{\\partial F_x}{\\partial y}=2ax\n\\]\n\\[\n\\frac{\\partial F_y}{\\partial x}=2ax\n\\]\nThey match, so the force is conservative. Since \\(\\vec{F}=-\\nabla U\\),\n\\[\n\\frac{\\partial U}{\\partial x}=-2axy\n\\]\nIntegrating with respect to \\(x\\),\n\\[\nU(x,y)=-ax^2y+f(y)\n\\]\nThen\n\\[\n\\frac{\\partial U}{\\partial y}=-ax^2+f\u0027(y)\n\\]\nMatch this with \\(-F_y=-ax^2\\), so \\(f\u0027(y)=0\\). With \\(U(0,0)=0\\),\n\\[\nU(x,y)=-ax^2y\n\\]\nThe work from \\((0,0)\\) to \\((X,Y)\\) is\n\\[\nW=U_i-U_f=0-(-aX^2Y)=aX^2Y\n\\]\nBecause the force is conservative, the result depends only on the endpoints, not the path.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "conservative-forces-12",
+      "prompt": "A particle of mass \\(m\\) moves in one dimension under the conservative force \\(F(x)=-ax+bx^3\\), with \\(a\u003e0\\) and \\(b\u003e0\\). It starts at \\(x=0\\) with speed \\(v_0\\). Construct \\(U(x)\\) using \\(U(0)=0\\), then classify the possible motion regimes as \\(v_0\\) varies.",
+      "answer": "Use \\(F=-dU/dx\\):\n\\[\n\\frac{dU}{dx}=ax-bx^3\n\\]\n\\[\nU(x)=\\frac{1}{2}ax^2-\\frac{1}{4}bx^4\n\\]\nThe barrier points satisfy \\(dU/dx=0\\):\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{a}{b}}\n\\]\n\\(x=0\\) is a local minimum and \\(x=\\pm\\sqrt{a/b}\\) are local maxima. The barrier height is\n\\[\nU_b=U\\left(\\sqrt{\\frac{a}{b}}\\right)=\\frac{a^2}{4b}\n\\]\nThe initial total energy is\n\\[\nE=\\frac{1}{2}mv_0^2\n\\]\nThe critical speed is found from \\(E=U_b\\):\n\\[\nv_c=\\frac{a}{\\sqrt{2bm}}\n\\]\nFor \\(0\u003cv_0\u003cv_c\\), the particle is trapped in the central allowed region and turns before the barrier. For \\(v_0=v_c\\), it just reaches an unstable barrier point with zero speed. For \\(v_0\u003ev_c\\), it passes over the barrier and is not confined by this ideal potential.\n\nFor \\(v_0=0\\), it remains at the stable equilibrium \\(x=0\\).\n\nFor \\(0\u003cE\u003cU_b\\), the turning points in the central region come from\n\\[\n\\frac{1}{2}az-\\frac{1}{4}bz^2=E,\\qquad z=x^2\n\\]\n\\[\nz=\\frac{a-\\sqrt{a^2-4bE}}{b}\n\\]\nso the accessible central interval is\n\\[\n|x|\\leq \\sqrt{\\frac{a-\\sqrt{a^2-4bE}}{b}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

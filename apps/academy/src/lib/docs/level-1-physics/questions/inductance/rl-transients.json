@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "rl-transients",
+  "topicTitle": "RL Transients",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "rl-transients-01",
+      "prompt": "What is the time constant of a series RL circuit?",
+      "answer": "The RL time constant is\n\\[\n\\tau=\\frac{L}{R}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-02",
+      "prompt": "A \\(0.50\\,\\mathrm{H}\\) inductor is in series with \\(10\\,\\Omega\\). Find the time constant.",
+      "answer": "\\[\n\\tau=\\frac{L}{R}=\\frac{0.50}{10}=5.0\\times10^{-2}\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-03",
+      "prompt": "What is the final current after a long time when an ideal battery \\(\\mathcal E\\) drives a series \\(R\\)-\\(L\\) circuit?",
+      "answer": "After a long time, \\(dI/dt=0\\), so the inductor acts like a wire. The final current is\n\\[\nI_f=\\frac{\\mathcal E}{R}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-04",
+      "prompt": "State the current growth equation for a series RL circuit connected to a dc source.",
+      "answer": "The current grows as\n\\[\nI(t)=\\frac{\\mathcal E}{R}\\left(1-e^{-tR/L}\\right)\n\\]\n",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-05",
+      "prompt": "State the current decay equation for an inductor discharging through a resistor.",
+      "answer": "The current decays as\n\\[\nI(t)=I_0e^{-tR/L}=I_0e^{-t/\\tau}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-06",
+      "prompt": "A \\(12\\,\\mathrm{V}\\) source drives \\(6.0\\,\\Omega\\) and \\(0.30\\,\\mathrm{H}\\) in series. Find the final current and time constant.",
+      "answer": "\\[\nI_f=\\frac{12}{6.0}=2.0\\,\\mathrm{A}\n\\]\n\\[\n\\tau=\\frac{L}{R}=\\frac{0.30}{6.0}=0.050\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-07",
+      "prompt": "For the circuit in the previous question, find the current after one time constant.",
+      "answer": "After one time constant,\n\\[\nI=I_f(1-e^{-1})=2.0(0.632)=1.26\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-08",
+      "prompt": "A current of \\(5.0\\,\\mathrm{A}\\) decays in an RL circuit with \\(\\tau=0.20\\,\\mathrm{s}\\). Find the current after \\(0.40\\,\\mathrm{s}\\).",
+      "answer": "Here \\(t=2\\tau\\), so\n\\[\nI=I_0e^{-2}=5.0(0.135)=0.68\\,\\mathrm{A}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-09",
+      "prompt": "How long does it take a growing RL current to reach \\(90\\%\\) of its final value?",
+      "answer": "Use\n\\[\n0.90=1-e^{-t/\\tau}\n\\]\nso\n\\[\ne^{-t/\\tau}=0.10\n\\]\nTherefore\n\\[\nt=\\tau\\ln 10=2.30\\tau\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-10",
+      "prompt": "Derive the differential equation for current growth in a series RL circuit.",
+      "answer": "Kirchhoff's loop law gives\n\\[\n\\mathcal E-IR-L\\frac{dI}{dt}=0\n\\]\nRearrange:\n\\[\nL\\frac{dI}{dt}+RI=\\mathcal E\n\\]\nThis is the first-order current-growth equation.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-11",
+      "prompt": "Why does an inductor initially behave like an open branch when a dc source is switched on?",
+      "answer": "The current through an inductor cannot jump instantaneously. If it starts at zero, it is still zero at the first instant after switching. Therefore the branch initially carries no current, like an open branch.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-12",
+      "prompt": "Why does an ideal inductor behave like a wire after a long time in a dc circuit?",
+      "answer": "After a long time, current is steady, so \\(dI/dt=0\\). The inductor voltage is\n\\[\nV_L=L\\frac{dI}{dt}=0\n\\]\nso the ideal inductor has no voltage drop, like a wire.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-13",
+      "prompt": "Find the initial current slope for a \\(12\\,\\mathrm{V}\\) source connected to a \\(0.30\\,\\mathrm{H}\\) inductor in series with resistance.",
+      "answer": "At \\(t=0\\), the current is zero, so the resistor drop is zero. Thus\n\\[\n\\left.\\frac{dI}{dt}\\right|_0=\\frac{\\mathcal E}{L}=\\frac{12}{0.30}=40\\,\\mathrm{A\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-14",
+      "prompt": "An RL circuit has \\(L=2.0\\,\\mathrm{H}\\) and must have \\(\\tau=0.50\\,\\mathrm{s}\\). Find \\(R\\).",
+      "answer": "\\[\n\\tau=\\frac{L}{R}\\quad\\Rightarrow\\quad R=\\frac{L}{\\tau}=\\frac{2.0}{0.50}=4.0\\,\\Omega\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-15",
+      "prompt": "A growing RL current is \\(3.0\\,\\mathrm{A}\\) after one time constant. Find its final current.",
+      "answer": "After one time constant,\n\\[\nI=0.632I_f\n\\]\nso\n\\[\nI_f=\\frac{3.0}{0.632}=4.7\\,\\mathrm{A}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-16",
+      "prompt": "During RL current growth, what is the inductor voltage at \\(t=0\\) and after a long time?",
+      "answer": "At \\(t=0\\), current is zero and the resistor drop is zero, so the inductor has the full source voltage: \\(V_L=\\mathcal E\\). After a long time, \\(dI/dt=0\\), so \\(V_L=0\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-17",
+      "prompt": "An inductor with initial current \\(2.0\\,\\mathrm{A}\\) discharges through \\(5.0\\,\\Omega\\). If \\(L=0.50\\,\\mathrm{H}\\), how much energy is initially stored and where does it go?",
+      "answer": "Initial energy:\n\\[\nU_B=\\frac12LI^2=\\frac12(0.50)(2.0)^2=1.0\\,\\mathrm{J}\n\\]\nDuring discharge, this energy is dissipated as thermal energy in the resistor.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-18",
+      "prompt": "A current decays from \\(8.0\\,\\mathrm{A}\\) to \\(2.0\\,\\mathrm{A}\\) in an RL circuit. Express the elapsed time in units of \\(\\tau\\).",
+      "answer": "For decay,\n\\[\n\\frac{I}{I_0}=e^{-t/\\tau}\n\\]\nHere \\(I/I_0=2.0/8.0=0.25\\), so\n\\[\n0.25=e^{-t/\\tau}\n\\]\n\\[\nt=\\tau\\ln4=1.39\\tau\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-19",
+      "prompt": "Compare the RL time constant \\(L/R\\) with the RC time constant \\(RC\\). Why does resistance appear oppositely?",
+      "answer": "In an RC circuit, larger resistance slows capacitor charging because it limits current, so \\(\\tau=RC\\). In an RL circuit, larger resistance dissipates magnetic energy faster and drives the current toward its final value faster, so \\(\\tau=L/R\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "rl-transients-20",
+      "prompt": "Derive the RL growth solution form from the loop equation and identify the final current.",
+      "answer": "Start with\n\\[\nL\\frac{dI}{dt}+RI=\\mathcal E\n\\]\nThe steady solution is \\(I_f=\\mathcal E/R\\). The difference \\(I_f-I\\) decays exponentially with time constant \\(\\tau=L/R\\), giving\n\\[\nI(t)=I_f\\left(1-e^{-t/\\tau}\\right)=\\frac{\\mathcal E}{R}\\left(1-e^{-tR/L}\\right)\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

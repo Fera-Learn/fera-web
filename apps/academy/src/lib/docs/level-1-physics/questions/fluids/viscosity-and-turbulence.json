@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "fluids",
+  "topicId": "viscosity-and-turbulence",
+  "topicTitle": "Viscosity and Turbulence",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fluids-viscosity-01",
+      "prompt": "A shear force of \\(18\\,\\mathrm{N}\\) acts over area \\(0.060\\,\\mathrm{m^2}\\). Find the shear stress.",
+      "answer": "\\[\n\\tau=\\frac{F}{A}=\\frac{18}{0.060}=3.0\\times10^2\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-02",
+      "prompt": "A Newtonian fluid has viscosity \\(0.45\\,\\mathrm{Pa\\,s}\\) and velocity gradient \\(120\\,\\mathrm{s^{-1}}\\). Find the shear stress.",
+      "answer": "\\[\n\\tau=\\eta\\frac{dv}{dy}=(0.45)(120)=54\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-03",
+      "prompt": "A plate of area \\(0.15\\,\\mathrm{m^2}\\) slides at \\(0.40\\,\\mathrm{m\\,s^{-1}}\\) over a stationary plate with a \\(2.0\\,\\mathrm{mm}\\) fluid gap. The fluid viscosity is \\(0.80\\,\\mathrm{Pa\\,s}\\). Assuming a linear velocity profile, find the viscous force.",
+      "answer": "With a linear profile,\n\\[\n\\frac{dv}{dy}=\\frac{0.40}{2.0\\times10^{-3}}=200\\,\\mathrm{s^{-1}}\n\\]\nso\n\\[\nF=\\eta A\\frac{dv}{dy}=(0.80)(0.15)(200)=24\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-04",
+      "prompt": "Water with \\(\\rho=1000\\,\\mathrm{kg\\,m^{-3}}\\) and \\(\\eta=1.0\\times10^{-3}\\,\\mathrm{Pa\\,s}\\) flows at \\(1.2\\,\\mathrm{m\\,s^{-1}}\\) past a length scale \\(0.030\\,\\mathrm{m}\\). Find the Reynolds number.",
+      "answer": "\\[\n\\mathrm{Re}=\\frac{\\rho vL}{\\eta}\n=\\frac{(1000)(1.2)(0.030)}{1.0\\times10^{-3}}\n=3.6\\times10^4\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-05",
+      "prompt": "Two flows have Reynolds numbers \\(1200\\) and \\(2.0\\times10^5\\). Which is more likely to be turbulent, and why?",
+      "answer": "The flow with \\(\\mathrm{Re}=2.0\\times10^5\\) is more likely to be turbulent. A larger Reynolds number means inertial effects are larger compared with viscous smoothing.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-06",
+      "prompt": "A Newtonian fluid has shear stress \\(36\\,\\mathrm{Pa}\\) when \\(dv/dy=90\\,\\mathrm{s^{-1}}\\). Find the viscosity.",
+      "answer": "\\[\n\\eta=\\frac{\\tau}{dv/dy}=\\frac{36}{90}=0.40\\,\\mathrm{Pa\\,s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-07",
+      "prompt": "A viscous force of \\(10\\,\\mathrm{N}\\) acts on area \\(0.20\\,\\mathrm{m^2}\\) in a fluid of viscosity \\(0.50\\,\\mathrm{Pa\\,s}\\). Find the velocity gradient.",
+      "answer": "First find the shear stress:\n\\[\n\\tau=\\frac{F}{A}=\\frac{10}{0.20}=50\\,\\mathrm{Pa}\n\\]\nThen\n\\[\n\\frac{dv}{dy}=\\frac{\\tau}{\\eta}=\\frac{50}{0.50}=100\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-08",
+      "prompt": "For oil with \\(\\rho=900\\,\\mathrm{kg\\,m^{-3}}\\), \\(\\eta=0.18\\,\\mathrm{Pa\\,s}\\), and \\(L=0.10\\,\\mathrm{m}\\), find the speed corresponding to \\(\\mathrm{Re}=2000\\).",
+      "answer": "\\[\nv=\\frac{\\mathrm{Re}\\,\\eta}{\\rho L}\n=\\frac{(2000)(0.18)}{(900)(0.10)}\n=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-09",
+      "prompt": "A flow\u0027s speed is doubled while its characteristic length is halved. Density and viscosity are unchanged. By what factor does the Reynolds number change?",
+      "answer": "\\[\n\\mathrm{Re}\\propto vL\n\\]\nThe speed factor is \\(2\\), and the length factor is \\(1/2\\), so\n\\[\n2\\left(\\frac{1}{2}\\right)=1\n\\]\nThe Reynolds number is unchanged.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-10",
+      "prompt": "In a plate-flow setup with linear velocity profile, the gap between plates is doubled while area, viscosity, and plate speed are unchanged. By what factor does the viscous force change?",
+      "answer": "For a linear profile,\n\\[\nF=\\eta A\\frac{U}{d}\n\\]\nIf \\(d\\) doubles while \\(\\eta\\), \\(A\\), and \\(U\\) stay fixed, the force is halved.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-11",
+      "prompt": "A viscous force of \\(30\\,\\mathrm{N}\\) opposes a plate moving steadily at \\(0.50\\,\\mathrm{m\\,s^{-1}}\\). Find the mechanical power needed to maintain the motion.",
+      "answer": "For steady motion, the applied force balances the viscous resistance. The required power is\n\\[\nP=Fv=(30)(0.50)=15\\,\\mathrm{W}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-12",
+      "prompt": "Water flows in a pipe of diameter \\(2.0\\,\\mathrm{cm}\\). Estimate the Reynolds number at speeds \\(0.10\\,\\mathrm{m\\,s^{-1}}\\) and \\(0.30\\,\\mathrm{m\\,s^{-1}}\\), using \\(\\eta=1.0\\times10^{-3}\\,\\mathrm{Pa\\,s}\\). Interpret the change.",
+      "answer": "Use \\(L=D=0.020\\,\\mathrm{m}\\):\n\\[\n\\mathrm{Re}_1=\\frac{(1000)(0.10)(0.020)}{1.0\\times10^{-3}}=2.0\\times10^3\n\\]\n\\[\n\\mathrm{Re}_2=\\frac{(1000)(0.30)(0.020)}{1.0\\times10^{-3}}=6.0\\times10^3\n\\]\nTripling the speed triples \\(\\mathrm{Re}\\), making inertial effects more dominant and turbulence more likely.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-13",
+      "prompt": "Air with \\(\\rho=1.2\\,\\mathrm{kg\\,m^{-3}}\\) and \\(\\eta=1.8\\times10^{-5}\\,\\mathrm{Pa\\,s}\\) flows at \\(40\\,\\mathrm{m\\,s^{-1}}\\) past a model of length \\(0.25\\,\\mathrm{m}\\). Find \\(\\mathrm{Re}\\) and state whether inertial or viscous effects dominate the ratio.",
+      "answer": "\\[\n\\mathrm{Re}=\\frac{(1.2)(40)(0.25)}{1.8\\times10^{-5}}\n=6.7\\times10^5\n\\]\nThis is large, so the ratio is dominated by inertial effects rather than viscous smoothing.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-14",
+      "prompt": "A model is \\(1/5\\) the size of a full object but is tested at \\(3\\) times the full-object speed in a fluid of the same density. By what factor must the viscosity differ for the Reynolds number to match?",
+      "answer": "For equal Reynolds numbers with the same density,\n\\[\n\\frac{v_mL_m}{\\eta_m}=\\frac{v_fL_f}{\\eta_f}\n\\]\nGiven \\(v_m=3v_f\\) and \\(L_m=L_f/5\\),\n\\[\n\\frac{\\eta_m}{\\eta_f}=\\frac{v_mL_m}{v_fL_f}=\\frac{3}{5}\n\\]\nThe model-test fluid viscosity must be \\(0.60\\) times the full-object fluid viscosity.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-15",
+      "prompt": "A fluid is tested at three velocity gradients: \\(50\\,\\mathrm{s^{-1}}\\), \\(100\\,\\mathrm{s^{-1}}\\), and \\(150\\,\\mathrm{s^{-1}}\\). The measured shear stresses are \\(20\\,\\mathrm{Pa}\\), \\(40\\,\\mathrm{Pa}\\), and \\(65\\,\\mathrm{Pa}\\). Decide whether the data fit a Newtonian model with constant viscosity.",
+      "answer": "For a Newtonian fluid with constant viscosity, the ratio \\(\\tau/(dv/dy)\\) should be constant.\n\\[\n\\frac{20}{50}=0.40\\,\\mathrm{Pa\\,s}\n\\]\n\\[\n\\frac{40}{100}=0.40\\,\\mathrm{Pa\\,s}\n\\]\n\\[\n\\frac{65}{150}=0.433\\,\\mathrm{Pa\\,s}\n\\]\nThe first two points fit \\(\\eta=0.40\\,\\mathrm{Pa\\,s}\\), but the third does not. The data do not fit an exact constant-viscosity Newtonian model.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-16",
+      "prompt": "A plate of area \\(A\\) moves at speed \\(U\\) over a stationary plate separated by fluid thickness \\(d\\). For a Newtonian fluid with linear velocity profile, derive the viscous force and the power required to maintain the motion.",
+      "answer": "A linear profile has\n\\[\n\\frac{dv}{dy}=\\frac{U}{d}\n\\]\nThe shear stress is\n\\[\n\\tau=\\eta\\frac{U}{d}\n\\]\nso the viscous force magnitude is\n\\[\nF=\\tau A=\\eta A\\frac{U}{d}\n\\]\nThe power needed to pull the plate at speed \\(U\\) is\n\\[\nP=FU=\\eta A\\frac{U^2}{d}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-17",
+      "prompt": "A Newtonian fluid has velocity profile \\(v(y)=ay+by^2\\), where \\(a\u003e0\\) and \\(b\u003e0\\), between \\(0\\le y\\le H\\). Derive the shear stress \\(\\tau(y)\\), and identify where the shear stress is largest.",
+      "answer": "For a Newtonian fluid,\n\\[\n\\tau(y)=\\eta\\frac{dv}{dy}\n\\]\nDifferentiate the profile:\n\\[\n\\frac{dv}{dy}=a+2by\n\\]\nso\n\\[\n\\tau(y)=\\eta(a+2by)\n\\]\nWith \\(b\u003e0\\), this increases with \\(y\\), so the largest shear stress occurs at \\(y=H\\):\n\\[\n\\tau_{\\max}=\\eta(a+2bH)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-18",
+      "prompt": "A flow should remain below critical Reynolds number \\(\\mathrm{Re}_c\\). Derive the maximum allowed characteristic length \\(L_{\\max}\\) in terms of \\(\\rho\\), \\(v\\), \\(\\eta\\), and \\(\\mathrm{Re}_c\\). Then calculate it for \\(\\rho=1000\\,\\mathrm{kg\\,m^{-3}}\\), \\(v=0.40\\,\\mathrm{m\\,s^{-1}}\\), \\(\\eta=1.0\\times10^{-3}\\,\\mathrm{Pa\\,s}\\), and \\(\\mathrm{Re}_c=2000\\).",
+      "answer": "Require\n\\[\n\\mathrm{Re}=\\frac{\\rho vL}{\\eta}\\le \\mathrm{Re}_c\n\\]\nso\n\\[\nL_{\\max}=\\frac{\\mathrm{Re}_c\\eta}{\\rho v}\n\\]\nNumerically,\n\\[\nL_{\\max}=\\frac{(2000)(1.0\\times10^{-3})}{(1000)(0.40)}\n=5.0\\times10^{-3}\\,\\mathrm{m}\n\\]\nThe characteristic length must be at most \\(5.0\\,\\mathrm{mm}\\) under this threshold model.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-19",
+      "prompt": "A channel has velocity profile \\(v(y)=v_0(y/H)^n\\) for \\(0\\le y\\le H\\), with \\(n\u003e0\\). Derive the average speed and the wall shear stress at \\(y=H\\) for a Newtonian fluid.",
+      "answer": "The average speed is\n\\[\nv_{\\mathrm{avg}}=\\frac{1}{H}\\int_0^H v_0\\left(\\frac{y}{H}\\right)^n dy\n\\]\nLet \\(u=y/H\\). Then\n\\[\nv_{\\mathrm{avg}}=v_0\\int_0^1u^n\\,du=\\frac{v_0}{n+1}\n\\]\nThe shear stress is\n\\[\n\\tau=\\eta\\frac{dv}{dy}\n\\]\nand\n\\[\n\\frac{dv}{dy}=v_0\\frac{n}{H}\\left(\\frac{y}{H}\\right)^{n-1}\n\\]\nAt \\(y=H\\),\n\\[\n\\tau_{\\mathrm{wall}}=\\eta\\frac{nv_0}{H}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-viscosity-20",
+      "prompt": "An ideal Bernoulli calculation for a horizontal constriction predicts a pressure drop \\(\\Delta p_{\\mathrm{ideal}}\\). In the real flow, the Reynolds number is very large and turbulent losses are significant. Explain which pressure difference is larger, \\(\\Delta p_{\\mathrm{actual}}\\) or \\(\\Delta p_{\\mathrm{ideal}}\\), and justify the conclusion with an energy argument.",
+      "answer": "The actual pressure difference must be larger:\n\\[\n\\Delta p_{\\mathrm{actual}}\u003e\\Delta p_{\\mathrm{ideal}}\n\\]\nThe ideal Bernoulli pressure drop accounts only for the change in kinetic energy per unit volume. A real turbulent flow also converts mechanical energy into internal energy through viscous dissipation and eddy mixing. To reach the same downstream speed through the same constriction, the upstream side must supply both the kinetic-energy increase and the energy loss, so the required pressure drop is larger than the ideal prediction.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "nuclear-reactions",
+  "topicTitle": "Nuclear Reactions",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "nuclear-reactions-01",
+      "prompt": "State two conservation rules that must hold in a nuclear reaction equation.",
+      "answer": "Total nucleon number \\(A\\) and total proton number \\(Z\\) must be conserved. Energy and momentum must also be conserved in the full reaction.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-02",
+      "prompt": "Write the Q-value formula in terms of initial and final total rest masses.",
+      "answer": "\\[\\nQ=(m_i-m_f)c^2\\n\\]\\nA positive \\(Q\\) means rest mass decreases and energy is released.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-03",
+      "prompt": "A reaction has \\(m_i-m_f=0.0060\\,\\mathrm u\\). Find \\(Q\\) in MeV.",
+      "answer": "\\[\\nQ=0.0060(931.5)=5.59\\,\\mathrm{MeV}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-04",
+      "prompt": "Balance \\(^{14}_{7}\\mathrm N+^{4}_{2}\\mathrm{He}\\to ^{17}_{8}\\mathrm O+?\\).",
+      "answer": "Initial totals: \\(A=18\\), \\(Z=9\\). The oxygen product has \\(A=17\\), \\(Z=8\\), so the missing particle has \\(A=1\\), \\(Z=1\\):\\n\\[\\n^{1}_{1}\\mathrm H\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-05",
+      "prompt": "Balance \\(^{9}_{4}\\mathrm{Be}+^{4}_{2}\\mathrm{He}\\to ^{12}_{6}\\mathrm C+?\\).",
+      "answer": "Initial totals are \\(A=13\\), \\(Z=6\\). Carbon has \\(A=12\\), \\(Z=6\\), so the missing product has \\(A=1\\), \\(Z=0\\):\\n\\[\\n^{1}_{0}\\mathrm n\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-06",
+      "prompt": "If \\(Q=3.0\\,\\mathrm{MeV}\\) and initial kinetic energy is \\(2.0\\,\\mathrm{MeV}\\), what is the final total kinetic energy, ignoring excitation and photons?",
+      "answer": "Using \\(Q=K_f-K_i\\),\\n\\[\\nK_f=K_i+Q=2.0+3.0=5.0\\,\\mathrm{MeV}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-07",
+      "prompt": "What does a negative Q-value mean for a nuclear reaction?",
+      "answer": "A negative \\(Q\\) means the final rest mass is larger than the initial rest mass. The reaction is endothermic and requires supplied kinetic energy.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-08",
+      "prompt": "Why is the lab-frame threshold kinetic energy for an endothermic reaction greater than \\(|Q|\\)?",
+      "answer": "Some incoming kinetic energy must remain as final kinetic energy to conserve momentum, because the center of mass generally continues moving in the lab frame. Therefore not all incident kinetic energy can become rest mass.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-09",
+      "prompt": "For a reaction with the target initially at rest, state the nonrelativistic threshold formula for \\(a+A\\to b+B\\) with \\(Q<0\\).",
+      "answer": "The approximate lab threshold is\\n\\[\\nK_{\\mathrm{th}}=-Q\\left(1+\\frac{m_a}{m_A}\\right)\\n\\]\\nwhere \\(m_a\\) is projectile mass and \\(m_A\\) is target mass.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-10",
+      "prompt": "An endothermic reaction has \\(Q=-2.0\\,\\mathrm{MeV}\\), projectile mass \\(m_a=4u\\), and target mass \\(m_A=16u\\). Estimate threshold kinetic energy.",
+      "answer": "\\[\\nK_{\\mathrm{th}}=-Q\\left(1+\\frac{m_a}{m_A}\\right)=2.0\\left(1+\frac{4}{16}\\right)=2.5\\,\\mathrm{MeV}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-11",
+      "prompt": "Explain why atomic masses can often be used directly in Q-value calculations.",
+      "answer": "If the number of atomic electrons is the same on both sides, electron masses cancel. Atomic masses then give the same mass difference as nuclear masses, apart from small electron binding energies.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-12",
+      "prompt": "A reaction emits a gamma photon after forming an excited product. How does excitation energy affect kinetic energy of products?",
+      "answer": "Some Q-value energy is stored temporarily as nuclear excitation. Less energy appears immediately as kinetic energy. When the product emits a gamma photon, the excitation energy is carried away by the photon and recoil.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-13",
+      "prompt": "A two-body reaction at rest releases energy \\(Q\\). Which product gets more kinetic energy: the lighter or heavier product?",
+      "answer": "The lighter product gets more kinetic energy. Momentum magnitudes are equal and opposite, and \\(K=p^2/(2m)\\), so the smaller mass has the larger kinetic energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-14",
+      "prompt": "Derive the kinetic-energy split for a two-body decay at rest with product masses \\(m_1\\) and \\(m_2\\) and total kinetic energy \\(Q\\).",
+      "answer": "The products have equal momentum magnitude \\(p\\), so\\n\\[\\nK_1=\\frac{p^2}{2m_1},\\qquad K_2=\\frac{p^2}{2m_2}\\n\\]\\nThus \\(K_1/K_2=m_2/m_1\\) and \\(K_1+K_2=Q\\). Solving gives\\n\\[\\nK_1=Q\\frac{m_2}{m_1+m_2},\\qquad K_2=Q\\frac{m_1}{m_1+m_2}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-15",
+      "prompt": "Why must momentum conservation be considered even when a Q-value calculation only uses masses?",
+      "answer": "The Q-value gives the change in total kinetic, radiation, and excitation energy, but momentum conservation determines how that energy can be distributed among products. It can also create threshold energy requirements in lab-frame endothermic reactions.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-16",
+      "prompt": "A reaction is written with total \\(A\\) balanced but total \\(Z\\) not balanced. Can it be correct if a neutrino is added?",
+      "answer": "No. A neutrino has no electric charge and no baryon number, so it cannot fix a charge imbalance in \\(Z\\). Charge must balance through charged particles or different nuclei.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-17",
+      "prompt": "A nuclear reaction has \\(Q=0\\). Does that mean no kinetic energy changes are possible?",
+      "answer": "No. \\(Q=0\\) means rest mass is unchanged, so total kinetic energy is unchanged if no excitation or photons are involved. Individual kinetic energies can still change because momentum is redistributed among particles.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-18",
+      "prompt": "Why can a neutron induce reactions in nuclei at lower kinetic energies than a charged particle often can?",
+      "answer": "A neutron has no electric charge, so it does not face a Coulomb barrier when approaching the nucleus. Charged projectiles are repelled and often require higher kinetic energy or tunneling to get close.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-19",
+      "prompt": "Construct the missing particle in \\(^{27}_{13}\\mathrm{Al}+^{1}_{0}\\mathrm n\\to ^{24}_{11}\\mathrm{Na}+\\alpha+?\\).",
+      "answer": "Initial totals: \\(A=28\\), \\(Z=13\\). Known final products have \\(^{24}_{11}\\mathrm{Na}\\) and \\(\\alpha=^{4}_{2}\\mathrm{He}\\), giving \\(A=28\\), \\(Z=13\\). The missing particle must have \\(A=0\\), \\(Z=0\\). If energy is released by de-excitation, this can be a gamma photon \\(\\gamma\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-reactions-20",
+      "prompt": "Prove that for a reaction with no photon or excitation energy, \\(Q=K_f-K_i\\).",
+      "answer": "Total energy conservation gives\\n\\[\\nm_ic^2+K_i=m_fc^2+K_f\\n\\]\\nRearrange:\\n\\[\\n(m_i-m_f)c^2=K_f-K_i\\n\\]\\nThe left side is the Q-value, so\\n\\[\\nQ=K_f-K_i\\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

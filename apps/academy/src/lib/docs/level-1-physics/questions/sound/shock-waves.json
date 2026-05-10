@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "shock-waves",
+  "topicTitle": "Shock Waves",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-shock-01",
+      "prompt": "A source moves at \\(680\\,\\mathrm{m\\,s^{-1}}\\) where sound speed is \\(340\\,\\mathrm{m\\,s^{-1}}\\). Find the Mach number.",
+      "answer": "\\[\nM=\\frac{v_S}{v}=\\frac{680}{340}=2.0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-02",
+      "prompt": "A source has Mach number \\(2.0\\). Find the Mach cone half-angle.",
+      "answer": "\\[\n\\sin\\theta=\\frac{1}{M}=\\frac{1}{2}\n\\]\nso\n\\[\n\\theta=30^\\circ\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-03",
+      "prompt": "A source moves at \\(300\\,\\mathrm{m\\,s^{-1}}\\) where sound speed is \\(340\\,\\mathrm{m\\,s^{-1}}\\). Is it subsonic or supersonic?",
+      "answer": "\\[\nM=\\frac{300}{340}=0.88\n\\]\nSince \\(M\u003c1\\), the source is subsonic.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-04",
+      "prompt": "A source has Mach number \\(1.25\\). Is a shock cone expected in the simple model?",
+      "answer": "Yes. Since\n\\[\nM=1.25\u003e1\n\\]\nthe source is supersonic, so a shock cone is expected in the simple model.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-05",
+      "prompt": "An aircraft flies at Mach \\(3.0\\). Find the Mach cone half-angle.",
+      "answer": "\\[\n\\sin\\theta=\\frac{1}{3.0}\n\\]\n\\[\n\\theta=\\sin^{-1}(0.333)=19.5^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-06",
+      "prompt": "A shock cone half-angle is \\(30^\\circ\\). Find the Mach number.",
+      "answer": "\\[\nM=\\frac{1}{\\sin\\theta}=\\frac{1}{\\sin30^\\circ}=2.0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-07",
+      "prompt": "A source moves at Mach \\(1.5\\) in air where \\(v=340\\,\\mathrm{m\\,s^{-1}}\\). Find its speed.",
+      "answer": "\\[\nv_S=Mv=(1.5)(340)=510\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-08",
+      "prompt": "An aircraft flies at \\(510\\,\\mathrm{m\\,s^{-1}}\\) where \\(v=340\\,\\mathrm{m\\,s^{-1}}\\). Find its Mach number and Mach angle.",
+      "answer": "\\[\nM=\\frac{510}{340}=1.50\n\\]\n\\[\n\\sin\\theta=\\frac{1}{1.50}=0.667\n\\]\n\\[\n\\theta=41.8^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-09",
+      "prompt": "At a high altitude the sound speed is \\(295\\,\\mathrm{m\\,s^{-1}}\\). What speed corresponds to Mach \\(2.2\\)?",
+      "answer": "\\[\nv_S=Mv=(2.2)(295)=649\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-10",
+      "prompt": "A source has \\(M=1.01\\). Is the Mach angle close to \\(90^\\circ\\) or close to \\(0^\\circ\\)? Explain.",
+      "answer": "For \\(M=1.01\\),\n\\[\n\\sin\\theta=\\frac{1}{1.01}\\approx0.990\n\\]\nso \\(\\theta\\) is close to \\(90^\\circ\\). Just above Mach 1, the source barely outruns its wavefronts, producing a very wide cone.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-11",
+      "prompt": "A supersonic aircraft at altitude \\(2400\\,\\mathrm{m}\\) has Mach angle \\(45^\\circ\\). Estimate the horizontal distance behind the aircraft where the shock reaches the ground, assuming straight-line geometry.",
+      "answer": "The cone line makes angle \\(\\theta=45^\\circ\\) with the flight direction. With altitude \\(h\\), the horizontal distance behind the aircraft is\n\\[\nx=\\frac{h}{\\tan\\theta}\n\\]\nThus\n\\[\nx=\\frac{2400}{\\tan45^\\circ}=2400\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-12",
+      "prompt": "A source moving at \\(600\\,\\mathrm{m\\,s^{-1}}\\) creates a Mach angle of \\(34^\\circ\\). Estimate the sound speed in the medium.",
+      "answer": "From\n\\[\n\\sin\\theta=\\frac{v}{v_S}\n\\]\n\\[\nv=v_S\\sin\\theta=600\\sin34^\\circ=336\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-13",
+      "prompt": "Compare the Mach angles for \\(M=1.5\\) and \\(M=3.0\\). Which shock cone is narrower?",
+      "answer": "For \\(M=1.5\\),\n\\[\n\\theta_1=\\sin^{-1}\\left(\\frac{1}{1.5}\\right)=41.8^\\circ\n\\]\nFor \\(M=3.0\\),\n\\[\n\\theta_2=\\sin^{-1}\\left(\\frac{1}{3.0}\\right)=19.5^\\circ\n\\]\nThe \\(M=3.0\\) cone is narrower.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-14",
+      "prompt": "A source travels \\(900\\,\\mathrm{m}\\) in the same time that one emitted wavefront expands \\(300\\,\\mathrm{m}\\). Find the Mach number and cone angle.",
+      "answer": "The Mach number is the source distance divided by wavefront radius over the same time:\n\\[\nM=\\frac{900}{300}=3.0\n\\]\nThen\n\\[\n\\theta=\\sin^{-1}\\left(\\frac{1}{3}\\right)=19.5^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-15",
+      "prompt": "Derive \\(\\sin\\theta=1/M\\) using the distance traveled by the source and the radius of a sound wavefront after time \\(t\\).",
+      "answer": "After time \\(t\\), an emitted sound wavefront has radius\n\\[\nR=vt\n\\]\nThe source has moved\n\\[\nd=v_St\n\\]\nThe Mach cone geometry gives\n\\[\n\\sin\\theta=\\frac{R}{d}=\\frac{vt}{v_St}=\\frac{v}{v_S}\n\\]\nSince \\(M=v_S/v\\),\n\\[\n\\sin\\theta=\\frac{1}{M}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-16",
+      "prompt": "Show that no real Mach cone angle exists for \\(M\u003c1\\), and interpret the mathematical result physically.",
+      "answer": "The Mach relation is\n\\[\n\\sin\\theta=\\frac{1}{M}\n\\]\nIf \\(M\u003c1\\), then \\(1/M\u003e1\\), but no real angle has sine greater than \\(1\\). Physically, a subsonic source does not outrun its emitted wavefronts, so the wavefronts do not pile up into a cone.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-17",
+      "prompt": "An aircraft moves horizontally at speed \\(v_S\\) at altitude \\(h\\), with Mach angle \\(\\theta\\). Derive the time delay between the aircraft passing overhead and the sonic boom reaching an observer directly below the path.",
+      "answer": "The shock line reaches the ground a horizontal distance\n\\[\nx=\\frac{h}{\\tan\\theta}\n\\]\nbehind the aircraft. The aircraft takes time\n\\[\n\\Delta t=\\frac{x}{v_S}\n\\]\nto move from overhead to the position where the shock line passes through the observer. Thus\n\\[\n\\Delta t=\\frac{h}{v_S\\tan\\theta}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-18",
+      "prompt": "A source accelerates from subsonic to supersonic motion. Explain what changes in the wavefront geometry as it crosses \\(M=1\\), and why the ordinary subsonic Doppler formula stops describing sound ahead of the source.",
+      "answer": "Below Mach 1, each emitted wavefront expands faster than the source moves, so wavefronts exist ahead of the source and the ordinary Doppler description can assign a finite compressed wavelength ahead. At Mach 1, the source keeps up with wavefronts ahead. Above Mach 1, the source outruns them; wavefronts overlap along a cone and there is no regular train of sound ahead of the source described by the subsonic Doppler formula.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-19",
+      "prompt": "A Mach cone half-angle is measured as \\(\\theta\\) with uncertainty small enough to ignore. Derive \\(v_S\\) in terms of \\(\\theta\\) and sound speed \\(v\\), then determine how \\(v_S\\) changes as \\(\\theta\\) decreases.",
+      "answer": "From\n\\[\n\\sin\\theta=\\frac{v}{v_S}\n\\]\nwe get\n\\[\nv_S=\\frac{v}{\\sin\\theta}\n\\]\nAs \\(\\theta\\) decreases, \\(\\sin\\theta\\) decreases, so \\(v_S\\) increases. A narrower Mach cone corresponds to a faster source.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-shock-20",
+      "prompt": "Two supersonic sources move through the same medium with Mach numbers \\(M_1\\) and \\(M_2=2M_1\\). Derive the relationship between their Mach angles and explain why the angle does not halve in general.",
+      "answer": "The angles satisfy\n\\[\n\\sin\\theta_1=\\frac{1}{M_1}\n\\]\nand\n\\[\n\\sin\\theta_2=\\frac{1}{M_2}=\\frac{1}{2M_1}\n\\]\nTherefore\n\\[\n\\sin\\theta_2=\\frac{1}{2}\\sin\\theta_1\n\\]\nThe sine of the angle halves, not the angle itself. Since sine is nonlinear, \\(\\theta_2\\ne\\theta_1/2\\) in general.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

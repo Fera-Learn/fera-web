@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "uncertainty-revisited",
+  "topicTitle": "Uncertainty Revisited",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-uncertainty-01",
+      "prompt": "State the position-momentum uncertainty relation.",
+      "answer": "\\[\n\\Delta x\\Delta p\\ge\\frac{\\hbar}{2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-02",
+      "prompt": "What does \\(\\Delta x\\) represent in the uncertainty relation?",
+      "answer": "\\(\\Delta x\\) represents the uncertainty or spread in position.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-03",
+      "prompt": "What happens to minimum momentum uncertainty when a particle is localized more tightly?",
+      "answer": "The minimum momentum uncertainty increases because \\(\\Delta p\\ge\\hbar/(2\\Delta x)\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-04",
+      "prompt": "An electron is localized to \\(1.00\\times10^{-10}\\,\\mathrm m\\). Estimate the minimum \\(\\Delta p\\).",
+      "answer": "\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}=\\frac{1.05\\times10^{-34}}{2(1.00\\times10^{-10})}=5.25\\times10^{-25}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-05",
+      "prompt": "If \\(\\Delta x\\) is halved, what happens to the minimum \\(\\Delta p\\)?",
+      "answer": "The minimum \\(\\Delta p\\) doubles because \\(\\Delta p_{\\min}=\\hbar/(2\\Delta x)\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-06",
+      "prompt": "State a common approximate energy-time uncertainty relation.",
+      "answer": "\\[\n\\Delta E\\Delta t\\gtrsim\\frac{\\hbar}{2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-07",
+      "prompt": "A state has lifetime \\(1.0\\,\\mathrm{ns}\\). Estimate its minimum energy width.",
+      "answer": "\\[\n\\Delta E\\gtrsim\\frac{\\hbar}{2\\Delta t}=\\frac{1.05\\times10^{-34}}{2(1.0\\times10^{-9})}=5.3\\times10^{-26}\\,\\mathrm J\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-08",
+      "prompt": "Convert \\(5.3\\times10^{-26}\\,\\mathrm J\\) to electronvolts.",
+      "answer": "\\[\n\\Delta E=\\frac{5.3\\times10^{-26}}{1.60\\times10^{-19}}=3.3\\times10^{-7}\\,\\mathrm{eV}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-09",
+      "prompt": "Why is uncertainty not just poor measurement technique?",
+      "answer": "It follows from the wave nature of quantum states. A localized wave packet requires a spread of wavelengths and momenta, even for an ideal measurement.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-10",
+      "prompt": "Estimate the kinetic-energy scale for an electron confined to \\(0.100\\,\\mathrm{nm}\\) using \\(\\Delta p=5.25\\times10^{-25}\\,\\mathrm{kg\\,m\\,s^{-1}}\\).",
+      "answer": "\\[\nK\\sim\\frac{(\\Delta p)^2}{2m_e}=\\frac{(5.25\\times10^{-25})^2}{2(9.11\\times10^{-31})}=1.51\\times10^{-19}\\,\\mathrm J\n\\]\nThis is about \\(0.94\\,\\mathrm{eV}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-11",
+      "prompt": "Derive \\(\\Delta p\\ge\\hbar/(2\\Delta x)\\) from the uncertainty relation.",
+      "answer": "Start with\n\\[\n\\Delta x\\Delta p\\ge\\frac{\\hbar}{2}\n\\]\nDivide by \\(\\Delta x>0\\):\n\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-12",
+      "prompt": "Why does confinement raise the ground-state energy of a particle?",
+      "answer": "Confinement makes \\(\\Delta x\\) small, forcing a nonzero momentum spread. That momentum spread gives a kinetic-energy scale, so the lowest allowed energy cannot be zero.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-13",
+      "prompt": "A particle is confined to a region twice as wide. How does the uncertainty-based confinement energy scale change?",
+      "answer": "Using \\(K\\sim\\hbar^2/(2mL^2)\\), doubling \\(L\\) reduces the energy scale by a factor of \\(4\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-14",
+      "prompt": "Compare uncertainty effects for an electron and proton confined to the same length.",
+      "answer": "The momentum uncertainty scale is the same for the same \\(\\Delta x\\), but the kinetic-energy scale is \\((\\Delta p)^2/(2m)\\). The heavier proton has a smaller confinement energy.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-15",
+      "prompt": "Why does a shorter excited-state lifetime imply a broader spectral line?",
+      "answer": "Energy-time uncertainty gives \\(\\Delta E\\gtrsim\\hbar/(2\\Delta t)\\). A shorter lifetime means smaller \\(\\Delta t\\), so the energy width \\(\\Delta E\\) is larger.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-16",
+      "prompt": "Derive the confinement energy scale \\(K\\sim\\hbar^2/(2mL^2)\\).",
+      "answer": "For confinement length \\(L\\), estimate\n\\[\n\\Delta p\\sim\\frac{\\hbar}{L}\n\\]\nThe kinetic-energy scale is\n\\[\nK\\sim\\frac{(\\Delta p)^2}{2m}\n\\]\nSubstitute:\n\\[\nK\\sim\\frac{\\hbar^2}{2mL^2}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-17",
+      "prompt": "Explain why an electron cannot be exactly at rest inside a finite atom.",
+      "answer": "Being inside a finite atom means \\(\\Delta x\\) is finite. The uncertainty relation then requires nonzero \\(\\Delta p\\). An exactly at-rest electron would have zero momentum spread, which would require infinite position uncertainty.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-18",
+      "prompt": "How does uncertainty help explain why atoms have finite size?",
+      "answer": "Compressing an electron into a smaller region lowers electric potential energy but raises kinetic energy through increased momentum uncertainty. Atomic size reflects a balance between Coulomb attraction and confinement energy.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-19",
+      "prompt": "Why is energy-time uncertainty interpreted differently from position-momentum uncertainty?",
+      "answer": "Position and momentum are observables with operator uncertainty in a state. Time is usually a parameter in nonrelativistic quantum mechanics. Energy-time uncertainty is often used to relate finite lifetimes or measurement durations to energy widths.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-uncertainty-20",
+      "prompt": "Connect de Broglie waves and uncertainty in one explanation.",
+      "answer": "A definite momentum corresponds to a single de Broglie wavelength spread over all space, so position is poorly localized. To localize a particle, many wavelengths must be superposed into a wave packet. That superposition creates a spread in momentum, giving \\(\\Delta x\\Delta p\\ge\\hbar/2\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

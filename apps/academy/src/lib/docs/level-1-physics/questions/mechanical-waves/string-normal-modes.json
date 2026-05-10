@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "string-normal-modes",
+  "topicTitle": "String Normal Modes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "string-modes-01",
+      "prompt": "A string has length \\(0.90\\,\\mathrm{m}\\). Find the wavelength of its fundamental mode.",
+      "answer": "For the fundamental,\n\\[\n\\lambda_1=2L=2(0.90)=1.8\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-02",
+      "prompt": "If the fundamental frequency of a string is \\(110\\,\\mathrm{Hz}\\), what is the second-harmonic frequency?",
+      "answer": "The second harmonic is\n\\[\nf_2=2f_1=2(110)=220\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-03",
+      "prompt": "A string supports waves at \\(150\\,\\mathrm{m\\,s^{-1}}\\) and has length \\(0.75\\,\\mathrm{m}\\). Find the third-harmonic frequency.",
+      "answer": "\\[\nf_3=\\frac{3v_w}{2L}=\\frac{3(150)}{2(0.75)}=300\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-04",
+      "prompt": "How many interior nodes does the \\(n=5\\) mode of a string fixed at both ends have?",
+      "answer": "Mode \\(n\\) has \\(n-1\\) interior nodes, so the \\(n=5\\) mode has\n\\[\n5-1=4\n\\]\ninterior nodes.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-05",
+      "prompt": "A string has \\(f_1=80\\,\\mathrm{Hz}\\). A standing wave is observed at \\(320\\,\\mathrm{Hz}\\). What mode number is this?",
+      "answer": "Use\n\\[\nf_n=nf_1\n\\]\nso\n\\[\nn=\\frac{f_n}{f_1}=\\frac{320}{80}=4\n\\]\nIt is the fourth mode.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-06",
+      "prompt": "Two strings carry waves at the same speed. String B is twice as long as string A. Compare their fundamental frequencies.",
+      "answer": "The fundamental is\n\\[\nf_1=\\frac{v_w}{2L}\n\\]\nIf string B has twice the length, then\n\\[\nf_{1,B}=\\frac{v_w}{2(2L_A)}=\\frac{1}{2}\\frac{v_w}{2L_A}=\\frac{f_{1,A}}{2}\n\\]\nSo string B has half the fundamental frequency of string A.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-07",
+      "prompt": "String A has length \\(L\\) and string B has length \\(2L\\). The wave speed is the same in both strings. Find a pair of nonzero mode numbers \\((n_A,n_B)\\) for which the two strings can share the same normal-mode frequency.",
+      "answer": "Equal frequencies require\n\\[\n\\frac{n_Av}{2L}=\\frac{n_Bv}{2(2L)}\n\\]\nCancel \\(v\\) and simplify:\n\\[\n\\frac{n_A}{L}=\\frac{n_B}{2L}\n\\quad\\Rightarrow\\quad\nn_B=2n_A\n\\]\nOne simple nonzero pair is\n\\[\n(n_A,n_B)=(1,2)\n\\]\nMore generally, any pair with \\(n_B=2n_A\\) works.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "string-modes-08",
+      "prompt": "Two strings have lengths \\(L_A\\) and \\(L_B\\) and wave speeds \\(v_A\\) and \\(v_B\\). Derive the condition relating mode numbers \\(n_A\\) and \\(n_B\\) for the two strings to have equal normal-mode frequencies.",
+      "answer": "The normal-mode frequencies are\n\\[\nf_{n_A}=\\frac{n_Av_A}{2L_A},\n\\qquad\nf_{n_B}=\\frac{n_Bv_B}{2L_B}\n\\]\nFor them to be equal,\n\\[\n\\frac{n_Av_A}{2L_A}=\\frac{n_Bv_B}{2L_B}\n\\]\nso the condition is\n\\[\n\\frac{n_Av_A}{L_A}=\\frac{n_Bv_B}{L_B}\n\\]\nor equivalently\n\\[\nn_Av_AL_B=n_Bv_BL_A\n\\]\nThat is the required relation between the two mode numbers.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

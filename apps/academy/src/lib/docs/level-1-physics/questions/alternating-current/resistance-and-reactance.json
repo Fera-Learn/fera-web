@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "resistance-and-reactance",
+  "topicTitle": "Resistance and Reactance",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ac-reactance-01",
+      "prompt": "In an AC resistor, what is the phase relationship between voltage and current?",
+      "answer": "For a resistor, voltage and current are in phase.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-02",
+      "prompt": "State the capacitive reactance and inductive reactance formulas.",
+      "answer": "The reactances are\n\\[\nX_C=\\frac{1}{\\omega C}\n\\]\nand\n\\[\nX_L=\\omega L\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-03",
+      "prompt": "Which component has reactance that increases with frequency: a capacitor or an inductor?",
+      "answer": "An inductor has reactance that increases with frequency because\n\\[\nX_L=\\omega L\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-04",
+      "prompt": "Find \\(X_L\\) for \\(L=0.25\\,\\mathrm H\\) at \\(f=60\\,\\mathrm{Hz}\\).",
+      "answer": "\\[\n\\omega=2\\pi f=377\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nX_L=\\omega L=(377)(0.25)=94\\,\\Omega\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-05",
+      "prompt": "Find \\(X_C\\) for \\(C=10\\,\\mu\\mathrm F\\) at \\(f=50\\,\\mathrm{Hz}\\).",
+      "answer": "\\[\n\\omega=2\\pi f=314\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nX_C=\\frac{1}{\\omega C}=\\frac{1}{(314)(10\\times10^{-6})}=318\\,\\Omega\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-06",
+      "prompt": "A capacitor has \\(X_C=200\\,\\Omega\\) when driven by \\(120\\,\\mathrm V\\) rms. Find the rms current.",
+      "answer": "For a capacitor in rms form,\n\\[\nV_C=I X_C\n\\]\nso\n\\[\nI=\\frac{V_C}{X_C}=\\frac{120}{200}=0.60\\,\\mathrm A\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-07",
+      "prompt": "For a capacitor, does current lead or lag voltage, and by what angle in the ideal case?",
+      "answer": "For an ideal capacitor, current leads voltage by \\(90^\\circ\\). Equivalently, capacitor voltage lags current by \\(90^\\circ\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-08",
+      "prompt": "For an inductor, does current lead or lag voltage, and by what angle in the ideal case?",
+      "answer": "For an ideal inductor, current lags voltage by \\(90^\\circ\\). Equivalently, inductor voltage leads current by \\(90^\\circ\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-09",
+      "prompt": "A capacitor has \\(X_C=150\\,\\Omega\\) at \\(100\\,\\mathrm{Hz}\\). What is its reactance at \\(200\\,\\mathrm{Hz}\\)?",
+      "answer": "For a fixed capacitor,\n\\[\nX_C\\propto\\frac{1}{f}\n\\]\nDoubling frequency halves the reactance:\n\\[\nX_C'=75\\,\\Omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-reactance-10",
+      "prompt": "An inductor and capacitor have equal reactance at angular frequency \\(\\omega_0\\). Derive \\(\\omega_0\\) in terms of \\(L\\) and \\(C\\).",
+      "answer": "Set the reactances equal:\n\\[\nX_L=X_C\n\\]\n\\[\n\\omega_0L=\\frac{1}{\\omega_0C}\n\\]\nMultiply by \\(\\omega_0C\\):\n\\[\n\\omega_0^2LC=1\n\\]\nTherefore\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

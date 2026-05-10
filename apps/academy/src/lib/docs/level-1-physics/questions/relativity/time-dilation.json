@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "time-dilation",
+  "topicTitle": "Time Dilation",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-time-dilation-01",
+      "prompt": "What is proper time?",
+      "answer": "Proper time is the time interval between two events measured in the frame where the events occur at the same place.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-02",
+      "prompt": "State the time dilation formula.",
+      "answer": "\\[\n\\Delta t=\\gamma\\Delta\\tau\n\\]\nwhere \\(\\Delta\\tau\\) is the proper time.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-03",
+      "prompt": "Which interval is shorter: proper time \\(\\Delta\\tau\\) or dilated time \\(\\Delta t\\)?",
+      "answer": "Proper time is shorter or equal. Since \\(\\Delta t=\\gamma\\Delta\\tau\\) and \\(\\gamma\\ge1\\), \\(\\Delta t\\ge\\Delta\\tau\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-04",
+      "prompt": "A moving clock has proper tick interval \\(2.00\\,\\mathrm{ns}\\). If \\(\\gamma=3.00\\), what interval is measured in the lab?",
+      "answer": "\\[\n\\Delta t=\\gamma\\Delta\\tau=(3.00)(2.00\\,\\mathrm{ns})=6.00\\,\\mathrm{ns}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-05",
+      "prompt": "A particle moves at \\(0.800c\\). Find \\(\\gamma\\).",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.800^2}}=1.67\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-06",
+      "prompt": "A spacecraft clock measures \\(10.0\\,\\mathrm s\\) between two events on board. The spacecraft moves with \\(\\gamma=1.25\\) relative to Earth. What time interval does Earth measure?",
+      "answer": "The events occur at the same place in the spacecraft frame, so \\(10.0\\,\\mathrm s\\) is the proper time:\n\\[\n\\Delta t=\\gamma\\Delta\\tau=(1.25)(10.0)=12.5\\,\\mathrm s\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-07",
+      "prompt": "A muon has proper lifetime \\(2.20\\,\\mu\\mathrm s\\) and moves with \\(\\gamma=10.0\\). Find its mean lifetime in the laboratory.",
+      "answer": "\\[\n\\Delta t=\\gamma\\Delta\\tau=(10.0)(2.20\\,\\mu\\mathrm s)=22.0\\,\\mu\\mathrm s\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-08",
+      "prompt": "A clock moving at \\(0.600c\\) measures \\(4.00\\,\\mathrm s\\). Find the interval measured by a stationary lab observer.",
+      "answer": "For \\(0.600c\\), \\(\\gamma=1.25\\). Thus\n\\[\n\\Delta t=\\gamma\\Delta\\tau=(1.25)(4.00)=5.00\\,\\mathrm s\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-09",
+      "prompt": "A lab measures a moving particle lifetime of \\(8.00\\,\\mu\\mathrm s\\). If \\(\\gamma=4.00\\), find the proper lifetime.",
+      "answer": "\\[\n\\Delta\\tau=\\frac{\\Delta t}{\\gamma}=\\frac{8.00\\,\\mu\\mathrm s}{4.00}=2.00\\,\\mu\\mathrm s\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-10",
+      "prompt": "A muon moves at \\(0.995c\\) and has proper lifetime \\(2.20\\,\\mu\\mathrm s\\). Estimate the distance it travels in the lab during one mean lifetime.",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.995^2}}=10.0\n\\]\n\\[\n\\Delta t=\\gamma\\Delta\\tau=22.0\\,\\mu\\mathrm s\n\\]\n\\[\nd=v\\Delta t=(0.995)(3.00\\times10^8)(22.0\\times10^{-6})=6.57\\times10^3\\,\\mathrm m\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-11",
+      "prompt": "At what speed does a moving clock run slow by a factor of \\(2.00\\) compared with the lab?",
+      "answer": "Running slow by a factor of \\(2.00\\) means \\(\\gamma=2.00\\):\n\\[\n2.00=\\frac{1}{\\sqrt{1-\\beta^2}}\n\\]\n\\[\n\\beta=0.866\n\\]\nSo \\(v=0.866c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-12",
+      "prompt": "An astronaut ages \\(3.00\\) years during a trip. Earth measures \\(5.00\\) years for the same departure-arrival events. Find \\(\\gamma\\) and the ship speed.",
+      "answer": "\\[\n\\gamma=\\frac{\\Delta t}{\\Delta\\tau}=\\frac{5.00}{3.00}=1.67\n\\]\nThen\n\\[\n\\beta=\\sqrt{1-\\frac{1}{\\gamma^2}}=\\sqrt{1-\\frac{1}{1.67^2}}=0.800\n\\]\nSo \\(v=0.800c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-13",
+      "prompt": "A particle travels \\(1.50\\,\\mathrm{km}\\) in the lab at \\(0.900c\\). Find the proper time elapsed on the particle.",
+      "answer": "The lab time is\n\\[\n\\Delta t=\\frac{1500}{0.900(3.00\\times10^8)}=5.56\\,\\mu\\mathrm s\n\\]\nFor \\(0.900c\\), \\(\\gamma=2.29\\). Thus\n\\[\n\\Delta\\tau=\\frac{\\Delta t}{\\gamma}=\\frac{5.56}{2.29}=2.43\\,\\mu\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-14",
+      "prompt": "Why is the proper time between two ticks of a moving clock measured in the clock's own frame?",
+      "answer": "The two tick events occur at the same place in the clock's rest frame: at the clock. Proper time is defined as the interval measured by a single clock present at both events.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-15",
+      "prompt": "A clock's moving-frame interval is \\(12.0\\,\\mathrm{ns}\\), and its proper interval is \\(5.00\\,\\mathrm{ns}\\). Is this possible? If so, find the speed.",
+      "answer": "\\[\n\\gamma=\\frac{12.0}{5.00}=2.40\n\\]\nThis is possible because \\(\\gamma>1\\). Then\n\\[\n\\beta=\\sqrt{1-\\frac{1}{2.40^2}}=0.909\n\\]\nso \\(v=0.909c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-16",
+      "prompt": "Derive time dilation from the Lorentz time transformation for two events at the same place in \\(S'\\).",
+      "answer": "Use the inverse time transformation:\n\\[\n\\Delta t=\\gamma\\left(\\Delta t'+\\frac{v\\Delta x'}{c^2}\\right)\n\\]\nFor events at the same place in \\(S'\\), \\(\\Delta x'=0\\). The proper time is \\(\\Delta\\tau=\\Delta t'\\), so\n\\[\n\\Delta t=\\gamma\\Delta\\tau\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-17",
+      "prompt": "A student uses \\(\\Delta t=\\Delta\\tau/\\gamma\\) and gets a lab lifetime smaller than the particle lifetime. Identify the error.",
+      "answer": "The student inverted the time dilation relation. If the particle lifetime is the proper time, the lab measures\n\\[\n\\Delta t=\\gamma\\Delta\\tau\n\\]\nwhich is larger. The proper time is the shortest interval.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-18",
+      "prompt": "Explain how muons produced high in the atmosphere can reach Earth's surface using time dilation.",
+      "answer": "In the muon rest frame, the lifetime is short. In Earth's frame, the moving muon's lifetime is increased by \\(\\gamma\\), so it travels a much larger distance before decaying. The effect is not that the muon exceeds \\(c\\), but that the lab-frame lifetime is longer.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-19",
+      "prompt": "Why is it incomplete to say simply \"moving clocks run slow\" without naming a frame?",
+      "answer": "Motion is relative. Each inertial observer can describe the other's clock as moving and time-dilated. A precise statement must identify the two events, the proper-time frame, and the frame in which the longer interval is measured.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-time-dilation-20",
+      "prompt": "Show that time dilation disappears in the Newtonian limit.",
+      "answer": "For \\(v\\ll c\\), \\(\\beta\\ll1\\) and\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-\beta^2}}\\approx1+\\frac12\\beta^2\\approx1\n\\]\nTherefore\n\\[\n\\Delta t=\\gamma\\Delta\\tau\\approx\\Delta\\tau\n\\]\nso all inertial frames nearly agree on the time interval.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

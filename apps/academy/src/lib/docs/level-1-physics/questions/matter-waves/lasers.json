@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "lasers",
+  "topicTitle": "Lasers",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-lasers-01",
+      "prompt": "What does laser light amplification rely on?",
+      "answer": "It relies on stimulated emission in a gain medium with a population inversion.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-02",
+      "prompt": "What is stimulated emission?",
+      "answer": "Stimulated emission occurs when an incoming photon triggers an excited atom or molecule to emit a second photon matching the first.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-03",
+      "prompt": "What does population inversion mean?",
+      "answer": "Population inversion means more particles occupy the upper laser level than the lower laser level: \\(N_2>N_1\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-04",
+      "prompt": "A laser transition has energy gap \\(2.00\\,\\mathrm{eV}\\). Find the photon frequency.",
+      "answer": "Convert energy:\n\\[\nE=2.00(1.60\\times10^{-19})=3.20\\times10^{-19}\\,\\mathrm J\n\\]\nThen\n\\[\nf=\\frac{E}{h}=\\frac{3.20\\times10^{-19}}{6.63\\times10^{-34}}=4.83\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-05",
+      "prompt": "A laser has wavelength \\(633\\,\\mathrm{nm}\\). Find the photon energy in electronvolts using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\nE=\\frac{1240}{633}=1.96\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-06",
+      "prompt": "Name two properties that make laser light different from ordinary lamp light.",
+      "answer": "Laser light is highly coherent and highly directional. It is also often nearly monochromatic.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-07",
+      "prompt": "Why is a population inversion necessary for laser gain?",
+      "answer": "If more particles are in the lower level, absorption dominates. With \\(N_2>N_1\\), stimulated emission can exceed absorption, so light is amplified.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-08",
+      "prompt": "What is the role of an optical cavity in a laser?",
+      "answer": "The cavity reflects light back through the gain medium, reinforcing selected modes and directions. One mirror is partially transmitting so some amplified light exits as the beam.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-09",
+      "prompt": "A cavity of length \\(0.300\\,\\mathrm m\\) supports standing waves with \\(2L=m\\lambda\\). If \\(\\lambda=600\\,\\mathrm{nm}\\), find \\(m\\).",
+      "answer": "\\[\nm=\\frac{2L}{\\lambda}=\\frac{0.600}{600\\times10^{-9}}=1.00\\times10^6\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-10",
+      "prompt": "A transition energy is \\(1.55\\,\\mathrm{eV}\\). Find the laser wavelength.",
+      "answer": "\\[\n\\lambda=\\frac{hc}{E}=\\frac{1240\\,\\mathrm{eV\\,nm}}{1.55\\,\\mathrm{eV}}=800\\,\\mathrm{nm}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-11",
+      "prompt": "Why does stimulated emission produce coherent light?",
+      "answer": "The emitted photon has the same frequency, phase, direction, and polarization as the stimulating photon. Repeated stimulated emissions therefore build a phase-related beam.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-12",
+      "prompt": "Why is pumping required in a laser?",
+      "answer": "Thermal equilibrium normally places more particles in lower energy states. Pumping supplies energy to move particles into excited states and maintain population inversion.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-13",
+      "prompt": "A laser output power is \\(2.00\\,\\mathrm{mW}\\) at \\(500\\,\\mathrm{nm}\\). Estimate photons emitted per second.",
+      "answer": "Photon energy is\n\\[\nE=\\frac{hc}{\\lambda}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{500\\times10^{-9}}=3.98\\times10^{-19}\\,\\mathrm J\n\\]\nPhoton rate:\n\\[\nN/t=\\frac{P}{E}=\\frac{2.00\\times10^{-3}}{3.98\\times10^{-19}}=5.03\\times10^{15}\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-14",
+      "prompt": "Why is a true two-level laser difficult to operate continuously?",
+      "answer": "The same light that pumps atoms upward also stimulates downward transitions and absorption competes strongly. It is difficult to make the upper population exceed the lower population in a true two-level system.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-15",
+      "prompt": "How does a metastable state help laser action?",
+      "answer": "A metastable state has a relatively long lifetime, so excited particles can accumulate there. That makes it easier to create and maintain population inversion.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-16",
+      "prompt": "Derive the laser wavelength from the upper and lower laser-level energies.",
+      "answer": "A stimulated photon carries the transition energy:\n\\[\nE_\\gamma=E_2-E_1\n\\]\nFor a photon,\n\\[\nE_\\gamma=hf=\\frac{hc}{\\lambda}\n\\]\nTherefore\n\\[\n\\lambda=\\frac{hc}{E_2-E_1}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-17",
+      "prompt": "Explain why laser amplification does not violate energy conservation.",
+      "answer": "The extra light energy comes from stored excitation energy in the gain medium, supplied by the pump. Stimulated emission transfers that stored energy into the radiation field.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-18",
+      "prompt": "A cavity supports modes satisfying \\(2L=m\\lambda\\). Derive the spacing between adjacent mode frequencies.",
+      "answer": "Since \\(\\lambda_m=2L/m\\), the frequency is\n\\[\nf_m=\\frac{c}{\\lambda_m}=\\frac{mc}{2L}\n\\]\nAdjacent modes differ by\n\\[\n\\Delta f=f_{m+1}-f_m=\\frac{c}{2L}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-19",
+      "prompt": "Why does a laser beam have small divergence compared with an ordinary source?",
+      "answer": "The cavity selects waves traveling nearly along its axis, and stimulated emission adds photons into already-occupied modes. This reinforces a narrow range of directions rather than emitting equally in all directions.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-lasers-20",
+      "prompt": "Connect stimulated emission, inversion, and cavity feedback in one laser threshold explanation.",
+      "answer": "Population inversion makes stimulated emission exceed absorption in the gain medium. Cavity feedback sends photons repeatedly through that medium, multiplying the stimulated-emission process. Laser threshold is reached when round-trip gain balances or exceeds round-trip losses.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

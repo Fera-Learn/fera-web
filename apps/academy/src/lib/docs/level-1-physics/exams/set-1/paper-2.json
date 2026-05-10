@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-1",
+  "paperId": "paper-2",
+  "paperTags": ["paper-2"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    },
+    {
+      "label": "Speed of light",
+      "value": "c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+    },
+    {
+      "label": "Elementary charge",
+      "value": "e=1.60\\times10^{-19}\\,\\mathrm{C}"
+    },
+    {
+      "label": "Electron mass",
+      "value": "m_e=9.11\\times10^{-31}\\,\\mathrm{kg}"
+    },
+    {
+      "label": "Planck constant",
+      "value": "h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}"
+    },
+    {
+      "label": "Permittivity of free space",
+      "value": "\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}"
+    },
+    {
+      "label": "Magnetic constant",
+      "value": "\\mu_0=1.26\\times10^{-6}\\,\\mathrm{N\\,A^{-2}}"
+    },
+    {
+      "label": "Boltzmann constant",
+      "value": "k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}"
+    }
+  ],
+  "description": "Electromagnetism, relativity, and quantum mechanics.",
+  "id": "paper-2",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 2",
+  "questions": [
+    {
+      "id": "ap-p2-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Electromagnetism",
+      "stem": "A guarded parallel-plate sensor has plate area \\(A=4.00\\times10^{-4}\\,\\mathrm{m^2}\\) and separation \\(d=1.50\\,\\mathrm{mm}\\). The guard ring makes edge effects negligible, so the field between the active plates may be treated as uniform. The sensor is first connected to a \\(120\\,\\mathrm{V}\\) supply in air.",
+      "title": "Guarded parallel-plate sensor",
+      "parts": [
+        {
+          "answer": "For guarded parallel plates, the field is uniform away from the edges. Its magnitude is\n\\[\nE=\\frac{V}{d}.\n\\]\nThus\n\\[\nE=\\frac{120}{1.50\\times10^{-3}}\n=8.00\\times10^4\\,\\mathrm{V\\,m^{-1}}.\n\\]\nThe field points from the positive plate toward the negative plate. If the upper plate is positive, the field is downward across the gap.",
+          "id": "ap-p2-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the electric field magnitude between the plates and state its direction."
+        },
+        {
+          "answer": "The air capacitance is\n\\[\nC_0=\\epsilon_0\\frac{A}{d}.\n\\]\nSubstitute the data:\n\\[\nC_0=(8.85\\times10^{-12})\\frac{4.00\\times10^{-4}}{1.50\\times10^{-3}}\n=2.36\\times10^{-12}\\,\\mathrm{F}.\n\\]\nThe free charge on either plate is\n\\[\nQ_0=C_0V=(2.36\\times10^{-12})(120)\n=2.83\\times10^{-10}\\,\\mathrm{C}.\n\\]",
+          "id": "ap-p2-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Calculate the capacitance in air and the magnitude of the charge on either active plate."
+        },
+        {
+          "answer": "The stored electrostatic energy may be written as\n\\[\nU_0=\\frac12C_0V^2.\n\\]\nTherefore\n\\[\nU_0=\\frac12(2.36\\times10^{-12})(120)^2\n=1.70\\times10^{-8}\\,\\mathrm{J}.\n\\]\nEquivalently, using the field energy density,\n\\[\nU_0=\\frac12\\epsilon_0E^2Ad,\n\\]\nwhich gives the same value because \\(C_0=\\epsilon_0A/d\\) and \\(V=Ed\\).",
+          "id": "ap-p2-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the stored energy in the air-filled sensor."
+        },
+        {
+          "answer": "A dielectric completely filling the gap changes the capacitance to\n\\[\nC=\\kappa C_0=3.20(2.36\\times10^{-12})\n=7.55\\times10^{-12}\\,\\mathrm{F}.\n\\]\nIf the supply remains connected, the voltage stays at \\(120\\,\\mathrm{V}\\), so\n\\[\nQ=CV=9.06\\times10^{-10}\\,\\mathrm{C}\n\\]\nand\n\\[\nU=\\frac12CV^2=3.20U_0=5.44\\times10^{-8}\\,\\mathrm{J}.\n\\]\nThe energy stored in the field increases because the supply does work while adding extra charge to the plates.\n\nIf the sensor is disconnected before insertion, the charge remains \\(Q_0\\). Then\n\\[\nV'=\\frac{Q_0}{C}=\\frac{V_0}{\\kappa}=37.5\\,\\mathrm{V}\n\\]\nand\n\\[\nE'=\\frac{E_0}{\\kappa}=2.50\\times10^4\\,\\mathrm{V\\,m^{-1}}.\n\\]\nThe energy becomes\n\\[\nU'=\\frac{Q_0^2}{2C}=\\frac{U_0}{\\kappa}\n=5.31\\times10^{-9}\\,\\mathrm{J}.\n\\]\nWith fixed charge, the dielectric reduces the field and the stored energy.",
+          "id": "ap-p2-q1-d",
+          "label": "(d)",
+          "marks": 5,
+          "prompt": "A dielectric slab with relative permittivity \\(\\kappa=3.20\\) is inserted so that it completely fills the gap. Compare the new charge, field, voltage, and stored energy for the cases where the sensor remains connected to the supply and where it is first isolated."
+        }
+      ]
+    },
+    {
+      "id": "ap-p2-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Electromagnetism",
+      "stem": "A conducting rod of length \\(\\ell=0.250\\,\\mathrm{m}\\) slides without friction on two horizontal rails. The rails are joined at the left by a resistor of resistance \\(R=0.800\\,\\Omega\\). The rod moves to the right at constant speed \\(v=4.00\\,\\mathrm{m\\,s^{-1}}\\). A uniform magnetic field of magnitude \\(B=0.600\\,\\mathrm{T}\\) is directed into the page in the region occupied by the rod; outside that region the field is negligible.",
+      "title": "Motional emf and magnetic braking",
+      "parts": [
+        {
+          "answer": "For a rod moving perpendicular to its length and to the magnetic field,\n\\[\n|\\mathcal E|=B\\ell v.\n\\]\nThus\n\\[\n|\\mathcal E|=(0.600)(0.250)(4.00)\n=0.600\\,\\mathrm{V}.\n\\]\nFor positive charge, \\(\\vec v\\times\\vec B\\) points upward along the rod, so the top end of the rod is at the higher potential.",
+          "id": "ap-p2-q2-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the motional emf across the rod and identify which end of the rod is at higher potential while the rod is in the field."
+        },
+        {
+          "answer": "The induced current is\n\\[\nI=\\frac{\\mathcal E}{R}=\\frac{0.600}{0.800}\n=0.750\\,\\mathrm{A}.\n\\]\nAs the rod moves into a region with field into the page, the into-page flux through the circuit increases. Lenz's law requires the induced current to produce a field out of the page. By the right-hand rule, that current is counterclockwise when viewed from in front of the page. This agrees with the upward conventional current in the rod found from \\(\\vec v\\times\\vec B\\).",
+          "id": "ap-p2-q2-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Calculate the induced current and use Lenz's law to state its direction as the rod enters the field region."
+        },
+        {
+          "answer": "The magnetic force on the current-carrying rod has magnitude\n\\[\nF_B=I\\ell B.\n\\]\nTherefore\n\\[\nF_B=(0.750)(0.250)(0.600)\n=1.13\\times10^{-1}\\,\\mathrm{N}.\n\\]\nThe current in the rod is upward and \\(\\vec B\\) is into the page, so \\(\\vec F=I\\vec\\ell\\times\\vec B\\) points to the left. The force opposes the motion, so an external force of the same magnitude to the right is needed to keep the speed constant.",
+          "id": "ap-p2-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the magnetic braking force on the rod, including its direction."
+        },
+        {
+          "answer": "The mechanical power supplied by the external force is\n\\[\nP_{\\mathrm{mech}}=F_Bv=(1.13\\times10^{-1})(4.00)\n=0.450\\,\\mathrm{W}.\n\\]\nThe electrical power dissipated in the resistor is\n\\[\nP_R=I^2R=(0.750)^2(0.800)\n=0.450\\,\\mathrm{W}.\n\\]\nThe equality shows that the external work done to maintain the motion is converted into thermal energy in the resistor.",
+          "id": "ap-p2-q2-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Compare the mechanical power needed to maintain the rod's motion with the electrical power dissipated in the resistor."
+        },
+        {
+          "answer": "When the rod leaves the field region, the magnetic force on charges in the rod falls to zero, so the motional emf and current fall to zero. During exit, the circuit responds to the decreasing into-page flux by trying to maintain into-page flux. The induced-current direction is therefore clockwise while the flux through the loop is decreasing. In both the entering and exiting intervals, the magnetic force associated with the induced current opposes the rod's motion, as required by energy conservation.",
+          "id": "ap-p2-q2-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "State what happens to the emf and current after the rod has left the field region, and describe the Lenz-law direction during the exit interval."
+        }
+      ]
+    },
+    {
+      "id": "ap-p2-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "A shuttle moves in the \\(+x\\) direction at \\(v=0.600c\\) relative to a station frame \\(S\\). In the shuttle frame \\(S'\\), two synchronized detector gates are separated by \\(L'=600\\,\\mathrm{m}\\). The rear gate is at \\(x'=0\\) and the front gate is at \\(x'=600\\,\\mathrm{m}\\). Both gates fire at \\(t'=0\\). The origins coincide at the rear-gate firing event.\n\nThe inverse Lorentz transformations from the shuttle frame to the station frame are\n\\[\nx=\\gamma(x'+vt')\n\\]\nand\n\\[\nt=\\gamma\\left(t'+\\frac{vx'}{c^2}\\right).\n\\]",
+      "title": "Synchronized detector gates on a shuttle",
+      "parts": [
+        {
+          "answer": "For \\(v=0.600c\\),\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.600^2}}=1.25.\n\\]\nUse the inverse Lorentz transformations\n\\[\nx=\\gamma(x'+vt'),\\qquad t=\\gamma\\left(t'+\\frac{vx'}{c^2}\\right).\n\\]\nFor the rear-gate event, \\(x'=0\\), \\(t'=0\\), so\n\\[\nx_R=0,\\qquad t_R=0.\n\\]\nFor the front-gate event, \\(x'=600\\,\\mathrm{m}\\), \\(t'=0\\):\n\\[\nx_F=1.25(600)=750\\,\\mathrm{m},\n\\]\n\\[\nt_F=1.25\\frac{(0.600c)(600)}{c^2}\n=1.50\\,\\mu\\mathrm{s}.\n\\]",
+          "id": "ap-p2-q3-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Transform the two gate-firing events into the station frame \\(S\\)."
+        },
+        {
+          "answer": "In the shuttle frame, the firings are simultaneous because both have \\(t'=0\\). In the station frame, the rear gate fires at \\(t_R=0\\), while the front gate fires at\n\\[\nt_F=1.50\\,\\mu\\mathrm{s}.\n\\]\nThus the rear-gate event occurs first in the station frame. This is the relativity of simultaneity: separated events that are simultaneous in one inertial frame need not be simultaneous in another.",
+          "id": "ap-p2-q3-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "State the time order of the two gate-firing events in each frame and explain the difference."
+        },
+        {
+          "answer": "A light signal travelling from the rear gate to the front gate in the shuttle frame covers \\(600\\,\\mathrm{m}\\) at speed \\(c\\), so\n\\[\n\\Delta t'=\\frac{600}{3.00\\times10^8}\n=2.00\\,\\mu\\mathrm{s}.\n\\]\nThe arrival event has\n\\[\nx'=600\\,\\mathrm{m},\\qquad t'=2.00\\,\\mu\\mathrm{s}.\n\\]\nTransform to the station frame:\n\\[\nx=\\gamma(x'+vt')\n=1.25[600+(0.600c)(2.00\\,\\mu\\mathrm{s})].\n\\]\nSince \\((0.600c)(2.00\\,\\mu\\mathrm{s})=360\\,\\mathrm{m}\\),\n\\[\nx=1.25(960)=1.20\\times10^3\\,\\mathrm{m}.\n\\]\nThe station time is\n\\[\nt=\\gamma\\left(t'+\\frac{vx'}{c^2}\\right)\n=1.25(2.00+1.20)\\,\\mu\\mathrm{s}\n=4.00\\,\\mu\\mathrm{s}.\n\\]",
+          "id": "ap-p2-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "At the instant the rear gate fires, it sends a light signal toward the front gate. Find the signal arrival event in both frames."
+        },
+        {
+          "answer": "The front-gate firing event and the signal-arrival event both occur at the front gate, so the time between them measured in the shuttle frame is a proper time for a clock fixed at the front gate. The elapsed proper time is\n\\[\n\\Delta\\tau=2.00\\,\\mu\\mathrm{s}-0=2.00\\,\\mu\\mathrm{s}.\n\\]\nIn the station frame, the same two front-gate events occur at \\(t=1.50\\,\\mu\\mathrm{s}\\) and \\(t=4.00\\,\\mu\\mathrm{s}\\), so\n\\[\n\\Delta t=2.50\\,\\mu\\mathrm{s}.\n\\]\nThis agrees with time dilation:\n\\[\n\\Delta t=\\gamma\\Delta\\tau=1.25(2.00\\,\\mu\\mathrm{s})=2.50\\,\\mu\\mathrm{s}.\n\\]",
+          "id": "ap-p2-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the proper time elapsed on the front-gate clock between its firing and the arrival of the rear-gate signal, and check it against the station-frame interval."
+        }
+      ]
+    },
+    {
+      "id": "ap-p2-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "A particle is known to be inside a finite measurement window \\(0\\le x\\le L\\). A trial spatial wavefunction is proposed as \\(\\psi(x)=Ax(L-x)\\) inside the window and \\(\\psi(x)=0\\) outside it.",
+      "title": "Finite measurement window wavefunction",
+      "parts": [
+        {
+          "answer": "The wavefunction is zero outside the measurement window:\n\\[\n\\psi(x)=0\\quad x<0,\\qquad \\psi(x)=0\\quad x>L.\n\\]\nAt the boundaries, the inside expression gives\n\\[\n\\psi(0)=A(0)(L)=0,\\qquad \\psi(L)=A(L)(0)=0.\n\\]\nThus the trial function joins continuously to the zero wavefunction outside the window. The probability density inside the window is\n\\[\n|\\psi(x)|^2=A^2x^2(L-x)^2.\n\\]",
+          "id": "ap-p2-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "State the wavefunction outside the window and write the probability density inside the window. Check the boundary values."
+        },
+        {
+          "answer": "Normalization requires\n\\[\n1=\\int_0^L A^2x^2(L-x)^2\\,dx.\n\\]\nExpand the integrand:\n\\[\nx^2(L-x)^2=L^2x^2-2Lx^3+x^4.\n\\]\nThen\n\\[\n\\int_0^L x^2(L-x)^2\\,dx\n=\\frac{L^5}{3}-\\frac{L^5}{2}+\\frac{L^5}{5}\n=\\frac{L^5}{30}.\n\\]\nTherefore\n\\[\n1=A^2\\frac{L^5}{30},\n\\]\nso\n\\[\nA=\\sqrt{\\frac{30}{L^5}}.\n\\]",
+          "id": "ap-p2-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Normalize the trial wavefunction and find \\(A\\) in terms of \\(L\\)."
+        },
+        {
+          "answer": "Using the normalized density, write \\(u=x/L\\). Then\n\\[\n|\\psi|^2dx=30u^2(1-u)^2\\,du.\n\\]\nThe density is symmetric about \\(x=L/2\\), so\n\\[\nP(0\\le x\\le L/2)=\\frac12.\n\\]\nFor the central half of the window,\n\\[\nP(L/4\\le x\\le3L/4)=30\\int_{1/4}^{3/4}u^2(1-u)^2\\,du.\n\\]\nAn antiderivative is\n\\[\n\\frac{u^3}{3}-\\frac{u^4}{2}+\\frac{u^5}{5}.\n\\]\nThus\n\\[\nP=30\\left[\\frac{u^3}{3}-\\frac{u^4}{2}+\\frac{u^5}{5}\\right]_{1/4}^{3/4}\n=\\frac{203}{256}=0.793.\n\\]",
+          "id": "ap-p2-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the probability of detecting the particle in \\(0\\le x\\le L/2\\) and in \\(L/4\\le x\\le3L/4\\)."
+        },
+        {
+          "answer": "By symmetry,\n\\[\n\\langle x\\rangle=\\frac{L}{2}.\n\\]\nAlso\n\\[\n\\langle x^2\\rangle=30L^2\\int_0^1u^4(1-u)^2\\,du.\n\\]\nSince\n\\[\n\\int_0^1u^4(1-u)^2\\,du=\\frac15-\\frac13+\\frac17=\\frac1{105},\n\\]\nwe get\n\\[\n\\langle x^2\\rangle=\\frac{2L^2}{7}.\n\\]\nTherefore\n\\[\n(\\Delta x)^2=\\langle x^2\\rangle-\\langle x\\rangle^2\n=\\frac{2L^2}{7}-\\frac{L^2}{4}=\\frac{L^2}{28},\n\\]\nso\n\\[\n\\Delta x=\\frac{L}{\\sqrt{28}}.\n\\]\nFor \\(L=0.500\\,\\mathrm{nm}\\),\n\\[\n\\Delta x=\\frac{0.500\\times10^{-9}}{\\sqrt{28}}\n=9.45\\times10^{-11}\\,\\mathrm{m}.\n\\]\nUsing \\(\\hbar=h/(2\\pi)=1.06\\times10^{-34}\\,\\mathrm{J\\,s}\\),\n\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}\n=\\frac{1.06\\times10^{-34}}{2(9.45\\times10^{-11})}\n=5.61\\times10^{-25}\\,\\mathrm{kg\\,m\\,s^{-1}}.\n\\]\nThe associated kinetic-energy scale is\n\\[\nK\\sim\\frac{(\\Delta p)^2}{2m_e}\n=\\frac{(5.61\\times10^{-25})^2}{2(9.11\\times10^{-31})}\n=1.73\\times10^{-19}\\,\\mathrm{J}\n=1.08\\,\\mathrm{eV}.\n\\]",
+          "id": "ap-p2-q4-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Estimate the position uncertainty from the normalized distribution. For \\(L=0.500\\,\\mathrm{nm}\\), estimate the lower bound on \\(\\Delta p\\) and the corresponding kinetic-energy scale in electronvolts.\n\nThe position uncertainty is\n\\[\n\\Delta x=\\sqrt{\\langle x^2\\rangle-\\langle x\\rangle^2}\n\\]\nand the Heisenberg uncertainty relation is\n\\[\n\\Delta x\\Delta p\\ge\\frac{\\hbar}{2}.\n\\]"
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 2",
+  "totalMarks": 60
+}

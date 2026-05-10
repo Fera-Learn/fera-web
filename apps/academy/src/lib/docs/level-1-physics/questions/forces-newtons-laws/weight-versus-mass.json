@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "forces-newtons-laws",
+  "topicId": "weight-versus-mass",
+  "topicTitle": "Weight Versus Mass",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "weight-mass-01",
+      "prompt": "Find the weight of a \\(10\\,\\mathrm{kg}\\) object near Earth using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "\\[\nW=mg=10(9.8)=98\\,\\mathrm{N}\n\\]\ndownward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-02",
+      "prompt": "An object has weight \\(490\\,\\mathrm{N}\\) near Earth. Find its mass.",
+      "answer": "\\[\nm=\\frac{W}{g}=\\frac{490}{9.8}=50\\,\\mathrm{kg}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-03",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) astronaut is on a body where \\(g=1.6\\,\\mathrm{m\\,s^{-2}}\\). Find the astronaut\u0027s weight there.",
+      "answer": "\\[\nW=mg=70(1.6)=112\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-04",
+      "prompt": "Near Earth, what is the direction of the weight force on a stationary object?",
+      "answer": "The weight force points downward, toward Earth\u0027s centre.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-05",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) person stands at rest in a lift. Find the normal force from the floor.",
+      "answer": "At rest, \\(a_y=0\\), so\n\\[\nN=mg=60(9.8)=588\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-06",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) person is in a lift accelerating upward at \\(2.0\\,\\mathrm{m\\,s^{-2}}\\). Find the normal force.",
+      "answer": "With upward positive,\n\\[\nN-mg=ma_y\n\\]\n\\[\nN=m(g+a_y)=60(9.8+2.0)=708\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-07",
+      "prompt": "A \\(60\\,\\mathrm{kg}\\) person is in a lift accelerating downward at \\(3.0\\,\\mathrm{m\\,s^{-2}}\\). Find the normal force.",
+      "answer": "With upward positive, \\(a_y=-3.0\\,\\mathrm{m\\,s^{-2}}\\):\n\\[\nN-mg=ma_y\n\\]\n\\[\nN=m(g-3.0)=60(9.8-3.0)=408\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-08",
+      "prompt": "A \\(15\\,\\mathrm{kg}\\) probe weighs \\(54\\,\\mathrm{N}\\) on a planet. Find the planet\u0027s gravitational field strength and the probe mass inferred from these data.",
+      "answer": "\\[\ng=\\frac{W}{m}=\\frac{54}{15}=3.6\\,\\mathrm{m\\,s^{-2}}\n\\]\nMass inferred from the same data:\n\\[\nm=\\frac{W}{g}=\\frac{54}{3.6}=15\\,\\mathrm{kg}\n\\]\nMass is unchanged by location.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-09",
+      "prompt": "An astronaut\u0027s mass is \\(80\\,\\mathrm{kg}\\). On a moon the astronaut\u0027s weight is \\(128\\,\\mathrm{N}\\). Find \\(g\\) on the moon, the astronaut\u0027s weight near Earth, and the ratio of Earth weight to moon weight.",
+      "answer": "On the moon,\n\\[\ng=\\frac{W}{m}=\\frac{128}{80}=1.6\\,\\mathrm{m\\,s^{-2}}\n\\]\nNear Earth,\n\\[\nW=80(9.8)=784\\,\\mathrm{N}\n\\]\nWeight ratio:\n\\[\n\\frac{W_{\\oplus}}{W_{\\text{moon}}}=\\frac{784}{128}=6.125\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-mass-10",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) passenger in a lift sees a scale reading of \\(750\\,\\mathrm{N}\\) for \\(4.0\\,\\mathrm{s}\\), starting from rest. Immediately after, the scale reads \\(620\\,\\mathrm{N}\\) for \\(2.0\\,\\mathrm s\\). Find acceleration in each phase and final speed after \\(6.0\\,\\mathrm s\\).",
+      "answer": "The scale reads \\(N\\). Use upward positive.\n\nPhase 1 (\\(N=750\\,\\mathrm N\\), \\(4.0\\,\\mathrm s\\)):\n\\[\nN-mg=ma_1\n\\Rightarrow\na_1=\\frac{750-70(9.8)}{70}=0.914\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\nv_1=0+a_1(4.0)=3.66\\,\\mathrm{m\\,s^{-1}}\\ \\text{upward}\n\\]\n\nPhase 2 (\\(N=620\\,\\mathrm N\\), \\(2.0\\,\\mathrm s\\)):\n\\[\na_2=\\frac{620-70(9.8)}{70}=-0.943\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\nv_f=v_1+a_2(2.0)=3.66-1.89=1.77\\,\\mathrm{m\\,s^{-1}}\n\\]\nFinal speed after \\(6.0\\,\\mathrm s\\) is \\(1.77\\,\\mathrm{m\\,s^{-1}}\\) upward.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

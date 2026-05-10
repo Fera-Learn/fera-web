@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "thermodynamic-systems",
+  "topicTitle": "Thermodynamic Systems",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thermodynamic-systems-01",
+      "prompt": "In thermodynamics, what is the system?",
+      "answer": "The system is the matter or region of space chosen for analysis.\n\nEverything outside that chosen boundary is the surroundings.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-02",
+      "prompt": "For this section\u0027s sign convention, is \\(Q\\) positive or negative when heat enters the system?",
+      "answer": "With this section\u0027s convention, heat entering the system is positive:\n\\[\nQ\u003e0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-03",
+      "prompt": "A gas pushes a piston outward. Is work done by the gas positive or negative in this section\u0027s convention?",
+      "answer": "The work is positive. An outward piston means the gas expands and does work on the surroundings:\n\\[\nW\u003e0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-04",
+      "prompt": "A gas in a cylinder is compressed while heat leaves the gas. Taking the gas as system, state the signs of \\(Q\\) and \\(W\\).",
+      "answer": "Heat leaves the gas, so\n\\[\nQ\u003c0\n\\]\nThe gas is compressed, so work is done on the gas. Work done by the gas is therefore negative:\n\\[\nW\u003c0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-05",
+      "prompt": "For \\(0.75\\,\\mathrm{mol}\\) of ideal gas at \\(300\\,\\mathrm{K}\\) in volume \\(0.020\\,\\mathrm{m^3}\\), find the pressure.",
+      "answer": "Use the ideal-gas equation:\n\\[\npV=nRT\n\\]\n\\[\np=\\frac{nRT}{V}\n\\]\n\\[\np=\\frac{(0.75)(8.31)(300)}{0.020}=9.35\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-06",
+      "prompt": "A gas has \\(p=1.2\\times10^5\\,\\mathrm{Pa}\\), \\(V=0.030\\,\\mathrm{m^3}\\), and \\(T=290\\,\\mathrm{K}\\). Estimate \\(n\\).",
+      "answer": "Use\n\\[\nn=\\frac{pV}{RT}\n\\]\n\\[\nn=\\frac{(1.2\\times10^5)(0.030)}{(8.31)(290)}\n\\]\n\\[\nn=1.49\\,\\mathrm{mol}\n\\]\nso the gas contains about \\(1.5\\,\\mathrm{mol}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-07",
+      "prompt": "A piston-cylinder gas absorbs \\(400\\,\\mathrm{J}\\) as heat while the surroundings do \\(150\\,\\mathrm{J}\\) of work on the gas. State \\(Q\\), \\(W\\), and \\(\\Delta U\\) using this section\u0027s convention.",
+      "answer": "Heat is absorbed, so\n\\[\nQ=+400\\,\\mathrm{J}\n\\]\nThe surroundings do \\(150\\,\\mathrm{J}\\) of work on the gas, so work done by the gas is\n\\[\nW=-150\\,\\mathrm{J}\n\\]\nThe first law gives\n\\[\n\\Delta U=Q-W\n\\]\n\\[\n\\Delta U=400-(-150)=550\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-08",
+      "prompt": "A sealed rigid tank is heated. Identify the system boundary, whether volume work occurs, and the sign of \\(Q\\).",
+      "answer": "The system boundary is the wall of the sealed tank.\n\nBecause the tank is rigid,\n\\[\n\\Delta V=0\n\\]\nso no pressure-volume work occurs:\n\\[\nW=0\n\\]\nHeating the tank transfers energy into the system, so\n\\[\nQ\u003e0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-09",
+      "prompt": "The same air in a pump can be treated either as the system or as part of the surroundings. Explain how the signs of work change when the system choice is reversed, using compression as the example.",
+      "answer": "If the air in the pump is the system, compression means the surroundings do work on the air. Work done by the air is negative:\n\\[\nW_{\\text{air}}\u003c0\n\\]\nIf the system choice is reversed so that the agent or surroundings are being analyzed, the same mechanical interaction crosses the new boundary in the opposite direction. The work sign changes because work is defined relative to the chosen system.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermodynamic-systems-10",
+      "prompt": "A gas, piston, and surrounding weights are considered as one combined system during a slow expansion. Explain which energy transfers across the system boundary remain, and why the piston work between gas and weights is no longer boundary work for the combined system.",
+      "answer": "For the combined system of gas, piston, and weights, the force between the gas and piston and the force between piston and weights are internal interactions.\n\nInternal transfers can redistribute energy inside the combined system, but they do not cross its outer boundary. Therefore piston work between the gas and weights is no longer boundary work for the combined system.\n\nOnly transfers across the outer boundary remain, such as heat exchange with the environment or mechanical work done by something outside the combined system.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

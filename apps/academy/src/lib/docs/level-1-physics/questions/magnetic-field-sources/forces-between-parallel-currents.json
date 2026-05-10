@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "forces-between-parallel-currents",
+  "topicTitle": "Forces Between Parallel Currents",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "parallel-current-forces-01",
+      "prompt": "Do two long parallel wires carrying currents in the same direction attract or repel?",
+      "answer": "They attract.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-02",
+      "prompt": "State the force per unit length between two long parallel currents \\(I_1\\) and \\(I_2\\) separated by distance \\(d\\).",
+      "answer": "The force per unit length is\n\\[\n\\frac{F}{L}=\\frac{\\mu_0 I_1I_2}{2\\pi d}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-03",
+      "prompt": "Do two long parallel wires carrying currents in opposite directions attract or repel?",
+      "answer": "They repel.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-04",
+      "prompt": "Two long parallel wires carry \\(3.0\\,\\mathrm A\\) and \\(5.0\\,\\mathrm A\\), separated by \\(0.20\\,\\mathrm m\\). Find \\(F/L\\).",
+      "answer": "\\[\n\\frac{F}{L}=\\frac{\\mu_0 I_1I_2}{2\\pi d}\n\\]\n\\[\n\\frac{F}{L}=\\frac{(4\\pi\\times10^{-7})(3.0)(5.0)}{2\\pi(0.20)}\n\\]\n\\[\n\\frac{F}{L}=1.5\\times10^{-5}\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-05",
+      "prompt": "The force per unit length between two parallel wires is \\(2.0\\times10^{-5}\\,\\mathrm{N\\,m^{-1}}\\). What is the force on a \\(0.75\\,\\mathrm m\\) length?",
+      "answer": "\\[\nF=\\left(\\frac{F}{L}\\right)L\n\\]\n\\[\nF=(2.0\\times10^{-5})(0.75)=1.5\\times10^{-5}\\,\\mathrm N\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-06",
+      "prompt": "Two wires carry \\(4.0\\,\\mathrm A\\) and \\(6.0\\,\\mathrm A\\). If \\(F/L=2.4\\times10^{-5}\\,\\mathrm{N\\,m^{-1}}\\), find their separation.",
+      "answer": "Rearrange the force formula:\n\\[\nd=\\frac{\\mu_0I_1I_2}{2\\pi(F/L)}\n\\]\n\\[\nd=\\frac{(4\\pi\\times10^{-7})(4.0)(6.0)}{2\\pi(2.4\\times10^{-5})}=0.20\\,\\mathrm m\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-07",
+      "prompt": "Derive the parallel-wire force per unit length from the straight-wire field and the force on a current-carrying conductor.",
+      "answer": "Wire 1 creates a field at wire 2:\n\\[\nB_1=\\frac{\\mu_0I_1}{2\\pi d}\n\\]\nA length \\(L\\) of wire 2 feels\n\\[\nF=I_2LB_1\n\\]\nSubstitute:\n\\[\nF=I_2L\\frac{\\mu_0I_1}{2\\pi d}\n\\]\nso\n\\[\n\\frac{F}{L}=\\frac{\\mu_0I_1I_2}{2\\pi d}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-08",
+      "prompt": "Three long parallel wires are equally spaced in a line. All three carry equal currents in the same direction. What is the net force on the middle wire?",
+      "answer": "The left wire attracts the middle wire to the left, and the right wire attracts it to the right. The distances and currents are equal, so the two force magnitudes are equal and opposite. The net force on the middle wire is zero.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-09",
+      "prompt": "Two long wires carry currents in the same direction. Explain why the attraction result is consistent with \\(\\vec F=I\\vec L\\times\\vec B\\).",
+      "answer": "Take the left wire carrying current upward. At the right wire, the left wire's magnetic field points into the page. For the right wire, \\(I\\vec L\\) is upward. Then\n\\[\n\\vec L\\times\\vec B=(\\text{up})\\times(\\text{into page})\n\\]\npoints left, toward the first wire. The same reasoning gives an equal force on the other wire toward the second wire.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "parallel-current-forces-10",
+      "prompt": "Historically, the ampere was related to the force between long parallel wires. If \\(I_1=I_2=1.0\\,\\mathrm A\\) and \\(d=1.0\\,\\mathrm m\\), find \\(F/L\\).",
+      "answer": "\\[\n\\frac{F}{L}=\\frac{\\mu_0I_1I_2}{2\\pi d}\n\\]\n\\[\n\\frac{F}{L}=\\frac{4\\pi\\times10^{-7}}{2\\pi}=2.0\\times10^{-7}\\,\\mathrm{N\\,m^{-1}}\n\\]\nThis is why the parallel-wire force was historically useful for defining current.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

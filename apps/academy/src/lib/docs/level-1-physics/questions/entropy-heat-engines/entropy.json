@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "entropy-heat-engines",
+  "topicId": "entropy",
+  "topicTitle": "Entropy",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "entropy-01",
+      "prompt": "What quantity must be integrated to find the entropy change between two equilibrium states?",
+      "answer": "Entropy change is found by integrating reversible heat transfer divided by absolute temperature:\n\\[\n\\Delta S=\\int_i^f \\frac{\\delta Q_{\\mathrm{rev}}}{T}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-02",
+      "prompt": "For a reversible heat transfer \\(Q_{\\mathrm{rev}}\\) at constant temperature \\(T\\), what is \\(\\Delta S\\)?",
+      "answer": "For reversible heat transfer at constant temperature,\n\\[\n\\Delta S=\\frac{Q_{\\mathrm{rev}}}{T}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-03",
+      "prompt": "A thermal reservoir at \\(300\\,\\mathrm{K}\\) absorbs \\(1200\\,\\mathrm{J}\\) of heat. Find its entropy change.",
+      "answer": "For a reservoir at constant temperature,\n\\[\n\\Delta S=\\frac{Q}{T}\n\\]\nThe reservoir absorbs heat, so \\(Q=+1200\\,\\mathrm{J}\\):\n\\[\n\\Delta S=\\frac{1200}{300}=4.0\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-04",
+      "prompt": "A thermal reservoir at \\(500\\,\\mathrm{K}\\) releases \\(750\\,\\mathrm{J}\\) of heat. Find its entropy change.",
+      "answer": "The reservoir releases heat, so \\(Q=-750\\,\\mathrm{J}\\). Thus\n\\[\n\\Delta S=\\frac{Q}{T}=\\frac{-750}{500}=-1.5\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-05",
+      "prompt": "Find the entropy change when \\(0.020\\,\\mathrm{kg}\\) of ice melts reversibly at \\(273\\,\\mathrm{K}\\). Use \\(L_f=3.34\\times10^5\\,\\mathrm{J\\,kg^{-1}}\\).",
+      "answer": "For a reversible phase change at constant temperature,\n\\[\n\\Delta S=\\frac{mL_f}{T}\n\\]\n\\[\n\\Delta S=\\frac{(0.020)(3.34\\times10^5)}{273}\n\\]\n\\[\n\\Delta S=24.5\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-06",
+      "prompt": "Find the entropy change of \\(0.010\\,\\mathrm{kg}\\) of water when it vaporizes reversibly at \\(373\\,\\mathrm{K}\\). Use \\(L_v=2.26\\times10^6\\,\\mathrm{J\\,kg^{-1}}\\).",
+      "answer": "For vaporization,\n\\[\n\\Delta S=\\frac{mL_v}{T}\n\\]\n\\[\n\\Delta S=\\frac{(0.010)(2.26\\times10^6)}{373}\n\\]\n\\[\n\\Delta S=60.6\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-07",
+      "prompt": "One mole of ideal gas expands isothermally from \\(V_i\\) to \\(2V_i\\). Find \\(\\Delta S\\).",
+      "answer": "For an isothermal ideal-gas process,\n\\[\n\\Delta S=nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nWith \\(n=1\\) and \\(V_f=2V_i\\),\n\\[\n\\Delta S=R\\ln 2\n\\]\n\\[\n\\Delta S=(8.31)(0.693)=5.76\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-08",
+      "prompt": "Two moles of ideal gas are compressed isothermally from \\(3.0\\,\\mathrm{L}\\) to \\(1.0\\,\\mathrm{L}\\). Find \\(\\Delta S\\).",
+      "answer": "For an isothermal ideal gas,\n\\[\n\\Delta S=nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\n\\[\n\\Delta S=(2.0)(8.31)\\ln\\!\\left(\\frac{1.0}{3.0}\\right)\n\\]\n\\[\n\\Delta S=-18.3\\,\\mathrm{J\\,K^{-1}}\n\\]\nThe entropy decreases because the gas is compressed into a smaller volume.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-09",
+      "prompt": "A body with constant heat capacity \\(C=80\\,\\mathrm{J\\,K^{-1}}\\) is warmed reversibly from \\(300\\,\\mathrm{K}\\) to \\(360\\,\\mathrm{K}\\). Find \\(\\Delta S\\).",
+      "answer": "For reversible heating with constant heat capacity,\n\\[\n\\Delta S=\\int_{T_i}^{T_f}\\frac{C\\,dT}{T}\n\\]\n\\[\n\\Delta S=C\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n\\]\n\\[\n\\Delta S=80\\ln\\!\\left(\\frac{360}{300}\\right)\n\\]\n\\[\n\\Delta S=14.6\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-10",
+      "prompt": "A monatomic ideal gas with \\(n=2.0\\,\\mathrm{mol}\\) is heated at constant volume from \\(300\\,\\mathrm{K}\\) to \\(450\\,\\mathrm{K}\\). Find \\(\\Delta S\\). Use \\(C_V=3R/2\\).",
+      "answer": "At constant volume for an ideal gas,\n\\[\n\\Delta S=nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n\\]\nWith \\(C_V=3R/2\\),\n\\[\n\\Delta S=(2.0)\\left(\\frac{3}{2}8.31\\right)\\ln\\!\\left(\\frac{450}{300}\\right)\n\\]\n\\[\n\\Delta S=10.1\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-11",
+      "prompt": "A monatomic ideal gas with \\(n=1.0\\,\\mathrm{mol}\\) is heated at constant pressure from \\(300\\,\\mathrm{K}\\) to \\(600\\,\\mathrm{K}\\). Find \\(\\Delta S\\). Use \\(C_P=5R/2\\).",
+      "answer": "At constant pressure for an ideal gas,\n\\[\n\\Delta S=nC_P\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n\\]\nWith \\(C_P=5R/2\\),\n\\[\n\\Delta S=(1.0)\\left(\\frac{5}{2}8.31\\right)\\ln\\!\\left(\\frac{600}{300}\\right)\n\\]\n\\[\n\\Delta S=14.4\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-12",
+      "prompt": "A \\(500\\,\\mathrm{J}\\) heat transfer occurs directly from a \\(400\\,\\mathrm{K}\\) reservoir to a \\(250\\,\\mathrm{K}\\) reservoir. Find \\(\\Delta S_{\\mathrm{univ}}\\) and decide whether the process is reversible.",
+      "answer": "The hot reservoir loses heat:\n\\[\n\\Delta S_h=-\\frac{500}{400}=-1.25\\,\\mathrm{J\\,K^{-1}}\n\\]\nThe cold reservoir gains heat:\n\\[\n\\Delta S_c=\\frac{500}{250}=2.00\\,\\mathrm{J\\,K^{-1}}\n\\]\nTherefore\n\\[\n\\Delta S_{\\mathrm{univ}}=\\Delta S_h+\\Delta S_c=0.75\\,\\mathrm{J\\,K^{-1}}\n\\]\nSince \\(\\Delta S_{\\mathrm{univ}}\u003e0\\), the process is irreversible.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-13",
+      "prompt": "An ideal gas freely expands into vacuum in an insulated container until its volume doubles. For \\(n=1.5\\,\\mathrm{mol}\\), find \\(Q\\), \\(W\\), \\(\\Delta U\\), and \\(\\Delta S\\).",
+      "answer": "For free expansion into vacuum, there is no opposing pressure, so\n\\[\nW=0\n\\]\nThe container is insulated, so\n\\[\nQ=0\n\\]\nFor an ideal gas,\n\\[\n\\Delta U=0\n\\]\nbecause the temperature does not change. Entropy is still a state function, so compute it with a reversible isothermal path between the same volumes:\n\\[\n\\Delta S=nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\n\\[\n\\Delta S=(1.5)(8.31)\\ln 2=8.64\\,\\mathrm{J\\,K^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-14",
+      "prompt": "A system undergoes a process with \\(\\Delta S_{\\mathrm{sys}}=-18\\,\\mathrm{J\\,K^{-1}}\\). It dumps heat into a large reservoir at \\(300\\,\\mathrm{K}\\). What is the minimum heat the reservoir must receive for the process to be allowed by the second law?",
+      "answer": "The second law requires\n\\[\n\\Delta S_{\\mathrm{univ}}=\\Delta S_{\\mathrm{sys}}+\\Delta S_{\\mathrm{res}}\\ge 0\n\\]\nThe system has\n\\[\n\\Delta S_{\\mathrm{sys}}=-18\\,\\mathrm{J\\,K^{-1}}\n\\]\nso the reservoir must gain at least\n\\[\n\\Delta S_{\\mathrm{res}}=18\\,\\mathrm{J\\,K^{-1}}\n\\]\nFor a reservoir,\n\\[\n\\Delta S_{\\mathrm{res}}=\\frac{Q_{\\mathrm{res}}}{T}\n\\]\nThus\n\\[\nQ_{\\mathrm{res,min}}=(18)(300)=5.4\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-15",
+      "prompt": "An ideal gas changes from \\((T_i,V_i)\\) to \\((2T_i,3V_i)\\). Derive \\(\\Delta S\\) in terms of \\(n\\), \\(C_V\\), and \\(R\\).",
+      "answer": "For an ideal gas,\n\\[\n\\Delta S=nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)+nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nHere \\(T_f=2T_i\\) and \\(V_f=3V_i\\), so\n\\[\n\\Delta S=nC_V\\ln 2+nR\\ln 3\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-16",
+      "prompt": "A hot reservoir at \\(T_h\\) transfers heat \\(Q\\) directly to a cold reservoir at \\(T_c\\), where \\(T_h\u003eT_c\\). Derive \\(\\Delta S_{\\mathrm{univ}}\\) and explain why the result is positive.",
+      "answer": "The hot reservoir loses heat \\(Q\\):\n\\[\n\\Delta S_h=-\\frac{Q}{T_h}\n\\]\nThe cold reservoir gains heat \\(Q\\):\n\\[\n\\Delta S_c=\\frac{Q}{T_c}\n\\]\nThus\n\\[\n\\Delta S_{\\mathrm{univ}}=Q\\left(\\frac{1}{T_c}-\\frac{1}{T_h}\\right)\n\\]\nSince \\(T_h\u003eT_c\\), we have \\(1/T_c\u003e1/T_h\\). Therefore\n\\[\n\\Delta S_{\\mathrm{univ}}\u003e0\n\\]\nThe direct heat flow is irreversible because entropy is generated during finite-temperature heat transfer.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-17",
+      "prompt": "Two identical objects of heat capacity \\(C\\) are initially at \\(T_h\\) and \\(T_c\\), with \\(T_h\u003eT_c\\). They are placed in thermal contact and isolated from the surroundings. Derive the final temperature and the total entropy change, assuming constant \\(C\\).",
+      "answer": "Energy is conserved because the two-object system is isolated. With identical constant heat capacities,\n\\[\nC(T_f-T_h)+C(T_f-T_c)=0\n\\]\nso\n\\[\nT_f=\\frac{T_h+T_c}{2}\n\\]\nThe total entropy change is\n\\[\n\\Delta S=C\\ln\\!\\left(\\frac{T_f}{T_h}\\right)+C\\ln\\!\\left(\\frac{T_f}{T_c}\\right)\n\\]\nCombine the logarithms:\n\\[\n\\Delta S=C\\ln\\!\\left(\\frac{T_f^2}{T_hT_c}\\right)\n\\]\nUsing \\(T_f=(T_h+T_c)/2\\),\n\\[\n\\Delta S=C\\ln\\!\\left(\\frac{(T_h+T_c)^2}{4T_hT_c}\\right)\n\\]\nThis is positive because the arithmetic mean is greater than the geometric mean:\n\\[\n\\frac{T_h+T_c}{2}\u003e\\sqrt{T_hT_c}\n\\]\nfor \\(T_h\\ne T_c\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-18",
+      "prompt": "An ideal gas has the same initial and final states for two processes: reversible isothermal expansion from \\(V_i\\) to \\(V_f\\), and free expansion into vacuum from \\(V_i\\) to \\(V_f\\). Compare \\(Q\\), \\(W\\), \\(\\Delta U\\), and \\(\\Delta S\\) for the two processes, and explain what this shows about entropy.",
+      "answer": "For the reversible isothermal expansion of an ideal gas,\n\\[\n\\Delta U=0\n\\]\n\\[\nW=nRT\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nand\n\\[\nQ=W\n\\]\nThe entropy change is\n\\[\n\\Delta S=nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nFor free expansion into vacuum in an insulated container,\n\\[\nQ=0,\\qquad W=0,\\qquad \\Delta U=0\n\\]\nBut the initial and final equilibrium states are the same as in the isothermal expansion, so\n\\[\n\\Delta S=nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nThis shows that entropy is a state function, while \\(Q\\) and \\(W\\) depend on the path.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-19",
+      "prompt": "A process takes an ideal gas from state \\(i\\) to state \\(f\\). You know \\(T_i,T_f,V_i,V_f,n,\\) and \\(C_V\\), but the actual path is irreversible. Explain how to calculate \\(\\Delta S\\), and derive the expression you would use.",
+      "answer": "The actual irreversible path cannot be used directly in\n\\[\n\\int \\frac{\\delta Q}{T}\n\\]\nbecause the entropy definition uses reversible heat transfer. Since entropy is a state function, choose any reversible path connecting the same initial and final states.\n\nFor an ideal gas, a convenient reversible path is:\n\n1. Change temperature at constant volume.\n2. Change volume isothermally.\n\nThat gives\n\\[\n\\Delta S=nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)+nR\\ln\\!\\left(\\frac{V_f}{V_i}\\right)\n\\]\nThis expression depends only on the endpoints, so it applies even if the actual process was irreversible.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "entropy-20",
+      "prompt": "A system interacts only with a single thermal reservoir at temperature \\(T_0\\). During a cycle, the system returns to its initial state and receives net heat \\(Q\\) from the reservoir. Use entropy to determine the allowed sign of \\(Q\\), and interpret the result physically.",
+      "answer": "Because the system completes a cycle, it returns to its initial state:\n\\[\n\\Delta S_{\\mathrm{sys}}=0\n\\]\nThe only surroundings are a reservoir at \\(T_0\\). If the system receives net heat \\(Q\\), the reservoir loses heat \\(Q\\), so\n\\[\n\\Delta S_{\\mathrm{res}}=-\\frac{Q}{T_0}\n\\]\nThe second law requires\n\\[\n\\Delta S_{\\mathrm{univ}}=\\Delta S_{\\mathrm{sys}}+\\Delta S_{\\mathrm{res}}\\ge 0\n\\]\nso\n\\[\n-\\frac{Q}{T_0}\\ge 0\n\\]\nSince \\(T_0\u003e0\\),\n\\[\nQ\\le 0\n\\]\nThe system cannot complete a cycle whose only effect is to take positive heat from one reservoir. It may reject heat to the reservoir, or in the reversible limiting case exchange zero net heat.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

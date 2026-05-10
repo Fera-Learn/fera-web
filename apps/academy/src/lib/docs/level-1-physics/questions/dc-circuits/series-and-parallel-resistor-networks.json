@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "dc-circuits",
+  "topicId": "series-and-parallel-resistor-networks",
+  "topicTitle": "Series and Parallel Resistor Networks",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "resistor-networks-01",
+      "prompt": "What current condition defines resistors connected in series?",
+      "answer": "Every resistor in a series path carries the same current because there is only one path for charge flow.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-02",
+      "prompt": "What voltage condition defines resistors connected in parallel?",
+      "answer": "Every resistor in a parallel group has the same potential difference because each branch is connected to the same two nodes.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-03",
+      "prompt": "Find the equivalent resistance of \\(4.0\\,\\Omega\\), \\(6.0\\,\\Omega\\), and \\(10.0\\,\\Omega\\) connected in series.",
+      "answer": "For series resistors,\n\\[\nR_{\\mathrm{eq}}=4.0+6.0+10.0=20.0\\,\\Omega\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-04",
+      "prompt": "Find the equivalent resistance of \\(6.0\\,\\Omega\\) and \\(3.0\\,\\Omega\\) connected in parallel.",
+      "answer": "For two resistors in parallel,\n\\[\nR_{\\mathrm{eq}}=\\frac{R_1R_2}{R_1+R_2}\n=\\frac{(6.0)(3.0)}{6.0+3.0}\n=2.0\\,\\Omega\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-05",
+      "prompt": "A \\(12\\,\\mathrm{V}\\) battery is connected to \\(3.0\\,\\Omega\\) and \\(5.0\\,\\Omega\\) resistors in series. Find the current and the voltage across each resistor.",
+      "answer": "The series equivalent resistance is\n\\[\nR_{\\mathrm{eq}}=3.0+5.0=8.0\\,\\Omega\n\\]\nso the current is\n\\[\nI=\\frac{12}{8.0}=1.5\\,\\mathrm{A}\n\\]\nVoltage drops:\n\\[\nV_{3\\Omega}=I(3.0)=4.5\\,\\mathrm{V},\\qquad\nV_{5\\Omega}=I(5.0)=7.5\\,\\mathrm{V}\n\\]\nThe drops add to \\(12\\,\\mathrm{V}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-06",
+      "prompt": "A \\(20\\,\\mathrm{V}\\) source is connected to \\(2.0\\,\\Omega\\), \\(3.0\\,\\Omega\\), and \\(5.0\\,\\Omega\\) resistors in series. Find the voltage across the \\(5.0\\,\\Omega\\) resistor.",
+      "answer": "The total series resistance is\n\\[\nR_{\\mathrm{eq}}=2.0+3.0+5.0=10.0\\,\\Omega\n\\]\nThe current is\n\\[\nI=\\frac{20}{10.0}=2.0\\,\\mathrm{A}\n\\]\nTherefore\n\\[\nV_{5\\Omega}=I(5.0)=10\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-07",
+      "prompt": "A \\(4.0\\,\\Omega\\) resistor and a \\(6.0\\,\\Omega\\) resistor are connected in parallel across \\(12\\,\\mathrm{V}\\). Find each branch current and the total current.",
+      "answer": "Each branch has \\(12\\,\\mathrm{V}\\) across it:\n\\[\nI_{4\\Omega}=\\frac{12}{4.0}=3.0\\,\\mathrm{A}\n\\]\n\\[\nI_{6\\Omega}=\\frac{12}{6.0}=2.0\\,\\mathrm{A}\n\\]\nThe total current is\n\\[\nI_{\\mathrm{tot}}=3.0+2.0=5.0\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-08",
+      "prompt": "A \\(4.0\\,\\Omega\\) resistor is in series with a parallel group made from \\(6.0\\,\\Omega\\) and \\(3.0\\,\\Omega\\). The network is connected to \\(12\\,\\mathrm{V}\\). Find the total equivalent resistance and the source current.",
+      "answer": "First reduce the parallel group:\n\\[\nR_p=\\frac{(6.0)(3.0)}{6.0+3.0}=2.0\\,\\Omega\n\\]\nThis is in series with \\(4.0\\,\\Omega\\), so\n\\[\nR_{\\mathrm{eq}}=4.0+2.0=6.0\\,\\Omega\n\\]\nThe source current is\n\\[\nI=\\frac{12}{6.0}=2.0\\,\\mathrm{A}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-09",
+      "prompt": "A resistor dissipates \\(18\\,\\mathrm{W}\\) when the current through it is \\(3.0\\,\\mathrm{A}\\). Find the resistance and the voltage across it.",
+      "answer": "Use \\(P=I^2R\\):\n\\[\nR=\\frac{P}{I^2}=\\frac{18}{(3.0)^2}=2.0\\,\\Omega\n\\]\nThen\n\\[\nV=IR=(3.0)(2.0)=6.0\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-10",
+      "prompt": "Two resistors, \\(2.0\\,\\Omega\\) and \\(8.0\\,\\Omega\\), carry the same current. Which resistor dissipates more power, and by what factor?",
+      "answer": "For the same current, \\(P=I^2R\\). Power is proportional to resistance.\n\\[\n\\frac{P_{8\\Omega}}{P_{2\\Omega}}=\\frac{8.0}{2.0}=4\n\\]\nThe \\(8.0\\,\\Omega\\) resistor dissipates four times as much power.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-11",
+      "prompt": "Two resistors, \\(2.0\\,\\Omega\\) and \\(8.0\\,\\Omega\\), are connected across the same voltage. Which resistor dissipates more power, and by what factor?",
+      "answer": "For the same voltage, \\(P=V^2/R\\). Power is inversely proportional to resistance.\n\\[\n\\frac{P_{2\\Omega}}{P_{8\\Omega}}=\\frac{V^2/2.0}{V^2/8.0}=4\n\\]\nThe \\(2.0\\,\\Omega\\) resistor dissipates four times as much power.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-12",
+      "prompt": "What happens to the equivalent resistance of a parallel network when another finite positive resistor is added in parallel? Explain from the reciprocal rule.",
+      "answer": "It decreases. Adding a positive branch adds a positive term to the conductance:\n\\[\n\\frac{1}{R\u0027_{\\mathrm{eq}}}\n=\\frac{1}{R_{\\mathrm{eq}}}+\\frac{1}{R_{\\mathrm{new}}}\n\\]\nThus \\(1/R\u0027_{\\mathrm{eq}}\\) is larger, so \\(R\u0027_{\\mathrm{eq}}\\) is smaller.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-13",
+      "prompt": "Derive the series-resistor rule \\(R_{\\mathrm{eq}}=R_1+R_2+\\cdots\\) from Ohm\u0027s law and the voltage sum.",
+      "answer": "In series the same current \\(I\\) flows through each resistor, and the voltage drops add:\n\\[\nV=V_1+V_2+\\cdots\n\\]\nUsing \\(V_i=IR_i\\),\n\\[\nV=IR_1+IR_2+\\cdots=I(R_1+R_2+\\cdots)\n\\]\nSince \\(V=IR_{\\mathrm{eq}}\\),\n\\[\nR_{\\mathrm{eq}}=R_1+R_2+\\cdots\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-14",
+      "prompt": "Derive the parallel-resistor rule \\(\\frac{1}{R_{\\mathrm{eq}}}=\\frac{1}{R_1}+\\frac{1}{R_2}+\\cdots\\) from Ohm\u0027s law and current conservation.",
+      "answer": "In parallel, each branch has the same voltage \\(V\\), and currents add:\n\\[\nI=I_1+I_2+\\cdots\n\\]\nUsing \\(I_i=V/R_i\\),\n\\[\nI=\\frac{V}{R_1}+\\frac{V}{R_2}+\\cdots\n=V\\left(\\frac{1}{R_1}+\\frac{1}{R_2}+\\cdots\\right)\n\\]\nSince \\(I=V/R_{\\mathrm{eq}}\\),\n\\[\n\\frac{1}{R_{\\mathrm{eq}}}=\\frac{1}{R_1}+\\frac{1}{R_2}+\\cdots\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-15",
+      "prompt": "A voltage divider has \\(R_1\\) from the source node to the output node and \\(R_2\\) from the output node to ground. Derive \\(V_{\\mathrm{out}}\\) in terms of the source voltage \\(V\\).",
+      "answer": "The two resistors are in series, so\n\\[\nI=\\frac{V}{R_1+R_2}\n\\]\nThe output is the voltage across \\(R_2\\):\n\\[\nV_{\\mathrm{out}}=IR_2\n=\\frac{R_2}{R_1+R_2}V\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-16",
+      "prompt": "A total current \\(I\\) enters two parallel resistors \\(R_1\\) and \\(R_2\\). Derive the current through \\(R_1\\).",
+      "answer": "Both branches share the same voltage \\(V\\):\n\\[\nI_1=\\frac{V}{R_1},\\qquad I_2=\\frac{V}{R_2}\n\\]\nThe total current is\n\\[\nI=V\\left(\\frac{1}{R_1}+\\frac{1}{R_2}\\right)\n=V\\frac{R_1+R_2}{R_1R_2}\n\\]\nSolve for \\(V\\) and substitute into \\(I_1=V/R_1\\):\n\\[\nI_1=I\\frac{R_2}{R_1+R_2}\n\\]\nThe smaller resistance gets the larger current.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-17",
+      "prompt": "What resistor must be placed in parallel with \\(12\\,\\Omega\\) to make an equivalent resistance of \\(4.0\\,\\Omega\\)?",
+      "answer": "Let the unknown resistor be \\(R\\):\n\\[\n\\frac{1}{4.0}=\\frac{1}{12}+\\frac{1}{R}\n\\]\n\\[\n\\frac{1}{R}=\\frac{1}{4.0}-\\frac{1}{12}\n=\\frac{3-1}{12}\n=\\frac{1}{6}\n\\]\nSo\n\\[\nR=6.0\\,\\Omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-18",
+      "prompt": "A divider has \\(9.0\\,\\Omega\\) on top and \\(3.0\\,\\Omega\\) on bottom across \\(12\\,\\mathrm{V}\\). First find the unloaded output across the bottom resistor. Then connect a \\(3.0\\,\\Omega\\) load in parallel with the bottom resistor and find the loaded output.",
+      "answer": "Unloaded:\n\\[\nV_{\\mathrm{out}}=12\\frac{3.0}{9.0+3.0}=3.0\\,\\mathrm{V}\n\\]\nWith a \\(3.0\\,\\Omega\\) load in parallel with the bottom resistor,\n\\[\nR_{\\mathrm{bottom,loaded}}=3.0\\parallel3.0=1.5\\,\\Omega\n\\]\nNow\n\\[\nV_{\\mathrm{out,loaded}}\n=12\\frac{1.5}{9.0+1.5}\n=1.7\\,\\mathrm{V}\n\\]\nThe load lowers the output because it lowers the effective bottom resistance.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-19",
+      "prompt": "A total current of \\(5.0\\,\\mathrm{A}\\) enters two parallel branches, \\(8.0\\,\\Omega\\) and \\(12.0\\,\\Omega\\). Use current division to find the current through the \\(8.0\\,\\Omega\\) branch.",
+      "answer": "For two parallel branches,\n\\[\nI_{8\\Omega}=I_{\\mathrm{tot}}\\frac{R_{\\mathrm{other}}}{R_1+R_2}\n\\]\nThus\n\\[\nI_{8\\Omega}=5.0\\frac{12.0}{8.0+12.0}=3.0\\,\\mathrm{A}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "resistor-networks-20",
+      "prompt": "A complicated resistor network is replaced by \\(R_{\\mathrm{eq}}\\) at the same two terminals. What exactly must be unchanged for every applied terminal voltage, and what internal information can be lost by the replacement?",
+      "answer": "The terminal behavior must be unchanged: for any applied terminal voltage \\(V\\), the current drawn at the terminals must be\n\\[\nI=\\frac{V}{R_{\\mathrm{eq}}}\n\\]\njust as in the original network.\n\nThe replacement can lose internal information: individual branch currents, individual voltage drops, and how power is distributed among the original resistors. Equivalent resistance preserves the two-terminal \\(V\\)-\\(I\\) relation, not the full internal circuit state.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-3",
+  "paperId": "paper-2",
+  "paperTags": ["paper-2"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    },
+    {
+      "label": "Speed of light",
+      "value": "c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+    },
+    {
+      "label": "Elementary charge",
+      "value": "e=1.60\\times10^{-19}\\,\\mathrm{C}"
+    },
+    {
+      "label": "Electron mass",
+      "value": "m_e=9.11\\times10^{-31}\\,\\mathrm{kg}"
+    },
+    {
+      "label": "Planck constant",
+      "value": "h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}"
+    },
+    {
+      "label": "Permittivity of free space",
+      "value": "\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}"
+    },
+    {
+      "label": "Magnetic constant",
+      "value": "\\mu_0=1.26\\times10^{-6}\\,\\mathrm{N\\,A^{-2}}"
+    },
+    {
+      "label": "Boltzmann constant",
+      "value": "k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}"
+    }
+  ],
+  "description": "Electromagnetism, relativity, and quantum mechanics.",
+  "id": "paper-2",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 2",
+  "questions": [
+    {
+      "id": "ap-s3-p2-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Electromagnetism",
+      "stem": "Two square insulating sheets are mounted parallel to one another to make a simple field cage. Each sheet has area \\(A=0.120\\,\\mathrm{m^2}\\), and the separation is \\(d=3.00\\,\\mathrm{mm}\\). The left sheet has charge \\(+Q=8.50\\,\\mathrm{nC}\\) spread uniformly over it, and the right sheet has charge \\(-Q\\) spread uniformly over it. Treat the sheets as very large compared with their separation, so edge effects may be ignored.\n\nThe field magnitude from one very large uniformly charged sheet is\n\\[\nE=\\frac{\\sigma}{2\\epsilon_0}.\n\\]\nThe field is directed away from a positive sheet and toward a negative sheet.",
+      "title": "Charged insulating sheet field cage",
+      "parts": [
+        {
+          "answer": "The surface charge density is\n\\[\n\\sigma=\\frac{Q}{A}\n=\\frac{8.50\\times10^{-9}}{0.120}\n=7.08\\times10^{-8}\\,\\mathrm{C\\,m^{-2}}.\n\\]\nA single large sheet gives field magnitude \\(\\sigma/(2\\epsilon_0)\\) on each side. Between the sheets, the fields from the positive and negative sheets point from the positive sheet toward the negative sheet, so they add:\n\\[\nE=\\frac{\\sigma}{\\epsilon_0}\n=\\frac{7.08\\times10^{-8}}{8.85\\times10^{-12}}\n=8.00\\times10^3\\,\\mathrm{N\\,C^{-1}}.\n\\]\nOutside the pair the two sheet fields are equal and opposite, so the approximate external field is zero.",
+          "id": "ap-s3-p2-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the surface charge density and the electric field magnitude inside and outside the sheet pair. State the field direction inside the cage."
+        },
+        {
+          "answer": "For a uniform field, the potential difference between the sheets is\n\\[\n\\Delta V=Ed.\n\\]\nThus\n\\[\n\\Delta V=(8.00\\times10^3)(3.00\\times10^{-3})\n=24.0\\,\\mathrm{V}.\n\\]\nThe positive sheet is at higher potential because the electric field points from higher potential toward lower potential.",
+          "id": "ap-s3-p2-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Calculate the potential difference between the sheets and identify which sheet is at higher potential."
+        },
+        {
+          "answer": "The capacitance per unit area is\n\\[\n\\frac{C}{A}=\\frac{\\epsilon_0}{d}.\n\\]\nNumerically,\n\\[\n\\frac{C}{A}=\\frac{8.85\\times10^{-12}}{3.00\\times10^{-3}}\n=2.95\\times10^{-9}\\,\\mathrm{F\\,m^{-2}}.\n\\]\nThe total capacitance is\n\\[\nC=\\frac{\\epsilon_0 A}{d}\n=(2.95\\times10^{-9})(0.120)\n=3.54\\times10^{-10}\\,\\mathrm{F}.\n\\]\nThe same voltage follows from \\(V=Q/C\\):\n\\[\nV=\\frac{8.50\\times10^{-9}}{3.54\\times10^{-10}}\n=24.0\\,\\mathrm{V}.\n\\]",
+          "id": "ap-s3-p2-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the capacitance per unit area and the total capacitance of the sheet pair. Check your result using \\(V=Q/C\\)."
+        },
+        {
+          "answer": "The electrostatic energy is\n\\[\nU=\\frac12Q\\Delta V.\n\\]\nTherefore\n\\[\nU=\\frac12(8.50\\times10^{-9})(24.0)\n=1.02\\times10^{-7}\\,\\mathrm{J}.\n\\]",
+          "id": "ap-s3-p2-q1-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Calculate the electrostatic energy stored in the field between the sheets."
+        },
+        {
+          "answer": "With fixed free charge, inserting a dielectric changes \\(\\epsilon_0\\) to \\(\\kappa\\epsilon_0\\). The field and voltage become\n\\[\nE'=\\frac{E}{\\kappa},\\qquad V'=\\frac{V}{\\kappa}.\n\\]\nThe capacitance per unit area becomes\n\\[\n\\left(\\frac{C}{A}\\right)'=\\kappa\\frac{\\epsilon_0}{d}.\n\\]\nFor \\(\\kappa=2.40\\),\n\\[\nE'=3.33\\times10^3\\,\\mathrm{N\\,C^{-1}},\n\\qquad V'=10.0\\,\\mathrm{V},\n\\]\nand\n\\[\n(C/A)'=2.40(2.95\\times10^{-9})\n=7.08\\times10^{-9}\\,\\mathrm{F\\,m^{-2}}.\n\\]",
+          "id": "ap-s3-p2-q1-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "The sheet pair is isolated and the gap is filled with a dielectric of relative permittivity \\(\\kappa=2.40\\). State the new field, voltage, and capacitance per unit area."
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p2-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Electromagnetism",
+      "stem": "A beam of singly charged positive ions enters a velocity selector travelling in the \\(+\\hat{\\imath}\\) direction. In the selector, \\(\\vec E=1.80\\times10^4\\,\\hat{\\jmath}\\,\\mathrm{N\\,C^{-1}}\\) and \\(\\vec B=0.300\\,\\hat k\\,\\mathrm{T}\\). Ions that pass undeflected then enter an analyser containing only a uniform magnetic field of magnitude \\(0.500\\,\\mathrm{T}\\). Two isotopes have masses \\(m_1=3.32\\times10^{-26}\\,\\mathrm{kg}\\) and \\(m_2=3.49\\times10^{-26}\\,\\mathrm{kg}\\).",
+      "title": "Crossed-field ion selector",
+      "parts": [
+        {
+          "answer": "For a positive ion, the electric force is in the \\(+\\hat{\\jmath}\\) direction. The magnetic part is\n\\[\n\\vec v\\times\\vec B=\\hat{\\imath}\\times\\hat k=-\\hat{\\jmath},\n\\]\nso the magnetic force is in the \\(-\\hat{\\jmath}\\) direction. Undeflected motion requires equal magnitudes:\n\\[\nqE=qvB.\n\\]\nHence\n\\[\nv=\\frac{E}{B}\n=\\frac{1.80\\times10^4}{0.300}\n=6.00\\times10^4\\,\\mathrm{m\\,s^{-1}}.\n\\]",
+          "id": "ap-s3-p2-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Show that the electric and magnetic forces oppose one another, and find the selected ion speed."
+        },
+        {
+          "answer": "If an ion is too slow, then \\(qvB<qE\\), so the electric force is larger and the ion deflects toward \\(+\\hat{\\jmath}\\). If it is too fast, then \\(qvB>qE\\), so it deflects toward \\(-\\hat{\\jmath}\\). This direction check is consistent with only \\(v=E/B\\) passing straight through.",
+          "id": "ap-s3-p2-q2-b",
+          "label": "(b)",
+          "marks": 2,
+          "prompt": "State the deflection direction for ions that are slower and faster than the selected speed."
+        },
+        {
+          "answer": "In the analyser, the magnetic force supplies the centripetal force:\n\\[\nqvB_a=\\frac{mv^2}{r}.\n\\]\nTherefore\n\\[\nr=\\frac{mv}{qB_a}.\n\\]\nFor isotope 1,\n\\[\nr_1=\\frac{(3.32\\times10^{-26})(6.00\\times10^4)}{(1.60\\times10^{-19})(0.500)}\n=2.49\\times10^{-2}\\,\\mathrm{m}.\n\\]\nFor isotope 2,\n\\[\nr_2=\\frac{(3.49\\times10^{-26})(6.00\\times10^4)}{(1.60\\times10^{-19})(0.500)}\n=2.62\\times10^{-2}\\,\\mathrm{m}.\n\\]",
+          "id": "ap-s3-p2-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Calculate the circular analyser radius for each isotope."
+        },
+        {
+          "answer": "The separation of the radii is\n\\[\n\\Delta r=r_2-r_1\n=(2.62-2.49)\\times10^{-2}\n=1.28\\times10^{-3}\\,\\mathrm{m}.\n\\]\nIf the ions make a semicircle before detection, the separation of the impact points is approximately\n\\[\n2\\Delta r=2.55\\times10^{-3}\\,\\mathrm{m}.\n\\]\nThe heavier isotope has the larger radius because \\(r\\propto m\\) for fixed \\(q\\), \\(v\\), and \\(B_a\\).",
+          "id": "ap-s3-p2-q2-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the difference in analyser radii. If the detector is placed after a semicircle, estimate the separation between the two impact points and identify which isotope lands farther from the entry point."
+        },
+        {
+          "answer": "With \\(\\vec v\\) in \\(+\\hat{\\imath}\\) and analyser field \\(\\vec B_a\\) in \\(+\\hat k\\),\n\\[\n\\vec v\\times\\vec B_a=-\\hat{\\jmath}.\n\\]\nFor positive ions the force is therefore initially in the \\(-\\hat{\\jmath}\\) direction. Reversing the analyser field reverses \\(\\vec v\\times\\vec B_a\\), so the circular path bends toward \\(+\\hat{\\jmath}\\) instead. The radius magnitude is unchanged because it depends on \\(B_a\\), not on the field sign.",
+          "id": "ap-s3-p2-q2-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "For an analyser field in the \\(+\\hat k\\) direction, state the initial bending direction. What changes if the analyser field is reversed?"
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p2-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "Two camera flashes occur along a straight train platform. In the platform frame \\(S\\), flash A occurs at \\(x_A=0\\), \\(t_A=0\\), and flash B occurs at \\(x_B=600\\,\\mathrm{m}\\), \\(t_B=1.00\\,\\mu\\mathrm{s}\\). Another inertial frame \\(S'\\) moves along \\(+x\\) relative to the platform.\n\nFor a frame \\(S'\\) moving at speed \\(u\\) along \\(+x\\) relative to \\(S\\), the Lorentz transformation for separations is\n\\[\n\\Delta t'=\\gamma\\left(\\Delta t-\\frac{u\\Delta x}{c^2}\\right)\n\\]\nand\n\\[\n\\Delta x'=\\gamma(\\Delta x-u\\Delta t).\n\\]",
+      "title": "Spacelike platform flashes",
+      "parts": [
+        {
+          "answer": "The separations in \\(S\\) are\n\\[\n\\Delta x=600\\,\\mathrm{m},\\qquad \\Delta t=1.00\\times10^{-6}\\,\\mathrm{s}.\n\\]\nThe interval is\n\\[\ns^2=c^2\\Delta t^2-\\Delta x^2.\n\\]\nSince\n\\[\nc\\Delta t=(3.00\\times10^8)(1.00\\times10^{-6})=300\\,\\mathrm{m},\n\\]\n\\[\ns^2=(300)^2-(600)^2\n=-2.70\\times10^5\\,\\mathrm{m^2}.\n\\]\nThe interval is spacelike because \\(s^2<0\\).",
+          "id": "ap-s3-p2-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Calculate \\(s^2=c^2\\Delta t^2-\\Delta x^2\\) for the two flashes and classify the separation."
+        },
+        {
+          "answer": "For simultaneity in \\(S'\\),\n\\[\n\\Delta t'=\\gamma\\left(\\Delta t-\\frac{u\\Delta x}{c^2}\\right)=0.\n\\]\nThus\n\\[\nu=\\frac{c^2\\Delta t}{\\Delta x}.\n\\]\nSubstitute the values:\n\\[\nu=\\frac{(3.00\\times10^8)^2(1.00\\times10^{-6})}{600}\n=1.50\\times10^8\\,\\mathrm{m\\,s^{-1}}\n=0.500c.\n\\]\nThe frame must move in the \\(+x\\) direction because flash B is at larger \\(x\\) and later \\(t\\) in the platform frame.",
+          "id": "ap-s3-p2-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the speed and direction of the inertial frame in which the flashes are simultaneous."
+        },
+        {
+          "answer": "For \\(u=0.500c\\),\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.500^2}}=1.155.\n\\]\nThe transformed separation is\n\\[\n\\Delta x'=\\gamma(\\Delta x-u\\Delta t).\n\\]\nHere\n\\[\nu\\Delta t=(1.50\\times10^8)(1.00\\times10^{-6})=150\\,\\mathrm{m}.\n\\]\nTherefore\n\\[\n\\Delta x'=1.155(600-150)\n=5.20\\times10^2\\,\\mathrm{m}.\n\\]\nThe positive sign means flash B is still at the larger \\(x'\\) coordinate.",
+          "id": "ap-s3-p2-q3-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Calculate the transformed spatial separation of the flashes in the frame found in part (b)."
+        },
+        {
+          "answer": "For a frame moving at \\(0.800c\\),\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.800^2}}=1.67.\n\\]\nThe time separation is\n\\[\n\\Delta t'=\\gamma\\left(\\Delta t-\\frac{u\\Delta x}{c^2}\\right).\n\\]\nNow\n\\[\n\\frac{u\\Delta x}{c^2}=\\frac{0.800c(600)}{c^2}\n=\\frac{480}{3.00\\times10^8}\n=1.60\\,\\mu\\mathrm{s}.\n\\]\nThus\n\\[\n\\Delta t'=1.67(1.00-1.60)\\,\\mu\\mathrm{s}\n=-1.00\\,\\mu\\mathrm{s}.\n\\]\nIn this frame, flash B occurs before flash A.",
+          "id": "ap-s3-p2-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "For a frame moving at \\(0.800c\\) in the \\(+x\\) direction, find \\(\\Delta t'\\) and state the time order of the flashes."
+        },
+        {
+          "answer": "A causal signal would need speed\n\\[\n\\frac{\\Delta x}{\\Delta t}=\\frac{600}{1.00\\times10^{-6}}\n=6.00\\times10^8\\,\\mathrm{m\\,s^{-1}}=2.00c,\n\\]\nwhich is greater than the speed of light. The events are spacelike separated, so neither flash can cause the other. Different inertial frames may disagree about their time order without creating a causality contradiction.",
+          "id": "ap-s3-p2-q3-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "Explain why the change of time order in some frames does not violate causality."
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p2-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "An electron is confined in a one-dimensional infinite square well. The original well width is \\(L_0=0.500\\,\\mathrm{nm}\\), but the well is then widened to \\(L=0.750\\,\\mathrm{nm}\\). For width \\(L\\), the stationary-state energies are \\[\nE_n=\\frac{n^2h^2}{8m_eL^2}\n\\]\nand the normalized wavefunctions are \\(\\psi_n(x)=\\sqrt{2/L}\\sin(n\\pi x/L)\\) for \\(0<x<L\\).",
+      "title": "Infinite well spectroscopy after widening",
+      "parts": [
+        {
+          "answer": "For the widened well,\n\\[\nE_1=\\frac{h^2}{8m_eL^2}.\n\\]\nWith \\(L=0.750\\times10^{-9}\\,\\mathrm{m}\\),\n\\[\nE_1=\\frac{(6.63\\times10^{-34})^2}{8(9.11\\times10^{-31})(0.750\\times10^{-9})^2}\n=1.07\\times10^{-19}\\,\\mathrm{J}.\n\\]\nIn electronvolts,\n\\[\nE_1=\\frac{1.07\\times10^{-19}}{1.60\\times10^{-19}}\n=0.669\\,\\mathrm{eV}.\n\\]\nThe next levels are\n\\[\nE_2=4E_1=2.68\\,\\mathrm{eV},\n\\qquad\nE_3=9E_1=6.02\\,\\mathrm{eV}.\n\\]",
+          "id": "ap-s3-p2-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "For the widened well, calculate \\(E_1\\) in joules and electronvolts, then find \\(E_2\\) and \\(E_3\\) in electronvolts."
+        },
+        {
+          "answer": "For the transition \\(n=3\\to n=2\\),\n\\[\n\\Delta E=E_3-E_2=(9-4)E_1=5E_1.\n\\]\nUsing joules,\n\\[\n\\Delta E=5(1.07\\times10^{-19})\n=5.36\\times10^{-19}\\,\\mathrm{J}.\n\\]\nThe emitted photon wavelength is\n\\[\n\\lambda=\\frac{hc}{\\Delta E}\n=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{5.36\\times10^{-19}}\n=3.71\\times10^{-7}\\,\\mathrm{m}.\n\\]\nSo \\(\\lambda=371\\,\\mathrm{nm}\\).",
+          "id": "ap-s3-p2-q4-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the wavelength of the photon emitted when an electron falls from \\(n=3\\) to \\(n=2\\) in the widened well."
+        },
+        {
+          "answer": "For \\(n=2\\),\n\\[\n\\psi_2(x)=\\sqrt{\\frac{2}{L}}\\sin\\left(\\frac{2\\pi x}{L}\\right).\n\\]\nThe probability is\n\\[\nP=\\int_{L/4}^{L/2}\\frac{2}{L}\\sin^2\\left(\\frac{2\\pi x}{L}\\right)\\,dx.\n\\]\nUsing\n\\[\n\\int \\sin^2(kx)\\,dx=\\frac{x}{2}-\\frac{\\sin(2kx)}{4k},\n\\]\nwith \\(k=2\\pi/L\\),\n\\[\nP=\\left[\\frac{x}{L}-\\frac{\\sin(4\\pi x/L)}{4\\pi}\\right]_{L/4}^{L/2}.\n\\]\nAt \\(x=L/2\\), \\(\\sin(2\\pi)=0\\). At \\(x=L/4\\), \\(\\sin(\\pi)=0\\). Therefore\n\\[\nP=\\frac12-\\frac14=\\frac14.\n\\]",
+          "id": "ap-s3-p2-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Write \\(\\psi_2(x)\\) and calculate the probability of finding the electron between \\(x=L/4\\) and \\(x=L/2\\)."
+        },
+        {
+          "answer": "The energies scale as\n\\[\nE_n\\propto\\frac{1}{L^2}.\n\\]\nChanging from \\(L_0=0.500\\,\\mathrm{nm}\\) to \\(L=0.750\\,\\mathrm{nm}\\) gives\n\\[\n\\frac{E_{n,new}}{E_{n,old}}=\\left(\\frac{L_0}{L}\\right)^2\n=\\left(\\frac{0.500}{0.750}\\right)^2\n=\\frac{4}{9}.\n\\]\nAll energy levels and transition energies are reduced by a factor \\(4/9\\).",
+          "id": "ap-s3-p2-q4-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "By what factor do all energy levels change when the well is widened from \\(0.500\\,\\mathrm{nm}\\) to \\(0.750\\,\\mathrm{nm}\\)?"
+        },
+        {
+          "answer": "For a fixed pair of quantum numbers,\n\\[\n\\lambda=\\frac{hc}{\\Delta E}.\n\\]\nSince the transition energy is multiplied by \\(4/9\\), the photon wavelength is multiplied by the reciprocal factor:\n\\[\n\\frac{\\lambda_{new}}{\\lambda_{old}}=\\frac{9}{4}=2.25.\n\\]\nThe spectrum shifts to longer wavelengths because widening the well makes the energy levels closer together.",
+          "id": "ap-s3-p2-q4-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "State how the photon wavelength for the same transition changes after widening the well, and explain the spectral shift."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 2",
+  "totalMarks": 60
+}

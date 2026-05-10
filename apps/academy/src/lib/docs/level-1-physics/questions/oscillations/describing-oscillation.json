@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "describing-oscillation",
+  "topicTitle": "Describing Oscillation",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "describing-oscillation-01",
+      "prompt": "An oscillator completes \\(18\\) cycles in \\(9.0\\,\\mathrm{s}\\). Find its frequency.",
+      "answer": "Frequency is cycles per second:\n\\[\nf=\\frac{18}{9.0}=2.0\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-02",
+      "prompt": "An oscillator has period \\(0.25\\,\\mathrm{s}\\). Find its frequency.",
+      "answer": "\\[\nf=\\frac{1}{T}=\\frac{1}{0.25}=4.0\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-11",
+      "prompt": "An oscillator has frequency \\(0.50\\,\\mathrm{Hz}\\). Find its period.",
+      "answer": "\\[\nT=\\frac{1}{f}=\\frac{1}{0.50}=2.0\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-03",
+      "prompt": "An oscillator has frequency \\(5.0\\,\\mathrm{Hz}\\). Find its angular frequency.",
+      "answer": "\\[\n\\omega=2\\pi f=2\\pi(5.0)=10\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nNumerically, \\(\\omega\\approx31.4\\,\\mathrm{rad\\,s^{-1}}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-04",
+      "prompt": "The maximum displacement from equilibrium is \\(0.12\\,\\mathrm{m}\\). What is the amplitude and what is the peak-to-peak displacement?",
+      "answer": "The amplitude is measured from equilibrium, so\n\\[\nA=0.12\\,\\mathrm{m}\n\\]\nThe peak-to-peak displacement is\n\\[\n2A=0.24\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-12",
+      "prompt": "An oscillator has angular frequency \\(12\\,\\mathrm{rad\\,s^{-1}}\\). How much phase does it advance in \\(0.50\\,\\mathrm{s}\\)?",
+      "answer": "Phase advance is\n\\[\n\\Delta\\varphi=\\omega\\Delta t\n\\]\nso\n\\[\n\\Delta\\varphi=12(0.50)=6.0\\,\\mathrm{rad}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-05",
+      "prompt": "A periodic displacement is \\(x(t)=0.30\\cos(8\\pi t)\\,\\mathrm{m}\\). Find \\(A\\), \\(\\omega\\), \\(f\\), and \\(T\\).",
+      "answer": "Compare with \\(x=A\\cos(\\omega t+\\phi)\\):\n\\[\nA=0.30\\,\\mathrm{m},\\qquad \\omega=8\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nf=\\frac{\\omega}{2\\pi}=4.0\\,\\mathrm{Hz}\n\\]\n\\[\nT=\\frac{1}{f}=0.25\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-06",
+      "prompt": "A sinusoidal oscillator has \\(A=0.050\\,\\mathrm{m}\\) and \\(T=0.80\\,\\mathrm{s}\\). Write one possible displacement function that starts at maximum positive displacement.",
+      "answer": "Starting at maximum positive displacement means use cosine with \\(\\phi=0\\). The angular frequency is\n\\[\n\\omega=\\frac{2\\pi}{T}=\\frac{2\\pi}{0.80}=2.5\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nOne model is\n\\[\nx(t)=0.050\\cos(2.5\\pi t)\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-13",
+      "prompt": "A motion has period \\(1.6\\,\\mathrm{s}\\). How many complete cycles occur in \\(12.8\\,\\mathrm{s}\\)?",
+      "answer": "The number of cycles is\n\\[\nN=\\frac{\\Delta t}{T}=\\frac{12.8}{1.6}=8\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-14",
+      "prompt": "Write a displacement model for an oscillator with amplitude \\(0.20\\,\\mathrm{m}\\), period \\(4.0\\,\\mathrm{s}\\), and \\(x(0)=0.20\\,\\mathrm{m}\\).",
+      "answer": "Starting at maximum positive displacement gives a cosine with \\(\\phi=0\\). The angular frequency is\n\\[\n\\omega=\\frac{2\\pi}{T}=\\frac{2\\pi}{4.0}=\\frac{\\pi}{2}\\,\\mathrm{rad\\,s^{-1}}\n\\]\nOne model is\n\\[\nx(t)=0.20\\cos\\left(\\frac{\\pi}{2}t\\right)\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-07",
+      "prompt": "For \\(x(t)=A\\cos(\\omega t+\\phi)\\), what phase constant \\(\\phi\\) makes \\(x(0)=0\\) and the initial velocity negative?",
+      "answer": "For \\(x(0)=0\\),\n\\[\nA\\cos\\phi=0\n\\]\nso \\(\\phi=\\pi/2\\) or \\(3\\pi/2\\). Velocity is\n\\[\nv(t)=-A\\omega\\sin(\\omega t+\\phi)\n\\]\nso\n\\[\nv(0)=-A\\omega\\sin\\phi\n\\]\nFor \\(v(0)\u003c0\\), \\(\\sin\\phi\u003e0\\). Therefore\n\\[\n\\phi=\\frac{\\pi}{2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-15",
+      "prompt": "For \\(x(t)=A\\cos(\\omega t)\\), find the first positive time when \\(x=-A\\).",
+      "answer": "For \\(x=A\\cos(\\omega t)\\), the first time \\(x=-A\\) occurs when\n\\[\n\\cos(\\omega t)=-1\n\\]\nso\n\\[\n\\omega t=\\pi\n\\]\nand\n\\[\nt=\\frac{\\pi}{\\omega}=\\frac{T}{2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-08",
+      "prompt": "Two oscillations have the same amplitude and period. One is \\(x_1=A\\cos\\omega t\\), and the other reaches maximum displacement a quarter period later. Write \\(x_2(t)\\) in cosine form.",
+      "answer": "A quarter-period delay corresponds to a phase lag of\n\\[\n\\omega\\frac{T}{4}=\\frac{2\\pi}{T}\\frac{T}{4}=\\frac{\\pi}{2}\n\\]\nSo one cosine form is\n\\[\nx_2(t)=A\\cos\\left(\\omega t-\\frac{\\pi}{2}\\right)\n\\]\nThis reaches its maximum when \\(\\omega t-\\pi/2=0\\), at \\(t=T/4\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-16",
+      "prompt": "An oscillator has \\(x(0)=-A/2\\) and \\(v(0)\u003e0\\). Find \\(\\phi\\) for \\(x=A\\cos(\\omega t+\\phi)\\), with \\(0\\leq\\phi\u003c2\\pi\\).",
+      "answer": "The initial displacement gives\n\\[\nA\\cos\\phi=-\\frac{A}{2}\n\\]\nso\n\\[\n\\cos\\phi=-\\frac{1}{2}\n\\]\nCandidates are\n\\[\n\\phi=\\frac{2\\pi}{3},\\quad \\frac{4\\pi}{3}\n\\]\nVelocity is\n\\[\nv(0)=-A\\omega\\sin\\phi\n\\]\nFor \\(v(0)\u003e0\\), \\(\\sin\\phi\u003c0\\). Therefore\n\\[\n\\phi=\\frac{4\\pi}{3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-17",
+      "prompt": "Two identical sinusoidal oscillators have period \\(T\\). The second reaches every feature \\(0.15T\\) later than the first. Find its phase lag in radians.",
+      "answer": "A delay \\(\\Delta t\\) corresponds to phase lag\n\\[\n\\Delta\\varphi=\\omega\\Delta t\n\\]\nwith\n\\[\n\\omega=\\frac{2\\pi}{T},\\qquad \\Delta t=0.15T\n\\]\nso\n\\[\n\\Delta\\varphi=\\frac{2\\pi}{T}(0.15T)=0.30\\pi\\,\\mathrm{rad}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-09",
+      "prompt": "An oscillator is modeled by \\(x(t)=A\\cos(\\omega t+\\phi)\\). It has \\(x(0)=A/2\\) and \\(v(0)\u003c0\\). Find \\(\\phi\\) in the range \\(0\\leq\\phi\u003c2\\pi\\).",
+      "answer": "The initial displacement gives\n\\[\nA\\cos\\phi=\\frac{A}{2}\n\\]\nso\n\\[\n\\cos\\phi=\\frac{1}{2}\n\\]\nIn the range \\(0\\leq\\phi\u003c2\\pi\\), the candidates are\n\\[\n\\phi=\\frac{\\pi}{3},\\quad \\frac{5\\pi}{3}\n\\]\nVelocity is\n\\[\nv(0)=-A\\omega\\sin\\phi\n\\]\nFor \\(v(0)\u003c0\\), \\(\\sin\\phi\u003e0\\), so\n\\[\n\\phi=\\frac{\\pi}{3}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-18",
+      "prompt": "An oscillator has \\(A=0.060\\,\\mathrm{m}\\), \\(T=2.0\\,\\mathrm{s}\\), \\(x(0)=0.030\\,\\mathrm{m}\\), and \\(v(0)\u003e0\\). Construct \\(x(t)=A\\cos(\\omega t+\\phi)\\).",
+      "answer": "The angular frequency is\n\\[\n\\omega=\\frac{2\\pi}{T}=\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe initial displacement gives\n\\[\n0.060\\cos\\phi=0.030\n\\]\nso\n\\[\n\\cos\\phi=\\frac{1}{2}\n\\]\nCandidates are \\(\\pi/3\\) and \\(5\\pi/3\\). Since\n\\[\nv(0)=-A\\omega\\sin\\phi\n\\]\nand \\(v(0)\u003e0\\), choose \\(\\sin\\phi\u003c0\\):\n\\[\n\\phi=\\frac{5\\pi}{3}\n\\]\nThus\n\\[\nx(t)=0.060\\cos\\left(\\pi t+\\frac{5\\pi}{3}\\right)\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-10",
+      "prompt": "A sensor records successive positive maxima at \\(t=0.30\\,\\mathrm{s}\\), \\(1.10\\,\\mathrm{s}\\), and \\(1.90\\,\\mathrm{s}\\). The maximum displacement is \\(0.040\\,\\mathrm{m}\\). Construct a cosine model \\(x(t)=A\\cos(\\omega t+\\phi)\\), choosing \\(0\\leq\\phi\u003c2\\pi\\), and state the timing assumptions.",
+      "answer": "Successive positive maxima are separated by one period. The times differ by\n\\[\n1.10-0.30=0.80\\,\\mathrm{s},\\qquad 1.90-1.10=0.80\\,\\mathrm{s}\n\\]\nso\n\\[\nT=0.80\\,\\mathrm{s}\n\\]\nand\n\\[\n\\omega=\\frac{2\\pi}{T}=2.5\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe amplitude is\n\\[\nA=0.040\\,\\mathrm{m}\n\\]\nFor a positive maximum at \\(t=0.30\\,\\mathrm{s}\\),\n\\[\n\\omega(0.30)+\\phi=2\\pi n\n\\]\nChoose \\(n=1\\):\n\\[\n\\phi=2\\pi-(2.5\\pi)(0.30)=2\\pi-0.75\\pi=1.25\\pi=\\frac{5\\pi}{4}\n\\]\nOne model is\n\\[\nx(t)=0.040\\cos\\left(2.5\\pi t+\\frac{5\\pi}{4}\\right)\\,\\mathrm{m}\n\\]\nThis assumes the recorded maxima are consecutive positive maxima and the motion is sinusoidal with constant period.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-19",
+      "prompt": "A sinusoidal displacement has a positive-going equilibrium crossing at \\(t=0.20\\,\\mathrm{s}\\) and the next negative-going equilibrium crossing at \\(t=0.70\\,\\mathrm{s}\\). Its amplitude is \\(0.090\\,\\mathrm{m}\\). Construct \\(x(t)=A\\cos(\\omega t+\\phi)\\), choosing \\(0\\leq\\phi\u003c2\\pi\\).",
+      "answer": "A positive-going equilibrium crossing and the next negative-going equilibrium crossing are half a period apart, so\n\\[\n\\frac{T}{2}=0.70-0.20=0.50\\,\\mathrm{s}\n\\]\nThus\n\\[\nT=1.0\\,\\mathrm{s},\\qquad \\omega=2\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nAt \\(t=0.20\\,\\mathrm{s}\\), the displacement is zero and velocity is positive. For cosine form, positive-going crossing requires phase \\(3\\pi/2\\) modulo \\(2\\pi\\):\n\\[\n\\omega(0.20)+\\phi=\\frac{3\\pi}{2}\n\\]\n\\[\n0.40\\pi+\\phi=\\frac{3\\pi}{2}\n\\]\n\\[\n\\phi=\\frac{11\\pi}{10}\n\\]\nTherefore\n\\[\nx(t)=0.090\\cos\\left(2\\pi t+\\frac{11\\pi}{10}\\right)\\,\\mathrm{m}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "describing-oscillation-20",
+      "prompt": "Two signals are \\(x_1=A\\cos(\\omega t)\\) and \\(x_2=A\\cos(\\omega t+\\phi)\\). Derive all time shifts \\(\\Delta t\\) for which \\(x_2(t)=x_1(t+\\Delta t)\\), and explain why the answer is not unique.",
+      "answer": "Require\n\\[\nx_2(t)=x_1(t+\\Delta t)\n\\]\nso\n\\[\nA\\cos(\\omega t+\\phi)=A\\cos(\\omega t+\\omega\\Delta t)\n\\]\nFor the same signal for all \\(t\\), the phases must differ by an integer multiple of \\(2\\pi\\):\n\\[\n\\omega\\Delta t=\\phi+2\\pi n\n\\]\nwhere \\(n\\) is any integer. Thus\n\\[\n\\Delta t=\\frac{\\phi+2\\pi n}{\\omega},\\qquad n\\in\\mathbb{Z}\n\\]\nThe answer is not unique because adding one full period to a time shift gives the same sinusoidal signal.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

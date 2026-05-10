@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "forces-on-current-carrying-conductors",
+  "topicTitle": "Forces on Current-Carrying Conductors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "current-conductor-forces-01",
+      "prompt": "State the magnetic force law for a straight current-carrying wire segment.",
+      "answer": "The force is\n\\[\n\\vec F=I\\vec L\\times\\vec B\n\\]\nwhere \\(\\vec L\\) points in the conventional current direction.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-02",
+      "prompt": "State the magnitude of force on a straight wire of length \\(L\\) carrying current \\(I\\) in a magnetic field.",
+      "answer": "The magnitude is\n\\[\nF=ILB\\sin\\theta\n\\]\nwhere \\(\\theta\\) is the angle between current direction and \\(\\vec B\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-03",
+      "prompt": "When is the magnetic force on a straight current-carrying wire zero?",
+      "answer": "It is zero if the current is zero, the field is zero, the wire length in the field is zero, or the current is parallel to the magnetic field.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-04",
+      "prompt": "A \\(0.40\\,\\mathrm{m}\\) wire carries \\(5.0\\,\\mathrm{A}\\) perpendicular to \\(0.20\\,\\mathrm{T}\\). Find the force.",
+      "answer": "\\[\nF=ILB=(5.0)(0.40)(0.20)=0.40\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-05",
+      "prompt": "A \\(0.80\\,\\mathrm{m}\\) wire carries \\(3.0\\,\\mathrm{A}\\) at \\(30^\\circ\\) to a \\(0.50\\,\\mathrm{T}\\) field. Find the force magnitude.",
+      "answer": "\\[\nF=ILB\\sin30^\\circ=(3.0)(0.80)(0.50)(0.5)=0.60\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-06",
+      "prompt": "A wire feels \\(0.12\\,\\mathrm{N}\\) when \\(0.30\\,\\mathrm{m}\\) of it carries \\(4.0\\,\\mathrm{A}\\) perpendicular to the field. Find \\(B\\).",
+      "answer": "\\[\nB=\\frac{F}{IL}=\\frac{0.12}{(4.0)(0.30)}=0.10\\,\\mathrm{T}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-07",
+      "prompt": "What direction vector is used for \\(\\vec L\\) in \\(\\vec F=I\\vec L\\times\\vec B\\)?",
+      "answer": "\\(\\vec L\\) points along the wire in the direction of conventional current.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-08",
+      "prompt": "A wire carries current east through a magnetic field pointing north. What is the force direction?",
+      "answer": "Use \\(\\vec L\\times\\vec B\\). East crossed with north points upward, so the force is upward.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-09",
+      "prompt": "A wire carries current north through a magnetic field pointing east. What is the force direction?",
+      "answer": "North crossed with east points downward. The force on the wire is downward.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-10",
+      "prompt": "Find the force per unit length on a wire carrying \\(12\\,\\mathrm{A}\\) perpendicular to \\(0.050\\,\\mathrm{T}\\).",
+      "answer": "\\[\n\\frac{F}{L}=IB=(12)(0.050)=0.60\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-11",
+      "prompt": "Why does reversing the current reverse the force on a wire in the same magnetic field?",
+      "answer": "Reversing current reverses \\(\\vec L\\). Since\n\\[\n\\vec F=I\\vec L\\times\\vec B\n\\]\nreversing \\(\\vec L\\) reverses the cross product direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-12",
+      "prompt": "Why does a wire parallel to a magnetic field feel no magnetic force?",
+      "answer": "If the current direction is parallel to \\(\\vec B\\), then \\(\\theta=0\\), so\n\\[\nF=ILB\\sin0=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-13",
+      "prompt": "Derive \\(F=ILB\\sin\\theta\\) from the vector law for a wire.",
+      "answer": "The vector law is\n\\[\n\\vec F=I\\vec L\\times\\vec B\n\\]\nThe magnitude of a cross product is the product of magnitudes times \\(\\sin\\theta\\), so\n\\[\nF=ILB\\sin\\theta\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-14",
+      "prompt": "A horizontal wire of length \\(0.50\\,\\mathrm{m}\\) and mass \\(0.020\\,\\mathrm{kg}\\) is perpendicular to a magnetic field of \\(0.40\\,\\mathrm{T}\\). What current is needed for magnetic force to support its weight?",
+      "answer": "Set \\(ILB=mg\\):\n\\[\nI=\\frac{mg}{LB}=\\frac{(0.020)(9.8)}{(0.50)(0.40)}=0.98\\,\\mathrm{A}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-15",
+      "prompt": "A wire segment in a field carries \\(2.0\\,\\mathrm{A}\\). The force is \\(0.30\\,\\mathrm{N}\\) on \\(0.50\\,\\mathrm{m}\\) at \\(90^\\circ\\). Find the field strength and state the unit.",
+      "answer": "\\[\nB=\\frac{F}{IL}=\\frac{0.30}{(2.0)(0.50)}=0.30\\,\\mathrm{T}\n\\]\nThe field strength is \\(0.30\\,\\mathrm{T}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-16",
+      "prompt": "A rectangular wire loop in a uniform magnetic field has two sides parallel to the field and two sides perpendicular. Which sides feel force?",
+      "answer": "The parallel sides feel no force because \\(\\sin\\theta=0\\). The perpendicular sides feel equal-magnitude forces because \\(F=ILB\\) for those sides.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-17",
+      "prompt": "Why can forces on opposite sides of a current loop produce torque even when net force is zero?",
+      "answer": "The forces can be equal and opposite, so their vector sum is zero, but they act at different locations. Separated equal and opposite forces form a couple, producing torque.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-18",
+      "prompt": "A wire carries current in \\(+x\\) and the magnetic field is in \\(-z\\). Find the force direction.",
+      "answer": "Use \\(\\hat x\\times(-\\hat z)=+\\hat y\\). The force is in the \\(+y\\) direction.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-19",
+      "prompt": "A wire carries conventional current upward. Electrons drift downward. Which direction should be used in the wire-force law?",
+      "answer": "Use conventional current direction, upward. The law \\(\\vec F=I\\vec L\\times\\vec B\\) is written with \\(I\\vec L\\) in the conventional current direction.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "current-conductor-forces-20",
+      "prompt": "Explain how the force on a current-carrying wire follows from the force on individual moving charges.",
+      "answer": "Each moving carrier feels \\(q\\vec v_d\\times\\vec B\\). Adding the forces over all carriers in a length of wire gives a total force proportional to charge flow per time, which is current. The result is\n\\[\n\\vec F=I\\vec L\\times\\vec B\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

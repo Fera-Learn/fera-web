@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "dc-circuits",
+  "topicId": "kirchhoff-analysis",
+  "topicTitle": "Kirchhoff Analysis",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "kirchhoff-analysis-01",
+      "prompt": "State Kirchhoff\u0027s junction law in words.",
+      "answer": "The total current entering a junction equals the total current leaving it. Equivalently, the algebraic sum of currents at a node is zero.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-02",
+      "prompt": "State Kirchhoff\u0027s loop law in words.",
+      "answer": "The algebraic sum of potential changes around any closed circuit loop is zero.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-03",
+      "prompt": "At a junction, \\(5.0\\,\\mathrm{A}\\) enters and \\(2.0\\,\\mathrm{A}\\) leaves through one branch. What current must leave through the other branch?",
+      "answer": "Current entering must equal current leaving:\n\\[\n5.0=2.0+I\n\\]\nso\n\\[\nI=3.0\\,\\mathrm{A}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-04",
+      "prompt": "A \\(9.0\\,\\mathrm{V}\\) battery drives \\(2.0\\,\\Omega\\) and \\(7.0\\,\\Omega\\) resistors in one series loop. Write the loop equation and find the current.",
+      "answer": "Choose the current direction away from the positive terminal of the battery. The loop equation is\n\\[\n9.0-2.0I-7.0I=0\n\\]\nThus\n\\[\nI=\\frac{9.0}{9.0}=1.0\\,\\mathrm{A}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-05",
+      "prompt": "When traversing a resistor in the same direction as the assumed current, what sign should the potential change have? What sign should it have when traversing against the current?",
+      "answer": "Traversing a resistor in the direction of the assumed current gives a potential drop:\n\\[\n\\Delta V=-IR\n\\]\nTraversing against the assumed current gives a potential rise:\n\\[\n\\Delta V=+IR\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-06",
+      "prompt": "When traversing an ideal battery from its negative terminal to its positive terminal, what potential change is used in a loop equation?",
+      "answer": "From the negative terminal to the positive terminal, the potential change is a rise:\n\\[\n\\Delta V=+\\mathcal E\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-07",
+      "prompt": "A loop contains a \\(12\\,\\mathrm{V}\\) source, a \\(2.0\\,\\Omega\\) resistor, a \\(4.0\\,\\Omega\\) resistor, and a \\(6.0\\,\\mathrm{V}\\) source opposing the \\(12\\,\\mathrm{V}\\) source. Find the current.",
+      "answer": "The sources oppose, so the loop equation can be written\n\\[\n12-2I-4I-6=0\n\\]\n\\[\n6-6I=0\n\\]\nTherefore\n\\[\nI=1.0\\,\\mathrm{A}\n\\]\nin the direction driven by the \\(12\\,\\mathrm{V}\\) source.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-08",
+      "prompt": "A node is connected to \\(12\\,\\mathrm{V}\\) through \\(3.0\\,\\Omega\\) and to ground through \\(6.0\\,\\Omega\\). Use a node equation to find the node voltage.",
+      "answer": "Current from the \\(12\\,\\mathrm{V}\\) node into the unknown node equals current from the node to ground:\n\\[\n\\frac{12-V}{3.0}=\\frac{V}{6.0}\n\\]\nMultiply by \\(6.0\\):\n\\[\n2(12-V)=V\n\\]\n\\[\n24-2V=V\n\\]\nso\n\\[\nV=8.0\\,\\mathrm{V}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-09",
+      "prompt": "At a node, \\(I_1\\) enters while \\(I_2\\) and \\(I_3\\) leave. If \\(I_1=0.80\\,\\mathrm{A}\\) and \\(I_2=0.25\\,\\mathrm{A}\\), find \\(I_3\\).",
+      "answer": "Use \\(I_{\\mathrm{in}}=I_{\\mathrm{out}}\\):\n\\[\n0.80=0.25+I_3\n\\]\n\\[\nI_3=0.55\\,\\mathrm{A}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-10",
+      "prompt": "Two rectangular meshes share a \\(4.0\\,\\Omega\\) resistor. The left mesh has a \\(12\\,\\mathrm{V}\\) source and a \\(2.0\\,\\Omega\\) outer resistor. The right mesh has a \\(6.0\\,\\mathrm{V}\\) source and a \\(3.0\\,\\Omega\\) outer resistor. Choose clockwise mesh currents \\(I_1\\) and \\(I_2\\), with each source acting as a rise in its clockwise mesh direction. Write the two mesh equations.",
+      "answer": "For the left mesh, the shared resistor carries \\(I_1-I_2\\) in the direction of \\(I_1\\):\n\\[\n12-2I_1-4(I_1-I_2)=0\n\\]\nso\n\\[\n6I_1-4I_2=12\n\\]\nFor the right mesh:\n\\[\n6-3I_2-4(I_2-I_1)=0\n\\]\nso\n\\[\n-4I_1+7I_2=6\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-11",
+      "prompt": "Solve the mesh equations from the previous question: \\(6I_1-4I_2=12\\) and \\(-4I_1+7I_2=6\\). Also find the current through the shared resistor.",
+      "answer": "Solve\n\\[\n6I_1-4I_2=12,\\qquad -4I_1+7I_2=6\n\\]\nThe determinant is\n\\[\n(6)(7)-(-4)(-4)=42-16=26\n\\]\n\\[\nI_1=\\frac{(12)(7)-(-4)(6)}{26}\n=\\frac{108}{26}=4.15\\,\\mathrm{A}\n\\]\n\\[\nI_2=\\frac{(6)(6)-(-4)(12)}{26}\n=\\frac{84}{26}=3.23\\,\\mathrm{A}\n\\]\nThe shared-resistor current is\n\\[\nI_1-I_2=0.92\\,\\mathrm{A}\n\\]\nin the direction of the left mesh current through the shared resistor.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-12",
+      "prompt": "A solved current is \\(I=-0.40\\,\\mathrm{A}\\) relative to the arrow you assumed. What is the physical interpretation?",
+      "answer": "The physical current has magnitude \\(0.40\\,\\mathrm{A}\\), but it flows opposite the arrow you assumed. A negative solution usually means the algebra was consistent and the initial direction guess was opposite the actual direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-13",
+      "prompt": "For a connected circuit with \\(N\\) essential nodes, how many independent node-voltage equations are needed? Why not \\(N\\)?",
+      "answer": "Only \\(N-1\\) independent node-voltage equations are needed. One node is chosen as the reference node, usually ground. The absolute zero of potential is arbitrary, so the remaining \\(N-1\\) node voltages determine all potential differences.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-14",
+      "prompt": "Why do Kirchhoff equations also require element laws such as \\(V=IR\\)?",
+      "answer": "Kirchhoff laws provide conservation equations, but they do not by themselves tell how a particular element relates current and voltage. For a resistor, the needed element law is\n\\[\nV=IR\n\\]\nFor a source, the element relation is the emf. Conservation laws plus element laws produce a solvable circuit model.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-15",
+      "prompt": "A single loop contains an unknown source \\(\\mathcal E\\), an opposing \\(3.0\\,\\mathrm{V}\\) source, and \\(4.0\\,\\Omega\\) plus \\(2.0\\,\\Omega\\) in series. The current is \\(1.5\\,\\mathrm{A}\\) in the direction of \\(\\mathcal E\\). Find \\(\\mathcal E\\).",
+      "answer": "The total resistance is\n\\[\nR=4.0+2.0=6.0\\,\\Omega\n\\]\nWrite the loop equation in the direction of \\(\\mathcal E\\):\n\\[\n\\mathcal E-3.0-IR=0\n\\]\n\\[\n\\mathcal E-3.0-(1.5)(6.0)=0\n\\]\nThus\n\\[\n\\mathcal E=12\\,\\mathrm{V}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-16",
+      "prompt": "A bridge circuit has two series arms across the same battery. The ratio \\(R_1/R_2\\) on one arm equals \\(R_3/R_4\\) on the other. A galvanometer connects the two middle nodes. What is the galvanometer current? Explain.",
+      "answer": "The galvanometer current is zero. Equal resistance ratios make the two middle-node potentials equal, so there is no potential difference across the galvanometer.\n\nIn divider form,\n\\[\n\\frac{V_2}{V}=\\frac{R_2}{R_1+R_2},\n\\qquad\n\\frac{V_4}{V}=\\frac{R_4}{R_3+R_4}\n\\]\nThe condition \\(R_1/R_2=R_3/R_4\\) makes these fractions equal, so \\(V_2=V_4\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-17",
+      "prompt": "A node at voltage \\(V\\) is connected to \\(10\\,\\mathrm{V}\\) through \\(2.0\\,\\Omega\\), to ground through \\(5.0\\,\\Omega\\), and to \\(4.0\\,\\mathrm{V}\\) through \\(3.0\\,\\Omega\\). Write and solve the node equation.",
+      "answer": "Write currents leaving the node:\n\\[\n\\frac{V-10}{2.0}+\\frac{V}{5.0}+\\frac{V-4.0}{3.0}=0\n\\]\nMultiply by \\(30\\):\n\\[\n15(V-10)+6V+10(V-4)=0\n\\]\n\\[\n31V-190=0\n\\]\nso\n\\[\nV=\\frac{190}{31}=6.13\\,\\mathrm{V}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-18",
+      "prompt": "Use Kirchhoff\u0027s loop law to explain why a resistor cannot dissipate energy around a closed loop unless some other element supplies energy.",
+      "answer": "A resistor traversed in the direction of current gives a negative potential change, \\(-IR\\), which represents energy per charge removed from the circuit and converted to thermal energy. Around a closed loop, the total potential change must be zero:\n\\[\n\\sum \\Delta V=0\n\\]\nTherefore resistor drops must be balanced by potential rises, usually sources. Without a source or another energy-supplying element, a steady current with only resistor drops would violate the loop law.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-19",
+      "prompt": "In mesh analysis, two mesh currents pass through the same resistor. When should the resistor current be written as \\(I_1-I_2\\), and when should it be written as \\(I_1+I_2\\)?",
+      "answer": "Use \\(I_1-I_2\\) when the two mesh currents pass through the shared resistor in opposite directions. The current in the resistor, measured in the direction of \\(I_1\\), is then \\(I_1-I_2\\).\n\nUse \\(I_1+I_2\\) when the two mesh currents pass through that same resistor in the same physical direction. The sign comes from the direction of the actual branch current relative to the traversal direction.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "kirchhoff-analysis-20",
+      "prompt": "A node at voltage \\(V\\) is connected to \\(18\\,\\mathrm{V}\\) through \\(6.0\\,\\Omega\\), to ground through \\(3.0\\,\\Omega\\), and to \\(-6.0\\,\\mathrm{V}\\) through \\(6.0\\,\\Omega\\). Use Kirchhoff\u0027s junction law to find \\(V\\) and the three branch currents.",
+      "answer": "Write currents leaving the node:\n\\[\n\\frac{V-18}{6.0}+\\frac{V}{3.0}+\\frac{V-(-6.0)}{6.0}=0\n\\]\n\\[\n\\frac{V-18}{6.0}+\\frac{V}{3.0}+\\frac{V+6.0}{6.0}=0\n\\]\nMultiply by \\(6.0\\):\n\\[\nV-18+2V+V+6=0\n\\]\n\\[\n4V-12=0\n\\]\nso\n\\[\nV=3.0\\,\\mathrm{V}\n\\]\nBranch currents:\n\\[\nI_{18\\to V}=\\frac{18-3}{6.0}=2.5\\,\\mathrm{A}\n\\]\n\\[\nI_{V\\to 0}=\\frac{3-0}{3.0}=1.0\\,\\mathrm{A}\n\\]\n\\[\nI_{V\\to -6}=\\frac{3-(-6)}{6.0}=1.5\\,\\mathrm{A}\n\\]\nThe leaving currents \\(1.0+1.5=2.5\\,\\mathrm{A}\\) match the entering current.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

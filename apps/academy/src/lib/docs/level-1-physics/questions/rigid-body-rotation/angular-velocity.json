@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "angular-velocity",
+  "topicTitle": "Angular Velocity",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "angular-velocity-01",
+      "prompt": "A wheel turns through \\(12\\,\\mathrm{rad}\\) in \\(4.0\\,\\mathrm{s}\\). Find its average angular velocity.",
+      "answer": "\\[\n\\omega_{\\mathrm{av}}=\\frac{\\Delta\\theta}{\\Delta t}=\\frac{12}{4.0}=3.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-02",
+      "prompt": "A rotor has period \\(T=0.20\\,\\mathrm{s}\\). Find its angular speed in \\(\\mathrm{rad\\,s^{-1}}\\).",
+      "answer": "\\[\n\\omega=\\frac{2\\pi}{T}=\\frac{2\\pi}{0.20}=31.4\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-03",
+      "prompt": "Convert \\(90\\,\\mathrm{rev\\,min^{-1}}\\) to angular speed in \\(\\mathrm{rad\\,s^{-1}}\\).",
+      "answer": "\\[\n90\\,\\mathrm{rev\\,min^{-1}}\\times\\frac{2\\pi\\,\\mathrm{rad}}{1\\,\\mathrm{rev}}\\times\\frac{1\\,\\mathrm{min}}{60\\,\\mathrm{s}}=9.42\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-04",
+      "prompt": "A wheel starts at \\(\\theta_0=1.0\\,\\mathrm{rad}\\) and rotates with constant \\(\\omega=5.0\\,\\mathrm{rad\\,s^{-1}}\\) for \\(8.0\\,\\mathrm{s}\\). Find \\(\\theta\\).",
+      "answer": "\\[\n\\theta=\\theta_0+\\omega t=1.0+5.0(8.0)=41\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-05",
+      "prompt": "For \\(\\theta(t)=4t^2-3t\\), find \\(\\omega\\) at \\(t=2.0\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\omega(t)=\\frac{d\\theta}{dt}=8t-3\n\\]\n\\[\n\\omega(2.0)=13\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-06",
+      "prompt": "Counterclockwise is positive. A wheel completes \\(3.0\\) clockwise revolutions in \\(2.0\\,\\mathrm{s}\\). Find average angular velocity.",
+      "answer": "Clockwise is negative:\n\\[\n\\Delta\\theta=-3.0(2\\pi)=-6\\pi\\,\\mathrm{rad}\n\\]\n\\[\n\\omega_{\\mathrm{av}}=\\frac{-6\\pi}{2.0}=-3\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-07",
+      "prompt": "For \\(\\theta(t)=2t^2-8t\\), over \\(0\\le t\\le5\\,\\mathrm{s}\\), find the net angular displacement and average angular velocity.",
+      "answer": "\\[\n\\theta(0)=0,\\qquad \\theta(5)=2(5)^2-8(5)=10\\,\\mathrm{rad}\n\\]\n\\[\n\\Delta\\theta=10\\,\\mathrm{rad}\n\\]\n\\[\n\\omega_{\\mathrm{av}}=\\frac{10}{5}=2.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-08",
+      "prompt": "For \\(\\theta(t)=2t^2-8t\\), over \\(0\\le t\\le5\\,\\mathrm{s}\\), find the total angle swept as well as the net angular displacement.",
+      "answer": "The reversal occurs where\n\\[\n\\omega=\\frac{d\\theta}{dt}=4t-8=0\n\\]\nso \\(t=2.0\\,\\mathrm{s}\\). Then\n\\[\n\\theta(0)=0,\\qquad \\theta(2)=-8\\,\\mathrm{rad},\\qquad \\theta(5)=10\\,\\mathrm{rad}\n\\]\nNet angular displacement:\n\\[\n\\Delta\\theta=10\\,\\mathrm{rad}\n\\]\nTotal angle swept:\n\\[\n|-8-0|+|10-(-8)|=26\\,\\mathrm{rad}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-09",
+      "prompt": "A motor\u0027s angular velocity changes linearly from \\(+6.0\\,\\mathrm{rad\\,s^{-1}}\\) to \\(-2.0\\,\\mathrm{rad\\,s^{-1}}\\) over \\(4.0\\,\\mathrm{s}\\). Find when it stops, the net angular displacement, and the total angle swept. State how you handled the reversal.",
+      "answer": "The linear angular-velocity model is\n\\[\n\\omega(t)=6.0-2.0t\n\\]\nThe motor stops when \\(\\omega=0\\):\n\\[\nt=3.0\\,\\mathrm{s}\n\\]\nNet displacement is the signed area under \\(\\omega(t)\\):\n\\[\n\\Delta\\theta=\\frac{6.0+(-2.0)}{2}(4.0)=8.0\\,\\mathrm{rad}\n\\]\nBecause the rotation reverses at \\(3.0\\,\\mathrm{s}\\), total angle swept is the sum of absolute areas:\n\\[\n\\theta_{\\mathrm{swept}}=\\frac{1}{2}(3.0)(6.0)+\\frac{1}{2}(1.0)(2.0)=10.0\\,\\mathrm{rad}\n\\]\nAssumption: positive and negative angular velocity represent opposite rotation directions, so total swept angle cannot be found from net displacement alone.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-velocity-10",
+      "prompt": "Let \\(\\omega(t)=\\omega_0-\\beta t\\) with \\(\\omega_0\u003e0\\) and \\(\\beta\u003e0\\). Derive the net angular displacement and total angle swept over \\(0\\le t\\le T\\), including the two cases set by the stopping time.",
+      "answer": "The stopping time is\n\\[\nt_s=\\frac{\\omega_0}{\\beta}\n\\]\nThe net angular displacement is always the signed integral:\n\\[\n\\Delta\\theta=\\int_0^T(\\omega_0-\\beta t)\\,dt=\\omega_0T-\\frac{1}{2}\\beta T^2\n\\]\nFor \\(T\\le t_s\\), there is no reversal, so\n\\[\n\\theta_{\\mathrm{swept}}=\\omega_0T-\\frac{1}{2}\\beta T^2\n\\]\nFor \\(T\u003et_s\\), split the integral at the reversal:\n\\[\n\\theta_{\\mathrm{swept}}=\\int_0^{t_s}(\\omega_0-\\beta t)\\,dt+\\int_{t_s}^{T}-(\\omega_0-\\beta t)\\,dt\n\\]\n\\[\n\\theta_{\\mathrm{swept}}=\\frac{\\omega_0^2}{2\\beta}+\\left(\\frac{1}{2}\\beta T^2-\\omega_0T+\\frac{\\omega_0^2}{2\\beta}\\right)\n\\]\n\\[\n\\theta_{\\mathrm{swept}}=\\frac{\\omega_0^2}{\\beta}-\\omega_0T+\\frac{1}{2}\\beta T^2\n\\]\nThe case split is required because total angle uses absolute angular motion, while displacement is signed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

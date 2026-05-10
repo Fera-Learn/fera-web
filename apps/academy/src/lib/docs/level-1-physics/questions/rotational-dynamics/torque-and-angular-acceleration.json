@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "torque-and-angular-acceleration",
+  "topicTitle": "Torque and Angular Acceleration",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "torque-alpha-01",
+      "prompt": "A wheel has \\(I=0.50\\,\\mathrm{kg\\,m^2}\\) and net torque \\(3.0\\,\\mathrm{N\\,m}\\). Find \\(\\alpha\\).",
+      "answer": "\\[\n\\alpha=\\frac{\\tau}{I}=\\frac{3.0}{0.50}=6.0\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-02",
+      "prompt": "A tangential \\(20\\,\\mathrm{N}\\) force acts at radius \\(0.15\\,\\mathrm{m}\\). Find the torque magnitude.",
+      "answer": "\\[\n\\tau=rF=0.15(20)=3.0\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-03",
+      "prompt": "If positive torque is counterclockwise and \\(\\alpha=-4\\,\\mathrm{rad\\,s^{-2}}\\), what is the sense of angular acceleration?",
+      "answer": "A negative \\(\\alpha\\) means clockwise angular acceleration under this sign convention.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-04",
+      "prompt": "The same net torque is applied to two wheels. Wheel A has twice the moment of inertia of wheel B. Compare their angular accelerations.",
+      "answer": "Since\n\\[\n\\alpha=\\frac{\\tau}{I}\n\\]\nwheel A has half the angular acceleration of wheel B.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-05",
+      "prompt": "A disk starts from rest and has constant angular acceleration \\(5.0\\,\\mathrm{rad\\,s^{-2}}\\) for \\(3.0\\,\\mathrm{s}\\). Find its final angular velocity.",
+      "answer": "\\[\n\\omega_f=\\omega_i+\\alpha t=0+5.0(3.0)=15\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-06",
+      "prompt": "A pulley has \\(I=0.20\\,\\mathrm{kg\\,m^2}\\) and radius \\(0.10\\,\\mathrm{m}\\). A string tension of \\(8.0\\,\\mathrm{N}\\) acts tangentially. Find \\(\\alpha\\).",
+      "answer": "\\[\n\\tau=RT=0.10(8.0)=0.80\\,\\mathrm{N\\,m}\n\\]\n\\[\n\\alpha=\\frac{\\tau}{I}=\\frac{0.80}{0.20}=4.0\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-07",
+      "prompt": "Two torques act on a wheel: \\(6.0\\,\\mathrm{N\\,m}\\) counterclockwise and \\(2.5\\,\\mathrm{N\\,m}\\) clockwise. If \\(I=0.70\\,\\mathrm{kg\\,m^2}\\), find \\(\\alpha\\).",
+      "answer": "\\[\n\\tau_{\\mathrm{net}}=6.0-2.5=3.5\\,\\mathrm{N\\,m}\n\\]\n\\[\n\\alpha=\\frac{3.5}{0.70}=5.0\\,\\mathrm{rad\\,s^{-2}}\n\\]\nThe angular acceleration is counterclockwise.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-08",
+      "prompt": "A no-slip string unwinds from a pulley of radius \\(0.12\\,\\mathrm{m}\\). If the string acceleration is \\(1.8\\,\\mathrm{m\\,s^{-2}}\\), find \\(\\alpha\\).",
+      "answer": "No slip gives\n\\[\na=R\\alpha\n\\]\n\\[\n\\alpha=\\frac{a}{R}=\\frac{1.8}{0.12}=15\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-09",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) mass hangs from a light string wrapped around a fixed pulley with \\(I=0.050\\,\\mathrm{kg\\,m^2}\\) and \\(R=0.10\\,\\mathrm{m}\\). If the mass accelerates downward at \\(1.6\\,\\mathrm{m\\,s^{-2}}\\), find the string tension and the pulley\u0027s angular acceleration.",
+      "answer": "For the hanging mass,\n\\[\nmg-T=ma\n\\]\n\\[\nT=m(g-a)=2.0(9.8-1.6)=16.4\\,\\mathrm{N}\n\\]\nNo slip gives\n\\[\n\\alpha=\\frac{a}{R}=\\frac{1.6}{0.10}=16\\,\\mathrm{rad\\,s^{-2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-10",
+      "prompt": "A wheel with \\(I=1.2\\,\\mathrm{kg\\,m^2}\\) has angular speed \\(10\\,\\mathrm{rad\\,s^{-1}}\\). A constant opposing torque of \\(3.0\\,\\mathrm{N\\,m}\\) acts until it stops. Find the angular deceleration and stopping time.",
+      "answer": "\\[\n\\alpha=-\\frac{\\tau}{I}=-\\frac{3.0}{1.2}=-2.5\\,\\mathrm{rad\\,s^{-2}}\n\\]\n\\[\n0=\\omega_i+\\alpha t\n\\]\n\\[\nt=\\frac{10}{2.5}=4.0\\,\\mathrm{s}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-11",
+      "prompt": "A mass \\(m\\) hangs from a light string wound around a fixed pulley of radius \\(R\\) and moment of inertia \\(I\\). The string does not slip and the system is released from rest. Derive the mass\u0027s downward acceleration and the string tension.",
+      "answer": "For the falling mass,\n\\[\nmg-T=ma\n\\]\nFor the pulley,\n\\[\nTR=I\\alpha\n\\]\nNo slip gives\n\\[\na=R\\alpha\n\\]\nso\n\\[\nT=\\frac{Ia}{R^2}\n\\]\nSubstitute into the mass equation:\n\\[\nmg-\\frac{Ia}{R^2}=ma\n\\]\n\\[\na=\\frac{mg}{m+I/R^2}=\\frac{mgR^2}{I+mR^2}\n\\]\nThen\n\\[\nT=mg-ma=\\frac{mgI}{I+mR^2}\n\\]\nThe acceleration is less than \\(g\\) because some gravitational energy goes into rotational kinetic energy of the pulley.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-alpha-12",
+      "prompt": "Two hanging masses \\(m_1\\) and \\(m_2\\) are attached to light strings wound on different radii \\(r_1\\) and \\(r_2\\) of the same fixed pulley with moment of inertia \\(I\\). Taking positive \\(\\alpha\\) as \\(m_2\\) moving downward, derive \\(\\alpha\\), the two tensions, and the condition for the assumed direction to be correct.",
+      "answer": "With positive \\(\\alpha\\) meaning \\(m_2\\) moves downward,\n\\[\nT_1-m_1g=m_1r_1\\alpha\n\\]\n\\[\nm_2g-T_2=m_2r_2\\alpha\n\\]\nThe pulley equation is\n\\[\nT_2r_2-T_1r_1=I\\alpha\n\\]\nUse\n\\[\nT_1=m_1(g+r_1\\alpha)\n\\]\n\\[\nT_2=m_2(g-r_2\\alpha)\n\\]\nSubstitute into the torque equation:\n\\[\nm_2gr_2-m_2r_2^2\\alpha-m_1gr_1-m_1r_1^2\\alpha=I\\alpha\n\\]\n\\[\n\\alpha=\\frac{m_2gr_2-m_1gr_1}{I+m_1r_1^2+m_2r_2^2}\n\\]\nThe tensions are\n\\[\nT_1=m_1(g+r_1\\alpha)\n\\]\n\\[\nT_2=m_2(g-r_2\\alpha)\n\\]\nThe assumed direction is correct when\n\\[\nm_2r_2\u003em_1r_1\n\\]\nIf the numerator is zero, there is no angular acceleration; if it is negative, the motion is opposite to the assumed direction.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

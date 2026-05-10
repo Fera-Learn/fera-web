@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "simple-harmonic-motion",
+  "topicTitle": "Simple Harmonic Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "simple-harmonic-motion-01",
+      "prompt": "An oscillator has \\(a=-16x\\), with SI units understood. Find \\(\\omega\\).",
+      "answer": "The SHM condition is\n\\[\na=-\\omega^2x\n\\]\nso\n\\[\n\\omega^2=16\n\\]\nand\n\\[\n\\omega=4.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-02",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) mass is attached to a \\(200\\,\\mathrm{N\\,m^{-1}}\\) spring. Find \\(\\omega\\).",
+      "answer": "\\[\n\\omega=\\sqrt{\\frac{k}{m}}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{200}{0.50}}=20\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-11",
+      "prompt": "A motion has acceleration \\(a=-25x\\), with SI units understood. Does it satisfy the SHM acceleration condition, and what is \\(\\omega\\)?",
+      "answer": "The SHM condition is\n\\[\na=-\\omega^2x\n\\]\nThe given motion has \\(\\omega^2=25\\), so it satisfies the condition with\n\\[\n\\omega=5.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-03",
+      "prompt": "For \\(x=A\\cos(\\omega t)\\), where is the acceleration largest in magnitude?",
+      "answer": "For SHM,\n\\[\na=-\\omega^2x\n\\]\nso the acceleration magnitude is largest where \\(|x|\\) is largest: at the turning points \\(x=\\pm A\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-12",
+      "prompt": "A simple harmonic oscillator has \\(A=0.040\\,\\mathrm{m}\\) and \\(\\omega=15\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(a_{\\max}\\).",
+      "answer": "In SHM,\n\\[\na_{\\max}=\\omega^2A\n\\]\nso\n\\[\na_{\\max}=15^2(0.040)=9.0\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-04",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) mass on a spring has \\(k=80\\,\\mathrm{N\\,m^{-1}}\\). Find its period.",
+      "answer": "\\[\nT=2\\pi\\sqrt{\\frac{m}{k}}\n\\]\n\\[\nT=2\\pi\\sqrt{\\frac{0.20}{80}}=0.314\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-05",
+      "prompt": "A spring oscillator has \\(A=0.10\\,\\mathrm{m}\\) and \\(\\omega=12\\,\\mathrm{rad\\,s^{-1}}\\). Find its maximum speed.",
+      "answer": "Maximum speed is\n\\[\nv_{\\max}=A\\omega\n\\]\nso\n\\[\nv_{\\max}=0.10(12)=1.2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-13",
+      "prompt": "A spring has \\(k=45\\,\\mathrm{N\\,m^{-1}}\\), and the attached mass oscillates with \\(\\omega=3.0\\,\\mathrm{rad\\,s^{-1}}\\). Find the mass.",
+      "answer": "Use\n\\[\n\\omega=\\sqrt{\\frac{k}{m}}\n\\]\nso\n\\[\nm=\\frac{k}{\\omega^2}=\\frac{45}{3.0^2}=5.0\\,\\mathrm{kg}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-14",
+      "prompt": "If the mass on a spring is increased by a factor of \\(9\\), by what factor does the SHM period change?",
+      "answer": "For a spring oscillator,\n\\[\nT=2\\pi\\sqrt{\\frac{m}{k}}\n\\]\nso \\(T\\propto\\sqrt{m}\\). If \\(m\\) increases by a factor of \\(9\\), the period increases by\n\\[\n\\sqrt{9}=3\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-06",
+      "prompt": "For \\(x=0.080\\cos(6t+\\pi/3)\\,\\mathrm{m}\\), find \\(x(0)\\), \\(v(0)\\), and \\(a(0)\\).",
+      "answer": "The displacement is\n\\[\nx(t)=0.080\\cos(6t+\\pi/3)\n\\]\nso\n\\[\nx(0)=0.080\\cos(\\pi/3)=0.040\\,\\mathrm{m}\n\\]\nVelocity:\n\\[\nv(t)=-0.080(6)\\sin(6t+\\pi/3)\n\\]\n\\[\nv(0)=-0.480\\sin(\\pi/3)=-0.416\\,\\mathrm{m\\,s^{-1}}\n\\]\nAcceleration:\n\\[\na=-\\omega^2x=-36(0.040)=-1.44\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-15",
+      "prompt": "For \\(x=A\\cos(\\omega t)\\), find the first positive time when the oscillator passes through equilibrium and state the sign of its velocity then.",
+      "answer": "Equilibrium means \\(x=0\\):\n\\[\nA\\cos(\\omega t)=0\n\\]\nThe first positive time is when\n\\[\n\\omega t=\\frac{\\pi}{2}\n\\]\nso\n\\[\nt=\\frac{\\pi}{2\\omega}=\\frac{T}{4}\n\\]\nVelocity is\n\\[\nv=-A\\omega\\sin(\\omega t)\n\\]\nAt this time \\(\\sin(\\pi/2)=1\\), so the velocity is negative.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-07",
+      "prompt": "A mass-spring oscillator starts at \\(x=0\\) moving in the positive direction with speed \\(v_{\\max}\\). Write \\(x(t)\\) in cosine form.",
+      "answer": "Use\n\\[\nx=A\\cos(\\omega t+\\phi)\n\\]\nThe initial condition \\(x(0)=0\\) gives \\(\\cos\\phi=0\\), so \\(\\phi=\\pi/2\\) or \\(3\\pi/2\\). Velocity is\n\\[\nv=-A\\omega\\sin(\\omega t+\\phi)\n\\]\nFor initial velocity positive, \\(-\\sin\\phi\u003e0\\), so \\(\\sin\\phi\u003c0\\). Therefore\n\\[\n\\phi=\\frac{3\\pi}{2}\n\\]\nOne cosine form is\n\\[\nx(t)=A\\cos\\left(\\omega t+\\frac{3\\pi}{2}\\right)\n\\]\nEquivalently, \\(x(t)=A\\sin\\omega t\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-08",
+      "prompt": "A \\(0.40\\,\\mathrm{kg}\\) oscillator has period \\(0.50\\,\\mathrm{s}\\). Find the spring constant.",
+      "answer": "From\n\\[\nT=2\\pi\\sqrt{\\frac{m}{k}}\n\\]\nrearrange:\n\\[\nk=\\frac{4\\pi^2m}{T^2}\n\\]\n\\[\nk=\\frac{4\\pi^2(0.40)}{(0.50)^2}=63\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-16",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) mass on a horizontal spring is displaced \\(0.060\\,\\mathrm{m}\\) and released from rest. The spring constant is \\(50\\,\\mathrm{N\\,m^{-1}}\\). Write \\(x(t)\\).",
+      "answer": "Released from rest at positive maximum displacement gives \\(\\phi=0\\) and \\(A=0.060\\,\\mathrm{m}\\). The angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{50}{0.20}}=15.8\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThus\n\\[\nx(t)=0.060\\cos(15.8t)\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-17",
+      "prompt": "For \\(x=A\\cos(\\omega t+\\phi)\\), derive expressions for \\(v_{\\max}\\) and \\(a_{\\max}\\) in terms of \\(A\\) and \\(\\omega\\).",
+      "answer": "Differentiate:\n\\[\nv=-A\\omega\\sin(\\omega t+\\phi)\n\\]\nThe sine factor has maximum magnitude \\(1\\), so\n\\[\nv_{\\max}=A\\omega\n\\]\nAcceleration is\n\\[\na=-A\\omega^2\\cos(\\omega t+\\phi)\n\\]\nso\n\\[\na_{\\max}=A\\omega^2\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-09",
+      "prompt": "A \\(0.30\\,\\mathrm{kg}\\) mass is attached to a horizontal spring. It is observed to have acceleration \\(1.8\\,\\mathrm{m\\,s^{-2}}\\) toward equilibrium when displaced \\(0.060\\,\\mathrm{m}\\). Find \\(k\\) and \\(T\\).",
+      "answer": "The acceleration magnitude at displacement \\(x\\) is\n\\[\n|a|=\\omega^2|x|\n\\]\nso\n\\[\n\\omega^2=\\frac{1.8}{0.060}=30\\,\\mathrm{s^{-2}}\n\\]\nUsing \\(\\omega^2=k/m\\),\n\\[\nk=m\\omega^2=0.30(30)=9.0\\,\\mathrm{N\\,m^{-1}}\n\\]\nThe period is\n\\[\nT=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{\\sqrt{30}}=1.15\\,\\mathrm{s}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-18",
+      "prompt": "A mass-spring oscillator has \\(x(0)=0\\), \\(v(0)=-0.80\\,\\mathrm{m\\,s^{-1}}\\), and \\(\\omega=20\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(A\\) and a cosine-form phase \\(\\phi\\).",
+      "answer": "At \\(x(0)=0\\), all the initial motion is speed, so\n\\[\nv_{\\max}=0.80\\,\\mathrm{m\\,s^{-1}}\n\\]\nand\n\\[\nA=\\frac{v_{\\max}}{\\omega}=\\frac{0.80}{20}=0.040\\,\\mathrm{m}\n\\]\nFor cosine form, \\(x(0)=0\\) means \\(\\phi=\\pi/2\\) or \\(3\\pi/2\\). Since\n\\[\nv(0)=-A\\omega\\sin\\phi\n\\]\nand \\(v(0)\u003c0\\), choose \\(\\sin\\phi\u003e0\\):\n\\[\n\\phi=\\frac{\\pi}{2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-10",
+      "prompt": "An oscillator obeys \\(m\\ddot{x}+kx=0\\). It has \\(x(0)=x_0\\) and \\(v(0)=v_0\\). Derive \\(A\\) and \\(\\phi\\) for \\(x=A\\cos(\\omega t+\\phi)\\), with \\(\\omega=\\sqrt{k/m}\\), and state how the quadrant of \\(\\phi\\) is chosen.",
+      "answer": "For\n\\[\nx=A\\cos(\\omega t+\\phi)\n\\]\nthe initial displacement is\n\\[\nx_0=A\\cos\\phi\n\\]\nand the velocity is\n\\[\nv=-A\\omega\\sin(\\omega t+\\phi)\n\\]\nso\n\\[\nv_0=-A\\omega\\sin\\phi\n\\]\nSquare and add:\n\\[\n\\left(\\frac{x_0}{A}\\right)^2+\\left(\\frac{v_0}{A\\omega}\\right)^2=1\n\\]\nso\n\\[\nA=\\sqrt{x_0^2+\\left(\\frac{v_0}{\\omega}\\right)^2}\n\\]\nThe phase satisfies\n\\[\n\\cos\\phi=\\frac{x_0}{A},\\qquad \\sin\\phi=-\\frac{v_0}{A\\omega}\n\\]\nThe quadrant of \\(\\phi\\) is chosen so both of these signs are true, not from \\(\\cos\\phi\\) alone.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-19",
+      "prompt": "A particle has measured motion \\(x(t)=C\\cos\\omega t+D\\sin\\omega t\\). Show that it satisfies \\(a=-\\omega^2x\\), then express its amplitude in terms of \\(C\\) and \\(D\\).",
+      "answer": "Differentiate twice:\n\\[\nx(t)=C\\cos\\omega t+D\\sin\\omega t\n\\]\n\\[\n\\dot{x}=-C\\omega\\sin\\omega t+D\\omega\\cos\\omega t\n\\]\n\\[\n\\ddot{x}=-C\\omega^2\\cos\\omega t-D\\omega^2\\sin\\omega t\n\\]\nFactor out \\(-\\omega^2\\):\n\\[\n\\ddot{x}=-\\omega^2(C\\cos\\omega t+D\\sin\\omega t)=-\\omega^2x\n\\]\nThe amplitude of \\(C\\cos\\omega t+D\\sin\\omega t\\) is\n\\[\nA=\\sqrt{C^2+D^2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "simple-harmonic-motion-20",
+      "prompt": "A spring oscillator is required to have period \\(T\\) and maximum acceleration no greater than \\(a_{\\max}\\). Derive the largest allowed amplitude in terms of \\(T\\) and \\(a_{\\max}\\), and state whether mass or spring constant enters this amplitude bound directly.",
+      "answer": "For SHM,\n\\[\na_{\\max}=\\omega^2A\n\\]\nThe period fixes\n\\[\n\\omega=\\frac{2\\pi}{T}\n\\]\nTherefore\n\\[\na_{\\max}\\ge \\left(\\frac{2\\pi}{T}\\right)^2A\n\\]\nso the largest allowed amplitude is\n\\[\nA_{\\max}=\\frac{a_{\\max}T^2}{4\\pi^2}\n\\]\nMass and spring constant do not enter this bound directly once the period \\(T\\) is specified. They only matter indirectly through how the oscillator is built to achieve that period.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "charged-particles-in-magnetic-fields",
+  "topicTitle": "Charged Particles in Magnetic Fields",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "charged-particles-magnetic-fields-01",
+      "prompt": "What path does a charged particle follow if it enters a uniform magnetic field with velocity perpendicular to the field?",
+      "answer": "It follows a circular path, assuming no other forces act. The magnetic force supplies the centripetal force.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-02",
+      "prompt": "State the radius of circular motion for a charged particle moving perpendicular to a uniform magnetic field.",
+      "answer": "The radius is\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nfor speed perpendicular to the field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-03",
+      "prompt": "What happens to the speed of a charged particle moving in a magnetic field if no other forces act?",
+      "answer": "The speed remains constant because magnetic force does no work.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-04",
+      "prompt": "Derive the circular-path radius from magnetic force and centripetal force.",
+      "answer": "Set magnetic force equal to radial force:\n\\[\n|q|vB=m\\frac{v^2}{r}\n\\]\nCancel one factor of \\(v\\):\n\\[\nr=\\frac{mv}{|q|B}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-05",
+      "prompt": "A proton moves at \\(2.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\) perpendicular to \\(0.50\\,\\mathrm{T}\\). Find its circular radius.",
+      "answer": "\\[\nr=\\frac{mv}{qB}=\\frac{(1.67\\times10^{-27})(2.0\\times10^5)}{(1.60\\times10^{-19})(0.50)}=4.2\\times10^{-3}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-06",
+      "prompt": "An electron moves at \\(3.0\\times10^6\\,\\mathrm{m\\,s^{-1}}\\) perpendicular to \\(0.020\\,\\mathrm{T}\\). Find its circular radius.",
+      "answer": "\\[\nr=\\frac{mv}{eB}=\\frac{(9.11\\times10^{-31})(3.0\\times10^6)}{(1.60\\times10^{-19})(0.020)}=8.5\\times10^{-4}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-07",
+      "prompt": "How does the radius change if the particle speed doubles while \\(m\\), \\(|q|\\), and \\(B\\) stay fixed?",
+      "answer": "Since\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nthe radius is directly proportional to speed. Doubling \\(v\\) doubles \\(r\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-08",
+      "prompt": "How does the radius change if the magnetic field doubles while \\(m\\), \\(|q|\\), and \\(v\\) stay fixed?",
+      "answer": "Since\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nthe radius is inversely proportional to \\(B\\). Doubling \\(B\\) halves \\(r\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-09",
+      "prompt": "State the angular speed of circular motion for a charged particle in a uniform magnetic field.",
+      "answer": "The angular speed is\n\\[\n\\omega=\\frac{|q|B}{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-10",
+      "prompt": "State the period of circular motion for a charged particle in a uniform magnetic field.",
+      "answer": "The period is\n\\[\nT=\\frac{2\\pi m}{|q|B}\n\\]\nfor nonrelativistic motion in a uniform magnetic field.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-11",
+      "prompt": "A particle has velocity with components both perpendicular and parallel to \\(\\vec B\\). What kind of path results?",
+      "answer": "The perpendicular component produces circular motion, while the parallel component remains unchanged. The combined path is a helix.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-12",
+      "prompt": "In helical motion, which speed component determines the radius?",
+      "answer": "The perpendicular component determines the radius:\n\\[\nr=\\frac{mv_\\perp}{|q|B}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-13",
+      "prompt": "What happens to the curvature direction if the sign of the charge is reversed?",
+      "answer": "The curvature direction reverses because the magnetic force direction depends on the sign of \\(q\\). The radius magnitude is unchanged if \\(|q|\\), \\(m\\), \\(v\\), and \\(B\\) are unchanged.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-14",
+      "prompt": "A singly charged ion moves in a circle of radius \\(0.20\\,\\mathrm{m}\\) at speed \\(4.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\) in \\(0.30\\,\\mathrm{T}\\). Find its mass.",
+      "answer": "Rearrange \\(r=mv/(|q|B)\\):\n\\[\nm=\\frac{|q|Br}{v}\n\\]\n\\[\nm=\\frac{(1.60\\times10^{-19})(0.30)(0.20)}{4.0\\times10^5}=2.4\\times10^{-26}\\,\\mathrm{kg}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-15",
+      "prompt": "A charged particle has momentum \\(p\\) perpendicular to a magnetic field. Express its orbit radius in terms of \\(p\\).",
+      "answer": "Since \\(p=mv\\),\n\\[\nr=\\frac{mv}{|q|B}=\\frac{p}{|q|B}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-16",
+      "prompt": "Find the magnetic field needed for a proton moving at \\(1.0\\times10^6\\,\\mathrm{m\\,s^{-1}}\\) to have radius \\(0.10\\,\\mathrm{m}\\).",
+      "answer": "\\[\nB=\\frac{mv}{qr}=\\frac{(1.67\\times10^{-27})(1.0\\times10^6)}{(1.60\\times10^{-19})(0.10)}=0.104\\,\\mathrm{T}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-17",
+      "prompt": "Why does the period not depend on speed for nonrelativistic circular motion in a uniform magnetic field?",
+      "answer": "The radius grows in proportion to speed:\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nThe period is circumference over speed:\n\\[\nT=\\frac{2\\pi r}{v}=\\frac{2\\pi m}{|q|B}\n\\]\nThe speed cancels.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-18",
+      "prompt": "A particle enters a magnetic field with kinetic energy doubled. How does the circular radius change if \\(B\\), \\(m\\), and \\(|q|\\) stay fixed?",
+      "answer": "For fixed mass, \\(K=\\tfrac12mv^2\\), so doubling \\(K\\) increases speed by \\(\\sqrt2\\). Since \\(r\\propto v\\), the radius increases by \\(\\sqrt2\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-19",
+      "prompt": "A helical path has parallel speed \\(v_\\parallel\\) and period \\(T\\). What is the pitch of the helix?",
+      "answer": "The pitch is the distance advanced parallel to the field in one period:\n\\[\n\\text{pitch}=v_\\parallel T= v_\\parallel\\frac{2\\pi m}{|q|B}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charged-particles-magnetic-fields-20",
+      "prompt": "Derive the helical motion model for a charged particle entering a uniform magnetic field at an arbitrary angle.",
+      "answer": "Split velocity into components:\n\\[\n\\vec v=\\vec v_\\perp+\\vec v_\\parallel\n\\]\nThe parallel component gives no magnetic force, so it remains constant. The perpendicular component feels \\(|q|v_\\perp B\\), which supplies centripetal force:\n\\[\nr=\\frac{mv_\\perp}{|q|B}\n\\]\nCombining uniform motion along \\(\\vec B\\) with circular motion perpendicular to \\(\\vec B\\) gives a helix.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

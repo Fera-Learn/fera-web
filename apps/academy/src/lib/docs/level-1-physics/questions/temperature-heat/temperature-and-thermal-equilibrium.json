@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "temperature-and-thermal-equilibrium",
+  "topicTitle": "Temperature and Thermal Equilibrium",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thermal-equilibrium-01",
+      "prompt": "Object A is at \\(310\\,\\mathrm{K}\\) and object B is at \\(290\\,\\mathrm{K}\\). They are placed in thermal contact. What is the direction of net heat transfer at first?",
+      "answer": "Heat transfers from the hotter object to the colder object, so the initial net transfer is from A to B.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-02",
+      "prompt": "A thermometer is placed in a liquid and eventually gives a steady reading of \\(36.5\\,{}^\\circ\\mathrm{C}\\). What temperature can be assigned to the liquid at that stage?",
+      "answer": "Once the reading is steady, the thermometer and liquid are in thermal equilibrium. Therefore\n\\[\nT_{\\mathrm{liquid}}=36.5\\,{}^\\circ\\mathrm{C}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-03",
+      "prompt": "Systems A and B are each separately in thermal equilibrium with system C. What does the zeroth law imply about A and B?",
+      "answer": "The zeroth law implies\n\\[\nT_A=T_C,\\qquad T_B=T_C\\Rightarrow T_A=T_B\n\\]\nso A and B are in thermal equilibrium with each other.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-04",
+      "prompt": "Two metal blocks have the same temperature, but one block has twice the mass of the other. Are they in thermal equilibrium if placed in contact? Does that require equal internal energies?",
+      "answer": "Yes. Thermal equilibrium requires equal temperature, not equal mass or equal internal energy. The larger block can have more internal energy while still having the same temperature.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-05",
+      "prompt": "A heat current is observed from system X to system Y when they are connected by a conducting link. Compare \\(T_X\\) and \\(T_Y\\).",
+      "answer": "Net heat transfer is from higher temperature to lower temperature. Since energy flows from X to Y,\n\\[\nT_X\u003eT_Y\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-06",
+      "prompt": "A tiny hot droplet is measured with a much larger cold thermometer. Explain why the final steady thermometer reading may be lower than the droplet\u0027s original temperature.",
+      "answer": "The thermometer must exchange energy with the droplet to reach equilibrium. If the thermometer is large and initially cold, it can remove a noticeable amount of energy from the small droplet, cooling the droplet before the final steady reading is reached. The steady reading is the final equilibrium temperature, not necessarily the droplet\u0027s original temperature.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-07",
+      "prompt": "A sensor in a furnace currently reads \\(480\\,\\mathrm{K}\\), but its reading is still increasing. Can \\(480\\,\\mathrm{K}\\) be taken as the furnace temperature? Explain using thermal equilibrium.",
+      "answer": "No. A reading that is still changing means the sensor has not reached thermal equilibrium with the furnace environment. The sensor\u0027s current temperature is \\(480\\,\\mathrm{K}\\), but the furnace temperature is higher than that reading if the sensor is still warming.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-08",
+      "prompt": "System A is in equilibrium with thermometer C at \\(295\\,\\mathrm{K}\\). Later, without changing C\u0027s calibration, system B is brought into equilibrium with the same thermometer and gives the same reading. Explain why A and B have the same temperature even though they never touched.",
+      "answer": "The thermometer C is a comparison system. If A equilibrates with C at \\(295\\,\\mathrm{K}\\), then \\(T_A=T_C\\). If B later equilibrates with the same thermometer at the same reading, then \\(T_B=T_C\\). Therefore\n\\[\nT_A=T_B\n\\]\nThis is exactly the transitive statement of the zeroth law.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-09",
+      "prompt": "An isolated pair of objects is left in thermal contact until all macroscopic changes stop. State the condition on their temperatures and on the net heat current between them. Does microscopic energy exchange have to stop?",
+      "answer": "At final thermal equilibrium,\n\\[\nT_1=T_2\n\\]\nand the net heat current between the objects is zero:\n\\[\nH_{1\\leftrightarrow2}=0\n\\]\nMicroscopic energy exchange need not stop. The condition is no net transfer in one direction.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-equilibrium-10",
+      "prompt": "A proposed thermometer property \\(X\\) gives the same value for two systems whenever a conducting wall between them produces no net heat transfer. Explain why this property can be used to build a temperature scale, and name the physical law behind the argument.",
+      "answer": "If equal values of \\(X\\) always correspond to no net heat transfer through a conducting wall, then \\(X\\) labels equivalence classes of systems that are mutually in thermal equilibrium. The zeroth law makes this consistent: if A matches C and B matches C, then A matches B. That transitivity is what lets \\(X\\) serve as a thermometer property for a temperature scale.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

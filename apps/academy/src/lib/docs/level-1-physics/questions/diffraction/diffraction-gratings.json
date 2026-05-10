@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "diffraction-gratings",
+  "topicTitle": "Diffraction Gratings",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "diffraction-gratings-01",
+      "prompt": "State the diffraction grating equation for normal incidence.",
+      "answer": "\\[\nd\\sin\\theta=m\\lambda\n\\]\nwhere \\(d\\) is grating spacing and \\(m\\) is the order.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-02",
+      "prompt": "How do you find grating spacing from line density \\(n_L\\)?",
+      "answer": "The spacing is the reciprocal of line density:\n\\[\nd=\\frac{1}{n_L}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-03",
+      "prompt": "A grating has \\(500\\,\\mathrm{lines\\,mm^{-1}}\\). Find \\(d\\).",
+      "answer": "\\[\nn_L=500\\times10^3\\,\\mathrm{m^{-1}}\n\\]\n\\[\nd=\\frac{1}{500\\times10^3}=2.00\\times10^{-6}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-04",
+      "prompt": "A grating has \\(600\\,\\mathrm{lines\\,mm^{-1}}\\). Find \\(d\\).",
+      "answer": "\\[\nd=\\frac{1}{600\\times10^3}=1.67\\times10^{-6}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-05",
+      "prompt": "Using \\(d=1.67\\times10^{-6}\\,\\mathrm{m}\\) and \\(\\lambda=632.8\\,\\mathrm{nm}\\), find the first-order angle.",
+      "answer": "\\[\n\\sin\\theta_1=\\frac{632.8\\times10^{-9}}{1.67\\times10^{-6}}=0.380\n\\]\nso\n\\[\n\\theta_1=22.3^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-06",
+      "prompt": "For the grating in question 5, find the second-order angle.",
+      "answer": "\\[\n\\sin\\theta_2=\\frac{2(632.8\\times10^{-9})}{1.67\\times10^{-6}}=0.759\n\\]\nso\n\\[\n\\theta_2=49.4^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-07",
+      "prompt": "What condition limits the maximum possible grating order?",
+      "answer": "Since \\(\\sin\\theta\\le1\\), allowed orders must satisfy\n\\[\n|m|\\lambda\\le d\n\\]\nso\n\\[\nm_{\\max}=\\left\\lfloor\\frac{d}{\\lambda}\\right\\rfloor\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-08",
+      "prompt": "For \\(d=1.67\\times10^{-6}\\,\\mathrm{m}\\) and \\(\\lambda=632.8\\,\\mathrm{nm}\\), find the largest possible order.",
+      "answer": "\\[\n\\frac{d}{\\lambda}=\\frac{1.67\\times10^{-6}}{632.8\\times10^{-9}}=2.64\n\\]\nso \\(m_{\\max}=2\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-09",
+      "prompt": "Why are higher diffraction orders more spread out for a given grating?",
+      "answer": "The grating equation gives \\(\\sin\\theta=m\\lambda/d\\). Larger \\(m\\) requires larger \\(\\theta\\), so higher orders appear farther from the central maximum.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-10",
+      "prompt": "If grating line density is increased, what happens to first-order diffraction angle for a fixed wavelength?",
+      "answer": "Increasing line density decreases \\(d\\). Since \\(\\sin\\theta=\\lambda/d\\), the first-order angle increases.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-11",
+      "prompt": "State the resolving power of a diffraction grating.",
+      "answer": "\\[\nR=\\frac{\\lambda}{\\Delta\\lambda}=mN\n\\]\nwhere \\(N\\) is the number of illuminated lines and \\(m\\) is the order.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-12",
+      "prompt": "A grating has \\(N=7200\\) illuminated lines in first order. Estimate the resolving power.",
+      "answer": "\\[\nR=mN=(1)(7200)=7200\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-13",
+      "prompt": "A first-order grating measurement uses \\(\\lambda=600\\,\\mathrm{nm}\\) and \\(N=6000\\) illuminated lines. Find \\(\\Delta\\lambda_{\\min}\\).",
+      "answer": "\\[\n\\Delta\\lambda=\\frac{\\lambda}{mN}=\\frac{600\\,\\mathrm{nm}}{(1)(6000)}=0.100\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-14",
+      "prompt": "A grating has \\(600\\,\\mathrm{lines\\,mm^{-1}}\\) illuminated over \\(12.0\\,\\mathrm{mm}\\). Find the number of illuminated lines.",
+      "answer": "\\[\nN=(600\\,\\mathrm{lines\\,mm^{-1}})(12.0\\,\\mathrm{mm})=7200\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-15",
+      "prompt": "Using \\(N=7200\\), \\(m=1\\), and \\(\\lambda=632.8\\,\\mathrm{nm}\\), estimate the smallest resolvable wavelength difference.",
+      "answer": "\\[\n\\Delta\\lambda=\\frac{\\lambda}{mN}=\\frac{632.8\\,\\mathrm{nm}}{7200}=0.0879\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-16",
+      "prompt": "What is the central maximum order for a diffraction grating at normal incidence?",
+      "answer": "The central maximum is \\(m=0\\). Then \\(d\\sin\\theta=0\\), so \\(\\theta=0\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-17",
+      "prompt": "A grating gives a first-order angle of \\(20.0^\\circ\\) for \\(500\\,\\mathrm{nm}\\) light. Find \\(d\\).",
+      "answer": "\\[\nd=\\frac{m\\lambda}{\\sin\\theta}=\\frac{500\\times10^{-9}}{\\sin20.0^\\circ}=1.46\\times10^{-6}\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-18",
+      "prompt": "For the grating in question 17, estimate the line density in \\(\\mathrm{lines\\,mm^{-1}}\\).",
+      "answer": "\\[\nn_L=\\frac{1}{d}=\\frac{1}{1.46\\times10^{-6}}=6.84\\times10^5\\,\\mathrm{m^{-1}}\n\\]\nThis is\n\\[\n684\\,\\mathrm{lines\\,mm^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-19",
+      "prompt": "Derive the maximum-order rule for a diffraction grating.",
+      "answer": "The grating equation is\n\\[\nd\\sin\\theta=m\\lambda\n\\]\nSince \\(|\\sin\\theta|\\le1\\),\n\\[\n|m|\\lambda\\le d\n\\]\nso the greatest positive integer order is\n\\[\nm_{\\max}=\\left\\lfloor\\frac{d}{\\lambda}\\right\\rfloor\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "diffraction-gratings-20",
+      "prompt": "Why does a diffraction grating separate colors?",
+      "answer": "For a fixed order and grating spacing,\n\\[\n\\sin\\theta=\\frac{m\\lambda}{d}\n\\]\nDifferent wavelengths therefore satisfy the maximum condition at different angles.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "forces-newtons-laws",
+  "topicId": "drawing-free-body-diagrams",
+  "topicTitle": "Drawing Free-Body Diagrams",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "free-body-diagrams-01",
+      "prompt": "An object falls vertically with air resistance ignored. List the forces on the object.",
+      "answer": "Only weight acts on the falling object:\n\\[\n\\vec{W}=m\\vec{g}\n\\]\ndownward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-02",
+      "prompt": "A book rests on a horizontal table. List the forces on the book.",
+      "answer": "The forces on the book are weight downward and the table\u0027s normal force upward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-03",
+      "prompt": "A book is pushed right across a rough horizontal table. List the forces on the book and the direction of friction.",
+      "answer": "The forces are weight downward, normal force upward, applied push to the right, and friction to the left.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-04",
+      "prompt": "A mass hangs motionless from a vertical string. List the forces on the mass.",
+      "answer": "The forces on the mass are weight downward and tension upward.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-05",
+      "prompt": "A block is on a frictionless incline of angle \\(\\theta\\). Resolve its weight into components parallel and perpendicular to the slope.",
+      "answer": "With axes parallel and perpendicular to the plane:\n\\[\nW_{\\parallel}=mg\\sin\\theta\n\\]\ndown the slope, and\n\\[\nW_{\\perp}=mg\\cos\\theta\n\\]\ninto the slope.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-06",
+      "prompt": "A crate on a horizontal floor is pulled by a rope at angle \\(\\theta\\) above the horizontal. List the forces and identify which force has two components.",
+      "answer": "The crate has weight downward, normal force upward, and rope tension along the rope. If the floor is rough, include friction along the floor opposite sliding or impending sliding. The rope tension has components:\n\\[\nT_x=T\\cos\\theta,\\quad T_y=T\\sin\\theta\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-07",
+      "prompt": "A passenger in a lift accelerates upward. Draw the vertical force model in words and write the force equation with upward positive.",
+      "answer": "The vertical forces are normal force upward and weight downward. With upward positive,\n\\[\nN-mg=ma_y\n\\]\nFor upward acceleration, \\(N\u003emg\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-08",
+      "prompt": "Block A on a table is connected by a light string over a pulley to hanging block B. List the forces on A and on B separately, ignoring friction, and write one Newton\u0027s second-law equation for each block using consistent axis directions.",
+      "answer": "On block A (table): weight \\(m_Ag\\) down, normal \\(N_A\\) up, tension \\(T\\) toward pulley. Taking +x toward pulley:\n\\[\nT=m_Aa\n\\]\nOn block B (hanging): weight \\(m_Bg\\) down, tension \\(T\\) up. Taking downward positive:\n\\[\nm_Bg-T=m_Ba\n\\]\nThese two equations are the consistent Newton-model pair.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-09",
+      "prompt": "A block slides down a rough incline. Choose axes parallel and perpendicular to the plane, then write the component force equations and derive an expression for acceleration in terms of \\(\\theta\\) and \\(\\mu_k\\).",
+      "answer": "Take down the slope as positive. Friction acts up the slope. The component equations are\n\\[\nmg\\sin\\theta-f_k=ma_{\\parallel}\n\\]\n\\[\nN-mg\\cos\\theta=0\n\\]\nWith \\(f_k=\\mu_kN=\\mu_kmg\\cos\\theta\\):\n\\[\na=g(\\sin\\theta-\\mu_k\\cos\\theta)\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "free-body-diagrams-10",
+      "prompt": "Block A \\((4.0\\,\\mathrm{kg})\\) is on a \\(30^\\circ\\) rough incline and connected over a pulley to hanging block B \\((3.0\\,\\mathrm{kg})\\). If \\(\\mu_k=0.20\\) on A and B moves downward, draw force models in words and find the system acceleration and string tension.",
+      "answer": "Assume B moves downward, so A moves up the slope.\n\nFor block A along slope (up positive):\n\\[\nT-m_Ag\\sin30^\\circ-f_k=m_Aa\n\\]\n\\[\nf_k=\\mu_kN=\\mu_k m_Ag\\cos30^\\circ\n=0.20(4.0)(9.8)\\cos30^\\circ=6.79\\,\\mathrm N\n\\]\nSo\n\\[\nT-4.0(9.8)\\sin30^\\circ-6.79=4.0a\n\\Rightarrow\nT-26.4=4.0a\n\\]\n\nFor block B (down positive):\n\\[\nm_Bg-T=m_Ba\n\\Rightarrow\n29.4-T=3.0a\n\\]\n\nSolve:\n\\[\n3.0a+26.4=29.4-4.0a\n\\Rightarrow\n7.0a=3.0\n\\Rightarrow\na=0.429\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\nT=29.4-3.0(0.429)=28.1\\,\\mathrm N\n\\]\nSo B accelerates downward and A up the incline at \\(0.429\\,\\mathrm{m\\,s^{-2}}\\), with tension \\(28.1\\,\\mathrm N\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

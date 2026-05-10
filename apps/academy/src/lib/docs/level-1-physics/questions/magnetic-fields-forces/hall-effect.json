@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "hall-effect",
+  "topicTitle": "Hall Effect",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "hall-effect-01",
+      "prompt": "What is the Hall effect?",
+      "answer": "The Hall effect is the development of a transverse voltage across a current-carrying conductor or semiconductor placed in a magnetic field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-02",
+      "prompt": "What force deflects charge carriers sideways in the Hall effect?",
+      "answer": "The magnetic force\n\\[\n\\vec F_B=q\\vec v_d\\times\\vec B\n\\]\ndeflects the moving charge carriers sideways.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-03",
+      "prompt": "What balances the magnetic force once the Hall voltage has built up?",
+      "answer": "The transverse electric force from the Hall field balances the magnetic force:\n\\[\n|q|E_H=|q|v_dB\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-04",
+      "prompt": "State the Hall field in terms of drift speed and magnetic field.",
+      "answer": "At balance,\n\\[\nE_H=v_dB\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-05",
+      "prompt": "State the Hall voltage for a strip carrying current \\(I\\) in field \\(B\\).",
+      "answer": "For carrier density \\(n\\), carrier charge \\(q\\), and thickness \\(t\\) along the field direction,\n\\[\nV_H=\\frac{IB}{nqt}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-06",
+      "prompt": "What can the sign of the Hall voltage reveal?",
+      "answer": "The sign of the Hall voltage reveals the sign of the mobile charge carriers, such as negative electrons or positive holes.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-07",
+      "prompt": "A strip has current \\(2.0\\,\\mathrm{A}\\), field \\(0.50\\,\\mathrm{T}\\), carrier density \\(8.0\\times10^{28}\\,\\mathrm{m^{-3}}\\), carrier charge \\(1.60\\times10^{-19}\\,\\mathrm{C}\\), and thickness \\(1.0\\,\\mathrm{mm}\\). Find \\(V_H\\).",
+      "answer": "\\[\nV_H=\\frac{IB}{nqt}=\\frac{(2.0)(0.50)}{(8.0\\times10^{28})(1.60\\times10^{-19})(1.0\\times10^{-3})}=7.8\\times10^{-8}\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-08",
+      "prompt": "How does Hall voltage change if current doubles and everything else stays fixed?",
+      "answer": "Since\n\\[\nV_H=\\frac{IB}{nqt}\n\\]\nHall voltage is directly proportional to current. Doubling \\(I\\) doubles \\(V_H\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-09",
+      "prompt": "How does Hall voltage change if the magnetic field reverses direction?",
+      "answer": "The Hall voltage reverses sign because the magnetic deflection reverses. Its magnitude is unchanged if \\(|B|\\) is unchanged.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-10",
+      "prompt": "Why is the Hall voltage usually small in metals?",
+      "answer": "Metals have very large carrier density \\(n\\). Since\n\\[\nV_H=\\frac{IB}{nqt}\n\\]\na large \\(n\\) makes \\(V_H\\) small.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-11",
+      "prompt": "A Hall sensor has \\(V_H=2.0\\,\\mathrm{mV}\\), \\(I=10\\,\\mathrm{mA}\\), Hall coefficient \\(R_H=4.0\\times10^{-4}\\,\\mathrm{m^3\\,C^{-1}}\\), and thickness \\(0.50\\,\\mathrm{mm}\\). Find \\(B\\).",
+      "answer": "Use \\(V_H=R_HIB/t\\):\n\\[\nB=\\frac{V_Ht}{R_HI}=\\frac{(2.0\\times10^{-3})(0.50\\times10^{-3})}{(4.0\\times10^{-4})(10\\times10^{-3})}=0.25\\,\\mathrm{T}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-12",
+      "prompt": "State the Hall coefficient for a single carrier type.",
+      "answer": "For one carrier type,\n\\[\nR_H=\\frac{1}{nq}\n\\]\nThe sign is carried by \\(q\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-13",
+      "prompt": "Derive \\(E_H=v_dB\\) from force balance.",
+      "answer": "At equilibrium, the transverse electric and magnetic force magnitudes are equal:\n\\[\n|q|E_H=|q|v_dB\n\\]\nCancel \\(|q|\\):\n\\[\nE_H=v_dB\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-14",
+      "prompt": "Derive \\(V_H=IB/(nqt)\\) using \\(I=nqv_dA\\).",
+      "answer": "From current,\n\\[\nI=nqv_dA\n\\]\nFor strip cross-section \\(A=wt\\),\n\\[\nv_d=\\frac{I}{nqwt}\n\\]\nThe Hall voltage across width \\(w\\) is\n\\[\nV_H=E_Hw=v_dBw\n\\]\nSubstitute \\(v_d\\):\n\\[\nV_H=\\frac{IB}{nqt}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-15",
+      "prompt": "A material has Hall coefficient \\(R_H=-6.25\\times10^{-5}\\,\\mathrm{m^3\\,C^{-1}}\\). Find carrier density magnitude for single-carrier conduction.",
+      "answer": "Use \\(|R_H|=1/(n|q|)\\):\n\\[\nn=\\frac{1}{|R_H|e}=\\frac{1}{(6.25\\times10^{-5})(1.60\\times10^{-19})}=1.0\\times10^{23}\\,\\mathrm{m^{-3}}\n\\]\nThe negative sign indicates negative carriers.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-16",
+      "prompt": "Why does making a Hall strip thinner increase Hall voltage?",
+      "answer": "For fixed current, field, and carrier density,\n\\[\nV_H=\\frac{IB}{nqt}\n\\]\nso \\(V_H\\) is inversely proportional to thickness \\(t\\). A thinner strip gives a larger Hall voltage.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-17",
+      "prompt": "A Hall probe is calibrated so \\(V_H=5.0\\,\\mathrm{mV}\\) at \\(0.20\\,\\mathrm{T}\\). Assuming linear response, what voltage is expected at \\(0.80\\,\\mathrm{T}\\)?",
+      "answer": "Hall voltage is proportional to \\(B\\). The field is four times larger, so\n\\[\nV_H=4(5.0\\,\\mathrm{mV})=20\\,\\mathrm{mV}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-18",
+      "prompt": "A current and magnetic field are both reversed. What happens to the Hall voltage sign?",
+      "answer": "Since \\(V_H\\propto IB\\), reversing both \\(I\\) and \\(B\\) multiplies the sign by \\((-1)(-1)=+1\\). The Hall voltage sign stays the same.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-19",
+      "prompt": "Why is the Hall effect useful for measuring magnetic fields?",
+      "answer": "For fixed sensor current, geometry, and material,\n\\[\nV_H=\\frac{R_HIB}{t}\n\\]\nso Hall voltage is proportional to magnetic field. Measuring \\(V_H\\) gives \\(B\\) after calibration.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "hall-effect-20",
+      "prompt": "Explain the full cause-and-balance chain that creates a Hall voltage.",
+      "answer": "Current gives carriers a drift velocity. In a perpendicular magnetic field, the carriers feel \\(q\\vec v_d\\times\\vec B\\) and are pushed sideways. Charge separation builds a transverse electric field. The separation stops growing when \\(|q|E_H=|q|v_dB\\). That electric field across the sample width is the Hall voltage.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

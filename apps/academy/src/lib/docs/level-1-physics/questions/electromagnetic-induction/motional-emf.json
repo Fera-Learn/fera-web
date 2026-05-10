@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "motional-emf",
+  "topicTitle": "Motional emf",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "motional-emf-01",
+      "prompt": "A \\(0.50\\,\\mathrm{m}\\) rod moves at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\) perpendicular to a \\(0.30\\,\\mathrm{T}\\) field. Find the motional emf.",
+      "answer": "\\[\\n|\\mathcal E|=B\\ell v=(0.30)(0.50)(4.0)=0.60\\,\\mathrm{V}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-02",
+      "prompt": "A rod has motional emf \\(1.2\\,\\mathrm{V}\\) while moving at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\) through a \\(0.80\\,\\mathrm{T}\\) field. Find its length.",
+      "answer": "\\[\\n\\ell=\\frac{\\mathcal E}{Bv}=\\frac{1.2}{(0.80)(3.0)}=0.50\\,\\mathrm{m}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-03",
+      "prompt": "A \\(0.25\\,\\mathrm{m}\\) rod moves at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) in a \\(0.40\\,\\mathrm{T}\\) field. The circuit resistance is \\(3.0\\,\\Omega\\). Find the induced current.",
+      "answer": "\\[\\n\\mathcal E=B\\ell v=(0.40)(0.25)(6.0)=0.60\\,\\mathrm{V}\\n\\]\\n\\[\\nI=\\frac{\\mathcal E}{R}=\\frac{0.60}{3.0}=0.20\\,\\mathrm{A}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-04",
+      "prompt": "Positive charges in a rod move with velocity \\(\\vec v\\) to the right through a magnetic field into the page. Which end of the rod becomes positive if the rod is vertical?",
+      "answer": "For positive charge, \\(\\vec F=q\\vec v\\times\\vec B\\). Right crossed into the page points upward. Positive charge is pushed upward, so the top end becomes positive.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-05",
+      "prompt": "A rod of length \\(0.60\\,\\mathrm{m}\\) moves at \\(5.0\\,\\mathrm{m\\,s^{-1}}\\), but only the velocity component perpendicular to the rod and field is \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). If \\(B=0.20\\,\\mathrm{T}\\), find \\(|\\mathcal E|\\).",
+      "answer": "Use only the perpendicular speed:\\n\\[\\n|\\mathcal E|=B\\ell v_\\perp=(0.20)(0.60)(3.0)=0.36\\,\\mathrm{V}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-06",
+      "prompt": "A sliding rod has \\(B=0.50\\,\\mathrm{T}\\), \\(\\ell=0.40\\,\\mathrm{m}\\), \\(v=2.0\\,\\mathrm{m\\,s^{-1}}\\), and total resistance \\(0.80\\,\\Omega\\). Find the magnetic drag force.",
+      "answer": "\\[\\n\\mathcal E=B\\ell v=(0.50)(0.40)(2.0)=0.40\\,\\mathrm{V}\\n\\]\\n\\[\\nI=\\frac{0.40}{0.80}=0.50\\,\\mathrm{A}\\n\\]\\n\\[\\nF=I\\ell B=(0.50)(0.40)(0.50)=0.10\\,\\mathrm{N}\\n\\]\\nThe force opposes the rod's motion.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-07",
+      "prompt": "For the rod in the previous style of setup, derive \\(F=B^2\\ell^2v/R\\) for the magnetic drag force.",
+      "answer": "The current is\\n\\[\\nI=\\frac{B\\ell v}{R}\\n\\]\\nThe magnetic force on the rod is\\n\\[\\nF=I\\ell B\\n\\]\\nSubstitute the current:\\n\\[\\nF=\\frac{B\\ell v}{R}\\ell B=\\frac{B^2\\ell^2v}{R}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-08",
+      "prompt": "Show that the mechanical power needed to pull a sliding rod at constant speed equals the electrical power dissipated.",
+      "answer": "Using\\n\\[\\nF=\\frac{B^2\\ell^2v}{R}\\n\\]\\nmechanical power is\\n\\[\\nP_{\\mathrm{mech}}=Fv=\\frac{B^2\\ell^2v^2}{R}\\n\\]\\nThe induced current is\\n\\[\\nI=\\frac{B\\ell v}{R}\\n\\]\\nso\\n\\[\\nI^2R=\\left(\\frac{B\\ell v}{R}\\right)^2R=\\frac{B^2\\ell^2v^2}{R}\\n\\]\\nThus \\(P_{\\mathrm{mech}}=I^2R\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-09",
+      "prompt": "A rod moves on rails so the loop area is \\(A=\\ell x\\). If \\(x=vt\\), derive the emf magnitude from Faraday's law.",
+      "answer": "The flux is\\n\\[\\n\\Phi_B=B\\ell x=B\\ell vt\\n\\]\\nTherefore\\n\\[\\n|\\mathcal E|=\\left|\\frac{d\\Phi_B}{dt}\\right|=B\\ell v\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-10",
+      "prompt": "A \\(0.30\\,\\mathrm{m}\\) rod moves through a \\(0.90\\,\\mathrm{T}\\) field at unknown speed. The emf is \\(0.81\\,\\mathrm{V}\\). Find the speed.",
+      "answer": "\\[\\nv=\\frac{\\mathcal E}{B\\ell}=\\frac{0.81}{(0.90)(0.30)}=3.0\\,\\mathrm{m\\,s^{-1}}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-11",
+      "prompt": "A rod moves parallel to a magnetic field. What is the motional emf across the rod?",
+      "answer": "It is zero. The magnetic force is \\(q\\vec v\\times\\vec B\\), and the cross product is zero when \\(\\vec v\\) is parallel to \\(\\vec B\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-12",
+      "prompt": "A vertical rod moves right through a field out of the page. Which end becomes positive?",
+      "answer": "For positive charges, right crossed out of the page points downward. Positive charge accumulates at the bottom end, so the bottom becomes positive.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-13",
+      "prompt": "A rod of length \\(\\ell\\) rotates about one end with angular speed \\(\\omega\\) in a uniform field perpendicular to the plane of rotation. Derive the emf between its ends.",
+      "answer": "A small element at radius \\(r\\) has speed \\(v=\\omega r\\), so\\n\\[\\nd\\mathcal E=Bv\\,dr=B\\omega r\\,dr\\n\\]\\nIntegrate from \\(0\\) to \\(\\ell\\):\\n\\[\\n\\mathcal E=\\int_0^\\ell B\\omega r\\,dr=\\frac{1}{2}B\\omega\\ell^2\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-14",
+      "prompt": "A \\(0.50\\,\\mathrm{m}\\) rod rotates about one end at \\(12\\,\\mathrm{rad\\,s^{-1}}\\) in a perpendicular \\(0.20\\,\\mathrm{T}\\) field. Find the emf between its ends.",
+      "answer": "For a rotating rod,\\n\\[\\n\\mathcal E=\\frac{1}{2}B\\omega\\ell^2\\n\\]\\nThus\\n\\[\\n\\mathcal E=\\frac{1}{2}(0.20)(12)(0.50^2)=0.30\\,\\mathrm{V}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-15",
+      "prompt": "A sliding rod circuit has resistance \\(R\\). If its speed doubles, by what factors do emf, current, drag force, and dissipated power change?",
+      "answer": "\\(\\mathcal E=B\\ell v\\), so emf doubles. Current \\(I=\\mathcal E/R\\) doubles. Drag force \\(F=I\\ell B\\) doubles. Power \\(P=I^2R\\) increases by a factor of \\(4\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-16",
+      "prompt": "A sliding rod in a field is pulled by a constant external force. Explain why it can reach a terminal speed.",
+      "answer": "The induced current grows with speed: \\(I=B\\ell v/R\\). The magnetic drag force is \\(F_B=B^2\\ell^2v/R\\), also proportional to speed. Terminal speed occurs when magnetic drag equals the applied force, so the net force becomes zero.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-17",
+      "prompt": "Find the terminal speed of a sliding rod pulled by constant force \\(F\\) in field \\(B\\), length \\(\\ell\\), and circuit resistance \\(R\\).",
+      "answer": "At terminal speed,\\n\\[\\nF=\\frac{B^2\\ell^2v_t}{R}\\n\\]\\nso\\n\\[\\nv_t=\\frac{FR}{B^2\\ell^2}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-18",
+      "prompt": "A rod of length \\(\\ell\\) moves with velocity making angle \\(\\alpha\\) to the direction perpendicular to the rod and field. Write the emf magnitude.",
+      "answer": "Only the component of velocity perpendicular to the rod and field contributes: \\(v_\\perp=v\\cos\\alpha\\). Therefore\\n\\[\\n|\\mathcal E|=B\\ell v\\cos\\alpha\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-19",
+      "prompt": "A conducting rod moves in a magnetic field but is not part of a closed circuit. Explain what is still physically present.",
+      "answer": "Magnetic force separates charges in the rod, so there is a potential difference and motional emf between its ends. There is no sustained current because there is no closed conducting path.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "motional-emf-20",
+      "prompt": "A sliding rod of mass \\(m\\) starts at speed \\(v_0\\) with no external pull. The magnetic drag force is \\(F=-(B^2\\ell^2/R)v\\). Derive \\(v(t)\\).",
+      "answer": "Newton's second law gives\\n\\[\\nm\\frac{dv}{dt}=-\\frac{B^2\\ell^2}{R}v\\n\\]\\nSeparate variables:\\n\\[\\n\\frac{dv}{v}=-\\frac{B^2\\ell^2}{mR}dt\\n\\]\\nIntegrate and use \\(v(0)=v_0\\):\\n\\[\\nv(t)=v_0e^{-B^2\\ell^2t/(mR)}\\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

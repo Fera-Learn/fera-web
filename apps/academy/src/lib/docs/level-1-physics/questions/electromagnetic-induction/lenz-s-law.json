@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "lenz-s-law",
+  "topicTitle": "Lenz's Law",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "lenz-law-01",
+      "prompt": "A magnetic field into the page through a loop is increasing. What direction is the induced current?",
+      "answer": "The induced field must oppose the increase into the page, so it points out of the page. By the right-hand rule, the induced current is counterclockwise.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-02",
+      "prompt": "A magnetic field out of the page through a loop is decreasing. What direction is the induced current?",
+      "answer": "The loop tries to maintain out-of-page flux, so the induced field points out of the page. The current is counterclockwise.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-03",
+      "prompt": "A magnetic field into the page through a loop is decreasing. What direction is the induced current?",
+      "answer": "The loop tries to maintain into-page flux, so the induced field points into the page. By the right-hand rule, the current is clockwise.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-04",
+      "prompt": "A magnetic field out of the page through a loop is increasing. What direction is the induced current?",
+      "answer": "The induced field must oppose the increase out of the page, so it points into the page. The current is clockwise.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-05",
+      "prompt": "A north pole of a magnet approaches a conducting loop. What magnetic pole does the near face of the loop become?",
+      "answer": "The approaching north pole increases flux through the loop. The loop opposes the approach, so its near face becomes a north pole and repels the magnet.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-06",
+      "prompt": "A north pole of a magnet moves away from a conducting loop. What magnetic pole does the near face of the loop become?",
+      "answer": "The flux due to the north pole is decreasing. The loop tries to maintain it, so the near face becomes a south pole and attracts the receding north pole.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-07",
+      "prompt": "A loop is pulled out of a region where the magnetic field is into the page. What field direction does the induced current produce?",
+      "answer": "The into-page flux is decreasing as the loop leaves the field. The induced current produces an into-page field to oppose that decrease.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-08",
+      "prompt": "A loop is pushed into a region where the magnetic field is into the page. What field direction does the induced current produce?",
+      "answer": "The into-page flux is increasing, so the induced current produces a field out of the page to oppose the increase.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-09",
+      "prompt": "Explain why Lenz's law says the induced current opposes the change in flux rather than always opposing the magnetic field.",
+      "answer": "If the external flux is decreasing, the induced field points in the same direction as the original field to oppose the decrease. If the external flux is increasing, it points opposite. Therefore the opposition is to \\(d\\Phi_B/dt\\), not simply to \\(\\vec B\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-10",
+      "prompt": "A loop lies in the page. A field into the page increases. Use Lenz's law and the right-hand rule to determine the current direction step by step.",
+      "answer": "The into-page flux is increasing. The induced field must point out of the page. For a loop, a counterclockwise current gives field out of the page by the right-hand rule. So the current is counterclockwise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-11",
+      "prompt": "A conducting ring falls toward a region of stronger upward magnetic field. What direction is the magnetic force on the ring?",
+      "answer": "As the ring falls into stronger upward field, upward flux through it increases. The induced current produces downward field to oppose the increase. The interaction creates a force opposing the motion, so the magnetic force on the falling ring is upward.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-12",
+      "prompt": "A metal plate moves into a magnetic field region. Explain why the magnetic force acts as a drag force.",
+      "answer": "Motion into the field changes flux through current paths in the plate. Lenz's law makes the induced currents produce magnetic effects that oppose the motion causing the flux change. Mechanical energy is converted into thermal energy, so the magnetic force is a drag force.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-13",
+      "prompt": "A loop has clockwise induced current. What direction is the induced magnetic field at its center?",
+      "answer": "Curl the right-hand fingers clockwise around the loop. The thumb points into the page, so the induced magnetic field at the center is into the page.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-14",
+      "prompt": "A loop has counterclockwise induced current. What direction is the induced magnetic field at its center?",
+      "answer": "Curl the right-hand fingers counterclockwise. The thumb points out of the page, so the induced field at the center is out of the page.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-15",
+      "prompt": "A student says an induced current can speed up the motion that caused it. Use energy conservation to explain why this is wrong for a passive circuit.",
+      "answer": "If the induced current helped the motion that caused the flux change, the motion and current would reinforce each other and create energy without a source. In a passive resistive circuit, induced current dissipates energy as \\(I^2R\\), so the magnetic force must oppose the motion or change that drives induction.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-16",
+      "prompt": "A rectangular loop is pulled to the right out of a region with field out of the page. Determine the induced current direction.",
+      "answer": "The out-of-page flux is decreasing as the loop leaves. The induced field must point out of the page to oppose the decrease. A counterclockwise current produces out-of-page field, so the induced current is counterclockwise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-17",
+      "prompt": "A rectangular loop is pushed to the right into a region with field out of the page. Determine the induced current direction.",
+      "answer": "The out-of-page flux is increasing. The induced field must point into the page to oppose the increase. A clockwise current produces into-page field, so the induced current is clockwise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-18",
+      "prompt": "A coil connected to a resistor has its flux increased by an external agent. What happens to the mechanical work done by the agent?",
+      "answer": "The induced current opposes the flux increase, so the external agent must do work against the magnetic effect of the induced current. That work is converted into thermal energy in the resistor, \\(I^2R\\), and possibly stored temporarily in fields.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-19",
+      "prompt": "A conducting loop is above a solenoid. The solenoid current is increasing upward-field flux through the loop. What direction should the loop current be when viewed from above?",
+      "answer": "The upward flux through the loop is increasing. Viewed from above, upward means out of the page. The loop must create downward, into-page field. By the right-hand rule, that requires clockwise current when viewed from above.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lenz-law-20",
+      "prompt": "A loop's positive area normal is chosen out of the page. The magnetic flux is negative and becoming more negative. Determine the sign of the induced emf and interpret the current direction.",
+      "answer": "Faraday's law gives\\n\\[\\n\\mathcal E=-\\frac{d\\Phi_B}{dt}\\n\\]\\nIf \\(\\Phi_B\\) is becoming more negative, then \\(d\\Phi_B/dt<0\\), so\\n\\[\\n\\mathcal E>0\\n\\]\\nPositive emf corresponds to the positive circulation direction set by the area normal. With normal out of the page, positive circulation is counterclockwise. This current creates out-of-page field, opposing the increasingly into-page flux.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

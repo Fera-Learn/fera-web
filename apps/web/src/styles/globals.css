@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "../../../../packages/ui/src/styles/globals.css";
+
+@keyframes fera-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fera-page-background {
+  background:
+    linear-gradient(180deg, rgb(245 240 227 / 0.96), rgb(245 240 227 / 1) 18rem),
+    var(--background);
+}
+
+.fera-section-rule {
+  border-top: 1px solid rgb(77 47 30 / 0.12);
+}
+
+.fera-institutional-panel {
+  background: rgb(236 230 216 / 0.78);
+  border: 1px solid rgb(77 47 30 / 0.14);
+  box-shadow: 0 18px 44px rgb(47 37 28 / 0.06);
+}
+
+.fera-product-frame {
+  background: rgb(255 250 240 / 0.92);
+  border: 1px solid rgb(77 47 30 / 0.16);
+  box-shadow: 0 20px 50px rgb(47 37 28 / 0.08);
+}
+
+.fera-product-topbar {
+  background: rgb(236 230 216 / 0.9);
+  border-bottom: 1px solid rgb(77 47 30 / 0.12);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-up {
+    animation: fera-fade-up 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.scroll-smooth {
+    scroll-behavior: auto;
+  }
+}
+
+.fera-page-background,
+.fera-page-background * {
+  min-width: 0;
+}
+
+.fera-page-background :where(h1, h2, h3, p, li) {
+  overflow-wrap: break-word;
+}

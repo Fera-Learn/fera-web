@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "zeeman-effect",
+  "topicTitle": "Zeeman Effect",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "zeeman-effect-01",
+      "prompt": "What is the Zeeman effect?",
+      "answer": "The Zeeman effect is the splitting of atomic energy levels or spectral lines in an external magnetic field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-02",
+      "prompt": "State the Bohr magneton.",
+      "answer": "\\[\n\\mu_B=\\frac{e\\hbar}{2m_e}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-03",
+      "prompt": "State the simple normal Zeeman energy shift.",
+      "answer": "\\[\n\\Delta E=m_\\ell\\mu_BB\n\\]\nup to sign convention for the magnetic moment.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-04",
+      "prompt": "What happens to Zeeman splitting if the magnetic field is doubled?",
+      "answer": "The splitting is proportional to \\(B\\), so doubling the magnetic field doubles the energy splitting.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-05",
+      "prompt": "Find the adjacent Zeeman spacing for \\(B=1.50\\,\\mathrm{T}\\) using \\(\\mu_B=5.79\\times10^{-5}\\,\\mathrm{eV\\,T^{-1}}\\).",
+      "answer": "\\[\n\\Delta E=\\mu_BB=(5.79\\times10^{-5})(1.50)=8.69\\times10^{-5}\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-06",
+      "prompt": "For \\(B=2.00\\,\\mathrm{T}\\), find the adjacent normal Zeeman spacing in eV using \\(\\mu_B=5.79\\times10^{-5}\\,\\mathrm{eV\\,T^{-1}}\\).",
+      "answer": "\\[\n\\Delta E=\\mu_BB=(5.79\\times10^{-5})(2.00)=1.16\\times10^{-4}\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-07",
+      "prompt": "Convert a Zeeman energy shift \\(1.16\\times10^{-4}\\,\\mathrm{eV}\\) to a frequency shift using \\(h=4.14\\times10^{-15}\\,\\mathrm{eV\\,s}\\).",
+      "answer": "\\[\n\\Delta f=\\frac{\\Delta E}{h}=\\frac{1.16\\times10^{-4}}{4.14\\times10^{-15}}=2.80\\times10^{10}\\,\\mathrm{Hz}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-08",
+      "prompt": "Why does an external magnetic field split levels with different \\(m_\\ell\\)?",
+      "answer": "The field selects a direction in space. States with different angular-momentum projections have different magnetic interaction energies.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-09",
+      "prompt": "What magnetic quantum numbers are possible for \\(\\ell=1\\)?",
+      "answer": "\\[\nm_\\ell=-1,0,+1\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-10",
+      "prompt": "For \\(\\ell=1\\), how many Zeeman sublevels are expected in the normal orbital model?",
+      "answer": "There are \\(2\\ell+1=3\\) magnetic sublevels.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-11",
+      "prompt": "For \\(\\ell=2\\), how many \\(m_\\ell\\) sublevels can split in a magnetic field?",
+      "answer": "\\[\n2\\ell+1=2(2)+1=5\n\\]\nsublevels.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-12",
+      "prompt": "What is the magnetic interaction energy for a magnetic moment in a field?",
+      "answer": "\\[\nU=-\\vec\\mu\\cdot\\vec B\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-13",
+      "prompt": "Why are spectral lines split when atomic energy levels split?",
+      "answer": "A spectral line energy is the difference between two levels. If one or both levels split into sublevels, several slightly different transition energies become possible.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-14",
+      "prompt": "What happens to the Zeeman splitting when \\(B=0\\)?",
+      "answer": "The magnetic energy shifts vanish because \\(\\Delta E\\propto B\\). Degenerate magnetic sublevels recombine in the simple model.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-15",
+      "prompt": "A transition has line frequency shift \\(3.0\\times10^{10}\\,\\mathrm{Hz}\\). Find the corresponding energy shift using \\(h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}\\).",
+      "answer": "\\[\n\\Delta E=h\\Delta f=(6.63\\times10^{-34})(3.0\\times10^{10})=1.99\\times10^{-23}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-16",
+      "prompt": "Why can spin make the observed Zeeman pattern more complicated than the normal Zeeman effect?",
+      "answer": "Spin adds intrinsic angular momentum and a magnetic moment. Real atomic levels are often labelled by total angular momentum, with g-factors that differ from the simple orbital model.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-17",
+      "prompt": "What is the relationship between an energy splitting and wavelength splitting?",
+      "answer": "A larger transition energy gives a higher frequency and shorter wavelength. For small changes, energy splitting produces nearby spectral components with slightly different frequencies and wavelengths.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-18",
+      "prompt": "If \\(m_\\ell=+1\\), \\(B=0.80\\,\\mathrm{T}\\), and \\(\\mu_B=5.79\\times10^{-5}\\,\\mathrm{eV\\,T^{-1}}\\), find the simple energy shift.",
+      "answer": "\\[\n\\Delta E=m_\\ell\\mu_BB=(1)(5.79\\times10^{-5})(0.80)=4.63\\times10^{-5}\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-19",
+      "prompt": "If \\(m_\\ell=-1\\) for the same field as question 18, find the simple energy shift.",
+      "answer": "\\[\n\\Delta E=(-1)(5.79\\times10^{-5})(0.80)=-4.63\\times10^{-5}\\,\\mathrm{eV}\n\\]\nThe sign indicates the opposite shift relative to the \\(m_\\ell=+1\\) sublevel.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "zeeman-effect-20",
+      "prompt": "Explain why Zeeman splitting is evidence for angular momentum quantization.",
+      "answer": "The spectral line splits into discrete components, not a continuous smear. That discreteness reflects the allowed discrete magnetic quantum numbers and angular-momentum projections.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-thermal-scale",
+  "topicId": "equations-of-state",
+  "topicTitle": "Equations of State",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "equations-state-01",
+      "prompt": "Find the volume of \\(1.20\\,\\mathrm{mol}\\) of ideal gas at \\(300\\,\\mathrm{K}\\) and \\(1.00\\times10^5\\,\\mathrm{Pa}\\).",
+      "answer": "\\[\nV=\\frac{nRT}{p}\n=\\frac{(1.20)(8.31)(300)}{1.00\\times10^5}\n=2.99\\times10^{-2}\\,\\mathrm{m^3}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-02",
+      "prompt": "A gas sample has \\(p=2.0\\times10^5\\,\\mathrm{Pa}\\), \\(V=3.0\\times10^{-3}\\,\\mathrm{m^3}\\), and \\(T=290\\,\\mathrm{K}\\). Find \\(n\\).",
+      "answer": "\\[\nn=\\frac{pV}{RT}\n=\\frac{(2.0\\times10^5)(3.0\\times10^{-3})}{(8.31)(290)}\n=0.249\\,\\mathrm{mol}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-03",
+      "prompt": "For a fixed amount of ideal gas at constant temperature, the volume is halved. What happens to the absolute pressure?",
+      "answer": "For fixed \\(n\\) and \\(T\\),\n\\[\npV=\\text{constant}\n\\]\nIf \\(V\\) is halved, \\(p\\) doubles.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-04",
+      "prompt": "A fixed amount of ideal gas changes from \\(p_1=100\\,\\mathrm{kPa}\\), \\(V_1=4.0\\,\\mathrm{L}\\), \\(T_1=300\\,\\mathrm{K}\\) to \\(V_2=2.5\\,\\mathrm{L}\\), \\(T_2=360\\,\\mathrm{K}\\). Find \\(p_2\\).",
+      "answer": "Use\n\\[\n\\frac{p_1V_1}{T_1}=\\frac{p_2V_2}{T_2}\n\\]\nso\n\\[\np_2=p_1\\frac{V_1}{V_2}\\frac{T_2}{T_1}\n=100\\,\\mathrm{kPa}\\left(\\frac{4.0}{2.5}\\right)\\left(\\frac{360}{300}\\right)\n=192\\,\\mathrm{kPa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-05",
+      "prompt": "Use \\(pV=Nk_BT\\) to find the number of molecules in a \\(2.0\\times10^{-3}\\,\\mathrm{m^3}\\) gas sample at \\(p=1.5\\times10^5\\,\\mathrm{Pa}\\) and \\(T=300\\,\\mathrm{K}\\).",
+      "answer": "\\[\nN=\\frac{pV}{k_BT}\n=\\frac{(1.5\\times10^5)(2.0\\times10^{-3})}{(1.38\\times10^{-23})(300)}\n=7.2\\times10^{22}\n\\]\nmolecules.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-06",
+      "prompt": "An ideal gas has density \\(\\rho\\), molar mass \\(M\\), pressure \\(p\\), and temperature \\(T\\). Derive \\(\\rho=pM/(RT)\\).",
+      "answer": "Start with\n\\[\npV=nRT\n\\]\nThe gas mass is \\(m=nM\\), so \\(n=m/M\\). Substitute:\n\\[\npV=\\frac{m}{M}RT\n\\]\nDivide by \\(V\\) and use \\(\\rho=m/V\\):\n\\[\np=\\frac{\\rho RT}{M}\n\\]\nTherefore\n\\[\n\\rho=\\frac{pM}{RT}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-07",
+      "prompt": "A gas cylinder of volume \\(0.080\\,\\mathrm{m^3}\\) contains oxygen with molar mass \\(3.2\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\) at \\(280\\,\\mathrm{K}\\) and \\(5.0\\times10^5\\,\\mathrm{Pa}\\). Find the gas mass.",
+      "answer": "First find the amount:\n\\[\nn=\\frac{pV}{RT}\n=\\frac{(5.0\\times10^5)(0.080)}{(8.31)(280)}\n=17.2\\,\\mathrm{mol}\n\\]\nThen\n\\[\nm=nM=(17.2)(3.2\\times10^{-2})=0.55\\,\\mathrm{kg}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-08",
+      "prompt": "A fixed amount of ideal gas satisfies \\(pV/T=\\mathrm{constant}\\). It is compressed to one third of its original volume while its Kelvin temperature doubles. Find \\(p_2/p_1\\).",
+      "answer": "For a fixed amount of ideal gas,\n\\[\n\\frac{pV}{T}=\\text{constant}\n\\]\nThus\n\\[\n\\frac{p_2}{p_1}=\\frac{T_2}{T_1}\\frac{V_1}{V_2}\n\\]\nWith \\(T_2/T_1=2\\) and \\(V_2=V_1/3\\),\n\\[\n\\frac{p_2}{p_1}=2(3)=6\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-09",
+      "prompt": "A real gas is modeled by \\(\\left(p+a n^2/V^2\\right)(V-nb)=nRT\\). Explain what physical effects the \\(a\\) and \\(b\\) corrections represent, and state a condition under which the model reduces to \\(pV=nRT\\).",
+      "answer": "The \\(b\\) correction reduces the available volume from \\(V\\) to \\(V-nb\\), representing finite molecular volume. The \\(a\\) correction increases the pressure term to \\(p+a n^2/V^2\\), representing attractive intermolecular forces that reduce the measured wall pressure.\n\nWhen the gas is dilute and the temperature is high enough that molecular size and attractions are negligible, \\(nb\\ll V\\) and \\(a n^2/V^2\\ll p\\). The equation then reduces to\n\\[\npV=nRT\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-10",
+      "prompt": "A fixed amount of ideal gas changes between two equilibrium states. Derive an expression for \\(T_2\\) in terms of \\(p_1,V_1,T_1,p_2,V_2\\), and state why gauge pressure cannot be used in this expression.",
+      "answer": "For fixed \\(n\\),\n\\[\n\\frac{p_1V_1}{T_1}=\\frac{p_2V_2}{T_2}\n\\]\nSolve for \\(T_2\\):\n\\[\nT_2=T_1\\frac{p_2V_2}{p_1V_1}\n\\]\nAbsolute pressure must be used because the equation of state relates actual molecular momentum transfer to pressure above vacuum. Gauge pressure has an arbitrary atmospheric offset, so pressure ratios formed from gauge values are not physically meaningful in the gas equation.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-11",
+      "prompt": "A sealed rigid tank contains ideal gas at \\(p_1=2.4\\times10^5\\,\\mathrm{Pa}\\) and \\(T_1=300\\,\\mathrm{K}\\). The gas is heated to \\(T_2=450\\,\\mathrm{K}\\). Find the final absolute pressure.",
+      "answer": "For a sealed rigid tank, \\(n\\) and \\(V\\) are constant, so\n\\[\n\\frac{p}{T}=\\text{constant}\n\\]\nThus\n\\[\np_2=p_1\\frac{T_2}{T_1}\n=(2.4\\times10^5)\\frac{450}{300}\n=3.6\\times10^5\\,\\mathrm{Pa}\n\\]\nThe temperatures must be absolute temperatures in kelvin.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-12",
+      "prompt": "For one mole of a van der Waals gas, \\(\\left(p+a/V_m^2\\right)(V_m-b)=RT\\). In the dilute limit \\(V_m\\gg b\\), derive the first-order approximation \\(p\\approx RT/V_m+(RTb-a)/V_m^2\\).",
+      "answer": "Start with\n\\[\n\\left(p+\\frac{a}{V_m^2}\\right)(V_m-b)=RT\n\\]\nSolve for \\(p\\):\n\\[\np=\\frac{RT}{V_m-b}-\\frac{a}{V_m^2}\n\\]\nFor \\(V_m\\gg b\\),\n\\[\n\\frac{1}{V_m-b}\n=\\frac{1}{V_m}\\frac{1}{1-b/V_m}\n\\approx\\frac{1}{V_m}\\left(1+\\frac{b}{V_m}\\right)\n\\]\nTherefore\n\\[\np\\approx RT\\left(\\frac{1}{V_m}+\\frac{b}{V_m^2}\\right)-\\frac{a}{V_m^2}\n\\]\nso\n\\[\np\\approx\\frac{RT}{V_m}+\\frac{RTb-a}{V_m^2}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-13",
+      "prompt": "A gas has \\(p=1.20\\times10^5\\,\\mathrm{Pa}\\), \\(T=300\\,\\mathrm{K}\\), and molar mass \\(2.8\\times10^{-2}\\,\\mathrm{kg\\,mol^{-1}}\\). Find its density using the ideal-gas model.",
+      "answer": "Use\n\\[\n\\rho=\\frac{pM}{RT}\n\\]\nThus\n\\[\n\\rho=\\frac{(1.20\\times10^5)(2.8\\times10^{-2})}{(8.31)(300)}=1.35\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-14",
+      "prompt": "A gas obeys \\(pV=nRT\\). At fixed \\(n\\), pressure is increased by a factor of \\(3\\) while volume is reduced by a factor of \\(2\\). Find \\(T_2/T_1\\).",
+      "answer": "For fixed \\(n\\),\n\\[\n\\frac{pV}{T}=\\text{constant}\n\\]\nso\n\\[\n\\frac{T_2}{T_1}=\\frac{p_2V_2}{p_1V_1}\n\\]\nWith \\(p_2/p_1=3\\) and \\(V_2/V_1=1/2\\),\n\\[\n\\frac{T_2}{T_1}=\\frac{3}{2}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-15",
+      "prompt": "For one mole of a van der Waals gas, explain why the term \\(V_m-b\\) makes the pressure larger than the ideal-gas value at the same \\(T\\) and measured \\(V_m\\), if attractions are ignored.",
+      "answer": "Ignoring attractions gives\n\\[\np(V_m-b)=RT\n\\]\nso\n\\[\np=\\frac{RT}{V_m-b}\n\\]\nBecause \\(V_m-b<V_m\\), the denominator is smaller than in the ideal expression \\(p=RT/V_m\\). The finite molecular volume leaves less free volume for motion, increasing pressure.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-16",
+      "prompt": "Derive the ideal-gas density relation \\(p=\\rho RT/M\\) and state the assumptions behind it.",
+      "answer": "Start with\n\\[\npV=nRT\n\\]\nFor gas mass \\(m\\) and molar mass \\(M\\),\n\\[\nn=\\frac{m}{M}\n\\]\nSubstitute:\n\\[\npV=\\frac{m}{M}RT\n\\]\nDivide by \\(V\\) and use \\(\\rho=m/V\\):\n\\[\np=\\frac{\\rho RT}{M}\n\\]\nThe result assumes the gas is dilute enough for ideal-gas behavior and uses absolute pressure and Kelvin temperature.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-17",
+      "prompt": "A gas is described by \\(pV=nRT\\). Explain why the equation relates equilibrium states rather than every instant during a rapid compression.",
+      "answer": "The variables \\(p\\) and \\(T\\) must represent well-defined macroscopic averages. During rapid compression the gas can have gradients, turbulence, and nonuniform molecular distributions, so one pressure and one temperature may not describe the whole sample. The equation of state applies once the gas has equilibrated.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-18",
+      "prompt": "Using \\(pV=Nk_BT\\), show that doubling molecule number at fixed \\(V\\) and \\(T\\) doubles pressure, and interpret microscopically.",
+      "answer": "At fixed \\(V\\) and \\(T\\),\n\\[\np=\\frac{Nk_BT}{V}\n\\]\nso \\(p\\propto N\\). Doubling \\(N\\) doubles \\(p\\). Microscopically, there are twice as many molecules colliding with the walls per unit time, while the average molecular kinetic energy is unchanged.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-19",
+      "prompt": "In the van der Waals equation, explain why attractions reduce the measured wall pressure even though the correction is written as \\(p+a n^2/V^2\\).",
+      "answer": "Attractive forces pull molecules inward as they approach the wall, reducing their momentum transfer to the wall and lowering the measured pressure. The ideal-like pressure that would exist without attractions is therefore larger than the measured \\(p\\). The equation adds \\(a n^2/V^2\\) to the measured pressure to compensate for that reduction.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "equations-state-20",
+      "prompt": "A gas model gives \\(pV/T\\) constant for fixed amount. Explain two ways experimental data can reveal departure from ideal-gas behavior.",
+      "answer": "If \\(pV/T\\) changes as pressure rises at fixed amount, the ideal-gas model is failing. Deviations can also appear when the density is high or the temperature is low, where finite molecular size and attractions become important. Near condensation, a single ideal-gas equation cannot describe the phase behavior.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

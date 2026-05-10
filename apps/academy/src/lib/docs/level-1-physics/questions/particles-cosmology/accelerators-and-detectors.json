@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "particles-cosmology",
+  "topicId": "accelerators-and-detectors",
+  "topicTitle": "Accelerators and Detectors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "particles-accelerators-01",
+      "prompt": "What does an accelerator do to a charged particle?",
+      "answer": "It uses electric fields to increase the particle's kinetic energy.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-02",
+      "prompt": "State the kinetic-energy gain for charge \\(q\\) accelerated through potential difference \\(V\\).",
+      "answer": "\\[\n\\Delta K=qV\n\\]\nUse the magnitude \\(|q|V\\) when quoting the energy gained.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-03",
+      "prompt": "Why do magnetic fields bend charged-particle tracks?",
+      "answer": "A moving charged particle experiences a magnetic force perpendicular to its velocity. This force changes the direction of motion and produces a curved path.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-04",
+      "prompt": "An electron is accelerated through \\(500\\,\\mathrm V\\). Find its kinetic energy in electronvolts.",
+      "answer": "A singly charged particle gains \\(500\\,\\mathrm{eV}\\). For an electron, the field direction is opposite to the force direction, but the energy gain magnitude is \\(eV\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-05",
+      "prompt": "Convert \\(2.0\\,\\mathrm{MeV}\\) to joules.",
+      "answer": "\\[\n2.0\\,\\mathrm{MeV}=2.0\\times10^6(1.60\\times10^{-19})=3.2\\times10^{-13}\\,\\mathrm J\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-06",
+      "prompt": "State the momentum relation for a charged particle moving perpendicular to a uniform magnetic field.",
+      "answer": "\\[\np=|q|Br\n\\]\nwhere \\(r\\) is the track radius.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-07",
+      "prompt": "A proton is accelerated through \\(3.0\\,\\mathrm{MV}\\). Find its kinetic energy in MeV.",
+      "answer": "\\[\nK=eV=3.0\\,\\mathrm{MeV}\n\\]\nfor a singly charged proton.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-08",
+      "prompt": "A singly charged particle moves in \\(B=0.40\\,\\mathrm T\\) with track radius \\(0.50\\,\\mathrm m\\). Find its momentum.",
+      "answer": "\\[\np=eBr=(1.60\\times10^{-19})(0.40)(0.50)=3.2\\times10^{-20}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-09",
+      "prompt": "Why does a magnetic field not increase the kinetic energy of a charged particle?",
+      "answer": "The magnetic force is perpendicular to the velocity, so it does no work. It changes direction of motion, not speed.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-10",
+      "prompt": "Two particles have the same charge magnitude in the same magnetic field. Particle A has twice the track radius of particle B. Compare their momenta.",
+      "answer": "Since \\(p=|q|Br\\), momentum is proportional to radius. Particle A has twice the momentum of particle B.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-11",
+      "prompt": "Explain why colliders can be more useful than fixed-target experiments for creating heavy particles.",
+      "answer": "In a collider, both beams carry momentum, so more of the total energy can be available as centre-of-mass energy for producing new rest mass. In a fixed-target experiment, some energy must remain as kinetic energy of the recoiling system.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-12",
+      "prompt": "Why do detectors often have several layers rather than one measurement device?",
+      "answer": "Different layers measure different properties: track curvature, energy deposition, timing, and particle penetration. Combining them improves particle identification and rejects false interpretations.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-13",
+      "prompt": "A particle bends more strongly than another particle with the same charge in the same magnetic field. What does that suggest?",
+      "answer": "A smaller radius means smaller momentum because \\(p=|q|Br\\). It suggests the more strongly bent particle has lower momentum.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-14",
+      "prompt": "A charged particle travels \\(2.0\\,\\mathrm m\\) in \\(8.0\\,\\mathrm{ns}\\). Estimate its speed and comment.",
+      "answer": "\\[\nv=\\frac{L}{\\Delta t}=\\frac{2.0}{8.0\\times10^{-9}}=2.5\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]\nThis is close to but below \\(c\\), so relativistic effects may matter.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-15",
+      "prompt": "Why does track curvature give charge sign as well as momentum magnitude?",
+      "answer": "The Lorentz force direction depends on the sign of \\(q\\). Opposite charges curve in opposite directions in the same magnetic field, while the radius gives \\(p/|q|\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-16",
+      "prompt": "Derive \\(p=|q|Br\\) for perpendicular motion in a uniform magnetic field.",
+      "answer": "The magnetic force supplies centripetal force: \\(|q|vB=mv^2/r\\). Cancelling one factor of \\(v\\) gives \\(mv=|q|Br\\). Since \\(p=mv\\) non-relativistically, \\(p=|q|Br\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-17",
+      "prompt": "A particle with charge \\(+e\\) has \\(p=4.8\\times10^{-20}\\,\\mathrm{kg\\,m\\,s^{-1}}\\) in a \\(0.60\\,\\mathrm T\\) field. Find the radius.",
+      "answer": "\\[\nr=\\frac{p}{eB}=\\frac{4.8\\times10^{-20}}{(1.60\\times10^{-19})(0.60)}=0.50\\,\\mathrm m\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-18",
+      "prompt": "A detector records high energy in an electromagnetic calorimeter and little penetration beyond it. What particle type is plausible?",
+      "answer": "An electron, positron, or photon is plausible because electromagnetic showers deposit energy strongly in an electromagnetic calorimeter. Track information distinguishes charged leptons from photons.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-19",
+      "prompt": "Why does increasing accelerator voltage not by itself guarantee discovery of a chosen particle?",
+      "answer": "The energy must exceed the production threshold, but the process must also obey conservation laws and have a non-negligible probability. Detector acceptance and background rejection also matter.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particles-accelerators-20",
+      "prompt": "A neutral particle is not directly curved by a magnetic field. How can detector data still reveal it?",
+      "answer": "It may decay into charged particles that leave tracks, or it may be inferred from missing energy and momentum after all visible products are measured.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

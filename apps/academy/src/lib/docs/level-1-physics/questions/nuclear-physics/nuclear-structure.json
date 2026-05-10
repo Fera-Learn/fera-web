@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "nuclear-structure",
+  "topicTitle": "Nuclear Structure",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "nuclear-structure-01",
+      "prompt": "Name the two main interactions that compete inside a nucleus containing many protons.",
+      "answer": "The strong nuclear interaction provides short-range attraction between nucleons. Coulomb repulsion acts between protons and pushes the nucleus apart.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-02",
+      "prompt": "Why is the strong nuclear force described as short-range?",
+      "answer": "It is significant only over separations of order a few femtometres. Beyond nuclear distances it falls away rapidly, unlike Coulomb repulsion, which has much longer range.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-03",
+      "prompt": "Explain what is meant by saturation of the strong nuclear force.",
+      "answer": "Saturation means each nucleon strongly interacts mainly with nearby nucleons rather than equally with every nucleon in the nucleus. This makes binding energy roughly proportional to \\(A\\), not \\(A^2\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-04",
+      "prompt": "Why does the surface term reduce nuclear binding in a liquid-drop model?",
+      "answer": "Surface nucleons have fewer neighboring nucleons than interior nucleons, so they participate in fewer attractive strong-force bonds. This reduces total binding by a term scaling roughly as surface area, \\(A^{2/3}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-05",
+      "prompt": "Use \\(R=R_0A^{1/3}\\) to explain why a Coulomb-energy estimate contains a factor like \\(Z(Z-1)/A^{1/3}\\).",
+      "answer": "There are roughly \\(Z(Z-1)/2\\) proton pairs, and each pair has a repulsive energy scale proportional to \\(1/R\\). Since \\(R\\propto A^{1/3}\\), the Coulomb term scales like\\n\\[\\n\\frac{Z(Z-1)}{A^{1/3}}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-06",
+      "prompt": "Why do heavy nuclei require more neutrons than protons for stability?",
+      "answer": "Extra neutrons add strong-force attraction without adding proton-proton Coulomb repulsion. This helps offset the increasing electrostatic repulsion among many protons in heavy nuclei.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-07",
+      "prompt": "What are nuclear magic numbers, and what do they indicate?",
+      "answer": "Magic numbers are proton or neutron numbers associated with closed nuclear shells, such as \\(2,8,20,28,50,82,126\\). They indicate extra stability from filled quantum levels.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-08",
+      "prompt": "Why are even-even nuclei generally more common among stable nuclei than odd-odd nuclei?",
+      "answer": "Nucleon pairing lowers energy. A nucleus with even \\(Z\\) and even \\(N\\) can pair both protons and neutrons, while odd-odd nuclei have unpaired nucleons and are usually less tightly bound.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-09",
+      "prompt": "A nucleus has \\(Z=82\\). Why might this proton number give extra stability?",
+      "answer": "\\(Z=82\\) is a magic number. It corresponds to a closed proton shell, so the proton configuration has extra shell-model stability.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-10",
+      "prompt": "Contrast the liquid-drop model and the shell model of the nucleus.",
+      "answer": "The liquid-drop model treats the nucleus as a dense charged drop and explains volume, surface, Coulomb, and asymmetry trends. The shell model treats nucleons as occupying quantum energy levels and explains magic numbers, spins, and extra stability from closed shells.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-11",
+      "prompt": "Why does the nuclear force being approximately charge-independent not imply that proton-rich and neutron-rich nuclei are equally stable?",
+      "answer": "The strong interaction between nucleons is similar for proton-proton, neutron-neutron, and proton-neutron pairs after accounting for charge, but protons also experience Coulomb repulsion. The Pauli principle and shell filling also penalize large imbalance between \\(N\\) and \\(Z\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-12",
+      "prompt": "Explain the asymmetry-energy idea qualitatively.",
+      "answer": "Protons and neutrons occupy quantum states. If one type greatly outnumbers the other, the excess nucleons must occupy higher states, raising the energy. This favors \\(N\\approx Z\\) for light nuclei, with neutron excess in heavy nuclei due to Coulomb repulsion.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-13",
+      "prompt": "A simple binding model includes \\(B=a_VA-a_SA^{2/3}\\). Explain the physical meaning of the two terms.",
+      "answer": "The volume term \\(a_VA\\) represents attractive strong-force binding from nucleons in the bulk. The surface term \\(-a_SA^{2/3}\\) corrects for surface nucleons having fewer neighbors and therefore less binding.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-14",
+      "prompt": "For the model \\(B=a_VA-a_SA^{2/3}\\), show why surface effects become less important per nucleon as \\(A\\) grows.",
+      "answer": "Divide by \\(A\\):\\n\\[\\n\\frac{B}{A}=a_V-a_SA^{-1/3}\\n\\]\\nThe surface correction per nucleon is \\(a_SA^{-1/3}\\), which decreases as \\(A\\) increases.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-15",
+      "prompt": "Why does the Coulomb term become more destabilizing as \\(Z\\) increases?",
+      "answer": "The number of repelling proton pairs increases roughly as \\(Z(Z-1)/2\\), while nuclear radius grows only as \\(A^{1/3}\\). The repulsive energy therefore grows rapidly in heavy, proton-rich nuclei.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-16",
+      "prompt": "A nucleus has one unpaired nucleon outside closed shells. What broad feature of its nuclear spin would you expect?",
+      "answer": "The spin is often dominated by the angular momentum of the unpaired nucleon. Paired nucleons tend to combine to total angular momentum zero, leaving the unpaired nucleon to set the nuclear spin scale.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-17",
+      "prompt": "A nucleus is doubly magic. What does that mean, and what stability effect is expected?",
+      "answer": "Doubly magic means both \\(Z\\) and \\(N\\) are magic numbers. Both proton and neutron shells are closed, so the nucleus is expected to have unusually high stability compared with nearby nuclei.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-18",
+      "prompt": "Use scaling to compare Coulomb repulsion in two nuclei with the same \\(N/Z\\) ratio but one has twice the \\(A\\).",
+      "answer": "If \\(N/Z\\) is fixed, then \\(Z\\propto A\\). The Coulomb scale behaves like\\n\\[\\nU_C\\propto\\frac{Z^2}{A^{1/3}}\\propto\\frac{A^2}{A^{1/3}}=A^{5/3}\\n\\]\\nDoubling \\(A\\) increases this scale by \\(2^{5/3}\\), faster than linear growth.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-19",
+      "prompt": "Explain why no single simple nuclear model is sufficient for all nuclear properties.",
+      "answer": "Bulk trends such as density and average binding are well described by liquid-drop ideas. Magic numbers, spins, and level structure require quantum shell ideas. Decay and reactions also depend on tunneling and selection rules. The nucleus has both collective and single-particle behavior.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nuclear-structure-20",
+      "prompt": "Prove, using scaling only, why heavy nuclei cannot remain stable with \\(N=Z\\) indefinitely.",
+      "answer": "For \\(N=Z\\), proton number grows as \\(Z=A/2\\). Coulomb energy scales roughly as\\n\\[\\nU_C\\propto\\frac{Z^2}{R}\\propto\\frac{A^2}{A^{1/3}}=A^{5/3}\\n\\]\\nwhile strong-force volume binding scales approximately as \\(A\\). Since \\(A^{5/3}\\) grows faster than \\(A\\), Coulomb repulsion becomes increasingly destabilizing. Heavy stable nuclei need extra neutrons to add attraction without adding proton repulsion.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

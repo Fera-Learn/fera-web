@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "torque",
+  "topicTitle": "Torque",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "torque-01",
+      "prompt": "A \\(25\\,\\mathrm{N}\\) force acts perpendicular to a handle \\(0.40\\,\\mathrm{m}\\) from the axis. Find the torque magnitude.",
+      "answer": "\\[\n\\tau=rF=0.40(25)=10\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-02",
+      "prompt": "A force\u0027s line of action passes through the rotation axis. What torque does it produce about that axis?",
+      "answer": "The torque is zero because the perpendicular lever arm is zero:\n\\[\n\\tau=F\\ell=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-03",
+      "prompt": "Counterclockwise torque is defined as positive. What is the sign of a clockwise torque?",
+      "answer": "Clockwise torque is negative when counterclockwise is defined as positive.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-04",
+      "prompt": "A \\(18\\,\\mathrm{N}\\) force acts at the end of a \\(0.50\\,\\mathrm{m}\\) wrench at \\(30^\\circ\\) to the wrench. Find the torque magnitude.",
+      "answer": "\\[\n\\tau=rF\\sin\\phi=0.50(18)\\sin30^\\circ=4.5\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-05",
+      "prompt": "A force \\(\\vec F=12\\hat\\imath-4\\hat\\jmath\\,\\mathrm{N}\\) acts at \\(\\vec r=0.20\\hat\\imath+0.30\\hat\\jmath\\,\\mathrm{m}\\). Find \\(\\tau_z\\).",
+      "answer": "\\[\n\\tau_z=xF_y-yF_x\n\\]\n\\[\n\\tau_z=0.20(-4)-0.30(12)=-4.4\\,\\mathrm{N\\,m}\n\\]\nThe negative sign means clockwise torque with the usual convention.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-06",
+      "prompt": "A \\(40\\,\\mathrm{N}\\) force acts \\(0.30\\,\\mathrm{m}\\) to the right of a pivot and a \\(20\\,\\mathrm{N}\\) force acts \\(0.50\\,\\mathrm{m}\\) to the left. Both forces act downward. Find the net torque, taking counterclockwise as positive.",
+      "answer": "For the right-hand force,\n\\[\n\\tau_R=0.30(-40)=-12\\,\\mathrm{N\\,m}\n\\]\nFor the left-hand force,\n\\[\n\\tau_L=(-0.50)(-20)=+10\\,\\mathrm{N\\,m}\n\\]\nSo\n\\[\n\\tau_{\\mathrm{net}}=-2\\,\\mathrm{N\\,m}\n\\]\nThe net torque is clockwise.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-07",
+      "prompt": "A \\(60\\,\\mathrm{N}\\) force acts \\(0.25\\,\\mathrm{m}\\) from a pivot at \\(70^\\circ\\) to the radius. Find the perpendicular lever arm and the torque magnitude.",
+      "answer": "\\[\n\\ell=r\\sin70^\\circ=0.25\\sin70^\\circ=0.235\\,\\mathrm{m}\n\\]\n\\[\n\\tau=F\\ell=60(0.235)=14.1\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-08",
+      "prompt": "A \\(12\\,\\mathrm{N\\,m}\\) clockwise torque is balanced by a perpendicular force applied \\(0.30\\,\\mathrm{m}\\) from the axis. Find the force magnitude and its torque direction.",
+      "answer": "The balancing torque must be counterclockwise:\n\\[\nF=\\frac{\\tau}{r}=\\frac{12}{0.30}=40\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-09",
+      "prompt": "A \\(2.0\\,\\mathrm{m}\\) light beam is pivoted at one end. A \\(120\\,\\mathrm{N}\\) load hangs at the far end. A cable at the far end pulls at \\(35^\\circ\\) above the beam. Find the cable tension for zero net torque.",
+      "answer": "Take torques about the pivot. The load gives clockwise torque:\n\\[\n\\tau_W=120(2.0)\n\\]\nThe cable torque is counterclockwise:\n\\[\n\\tau_T=T(2.0)\\sin35^\\circ\n\\]\nFor equilibrium,\n\\[\nT(2.0)\\sin35^\\circ=120(2.0)\n\\]\n\\[\nT=\\frac{120}{\\sin35^\\circ}=209\\,\\mathrm{N}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-10",
+      "prompt": "A force \\(\\vec F_1=20\\hat\\jmath\\,\\mathrm{N}\\) acts at \\(x=0.40\\,\\mathrm{m}\\). A second force \\(\\vec F_2=F_y\\hat\\jmath\\,\\mathrm{N}\\) acts at \\(x=-0.25\\,\\mathrm{m}\\). Find \\(F_y\\) for zero net torque about the origin, and interpret its sign.",
+      "answer": "The first torque is\n\\[\n\\tau_1=0.40(20)=8.0\\,\\mathrm{N\\,m}\n\\]\nThe second torque is\n\\[\n\\tau_2=(-0.25)F_y\n\\]\nSet the net torque to zero:\n\\[\n8.0-0.25F_y=0\n\\]\n\\[\nF_y=32\\,\\mathrm{N}\n\\]\nThe positive sign means the second force points upward. At negative \\(x\\), an upward force gives clockwise torque, which balances the first force.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-11",
+      "prompt": "Two coplanar forces act on a rigid plate: \\(\\vec F_1\\) at \\(\\vec r_1\\) and \\(\\vec F_2\\) at \\(\\vec r_2\\), with resultant \\(\\vec R=\\vec F_1+\\vec F_2\\neq\\vec0\\). Derive the condition for replacing them by one force \\(\\vec R\\), and find the line on which that force must act.",
+      "answer": "The original torque about the chosen origin is\n\\[\n\\vec\\tau_0=\\vec r_1\\times\\vec F_1+\\vec r_2\\times\\vec F_2\n\\]\nIf the two forces are replaced by one force \\(\\vec R\\), applied at position \\(\\vec\\rho\\), it must satisfy\n\\[\n\\vec\\rho\\times\\vec R=\\vec\\tau_0\n\\]\nThis is possible because \\(\\vec R\\neq\\vec0\\). One point on the required line of action is\n\\[\n\\vec\\rho_0=\\frac{\\vec R\\times\\vec\\tau_0}{|\\vec R|^2}\n\\]\nThen every point on the same line is\n\\[\n\\vec\\rho=\\vec\\rho_0+s\\vec R\n\\]\nwhere \\(s\\) is any scalar. The force must act along the line through \\(\\vec\\rho_0\\) parallel to \\(\\vec R\\), so it matches both the resultant force and the original torque.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "torque-12",
+      "prompt": "Two coplanar forces act on a rigid body. Derive the conditions under which their net effect is a pure couple independent of the choice of origin, find the couple torque, and explain why no single-force replacement exists in that case.",
+      "answer": "Move the origin by \\(\\vec a\\). The net torque changes as\n\\[\n\\vec\\tau\u0027=\\vec\\tau-\\vec a\\times\\vec R\n\\]\nwhere\n\\[\n\\vec R=\\vec F_1+\\vec F_2\n\\]\nFor the torque to be independent of origin, the resultant must be zero:\n\\[\n\\vec F_1+\\vec F_2=\\vec0\n\\]\nThen \\(\\vec F_2=-\\vec F_1\\), and the couple torque is\n\\[\n\\vec C=\\vec r_1\\times\\vec F_1+\\vec r_2\\times\\vec F_2\n\\]\n\\[\n\\vec C=(\\vec r_1-\\vec r_2)\\times\\vec F_1\n\\]\nIf \\(\\vec C\\neq\\vec0\\), there is no single-force replacement. A single nonzero force has a nonzero resultant, while a pure couple has zero resultant but nonzero torque.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

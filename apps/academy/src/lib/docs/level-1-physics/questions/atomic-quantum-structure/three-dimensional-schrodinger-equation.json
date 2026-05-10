@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "three-dimensional-schrodinger-equation",
+  "topicTitle": "Three-Dimensional Schrodinger Equation",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "atomic-3d-schrodinger-01",
+      "prompt": "State the time-independent Schrodinger equation in three dimensions.",
+      "answer": "\\[\n-\\frac{\\hbar^2}{2m}\\nabla^2\\phi+U(\\vec r)\\phi=E\\phi\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-02",
+      "prompt": "Write the three-dimensional Laplacian in Cartesian coordinates.",
+      "answer": "\\[\n\\nabla^2=\\frac{\\partial^2}{\\partial x^2}+\\frac{\\partial^2}{\\partial y^2}+\\frac{\\partial^2}{\\partial z^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-03",
+      "prompt": "What is the probability density for a three-dimensional wave function?",
+      "answer": "The probability density is\n\\[\n\\rho(\\vec r)=|\\psi(\\vec r,t)|^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-04",
+      "prompt": "State the normalization condition for a three-dimensional bound-state wave function.",
+      "answer": "\\[\n\\int |\\psi(\\vec r,t)|^2\\,dV=1\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-05",
+      "prompt": "What operator replaces the one-dimensional second derivative in the three-dimensional Schrodinger equation?",
+      "answer": "The three-dimensional Laplacian \\(\\nabla^2\\) replaces \\(d^2/dx^2\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-06",
+      "prompt": "For a stationary state \\(\\psi(\\vec r,t)=\\phi(\\vec r)e^{-iEt/\\hbar}\\), why is the probability density time independent?",
+      "answer": "The phase factor has unit magnitude:\n\\[\n|e^{-iEt/\\hbar}|^2=1\n\\]\nso\n\\[\n|\\psi|^2=|\\phi|^2\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-07",
+      "prompt": "For a free particle with \\(\\phi=e^{i\\vec k\\cdot\\vec r}\\), evaluate \\(\\nabla^2\\phi\\).",
+      "answer": "Differentiating twice with respect to each coordinate gives\n\\[\n\\nabla^2\\phi=-k^2\\phi\n\\]\nwhere \\(k^2=k_x^2+k_y^2+k_z^2\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-08",
+      "prompt": "Use \\(\\nabla^2\\phi=-k^2\\phi\\) for a free particle to find its energy.",
+      "answer": "For \\(U=0\\),\n\\[\n-\\frac{\\hbar^2}{2m}\\nabla^2\\phi=E\\phi\n\\]\nUsing \\(\\nabla^2\\phi=-k^2\\phi\\),\n\\[\nE=\\frac{\\hbar^2k^2}{2m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-09",
+      "prompt": "What is the Hamiltonian operator for a nonrelativistic particle in potential \\(U(\\vec r)\\)?",
+      "answer": "\\[\n\\hat H=-\\frac{\\hbar^2}{2m}\\nabla^2+U(\\vec r)\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-10",
+      "prompt": "Why do boundary conditions matter in solving the three-dimensional Schrodinger equation?",
+      "answer": "Boundary conditions select which wave functions are physically allowed. They determine normalizable states and discrete energy eigenvalues in bound systems.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-11",
+      "prompt": "A normalized wave function is multiplied by \\(2\\). What happens to its normalization integral?",
+      "answer": "The probability density becomes four times larger:\n\\[\n|2\\psi|^2=4|\\psi|^2\n\\]\nso the normalization integral becomes 4, not 1.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-12",
+      "prompt": "If a wave function separates as \\(X(x)Y(y)Z(z)\\), what does that usually say about the potential?",
+      "answer": "It usually means the potential and boundaries allow independent coordinate equations, often because the potential can be written as a sum of one-coordinate terms or is separable by symmetry.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-13",
+      "prompt": "Why is \\(|\\psi|^2dV\\) a probability but \\(|\\psi|^2\\) alone is a density?",
+      "answer": "\\(|\\psi|^2\\) is probability per unit volume. Multiplying by a small volume element \\(dV\\) gives the probability of finding the particle in that small volume.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-14",
+      "prompt": "What is the time-dependent Schrodinger equation in operator form?",
+      "answer": "\\[\ni\\hbar\\frac{\\partial\\psi}{\\partial t}=\\hat H\\psi\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-15",
+      "prompt": "Why must a bound-state wave function usually approach zero far from the binding region?",
+      "answer": "If it did not approach zero, the integral of \\(|\\psi|^2\\) over all space would usually diverge, so the state could not be normalized.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-16",
+      "prompt": "A particle is confined to a volume \\(V\\) with constant wave function magnitude. Estimate \\(|\\psi|\\).",
+      "answer": "Normalization gives\n\\[\n|\\psi|^2V=1\n\\]\nso\n\\[\n|\\psi|=\\frac{1}{\\sqrt V}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-17",
+      "prompt": "What is the main difference between the one-dimensional and three-dimensional time-independent Schrodinger equations?",
+      "answer": "The one-dimensional equation has one spatial second derivative. The three-dimensional equation uses the Laplacian, which includes curvature in all three spatial directions.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-18",
+      "prompt": "Explain why the three-dimensional Schrodinger equation is linear.",
+      "answer": "The operators act linearly on \\(\\psi\\): derivatives, multiplication by \\(U\\), and addition preserve superposition. Therefore sums of solutions with the same equation structure are also valid state combinations.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-19",
+      "prompt": "What physical quantity is represented by an eigenvalue \\(E\\) in the time-independent equation?",
+      "answer": "\\(E\\) is an allowed energy for a stationary state of the system.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "atomic-3d-schrodinger-20",
+      "prompt": "Derive the time-independent equation by substituting \\(\\psi(\\vec r,t)=\\phi(\\vec r)e^{-iEt/\\hbar}\\) into the time-dependent equation.",
+      "answer": "Start with\n\\[\ni\\hbar\\frac{\\partial\\psi}{\\partial t}=\\hat H\\psi\n\\]\nThe time derivative gives\n\\[\ni\\hbar\\left(-\\frac{iE}{\\hbar}\\right)\\phi e^{-iEt/\\hbar}=E\\phi e^{-iEt/\\hbar}\n\\]\nCancel the common time factor to get\n\\[\n\\hat H\\phi=E\\phi\n\\]\nwhich is\n\\[\n-\\frac{\\hbar^2}{2m}\\nabla^2\\phi+U\\phi=E\\phi\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

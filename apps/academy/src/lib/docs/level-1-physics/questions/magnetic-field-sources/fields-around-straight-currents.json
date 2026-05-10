@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "fields-around-straight-currents",
+  "topicTitle": "Fields Around Straight Currents",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "straight-current-fields-01",
+      "prompt": "What shape are the magnetic field lines around a long straight current-carrying wire?",
+      "answer": "They are circles centered on the wire. The field direction is tangent to those circles.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-02",
+      "prompt": "State the magnetic field magnitude at distance \\(r\\) from a long straight wire carrying current \\(I\\).",
+      "answer": "The magnetic field magnitude is\n\\[\nB=\\frac{\\mu_0 I}{2\\pi r}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-03",
+      "prompt": "A vertical wire carries current upward. At a point to the right of the wire, is the magnetic field into or out of the page?",
+      "answer": "Use the right-hand grip rule: thumb upward with the current. At the right side of the wire, the curled fingers point into the page.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-04",
+      "prompt": "Find the magnetic field \\(0.040\\,\\mathrm m\\) from a long straight wire carrying \\(10\\,\\mathrm A\\).",
+      "answer": "\\[\nB=\\frac{\\mu_0 I}{2\\pi r}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(10)}{2\\pi(0.040)}\n\\]\n\\[\nB=5.0\\times10^{-5}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-05",
+      "prompt": "A long straight wire carries \\(8.0\\,\\mathrm A\\). At what distance is the magnetic field \\(4.0\\times10^{-5}\\,\\mathrm T\\)?",
+      "answer": "Rearrange\n\\[\nB=\\frac{\\mu_0 I}{2\\pi r}\n\\]\nto get\n\\[\nr=\\frac{\\mu_0 I}{2\\pi B}\n\\]\n\\[\nr=\\frac{(4\\pi\\times10^{-7})(8.0)}{2\\pi(4.0\\times10^{-5})}=0.040\\,\\mathrm m\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-06",
+      "prompt": "Two identical long parallel wires carry equal currents in the same direction. What is the net magnetic field at the point halfway between them?",
+      "answer": "At the midpoint, the field from one wire is into the page and the field from the other is out of the page. The magnitudes are equal, so the net magnetic field is zero.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-07",
+      "prompt": "Two long vertical wires are \\(0.20\\,\\mathrm m\\) apart and both carry upward current. The left wire carries \\(5.0\\,\\mathrm A\\) and the right wire carries \\(3.0\\,\\mathrm A\\). Find the net field at the midpoint.",
+      "answer": "The midpoint is \\(0.10\\,\\mathrm m\\) from each wire. The left wire gives into the page:\n\\[\nB_L=\\frac{\\mu_0(5.0)}{2\\pi(0.10)}=1.0\\times10^{-5}\\,\\mathrm T\n\\]\nThe right wire gives out of the page:\n\\[\nB_R=\\frac{\\mu_0(3.0)}{2\\pi(0.10)}=6.0\\times10^{-6}\\,\\mathrm T\n\\]\nThe net field is\n\\[\n4.0\\times10^{-6}\\,\\mathrm T\n\\]\ninto the page.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-08",
+      "prompt": "Two identical long wires carry equal currents in opposite directions. What happens to the magnetic field at the midpoint between them?",
+      "answer": "At the midpoint the two fields point in the same direction, so they add rather than cancel. The net field magnitude is twice the field from one wire at that distance.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-09",
+      "prompt": "Use Ampere's law to derive the long-straight-wire field magnitude.",
+      "answer": "Choose a circular Amperian loop of radius \\(r\\) centered on the wire. The field is tangent and constant on the loop, so\n\\[\n\\oint\\vec B\\cdot d\\vec l=B(2\\pi r)\n\\]\nAmpere's law gives\n\\[\nB(2\\pi r)=\\mu_0I\n\\]\nTherefore\n\\[\nB=\\frac{\\mu_0I}{2\\pi r}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "straight-current-fields-10",
+      "prompt": "A wire's current is tripled and the observation distance is doubled. By what factor does the straight-wire magnetic field change?",
+      "answer": "For a long straight wire,\n\\[\nB\\propto \\frac{I}{r}\n\\]\nTripling \\(I\\) multiplies \\(B\\) by \\(3\\), and doubling \\(r\\) divides \\(B\\) by \\(2\\). Therefore\n\\[\n\\frac{B'}{B}=\\frac{3}{2}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

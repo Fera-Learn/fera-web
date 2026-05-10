@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "quantum-entanglement",
+  "topicTitle": "Quantum Entanglement",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "quantum-entanglement-01",
+      "prompt": "What is quantum entanglement?",
+      "answer": "Quantum entanglement occurs when the state of a composite system cannot be written as a product of separate states for its parts.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-02",
+      "prompt": "What is the difference between a product state and an entangled state?",
+      "answer": "A product state can be written as \\(\\lvert\\psi\\rangle_A\\lvert\\phi\\rangle_B\\). An entangled state cannot be factored into separate states for systems \\(A\\) and \\(B\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-03",
+      "prompt": "Is the state \\((\\lvert 01\\rangle+\\lvert 10\\rangle)/\\sqrt2\\) entangled?",
+      "answer": "Yes. The state is a Bell-type entangled state because it cannot be factored into a product of a state for the first system and a state for the second system.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-04",
+      "prompt": "For \\(\\lvert\\psi\\rangle=(\\lvert 01\\rangle+\\lvert 10\\rangle)/\\sqrt2\\), what is the probability of measuring \\(01\\)?",
+      "answer": "The amplitude of \\(\\lvert 01\\rangle\\) is \\(1/\\sqrt2\\), so\n\\[\nP(01)=\\left|\\frac{1}{\\sqrt2}\\right|^2=\\frac12\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-05",
+      "prompt": "For \\((\\lvert 01\\rangle+\\lvert 10\\rangle)/\\sqrt2\\), if the first system is measured as \\(0\\), what is the second system measured as?",
+      "answer": "It is measured as \\(1\\). In this state, the allowed outcomes are \\(01\\) and \\(10\\), so measuring the first system as \\(0\\) fixes the second as \\(1\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-06",
+      "prompt": "For \\((\\lvert 01\\rangle+\\lvert 10\\rangle)/\\sqrt2\\), what is the probability of measuring the first system as \\(0\\)?",
+      "answer": "Only the \\(\\lvert 01\\rangle\\) term has the first system in state \\(0\\), so\n\\[\nP(A=0)=\\frac12\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-07",
+      "prompt": "Does entanglement allow faster-than-light communication?",
+      "answer": "No. Entanglement creates strong correlations between measurement outcomes, but a local measurement result is still random and cannot be controlled to send a message faster than light.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-08",
+      "prompt": "What do Bell tests show about entangled systems?",
+      "answer": "Bell tests show that quantum correlations can violate inequalities satisfied by local hidden-variable theories, ruling out that class of classical explanations.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-09",
+      "prompt": "Write a common spin singlet state for two spin-one-half particles.",
+      "answer": "\\[\n\\lvert\\psi\\rangle=\\frac{1}{\\sqrt2}\\left(\\lvert\\uparrow\\downarrow\\rangle-\\lvert\\downarrow\\uparrow\\rangle\\right)\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-10",
+      "prompt": "For the spin singlet state, what happens if both spins are measured along the same axis?",
+      "answer": "The results are perfectly anti-correlated. If one particle is measured spin-up along that axis, the other is measured spin-down along the same axis.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-11",
+      "prompt": "Show that \\((\\lvert 00\\rangle+\\lvert 11\\rangle)/\\sqrt2\\) is normalized.",
+      "answer": "The probabilities add to one:\n\\[\n\\left|\\frac{1}{\\sqrt2}\\right|^2+\\left|\\frac{1}{\\sqrt2}\\right|^2=\\frac12+\\frac12=1\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-12",
+      "prompt": "For \\(\\lvert\\psi\\rangle=(\\sqrt3/2)\\lvert00\\rangle+(1/2)\\lvert11\\rangle\\), find the probabilities of \\(00\\) and \\(11\\).",
+      "answer": "\\[\nP(00)=\\left|\\frac{\\sqrt3}{2}\\right|^2=\\frac34\n\\]\n\\[\nP(11)=\\left|\\frac12\\right|^2=\\frac14\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-13",
+      "prompt": "Is \\(\\lvert0\\rangle_A\\lvert1\\rangle_B\\) entangled?",
+      "answer": "No. It is already written as a product of a state for system \\(A\\) and a state for system \\(B\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-14",
+      "prompt": "Can two systems be correlated without being entangled?",
+      "answer": "Yes. Classical mixtures can have correlations without being in a single non-factorable quantum state. Entanglement is a specifically quantum kind of correlation in the state itself.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-15",
+      "prompt": "What is the purpose of a Bell inequality?",
+      "answer": "A Bell inequality gives a bound on correlations expected from local hidden-variable theories. Entangled quantum systems can violate that bound.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-16",
+      "prompt": "How does entanglement change the description of a two-particle system?",
+      "answer": "The pair must be described by one joint state. Assigning independent definite states to each particle misses the correlations contained in the combined wave function.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-17",
+      "prompt": "For \\((\\lvert 00\\rangle+\\lvert 11\\rangle)/\\sqrt2\\), what is the post-measurement state if the first system is measured as \\(1\\)?",
+      "answer": "The joint state collapses to the compatible term:\n\\[\n\\lvert11\\rangle\n\\]\nso the second system is also \\(1\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-18",
+      "prompt": "Why can a relative phase matter in an entangled state?",
+      "answer": "A relative phase changes interference between alternatives when the state is measured in other bases. States such as \\((\\lvert00\\rangle+\\lvert11\\rangle)/\\sqrt2\\) and \\((\\lvert00\\rangle-\\lvert11\\rangle)/\\sqrt2\\) can give different correlations in rotated bases.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-19",
+      "prompt": "Show that \\((\\lvert00\\rangle+\\lvert01\\rangle)/\\sqrt2\\) is not entangled.",
+      "answer": "Factor out the first system:\n\\[\n\\frac{\\lvert00\\rangle+\\lvert01\\rangle}{\\sqrt2}=\\lvert0\\rangle\\frac{\\lvert0\\rangle+\\lvert1\\rangle}{\\sqrt2}\n\\]\nBecause it factors into separate states, it is a product state.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "quantum-entanglement-20",
+      "prompt": "Why can \\((\\lvert00\\rangle+\\lvert11\\rangle)/\\sqrt2\\) not be factored into separate one-system states?",
+      "answer": "A general product \\((a\\lvert0\\rangle+b\\lvert1\\rangle)(c\\lvert0\\rangle+d\\lvert1\\rangle)\\) contains amplitudes for \\(00\\), \\(01\\), \\(10\\), and \\(11\\). To remove \\(01\\) and \\(10\\), one needs \\(ad=0\\) and \\(bc=0\\), but keeping both \\(ac\\neq0\\) and \\(bd\\neq0\\) is then impossible. So the Bell state is entangled.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

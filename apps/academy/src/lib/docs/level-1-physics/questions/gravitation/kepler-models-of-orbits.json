@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "kepler-models-of-orbits",
+  "topicTitle": "Kepler Models of Orbits",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "kepler-orbits-01",
+      "prompt": "In Kepler\u0027s ellipse model, is the central mass at the center of the ellipse or at one focus?",
+      "answer": "The central mass is at one focus of the ellipse, not at the geometric center.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-02",
+      "prompt": "An orbiting body sweeps equal areas in equal times. Is it moving faster near periapsis or apoapsis?",
+      "answer": "It moves faster near periapsis. When \\(r\\) is smaller, a larger transverse speed is needed to sweep the same area in the same time.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-03",
+      "prompt": "Two objects orbit the same star. One has semi-major axis \\(4a\\), and the other has semi-major axis \\(a\\). Find the ratio of their periods.",
+      "answer": "For the same central mass,\n\\[\nT\\propto a^{3/2}\n\\]\nso\n\\[\n\\frac{T_{4a}}{T_a}=4^{3/2}=8\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-04",
+      "prompt": "An elliptical orbit has periapsis distance \\(7.0\\times10^{10}\\,\\mathrm{m}\\) and apoapsis distance \\(1.9\\times10^{11}\\,\\mathrm{m}\\). Find its semi-major axis.",
+      "answer": "\\[\na=\\frac{r_p+r_a}{2}\n\\]\n\\[\na=\\frac{7.0\\times10^{10}+1.9\\times10^{11}}{2}\n=1.3\\times10^{11}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-05",
+      "prompt": "Find the period of an orbit with \\(a=1.5\\times10^{11}\\,\\mathrm{m}\\) around a star of mass \\(2.0\\times10^{30}\\,\\mathrm{kg}\\). Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "\\[\nT=2\\pi\\sqrt{\\frac{a^3}{GM}}\n\\]\n\\[\nT=2\\pi\\sqrt{\\frac{(1.5\\times10^{11})^3}{(6.67\\times10^{-11})(2.0\\times10^{30})}}\n=3.2\\times10^7\\,\\mathrm{s}\n\\]\nThis is about one year.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-06",
+      "prompt": "An object orbits with semi-major axis \\(2.0\\times10^{11}\\,\\mathrm{m}\\) and period \\(5.0\\times10^7\\,\\mathrm{s}\\). Estimate the central mass.",
+      "answer": "From Kepler\u0027s third law,\n\\[\nT^2=\\frac{4\\pi^2}{GM}a^3\n\\]\nso\n\\[\nM=\\frac{4\\pi^2a^3}{GT^2}\n\\]\n\\[\nM=\\frac{4\\pi^2(2.0\\times10^{11})^3}{(6.67\\times10^{-11})(5.0\\times10^7)^2}\n=1.9\\times10^{30}\\,\\mathrm{kg}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-07",
+      "prompt": "At periapsis \\(r_p=4.0\\times10^{10}\\,\\mathrm{m}\\), and at apoapsis \\(r_a=1.2\\times10^{11}\\,\\mathrm{m}\\). Use angular momentum conservation to find \\(v_p/v_a\\).",
+      "answer": "At apsides the velocity is transverse, so angular momentum conservation gives\n\\[\nmr_pv_p=mr_av_a\n\\]\nTherefore\n\\[\n\\frac{v_p}{v_a}=\\frac{r_a}{r_p}\n=\\frac{1.2\\times10^{11}}{4.0\\times10^{10}}\n=3\n\\]\nThe object is three times faster at periapsis.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-08",
+      "prompt": "Two planets have the same semi-major axis, but one orbits a star with four times the mass of the other star. Compare their orbital periods.",
+      "answer": "For fixed \\(a\\),\n\\[\nT=2\\pi\\sqrt{\\frac{a^3}{GM}}\\propto \\frac{1}{\\sqrt{M}}\n\\]\nIf the central mass is four times larger,\n\\[\nT_{\\mathrm{large}\\,M}=\\frac{1}{2}T_{\\mathrm{small}\\,M}\n\\]\nThe orbit around the more massive star has half the period.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-09",
+      "prompt": "An elliptical orbit around a fixed star has \\(r_p=1.0\\times10^{11}\\,\\mathrm{m}\\) and \\(r_a=3.0\\times10^{11}\\,\\mathrm{m}\\). Compare its period with a circular orbit of radius \\(1.0\\times10^{11}\\,\\mathrm{m}\\) around the same star.",
+      "answer": "The semi-major axis of the elliptical orbit is\n\\[\na=\\frac{r_p+r_a}{2}\n=\\frac{1.0\\times10^{11}+3.0\\times10^{11}}{2}\n=2.0\\times10^{11}\\,\\mathrm{m}\n\\]\nFor the same star,\n\\[\nT\\propto a^{3/2}\n\\]\nso compared with the circular orbit of radius \\(1.0\\times10^{11}\\,\\mathrm{m}\\),\n\\[\n\\frac{T_{\\mathrm{ellipse}}}{T_{\\mathrm{circle}}}\n=\\left(\\frac{2.0\\times10^{11}}{1.0\\times10^{11}}\\right)^{3/2}\n=2^{3/2}=2.83\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "kepler-orbits-10",
+      "prompt": "For an elliptical orbit with periapsis \\(r_p\\) and apoapsis \\(r_a\\), derive the period in terms of \\(r_p\\), \\(r_a\\), \\(G\\), and \\(M\\). Also derive \\(v_p/v_a\\), assuming the velocity is perpendicular to the radius at both apsides.",
+      "answer": "Ellipse geometry gives\n\\[\na=\\frac{r_p+r_a}{2}\n\\]\nKepler\u0027s third law then gives\n\\[\nT=2\\pi\\sqrt{\\frac{a^3}{GM}}\n=2\\pi\\sqrt{\\frac{\\left(\\frac{r_p+r_a}{2}\\right)^3}{GM}}\n\\]\nAt periapsis and apoapsis, velocity is perpendicular to the radius, so angular momentum conservation gives\n\\[\nmr_pv_p=mr_av_a\n\\]\nTherefore\n\\[\n\\frac{v_p}{v_a}=\\frac{r_a}{r_p}\n\\]\nThe body moves faster at periapsis because it is closer to the central mass and must sweep equal areas in equal times.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "holography",
+  "topicTitle": "Holography",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "holography-01",
+      "prompt": "What does a hologram record that an ordinary photograph does not directly record?",
+      "answer": "A hologram records phase information indirectly through an interference pattern between an object wave and a reference wave.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-02",
+      "prompt": "What two waves are used to record a basic hologram?",
+      "answer": "A basic hologram is recorded using an object wave from the object and a coherent reference wave.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-03",
+      "prompt": "Why is coherent light needed for holography?",
+      "answer": "The object and reference waves must maintain a stable phase relationship long enough to record a clear interference pattern.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-04",
+      "prompt": "Write the intensity formula for two recording beams with intensities \\(I_o\\) and \\(I_r\\).",
+      "answer": "\\[\nI=I_o+I_r+2\\sqrt{I_oI_r}\\cos\\Delta\\phi\n\\]\nThe last term stores phase information in the fringe pattern.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-05",
+      "prompt": "If two equal recording beams arrive in phase, what is the intensity compared with one beam alone?",
+      "answer": "In phase, the fields add to double the field amplitude. Intensity is four times one beam alone:\n\\[\nI=4I_0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-06",
+      "prompt": "If two equal recording beams arrive with phase difference \\(\\pi\\), what happens ideally?",
+      "answer": "The electric fields cancel, giving a dark fringe:\n\\[\nI=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-07",
+      "prompt": "How is path difference related to phase difference in holography?",
+      "answer": "\\[\n\\Delta\\phi=\\frac{2\\pi\\Delta r}{\\lambda}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-08",
+      "prompt": "A path difference of \\(\\lambda/2\\) corresponds to what phase difference?",
+      "answer": "\\[\n\\Delta\\phi=\\frac{2\\pi(\\lambda/2)}{\\lambda}=\\pi\n\\]\nThis gives destructive interference for equal beams.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-09",
+      "prompt": "A path difference of \\(2\\lambda\\) corresponds to what phase difference and interference type?",
+      "answer": "\\[\n\\Delta\\phi=\\frac{2\\pi(2\\lambda)}{\\lambda}=4\\pi\n\\]\nThis is equivalent to in-phase constructive interference.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-10",
+      "prompt": "What happens during hologram reconstruction?",
+      "answer": "A reference-like beam illuminates the hologram. The recorded fringe structure diffracts the light so that one diffracted wave reproduces the original object wavefront.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-11",
+      "prompt": "Why is reconstruction a diffraction process?",
+      "answer": "The recorded microscopic fringes act like a complex diffraction grating. They redirect the reconstruction beam into wavefronts determined by the recorded interference pattern.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-12",
+      "prompt": "For two symmetric plane waves meeting at angle \\(2\\alpha\\), state the fringe spacing.",
+      "answer": "\\[\np=\\frac{\\lambda}{2\\sin\\alpha}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-13",
+      "prompt": "Find the fringe spacing for \\(\\lambda=500\\,\\mathrm{nm}\\) and \\(\\alpha=30.0^\\circ\\).",
+      "answer": "\\[\np=\\frac{500\\,\\mathrm{nm}}{2\\sin30.0^\\circ}=500\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-14",
+      "prompt": "Find the fringe spacing for \\(\\lambda=600\\,\\mathrm{nm}\\) and \\(\\alpha=10.0^\\circ\\).",
+      "answer": "\\[\np=\\frac{600\\,\\mathrm{nm}}{2\\sin10.0^\\circ}=1.73\\,\\mu\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-15",
+      "prompt": "What happens to hologram fringe spacing if the angle between recording beams is increased?",
+      "answer": "Increasing the angle increases \\(\\sin\\alpha\\), so\n\\[\np=\\frac{\\lambda}{2\\sin\\alpha}\n\\]\ndecreases. The fringes become closer together.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-16",
+      "prompt": "Why can a hologram give a sense of depth?",
+      "answer": "It reconstructs a wavefront with direction and phase information similar to the original light from the object, so the eye receives angle-dependent information rather than only flat brightness.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-17",
+      "prompt": "Why does blocking part of an ideal hologram not simply remove the corresponding part of the image?",
+      "answer": "Each small region of the hologram contains interference information from light arriving from many parts of the object. Blocking part reduces brightness and resolution rather than cropping the image in the ordinary photograph sense.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-18",
+      "prompt": "Explain why an ordinary photograph cannot reconstruct a wavefront the same way a hologram can.",
+      "answer": "An ordinary photograph records intensity from the object directly and loses phase information. A hologram converts phase differences into an interference pattern with a reference wave, so diffraction can reconstruct the wavefront.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-19",
+      "prompt": "A hologram is reconstructed with a wavelength different from the recording wavelength. What qualitative change can occur?",
+      "answer": "Because diffraction angles depend on wavelength, the reconstructed wavefront can appear at changed angles or scale, and color errors can appear if the wavelength differs significantly.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "holography-20",
+      "prompt": "Derive why the recorded intensity contains phase information.",
+      "answer": "The fields add before intensity is formed:\n\\[\nE=E_o+E_r\n\\]\nSquaring the resultant field gives\n\\[\nI\\propto|E_o+E_r|^2=I_o+I_r+2\\sqrt{I_oI_r}\\cos\\Delta\\phi\n\\]\nThe cross term depends on \\(\\Delta\\phi\\), so phase information is encoded as brightness fringes.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

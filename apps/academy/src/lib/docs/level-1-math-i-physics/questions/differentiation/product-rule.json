@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "product-rule",
+  "topicTitle": "Product Rule",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-product-rule-01",
+      "prompt": "State the product rule for differentiation in terms of f and g.",
+      "answer": "The product rule states:\n\\[\\frac{d}{dx}[f(x)g(x)]=f'(x)g(x)+f(x)g'(x)\\]\nor equivalently \\((fg)'=f'g+fg'\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-02",
+      "prompt": "Differentiate \\(f(x)=x^2\\sin x\\).",
+      "answer": "Let \\(u=x^2\\) and \\(v=\\sin x\\). Then \\(u'=2x\\) and \\(v'=\\cos x\\).\n\\[f'(x)=u'v+uv'=2x\\sin x+x^2\\cos x\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-03",
+      "prompt": "Find \\(\\frac{d}{dx}(x\\cos x)\\).",
+      "answer": "Using the product rule with \\(u=x\\) and \\(v=\\cos x\\):\n\\[\\frac{d}{dx}(x\\cos x)=1\\cdot\\cos x+x\\cdot(-\\sin x)=\\cos x-x\\sin x\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-04",
+      "prompt": "If \\(y=t^2\\cdot e^t\\), find \\(dy/dt\\).",
+      "answer": "Using the product rule:\n\\[\\frac{dy}{dt}=2t\\cdot e^t+t^2\\cdot e^t=(2t+t^2)e^t\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-05",
+      "prompt": "Differentiate \\(f(x)=\\sin x\\cos x\\).",
+      "answer": "Using the product rule:\n\\[f'(x)=\\cos x\\cos x+\\sin x(-\\sin x)=\\cos^2x-\\sin^2x\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-06",
+      "prompt": "Find \\(\\frac{d}{dx}(x^3\\ln x)\\) for \\(x>0\\).",
+      "answer": "Using the product rule with \\(u=x^3\\) and \\(v=\\ln x\\):\n\\[\\frac{d}{dx}=3x^2\\ln x+x^3\\cdot\\frac{1}{x}=3x^2\\ln x+x^2=x^2(3\\ln x+1)\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-07",
+      "prompt": "A rectangle has sides changing as \\(l(t)=2t+1\\) and \\(w(t)=t^2\\). Find the rate of change of the area.",
+      "answer": "Area \\(A=lw\\). Using the product rule:\n\\[\\frac{dA}{dt}=\\frac{dl}{dt}\\cdot w+l\\cdot\\frac{dw}{dt}=2\\cdot t^2+(2t+1)\\cdot2t=2t^2+4t^2+2t=6t^2+2t\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-08",
+      "prompt": "Why is \\((fg)'\\ne f'\\cdot g'\\) in general? Give an example.",
+      "answer": "Consider \\(f(x)=x\\) and \\(g(x)=x\\). Then \\((fg)'=(x^2)'=2x\\). But \\(f'g'=1\\cdot x=x\\). Since \\(2x\\ne x\\) for most x, the product of derivatives is not generally equal to the derivative of the product.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-09",
+      "prompt": "Differentiate \\(f(t)=(t+1)(t^2-2t+1)\\).",
+      "answer": "First note that \\(t^2-2t+1=(t-1)^2\\). Using the product rule:\n\\[f'(t)=1\\cdot(t^2-2t+1)+(t+1)\\cdot(2t-2)\\]\n\\[=t^2-2t+1+2t^2-2t+2t-2=(3t^2-2t-1)\\]\nOr expand first: \\(f(t)=t^3-t^2-t+1\\), so \\(f'(t)=3t^2-2t-1\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-product-rule-10",
+      "prompt": "Write the product rule for three functions: \\((uvw)'\\).",
+      "answer": "Differentiating one factor at a time while keeping the others unchanged:\n\\[\\frac{d}{dx}(uvw)=\\frac{du}{dx}vw+u\\frac{dv}{dx}w+uv\\frac{dw}{dx}\\]\nor equivalently \\((uvw)'=u'vw+uv'w+uvw'\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

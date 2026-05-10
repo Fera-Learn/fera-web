@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "integration-by-parts",
+  "topicTitle": "Integration by Parts",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "ibp-1",
+      "prompt": "Integrate x e^x dx.",
+      "answer": "xe^x - e^x + C",
+      "hints": ["Let u=x, dv=e^x dx."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-2",
+      "prompt": "Integrate x sin x dx.",
+      "answer": "-x cos x + sin x + C",
+      "hints": ["Let u=x, dv=sin x dx."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-3",
+      "prompt": "Integrate ln x dx.",
+      "answer": "x ln x - x + C",
+      "hints": ["Let u=ln x, dv=dx."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-4",
+      "prompt": "Integrate x^2 e^x dx.",
+      "answer": "x^2 e^x - 2x e^x + 2e^x + C",
+      "hints": ["Apply IBP twice."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-5",
+      "prompt": "Integrate x cos x dx.",
+      "answer": "x sin x + cos x + C",
+      "hints": ["Let u=x, dv=cos x dx."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-6",
+      "prompt": "Integrate x^2 ln x dx.",
+      "answer": "x^3 ln x/3 - x^3/9 + C",
+      "hints": ["Let u=ln x, dv=x^2 dx."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-7",
+      "prompt": "Integrate e^x sin x dx.",
+      "answer": "(e^x sin x - e^x cos x)/2 + C",
+      "hints": ["Apply IBP twice, then solve for the integral."],
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-8",
+      "prompt": "Integrate x^3 e^x dx.",
+      "answer": "x^3 e^x - 3x^2 e^x + 6x e^x - 6e^x + C",
+      "hints": ["Apply IBP three times or use tabular method."],
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-9",
+      "prompt": "Integrate x^2 sin x dx.",
+      "answer": "-x^2 cos x + 2x sin x + 2 cos x + C",
+      "hints": ["Apply IBP twice."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ibp-10",
+      "prompt": "Integrate arctan x dx.",
+      "answer": "x arctan x - ln(1+x^2)/2 + C",
+      "hints": ["Let u=arctan x, dv=dx, then use substitution."],
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

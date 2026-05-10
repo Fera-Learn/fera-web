@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "speed-of-sound",
+  "topicTitle": "Speed of Sound",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-speed-01",
+      "prompt": "A medium has bulk modulus \\(1.4\\times10^5\\,\\mathrm{Pa}\\) and density \\(1.2\\,\\mathrm{kg\\,m^{-3}}\\). Estimate the sound speed.",
+      "answer": "\\[\nv=\\sqrt{\\frac{B}{\\rho}}=\\sqrt{\\frac{1.4\\times10^5}{1.2}}\n=3.4\\times10^2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-02",
+      "prompt": "A gas has \\(\\gamma=1.40\\), pressure \\(1.01\\times10^5\\,\\mathrm{Pa}\\), and density \\(1.20\\,\\mathrm{kg\\,m^{-3}}\\). Find the sound speed.",
+      "answer": "\\[\nv=\\sqrt{\\frac{\\gamma p}{\\rho}}\n=\\sqrt{\\frac{(1.40)(1.01\\times10^5)}{1.20}}\n=343\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-03",
+      "prompt": "If sound travels at \\(340\\,\\mathrm{m\\,s^{-1}}\\), how far does it travel in \\(0.25\\,\\mathrm{s}\\)?",
+      "answer": "\\[\nd=vt=(340)(0.25)=85\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-04",
+      "prompt": "A sound echo returns from a wall after \\(0.60\\,\\mathrm{s}\\). If the sound speed is \\(340\\,\\mathrm{m\\,s^{-1}}\\), find the one-way distance to the wall.",
+      "answer": "The \\(0.60\\,\\mathrm{s}\\) is a round-trip time, so\n\\[\nd=\\frac{vt}{2}=\\frac{(340)(0.60)}{2}=102\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-05",
+      "prompt": "A liquid has \\(B=2.2\\times10^9\\,\\mathrm{Pa}\\) and \\(\\rho=1000\\,\\mathrm{kg\\,m^{-3}}\\). Estimate the sound speed.",
+      "answer": "\\[\nv=\\sqrt{\\frac{2.2\\times10^9}{1000}}\n=1.48\\times10^3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-06",
+      "prompt": "A material carries sound at \\(1500\\,\\mathrm{m\\,s^{-1}}\\) and has density \\(1000\\,\\mathrm{kg\\,m^{-3}}\\). Estimate its bulk modulus.",
+      "answer": "Rearrange \\(v=\\sqrt{B/\\rho}\\):\n\\[\nB=\\rho v^2=(1000)(1500)^2=2.25\\times10^9\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-07",
+      "prompt": "Two media have the same bulk modulus, but medium A has four times the density of medium B. Find \\(v_A/v_B\\).",
+      "answer": "Since \\(v=\\sqrt{B/\\rho}\\) and \\(B\\) is the same,\n\\[\n\\frac{v_A}{v_B}=\\sqrt{\\frac{\\rho_B}{\\rho_A}}=\\sqrt{\\frac{1}{4}}=\\frac{1}{2}\n\\]\nMedium A has half the sound speed of medium B.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-08",
+      "prompt": "Two gases have the same \\(\\gamma\\) and molar mass. Gas 2 is at four times the absolute temperature of gas 1. Find \\(v_2/v_1\\).",
+      "answer": "For the same gas composition,\n\\[\nv\\propto\\sqrt{T}\n\\]\nso\n\\[\n\\frac{v_2}{v_1}=\\sqrt{\\frac{T_2}{T_1}}=\\sqrt{4}=2\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-09",
+      "prompt": "A sound pulse travels \\(510\\,\\mathrm{m}\\) in \\(1.5\\,\\mathrm{s}\\). Find the sound speed and compare it with \\(340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nv=\\frac{510}{1.5}=340\\,\\mathrm{m\\,s^{-1}}\n\\]\nIt matches the reference value.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-10",
+      "prompt": "A thunderclap is heard \\(4.0\\,\\mathrm{s}\\) after lightning is seen. Estimate the distance to the lightning using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "Light travel time is negligible on this scale, so\n\\[\nd=vt=(340)(4.0)=1.36\\times10^3\\,\\mathrm{m}\n\\]\nThe lightning is about \\(1.4\\,\\mathrm{km}\\) away.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-11",
+      "prompt": "For an ideal gas, use \\(v=\\sqrt{\\gamma RT/M}\\) to find the sound speed in air at \\(T=300\\,\\mathrm{K}\\), with \\(\\gamma=1.40\\), \\(R=8.31\\,\\mathrm{J\\,mol^{-1}K^{-1}}\\), and \\(M=0.029\\,\\mathrm{kg\\,mol^{-1}}\\).",
+      "answer": "\\[\nv=\\sqrt{\\frac{\\gamma RT}{M}}\n=\\sqrt{\\frac{(1.40)(8.31)(300)}{0.029}}\n=347\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-12",
+      "prompt": "Air sound speed is \\(331\\,\\mathrm{m\\,s^{-1}}\\) at \\(273\\,\\mathrm{K}\\). Use the ideal-gas scaling \\(v\\propto\\sqrt{T}\\) to estimate the speed at \\(293\\,\\mathrm{K}\\).",
+      "answer": "\\[\nv_2=v_1\\sqrt{\\frac{T_2}{T_1}}\n=331\\sqrt{\\frac{293}{273}}\n=343\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-13",
+      "prompt": "A sound pulse travels through \\(20\\,\\mathrm{m}\\) of air at \\(340\\,\\mathrm{m\\,s^{-1}}\\) and then \\(20\\,\\mathrm{m}\\) of water at \\(1480\\,\\mathrm{m\\,s^{-1}}\\). Find the total travel time.",
+      "answer": "\\[\nt_{\\mathrm{air}}=\\frac{20}{340}=5.88\\times10^{-2}\\,\\mathrm{s}\n\\]\n\\[\nt_{\\mathrm{water}}=\\frac{20}{1480}=1.35\\times10^{-2}\\,\\mathrm{s}\n\\]\n\\[\nt_{\\mathrm{total}}=7.23\\times10^{-2}\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-14",
+      "prompt": "Medium A has \\(B_A=4B_B\\) and \\(\\rho_A=\\rho_B\\). Compare the sound speeds and interpret the role of stiffness.",
+      "answer": "\\[\n\\frac{v_A}{v_B}=\\sqrt{\\frac{B_A/\\rho_A}{B_B/\\rho_B}}\n=\\sqrt{4}=2\n\\]\nAt the same density, the stiffer medium carries sound faster because compression produces a stronger restoring effect.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-15",
+      "prompt": "A gas\u0027s pressure and density are both doubled while \\(\\gamma\\) stays fixed. Use \\(v=\\sqrt{\\gamma p/\\rho}\\) to determine whether the sound speed changes.",
+      "answer": "\\[\nv=\\sqrt{\\frac{\\gamma p}{\\rho}}\n\\]\nIf \\(p\\) and \\(\\rho\\) are both doubled,\n\\[\n\\frac{p_2/\\rho_2}{p_1/\\rho_1}=\\frac{2p_1/2\\rho_1}{p_1/\\rho_1}=1\n\\]\nso the sound speed does not change.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-16",
+      "prompt": "Two ideal gases at the same temperature have the same \\(\\gamma\\), but gas A has molar mass \\(M_A\\) and gas B has \\(M_B=4M_A\\). Derive \\(v_A/v_B\\).",
+      "answer": "For the same \\(T\\) and \\(\\gamma\\),\n\\[\nv\\propto\\frac{1}{\\sqrt{M}}\n\\]\nThus\n\\[\n\\frac{v_A}{v_B}=\\sqrt{\\frac{M_B}{M_A}}=\\sqrt{4}=2\n\\]\nThe lighter gas has the larger sound speed.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-17",
+      "prompt": "Derive the units of \\(\\sqrt{B/\\rho}\\) and show that the expression has units of speed. Use \\(1\\,\\mathrm{Pa}=1\\,\\mathrm{kg\\,m^{-1}s^{-2}}\\).",
+      "answer": "Use\n\\[\n[B]=\\mathrm{Pa}=\\mathrm{kg\\,m^{-1}s^{-2}}\n\\]\nand\n\\[\n[\\rho]=\\mathrm{kg\\,m^{-3}}\n\\]\nThen\n\\[\n\\left[\\frac{B}{\\rho}\\right]\n=\\frac{\\mathrm{kg\\,m^{-1}s^{-2}}}{\\mathrm{kg\\,m^{-3}}}\n=\\mathrm{m^2\\,s^{-2}}\n\\]\nso\n\\[\n\\left[\\sqrt{\\frac{B}{\\rho}}\\right]=\\mathrm{m\\,s^{-1}}\n\\]\nwhich is a speed.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-18",
+      "prompt": "A fluid has unknown density. Its bulk modulus is \\(2.0\\times10^9\\,\\mathrm{Pa}\\), and sound travels \\(750\\,\\mathrm{m}\\) through it in \\(0.50\\,\\mathrm{s}\\). Determine the density implied by the elastic-medium model and state one modeling assumption.",
+      "answer": "First find the speed:\n\\[\nv=\\frac{750}{0.50}=1500\\,\\mathrm{m\\,s^{-1}}\n\\]\nFrom \\(v=\\sqrt{B/\\rho}\\),\n\\[\n\\rho=\\frac{B}{v^2}=\\frac{2.0\\times10^9}{(1500)^2}\n=8.9\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]\nOne assumption is that the medium is uniform, so a single bulk modulus and density describe the path.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-19",
+      "prompt": "For an ideal gas, derive \\(v=\\sqrt{\\gamma RT/M}\\) from \\(v=\\sqrt{\\gamma p/\\rho}\\) and the ideal-gas density relation \\(\\rho=pM/(RT)\\). Interpret why pressure cancels at fixed temperature.",
+      "answer": "Start with\n\\[\nv=\\sqrt{\\frac{\\gamma p}{\\rho}}\n\\]\nFor an ideal gas,\n\\[\n\\rho=\\frac{pM}{RT}\n\\]\nSubstitute:\n\\[\nv=\\sqrt{\\frac{\\gamma p}{pM/(RT)}}\n=\\sqrt{\\frac{\\gamma RT}{M}}\n\\]\nAt fixed temperature and composition, increasing pressure also increases density in the same ratio, so \\(p/\\rho\\) stays fixed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-speed-20",
+      "prompt": "A gas changes from state 1 to state 2 with the same composition and \\(\\gamma\\). Its pressure ratio is \\(p_2/p_1=a\\) and density ratio is \\(\\rho_2/\\rho_1=b\\). Derive \\(v_2/v_1\\), then state the condition for the sound speed to increase.",
+      "answer": "For the same \\(\\gamma\\),\n\\[\nv=\\sqrt{\\frac{\\gamma p}{\\rho}}\n\\]\nTherefore\n\\[\n\\frac{v_2}{v_1}\n=\\sqrt{\\frac{p_2/\\rho_2}{p_1/\\rho_1}}\n=\\sqrt{\\frac{a}{b}}\n\\]\nThe sound speed increases when\n\\[\n\\frac{a}{b}\u003e1\n\\]\nor \\(a\u003eb\\): pressure must rise by a larger factor than density.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

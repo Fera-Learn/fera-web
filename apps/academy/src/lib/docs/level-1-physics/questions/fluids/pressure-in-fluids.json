@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "fluids",
+  "topicId": "pressure-in-fluids",
+  "topicTitle": "Pressure in Fluids",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fluids-pressure-01",
+      "prompt": "A normal force of \\(480\\,\\mathrm{N}\\) acts uniformly on area \\(0.12\\,\\mathrm{m^2}\\). Find the pressure.",
+      "answer": "\\[\np=\\frac{F_\\perp}{A}=\\frac{480}{0.12}=4.0\\times10^3\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-02",
+      "prompt": "A fluid pressure of \\(2.5\\times10^5\\,\\mathrm{Pa}\\) acts on a small piston of area \\(0.030\\,\\mathrm{m^2}\\). Find the normal force.",
+      "answer": "\\[\nF_\\perp=pA=(2.5\\times10^5)(0.030)=7.5\\times10^3\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-03",
+      "prompt": "Find the gauge pressure \\(2.0\\,\\mathrm{m}\\) below the surface of water with density \\(1000\\,\\mathrm{kg\\,m^{-3}}\\).",
+      "answer": "\\[\np_{\\mathrm{gauge}}=\\rho gh=(1000)(9.8)(2.0)=1.96\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-04",
+      "prompt": "Oil of density \\(840\\,\\mathrm{kg\\,m^{-3}}\\) is open to the atmosphere. Find the absolute pressure \\(3.5\\,\\mathrm{m}\\) below the surface, using \\(p_{\\mathrm{atm}}=1.01\\times10^5\\,\\mathrm{Pa}\\).",
+      "answer": "\\[\np=p_{\\mathrm{atm}}+\\rho gh\n\\]\n\\[\np=1.01\\times10^5+(840)(9.8)(3.5)=1.30\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-05",
+      "prompt": "In seawater of density \\(1030\\,\\mathrm{kg\\,m^{-3}}\\), find the pressure increase from depth \\(1.2\\,\\mathrm{m}\\) to depth \\(4.7\\,\\mathrm{m}\\).",
+      "answer": "Only the depth change matters:\n\\[\n\\Delta h=4.7-1.2=3.5\\,\\mathrm{m}\n\\]\n\\[\n\\Delta p=\\rho g\\Delta h=(1030)(9.8)(3.5)=3.5\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-06",
+      "prompt": "At what depth in water is the gauge pressure \\(35\\,\\mathrm{kPa}\\)? Use \\(\\rho=1000\\,\\mathrm{kg\\,m^{-3}}\\).",
+      "answer": "\\[\nh=\\frac{p_{\\mathrm{gauge}}}{\\rho g}\n=\\frac{35\\times10^3}{(1000)(9.8)}=3.6\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-07",
+      "prompt": "A flat hatch of area \\(0.80\\,\\mathrm{m^2}\\) is small enough that all points are effectively \\(6.0\\,\\mathrm{m}\\) below a water surface. Find the net force due to gauge pressure.",
+      "answer": "The gauge pressure at the hatch is\n\\[\np_{\\mathrm{gauge}}=\\rho gh=(1000)(9.8)(6.0)=5.88\\times10^4\\,\\mathrm{Pa}\n\\]\nThus\n\\[\nF=pA=(5.88\\times10^4)(0.80)=4.7\\times10^4\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-08",
+      "prompt": "At the same depth, compare the gauge pressure in water \\((1000\\,\\mathrm{kg\\,m^{-3}})\\) with that in oil \\((780\\,\\mathrm{kg\\,m^{-3}})\\). Find \\(p_{\\mathrm{water}}/p_{\\mathrm{oil}}\\).",
+      "answer": "At the same depth, \\(p_{\\mathrm{gauge}}=\\rho gh\\), so\n\\[\n\\frac{p_{\\mathrm{water}}}{p_{\\mathrm{oil}}}=\\frac{\\rho_{\\mathrm{water}}}{\\rho_{\\mathrm{oil}}}\n=\\frac{1000}{780}=1.28\n\\]\nWater gives the larger pressure change per metre.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-09",
+      "prompt": "A cylindrical tank of radius \\(0.30\\,\\mathrm{m}\\) holds water to depth \\(0.50\\,\\mathrm{m}\\). Find the net gauge-pressure force on the flat bottom.",
+      "answer": "The bottom area is\n\\[\nA=\\pi r^2=\\pi(0.30)^2=0.283\\,\\mathrm{m^2}\n\\]\nThe gauge pressure is\n\\[\np=\\rho gh=(1000)(9.8)(0.50)=4.90\\times10^3\\,\\mathrm{Pa}\n\\]\nso\n\\[\nF=pA=(4.90\\times10^3)(0.283)=1.4\\times10^3\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-10",
+      "prompt": "A tank is open to the atmosphere and contains \\(0.60\\,\\mathrm{m}\\) of oil \\((820\\,\\mathrm{kg\\,m^{-3}})\\) above \\(0.40\\,\\mathrm{m}\\) of water. Find the gauge pressure at the bottom.",
+      "answer": "Add the pressure increases from each layer:\n\\[\np_{\\mathrm{gauge}}=\\rho_{\\mathrm{oil}}gh_{\\mathrm{oil}}+\\rho_{\\mathrm{water}}gh_{\\mathrm{water}}\n\\]\n\\[\np_{\\mathrm{gauge}}=(820)(9.8)(0.60)+(1000)(9.8)(0.40)=8.7\\times10^3\\,\\mathrm{Pa}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-11",
+      "prompt": "A mercury manometer shows a height difference of \\(0.18\\,\\mathrm{m}\\). Taking mercury density as \\(1.36\\times10^4\\,\\mathrm{kg\\,m^{-3}}\\), find the pressure difference between the two sides.",
+      "answer": "A manometer height difference gives\n\\[\n\\Delta p=\\rho g\\Delta h\n\\]\n\\[\n\\Delta p=(1.36\\times10^4)(9.8)(0.18)=2.4\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-12",
+      "prompt": "The gas above a liquid in a sealed tank is at absolute pressure \\(1.40\\times10^5\\,\\mathrm{Pa}\\). The liquid density is \\(950\\,\\mathrm{kg\\,m^{-3}}\\). Find the absolute pressure \\(2.0\\,\\mathrm{m}\\) below the liquid surface.",
+      "answer": "\\[\np=p_0+\\rho gh\n\\]\n\\[\np=1.40\\times10^5+(950)(9.8)(2.0)=1.59\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-13",
+      "prompt": "A small piston of area \\(4.0\\times10^{-3}\\,\\mathrm{m^2}\\) is pushed with \\(120\\,\\mathrm{N}\\). The same static pressure is transmitted to a larger piston of area \\(6.0\\times10^{-2}\\,\\mathrm{m^2}\\). Find the force on the larger piston.",
+      "answer": "The transmitted pressure is\n\\[\np=\\frac{120}{4.0\\times10^{-3}}=3.0\\times10^4\\,\\mathrm{Pa}\n\\]\nThe large-piston force is\n\\[\nF_2=pA_2=(3.0\\times10^4)(6.0\\times10^{-2})=1.8\\times10^3\\,\\mathrm{N}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-14",
+      "prompt": "A small slanted window of area \\(0.15\\,\\mathrm{m^2}\\) has all points approximately \\(4.0\\,\\mathrm{m}\\) below a water surface. Find the gauge-pressure force and state its direction relative to the window.",
+      "answer": "The gauge pressure is\n\\[\np=\\rho gh=(1000)(9.8)(4.0)=3.92\\times10^4\\,\\mathrm{Pa}\n\\]\nso\n\\[\nF=pA=(3.92\\times10^4)(0.15)=5.9\\times10^3\\,\\mathrm{N}\n\\]\nThe pressure force acts normal to the window, not vertically downward.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-15",
+      "prompt": "A vertical rectangular gate of width \\(1.2\\,\\mathrm{m}\\) and height \\(2.0\\,\\mathrm{m}\\) has its top edge at the water surface. Derive and calculate the resultant gauge-pressure force on one face.",
+      "answer": "At depth \\(h\\), the gauge pressure is \\(\\rho gh\\). For a strip of width \\(w\\) and thickness \\(dh\\),\n\\[\ndF=\\rho gh\\,w\\,dh\n\\]\nThus\n\\[\nF=\\rho gw\\int_0^H h\\,dh=\\frac{1}{2}\\rho gwH^2\n\\]\nWith \\(w=1.2\\,\\mathrm{m}\\), \\(H=2.0\\,\\mathrm{m}\\), and water density \\(1000\\,\\mathrm{kg\\,m^{-3}}\\),\n\\[\nF=\\frac{1}{2}(1000)(9.8)(1.2)(2.0)^2=2.35\\times10^4\\,\\mathrm{N}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-16",
+      "prompt": "A vertical rectangular inspection plate has width \\(0.80\\,\\mathrm{m}\\), height \\(1.5\\,\\mathrm{m}\\), and top edge at depth \\(3.0\\,\\mathrm{m}\\) in water. Derive the resultant gauge-pressure force.",
+      "answer": "Let \\(y\\) measure downward from the top of the plate, so the depth is \\(h_0+y\\). Then\n\\[\ndF=\\rho g(h_0+y)w\\,dy\n\\]\n\\[\nF=\\rho gw\\int_0^H(h_0+y)\\,dy\n=\\rho gw\\left(h_0H+\\frac{H^2}{2}\\right)\n\\]\nNumerically,\n\\[\nF=(1000)(9.8)(0.80)\\left((3.0)(1.5)+\\frac{(1.5)^2}{2}\\right)\n=4.4\\times10^4\\,\\mathrm{N}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-17",
+      "prompt": "A static fluid has density \\(\\rho(y)=\\rho_0(1+\\alpha y)\\), where \\(y\\) is depth measured downward from the surface. Derive the gauge pressure at depth \\(h\\). State the assumption behind the differential equation you use.",
+      "answer": "For a static fluid, force balance on a thin layer gives\n\\[\n\\frac{dp}{dy}=\\rho(y)g\n\\]\nwith \\(y\\) measured downward. Therefore\n\\[\np_{\\mathrm{gauge}}(h)=\\int_0^h \\rho_0(1+\\alpha y)g\\,dy\n\\]\n\\[\np_{\\mathrm{gauge}}(h)=\\rho_0g\\left(h+\\frac{\\alpha h^2}{2}\\right)\n\\]\nThe assumption is static equilibrium: each layer is at rest, so the pressure gradient supports the weight density below the surface reference.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-18",
+      "prompt": "A cylinder of cross-sectional area \\(A\\) and height \\(L\\) is fully submerged in a constant-density fluid. Its top is at depth \\(h\\). Use pressure forces on the top and bottom faces to derive the net upward force.",
+      "answer": "The top pressure is\n\\[\np_{\\mathrm{top}}=p_0+\\rho gh\n\\]\nand the bottom pressure is\n\\[\np_{\\mathrm{bottom}}=p_0+\\rho g(h+L)\n\\]\nThe bottom force is upward and the top force is downward, so\n\\[\nF_{\\mathrm{net}}=(p_{\\mathrm{bottom}}-p_{\\mathrm{top}})A\n\\]\n\\[\nF_{\\mathrm{net}}=\\rho gLA\n\\]\nThe result is upward and equals the weight of fluid with volume \\(AL\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-19",
+      "prompt": "A vertical rectangular window of width \\(w\\) and height \\(H\\) can tolerate resultant gauge-pressure force \\(F_{\\max}\\). Its top edge is at depth \\(h_0\\) in a liquid of density \\(\\rho\\). Derive the largest allowed \\(h_0\\).",
+      "answer": "For a vertical rectangular plate,\n\\[\nF=\\rho gw\\left(h_0H+\\frac{H^2}{2}\\right)\n\\]\nRequire \\(F\\le F_{\\max}\\):\n\\[\n\\rho gw\\left(h_0H+\\frac{H^2}{2}\\right)\\le F_{\\max}\n\\]\nSolving for the largest top-edge depth,\n\\[\nh_{0,\\max}=\\frac{F_{\\max}}{\\rho gwH}-\\frac{H}{2}\n\\]\nThis is physically usable only if the result is nonnegative; otherwise even a top edge at the surface exceeds the force limit.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-pressure-20",
+      "prompt": "For any flat vertical plate in a constant-density fluid, let \\(h\\) be depth over the plate and \\(\\bar h\\) be the depth of its centroid. Show that the resultant gauge-pressure force magnitude is \\(\\rho gA\\bar h\\). Explain what this result does not tell you.",
+      "answer": "The gauge pressure at a point is \\(p=\\rho gh\\). The resultant magnitude is\n\\[\nF=\\int p\\,dA=\\rho g\\int h\\,dA\n\\]\nBy the definition of centroid depth,\n\\[\n\\bar h=\\frac{1}{A}\\int h\\,dA\n\\]\nso\n\\[\nF=\\rho gA\\bar h\n\\]\nThis gives the magnitude of the resultant force. It does not give the line of action, which generally lies deeper than the centroid because pressure increases with depth.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-potential",
+  "topicId": "electric-potential",
+  "topicTitle": "Electric Potential",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-potential-01",
+      "prompt": "What is the unit of electric potential?",
+      "answer": "The unit of electric potential is the volt:\n\\[\n1\\,\\mathrm{V}=1\\,\\mathrm{J\\,C^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-02",
+      "prompt": "Is electric potential a scalar or a vector?",
+      "answer": "Electric potential is a scalar.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-03",
+      "prompt": "State the relation between \\(\\Delta U\\), \\(q\\), and \\(\\Delta V\\).",
+      "answer": "The relation is\n\\[\n\\Delta U=q\\Delta V\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-04",
+      "prompt": "A \\(+4.0\\,\\mathrm{nC}\\) charge moves through \\(\\Delta V=+25\\,\\mathrm{V}\\). Find \\(\\Delta U\\).",
+      "answer": "\\[\n\\Delta U=q\\Delta V\n\\]\n\\[\n\\Delta U=(4.0\\times10^{-9})(25)\n\\]\n\\[\n\\Delta U=1.0\\times10^{-7}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-05",
+      "prompt": "A \\(-3.0\\,\\mu\\mathrm{C}\\) charge moves through \\(\\Delta V=+12\\,\\mathrm{V}\\). Find \\(\\Delta U\\).",
+      "answer": "\\[\n\\Delta U=q\\Delta V\n\\]\n\\[\n\\Delta U=(-3.0\\times10^{-6})(12)\n\\]\n\\[\n\\Delta U=-3.6\\times10^{-5}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-06",
+      "prompt": "A charge \\(+2.0\\,\\mathrm{nC}\\) moves from \\(80\\,\\mathrm{V}\\) to \\(30\\,\\mathrm{V}\\). Find the work done by the electric force.",
+      "answer": "The potential change is\n\\[\n\\Delta V=V_f-V_i=30-80=-50\\,\\mathrm{V}\n\\]\nElectric work is\n\\[\nW_{\\mathrm{elec}}=-q\\Delta V\n\\]\n\\[\nW_{\\mathrm{elec}}=-(2.0\\times10^{-9})(-50)\n\\]\n\\[\nW_{\\mathrm{elec}}=1.0\\times10^{-7}\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-07",
+      "prompt": "Find the potential \\(0.25\\,\\mathrm{m}\\) from a \\(-6.0\\,\\mathrm{nC}\\) point charge, using \\(V(\\infty)=0\\).",
+      "answer": "For a point charge,\n\\[\nV=k\\frac{Q}{r}\n\\]\n\\[\nV=\\frac{(8.99\\times10^9)(-6.0\\times10^{-9})}{0.25}\n\\]\n\\[\nV=-2.16\\times10^2\\,\\mathrm{V}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-08",
+      "prompt": "An electron moves through a potential drop of \\(15\\,\\mathrm{V}\\). Determine the sign of its \\(\\Delta U\\) and the sign of the electric work.",
+      "answer": "A potential drop of \\(15\\,\\mathrm{V}\\) means\n\\[\n\\Delta V=-15\\,\\mathrm{V}\n\\]\nFor an electron, \\(q=-e\\). Therefore\n\\[\n\\Delta U=q\\Delta V=(-e)(-15\\,\\mathrm{V})\u003e0\n\\]\nThe electric work is\n\\[\nW_{\\mathrm{elec}}=-\\Delta U\u003c0\n\\]\nSo the electron\u0027s potential energy increases and the electric force does negative work for that specified displacement.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-09",
+      "prompt": "A particle of charge \\(q\\) and mass \\(m\\) starts from rest and moves through a potential difference \\(\\Delta V\\). Derive its final speed when electric work is the only work, including the condition on \\(q\\Delta V\\) for the motion to be possible from rest.",
+      "answer": "Electric work is\n\\[\nW_{\\mathrm{elec}}=-q\\Delta V\n\\]\nStarting from rest, the kinetic-energy change is\n\\[\n\\Delta K=\\frac12 mv^2\n\\]\nIf electric work is the only work,\n\\[\n\\frac12 mv^2=-q\\Delta V\n\\]\nso\n\\[\nv=\\sqrt{\\frac{-2q\\Delta V}{m}}\n\\]\nThis motion from rest is possible only if\n\\[\n-q\\Delta V\\ge0\n\\]\nor\n\\[\nq\\Delta V\\le0\n\\]\nbecause the final kinetic energy cannot be negative.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-10",
+      "prompt": "Two particles with charges \\(+e\\) and \\(-e\\) are each released from rest through the same potential difference from point A to point B. Derive the relation between their kinetic-energy changes and explain why one release may require reversing the direction of travel.",
+      "answer": "For a displacement from A to B,\n\\[\n\\Delta K=-q\\Delta V\n\\]\nFor \\(+e\\),\n\\[\n\\Delta K_+=-e\\Delta V\n\\]\nFor \\(-e\\),\n\\[\n\\Delta K_-=-(-e)\\Delta V=+e\\Delta V\n\\]\nThus\n\\[\n\\Delta K_-=-\\Delta K_+\n\\]\nFor the same directed potential difference, only one of the two signs gains kinetic energy from rest unless \\(\\Delta V=0\\). To have both particles accelerate from rest under electric work alone, one must move through the opposite potential difference, meaning the direction of travel must be reversed for one charge sign.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

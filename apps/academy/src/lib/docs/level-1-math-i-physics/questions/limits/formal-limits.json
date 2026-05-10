@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "formal-limits",
+  "topicTitle": "Formal Limits",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-formal-limits-01",
+      "prompt": "State, in words, what \\(\\lim_{x\\to a}f(x)=L\\) says about nearby values of \\(x\\).",
+      "answer": "It says that by taking \\(x\\) sufficiently close to \\(a\\), but not necessarily equal to \\(a\\), the value \\(f(x)\\) can be made as close as required to \\(L\\). The statement is about nearby behaviour, not just the value \\(f(a)\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-formal-limits-02",
+      "prompt": "Using the \\(\\varepsilon\\)-\\(\\delta\\) definition, prove that \\(\\lim_{x\\to 3}(2x-1)=5\\).",
+      "answer": "Let \\(\\varepsilon>0\\). We need\n\\[\n|(2x-1)-5|<\\varepsilon.\n\\]\nNow\n\\[\n|(2x-1)-5|=|2x-6|=2|x-3|.\n\\]\nChoose \\(\\delta=\\varepsilon/2\\). Then \\(0<|x-3|<\\delta\\) implies\n\\[\n|(2x-1)-5|=2|x-3|<2\\delta=\\varepsilon.\n\\]\nTherefore \\(\\lim_{x\\to3}(2x-1)=5\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-formal-limits-03",
+      "prompt": "Find a suitable \\(\\delta\\) in terms of \\(\\varepsilon\\) to prove \\(\\lim_{x\\to -1}(4x+7)=3\\).",
+      "answer": "We need\n\\[\n|(4x+7)-3|<\\varepsilon.\n\\]\nSimplify:\n\\[\n|(4x+7)-3|=|4x+4|=4|x+1|.\n\\]\nSo it is enough to require \\(4|x+1|<\\varepsilon\\). A suitable choice is\n\\[\n\\delta=\\frac{\\varepsilon}{4}.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

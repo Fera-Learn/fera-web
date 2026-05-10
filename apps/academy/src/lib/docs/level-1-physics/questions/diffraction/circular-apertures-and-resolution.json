@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "circular-apertures-and-resolution",
+  "topicTitle": "Circular Apertures and Resolution",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "circular-apertures-resolution-01",
+      "prompt": "State the Rayleigh criterion for a circular aperture.",
+      "answer": "\\[\n\\theta_R\\approx1.22\\frac{\\lambda}{D}\n\\]\nwhere \\(D\\) is aperture diameter.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-02",
+      "prompt": "What is an Airy pattern?",
+      "answer": "An Airy pattern is the diffraction pattern from a circular aperture: a bright central disk surrounded by weaker rings.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-03",
+      "prompt": "What does the Rayleigh criterion mean physically?",
+      "answer": "Two point sources are just resolved when the central maximum of one Airy pattern lies near the first minimum of the other.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-04",
+      "prompt": "Find the angular resolution of a \\(0.10\\,\\mathrm{m}\\) aperture using \\(550\\,\\mathrm{nm}\\) light.",
+      "answer": "\\[\n\\theta_R=1.22\\frac{550\\times10^{-9}}{0.10}=6.71\\times10^{-6}\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-05",
+      "prompt": "Find the angular resolution of a \\(2.4\\,\\mathrm{m}\\) telescope using \\(500\\,\\mathrm{nm}\\) light.",
+      "answer": "\\[\n\\theta_R=1.22\\frac{500\\times10^{-9}}{2.4}=2.54\\times10^{-7}\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-06",
+      "prompt": "How does doubling the aperture diameter affect diffraction-limited angular resolution?",
+      "answer": "Since \\(\\theta_R\\propto1/D\\), doubling \\(D\\) halves the minimum resolvable angle.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-07",
+      "prompt": "How does using a shorter wavelength affect diffraction-limited resolution?",
+      "answer": "Since \\(\\theta_R\\propto\\lambda\\), a shorter wavelength gives a smaller diffraction angle and better resolution.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-08",
+      "prompt": "A telescope has \\(\\theta_R=6.7\\times10^{-6}\\,\\mathrm{rad}\\). What separation is just resolved at \\(2.0\\,\\mathrm{km}\\)?",
+      "answer": "\\[\ns=L\\theta=(2.0\\times10^3)(6.7\\times10^{-6})=1.34\\times10^{-2}\\,\\mathrm{m}\n\\]\nSo \\(s\\approx1.3\\,\\mathrm{cm}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-09",
+      "prompt": "State the small-angle relation between angular separation and linear separation.",
+      "answer": "\\[\n\\theta\\approx\\frac{s}{L}\n\\]\nwhere \\(s\\) is transverse separation and \\(L\\) is distance.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-10",
+      "prompt": "Derive the diffraction-limited linear separation for a circular aperture.",
+      "answer": "Use Rayleigh's criterion and small-angle geometry:\n\\[\n\\theta_R=1.22\\frac{\\lambda}{D},\\qquad s_{\\min}=L\\theta_R\n\\]\nTherefore\n\\[\ns_{\\min}=1.22\\frac{\\lambda L}{D}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-11",
+      "prompt": "A camera lens has aperture diameter \\(25\\,\\mathrm{mm}\\). Estimate its diffraction-limited angle for \\(550\\,\\mathrm{nm}\\) light.",
+      "answer": "\\[\n\\theta_R=1.22\\frac{550\\times10^{-9}}{25\\times10^{-3}}=2.68\\times10^{-5}\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-12",
+      "prompt": "At \\(100\\,\\mathrm{m}\\), what separation corresponds to \\(2.68\\times10^{-5}\\,\\mathrm{rad}\\)?",
+      "answer": "\\[\ns=L\\theta=(100)(2.68\\times10^{-5})=2.68\\times10^{-3}\\,\\mathrm{m}\n\\]\nSo \\(s\\approx2.7\\,\\mathrm{mm}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-13",
+      "prompt": "Why can increasing magnification fail to reveal more detail?",
+      "answer": "If two details are blurred together by diffraction, magnification only enlarges the blur pattern. It does not reduce the diffraction-limited angular resolution.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-14",
+      "prompt": "A microscope objective uses \\(450\\,\\mathrm{nm}\\) light instead of \\(650\\,\\mathrm{nm}\\) light with the same aperture. How does the diffraction angle change?",
+      "answer": "The angle scales with wavelength:\n\\[\n\\frac{\\theta_{450}}{\\theta_{650}}=\\frac{450}{650}=0.692\n\\]\nThe diffraction-limited angle is about \\(69\\%\\) as large.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-15",
+      "prompt": "Find the aperture diameter needed for \\(\\theta_R=1.0\\times10^{-6}\\,\\mathrm{rad}\\) using \\(500\\,\\mathrm{nm}\\) light.",
+      "answer": "\\[\nD=1.22\\frac{\\lambda}{\\theta_R}=1.22\\frac{500\\times10^{-9}}{1.0\\times10^{-6}}=0.61\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-16",
+      "prompt": "A \\(5.0\\,\\mathrm{mm}\\) pupil views \\(550\\,\\mathrm{nm}\\) light. Estimate the eye's diffraction-limited angular resolution.",
+      "answer": "\\[\n\\theta_R=1.22\\frac{550\\times10^{-9}}{5.0\\times10^{-3}}=1.34\\times10^{-4}\\,\\mathrm{rad}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-17",
+      "prompt": "What happens to the Airy disk size if the aperture diameter is reduced?",
+      "answer": "The Airy disk gets larger because the angular radius of the first dark ring scales as \\(1.22\\lambda/D\\). Smaller \\(D\\) means more diffraction spreading.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-18",
+      "prompt": "A system must resolve two points separated by \\(1.0\\,\\mathrm{mm}\\) at \\(10\\,\\mathrm{m}\\). What angular resolution is required?",
+      "answer": "\\[\n\\theta\\approx\\frac{s}{L}=\\frac{1.0\\times10^{-3}}{10}=1.0\\times10^{-4}\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-19",
+      "prompt": "Using \\(\\lambda=500\\,\\mathrm{nm}\\), what aperture diameter is required for the angular resolution in question 18?",
+      "answer": "\\[\nD=1.22\\frac{\\lambda}{\\theta_R}=1.22\\frac{500\\times10^{-9}}{1.0\\times10^{-4}}=6.1\\times10^{-3}\\,\\mathrm{m}\n\\]\nSo \\(D=6.1\\,\\mathrm{mm}\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-apertures-resolution-20",
+      "prompt": "Why is the numerical factor \\(1.22\\) used for a circular aperture but not for a single slit minimum?",
+      "answer": "The aperture geometry changes the diffraction pattern. A rectangular slit gives the first minimum from \\(a\\sin\\theta=\\lambda\\), while a circular aperture gives an Airy pattern whose first zero occurs at \\(1.22\\lambda/D\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

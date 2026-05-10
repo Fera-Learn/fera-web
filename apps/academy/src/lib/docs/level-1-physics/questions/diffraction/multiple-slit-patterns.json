@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "multiple-slit-patterns",
+  "topicTitle": "Multiple-Slit Patterns",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "multiple-slit-patterns-01",
+      "prompt": "State the principal maximum condition for many equally spaced slits.",
+      "answer": "\\[\nd\\sin\\theta=m\\lambda\n\\]\nwhere \\(d\\) is slit spacing and \\(m\\) is an integer order.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-02",
+      "prompt": "What is the path difference between adjacent slits separated by \\(d\\) at angle \\(\\theta\\)?",
+      "answer": "\\[\n\\Delta r=d\\sin\\theta\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-03",
+      "prompt": "Write the phase difference between adjacent slits in a multiple-slit pattern.",
+      "answer": "\\[\n\\delta=\\frac{2\\pi d\\sin\\theta}{\\lambda}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-04",
+      "prompt": "Why do many slits produce sharper principal maxima than two slits?",
+      "answer": "For many slits, waves are exactly in phase only in narrow angular ranges. Away from those angles, the many phasors cancel more strongly, narrowing the maxima.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-05",
+      "prompt": "If \\(N\\) identical slits are exactly in phase, how does peak intensity scale with \\(N\\)?",
+      "answer": "The field amplitude scales as \\(N\\), so intensity scales as\n\\[\nI_{\\max}\\propto N^2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-06",
+      "prompt": "Five identical slits are in phase at a principal maximum. Compare the peak intensity with one slit alone.",
+      "answer": "\\[\nI_{\\max}\\propto N^2=5^2=25\n\\]\nThe peak intensity is 25 times that from one slit alone, ignoring the diffraction envelope.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-07",
+      "prompt": "A four-slit pattern has all slits in phase at a maximum. What is the field amplitude compared with one slit?",
+      "answer": "Field amplitudes add directly when in phase, so the resultant field amplitude is \\(4\\) times the one-slit field amplitude.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-08",
+      "prompt": "What role does the single-slit diffraction envelope play in a multiple-slit pattern?",
+      "answer": "The envelope controls the overall brightness of the maxima. It can make some interference orders weak or missing if they fall at single-slit minima.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-09",
+      "prompt": "State the condition for a missing order when slit width is \\(a\\) and slit spacing is \\(d\\).",
+      "answer": "A grating maximum is missing if it coincides with a single-slit minimum:\n\\[\nd\\sin\\theta=m\\lambda,\\quad a\\sin\\theta=p\\lambda\n\\]\nso\n\\[\n\\frac{m}{d}=\\frac{p}{a}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-10",
+      "prompt": "For \\(d=4a\\), what is the first missing principal maximum?",
+      "answer": "Use \\(m=p(d/a)\\). With \\(d/a=4\\), the missing orders are \\(m=4p\\). The first missing principal maximum is \\(m=4\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-11",
+      "prompt": "For \\(d=3a\\), list the first two missing principal maxima.",
+      "answer": "Missing orders satisfy \\(m=3p\\). The first two are\n\\[\nm=3,6\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-12",
+      "prompt": "A multiple-slit setup has \\(d=0.20\\,\\mathrm{mm}\\) and \\(\\lambda=500\\,\\mathrm{nm}\\). Find the first-order principal maximum angle.",
+      "answer": "\\[\n\\sin\\theta_1=\\frac{\\lambda}{d}=\\frac{500\\times10^{-9}}{0.20\\times10^{-3}}=2.5\\times10^{-3}\n\\]\nso \\(\\theta_1\\approx2.5\\times10^{-3}\\,\\mathrm{rad}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-13",
+      "prompt": "Why does increasing the number of slits improve spectral sharpness?",
+      "answer": "Increasing \\(N\\) makes principal maxima narrower because the condition for many phasors to remain nearly in phase is more restrictive.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-14",
+      "prompt": "If the slit spacing \\(d\\) is decreased, what happens to the angular separation of principal maxima?",
+      "answer": "From \\(d\\sin\\theta=m\\lambda\\), smaller \\(d\\) requires larger \\(\\theta\\) for the same \\(m\\), so the angular separation increases.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-15",
+      "prompt": "What is the zero-order principal maximum?",
+      "answer": "The zero order is \\(m=0\\), so \\(d\\sin\\theta=0\\) and \\(\\theta=0\\) for normal incidence. It is the central maximum.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-16",
+      "prompt": "A principal maximum occurs at \\(\\theta=10^\\circ\\) with \\(d=2.0\\,\\mu\\mathrm{m}\\) and \\(m=1\\). Find \\(\\lambda\\).",
+      "answer": "\\[\n\\lambda=\\frac{d\\sin\\theta}{m}=(2.0\\,\\mu\\mathrm{m})\\sin10^\\circ=0.347\\,\\mu\\mathrm{m}\n\\]\nso \\(\\lambda=347\\,\\mathrm{nm}\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-17",
+      "prompt": "Why can a grating maximum be absent even though \\(d\\sin\\theta=m\\lambda\\) is satisfied?",
+      "answer": "The finite slit width gives a diffraction envelope. If the same angle also satisfies \\(a\\sin\\theta=p\\lambda\\), the single-slit factor is zero and that order is missing.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-18",
+      "prompt": "Ten slits replace five slits with the same slit spacing and width. What changes ideally at principal maxima?",
+      "answer": "Peak intensity compared with one slit scales as \\(N^2\\), so it changes from \\(25\\) to \\(100\\). The principal maxima also become narrower.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-19",
+      "prompt": "Derive the principal maximum condition from adjacent-slit phase difference.",
+      "answer": "Principal maxima require adjacent slits to be in phase:\n\\[\n\\delta=2\\pi m\n\\]\nWith\n\\[\n\\delta=\\frac{2\\pi d\\sin\\theta}{\\lambda}\n\\]\nwe get\n\\[\n\\frac{2\\pi d\\sin\\theta}{\\lambda}=2\\pi m\n\\]\nso\n\\[\nd\\sin\\theta=m\\lambda\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "multiple-slit-patterns-20",
+      "prompt": "A multiple-slit pattern has \\(d/a=5\\). Which of the first six principal orders are missing?",
+      "answer": "Missing orders satisfy \\(m=p(d/a)=5p\\). Among \\(m=1\\) through \\(6\\), only\n\\[\nm=5\n\\]\nis missing.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

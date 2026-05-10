@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "applying-force-models",
+  "topicId": "particle-dynamics-with-newtons-second-law",
+  "topicTitle": "particle-dynamics-with-newtons-second-law",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "particle-dynamics-01",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) particle has a net force of \\(20\\,\\mathrm{N}\\). Find its acceleration.",
+      "answer": "\\[\na=\\frac{F_{\\mathrm{net}}}{m}=\\frac{20}{4.0}=5.0\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-02",
+      "prompt": "A \\(5.0\\,\\mathrm{kg}\\) object accelerates at \\(2.0\\,\\mathrm{m\\,s^{-2}}\\). Find the net force.",
+      "answer": "\\[\nF_{\\mathrm{net}}=ma=5.0(2.0)=10\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-03",
+      "prompt": "Find the weight vector of a \\(3.0\\,\\mathrm{kg}\\) object if upward is positive \\(y\\).",
+      "answer": "With upward positive,\n\\[\n\\vec{W}=-mg\\hat{\\jmath}=-3.0(9.8)\\hat{\\jmath}=-29.4\\hat{\\jmath}\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-04",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) cart has \\(18\\,\\mathrm{N}\\) east and \\(6\\,\\mathrm{N}\\) west acting on it. Find its acceleration.",
+      "answer": "\\[\n\\sum F=18-6=12\\,\\mathrm{N}\n\\]\n\\[\na=\\frac{12}{4.0}=3.0\\,\\mathrm{m\\,s^{-2}}\n\\]\nThe acceleration is east.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-05",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) passenger in an elevator accelerates upward at \\(1.5\\,\\mathrm{m\\,s^{-2}}\\). Find the normal force from the floor.",
+      "answer": "Take upward as positive:\n\\[\nN-mg=ma\n\\]\n\\[\nN=m(g+a)=70(9.8+1.5)=791\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-06",
+      "prompt": "A block slides without friction down a \\(25^\\circ\\) incline. Find its acceleration along the slope.",
+      "answer": "\\[\na=g\\sin25^\\circ=9.8\\sin25^\\circ=4.14\\,\\mathrm{m\\,s^{-2}}\n\\]\nThe acceleration is down the slope.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-07",
+      "prompt": "A \\(6.0\\,\\mathrm{kg}\\) trolley is pulled by a constant horizontal force of \\(30\\,\\mathrm{N}\\). Starting from rest, find its speed after \\(4.0\\,\\mathrm{s}\\).",
+      "answer": "\\[\na=\\frac{30}{6.0}=5.0\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\nv=v_0+at=0+5.0(4.0)=20\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-08",
+      "prompt": "Forces \\(24\\,\\mathrm{N}\\) east and \\(10\\,\\mathrm{N}\\) north act on a \\(5.0\\,\\mathrm{kg}\\) particle. Find the acceleration vector and its magnitude.",
+      "answer": "\\[\n\\vec{a}=\\frac{24\\hat{\\imath}+10\\hat{\\jmath}}{5.0}=4.8\\hat{\\imath}+2.0\\hat{\\jmath}\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\n|\\vec{a}|=\\sqrt{4.8^2+2.0^2}=5.20\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-09",
+      "prompt": "If the net force on a moving particle is zero, what happens to its velocity?",
+      "answer": "Its acceleration is zero, so its velocity remains constant in both magnitude and direction.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-10",
+      "prompt": "Two hanging masses \\(3.0\\,\\mathrm{kg}\\) and \\(5.0\\,\\mathrm{kg}\\) are connected by a light string over a frictionless pulley. Find the acceleration and string tension, then the speed after \\(2.0\\,\\mathrm s\\) from rest.",
+      "answer": "The \\(5.0\\,\\mathrm{kg}\\) mass moves downward:\n\\[\na=\\frac{(5.0-3.0)g}{5.0+3.0}=2.45\\,\\mathrm{m\\,s^{-2}}\n\\]\nFor the \\(3.0\\,\\mathrm{kg}\\) mass,\n\\[\nT-3.0g=3.0a\n\\]\n\\[\nT=3.0(9.8+2.45)=36.8\\,\\mathrm{N}\n\\]\nFrom rest after \\(2.0\\,\\mathrm s\\):\n\\[\nv=at=2.45(2.0)=4.90\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-11",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) block on a horizontal table with \\(\\mu_k=0.20\\) is connected over a pulley to a hanging \\(1.0\\,\\mathrm{kg}\\) mass. Find the acceleration and tension.",
+      "answer": "For the table block \\((m_1=2.0\\,\\mathrm{kg})\\):\n\\[\nf_k=\\mu_k m_1g=0.20(2.0)(9.8)=3.92\\,\\mathrm N\n\\]\nLet the hanging mass \\((m_2=1.0\\,\\mathrm{kg})\\) move downward:\n\\[\nm_2g-T=m_2a\n\\]\n\\[\nT-f_k=m_1a\n\\]\nAdd equations:\n\\[\na=\\frac{m_2g-f_k}{m_1+m_2}=\\frac{9.8-3.92}{3.0}=1.96\\,\\mathrm{m\\,s^{-2}}\n\\]\nThen\n\\[\nT=m_1a+f_k=2.0(1.96)+3.92=7.84\\,\\mathrm N\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "particle-dynamics-12",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) block on a \\(30^\\circ\\) incline with \\(\\mu_k=0.15\\) is connected over a pulley to a hanging \\(3.0\\,\\mathrm{kg}\\) mass. Determine acceleration direction, acceleration magnitude, and tension.",
+      "answer": "Assume hanging mass moves downward (and incline block up-slope). Driving checks:\n\\[\n3.0g=29.4\\,\\mathrm{N}\n\\]\n\\[\n4.0g\\sin30^\\circ=19.6\\,\\mathrm{N}\n\\]\nKinetic friction on incline block opposes up-slope motion:\n\\[\nf_k=\\mu_kN=\\mu_k(4.0g\\cos30^\\circ)=0.15(4.0)(9.8)\\cos30^\\circ=5.09\\,\\mathrm N\n\\]\nNet driving force for assumed direction:\n\\[\n29.4-19.6-5.09=4.71\\,\\mathrm N\u003e0\n\\]\nso assumption is correct. System acceleration:\n\\[\na=\\frac{29.4-19.6-5.09}{3.0+4.0}=0.673\\,\\mathrm{m\\,s^{-2}}\n\\]\nFor the hanging mass:\n\\[\n3.0g-T=3.0a\n\\]\n\\[\nT=3.0(9.8-0.673)=27.4\\,\\mathrm{N}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

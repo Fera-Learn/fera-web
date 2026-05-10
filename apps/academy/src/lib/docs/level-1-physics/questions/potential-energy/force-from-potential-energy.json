@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "force-from-potential-energy",
+  "topicTitle": "Force from Potential Energy",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "force-potential-01",
+      "prompt": "For \\(U(x)=4x\\), find \\(F_x\\).",
+      "answer": "\\[\nF_x=-\\frac{dU}{dx}=-4\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-02",
+      "prompt": "For \\(U(x)=\\frac{1}{2}kx^2\\), find \\(F_x\\).",
+      "answer": "\\[\nF_x=-\\frac{dU}{dx}=-kx\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-03",
+      "prompt": "If \\(U(x)\\) increases as \\(x\\) increases, which direction does the force point?",
+      "answer": "The slope is positive, so\n\\[\nF_x=-\\frac{dU}{dx}\u003c0\n\\]\nThe force points in the negative \\(x\\)-direction.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-04",
+      "prompt": "What condition identifies an equilibrium point on a one-dimensional potential graph?",
+      "answer": "Equilibrium occurs where the slope is zero:\n\\[\n\\frac{dU}{dx}=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-05",
+      "prompt": "For \\(U(x)=3x^2\\), find \\(F_x\\) at \\(x=2\\,\\mathrm{m}\\).",
+      "answer": "\\[\nF_x=-\\frac{dU}{dx}=-6x\n\\]\n\\[\nF_x(2)=-12\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-06",
+      "prompt": "For \\(U(x)=x^3-6x\\), find \\(F_x(x)\\).",
+      "answer": "\\[\nF_x=-\\frac{dU}{dx}=-(3x^2-6)=6-3x^2\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-07",
+      "prompt": "For \\(U(x)=2x^2-8x\\), find the equilibrium point.",
+      "answer": "\\[\n\\frac{dU}{dx}=4x-8\n\\]\n\\[\n4x-8=0\\Rightarrow x=2\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-08",
+      "prompt": "For \\(U(x)=2x^2-8x\\), classify the equilibrium at \\(x=2\\,\\mathrm{m}\\).",
+      "answer": "\\[\n\\frac{d^2U}{dx^2}=4\u003e0\n\\]\nThe potential has a local minimum, so the equilibrium is stable.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-09",
+      "prompt": "For \\(U(x)=x^4-4x^2\\), find all equilibrium positions.",
+      "answer": "\\[\n\\frac{dU}{dx}=4x^3-8x=4x(x^2-2)\n\\]\n\\[\n\\frac{dU}{dx}=0\\Rightarrow x=0,\\ \\pm\\sqrt{2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-10",
+      "prompt": "Classify the equilibrium positions for \\(U(x)=x^4-4x^2\\).",
+      "answer": "\\[\nU\u0027\u0027(x)=12x^2-8\n\\]\nAt \\(x=0\\), \\(U\u0027\u0027=-8\u003c0\\), so it is unstable. At \\(x=\\pm\\sqrt{2}\\), \\(U\u0027\u0027=16\u003e0\\), so both are stable.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-11",
+      "prompt": "For \\(U(x)=ax^4-bx^2\\), where \\(a\u003e0\\) and \\(b\u003e0\\), find \\(F_x(x)\\), find and classify all equilibrium points, and determine the barrier height between the stable equilibria.",
+      "answer": "The force is minus the slope:\n\\[\nF_x=-\\frac{dU}{dx}=-4ax^3+2bx\n\\]\nEquilibria satisfy \\(dU/dx=0\\):\n\\[\n4ax^3-2bx=2x(2ax^2-b)=0\n\\]\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{b}{2a}}\n\\]\nClassify using the second derivative:\n\\[\nU\u0027\u0027(x)=12ax^2-2b\n\\]\nAt \\(x=0\\),\n\\[\nU\u0027\u0027(0)=-2b\u003c0\n\\]\nso the equilibrium is unstable. At \\(x=\\pm\\sqrt{b/(2a)}\\),\n\\[\nU\u0027\u0027=4b\u003e0\n\\]\nso both equilibria are stable. The minima have\n\\[\nU_{\\min}=a\\left(\\frac{b}{2a}\\right)^2-b\\left(\\frac{b}{2a}\\right)=-\\frac{b^2}{4a}\n\\]\nThe central barrier has \\(U(0)=0\\), so the barrier height above either stable equilibrium is\n\\[\n\\Delta U=\\frac{b^2}{4a}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "force-potential-12",
+      "prompt": "A particle of mass \\(m\\) has \\(U(x)=\\frac{A}{x^2}+Bx\\) for \\(x\u003e0\\), with \\(A\u003e0\\) and \\(B\\) allowed to be positive, zero, or negative. Derive the condition for a stable equilibrium to exist, find its position if it exists, and derive the small-oscillation angular frequency about it.",
+      "answer": "Equilibrium requires\n\\[\n\\frac{dU}{dx}=-\\frac{2A}{x^3}+B=0\n\\]\nThis gives\n\\[\nBx^3=2A\n\\]\nBecause \\(x\u003e0\\) and \\(A\u003e0\\), a finite equilibrium exists only if\n\\[\nB\u003e0\n\\]\nIf \\(B\\leq0\\), there is no positive solution. For \\(B\u003e0\\),\n\\[\nx_0=\\left(\\frac{2A}{B}\\right)^{1/3}\n\\]\nThe second derivative is\n\\[\nU\u0027\u0027(x)=\\frac{6A}{x^4}\n\\]\nAt \\(x_0\\), this is positive, so the equilibrium is stable. For small oscillations,\n\\[\n\\omega^2=\\frac{U\u0027\u0027(x_0)}{m}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{6A}{mx_0^4}}\n\\]\nUsing \\(B=2A/x_0^3\\), this can also be written as\n\\[\n\\omega=\\sqrt{\\frac{3B}{mx_0}}\n\\]\nThe domain condition matters: without \\(x\u003e0\\), the existence argument would be different.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

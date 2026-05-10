@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "equilibrium-materials",
+  "topicId": "elastic-moduli",
+  "topicTitle": "Elastic Moduli",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "elastic-moduli-01",
+      "prompt": "A material has stress \\(60\\,\\mathrm{MPa}\\) and strain \\(3.0\\times10^{-4}\\). Find Young\u0027s modulus.",
+      "answer": "\\[\nY=\\frac{\\sigma}{\\epsilon}=\\frac{60\\times10^6}{3.0\\times10^{-4}}=2.0\\times10^{11}\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-02",
+      "prompt": "State the modulus used for a change in volume under pressure.",
+      "answer": "A volume change under pressure is described by the bulk modulus \\(B\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-03",
+      "prompt": "A wire has \\(Y=1.6\\times10^{11}\\,\\mathrm{Pa}\\), \\(L=2.0\\,\\mathrm{m}\\), \\(A=3.0\\times10^{-6}\\,\\mathrm{m^2}\\), and load \\(480\\,\\mathrm{N}\\). Find its extension.",
+      "answer": "\\[\n\\Delta L=\\frac{FL}{YA}\n\\]\n\\[\n\\Delta L=\\frac{480(2.0)}{(1.6\\times10^{11})(3.0\\times10^{-6})}=2.0\\times10^{-3}\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-04",
+      "prompt": "A block has shear modulus \\(G=8.0\\times10^{9}\\,\\mathrm{Pa}\\) and shear strain \\(2.0\\times10^{-5}\\). Find the shear stress.",
+      "answer": "\\[\n\\tau=G\\gamma=(8.0\\times10^9)(2.0\\times10^{-5})=1.6\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-05",
+      "prompt": "Pressure on a liquid increases by \\(4.5\\,\\mathrm{MPa}\\). Its bulk modulus is \\(1.5\\,\\mathrm{GPa}\\). Find \\(\\Delta V/V\\).",
+      "answer": "\\[\nB=-\\frac{\\Delta p}{\\Delta V/V}\n\\]\n\\[\n\\frac{\\Delta V}{V}=-\\frac{\\Delta p}{B}=-\\frac{4.5\\times10^6}{1.5\\times10^9}=-3.0\\times10^{-3}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-06",
+      "prompt": "A rod has \\(Y=70\\,\\mathrm{GPa}\\), area \\(5.0\\times10^{-5}\\,\\mathrm{m^2}\\), and length \\(0.80\\,\\mathrm{m}\\). Find its axial stiffness \\(k_{\\mathrm{axial}}\\).",
+      "answer": "\\[\nk_{\\mathrm{axial}}=\\frac{YA}{L}=\\frac{(70\\times10^9)(5.0\\times10^{-5})}{0.80}=4.38\\times10^6\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-07",
+      "prompt": "Two wires have the same material and length. Wire A has twice the area of wire B. Compare their axial stiffnesses and extensions under the same load.",
+      "answer": "Axial stiffness is \\(k=YA/L\\). With the same \\(Y\\) and \\(L\\),\n\\[\nk_A=2k_B\n\\]\nFor the same load \\(F\\), extension is \\(\\Delta L=F/k\\), so\n\\[\n\\Delta L_A=\\frac{1}{2}\\Delta L_B\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-08",
+      "prompt": "A \\(1.0\\,\\mathrm{m}\\) steel wire with \\(Y=2.0\\times10^{11}\\,\\mathrm{Pa}\\) must extend by no more than \\(1.0\\,\\mathrm{mm}\\) under \\(500\\,\\mathrm{N}\\). Find the minimum area.",
+      "answer": "\\[\n\\Delta L=\\frac{FL}{YA}\n\\]\nRequire \\(\\Delta L\\le1.0\\times10^{-3}\\,\\mathrm{m}\\):\n\\[\nA\\ge\\frac{FL}{Y\\Delta L_{\\max}}\n\\]\n\\[\nA\\ge\\frac{500(1.0)}{(2.0\\times10^{11})(1.0\\times10^{-3})}=2.5\\times10^{-6}\\,\\mathrm{m^2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-09",
+      "prompt": "Two rods of equal length \\(L\\) are fixed between the same rigid plates and carry a total tensile load \\(P\\). Rod 1 has \\(Y_1,A_1\\); rod 2 has \\(Y_2,A_2\\). Derive each rod\u0027s load share and the common extension. State assumptions and interpret the stiffer-rod limit.",
+      "answer": "Assume the plates are rigid, both rods remain elastic, and both rods have the same extension \\(\\Delta L\\). Their stiffnesses are\n\\[\nk_1=\\frac{Y_1A_1}{L},\\qquad k_2=\\frac{Y_2A_2}{L}\n\\]\nThe total load is\n\\[\nP=(k_1+k_2)\\Delta L\n\\]\n\\[\n\\Delta L=\\frac{P}{k_1+k_2}\n\\]\nThe load shares are\n\\[\nF_1=k_1\\Delta L=\\frac{k_1}{k_1+k_2}P\n\\]\n\\[\nF_2=\\frac{k_2}{k_1+k_2}P\n\\]\nIf one rod is much stiffer, it carries nearly all the load while the common extension stays small.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "elastic-moduli-10",
+      "prompt": "Two axial members are connected in series and carry the same tensile load \\(P\\). Member \\(i\\) has \\(Y_i,A_i,L_i\\). Derive the equivalent axial stiffness and a symbolic condition for total extension to stay below \\(\\delta_{\\max}\\). State assumptions and interpret which member dominates compliance.",
+      "answer": "Assume linear elasticity, axial loading, and perfect series connection, so both members carry load \\(P\\). Each extension is\n\\[\n\\Delta L_i=\\frac{PL_i}{Y_iA_i}\n\\]\nTotal extension is\n\\[\n\\delta=P\\left(\\frac{L_1}{Y_1A_1}+\\frac{L_2}{Y_2A_2}\\right)\n\\]\nThus the equivalent stiffness is\n\\[\nk_{\\mathrm{eq}}=\\frac{P}{\\delta}=\\left(\\frac{L_1}{Y_1A_1}+\\frac{L_2}{Y_2A_2}\\right)^{-1}\n\\]\nThe extension condition is\n\\[\nP\\left(\\frac{L_1}{Y_1A_1}+\\frac{L_2}{Y_2A_2}\\right)\\le\\delta_{\\max}\n\\]\nThe member with the larger compliance term \\(L_i/(Y_iA_i)\\) dominates the total stretch.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

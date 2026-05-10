@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "applying-force-models",
+  "topicId": "static-and-kinetic-friction",
+  "topicTitle": "Static and Kinetic Friction",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "friction-models-01",
+      "prompt": "A \\(5.0\\,\\mathrm{kg}\\) box rests on a horizontal surface. Find the normal reaction.",
+      "answer": "\\[\nN=mg=5.0(9.8)=49\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-02",
+      "prompt": "A sliding object has \\(N=50\\,\\mathrm{N}\\) and \\(\\mu_k=0.20\\). Find the kinetic friction magnitude.",
+      "answer": "\\[\nf_k=\\mu_kN=0.20(50)=10\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-03",
+      "prompt": "A surface has \\(\\mu_s=0.40\\) and \\(N=100\\,\\mathrm{N}\\). Find the maximum static friction.",
+      "answer": "\\[\nf_{s,\\max}=\\mu_sN=0.40(100)=40\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-04",
+      "prompt": "A box remains at rest while pushed right by \\(15\\,\\mathrm{N}\\). What is the static friction force?",
+      "answer": "Since the box remains at rest, static friction balances the push:\n\\[\nf_s=15\\,\\mathrm{N}\n\\]\nIt acts to the left.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-05",
+      "prompt": "A \\(10.0\\,\\mathrm{kg}\\) box on a horizontal floor has \\(\\mu_s=0.30\\). A \\(25\\,\\mathrm{N}\\) horizontal push is applied. Does the box move?",
+      "answer": "\\[\nf_{s,\\max}=\\mu_smg=0.30(10.0)(9.8)=29.4\\,\\mathrm{N}\n\\]\nThe \\(25\\,\\mathrm{N}\\) push is below the limit, so the box does not move.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-06",
+      "prompt": "The same \\(10.0\\,\\mathrm{kg}\\) box is pushed by \\(40\\,\\mathrm{N}\\). If \\(\\mu_k=0.20\\) once it slides, find the kinetic friction magnitude.",
+      "answer": "Once sliding,\n\\[\nf_k=\\mu_kmg=0.20(10.0)(9.8)=19.6\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-07",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) block slides on a horizontal surface with \\(\\mu_k=0.25\\). Find its acceleration due to friction.",
+      "answer": "\\[\nf_k=\\mu_kmg\n\\]\n\\[\na=-\\frac{f_k}{m}=-\\mu_kg=-0.25(9.8)=-2.45\\,\\mathrm{m\\,s^{-2}}\n\\]\nThe acceleration is opposite the motion.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-08",
+      "prompt": "A block rests on a \\(20^\\circ\\) incline with \\(\\mu_s=0.50\\). Decide whether static friction can hold it at rest.",
+      "answer": "Static friction can hold if\n\\[\nmg\\sin20^\\circ\\le\\mu_smg\\cos20^\\circ\n\\]\nor\n\\[\n\\tan20^\\circ\\le0.50\n\\]\nSince \\(\\tan20^\\circ=0.364\\), the block can remain at rest.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-09",
+      "prompt": "Find the minimum horizontal force needed to start moving a \\(12.0\\,\\mathrm{kg}\\) crate on a floor with \\(\\mu_s=0.45\\).",
+      "answer": "\\[\nF_{\\min}=f_{s,\\max}=\\mu_smg=0.45(12.0)(9.8)=52.9\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-10",
+      "prompt": "A block slides down a \\(30^\\circ\\) incline with \\(\\mu_k=0.20\\). Find its acceleration along the slope and the normal reaction in terms of \\(m\\).",
+      "answer": "Down the slope is positive:\n\\[\nma=mg\\sin30^\\circ-\\mu_kmg\\cos30^\\circ\n\\]\n\\[\na=g(\\sin30^\\circ-\\mu_k\\cos30^\\circ)\n\\]\n\\[\na=9.8(0.500-0.20\\cos30^\\circ)=3.20\\,\\mathrm{m\\,s^{-2}}\n\\]\nNormal reaction:\n\\[\nN=mg\\cos30^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-11",
+      "prompt": "A block is placed on a \\(35^\\circ\\) incline. The coefficients are \\(\\mu_s=0.40\\) and \\(\\mu_k=0.30\\). Decide whether it slips, then find its acceleration if it does. Also find the minimum \\(\\mu_s\\) required to keep it at rest at this angle.",
+      "answer": "Check whether static friction can hold:\n\\[\n\\tan35^\\circ=0.700\u003e0.40\n\\]\nIt slips. With kinetic friction,\n\\[\na=g(\\sin35^\\circ-\\mu_k\\cos35^\\circ)\n\\]\n\\[\na=9.8(\\sin35^\\circ-0.30\\cos35^\\circ)=3.21\\,\\mathrm{m\\,s^{-2}}\n\\]\nThe acceleration is down the slope.\nMinimum static coefficient for rest at \\(35^\\circ\\):\n\\[\n\\mu_{s,\\min}=\\tan35^\\circ=0.700\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "friction-models-12",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) crate is pushed horizontally against a vertical wall with \\(P=90\\,\\mathrm N\\). Coefficients are \\(\\mu_s=0.50\\), \\(\\mu_k=0.35\\). Determine whether static equilibrium is possible. If not, find the downward acceleration once it slides.",
+      "answer": "Normal reaction is set by push:\n\\[\nN=P=90\\,\\mathrm N\n\\]\nMaximum static friction:\n\\[\nf_{s,\\max}=\\mu_sN=0.50(90)=45\\,\\mathrm N\n\\]\nRequired for static hold:\n\\[\nmg=4.0(9.8)=39.2\\,\\mathrm N\n\\]\nSince \\(45\u003e39.2\\), static equilibrium is possible.\nThe crate does not slide, so acceleration is\n\\[\na=0\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

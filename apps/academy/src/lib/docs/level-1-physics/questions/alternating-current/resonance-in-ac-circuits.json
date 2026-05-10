@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "resonance-in-ac-circuits",
+  "topicTitle": "Resonance in AC Circuits",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ac-resonance-01",
+      "prompt": "What is the resonance condition for a series LRC circuit?",
+      "answer": "At resonance,\n\\[\nX_L=X_C\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-02",
+      "prompt": "State the resonant angular frequency of a series LRC circuit.",
+      "answer": "The resonant angular frequency is\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-03",
+      "prompt": "At series resonance, what is the impedance of an ideal series LRC circuit?",
+      "answer": "At resonance, \\(X_L-X_C=0\\), so\n\\[\nZ=R\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-04",
+      "prompt": "Find \\(f_0\\) for \\(L=0.20\\,\\mathrm H\\) and \\(C=5.0\\,\\mu\\mathrm F\\).",
+      "answer": "\\[\nf_0=\\frac{1}{2\\pi\\sqrt{LC}}\n\\]\n\\[\nf_0=\\frac{1}{2\\pi\\sqrt{(0.20)(5.0\\times10^{-6})}}=159\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-05",
+      "prompt": "At resonance, a series circuit has \\(R=40\\,\\Omega\\) and \\(V_{\\mathrm{rms}}=120\\,\\mathrm V\\). Find the rms current.",
+      "answer": "At resonance, \\(Z=R\\), so\n\\[\nI_{\\mathrm{rms}}=\\frac{V_{\\mathrm{rms}}}{R}=\\frac{120}{40}=3.0\\,\\mathrm A\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-06",
+      "prompt": "A series LRC circuit has \\(L=0.50\\,\\mathrm H\\) and should resonate at \\(100\\,\\mathrm{Hz}\\). Find the required capacitance.",
+      "answer": "Use\n\\[\n\\omega_0=2\\pi f_0=628\\,\\mathrm{rad\\,s^{-1}}\n\\]\nand\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]\nso\n\\[\nC=\\frac{1}{\\omega_0^2L}=\\frac{1}{(628)^2(0.50)}=5.1\\times10^{-6}\\,\\mathrm F\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-07",
+      "prompt": "A series resonant circuit has \\(L=0.10\\,\\mathrm H\\), \\(R=5.0\\,\\Omega\\), and \\(f_0=500\\,\\mathrm{Hz}\\). Find \\(Q\\).",
+      "answer": "\\[\n\\omega_0=2\\pi f_0=3142\\,\\mathrm{rad\\,s^{-1}}\n\\]\nFor a series circuit,\n\\[\nQ=\\frac{\\omega_0L}{R}=\\frac{(3142)(0.10)}{5.0}=62.8\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-08",
+      "prompt": "A series circuit has \\(\\omega_0=2000\\,\\mathrm{rad\\,s^{-1}}\\) and \\(Q=50\\). Estimate its bandwidth \\(\\Delta\\omega\\).",
+      "answer": "\\[\n\\Delta\\omega=\\frac{\\omega_0}{Q}=\\frac{2000}{50}=40\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-09",
+      "prompt": "Explain why the current is maximum at resonance in a series LRC circuit.",
+      "answer": "The series impedance is\n\\[\nZ=\\sqrt{R^2+(X_L-X_C)^2}\n\\]\nAt resonance, \\(X_L=X_C\\), so the reactive part is zero and\n\\[\nZ=R\n\\]\nThis is the minimum possible impedance for the circuit, so for fixed source voltage\n\\[\nI=\\frac{V}{Z}\n\\]\nis maximum.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-resonance-10",
+      "prompt": "At resonance, a series circuit has \\(I_{\\mathrm{rms}}=2.0\\,\\mathrm A\\), \\(X_L=X_C=300\\,\\Omega\\), and \\(R=20\\,\\Omega\\). Find \\(V_R\\), \\(V_L\\), \\(V_C\\), and the source rms voltage.",
+      "answer": "Component voltages are\n\\[\nV_R=IR=(2.0)(20)=40\\,\\mathrm V\n\\]\n\\[\nV_L=IX_L=(2.0)(300)=600\\,\\mathrm V\n\\]\n\\[\nV_C=IX_C=(2.0)(300)=600\\,\\mathrm V\n\\]\nAt resonance, \\(V_L\\) and \\(V_C\\) are equal and opposite as phasors, so they cancel in the source phasor sum. The source rms voltage is therefore\n\\[\nV=V_R=40\\,\\mathrm V\n\\]\nThe individual reactive voltages can be much larger than the source voltage.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

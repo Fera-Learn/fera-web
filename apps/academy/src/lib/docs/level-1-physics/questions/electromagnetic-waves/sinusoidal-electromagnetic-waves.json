@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-waves",
+  "topicId": "sinusoidal-electromagnetic-waves",
+  "topicTitle": "Sinusoidal Electromagnetic Waves",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "sinusoidal-em-waves-01",
+      "prompt": "Write a sinusoidal electric field for a wave moving in \\(+x\\) with \\(\\vec E\\) along \\(+y\\).",
+      "answer": "One valid form is\\n\\[\\nE_y(x,t)=E_0\\cos(kx-\\omega t+\\phi)\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-02",
+      "prompt": "A sinusoidal wave has \\(E_0=75\\,\\mathrm{V\\,m^{-1}}\\). Find \\(B_0\\) in vacuum.",
+      "answer": "\\[\\nB_0=\\frac{E_0}{c}=\\frac{75}{3.0\\times10^8}=2.5\\times10^{-7}\\,\\mathrm{T}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-03",
+      "prompt": "A sinusoidal wave has \\(\\lambda=600\\,\\mathrm{nm}\\). Find \\(f\\), \\(k\\), and \\(\\omega\\) in vacuum.",
+      "answer": "\\[\\nf=\\frac{c}{\\lambda}=\\frac{3.0\\times10^8}{600\\times10^{-9}}=5.0\\times10^{14}\\,\\mathrm{Hz}\\n\\]\\n\\[\\nk=\\frac{2\\pi}{\\lambda}=1.05\\times10^7\\,\\mathrm{rad\\,m^{-1}}\\n\\]\\n\\[\\n\\omega=2\\pi f=3.14\\times10^{15}\\,\\mathrm{rad\\,s^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-04",
+      "prompt": "For \\(E_y=120\\cos(5x-1.5\\times10^9t)\\), find the speed and magnetic-field amplitude.",
+      "answer": "\\[\\nv=\\frac{\\omega}{k}=\\frac{1.5\\times10^9}{5}=3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\n\\[\\nB_0=\\frac{E_0}{c}=\\frac{120}{3.0\\times10^8}=4.0\\times10^{-7}\\,\\mathrm{T}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-05",
+      "prompt": "For \\(E_y=E_0\\cos(kx-\\omega t)\\), find the phase change when \\(x\\) increases by \\(\\lambda/4\\) at fixed time.",
+      "answer": "The phase change is\\n\\[\\n\\Delta\\phi=k\\Delta x=\\frac{2\\pi}{\\lambda}\\frac{\\lambda}{4}=\\frac{\\pi}{2}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-06",
+      "prompt": "For \\(E_y=E_0\\cos(kx-\\omega t)\\), find the phase change after time \\(T/4\\) at fixed position.",
+      "answer": "Since \\(\\omega=2\\pi/T\\),\\n\\[\\n\\Delta\\phi=-\\omega\\Delta t=-\\frac{2\\pi}{T}\\frac{T}{4}=-\\frac{\\pi}{2}\\n\\]\\nThe negative sign reflects the \\(-\\omega t\\) phase.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-07",
+      "prompt": "A wave is \\(E_y=80\\cos(4x-1.2\\times10^9t+\\pi/3)\\). Find \\(E_y\\) at \\(x=0\\), \\(t=0\\).",
+      "answer": "\\[\\nE_y=80\\cos\\left(\\frac{\\pi}{3}\\right)=40\\,\\mathrm{V\\,m^{-1}}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-08",
+      "prompt": "A wave has \\(E_y=E_0\\cos(kx+\\omega t)\\). If \\(\\vec E\\) points \\(+y\\) when the cosine is positive, what direction must \\(\\vec B\\) point?",
+      "answer": "The phase \\(kx+\\omega t\\) travels in \\(-x\\), so \\(\\vec E\\times\\vec B=-\\hat x\\). With \\(\\vec E=+\\hat y\\), choose \\(\\vec B=+\\hat z\\)?\\n\\[\\n\\hat y\\times\\hat z=\\hat x\\n\\]\\nThis is wrong. Therefore \\(\\vec B=-\\hat z\\), since \\(\\hat y\\times(-\\hat z)=-\\hat x\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-09",
+      "prompt": "A proposed wave has \\(E_y=E_0\\cos(kx-\\omega t)\\) and \\(B_z=B_0\\sin(kx-\\omega t)\\). Explain whether this is a standard traveling vacuum plane wave.",
+      "answer": "No. For a standard traveling vacuum plane wave, \\(\\vec E\\) and \\(\\vec B\\) are in phase and satisfy \\(E=cB\\) at every point and time. A sine magnetic field is shifted by \\(\\pi/2\\), so the fields do not reach zero and maximum together. It does not satisfy the usual source-free plane-wave form.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-10",
+      "prompt": "Given \\(E_y=E_0\\cos(kx-\\omega t)\\), write a consistent \\(B_z\\) and state the required amplitude relation.",
+      "answer": "For propagation in \\(+x\\), choose\\n\\[\\nB_z=B_0\\cos(kx-\\omega t)\\n\\]\\nwith\\n\\[\\nE_0=cB_0\\n\\]\\nThe fields are in phase and \\(\\hat y\\times\\hat z=\\hat x\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-11",
+      "prompt": "Derive the relation \\(E_0/B_0=\\omega/k\\) for \\(E_y=E_0\\cos(kx-\\omega t)\\) and \\(B_z=B_0\\cos(kx-\\omega t)\\).",
+      "answer": "Use Faraday's law in this geometry:\\n\\[\\n\\frac{\\partial E_y}{\\partial x}=-\\frac{\\partial B_z}{\\partial t}\\n\\]\\nSubstitute the fields:\\n\\[\\n-kE_0\\sin(kx-\\omega t)=-\\omega B_0\\sin(kx-\\omega t)\\n\\]\\nTherefore\\n\\[\\n\\frac{E_0}{B_0}=\\frac{\\omega}{k}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-12",
+      "prompt": "A sinusoidal wave in a medium is \\(E_y=60\\cos(2.0\\times10^7x-4.0\\times10^{15}t)\\). Find the refractive index of the medium.",
+      "answer": "\\[\\nv=\\frac{\\omega}{k}=\\frac{4.0\\times10^{15}}{2.0\\times10^7}=2.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\n\\[\\nn=\\frac{c}{v}=\\frac{3.0\\times10^8}{2.0\\times10^8}=1.5\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-13",
+      "prompt": "A detector at fixed \\(x\\) sees adjacent electric-field maxima separated by \\(2.0\\,\\mathrm{fs}\\). Find the wavelength in vacuum.",
+      "answer": "Adjacent maxima in time are separated by the period, so \\(T=2.0\\times10^{-15}\\,\\mathrm{s}\\). Thus\\n\\[\\n\\lambda=cT=(3.0\\times10^8)(2.0\\times10^{-15})=6.0\\times10^{-7}\\,\\mathrm{m}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-14",
+      "prompt": "At one instant, adjacent zero crossings of \\(E_y\\) along \\(x\\) are separated by \\(0.25\\,\\mathrm{m}\\). Find \\(\\lambda\\), \\(k\\), and \\(f\\) in vacuum.",
+      "answer": "Adjacent zero crossings are separated by \\(\\lambda/2\\), so\\n\\[\\n\\lambda=0.50\\,\\mathrm{m}\\n\\]\\n\\[\\nk=\\frac{2\\pi}{\\lambda}=4\\pi\\,\\mathrm{rad\\,m^{-1}}\\n\\]\\n\\[\\nf=\\frac{c}{\\lambda}=6.0\\times10^8\\,\\mathrm{Hz}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-15",
+      "prompt": "A wave has \\(E_y=E_0\\cos(kx-\\omega t)\\). Find the velocity of the point where the phase equals \\(\\pi/3\\).",
+      "answer": "Set\\n\\[\\nkx-\\omega t=\\frac{\\pi}{3}\\n\\]\\nDifferentiate:\\n\\[\\nk\\frac{dx}{dt}-\\omega=0\\n\\]\\nso\\n\\[\\n\\frac{dx}{dt}=\\frac{\\omega}{k}\\n\\]\\nThe phase point moves with the wave speed.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-16",
+      "prompt": "A student writes \\(E_y=E_0\\cos(kx-\\omega t)\\) and \\(B_z=(E_0/c)\\cos(kx+\\omega t)\\). Identify the inconsistency.",
+      "answer": "The electric field has phase \\(kx-\\omega t\\), so it travels in \\(+x\\). The magnetic field has phase \\(kx+\\omega t\\), so it travels in \\(-x\\). A single traveling plane wave cannot have its electric and magnetic parts propagating in opposite directions.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-17",
+      "prompt": "Show that the time-average of \\(E_y\\) over one cycle is zero but the time-average of \\(E_y^2\\) is not.",
+      "answer": "For \\(E_y=E_0\\cos\\phi\\),\\n\\[\\n\\langle E_y\\rangle=E_0\\langle\\cos\\phi\\rangle=0\\n\\]\\nbut\\n\\[\\n\\langle E_y^2\\rangle=E_0^2\\langle\\cos^2\\phi\\rangle=\\frac{E_0^2}{2}\\n\\]\\nThis is why energy and intensity depend on squared fields.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-18",
+      "prompt": "A sinusoidal wave has measured magnetic field \\(B_z=B_0\\cos(kx-\\omega t+\\pi)\\) while \\(E_y=E_0\\cos(kx-\\omega t)\\). Could it still travel in \\(+x\\)? Explain with the Poynting direction.",
+      "answer": "The phase shift \\(\\pi\\) makes \\(\\vec B\\) opposite to the direction needed when \\(\\vec E\\) is positive. Thus \\(\\vec E\\times\\vec B\\) points in \\(-x\\), not \\(+x\\). It cannot represent a standard \\(+x\\) traveling wave with positive energy flow.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-19",
+      "prompt": "Design a sinusoidal vacuum plane wave traveling in \\(-y\\) with electric field along \\(+z\\). Give \\(\\vec E\\), \\(\\vec B\\), and the amplitude relation.",
+      "answer": "For travel in \\(-y\\), require \\(\\vec E\\times\\vec B=-\\hat y\\). With \\(\\vec E\\parallel+\\hat z\\), choose \\(\\vec B\\parallel-\\hat x\\), since\\n\\[\\n\\hat z\\times(-\\hat x)=-\\hat y\\n\\]\\nA consistent form is\\n\\[\\n\\vec E=E_0\\cos(ky+\\omega t)\\hat z\\n\\]\\n\\[\\n\\vec B=-B_0\\cos(ky+\\omega t)\\hat x\\n\\]\\nwith \\(E_0=cB_0\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "sinusoidal-em-waves-20",
+      "prompt": "Starting from a sinusoidal ansatz, prove that an arbitrary phase offset between \\(\\vec E\\) and \\(\\vec B\\) is not allowed for a source-free vacuum traveling plane wave.",
+      "answer": "Let\\n\\[\\nE_y=E_0\\cos(kx-\\omega t),\\quad B_z=B_0\\cos(kx-\\omega t+\\alpha)\\n\\]\\nFaraday's law requires\\n\\[\\n-kE_0\\sin\\phi=-\\frac{\\partial B_z}{\\partial t}=-\\omega B_0\\sin(\\phi+\\alpha)\\n\\]\\nThis must hold for every \\(\\phi\\). Therefore \\(\\sin(\\phi+\\alpha)\\) must be proportional to \\(\\sin\\phi\\) for all phases, which requires \\(\\alpha=0\\) or \\(\\pi\\). The \\(\\pi\\) choice gives the wrong energy-flow direction for \\(+x\\), so the physical \\(+x\\) wave has \\(\\alpha=0\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

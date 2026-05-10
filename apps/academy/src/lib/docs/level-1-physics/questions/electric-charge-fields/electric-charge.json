@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "electric-charge",
+  "topicTitle": "Electric Charge",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-charge-01",
+      "prompt": "What is the SI unit of electric charge?",
+      "answer": "The SI unit of electric charge is the coulomb:\n\\[\n\\mathrm{C}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-02",
+      "prompt": "What is the sign of the charge carried by an electron?",
+      "answer": "An electron carries negative charge:\n\\[\nq_e=-e\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-03",
+      "prompt": "An object gains \\(5.0\\times10^6\\) electrons. Is its charge change positive or negative?",
+      "answer": "Gaining electrons makes the object more negative. Its charge change is negative.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-04",
+      "prompt": "Find the charge of \\(3.0\\times10^8\\) excess protons.",
+      "answer": "Each proton contributes \\(+e\\), so\n\\[\nQ=Ne\n\\]\n\\[\nQ=(3.0\\times10^8)(1.60\\times10^{-19})\n\\]\n\\[\nQ=4.8\\times10^{-11}\\,\\mathrm{C}\n\\]\nThe sign is positive.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-05",
+      "prompt": "An object has net charge \\(-8.0\\,\\mathrm{nC}\\). Estimate how many excess electrons it has.",
+      "answer": "Excess electrons give negative charge. The number of excess electrons is\n\\[\nN=\\frac{|Q|}{e}\n\\]\n\\[\nN=\\frac{8.0\\times10^{-9}}{1.60\\times10^{-19}}=5.0\\times10^{10}\n\\]\nSo the object has about \\(5.0\\times10^{10}\\) excess electrons.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-06",
+      "prompt": "A neutral object loses \\(1.2\\times10^{10}\\) electrons. Find its final charge.",
+      "answer": "Losing electrons leaves a positive net charge:\n\\[\nQ=Ne\n\\]\n\\[\nQ=(1.2\\times10^{10})(1.60\\times10^{-19})\n\\]\n\\[\nQ=1.9\\times10^{-9}\\,\\mathrm{C}=1.9\\,\\mathrm{nC}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-07",
+      "prompt": "Two isolated spheres have charges \\(+12\\,\\mathrm{nC}\\) and \\(-5\\,\\mathrm{nC}\\). They touch and are separated. If the final charge on sphere A is \\(+4\\,\\mathrm{nC}\\), find the final charge on sphere B.",
+      "answer": "The isolated total charge is conserved:\n\\[\nQ_{\\mathrm{tot}}=12\\,\\mathrm{nC}-5\\,\\mathrm{nC}=7\\,\\mathrm{nC}\n\\]\nAfter separation,\n\\[\nQ_A\u0027+Q_B\u0027=7\\,\\mathrm{nC}\n\\]\nWith \\(Q_A\u0027=4\\,\\mathrm{nC}\\),\n\\[\nQ_B\u0027=7\\,\\mathrm{nC}-4\\,\\mathrm{nC}=3\\,\\mathrm{nC}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-08",
+      "prompt": "A sample contains \\(4.00\\times10^{15}\\) protons and \\(4.00\\times10^{15}+2.0\\times10^7\\) electrons. Find its net charge and sign.",
+      "answer": "There are \\(2.0\\times10^7\\) more electrons than protons, so\n\\[\nQ=-(2.0\\times10^7)e\n\\]\n\\[\nQ=-(2.0\\times10^7)(1.60\\times10^{-19})\n\\]\n\\[\nQ=-3.2\\times10^{-12}\\,\\mathrm{C}\n\\]\nThe net charge is negative.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-09",
+      "prompt": "Three isolated objects exchange charge. Initially their charges are \\(Q_1,Q_2,Q_3\\). After contact, objects 1 and 2 have final charges \\(Q_1\u0027=Q_1-a+b\\) and \\(Q_2\u0027=Q_2+a-c\\). Derive \\(Q_3\u0027\\) from charge conservation and interpret the signs of \\(a,b,c\\).",
+      "answer": "Conservation gives\n\\[\nQ_1+Q_2+Q_3=Q_1\u0027+Q_2\u0027+Q_3\u0027\n\\]\nSubstitute the given final charges:\n\\[\nQ_1+Q_2+Q_3=(Q_1-a+b)+(Q_2+a-c)+Q_3\u0027\n\\]\nThe \\(a\\) terms cancel:\n\\[\nQ_3=Q_3\u0027+b-c\n\\]\nso\n\\[\nQ_3\u0027=Q_3-b+c\n\\]\nThe parameter \\(a\\) represents charge transferred between objects 1 and 2, so it does not affect object 3. The \\(+b\\) on object 1 means object 3 loses \\(b\\). The \\(-c\\) on object 2 means object 3 gains \\(c\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-charge-10",
+      "prompt": "A sensor claims it measured an isolated object\u0027s charge changing smoothly from \\(0\\) to \\(0.50e\\). Explain why this cannot be the final net charge of an ordinary isolated object, and state what assumption would have to fail for the claim to be meaningful.",
+      "answer": "For an ordinary isolated object, net charge is quantized:\n\\[\nq=Ne,\\qquad N\\in\\mathbb{Z}\n\\]\nA final charge of \\(0.50e\\) is not an integer multiple of \\(e\\), so it cannot be the object\u0027s final net charge under the ordinary charge-carrier model.\n\nFor the claim to be meaningful, at least one assumption would have to fail: the object might not be isolated, the reading might be a time average or partial-system measurement, or the sensor might not be measuring the object\u0027s net charge directly.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

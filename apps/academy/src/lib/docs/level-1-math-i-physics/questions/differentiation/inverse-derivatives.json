@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "inverse-derivatives",
+  "topicTitle": "Inverse Derivatives",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "ind-1",
+      "prompt": "Find the antiderivative of f(x) = x^2.",
+      "answer": "x^3/3 + C",
+      "hints": ["Add 1 to the power: x^(2+1) = x^3.", "Divide by the new power: x^3/3."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-2",
+      "prompt": "Find the antiderivative of f(x) = 5.",
+      "answer": "5x + C",
+      "hints": ["The antiderivative of a constant c is c times x.", "Don't forget + C."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-3",
+      "prompt": "Find the antiderivative of f(x) = e^x.",
+      "answer": "e^x + C",
+      "hints": ["e^x is its own antiderivative."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-4",
+      "prompt": "Find the antiderivative of f(x) = 3x^2 + 2x + 1.",
+      "answer": "x^3 + x^2 + x + C",
+      "hints": ["Integrate each term separately.", "3x^2 -> x^3, 2x -> x^2, 1 -> x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-5",
+      "prompt": "Find the antiderivative of f(x) = 1/x.",
+      "answer": "ln|x| + C",
+      "hints": ["The antiderivative of 1/x is the natural logarithm.", "Remember the absolute value."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-6",
+      "prompt": "Find the antiderivative of f(x) = cos x.",
+      "answer": "sin x + C",
+      "hints": ["The antiderivative of cosine is sine."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-7",
+      "prompt": "Find the antiderivative of f(x) = sin x.",
+      "answer": "-cos x + C",
+      "hints": ["The antiderivative of sine is negative cosine."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-8",
+      "prompt": "Find F(x) if F'(x) = 6x^2 and F(0) = 3.",
+      "answer": "2x^3 + 3",
+      "hints": ["First find the general antiderivative: F(x) = 2x^3 + C.", "Use F(0) = 3 to find C."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-9",
+      "prompt": "Find the antiderivative of f(x) = x^{-2}.",
+      "answer": "-1/x + C",
+      "hints": ["Use the power rule: x^{-2+1}/(-2+1) = x^{-1}/(-1) = -x^{-1}."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ind-10",
+      "prompt": "Find the antiderivative of f(x) = (x + 1)^2.",
+      "answer": "(x + 1)^3 / 3 + C",
+      "hints": ["Expand first: x^2 + 2x + 1.", "Or use substitution: let u = x+1."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

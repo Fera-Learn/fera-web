@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "plane-surface-refraction",
+  "topicTitle": "Plane-Surface Refraction",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "plane-refraction-01",
+      "prompt": "State Snell's law.",
+      "answer": "Snell's law is\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]\nwith angles measured from the normal.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-02",
+      "prompt": "Define refractive index in terms of light speed.",
+      "answer": "The refractive index is\n\\[\nn=\\frac{c}{v}\n\\]\nwhere \\(c\\) is light speed in vacuum and \\(v\\) is light speed in the medium.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-03",
+      "prompt": "Light enters glass \\((n=1.50)\\) from air at \\(30^\\circ\\). Find the refracted angle.",
+      "answer": "\\[\n1.00\\sin30^\\circ=1.50\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.333\n\\]\n\\[\n\\theta_2=19.5^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-04",
+      "prompt": "Find the speed of light in water with \\(n=1.33\\).",
+      "answer": "\\[\nv=\\frac{c}{n}=\\frac{3.00\\times10^8}{1.33}=2.26\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-05",
+      "prompt": "When light enters a medium with larger refractive index, does it bend toward or away from the normal?",
+      "answer": "It bends toward the normal. Snell's law requires \\(\\sin\\theta_2\\) to decrease when \\(n_2\\) is larger than \\(n_1\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-06",
+      "prompt": "When light crosses a boundary, which quantity stays the same: speed, wavelength, or frequency?",
+      "answer": "Frequency stays the same. Speed and wavelength change according to the refractive index.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-07",
+      "prompt": "A vacuum wavelength is \\(600\\,\\mathrm{nm}\\). Find the wavelength in glass with \\(n=1.50\\).",
+      "answer": "\\[\n\\lambda=\\frac{\\lambda_0}{n}=\\frac{600\\,\\mathrm{nm}}{1.50}=400\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-08",
+      "prompt": "Light goes from glass \\((n=1.50)\\) to air at \\(30^\\circ\\). Find the refracted angle.",
+      "answer": "\\[\n1.50\\sin30^\\circ=1.00\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.750\n\\]\n\\[\n\\theta_2=48.6^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-09",
+      "prompt": "Why must refraction angles be measured from the normal?",
+      "answer": "Snell's law uses the component of the wave direction parallel to the boundary, which is expressed using angles from the normal. Measuring from the surface gives complementary angles.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-10",
+      "prompt": "A ray in air enters a medium and bends to \\(20^\\circ\\) from the normal when the incident angle is \\(40^\\circ\\). Find the medium's refractive index.",
+      "answer": "Use Snell's law with \\(n_1=1.00\\):\n\\[\nn_2=\\frac{\\sin40^\\circ}{\\sin20^\\circ}=1.88\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-11",
+      "prompt": "Why does a pencil in water appear bent at the water surface?",
+      "answer": "Light from the submerged part refracts as it leaves water for air. The eye traces refracted rays backward in straight lines, so the underwater part appears shifted relative to the part in air.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-12",
+      "prompt": "Find the frequency of light with vacuum wavelength \\(500\\,\\mathrm{nm}\\).",
+      "answer": "\\[\nf=\\frac{c}{\\lambda_0}=\\frac{3.00\\times10^8}{500\\times10^{-9}}=6.00\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-13",
+      "prompt": "The light from the previous question enters glass with \\(n=1.50\\). What is its frequency in glass?",
+      "answer": "Frequency does not change at a boundary, so\n\\[\nf=6.00\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-14",
+      "prompt": "For small angles, derive an approximate refraction relation from Snell's law.",
+      "answer": "For small angles in radians, \\(\\sin\\theta\\approx\\theta\\). Snell's law becomes\n\\[\nn_1\\theta_1\\approx n_2\\theta_2\n\\]\nso\n\\[\n\\theta_2\\approx\\frac{n_1}{n_2}\\theta_1\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-15",
+      "prompt": "A light ray enters a slab with parallel faces. How does the outgoing ray direction compare with the incoming ray direction?",
+      "answer": "For parallel faces and the same outside medium, the outgoing ray is parallel to the incoming ray. It is laterally displaced but not permanently changed in direction.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-16",
+      "prompt": "Why is a refractive index usually greater than 1 for transparent materials?",
+      "answer": "Because light usually travels more slowly in a material than in vacuum. Since \\(n=c/v\\), a smaller \\(v\\) gives \\(n>1\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-17",
+      "prompt": "A ray goes from medium 1 to medium 2 without bending despite crossing the boundary. Give two possible reasons.",
+      "answer": "Either the ray strikes along the normal, so \\(\\theta_1=0\\), or the two media have the same refractive index. In both cases Snell's law gives no direction change.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-18",
+      "prompt": "A ray in medium \\(n_1\\) refracts into medium \\(n_2\\). If \\(n_2<n_1\\), what happens to the refracted angle before total internal reflection occurs?",
+      "answer": "The refracted angle is larger than the incident angle, so the ray bends away from the normal. As incidence increases, the refracted angle approaches \\(90^\\circ\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-19",
+      "prompt": "Explain why wavelength changes but frequency does not when light enters a new medium.",
+      "answer": "The boundary must keep wave crests continuous in time, so frequency is fixed. The wave speed changes to \\(v=c/n\\). Since \\(v=f\\lambda\\), the wavelength changes in proportion to speed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-refraction-20",
+      "prompt": "Use Fermat's principle qualitatively to justify bending toward the normal in a slower medium.",
+      "answer": "Light takes a path of stationary travel time, not necessarily shortest distance. If the second medium is slower, the least-time path spends less distance in that medium. This shifts the path toward the normal on entry, which is the geometric content of Snell's law.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

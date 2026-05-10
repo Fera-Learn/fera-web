@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "microscopic-model-of-conduction",
+  "topicTitle": "Microscopic Model of Conduction",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "microscopic-conduction-01",
+      "prompt": "State the microscopic current magnitude relation involving \\(n, |q|, A,\\) and \\(v_d\\).",
+      "answer": "The microscopic current magnitude relation is\n\\[\nI=n|q|Av_d\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-02",
+      "prompt": "In a metal, is electron drift in the same direction as conventional current or the opposite direction?",
+      "answer": "In a metal, electron drift is opposite conventional current.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-03",
+      "prompt": "If electron drift speed increases while \\(n\\) and \\(A\\) stay fixed, what happens to current magnitude?",
+      "answer": "From\n\\[\nI=n|q|Av_d\n\\]\nif \\(n\\) and \\(A\\) stay fixed, increasing \\(v_d\\) increases the current magnitude proportionally.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-04",
+      "prompt": "A wire has \\(n=8.0\\times10^{28}\\,\\mathrm{m^{-3}}\\), \\(A=1.0\\times10^{-6}\\,\\mathrm{m^2}\\), \\(v_d=2.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}\\), and electron carriers. Find the current magnitude.",
+      "answer": "Use\n\\[\nI=n e A v_d\n\\]\n\\[\nI=(8.0\\times10^{28})(1.60\\times10^{-19})(1.0\\times10^{-6})(2.0\\times10^{-4})\n\\]\n\\[\nI=2.56\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-05",
+      "prompt": "A \\(2.0\\,\\mathrm{A}\\) current flows in a wire with \\(n=5.0\\times10^{28}\\,\\mathrm{m^{-3}}\\) and \\(A=2.5\\times10^{-6}\\,\\mathrm{m^2}\\). Estimate electron drift speed.",
+      "answer": "Rearrange\n\\[\nI=neAv_d\n\\]\nto get\n\\[\nv_d=\\frac{I}{neA}\n\\]\n\\[\nv_d=\\frac{2.0}{(5.0\\times10^{28})(1.60\\times10^{-19})(2.5\\times10^{-6})}\n\\]\n\\[\nv_d=1.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-06",
+      "prompt": "For positive charge carriers with \\(n=1.0\\times10^{24}\\,\\mathrm{m^{-3}}\\), \\(q=+2e\\), and \\(\\vec v_d=3.0\\times10^{-5}\\hat\\imath\\,\\mathrm{m\\,s^{-1}}\\), find \\(\\vec J\\).",
+      "answer": "Use\n\\[\n\\vec J=nq\\vec v_d\n\\]\nHere\n\\[\nq=+2e=3.20\\times10^{-19}\\,\\mathrm{C}\n\\]\nso\n\\[\n\\vec J=(1.0\\times10^{24})(3.20\\times10^{-19})(3.0\\times10^{-5})\\hat\\imath\n\\]\n\\[\n\\vec J=9.6\\,\\hat\\imath\\,\\mathrm{A\\,m^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-07",
+      "prompt": "A metal wire narrows to half its original area while carrying the same steady current. Assuming carrier density is unchanged, by what factor does drift speed change in the narrow section?",
+      "answer": "For steady current with fixed carrier density,\n\\[\nI=n|q|Av_d\n\\]\nIf \\(I\\), \\(n\\), and \\(|q|\\) are unchanged, then\n\\[\nv_d\\propto\\frac{1}{A}\n\\]\nHalving the area doubles the drift speed.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-08",
+      "prompt": "Using \\(\\vec J=nq\\vec v_d\\), explain why negative carriers drifting left can produce conventional current to the right.",
+      "answer": "Current density is\n\\[\n\\vec J=nq\\vec v_d\n\\]\nFor electrons,\n\\[\nq=-e\n\\]\nIf electrons drift left, \\(\\vec v_d\\) points left. Multiplying by negative \\(q\\) reverses the direction, so \\(\\vec J\\) points right. Conventional current follows \\(\\vec J\\), not electron drift.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-09",
+      "prompt": "A conductor has two types of mobile carriers: electrons with density \\(n_e\\) and drift velocity \\(\\vec v_e\\), and positive ions with density \\(n_i\\), charge \\(+e\\), and drift velocity \\(\\vec v_i\\). Derive the total current density.",
+      "answer": "Current density contributions add:\n\\[\n\\vec J=\\sum_s n_s q_s\\vec v_s\n\\]\nFor electrons, \\(q_e=-e\\), so\n\\[\n\\vec J_e=n_e(-e)\\vec v_e=-n_ee\\vec v_e\n\\]\nFor positive ions,\n\\[\n\\vec J_i=n_i(+e)\\vec v_i=n_ie\\vec v_i\n\\]\nThus\n\\[\n\\vec J=e(n_i\\vec v_i-n_e\\vec v_e)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "microscopic-conduction-10",
+      "prompt": "A wire carries steady current \\(I\\), but its area varies slowly as \\(A(x)\\). Assuming one carrier type with constant \\(n\\), derive \\(v_d(x)\\) and explain why a smaller area does not imply charge is accumulating there in steady state.",
+      "answer": "For one carrier type,\n\\[\nI=n|q|A(x)v_d(x)\n\\]\nso\n\\[\nv_d(x)=\\frac{I}{n|q|A(x)}\n\\]\nA smaller area requires a larger drift speed for the same steady current.\n\nSteady state means the same current crosses every cross-section. Charge does not accumulate in the narrow section because the flow rate in equals the flow rate out; the carrier drift adjusts so \\(n|q|A(x)v_d(x)\\) remains constant.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

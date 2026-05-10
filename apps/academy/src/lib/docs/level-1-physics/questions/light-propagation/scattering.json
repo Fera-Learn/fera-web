@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "scattering",
+  "topicTitle": "Scattering",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "scattering-light-01",
+      "prompt": "What is scattering of light?",
+      "answer": "Scattering is the redirection of light by particles, molecules, or irregular structures.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-02",
+      "prompt": "State the wavelength dependence of Rayleigh scattering.",
+      "answer": "For Rayleigh scattering,\n\\[\nI_{\\mathrm{scattered}}\\propto\\frac{1}{\\lambda^4}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-03",
+      "prompt": "Why is the clear daytime sky blue?",
+      "answer": "Air molecules Rayleigh-scatter shorter visible wavelengths more strongly than longer wavelengths, so blue light is scattered into many viewing directions.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-04",
+      "prompt": "Using \\(I\\propto1/\\lambda^4\\), compare scattering of \\(450\\,\\mathrm{nm}\\) blue light with \\(650\\,\\mathrm{nm}\\) red light.",
+      "answer": "\\[\n\\frac{I_{450}}{I_{650}}=\\left(\\frac{650}{450}\\right)^4=4.35\n\\]\nBlue light is scattered about \\(4.4\\) times as strongly.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-05",
+      "prompt": "Why do sunsets often appear red or orange?",
+      "answer": "At sunset, sunlight travels through a longer path in the atmosphere. More blue light is scattered out of the direct beam, leaving the direct sunlight richer in red and orange wavelengths.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-06",
+      "prompt": "Why do clouds often look white rather than blue?",
+      "answer": "Cloud droplets are much larger than air molecules and scatter many visible wavelengths more nearly equally. The mixed scattered light appears white.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-07",
+      "prompt": "A wavelength is reduced by a factor of \\(2\\). By what factor does Rayleigh scattering increase?",
+      "answer": "Rayleigh scattering scales as \\(1/\\lambda^4\\). If \\(\\lambda\\) is halved,\n\\[\n\\left(\\frac{1}{1/2}\\right)^4=2^4=16\n\\]\nThe scattering increases by a factor of \\(16\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-08",
+      "prompt": "Distinguish scattering from absorption.",
+      "answer": "Scattering redirects light, often preserving its energy in the same radiation field. Absorption transfers light energy into internal energy or other excitations of matter.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-09",
+      "prompt": "For Rayleigh scattering, derive the ratio of scattered intensities for wavelengths \\(\\lambda_1\\) and \\(\\lambda_2\\).",
+      "answer": "Since\n\\[\nI\\propto\\lambda^{-4}\n\\]\nwe can write\n\\[\nI_1=K\\lambda_1^{-4},\\qquad I_2=K\\lambda_2^{-4}\n\\]\nTherefore\n\\[\n\\frac{I_1}{I_2}=\\frac{K\\lambda_1^{-4}}{K\\lambda_2^{-4}}=\\left(\\frac{\\lambda_2}{\\lambda_1}\\right)^4\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-10",
+      "prompt": "A detector compares scattered light at \\(400\\,\\mathrm{nm}\\) and \\(700\\,\\mathrm{nm}\\) from small particles in the Rayleigh regime. Find \\(I_{400}/I_{700}\\).",
+      "answer": "\\[\n\\frac{I_{400}}{I_{700}}=\\left(\\frac{700}{400}\\right)^4\n\\]\n\\[\n\\frac{I_{400}}{I_{700}}=9.38\n\\]\nThe \\(400\\,\\mathrm{nm}\\) light is scattered about \\(9.4\\) times as strongly.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-11",
+      "prompt": "Using Rayleigh's \\(1/\\lambda^4\\) dependence, compare scattering of \\(500\\,\\mathrm{nm}\\) light with \\(600\\,\\mathrm{nm}\\) light.",
+      "answer": "\\[\n\\frac{I_{500}}{I_{600}}=\\left(\\frac{600}{500}\\right)^4=2.07\n\\]\nThe \\(500\\,\\mathrm{nm}\\) light is scattered about \\(2.1\\) times as strongly as the \\(600\\,\\mathrm{nm}\\) light.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-12",
+      "prompt": "A wavelength is doubled while the scattering particles remain in the Rayleigh regime. By what factor does the scattered intensity change?",
+      "answer": "Rayleigh scattering has\n\\[\nI\\propto\\frac{1}{\\lambda^4}\n\\]\nIf \\(\\lambda\\) is doubled,\n\\[\nI\\to\\frac{1}{(2\\lambda)^4}=\\frac{1}{16}\\frac{1}{\\lambda^4}\n\\]\nThe scattered intensity becomes \\(1/16\\) of its original value.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-13",
+      "prompt": "A beam of white light travels a long distance through air. Explain why the directly transmitted beam becomes redder.",
+      "answer": "Air molecules scatter shorter wavelengths more strongly. Blue and violet light are therefore removed from the forward beam more effectively than red light. The light that continues directly through the atmosphere has a larger fraction of red and orange wavelengths.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-14",
+      "prompt": "Rayleigh scattering is stronger for violet than for blue light. Why does the daytime sky usually look blue rather than violet?",
+      "answer": "Rayleigh scattering does favor the shortest visible wavelengths, but the Sun emits less violet than nearby blue wavelengths, some violet is absorbed higher in the atmosphere, and the human eye is less sensitive to violet. The combined scattered light is therefore perceived mainly as blue.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-15",
+      "prompt": "Distinguish Rayleigh scattering from Mie scattering in terms of particle size and wavelength dependence.",
+      "answer": "Rayleigh scattering occurs when the scattering particles are much smaller than the wavelength and has a strong \\(1/\\lambda^4\\) wavelength dependence. Mie scattering occurs for particles comparable with or larger than the wavelength, such as water droplets, and is much less selective across the visible spectrum.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-16",
+      "prompt": "For Rayleigh scattering, derive an expression for the scattered-intensity ratio \\(I_a/I_b\\) for wavelengths \\(\\lambda_a\\) and \\(\\lambda_b\\).",
+      "answer": "Rayleigh scattering gives\n\\[\nI=K\\lambda^{-4}\n\\]\nfor some constant \\(K\\) under the same conditions. Therefore\n\\[\n\\frac{I_a}{I_b}=\\frac{K\\lambda_a^{-4}}{K\\lambda_b^{-4}}\n\\]\n\\[\n\\frac{I_a}{I_b}=\\left(\\frac{\\lambda_b}{\\lambda_a}\\right)^4\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-17",
+      "prompt": "Small particles Rayleigh-scatter \\(400\\,\\mathrm{nm}\\) light and \\(800\\,\\mathrm{nm}\\) light. Find the ratio \\(I_{400}/I_{800}\\).",
+      "answer": "\\[\n\\frac{I_{400}}{I_{800}}=\\left(\\frac{800}{400}\\right)^4=2^4=16\n\\]\nThe \\(400\\,\\mathrm{nm}\\) light is scattered \\(16\\) times as strongly.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-18",
+      "prompt": "In incident sunlight, the intensity at \\(450\\,\\mathrm{nm}\\) is half the intensity at \\(650\\,\\mathrm{nm}\\). If the particles are in the Rayleigh regime, find the ratio of scattered \\(450\\,\\mathrm{nm}\\) intensity to scattered \\(650\\,\\mathrm{nm}\\) intensity.",
+      "answer": "The scattering factor is\n\\[\n\\left(\\frac{650}{450}\\right)^4=4.35\n\\]\nBut the incident \\(450\\,\\mathrm{nm}\\) intensity is only half the incident \\(650\\,\\mathrm{nm}\\) intensity, so\n\\[\n\\frac{I_{s,450}}{I_{s,650}}=0.50\\times4.35=2.18\n\\]\nThe scattered \\(450\\,\\mathrm{nm}\\) light is about \\(2.2\\) times as intense.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-19",
+      "prompt": "Explain why sunlight scattered through about \\(90^\\circ\\) by the atmosphere can be partially polarized.",
+      "answer": "The electric field of the incoming sunlight drives charges in air molecules to oscillate. The scattered wave is strongest in directions perpendicular to the oscillation and has its electric field transverse to its direction of travel. For scattering near \\(90^\\circ\\), one electric-field direction is favored, so the scattered light becomes partially polarized.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "scattering-light-20",
+      "prompt": "A particle has radius \\(30\\,\\mathrm{nm}\\). Is Rayleigh scattering a reasonable model for visible light of wavelength \\(600\\,\\mathrm{nm}\\)? Compare with a particle of radius \\(1.0\\,\\mu\\mathrm m\\).",
+      "answer": "Rayleigh scattering is appropriate when the particle size is much smaller than the wavelength. For the \\(30\\,\\mathrm{nm}\\) particle,\n\\[\n\\frac{r}{\\lambda}=\\frac{30}{600}=0.050\n\\]\nso the particle is much smaller than the wavelength and Rayleigh scattering is reasonable. For \\(1.0\\,\\mu\\mathrm m=1000\\,\\mathrm{nm}\\),\n\\[\n\\frac{r}{\\lambda}=\\frac{1000}{600}=1.67\n\\]\nso the particle is larger than the wavelength and Rayleigh scattering is not a good model.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

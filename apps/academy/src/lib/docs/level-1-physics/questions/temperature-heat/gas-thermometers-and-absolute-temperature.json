@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "gas-thermometers-and-absolute-temperature",
+  "topicTitle": "Gas Thermometers and Absolute Temperature",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "gas-thermometer-01",
+      "prompt": "Convert \\(27.0\\,{}^\\circ\\mathrm{C}\\) to kelvins.",
+      "answer": "\\[\nT=27.0+273.15=300.15\\,\\mathrm{K}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-02",
+      "prompt": "A fixed-volume gas thermometer has pressure \\(80.0\\,\\mathrm{kPa}\\) at \\(250\\,\\mathrm{K}\\). Find the pressure at \\(500\\,\\mathrm{K}\\).",
+      "answer": "At fixed volume,\n\\[\n\\frac{p_2}{p_1}=\\frac{T_2}{T_1}\n\\]\nso\n\\[\np_2=80.0\\,\\mathrm{kPa}\\frac{500}{250}=160\\,\\mathrm{kPa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-03",
+      "prompt": "A fixed-volume gas thermometer pressure increases from \\(1.00\\times10^5\\,\\mathrm{Pa}\\) to \\(1.25\\times10^5\\,\\mathrm{Pa}\\). By what factor does the Kelvin temperature change?",
+      "answer": "For fixed volume, \\(T\\propto p\\), so\n\\[\n\\frac{T_2}{T_1}=\\frac{p_2}{p_1}=\\frac{1.25\\times10^5}{1.00\\times10^5}=1.25\n\\]\nThe Kelvin temperature increases by a factor of \\(1.25\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-04",
+      "prompt": "A fixed-volume gas thermometer reads \\(94.0\\,\\mathrm{kPa}\\) at \\(273.15\\,\\mathrm{K}\\). What Kelvin temperature corresponds to \\(110\\,\\mathrm{kPa}\\)?",
+      "answer": "\\[\nT=T_{\\mathrm{ref}}\\frac{p}{p_{\\mathrm{ref}}}\n=273.15\\frac{110}{94.0}=320\\,\\mathrm{K}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-05",
+      "prompt": "A fixed-volume gas has pressure \\(120\\,\\mathrm{kPa}\\) at \\(20.0\\,{}^\\circ\\mathrm{C}\\). Find its pressure at \\(80.0\\,{}^\\circ\\mathrm{C}\\).",
+      "answer": "Convert both temperatures to kelvins:\n\\[\nT_1=293.15\\,\\mathrm{K},\\qquad T_2=353.15\\,\\mathrm{K}\n\\]\nThen\n\\[\np_2=p_1\\frac{T_2}{T_1}\n=120\\,\\mathrm{kPa}\\frac{353.15}{293.15}=145\\,\\mathrm{kPa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-06",
+      "prompt": "A student says doubling the Celsius temperature of a fixed-volume gas doubles its pressure. Use \\(20\\,{}^\\circ\\mathrm{C}\\) and \\(40\\,{}^\\circ\\mathrm{C}\\) as a counterexample.",
+      "answer": "The pressure ratio follows the Kelvin temperature ratio:\n\\[\n\\frac{p_2}{p_1}=\\frac{T_2}{T_1}\n\\]\nFor \\(20\\,{}^\\circ\\mathrm{C}\\) and \\(40\\,{}^\\circ\\mathrm{C}\\),\n\\[\nT_1=293.15\\,\\mathrm{K},\\qquad T_2=313.15\\,\\mathrm{K}\n\\]\nso\n\\[\n\\frac{p_2}{p_1}=\\frac{313.15}{293.15}=1.068\n\\]\nThe pressure increases by about \\(6.8\\%\\), not by a factor of \\(2\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-07",
+      "prompt": "A fixed-volume gas thermometer is calibrated at \\(273.15\\,\\mathrm{K}\\), where its pressure is \\(101\\,\\mathrm{kPa}\\). It is then placed in a bath and reads \\(75.0\\,\\mathrm{kPa}\\). Find the bath temperature in kelvins and Celsius.",
+      "answer": "\\[\nT=273.15\\frac{75.0}{101}=203\\,\\mathrm{K}\n\\]\nIn Celsius,\n\\[\nT_C=203-273.15=-70\\,{}^\\circ\\mathrm{C}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-08",
+      "prompt": "Two fixed-volume gas thermometers contain different amounts of gas. Thermometer A reads \\(60\\,\\mathrm{kPa}\\) at \\(300\\,\\mathrm{K}\\), while thermometer B reads \\(150\\,\\mathrm{kPa}\\) at \\(300\\,\\mathrm{K}\\). At an unknown temperature their pressures are \\(72\\,\\mathrm{kPa}\\) and \\(180\\,\\mathrm{kPa}\\). Show that they give the same temperature.",
+      "answer": "Each thermometer uses its own calibration pressure at \\(300\\,\\mathrm{K}\\).\n\nFor A:\n\\[\nT_A=300\\frac{72}{60}=360\\,\\mathrm{K}\n\\]\nFor B:\n\\[\nT_B=300\\frac{180}{150}=360\\,\\mathrm{K}\n\\]\nThe absolute pressures differ because the gas amounts differ, but the pressure ratios give the same temperature.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-09",
+      "prompt": "A fixed-volume gas thermometer has pressure \\(p_C\\) at \\(0\\,{}^\\circ\\mathrm{C}\\). Derive the pressure expected at \\(T_C\\) in Celsius, assuming ideal gas-thermometer behavior.",
+      "answer": "At \\(0\\,{}^\\circ\\mathrm{C}\\), the Kelvin temperature is \\(273.15\\,\\mathrm{K}\\). For a Celsius temperature \\(T_C\\),\n\\[\nT=T_C+273.15\n\\]\nAt fixed volume,\n\\[\n\\frac{p}{p_C}=\\frac{T_C+273.15}{273.15}\n\\]\nso\n\\[\np=p_C\\frac{T_C+273.15}{273.15}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gas-thermometer-10",
+      "prompt": "A constant-volume thermometer has a small pressure offset, so the measured pressure is \\(p_{\\mathrm{meas}}=aT+b\\), where \\(T\\) is the true Kelvin temperature and \\(b\\ne0\\). Using two calibration temperatures \\(T_1,T_2\\) and measured pressures \\(p_1,p_2\\), derive \\(T\\) for a later measured pressure \\(p\\).",
+      "answer": "The calibration relation is linear:\n\\[\np_{\\mathrm{meas}}=aT+b\n\\]\nUse the two calibration points to find the slope:\n\\[\na=\\frac{p_2-p_1}{T_2-T_1}\n\\]\nThen use \\(p_1=aT_1+b\\), so for a later pressure \\(p\\),\n\\[\np-p_1=a(T-T_1)\n\\]\nThus\n\\[\nT=T_1+\\frac{p-p_1}{a}\n\\]\nSubstitute \\(a\\):\n\\[\nT=T_1+(p-p_1)\\frac{T_2-T_1}{p_2-p_1}\n\\]\nThis two-point calibration removes the constant pressure offset \\(b\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

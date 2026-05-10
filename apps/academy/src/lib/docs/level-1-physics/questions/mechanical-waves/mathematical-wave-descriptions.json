@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "mathematical-wave-descriptions",
+  "topicTitle": "Mathematical Wave Descriptions",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-equations-01",
+      "prompt": "For \\(y(x,t)=0.020\\cos(4x-12t)\\), find the amplitude.",
+      "answer": "The amplitude is the coefficient in front of the cosine:\n\\[\nA=0.020\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-02",
+      "prompt": "For \\(y(x,t)=A\\cos(6x-18t)\\), is the wave moving left or right?",
+      "answer": "The form \\(kx-\\omega t\\) represents a wave moving to the right.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-03",
+      "prompt": "For \\(y(x,t)=0.030\\cos(5x-20t)\\), find the wavelength.",
+      "answer": "\\[\nk=\\frac{2\\pi}{\\lambda}\n\\quad\\Rightarrow\\quad\n\\lambda=\\frac{2\\pi}{5}=1.26\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-04",
+      "prompt": "For \\(y(x,t)=0.030\\cos(5x-20t)\\), find the wave speed.",
+      "answer": "\\[\nv_w=\\frac{\\omega}{k}=\\frac{20}{5}=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-05",
+      "prompt": "A wave is described by \\(y(x,t)=0.040\\cos(8x-32t+\\pi/3)\\). Find the phase difference between two points separated by \\(0.25\\,\\mathrm{m}\\) at the same instant.",
+      "answer": "At one instant the phase difference over a separation \\(\\Delta x\\) is\n\\[\n\\Delta\\phi=k\\Delta x=(8)(0.25)=2.0\\,\\mathrm{rad}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-06",
+      "prompt": "A pulse shape at \\(t=0\\) is \\(y(x,0)=g(x)\\). Write expressions for the same pulse moving right and left with speed \\(v_w\\).",
+      "answer": "A right-moving pulse is\n\\[\ny(x,t)=g(x-v_w t)\n\\]\nand a left-moving pulse is\n\\[\ny(x,t)=g(x+v_w t)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-07",
+      "prompt": "For \\(y(x,t)=A\\cos(kx-\\omega t+\\phi)\\), derive the equation relating \\(x\\) and \\(t\\) for a fixed phase point and hence show that the phase speed is constant.",
+      "answer": "A fixed phase point satisfies\n\\[\nkx-\\omega t+\\phi=\\text{constant}\n\\]\nDifferentiate with respect to time:\n\\[\nk\\frac{dx}{dt}-\\omega=0\n\\]\nso\n\\[\n\\frac{dx}{dt}=\\frac{\\omega}{k}\n\\]\nSince \\(\\omega\\) and \\(k\\) are constants for this wave, the phase speed is constant:\n\\[\nv_w=\\frac{\\omega}{k}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-equations-08",
+      "prompt": "A sensor at \\(x=0\\) records \\(y(0,t)=A\\cos(\\omega t)\\). A second sensor at \\(x=d\\) records the same oscillation delayed by a time \\(\\tau\\). Build a right-moving wave equation consistent with these observations and express \\(k\\) and \\(v_w\\) in terms of \\(\\omega\\), \\(d\\), and \\(\\tau\\).",
+      "answer": "A right-moving wave can be written as\n\\[\ny(x,t)=A\\cos(kx-\\omega t+\\phi)\n\\]\nAt \\(x=0\\), the sensor records \\(A\\cos(\\omega t)\\). Since cosine is even, one convenient equivalent form is\n\\[\ny(x,t)=A\\cos(\\omega t-kx)\n\\]\nAt \\(x=d\\), the second sensor is delayed by \\(\\tau\\), so it records\n\\[\ny(d,t)=A\\cos\\!\\bigl(\\omega(t-\\tau)\\bigr)=A\\cos(\\omega t-\\omega\\tau)\n\\]\nMatch the phases:\n\\[\nkd=\\omega\\tau\n\\quad\\Rightarrow\\quad\nk=\\frac{\\omega\\tau}{d}\n\\]\nThen\n\\[\nv_w=\\frac{\\omega}{k}=\\frac{d}{\\tau}\n\\]\nSo a consistent right-moving wave is\n\\[\ny(x,t)=A\\cos\\!\\left(\\omega t-\\frac{\\omega\\tau}{d}x\\right)\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

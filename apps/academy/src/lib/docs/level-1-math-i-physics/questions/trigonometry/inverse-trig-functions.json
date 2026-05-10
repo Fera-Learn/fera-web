@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "trigonometry",
+  "topicId": "inverse-trig-functions",
+  "topicTitle": "Inverse Trig Functions",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-inverse-trig-functions-01",
+      "prompt": "Evaluate \\(\\arcsin(-\\sqrt3/2)\\).",
+      "answer": "The principal range of arcsine is \\([-\\pi/2,\\pi/2]\\). In that interval, the angle with sine \\(-\\sqrt3/2\\) is\n\\[\n-\\frac{\\pi}{3}\n\\]\nTherefore\n\\[\n\\arcsin(-\\sqrt3/2)=-\\frac{\\pi}{3}\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-trig-functions-02",
+      "prompt": "Evaluate \\(\\arccos(0)\\).",
+      "answer": "The principal range of arccosine is \\([0,\\pi]\\). The angle in that interval with cosine \\(0\\) is\n\\[\n\\frac{\\pi}{2}\n\\]\nso \\(\\arccos(0)=\\pi/2\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-trig-functions-03",
+      "prompt": "Evaluate \\(\\arctan(-1)\\).",
+      "answer": "The principal range of arctangent is \\((-\\pi/2,\\pi/2)\\). The angle in that interval with tangent \\(-1\\) is\n\\[\n-\\frac{\\pi}{4}\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-trig-functions-04",
+      "prompt": "Solve \\(\\sin\\theta=1/2\\) for \\(0\\le\\theta<2\\pi\\).",
+      "answer": "The principal angle is \\(\\arcsin(1/2)=\\pi/6\\). Sine is positive in quadrants I and II, so within one full turn\n\\[\n\\theta=\\frac{\\pi}{6},\\qquad \\theta=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-trig-functions-05",
+      "prompt": "Solve \\(\\cos\\theta=-\\sqrt2/2\\) for all real \\(\\theta\\).",
+      "answer": "The principal arccosine value is \\(3\\pi/4\\). Cosine has the same value at the symmetric angle \\(-3\\pi/4\\), then repeats every \\(2\\pi\\). Hence\n\\[\n\\theta=\\pm\\frac{3\\pi}{4}+2\\pi k,\\qquad k\\in\\mathbb Z\n\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-inverse-trig-functions-06",
+      "prompt": "A vector has components \\(x=-3\\) and \\(y=4\\). Why is \\(\\arctan(y/x)\\) alone not enough to identify its direction from the positive \\(x\\)-axis?",
+      "answer": "Here\n\\[\n\\frac{y}{x}=\\frac{4}{-3}=-\\frac43\n\\]\nThe value \\(\\arctan(-4/3)\\) lies in the principal arctangent range, which is quadrant IV. But the vector \\((-3,4)\\) is in quadrant II. The ratio gives the tangent, but the signs of both components are needed to choose the correct quadrant.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

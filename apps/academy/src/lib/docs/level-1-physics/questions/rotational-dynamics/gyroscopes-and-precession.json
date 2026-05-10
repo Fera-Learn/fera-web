@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "gyroscopes-and-precession",
+  "topicTitle": "Gyroscopes and Precession",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "gyroscope-precession-01",
+      "prompt": "A gyroscope has \\(L=6.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\\) and experiences torque \\(1.5\\,\\mathrm{N\\,m}\\) perpendicular to \\(\\vec L\\). Find the slow precession rate.",
+      "answer": "\\[\n\\Omega=\\frac{\\tau}{L}=\\frac{1.5}{6.0}=0.25\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-02",
+      "prompt": "A rotor has \\(I_s=0.020\\,\\mathrm{kg\\,m^2}\\) and \\(\\omega_s=400\\,\\mathrm{rad\\,s^{-1}}\\). Find its spin angular momentum.",
+      "answer": "\\[\nL=I_s\\omega_s=0.020(400)=8.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-03",
+      "prompt": "If the spin angular speed of a gyroscope is doubled while the gravitational torque is unchanged, what happens to the slow precession rate?",
+      "answer": "The precession rate halves because\n\\[\n\\Omega=\\frac{\\tau}{I_s\\omega_s}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-04",
+      "prompt": "A gyroscope\u0027s centre of mass is directly below its pivot. What gravitational torque acts about the pivot?",
+      "answer": "The gravitational torque is zero because the line of action of weight passes through the pivot.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-05",
+      "prompt": "A gyroscope has \\(M=1.2\\,\\mathrm{kg}\\), \\(d=0.15\\,\\mathrm{m}\\), \\(I_s=0.030\\,\\mathrm{kg\\,m^2}\\), and \\(\\omega_s=250\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(\\Omega\\).",
+      "answer": "\\[\n\\tau=Mgd=1.2(9.8)(0.15)=1.764\\,\\mathrm{N\\,m}\n\\]\n\\[\nL=I_s\\omega_s=0.030(250)=7.50\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\n\\[\n\\Omega=\\frac{\\tau}{L}=0.235\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-06",
+      "prompt": "A precessing gyroscope has \\(\\tau=0.80\\,\\mathrm{N\\,m}\\) and \\(\\Omega=0.20\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(L\\).",
+      "answer": "\\[\nL=\\frac{\\tau}{\\Omega}=\\frac{0.80}{0.20}=4.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-07",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) gyroscope has its centre of mass \\(0.10\\,\\mathrm{m}\\) from the pivot and precesses at \\(0.50\\,\\mathrm{rad\\,s^{-1}}\\). Find the required spin angular momentum.",
+      "answer": "\\[\n\\tau=Mgd=2.0(9.8)(0.10)=1.96\\,\\mathrm{N\\,m}\n\\]\n\\[\nL=\\frac{\\tau}{\\Omega}=\\frac{1.96}{0.50}=3.92\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-08",
+      "prompt": "A rotor with \\(I_s=0.015\\,\\mathrm{kg\\,m^2}\\) must have \\(L=9.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\\). Find the required spin rate in \\(\\mathrm{rad\\,s^{-1}}\\) and revolutions per second.",
+      "answer": "\\[\n\\omega_s=\\frac{L}{I_s}=\\frac{9.0}{0.015}=600\\,\\mathrm{rad\\,s^{-1}}\n\\]\nIn revolutions per second,\n\\[\nf=\\frac{\\omega_s}{2\\pi}=\\frac{600}{2\\pi}=95.5\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-09",
+      "prompt": "A gyroscope has \\(I_s=0.040\\,\\mathrm{kg\\,m^2}\\), \\(\\omega_s=300\\,\\mathrm{rad\\,s^{-1}}\\), \\(M=2.0\\,\\mathrm{kg}\\), and \\(d=0.12\\,\\mathrm{m}\\). Find \\(\\Omega\\) and check whether \\(\\Omega\\ll\\omega_s\\).",
+      "answer": "\\[\n\\tau=Mgd=2.0(9.8)(0.12)=2.352\\,\\mathrm{N\\,m}\n\\]\n\\[\nL=I_s\\omega_s=0.040(300)=12.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\n\\[\n\\Omega=\\frac{\\tau}{L}=0.196\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe ratio is\n\\[\n\\frac{\\Omega}{\\omega_s}=\\frac{0.196}{300}=6.5\\times10^{-4}\n\\]\nso the slow-precession approximation is well satisfied.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-10",
+      "prompt": "A gyroscope must precess no faster than \\(\\Omega_{\\max}\\). Derive the minimum spin speed \\(\\omega_s\\) in terms of \\(M\\), \\(g\\), \\(d\\), \\(I_s\\), and \\(\\Omega_{\\max}\\). State the slow-precession check.",
+      "answer": "The slow-precession rate is\n\\[\n\\Omega=\\frac{Mgd}{I_s\\omega_s}\n\\]\nRequire\n\\[\n\\Omega\\leq\\Omega_{\\max}\n\\]\nso\n\\[\n\\omega_s\\geq\\frac{Mgd}{I_s\\Omega_{\\max}}\n\\]\nThe slow-precession check is\n\\[\n\\Omega\\ll\\omega_s\n\\]\nAt the design limit this means \\(\\Omega_{\\max}\\ll\\omega_s\\), or more structurally,\n\\[\n\\omega_s^2\\gg\\frac{Mgd}{I_s}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-11",
+      "prompt": "Starting from \\(\\vec\\tau=d\\vec L/dt\\), derive the slow-precession formula \\(\\Omega=\\tau/L\\) for a gyroscope whose torque is perpendicular to its spin angular momentum. State the assumptions in the derivation.",
+      "answer": "Over a short time \\(dt\\),\n\\[\nd\\vec L=\\vec\\tau\\,dt\n\\]\nIf \\(\\vec\\tau\\perp\\vec L\\), this changes the direction of \\(\\vec L\\) without changing its magnitude to first order. The small precession angle is\n\\[\nd\\phi=\\frac{|d\\vec L|}{L}\n\\]\nTherefore\n\\[\n\\Omega=\\frac{d\\phi}{dt}=\\frac{\\tau}{L}\n\\]\nFor a gravitational gyroscope with \\(L=I_s\\omega_s\\) and \\(\\tau=Mgd\\),\n\\[\n\\Omega=\\frac{Mgd}{I_s\\omega_s}\n\\]\nAssumptions: the spin angular momentum is much larger than the angular momentum of precession, the torque is approximately perpendicular to \\(\\vec L\\), and the precession is steady and slow.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "gyroscope-precession-12",
+      "prompt": "A gyroscope has spin inertia \\(I_s\\), initial spin \\(\\omega_0\\), mass \\(M\\), lever arm \\(d\\), and bearing drag torque \\(c\\omega_s\\) opposing the spin. Using the slow-precession approximation, derive \\(\\omega_s(t)\\), \\(\\Omega(t)\\), and the time at which \\(\\Omega\\) first reaches a limit \\(\\Omega_{\\max}\\), including the condition that this failure time exists.",
+      "answer": "The spin-down equation is\n\\[\nI_s\\frac{d\\omega_s}{dt}=-c\\omega_s\n\\]\nSolve:\n\\[\n\\omega_s(t)=\\omega_0e^{-ct/I_s}\n\\]\nThe slow-precession rate is\n\\[\n\\Omega(t)=\\frac{Mgd}{I_s\\omega_s(t)}\n\\]\nso\n\\[\n\\Omega(t)=\\frac{Mgd}{I_s\\omega_0}e^{ct/I_s}\n\\]\nSet \\(\\Omega(t)=\\Omega_{\\max}\\):\n\\[\n\\Omega_{\\max}=\\frac{Mgd}{I_s\\omega_0}e^{ct/I_s}\n\\]\n\\[\nt=\\frac{I_s}{c}\\ln\\left(\\frac{\\Omega_{\\max}I_s\\omega_0}{Mgd}\\right)\n\\]\nThis failure time exists in the future only if\n\\[\n\\Omega_{\\max}\u003e\\frac{Mgd}{I_s\\omega_0}\n\\]\nIf equality holds, the gyroscope is already at the limit; if the left side is smaller, it starts beyond the allowed precession rate.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

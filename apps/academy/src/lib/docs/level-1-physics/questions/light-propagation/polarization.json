@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "polarization",
+  "topicTitle": "Polarization",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "polarization-light-01",
+      "prompt": "What does polarization describe for a light wave?",
+      "answer": "Polarization describes the direction of oscillation of the electric field in the transverse light wave.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-02",
+      "prompt": "Why is polarization evidence that light is transverse?",
+      "answer": "Only transverse waves have an oscillation direction perpendicular to the direction of travel that can be selected by a polarizer.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-03",
+      "prompt": "Unpolarized light of intensity \\(80\\,\\mathrm{W\\,m^{-2}}\\) passes through one ideal polarizer. Find the transmitted intensity.",
+      "answer": "One ideal polarizer transmits half of unpolarized light:\n\\[\nI=\\frac{I_0}{2}=40\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-04",
+      "prompt": "State Malus's law.",
+      "answer": "For plane-polarized light entering an ideal polarizer,\n\\[\nI=I_0\\cos^2\\theta\n\\]\nwhere \\(\\theta\\) is the angle between the incident polarization and the polarizer axis.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-05",
+      "prompt": "Plane-polarized light of intensity \\(120\\,\\mathrm{W\\,m^{-2}}\\) enters a polarizer at \\(30^\\circ\\) to its axis. Find the transmitted intensity.",
+      "answer": "\\[\nI=I_0\\cos^2\\theta=120\\cos^230^\\circ=90\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-06",
+      "prompt": "Two ideal polarizers have axes at \\(90^\\circ\\) to each other. Plane-polarized light along the first axis passes through both. What is the final intensity?",
+      "answer": "The first polarizer transmits the light. The second has \\(\\theta=90^\\circ\\), so\n\\[\nI=I_0\\cos^290^\\circ=0\n\\]\nThe final intensity is zero.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-07",
+      "prompt": "Unpolarized light of intensity \\(I_0\\) passes through two ideal polarizers whose axes differ by \\(45^\\circ\\). Find the final intensity.",
+      "answer": "After the first polarizer,\n\\[\nI_1=\\frac{I_0}{2}\n\\]\nAfter the second,\n\\[\nI_2=I_1\\cos^245^\\circ=\\frac{I_0}{2}\\cdot\\frac12=\\frac{I_0}{4}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-08",
+      "prompt": "Find Brewster's angle for light incident from air \\((n=1.00)\\) onto glass \\((n=1.50)\\).",
+      "answer": "Brewster's angle satisfies\n\\[\n\\tan\\theta_B=\\frac{n_2}{n_1}\n\\]\nso\n\\[\n\\theta_B=\\tan^{-1}\\left(\\frac{1.50}{1.00}\\right)=56.3^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-09",
+      "prompt": "Derive Malus's law from the electric-field component transmitted by a polarizer.",
+      "answer": "A polarizer transmits the electric-field component parallel to its axis:\n\\[\nE=E_0\\cos\\theta\n\\]\nIntensity is proportional to the square of field amplitude:\n\\[\nI\\propto E^2\n\\]\nTherefore\n\\[\n\\frac{I}{I_0}=\\frac{E_0^2\\cos^2\\theta}{E_0^2}=\\cos^2\\theta\n\\]\nso\n\\[\nI=I_0\\cos^2\\theta\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-10",
+      "prompt": "Unpolarized light passes through three ideal polarizers with axes \\(0^\\circ\\), \\(45^\\circ\\), and \\(90^\\circ\\). Find the final intensity in terms of \\(I_0\\).",
+      "answer": "After the first polarizer,\n\\[\nI_1=\\frac{I_0}{2}\n\\]\nThe second is \\(45^\\circ\\) from the first:\n\\[\nI_2=I_1\\cos^245^\\circ=\\frac{I_0}{4}\n\\]\nThe third is \\(45^\\circ\\) from the second:\n\\[\nI_3=I_2\\cos^245^\\circ=\\frac{I_0}{8}\n\\]\nThe middle polarizer allows some light through even though the first and last axes are crossed.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-11",
+      "prompt": "Unpolarized light of intensity \\(I_0\\) passes through two ideal polarizers whose axes differ by \\(20^\\circ\\). Find the final intensity in terms of \\(I_0\\).",
+      "answer": "The first polarizer transmits half of the unpolarized light:\n\\[\nI_1=\\frac{I_0}{2}\n\\]\nApply Malus's law at the second polarizer:\n\\[\nI_2=I_1\\cos^220^\\circ=\\frac{I_0}{2}\\cos^220^\\circ\n\\]\n\\[\nI_2=0.442I_0\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-12",
+      "prompt": "Plane-polarized light passes through an analyzer. At what angle to the incident polarization must the analyzer axis be set so that the transmitted intensity is one third of the incident intensity?",
+      "answer": "Use Malus's law:\n\\[\nI=I_0\\cos^2\\theta\n\\]\nThe transmitted fraction is \\(1/3\\), so\n\\[\n\\cos^2\\theta=\\frac13\n\\]\n\\[\n\\theta=\\cos^{-1}\\left(\\sqrt{\\frac13}\\right)=54.7^\\circ\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-13",
+      "prompt": "Unpolarized light of intensity \\(200\\,\\mathrm{W\\,m^{-2}}\\) passes through ideal polarizers at \\(0^\\circ\\), \\(30^\\circ\\), and \\(75^\\circ\\). Find the final intensity.",
+      "answer": "After the first polarizer:\n\\[\nI_1=100\\,\\mathrm{W\\,m^{-2}}\n\\]\nThe second axis is \\(30^\\circ\\) from the first:\n\\[\nI_2=100\\cos^230^\\circ=75\\,\\mathrm{W\\,m^{-2}}\n\\]\nThe third axis is \\(45^\\circ\\) from the second:\n\\[\nI_3=75\\cos^245^\\circ=37.5\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-14",
+      "prompt": "Find Brewster's angle for light incident from air onto water with refractive index \\(1.33\\).",
+      "answer": "For light going from air into water,\n\\[\n\\tan\\theta_B=\\frac{n_2}{n_1}=\\frac{1.33}{1.00}\n\\]\n\\[\n\\theta_B=\\tan^{-1}(1.33)=53.1^\\circ\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-15",
+      "prompt": "At Brewster's angle for an air-glass boundary, \\(\\theta_B=56.3^\\circ\\). Find the refracted angle in the glass.",
+      "answer": "At Brewster's angle, the reflected and refracted rays are perpendicular. The reflected angle equals the incident angle, so\n\\[\n\\theta_r=56.3^\\circ\n\\]\nTherefore the refracted angle is\n\\[\n\\theta_2=90^\\circ-56.3^\\circ=33.7^\\circ\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-16",
+      "prompt": "Explain why one ideal polarizer transmits half the intensity of unpolarized light.",
+      "answer": "Unpolarized light has electric-field directions spread randomly in the plane perpendicular to travel. For a component at angle \\(\\theta\\) to the transmission axis, the transmitted intensity is proportional to \\(\\cos^2\\theta\\). The average value of \\(\\cos^2\\theta\\) over all directions is\n\\[\n\\langle \\cos^2\\theta\\rangle=\\frac12\n\\]\nso one ideal polarizer transmits\n\\[\nI=\\frac{I_0}{2}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-17",
+      "prompt": "Unpolarized light of intensity \\(I_0\\) passes through three ideal polarizers. The first and last are crossed, and the middle axis is at angle \\(\\theta\\) to the first. Derive the final intensity and find the angle that maximizes it.",
+      "answer": "After the first polarizer,\n\\[\nI_1=\\frac{I_0}{2}\n\\]\nAfter the middle polarizer,\n\\[\nI_2=\\frac{I_0}{2}\\cos^2\\theta\n\\]\nThe last polarizer is at \\(90^\\circ\\) to the first, so it is at \\(90^\\circ-\\theta\\) to the middle:\n\\[\nI_3=\\frac{I_0}{2}\\cos^2\\theta\\cos^2(90^\\circ-\\theta)\n\\]\n\\[\nI_3=\\frac{I_0}{2}\\cos^2\\theta\\sin^2\\theta=\\frac{I_0}{8}\\sin^22\\theta\n\\]\nThis is maximum when \\(\\sin^22\\theta=1\\), so \\(\\theta=45^\\circ\\). The maximum final intensity is \\(I_0/8\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-18",
+      "prompt": "An analyzer is rotated in front of plane-polarized light. The transmitted intensity is maximum when the analyzer axis is at \\(25^\\circ\\) and zero when it is at \\(115^\\circ\\). What is the polarization direction of the light?",
+      "answer": "For plane-polarized light, the transmitted intensity is greatest when the analyzer axis is parallel to the light's polarization direction:\n\\[\nI=I_{\\max}\\cos^2(\\theta-\\theta_0)\n\\]\nThe maximum at \\(25^\\circ\\) means the polarization direction is \\(25^\\circ\\) to the reference axis, with the equivalent direction repeated every \\(180^\\circ\\). The zero at \\(115^\\circ\\) is consistent because \\(115^\\circ-25^\\circ=90^\\circ\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-19",
+      "prompt": "Derive \\(\\tan\\theta_B=n_2/n_1\\) for Brewster's angle.",
+      "answer": "At Brewster's angle, the reflected and refracted rays are perpendicular, so\n\\[\n\\theta_B+\\theta_2=90^\\circ\n\\]\nSnell's law gives\n\\[\nn_1\\sin\\theta_B=n_2\\sin\\theta_2\n\\]\nSince \\(\\theta_2=90^\\circ-\\theta_B\\),\n\\[\n\\sin\\theta_2=\\cos\\theta_B\n\\]\nso\n\\[\nn_1\\sin\\theta_B=n_2\\cos\\theta_B\n\\]\nDividing by \\(n_1\\cos\\theta_B\\) gives\n\\[\n\\tan\\theta_B=\\frac{n_2}{n_1}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "polarization-light-20",
+      "prompt": "Unpolarized light passes through two ideal polarizers. The final intensity is \\(0.10I_0\\). Find the angle between the polarizer axes.",
+      "answer": "After the first polarizer,\n\\[\nI_1=\\frac{I_0}{2}\n\\]\nAfter the second,\n\\[\nI_2=\\frac{I_0}{2}\\cos^2\\theta\n\\]\nGiven \\(I_2=0.10I_0\\),\n\\[\n\\frac12\\cos^2\\theta=0.10\n\\]\n\\[\n\\cos^2\\theta=0.20\n\\]\n\\[\n\\theta=\\cos^{-1}(\\sqrt{0.20})=63.4^\\circ\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

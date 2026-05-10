@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "speed-of-transverse-waves",
+  "topicTitle": "Speed of Transverse Waves",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-speed-01",
+      "prompt": "A string has tension \\(80\\,\\mathrm{N}\\) and linear density \\(0.020\\,\\mathrm{kg\\,m^{-1}}\\). Find the wave speed.",
+      "answer": "\\[\nv_w=\\sqrt{\\frac{T}{\\mu}}=\\sqrt{\\frac{80}{0.020}}=63.2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-02",
+      "prompt": "If the tension in a string is quadrupled while the linear density stays constant, by what factor does the wave speed change?",
+      "answer": "Since\n\\[\nv_w\\propto \\sqrt{T}\n\\]\nquadrupling \\(T\\) doubles the speed.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-03",
+      "prompt": "If the linear density of a string is increased by a factor of \\(9\\) while the tension stays constant, by what factor does the wave speed change?",
+      "answer": "Since\n\\[\nv_w\\propto \\frac{1}{\\sqrt{\\mu}}\n\\]\nincreasing \\(\\mu\\) by \\(9\\) reduces the speed by \\(3\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-04",
+      "prompt": "A string carries waves at \\(50\\,\\mathrm{m\\,s^{-1}}\\) under tension \\(125\\,\\mathrm{N}\\). Find its linear density.",
+      "answer": "Rearrange\n\\[\nv_w=\\sqrt{\\frac{T}{\\mu}}\n\\]\nto get\n\\[\n\\mu=\\frac{T}{v_w^2}=\\frac{125}{50^2}=0.050\\,\\mathrm{kg\\,m^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-05",
+      "prompt": "Two strings are under the same tension. String A has linear density \\(0.010\\,\\mathrm{kg\\,m^{-1}}\\) and string B has \\(0.040\\,\\mathrm{kg\\,m^{-1}}\\). Compare their wave speeds.",
+      "answer": "With the same tension,\n\\[\nv_w\\propto \\frac{1}{\\sqrt{\\mu}}\n\\]\nSo\n\\[\n\\frac{v_A}{v_B}=\\sqrt{\\frac{\\mu_B}{\\mu_A}}=\\sqrt{\\frac{0.040}{0.010}}=2\n\\]\nString A carries waves twice as fast as string B.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-06",
+      "prompt": "Show from units alone that \\(T/\\mu\\) has the dimensions of speed squared.",
+      "answer": "Tension has units\n\\[\n[T]=\\mathrm{N}=\\mathrm{kg\\,m\\,s^{-2}}\n\\]\nLinear density has units\n\\[\n[\\mu]=\\mathrm{kg\\,m^{-1}}\n\\]\nTherefore\n\\[\n\\left[\\frac{T}{\\mu}\\right]=\\frac{\\mathrm{kg\\,m\\,s^{-2}}}{\\mathrm{kg\\,m^{-1}}}=\\mathrm{m^2\\,s^{-2}}\n\\]\nwhich is speed squared.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-07",
+      "prompt": "A string of fixed mass is stretched so its length doubles while the tension quadruples. By what factor does the transverse wave speed change?",
+      "answer": "With fixed mass \\(M\\), doubling the length halves the linear density:\n\\[\n\\mu\u0027=\\frac{M}{2L}=\\frac{\\mu}{2}\n\\]\nThe new tension is \\(T\u0027=4T\\), so\n\\[\n\\frac{v\u0027}{v}=\\sqrt{\\frac{T\u0027/\\mu\u0027}{T/\\mu}}=\\sqrt{\\frac{4}{1/2}}=\\sqrt{8}=2\\sqrt{2}\n\\]\nSo the wave speed increases by a factor of \\(2\\sqrt{2}\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-speed-08",
+      "prompt": "A string has fixed mass \\(M\\) and original length \\(L\\). It is stretched to a new length \\(\\alpha L\\). Find the tension required, in terms of the original tension \\(T_0\\), to keep the wave speed unchanged. Then find the tension required to double the original wave speed.",
+      "answer": "With fixed mass \\(M\\), stretching the string to length \\(\\alpha L\\) changes the linear density to\n\\[\n\\mu\u0027=\\frac{M}{\\alpha L}=\\frac{\\mu_0}{\\alpha}\n\\]\nOriginal speed:\n\\[\nv_0=\\sqrt{\\frac{T_0}{\\mu_0}}\n\\]\nNew speed:\n\\[\nv\u0027=\\sqrt{\\frac{T\u0027}{\\mu\u0027}}=\\sqrt{\\frac{\\alpha T\u0027}{\\mu_0}}\n\\]\nTo keep the speed unchanged, set \\(v\u0027=v_0\\):\n\\[\n\\alpha T\u0027=T_0\n\\quad\\Rightarrow\\quad\nT\u0027=\\frac{T_0}{\\alpha}\n\\]\nTo double the speed, require \\(v\u0027=2v_0\\), so\n\\[\n\\frac{v\u0027^2}{v_0^2}=4=\\frac{\\alpha T\u0027}{T_0}\n\\]\nHence\n\\[\nT\u0027=\\frac{4T_0}{\\alpha}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

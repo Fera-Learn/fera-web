@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "antiderivatives",
+  "topicTitle": "Antiderivatives",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "ad-1",
+      "prompt": "Find the antiderivative of x^4.",
+      "answer": "x^5/5 + C",
+      "hints": ["Add 1 to exponent, divide by new exponent."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-2",
+      "prompt": "Find the antiderivative of 5.",
+      "answer": "5x + C",
+      "hints": ["Constant integrates to constant times x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-3",
+      "prompt": "Find the antiderivative of e^x.",
+      "answer": "e^x + C",
+      "hints": ["e^x is its own antiderivative."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-4",
+      "prompt": "Find the antiderivative of 3x^2 + 2x.",
+      "answer": "x^3 + x^2 + C",
+      "hints": ["Integrate term by term."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-5",
+      "prompt": "Find the antiderivative of 1/x.",
+      "answer": "ln|x| + C",
+      "hints": ["Reciprocal integrates to ln."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-6",
+      "prompt": "Find the antiderivative of cos x.",
+      "answer": "sin x + C",
+      "hints": ["Cosine integrates to sine."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-7",
+      "prompt": "Find F(x) if F'(x) = 6x^2 and F(0) = 1.",
+      "answer": "2x^3 + 1",
+      "hints": ["Integrate to get 2x^3 + C, then find C from F(0)=1."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-8",
+      "prompt": "Find the antiderivative of x^{-3}.",
+      "answer": "-1/(2x^2) + C",
+      "hints": ["x^{-3+1}/(-3+1) = x^{-2}/(-2) = -1/(2x^2)."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-9",
+      "prompt": "Find the antiderivative of sin(2x).",
+      "answer": "-cos(2x)/2 + C",
+      "hints": ["Chain rule in reverse: need factor 2."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "ad-10",
+      "prompt": "Find the antiderivative of (x+1)^2.",
+      "answer": "(x+1)^3/3 + C",
+      "hints": ["Let u = x+1, or expand first."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "nonconservative-forces",
+  "topicTitle": "Nonconservative Forces",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "nonconservative-forces-01",
+      "prompt": "Write the energy equation including nonconservative work.",
+      "answer": "\\[\nK_i+U_i+W_{nc}=K_f+U_f\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-02",
+      "prompt": "A friction force of \\(6\\,\\mathrm{N}\\) acts over \\(4\\,\\mathrm{m}\\) opposite the motion. Find its work.",
+      "answer": "\\[\nW_f=-f_kd=-6(4)=-24\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-03",
+      "prompt": "If \\(W_{nc}\u003c0\\), what happens to mechanical energy?",
+      "answer": "Mechanical energy decreases because\n\\[\n\\Delta E_{mech}=W_{nc}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-04",
+      "prompt": "Why is kinetic friction nonconservative?",
+      "answer": "Its work depends on path length, not only on starting and ending positions.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-05",
+      "prompt": "A \\(2\\,\\mathrm{kg}\\) block moving at \\(5\\,\\mathrm{m\\,s^{-1}}\\) stops due to friction. Find the work done by friction.",
+      "answer": "\\[\nK_i=\\frac{1}{2}(2)(5^2)=25\\,\\mathrm{J}\n\\]\n\\[\nW_f=\\Delta K=0-25=-25\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-06",
+      "prompt": "A system has \\(K_i+U_i=80\\,\\mathrm{J}\\). Nonconservative work is \\(-15\\,\\mathrm{J}\\). Find final mechanical energy.",
+      "answer": "\\[\nE_f=E_i+W_{nc}=80-15=65\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-07",
+      "prompt": "A block slides \\(10\\,\\mathrm{m}\\) with \\(f_k=3\\,\\mathrm{N}\\). It starts with \\(50\\,\\mathrm{J}\\) of kinetic energy. Find final kinetic energy on level ground.",
+      "answer": "\\[\nW_f=-f_kd=-30\\,\\mathrm{J}\n\\]\n\\[\nK_f=K_i+W_f=50-30=20\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-08",
+      "prompt": "A motor does \\(120\\,\\mathrm{J}\\) of work while friction does \\(-35\\,\\mathrm{J}\\). Find the net nonconservative work.",
+      "answer": "\\[\nW_{nc}=120-35=85\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-09",
+      "prompt": "A \\(1.0\\,\\mathrm{kg}\\) block slides down a vertical drop of \\(2.0\\,\\mathrm{m}\\) and friction does \\(-6\\,\\mathrm{J}\\). Starting from rest, find the speed at the bottom.",
+      "answer": "\\[\nmgh+W_{nc}=\\frac{1}{2}mv^2\n\\]\n\\[\n1(9.8)(2)-6=\\frac{1}{2}v^2\n\\]\n\\[\nv=\\sqrt{27.2}=5.22\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-10",
+      "prompt": "A \\(3\\,\\mathrm{kg}\\) block starts at \\(4\\,\\mathrm{m\\,s^{-1}}\\) and moves up a rough ramp gaining \\(1.0\\,\\mathrm{m}\\) of height. Friction does \\(-10\\,\\mathrm{J}\\). Find its final speed.",
+      "answer": "\\[\nK_i+W_{nc}=K_f+\\Delta U_g\n\\]\n\\[\n\\frac{1}{2}(3)(4^2)-10=K_f+3(9.8)(1)\n\\]\n\\[\n24-10=K_f+29.4\n\\]\nThe right side would require negative \\(K_f\\), so the block stops before reaching that height.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-11",
+      "prompt": "A block of mass \\(m\\) starts from rest at height \\(h\\), slides down a rough track of length \\(L\\) with constant friction magnitude \\(f_k\\), then compresses a horizontal spring of constant \\(k\\) on a rough floor where the same friction magnitude acts. Derive the maximum compression \\(x\\) and the condition for compression to be possible.",
+      "answer": "The nonconservative work includes friction on the track and friction during spring compression:\n\\[\nW_{nc}=-f_kL-f_kx\n\\]\nAt maximum compression, \\(K_f=0\\). The energy equation is\n\\[\nmgh-f_kL-f_kx=\\frac{1}{2}kx^2\n\\]\nRearrange:\n\\[\n\\frac{1}{2}kx^2+f_kx+f_kL-mgh=0\n\\]\nCompression is possible only if the block reaches the spring with positive mechanical energy:\n\\[\nmgh\u003ef_kL\n\\]\nThe positive compression is\n\\[\nx=\\frac{-f_k+\\sqrt{f_k^2+2k(mgh-f_kL)}}{k}\n\\]\nThe other quadratic root is negative and is rejected because \\(x\\) is a compression distance.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "nonconservative-forces-12",
+      "prompt": "A block starts with speed \\(v_0\\) and must reach a point height \\(h\\) above its start. It can take rough path \\(1\\) of length \\(L_1\\) or rough path \\(2\\) of length \\(L_2\\), with the same constant friction magnitude \\(f_k\\) on either path. Derive \\(v_f^2(L)\\), then classify when neither path works, only the shorter path works, or both paths work.",
+      "answer": "For a path of length \\(L\\),\n\\[\n\\frac{1}{2}mv_0^2-f_kL=\\frac{1}{2}mv_f^2+mgh\n\\]\nTherefore\n\\[\nv_f^2(L)=v_0^2-2gh-\\frac{2f_kL}{m}\n\\]\nA path works only if \\(v_f^2(L)\\geq0\\), so\n\\[\nv_0^2\\geq 2gh+\\frac{2f_kL}{m}\n\\]\nLet\n\\[\nL_s=\\min(L_1,L_2),\\qquad L_\\ell=\\max(L_1,L_2)\n\\]\nThe regimes are\n\\[\nv_0^2\u003c2gh+\\frac{2f_kL_s}{m}:\\quad \\text{neither path works}\n\\]\n\\[\n2gh+\\frac{2f_kL_s}{m}\\leq v_0^2\u003c2gh+\\frac{2f_kL_\\ell}{m}:\\quad \\text{only the shorter path works}\n\\]\n\\[\nv_0^2\\geq 2gh+\\frac{2f_kL_\\ell}{m}:\\quad \\text{both paths work}\n\\]\nThe endpoint height is the same, but friction depends on path length, so mechanical energy loss is path-dependent.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

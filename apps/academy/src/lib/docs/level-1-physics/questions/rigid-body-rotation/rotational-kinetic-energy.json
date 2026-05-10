@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "rotational-kinetic-energy",
+  "topicTitle": "Rotational Kinetic Energy",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "rotational-kinetic-energy-01",
+      "prompt": "A wheel has \\(I=0.50\\,\\mathrm{kg\\,m^2}\\) and \\(\\omega=10\\,\\mathrm{rad\\,s^{-1}}\\). Find its rotational kinetic energy.",
+      "answer": "\\[\nK_{\\mathrm{rot}}=\\frac{1}{2}I\\omega^2=\\frac{1}{2}(0.50)(10^2)=25\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-02",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) point mass is \\(0.30\\,\\mathrm{m}\\) from an axis. Find its moment of inertia about that axis.",
+      "answer": "\\[\nI=mr^2=2.0(0.30^2)=0.18\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-03",
+      "prompt": "If a rigid body\u0027s angular speed doubles while \\(I\\) stays fixed, what happens to rotational kinetic energy?",
+      "answer": "Since\n\\[\nK_{\\mathrm{rot}}=\\frac{1}{2}I\\omega^2\n\\]\ndoubling \\(\\omega\\) makes \\(K_{\\mathrm{rot}}\\) four times larger.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-04",
+      "prompt": "A thin hoop has \\(M=3.0\\,\\mathrm{kg}\\), \\(R=0.40\\,\\mathrm{m}\\), and \\(\\omega=5.0\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(K_{\\mathrm{rot}}\\).",
+      "answer": "For a hoop,\n\\[\nI=MR^2=3.0(0.40^2)=0.48\\,\\mathrm{kg\\,m^2}\n\\]\n\\[\nK_{\\mathrm{rot}}=\\frac{1}{2}(0.48)(5.0^2)=6.0\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-05",
+      "prompt": "A solid disk rolls without slipping with \\(M=2.0\\,\\mathrm{kg}\\) and center speed \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). Use \\(I_{\\mathrm{cm}}=\\frac{1}{2}MR^2\\) to find total kinetic energy.",
+      "answer": "For rolling without slipping,\n\\[\nK=\\frac{1}{2}Mv^2+\\frac{1}{2}I_{\\mathrm{cm}}\\left(\\frac{v}{R}\\right)^2\n\\]\nWith \\(I_{\\mathrm{cm}}=\\frac{1}{2}MR^2\\),\n\\[\nK=\\frac{1}{2}Mv^2+\\frac{1}{4}Mv^2=\\frac{3}{4}Mv^2\n\\]\n\\[\nK=\\frac{3}{4}(2.0)(3.0^2)=13.5\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-06",
+      "prompt": "Two point masses are fixed to a light frame: \\(1.0\\,\\mathrm{kg}\\) at \\(0.20\\,\\mathrm{m}\\) and \\(2.0\\,\\mathrm{kg}\\) at \\(0.50\\,\\mathrm{m}\\) from the axis. If \\(\\omega=4.0\\,\\mathrm{rad\\,s^{-1}}\\), find \\(K_{\\mathrm{rot}}\\).",
+      "answer": "\\[\nI=1.0(0.20^2)+2.0(0.50^2)=0.54\\,\\mathrm{kg\\,m^2}\n\\]\n\\[\nK_{\\mathrm{rot}}=\\frac{1}{2}(0.54)(4.0^2)=4.32\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-07",
+      "prompt": "A thin hoop and a solid disk have the same \\(M\\), \\(R\\), and \\(\\omega\\). Compare their rotational kinetic energies and explain the difference.",
+      "answer": "For the hoop,\n\\[\nI_{\\mathrm{hoop}}=MR^2\n\\]\nFor the disk,\n\\[\nI_{\\mathrm{disk}}=\\frac{1}{2}MR^2\n\\]\nAt the same \\(\\omega\\),\n\\[\nK_{\\mathrm{hoop}}=2K_{\\mathrm{disk}}\n\\]\nThe hoop has more energy because more of its mass is farther from the rotation axis.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-08",
+      "prompt": "A solid sphere with \\(I_{\\mathrm{cm}}=\\frac{2}{5}MR^2\\) rolls without slipping from rest down a vertical height of \\(1.0\\,\\mathrm{m}\\). Find its center speed at the bottom, ignoring losses.",
+      "answer": "Use energy conservation:\n\\[\nMgh=\\frac{1}{2}Mv^2+\\frac{1}{2}\\left(\\frac{2}{5}MR^2\\right)\\left(\\frac{v}{R}\\right)^2\n\\]\n\\[\nMgh=\\left(\\frac{1}{2}+\\frac{1}{5}\\right)Mv^2=\\frac{7}{10}Mv^2\n\\]\n\\[\nv=\\sqrt{\\frac{10}{7}gh}=\\sqrt{\\frac{10}{7}(9.8)(1.0)}=3.74\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-09",
+      "prompt": "A solid disk and a thin hoop with the same mass and radius roll without slipping from rest down the same vertical height \\(2.0\\,\\mathrm{m}\\). Find both bottom speeds and state which arrives faster under the rolling-energy model.",
+      "answer": "For rolling from height \\(h\\),\n\\[\nMgh=\\frac{1}{2}Mv^2+\\frac{1}{2}I_{\\mathrm{cm}}\\left(\\frac{v}{R}\\right)^2\n\\]\nSolid disk, \\(I_{\\mathrm{cm}}=\\frac{1}{2}MR^2\\):\n\\[\nv_{\\mathrm{disk}}=\\sqrt{\\frac{2gh}{1+\\frac{1}{2}}}=\\sqrt{\\frac{2(9.8)(2.0)}{1.5}}=5.11\\,\\mathrm{m\\,s^{-1}}\n\\]\nHoop, \\(I_{\\mathrm{cm}}=MR^2\\):\n\\[\nv_{\\mathrm{hoop}}=\\sqrt{\\frac{2gh}{1+1}}=\\sqrt{19.6}=4.43\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe disk arrives faster in this model because less of the gravitational energy is tied up in rotation.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rotational-kinetic-energy-10",
+      "prompt": "A rigid body with \\(I_{\\mathrm{cm}}=\\kappa MR^2\\) rolls without slipping from rest through vertical height \\(h\\). Derive \\(v_{\\mathrm{cm}}\\) at the bottom and interpret how increasing \\(\\kappa\\) changes the result.",
+      "answer": "Assume rolling without slipping and no energy loss:\n\\[\nMgh=\\frac{1}{2}Mv^2+\\frac{1}{2}I_{\\mathrm{cm}}\\omega^2\n\\]\nWith\n\\[\nI_{\\mathrm{cm}}=\\kappa MR^2,\\qquad \\omega=\\frac{v}{R}\n\\]\nthe energy equation becomes\n\\[\nMgh=\\frac{1}{2}Mv^2+\\frac{1}{2}\\kappa Mv^2\n\\]\n\\[\nMgh=\\frac{1}{2}M(1+\\kappa)v^2\n\\]\n\\[\nv_{\\mathrm{cm}}=\\sqrt{\\frac{2gh}{1+\\kappa}}\n\\]\nIncreasing \\(\\kappa\\) puts more energy into rotation, so the translational speed decreases.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

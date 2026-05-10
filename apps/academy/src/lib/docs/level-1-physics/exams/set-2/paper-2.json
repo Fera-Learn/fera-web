@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-2",
+  "paperId": "paper-2",
+  "paperTags": ["paper-2"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    },
+    {
+      "label": "Speed of light",
+      "value": "c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+    },
+    {
+      "label": "Elementary charge",
+      "value": "e=1.60\\times10^{-19}\\,\\mathrm{C}"
+    },
+    {
+      "label": "Electron mass",
+      "value": "m_e=9.11\\times10^{-31}\\,\\mathrm{kg}"
+    },
+    {
+      "label": "Planck constant",
+      "value": "h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}"
+    },
+    {
+      "label": "Permittivity of free space",
+      "value": "\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}"
+    },
+    {
+      "label": "Magnetic constant",
+      "value": "\\mu_0=1.26\\times10^{-6}\\,\\mathrm{N\\,A^{-2}}"
+    },
+    {
+      "label": "Boltzmann constant",
+      "value": "k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}"
+    }
+  ],
+  "description": "Electromagnetism, relativity, and quantum mechanics.",
+  "id": "paper-2",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 2",
+  "questions": [
+    {
+      "id": "ap-s2-p2-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Electromagnetism",
+      "stem": "A Hall probe is fixed to the end of a rotating field-mapper arm. At one instant the sensor strip has its length along \\(+\\hat{\\imath}\\), its width \\(w=1.20\\,\\mathrm{mm}\\) along \\(+\\hat{\\jmath}\\), and its thickness \\(t=0.200\\,\\mathrm{mm}\\) along \\(+\\hat{k}\\). A steady conventional current \\(I=18.0\\,\\mathrm{mA}\\) flows along \\(+\\hat{\\imath}\\). The local magnetic field to be mapped is \\(\\vec B=0.420\\,\\mathrm{T}\\,\\hat{k}\\). The mobile carriers in the semiconductor are electrons with density \\(n=3.20\\times10^{22}\\,\\mathrm{m^{-3}}\\).",
+      "title": "Hall probe on a rotating field mapper",
+      "parts": [
+        {
+          "answer": "The cross-sectional area normal to the current is\n\\[\nA=wt=(1.20\\times10^{-3})(0.200\\times10^{-3})=2.40\\times10^{-7}\\,\\mathrm{m^2}.\n\\]\nFor electrons, \\(q=-e\\) and\n\\[\n\\vec J=nq\\vec v_d.\n\\]\nThe conventional current density is \\(\\vec J=(I/A)\\hat{\\imath}\\), so\n\\[\n\\vec v_d=\\frac{\\vec J}{nq}\n=-\\frac{I}{neA}\\hat{\\imath}.\n\\]\nNumerically,\n\\[\n|\\vec v_d|=\\frac{0.0180}{(3.20\\times10^{22})(1.60\\times10^{-19})(2.40\\times10^{-7})}\n=14.6\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThus\n\\[\n\\vec v_d=-14.6\\,\\mathrm{m\\,s^{-1}}\\,\\hat{\\imath}.\n\\]\nThe electron drift is opposite the conventional current.",
+          "id": "ap-s2-p2-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the electron drift velocity in vector form."
+        },
+        {
+          "answer": "In steady state the sideways force on a carrier is zero:\n\\[\nq(\\vec E_H+\\vec v_d\\times\\vec B)=0.\n\\]\nTherefore\n\\[\n\\vec E_H=-\\vec v_d\\times\\vec B.\n\\]\nHere\n\\[\n\\vec v_d\\times\\vec B=(-14.6\\hat{\\imath})\\times(0.420\\hat{k})\n=+6.15\\hat{\\jmath}\\,\\mathrm{V\\,m^{-1}},\n\\]\nso\n\\[\n\\vec E_H=-6.15\\,\\mathrm{V\\,m^{-1}}\\,\\hat{\\jmath}.\n\\]\nThe magnetic force on each electron is\n\\[\n\\vec F_B=q\\vec v_d\\times\\vec B\n=(-e)(6.15\\hat{\\jmath})\n=-9.84\\times10^{-19}\\,\\mathrm{N}\\,\\hat{\\jmath}.\n\\]\nElectrons are pushed toward the \\(-y\\) side, so that side becomes negative relative to the \\(+y\\) side.",
+          "id": "ap-s2-p2-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Calculate the Hall electric field and state which side of the strip becomes negative."
+        },
+        {
+          "answer": "The Hall voltage magnitude across the width is\n\\[\n|V_H|=E_Hw=v_dBw.\n\\]\nUsing \\(v_d=I/(newt)\\),\n\\[\n|V_H|=\\frac{IB}{net}.\n\\]\nFor the given data,\n\\[\n|V_H|=\\frac{(0.0180)(0.420)}{(3.20\\times10^{22})(1.60\\times10^{-19})(0.200\\times10^{-3})}\n=7.38\\times10^{-3}\\,\\mathrm{V}.\n\\]\nThus the expected Hall reading is \\(7.38\\,\\mathrm{mV}\\) in magnitude, with the sign set by the negative charge on the \\(-y\\) side.",
+          "id": "ap-s2-p2-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Derive the Hall voltage magnitude and calculate its value."
+        },
+        {
+          "answer": "Rearrange the Hall-voltage expression:\n\\[\nn=\\frac{IB}{e t |V_H|}.\n\\]\nIf the measured magnitude is \\(7.50\\,\\mathrm{mV}\\),\n\\[\nn=\\frac{(0.0180)(0.420)}{(1.60\\times10^{-19})(0.200\\times10^{-3})(7.50\\times10^{-3})}\n=3.15\\times10^{22}\\,\\mathrm{m^{-3}}.\n\\]\nThis is close to the stated value, so the reading is consistent with the carrier density.",
+          "id": "ap-s2-p2-q1-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "A calibration run gives \\(|V_H|=7.50\\,\\mathrm{mV}\\). Infer the carrier density from this reading."
+        },
+        {
+          "answer": "Approximate the sensor current path as a long straight wire. At distance \\(r=25.0\\,\\mathrm{mm}\\),\n\\[\nB_{\\mathrm{self}}=\\frac{\\mu_0 I}{2\\pi r}.\n\\]\nThus\n\\[\nB_{\\mathrm{self}}=\\frac{(1.26\\times10^{-6})(0.0180)}{2\\pi(25.0\\times10^{-3})}\n=1.44\\times10^{-7}\\,\\mathrm{T}.\n\\]\nCompared with the mapped field,\n\\[\n\\frac{B_{\\mathrm{self}}}{0.420}=3.43\\times10^{-7}.\n\\]\nThe probe current's own field is negligible for this measurement scale.",
+          "id": "ap-s2-p2-q1-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "Estimate the magnetic field produced by the probe current \\(25.0\\,\\mathrm{mm}\\) from the current path, and compare it with the field being mapped."
+        }
+      ]
+    },
+    {
+      "id": "ap-s2-p2-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Electromagnetism",
+      "stem": "A laboratory pulsed electromagnet is modelled as a coil with inductance \\(L=0.240\\,\\mathrm{H}\\) and resistance \\(R=3.00\\,\\Omega\\). At \\(t=0\\), a \\(24.0\\,\\mathrm{V}\\) dc supply is connected in series with the coil. Later, the supply is disconnected and the coil is connected across a \\(12.0\\,\\Omega\\) dump resistor, so the discharge resistance is \\(15.0\\,\\Omega\\) including the coil.",
+      "title": "Charging and dumping a pulsed electromagnet",
+      "parts": [
+        {
+          "answer": "For current growth in a series \\(RL\\) circuit, Kirchhoff's loop law gives\n\\[\n\\mathcal E-IR-L\\frac{dI}{dt}=0.\n\\]\nThe time constant is\n\\[\n\\tau=\\frac{L}{R}=\\frac{0.240}{3.00}=8.00\\times10^{-2}\\,\\mathrm{s}.\n\\]\nAfter a long time \\(dI/dt=0\\), so the final current is\n\\[\nI_f=\\frac{\\mathcal E}{R}=\\frac{24.0}{3.00}=8.00\\,\\mathrm{A}.\n\\]",
+          "id": "ap-s2-p2-q2-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Write the current-growth equation, then calculate the time constant and final current."
+        },
+        {
+          "answer": "The growth solution is\n\\[\nI(t)=I_f\\left(1-e^{-t/\\tau}\\right).\n\\]\nAt \\(t=0.120\\,\\mathrm{s}\\), \\(t/\\tau=0.120/0.0800=1.50\\). Hence\n\\[\nI=8.00(1-e^{-1.50})\n=8.00(0.777)\n=6.21\\,\\mathrm{A}.\n\\]\nThe coil has reached about \\(78\\%\\) of its final current.",
+          "id": "ap-s2-p2-q2-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the current \\(0.120\\,\\mathrm{s}\\) after the supply is connected."
+        },
+        {
+          "answer": "During current growth,\n\\[\n\\frac{dI}{dt}=\\frac{\\mathcal E}{L}e^{-t/\\tau}.\n\\]\nAt \\(t=0.120\\,\\mathrm{s}\\),\n\\[\n\\frac{dI}{dt}=\\frac{24.0}{0.240}e^{-1.50}\n=22.3\\,\\mathrm{A\\,s^{-1}}.\n\\]\nUsing the passive sign convention, the inductor voltage is\n\\[\nV_L=L\\frac{dI}{dt}=(0.240)(22.3)=5.36\\,\\mathrm{V}.\n\\]\nThe self-induced emf is opposite to the increase in current, so\n\\[\n\\mathcal E_L=-L\\frac{dI}{dt}=-5.36\\,\\mathrm{V}\n\\]\nfor the chosen current direction.",
+          "id": "ap-s2-p2-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "At the same instant, calculate \\(dI/dt\\) and the self-induced emf of the inductor, including its sign relative to the current rise."
+        },
+        {
+          "answer": "The magnetic energy stored in the coil is\n\\[\nU_B=\\frac12LI^2.\n\\]\nAt \\(I=6.21\\,\\mathrm{A}\\),\n\\[\nU_B=\\frac12(0.240)(6.21)^2\n=4.63\\,\\mathrm{J}.\n\\]",
+          "id": "ap-s2-p2-q2-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Find the magnetic energy stored in the coil at \\(t=0.120\\,\\mathrm{s}\\)."
+        },
+        {
+          "answer": "During discharge the total resistance is\n\\[\nR_{\\mathrm{dis}}=3.00+12.0=15.0\\,\\Omega.\n\\]\nThe discharge time constant is\n\\[\n\\tau_{\\mathrm{dis}}=\\frac{L}{R_{\\mathrm{dis}}}=\\frac{0.240}{15.0}=1.60\\times10^{-2}\\,\\mathrm{s}.\n\\]\nThe decay is\n\\[\nI(t)=I_0e^{-t/\\tau_{\\mathrm{dis}}}.\n\\]\nWith \\(I_0=6.21\\,\\mathrm{A}\\) and \\(I=0.500\\,\\mathrm{A}\\),\n\\[\n0.500=6.21e^{-t/\\tau_{\\mathrm{dis}}},\n\\]\nso\n\\[\nt=\\tau_{\\mathrm{dis}}\\ln\\left(\\frac{6.21}{0.500}\\right)\n=(1.60\\times10^{-2})(2.52)\n=4.03\\times10^{-2}\\,\\mathrm{s}.\n\\]\nThe current falls to \\(0.500\\,\\mathrm{A}\\) in \\(40.3\\,\\mathrm{ms}\\).",
+          "id": "ap-s2-p2-q2-e",
+          "label": "(e)",
+          "marks": 3,
+          "prompt": "If the dump circuit is connected when the current is \\(6.21\\,\\mathrm{A}\\), find the time for the current to fall to \\(0.500\\,\\mathrm{A}\\)."
+        }
+      ]
+    },
+    {
+      "id": "ap-s2-p2-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "A beam of unstable particles travels in the \\(+x\\) direction at speed \\(0.960c\\) between two counters. Counter A is at the start of a straight evacuated section and counter B is \\(18.0\\,\\mathrm{m}\\) downstream. The particles have proper mean lifetime \\(\\tau_0=32.0\\,\\mathrm{ns}\\). In the rest frame of one particle, a decay product can be emitted along the beam direction with speed \\(0.600c\\).",
+      "title": "Unstable particles between beamline counters",
+      "parts": [
+        {
+          "answer": "For \\(v=0.960c\\),\n\\[\n\\gamma=\\frac{1}{\\sqrt{1-v^2/c^2}}\n=\\frac{1}{\\sqrt{1-0.960^2}}\n=3.57.\n\\]\nThe proper lifetime is measured in the particle rest frame, so the laboratory mean lifetime is time-dilated:\n\\[\n\\tau_{\\mathrm{lab}}=\\gamma\\tau_0=(3.57)(32.0\\,\\mathrm{ns})\n=114\\,\\mathrm{ns}.\n\\]",
+          "id": "ap-s2-p2-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Calculate the Lorentz factor and the mean lifetime measured in the laboratory."
+        },
+        {
+          "answer": "The flight time from A to B in the laboratory is\n\\[\nt=\\frac{d}{v}=\\frac{18.0}{0.960(3.00\\times10^8)}\n=6.25\\times10^{-8}\\,\\mathrm{s}\n=62.5\\,\\mathrm{ns}.\n\\]\nThis is shorter than the lab mean lifetime of \\(114\\,\\mathrm{ns}\\), so a substantial fraction of the beam reaches counter B.",
+          "id": "ap-s2-p2-q3-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the laboratory flight time between the counters and compare it with the dilated lifetime."
+        },
+        {
+          "answer": "For exponential decay, the survival fraction after laboratory time \\(t\\) is\n\\[\n\\frac{N}{N_0}=e^{-t/\\tau_{\\mathrm{lab}}}.\n\\]\nHere\n\\[\n\\frac{t}{\\tau_{\\mathrm{lab}}}=\\frac{62.5}{114}=0.547.\n\\]\nThus\n\\[\n\\frac{N}{N_0}=e^{-0.547}=0.579.\n\\]\nThe fraction that decays before reaching B is\n\\[\n1-0.579=0.421.\n\\]\nSo about \\(57.9\\%\\) reach B and \\(42.1\\%\\) decay between A and B.",
+          "id": "ap-s2-p2-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Calculate the fraction of particles that reach counter B and the fraction that decay between the counters."
+        },
+        {
+          "answer": "Let \\(S'\\) be the unstable particle's rest frame and \\(S\\) be the laboratory. The frame \\(S'\\) moves at \\(v=0.960c\\) relative to \\(S\\). For a decay product emitted forward with \\(u_x'=+0.600c\\),\n\\[\nu_x=\\frac{u_x'+v}{1+u_x'v/c^2}\n=\\frac{0.600c+0.960c}{1+(0.600)(0.960)}\n=0.990c.\n\\]\nFor a product emitted backward with \\(u_x'=-0.600c\\),\n\\[\nu_x=\\frac{-0.600c+0.960c}{1-(0.600)(0.960)}\n=0.849c.\n\\]\nEven the backward-emitted product moves in the \\(+x\\) direction in the laboratory because the parent beam is strongly boosted.",
+          "id": "ap-s2-p2-q3-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Use relativistic velocity addition to find the laboratory velocities of products emitted forward and backward along the beam in the particle rest frame. State the frames used.\n\nThe velocity-addition equation is\n\\[\nu_x=\\frac{u_x'+v}{1+u_x'v/c^2},\n\\]\nwhere \\(S'\\) is the particle rest frame and \\(S\\) is the laboratory frame."
+        },
+        {
+          "answer": "Without time dilation, the mean distance would be\n\\[\nd_0=v\\tau_0=(0.960)(3.00\\times10^8)(32.0\\times10^{-9})\n=9.22\\,\\mathrm{m}.\n\\]\nWith time dilation, the mean laboratory distance is\n\\[\nd_{\\mathrm{lab}}=v\\tau_{\\mathrm{lab}}=(0.960)(3.00\\times10^8)(114\\times10^{-9})\n=32.9\\,\\mathrm{m}.\n\\]\nThe detector spacing \\(18.0\\,\\mathrm{m}\\) is reasonable only when the dilated lifetime is used.",
+          "id": "ap-s2-p2-q3-e",
+          "label": "(e)",
+          "marks": 1,
+          "prompt": "Explain why the counter spacing would be badly underestimated if the proper lifetime were used directly in the laboratory."
+        }
+      ]
+    },
+    {
+      "id": "ap-s2-p2-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section B: Relativity and Quantum Mechanics",
+      "stem": "An electron is confined to a very thin conducting quantum ring of radius \\(R=0.850\\,\\mathrm{nm}\\). Its position around the ring is described by the angle \\(\\phi\\), and the potential energy is constant around the ring. The spatial wavefunction must be single-valued after one complete circuit.",
+      "title": "Electron states on a quantum ring",
+      "parts": [
+        {
+          "answer": "For motion on a ring, the coordinate \\(\\phi\\) and \\(\\phi+2\\pi\\) represent the same physical point. Therefore the wavefunction must satisfy the periodic boundary condition\n\\[\n\\psi(\\phi+2\\pi)=\\psi(\\phi).\n\\]\nThis replaces the hard-wall condition used in a one-dimensional box. The wavefunction does not need to vanish anywhere on an ideal ring; it must be continuous and single-valued around the loop.",
+          "id": "ap-s2-p2-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "State the boundary condition for the ring and explain its physical meaning."
+        },
+        {
+          "answer": "Take trial states\n\\[\n\\psi_m(\\phi)=Ae^{im\\phi}.\n\\]\nThe boundary condition gives\n\\[\nAe^{im(\\phi+2\\pi)}=Ae^{im\\phi},\n\\]\nso\n\\[\ne^{i2\\pi m}=1.\n\\]\nThis requires\n\\[\nm=0,\\pm1,\\pm2,\\ldots\n\\]\nThe integer \\(m\\) is the angular-momentum quantum number. Normalizing over \\(0\\le\\phi<2\\pi\\),\n\\[\n1=\\int_0^{2\\pi}|A|^2\\,d\\phi=2\\pi|A|^2,\n\\]\nso a normalized angular state is\n\\[\n\\psi_m(\\phi)=\\frac{1}{\\sqrt{2\\pi}}e^{im\\phi}.\n\\]",
+          "id": "ap-s2-p2-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use the periodic boundary condition to find the allowed values of \\(m\\) and normalize the states.\n\nThe trial angular states are\n\\[\n\\psi_m(\\phi)=Ae^{im\\phi}.\n\\]"
+        },
+        {
+          "answer": "The angular momentum operator about the ring axis is\n\\[\n\\hat L_z=-i\\hbar\\frac{d}{d\\phi}.\n\\]\nActing on the state gives\n\\[\n\\hat L_z\\psi_m=-i\\hbar(im)\\psi_m=m\\hbar\\psi_m.\n\\]\nThus\n\\[\nL_z=m\\hbar.\n\\]\nThe kinetic energy for rotation is\n\\[\nE_m=\\frac{L_z^2}{2I}=\\frac{m^2\\hbar^2}{2I},\n\\]\nwhere the electron's moment of inertia on the ring is\n\\[\nI=m_eR^2.\n\\]\nTherefore\n\\[\nE_m=\\frac{m^2\\hbar^2}{2m_eR^2}.\n\\]",
+          "id": "ap-s2-p2-q4-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the angular momentum eigenvalue and derive the energy levels.\n\nThe angular-momentum operator is\n\\[\n\\hat L_z=-i\\hbar\\frac{d}{d\\phi}\n\\]\nand the rotational kinetic energy is\n\\[\nE=\\frac{L_z^2}{2I},\n\\]\nwhere \\(I=m_eR^2\\)."
+        },
+        {
+          "answer": "The energy depends on \\(m^2\\), so\n\\[\nE_{+m}=E_{-m}.\n\\]\nThe states \\(+m\\) and \\(-m\\) are distinct because they have opposite angular momenta, corresponding to opposite circulation directions around the ring. For \\(|m|\\ge1\\), the levels are therefore twofold degenerate. The \\(m=0\\) state is not paired with a different opposite state, so it is non-degenerate in this simple model.",
+          "id": "ap-s2-p2-q4-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Discuss the degeneracy of the \\(+m\\) and \\(-m\\) states and identify any exception."
+        },
+        {
+          "answer": "Using \\(\\hbar=h/(2\\pi)=1.06\\times10^{-34}\\,\\mathrm{J\\,s}\\), the energy scale is\n\\[\nE_1=\\frac{\\hbar^2}{2m_eR^2}.\n\\]\nSubstitute \\(R=0.850\\times10^{-9}\\,\\mathrm{m}\\):\n\\[\nE_1=\\frac{(1.06\\times10^{-34})^2}{2(9.11\\times10^{-31})(0.850\\times10^{-9})^2}\n=8.53\\times10^{-21}\\,\\mathrm{J}.\n\\]\nIn electronvolts,\n\\[\nE_1=\\frac{8.53\\times10^{-21}}{1.60\\times10^{-19}}\n=5.33\\times10^{-2}\\,\\mathrm{eV}.\n\\]\nFor a transition from \\(m=2\\) to \\(m=1\\),\n\\[\n\\Delta E=E_2-E_1=(4-1)E_1=3E_1.\n\\]\nThus\n\\[\n\\Delta E=2.56\\times10^{-20}\\,\\mathrm{J}=0.160\\,\\mathrm{eV}.\n\\]",
+          "id": "ap-s2-p2-q4-e",
+          "label": "(e)",
+          "marks": 3,
+          "prompt": "Calculate \\(E_1\\) and the transition energy for \\(m=2\\to m=1\\), in joules and electronvolts."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 2",
+  "totalMarks": 60
+}

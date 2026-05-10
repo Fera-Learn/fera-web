@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "superposition",
+  "topicTitle": "Superposition",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-superposition-01",
+      "prompt": "At one point and instant, two waves give displacements \\(y_1=2.0\\,\\mathrm{mm}\\) and \\(y_2=-0.5\\,\\mathrm{mm}\\). Find the resultant displacement.",
+      "answer": "Add the displacements directly:\n\\[\ny=y_1+y_2=2.0-0.5=1.5\\,\\mathrm{mm}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-02",
+      "prompt": "Two equal sinusoidal waves of amplitude \\(A\\) are exactly in phase. What is the resultant amplitude?",
+      "answer": "For \\(\\Delta\\phi=0\\),\n\\[\nA_{\\mathrm{res}}=2A\\cos\\left(\\frac{0}{2}\\right)=2A\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-03",
+      "prompt": "Two equal sinusoidal waves of amplitude \\(A\\) differ in phase by \\(\\pi\\). What is the resultant amplitude?",
+      "answer": "For \\(\\Delta\\phi=\\pi\\),\n\\[\nA_{\\mathrm{res}}=2A\\cos\\left(\\frac{\\pi}{2}\\right)=0\n\\]\nThis is complete destructive interference.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-04",
+      "prompt": "Two equal sinusoidal waves each have amplitude \\(4.0\\,\\mathrm{mm}\\) and phase difference \\(60^\\circ\\). Find the resultant amplitude.",
+      "answer": "\\[\nA_{\\mathrm{res}}=2A\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)=2(4.0)\\cos30^\\circ\n\\]\n\\[\nA_{\\mathrm{res}}=8.0\\left(\\frac{\\sqrt{3}}{2}\\right)=6.93\\,\\mathrm{mm}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-05",
+      "prompt": "Explain why interference is described by adding displacements rather than by adding energies directly.",
+      "answer": "The wave equation is linear in displacement, so the medium responds to the sum \\(y_1+y_2\\) at each point. Energy depends on the square of the displacement or its derivatives, so it is a consequence of the combined wave, not the quantity that is added first.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-06",
+      "prompt": "Two equal waves produce a resultant amplitude of \\(A\\). Find the phase difference between them.",
+      "answer": "Use\n\\[\nA_{\\mathrm{res}}=2A\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\n\\]\nSet \\(A_{\\mathrm{res}}=A\\):\n\\[\n1=2\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\n\\]\n\\[\n\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)=\\frac{1}{2}\n\\]\nSo\n\\[\n\\frac{\\Delta\\phi}{2}=\\frac{\\pi}{3}\n\\quad\\Rightarrow\\quad\n\\Delta\\phi=\\frac{2\\pi}{3}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-07",
+      "prompt": "Two equal waves each have amplitude \\(A\\). For what phase difference does the resultant amplitude become \\(\\sqrt{3}\\,A\\)?",
+      "answer": "Set\n\\[\n\\sqrt{3}\\,A=2A\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\n\\]\nThen\n\\[\n\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)=\\frac{\\sqrt{3}}{2}\n\\]\nSo\n\\[\n\\frac{\\Delta\\phi}{2}=\\frac{\\pi}{6}\n\\quad\\Rightarrow\\quad\n\\Delta\\phi=\\frac{\\pi}{3}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-superposition-08",
+      "prompt": "Two equal sinusoidal waves overlap. Find all phase differences in the range \\(0\\le \\Delta\\phi\\le \\pi\\) for which the resultant amplitude is at least \\(1.5A\\).",
+      "answer": "Require\n\\[\n2A\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\\ge 1.5A\n\\]\nso\n\\[\n\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\\ge \\frac{3}{4}\n\\]\nIn the range \\(0\\le \\Delta\\phi\\le \\pi\\), the cosine decreases as \\(\\Delta\\phi\\) increases, so\n\\[\n\\frac{\\Delta\\phi}{2}\\le \\cos^{-1}\\left(\\frac{3}{4}\\right)\n\\]\nhence\n\\[\n0\\le \\Delta\\phi\\le 2\\cos^{-1}\\left(\\frac{3}{4}\\right)\\approx 1.45\\,\\mathrm{rad}\n\\]\nwhich is about \\(83^\\circ\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "plane-surface-reflection",
+  "topicTitle": "Plane-Surface Reflection",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "plane-reflection-01",
+      "prompt": "State the law of reflection for a plane surface.",
+      "answer": "The angle of reflection equals the angle of incidence, with both angles measured from the normal:\n\\[\n\\theta_r=\\theta_i\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-02",
+      "prompt": "A ray strikes a plane mirror at \\(35^\\circ\\) to the normal. Find the reflection angle.",
+      "answer": "By the law of reflection,\n\\[\n\\theta_r=\\theta_i=35^\\circ\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-03",
+      "prompt": "A ray makes \\(20^\\circ\\) with the mirror surface. What angle does it make with the normal?",
+      "answer": "The normal is perpendicular to the surface, so\n\\[\n\\theta_i=90^\\circ-20^\\circ=70^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-04",
+      "prompt": "An object is \\(2.0\\,\\mathrm{m}\\) in front of a plane mirror. Where is the image?",
+      "answer": "For a plane mirror,\n\\[\ns'=-s=-2.0\\,\\mathrm{m}\n\\]\nThe image appears \\(2.0\\,\\mathrm{m}\\) behind the mirror.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-05",
+      "prompt": "What is the lateral magnification of a plane mirror?",
+      "answer": "A plane mirror has\n\\[\nm=+1\n\\]\nso the image is upright and the same size as the object.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-06",
+      "prompt": "Why is a plane-mirror image called virtual?",
+      "answer": "The reflected rays diverge as if they came from behind the mirror, but no light actually passes through the image point. The image is therefore virtual.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-07",
+      "prompt": "A person stands \\(1.5\\,\\mathrm{m}\\) from a plane mirror. How far is the person from their image?",
+      "answer": "The image is \\(1.5\\,\\mathrm{m}\\) behind the mirror. The person-image separation is\n\\[\n1.5+1.5=3.0\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-08",
+      "prompt": "A plane mirror is rotated by \\(10^\\circ\\). By how much does the reflected ray direction rotate for a fixed incident ray?",
+      "answer": "The reflected ray rotates by twice the mirror rotation:\n\\[\n2(10^\\circ)=20^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-09",
+      "prompt": "Why must incidence and reflection angles be measured from the normal?",
+      "answer": "The reflection law is a symmetry statement about the normal to the surface. Measuring from the surface instead gives complementary angles and can lead to wrong ray directions.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-10",
+      "prompt": "A reflected ray makes \\(55^\\circ\\) with the normal. What was the angle of incidence?",
+      "answer": "By reversibility and the law of reflection,\n\\[\n\\theta_i=\theta_r=55^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-11",
+      "prompt": "What is the image distance sign for a plane mirror using the real-is-positive convention?",
+      "answer": "For an object in front of a plane mirror, the image is behind the mirror and virtual, so\n\\[\ns'=-s\n\\]\nThe image distance is negative.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-12",
+      "prompt": "Use the plane-mirror relation \\(s'=-s\\) to derive the magnification.",
+      "answer": "Mirror magnification is\n\\[\nm=-\\frac{s'}{s}\n\\]\nFor a plane mirror, \\(s'=-s\\), so\n\\[\nm=-\\frac{-s}{s}=+1\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-13",
+      "prompt": "A vertical object of height \\(0.80\\,\\mathrm{m}\\) is in front of a plane mirror. What is the image height?",
+      "answer": "Since \\(m=+1\\),\n\\[\nh'=mh=(1)(0.80)=0.80\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-14",
+      "prompt": "Why can a plane mirror reverse left and right in appearance without reversing up and down?",
+      "answer": "A plane mirror reverses the front-back direction along the normal. The apparent left-right reversal comes from comparing the mirror image to a rotated person, not from a physical swap of horizontal directions by the mirror.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-15",
+      "prompt": "Two plane mirrors meet at right angles. A ray reflects once from each mirror. How does the final ray direction compare with the original direction?",
+      "answer": "Two reflections from perpendicular mirrors reverse both perpendicular components in the mirror plane. The outgoing ray is parallel to the incident ray but travels in the opposite transverse sense, like a corner reflector in two dimensions.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-16",
+      "prompt": "A person wants to see their full height in a vertical plane mirror. What minimum mirror height is needed?",
+      "answer": "A mirror half the person's height is sufficient. Rays from the head and feet reflect from points halfway between the eyes and those points, so the needed mirror length is\n\\[\n\\frac{H}{2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-17",
+      "prompt": "Does moving closer to a plane mirror change the minimum mirror height needed to see your full body?",
+      "answer": "No. In the ideal plane-mirror geometry, the required mirror height is half the person's height and is independent of distance from the mirror.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-18",
+      "prompt": "Explain ray reversibility for plane reflection.",
+      "answer": "If a ray path satisfies \\(\\theta_i=\\theta_r\\), reversing the direction of light along the same path also satisfies the same angle equality. Thus a valid reflected path remains valid when followed backward.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-19",
+      "prompt": "Why does a rough surface produce diffuse reflection even though each small patch obeys the reflection law?",
+      "answer": "Each microscopic patch has its own local normal, so each patch reflects according to \\(\\theta_r=\\theta_i\\) relative to that local normal. Because the normals vary, the reflected rays spread into many directions.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "plane-reflection-20",
+      "prompt": "Use symmetry to justify the plane-mirror image position.",
+      "answer": "For every object point in front of the mirror, reflected rays appear to originate from the point the same perpendicular distance behind the mirror. This symmetric point makes incident and reflected angles equal for every ray that reaches the eye, so the virtual image has \\(s'=-s\\).",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

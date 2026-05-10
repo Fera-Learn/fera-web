@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "continuous-spectra",
+  "topicTitle": "Continuous Spectra",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-continuous-spectra-01",
+      "prompt": "What is a continuous spectrum?",
+      "answer": "A continuous spectrum contains light over a range of wavelengths, not just isolated spectral lines.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-02",
+      "prompt": "Give one source of a continuous spectrum.",
+      "answer": "A hot dense object can emit a broad thermal spectrum. Accelerated charged particles can also produce a continuous bremsstrahlung spectrum.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-03",
+      "prompt": "How does a continuous spectrum differ from an atomic line spectrum?",
+      "answer": "A line spectrum has discrete wavelengths from fixed energy gaps. A continuous spectrum covers a smooth range of wavelengths because photon energies can vary over a range.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-04",
+      "prompt": "State Wien's displacement law.",
+      "answer": "\\[\n\\lambda_{\\max}T=b\n\\]\nwhere \\(b\\approx2.90\\times10^{-3}\\,\\mathrm{m\\,K}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-05",
+      "prompt": "If the temperature of a thermal source increases, what happens to the peak wavelength?",
+      "answer": "The peak wavelength decreases because \\(\\lambda_{\\max}=b/T\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-06",
+      "prompt": "A thermal spectrum peaks at \\(500\\,\\mathrm{nm}\\). Estimate the temperature using \\(b=2.90\\times10^{-3}\\,\\mathrm{m\\,K}\\).",
+      "answer": "\\[\nT=\\frac{b}{\\lambda_{\\max}}=\\frac{2.90\\times10^{-3}}{500\\times10^{-9}}=5.80\\times10^3\\,\\mathrm K\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-07",
+      "prompt": "A hot object has temperature \\(3000\\,\\mathrm K\\). Estimate the peak wavelength.",
+      "answer": "\\[\n\\lambda_{\\max}=\\frac{b}{T}=\\frac{2.90\\times10^{-3}}{3000}=9.67\\times10^{-7}\\,\\mathrm m\n\\]\nThis is about \\(967\\,\\mathrm{nm}\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-08",
+      "prompt": "Why does a heated solid usually emit a continuous spectrum rather than isolated atomic lines?",
+      "answer": "In a dense solid, many interactions and closely spaced collective energy states are available. The emitted photon energies form a broad range rather than isolated atomic transitions.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-09",
+      "prompt": "An electron loses \\(20.0\\,\\mathrm{keV}\\) in one braking event. What is the maximum photon energy emitted?",
+      "answer": "The largest photon energy is the full kinetic-energy loss:\n\\[\nE_{\\gamma,\\max}=20.0\\,\\mathrm{keV}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-10",
+      "prompt": "For an X-ray tube with accelerating voltage \\(40.0\\,\\mathrm{kV}\\), estimate the shortest wavelength in the bremsstrahlung spectrum.",
+      "answer": "The maximum photon energy is \\(eV=40.0\\,\\mathrm{keV}\\). Thus\n\\[\n\\lambda_{\\min}=\\frac{hc}{E}=\\frac{1240\\,\\mathrm{eV\\,nm}}{4.00\\times10^4\\,\\mathrm{eV}}=0.0310\\,\\mathrm{nm}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-11",
+      "prompt": "Why does a bremsstrahlung spectrum have a short-wavelength cutoff?",
+      "answer": "A photon cannot carry more energy than the electron loses. The maximum photon energy is the electron's available kinetic energy, so \\(E=hc/\\lambda\\) gives a minimum possible wavelength.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-12",
+      "prompt": "Derive \\(\\lambda_{\\min}=hc/(eV)\\) for an X-ray tube.",
+      "answer": "An electron accelerated through \\(V\\) gains\n\\[\nK=eV\n\\]\nThe shortest wavelength comes from converting all this energy into one photon:\n\\[\n\\frac{hc}{\\lambda_{\\min}}=eV\n\\]\nTherefore\n\\[\n\\lambda_{\\min}=\\frac{hc}{eV}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-13",
+      "prompt": "An X-ray tube voltage is doubled. What happens to the short-wavelength cutoff?",
+      "answer": "Since\n\\[\n\\lambda_{\\min}=\\frac{hc}{eV}\n\\]\nthe cutoff wavelength is inversely proportional to voltage. Doubling \\(V\\) halves \\(\\lambda_{\\min}\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-14",
+      "prompt": "Why can line spectra appear on top of an X-ray continuous spectrum?",
+      "answer": "Bremsstrahlung produces the continuous background. If incident electrons knock inner-shell electrons out of target atoms, electrons dropping into those vacancies emit characteristic photons with discrete energies, producing sharp lines.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-15",
+      "prompt": "A star's spectrum peaks at shorter wavelength than the Sun's. What does that imply about its surface temperature?",
+      "answer": "By Wien's law, shorter peak wavelength means higher temperature. The star has a hotter surface than the Sun, assuming both are approximated as thermal emitters.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-16",
+      "prompt": "Derive how the thermal peak wavelength scales with temperature.",
+      "answer": "Wien's law is\n\\[\n\\lambda_{\\max}T=b\n\\]\nSolving for peak wavelength gives\n\\[\n\\lambda_{\\max}=\\frac{b}{T}\n\\]\nTherefore \\(\\lambda_{\\max}\\propto T^{-1}\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-17",
+      "prompt": "Explain why a continuous spectrum does not contradict quantized atomic energy levels.",
+      "answer": "Quantized isolated atoms produce line spectra, but continuous spectra can arise from thermal motion, dense matter with many closely spaced states, or free charged particles losing variable amounts of kinetic energy. Different physical systems produce different spectral structures.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-18",
+      "prompt": "A continuous spectrum has a cutoff at \\(0.050\\,\\mathrm{nm}\\). Estimate the accelerating voltage of the X-ray tube.",
+      "answer": "Use\n\\[\neV=\\frac{hc}{\\lambda_{\\min}}\n\\]\nIn electronvolt units,\n\\[\nV=\\frac{1240\\,\\mathrm{eV\\,nm}}{0.050\\,\\mathrm{nm}}=2.48\\times10^4\\,\\mathrm V\n\\]\nso \\(V=24.8\\,\\mathrm{kV}\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-19",
+      "prompt": "Why is the endpoint of an X-ray continuum more directly linked to voltage than to target material?",
+      "answer": "The endpoint is set by the maximum kinetic energy of the incident electrons, \\(eV\\). The target material affects the probability distribution and characteristic lines, but no photon can exceed the energy supplied by the accelerating voltage.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-continuous-spectra-20",
+      "prompt": "Connect thermal continua, bremsstrahlung continua, and line spectra through photon energy.",
+      "answer": "All spectra describe distributions of photon energies. Line spectra use fixed gaps \\(E_i-E_f\\). Thermal continua contain a broad distribution set by temperature. Bremsstrahlung continua contain variable kinetic-energy losses, bounded by the maximum available particle energy.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

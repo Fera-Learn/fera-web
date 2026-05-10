@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "interference",
+  "topicId": "michelson-interferometer",
+  "topicTitle": "Michelson Interferometer",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "michelson-interferometer-01",
+      "prompt": "Why does moving one Michelson mirror by \\(\\Delta L\\) change the optical path by \\(2\\Delta L\\)?",
+      "answer": "The beam travels to the mirror and back. Moving the mirror changes both the outgoing and return path lengths, so the round-trip optical path changes by \\(2\\Delta L\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-02",
+      "prompt": "Write the relation between mirror displacement, wavelength, and number of fringes shifted.",
+      "answer": "\\[\\nN=\\frac{2\\Delta L}{\\lambda}\\n\\]\\nor\\n\\[\\n\\Delta L=\\frac{N\\lambda}{2}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-03",
+      "prompt": "A mirror moves \\(300\\,\\mathrm{nm}\\) using \\(600\\,\\mathrm{nm}\\) light. How many fringes pass?",
+      "answer": "\\[\\nN=\\frac{2\\Delta L}{\\lambda}=\\frac{2(300\\,\\mathrm{nm})}{600\\,\\mathrm{nm}}=1\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-04",
+      "prompt": "Using \\(500\\,\\mathrm{nm}\\) light, 24 fringes pass. Find the mirror displacement.",
+      "answer": "\\[\\n\\Delta L=\\frac{N\\lambda}{2}=\\frac{24(500\\,\\mathrm{nm})}{2}=6000\\,\\mathrm{nm}=6.0\\,\\mu\\mathrm{m}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-05",
+      "prompt": "A mirror movement of \\(8.0\\,\\mu\\mathrm{m}\\) causes 32 fringes to pass. Find the wavelength.",
+      "answer": "\\[\\n\\lambda=\\frac{2\\Delta L}{N}=\\frac{2(8.0\\,\\mu\\mathrm{m})}{32}=0.50\\,\\mu\\mathrm{m}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-06",
+      "prompt": "The arms differ in length by \\(0.80\\,\\mu\\mathrm{m}\\). What is the round-trip path difference?",
+      "answer": "\\[\\n\\Delta=2(L_2-L_1)=2(0.80\\,\\mu\\mathrm{m})=1.60\\,\\mu\\mathrm{m}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-07",
+      "prompt": "A mirror is translated at \\(20\\,\\mathrm{nm\\,s^{-1}}\\) using \\(500\\,\\mathrm{nm}\\) light. At what rate do fringes pass?",
+      "answer": "\\[\\n\\frac{dN}{dt}=\\frac{2}{\\lambda}\\frac{dL}{dt}=\\frac{2(20\\,\\mathrm{nm\\,s^{-1}})}{500\\,\\mathrm{nm}}=0.080\\,\\mathrm{s^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-08",
+      "prompt": "A mirror displacement produces a phase change \\(\\Delta\\phi=6\\pi\\). How many fringes pass, and what is \\(\\Delta L\\) in terms of \\(\\lambda\\)?",
+      "answer": "One fringe corresponds to phase change \\(2\\pi\\), so\\n\\[\\nN=\\frac{6\\pi}{2\\pi}=3\\n\\]\\nThen\\n\\[\\n\\Delta L=\\frac{N\\lambda}{2}=\\frac{3\\lambda}{2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-09",
+      "prompt": "A gas cell of length \\(L\\) and refractive index \\(n\\) is placed in one arm. Derive the double-pass fringe shift relative to air.",
+      "answer": "The one-way optical path increase is \\((n-1)L\\). The beam passes through the cell twice, so\\n\\[\\n\\Delta=2(n-1)L\\n\\]\\nThe fringe shift is\\n\\[\\nN=\\frac{\\Delta}{\\lambda}=\\frac{2L(n-1)}{\\lambda}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-10",
+      "prompt": "A \\(4.0\\,\\mathrm{cm}\\) gas cell produces 30 fringes using \\(600\\,\\mathrm{nm}\\) light. Find \\(n-1\\).",
+      "answer": "\\[\\nn-1=\\frac{N\\lambda}{2L}=\\frac{30(600\\times10^{-9})}{2(0.040)}=2.25\\times10^{-4}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-11",
+      "prompt": "A mirror mounted on a piezo moves \\(0.25\\,\\mathrm{nm}\\) per volt. Using \\(632.8\\,\\mathrm{nm}\\) light, how many volts are needed for one fringe shift?",
+      "answer": "One fringe requires\\n\\[\\n\\Delta L=\\frac{\\lambda}{2}=316.4\\,\\mathrm{nm}\\n\\]\\nThe voltage is\\n\\[\\nV=\\frac{316.4\\,\\mathrm{nm}}{0.25\\,\\mathrm{nm\\,V^{-1}}}=1.27\\times10^3\\,\\mathrm{V}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-12",
+      "prompt": "A Michelson interferometer is used to measure wavelength. The mirror moves \\(0.100\\,\\mathrm{mm}\\), and 316 fringes pass. Find \\(\\lambda\\).",
+      "answer": "\\[\\n\\lambda=\\frac{2\\Delta L}{N}=\\frac{2(0.100\\times10^{-3})}{316}=6.33\\times10^{-7}\\,\\mathrm{m}\\n\\]\\nSo \\(\\lambda\\approx633\\,\\mathrm{nm}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-13",
+      "prompt": "A mirror displacement is reported as \\(N\\lambda\\) instead of \\(N\\lambda/2\\). Identify the conceptual error.",
+      "answer": "The reported expression forgets the round-trip path. A mirror displacement \\(\\Delta L\\) changes optical path by \\(2\\Delta L\\). Since one fringe corresponds to one wavelength of path change,\\n\\[\\n2\\Delta L=N\\lambda\\Rightarrow \\Delta L=\\frac{N\\lambda}{2}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-14",
+      "prompt": "A Michelson arm contains a transparent plate of thickness \\(t\\) and index \\(n\\). Derive the equivalent mirror displacement that would produce the same fringe shift.",
+      "answer": "The double-pass optical path increase from the plate is\\n\\[\\n2(n-1)t\\n\\]\\nA mirror displacement \\(\\Delta L\\) gives path change \\(2\\Delta L\\). Equating them gives\\n\\[\\n2\\Delta L=2(n-1)t\\Rightarrow \\Delta L=(n-1)t\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-15",
+      "prompt": "A sample plate of thickness \\(1.0\\,\\mathrm{mm}\\) is inserted in one arm and causes 1200 fringes using \\(500\\,\\mathrm{nm}\\) light. Find \\(n-1\\).",
+      "answer": "Use\\n\\[\\nN=\\frac{2t(n-1)}{\\lambda}\\n\\]\\nso\\n\\[\\nn-1=\\frac{N\\lambda}{2t}=\\frac{1200(500\\times10^{-9})}{2(1.0\\times10^{-3})}=0.300\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-16",
+      "prompt": "A mirror oscillates as \\(L(t)=L_0+A\\cos\\Omega t\\). Derive the time-dependent fringe count relative to \\(L_0\\).",
+      "answer": "The displacement from equilibrium is\\n\\[\\n\\Delta L(t)=A\\cos\\Omega t\\n\\]\\nThe path change is \\(2\\Delta L(t)\\), so\\n\\[\\nN(t)=\\frac{2A}{\\lambda}\\cos\\Omega t\\n\\]\\nThe observed signal oscillates through this fringe count range.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-17",
+      "prompt": "A Michelson interferometer is adjusted from bright to the next dark output at the detector. What mirror displacement is required?",
+      "answer": "Bright to adjacent dark requires a path phase change of \\(\\pi\\), or path change \\(\\lambda/2\\). Since mirror displacement doubles path change,\\n\\[\\n2\\Delta L=\\frac{\\lambda}{2}\\Rightarrow \\Delta L=\\frac{\\lambda}{4}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-18",
+      "prompt": "A thermal expansion changes one arm length by \\(\\Delta L=\\alpha L\\Delta T\\). Derive the number of fringes shifted.",
+      "answer": "A physical arm-length change \\(\\Delta L\\) changes the round-trip path by \\(2\\Delta L\\). Therefore\\n\\[\\nN=\\frac{2\\Delta L}{\\lambda}=\\frac{2\\alpha L\\Delta T}{\\lambda}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-19",
+      "prompt": "A Michelson measurement gives a fringe shift but the source coherence length is shorter than the arm path difference. Explain the failure mode.",
+      "answer": "The two returning beams no longer have a stable phase relationship because their path difference exceeds the coherence length. Fringe visibility collapses, so counting fringes becomes unreliable or impossible even if the geometry would otherwise produce a shift.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "michelson-interferometer-20",
+      "prompt": "Prove why Michelson displacement measurements naturally have a factor-of-two sensitivity advantage over a one-way path measurement.",
+      "answer": "A one-way path change equal to \\(\\Delta L\\) gives phase change\\n\\[\\n\\Delta\\phi_{1}=\\frac{2\\pi\\Delta L}{\\lambda}\\n\\]\\nIn a Michelson arm, the beam travels out and back, so the optical path change is \\(2\\Delta L\\):\\n\\[\\n\\Delta\\phi_M=\\frac{2\\pi(2\\Delta L)}{\\lambda}=2\\Delta\\phi_1\\n\\]\\nThus the same physical mirror motion produces twice the phase shift, or equivalently one fringe per \\(\\lambda/2\\) of mirror travel.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

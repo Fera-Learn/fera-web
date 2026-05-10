@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "potential-energy",
+  "topicId": "reading-energy-diagrams",
+  "topicTitle": "Reading Energy Diagrams",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "energy-diagrams-01",
+      "prompt": "At a point where \\(E=30\\,\\mathrm{J}\\) and \\(U=18\\,\\mathrm{J}\\), find \\(K\\).",
+      "answer": "\\[\nK=E-U=30-18=12\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-02",
+      "prompt": "What condition defines a turning point on an energy diagram?",
+      "answer": "A turning point occurs where\n\\[\nE=U(x)\n\\]\nso \\(K=0\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-03",
+      "prompt": "If \\(U(x)\u003eE\\), is the particle allowed at that position?",
+      "answer": "No. That would require\n\\[\nK=E-U\u003c0\n\\]\nwhich is impossible for ordinary kinetic energy.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-04",
+      "prompt": "What does the vertical gap between \\(E\\) and \\(U(x)\\) represent?",
+      "answer": "It represents kinetic energy:\n\\[\nK=E-U(x)\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-05",
+      "prompt": "A \\(2\\,\\mathrm{kg}\\) particle has \\(E=40\\,\\mathrm{J}\\) and \\(U=24\\,\\mathrm{J}\\). Find its speed.",
+      "answer": "\\[\nK=40-24=16\\,\\mathrm{J}\n\\]\n\\[\nv=\\sqrt{\\frac{2K}{m}}=\\sqrt{\\frac{32}{2}}=4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-06",
+      "prompt": "For \\(U(x)=x^2\\,\\mathrm{J}\\) and \\(E=9\\,\\mathrm{J}\\), find the turning points.",
+      "answer": "\\[\nx^2=9\\Rightarrow x=\\pm3\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-07",
+      "prompt": "For \\(U(x)=x^2\\,\\mathrm{J}\\) and \\(E=9\\,\\mathrm{J}\\), state the allowed region.",
+      "answer": "Allowed motion requires\n\\[\nx^2\\leq9\n\\]\nso\n\\[\n-3\\leq x\\leq3\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-08",
+      "prompt": "A particle is at a local minimum of \\(U(x)\\). What kind of equilibrium is this?",
+      "answer": "A local minimum is a stable equilibrium because a small displacement increases \\(U\\), so the force tends to restore the particle.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-09",
+      "prompt": "For \\(U(x)=x^2-4\\) and \\(E=5\\), find the turning points and allowed region.",
+      "answer": "\\[\nx^2-4=5\\Rightarrow x^2=9\\Rightarrow x=\\pm3\n\\]\nAllowed region:\n\\[\n-3\\leq x\\leq3\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-10",
+      "prompt": "For \\(U(x)=x^4-5x^2\\), identify the equilibrium positions.",
+      "answer": "\\[\n\\frac{dU}{dx}=4x^3-10x=2x(2x^2-5)\n\\]\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{5}{2}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-11",
+      "prompt": "For \\(U(x)=x^4-5x^2\\), classify the equilibria and describe the allowed regions for energies satisfying \\(-25/4\u003cE\u003c0\\).",
+      "answer": "Equilibria occur where\n\\[\n\\frac{dU}{dx}=4x^3-10x=2x(2x^2-5)=0\n\\]\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{5}{2}}\n\\]\nClassify with\n\\[\nU\u0027\u0027(x)=12x^2-10\n\\]\nAt \\(x=0\\), \\(U\u0027\u0027=-10\u003c0\\), so it is unstable. At \\(x=\\pm\\sqrt{5/2}\\), \\(U\u0027\u0027=20\u003e0\\), so both are stable. The minimum energy is\n\\[\nU_{\\min}=-\\frac{25}{4}\n\\]\nFor \\(-25/4\u003cE\u003c0\\), the particle is below the central barrier \\(U(0)=0\\), so it is trapped in either the left well or the right well. Turning points satisfy\n\\[\nx^4-5x^2=E\n\\]\nLet \\(z=x^2\\):\n\\[\nz^2-5z-E=0\n\\]\n\\[\nz_\\pm=\\frac{5\\pm\\sqrt{25+4E}}{2}\n\\]\nThe allowed regions are\n\\[\n-\\sqrt{z_+}\\leq x\\leq-\\sqrt{z_-}\n\\]\nor\n\\[\n\\sqrt{z_-}\\leq x\\leq\\sqrt{z_+}\n\\]\nThe gap around \\(x=0\\) is forbidden because there \\(U(x)\u003eE\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "energy-diagrams-12",
+      "prompt": "For \\(U(x)=\\alpha x^4-\\beta x^2\\), with \\(\\alpha\u003e0\\) and \\(\\beta\u003e0\\), derive the energy regimes for motion: no motion, rest at a stable equilibrium, trapped in one well, just reaches the central barrier, and crosses between wells.",
+      "answer": "First locate the stable equilibria and the central barrier:\n\\[\n\\frac{dU}{dx}=4\\alpha x^3-2\\beta x=2x(2\\alpha x^2-\\beta)\n\\]\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{\\beta}{2\\alpha}}\n\\]\nThe central point \\(x=0\\) is unstable and has\n\\[\nU(0)=0\n\\]\nThe stable minima have\n\\[\nU_{\\min}=-\\frac{\\beta^2}{4\\alpha}\n\\]\nNow classify by total energy \\(E\\):\n\\[\nE\u003cU_{\\min}:\\quad \\text{no motion is possible}\n\\]\n\\[\nE=U_{\\min}:\\quad \\text{the particle can rest at one stable equilibrium}\n\\]\n\\[\nU_{\\min}\u003cE\u003c0:\\quad \\text{the particle is trapped in one well}\n\\]\nFor this trapped case, turning points follow from \\(z=x^2\\):\n\\[\n\\alpha z^2-\\beta z=E\n\\]\n\\[\nz_\\pm=\\frac{\\beta\\pm\\sqrt{\\beta^2+4\\alpha E}}{2\\alpha}\n\\]\nThe allowed intervals are separate:\n\\[\n\\sqrt{z_-}\\leq |x|\\leq \\sqrt{z_+}\n\\]\nAt\n\\[\nE=0\n\\]\nthe particle just reaches the central barrier \\(x=0\\) with zero speed. For\n\\[\nE\u003e0\n\\]\nthe central barrier can be crossed, and the two wells become one connected allowed region.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "electric-power",
+  "topicTitle": "Electric Power",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-power-01",
+      "prompt": "What is the SI unit of power?",
+      "answer": "The SI unit of power is the watt:\n\\[\n1\\,\\mathrm{W}=1\\,\\mathrm{J\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-02",
+      "prompt": "State the electric power relation involving current and potential difference.",
+      "answer": "Electric power is\n\\[\nP=IV\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-03",
+      "prompt": "A passive resistor has current through a potential drop. Does it absorb or supply electrical energy?",
+      "answer": "A passive resistor absorbs electrical energy and converts it into internal energy.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-04",
+      "prompt": "A device carries \\(3.0\\,\\mathrm{A}\\) with \\(12\\,\\mathrm{V}\\) across it. Find its power.",
+      "answer": "\\[\nP=IV\n\\]\n\\[\nP=(3.0)(12)=36\\,\\mathrm{W}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-05",
+      "prompt": "A \\(20\\,\\Omega\\) resistor carries \\(0.50\\,\\mathrm{A}\\). Find the power dissipated.",
+      "answer": "\\[\nP=I^2R\n\\]\n\\[\nP=(0.50)^2(20)=5.0\\,\\mathrm{W}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-06",
+      "prompt": "A \\(60\\,\\Omega\\) resistor has \\(120\\,\\mathrm{V}\\) across it. Find its power using \\(V^2/R\\).",
+      "answer": "\\[\nP=\\frac{V^2}{R}\n\\]\n\\[\nP=\\frac{120^2}{60}=240\\,\\mathrm{W}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-07",
+      "prompt": "A \\(75\\,\\mathrm{W}\\) lamp runs for \\(4.0\\,\\mathrm{h}\\). Find the energy used in joules.",
+      "answer": "Convert the time:\n\\[\n4.0\\,\\mathrm{h}=4.0(3600)=1.44\\times10^4\\,\\mathrm{s}\n\\]\nEnergy is\n\\[\n\\Delta U=P\\Delta t\n\\]\n\\[\n\\Delta U=(75)(1.44\\times10^4)=1.08\\times10^6\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-08",
+      "prompt": "A resistor\u0027s voltage is doubled while its resistance stays constant. By what factor does the dissipated power change?",
+      "answer": "For fixed resistance,\n\\[\nP=\\frac{V^2}{R}\n\\]\nIf \\(V\\) doubles,\n\\[\nP\u0027=\\frac{(2V)^2}{R}=4\\frac{V^2}{R}=4P\n\\]\nThe power increases by a factor of \\(4\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-09",
+      "prompt": "A source with emf \\(\\mathcal E\\) and internal resistance \\(r\\) drives a load \\(R\\). Derive the power delivered to the load as a function of \\(R\\).",
+      "answer": "The loop current is\n\\[\nI=\\frac{\\mathcal E}{R+r}\n\\]\nPower delivered to the load is\n\\[\nP_R=I^2R\n\\]\nSubstitute:\n\\[\nP_R=\\left(\\frac{\\mathcal E}{R+r}\\right)^2R\n\\]\n\\[\nP_R=\\frac{\\mathcal E^2R}{(R+r)^2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-power-10",
+      "prompt": "Using the result for a source with internal resistance, determine the load resistance \\(R\\) that maximizes load power and find the maximum power.",
+      "answer": "From the load-power result,\n\\[\nP_R=\\frac{\\mathcal E^2R}{(R+r)^2}\n\\]\nDifferentiate with respect to \\(R\\):\n\\[\n\\frac{dP_R}{dR}=\\mathcal E^2\\frac{(R+r)^2-2R(R+r)}{(R+r)^4}\n\\]\n\\[\n\\frac{dP_R}{dR}=\\mathcal E^2\\frac{r-R}{(R+r)^3}\n\\]\nSet the derivative to zero:\n\\[\nr-R=0\n\\]\n\\[\nR=r\n\\]\nThe maximum power is\n\\[\nP_{\\max}=\\frac{\\mathcal E^2r}{(2r)^2}\n\\]\n\\[\nP_{\\max}=\\frac{\\mathcal E^2}{4r}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

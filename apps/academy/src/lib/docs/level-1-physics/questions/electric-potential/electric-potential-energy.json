@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-potential",
+  "topicId": "electric-potential-energy",
+  "topicTitle": "Electric Potential Energy",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-potential-energy-01",
+      "prompt": "For a conservative electric force, how is \\(\\Delta U\\) related to the work \\(W_{\\mathrm{elec}}\\) done by the electric force?",
+      "answer": "For a conservative electric force,\n\\[\n\\Delta U=-W_{\\mathrm{elec}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-02",
+      "prompt": "If the electric force does \\(+6.0\\,\\mathrm{J}\\) of work, what is \\(\\Delta U\\)?",
+      "answer": "Use\n\\[\n\\Delta U=-W_{\\mathrm{elec}}\n\\]\nso\n\\[\n\\Delta U=-6.0\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-03",
+      "prompt": "With \\(U(\\infty)=0\\), is the potential energy of two like point charges positive or negative?",
+      "answer": "With \\(U(\\infty)=0\\),\n\\[\nU=k\\frac{q_1q_2}{r}\n\\]\nFor like charges, \\(q_1q_2\u003e0\\), so \\(U\\) is positive.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-04",
+      "prompt": "Find \\(U\\) for charges \\(+3.0\\,\\mathrm{nC}\\) and \\(+4.0\\,\\mathrm{nC}\\) separated by \\(0.20\\,\\mathrm{m}\\).",
+      "answer": "\\[\nU=k\\frac{q_1q_2}{r}\n\\]\n\\[\nU=\\frac{(8.99\\times10^9)(3.0\\times10^{-9})(4.0\\times10^{-9})}{0.20}\n\\]\n\\[\nU=5.4\\times10^{-7}\\,\\mathrm{J}\n\\]\nThe energy is positive because the charges are like-signed.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-05",
+      "prompt": "Find \\(U\\) for charges \\(+2.0\\,\\mathrm{nC}\\) and \\(-5.0\\,\\mathrm{nC}\\) separated by \\(0.50\\,\\mathrm{m}\\).",
+      "answer": "\\[\nU=k\\frac{q_1q_2}{r}\n\\]\n\\[\nU=\\frac{(8.99\\times10^9)(2.0\\times10^{-9})(-5.0\\times10^{-9})}{0.50}\n\\]\n\\[\nU=-1.8\\times10^{-7}\\,\\mathrm{J}\n\\]\nThe energy is negative because the charges have opposite signs.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-06",
+      "prompt": "An external agent slowly brings two like charges from infinity to separation \\(r\\). Is the external work positive, negative, or zero? Explain the sign.",
+      "answer": "For like charges brought in from infinity,\n\\[\nU(r)=k\\frac{q_1q_2}{r}\u003e0\n\\]\nand\n\\[\nU(\\infty)=0\n\\]\nso\n\\[\n\\Delta U\u003e0\n\\]\nIn a slow assembly, the external work equals the energy increase:\n\\[\nW_{\\mathrm{ext}}=\\Delta U\u003e0\n\\]\nThe external agent must do positive work because it pushes the charges together against repulsion.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-07",
+      "prompt": "Two charges are released from rest and their electric potential energy decreases by \\(2.4\\,\\mu\\mathrm{J}\\). If no other force does work, find the change in total kinetic energy.",
+      "answer": "If no other force does work,\n\\[\n\\Delta K+\\Delta U=0\n\\]\nso\n\\[\n\\Delta K=-\\Delta U\n\\]\nGiven\n\\[\n\\Delta U=-2.4\\,\\mu\\mathrm{J}\n\\]\nthe kinetic-energy change is\n\\[\n\\Delta K=+2.4\\,\\mu\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-08",
+      "prompt": "A pair of charges changes separation from \\(r_i\\) to \\(r_f\\). Derive \\(\\Delta U\\) in terms of \\(q_1,q_2,r_i,r_f\\).",
+      "answer": "The potential energy at separation \\(r\\) is\n\\[\nU(r)=k\\frac{q_1q_2}{r}\n\\]\nTherefore\n\\[\n\\Delta U=U_f-U_i\n\\]\n\\[\n\\Delta U=kq_1q_2\\left(\\frac{1}{r_f}-\\frac{1}{r_i}\\right)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-09",
+      "prompt": "Three point charges \\(q_1,q_2,q_3\\) are fixed at the corners of a triangle with side separations \\(r_{12},r_{13},r_{23}\\). Derive the total electric potential energy of the arrangement and state why there is no single-charge term.",
+      "answer": "The total electric potential energy is the sum over interacting pairs:\n\\[\nU_{\\mathrm{tot}}=\nk\\frac{q_1q_2}{r_{12}}\n+k\\frac{q_1q_3}{r_{13}}\n+k\\frac{q_2q_3}{r_{23}}\n\\]\nThere is no single-charge term because potential energy belongs to interactions between charges after a reference is chosen. An isolated point charge has no pair separation with another charge in this model.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-potential-energy-10",
+      "prompt": "Two like charges \\(q\\) and \\(Q\\) are released from rest at separation \\(r_0\\). Treating them as isolated point charges, derive the total kinetic energy when their separation is \\(r\u003er_0\\), and state the limiting total kinetic energy as \\(r\\to\\infty\\).",
+      "answer": "Initially the charges are at rest, so\n\\[\nK_i=0\n\\]\nThe initial electric potential energy is\n\\[\nU_i=k\\frac{qQ}{r_0}\n\\]\nAt separation \\(r\\),\n\\[\nU_f=k\\frac{qQ}{r}\n\\]\nEnergy conservation gives\n\\[\nK_f+U_f=K_i+U_i\n\\]\nso the total kinetic energy is\n\\[\nK_f=kqQ\\left(\\frac{1}{r_0}-\\frac{1}{r}\\right)\n\\]\nFor like charges and \\(r\u003er_0\\), this is positive. As \\(r\\to\\infty\\),\n\\[\nK_f\\to k\\frac{qQ}{r_0}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

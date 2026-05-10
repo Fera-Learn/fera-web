@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "trig-power-integrals",
+  "topicTitle": "Trig Power Integrals",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "tpi-1",
+      "prompt": "Integrate sin^3 x cos x dx.",
+      "answer": "sin^4(x)/4 + C",
+      "hints": ["Let u=sin x."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-2",
+      "prompt": "Integrate sin^2 x dx.",
+      "answer": "x/2 - sin(2x)/4 + C",
+      "hints": ["Use half-angle: sin^2 x = (1-cos(2x))/2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-3",
+      "prompt": "Integrate cos^2 x dx.",
+      "answer": "x/2 + sin(2x)/4 + C",
+      "hints": ["Use half-angle: cos^2 x = (1+cos(2x))/2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-4",
+      "prompt": "Integrate sin^3 x dx.",
+      "answer": "-cos x + cos^3(x)/3 + C",
+      "hints": ["sin^3 x = (1-cos^2 x) sin x, let u=cos x."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-5",
+      "prompt": "Integrate sin x cos^2 x dx.",
+      "answer": "-cos^3(x)/3 + C",
+      "hints": ["Let u=cos x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-6",
+      "prompt": "Integrate sin^4 x dx.",
+      "answer": "3x/8 - sin(2x)/4 + sin(4x)/32 + C",
+      "hints": ["Apply half-angle formula twice."],
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-7",
+      "prompt": "Integrate sin^2 x cos^2 x dx.",
+      "answer": "x/8 - sin(4x)/32 + C",
+      "hints": ["Use sin^2 x cos^2 x = (1-cos(4x))/8."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-8",
+      "prompt": "Integrate tan^2 x dx.",
+      "answer": "tan x - x + C",
+      "hints": ["tan^2 x = sec^2 x - 1."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-9",
+      "prompt": "Integrate cos^3 x dx.",
+      "answer": "sin x - sin^3(x)/3 + C",
+      "hints": ["cos^3 x = (1-sin^2 x) cos x."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "tpi-10",
+      "prompt": "Integrate sin(2x) cos(2x) dx.",
+      "answer": "sin^2(2x)/4 + C",
+      "hints": ["Let u=sin(2x) or use double-angle."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

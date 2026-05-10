@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "momentum-systems",
+  "topicId": "rocket-motion",
+  "topicTitle": "Rocket Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "rocket-motion-01",
+      "prompt": "A rocket expels propellant at \\(18\\,\\mathrm{kg\\,s^{-1}}\\) with exhaust speed \\(2200\\,\\mathrm{m\\,s^{-1}}\\). Find the thrust.",
+      "answer": "\\[\nT=\\dot{m}v_e=18(2200)=3.96\\times10^4\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-02",
+      "prompt": "A rocket has \\(v_e=2500\\,\\mathrm{m\\,s^{-1}}\\) and mass ratio \\(m_0/m_f=3.0\\). Find the ideal \\(\\Delta v\\).",
+      "answer": "\\[\n\\Delta v=v_e\\ln\\left(\\frac{m_0}{m_f}\\right)=2500\\ln3.0\n\\]\n\\[\n\\Delta v=2.75\\times10^3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-03",
+      "prompt": "A deep-space rocket needs \\(\\Delta v=1800\\,\\mathrm{m\\,s^{-1}}\\) with \\(v_e=3000\\,\\mathrm{m\\,s^{-1}}\\). Find the required mass ratio.",
+      "answer": "\\[\n\\frac{m_0}{m_f}=e^{\\Delta v/v_e}=e^{1800/3000}=1.82\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-04",
+      "prompt": "A vertical rocket has mass \\(1200\\,\\mathrm{kg}\\), thrust \\(18000\\,\\mathrm{N}\\), and negligible drag. Find its initial upward acceleration near Earth.",
+      "answer": "With upward positive,\n\\[\na=\\frac{T}{m}-g=\\frac{18000}{1200}-9.8\n\\]\n\\[\na=5.2\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-05",
+      "prompt": "A rocket burns from \\(900\\,\\mathrm{kg}\\) to \\(600\\,\\mathrm{kg}\\) at mass flow rate \\(15\\,\\mathrm{kg\\,s^{-1}}\\). Find the burn time.",
+      "answer": "\\[\nt=\\frac{m_0-m_f}{\\dot{m}}=\\frac{900-600}{15}=20\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-06",
+      "prompt": "A deep-space rocket has dry final mass \\(800\\,\\mathrm{kg}\\), exhaust speed \\(2500\\,\\mathrm{m\\,s^{-1}}\\), and required \\(\\Delta v=1500\\,\\mathrm{m\\,s^{-1}}\\). Find the initial mass and propellant mass.",
+      "answer": "The mass ratio is\n\\[\n\\frac{m_0}{m_f}=e^{1500/2500}=1.822\n\\]\nWith \\(m_f=800\\,\\mathrm{kg}\\),\n\\[\nm_0=1.822(800)=1458\\,\\mathrm{kg}\n\\]\nPropellant mass is\n\\[\n1458-800=658\\,\\mathrm{kg}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-07",
+      "prompt": "A vertical rocket burns from \\(1200\\,\\mathrm{kg}\\) to \\(800\\,\\mathrm{kg}\\) in \\(20\\,\\mathrm{s}\\) with \\(v_e=2500\\,\\mathrm{m\\,s^{-1}}\\). Ignoring drag, find the burnout speed from rest including gravity loss.",
+      "answer": "Ideal rocket speed gain:\n\\[\n\\Delta v_{\\mathrm{ideal}}=2500\\ln\\left(\\frac{1200}{800}\\right)=1014\\,\\mathrm{m\\,s^{-1}}\n\\]\nGravity loss over \\(20\\,\\mathrm{s}\\):\n\\[\ngt=9.8(20)=196\\,\\mathrm{m\\,s^{-1}}\n\\]\nBurnout speed from rest:\n\\[\nv=1014-196=818\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-08",
+      "prompt": "A rocket stage has \\(v_e=3200\\,\\mathrm{m\\,s^{-1}}\\). Derive and calculate the propellant mass fraction needed for \\(\\Delta v=2400\\,\\mathrm{m\\,s^{-1}}\\), ignoring external forces.",
+      "answer": "From the rocket equation,\n\\[\n\\frac{m_0}{m_f}=e^{\\Delta v/v_e}\n\\]\nThe propellant fraction of the initial mass is\n\\[\nf=1-\\frac{m_f}{m_0}=1-e^{-\\Delta v/v_e}\n\\]\nFor the given values,\n\\[\nf=1-e^{-2400/3200}=0.528\n\\]\nSo about \\(52.8\\%\\) of the initial mass must be propellant.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-09",
+      "prompt": "A vertical rocket starts from rest with \\(m_0=900\\,\\mathrm{kg}\\), burns to \\(m_f=600\\,\\mathrm{kg}\\) at \\(15\\,\\mathrm{kg\\,s^{-1}}\\), and has \\(v_e=2200\\,\\mathrm{m\\,s^{-1}}\\). Ignoring drag, find the burnout speed and check whether it initially lifts off. State assumptions.",
+      "answer": "Assume vertical motion, constant \\(g\\), constant exhaust speed, constant mass flow, and no drag. The burn time is\n\\[\nt_b=\\frac{900-600}{15}=20\\,\\mathrm{s}\n\\]\nThe burnout speed is\n\\[\nv_b=2200\\ln\\left(\\frac{900}{600}\\right)-9.8(20)\n\\]\n\\[\nv_b=696\\,\\mathrm{m\\,s^{-1}}\n\\]\nInitial thrust is\n\\[\nT=\\alpha v_e=15(2200)=33000\\,\\mathrm{N}\n\\]\nInitial weight is\n\\[\nmg=900(9.8)=8820\\,\\mathrm{N}\n\\]\nSince thrust exceeds initial weight, it initially lifts off. The interpretation is that acceleration increases as mass falls.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rocket-motion-10",
+      "prompt": "For a vertical rocket with constant exhaust speed \\(v_e\\), constant mass flow rate \\(\\alpha\\), initial mass \\(m_0\\), final mass \\(m_f\\), and uniform gravity \\(g\\), derive the burnout speed from rest and the condition for positive upward acceleration throughout the burn. State assumptions and interpret the condition.",
+      "answer": "Assume vertical motion, no drag, constant \\(g\\), constant \\(v_e\\), and constant mass flow rate \\(\\alpha=-dm/dt\u003e0\\). Burn time is\n\\[\nt_b=\\frac{m_0-m_f}{\\alpha}\n\\]\nThe velocity equation is\n\\[\ndv=-v_e\\frac{dm}{m}-g\\,dt\n\\]\nIntegrating from \\(m_0\\) to \\(m_f\\):\n\\[\nv_b=v_e\\ln\\left(\\frac{m_0}{m_f}\\right)-g\\frac{m_0-m_f}{\\alpha}\n\\]\nInstantaneous acceleration is\n\\[\na(t)=\\frac{\\alpha v_e}{m(t)}-g\n\\]\nThis is smallest at the initial mass \\(m_0\\), so positive upward acceleration throughout requires\n\\[\n\\frac{\\alpha v_e}{m_0}\u003eg\n\\]\nInterpretation: initial thrust must exceed initial weight; after that, decreasing mass makes the condition easier to satisfy.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

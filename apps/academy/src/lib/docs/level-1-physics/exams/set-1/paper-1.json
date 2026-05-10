@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-1",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    }
+  ],
+  "description": "Mechanics, waves and optics, oscillations, collisions, conservation, and fields.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "ap-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Mechanics",
+      "stem": "A delivery drone travels horizontally at \\(11.0\\,\\mathrm{m\\,s^{-1}}\\) when it releases a \\(0.750\\,\\mathrm{kg}\\) instrument package. The release point is \\(28.0\\,\\mathrm{m}\\) above level ground. Air resistance is negligible until the package reaches a foam capture pad.",
+      "title": "Package drop, stopping work, and impulse",
+      "parts": [
+        {
+          "answer": "Take upward as positive. The package has no initial vertical velocity, so its vertical position relative to the ground is\n\\[\ny=28.0-\\frac12gt^2.\n\\]\nAt the ground, \\(y=0\\), giving\n\\[\nt=\\sqrt{\\frac{2(28.0)}{9.81}}=2.39\\,\\mathrm{s}.\n\\]\nThe horizontal velocity is constant while the package is in flight, so\n\\[\nx=v_xt=(11.0)(2.39)=26.3\\,\\mathrm{m}.\n\\]",
+          "id": "ap-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the time taken to reach the capture pad and the horizontal distance from the release point to the landing point."
+        },
+        {
+          "answer": "The horizontal component remains\n\\[\nv_x=11.0\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe vertical component just before the pad is\n\\[\nv_y=-gt=-(9.81)(2.39)=-23.4\\,\\mathrm{m\\,s^{-1}}.\n\\]\nHence the speed is\n\\[\nv=\\sqrt{11.0^2+23.4^2}=25.8\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe angle below the horizontal is\n\\[\n\\theta=\\tan^{-1}\\left(\\frac{23.4}{11.0}\\right)=64.8^\\circ.\n\\]",
+          "id": "ap-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the package velocity components immediately before it reaches the pad. Hence find its speed and direction."
+        },
+        {
+          "answer": "The kinetic energy just before capture is\n\\[\nK=\\frac12mv^2=\\frac12(0.750)(25.8)^2=2.50\\times10^2\\,\\mathrm{J}.\n\\]\nDuring the short stopping distance, ignore the small change in gravitational potential energy compared with the work done by the pad. The average resisting force magnitude \\(F\\) then satisfies\n\\[\n-Fs=0-K.\n\\]\nThus\n\\[\nF=\\frac{K}{s}=\\frac{2.50\\times10^2}{0.320}=7.80\\times10^2\\,\\mathrm{N}.\n\\]\nThe force acts approximately opposite the incoming velocity.",
+          "id": "ap-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "The foam brings the package to rest over a distance of \\(0.320\\,\\mathrm{m}\\), measured approximately along the incoming path. Estimate the average resisting force exerted by the foam, ignoring the weight impulse during this short stopping interval."
+        },
+        {
+          "answer": "Ignoring the weight impulse during the short capture, the impulse from the pad is the change in momentum:\n\\[\n\\vec J=m(\\vec v_f-\\vec v_i).\n\\]\nWith \\(\\vec v_f=0\\) and \\(\\vec v_i=11.0\\hat{\\imath}-23.4\\hat{\\jmath}\\),\n\\[\n\\vec J=0.750(-11.0\\hat{\\imath}+23.4\\hat{\\jmath})\n=(-8.25\\hat{\\imath}+17.6\\hat{\\jmath})\\,\\mathrm{N\\,s}.\n\\]\nIts magnitude is\n\\[\n|\\vec J|=0.750(25.8)=19.4\\,\\mathrm{N\\,s}.\n\\]\nThe impulse points opposite the package's incoming momentum.",
+          "id": "ap-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Estimate the impulse exerted by the capture pad on the package. Give the vector impulse using \\(+\\hat{\\imath}\\) horizontally forward and \\(+\\hat{\\jmath}\\) upward."
+        }
+      ]
+    },
+    {
+      "id": "ap-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Mechanics",
+      "stem": "A calibration flywheel has moment of inertia \\(0.620\\,\\mathrm{kg\\,m^2}\\) about its axle. A light cord is wrapped around a drum of radius \\(0.180\\,\\mathrm{m}\\) fixed to the flywheel. A technician pulls the free end of the cord with a constant force of \\(24.0\\,\\mathrm{N}\\). A bearing friction torque of magnitude \\(1.10\\,\\mathrm{N\\,m}\\) opposes the rotation.",
+      "title": "Torque, rotational work, and stopping",
+      "parts": [
+        {
+          "answer": "The pull gives a driving torque\n\\[\n\\tau_{\\mathrm{pull}}=RF=(0.180)(24.0)=4.32\\,\\mathrm{N\\,m}.\n\\]\nThe net torque while the cord is being pulled is\n\\[\n\\tau_{\\mathrm{net}}=4.32-1.10=3.22\\,\\mathrm{N\\,m}.\n\\]\nUsing \\(\\sum\\tau=I\\alpha\\),\n\\[\n\\alpha=\\frac{3.22}{0.620}=5.19\\,\\mathrm{rad\\,s^{-2}}.\n\\]\nSince the cord unwinds without slipping, its linear acceleration is\n\\[\na=R\\alpha=(0.180)(5.19)=0.934\\,\\mathrm{m\\,s^{-2}}.\n\\]",
+          "id": "ap-p1-q2-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the angular acceleration of the flywheel while the cord is being pulled, and find the linear acceleration of the cord."
+        },
+        {
+          "answer": "The cord length unwound is related to angular displacement by\n\\[\n\\theta=\\frac{s}{R}=\\frac{2.40}{0.180}=13.3\\,\\mathrm{rad}.\n\\]\nThe net rotational work is\n\\[\nW_{\\mathrm{net}}=\\tau_{\\mathrm{net}}\\theta=(3.22)(13.3)=42.9\\,\\mathrm{J}.\n\\]\nThis becomes rotational kinetic energy:\n\\[\nW_{\\mathrm{net}}=\\frac12I\\omega^2.\n\\]\nTherefore\n\\[\n\\omega=\\sqrt{\\frac{2W_{\\mathrm{net}}}{I}}\n=\\sqrt{\\frac{2(42.9)}{0.620}}\n=11.8\\,\\mathrm{rad\\,s^{-1}}.\n\\]",
+          "id": "ap-p1-q2-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Starting from rest, the flywheel is pulled until \\(2.40\\,\\mathrm{m}\\) of cord has unwound. Use rotational work and energy to find the angular speed at that instant."
+        },
+        {
+          "answer": "After the cord leaves, the only torque is the resisting bearing torque. The angular deceleration magnitude is\n\\[\n\\alpha_f=\\frac{1.10}{0.620}=1.77\\,\\mathrm{rad\\,s^{-2}}.\n\\]\nThe stopping time is\n\\[\nt=\\frac{\\omega_0}{\\alpha_f}=\\frac{11.8}{1.77}=6.65\\,\\mathrm{s}.\n\\]\nThe additional angle turned before stopping is\n\\[\n\\Delta\\theta=\\frac{\\omega_0^2}{2\\alpha_f}\n=\\frac{(11.8)^2}{2(1.77)}\n=39.0\\,\\mathrm{rad}.\n\\]",
+          "id": "ap-p1-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "After the \\(2.40\\,\\mathrm{m}\\) of cord has unwound, the cord leaves the drum and the flywheel slows under the same bearing friction torque. Find the time taken to stop and the additional angle turned."
+        },
+        {
+          "answer": "For a fixed pull force and fixed cord length, the work done by the technician is \\(W=Fs\\), so the driving work does not depend on drum radius. A larger radius gives a larger torque \\(RF\\), but the same cord length corresponds to a smaller angular displacement \\(s/R\\). These two effects cancel for the work done by the pull. The resisting bearing work would not cancel in the same way, because it depends on the angular displacement.",
+          "id": "ap-p1-q2-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Explain why increasing the drum radius would increase the driving torque but would not increase the work done by the pull for the same pulled cord length."
+        }
+      ]
+    },
+    {
+      "id": "ap-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Waves and Optics",
+      "stem": "A laboratory rig uses a stretched string and a diffraction grating in the same alignment test. The string has length \\(0.640\\,\\mathrm{m}\\), is fixed at both ends, and has linear density \\(2.40\\times10^{-3}\\,\\mathrm{kg\\,m^{-1}}\\). Its fundamental resonance is \\(220\\,\\mathrm{Hz}\\). A laser of wavelength \\(532\\,\\mathrm{nm}\\) is incident normally on a grating with \\(500\\,\\mathrm{lines\\,mm^{-1}}\\). A screen is \\(1.80\\,\\mathrm{m}\\) from the grating.",
+      "title": "Standing waves and grating calibration",
+      "parts": [
+        {
+          "answer": "For the fundamental standing wave on a string fixed at both ends,\n\\[\nL=\\frac{\\lambda_1}{2},\n\\]\nso \\(\\lambda_1=2L\\). The wave speed is therefore\n\\[\nv_w=f_1\\lambda_1=2Lf_1.\n\\]\nWith the given values,\n\\[\nv_w=2(0.640)(220)=2.82\\times10^2\\,\\mathrm{m\\,s^{-1}}.\n\\]",
+          "id": "ap-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Derive the relation between the fundamental frequency and the wave speed for this string, then calculate the wave speed."
+        },
+        {
+          "answer": "For a transverse wave on a stretched string,\n\\[\nv_w=\\sqrt{\\frac{T}{\\mu}}.\n\\]\nHence\n\\[\nT=\\mu v_w^2.\n\\]\nSubstituting,\n\\[\nT=(2.40\\times10^{-3})(281.6)^2\n=1.90\\times10^2\\,\\mathrm{N}.\n\\]",
+          "id": "ap-p1-q3-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Calculate the tension in the string."
+        },
+        {
+          "answer": "For a string fixed at both ends, the harmonic frequencies are\n\\[\nf_n=nf_1.\n\\]\nFor \\(n=3\\),\n\\[\nf_3=3(220)=660\\,\\mathrm{Hz}.\n\\]\nThe third harmonic has three half-wavelengths along the string, so adjacent nodes are separated by \\(L/3\\). The node positions are\n\\[\nx=0,\\quad \\frac{L}{3},\\quad \\frac{2L}{3},\\quad L,\n\\]\nwhich gives\n\\[\nx=0,\\ 0.213\\,\\ 0.427\\,\\ 0.640\\,\\mathrm{m}.\n\\]",
+          "id": "ap-p1-q3-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the third-harmonic frequency and the node positions along the string."
+        },
+        {
+          "answer": "The grating spacing is the reciprocal of the line density:\n\\[\nd=\\frac{1}{500\\times10^3}=2.00\\times10^{-6}\\,\\mathrm{m}.\n\\]\nFor the first order, the grating equation gives\n\\[\nd\\sin\\theta_1=\\lambda.\n\\]\nThus\n\\[\n\\sin\\theta_1=\\frac{532\\times10^{-9}}{2.00\\times10^{-6}}=0.266,\n\\]\nso\n\\[\n\\theta_1=15.4^\\circ.\n\\]\nThe screen displacement from the central maximum is\n\\[\ny_1=(1.80)\\tan15.4^\\circ=0.496\\,\\mathrm{m}.\n\\]",
+          "id": "ap-p1-q3-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the grating spacing, the first-order diffraction angle, and the distance on the screen from the central maximum to the first-order maximum."
+        },
+        {
+          "answer": "Allowed orders must satisfy\n\\[\n|m|\\lambda\\le d.\n\\]\nTherefore\n\\[\nm_{\\max}=\\left\\lfloor\\frac{d}{\\lambda}\\right\\rfloor\n=\\left\\lfloor\\frac{2.00\\times10^{-6}}{532\\times10^{-9}}\\right\\rfloor=3.\n\\]\nThe \\(m=4\\) order is impossible because it would require \\(\\sin\\theta>1\\).",
+          "id": "ap-p1-q3-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "Find the highest possible diffraction order and explain why the next order is impossible."
+        }
+      ]
+    },
+    {
+      "id": "ap-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section C: Oscillations and Collisions, Conservation and Fields",
+      "stem": "A floating environmental buoy contains a vertical spring-mass accelerometer. The oscillating sensor mass is \\(0.450\\,\\mathrm{kg}\\), the spring constant is \\(18.0\\,\\mathrm{N\\,m^{-1}}\\), and the linear damping coefficient is \\(0.180\\,\\mathrm{kg\\,s^{-1}}\\). After a wave passes, the sensor is displaced by \\(0.0600\\,\\mathrm{m}\\) from equilibrium and released from rest. The complete buoy, including the sensor, has mass \\(3.65\\,\\mathrm{kg}\\) and a vertical cylindrical hull of cross-sectional area \\(3.00\\times10^{-2}\\,\\mathrm{m^2}\\).\n\nThe damping rate is\n\\[\n\\beta=\\frac{b}{2m}\n\\]\nand the damped angular frequency is\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}.\n\\]\nFor underdamped motion, the amplitude envelope is\n\\[\nA(t)=A_0e^{-\\beta t}.\n\\]",
+      "title": "Damped sensor motion and floating equilibrium",
+      "parts": [
+        {
+          "answer": "The undamped angular frequency is\n\\[\n\\omega_0=\\sqrt{\\frac{k}{m}}\n=\\sqrt{\\frac{18.0}{0.450}}\n=6.32\\,\\mathrm{rad\\,s^{-1}}.\n\\]\nThe damping rate is\n\\[\n\\beta=\\frac{b}{2m}=\\frac{0.180}{2(0.450)}=0.200\\,\\mathrm{s^{-1}}.\n\\]\nSince \\(\\beta<\\omega_0\\), the motion is underdamped.",
+          "id": "ap-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Calculate the undamped angular frequency and the damping rate. Decide whether the motion is underdamped."
+        },
+        {
+          "answer": "For underdamped motion,\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}.\n\\]\nThus\n\\[\n\\omega_d=\\sqrt{(6.32)^2-(0.200)^2}\n=6.32\\,\\mathrm{rad\\,s^{-1}}\n\\]\nto three significant figures. The damped period is\n\\[\nT_d=\\frac{2\\pi}{\\omega_d}=\\frac{2\\pi}{6.32}=0.994\\,\\mathrm{s}.\n\\]\nThe amplitude envelope is\n\\[\nA(t)=A_0e^{-\\beta t}.\n\\]",
+          "id": "ap-p1-q4-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the damped period and write the amplitude envelope for the motion."
+        },
+        {
+          "answer": "After three damped periods,\n\\[\nt=3T_d=3(0.994)=2.98\\,\\mathrm{s}.\n\\]\nThe amplitude is\n\\[\nA=0.0600e^{-(0.200)(2.98)}=0.0331\\,\\mathrm{m}.\n\\]\nThe mechanical energy scale at amplitude \\(A\\) is\n\\[\nE=\\frac12kA^2.\n\\]\nInitially,\n\\[\nE_0=\\frac12(18.0)(0.0600)^2=3.24\\times10^{-2}\\,\\mathrm{J}.\n\\]\nAfter three cycles,\n\\[\nE_3=\\frac12(18.0)(0.0331)^2=9.86\\times10^{-3}\\,\\mathrm{J}.\n\\]\nSo the energy lost is\n\\[\nE_0-E_3=2.25\\times10^{-2}\\,\\mathrm{J}.\n\\]",
+          "id": "ap-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Estimate the amplitude after three damped periods and the mechanical energy lost over those three periods."
+        },
+        {
+          "answer": "For a floating body, the buoyant force balances the weight:\n\\[\n\\rho gAh=mg.\n\\]\nCanceling \\(g\\),\n\\[\nh=\\frac{m}{\\rho A}.\n\\]\nIn fresh water,\n\\[\nh=\\frac{3.65}{(1000)(3.00\\times10^{-2})}\n=0.122\\,\\mathrm{m}.\n\\]",
+          "id": "ap-p1-q4-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "In fresh water of density \\(1000\\,\\mathrm{kg\\,m^{-3}}\\), find the depth of the cylindrical hull below the waterline."
+        },
+        {
+          "answer": "In denser water, less volume must be displaced to support the same weight. In seawater of density \\(1025\\,\\mathrm{kg\\,m^{-3}}\\), the depth would be\n\\[\nh=\\frac{3.65}{(1025)(3.00\\times10^{-2})}=0.119\\,\\mathrm{m},\n\\]\nso the buoy would sit slightly higher.",
+          "id": "ap-p1-q4-e",
+          "label": "(e)",
+          "marks": 1,
+          "prompt": "State how the immersion depth changes if the buoy is placed in seawater of density \\(1025\\,\\mathrm{kg\\,m^{-3}}\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 1",
+  "totalMarks": 60
+}

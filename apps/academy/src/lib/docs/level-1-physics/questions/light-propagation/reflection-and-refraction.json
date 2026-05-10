@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "reflection-and-refraction",
+  "topicTitle": "Reflection and Refraction",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "reflection-refraction-01",
+      "prompt": "State the law of reflection.",
+      "answer": "The angle of reflection equals the angle of incidence:\n\\[\n\\theta_r=\\theta_i\n\\]\nBoth angles are measured from the normal.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-02",
+      "prompt": "State Snell's law.",
+      "answer": "Snell's law is\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]\nAngles are measured from the normal.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-03",
+      "prompt": "A ray hits a plane mirror at \\(28^\\circ\\) to the normal. Find the angle of reflection.",
+      "answer": "By the law of reflection,\n\\[\n\\theta_r=\\theta_i=28^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-04",
+      "prompt": "Light goes from air \\((n=1.00)\\) into glass \\((n=1.50)\\) at \\(30^\\circ\\). Find the refracted angle.",
+      "answer": "\\[\n1.00\\sin30^\\circ=1.50\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.333\n\\]\n\\[\n\\theta_2=19.5^\\circ\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-05",
+      "prompt": "Light enters water \\((n=1.33)\\) from air. Does it bend toward or away from the normal?",
+      "answer": "Water has a higher refractive index than air, so light slows down and bends toward the normal.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-06",
+      "prompt": "Light travels from glass \\((n=1.50)\\) into air \\((n=1.00)\\) at \\(25^\\circ\\). Find the refracted angle.",
+      "answer": "\\[\n1.50\\sin25^\\circ=1.00\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.634\n\\]\n\\[\n\\theta_2=39.4^\\circ\n\\]\nThe ray bends away from the normal.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-07",
+      "prompt": "Light has wavelength \\(500\\,\\mathrm{nm}\\) in air and enters a medium with \\(n=1.25\\). Find its wavelength in the medium.",
+      "answer": "Frequency is unchanged, so\n\\[\n\\lambda=\\frac{\\lambda_0}{n}=\\frac{500}{1.25}=400\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-08",
+      "prompt": "A ray in air enters an unknown material at \\(40^\\circ\\) and refracts to \\(25^\\circ\\). Find the material's refractive index.",
+      "answer": "Use Snell's law with \\(n_1=1.00\\):\n\\[\n1.00\\sin40^\\circ=n_2\\sin25^\\circ\n\\]\n\\[\nn_2=\\frac{\\sin40^\\circ}{\\sin25^\\circ}=1.52\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-09",
+      "prompt": "Derive the speed form of Snell's law from the index form.",
+      "answer": "Start with\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]\nUsing \\(n=c/v\\),\n\\[\n\\frac{c}{v_1}\\sin\\theta_1=\\frac{c}{v_2}\\sin\\theta_2\n\\]\nCancel \\(c\\):\n\\[\n\\frac{\\sin\\theta_1}{v_1}=\\frac{\\sin\\theta_2}{v_2}\n\\]\nRearrange:\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-10",
+      "prompt": "Light goes from medium 1 to medium 2. Its speed decreases by a factor of \\(0.80\\), and the incident angle is \\(45^\\circ\\). Find the refracted angle.",
+      "answer": "Use the speed form:\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]\nGiven \\(v_2=0.80v_1\\),\n\\[\n\\frac{v_1}{v_2}=1.25\n\\]\nso\n\\[\n\\sin\\theta_2=\\frac{\\sin45^\\circ}{1.25}=0.566\n\\]\n\\[\n\\theta_2=34.4^\\circ\n\\]\nThe ray bends toward the normal.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-11",
+      "prompt": "A ray enters a parallel-sided glass slab \\((n=1.50)\\) from air at \\(40^\\circ\\). Find the angle inside the slab and the angle at which it emerges back into air.",
+      "answer": "At the first surface,\n\\[\n1.00\\sin40^\\circ=1.50\\sin\\theta_g\n\\]\n\\[\n\\theta_g=25.4^\\circ\n\\]\nAt the second parallel surface,\n\\[\n1.50\\sin25.4^\\circ=1.00\\sin\\theta_{\\mathrm{out}}\n\\]\nso\n\\[\n\\theta_{\\mathrm{out}}=40^\\circ\n\\]\nThe emergent ray is parallel to the incident ray.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-12",
+      "prompt": "A ray in water \\((n=1.33)\\) enters glass \\((n=1.50)\\) at \\(35^\\circ\\). Find the refracted angle.",
+      "answer": "Use Snell's law:\n\\[\n1.33\\sin35^\\circ=1.50\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.509\n\\]\n\\[\n\\theta_2=30.6^\\circ\n\\]\nThe ray bends slightly toward the normal.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-13",
+      "prompt": "A ray in air enters a material at \\(55^\\circ\\) and refracts to \\(32^\\circ\\). Find the speed of light in the material.",
+      "answer": "First find the refractive index:\n\\[\nn=\\frac{\\sin55^\\circ}{\\sin32^\\circ}=1.55\n\\]\nThen\n\\[\nv=\\frac{c}{n}=\\frac{3.00\\times10^8}{1.55}=1.94\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-14",
+      "prompt": "A ray goes from medium A to medium B. The refracted angle is larger than the incident angle. What can you conclude about the refractive indices and speeds?",
+      "answer": "A larger refracted angle means the ray bends away from the normal. Therefore medium B has lower refractive index:\n\\[\nn_B<n_A\n\\]\nSince \\(v=c/n\\), medium B has higher light speed:\n\\[\nv_B>v_A\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-15",
+      "prompt": "A ray passes from air into a liquid. The incident angle is \\(60^\\circ\\), and the refracted angle is \\(40^\\circ\\). Find the liquid's refractive index and wavelength ratio \\(\\lambda_{\\mathrm{liquid}}/\\lambda_{\\mathrm{air}}\\).",
+      "answer": "From Snell's law,\n\\[\nn=\\frac{\\sin60^\\circ}{\\sin40^\\circ}=1.35\n\\]\nFrequency is unchanged, so wavelength scales as \\(1/n\\):\n\\[\n\\frac{\\lambda_{\\mathrm{liquid}}}{\\lambda_{\\mathrm{air}}}=\\frac{1}{n}=0.742\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-16",
+      "prompt": "Derive why a ray entering and leaving a parallel-sided slab emerges parallel to the incident ray.",
+      "answer": "For the first surface,\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]\nFor the second parallel surface, the internal angle at the boundary is the same \\(\\theta_2\\), so\n\\[\nn_2\\sin\\theta_2=n_1\\sin\\theta_3\n\\]\nCombining gives\n\\[\nn_1\\sin\\theta_1=n_1\\sin\\theta_3\n\\]\nThus\n\\[\n\\theta_3=\\theta_1\n\\]\nfor physical angles between \\(0^\\circ\\) and \\(90^\\circ\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-17",
+      "prompt": "A \\(5.0\\,\\mathrm{cm}\\) thick glass slab has \\(n=1.50\\). A ray enters from air at \\(30^\\circ\\). Find the path length traveled inside the slab.",
+      "answer": "First find the angle in glass:\n\\[\n\\sin\\theta_g=\\frac{\\sin30^\\circ}{1.50}=0.333\n\\]\n\\[\n\\theta_g=19.5^\\circ\n\\]\nIf the slab thickness is measured normal to the faces, the internal path length is\n\\[\n\\ell=\\frac{d}{\\cos\\theta_g}=\\frac{5.0\\,\\mathrm{cm}}{\\cos19.5^\\circ}=5.30\\,\\mathrm{cm}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-18",
+      "prompt": "A ray goes air \\(\\to\\) layer A \\((n=1.40)\\) \\(\\to\\) layer B \\((n=1.70)\\), with parallel boundaries. If the initial angle in air is \\(50^\\circ\\), find the angle in layer B.",
+      "answer": "For parallel layers, the intermediate index cancels:\n\\[\nn_{\\mathrm{air}}\\sin\\theta_{\\mathrm{air}}=n_B\\sin\\theta_B\n\\]\nThus\n\\[\n\\sin\\theta_B=\\frac{1.00\\sin50^\\circ}{1.70}=0.451\n\\]\n\\[\n\\theta_B=26.8^\\circ\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-19",
+      "prompt": "A pool appears shallower than it is when viewed nearly normally from air. Use refraction to explain this qualitatively.",
+      "answer": "Light from the bottom bends away from the normal as it leaves water and enters air. The observer's eye traces the refracted rays backward in straight lines, so they appear to come from a point above the true bottom. Therefore the apparent depth is smaller than the real depth.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "reflection-refraction-20",
+      "prompt": "For small angles near normal incidence, derive the apparent depth \\(d_{\\mathrm{app}}\\approx d/n\\) for an object in water viewed from air.",
+      "answer": "For small angles,\n\\[\n\\sin\\theta\\approx\\tan\\theta\\approx\\theta\n\\]\nSnell's law for water to air gives\n\\[\nn\\theta_w\\approx \\theta_a\n\\]\nGeometry gives\n\\[\n\\tan\\theta_w\\approx\\frac{x}{d},\\qquad \\tan\\theta_a\\approx\\frac{x}{d_{\\mathrm{app}}}\n\\]\nso\n\\[\n\\frac{x}{d_{\\mathrm{app}}}\\approx n\\frac{x}{d}\n\\]\nCancel \\(x\\):\n\\[\nd_{\\mathrm{app}}\\approx\\frac{d}{n}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

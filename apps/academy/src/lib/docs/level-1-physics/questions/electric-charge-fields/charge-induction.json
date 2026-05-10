@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "charge-induction",
+  "topicTitle": "Charge Induction",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "charge-induction-01",
+      "prompt": "Can a neutral conductor have separated positive and negative regions by induction?",
+      "answer": "Yes. A neutral conductor can have separated positive and negative regions while its net charge remains zero.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-02",
+      "prompt": "A negative rod is brought near a neutral conductor. Which sign is induced on the near side?",
+      "answer": "A negative rod repels electrons in the conductor. The near side becomes electron-deficient, so it is positive.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-03",
+      "prompt": "During induction without contact or grounding, does the conductor\u0027s net charge change?",
+      "answer": "No. Without contact or grounding,\n\\[\n\\Delta Q_{\\mathrm{conductor}}=0\n\\]\nThe charge redistributes, but the net charge does not change.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-04",
+      "prompt": "A positive rod is near a neutral metal sphere. The sphere is grounded while the rod remains nearby. Do electrons flow from ground to sphere or from sphere to ground?",
+      "answer": "A positive rod attracts electrons. With the sphere grounded, electrons flow from ground to sphere.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-05",
+      "prompt": "A negative rod charges a neutral conductor by induction using grounding. What sign is left on the conductor after the ground is removed and then the rod is taken away?",
+      "answer": "A negative rod repels electrons from the conductor into ground. After the ground is removed and then the rod is taken away, the conductor is left positive.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-06",
+      "prompt": "A neutral conductor has induced charges \\(+9\\,\\mathrm{nC}\\) on the near side and \\(Q_{\\mathrm{far}}\\) on the far side while isolated. Find \\(Q_{\\mathrm{far}}\\).",
+      "answer": "The isolated conductor remains neutral:\n\\[\nQ_{\\mathrm{near}}+Q_{\\mathrm{far}}=0\n\\]\n\\[\n9\\,\\mathrm{nC}+Q_{\\mathrm{far}}=0\n\\]\n\\[\nQ_{\\mathrm{far}}=-9\\,\\mathrm{nC}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-07",
+      "prompt": "Describe the correct order of steps to charge a neutral conductor negatively by induction using a positive rod and a ground connection.",
+      "answer": "To charge the conductor negatively:\n\n1. Bring a positive rod near the neutral conductor without touching it.\n2. Connect the conductor to ground while the rod remains nearby.\n3. Electrons flow from ground onto the conductor.\n4. Remove the ground connection first.\n5. Remove the positive rod.\n\nThe conductor is left with excess electrons, so it is negatively charged.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-08",
+      "prompt": "A charged rod attracts a neutral conductor. Explain why attraction can occur even though the conductor\u0027s net charge is zero.",
+      "answer": "The charged rod polarizes the neutral conductor. Opposite sign is induced on the nearer side and like sign is pushed farther away.\n\nBecause the opposite charge is closer to the rod, its attractive force is stronger than the repulsive force from the farther like charge. The conductor can therefore be attracted even though its net charge is zero.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-09",
+      "prompt": "A student grounds a neutral conductor first, removes the external charged rod while the ground is still attached, and only then disconnects the ground. Predict the final net charge and identify the failed induction step.",
+      "answer": "If the rod is removed while the ground is still attached, the external field that maintained charge separation disappears before the conductor is isolated.\n\nCharge can then flow through the ground connection until the conductor returns to neutral. The final net charge is zero.\n\nThe failed step is removing the external charged rod before disconnecting the ground. For charging by induction, the ground must be removed first.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "charge-induction-10",
+      "prompt": "A positive rod is held near two touching neutral metal spheres. The spheres are separated while the rod remains, then the rod is removed. Determine the final signs on the near and far spheres, and explain why total charge is conserved.",
+      "answer": "A positive rod attracts electrons toward the near sphere. While the two metal spheres touch, electrons can move from the far sphere to the near sphere.\n\nIf the spheres are separated while the rod remains, that separated charge distribution is locked in:\n\n\\[\nQ_{\\mathrm{near}}\u003c0,\\qquad Q_{\\mathrm{far}}\u003e0\n\\]\n\nAfter the rod is removed, the near sphere remains negative and the far sphere remains positive. Total charge is conserved because the two-sphere system began neutral and no grounding or contact with the rod transferred net charge:\n\\[\nQ_{\\mathrm{near}}+Q_{\\mathrm{far}}=0\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

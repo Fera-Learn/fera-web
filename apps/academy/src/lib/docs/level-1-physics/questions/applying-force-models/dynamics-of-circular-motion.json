@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "applying-force-models",
+  "topicId": "dynamics-of-circular-motion",
+  "topicTitle": "Dynamics of Circular Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "circular-dynamics-01",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) particle moves at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) in a circle of radius \\(3.0\\,\\mathrm{m}\\). Find the required inward net force.",
+      "answer": "\\[\nF_r=m\\frac{v^2}{r}=2.0\\frac{6.0^2}{3.0}=24\\,\\mathrm{N}\n\\]\nThe force is inward.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-02",
+      "prompt": "A particle has centripetal acceleration \\(9.0\\,\\mathrm{m\\,s^{-2}}\\) on a circle of radius \\(4.0\\,\\mathrm{m}\\). Find its speed.",
+      "answer": "\\[\na_c=\\frac{v^2}{r}\n\\]\n\\[\nv=\\sqrt{a_cr}=\\sqrt{9.0(4.0)}=6.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-03",
+      "prompt": "A \\(1000\\,\\mathrm{kg}\\) car takes a flat curve of radius \\(50\\,\\mathrm{m}\\) at \\(10\\,\\mathrm{m\\,s^{-1}}\\). Find the static friction force required.",
+      "answer": "Static friction supplies the inward net force:\n\\[\nf_s=m\\frac{v^2}{r}=1000\\frac{10^2}{50}=2000\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-04",
+      "prompt": "In uniform circular motion, what direction is the net force?",
+      "answer": "The net force points inward, toward the centre of the circle.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-05",
+      "prompt": "A car takes a flat curve of radius \\(60\\,\\mathrm{m}\\) at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Find the minimum coefficient of static friction.",
+      "answer": "For a flat curve,\n\\[\n\\mu_smg\\ge m\\frac{v^2}{r}\n\\]\n\\[\n\\mu_s\\ge\\frac{v^2}{rg}=\\frac{15^2}{60(9.8)}=0.383\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-06",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) rider crosses the top of a circular hill with \\(r=40\\,\\mathrm{m}\\) and \\(v=12\\,\\mathrm{m\\,s^{-1}}\\). Find the normal force.",
+      "answer": "At the top, inward is downward:\n\\[\nmg-N=m\\frac{v^2}{r}\n\\]\n\\[\nN=m\\left(g-\\frac{v^2}{r}\\right)=70(9.8-\\frac{12^2}{40})=434\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-07",
+      "prompt": "The same \\(70\\,\\mathrm{kg}\\) rider passes through the bottom of a circular dip with \\(r=40\\,\\mathrm{m}\\) and \\(v=12\\,\\mathrm{m\\,s^{-1}}\\). Find the normal force.",
+      "answer": "At the bottom, inward is upward:\n\\[\nN-mg=m\\frac{v^2}{r}\n\\]\n\\[\nN=m\\left(g+\\frac{v^2}{r}\\right)=70(9.8+\\frac{12^2}{40})=938\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-08",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) object moves in a horizontal circle of radius \\(1.2\\,\\mathrm{m}\\) at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\). Find the required horizontal component of the tension.",
+      "answer": "The horizontal component supplies the radial force:\n\\[\nT_h=m\\frac{v^2}{r}=0.50\\frac{3.0^2}{1.2}=3.75\\,\\mathrm{N}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-09",
+      "prompt": "A frictionless banked curve has radius \\(80\\,\\mathrm{m}\\) and bank angle \\(15^\\circ\\). Find the speed for which no friction is needed.",
+      "answer": "For a frictionless banked curve,\n\\[\n\\tan\\theta=\\frac{v^2}{rg}\n\\]\n\\[\nv=\\sqrt{rg\\tan\\theta}=\\sqrt{80(9.8)\\tan15^\\circ}=14.5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-10",
+      "prompt": "A ball on a string moves in a vertical circle of radius \\(2.0\\,\\mathrm{m}\\). Find the minimum speed at the top for the string to remain taut, and the corresponding speed at the bottom if mechanical energy is conserved.",
+      "answer": "At the minimum top speed, the tension is just zero:\n\\[\nmg=m\\frac{v^2}{r}\n\\]\n\\[\nv=\\sqrt{gr}=\\sqrt{9.8(2.0)}=4.43\\,\\mathrm{m\\,s^{-1}}\n\\]\nFrom top to bottom the drop is \\(2r\\), so by energy:\n\\[\n\tfrac12mv_b^2=\\tfrac12mv_t^2+mg(2r)\n\\]\n\\[\nv_b^2=v_t^2+4gr=gr+4gr=5gr\n\\]\n\\[\nv_b=\\sqrt{5gr}=9.90\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-11",
+      "prompt": "A coin sits \\(0.25\\,\\mathrm{m}\\) from the center of a turntable. If \\(\\mu_s=0.60\\), find the maximum angular speed before slipping and the corresponding maximum period of rotation frequency \\(f_{\\max}\\).",
+      "answer": "Static friction supplies the radial force:\n\\[\n\\mu_smg=mr\\omega^2\n\\]\n\\[\n\\omega_{\\max}=\\sqrt{\\frac{\\mu_sg}{r}}=\\sqrt{\\frac{0.60(9.8)}{0.25}}=4.85\\,\\mathrm{rad\\,s^{-1}}\n\\]\nMaximum rotation frequency:\n\\[\nf_{\\max}=\\frac{\\omega_{\\max}}{2\\pi}=0.772\\,\\mathrm{Hz}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "circular-dynamics-12",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) ball forms a conical pendulum with string length \\(1.0\\,\\mathrm{m}\\) and angle \\(30^\\circ\\) from vertical. Find tension, speed, and period of revolution.",
+      "answer": "Vertical balance gives\n\\[\nT\\cos30^\\circ=mg\n\\]\n\\[\nT=\\frac{0.20(9.8)}{\\cos30^\\circ}=2.26\\,\\mathrm{N}\n\\]\nThe circle radius is\n\\[\nr=L\\sin30^\\circ=0.50\\,\\mathrm{m}\n\\]\nRadially,\n\\[\nT\\sin30^\\circ=m\\frac{v^2}{r}\n\\]\n\\[\nv=\\sqrt{\\frac{T\\sin30^\\circ r}{m}}=1.68\\,\\mathrm{m\\,s^{-1}}\n\\]\nAngular speed and period:\n\\[\n\\omega=\\frac{v}{r}=\\frac{1.68}{0.50}=3.36\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nP=\\frac{2\\pi}{\\omega}=1.87\\,\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

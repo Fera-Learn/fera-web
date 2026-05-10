@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "work-energy-power",
+  "topicId": "kinetic-energy-and-the-work-energy-principle",
+  "topicTitle": "Kinetic Energy and the Work-Energy Principle",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "work-energy-01",
+      "prompt": "Find the kinetic energy of a \\(2.0\\,\\mathrm{kg}\\) object moving at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nK=\\frac{1}{2}mv^2=\\frac{1}{2}(2.0)(3.0^2)=9.0\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-02",
+      "prompt": "A \\(1.5\\,\\mathrm{kg}\\) object speeds up from \\(4.0\\,\\mathrm{m\\,s^{-1}}\\) to \\(7.0\\,\\mathrm{m\\,s^{-1}}\\). Find the net work done on it.",
+      "answer": "\\[\nW_{\\text{net}}=\\Delta K=\\frac{1}{2}(1.5)(7.0^2-4.0^2)=24.75\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-03",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) object starts from rest. Net work \\(40\\,\\mathrm{J}\\) is done on it. Find its final speed.",
+      "answer": "\\[\nK_f=40\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2K_f}{m}}=\\sqrt{\\frac{80}{2.0}}=6.32\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-04",
+      "prompt": "If an object\u0027s speed is doubled, by what factor does its kinetic energy change?",
+      "answer": "Since \\(K=\\frac{1}{2}mv^2\\), doubling \\(v\\) multiplies \\(K\\) by \\(2^2=4\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-05",
+      "prompt": "A \\(3.0\\,\\mathrm{kg}\\) cart moving at \\(2.0\\,\\mathrm{m\\,s^{-1}}\\) has \\(48\\,\\mathrm{J}\\) of net work done on it. Find its final speed.",
+      "answer": "\\[\nK_i=\\frac{1}{2}(3.0)(2.0^2)=6.0\\,\\mathrm{J}\n\\]\n\\[\nK_f=6.0+48=54\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(54)}{3.0}}=6.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-06",
+      "prompt": "A brake does \\(-250\\,\\mathrm{J}\\) of work on a \\(5.0\\,\\mathrm{kg}\\) object and brings it to rest. Find the object\u0027s initial speed.",
+      "answer": "\\[\nW_{\\text{net}}=K_f-K_i=0-K_i=-250\\,\\mathrm{J}\n\\]\n\\[\nK_i=250\\,\\mathrm{J}\n\\]\n\\[\nv_i=\\sqrt{\\frac{2(250)}{5.0}}=10\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-07",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) object moving at \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) has \\(30\\,\\mathrm{J}\\) of negative net work done on it. Find its final speed.",
+      "answer": "\\[\nK_i=\\frac{1}{2}(4.0)(6.0^2)=72\\,\\mathrm{J}\n\\]\n\\[\nK_f=72-30=42\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(42)}{4.0}}=4.58\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-08",
+      "prompt": "A \\(10\\,\\mathrm{N}\\) net force acts over \\(6.0\\,\\mathrm{m}\\) on a \\(4.0\\,\\mathrm{kg}\\) object initially moving at \\(2.0\\,\\mathrm{m\\,s^{-1}}\\). Find the final speed.",
+      "answer": "\\[\nW_{\\text{net}}=10(6.0)=60\\,\\mathrm{J}\n\\]\n\\[\nK_i=\\frac{1}{2}(4.0)(2.0^2)=8.0\\,\\mathrm{J}\n\\]\n\\[\nK_f=68\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(68)}{4.0}}=5.83\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-09",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) ball moving at \\(12\\,\\mathrm{m\\,s^{-1}}\\) hits a soft barrier and stops. How much work does the barrier do on the ball?",
+      "answer": "\\[\nW_{\\text{barrier}}=K_f-K_i=0-\\frac{1}{2}(0.50)(12^2)=-36\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-10",
+      "prompt": "Explain why the work-energy principle gives final speed but not the final direction of motion.",
+      "answer": "Kinetic energy depends on \\(v^2\\), so it contains speed but not the direction of the velocity vector. Direction must come from the force and motion model.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-11",
+      "prompt": "A \\(4.0\\,\\mathrm{kg}\\) crate initially moves at \\(1.0\\,\\mathrm{m\\,s^{-1}}\\). A \\(25\\,\\mathrm{N}\\) force pulls at \\(30^\\circ\\) above horizontal for \\(6.0\\,\\mathrm{m}\\), while friction does \\(-48\\,\\mathrm{J}\\) of work. Find the final speed and change in kinetic energy.",
+      "answer": "\\[\nW_{\\text{pull}}=25(6.0)\\cos30^\\circ=129.9\\,\\mathrm{J}\n\\]\n\\[\nK_i=\\frac{1}{2}(4.0)(1.0^2)=2.0\\,\\mathrm{J}\n\\]\n\\[\nK_f=2.0+129.9-48=83.9\\,\\mathrm{J}\n\\]\n\\[\n\\Delta K=K_f-K_i=83.9-2.0=81.9\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(83.9)}{4.0}}=6.48\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-12",
+      "prompt": "A \\(900\\,\\mathrm{kg}\\) car at \\(20\\,\\mathrm{m\\,s^{-1}}\\) is stopped by a constant braking force of \\(4500\\,\\mathrm{N}\\). Find the stopping distance.",
+      "answer": "The braking work removes the initial kinetic energy:\n\\[\n-Fd=0-\\frac{1}{2}mv_i^2\n\\]\n\\[\nd=\\frac{\\frac{1}{2}(900)(20^2)}{4500}=40\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-13",
+      "prompt": "A \\(0.20\\,\\mathrm{kg}\\) puck starts at \\(5.0\\,\\mathrm{m\\,s^{-1}}\\). It crosses a rough patch \\(1.5\\,\\mathrm{m}\\) long where friction has magnitude \\(0.60\\,\\mathrm{N}\\), then immediately enters a smooth region where a constant forward force of \\(0.40\\,\\mathrm N\\) acts for \\(2.0\\,\\mathrm m\\). Find the speed at the end of the smooth region.",
+      "answer": "Stage 1 (rough patch):\n\\[\nK_i=\\frac{1}{2}(0.20)(5.0^2)=2.5\\,\\mathrm{J}\n\\]\n\\[\nW_f=-0.60(1.5)=-0.90\\,\\mathrm{J}\n\\]\n\\[\nK_1=1.6\\,\\mathrm{J}\n\\]\nStage 2 (smooth region with forward force):\n\\[\nW_2=0.40(2.0)=0.80\\,\\mathrm{J}\n\\]\n\\[\nK_f=K_1+W_2=2.4\\,\\mathrm{J}\n\\]\n\\[\nv_f=\\sqrt{\\frac{2(2.4)}{0.20}}=4.90\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-14",
+      "prompt": "A \\(6.0\\,\\mathrm{kg}\\) object is moving at \\(4.0\\,\\mathrm{m\\,s^{-1}}\\). How much positive net work is needed to triple its speed, and what fraction of the final kinetic energy is this added work?",
+      "answer": "Tripling speed makes kinetic energy nine times larger.\n\\[\nK_i=\\frac{1}{2}(6.0)(4.0^2)=48\\,\\mathrm{J}\n\\]\n\\[\nK_f=9K_i=432\\,\\mathrm{J}\n\\]\n\\[\nW_{\\text{net}}=432-48=384\\,\\mathrm{J}\n\\]\nFraction of final kinetic energy provided by added work:\n\\[\n\\frac{W_{\\text{net}}}{K_f}=\\frac{384}{432}=\\frac{8}{9}=0.889\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-15",
+      "prompt": "A \\(5.0\\,\\mathrm{kg}\\) sled starts from rest and slides \\(8.0\\,\\mathrm{m}\\) down a \\(25^\\circ\\) incline. The coefficient of kinetic friction is \\(0.15\\). In the final \\(2.0\\,\\mathrm m\\), an additional constant resistive force of \\(18\\,\\mathrm N\\) acts up the slope. Use work-energy to find the speed at the bottom.",
+      "answer": "Gravity does positive work, friction negative, and in the last \\(2.0\\,\\mathrm m\\) an extra resistive force does additional negative work:\n\\[\nW_{\\text{net}}=mgd\\sin25^\\circ-\\mu_k mgd\\cos25^\\circ\n\\]\n\\[\nW_1=5.0(9.8)(8.0)(\\sin25^\\circ-0.15\\cos25^\\circ)=112.3\\,\\mathrm{J}\n\\]\n\\[\nW_2=-18(2.0)=-36.0\\,\\mathrm{J}\n\\]\n\\[\nW_{\\text{net}}=W_1+W_2=76.3\\,\\mathrm{J}\n\\]\n\\[\n\\frac{1}{2}mv_f^2=76.3\n\\]\n\\[\nv_f=5.53\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "work-energy-16",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) block starts at \\(3.0\\,\\mathrm{m\\,s^{-1}}\\) on a horizontal surface. A forward \\(18\\,\\mathrm{N}\\) force acts for \\(2.0\\,\\mathrm{m}\\), then a backward \\(12\\,\\mathrm{N}\\) force acts for \\(3.0\\,\\mathrm{m}\\). Determine whether the block stops during stage 2; if not, find final speed.",
+      "answer": "\\[\nK_i=\\frac{1}{2}(2.0)(3.0^2)=9.0\\,\\mathrm{J}\n\\]\nStage 1 work:\n\\[\nW_1=18(2.0)=36\\,\\mathrm{J}\n\\Rightarrow\nK_1=45\\,\\mathrm{J}\n\\]\nIf only stage 2 force acted, stopping distance from \\(K_1\\) would be\n\\[\nd_{\\text{stop}}=\\frac{K_1}{12}=3.75\\,\\mathrm m\n\\]\nSince stage 2 length is only \\(3.0\\,\\mathrm m\\), it does not stop.\n\\[\nW_2=-12(3.0)=-36\\,\\mathrm{J}\n\\]\n\\[\nK_f=45-36=9.0\\,\\mathrm{J}\n\\]\n\\[\nv_f=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "beats",
+  "topicTitle": "Beats",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-beats-01",
+      "prompt": "Two tones have frequencies \\(440\\,\\mathrm{Hz}\\) and \\(446\\,\\mathrm{Hz}\\). Find the beat frequency.",
+      "answer": "\\[\nf_{\\mathrm{beat}}=|446-440|=6\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-02",
+      "prompt": "Two tones have frequencies \\(256\\,\\mathrm{Hz}\\) and \\(260\\,\\mathrm{Hz}\\). Find the average tone frequency.",
+      "answer": "\\[\nf_{\\mathrm{avg}}=\\frac{256+260}{2}=258\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-03",
+      "prompt": "A listener hears \\(5\\,\\mathrm{Hz}\\) beats when a \\(512\\,\\mathrm{Hz}\\) fork is played with another fork. Give two possible frequencies for the other fork.",
+      "answer": "The other fork can be \\(5\\,\\mathrm{Hz}\\) above or below \\(512\\,\\mathrm{Hz}\\):\n\\[\n507\\,\\mathrm{Hz}\\quad \\text{or}\\quad 517\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-04",
+      "prompt": "Two tones have beat frequency \\(8\\,\\mathrm{Hz}\\). If one tone is \\(300\\,\\mathrm{Hz}\\), what are the two possible frequencies of the other tone?",
+      "answer": "\\[\nf=300\\pm8\n\\]\nso the other frequency could be\n\\[\n292\\,\\mathrm{Hz}\\quad \\text{or}\\quad 308\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-05",
+      "prompt": "Two frequencies are \\(499\\,\\mathrm{Hz}\\) and \\(503\\,\\mathrm{Hz}\\). Find the beat period.",
+      "answer": "\\[\nf_{\\mathrm{beat}}=|503-499|=4\\,\\mathrm{Hz}\n\\]\nso\n\\[\nT_{\\mathrm{beat}}=\\frac{1}{4}=0.25\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-06",
+      "prompt": "Two tones produce \\(12\\) loudness maxima in \\(3.0\\,\\mathrm{s}\\). Find the beat frequency and the frequency difference.",
+      "answer": "\\[\nf_{\\mathrm{beat}}=\\frac{12}{3.0}=4.0\\,\\mathrm{Hz}\n\\]\nThe frequency difference is also\n\\[\n|f_1-f_2|=4.0\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-07",
+      "prompt": "Two tones have \\(f_{\\mathrm{avg}}=400\\,\\mathrm{Hz}\\) and \\(f_{\\mathrm{beat}}=6\\,\\mathrm{Hz}\\). Find the two original frequencies.",
+      "answer": "Let \\(f_2\u003ef_1\\). Then\n\\[\nf_2-f_1=6,\\qquad \\frac{f_1+f_2}{2}=400\n\\]\nso\n\\[\nf_1=397\\,\\mathrm{Hz},\\qquad f_2=403\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-08",
+      "prompt": "A \\(440\\,\\mathrm{Hz}\\) tuning fork and a string produce \\(3\\,\\mathrm{Hz}\\) beats. After the string is tightened, the beat frequency becomes \\(7\\,\\mathrm{Hz}\\). Was the original string frequency above or below \\(440\\,\\mathrm{Hz}\\)? Explain.",
+      "answer": "Tightening the string raises its frequency. If the original string were above \\(440\\,\\mathrm{Hz}\\), tightening would move it farther away and increase the beat frequency. The beat frequency did increase from \\(3\\) to \\(7\\,\\mathrm{Hz}\\), so the original string was above \\(440\\,\\mathrm{Hz}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-09",
+      "prompt": "Two equal-amplitude tones are \\(200\\,\\mathrm{Hz}\\) and \\(202\\,\\mathrm{Hz}\\). Write the beat frequency and the approximate pitch frequency.",
+      "answer": "\\[\nf_{\\mathrm{beat}}=|202-200|=2\\,\\mathrm{Hz}\n\\]\nThe approximate pitch is near\n\\[\nf_{\\mathrm{avg}}=\\frac{200+202}{2}=201\\,\\mathrm{Hz}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-10",
+      "prompt": "A beat envelope repeats every \\(0.25\\,\\mathrm{s}\\). Find the frequency difference between the two tones.",
+      "answer": "\\[\nf_{\\mathrm{beat}}=\\frac{1}{T_{\\mathrm{beat}}}=\\frac{1}{0.25}=4\\,\\mathrm{Hz}\n\\]\nSo the two tones differ by \\(4\\,\\mathrm{Hz}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-11",
+      "prompt": "Use \\(s(t)=A\\cos(\\omega_1t)+A\\cos(\\omega_2t)\\) to identify the fast oscillation frequency and beat frequency for \\(f_1=600\\,\\mathrm{Hz}\\) and \\(f_2=608\\,\\mathrm{Hz}\\).",
+      "answer": "The beat frequency is\n\\[\nf_{\\mathrm{beat}}=|608-600|=8\\,\\mathrm{Hz}\n\\]\nThe fast oscillation is near the average:\n\\[\nf_{\\mathrm{avg}}=\\frac{600+608}{2}=604\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-12",
+      "prompt": "A student hears beats at \\(4\\,\\mathrm{Hz}\\) with a reference fork. Adding a small mass to the unknown fork lowers its frequency and the beat frequency becomes \\(1\\,\\mathrm{Hz}\\). Was the unknown initially above or below the reference frequency?",
+      "answer": "Adding mass lowers the unknown fork\u0027s frequency. The beat frequency decreased from \\(4\\,\\mathrm{Hz}\\) to \\(1\\,\\mathrm{Hz}\\), so lowering the unknown moved it closer to the reference. Therefore the unknown was initially above the reference frequency.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-13",
+      "prompt": "Two tones differ by \\(20\\,\\mathrm{Hz}\\). Explain why the result may be heard as roughness or two tones rather than slow beats.",
+      "answer": "A \\(20\\,\\mathrm{Hz}\\) difference means the amplitude envelope varies \\(20\\) times per second. That can be too fast to hear as distinct slow loud-soft beats, so the ear may perceive roughness or two separate tones instead.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-14",
+      "prompt": "Two tones have angular frequencies \\(2800\\,\\mathrm{rad\\,s^{-1}}\\) and \\(2864\\,\\mathrm{rad\\,s^{-1}}\\). Find the beat frequency in hertz.",
+      "answer": "The angular-frequency difference is\n\\[\n\\Delta\\omega=2864-2800=64\\,\\mathrm{rad\\,s^{-1}}\n\\]\nso\n\\[\nf_{\\mathrm{beat}}=\\frac{\\Delta\\omega}{2\\pi}=\\frac{64}{2\\pi}=10.2\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-15",
+      "prompt": "Derive \\(f_{\\mathrm{beat}}=|f_1-f_2|\\) using the sum of two equal-amplitude cosines.",
+      "answer": "Start with\n\\[\ns=A\\cos(\\omega_1t)+A\\cos(\\omega_2t)\n\\]\nUsing the cosine-sum identity,\n\\[\ns=2A\\cos\\left(\\frac{\\omega_1-\\omega_2}{2}t\\right)\\cos\\left(\\frac{\\omega_1+\\omega_2}{2}t\\right)\n\\]\nThe loudness envelope repeats at the difference frequency, so\n\\[\nf_{\\mathrm{beat}}=|f_1-f_2|\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-16",
+      "prompt": "Given \\(f_{\\mathrm{avg}}\\) and \\(f_{\\mathrm{beat}}\\), derive formulas for \\(f_1\\) and \\(f_2\\), assuming \\(f_2\u003ef_1\\).",
+      "answer": "Let \\(f_2\u003ef_1\\). Then\n\\[\nf_{\\mathrm{beat}}=f_2-f_1\n\\]\nand\n\\[\nf_{\\mathrm{avg}}=\\frac{f_1+f_2}{2}\n\\]\nSolving,\n\\[\nf_1=f_{\\mathrm{avg}}-\\frac{f_{\\mathrm{beat}}}{2}\n\\]\n\\[\nf_2=f_{\\mathrm{avg}}+\\frac{f_{\\mathrm{beat}}}{2}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-17",
+      "prompt": "A piano string is compared with a \\(440\\,\\mathrm{Hz}\\) reference. It gives \\(2\\,\\mathrm{Hz}\\) beats. After tension is increased slightly, beats slow to \\(1\\,\\mathrm{Hz}\\). Find the original string frequency and explain the inference.",
+      "answer": "Increasing tension raises the string frequency. Since the beats slow from \\(2\\,\\mathrm{Hz}\\) to \\(1\\,\\mathrm{Hz}\\), the frequency moved closer to \\(440\\,\\mathrm{Hz}\\). Therefore the string was originally below the reference:\n\\[\nf=440-2=438\\,\\mathrm{Hz}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-18",
+      "prompt": "Two equal-amplitude tones have frequencies \\(f-\\delta\\) and \\(f+\\delta\\). Derive the heard carrier frequency and beat frequency in terms of \\(f\\) and \\(\\delta\\).",
+      "answer": "The two frequencies are \\(f-\\delta\\) and \\(f+\\delta\\). The average is\n\\[\nf_{\\mathrm{avg}}=f\n\\]\nThe beat frequency is\n\\[\nf_{\\mathrm{beat}}=|(f+\\delta)-(f-\\delta)|=2\\delta\n\\]\nSo the carrier is near \\(f\\), and the loudness varies at \\(2\\delta\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-19",
+      "prompt": "A signal is \\(s(t)=A\\cos(2\\pi f_1t)+A\\cos(2\\pi f_2t)\\). Show that the amplitude envelope has maxima twice as often as the cosine factor \\(\\cos(\\pi(f_1-f_2)t)\\) completes a signed cycle, and reconcile this with \\(f_{\\mathrm{beat}}=|f_1-f_2|\\).",
+      "answer": "The sum can be written\n\\[\ns(t)=2A\\cos(\\pi(f_1-f_2)t)\\cos(2\\pi f_{\\mathrm{avg}}t)\n\\]\nThe signed cosine envelope \\(\\cos(\\pi\\Delta f t)\\) has frequency \\(\\Delta f/2\\), but loudness depends on the magnitude of amplitude, so positive and negative envelope extrema both correspond to loud sound. That doubles the maxima rate:\n\\[\nf_{\\mathrm{beat}}=\\Delta f=|f_1-f_2|\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-beats-20",
+      "prompt": "A listener hears \\(b\\) beats per second between a reference frequency \\(f_0\\) and an adjustable oscillator. After the oscillator frequency is deliberately increased by \\(\\Delta f\u003eb\\), the beat frequency becomes \\(b\u0027\\). Derive how to decide whether the original oscillator was above or below \\(f_0\\).",
+      "answer": "Let the original oscillator frequency be \\(f=f_0+s b\\), where \\(s=+1\\) means above the reference and \\(s=-1\\) means below. After increasing it by \\(\\Delta f\\),\n\\[\nb\u0027=|f+\\Delta f-f_0|=|s b+\\Delta f|\n\\]\nSince \\(\\Delta f\u003eb\\), both possibilities are positive after the increase:\n\\[\ns=+1:\\quad b\u0027=\\Delta f+b\n\\]\n\\[\ns=-1:\\quad b\u0027=\\Delta f-b\n\\]\nThus if \\(b\u0027=\\Delta f+b\\), the original oscillator was above \\(f_0\\). If \\(b\u0027=\\Delta f-b\\), it was below \\(f_0\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

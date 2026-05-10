@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "fusion",
+  "topicTitle": "Fusion",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "fusion-01",
+      "prompt": "What is nuclear fusion?",
+      "answer": "Nuclear fusion is the combining of light nuclei into a heavier nucleus or products, with energy released when total binding energy increases.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-02",
+      "prompt": "Why can fusion of light nuclei release energy?",
+      "answer": "For light nuclei, combining can move products toward higher binding energy per nucleon. The products have lower total rest mass, so energy is released.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-03",
+      "prompt": "Write the Q-value formula for a fusion reaction.",
+      "answer": "\\[\\nQ=(m_i-m_f)c^2\\n\\]\\nA positive \\(Q\\) means the final rest mass is smaller and energy is released.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-04",
+      "prompt": "The deuterium-tritium reaction releases \\(17.6\\,\\mathrm{MeV}\\). Convert this to joules.",
+      "answer": "\\[\\nE=17.6(1.602\\times10^{-13})=2.82\\times10^{-12}\\,\\mathrm J\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-05",
+      "prompt": "Balance the reaction \\(^{2}_{1}\\mathrm H+^{3}_{1}\\mathrm H\\to ^{4}_{2}\\mathrm{He}+?\\).",
+      "answer": "Initial totals are \\(A=5\\), \\(Z=2\\). Helium-4 has \\(A=4\\), \\(Z=2\\), so the missing particle has \\(A=1\\), \\(Z=0\\):\\n\\[\\n^{1}_{0}\\mathrm n\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-06",
+      "prompt": "Why must fusing nuclei overcome or tunnel through a Coulomb barrier?",
+      "answer": "Nuclei are positively charged, so they repel electrostatically. They must approach within the range of the strong nuclear force before binding can occur, requiring high kinetic energy or quantum tunneling.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-07",
+      "prompt": "Write an approximate Coulomb barrier energy for two nuclei with charges \\(Z_1e\\) and \\(Z_2e\\) separated by \\(r\\).",
+      "answer": "\\[\\nU_C\\approx\\frac{1}{4\\pi\\epsilon_0}\\frac{Z_1Z_2e^2}{r}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-08",
+      "prompt": "Compare the Coulomb barrier for deuterium-tritium fusion with proton-carbon fusion using charge product \\(Z_1Z_2\\).",
+      "answer": "For deuterium-tritium, \\(Z_1Z_2=1\\cdot1=1\\). For proton-carbon, \\(Z_1Z_2=1\\cdot6=6\\). Proton-carbon has a much larger Coulomb barrier.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-09",
+      "prompt": "Estimate the thermal energy scale \\(k_BT\\) at \\(T=1.0\\times10^8\\,\\mathrm K\\) in keV.",
+      "answer": "\\[\\nk_BT=(1.38\\times10^{-23})(1.0\\times10^8)=1.38\\times10^{-15}\\,\\mathrm J\\n\\]\\nUsing \\(1\\,\\mathrm{keV}=1.602\\times10^{-16}\\,\\mathrm J\\),\\n\\[\\nk_BT\\approx8.6\\,\\mathrm{keV}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-10",
+      "prompt": "Why can fusion occur in stars even when average thermal energy is below a simple Coulomb-barrier estimate?",
+      "answer": "The high-energy tail of the thermal distribution supplies some faster nuclei, and quantum tunneling lets nuclei penetrate the barrier below the classical energy. Both effects are essential in stellar fusion.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-11",
+      "prompt": "Explain why fusion rates are very temperature sensitive.",
+      "answer": "Higher temperature increases the fraction of nuclei in the high-energy tail and increases tunneling probability by allowing closer approach. Since barrier penetration is exponential, small temperature changes can strongly affect reaction rate.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-12",
+      "prompt": "A fusion reaction has initial rest mass \\(5.0302\\,\\mathrm u\\) and final rest mass \\(5.0113\\,\\mathrm u\\). Find \\(Q\\).",
+      "answer": "\\[\\n\\Delta m=5.0302-5.0113=0.0189\\,\\mathrm u\\n\\]\\n\\[\\nQ=0.0189(931.5)=17.6\\,\\mathrm{MeV}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-13",
+      "prompt": "In \\(D+T\\to \\alpha+n\\), why does the neutron carry a large fraction of the released energy?",
+      "answer": "The final products have equal and opposite momentum in the center-of-mass frame. Since \\(K=p^2/(2m)\\), the lighter neutron receives more kinetic energy than the heavier alpha particle.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-14",
+      "prompt": "For \\(D+T\\to \\alpha+n\\) with \\(Q=17.6\\,\\mathrm{MeV}\\), estimate neutron kinetic energy using product masses \\(m_n\\approx1u\\) and \\(m_\\alpha\\approx4u\\).",
+      "answer": "For two products, the neutron gets fraction \\(m_\\alpha/(m_n+m_\\alpha)=4/5\\):\\n\\[\\nK_n\\approx\\frac45(17.6)=14.1\\,\\mathrm{MeV}\\n\\]\\nThe alpha gets about \\(3.5\\,\\mathrm{MeV}\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-15",
+      "prompt": "Why is confinement needed for controlled fusion?",
+      "answer": "Fusion needs high temperature and enough time for collisions to produce reactions. Without confinement, the hot plasma expands and cools before significant fusion energy can be produced.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-16",
+      "prompt": "Explain qualitatively why the Lawson criterion involves density, temperature, and confinement time.",
+      "answer": "Density controls collision frequency, temperature controls barrier penetration and reaction probability, and confinement time controls how long the plasma can react before energy escapes. Useful fusion requires the product of these conditions to be large enough.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-17",
+      "prompt": "Why does fusion beyond the iron region not release energy in ordinary stellar burning?",
+      "answer": "The iron region is near the peak of binding energy per nucleon. Fusing heavier nuclei generally lowers binding energy per nucleon, so it requires energy rather than releasing it.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-18",
+      "prompt": "A proposed fusion reaction has \\(Q<0\\). What does that imply about the total binding energy of products compared with reactants?",
+      "answer": "If \\(Q<0\\), the final rest mass is larger. For the same total nucleons, this means the products have lower total binding energy than the reactants, so energy must be supplied.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-19",
+      "prompt": "Use the tunneling estimate \\(P\\sim e^{-2\\int\\kappa dr}\\) to explain why increasing charge product \\(Z_1Z_2\\) suppresses fusion.",
+      "answer": "A larger charge product raises the Coulomb potential, increasing the forbidden barrier height and width for a given kinetic energy. That increases the WKB exponent \\(2\\int\\kappa dr\\), so the penetration probability falls exponentially.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fusion-20",
+      "prompt": "Prove that fusion energy release can be written as \\(Q=B_f-B_i\\) when the same nucleons are rearranged.",
+      "answer": "For the same collection of nucleons, total rest mass can be written\\n\\[\\nM=m_{\\mathrm{sep}}-\\frac{B}{c^2}\\n\\]\\nThus\\n\\[\\nQ=(M_i-M_f)c^2=\\left(m_{\\mathrm{sep}}-\\frac{B_i}{c^2}-m_{\\mathrm{sep}}+\\frac{B_f}{c^2}\\right)c^2\\n\\]\\nso\\n\\[\\nQ=B_f-B_i\\n\\]\\nFusion releases energy when final total binding energy is larger.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

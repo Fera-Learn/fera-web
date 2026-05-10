@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "internal-energy-of-ideal-gases",
+  "topicTitle": "Internal Energy of Ideal Gases",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "ideal-gas-internal-energy-01",
+      "prompt": "For an ideal gas, internal energy depends only on what state variable?",
+      "answer": "For an ideal gas, internal energy depends only on temperature.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-02",
+      "prompt": "Find \\(\\Delta U\\) for \\(1.0\\,\\mathrm{mol}\\) of monatomic ideal gas warmed by \\(10\\,\\mathrm{K}\\).",
+      "answer": "For a monatomic ideal gas,\n\\[\n\\Delta U=\\frac{3}{2}nR\\Delta T\n\\]\n\\[\n\\Delta U=\\frac{3}{2}(1.0)(8.31)(10)\n\\]\n\\[\n\\Delta U=1.25\\times10^2\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-03",
+      "prompt": "A monatomic ideal gas cools by \\(25\\,\\mathrm{K}\\). Is \\(\\Delta U\\) positive or negative?",
+      "answer": "The temperature change is negative, and for an ideal gas\n\\[\n\\Delta U=nC_V\\Delta T\n\\]\nwith \\(nC_V\u003e0\\). Therefore \\(\\Delta U\\) is negative.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-04",
+      "prompt": "Find the internal energy of \\(2.0\\,\\mathrm{mol}\\) of monatomic ideal gas at \\(300\\,\\mathrm{K}\\).",
+      "answer": "For a monatomic ideal gas,\n\\[\nU=\\frac{3}{2}nRT\n\\]\n\\[\nU=\\frac{3}{2}(2.0)(8.31)(300)\n\\]\n\\[\nU=7.48\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-05",
+      "prompt": "An ideal gas has \\(n=3.0\\,\\mathrm{mol}\\), \\(C_V=20.8\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\), and \\(\\Delta T=40\\,\\mathrm{K}\\). Find \\(\\Delta U\\).",
+      "answer": "\\[\n\\Delta U=nC_V\\Delta T\n\\]\n\\[\n\\Delta U=(3.0)(20.8)(40)\n\\]\n\\[\n\\Delta U=2.50\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-06",
+      "prompt": "A monatomic ideal gas expands isothermally. Find \\(\\Delta U\\) and explain why volume change does not matter.",
+      "answer": "For an ideal gas, internal energy depends only on temperature.\n\nAn isothermal expansion has\n\\[\n\\Delta T=0\n\\]\nso\n\\[\n\\Delta U=0\n\\]\nThe volume changes, but for an ideal gas that does not by itself change the internal energy.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-07",
+      "prompt": "A monatomic ideal gas has pressure \\(1.0\\times10^5\\,\\mathrm{Pa}\\) and volume \\(0.060\\,\\mathrm{m^3}\\). Find its internal energy.",
+      "answer": "For a monatomic ideal gas,\n\\[\nU=\\frac{3}{2}nRT\n\\]\nUsing \\(pV=nRT\\),\n\\[\nU=\\frac{3}{2}pV\n\\]\n\\[\nU=\\frac{3}{2}(1.0\\times10^5)(0.060)\n\\]\n\\[\nU=9.0\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-08",
+      "prompt": "For an ideal gas with \\(f\\) active quadratic degrees of freedom, derive \\(C_V=fR/2\\).",
+      "answer": "Equipartition gives each active quadratic degree of freedom an average energy\n\\[\n\\frac{1}{2}k_BT\n\\]\nper molecule. For \\(f\\) degrees of freedom,\n\\[\nU=\\frac{f}{2}Nk_BT=\\frac{f}{2}nRT\n\\]\nAt constant volume,\n\\[\nC_V=\\frac{1}{n}\\left(\\frac{\\partial U}{\\partial T}\\right)_V\n\\]\nso\n\\[\nC_V=\\frac{f}{2}R\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-09",
+      "prompt": "An ideal gas goes from \\((p_i,V_i)\\) to \\((p_f,V_f)\\). For a monatomic gas, derive \\(\\Delta U\\) using only endpoint \\(pV\\) values.",
+      "answer": "For a monatomic ideal gas,\n\\[\nU=\\frac{3}{2}nRT\n\\]\nUsing \\(pV=nRT\\),\n\\[\nU=\\frac{3}{2}pV\n\\]\nTherefore the change in internal energy is\n\\[\n\\Delta U=\\frac{3}{2}(p_fV_f-p_iV_i)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "ideal-gas-internal-energy-10",
+      "prompt": "Two ideal gases have the same \\(n\\) and same temperature change. Gas A is monatomic; gas B has \\(f=5\\). Compare their \\(\\Delta U\\) values and interpret the result microscopically.",
+      "answer": "For an ideal gas with \\(f\\) active quadratic degrees of freedom,\n\\[\n\\Delta U=\\frac{f}{2}nR\\Delta T\n\\]\nGas A is monatomic, so \\(f=3\\):\n\\[\n\\Delta U_A=\\frac{3}{2}nR\\Delta T\n\\]\nGas B has \\(f=5\\):\n\\[\n\\Delta U_B=\\frac{5}{2}nR\\Delta T\n\\]\nThus\n\\[\n\\frac{\\Delta U_B}{\\Delta U_A}=\\frac{5}{3}\n\\]\nMicroscopically, gas B stores thermal energy in more active degrees of freedom, so the same temperature change corresponds to a larger internal-energy change.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

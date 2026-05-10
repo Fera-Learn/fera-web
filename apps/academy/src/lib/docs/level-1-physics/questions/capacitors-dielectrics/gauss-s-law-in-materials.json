@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "gauss-s-law-in-materials",
+  "topicTitle": "Gauss\u0027s Law in Materials",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "gauss-materials-01",
+      "prompt": "A dielectric-filled parallel-plate capacitor has free surface charge density \\(\\sigma_{\\mathrm f}=2.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\). Find the displacement field magnitude \\(D\\) between the plates.",
+      "answer": "For a dielectric-filled parallel-plate capacitor,\n\\[\nD=\\sigma_{\\mathrm f}\n\\]\nso\n\\[\nD=2.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-02",
+      "prompt": "For the same capacitor, the dielectric constant is \\(\\kappa=5.0\\). Find the electric field magnitude \\(E\\).",
+      "answer": "Use\n\\[\nD=\\epsilon E=\\kappa\\epsilon_0E\n\\]\nso\n\\[\nE=\\frac{D}{\\kappa\\epsilon_0}\n=\\frac{2.0\\times10^{-6}}{(5.0)(8.85\\times10^{-12})}\n=4.5\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-03",
+      "prompt": "A closed Gaussian surface in a dielectric has uniform outward displacement field magnitude \\(D=1.5\\times10^{-4}\\,\\mathrm{C\\,m^{-2}}\\) over area \\(0.020\\,\\mathrm{m^2}\\), with no flux through the rest of the surface. Find the enclosed free charge.",
+      "answer": "Gauss\u0027s law in materials is\n\\[\n\\oint \\vec D\\cdot d\\vec A=q_{\\mathrm f}\n\\]\nOnly the stated area contributes, so\n\\[\nq_{\\mathrm f}=DA=(1.5\\times10^{-4})(0.020)\n=3.0\\times10^{-6}\\,\\mathrm{C}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-04",
+      "prompt": "A parallel-plate capacitor of area \\(A\\) is filled by two dielectric layers in series, each of thickness \\(d/2\\), with dielectric constants \\(\\kappa_1\\) and \\(\\kappa_2\\). Neglect fringing. Use \\(\\vec D\\) to derive the equivalent capacitance.",
+      "answer": "The free charge on the plates sets the normal displacement field:\n\\[\nD=\\frac{Q}{A}\n\\]\nIn each linear dielectric layer,\n\\[\nE_i=\\frac{D}{\\epsilon_i}=\\frac{D}{\\kappa_i\\epsilon_0}\n\\]\nThe total voltage is the sum across the two layers:\n\\[\nV=E_1\\frac{d}{2}+E_2\\frac{d}{2}\n\\]\n\\[\nV=\\frac{D d}{2\\epsilon_0}\\left(\\frac{1}{\\kappa_1}+\\frac{1}{\\kappa_2}\\right)\n\\]\nSubstitute \\(D=Q/A\\):\n\\[\nV=\\frac{Qd}{2A\\epsilon_0}\\left(\\frac{1}{\\kappa_1}+\\frac{1}{\\kappa_2}\\right)\n\\]\nTherefore\n\\[\nC=\\frac{Q}{V}\n=\\frac{2A\\epsilon_0}{d\\left(\\frac{1}{\\kappa_1}+\\frac{1}{\\kappa_2}\\right)}\n\\]\nor\n\\[\nC=\\epsilon_0\\frac{A}{d}\\frac{2\\kappa_1\\kappa_2}{\\kappa_1+\\kappa_2}\n\\]\nThe result is the same structure as series capacitors because the voltage drops add across layers.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-05",
+      "prompt": "A Gaussian surface in a dielectric has total displacement flux \\(4.0\\times10^{-9}\\,\\mathrm{C}\\). What free charge is enclosed?",
+      "answer": "Gauss\u0027s law in materials is\n\\[\n\\oint\\vec D\\cdot d\\vec A=q_f\n\\]\nTherefore the enclosed free charge is\n\\[\nq_f=4.0\\times10^{-9}\\,\\mathrm{C}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-06",
+      "prompt": "A linear dielectric has \\(\\kappa=2.5\\) and electric field \\(E=6.0\\times10^4\\,\\mathrm{V\\,m^{-1}}\\). Find the displacement field magnitude \\(D\\).",
+      "answer": "For a linear dielectric,\n\\[\nD=\\epsilon E=\\kappa\\epsilon_0E\n\\]\n\\[\nD=(2.5)(8.85\\times10^{-12})(6.0\\times10^4)\n=1.33\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-07",
+      "prompt": "A dielectric-filled parallel-plate capacitor has \\(D=5.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\) and \\(\\kappa=4.0\\). Find \\(E\\).",
+      "answer": "Use\n\\[\nD=\\kappa\\epsilon_0E\n\\]\nso\n\\[\nE=\\frac{D}{\\kappa\\epsilon_0}\n=\\frac{5.0\\times10^{-6}}{(4.0)(8.85\\times10^{-12})}\n=1.41\\times10^5\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-08",
+      "prompt": "A closed surface has \\(\\vec D\\) everywhere normal and outward with magnitude \\(2.0\\times10^{-5}\\,\\mathrm{C\\,m^{-2}}\\) over area \\(0.030\\,\\mathrm{m^2}\\). Find the enclosed free charge.",
+      "answer": "The displacement flux is\n\\[\n\\Phi_D=DA\n\\]\nso\n\\[\nq_f=\\oint\\vec D\\cdot d\\vec A=(2.0\\times10^{-5})(0.030)\n=6.0\\times10^{-7}\\,\\mathrm{C}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-09",
+      "prompt": "A point free charge \\(Q\\) is embedded at the center of an infinite linear dielectric of constant \\(\\kappa\\). Use Gauss\u0027s law for \\(\\vec D\\) to find \\(D(r)\\) and \\(E(r)\\).",
+      "answer": "Use a spherical Gaussian surface of radius \\(r\\). Symmetry gives radial \\(\\vec D\\) with constant magnitude over the surface:\n\\[\n\\oint\\vec D\\cdot d\\vec A=D(4\\pi r^2)=Q\n\\]\nThus\n\\[\nD(r)=\\frac{Q}{4\\pi r^2}\n\\]\nradially outward for \\(Q\u003e0\\). For a linear dielectric,\n\\[\n\\vec D=\\kappa\\epsilon_0\\vec E\n\\]\nso\n\\[\nE(r)=\\frac{Q}{4\\pi\\kappa\\epsilon_0r^2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-10",
+      "prompt": "A spherical conductor of radius \\(a\\) carrying free charge \\(Q\\) is surrounded by a dielectric of constant \\(\\kappa\\). Find the electric field just outside the conductor.",
+      "answer": "Just outside the conductor, a spherical Gaussian surface gives\n\\[\nD(4\\pi a^2)=Q\n\\]\nso\n\\[\nD=\\frac{Q}{4\\pi a^2}\n\\]\nIn the dielectric,\n\\[\nD=\\kappa\\epsilon_0E\n\\]\ntherefore\n\\[\nE=\\frac{Q}{4\\pi\\kappa\\epsilon_0a^2}\n\\]\ndirected radially outward for positive \\(Q\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-11",
+      "prompt": "Across a dielectric boundary with no free surface charge, the normal component of \\(\\vec D\\) is continuous. If \\(\\kappa_1=2.0\\), \\(\\kappa_2=5.0\\), and \\(E_{1n}=1.0\\times10^5\\,\\mathrm{V\\,m^{-1}}\\), find \\(E_{2n}\\).",
+      "answer": "With no free surface charge,\n\\[\nD_{1n}=D_{2n}\n\\]\nFor linear dielectrics,\n\\[\n\\kappa_1\\epsilon_0E_{1n}=\\kappa_2\\epsilon_0E_{2n}\n\\]\nso\n\\[\nE_{2n}=\\frac{\\kappa_1}{\\kappa_2}E_{1n}\n=\\frac{2.0}{5.0}(1.0\\times10^5)\n=4.0\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-12",
+      "prompt": "At a boundary, the normal displacement changes from \\(D_{1n}=3.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\) to \\(D_{2n}=8.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\), both measured in the same normal direction. Find the free surface charge density on the boundary.",
+      "answer": "The free surface charge density equals the jump in normal displacement:\n\\[\n\\sigma_f=D_{2n}-D_{1n}\n\\]\nThus\n\\[\n\\sigma_f=(8.0-3.0)\\times10^{-6}\n=5.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]\nwith sign defined for the chosen normal direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-13",
+      "prompt": "A linear dielectric has \\(\\kappa=3.0\\) and electric field \\(E=2.0\\times10^5\\,\\mathrm{V\\,m^{-1}}\\). Find \\(D\\) and \\(P\\), and verify \\(D=\\epsilon_0E+P\\).",
+      "answer": "For a linear dielectric,\n\\[\nD=\\kappa\\epsilon_0E\n\\]\n\\[\nD=(3.0)(8.85\\times10^{-12})(2.0\\times10^5)\n=5.31\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]\nPolarization is\n\\[\nP=(\\kappa-1)\\epsilon_0E\n\\]\n\\[\nP=(2.0)(8.85\\times10^{-12})(2.0\\times10^5)\n=3.54\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]\nAlso\n\\[\n\\epsilon_0E=(8.85\\times10^{-12})(2.0\\times10^5)\n=1.77\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]\nso\n\\[\n\\epsilon_0E+P=1.77\\times10^{-6}+3.54\\times10^{-6}\n=5.31\\times10^{-6}=D\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-14",
+      "prompt": "A dielectric-filled parallel-plate capacitor has free surface charge density \\(\\sigma_f\\). Derive the bound surface charge density magnitude using \\(\\vec D\\), \\(\\vec P\\), and \\(\\kappa\\).",
+      "answer": "For a filled parallel-plate capacitor,\n\\[\nD=\\sigma_f\n\\]\nand for a linear dielectric,\n\\[\nD=\\epsilon_0E+P=\\kappa\\epsilon_0E\n\\]\nThus\n\\[\nE=\\frac{\\sigma_f}{\\kappa\\epsilon_0}\n\\]\nThe polarization is\n\\[\nP=(\\kappa-1)\\epsilon_0E\n\\]\nso\n\\[\nP=(\\kappa-1)\\epsilon_0\\frac{\\sigma_f}{\\kappa\\epsilon_0}\n=\\sigma_f\\left(1-\\frac{1}{\\kappa}\\right)\n\\]\nFor polarization normal to the dielectric faces,\n\\[\n|\\sigma_b|=P=\\sigma_f\\left(1-\\frac{1}{\\kappa}\\right)\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-15",
+      "prompt": "Two concentric conducting spherical shells of radii \\(a\\) and \\(b\\) are filled with a linear dielectric of constant \\(\\kappa\\). Use \\(\\vec D\\) to derive the capacitance.",
+      "answer": "Let the inner shell carry free charge \\(+Q\\). Between the shells, spherical symmetry gives\n\\[\nD(4\\pi r^2)=Q\n\\]\nso\n\\[\nD(r)=\\frac{Q}{4\\pi r^2}\n\\]\nIn the dielectric,\n\\[\nE(r)=\\frac{D}{\\kappa\\epsilon_0}\n=\\frac{Q}{4\\pi\\kappa\\epsilon_0r^2}\n\\]\nThe potential difference is\n\\[\nV=\\int_a^b E(r)\\,dr\n=\\frac{Q}{4\\pi\\kappa\\epsilon_0}\\left(\\frac{1}{a}-\\frac{1}{b}\\right)\n\\]\nTherefore\n\\[\nC=\\frac{Q}{V}\n=4\\pi\\kappa\\epsilon_0\\frac{ab}{b-a}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-16",
+      "prompt": "A coaxial capacitor of length \\(L\\), inner radius \\(a\\), and outer radius \\(b\\) is filled with dielectric \\(\\kappa\\). Use Gauss\u0027s law for \\(\\vec D\\) to derive \\(C/L\\).",
+      "answer": "Let the free charge per length on the inner conductor be \\(\\lambda\\). A cylindrical Gaussian surface gives\n\\[\nD(2\\pi rL)=\\lambda L\n\\]\nso\n\\[\nD(r)=\\frac{\\lambda}{2\\pi r}\n\\]\nIn the dielectric,\n\\[\nE(r)=\\frac{D}{\\kappa\\epsilon_0}\n=\\frac{\\lambda}{2\\pi\\kappa\\epsilon_0r}\n\\]\nThe potential difference is\n\\[\nV=\\int_a^b E(r)\\,dr\n=\\frac{\\lambda}{2\\pi\\kappa\\epsilon_0}\\ln\\left(\\frac{b}{a}\\right)\n\\]\nSince \\(Q=\\lambda L\\),\n\\[\nC=\\frac{Q}{V}\n=\\frac{2\\pi\\kappa\\epsilon_0L}{\\ln(b/a)}\n\\]\nso\n\\[\n\\frac{C}{L}=\\frac{2\\pi\\kappa\\epsilon_0}{\\ln(b/a)}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-17",
+      "prompt": "A parallel-plate capacitor is filled by two dielectric slabs side-by-side, each occupying half the area and spanning the full separation. Use \\(\\vec D\\) or an equivalent argument to derive \\(C\\).",
+      "answer": "Side-by-side slabs share the same plate voltage, so they act like capacitors in parallel. Each occupies area \\(A/2\\) and separation \\(d\\).\n\nThe capacitances are\n\\[\nC_1=\\kappa_1\\epsilon_0\\frac{A/2}{d}\n\\]\n\\[\nC_2=\\kappa_2\\epsilon_0\\frac{A/2}{d}\n\\]\nThus\n\\[\nC=C_1+C_2\n=\\epsilon_0\\frac{A}{2d}(\\kappa_1+\\kappa_2)\n\\]\nThis differs from stacked layers because here the voltage is common and the free charge divides between regions.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-18",
+      "prompt": "A dielectric interface has no free charge. Show that if the tangential component of \\(\\vec E\\) is continuous and the normal component of \\(\\vec D\\) is continuous, then field lines bend according to \\(\\tan\\theta_2/\\tan\\theta_1=\\kappa_2/\\kappa_1\\), where \\(\\theta\\) is measured from the normal.",
+      "answer": "At a charge-free dielectric boundary,\n\\[\nD_{1n}=D_{2n}\n\\]\nso\n\\[\n\\kappa_1\\epsilon_0E_{1n}=\\kappa_2\\epsilon_0E_{2n}\n\\]\nwhich gives\n\\[\n\\frac{E_{2n}}{E_{1n}}=\\frac{\\kappa_1}{\\kappa_2}\n\\]\nThe tangential electric field is continuous:\n\\[\nE_{1t}=E_{2t}\n\\]\nIf \\(\\theta\\) is measured from the normal, then\n\\[\n\\tan\\theta=\\frac{E_t}{E_n}\n\\]\nTherefore\n\\[\n\\frac{\\tan\\theta_2}{\\tan\\theta_1}\n=\\frac{E_{2t}/E_{2n}}{E_{1t}/E_{1n}}\n=\\frac{E_{1n}}{E_{2n}}\n=\\frac{\\kappa_2}{\\kappa_1}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-19",
+      "prompt": "A parallel-plate capacitor has two dielectric layers in series with thicknesses \\(d_1,d_2\\) and constants \\(\\kappa_1,\\kappa_2\\). Derive the voltage drop across each layer in terms of free charge \\(Q\\).",
+      "answer": "The normal displacement field is set by the free plate charge:\n\\[\nD=\\frac{Q}{A}\n\\]\nIn layer \\(i\\),\n\\[\nE_i=\\frac{D}{\\kappa_i\\epsilon_0}\n=\\frac{Q}{A\\kappa_i\\epsilon_0}\n\\]\nThe voltage drop across layer \\(i\\) is\n\\[\nV_i=E_id_i\n=\\frac{Qd_i}{A\\kappa_i\\epsilon_0}\n\\]\nThus\n\\[\nV_1=\\frac{Qd_1}{A\\kappa_1\\epsilon_0},\\qquad\nV_2=\\frac{Qd_2}{A\\kappa_2\\epsilon_0}\n\\]\nand the total voltage is \\(V=V_1+V_2\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "gauss-materials-20",
+      "prompt": "Starting from ordinary Gauss\u0027s law for total charge and the relation \\(\\rho_b=-\\nabla\\cdot\\vec P\\), derive \\(\\nabla\\cdot\\vec D=\\rho_f\\) with \\(\\vec D=\\epsilon_0\\vec E+\\vec P\\).",
+      "answer": "Ordinary Gauss\u0027s law in differential form is\n\\[\n\\nabla\\cdot\\vec E=\\frac{\\rho_{\\mathrm{total}}}{\\epsilon_0}\n\\]\nwhere\n\\[\n\\rho_{\\mathrm{total}}=\\rho_f+\\rho_b\n\\]\nFor polarization bound charge,\n\\[\n\\rho_b=-\\nabla\\cdot\\vec P\n\\]\nSubstitute:\n\\[\n\\nabla\\cdot\\vec E=\\frac{\\rho_f-\\nabla\\cdot\\vec P}{\\epsilon_0}\n\\]\nMultiply by \\(\\epsilon_0\\):\n\\[\n\\epsilon_0\\nabla\\cdot\\vec E=\\rho_f-\\nabla\\cdot\\vec P\n\\]\nRearrange:\n\\[\n\\nabla\\cdot(\\epsilon_0\\vec E+\\vec P)=\\rho_f\n\\]\nDefine\n\\[\n\\vec D=\\epsilon_0\\vec E+\\vec P\n\\]\nTherefore\n\\[\n\\nabla\\cdot\\vec D=\\rho_f\n\\]\nThe displacement field is useful because its divergence tracks free charge only; the bound charge has been absorbed into the polarization term.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

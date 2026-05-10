@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "limit-variations",
+  "topicTitle": "Limit Variations",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-limit-variations-01",
+      "prompt": "Find \\(\\lim_{x\\to 2^+}\\frac{1}{x-2}\\) and \\(\\lim_{x\\to 2^-}\\frac{1}{x-2}\\).",
+      "answer": "As \\(x\\to2^+\\), the denominator \\(x-2\\) is positive and tends to \\(0\\), so\n\\[\n\\frac{1}{x-2}\\to\\infty.\n\\]\nAs \\(x\\to2^-\\), the denominator is negative and tends to \\(0\\), so\n\\[\n\\frac{1}{x-2}\\to-\\infty.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-limit-variations-02",
+      "prompt": "A function is defined by \\(f(x)=x+1\\) for \\(x<1\\), and \\(f(x)=3x-1\\) for \\(x>1\\). Does \\(\\lim_{x\\to1}f(x)\\) exist?",
+      "answer": "The left-hand limit is\n\\[\n\\lim_{x\\to1^-}(x+1)=2.\n\\]\nThe right-hand limit is\n\\[\n\\lim_{x\\to1^+}(3x-1)=2.\n\\]\nThe one-sided limits agree, so the two-sided limit exists and equals \\(2\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-limit-variations-03",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{6x^3-x}{2x^3+5x^2+1}\\).",
+      "answer": "Divide numerator and denominator by \\(x^3\\):\n\\[\n\\frac{6-1/x^2}{2+5/x+1/x^3}.\n\\]\nAs \\(x\\to\\infty\\), the reciprocal terms tend to \\(0\\), so the limit is\n\\[\n\\frac{6}{2}=3.\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

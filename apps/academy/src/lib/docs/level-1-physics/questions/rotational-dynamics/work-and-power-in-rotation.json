@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "work-and-power-in-rotation",
+  "topicTitle": "Work and Power in Rotation",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "rot-work-power-01",
+      "prompt": "A constant \\(5.0\\,\\mathrm{N\\,m}\\) torque acts through \\(4.0\\,\\mathrm{rad}\\). Find the work done.",
+      "answer": "\\[\nW=\\tau\\Delta\\theta=5.0(4.0)=20\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-02",
+      "prompt": "A motor delivers torque \\(12\\,\\mathrm{N\\,m}\\) at angular speed \\(8.0\\,\\mathrm{rad\\,s^{-1}}\\). Find the power.",
+      "answer": "\\[\nP=\\tau\\omega=12(8.0)=96\\,\\mathrm{W}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-03",
+      "prompt": "A resisting torque acts opposite the angular displacement. Is its work positive or negative?",
+      "answer": "Its work is negative because torque and angular displacement have opposite signs.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-04",
+      "prompt": "A wheel has \\(I=0.60\\,\\mathrm{kg\\,m^2}\\) and \\(\\omega=10\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(K_{\\mathrm{rot}}\\).",
+      "answer": "\\[\nK_{\\mathrm{rot}}=\\frac12I\\omega^2=\\frac12(0.60)(10^2)=30\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-05",
+      "prompt": "A net torque of \\(3.0\\,\\mathrm{N\\,m}\\) acts through \\(12\\,\\mathrm{rad}\\) on a wheel initially at rest with \\(I=2.0\\,\\mathrm{kg\\,m^2}\\). Find its final angular speed.",
+      "answer": "\\[\nW=\\tau\\Delta\\theta=3.0(12)=36\\,\\mathrm{J}\n\\]\n\\[\nW=\\Delta K_{\\mathrm{rot}}=\\frac12I\\omega_f^2\n\\]\n\\[\n\\omega_f=\\sqrt{\\frac{2W}{I}}=\\sqrt{\\frac{72}{2.0}}=6.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-06",
+      "prompt": "A flywheel\u0027s rotational kinetic energy increases from \\(40\\,\\mathrm{J}\\) to \\(95\\,\\mathrm{J}\\). Find the net rotational work done.",
+      "answer": "\\[\nW_{\\mathrm{net}}=\\Delta K=95-40=55\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-07",
+      "prompt": "A torque \\(\\tau(\\theta)=2\\theta\\,\\mathrm{N\\,m}\\) acts from \\(\\theta=0\\) to \\(\\theta=3.0\\,\\mathrm{rad}\\). Find the work done.",
+      "answer": "\\[\nW=\\int_0^3 2\\theta\\,d\\theta\n\\]\n\\[\nW=\\left[\\theta^2\\right]_0^3=9.0\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-08",
+      "prompt": "A wheel spins at \\(20\\,\\mathrm{rad\\,s^{-1}}\\). A brake supplies constant opposing torque \\(4.0\\,\\mathrm{N\\,m}\\) for \\(5.0\\,\\mathrm{s}\\). Find the average braking power during that interval if \\(\\omega\\) decreases linearly to \\(10\\,\\mathrm{rad\\,s^{-1}}\\).",
+      "answer": "The average angular speed is\n\\[\n\\omega_{\\mathrm{avg}}=\\frac{20+10}{2}=15\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe braking torque opposes motion, so\n\\[\nP_{\\mathrm{avg}}=-\\tau\\omega_{\\mathrm{avg}}=-4.0(15)=-60\\,\\mathrm{W}\n\\]\nThe brake removes energy at an average rate of \\(60\\,\\mathrm{W}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-09",
+      "prompt": "A rotating disk with \\(I=0.80\\,\\mathrm{kg\\,m^2}\\) speeds up from \\(5.0\\) to \\(15\\,\\mathrm{rad\\,s^{-1}}\\). If a constant torque acts through \\(20\\,\\mathrm{rad}\\), find the torque.",
+      "answer": "\\[\n\\Delta K=\\frac12I(\\omega_f^2-\\omega_i^2)\n\\]\n\\[\n\\Delta K=\\frac12(0.80)(15^2-5^2)=80\\,\\mathrm{J}\n\\]\n\\[\n\\tau=\\frac{W}{\\Delta\\theta}=\\frac{80}{20}=4.0\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-10",
+      "prompt": "A motor provides \\(200\\,\\mathrm{W}\\) to a wheel spinning at \\(25\\,\\mathrm{rad\\,s^{-1}}\\). The load torque is \\(5.0\\,\\mathrm{N\\,m}\\). Find the net torque available to accelerate the wheel.",
+      "answer": "The motor torque at that instant is\n\\[\n\\tau_{\\mathrm{motor}}=\\frac{P}{\\omega}=\\frac{200}{25}=8.0\\,\\mathrm{N\\,m}\n\\]\nThe net accelerating torque is\n\\[\n\\tau_{\\mathrm{net}}=8.0-5.0=3.0\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-11",
+      "prompt": "A motor applies constant torque \\(\\tau_0\\) to a drum of radius \\(R\\) and moment of inertia \\(I\\), lifting a mass \\(m\\) by a light cable without slip. Derive the upward acceleration, the condition for upward motion from rest, and the motor power as a function of angular speed.",
+      "answer": "Let upward acceleration be positive. No slip gives\n\\[\na=R\\alpha\n\\]\nFor the mass,\n\\[\nT-mg=ma\n\\]\nFor the drum,\n\\[\n\\tau_0-TR=I\\alpha\n\\]\nUse \\(T=m(g+a)\\) and \\(\\alpha=a/R\\):\n\\[\n\\tau_0-m(g+a)R=\\frac{Ia}{R}\n\\]\nMultiply by \\(R\\):\n\\[\n\\tau_0R-mgR^2=Ia+maR^2\n\\]\n\\[\na=\\frac{R(\\tau_0-mgR)}{I+mR^2}\n\\]\nUpward motion from rest requires\n\\[\n\\tau_0\u003emgR\n\\]\nThe motor power at angular speed \\(\\omega\\) is\n\\[\nP_{\\mathrm{motor}}=\\tau_0\\omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "rot-work-power-12",
+      "prompt": "A wheel starts from rest. A driving torque \\(\\tau(\\theta)=\\tau_0(1-\\theta/\\theta_0)\\) acts for \\(0\\leq\\theta\\leq\\theta_0\\), while a constant resisting torque \\(\\tau_f\\) opposes the motion. Derive the work accumulated by angle \\(\\theta\\), the condition for the wheel to reach \\(\\theta_0\\), and its angular speed there if it does.",
+      "answer": "The net torque while moving forward is\n\\[\n\\tau_{\\mathrm{net}}(\\theta)=\\tau_0\\left(1-\\frac{\\theta}{\\theta_0}\\right)-\\tau_f\n\\]\nThe accumulated work by angle \\(\\theta\\) is\n\\[\nW(\\theta)=\\int_0^\\theta\\left[\\tau_0\\left(1-\\frac{\\theta\u0027}{\\theta_0}\\right)-\\tau_f\\right]d\\theta\u0027\n\\]\n\\[\nW(\\theta)=(\\tau_0-\\tau_f)\\theta-\\frac{\\tau_0\\theta^2}{2\\theta_0}\n\\]\nStarting from rest, the wheel reaches \\(\\theta_0\\) only if the work has not become negative before then. Since \\(W(\\theta)/\\theta\\) decreases over the interval, the limiting condition is at \\(\\theta_0\\):\n\\[\nW(\\theta_0)=\\theta_0\\left(\\frac{\\tau_0}{2}-\\tau_f\\right)\\geq0\n\\]\nThus\n\\[\n\\tau_f\\leq\\frac{\\tau_0}{2}\n\\]\nIf the inequality is strict,\n\\[\n\\frac12I\\omega^2=\\theta_0\\left(\\frac{\\tau_0}{2}-\\tau_f\\right)\n\\]\n\\[\n\\omega=\\sqrt{\\frac{\\theta_0(\\tau_0-2\\tau_f)}{I}}\n\\]\nIf \\(\\tau_f=\\tau_0/2\\), it just reaches \\(\\theta_0\\) with zero angular speed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

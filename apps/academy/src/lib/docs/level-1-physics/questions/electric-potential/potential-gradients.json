@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-potential",
+  "topicId": "potential-gradients",
+  "topicTitle": "Potential Gradients",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "potential-gradients-01",
+      "prompt": "In one dimension, what is the relation between \\(E_x\\) and \\(V(x)\\)?",
+      "answer": "In one dimension,\n\\[\nE_x=-\\frac{dV}{dx}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-02",
+      "prompt": "Does the electric field point toward increasing or decreasing electric potential?",
+      "answer": "The electric field points toward decreasing electric potential.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-03",
+      "prompt": "If \\(V\\) is constant throughout a region, what is \\(\\vec E\\) there?",
+      "answer": "If \\(V\\) is constant, its gradient is zero:\n\\[\n\\nabla V=0\n\\]\nso\n\\[\n\\vec E=-\\nabla V=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-04",
+      "prompt": "Potential decreases by \\(30\\,\\mathrm{V}\\) over \\(0.50\\,\\mathrm{m}\\) in the \\(+x\\) direction. Estimate \\(E_x\\).",
+      "answer": "Use\n\\[\nE_x\\approx-\\frac{\\Delta V}{\\Delta x}\n\\]\nHere\n\\[\n\\Delta V=-30\\,\\mathrm{V},\\qquad \\Delta x=0.50\\,\\mathrm{m}\n\\]\nso\n\\[\nE_x=-\\frac{-30}{0.50}=60\\,\\mathrm{V\\,m^{-1}}\n\\]\nThe field points in \\(+x\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-05",
+      "prompt": "A uniform electric field \\(200\\,\\mathrm{V\\,m^{-1}}\\) points in \\(+x\\). Find \\(\\Delta V\\) for a \\(0.10\\,\\mathrm{m}\\) displacement in \\(+x\\).",
+      "answer": "For displacement along the field,\n\\[\n\\Delta V=-E\\Delta x\n\\]\n\\[\n\\Delta V=-(200)(0.10)\n\\]\n\\[\n\\Delta V=-20\\,\\mathrm{V}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-06",
+      "prompt": "For \\(V(x)=12-4x\\) with \\(x\\) in meters and \\(V\\) in volts, find \\(E_x\\).",
+      "answer": "Given\n\\[\nV(x)=12-4x\n\\]\n\\[\n\\frac{dV}{dx}=-4\\,\\mathrm{V\\,m^{-1}}\n\\]\nTherefore\n\\[\nE_x=-\\frac{dV}{dx}=+4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-07",
+      "prompt": "For \\(V(x)=ax^2\\), derive \\(E_x(x)\\) and state where the electric field is zero.",
+      "answer": "For\n\\[\nV(x)=ax^2\n\\]\n\\[\n\\frac{dV}{dx}=2ax\n\\]\nso\n\\[\nE_x(x)=-2ax\n\\]\nThe electric field is zero where\n\\[\nx=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-08",
+      "prompt": "For \\(V(x,y)=Axy\\), find \\(\\vec E\\).",
+      "answer": "For\n\\[\nV(x,y)=Axy\n\\]\nthe field is\n\\[\n\\vec E=-\\nabla V\n\\]\nCompute the derivatives:\n\\[\n\\frac{\\partial V}{\\partial x}=Ay,\\qquad \\frac{\\partial V}{\\partial y}=Ax\n\\]\nThus\n\\[\n\\vec E=-Ay\\,\\hat\\imath-Ax\\,\\hat\\jmath\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-09",
+      "prompt": "A one-dimensional potential is \\(V(x)=V_0e^{-x/\\ell}\\). Derive \\(E_x(x)\\), then determine where the field magnitude is largest for \\(x\\ge0\\).",
+      "answer": "Given\n\\[\nV(x)=V_0e^{-x/\\ell}\n\\]\ndifferentiate:\n\\[\n\\frac{dV}{dx}=-\\frac{V_0}{\\ell}e^{-x/\\ell}\n\\]\nTherefore\n\\[\nE_x(x)=-\\frac{dV}{dx}=\\frac{V_0}{\\ell}e^{-x/\\ell}\n\\]\nFor \\(x\\ge0\\), \\(e^{-x/\\ell}\\) is largest at \\(x=0\\), so the field magnitude is largest at\n\\[\nx=0\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-gradients-10",
+      "prompt": "A potential has the form \\(V(x,y)=A(x^2-y^2)\\). Derive \\(\\vec E\\), find the points where \\(\\vec E=0\\), and describe the directions of the field on the \\(x\\)-axis and \\(y\\)-axis.",
+      "answer": "Given\n\\[\nV(x,y)=A(x^2-y^2)\n\\]\nthe derivatives are\n\\[\n\\frac{\\partial V}{\\partial x}=2Ax,\\qquad \\frac{\\partial V}{\\partial y}=-2Ay\n\\]\nThus\n\\[\n\\vec E=-\\nabla V=-2Ax\\,\\hat\\imath+2Ay\\,\\hat\\jmath\n\\]\nFor \\(\\vec E=0\\), both components must vanish:\n\\[\nx=0,\\qquad y=0\n\\]\nso the only zero-field point is the origin.\n\nOn the \\(x\\)-axis, \\(y=0\\), so\n\\[\n\\vec E=-2Ax\\,\\hat\\imath\n\\]\nFor \\(A\u003e0\\), the field points toward the origin on both sides of the \\(x\\)-axis.\n\nOn the \\(y\\)-axis, \\(x=0\\), so\n\\[\n\\vec E=2Ay\\,\\hat\\jmath\n\\]\nFor \\(A\u003e0\\), the field points away from the origin on both sides of the \\(y\\)-axis.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

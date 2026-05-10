@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "heat-transfer-mechanisms",
+  "topicTitle": "Heat Transfer Mechanisms",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "heat-transfer-mechanisms-01",
+      "prompt": "Name the heat-transfer mechanism that can occur through a vacuum.",
+      "answer": "Radiation can transfer heat through a vacuum because it is carried by electromagnetic waves.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-02",
+      "prompt": "A slab has \\(k=0.20\\,\\mathrm{W\\,m^{-1}\\,K^{-1}}\\), area \\(1.5\\,\\mathrm{m^2}\\), thickness \\(0.050\\,\\mathrm{m}\\), and temperature difference \\(10\\,\\mathrm{K}\\). Find the conduction heat current.",
+      "answer": "\\[\nH=kA\\frac{\\Delta T}{L}\n=0.20(1.5)\\frac{10}{0.050}=60\\,\\mathrm{W}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-03",
+      "prompt": "If a conducting wall\u0027s thickness is doubled while \\(k\\), \\(A\\), and \\(\\Delta T\\) are unchanged, what happens to the heat current?",
+      "answer": "For conduction,\n\\[\nH=kA\\frac{\\Delta T}{L}\n\\]\nso doubling \\(L\\) halves the heat current.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-04",
+      "prompt": "A window has thermal resistance \\(R=0.80\\,\\mathrm{K\\,W^{-1}}\\) and a temperature difference of \\(16\\,\\mathrm{K}\\). Find the heat current through it.",
+      "answer": "Using \\(H=\\Delta T/R\\),\n\\[\nH=\\frac{16}{0.80}=20\\,\\mathrm{W}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-05",
+      "prompt": "A surface of area \\(0.30\\,\\mathrm{m^2}\\) has convection coefficient \\(h_c=12\\,\\mathrm{W\\,m^{-2}\\,K^{-1}}\\). The surface is \\(8.0\\,\\mathrm{K}\\) hotter than the surrounding fluid. Estimate the convective heat current.",
+      "answer": "\\[\nH=h_cA\\Delta T=(12)(0.30)(8.0)=28.8\\,\\mathrm{W}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-06",
+      "prompt": "A black surface with \\(e=0.95\\), area \\(0.10\\,\\mathrm{m^2}\\), and temperature \\(350\\,\\mathrm{K}\\) radiates into surroundings at \\(300\\,\\mathrm{K}\\). Find the net radiative heat loss using \\(\\sigma=5.67\\times10^{-8}\\,\\mathrm{W\\,m^{-2}\\,K^{-4}}\\).",
+      "answer": "\\[\nH=e\\sigma A(T^4-T_s^4)\n\\]\n\\[\nH=(0.95)(5.67\\times10^{-8})(0.10)(350^4-300^4)\n\\]\n\\[\nH=37\\,\\mathrm{W}\n\\]\nThe positive result is net heat loss from the hotter surface.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-07",
+      "prompt": "Why does a metal handle feel colder than a wooden handle at the same room temperature?",
+      "answer": "The metal and wood can have the same temperature, but metal has a much larger thermal conductivity. It removes energy from your hand faster by conduction, so your hand cools faster and the metal feels colder.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-08",
+      "prompt": "Two slabs are in series. Slab 1 has \\(R_1=0.40\\,\\mathrm{K\\,W^{-1}}\\), slab 2 has \\(R_2=0.90\\,\\mathrm{K\\,W^{-1}}\\), and the total temperature difference is \\(26\\,\\mathrm{K}\\). Find the steady heat current and the temperature drop across slab 2.",
+      "answer": "For series thermal resistances,\n\\[\nR_{\\mathrm{tot}}=R_1+R_2=0.40+0.90=1.30\\,\\mathrm{K\\,W^{-1}}\n\\]\nThe heat current is\n\\[\nH=\\frac{\\Delta T}{R_{\\mathrm{tot}}}=\\frac{26}{1.30}=20\\,\\mathrm{W}\n\\]\nThe temperature drop across slab 2 is\n\\[\n\\Delta T_2=HR_2=(20)(0.90)=18\\,\\mathrm{K}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-09",
+      "prompt": "A wall has two parallel heat-flow paths. Path A has \\(R_A=2.0\\,\\mathrm{K\\,W^{-1}}\\), path B has \\(R_B=5.0\\,\\mathrm{K\\,W^{-1}}\\), and both see the same \\(20\\,\\mathrm{K}\\) temperature difference. Find the total heat current.",
+      "answer": "Parallel paths have the same temperature difference, and their heat currents add:\n\\[\nH_A=\\frac{20}{2.0}=10\\,\\mathrm{W}\n\\]\n\\[\nH_B=\\frac{20}{5.0}=4.0\\,\\mathrm{W}\n\\]\nTherefore\n\\[\nH_{\\mathrm{tot}}=14\\,\\mathrm{W}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-10",
+      "prompt": "A surface radiates net power \\(H\\) at temperature \\(T\\) into very cold surroundings. If its absolute temperature is doubled and \\(A,e\\) are unchanged, by what factor does \\(H\\) change? Explain why Celsius cannot be used for this ratio.",
+      "answer": "Into very cold surroundings,\n\\[\nH\\propto T^4\n\\]\nIf \\(T\\) doubles,\n\\[\n\\frac{H_2}{H_1}=\\left(\\frac{2T}{T}\\right)^4=16\n\\]\nAbsolute temperature must be used because radiation depends on \\(T^4\\) measured from absolute zero. Celsius has an arbitrary offset, so Celsius ratios are not physically meaningful here.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-11",
+      "prompt": "Derive the effective thermal resistance for two conducting slabs in series, with thicknesses \\(L_1,L_2\\), conductivities \\(k_1,k_2\\), common area \\(A\\), and steady one-dimensional heat flow.",
+      "answer": "In steady series conduction, the same heat current passes through both slabs. For each slab,\n\\[\nH=\\frac{\\Delta T_i}{R_i},\\qquad R_i=\\frac{L_i}{k_iA}\n\\]\nThe total temperature drop is\n\\[\n\\Delta T=\\Delta T_1+\\Delta T_2=H(R_1+R_2)\n\\]\nThus\n\\[\nH=\\frac{\\Delta T}{R_{\\mathrm{eff}}}\n\\]\nwith\n\\[\nR_{\\mathrm{eff}}=R_1+R_2=\\frac{L_1}{k_1A}+\\frac{L_2}{k_2A}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-transfer-mechanisms-12",
+      "prompt": "A hot object loses heat by radiation \\(e\\sigma A(T^4-T_s^4)\\) and convection \\(h_cA(T-T_s)\\). For a small excess temperature \\(\\theta=T-T_s\\), derive the approximate total heat-loss law linear in \\(\\theta\\).",
+      "answer": "Let \\(T=T_s+\\theta\\), where \\(|\\theta|\\ll T_s\\). Expand the radiation term:\n\\[\nT^4-T_s^4=(T_s+\\theta)^4-T_s^4\\approx4T_s^3\\theta\n\\]\nThe radiative loss becomes\n\\[\nH_{\\mathrm{rad}}\\approx4e\\sigma AT_s^3\\theta\n\\]\nThe convective loss is already linear:\n\\[\nH_{\\mathrm{conv}}=h_cA\\theta\n\\]\nSo the total heat loss is approximately\n\\[\nH_{\\mathrm{tot}}\\approx A(h_c+4e\\sigma T_s^3)\\theta\n\\]\nThis identifies an effective linear heat-transfer coefficient\n\\[\nh_{\\mathrm{eff}}=h_c+4e\\sigma T_s^3\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

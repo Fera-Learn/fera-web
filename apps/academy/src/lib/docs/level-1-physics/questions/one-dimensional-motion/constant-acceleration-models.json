@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "one-dimensional-motion",
+  "topicId": "constant-acceleration-models",
+  "topicTitle": "Constant-Acceleration Models",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "constant-acceleration-01",
+      "prompt": "A particle has \\(v_{0x}=2\\,\\mathrm{m\\,s^{-1}}\\), \\(a_x=3\\,\\mathrm{m\\,s^{-2}}\\), and \\(t=4\\,\\mathrm{s}\\). Find \\(v_x\\).",
+      "answer": "\\[\nv_x=v_{0x}+a_xt=2+3(4)=14\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-02",
+      "prompt": "A particle starts at \\(x_0=0\\) with \\(v_{0x}=2\\,\\mathrm{m\\,s^{-1}}\\) and \\(a_x=3\\,\\mathrm{m\\,s^{-2}}\\). Find \\(x\\) at \\(t=4\\,\\mathrm{s}\\).",
+      "answer": "\\[\nx=0+2(4)+\\frac{1}{2}(3)(4^2)=32\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-19",
+      "prompt": "Check the units in \\(x=x_0+v_{0x}t+\\frac{1}{2}a_xt^2\\).",
+      "answer": "Each term has units of metres:\n\\[\nv_{0x}t\\rightarrow \\mathrm{m\\,s^{-1}}\\cdot\\mathrm{s}=\\mathrm{m}\n\\]\n\\[\na_xt^2\\rightarrow \\mathrm{m\\,s^{-2}}\\cdot\\mathrm{s^2}=\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-03",
+      "prompt": "A particle with \\(v_0=20\\,\\mathrm{m\\,s^{-1}}\\) slows at \\(5\\,\\mathrm{m\\,s^{-2}}\\). Find the stopping time and stopping distance.",
+      "answer": "\\[\n0=20-5t\n\\]\n\\[\nt=4\\,\\mathrm{s}\n\\]\n\\[\n\\Delta x=\\frac{v_0+v_f}{2}t=\\frac{20+0}{2}(4)=40\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-04",
+      "prompt": "A particle starts from rest and accelerates at \\(2\\,\\mathrm{m\\,s^{-2}}\\) across \\(9\\,\\mathrm{m}\\). Find its final speed.",
+      "answer": "\\[\nv_x^2=0+2(2)(9)=36\n\\]\n\\[\nv_x=6\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-16",
+      "prompt": "A particle starts at \\(x_0=0\\) with \\(v_{0x}=6\\,\\mathrm{m\\,s^{-1}}\\) and \\(a_x=-2\\,\\mathrm{m\\,s^{-2}}\\). When does it return to \\(x=0\\)?",
+      "answer": "\\[\n0=6t-\\frac{1}{2}(2)t^2=6t-t^2\n\\]\n\\[\nt(6-t)=0\n\\]\nIt returns after \\(t=6\\,\\mathrm{s}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-05",
+      "prompt": "A particle starts from rest with \\(a_x=4\\,\\mathrm{m\\,s^{-2}}\\) for \\(3\\,\\mathrm{s}\\). Find final velocity and displacement.",
+      "answer": "\\[\nv_x=4(3)=12\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\n\\Delta x=\\frac{1}{2}(4)(3^2)=18\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-06",
+      "prompt": "A particle has \\(v_{0x}=-5\\,\\mathrm{m\\,s^{-1}}\\) and \\(a_x=2\\,\\mathrm{m\\,s^{-2}}\\). Find \\(v_x\\) after \\(4\\,\\mathrm{s}\\).",
+      "answer": "\\[\nv_x=-5+2(4)=3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-13",
+      "prompt": "Which constant-acceleration equation is usually best when time is not given?",
+      "answer": "Use the no-time equation:\n\\[\nv_x^2=v_{0x}^2+2a_x(x-x_0)\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-17",
+      "prompt": "A particle has \\(v_{0x}=3\\,\\mathrm{m\\,s^{-1}}\\), \\(a_x=2\\,\\mathrm{m\\,s^{-2}}\\), and \\(\\Delta x=20\\,\\mathrm{m}\\). Find final speed.",
+      "answer": "\\[\nv_x^2=3^2+2(2)(20)=89\n\\]\n\\[\nv_x=\\sqrt{89}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-07",
+      "prompt": "A particle changes velocity from \\(3\\,\\mathrm{m\\,s^{-1}}\\) to \\(15\\,\\mathrm{m\\,s^{-1}}\\) in \\(6\\,\\mathrm{s}\\). Find the constant acceleration.",
+      "answer": "\\[\na_x=\\frac{15-3}{6}=2\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-08",
+      "prompt": "A particle starts with \\(v_{0x}=10\\,\\mathrm{m\\,s^{-1}}\\) and \\(a_x=-2\\,\\mathrm{m\\,s^{-2}}\\). When does it stop?",
+      "answer": "\\[\n0=10-2t\n\\]\n\\[\nt=5\\,\\mathrm{s}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-14",
+      "prompt": "A particle moves with \\(v_{0x}=1\\,\\mathrm{m\\,s^{-1}}\\), \\(a_x=2\\,\\mathrm{m\\,s^{-2}}\\), and \\(t=5\\,\\mathrm{s}\\). Find displacement.",
+      "answer": "\\[\n\\Delta x=v_{0x}t+\\frac{1}{2}a_xt^2=1(5)+\\frac{1}{2}(2)(25)=30\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-20",
+      "prompt": "A particle has \\(x_0=-1\\,\\mathrm{m}\\), \\(v_{0x}=4\\,\\mathrm{m\\,s^{-1}}\\), \\(a_x=-3\\,\\mathrm{m\\,s^{-2}}\\), and \\(t=2\\,\\mathrm{s}\\). Find \\(x\\).",
+      "answer": "\\[\nx=-1+4(2)+\\frac{1}{2}(-3)(2^2)=1\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-09",
+      "prompt": "A particle slows from \\(10\\,\\mathrm{m\\,s^{-1}}\\) to \\(2\\,\\mathrm{m\\,s^{-1}}\\) with \\(a_x=-2\\,\\mathrm{m\\,s^{-2}}\\). Find the displacement.",
+      "answer": "\\[\nv_x^2=v_{0x}^2+2a_x\\Delta x\n\\]\n\\[\n4=100-4\\Delta x\n\\]\n\\[\n\\Delta x=24\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-10",
+      "prompt": "When is the standard constant-acceleration model valid?",
+      "answer": "It is valid only when acceleration is constant over the time interval being modeled.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-15",
+      "prompt": "A particle starts from rest and travels \\(25\\,\\mathrm{m}\\) with \\(a_x=2\\,\\mathrm{m\\,s^{-2}}\\). Find the time.",
+      "answer": "\\[\n25=\\frac{1}{2}(2)t^2\n\\]\n\\[\nt=5\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-11",
+      "prompt": "For constant acceleration, a particle changes from \\(4\\,\\mathrm{m\\,s^{-1}}\\) to \\(12\\,\\mathrm{m\\,s^{-1}}\\) in \\(5\\,\\mathrm{s}\\). Find displacement.",
+      "answer": "\\[\n\\Delta x=\\frac{v_0+v_f}{2}t=\\frac{4+12}{2}(5)=40\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-12",
+      "prompt": "A particle has \\(x_0=5\\,\\mathrm{m}\\), \\(v_{0x}=-2\\,\\mathrm{m\\,s^{-1}}\\), \\(a_x=1\\,\\mathrm{m\\,s^{-2}}\\), and \\(t=6\\,\\mathrm{s}\\). Find \\(x\\).",
+      "answer": "\\[\nx=5+(-2)(6)+\\frac{1}{2}(1)(6^2)=11\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-18",
+      "prompt": "If \\(v_x\u003e0\\) and \\(a_x\u003c0\\), what happens to speed at that instant?",
+      "answer": "The signs oppose, so the speed decreases at that instant.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-21",
+      "prompt": "A particle starts at \\(x=0\\) with \\(v_{0x}=18\\,\\mathrm{m\\,s^{-1}}\\) and \\(a_x=-3\\,\\mathrm{m\\,s^{-2}}\\). Find when it returns to \\(x=0\\) and its velocity then.",
+      "answer": "\\[\n0=18t-\\frac{1}{2}(3)t^2=18t-1.5t^2\n\\]\n\\[\nt(18-1.5t)=0\n\\]\nThe return time is \\(t=12\\,\\mathrm{s}\\).\n\\[\nv_x=18-3(12)=-18\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-acceleration-22",
+      "prompt": "A train moving at \\(24\\,\\mathrm{m\\,s^{-1}}\\) brakes uniformly and stops after \\(96\\,\\mathrm{m}\\). Find its acceleration and stopping time.",
+      "answer": "\\[\n0=24^2+2a_x(96)\n\\]\n\\[\na_x=-3\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\n0=24-3t\n\\]\n\\[\nt=8\\,\\mathrm{s}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

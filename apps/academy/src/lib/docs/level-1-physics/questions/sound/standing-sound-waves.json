@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "standing-sound-waves",
+  "topicTitle": "Standing Sound Waves",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-standing-01",
+      "prompt": "An open-open pipe has length \\(0.85\\,\\mathrm{m}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find its fundamental frequency.",
+      "answer": "\\[\nf_1=\\frac{v}{2L}=\\frac{340}{2(0.85)}=200\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-02",
+      "prompt": "An open-closed pipe has length \\(0.85\\,\\mathrm{m}\\). Use \\(v=340\\,\\mathrm{m\\,s^{-1}}\\) to find its fundamental frequency.",
+      "answer": "\\[\nf_1=\\frac{v}{4L}=\\frac{340}{4(0.85)}=100\\,\\mathrm{Hz}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-03",
+      "prompt": "At an open end of an ideal pipe, is the pressure variation a node or an antinode?",
+      "answer": "At an ideal open end, the pressure variation is approximately a node because the pressure stays close to atmospheric pressure.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-04",
+      "prompt": "At a closed end of an ideal pipe, is the air-particle displacement a node or an antinode?",
+      "answer": "At an ideal closed end, the air-particle displacement is a node because the boundary prevents longitudinal motion through the wall.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-05",
+      "prompt": "Find the first three frequencies of an open-open pipe of length \\(1.0\\,\\mathrm{m}\\), using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "For an open-open pipe,\n\\[\nf_n=\\frac{nv}{2L}\n\\]\nWith \\(L=1.0\\,\\mathrm{m}\\),\n\\[\nf_1=170\\,\\mathrm{Hz},\\quad f_2=340\\,\\mathrm{Hz},\\quad f_3=510\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-06",
+      "prompt": "Find the first three allowed frequencies of an open-closed pipe of length \\(1.0\\,\\mathrm{m}\\), using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "For an open-closed pipe,\n\\[\nf_n=\\frac{(2n-1)v}{4L}\n\\]\nWith \\(L=1.0\\,\\mathrm{m}\\),\n\\[\nf_1=85\\,\\mathrm{Hz},\\quad f_2=255\\,\\mathrm{Hz},\\quad f_3=425\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-07",
+      "prompt": "An open-open pipe has fundamental frequency \\(220\\,\\mathrm{Hz}\\). Find the frequency of its fourth harmonic.",
+      "answer": "For an open-open pipe, all integer harmonics occur:\n\\[\nf_4=4f_1=4(220)=880\\,\\mathrm{Hz}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-08",
+      "prompt": "An open-closed pipe has fundamental frequency \\(120\\,\\mathrm{Hz}\\). Which of \\(240\\,\\mathrm{Hz}\\), \\(360\\,\\mathrm{Hz}\\), and \\(600\\,\\mathrm{Hz}\\) are allowed ideal resonances?",
+      "answer": "An ideal open-closed pipe has only odd harmonics:\n\\[\nf_1,3f_1,5f_1,\\ldots\n\\]\nWith \\(f_1=120\\,\\mathrm{Hz}\\), allowed examples are\n\\[\n360\\,\\mathrm{Hz}=3f_1,\\qquad 600\\,\\mathrm{Hz}=5f_1\n\\]\n\\(240\\,\\mathrm{Hz}=2f_1\\) is not allowed in the ideal model.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-09",
+      "prompt": "An open-open pipe resonates at \\(300\\,\\mathrm{Hz}\\) in its fundamental. Find its length using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nf_1=\\frac{v}{2L}\n\\]\nso\n\\[\nL=\\frac{v}{2f_1}=\\frac{340}{2(300)}=0.567\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-10",
+      "prompt": "An open-closed pipe resonates at \\(250\\,\\mathrm{Hz}\\) in its fundamental. Find its length using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nf_1=\\frac{v}{4L}\n\\]\nso\n\\[\nL=\\frac{v}{4f_1}=\\frac{340}{4(250)}=0.340\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-11",
+      "prompt": "An open-open pipe has length \\(0.60\\,\\mathrm{m}\\). Find the wavelength and frequency of the \\(n=3\\) mode using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "For open-open modes,\n\\[\n\\lambda_n=\\frac{2L}{n}\n\\]\nFor \\(n=3\\),\n\\[\n\\lambda_3=\\frac{2(0.60)}{3}=0.40\\,\\mathrm{m}\n\\]\n\\[\nf_3=\\frac{v}{\\lambda_3}=\\frac{340}{0.40}=850\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-12",
+      "prompt": "An open-closed pipe has length \\(0.60\\,\\mathrm{m}\\). Find the wavelength and frequency of its third allowed mode \\((n=3)\\), using \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "For open-closed modes,\n\\[\n\\lambda_n=\\frac{4L}{2n-1}\n\\]\nFor \\(n=3\\),\n\\[\n\\lambda_3=\\frac{4(0.60)}{5}=0.48\\,\\mathrm{m}\n\\]\n\\[\nf_3=\\frac{340}{0.48}=708\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-13",
+      "prompt": "A pipe has resonances at \\(170\\,\\mathrm{Hz}\\), \\(340\\,\\mathrm{Hz}\\), and \\(510\\,\\mathrm{Hz}\\). Decide whether this pattern better matches open-open or open-closed behavior.",
+      "answer": "The pattern is \\(170,2(170),3(170)\\). It includes consecutive integer harmonics, so it better matches an open-open pipe.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-14",
+      "prompt": "A pipe has resonances at \\(90\\,\\mathrm{Hz}\\), \\(270\\,\\mathrm{Hz}\\), and \\(450\\,\\mathrm{Hz}\\). Decide whether this pattern better matches open-open or open-closed behavior.",
+      "answer": "The pattern is \\(90,3(90),5(90)\\). It contains odd harmonics only, so it better matches an open-closed pipe.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-15",
+      "prompt": "Derive the open-open allowed frequencies from the condition that \\(n\\) half-wavelengths fit into length \\(L\\).",
+      "answer": "For open-open ends, both ends are pressure nodes. The length contains \\(n\\) half-wavelengths:\n\\[\nL=n\\frac{\\lambda_n}{2}\n\\]\nso\n\\[\n\\lambda_n=\\frac{2L}{n}\n\\]\nUsing \\(v=f_n\\lambda_n\\),\n\\[\nf_n=\\frac{v}{\\lambda_n}=\\frac{nv}{2L}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-16",
+      "prompt": "Derive the open-closed allowed frequencies from the condition that an odd number of quarter-wavelengths fits into length \\(L\\).",
+      "answer": "For open-closed ends, the allowed pattern contains an odd number of quarter-wavelengths:\n\\[\nL=(2n-1)\\frac{\\lambda_n}{4}\n\\]\nso\n\\[\n\\lambda_n=\\frac{4L}{2n-1}\n\\]\nUsing \\(v=f_n\\lambda_n\\),\n\\[\nf_n=\\frac{(2n-1)v}{4L}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-17",
+      "prompt": "A pipe of unknown end condition has consecutive resonances at \\(510\\,\\mathrm{Hz}\\) and \\(680\\,\\mathrm{Hz}\\). Use the spacing to find the fundamental spacing and give one possible pipe type and length for \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "The spacing is\n\\[\n\\Delta f=680-510=170\\,\\mathrm{Hz}\n\\]\nAn open-open pipe has adjacent resonances separated by \\(f_1\\), so one possible type is open-open with \\(f_1=170\\,\\mathrm{Hz}\\). Its length is\n\\[\nL=\\frac{v}{2f_1}=\\frac{340}{2(170)}=1.0\\,\\mathrm{m}\n\\]\nAn open-closed pipe can also have adjacent allowed odd harmonics separated by \\(2f_1\\); then \\(f_1=85\\,\\mathrm{Hz}\\) and \\(L=1.0\\,\\mathrm{m}\\). The two given resonances alone do not uniquely determine the end condition.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-18",
+      "prompt": "An open-open pipe and an open-closed pipe have the same length \\(L\\). Compare their fundamental frequencies and explain the geometry of the difference.",
+      "answer": "For the same length,\n\\[\nf_{\\mathrm{open-open}}=\\frac{v}{2L}\n\\]\nand\n\\[\nf_{\\mathrm{open-closed}}=\\frac{v}{4L}\n\\]\nThus\n\\[\nf_{\\mathrm{open-open}}=2f_{\\mathrm{open-closed}}\n\\]\nThe open-open fundamental fits half a wavelength in the pipe, while the open-closed fundamental fits only a quarter-wavelength.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-19",
+      "prompt": "An ideal pipe has one end definitely open. Its allowed frequencies are \\(f,3f,5f,\\ldots\\). Prove that the other end must behave as closed in the simple air-column model.",
+      "answer": "One end is open, so it is a pressure node. If the other end were also open, the pipe would support all integer harmonics \\(f,2f,3f,\\ldots\\). The observed sequence \\(f,3f,5f,\\ldots\\) excludes even harmonics, which is the ideal open-closed pattern. Therefore the other end must impose the opposite boundary type: a pressure antinode, equivalent to a closed end.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-standing-20",
+      "prompt": "A pipe of length \\(L\\) has one end adjustable between effectively open and effectively closed. Explain how the fundamental wavelength changes between the two limits and derive the frequency ratio.",
+      "answer": "With both ends open, the fundamental has\n\\[\nL=\\frac{\\lambda_{\\mathrm{oo}}}{2}\n\\]\nso\n\\[\n\\lambda_{\\mathrm{oo}}=2L,\\qquad f_{\\mathrm{oo}}=\\frac{v}{2L}\n\\]\nWith one end closed, the fundamental has\n\\[\nL=\\frac{\\lambda_{\\mathrm{oc}}}{4}\n\\]\nso\n\\[\n\\lambda_{\\mathrm{oc}}=4L,\\qquad f_{\\mathrm{oc}}=\\frac{v}{4L}\n\\]\nThe frequency ratio is\n\\[\n\\frac{f_{\\mathrm{oo}}}{f_{\\mathrm{oc}}}=2\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

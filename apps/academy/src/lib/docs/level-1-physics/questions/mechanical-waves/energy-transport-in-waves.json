@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "energy-transport-in-waves",
+  "topicTitle": "Energy Transport in Waves",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-energy-01",
+      "prompt": "If the amplitude of a sinusoidal string wave doubles while everything else stays the same, by what factor does the average power change?",
+      "answer": "Average power scales as \\(A^2\\), so doubling \\(A\\) makes the power four times larger.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-02",
+      "prompt": "A string wave has \\(\\mu=0.010\\,\\mathrm{kg\\,m^{-1}}\\), \\(A=0.020\\,\\mathrm{m}\\), \\(\\omega=50\\,\\mathrm{rad\\,s^{-1}}\\), and \\(v_w=30\\,\\mathrm{m\\,s^{-1}}\\). Find the average power.",
+      "answer": "\\[\n\\langle P\\rangle=\\frac{1}{2}\\mu A^2\\omega^2 v_w\n\\]\n\\[\n\\langle P\\rangle=\\frac{1}{2}(0.010)(0.020)^2(50)^2(30)=0.15\\,\\mathrm{W}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-03",
+      "prompt": "Two otherwise identical sinusoidal waves have amplitudes \\(A\\) and \\(2A\\). Compare their average energy densities.",
+      "answer": "Average energy density scales as \\(A^2\\). Therefore the wave with amplitude \\(2A\\) has\n\\[\n(2A)^2=4A^2\n\\]\nso its average energy density is four times larger.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-04",
+      "prompt": "If a sinusoidal string wave keeps the same amplitude and speed but its frequency doubles, by what factor does the average power change?",
+      "answer": "Since\n\\[\n\\langle P\\rangle\\propto \\omega^2\n\\]\ndoubling the frequency doubles \\(\\omega\\), so the average power increases by a factor of \\(4\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-05",
+      "prompt": "A string wave has average power \\(8.0\\,\\mathrm{W}\\), \\(\\mu=0.020\\,\\mathrm{kg\\,m^{-1}}\\), \\(\\omega=40\\,\\mathrm{rad\\,s^{-1}}\\), and \\(v_w=25\\,\\mathrm{m\\,s^{-1}}\\). Find the amplitude.",
+      "answer": "Rearrange\n\\[\n\\langle P\\rangle=\\frac{1}{2}\\mu A^2\\omega^2 v_w\n\\]\nto get\n\\[\nA=\\sqrt{\\frac{2\\langle P\\rangle}{\\mu\\omega^2 v_w}}\n\\]\nSo\n\\[\nA=\\sqrt{\\frac{2(8.0)}{(0.020)(40)^2(25)}}=\\sqrt{0.020}=0.141\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-06",
+      "prompt": "Explain why a wave can transport energy along a string even though each small part of the string oscillates about an equilibrium position instead of drifting steadily along the string.",
+      "answer": "Each element of the string gains and loses kinetic and elastic energy as it oscillates. That energy does not stay at one location: the pattern of stretched regions and moving regions propagates along the string. So the medium has no net mass transport, but the energy associated with the disturbance moves with the wave.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-07",
+      "prompt": "A sinusoidal wave on a string keeps the same amplitude and frequency while the tension is increased by a factor of \\(9\\). The linear density is unchanged. By what factor does the average power change?",
+      "answer": "With \\(\\mu\\) unchanged,\n\\[\nv_w=\\sqrt{\\frac{T}{\\mu}}\n\\]\nso increasing \\(T\\) by \\(9\\) increases \\(v_w\\) by \\(3\\).\n\nAverage power is\n\\[\n\\langle P\\rangle=\\frac{1}{2}\\mu A^2\\omega^2 v_w\n\\]\nand \\(A\\), \\(\\omega\\), and \\(\\mu\\) are unchanged, so the average power also increases by a factor of \\(3\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-energy-08",
+      "prompt": "A string wave must carry the same average power while the wave speed stays fixed. Derive how the amplitude must scale with angular frequency. Then determine the required amplitude factor if \\(\\omega\\) is tripled.",
+      "answer": "If the average power and the wave speed are fixed, then\n\\[\n\\langle P\\rangle=\\frac{1}{2}\\mu A^2\\omega^2 v_w=\\text{constant}\n\\]\nWith \\(\\mu\\) and \\(v_w\\) fixed, this gives\n\\[\nA^2\\omega^2=\\text{constant}\n\\]\nso\n\\[\nA\\propto \\frac{1}{\\omega}\n\\]\nIf \\(\\omega\\) is tripled, the amplitude must be reduced by a factor of \\(3\\):\n\\[\nA\u0027=\\frac{A}{3}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

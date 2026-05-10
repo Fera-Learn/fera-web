@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-waves",
+  "topicId": "plane-waves-and-light-speed",
+  "topicTitle": "Plane Waves and Light Speed",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "plane-waves-light-speed-01",
+      "prompt": "Define a plane electromagnetic wave in terms of its wavefronts and field dependence.",
+      "answer": "A plane wave has planar wavefronts. For propagation in \\(+x\\), the fields depend on \\(x\\) and \\(t\\), while each plane of constant \\(x\\) has the same field value.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-02",
+      "prompt": "A vacuum plane wave has frequency \\(2.40\\times10^{14}\\,\\mathrm{Hz}\\). Find its wavelength.",
+      "answer": "\\[\\n\\lambda=\\frac{c}{f}=\\frac{3.00\\times10^8}{2.40\\times10^{14}}=1.25\\times10^{-6}\\,\\mathrm{m}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-03",
+      "prompt": "A wave has wavelength \\(4.0\\,\\mathrm{cm}\\) in vacuum. Find its frequency.",
+      "answer": "\\[\\nf=\\frac{c}{\\lambda}=\\frac{3.0\\times10^8}{4.0\\times10^{-2}}=7.5\\times10^9\\,\\mathrm{Hz}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-04",
+      "prompt": "For a plane wave with phase \\(kx-\\omega t\\), state the propagation direction and speed.",
+      "answer": "A constant phase satisfies \\(kx-\\omega t=\\mathrm{constant}\\), so \\(x=(\\omega/k)t+\\mathrm{constant}\\). The wave travels in \\(+x\\) with speed\\n\\[\\nv=\\frac{\\omega}{k}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-05",
+      "prompt": "A wave has \\(k=8.0\\,\\mathrm{rad\\,m^{-1}}\\) and \\(\\omega=2.4\\times10^9\\,\\mathrm{rad\\,s^{-1}}\\). Decide whether its speed matches light in vacuum.",
+      "answer": "\\[\\nv=\\frac{\\omega}{k}=\\frac{2.4\\times10^9}{8.0}=3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nYes, the speed matches light in vacuum.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-06",
+      "prompt": "Light of vacuum wavelength \\(640\\,\\mathrm{nm}\\) enters glass with \\(n=1.60\\). Find its speed and wavelength in the glass.",
+      "answer": "Frequency stays fixed. The speed is\\n\\[\\nv=\\frac{c}{n}=\\frac{3.0\\times10^8}{1.60}=1.875\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nThe wavelength becomes\\n\\[\\n\\lambda=\\frac{\\lambda_0}{n}=\\frac{640\\,\\mathrm{nm}}{1.60}=400\\,\\mathrm{nm}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-07",
+      "prompt": "A plane wave in a medium has \\(E_0=48\\,\\mathrm{V\\,m^{-1}}\\) and \\(B_0=3.0\\times10^{-7}\\,\\mathrm{T}\\). Find the wave speed and refractive index.",
+      "answer": "\\[\\nv=\\frac{E_0}{B_0}=\\frac{48}{3.0\\times10^{-7}}=1.6\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\nThen\\n\\[\\nn=\\frac{c}{v}=\\frac{3.0\\times10^8}{1.6\\times10^8}=1.875\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-08",
+      "prompt": "A wave moving in \\(+z\\) has \\(\\vec E\\) along \\(-x\\). Determine the magnetic-field direction.",
+      "answer": "Require \\(\\vec E\\times\\vec B=+\\hat z\\). With \\(\\vec E=-\\hat x\\), choose \\(\\vec B=+\\hat y\\), since\\n\\[\\n(-\\hat x)\\times\\hat y=-\\hat z\\n\\]\\nThis is wrong, so \\(\\vec B=-\\hat y\\):\\n\\[\\n(-\\hat x)\\times(-\\hat y)=+\\hat z\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-09",
+      "prompt": "A pulse of light travels \\(12.0\\,\\mathrm{cm}\\) through a transparent block in \\(0.60\\,\\mathrm{ns}\\). Find the refractive index.",
+      "answer": "\\[\\nv=\\frac{0.120}{0.60\\times10^{-9}}=2.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]\\n\\[\\nn=\\frac{c}{v}=\\frac{3.0\\times10^8}{2.0\\times10^8}=1.50\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-10",
+      "prompt": "A laser goes from air into water. Its frequency is \\(5.0\\times10^{14}\\,\\mathrm{Hz}\\), and water has \\(n=1.33\\). Find its wavelength in water and explain the invariant quantity.",
+      "answer": "The frequency is fixed by the source and remains \\(5.0\\times10^{14}\\,\\mathrm{Hz}\\). In water,\\n\\[\\nv=\\frac{c}{n}\\n\\]\\nso\\n\\[\\n\\lambda=\\frac{v}{f}=\\frac{c}{nf}=\\frac{3.0\\times10^8}{(1.33)(5.0\\times10^{14})}=4.5\\times10^{-7}\\,\\mathrm{m}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-11",
+      "prompt": "Derive \\(v=\\omega/k\\) from the condition that a fixed phase point moves with the wave.",
+      "answer": "For a fixed phase,\\n\\[\\nkx-\\omega t=\\phi_0\\n\\]\\nDifferentiate with respect to time:\\n\\[\\nk\\frac{dx}{dt}-\\omega=0\\n\\]\\nThus\\n\\[\\nv=\\frac{dx}{dt}=\\frac{\\omega}{k}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-12",
+      "prompt": "A plane wave is written \\(E_y=E_0\\cos(1.2\\times10^7x+3.6\\times10^{15}t)\\). Find its direction and speed.",
+      "answer": "The plus sign means the wave travels in \\(-x\\). The speed is\\n\\[\\nv=\\frac{\\omega}{k}=\\frac{3.6\\times10^{15}}{1.2\\times10^7}=3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-13",
+      "prompt": "A material has refractive index \\(n(\\lambda_0)=1.50+2.0\\times10^{-4}(600\\,\\mathrm{nm}/\\lambda_0)^2\\). Which vacuum wavelength, \\(400\\,\\mathrm{nm}\\) or \\(700\\,\\mathrm{nm}\\), travels faster?",
+      "answer": "Speed is \\(v=c/n\\), so the smaller refractive index travels faster. The wavelength-dependent term is larger for smaller \\(\\lambda_0\\). Therefore \\(n(400\\,\\mathrm{nm})>n(700\\,\\mathrm{nm})\\), so \\(700\\,\\mathrm{nm}\\) travels faster.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-14",
+      "prompt": "A plane-wave expression uses \\(kx-\\omega t\\), but the stated energy flow is \\(-x\\). Give a model-based reason this is inconsistent for a normal plane wave.",
+      "answer": "The phase \\(kx-\\omega t\\) moves toward increasing \\(x\\), so phase fronts propagate in \\(+x\\). For a normal plane wave in a lossless medium, energy flow follows the propagation direction. A stated \\(-x\\) energy flow would require a different phase sign or a nonstandard medium model not implied by the question.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-15",
+      "prompt": "A wave crosses from medium 1 to medium 2 with \\(n_2>n_1\\). Without using refraction angles, reason what happens to speed, frequency, wavelength, and wave number.",
+      "answer": "The speed decreases because \\(v=c/n\\). The frequency remains fixed by boundary matching in time. Since \\(v=f\\lambda\\), the wavelength decreases. Since \\(k=2\\pi/\\lambda\\), the wave number increases.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-16",
+      "prompt": "Two media have \\((\\epsilon_r,\\mu_r)=(4,1)\\) and \\((1,4)\\). They have the same wave speed. Do they necessarily have the same \\(E/B\\) ratio and impedance behavior?",
+      "answer": "The speed depends on the product:\\n\\[\\nv=\\frac{c}{\\sqrt{\\epsilon_r\\mu_r}}\\n\\]\\nBoth give \\(v=c/2\\), so \\(E/B=v\\) is the same for plane waves. But electromagnetic impedance depends on the ratio \\(\\mu/\\epsilon\\), so the boundary reflection behavior need not be the same.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-17",
+      "prompt": "A field is uniform over planes of constant \\(x+y\\). What is the propagation direction of the plane wave if phase increases as \\(kx+ky-\\omega t\\)?",
+      "answer": "The phase gradient is proportional to\\n\\[\\n\\hat x+\\hat y\\n\\]\\nso the wave normal and propagation direction are along\\n\\[\\n\\hat n=\\frac{\\hat x+\\hat y}{\\sqrt2}\\n\\]\\nThe wavefronts are planes perpendicular to this direction.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-18",
+      "prompt": "A light pulse travels through \\(1.0\\,\\mathrm{m}\\) of glass with \\(n=1.50\\), then \\(1.0\\,\\mathrm{m}\\) of water with \\(n=1.33\\). Find the total time and the effective average speed over \\(2.0\\,\\mathrm{m}\\).",
+      "answer": "The time in each section is \\(t=nL/c\\). Thus\\n\\[\\nt=\\frac{1.50(1.0)+1.33(1.0)}{3.0\\times10^8}=9.43\\times10^{-9}\\,\\mathrm{s}\\n\\]\\nThe average speed over \\(2.0\\,\\mathrm{m}\\) is\\n\\[\\n\\bar v=\\frac{2.0}{9.43\\times10^{-9}}=2.12\\times10^8\\,\\mathrm{m\\,s^{-1}}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-19",
+      "prompt": "A plane wave has electric field perpendicular to \\(\\hat n\\), but its magnetic field has a component parallel to \\(\\hat n\\). Use Maxwell's source-free conditions to reject or refine the model.",
+      "answer": "For a source-free plane wave, both fields must satisfy divergence-free constraints. The magnetic condition gives\\n\\[\\n\\hat n\\cdot\\vec B=0\\n\\]\\nA component of \\(\\vec B\\) parallel to \\(\\hat n\\) violates \\(\\nabla\\cdot\\vec B=0\\) for a plane traveling wave. The model must remove the longitudinal magnetic component or include sources/non-plane structure.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "plane-waves-light-speed-20",
+      "prompt": "Prove that changing medium while keeping source frequency fixed forces a phase-matching change in wavelength at the boundary.",
+      "answer": "At the boundary, the electric field must be single-valued in time, so both sides must oscillate with the same angular frequency \\(\\omega\\). In each medium,\\n\\[\\nv_i=f\\lambda_i\\n\\]\\nBecause \\(f\\) is common but \\(v_i=c/n_i\\),\\n\\[\\n\\lambda_i=\\frac{c}{n_if}\\n\\]\\nThus a change in refractive index necessarily changes wavelength. The boundary cannot keep both frequency and wavelength fixed unless the speed is unchanged.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

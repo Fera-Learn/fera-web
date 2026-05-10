@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "real-numbers",
+  "topicId": "algebraic-manipulation",
+  "topicTitle": "Algebraic Manipulation",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-algebraic-manipulation-01",
+      "prompt": "Expand \\((x+3)(x+4)\\).",
+      "answer": "Use distributivity:\n\\[\n(x+3)(x+4)=x^2+4x+3x+12=x^2+7x+12\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-02",
+      "prompt": "Factor \\(x^2-25\\).",
+      "answer": "Use the difference of squares:\n\\[\nx^2-25=x^2-5^2=(x-5)(x+5)\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-03",
+      "prompt": "State the restriction for \\(\\frac{x+2}{x-7}\\).",
+      "answer": "The denominator cannot be zero:\n\\[\nx-7\\ne0\n\\]\nso\n\\[\nx\\ne7\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-04",
+      "prompt": "Simplify \\(\\frac{x^2-16}{x-4}\\), stating the restriction.",
+      "answer": "The original denominator requires \\(x\\ne4\\). Then\n\\[\n\\frac{x^2-16}{x-4}=\\frac{(x-4)(x+4)}{x-4}=x+4\n\\]\nfor \\(x\\ne4\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-05",
+      "prompt": "Combine \\(\\frac{1}{x}+\\frac{1}{y}\\).",
+      "answer": "Use the common denominator \\(xy\\), with \\(x\\ne0\\) and \\(y\\ne0\\):\n\\[\n\\frac{1}{x}+\\frac{1}{y}=\\frac{y+x}{xy}=\\frac{x+y}{xy}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-06",
+      "prompt": "Expand and collect \\((2x-1)(x+5)\\).",
+      "answer": "\\[\n(2x-1)(x+5)=2x^2+10x-x-5=2x^2+9x-5\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-07",
+      "prompt": "Simplify \\(\\frac{3x}{6x^2}\\), stating the restriction.",
+      "answer": "The denominator requires \\(x\\ne0\\). Then\n\\[\n\\frac{3x}{6x^2}=\\frac{1}{2x}\n\\]\nfor \\(x\\ne0\\).",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-08",
+      "prompt": "Find all restrictions for \\(\\frac{x+1}{(x-2)(x+3)}\\).",
+      "answer": "The denominator is zero when \\(x-2=0\\) or \\(x+3=0\\). Therefore\n\\[\nx\\ne2,\\qquad x\\ne-3\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-09",
+      "prompt": "Simplify \\(\\frac{x^2+x}{x}\\), stating the restriction.",
+      "answer": "Factor the numerator and record \\(x\\ne0\\):\n\\[\n\\frac{x^2+x}{x}=\\frac{x(x+1)}{x}=x+1\n\\]\nfor \\(x\\ne0\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-10",
+      "prompt": "Combine \\(\\frac{2}{x}+\\frac{3}{x+1}\\).",
+      "answer": "The restrictions are \\(x\\ne0\\) and \\(x\\ne-1\\). Then\n\\[\n\\frac{2}{x}+\\frac{3}{x+1}=\\frac{2(x+1)+3x}{x(x+1)}=\\frac{5x+2}{x(x+1)}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-11",
+      "prompt": "Simplify \\(\\frac{x^2-1}{x^2+x}\\), stating all restrictions.",
+      "answer": "Factor:\n\\[\nx^2-1=(x-1)(x+1),\\qquad x^2+x=x(x+1)\n\\]\nThe original denominator requires \\(x\\ne0\\) and \\(x\\ne-1\\). Hence\n\\[\n\\frac{x^2-1}{x^2+x}=\\frac{x-1}{x}\n\\]\nfor \\(x\\ne0,-1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-12",
+      "prompt": "Explain why \\(\\frac{x+1}{x+2}\\) cannot be simplified to \\(\\frac{1}{2}\\).",
+      "answer": "Cancellation applies to common factors, not terms inside sums. The numerator \\(x+1\\) and denominator \\(x+2\\) do not share a common factor, so no cancellation is available.",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-13",
+      "prompt": "Simplify \\(\\frac{1/a+1/b}{1/(a-b)}\\), stating the restrictions.",
+      "answer": "The restrictions are \\(a\\ne0\\), \\(b\\ne0\\), and \\(a\\ne b\\). Then\n\\[\n\\frac{1/a+1/b}{1/(a-b)}=\\frac{(a+b)/(ab)}{1/(a-b)}\n\\]\n\\[\n=\\frac{(a+b)(a-b)}{ab}=\\frac{a^2-b^2}{ab}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-14",
+      "prompt": "Simplify \\(\\frac{x^2-4x+4}{x-2}\\), stating the restriction.",
+      "answer": "The denominator requires \\(x\\ne2\\). Since\n\\[\nx^2-4x+4=(x-2)^2\n\\]\nwe get\n\\[\n\\frac{x^2-4x+4}{x-2}=x-2\n\\]\nfor \\(x\\ne2\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-15",
+      "prompt": "Expand \\((a+b)^2\\) and compare it with \\(a^2+b^2\\).",
+      "answer": "\\[\n(a+b)^2=(a+b)(a+b)=a^2+2ab+b^2\n\\]\nIt equals \\(a^2+b^2\\) only when \\(2ab=0\\), not in general.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-16",
+      "prompt": "Solve \\(\\frac{x^2-9}{x-3}=0\\), remembering the original restriction.",
+      "answer": "The expression requires \\(x\\ne3\\). For \\(x\\ne3\\),\n\\[\n\\frac{x^2-9}{x-3}=x+3\n\\]\nSo \\(x+3=0\\), giving\n\\[\nx=-3\n\\]\nThis value is allowed.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-17",
+      "prompt": "For which real \\(x\\) is \\(\\frac{x^2-5x+6}{x-2}\\) equal to \\(x-3\\)?",
+      "answer": "Factor the numerator:\n\\[\nx^2-5x+6=(x-2)(x-3)\n\\]\nThe original expression requires \\(x\\ne2\\), so\n\\[\n\\frac{x^2-5x+6}{x-2}=x-3\\quad\\text{for }x\\ne2\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-18",
+      "prompt": "Find the real-number domain of \\(F(x)=\\frac{x^2+1}{x^2-4x}\\).",
+      "answer": "Factor the denominator:\n\\[\nx^2-4x=x(x-4)\n\\]\nTherefore the excluded values are \\(0\\) and \\(4\\). The domain is\n\\[\n\\mathbb R\\setminus\\{0,4\\}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-19",
+      "prompt": "Simplify \\(\\frac{x}{x+1}-\\frac{1}{x+1}\\), stating the restriction.",
+      "answer": "The denominator requires \\(x\\ne-1\\). Combine over the common denominator:\n\\[\n\\frac{x}{x+1}-\\frac{1}{x+1}=\\frac{x-1}{x+1}\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-algebraic-manipulation-20",
+      "prompt": "A student cancels \\(x\\) in \\(\\frac{x+4}{x}\\) and writes \\(1+4\\). Explain the error and give the correct rewrite.",
+      "answer": "The \\(x\\) in the numerator is a term, not a factor of the whole numerator. Split the fraction instead:\n\\[\n\\frac{x+4}{x}=\\frac{x}{x}+\\frac{4}{x}=1+\\frac{4}{x}\n\\]\nwith \\(x\\ne0\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

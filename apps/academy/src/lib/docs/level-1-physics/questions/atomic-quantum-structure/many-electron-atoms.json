@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "many-electron-atoms",
+  "topicTitle": "Many-Electron Atoms",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "many-electron-atoms-01",
+      "prompt": "Why are many-electron atoms harder to solve than hydrogen?",
+      "answer": "Many-electron atoms include electron-electron repulsion as well as attraction to the nucleus, so the Schrodinger equation is not exactly separable into simple hydrogen-like orbits.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-02",
+      "prompt": "What is shielding in a many-electron atom?",
+      "answer": "Shielding is the reduction of the nuclear attraction felt by an electron because other electrons partially screen the nuclear charge.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-03",
+      "prompt": "Define effective nuclear charge.",
+      "answer": "Effective nuclear charge is the reduced positive charge felt by an electron after shielding:\n\\[\nZ_{\\mathrm{eff}}=Z-S\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-04",
+      "prompt": "Which subshell letter corresponds to \\(\\ell=0\\)?",
+      "answer": "\\(\\ell=0\\) corresponds to an \\(s\\) subshell.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-05",
+      "prompt": "Which subshell letter corresponds to \\(\\ell=1\\)?",
+      "answer": "\\(\\ell=1\\) corresponds to a \\(p\\) subshell.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-06",
+      "prompt": "How many orbitals are in a subshell with orbital quantum number \\(\\ell\\)?",
+      "answer": "\\[\nN_{\\mathrm{orbitals}}=2\\ell+1\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-07",
+      "prompt": "How many orbitals are in a \\(p\\) subshell?",
+      "answer": "For \\(p\\), \\(\\ell=1\\), so\n\\[\n2\\ell+1=3\n\\]\nThere are three \\(p\\) orbitals.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-08",
+      "prompt": "How many electrons can fit in a \\(p\\) subshell?",
+      "answer": "A \\(p\\) subshell has three orbitals, each holding two electrons:\n\\[\nN_e=6\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-09",
+      "prompt": "How many electrons can fit in a \\(d\\) subshell?",
+      "answer": "For \\(d\\), \\(\\ell=2\\), so there are \\(2\\ell+1=5\\) orbitals. Each holds two electrons, so\n\\[\nN_e=10\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-10",
+      "prompt": "State the shell capacity formula.",
+      "answer": "\\[\nN_e=2n^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-11",
+      "prompt": "How many electrons fit in the \\(n=2\\) shell?",
+      "answer": "\\[\nN_e=2n^2=2(2^2)=8\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-12",
+      "prompt": "How many electrons fit in the \\(n=3\\) shell?",
+      "answer": "\\[\nN_e=2(3^2)=18\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-13",
+      "prompt": "Write the ground-state electron configuration of carbon.",
+      "answer": "Carbon has \\(Z=6\\). Filling low-energy orbitals gives\n\\[\n1s^2\\,2s^2\\,2p^2\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-14",
+      "prompt": "Write the ground-state electron configuration of neon.",
+      "answer": "Neon has \\(Z=10\\), so\n\\[\n1s^2\\,2s^2\\,2p^6\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-15",
+      "prompt": "Why do multi-electron orbital energies depend on \\(\\ell\\), unlike basic hydrogen energies?",
+      "answer": "In many-electron atoms, shielding and penetration differ for different orbital shapes. Thus subshells with the same \\(n\\) but different \\(\\ell\\) can have different energies.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-16",
+      "prompt": "What is penetration in atomic structure?",
+      "answer": "Penetration describes how much an orbital's probability density reaches close to the nucleus. More penetrating orbitals feel a larger effective nuclear charge.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-17",
+      "prompt": "Why do filled shells tend to be chemically stable?",
+      "answer": "A filled shell has a stable, low-energy arrangement with no partially filled valence subshell. Removing or adding electrons usually costs extra energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-18",
+      "prompt": "How many electrons can fit in an \\(f\\) subshell?",
+      "answer": "For \\(f\\), \\(\\ell=3\\). There are\n\\[\n2\\ell+1=7\n\\]\norbitals, so the subshell holds\n\\[\n2(7)=14\n\\]\nelectrons.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-19",
+      "prompt": "Why does the Aufbau principle sometimes need exceptions?",
+      "answer": "Actual subshell energies are close and affected by electron-electron interactions, exchange, and correlation. Some atoms lower their energy with configurations that differ from the simple filling order.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "many-electron-atoms-20",
+      "prompt": "Derive the subshell electron capacity from \\(m_\\ell\\) and spin counting.",
+      "answer": "For a given \\(\\ell\\), there are \\(2\\ell+1\\) values of \\(m_\\ell\\). Each spatial orbital can hold two spin states, so\n\\[\nN_e=2(2\\ell+1)\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

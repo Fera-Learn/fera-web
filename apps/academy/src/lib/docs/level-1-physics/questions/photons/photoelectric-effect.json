@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "photons",
+  "topicId": "photoelectric-effect",
+  "topicTitle": "Photoelectric Effect",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "photoelectric-effect-01",
+      "prompt": "State the photon energy equation.",
+      "answer": "\\[\nE_\\gamma=hf=\\frac{hc}{\\lambda}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-02",
+      "prompt": "State Einstein's photoelectric equation.",
+      "answer": "\\[\nK_{\\max}=hf-\\phi\n\\]\nwhere \\(\\phi\\) is the work function.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-03",
+      "prompt": "What condition must be met for photoelectrons to be emitted?",
+      "answer": "The photon energy must be at least the work function:\n\\[\nhf\\ge\\phi\n\\]\nEquivalently, \\(f\\ge f_0\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-04",
+      "prompt": "Light of wavelength \\(280\\,\\mathrm{nm}\\) strikes a metal. Find the photon energy using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\nE_\\gamma=\\frac{1240}{280}=4.43\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-05",
+      "prompt": "For \\(E_\\gamma=4.43\\,\\mathrm{eV}\\) and \\(\\phi=2.20\\,\\mathrm{eV}\\), find \\(K_{\\max}\\).",
+      "answer": "\\[\nK_{\\max}=E_\\gamma-\\phi=4.43-2.20=2.23\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-06",
+      "prompt": "If \\(K_{\\max}=2.23\\,\\mathrm{eV}\\), find the stopping potential.",
+      "answer": "Since \\(eV_s=K_{\\max}\\), a kinetic energy of \\(2.23\\,\\mathrm{eV}\\) corresponds to\n\\[\nV_s=2.23\\,\\mathrm{V}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-07",
+      "prompt": "A metal has work function \\(2.20\\,\\mathrm{eV}\\). Find the threshold wavelength using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\n\\lambda_0=\\frac{hc}{\\phi}=\\frac{1240}{2.20}=564\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-08",
+      "prompt": "A metal has threshold frequency \\(6.0\\times10^{14}\\,\\mathrm{Hz}\\). Find its work function in joules using \\(h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}\\).",
+      "answer": "\\[\n\\phi=hf_0=(6.63\\times10^{-34})(6.0\\times10^{14})=3.98\\times10^{-19}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-09",
+      "prompt": "Convert the work function \\(3.98\\times10^{-19}\\,\\mathrm{J}\\) to electronvolts using \\(1\\,\\mathrm{eV}=1.60\\times10^{-19}\\,\\mathrm{J}\\).",
+      "answer": "\\[\n\\phi=\\frac{3.98\\times10^{-19}}{1.60\\times10^{-19}}=2.49\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-10",
+      "prompt": "A metal has threshold wavelength \\(500\\,\\mathrm{nm}\\). Will \\(600\\,\\mathrm{nm}\\) light emit photoelectrons?",
+      "answer": "No. Longer wavelength means lower photon energy. Since \\(600\\,\\mathrm{nm}>500\\,\\mathrm{nm}\\), the photon energy is below threshold.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-11",
+      "prompt": "Above threshold, what happens when light intensity is increased while frequency is fixed?",
+      "answer": "More photons arrive each second, so the photoelectric current can increase. The maximum kinetic energy does not increase because the photon energy is unchanged.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-12",
+      "prompt": "What happens to \\(K_{\\max}\\) when frequency is increased above threshold?",
+      "answer": "The maximum kinetic energy increases linearly:\n\\[\nK_{\\max}=hf-\\phi\n\\]\nThe slope of a \\(K_{\\max}\\) versus \\(f\\) graph is \\(h\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-13",
+      "prompt": "A \\(K_{\\max}\\) versus \\(f\\) graph has vertical intercept \\(-2.5\\,\\mathrm{eV}\\). What is the work function?",
+      "answer": "From\n\\[\nK_{\\max}=hf-\\phi\n\\]\nthe vertical intercept is \\(-\\phi\\). Therefore\n\\[\n\\phi=2.5\\,\\mathrm{eV}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-14",
+      "prompt": "A stopping potential of \\(1.80\\,\\mathrm{V}\\) is measured. What is the maximum electron kinetic energy in electronvolts?",
+      "answer": "For an electron,\n\\[\nK_{\\max}=eV_s\n\\]\nso a stopping potential of \\(1.80\\,\\mathrm{V}\\) corresponds to\n\\[\nK_{\\max}=1.80\\,\\mathrm{eV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-15",
+      "prompt": "Light of power \\(2.0\\,\\mathrm{mW}\\) consists of photons of energy \\(4.0\\times10^{-19}\\,\\mathrm{J}\\). Estimate the photon rate.",
+      "answer": "Power is energy per second:\n\\[\nN/t=\\frac{P}{E_\\gamma}=\\frac{2.0\\times10^{-3}}{4.0\\times10^{-19}}=5.0\\times10^{15}\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-16",
+      "prompt": "Why does the photoelectric effect support photons rather than a purely classical wave model?",
+      "answer": "Emission depends on photon energy, so below-threshold light produces no electrons even at high intensity. Energy is transferred in packets, not accumulated continuously from the wave.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-17",
+      "prompt": "Explain why photoelectron emission is essentially immediate above threshold.",
+      "answer": "One electron absorbs one photon. If that photon has enough energy, the electron can escape immediately without waiting to collect energy gradually from a weak classical wave.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-18",
+      "prompt": "Derive the threshold frequency from Einstein's photoelectric equation.",
+      "answer": "At threshold, \\(K_{\\max}=0\\). Therefore\n\\[\n0=hf_0-\\phi\n\\]\nso\n\\[\nf_0=\\frac{\\phi}{h}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-19",
+      "prompt": "If light wavelength is halved while the metal stays the same, how does photon energy change?",
+      "answer": "Photon energy is\n\\[\nE_\\gamma=\\frac{hc}{\\lambda}\n\\]\nso halving \\(\\lambda\\) doubles the photon energy.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "photoelectric-effect-20",
+      "prompt": "A metal has \\(\\phi=3.0\\,\\mathrm{eV}\\). It is illuminated by \\(250\\,\\mathrm{nm}\\) light. Find \\(K_{\\max}\\) using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\nE_\\gamma=\\frac{1240}{250}=4.96\\,\\mathrm{eV}\n\\]\n\\[\nK_{\\max}=4.96-3.0=1.96\\,\\mathrm{eV}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "fission",
+  "topicTitle": "Fission",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "fission-01",
+      "prompt": "What is nuclear fission?",
+      "answer": "Nuclear fission is the splitting of a heavy nucleus into two or more lighter nuclei, usually with emitted neutrons and released energy.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-02",
+      "prompt": "Why can fission of a heavy nucleus release energy?",
+      "answer": "Very heavy nuclei have lower binding energy per nucleon than medium-mass nuclei. Fission products are often more tightly bound in total, so rest mass decreases and energy is released.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-03",
+      "prompt": "One fission releases about \\(200\\,\\mathrm{MeV}\\). Convert this to joules.",
+      "answer": "\\[\\nE=200(1.602\\times10^{-13})=3.20\\times10^{-11}\\,\\mathrm J\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-04",
+      "prompt": "A reactor produces \\(1.0\\,\\mathrm{GW}\\) of power. Estimate the number of fissions per second if each fission releases \\(3.2\\times10^{-11}\\,\\mathrm J\\).",
+      "answer": "\\[\\n\\dot N_f=\\frac{P}{E_f}=\\frac{1.0\\times10^9}{3.2\\times10^{-11}}=3.1\\times10^{19}\\,\\mathrm{s^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-05",
+      "prompt": "Define neutron multiplication factor \\(k\\).",
+      "answer": "\\(k\\) is the ratio of neutron population in one generation to that in the previous generation. \\(k=1\\) is critical, \\(k<1\\) is subcritical, and \\(k>1\\) is supercritical.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-06",
+      "prompt": "If \\(k=0.90\\), what happens to the neutron population over generations?",
+      "answer": "The chain reaction is subcritical. After \\(g\\) generations, the population scales as\\n\\[\\nN_g=N_0k^g=N_0(0.90)^g\\n\\]\\nso it decreases.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-07",
+      "prompt": "If \\(k=1.02\\), by what factor does the neutron population change after \\(50\\) generations?",
+      "answer": "\\[\\n\\frac{N_{50}}{N_0}=k^{50}=1.02^{50}\\approx2.7\\n\\]\\nThe neutron population grows by about a factor of \\(2.7\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-08",
+      "prompt": "What is the role of delayed neutrons in a controlled reactor?",
+      "answer": "Delayed neutrons are emitted after short delays from fission products. They slow the effective response of the chain reaction, making reactor control with mechanical systems possible.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-09",
+      "prompt": "What is the role of control rods in a fission reactor?",
+      "answer": "Control rods absorb neutrons. Inserting them lowers the effective multiplication factor \\(k\\); withdrawing them raises it.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-10",
+      "prompt": "What is the role of a moderator in many thermal reactors?",
+      "answer": "A moderator slows fast neutrons through collisions without absorbing too many of them. Slower neutrons are more likely to induce fission in fuels such as \\(^{235}\\mathrm U\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-11",
+      "prompt": "A fission reaction emits \\(2.5\\) neutrons on average, but only \\(1.0\\) neutron per fission causes another fission. What is \\(k\\)?",
+      "answer": "\\(k\\) is the average number of fission-causing neutrons in the next generation per fission in the current generation. Here\\n\\[\\nk=1.0\\n\\]\\nThe chain reaction is critical.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-12",
+      "prompt": "Why does a small sample of fissile material tend to be subcritical?",
+      "answer": "In a small sample, many neutrons escape through the surface before causing another fission. Leakage lowers the effective multiplication factor below the value expected from neutron production alone.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-13",
+      "prompt": "Explain why fission fragments carry much of the fission energy as kinetic energy.",
+      "answer": "The two fragments are positively charged and repel strongly after scission. Coulomb potential energy is converted into kinetic energy of the fragments, which is then thermalized in the reactor material.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-14",
+      "prompt": "A fission process has initial rest mass \\(236.0526\\,\\mathrm u\\) and final rest mass \\(235.8370\\,\\mathrm u\\). Find \\(Q\\).",
+      "answer": "\\[\\n\\Delta m=236.0526-235.8370=0.2156\\,\\mathrm u\\n\\]\\n\\[\\nQ=0.2156(931.5)=201\\,\\mathrm{MeV}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-15",
+      "prompt": "Estimate the mass converted to energy per fission if \\(E_f=200\\,\\mathrm{MeV}\\).",
+      "answer": "In atomic mass units,\\n\\[\\n\\Delta m=\\frac{200\\,\\mathrm{MeV}}{931.5\\,\\mathrm{MeV/u}}=0.215\\,\\mathrm u\\n\\]\\nThis is the rest-mass decrease per fission.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-16",
+      "prompt": "A \\(1.0\\,\\mathrm{GW}\\) reactor runs for one day. Estimate total thermal energy produced.",
+      "answer": "\\[\\nE=P\\Delta t=(1.0\\times10^9)(86400)=8.64\\times10^{13}\\,\\mathrm J\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-17",
+      "prompt": "Using \\(200\\,\\mathrm{MeV}\\) per fission, estimate how many fissions are needed for \\(8.64\\times10^{13}\\,\\mathrm J\\).",
+      "answer": "With \\(E_f=3.20\\times10^{-11}\\,\\mathrm J\\),\\n\\[\\nN_f=\\frac{8.64\\times10^{13}}{3.20\\times10^{-11}}=2.7\\times10^{24}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-18",
+      "prompt": "Explain why prompt criticality is dangerous in a reactor.",
+      "answer": "Prompt criticality means the chain reaction can grow using prompt neutrons alone, without relying on delayed neutrons. The neutron population can then rise on extremely short generation times, too fast for ordinary control systems.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-19",
+      "prompt": "Why does fission of nuclei much lighter than iron generally not release energy?",
+      "answer": "Light nuclei usually have lower binding energy per nucleon than their fused products, not their split products. Splitting a light nucleus tends to reduce total binding energy, requiring energy rather than releasing it.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "fission-20",
+      "prompt": "Prove that a steady critical reactor has constant neutron population in the generation model.",
+      "answer": "In the generation model,\\n\\[\\nN_{g+1}=kN_g\\n\\]\\nFor a critical reactor, \\(k=1\\), so\\n\\[\\nN_{g+1}=N_g\\n\\]\\nBy repeated application, \\(N_g=N_0\\) for every generation. The neutron population is steady, though individual neutrons are continually absorbed, leaked, or created.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

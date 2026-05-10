@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "real-numbers",
+  "topicId": "binomial-coefficients",
+  "topicTitle": "Binomial Coefficients",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-binomial-coefficients-01",
+      "prompt": "Evaluate \\(4!\\).",
+      "answer": "\\[\n4!=1\\cdot2\\cdot3\\cdot4=24\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-02",
+      "prompt": "What is \\(0!\\)?",
+      "answer": "By definition,\n\\[\n0!=1\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-03",
+      "prompt": "Compute \\(\\binom{5}{2}\\).",
+      "answer": "\\[\n\\binom{5}{2}=\\frac{5!}{2!3!}=\\frac{5\\cdot4}{2}=10\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-04",
+      "prompt": "Compute \\(\\binom{6}{0}\\) and \\(\\binom{6}{6}\\).",
+      "answer": "The edge values are always \\(1\\):\n\\[\n\\binom{6}{0}=1,\\qquad \\binom{6}{6}=1\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-05",
+      "prompt": "Use symmetry to evaluate \\(\\binom{8}{6}\\).",
+      "answer": "Use \\(\\binom{n}{k}=\\binom{n}{n-k}\\):\n\\[\n\\binom{8}{6}=\\binom{8}{2}=\\frac{8\\cdot7}{2}=28\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-06",
+      "prompt": "Compute \\(\\binom{7}{1}\\) and \\(\\binom{7}{6}\\).",
+      "answer": "Choosing one object from seven gives \\(7\\), and by symmetry choosing six is the same as leaving out one:\n\\[\n\\binom{7}{1}=7,\\qquad \\binom{7}{6}=7\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-07",
+      "prompt": "Compute \\(\\binom{6}{3}\\).",
+      "answer": "\\[\n\\binom{6}{3}=\\frac{6!}{3!3!}=\\frac{6\\cdot5\\cdot4}{3\\cdot2\\cdot1}=20\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-08",
+      "prompt": "State Pascal's identity.",
+      "answer": "For suitable integers \\(n\\) and \\(k\\), Pascal's identity is\n\\[\n\\binom{n}{k-1}+\\binom{n}{k}=\\binom{n+1}{k}\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-09",
+      "prompt": "Use Pascal's identity to compute \\(\\binom{5}{2}\\) from row \\(4\\).",
+      "answer": "\\[\n\\binom{5}{2}=\\binom{4}{1}+\\binom{4}{2}=4+6=10\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-10",
+      "prompt": "Write row \\(4\\) of Pascal's triangle.",
+      "answer": "Row \\(4\\) is\n\\[\n1,\\ 4,\\ 6,\\ 4,\\ 1\n\\]\nThese are \\(\\binom{4}{0}\\) through \\(\\binom{4}{4}\\).",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-11",
+      "prompt": "Show from the factorial definition that \\(\\binom{n}{0}=1\\).",
+      "answer": "\\[\n\\binom{n}{0}=\\frac{n!}{0!(n-0)!}=\\frac{n!}{1\\cdot n!}=1\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-12",
+      "prompt": "Show from the factorial definition that \\(\\binom{n}{k}=\\binom{n}{n-k}\\).",
+      "answer": "\\[\n\\binom{n}{n-k}=\\frac{n!}{(n-k)!(n-(n-k))!}=\\frac{n!}{(n-k)!k!}=\\binom{n}{k}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-13",
+      "prompt": "Compute \\(\\binom{10}{3}\\).",
+      "answer": "\\[\n\\binom{10}{3}=\\frac{10\\cdot9\\cdot8}{3\\cdot2\\cdot1}=120\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-14",
+      "prompt": "Explain why \\(\\binom{n}{k}\\) is not defined here when \\(k>n\\).",
+      "answer": "The definition uses \\((n-k)!\\). In this topic factorials are defined for non-negative integers, so \\((n-k)!\\) is not available when \\(k>n\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-15",
+      "prompt": "Prove Pascal's identity using factorials.",
+      "answer": "Start with\n\\[\n\\binom{n}{k-1}+\\binom{n}{k}=\\frac{n!}{(k-1)!(n-k+1)!}+\\frac{n!}{k!(n-k)!}\n\\]\nUse common denominator \\(k!(n-k+1)!\\):\n\\[\n=\\frac{kn!+(n-k+1)n!}{k!(n-k+1)!}=\\frac{(n+1)n!}{k!(n-k+1)!}\n\\]\n\\[\n=\\frac{(n+1)!}{k!((n+1)-k)!}=\\binom{n+1}{k}\n\\]",
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-16",
+      "prompt": "How many ways are there to choose \\(3\\) objects from \\(8\\)?",
+      "answer": "The number is\n\\[\n\\binom{8}{3}=\\frac{8\\cdot7\\cdot6}{3\\cdot2\\cdot1}=56\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-17",
+      "prompt": "Find \\(\\binom{n}{2}\\) as a formula in \\(n\\).",
+      "answer": "\\[\n\\binom{n}{2}=\\frac{n!}{2!(n-2)!}=\\frac{n(n-1)}{2}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-18",
+      "prompt": "Find \\(\\binom{n}{3}\\) as a formula in \\(n\\).",
+      "answer": "\\[\n\\binom{n}{3}=\\frac{n!}{3!(n-3)!}=\\frac{n(n-1)(n-2)}{6}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-19",
+      "prompt": "Use Pascal's identity to find \\(\\binom{7}{4}\\) from row \\(6\\).",
+      "answer": "\\[\n\\binom{7}{4}=\\binom{6}{3}+\\binom{6}{4}=20+15=35\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-binomial-coefficients-20",
+      "prompt": "Why are the binomial coefficients in row \\(n\\) symmetric?",
+      "answer": "Algebraically,\n\\[\n\\binom{n}{k}=\\binom{n}{n-k}\n\\]\nCombinatorially, choosing \\(k\\) objects is equivalent to choosing which \\(n-k\\) objects are left out.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

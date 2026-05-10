@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "derivatives",
+  "topicTitle": "Derivatives",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-derivatives-01",
+      "prompt": "State the derivative definition of \\(f'(x)\\) using a limit with increment \\(h\\).",
+      "answer": "The derivative is the limit of the difference quotient:\n\\[\nf'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\n\\]\nwhen this limit exists.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-02",
+      "prompt": "Explain the difference between an average rate of change and an instantaneous rate of change.",
+      "answer": "An average rate of change uses a finite interval:\n\\[\n\\frac{f(b)-f(a)}{b-a}\n\\]\nAn instantaneous rate of change is the limiting value of these average rates as the interval shrinks to one point. That limiting rate is the derivative.",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-03",
+      "prompt": "If \\(s\\) is measured in metres and \\(t\\) is measured in seconds, what are the units of \\(ds/dt\\)?",
+      "answer": "Derivative units are output units divided by input units. Therefore\n\\[\n\\frac{ds}{dt}\\quad\\text{has units}\\quad \\mathrm{m\\,s^{-1}}\n\\]\nThis is the unit of velocity.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-04",
+      "prompt": "Differentiate the constant function \\(f(x)=7\\).",
+      "answer": "A constant function has no change in output as \\(x\\) changes. Therefore\n\\[\nf'(x)=0\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-05",
+      "prompt": "Differentiate \\(f(x)=x\\) from first principles.",
+      "answer": "Use the definition:\n\\[\nf'(x)=\\lim_{h\\to0}\\frac{(x+h)-x}{h}\n\\]\nThe numerator is \\(h\\), so\n\\[\nf'(x)=\\lim_{h\\to0}1=1\n\\]",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-06",
+      "prompt": "Use first principles to differentiate \\(f(x)=x^2\\).",
+      "answer": "Start with the difference quotient:\n\\[\n\\frac{(x+h)^2-x^2}{h}\n\\]\nExpand:\n\\[\n\\frac{x^2+2xh+h^2-x^2}{h}=\\frac{2xh+h^2}{h}=2x+h\n\\]\nTaking \\(h\\to0\\) gives\n\\[\nf'(x)=2x\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-07",
+      "prompt": "Use first principles to differentiate \\(f(x)=x^3\\).",
+      "answer": "The difference quotient is\n\\[\n\\frac{(x+h)^3-x^3}{h}\n\\]\nExpand the numerator:\n\\[\n(x+h)^3-x^3=3x^2h+3xh^2+h^3\n\\]\nThen\n\\[\n\\frac{(x+h)^3-x^3}{h}=3x^2+3xh+h^2\n\\]\nTaking \\(h\\to0\\),\n\\[\nf'(x)=3x^2\n\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-08",
+      "prompt": "Differentiate \\(f(x)=4x-9\\).",
+      "answer": "The derivative of \\(4x\\) is \\(4\\), and the derivative of the constant \\(-9\\) is \\(0\\). Therefore\n\\[\nf'(x)=4\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-09",
+      "prompt": "Find the slope of the tangent to \\(y=x^2+1\\) at \\(x=2\\).",
+      "answer": "Differentiate:\n\\[\n\\frac{dy}{dx}=2x\n\\]\nAt \\(x=2\\),\n\\[\n\\frac{dy}{dx}=4\n\\]\nSo the tangent slope is \\(4\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-10",
+      "prompt": "Find the tangent line to \\(y=x^2+1\\) at \\(x=2\\).",
+      "answer": "The point on the curve is\n\\[\ny=2^2+1=5\n\\]\nThe derivative is \\(dy/dx=2x\\), so the slope at \\(x=2\\) is \\(4\\). Using point-slope form:\n\\[\ny-5=4(x-2)\n\\]\nThus\n\\[\ny=4x-3\n\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-11",
+      "prompt": "A particle has position \\(s(t)=2t^2-3t+1\\). Find its velocity \\(v(t)\\).",
+      "answer": "Velocity is the derivative of position with respect to time:\n\\[\nv(t)=\\frac{ds}{dt}\n\\]\nDifferentiate term by term:\n\\[\nv(t)=4t-3\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-12",
+      "prompt": "A particle has velocity \\(v(t)=5t^2-4\\). Find its acceleration \\(a(t)\\).",
+      "answer": "Acceleration is the derivative of velocity with respect to time:\n\\[\na(t)=\\frac{dv}{dt}\n\\]\nTherefore\n\\[\na(t)=10t\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-13",
+      "prompt": "For \\(f(x)=x^2-6x\\), find where \\(f\\) is increasing and where it is decreasing.",
+      "answer": "Differentiate:\n\\[\nf'(x)=2x-6\n\\]\nThe derivative is negative when \\(2x-6<0\\), so \\(x<3\\). It is positive when \\(x>3\\). Therefore \\(f\\) is decreasing for \\(x<3\\) and increasing for \\(x>3\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-14",
+      "prompt": "Why is \\(f(x)=|x|\\) not differentiable at \\(x=0\\)?",
+      "answer": "For \\(x>0\\), \\(|x|=x\\), so the slope is \\(1\\). For \\(x<0\\), \\(|x|=-x\\), so the slope is \\(-1\\). The left and right limiting slopes at \\(0\\) are different, so \\(f'(0)\\) does not exist.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-15",
+      "prompt": "Give an example of a function that is continuous at \\(0\\) but not differentiable at \\(0\\).",
+      "answer": "One example is\n\\[\nf(x)=|x|\n\\]\nIt is continuous at \\(0\\) because \\(|x|\\to0=f(0)\\). It is not differentiable at \\(0\\) because the left slope is \\(-1\\) and the right slope is \\(1\\).",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-16",
+      "prompt": "If a function is differentiable at \\(x=a\\), what can you say about continuity at \\(x=a\\)? Is the converse always true?",
+      "answer": "Differentiability at \\(x=a\\) implies continuity at \\(x=a\\). The converse is not always true: \\(f(x)=|x|\\) is continuous at \\(0\\), but not differentiable there.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-17",
+      "prompt": "For \\(f(x)=3x^2-5x\\), simplify the difference quotient \\(\\frac{f(x+h)-f(x)}{h}\\).",
+      "answer": "Compute\n\\[\nf(x+h)=3(x+h)^2-5(x+h)\n\\]\n\\[\n=3x^2+6xh+3h^2-5x-5h\n\\]\nSubtract \\(f(x)=3x^2-5x\\):\n\\[\nf(x+h)-f(x)=6xh+3h^2-5h\n\\]\nDivide by \\(h\\):\n\\[\n\\frac{f(x+h)-f(x)}{h}=6x+3h-5\n\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-18",
+      "prompt": "Use first principles to differentiate \\(f(x)=1/x\\), for \\(x\\ne0\\).",
+      "answer": "Start with\n\\[\n\\frac{f(x+h)-f(x)}{h}=\\frac{\\frac{1}{x+h}-\\frac{1}{x}}{h}\n\\]\nCombine the fractions:\n\\[\n\\frac{\\frac{x-(x+h)}{x(x+h)}}{h}=\\frac{-h}{x(x+h)h}\n\\]\nFor \\(h\\ne0\\), this is\n\\[\n-\\frac{1}{x(x+h)}\n\\]\nTaking \\(h\\to0\\),\n\\[\nf'(x)=-\\frac{1}{x^2}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-19",
+      "prompt": "A capacitor charge is modelled by \\(Q(t)=Q_0-kt\\), where \\(Q_0\\) and \\(k\\) are constants. What is \\(dQ/dt\\), and what does its sign mean?",
+      "answer": "Differentiate with respect to \\(t\\):\n\\[\n\\frac{dQ}{dt}=-k\n\\]\nIf \\(k>0\\), then \\(dQ/dt<0\\), so the charge is decreasing at a constant rate.",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-20",
+      "prompt": "If energy \\(E\\) is measured in joules and time \\(t\\) in seconds, what are the units of \\(dE/dt\\), and what physics quantity does it represent?",
+      "answer": "The derivative units are\n\\[\n\\frac{\\mathrm{J}}{\\mathrm{s}}=\\mathrm{W}\n\\]\nSo \\(dE/dt\\) is a rate of energy transfer, which is power.",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-21",
+      "prompt": "Use a derivative to make a local linear approximation to \\(f(x)=x^2\\) near \\(x=3\\).",
+      "answer": "At \\(x=3\\),\n\\[\nf(3)=9,\\qquad f'(x)=2x,\\qquad f'(3)=6\n\\]\nThe local linear approximation is\n\\[\nf(x)\\approx f(3)+f'(3)(x-3)\n\\]\nSo\n\\[\nf(x)\\approx 9+6(x-3)\n\\]\nnear \\(x=3\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-22",
+      "prompt": "Let \\(f(x)=x|x|\\). Is \\(f\\) differentiable at \\(x=0\\)?",
+      "answer": "For \\(x\\ge0\\), \\(f(x)=x^2\\). For \\(x<0\\), \\(f(x)=-x^2\\). The difference quotient at \\(0\\) is\n\\[\n\\frac{f(h)-f(0)}{h}=\\frac{h|h|}{h}=|h|\n\\]\nAs \\(h\\to0\\), \\(|h|\\to0\\). Therefore \\(f'(0)=0\\), so \\(f\\) is differentiable at \\(0\\).",
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-23",
+      "prompt": "For \\(f(x)=x^2\\), compute the average rate of change from \\(x=1\\) to \\(x=1+h\\), then take the limit as \\(h\\to0\\).",
+      "answer": "The average rate is\n\\[\n\\frac{f(1+h)-f(1)}{h}=\\frac{(1+h)^2-1}{h}\n\\]\n\\[\n=\\frac{2h+h^2}{h}=2+h\n\\]\nTaking \\(h\\to0\\) gives\n\\[\nf'(1)=2\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-derivatives-24",
+      "prompt": "A student says that because \\(f'(a)=0\\), the function must be constant everywhere. Identify the mistake.",
+      "answer": "The derivative value \\(f'(a)=0\\) is local information at one point. It says the tangent slope at \\(x=a\\) is zero, not that the function is constant everywhere. For example, \\(f(x)=x^2\\) has \\(f'(0)=0\\), but \\(x^2\\) is not constant.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

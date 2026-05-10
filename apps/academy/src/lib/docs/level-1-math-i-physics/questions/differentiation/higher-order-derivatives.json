@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "higher-order-derivatives",
+  "topicTitle": "Higher Order Derivatives",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "hod-1",
+      "prompt": "Find the second derivative of f(x) = x^4.",
+      "answer": "12x^2",
+      "hints": ["Differentiate twice.", "f'(x) = 4x^3, so f''(x) = 12x^2."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-2",
+      "prompt": "Find f''(x) for f(x) = 5x^3 + 2x.",
+      "answer": "30x",
+      "hints": ["First derivative: f'(x) = 15x^2 + 2.", "Second derivative: f''(x) = 30x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-3",
+      "prompt": "Find the third derivative of f(x) = x^5.",
+      "answer": "60x^2",
+      "hints": ["Find each derivative in sequence.", "f'(x) = 5x^4, f''(x) = 20x^3, f'''(x) = 60x^2."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-4",
+      "prompt": "A particle's position is s(t) = t^3. Find its acceleration at t = 2.",
+      "answer": "12 m/s^2",
+      "hints": ["Acceleration is the second derivative of position.", "v(t) = 3t^2, a(t) = 6t, so a(2) = 12."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-5",
+      "prompt": "Find f''(1) if f(x) = 1/x.",
+      "answer": "2",
+      "hints": ["f'(x) = -1/x^2.", "f''(x) = 2/x^3, so f''(1) = 2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-6",
+      "prompt": "Find the second derivative of f(x) = sin x.",
+      "answer": "-sin x",
+      "hints": ["First derivative of sin x is cos x.", "Second derivative of cos x is -sin x."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-7",
+      "prompt": "If s(t) = 4t^2 - 3t + 1, find the acceleration at t = 1.",
+      "answer": "8 m/s^2",
+      "hints": ["Acceleration is s''(t).", "v(t) = 8t - 3, a(t) = 8."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-8",
+      "prompt": "Find the fourth derivative of f(x) = e^x.",
+      "answer": "e^x",
+      "hints": ["Each differentiation of e^x gives e^x.", "After four differentiations, you still have e^x."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-9",
+      "prompt": "Find d^2y/dx^2 if y = x^3 + 2x^2 - x + 5.",
+      "answer": "6x + 4",
+      "hints": ["First derivative: dy/dx = 3x^2 + 4x - 1.", "Second derivative: d^2y/dx^2 = 6x + 4."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "hod-10",
+      "prompt": "A particle moves with position s(t) = t^4 - 2t^3. Find its velocity and acceleration functions.",
+      "answer": "v(t) = 4t^3 - 6t^2, a(t) = 12t^2 - 12t",
+      "hints": ["Velocity is the first derivative.", "Acceleration is the second derivative."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "interference",
+  "topicId": "coherence-and-interference",
+  "topicTitle": "Coherence and Interference",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "coherence-interference-01",
+      "prompt": "Define coherence in the context of light interference.",
+      "answer": "Coherence means the waves maintain a stable phase relationship long enough for a fixed interference pattern to be observed.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-02",
+      "prompt": "Two in-phase coherent waves have path difference \\(3\\lambda\\). Classify the interference.",
+      "answer": "For in-phase waves, constructive interference occurs when\\n\\[\\n\\Delta r=m\\lambda\\n\\]\\nHere \\(m=3\\), so the interference is constructive.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-03",
+      "prompt": "Two in-phase coherent waves have path difference \\(2.5\\lambda\\). Classify the interference.",
+      "answer": "A half-integer path difference gives destructive interference for in-phase sources:\\n\\[\\n\\Delta r=\\left(m+\\frac12\\right)\\lambda\\n\\]\\nHere \\(2.5\\lambda\\) is destructive.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-04",
+      "prompt": "A path difference of \\(0.30\\lambda\\) corresponds to what phase difference?",
+      "answer": "\\[\\n\\Delta\\phi=\\frac{2\\pi\\Delta r}{\\lambda}=2\\pi(0.30)=0.60\\pi\\,\\mathrm{rad}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-05",
+      "prompt": "Two coherent waves have source phase difference \\(\\phi_0=\\pi/3\\) and path difference \\(\\lambda/6\\). Find the total phase difference.",
+      "answer": "\\[\\n\\Delta\\phi=\\phi_0+\\frac{2\\pi\\Delta r}{\\lambda}=\\frac{\\pi}{3}+\\frac{2\\pi}{6}=\\frac{2\\pi}{3}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-06",
+      "prompt": "Two coherent waves have initial phase difference \\(\\pi\\). Find the smallest positive path difference that produces constructive interference.",
+      "answer": "Constructive interference requires\\n\\[\\n\\pi+\\frac{2\\pi\\Delta r}{\\lambda}=2\\pi m\\n\\]\\nFor the smallest positive path difference, take \\(m=1\\):\\n\\[\\n\\Delta r=\\frac{\\lambda}{2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-07",
+      "prompt": "A two-source experiment has path difference \\(0.40\\,\\mu\\mathrm{m}\\) and wavelength \\(600\\,\\mathrm{nm}\\). The sources are in phase. Find the phase difference and classify the result qualitatively.",
+      "answer": "\\[\\n\\Delta\\phi=\\frac{2\\pi(0.40\\,\\mu\\mathrm{m})}{0.60\\,\\mu\\mathrm{m}}=\\frac{4\\pi}{3}\\n\\]\\nThis is not exactly constructive or destructive. It is closer to destructive than constructive because it is nearer to \\(\\pi\\) than to \\(0\\) modulo \\(2\\pi\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-08",
+      "prompt": "Two equal-amplitude coherent fields have phase difference \\(2\\pi/3\\). Find the resultant amplitude in terms of one-wave amplitude \\(E_0\\).",
+      "answer": "For equal amplitudes,\\n\\[\\nE_{\\mathrm{net},0}=2E_0\\cos\\left(\\frac{\\Delta\\phi}{2}\\right)\\n\\]\\nThus\\n\\[\\nE_{\\mathrm{net},0}=2E_0\\cos\\left(\\frac{\\pi}{3}\\right)=E_0\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-09",
+      "prompt": "Two waves have amplitudes \\(3A\\) and \\(2A\\). What are the maximum and minimum possible resultant amplitudes?",
+      "answer": "Maximum occurs in phase:\\n\\[\\nA_{\\max}=3A+2A=5A\\n\\]\\nMinimum occurs out of phase:\\n\\[\\nA_{\\min}=|3A-2A|=A\\n\\]\\nUnequal amplitudes cannot cancel completely.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-10",
+      "prompt": "Explain why a stable interference pattern requires more than two waves having the same wavelength.",
+      "answer": "The wavelength being the same fixes the rate of phase advance, but a stable pattern also requires a fixed relative phase. If the relative phase wanders randomly, bright and dark regions move rapidly and average out.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-11",
+      "prompt": "Derive the in-phase destructive condition \\(\\Delta r=(m+1/2)\\lambda\\) from the phase condition.",
+      "answer": "Destructive interference for equal in-phase waves requires\\n\\[\\n\\Delta\\phi=(2m+1)\\pi\\n\\]\\nFor path phase only,\\n\\[\\n\\Delta\\phi=\\frac{2\\pi\\Delta r}{\\lambda}\\n\\]\\nso\\n\\[\\n\\frac{2\\pi\\Delta r}{\\lambda}=(2m+1)\\pi\\Rightarrow \\Delta r=\\left(m+\\frac12\\right)\\lambda\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-12",
+      "prompt": "Two coherent sources have source phase difference \\(\\phi_0\\). Derive the path-difference condition for constructive interference.",
+      "answer": "The total phase difference is\\n\\[\\n\\Delta\\phi=\\phi_0+\\frac{2\\pi\\Delta r}{\\lambda}\\n\\]\\nConstructive interference requires \\(\\Delta\\phi=2\\pi m\\), so\\n\\[\\n\\Delta r=\\left(m-\\frac{\\phi_0}{2\\pi}\\right)\\lambda\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-13",
+      "prompt": "Two waves from the same source travel paths differing by \\(1.2\\,\\mathrm{mm}\\). The source has coherence length \\(0.8\\,\\mathrm{mm}\\). Predict what happens to fringe contrast.",
+      "answer": "The path difference exceeds the coherence length, so the relative phase is not stable over the observation. The interference contrast is strongly reduced or lost, even though the waves may have similar nominal wavelength.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-14",
+      "prompt": "A minimum in an interference pattern is not dark. Give a quantitative explanation using amplitudes \\(A_1\\) and \\(A_2\\).",
+      "answer": "At destructive phase, the resultant amplitude is\\n\\[\\nA_{\\min}=|A_1-A_2|\\n\\]\\nOnly if \\(A_1=A_2\\) does the minimum become zero. Unequal amplitudes leave nonzero intensity proportional to \\((A_1-A_2)^2\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-15",
+      "prompt": "Two beams have phase difference that drifts uniformly through many cycles during the detector integration time. Show why the observed intensity becomes the incoherent sum.",
+      "answer": "The two-beam intensity has an interference term proportional to \\(\\cos\\Delta\\phi\\). If \\(\\Delta\\phi\\) samples many cycles uniformly,\\n\\[\\n\\langle\\cos\\Delta\\phi\\rangle=0\\n\\]\\nso\\n\\[\\n\\langle I\\rangle=I_1+I_2\\n\\]\\nThe stable interference term averages away.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-16",
+      "prompt": "A source has finite bandwidth \\(\\Delta f\\). Use a wave-packet argument to estimate the coherence length scale.",
+      "answer": "The coherence time is approximately\\n\\[\\n\\tau_c\\sim\\frac{1}{\\Delta f}\\n\\]\\nDuring that time light travels\\n\\[\\n\\ell_c\\sim c\\tau_c\\sim\\frac{c}{\\Delta f}\\n\\]\\nA larger bandwidth gives a shorter coherence length.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-17",
+      "prompt": "A laser has bandwidth \\(1.0\\,\\mathrm{MHz}\\). Estimate its coherence length. State why this is only an estimate.",
+      "answer": "\\[\\n\\ell_c\\sim\\frac{c}{\\Delta f}=\\frac{3.0\\times10^8}{1.0\\times10^6}=300\\,\\mathrm{m}\\n\\]\\nIt is an estimate because exact coherence length depends on the spectral line shape and on the chosen visibility threshold.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-18",
+      "prompt": "Two equal-amplitude waves have a random phase difference that is equally likely to be \\(0\\) or \\(\\pi\\) during exposure. What intensity is observed relative to one-beam intensity \\(I_0\\)?",
+      "answer": "For \\(\\Delta\\phi=0\\), \\(I=4I_0\\). For \\(\\Delta\\phi=\\pi\\), \\(I=0\\). The equal-time average is\\n\\[\\n\\langle I\\rangle=\\frac{4I_0+0}{2}=2I_0\\n\\]\\nwhich equals the incoherent sum of two beams.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-19",
+      "prompt": "A two-source pattern suddenly shifts sideways but keeps the same fringe spacing. Which model parameter changed: wavelength, source separation, or source phase? Justify.",
+      "answer": "Fringe spacing depends on \\(\\lambda L/d\\), so unchanged spacing suggests \\(\\lambda\\), \\(L\\), and \\(d\\) are unchanged. A sideways shift of the whole pattern is produced by changing the source phase \\(\\phi_0\\), which changes the path difference required for each order.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "coherence-interference-20",
+      "prompt": "Prove that interference cannot be modeled by adding intensities first, using two equal beams as a counterexample.",
+      "answer": "If intensities were added first, two equal beams would always give \\(2I_0\\). But coherent fields add as amplitudes. In phase,\\n\\[\\nE_{\\mathrm{net},0}=2E_0\\Rightarrow I=4I_0\\n\\]\\nOut of phase,\\n\\[\\nE_{\\mathrm{net},0}=0\\Rightarrow I=0\\n\\]\\nThe same two input intensities can produce different outputs depending on phase, so intensity-only addition misses the central physics.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-4",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    },
+    {
+      "label": "Speed of light",
+      "value": "c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+    },
+    {
+      "label": "Elementary charge",
+      "value": "e=1.60\\times10^{-19}\\,\\mathrm{C}"
+    },
+    {
+      "label": "Electron mass",
+      "value": "m_e=9.11\\times10^{-31}\\,\\mathrm{kg}"
+    },
+    {
+      "label": "Planck constant",
+      "value": "h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}"
+    },
+    {
+      "label": "Permittivity of free space",
+      "value": "\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}"
+    },
+    {
+      "label": "Magnetic constant",
+      "value": "\\mu_0=1.26\\times10^{-6}\\,\\mathrm{N\\,A^{-2}}"
+    },
+    {
+      "label": "Boltzmann constant",
+      "value": "k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}"
+    }
+  ],
+  "description": "Mechanics, waves and optics, oscillations, collisions, conservation, and fields.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "ap-s4-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Mechanics",
+      "stem": "A robotic arm releases a sealed sample cartridge of mass \\(0.180\\,\\mathrm{kg}\\) from the end of a horizontal conveyor. At release the cartridge is \\(3.20\\,\\mathrm{m}\\) horizontally from the centre of a padded catch tray, and the tray surface is \\(0.080\\,\\mathrm{m}\\) below the release point. The launch speed is \\(5.80\\,\\mathrm{m\\,s^{-1}}\\) at \\(32.0^\\circ\\) above the horizontal. Air resistance is negligible until the cartridge enters the tray padding, which brings it to rest over \\(0.060\\,\\mathrm{m}\\) measured along the direction of its motion.",
+      "title": "Projectile launch, stopping work, and impulse",
+      "parts": [
+        {
+          "answer": "Resolve the launch velocity:\n\\[\nv_{0x}=5.80\\cos32.0^\\circ=4.92\\,\\mathrm{m\\,s^{-1}},\n\\qquad\nv_{0y}=5.80\\sin32.0^\\circ=3.07\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe time to reach the tray centre horizontally is\n\\[\nt=\\frac{x}{v_{0x}}=\\frac{3.20}{4.92}=0.651\\,\\mathrm{s}.\n\\]\nThe vertical displacement at this time is\n\\[\ny=v_{0y}t-\\frac12gt^2\n=(3.07)(0.651)-\\frac12(9.81)(0.651)^2\n=-8.2\\times10^{-2}\\,\\mathrm{m}.\n\\]\nThis is \\(0.082\\,\\mathrm{m}\\) below the release point, so the cartridge reaches the tray surface to within the stated data precision.",
+          "id": "ap-s4-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Show that the projectile path carries the cartridge to the catch tray."
+        },
+        {
+          "answer": "The horizontal velocity remains\n\\[\nv_x=4.92\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe vertical velocity at the tray is\n\\[\nv_y=v_{0y}-gt=3.07-9.81(0.651)=-3.31\\,\\mathrm{m\\,s^{-1}}.\n\\]\nTherefore\n\\[\nv=\\sqrt{4.92^2+3.31^2}=5.93\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe direction is\n\\[\n\\tan^{-1}\\left(\\frac{3.31}{4.92}\\right)=33.9^\\circ\n\\]\nbelow the horizontal.",
+          "id": "ap-s4-p1-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Calculate the velocity of the cartridge just before it touches the tray padding."
+        },
+        {
+          "answer": "Ignoring the small work done by weight during the short stopping distance, the padding removes the cartridge kinetic energy:\n\\[\nF_{\\mathrm{avg}}s=\\frac12mv^2.\n\\]\nThus\n\\[\nF_{\\mathrm{avg}}=\\frac{\\frac12(0.180)(5.93)^2}{0.060}\n=52.7\\,\\mathrm{N}.\n\\]\nThe force exerted by the padding on the cartridge is directed approximately opposite to the incoming velocity.",
+          "id": "ap-s4-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Estimate the average stopping force exerted by the tray padding. State the main approximation."
+        },
+        {
+          "answer": "Use \\(\\vec J=\\Delta\\vec p=m\\vec v_f-m\\vec v_i\\). With \\(\\vec v_f=0\\),\n\\[\n\\vec J=-m\\vec v_i\n=-0.180(4.92\\hat{\\imath}-3.31\\hat{\\jmath})\n=(-0.886\\hat{\\imath}+0.596\\hat{\\jmath})\\,\\mathrm{N\\,s}.\n\\]\nThe magnitude is\n\\[\n|\\vec J|=\\sqrt{0.886^2+0.596^2}=1.07\\,\\mathrm{N\\,s}.\n\\]",
+          "id": "ap-s4-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the impulse vector exerted by the padding on the cartridge, using \\(\\hat{\\imath}\\) horizontally toward the tray and \\(\\hat{\\jmath}\\) upward."
+        },
+        {
+          "answer": "The impulse has a negative horizontal component because the padding removes the forward momentum. Its positive vertical component means the padding also pushes upward while stopping the downward motion. The impulse is therefore directed backward and upward, opposite to the incoming velocity vector.",
+          "id": "ap-s4-p1-q1-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "Interpret the signs of the impulse components physically."
+        }
+      ]
+    },
+    {
+      "id": "ap-s4-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Mechanics",
+      "stem": "A cyclist rides on a banked indoor velodrome bend of radius \\(28.0\\,\\mathrm{m}\\). The track is banked at \\(12.0^\\circ\\) to the horizontal. For the tyres on the timber surface, the coefficient of static friction is \\(0.350\\). During one half-turn, the cyclist speeds up uniformly from \\(9.00\\,\\mathrm{m\\,s^{-1}}\\) to \\(15.0\\,\\mathrm{m\\,s^{-1}}\\). Treat the cyclist and bicycle as a point mass.",
+      "title": "Banked circular motion and changing speed",
+      "parts": [
+        {
+          "answer": "With no cross-slope friction required,\n\\[\n\\tan\\theta=\\frac{v_0^2}{rg}.\n\\]\nHence\n\\[\nv_0=\\sqrt{rg\\tan\\theta}\n=\\sqrt{(28.0)(9.81)\\tan12.0^\\circ}\n=7.64\\,\\mathrm{m\\,s^{-1}}.\n\\]",
+          "id": "ap-s4-p1-q2-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the speed for which no cross-slope friction is needed."
+        },
+        {
+          "answer": "The half-turn arc length is\n\\[\ns=\\pi r=\\pi(28.0)=88.0\\,\\mathrm{m}.\n\\]\nUsing \\(v^2=u^2+2a_ts\\),\n\\[\na_t=\\frac{15.0^2-9.00^2}{2(88.0)}\n=0.819\\,\\mathrm{m\\,s^{-2}}.\n\\]\nThe tangential acceleration is forward, in the direction of motion.",
+          "id": "ap-s4-p1-q2-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Calculate the tangential acceleration while the cyclist speeds up."
+        },
+        {
+          "answer": "At \\(15.0\\,\\mathrm{m\\,s^{-1}}\\), the inward radial acceleration is\n\\[\na_r=\\frac{v^2}{r}=\\frac{15.0^2}{28.0}=8.04\\,\\mathrm{m\\,s^{-2}}.\n\\]\nThe radial and tangential components are perpendicular, so\n\\[\na=\\sqrt{a_r^2+a_t^2}\n=\\sqrt{8.04^2+0.819^2}\n=8.08\\,\\mathrm{m\\,s^{-2}}.\n\\]",
+          "id": "ap-s4-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the radial acceleration and the magnitude of the total acceleration when the speed is \\(15.0\\,\\mathrm{m\\,s^{-1}}\\)."
+        },
+        {
+          "answer": "Since both speeds are above \\(7.64\\,\\mathrm{m\\,s^{-1}}\\), the cyclist would tend to move up the bank if there were no friction. The required cross-slope static friction therefore acts down the bank, giving an additional inward component.\n\nLet \\(q=f/N\\) and \\(k=v^2/(rg)\\). For friction down the slope,\n\\[\nk=\\frac{\\sin\\theta+q\\cos\\theta}{\\cos\\theta-q\\sin\\theta},\n\\]\nso\n\\[\nq=\\frac{k\\cos\\theta-\\sin\\theta}{\\cos\\theta+k\\sin\\theta}.\n\\]\nAt \\(15.0\\,\\mathrm{m\\,s^{-1}}\\),\n\\[\nk=\\frac{15.0^2}{(28.0)(9.81)}=0.819,\n\\]\nand\n\\[\nq=\\frac{(0.819)\\cos12.0^\\circ-\\sin12.0^\\circ}{\\cos12.0^\\circ+(0.819)\\sin12.0^\\circ}\n=0.516.\n\\]\nBecause \\(0.516>0.350\\), static friction is not sufficient at this speed.",
+          "id": "ap-s4-p1-q2-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Determine the direction of the cross-slope friction at high speed and test whether \\(15.0\\,\\mathrm{m\\,s^{-1}}\\) is possible without slipping. Let \\(k=v^2/(rg)\\) and \\(q=f/N\\).\n\nFor friction down the slope, the required friction ratio is\n\\[\nq=\\frac{k\\cos\\theta-\\sin\\theta}{\\cos\\theta+k\\sin\\theta}.\n\\]"
+        },
+        {
+          "answer": "At the maximum safe speed, friction is down the slope with \\(f=\\mu_sN\\):\n\\[\nk_{\\max}=\\frac{\\sin\\theta+\\mu_s\\cos\\theta}{\\cos\\theta-\\mu_s\\sin\\theta}.\n\\]\nThus\n\\[\nk_{\\max}=\\frac{\\sin12.0^\\circ+0.350\\cos12.0^\\circ}{\\cos12.0^\\circ-0.350\\sin12.0^\\circ}=0.608,\n\\]\nand\n\\[\nv_{\\max}=\\sqrt{k_{\\max}rg}\n=\\sqrt{(0.608)(28.0)(9.81)}\n=12.9\\,\\mathrm{m\\,s^{-1}}.\n\\]\nSince \\(\\mu_s>\\tan12.0^\\circ\\), the lower safe-speed limit includes rest; the safe range is approximately \\(0\\) to \\(12.9\\,\\mathrm{m\\,s^{-1}}\\).",
+          "id": "ap-s4-p1-q2-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "Find the safe-speed range for the banked bend.\n\nAt the high-speed limit, the equation for \\(k_{\\max}\\) is\n\\[\nk_{\\max}=\\frac{\\sin\\theta+\\mu_s\\cos\\theta}{\\cos\\theta-\\mu_s\\sin\\theta},\n\\]\nwhere \\(k=v^2/(rg)\\)."
+        }
+      ]
+    },
+    {
+      "id": "ap-s4-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Waves and Optics",
+      "stem": "A diffraction grating spectrometer is used at normal incidence to compare two close green spectral lines of wavelengths \\(540.0\\,\\mathrm{nm}\\) and \\(541.8\\,\\mathrm{nm}\\). The grating has \\(750\\,\\mathrm{lines\\,mm^{-1}}\\), and a screen is placed \\(1.50\\,\\mathrm{m}\\) from the grating. The illuminated width of the grating is \\(4.00\\,\\mathrm{mm}\\).",
+      "title": "Grating spectrometer resolution and uncertainty",
+      "parts": [
+        {
+          "answer": "The line density is\n\\[\nn_L=750\\times10^3=7.50\\times10^5\\,\\mathrm{m^{-1}}.\n\\]\nTherefore\n\\[\nd=\\frac{1}{n_L}=1.33\\times10^{-6}\\,\\mathrm{m}.\n\\]\nUsing the longer wavelength for the most restrictive order condition,\n\\[\nm_{\\max}=\\left\\lfloor\\frac{d}{\\lambda}\\right\\rfloor\n=\\left\\lfloor\\frac{1.33\\times10^{-6}}{541.8\\times10^{-9}}\\right\\rfloor\n=2.\n\\]",
+          "id": "ap-s4-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the grating spacing and the highest possible order for these wavelengths."
+        },
+        {
+          "answer": "For \\(\\lambda=540.0\\,\\mathrm{nm}\\), the grating equation is\n\\[\nd\\sin\\theta_m=m\\lambda.\n\\]\nFor first order,\n\\[\n\\sin\\theta_1=\\frac{540.0\\times10^{-9}}{1.33\\times10^{-6}}=0.405,\n\\]\nso\n\\[\n\\theta_1=23.9^\\circ.\n\\]\nFor second order,\n\\[\n\\sin\\theta_2=\\frac{2(540.0\\times10^{-9})}{1.33\\times10^{-6}}=0.810,\n\\]\nso\n\\[\n\\theta_2=54.1^\\circ.\n\\]",
+          "id": "ap-s4-p1-q3-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Calculate the first-order and second-order angles for the \\(540.0\\,\\mathrm{nm}\\) line."
+        },
+        {
+          "answer": "For small wavelength separation at fixed order,\n\\[\nd\\cos\\theta\\,\\Delta\\theta=m\\Delta\\lambda.\n\\]\nIn first order, using \\(\\theta=23.9^\\circ\\),\n\\[\n\\Delta\\theta=\\frac{1(1.8\\times10^{-9})}{(1.33\\times10^{-6})\\cos23.9^\\circ}\n=1.48\\times10^{-3}\\,\\mathrm{rad}.\n\\]\nOn the screen, \\(y=L\\tan\\theta\\), so\n\\[\n\\Delta y\\approx L\\sec^2\\theta\\,\\Delta\\theta\n=(1.50)\\sec^2(23.9^\\circ)(1.48\\times10^{-3})\n=2.66\\times10^{-3}\\,\\mathrm{m}.\n\\]\nThe first-order lines are separated by about \\(2.7\\,\\mathrm{mm}\\).",
+          "id": "ap-s4-p1-q3-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Estimate the first-order separation of the two spectral lines on the screen.\n\nFor a small wavelength difference at fixed order, the angular separation is given by\n\\[\nd\\cos\\theta\\,\\Delta\\theta=m\\Delta\\lambda.\n\\]"
+        },
+        {
+          "answer": "The number of illuminated grating lines is\n\\[\nN=(750\\,\\mathrm{lines\\,mm^{-1}})(4.00\\,\\mathrm{mm})=3000.\n\\]\nThe resolving power is \\(R=mN\\). In first order,\n\\[\nR_1=3000,\n\\qquad\n\\Delta\\lambda_{\\min,1}=\\frac{540.9\\,\\mathrm{nm}}{3000}=0.180\\,\\mathrm{nm}.\n\\]\nIn second order,\n\\[\nR_2=6000,\n\\qquad\n\\Delta\\lambda_{\\min,2}=\\frac{540.9\\,\\mathrm{nm}}{6000}=0.090\\,\\mathrm{nm}.\n\\]\nThe actual separation \\(1.8\\,\\mathrm{nm}\\) is larger than both limits, so the two lines should be resolvable in either first or second order if the optical alignment is good.",
+          "id": "ap-s4-p1-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Use resolving power to decide whether the two wavelengths can be resolved in first and second order.\n\nThe resolving power of a grating is\n\\[\nR=mN\n\\]\nand also\n\\[\nR=\\frac{\\lambda}{\\Delta\\lambda_{\\min}},\n\\]\nwhere \\(N\\) is the number of illuminated grating lines."
+        },
+        {
+          "answer": "For a wavelength found from \\(\\lambda=d\\sin\\theta/m\\), the fractional uncertainty from grating spacing and angle is approximately\n\\[\n\\left(\\frac{\\Delta\\lambda}{\\lambda}\\right)^2\n=\\left(\\frac{\\Delta d}{d}\\right)^2+\\left(\\cot\\theta\\,\\Delta\\theta\\right)^2.\n\\]\nSince \\(d=1/n_L\\),\n\\[\n\\frac{\\Delta d}{d}=\\frac{\\Delta n_L}{n_L}=\\frac{3}{750}=4.00\\times10^{-3}.\n\\]\nWith \\(\\Delta\\theta=0.05^\\circ=8.73\\times10^{-4}\\,\\mathrm{rad}\\) and \\(\\theta=23.9^\\circ\\),\n\\[\n\\cot\\theta\\,\\Delta\\theta=(\\cot23.9^\\circ)(8.73\\times10^{-4})=1.97\\times10^{-3}.\n\\]\nTherefore\n\\[\n\\frac{\\Delta\\lambda}{\\lambda}=\\sqrt{(4.00\\times10^{-3})^2+(1.97\\times10^{-3})^2}\n=4.46\\times10^{-3},\n\\]\nand\n\\[\n\\Delta\\lambda=(540.0\\,\\mathrm{nm})(4.46\\times10^{-3})=2.4\\,\\mathrm{nm}.\n\\]",
+          "id": "ap-s4-p1-q3-e",
+          "label": "(e)",
+          "marks": 3,
+          "prompt": "If the grating line density is \\(750\\pm3\\,\\mathrm{lines\\,mm^{-1}}\\) and the first-order angle reading has uncertainty \\(\\pm0.05^\\circ\\), estimate the uncertainty in a wavelength determined from the first-order angle.\n\nThe fractional uncertainty is\n\\[\n\\left(\\frac{\\Delta\\lambda}{\\lambda}\\right)^2=\\left(\\frac{\\Delta d}{d}\\right)^2+(\\cot\\theta\\,\\Delta\\theta)^2.\n\\]"
+        }
+      ]
+    },
+    {
+      "id": "ap-s4-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section C: Oscillations",
+      "stem": "A laboratory seismometer contains a proof mass of \\(0.800\\,\\mathrm{kg}\\) attached to a spring of stiffness \\(320\\,\\mathrm{N\\,m^{-1}}\\). A magnetic damper provides approximately linear damping, so the relative displacement \\(x\\) of the mass can be modelled as a driven damped oscillator. In one damping setting, a free oscillation has its amplitude reduced by a factor of 2 after 18 complete cycles. Later, a steady sinusoidal ground motion drives the instrument near resonance and the relative displacement amplitude is \\(12.0\\,\\mathrm{mm}\\).",
+      "title": "Driven damped oscillator in a seismometer",
+      "parts": [
+        {
+          "answer": "The driven damped oscillator model is\n\\[\nm\\frac{d^2x}{dt^2}+b\\frac{dx}{dt}+kx=F_0\\cos\\omega t,\n\\]\nwhere the driving term represents the periodic forcing associated with the ground motion. The undamped natural angular frequency is\n\\[\n\\omega_0=\\sqrt{\\frac{k}{m}}\n=\\sqrt{\\frac{320}{0.800}}\n=20.0\\,\\mathrm{rad\\,s^{-1}}.\n\\]\nThe corresponding frequency is\n\\[\nf_0=\\frac{\\omega_0}{2\\pi}=\\frac{20.0}{2\\pi}=3.18\\,\\mathrm{Hz}.\n\\]",
+          "id": "ap-s4-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Write the driven damped oscillator equation for the seismometer and calculate its undamped natural frequency."
+        },
+        {
+          "answer": "The period is\n\\[\nT=\\frac{2\\pi}{\\omega_0}=\\frac{2\\pi}{20.0}=0.314\\,\\mathrm{s}.\n\\]\nFor weak damping, the amplitude envelope is \\(A=A_0e^{-\\beta t}\\). After 18 cycles,\n\\[\n\\frac12=e^{-\\beta(18T)}.\n\\]\nThus\n\\[\n\\beta=\\frac{\\ln2}{18T}\n=\\frac{0.693}{18(0.314)}\n=0.123\\,\\mathrm{s^{-1}}.\n\\]\nThe resonance angular frequency for light damping is approximately \\(\\omega_{\\mathrm{res}}\\approx\\omega_0\\), more exactly \\(\\sqrt{\\omega_0^2-2\\beta^2}\\), so here \\(\\omega_{\\mathrm{res}}\\approx20.0\\,\\mathrm{rad\\,s^{-1}}\\).",
+          "id": "ap-s4-p1-q4-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Estimate the damping rate and the resonant angular frequency for this lightly damped setting.\n\nThe free-oscillation amplitude envelope is\n\\[\nA=A_0e^{-\\beta t}.\n\\]\nFor light damping, the resonant angular frequency is approximately\n\\[\n\\omega_{\\mathrm{res}}\\approx\\sqrt{\\omega_0^2-2\\beta^2}.\n\\]"
+        },
+        {
+          "answer": "The logarithmic decrement per cycle is\n\\[\n\\delta=\\frac{\\ln2}{18}=0.0385.\n\\]\nBecause oscillator energy is proportional to amplitude squared, the energy ratio after one cycle is\n\\[\n\\frac{E_{n+1}}{E_n}=e^{-2\\delta}=e^{-0.0770}=0.926.\n\\]\nThe fractional energy loss per cycle is therefore\n\\[\n1-0.926=0.074,\n\\]\nor \\(7.4\\%\\). A corresponding quality-factor estimate is\n\\[\nQ\\approx\\frac{2\\pi}{\\text{fractional energy loss per radian cycle denominator}}=\\frac{2\\pi}{0.0770}=81.6,\n\\]\nequivalently \\(Q\\approx\\pi/\\delta\\).",
+          "id": "ap-s4-p1-q4-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Estimate the percentage of mechanical energy lost per cycle and the quality factor \\(Q\\).\n\nThe logarithmic decrement per cycle is\n\\[\n\\delta=\\beta T.\n\\]\nFor weak damping, the quality factor is approximately\n\\[\nQ\\approx\\frac{\\pi}{\\delta}.\n\\]\nThe oscillator energy is proportional to amplitude squared."
+        },
+        {
+          "answer": "For amplitude \\(A=12.0\\,\\mathrm{mm}=0.0120\\,\\mathrm{m}\\), the mechanical energy associated with the relative oscillator motion is\n\\[\nE=\\frac12kA^2\n=\\frac12(320)(0.0120)^2\n=2.30\\times10^{-2}\\,\\mathrm{J}.\n\\]",
+          "id": "ap-s4-p1-q4-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Find the mechanical energy stored in the oscillator at the stated steady-state amplitude."
+        },
+        {
+          "answer": "Doubling the damping coefficient doubles \\(\\beta\\) and doubles the logarithmic decrement per cycle:\n\\[\n\\delta'=2\\delta=0.0770.\n\\]\nThe quality factor is approximately halved:\n\\[\nQ'\\approx\\frac{\\pi}{\\delta'}=40.8.\n\\]\nThe energy ratio per cycle becomes\n\\[\n\\frac{E_{n+1}}{E_n}=e^{-2\\delta'}=e^{-0.154}=0.857,\n\\]\nso the energy loss per cycle rises to about \\(14.3\\%\\). The resonance curve would be lower and broader; for the same driving force near resonance the amplitude would be roughly halved, so the stored energy at the peak would be roughly one quarter as large.",
+          "id": "ap-s4-p1-q4-e",
+          "label": "(e)",
+          "marks": 3,
+          "prompt": "Compare this setting with one in which the damping coefficient is doubled. Discuss the effect on \\(Q\\), energy loss per cycle, and resonant amplitude."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 1",
+  "totalMarks": 60
+}

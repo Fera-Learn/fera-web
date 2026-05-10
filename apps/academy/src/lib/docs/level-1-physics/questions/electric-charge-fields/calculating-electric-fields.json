@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "calculating-electric-fields",
+  "topicTitle": "Calculating Electric Fields",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "calculating-electric-fields-01",
+      "prompt": "What is the electric field magnitude a distance \\(r\\) from a point charge \\(Q\\)?",
+      "answer": "The field magnitude a distance \\(r\\) from a point charge is\n\\[\nE=k\\frac{|Q|}{r^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-02",
+      "prompt": "Does the field from a positive point charge point toward or away from the charge?",
+      "answer": "The field from a positive point charge points away from the charge.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-03",
+      "prompt": "At a point \\(0.50\\,\\mathrm{m}\\) from a negative point charge, what is the direction of that charge\u0027s field contribution?",
+      "answer": "The field contribution from a negative point charge points toward that charge.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-04",
+      "prompt": "Find the field magnitude \\(0.20\\,\\mathrm{m}\\) from a \\(+8.0\\,\\mathrm{nC}\\) point charge.",
+      "answer": "\\[\nE=k\\frac{|Q|}{r^2}\n\\]\n\\[\nE=\\frac{(8.99\\times10^9)(8.0\\times10^{-9})}{0.20^2}\n\\]\n\\[\nE=1.8\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-05",
+      "prompt": "A point charge produces field magnitude \\(E\\) at radius \\(r\\). What field magnitude does it produce at radius \\(2r\\)?",
+      "answer": "For a point charge,\n\\[\nE\\propto\\frac{1}{r^2}\n\\]\nAt radius \\(2r\\),\n\\[\nE\u0027=\\frac{E}{2^2}=\\frac{E}{4}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-06",
+      "prompt": "Two equal positive charges are placed at \\(x=\\pm0.30\\,\\mathrm{m}\\). What is the net electric field at the origin?",
+      "answer": "At the origin, the two equal positive charges are the same distance away. Each produces the same field magnitude, but the directions are opposite.\n\nThe fields cancel:\n\\[\n\\vec E_{\\mathrm{net}}=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-07",
+      "prompt": "Charges \\(+5.0\\,\\mathrm{nC}\\) and \\(-5.0\\,\\mathrm{nC}\\) are at \\(x=-0.20\\,\\mathrm{m}\\) and \\(x=+0.20\\,\\mathrm{m}\\). Find the electric field at the origin.",
+      "answer": "At the origin, the field from \\(+5.0\\,\\mathrm{nC}\\) at \\(x=-0.20\\,\\mathrm{m}\\) points to the right. The field from \\(-5.0\\,\\mathrm{nC}\\) at \\(x=+0.20\\,\\mathrm{m}\\) also points to the right.\n\nEach magnitude is\n\\[\nE=k\\frac{|Q|}{r^2}\n=\\frac{(8.99\\times10^9)(5.0\\times10^{-9})}{0.20^2}\n=1.12\\times10^3\\,\\mathrm{N\\,C^{-1}}\n\\]\nTherefore\n\\[\n\\vec E_{\\mathrm{net}}=2.25\\times10^3\\,\\mathrm{N\\,C^{-1}}\\hat\\imath\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-08",
+      "prompt": "A charge \\(+Q\\) is at the origin. Derive the electric field vector at position \\((x,y)\\).",
+      "answer": "For a point \\((x,y)\\), the source-to-field vector is\n\\[\n\\vec R=x\\hat\\imath+y\\hat\\jmath\n\\]\nand\n\\[\nR=\\sqrt{x^2+y^2}\n\\]\nFor \\(+Q\\),\n\\[\n\\vec E=k\\frac{Q}{R^2}\\hat R\n\\]\nwith\n\\[\n\\hat R=\\frac{x\\hat\\imath+y\\hat\\jmath}{\\sqrt{x^2+y^2}}\n\\]\nso\n\\[\n\\vec E=kQ\\frac{x\\hat\\imath+y\\hat\\jmath}{(x^2+y^2)^{3/2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-09",
+      "prompt": "A uniformly charged thin rod of length \\(L\\) lies on the \\(x\\)-axis from \\(-L/2\\) to \\(+L/2\\). At point \\((0,a)\\), identify which field components cancel by symmetry and write the remaining component as an integral.",
+      "answer": "At point \\((0,a)\\), charge elements at \\(+x\\) and \\(-x\\) are mirror images. Their horizontal field components cancel, and their vertical components add.\n\nFor an element \\(dq=\\lambda\\,dx\\) at coordinate \\(x\\),\n\\[\nR=\\sqrt{x^2+a^2}\n\\]\nand\n\\[\ndE_y=k\\frac{dq}{R^2}\\frac{a}{R}\n=k\\frac{\\lambda a\\,dx}{(x^2+a^2)^{3/2}}\n\\]\nThus the remaining field component is\n\\[\nE_y=\\int_{-L/2}^{L/2}k\\frac{\\lambda a}{(x^2+a^2)^{3/2}}\\,dx\n\\]\nand\n\\[\nE_x=0\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "calculating-electric-fields-10",
+      "prompt": "Two charges \\(+Q\\) at \\(x=-a\\) and \\(-\\alpha Q\\) at \\(x=+a\\), with \\(\\alpha\u003e0\\), create a field at the origin. Derive \\(\\vec E(0)\\), then find the value of \\(\\alpha\\) that makes the field magnitude equal to the field from a single \\(+Q\\) charge at distance \\(a\\).",
+      "answer": "At the origin, the \\(+Q\\) charge at \\(x=-a\\) produces field in the \\(+\\hat\\imath\\) direction:\n\\[\n\\vec E_+=k\\frac{Q}{a^2}\\hat\\imath\n\\]\nThe \\(-\\alpha Q\\) charge at \\(x=+a\\) produces field toward itself, also in the \\(+\\hat\\imath\\) direction:\n\\[\n\\vec E_-=k\\frac{\\alpha Q}{a^2}\\hat\\imath\n\\]\nTherefore\n\\[\n\\vec E(0)=k\\frac{Q}{a^2}(1+\\alpha)\\hat\\imath\n\\]\nThe field from a single \\(+Q\\) charge at distance \\(a\\) has magnitude\n\\[\nE_0=k\\frac{Q}{a^2}\n\\]\nMatching this would require\n\\[\n1+\\alpha=1\n\\]\nso\n\\[\n\\alpha=0\n\\]\nThere is no solution with \\(\\alpha\u003e0\\). Any negative charge of nonzero magnitude at \\(+a\\) adds to the field at the origin rather than reducing it.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

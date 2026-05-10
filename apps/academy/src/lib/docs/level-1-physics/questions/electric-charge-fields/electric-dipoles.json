@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "electric-dipoles",
+  "topicTitle": "Electric Dipoles",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-dipoles-01",
+      "prompt": "In which direction does the electric dipole moment \\(\\vec p\\) point?",
+      "answer": "The electric dipole moment points from the negative charge toward the positive charge.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-02",
+      "prompt": "State the magnitude of the dipole moment for charges \\(\\pm q\\) separated by distance \\(d\\).",
+      "answer": "For charges \\(\\pm q\\) separated by distance \\(d\\),\n\\[\np=qd\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-03",
+      "prompt": "A dipole is aligned with a uniform electric field. Is the torque magnitude zero or nonzero?",
+      "answer": "The torque magnitude is\n\\[\n\\tau=pE\\sin\\theta\n\\]\nFor an aligned dipole, \\(\\theta=0^\\circ\\), so\n\\[\n\\tau=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-04",
+      "prompt": "Find \\(p\\) for charges \\(\\pm 6.0\\,\\mathrm{nC}\\) separated by \\(2.0\\,\\mathrm{mm}\\).",
+      "answer": "\\[\np=qd\n\\]\n\\[\np=(6.0\\times10^{-9})(2.0\\times10^{-3})\n\\]\n\\[\np=1.2\\times10^{-11}\\,\\mathrm{C\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-05",
+      "prompt": "A dipole with \\(p=3.0\\times10^{-8}\\,\\mathrm{C\\,m}\\) is in a \\(500\\,\\mathrm{N\\,C^{-1}}\\) field at \\(30^\\circ\\). Find the torque magnitude.",
+      "answer": "The torque magnitude is\n\\[\n\\tau=pE\\sin\\theta\n\\]\n\\[\n\\tau=(3.0\\times10^{-8})(500)\\sin30^\\circ\n\\]\n\\[\n\\tau=7.5\\times10^{-6}\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-06",
+      "prompt": "For a dipole in a uniform field, compare the potential energy at \\(\\theta=0^\\circ\\) and \\(\\theta=180^\\circ\\). Which is lower?",
+      "answer": "The potential energy is\n\\[\nU=-pE\\cos\\theta\n\\]\nAt \\(\\theta=0^\\circ\\),\n\\[\nU=-pE\n\\]\nAt \\(\\theta=180^\\circ\\),\n\\[\nU=+pE\n\\]\nThe aligned orientation \\(\\theta=0^\\circ\\) is lower in energy.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-07",
+      "prompt": "A dipole is placed in a uniform electric field. Explain why the net force is zero but the net torque can be nonzero.",
+      "answer": "In a uniform field, the positive charge feels\n\\[\n\\vec F_+=q\\vec E\n\\]\nand the negative charge feels\n\\[\n\\vec F_-=-q\\vec E\n\\]\nThese forces have equal magnitudes and opposite directions, so the net force is zero.\n\nHowever, they act at different points. Unless the dipole is exactly aligned or anti-aligned with the field, the pair of forces creates a torque:\n\\[\n\\vec\\tau=\\vec p\\times\\vec E\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-08",
+      "prompt": "Far from a dipole, the axial field magnitude is \\(2kp/r^3\\). If distance doubles, by what factor does this far-field magnitude change?",
+      "answer": "The far axial field scales as\n\\[\nE\\propto\\frac{1}{r^3}\n\\]\nIf distance doubles,\n\\[\nE\u0027=\\frac{E}{2^3}=\\frac{E}{8}\n\\]\nThe field becomes one eighth as large.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-09",
+      "prompt": "A dipole moment \\(\\vec p=p\\hat\\imath\\) is placed in a uniform field \\(\\vec E=E(\\cos\\phi\\,\\hat\\imath+\\sin\\phi\\,\\hat\\jmath)\\). Derive \\(\\vec\\tau\\) and \\(U\\), and identify stable and unstable orientations.",
+      "answer": "Given\n\\[\n\\vec p=p\\hat\\imath\n\\]\nand\n\\[\n\\vec E=E(\\cos\\phi\\,\\hat\\imath+\\sin\\phi\\,\\hat\\jmath)\n\\]\nthe torque is\n\\[\n\\vec\\tau=\\vec p\\times\\vec E\n\\]\n\\[\n\\vec\\tau=p\\hat\\imath\\times E(\\cos\\phi\\,\\hat\\imath+\\sin\\phi\\,\\hat\\jmath)\n\\]\n\\[\n\\vec\\tau=pE\\sin\\phi\\,\\hat k\n\\]\nThe energy is\n\\[\nU=-\\vec p\\cdot\\vec E=-pE\\cos\\phi\n\\]\nThe stable orientation is \\(\\phi=0\\), where \\(U=-pE\\) is minimum. The unstable orientation is \\(\\phi=\\pi\\), where \\(U=+pE\\) is maximum.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-dipoles-10",
+      "prompt": "A dipole consists of charges \\(\\pm q\\) at \\(x=\\pm d/2\\). For a point on the \\(+x\\)-axis with \\(x\\gg d\\), use a first-order expansion to show why the axial field scales as \\(1/x^3\\) rather than \\(1/x^2\\).",
+      "answer": "Assume \\(+q\\) is at \\(x=+d/2\\) and \\(-q\\) is at \\(x=-d/2\\), so \\(\\vec p=qd\\,\\hat\\imath\\). For \\(x\\gg d\\) on the \\(+x\\)-axis,\n\\[\nE_x=kq\\left[\\frac{1}{(x-d/2)^2}-\\frac{1}{(x+d/2)^2}\\right]\n\\]\nUse\n\\[\n(x\\mp d/2)^{-2}=x^{-2}\\left(1\\mp\\frac{d}{2x}\\right)^{-2}\n\\]\nand the first-order approximation\n\\[\n(1+u)^{-2}\\approx1-2u\n\\]\nThen\n\\[\n\\frac{1}{(x-d/2)^2}\\approx \\frac{1}{x^2}\\left(1+\\frac{d}{x}\\right)\n\\]\nand\n\\[\n\\frac{1}{(x+d/2)^2}\\approx \\frac{1}{x^2}\\left(1-\\frac{d}{x}\\right)\n\\]\nSubtract:\n\\[\nE_x\\approx kq\\frac{2d}{x^3}\n\\]\nSince \\(p=qd\\),\n\\[\nE_x\\approx \\frac{2kp}{x^3}\n\\]\nThe \\(1/x^2\\) terms cancel because the total charge of the dipole is zero, leaving the \\(1/x^3\\) term.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

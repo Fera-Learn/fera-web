@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "sound",
+  "topicId": "sound-intensity",
+  "topicTitle": "Sound Intensity",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "sound-intensity-01",
+      "prompt": "A sound source transfers average power \\(0.020\\,\\mathrm{W}\\) through area \\(4.0\\,\\mathrm{m^2}\\). Find the intensity.",
+      "answer": "\\[\nI=\\frac{P}{A}=\\frac{0.020}{4.0}=5.0\\times10^{-3}\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-02",
+      "prompt": "A sound has intensity \\(3.0\\times10^{-6}\\,\\mathrm{W\\,m^{-2}}\\) crossing area \\(12\\,\\mathrm{m^2}\\). Find the average power crossing that area.",
+      "answer": "\\[\nP=IA=(3.0\\times10^{-6})(12)=3.6\\times10^{-5}\\,\\mathrm{W}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-03",
+      "prompt": "A point source radiates \\(1.0\\,\\mathrm{W}\\) uniformly. Find the intensity \\(2.0\\,\\mathrm{m}\\) away.",
+      "answer": "\\[\nI=\\frac{P}{4\\pi r^2}=\\frac{1.0}{4\\pi(2.0)^2}\n=1.99\\times10^{-2}\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-04",
+      "prompt": "Find the sound intensity level for \\(I=1.0\\times10^{-8}\\,\\mathrm{W\\,m^{-2}}\\), using \\(I_0=1.0\\times10^{-12}\\,\\mathrm{W\\,m^{-2}}\\).",
+      "answer": "\\[\n\\beta=10\\log_{10}\\left(\\frac{10^{-8}}{10^{-12}}\\right)\n=10\\log_{10}(10^4)=40\\,\\mathrm{dB}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-05",
+      "prompt": "A sound level is \\(70\\,\\mathrm{dB}\\). Find the intensity using \\(I_0=1.0\\times10^{-12}\\,\\mathrm{W\\,m^{-2}}\\).",
+      "answer": "\\[\nI=I_0\\,10^{\\beta/10}\n=(1.0\\times10^{-12})10^{70/10}\n=1.0\\times10^{-5}\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-06",
+      "prompt": "A sound intensity is multiplied by \\(100\\). By how many decibels does the sound level change?",
+      "answer": "\\[\n\\Delta\\beta=10\\log_{10}(100)=20\\,\\mathrm{dB}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-07",
+      "prompt": "The distance from an ideal point source is doubled. By what factor does the intensity change?",
+      "answer": "For an ideal point source,\n\\[\nI\\propto\\frac{1}{r^2}\n\\]\nDoubling \\(r\\) reduces the intensity by a factor of \\(4\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-08",
+      "prompt": "The pressure amplitude of a plane sound wave is doubled while the medium is unchanged. By what factor does the intensity change?",
+      "answer": "For the same medium,\n\\[\nI\\propto(\\Delta p_{\\max})^2\n\\]\nDoubling pressure amplitude makes the intensity \\(2^2=4\\) times larger.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-09",
+      "prompt": "A sound level increases from \\(55\\,\\mathrm{dB}\\) to \\(75\\,\\mathrm{dB}\\). Find the intensity ratio \\(I_2/I_1\\).",
+      "answer": "\\[\n\\beta_2-\\beta_1=10\\log_{10}\\left(\\frac{I_2}{I_1}\\right)\n\\]\n\\[\n20=10\\log_{10}\\left(\\frac{I_2}{I_1}\\right)\n\\]\nso\n\\[\n\\frac{I_2}{I_1}=10^2=100\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-10",
+      "prompt": "A \\(0.50\\,\\mathrm{W}\\) source radiates uniformly. Find the distance at which the intensity is \\(1.0\\times10^{-3}\\,\\mathrm{W\\,m^{-2}}\\).",
+      "answer": "Use \\(I=P/(4\\pi r^2)\\):\n\\[\nr=\\sqrt{\\frac{P}{4\\pi I}}\n=\\sqrt{\\frac{0.50}{4\\pi(1.0\\times10^{-3})}}\n=6.3\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-11",
+      "prompt": "For air with \\(\\rho=1.20\\,\\mathrm{kg\\,m^{-3}}\\) and \\(v=340\\,\\mathrm{m\\,s^{-1}}\\), find the pressure amplitude corresponding to \\(I=2.0\\times10^{-4}\\,\\mathrm{W\\,m^{-2}}\\).",
+      "answer": "From\n\\[\nI=\\frac{(\\Delta p_{\\max})^2}{2\\rho v}\n\\]\n\\[\n\\Delta p_{\\max}=\\sqrt{2\\rho v I}\n\\]\n\\[\n\\Delta p_{\\max}=\\sqrt{2(1.20)(340)(2.0\\times10^{-4})}\n=0.40\\,\\mathrm{Pa}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-12",
+      "prompt": "A microphone measures pressure amplitude \\(0.30\\,\\mathrm{Pa}\\). Estimate the intensity in air with \\(\\rho=1.20\\,\\mathrm{kg\\,m^{-3}}\\) and \\(v=340\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "\\[\nI=\\frac{(0.30)^2}{2(1.20)(340)}\n=1.10\\times10^{-4}\\,\\mathrm{W\\,m^{-2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-13",
+      "prompt": "Two identical incoherent sources each produce intensity \\(I\\) at a listener. Find the total intensity and the decibel increase relative to one source.",
+      "answer": "For incoherent sources, intensities add:\n\\[\nI_{\\mathrm{tot}}=2I\n\\]\nThe level increase is\n\\[\n\\Delta\\beta=10\\log_{10}2=3.0\\,\\mathrm{dB}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-14",
+      "prompt": "A source has level \\(80\\,\\mathrm{dB}\\) at \\(5.0\\,\\mathrm{m}\\). Assuming spherical spreading, estimate the level at \\(20\\,\\mathrm{m}\\).",
+      "answer": "The distance increases by a factor of \\(4\\), so intensity decreases by \\(4^2=16\\). The level change is\n\\[\n\\Delta\\beta=10\\log_{10}\\left(\\frac{1}{16}\\right)=-12.0\\,\\mathrm{dB}\n\\]\nThus the new level is\n\\[\n80-12=68\\,\\mathrm{dB}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-15",
+      "prompt": "A sound source is moved from distance \\(r\\) to distance \\(3r\\). Derive the change in sound level in decibels for ideal spherical spreading.",
+      "answer": "For spherical spreading,\n\\[\n\\frac{I_2}{I_1}=\\left(\\frac{r}{3r}\\right)^2=\\frac{1}{9}\n\\]\nThe level change is\n\\[\n\\Delta\\beta=10\\log_{10}\\left(\\frac{1}{9}\\right)=-9.54\\,\\mathrm{dB}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-16",
+      "prompt": "A listener wants to reduce sound level by \\(12\\,\\mathrm{dB}\\) by moving farther from an ideal point source. Find the required distance ratio \\(r_2/r_1\\).",
+      "answer": "A reduction of \\(12\\,\\mathrm{dB}\\) means\n\\[\n-12=10\\log_{10}\\left(\\frac{I_2}{I_1}\\right)\n\\]\nso\n\\[\n\\frac{I_2}{I_1}=10^{-1.2}\n\\]\nFor spherical spreading,\n\\[\n\\frac{I_2}{I_1}=\\left(\\frac{r_1}{r_2}\\right)^2\n\\]\ntherefore\n\\[\n\\frac{r_2}{r_1}=10^{0.6}=4.0\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-17",
+      "prompt": "A plane sound wave enters a second medium. Its pressure amplitude is unchanged, but \\(\\rho v\\) is twice as large. Use \\(I=(\\Delta p_{\\max})^2/(2\\rho v)\\) to determine the intensity ratio and interpret the result.",
+      "answer": "With the same pressure amplitude,\n\\[\nI\\propto\\frac{1}{\\rho v}\n\\]\nIf \\(\\rho v\\) is twice as large,\n\\[\n\\frac{I_2}{I_1}=\\frac{1}{2}\n\\]\nThe same pressure amplitude transports less average power per unit area in the medium with larger acoustic impedance factor \\(\\rho v\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-18",
+      "prompt": "A point source radiates total power \\(P\\). Derive the radius at which the sound level is \\(\\beta\\), using reference intensity \\(I_0\\).",
+      "answer": "From decibels,\n\\[\nI=I_0\\,10^{\\beta/10}\n\\]\nFor a point source,\n\\[\nI=\\frac{P}{4\\pi r^2}\n\\]\nso\n\\[\nr=\\sqrt{\\frac{P}{4\\pi I_0\\,10^{\\beta/10}}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-19",
+      "prompt": "Two coherent equal-amplitude sound waves meet in phase at a point. Compare the resultant pressure amplitude and intensity with one wave alone. Explain why this differs from simply adding intensities of incoherent sources.",
+      "answer": "In phase, equal pressure amplitudes add:\n\\[\n\\Delta p_{\\mathrm{res}}=2\\Delta p\n\\]\nSince intensity is proportional to pressure amplitude squared,\n\\[\nI_{\\mathrm{res}}=4I\n\\]\nFor incoherent sources the phase relation is not fixed, so cross terms average away and intensities add to \\(2I\\), not \\(4I\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "sound-intensity-20",
+      "prompt": "A sound level meter reports \\(\\beta_1\\) at distance \\(r_1\\) from an isotropic source. Derive the source power \\(P\\) in terms of \\(\\beta_1\\), \\(r_1\\), and \\(I_0\\).",
+      "answer": "The measured intensity is\n\\[\nI_1=I_0\\,10^{\\beta_1/10}\n\\]\nFor an isotropic source,\n\\[\nI_1=\\frac{P}{4\\pi r_1^2}\n\\]\nso\n\\[\nP=4\\pi r_1^2 I_0\\,10^{\\beta_1/10}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

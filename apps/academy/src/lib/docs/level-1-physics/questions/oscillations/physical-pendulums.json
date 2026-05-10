@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "physical-pendulums",
+  "topicTitle": "Physical Pendulums",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "physical-pendulums-01",
+      "prompt": "For a physical pendulum, which moment of inertia should be used in \\(T=2\\pi\\sqrt{I/(mgd)}\\)?",
+      "answer": "Use the moment of inertia about the pivot. The pivot is the axis of rotation, so \\(I\\) must be taken about that point or axis.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-11",
+      "prompt": "In the physical-pendulum formula, what distance does \\(d\\) represent?",
+      "answer": "The distance \\(d\\) is the distance from the pivot to the center of gravity, where the weight acts.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-02",
+      "prompt": "A physical pendulum has \\(I=0.80\\,\\mathrm{kg\\,m^2}\\), \\(m=2.0\\,\\mathrm{kg}\\), and \\(d=0.40\\,\\mathrm{m}\\). Find its small-angle period.",
+      "answer": "\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\n\\[\nT=2\\pi\\sqrt{\\frac{0.80}{(2.0)(9.8)(0.40)}}\n=2.01\\,\\mathrm{s}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-12",
+      "prompt": "A rigid body is pivoted exactly at its center of gravity, so \\(d=0\\). Does gravity provide a small-angle restoring torque about the pivot?",
+      "answer": "No. The gravitational torque is\n\\[\n\\tau=-mgd\\sin\\theta\n\\]\nIf \\(d=0\\), then \\(\\tau=0\\). Gravity supplies no small-angle restoring torque about that pivot.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-03",
+      "prompt": "A uniform rod of length \\(1.2\\,\\mathrm{m}\\) pivots about one end. Use \\(I=\\frac{1}{3}mL^2\\) and \\(d=L/2\\) to find the period.",
+      "answer": "\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nFor a rod about one end,\n\\[\nI=\\frac{1}{3}mL^2,\\qquad d=\\frac{L}{2}\n\\]\nso\n\\[\nT=2\\pi\\sqrt{\\frac{(1/3)mL^2}{mg(L/2)}}\n=2\\pi\\sqrt{\\frac{2L}{3g}}\n\\]\nWith \\(L=1.2\\,\\mathrm{m}\\),\n\\[\nT=2\\pi\\sqrt{\\frac{2(1.2)}{3(9.8)}}=1.80\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-04",
+      "prompt": "A rigid body has \\(m=1.5\\,\\mathrm{kg}\\), \\(d=0.20\\,\\mathrm{m}\\), and small-angle period \\(1.6\\,\\mathrm{s}\\). Find \\(I\\) about the pivot.",
+      "answer": "Rearrange\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nto get\n\\[\nI=mgd\\left(\\frac{T}{2\\pi}\\right)^2\n\\]\n\\[\nI=(1.5)(9.8)(0.20)\\left(\\frac{1.6}{2\\pi}\\right)^2\n=0.191\\,\\mathrm{kg\\,m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-13",
+      "prompt": "A physical pendulum has \\(I=0.45\\,\\mathrm{kg\\,m^2}\\), \\(m=1.2\\,\\mathrm{kg}\\), and \\(d=0.30\\,\\mathrm{m}\\). Find its small-angle angular frequency.",
+      "answer": "The angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{mgd}{I}}\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{(1.2)(9.8)(0.30)}{0.45}}\n=2.80\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-14",
+      "prompt": "If \\(I\\) about the pivot is doubled while \\(m\\) and \\(d\\) stay fixed, by what factor does the physical-pendulum period change?",
+      "answer": "The period is\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nso \\(T\\propto\\sqrt{I}\\). Doubling \\(I\\) increases the period by\n\\[\n\\sqrt{2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-05",
+      "prompt": "A point mass at distance \\(L\\) from a pivot has \\(I=mL^2\\) and \\(d=L\\). Show that the physical-pendulum period reduces to the simple-pendulum period.",
+      "answer": "Substitute\n\\[\nI=mL^2,\\qquad d=L\n\\]\ninto\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nThen\n\\[\nT=2\\pi\\sqrt{\\frac{mL^2}{mgL}}\n=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nwhich is the simple-pendulum result.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-15",
+      "prompt": "Define the equivalent simple-pendulum length \\(L_{\\mathrm{eq}}\\) for a physical pendulum by matching \\(T=2\\pi\\sqrt{L_{\\mathrm{eq}}/g}\\). Derive \\(L_{\\mathrm{eq}}\\).",
+      "answer": "Match\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nto\n\\[\nT=2\\pi\\sqrt{\\frac{L_{\\mathrm{eq}}}{g}}\n\\]\nTherefore\n\\[\n\\frac{L_{\\mathrm{eq}}}{g}=\\frac{I}{mgd}\n\\]\nso\n\\[\nL_{\\mathrm{eq}}=\\frac{I}{md}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-06",
+      "prompt": "A uniform disk of radius \\(R\\) pivots about a point on its rim. Use \\(I_{\\mathrm{cm}}=\\frac{1}{2}mR^2\\) and the parallel-axis theorem to find its small-angle period.",
+      "answer": "The pivot is on the rim, so \\(d=R\\). By the parallel-axis theorem,\n\\[\nI=I_{\\mathrm{cm}}+mR^2\n=\\frac{1}{2}mR^2+mR^2\n=\\frac{3}{2}mR^2\n\\]\nTherefore\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n=2\\pi\\sqrt{\\frac{(3/2)mR^2}{mgR}}\n\\]\n\\[\nT=2\\pi\\sqrt{\\frac{3R}{2g}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-07",
+      "prompt": "A physical pendulum has \\(I=0.12\\,\\mathrm{kg\\,m^2}\\), \\(m=0.80\\,\\mathrm{kg}\\), and \\(d=0.15\\,\\mathrm{m}\\). Find its angular frequency and period.",
+      "answer": "The angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{mgd}{I}}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{(0.80)(9.8)(0.15)}{0.12}}\n=3.13\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe period is\n\\[\nT=\\frac{2\\pi}{\\omega}=2.01\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-16",
+      "prompt": "A thin hoop of radius \\(R\\) pivots about a point on its rim. Use \\(I_{\\mathrm{cm}}=mR^2\\) to derive its small-angle period.",
+      "answer": "For a hoop pivoted at the rim,\n\\[\nd=R\n\\]\nand by the parallel-axis theorem,\n\\[\nI=I_{\\mathrm{cm}}+mR^2=mR^2+mR^2=2mR^2\n\\]\nThen\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n=2\\pi\\sqrt{\\frac{2mR^2}{mgR}}\n\\]\nso\n\\[\nT=2\\pi\\sqrt{\\frac{2R}{g}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-17",
+      "prompt": "A physical pendulum with \\(m=2.0\\,\\mathrm{kg}\\), \\(I=0.64\\,\\mathrm{kg\\,m^2}\\), and \\(d=0.25\\,\\mathrm{m}\\) has period \\(2.6\\,\\mathrm{s}\\). Estimate the local \\(g\\).",
+      "answer": "Start from\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nRearrange:\n\\[\ng=\\frac{4\\pi^2I}{m d T^2}\n\\]\nSubstitute:\n\\[\ng=\\frac{4\\pi^2(0.64)}{(2.0)(0.25)(2.6)^2}\n=7.48\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-08",
+      "prompt": "A uniform rod of length \\(L\\) pivots at a point a distance \\(a\\) from its center. Use \\(I=I_{\\mathrm{cm}}+ma^2\\), with \\(I_{\\mathrm{cm}}=\\frac{1}{12}mL^2\\), to derive the small-angle period.",
+      "answer": "The center of gravity is at the rod center, so the pivot-to-center distance is\n\\[\nd=a\n\\]\nThe pivot moment of inertia is\n\\[\nI=I_{\\mathrm{cm}}+ma^2=\\frac{1}{12}mL^2+ma^2\n\\]\nSubstitute into the physical-pendulum period:\n\\[\nT=2\\pi\\sqrt{\\frac{\\frac{1}{12}mL^2+ma^2}{mga}}\n\\]\nCancel \\(m\\):\n\\[\nT=2\\pi\\sqrt{\\frac{L^2/12+a^2}{ga}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-18",
+      "prompt": "A physical pendulum has equivalent length \\(L_{\\mathrm{eq}}=I/(md)\\). Show that its angular frequency can be written as \\(\\omega=\\sqrt{g/L_{\\mathrm{eq}}}\\).",
+      "answer": "The physical-pendulum angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{mgd}{I}}\n\\]\nIf\n\\[\nL_{\\mathrm{eq}}=\\frac{I}{md}\n\\]\nthen\n\\[\n\\frac{g}{L_{\\mathrm{eq}}}=\\frac{g}{I/(md)}=\\frac{mgd}{I}\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{g}{L_{\\mathrm{eq}}}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-09",
+      "prompt": "For the rod in the previous setup, derive the pivot offset \\(a\\) that minimizes the period, and state the minimum period in terms of \\(L\\) and \\(g\\).",
+      "answer": "From the previous result,\n\\[\nT=2\\pi\\sqrt{\\frac{L^2/12+a^2}{ga}}\n\\]\nMinimize \\(T\\) by minimizing\n\\[\nQ(a)=\\frac{L^2/12+a^2}{a}=\\frac{L^2}{12a}+a\n\\]\nDifferentiate:\n\\[\n\\frac{dQ}{da}=-\\frac{L^2}{12a^2}+1\n\\]\nSet this to zero:\n\\[\na^2=\\frac{L^2}{12}\n\\]\nso\n\\[\na=\\frac{L}{\\sqrt{12}}\n\\]\nAt this value,\n\\[\nQ_{\\min}=\\frac{L^2}{12(L/\\sqrt{12})}+\\frac{L}{\\sqrt{12}}\n=\\frac{L}{\\sqrt{12}}+\\frac{L}{\\sqrt{12}}\n=\\frac{L}{\\sqrt{3}}\n\\]\nTherefore\n\\[\nT_{\\min}=2\\pi\\sqrt{\\frac{L}{\\sqrt{3}g}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-19",
+      "prompt": "Compare a uniform rod pivoted about one end with a simple pendulum whose length is the rod length \\(L\\). Derive the ratio of their small-angle periods and interpret why they differ.",
+      "answer": "For a uniform rod pivoted about one end,\n\\[\nT_{\\mathrm{rod}}=2\\pi\\sqrt{\\frac{2L}{3g}}\n\\]\nFor a simple pendulum of length \\(L\\),\n\\[\nT_{\\mathrm{simple}}=2\\pi\\sqrt{\\frac{L}{g}}\n\\]\nThe ratio is\n\\[\n\\frac{T_{\\mathrm{rod}}}{T_{\\mathrm{simple}}}\n=\\sqrt{\\frac{2L/(3g)}{L/g}}\n=\\sqrt{\\frac{2}{3}}\n\\]\nThe rod has a shorter period because its mass is distributed along the length, with center of gravity at \\(L/2\\), not concentrated at the end.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-10",
+      "prompt": "A physical pendulum has known \\(m\\) and \\(d\\), but unknown pivot moment of inertia \\(I\\). You measure small-angle periods \\(T_1\\) and \\(T_2\\) in gravitational fields \\(g_1\\) and \\(g_2\\). Derive a consistency condition on the measurements and an expression for \\(I\\).",
+      "answer": "For the same pendulum,\n\\[\nT=2\\pi\\sqrt{\\frac{I}{mgd}}\n\\]\nSquaring gives\n\\[\nT^2=\\frac{4\\pi^2 I}{mgd}\n\\]\nso\n\\[\nT^2g=\\frac{4\\pi^2 I}{md}\n\\]\nThe right side is constant for the same pendulum. Therefore the consistency condition is\n\\[\nT_1^2g_1=T_2^2g_2\n\\]\nIf the measurements are consistent, the moment of inertia can be inferred from either field:\n\\[\nI=\\frac{mgdT_1^2}{4\\pi^2}\n=\\frac{mgdT_2^2}{4\\pi^2}\n\\]\nwith the matching \\(g\\) and \\(T\\) used in each expression.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "physical-pendulums-20",
+      "prompt": "A rigid body has center-of-mass moment of inertia \\(I_{\\mathrm{cm}}\\). It is pivoted a distance \\(a\\) from its center of mass. Derive the pivot distance that minimizes the small-angle period, and express the minimum period in terms of \\(I_{\\mathrm{cm}}\\), \\(m\\), and \\(g\\).",
+      "answer": "The pivot moment of inertia is\n\\[\nI=I_{\\mathrm{cm}}+ma^2\n\\]\nand \\(d=a\\). The period is\n\\[\nT=2\\pi\\sqrt{\\frac{I_{\\mathrm{cm}}+ma^2}{mga}}\n\\]\nMinimize\n\\[\nQ(a)=\\frac{I_{\\mathrm{cm}}+ma^2}{ma}\n=\\frac{I_{\\mathrm{cm}}}{ma}+a\n\\]\nDifferentiate:\n\\[\n\\frac{dQ}{da}=-\\frac{I_{\\mathrm{cm}}}{ma^2}+1\n\\]\nSet to zero:\n\\[\na^2=\\frac{I_{\\mathrm{cm}}}{m}\n\\]\nso\n\\[\na=\\sqrt{\\frac{I_{\\mathrm{cm}}}{m}}\n\\]\nAt this value,\n\\[\nQ_{\\min}=2\\sqrt{\\frac{I_{\\mathrm{cm}}}{m}}\n\\]\nTherefore\n\\[\nT_{\\min}=2\\pi\\sqrt{\\frac{2}{g}\\sqrt{\\frac{I_{\\mathrm{cm}}}{m}}}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

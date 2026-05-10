@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "eddy-currents",
+  "topicTitle": "Eddy Currents",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "eddy-currents-01",
+      "prompt": "What are eddy currents?",
+      "answer": "Eddy currents are circulating induced currents in bulk conducting material. They are produced by changing magnetic flux through possible current paths inside the conductor.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-02",
+      "prompt": "A conducting plate moves into a magnetic field. According to Lenz's law, do eddy currents assist or oppose the motion?",
+      "answer": "They oppose the motion. The motion changes magnetic flux through paths in the plate, and the induced currents create magnetic effects that oppose that change.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-03",
+      "prompt": "An eddy current path has induced emf \\(0.20\\,\\mathrm{V}\\) and effective resistance \\(0.50\\,\\Omega\\). Estimate the current.",
+      "answer": "\\[\\nI=\\frac{\\mathcal E}{R}=\\frac{0.20}{0.50}=0.40\\,\\mathrm{A}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-04",
+      "prompt": "An eddy current of \\(3.0\\,\\mathrm{A}\\) flows through an effective resistance \\(0.20\\,\\Omega\\). Find the heating power.",
+      "answer": "\\[\\nP=I^2R=(3.0)^2(0.20)=1.8\\,\\mathrm{W}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-05",
+      "prompt": "Why does a magnet falling through a copper pipe fall more slowly than through air?",
+      "answer": "The moving magnet changes flux through loops in the copper. Eddy currents are induced, and their magnetic fields oppose the magnet's motion. Mechanical energy is converted into thermal energy in the pipe.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-06",
+      "prompt": "Why are transformer cores often laminated?",
+      "answer": "Laminations break up large conducting loops in the core. This increases effective resistance and reduces eddy currents, lowering \\(I^2R\\) heating losses.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-07",
+      "prompt": "A device uses eddy currents for braking. What happens to the kinetic energy?",
+      "answer": "The kinetic energy is converted mainly into thermal energy in the conducting material through resistive heating from eddy currents.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-08",
+      "prompt": "If an eddy current path's resistance is doubled while induced emf is unchanged, by what factor does the heating power \\(P=\\mathcal E^2/R\\) change?",
+      "answer": "With emf fixed,\\n\\[\\nP=\\frac{\\mathcal E^2}{R}\\n\\]\\nso doubling \\(R\\) halves the heating power.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-09",
+      "prompt": "If the induced emf around an eddy-current path doubles while resistance is unchanged, by what factor does heating power change?",
+      "answer": "With \\(P=\\mathcal E^2/R\\), doubling \\(\\mathcal E\\) increases power by \\(2^2=4\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-10",
+      "prompt": "Why do slots cut into a conducting plate reduce eddy-current braking?",
+      "answer": "Slots interrupt large closed current paths. With smaller or broken loops, less eddy current can circulate, so the magnetic braking force and resistive heating are reduced.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-11",
+      "prompt": "A conducting disk spins in a localized magnetic field. Why does it experience a drag torque?",
+      "answer": "Parts of the disk move through the field and experience changing flux through conducting paths. Eddy currents form, and Lenz's law makes their magnetic forces oppose the rotation, producing a drag torque.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-12",
+      "prompt": "Explain why eddy currents can be useful in induction cooktops.",
+      "answer": "A changing magnetic field induces eddy currents in the conducting cookware. The cookware's resistance converts the electrical energy into heat directly in the pan.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-13",
+      "prompt": "A solid metal core and a powdered insulated core are used in alternating magnetic fields. Which has smaller eddy-current loss and why?",
+      "answer": "The powdered insulated core has smaller eddy-current loss because insulation between grains interrupts large current loops and increases effective resistance.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-14",
+      "prompt": "A metal plate is stationary in a steady magnetic field. Are eddy currents present? Explain.",
+      "answer": "Not from induction alone. With no motion and no changing magnetic field, flux through internal paths is steady, so no eddy currents are induced.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-15",
+      "prompt": "A conducting plate moves through a field twice as fast. If induced emf scales with speed, how does eddy-current heating scale in the same current path?",
+      "answer": "If \\(\\mathcal E\\propto v\\), then\\n\\[\\nP=\\frac{\\mathcal E^2}{R}\\propto v^2\\n\\]\\nDoubling speed increases the heating by a factor of \\(4\\), for the same effective resistance.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-16",
+      "prompt": "Why does eddy-current braking become weak at low speed?",
+      "answer": "Motional emf is proportional to speed, so eddy currents decrease as speed decreases. The magnetic drag force also decreases, becoming small near zero speed.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-17",
+      "prompt": "A falling magnet reaches terminal speed in a conducting tube. Explain the force balance.",
+      "answer": "As the magnet falls, eddy-current magnetic drag increases with speed. Terminal speed occurs when upward magnetic drag balances the magnet's weight, so the net force is zero.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-18",
+      "prompt": "Use energy conservation to explain why a stronger eddy-current brake heats more strongly.",
+      "answer": "A stronger brake removes mechanical energy faster. That energy cannot vanish; in a passive conductor it is converted mostly into thermal energy by \\(I^2R\\) heating. Greater braking force at a given speed means greater mechanical power loss \\(Fv\\), matching greater heating.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-19",
+      "prompt": "A conductor is cooled so its resistance decreases. For a fixed induced emf around an eddy-current path, what happens to current and heating power? State a caveat.",
+      "answer": "For fixed emf, \\(I=\\mathcal E/R\\) increases when \\(R\\) decreases, and \\(P=\\mathcal E^2/R\\) also increases. Caveat: changing current can alter fields and motion, so the fixed-emf assumption may fail in a fully coupled situation.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "eddy-currents-20",
+      "prompt": "A perfect conductor moves into a magnetic field. Explain why the idealized limit is subtle compared with ordinary eddy-current braking.",
+      "answer": "In ordinary conductors, induced currents dissipate energy as heat. In the zero-resistance idealization, currents can persist without ohmic loss and rearrange to prevent flux changes. The simple \\(P=I^2R\\) loss picture no longer describes the energy flow; magnetic energy and mechanical work must be treated with the constraints of flux conservation.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

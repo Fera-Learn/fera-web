@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "activity-and-half-life",
+  "topicTitle": "Activity and Half-Life",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "activity-half-life-01",
+      "prompt": "A detector records \\(120\\,\\mathrm{s^{-1}}\\) with background \\(35\\,\\mathrm{s^{-1}}\\). Find the net count rate.",
+      "answer": "\\[\\nC_{\\mathrm{net}}=C-C_{\\mathrm b}=120-35=85\\,\\mathrm{s^{-1}}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-02",
+      "prompt": "A detector has efficiency \\(0.25\\) and net count rate \\(80\\,\\mathrm{s^{-1}}\\). Estimate the source activity.",
+      "answer": "\\[\\nA=\\frac{C_{\\mathrm{net}}}{\\epsilon}=\\frac{80}{0.25}=320\\,\\mathrm{Bq}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-03",
+      "prompt": "A source count rate falls from \\(1600\\,\\mathrm{s^{-1}}\\) to \\(200\\,\\mathrm{s^{-1}}\\) in \\(9.0\\,\\mathrm h\\), after background correction. Find the half-life.",
+      "answer": "The fraction is \\(200/1600=1/8=(1/2)^3\\), so three half-lives occur in \\(9.0\\,\\mathrm h\\). Thus\\n\\[\\nt_{1/2}=3.0\\,\\mathrm h\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-04",
+      "prompt": "A sample has remaining parent fraction \\(f=0.30\\) and decay constant \\(\\lambda\\). Write its age.",
+      "answer": "From \\(f=e^{-\\lambda t}\\),\\n\\[\\nt=-\\frac{1}{\\lambda}\\ln f=-\\frac{1}{\\lambda}\\ln(0.30)\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-05",
+      "prompt": "A carbon sample has \\(25\\%\\) of the original \\(^{14}\\mathrm C\\) ratio. If \\(t_{1/2}=5730\\,\\mathrm{yr}\\), estimate its age.",
+      "answer": "\\(25\\%=1/4=(1/2)^2\\), so two half-lives have passed:\\n\\[\\nt=2(5730)=11460\\,\\mathrm{yr}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-06",
+      "prompt": "A source has count rate \\(500\\,\\mathrm{s^{-1}}\\), background \\(100\\,\\mathrm{s^{-1}}\\), and efficiency \\(0.40\\). Find the activity.",
+      "answer": "The net count rate is\\n\\[\\nC_{\\mathrm{net}}=500-100=400\\,\\mathrm{s^{-1}}\\n\\]\\nTherefore\\n\\[\\nA=\\frac{400}{0.40}=1000\\,\\mathrm{Bq}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-07",
+      "prompt": "A count is taken for \\(60\\,\\mathrm s\\) and records \\(3000\\) counts. Background is \\(15\\,\\mathrm{s^{-1}}\\). Find the net count rate.",
+      "answer": "Measured count rate is\\n\\[\\nC=\\frac{3000}{60}=50\\,\\mathrm{s^{-1}}\\n\\]\\nNet rate is\\n\\[\\nC_{\\mathrm{net}}=50-15=35\\,\\mathrm{s^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-08",
+      "prompt": "Given molar mass \\(M\\), sample mass \\(m\\), and decay constant \\(\\lambda\\), write the activity of a pure radioactive sample.",
+      "answer": "The number of nuclei is\\n\\[\\nN=\\frac{m}{M}N_A\\n\\]\\nso\\n\\[\\nA=\\lambda N=\\lambda\\frac{m}{M}N_A\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-09",
+      "prompt": "A \\(2.0\\,\\mathrm{mg}\\) pure sample has molar mass \\(200\\,\\mathrm{g\\,mol^{-1}}\\) and \\(\\lambda=1.0\\times10^{-5}\\,\\mathrm{s^{-1}}\\). Find its activity.",
+      "answer": "Convert mass to grams: \\(m=2.0\\times10^{-3}\\,\\mathrm g\\).\\n\\[\\nN=\\frac{2.0\\times10^{-3}}{200}(6.02\\times10^{23})=6.02\\times10^{18}\\n\\]\\n\\[\\nA=\\lambda N=(1.0\\times10^{-5})(6.02\\times10^{18})=6.0\\times10^{13}\\,\\mathrm{Bq}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-10",
+      "prompt": "Explain why count-rate dating must use background-corrected count rates.",
+      "answer": "Background counts are not caused by the sample. If they are not subtracted, the inferred sample activity is too large, especially for old or weak samples, making the sample appear younger than it is.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-11",
+      "prompt": "A source has net count rate \\(C_0\\) initially and \\(C\\) later. Derive the age in terms of half-life.",
+      "answer": "Since count rate is proportional to activity,\\n\\[\\n\\frac{C}{C_0}=2^{-t/t_{1/2}}\\n\\]\\nTaking logs gives\\n\\[\\nt=t_{1/2}\\frac{\\ln(C_0/C)}{\\ln2}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-12",
+      "prompt": "A sample's corrected count rate is \\(0.18\\) of its original value. Express its age in half-lives.",
+      "answer": "Use\\n\\[\\n\\frac{t}{t_{1/2}}=\\frac{\\ln(C_0/C)}{\\ln2}=\\frac{\\ln(1/0.18)}{\\ln2}\\n\\]\\n\\[\\n\\frac{t}{t_{1/2}}\\approx2.47\\n\\]\\nThe age is about \\(2.5\\) half-lives.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-13",
+      "prompt": "Why does detector efficiency affect inferred activity but not the measured half-life if efficiency stays constant?",
+      "answer": "Efficiency scales all count rates by the same factor. Half-life is inferred from ratios such as \\(C/C_0\\), and the constant efficiency cancels. Absolute activity requires dividing by efficiency.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-14",
+      "prompt": "A detector has a dead-time loss that becomes important at high rates. How would this affect a half-life measurement from early high-rate data?",
+      "answer": "Dead time causes high count rates to be undercounted. Early rates would be recorded too low, making the decay curve appear flatter initially. This can bias the inferred decay constant downward and the half-life upward if uncorrected.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-15",
+      "prompt": "A parent isotope has half-life \\(T\\). After what time is \\(90\\%\\) of it decayed?",
+      "answer": "If \\(90\\%\\) decayed, \\(10\\%\\) remains, so\\n\\[\\n0.10=2^{-t/T}\\n\\]\\nThus\\n\\[\\nt=T\\frac{\\ln(10)}{\\ln2}\\approx3.32T\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-16",
+      "prompt": "A sample contains a long-lived isotope and a short-lived contaminant. How can a plot of \\(\\ln C\\) versus \\(t\\) reveal the mixture?",
+      "answer": "A single isotope gives a straight line on a \\(\\ln C\\) versus \\(t\\) plot. A mixture of two exponentials gives curvature: the short-lived component dominates early, while the long-lived component dominates later.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-17",
+      "prompt": "A decay curve is plotted as \\(\\ln(C-C_b)\\) against \\(t\\). What is the slope, and how does it give half-life?",
+      "answer": "For corrected count rate,\\n\\[\\nC-C_b=C_0e^{-\\lambda t}\\n\\]\\nso\\n\\[\\n\\ln(C-C_b)=\\ln C_0-\\lambda t\\n\\]\\nThe slope is \\(-\\lambda\\), and\\n\\[\\nt_{1/2}=\\frac{\\ln2}{\\lambda}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-18",
+      "prompt": "In radiometric dating, why is a closed-system assumption necessary?",
+      "answer": "The dating equation assumes changes in parent and daughter amounts are due only to radioactive decay. If parent or daughter atoms enter or leave the sample, the measured ratio no longer reflects only elapsed time, and the inferred age can be wrong.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-19",
+      "prompt": "A parent decays to a stable daughter with no initial daughter present. Express the daughter-to-parent ratio in terms of \\(\\lambda t\\).",
+      "answer": "The parent number is \\(N=N_0e^{-\\lambda t}\\). Daughter number is \\(D=N_0-N=N_0(1-e^{-\\lambda t})\\). Thus\\n\\[\\n\\frac{D}{N}=\\frac{1-e^{-\\lambda t}}{e^{-\\lambda t}}=e^{\\lambda t}-1\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "activity-half-life-20",
+      "prompt": "Derive the age formula \\(t=(1/\\lambda)\\ln(1+D/N)\\) for parent-daughter dating with no initial daughter.",
+      "answer": "From conservation of parent plus daughter atoms, \\(N_0=N+D\\). The parent decay law gives\\n\\[\\nN=N_0e^{-\\lambda t}=(N+D)e^{-\\lambda t}\\n\\]\\nso\\n\\[\\ne^{\\lambda t}=1+\\frac{D}{N}\\n\\]\\nTaking logs gives\\n\\[\\nt=\\frac{1}{\\lambda}\\ln\\left(1+\\frac{D}{N}\\right)\\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

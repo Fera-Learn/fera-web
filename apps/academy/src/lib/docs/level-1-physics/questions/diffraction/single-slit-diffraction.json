@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "single-slit-diffraction",
+  "topicTitle": "Single-Slit Diffraction",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "single-slit-diffraction-01",
+      "prompt": "State the condition for single-slit diffraction minima.",
+      "answer": "\\[\na\\sin\\theta_m=m\\lambda\n\\]\nwhere \\(m=1,2,3,\\ldots\\).",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-02",
+      "prompt": "Why is there no \\(m=0\\) dark fringe for a single slit?",
+      "answer": "The order \\(m=0\\) would give \\(\\theta=0\\), but the center is the central bright maximum, not a minimum.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-03",
+      "prompt": "A slit has width \\(0.250\\,\\mathrm{mm}\\), and light has wavelength \\(500\\,\\mathrm{nm}\\). Find the first-minimum angle.",
+      "answer": "\\[\n\\sin\\theta_1=\\frac{\\lambda}{a}=\\frac{500\\times10^{-9}}{0.250\\times10^{-3}}=2.00\\times10^{-3}\n\\]\nso \\(\\theta_1\\approx2.00\\times10^{-3}\\,\\mathrm{rad}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-04",
+      "prompt": "For \\(a=0.10\\,\\mathrm{mm}\\) and \\(\\lambda=600\\,\\mathrm{nm}\\), find \\(\\theta_1\\).",
+      "answer": "\\[\n\\sin\\theta_1=\\frac{600\\times10^{-9}}{0.10\\times10^{-3}}=6.0\\times10^{-3}\n\\]\nso \\(\\theta_1\\approx6.0\\times10^{-3}\\,\\mathrm{rad}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-05",
+      "prompt": "Using the small-angle approximation, state the screen position of the \\(m\\)th single-slit minimum.",
+      "answer": "\\[\ny_m\\approx\\frac{m\\lambda L}{a}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-06",
+      "prompt": "A slit of width \\(0.200\\,\\mathrm{mm}\\) is \\(2.0\\,\\mathrm{m}\\) from a screen. For \\(\\lambda=500\\,\\mathrm{nm}\\), find \\(y_1\\).",
+      "answer": "\\[\ny_1=\\frac{\\lambda L}{a}=\\frac{(500\\times10^{-9})(2.0)}{0.200\\times10^{-3}}=5.0\\times10^{-3}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-07",
+      "prompt": "For the setup in question 6, estimate the full width of the central maximum.",
+      "answer": "The central maximum extends from \\(-y_1\\) to \\(+y_1\\):\n\\[\nw=2y_1=2(5.0\\,\\mathrm{mm})=10.0\\,\\mathrm{mm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-08",
+      "prompt": "If the slit width is halved, what happens to the diffraction angles of the minima?",
+      "answer": "Since \\(\\sin\\theta_m=m\\lambda/a\\), halving \\(a\\) doubles the small-angle diffraction angles.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-09",
+      "prompt": "If the wavelength is increased while slit width stays fixed, what happens to the central maximum width?",
+      "answer": "The central maximum width\n\\[\nw\\approx\\frac{2\\lambda L}{a}\n\\]\nincreases in proportion to \\(\\lambda\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-10",
+      "prompt": "A first minimum occurs at \\(3.0\\times10^{-3}\\,\\mathrm{rad}\\) for \\(600\\,\\mathrm{nm}\\) light. Estimate the slit width.",
+      "answer": "For small angles,\n\\[\na\\theta_1\\approx\\lambda\n\\]\nso\n\\[\na=\\frac{600\\times10^{-9}}{3.0\\times10^{-3}}=2.0\\times10^{-4}\\,\\mathrm{m}=0.20\\,\\mathrm{mm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-11",
+      "prompt": "A screen is moved from \\(1.0\\,\\mathrm{m}\\) to \\(3.0\\,\\mathrm{m}\\) from the slit. What happens to the fringe positions \\(y_m\\)?",
+      "answer": "Since\n\\[\ny_m\\approx\\frac{m\\lambda L}{a}\n\\]\ntripling \\(L\\) triples all screen distances from the center.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-12",
+      "prompt": "A single-slit pattern has first minima \\(8.0\\,\\mathrm{mm}\\) apart on opposite sides of the center. Find \\(y_1\\).",
+      "answer": "The distance between first minima is the full central maximum width:\n\\[\n2y_1=8.0\\,\\mathrm{mm}\n\\]\nso\n\\[\ny_1=4.0\\,\\mathrm{mm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-13",
+      "prompt": "For \\(a=0.250\\,\\mathrm{mm}\\) and \\(\\lambda=520\\,\\mathrm{nm}\\), find the angular separation between the first and fourth minima on the same side.",
+      "answer": "For small angles,\n\\[\n\\theta_m\\approx\\frac{m\\lambda}{a}\n\\]\nso\n\\[\n\\Delta\\theta=\\theta_4-\\theta_1=\\frac{3\\lambda}{a}=\\frac{3(520\\times10^{-9})}{0.250\\times10^{-3}}=6.24\\times10^{-3}\\,\\mathrm{rad}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-14",
+      "prompt": "Why is the central maximum in a single-slit pattern wider than the side maxima?",
+      "answer": "The central maximum is bounded by the first minima on both sides, from \\(-\\lambda/a\\) to \\(+\\lambda/a\\). Side maxima lie between adjacent minima, so they occupy a smaller angular interval.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-15",
+      "prompt": "A single slit has \\(a=1.5\\lambda\\). How many minima are possible on one side of the central maximum?",
+      "answer": "Minima require\n\\[\n\\sin\\theta_m=\\frac{m\\lambda}{a}=\\frac{m}{1.5}\\le1\n\\]\nOnly \\(m=1\\) is possible. There is one minimum on each side.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-16",
+      "prompt": "A single slit has \\(a=4.2\\lambda\\). What is the largest possible minimum order?",
+      "answer": "The largest order satisfies \\(m\\lambda\\le a\\):\n\\[\nm\\le4.2\n\\]\nso \\(m_{\\max}=4\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-17",
+      "prompt": "Explain the pair-cancellation argument for the first single-slit minimum.",
+      "answer": "At the first minimum, the path difference across the whole slit is \\(\\lambda\\). A ray from the top half can be paired with a ray half a slit width below it; each pair differs by \\(\\lambda/2\\), so the pairs cancel.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-18",
+      "prompt": "Why does a narrower slit produce a wider pattern?",
+      "answer": "The minimum condition is \\(\\sin\\theta_m=m\\lambda/a\\). Decreasing \\(a\\) increases the angle needed for the same order, so the pattern spreads out.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-19",
+      "prompt": "A central maximum width is \\(12\\,\\mathrm{mm}\\) on a screen \\(3.0\\,\\mathrm{m}\\) away using \\(600\\,\\mathrm{nm}\\) light. Estimate the slit width.",
+      "answer": "Use\n\\[\nw=\\frac{2\\lambda L}{a}\n\\]\nso\n\\[\na=\\frac{2\\lambda L}{w}=\\frac{2(600\\times10^{-9})(3.0)}{12\\times10^{-3}}=3.0\\times10^{-4}\\,\\mathrm{m}\n\\]\nThus \\(a=0.30\\,\\mathrm{mm}\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-diffraction-20",
+      "prompt": "Derive the small-angle central maximum width for a single slit.",
+      "answer": "The first minima satisfy\n\\[\na\\sin\\theta_1=\\lambda\n\\]\nFor small angles, \\(\\theta_1\\approx\\lambda/a\\) and \\(y_1\\approx L\\theta_1=\\lambda L/a\\). The full width is\n\\[\nw=2y_1=\\frac{2\\lambda L}{a}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

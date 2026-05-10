@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "types-of-mechanical-waves",
+  "topicTitle": "Types of Mechanical Waves",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-types-01",
+      "prompt": "A wave travels along a stretched string. Is it transverse or longitudinal?",
+      "answer": "A string wave is transverse because the string elements move across the direction the disturbance travels.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-02",
+      "prompt": "Sound travels through air as a sequence of compressions and rarefactions. Is this transverse or longitudinal?",
+      "answer": "It is longitudinal because the air parcels oscillate back and forth along the same line as the sound wave propagates.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-03",
+      "prompt": "A periodic wave has frequency \\(15\\,\\mathrm{Hz}\\) and wavelength \\(0.40\\,\\mathrm{m}\\). Find the wave speed.",
+      "answer": "\\[\nv_w=f\\lambda=(15)(0.40)=6.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-04",
+      "prompt": "A disturbance moves to the right while each element of the medium moves up and down. Classify the wave and explain the geometric reason in one sentence.",
+      "answer": "The wave is transverse. The pattern travels horizontally, while the medium displacement is vertical, so\n\\[\n\\vec \\xi\\perp \\vec v_w\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-05",
+      "prompt": "A compression wave in a spring has speed \\(6.0\\,\\mathrm{m\\,s^{-1}}\\) and period \\(0.20\\,\\mathrm{s}\\). Find the spacing between successive compressions.",
+      "answer": "The spacing between successive compressions is one wavelength:\n\\[\n\\lambda=v_wT=(6.0)(0.20)=1.2\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-06",
+      "prompt": "A student says, \"If a marked particle in the medium is moving left at one instant, the wave must also be moving left.\" Explain why this conclusion is not valid.",
+      "answer": "The motion of one particle in the medium is not the same thing as the motion of the wave pattern. A particle can momentarily move left while the crest or compression pattern moves right. To determine propagation direction, track a fixed phase point such as a crest or compression as time passes.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-07",
+      "prompt": "Two waves travel along the \\(+x\\)-direction with the same \\(\\lambda\\) and \\(f\\). In wave A the medium displacement is always along \\(\\hat y\\). In wave B it is always along \\(\\hat x\\). Compare their classifications and explain why equal \\(\\lambda\\) and \\(f\\) do not force the same wave type.",
+      "answer": "Wave A is transverse because its displacement is perpendicular to propagation:\n\\[\n\\vec \\xi_A\\perp \\hat x\n\\]\nWave B is longitudinal because its displacement is parallel to propagation:\n\\[\n\\vec \\xi_B\\parallel \\hat x\n\\]\nEqual wavelength and frequency only imply equal phase speed\n\\[\nv_w=f\\lambda\n\\]\nThey do not determine the direction in which the medium oscillates, so they do not determine the wave type.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-types-08",
+      "prompt": "A wave propagates along \\(+x\\) and the local displacement is\n\\[\n\\vec \\xi(x,t)=a\\hat x\\cos(kx-\\omega t)+b\\hat y\\cos(kx-\\omega t).\n\\]\nGive the conditions on \\(a\\) and \\(b\\) for the wave to be purely longitudinal, purely transverse, or neither.",
+      "answer": "The propagation direction is \\(+x\\), so compare the displacement vector with \\(\\hat x\\).\n\n- Purely longitudinal: the displacement must be entirely along \\(\\hat x\\), so \\(b=0\\) and \\(a\\neq 0\\).\n- Purely transverse: the displacement must be perpendicular to \\(\\hat x\\), so \\(a=0\\) and \\(b\\neq 0\\).\n- Neither purely longitudinal nor purely transverse: both components are present, so \\(a\\neq 0\\) and \\(b\\neq 0\\).\n\nIf \\(a=b=0\\), there is no wave disturbance at all.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

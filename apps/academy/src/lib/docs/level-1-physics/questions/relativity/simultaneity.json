@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "simultaneity",
+  "topicTitle": "Simultaneity",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-simultaneity-01",
+      "prompt": "What does it mean for two events to be simultaneous in a given frame?",
+      "answer": "They have the same time coordinate in that frame, so \\(\\Delta t=0\\) in that frame.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-02",
+      "prompt": "Is simultaneity absolute in special relativity?",
+      "answer": "No. Two separated events that are simultaneous in one inertial frame need not be simultaneous in another inertial frame.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-03",
+      "prompt": "State the Lorentz time-difference formula for frames moving along the \\(x\\)-axis.",
+      "answer": "\\[\n\\Delta t'=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-04",
+      "prompt": "Two events occur at the same place in \\(S\\) with \\(\\Delta t=2.00\\,\\mu\\mathrm s\\). If \\(S'\\) moves at \\(0.600c\\), find \\(\\Delta t'\\).",
+      "answer": "Since \\(\\Delta x=0\\),\n\\[\n\\Delta t'=\\gamma\\Delta t\n\\]\nWith \\(\\gamma=1.25\\),\n\\[\n\\Delta t'=2.50\\,\\mu\\mathrm s\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-05",
+      "prompt": "Two events are simultaneous in \\(S\\) and separated by \\(300\\,\\mathrm m\\) along \\(+x\\). Frame \\(S'\\) moves at \\(0.500c\\). Find the sign of \\(\\Delta t'\\).",
+      "answer": "For \\(\\Delta t=0\\),\n\\[\n\\Delta t'=-\\gamma\\frac{v\\Delta x}{c^2}\n\\]\nHere \\(v>0\\) and \\(\\Delta x>0\\), so \\(\\Delta t'<0\\). The event at larger \\(x\\) occurs earlier in \\(S'\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-06",
+      "prompt": "Why is the relativity of simultaneity not just a delay caused by light travel time?",
+      "answer": "Signal delay is an observational effect that can be corrected for. Relativity of simultaneity remains after correcting for signal travel time because different inertial frames assign different time coordinates to separated events.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-07",
+      "prompt": "Two events are simultaneous in \\(S\\), separated by \\(900\\,\\mathrm m\\). Frame \\(S'\\) moves at \\(0.600c\\). Find \\(\\Delta t'\\).",
+      "answer": "\\(\\gamma=1.25\\) and \\(v=0.600c\\). Thus\n\\[\n\\Delta t'=-\\gamma\\frac{v\\Delta x}{c^2}\n=-1.25\\frac{(0.600c)(900)}{c^2}\n\\]\n\\[\n\\Delta t'=-2.25\\times10^{-6}\\,\\mathrm s=-2.25\\,\\mu\\mathrm s\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-08",
+      "prompt": "Two lightning strikes hit the front and back of a train at the same time in the track frame. Explain why the train frame can disagree.",
+      "answer": "The strikes are separated in space. In the train frame the train moves relative to the track, so the Lorentz time transformation gives different time coordinates for the two separated strike events. The disagreement is about event times in frames, not about when light reaches an observer's eyes.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-09",
+      "prompt": "Find the speed \\(v\\) for which two events with \\(\\Delta x=600\\,\\mathrm m\\) and \\(\\Delta t=1.00\\,\\mu\\mathrm s\\) are simultaneous in \\(S'\\).",
+      "answer": "Set \\(\\Delta t'=0\\):\n\\[\n0=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)\n\\]\nso\n\\[\nv=\\frac{c^2\\Delta t}{\\Delta x}\n\\]\n\\[\nv=\\frac{(3.00\\times10^8)^2(1.00\\times10^{-6})}{600}=1.50\\times10^8\\,\\mathrm{m\\,s^{-1}}=0.500c\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-10",
+      "prompt": "Two events have \\(\\Delta x=900\\,\\mathrm m\\) and \\(\\Delta t=1.00\\,\\mu\\mathrm s\\) in \\(S\\). Frame \\(S'\\) moves at \\(0.600c\\). Find \\(\\Delta t'\\).",
+      "answer": "\\(\\gamma=1.25\\). Then\n\\[\n\\Delta t'=1.25\\left(1.00\\times10^{-6}-\\frac{(0.600c)(900)}{c^2}\\right)\n\\]\nSince \\((0.600c)(900)/c^2=1.80\\times10^{-6}\\,\\mathrm s\\),\n\\[\n\\Delta t'=1.25(-0.800\\times10^{-6})=-1.00\\,\\mu\\mathrm s\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-11",
+      "prompt": "For two events simultaneous in \\(S\\), derive the moving-frame time separation.",
+      "answer": "Start with\n\\[\n\\Delta t'=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)\n\\]\nIf they are simultaneous in \\(S\\), \\(\\Delta t=0\\), so\n\\[\n\\Delta t'=-\\gamma\\frac{v\\Delta x}{c^2}\n\\]\nThus separated simultaneous events in \\(S\\) are generally not simultaneous in \\(S'\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-12",
+      "prompt": "Two events have \\(\\Delta x=300\\,\\mathrm m\\). What value of \\(\\Delta t\\) in \\(S\\) would make them connected by a light signal?",
+      "answer": "For a light signal along the separation,\n\\[\nc|\\Delta t|=|\\Delta x|\n\\]\nso\n\\[\n|\\Delta t|=\\frac{300}{3.00\\times10^8}=1.00\\,\\mu\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-13",
+      "prompt": "Explain why two events at the same place in one frame cannot have their time order reversed by another inertial frame.",
+      "answer": "If \\(\\Delta x=0\\), the Lorentz time-difference formula becomes \\(\\Delta t'=\\gamma\\Delta t\\). Since \\(\\gamma>0\\), \\(\\Delta t'\\) has the same sign as \\(\\Delta t\\). The time order is preserved.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-14",
+      "prompt": "Two events are separated by \\(\\Delta x=1.20\\,\\mathrm{km}\\) and are simultaneous in \\(S\\). Find \\(\\Delta t'\\) for \\(v=0.750c\\).",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.750^2}}=1.51\n\\]\n\\[\n\\Delta t'=-\\gamma\\frac{v\\Delta x}{c^2}=-1.51\\frac{(0.750c)(1200)}{c^2}\n\\]\n\\[\n\\Delta t'=-4.54\\,\\mu\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-15",
+      "prompt": "A frame \\(S'\\) moves in the negative \\(x\\)-direction relative to \\(S\\). If two events are simultaneous in \\(S\\) with \\(\\Delta x>0\\), what is the sign of \\(\\Delta t'\\)?",
+      "answer": "Use\n\\[\n\\Delta t'=-\\gamma\\frac{v\\Delta x}{c^2}\n\\]\nFor motion in the negative direction, \\(v<0\\), while \\(\\Delta x>0\\). Therefore \\(\\Delta t'>0\\). The event at larger \\(x\\) occurs later in \\(S'\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-16",
+      "prompt": "Show that if two events can be connected by a light signal, no inertial frame can make them simultaneous.",
+      "answer": "For light-connected events, \\(|\\Delta x|=c|\\Delta t|\\). A frame with simultaneity would require\n\\[\nv=\\frac{c^2\\Delta t}{\\Delta x}\n\\]\nThe magnitude is\n\\[\n|v|=\\frac{c^2|\\Delta t|}{|\\Delta x|}=c\n\\]\nAn inertial frame cannot move at \\(c\\), so no inertial frame makes the events simultaneous.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-17",
+      "prompt": "Use \\(\\Delta t'=\\gamma(\\Delta t-v\\Delta x/c^2)\\) to explain why only separated events can show relativity of simultaneity.",
+      "answer": "If the events are not separated, \\(\\Delta x=0\\), then \\(\\Delta t'=\\gamma\\Delta t\\). A zero time gap remains zero. The extra relativity-of-simultaneity term is \\(-\\gamma v\\Delta x/c^2\\), so a spatial separation is required.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-18",
+      "prompt": "A student argues that if observers disagree on simultaneity, one observer must be wrong. Give a relativistic correction.",
+      "answer": "Neither observer is wrong if each uses clocks synchronized in their own inertial frame. Simultaneity is a frame-dependent coordinate statement for separated events. The physical events are the same, but their time coordinates differ between frames.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-19",
+      "prompt": "Two events have \\(c\\Delta t=400\\,\\mathrm m\\) and \\(\\Delta x=1000\\,\\mathrm m\\). Can their order be reversed by changing inertial frame?",
+      "answer": "Because \\(|\\Delta x|>|c\\Delta t|\\), the events are spacelike-separated. A frame exists with \\(\\Delta t'=0\\), and frames moving on either side of that speed assign opposite time order. Their order can be reversed because no causal signal at or below \\(c\\) connects them.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-simultaneity-20",
+      "prompt": "Derive the condition for a frame in which two events are simultaneous, and state when that frame is physically allowed.",
+      "answer": "Set \\(\\Delta t'=0\\):\n\\[\n0=\\gamma\\left(\\Delta t-\\frac{v\\Delta x}{c^2}\\right)\n\\]\nso\n\\[\nv=\\frac{c^2\\Delta t}{\\Delta x}\n\\]\nThis is physically allowed only if \\(|v|<c\\), which requires \\(|c\\Delta t|<|\\Delta x|\\). The events must be spacelike-separated.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

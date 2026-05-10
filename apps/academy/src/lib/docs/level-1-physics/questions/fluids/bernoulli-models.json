@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "fluids",
+  "topicId": "bernoulli-models",
+  "topicTitle": "Bernoulli Models",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fluids-bernoulli-01",
+      "prompt": "Water flows horizontally from speed \\(2.0\\,\\mathrm{m\\,s^{-1}}\\) to \\(5.0\\,\\mathrm{m\\,s^{-1}}\\). Find \\(p_1-p_2\\).",
+      "answer": "At the same height,\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)\n\\]\n\\[\np_1-p_2=\\frac{1}{2}(1000)(25-4)=1.05\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-02",
+      "prompt": "Water is accelerated from a very wide, nearly stationary region into a horizontal pipe by a pressure drop of \\(18\\,\\mathrm{kPa}\\). Find the pipe speed.",
+      "answer": "With negligible initial speed and no height change,\n\\[\n\\Delta p=\\frac{1}{2}\\rho v^2\n\\]\n\\[\nv=\\sqrt{\\frac{2\\Delta p}{\\rho}}\n=\\sqrt{\\frac{2(18\\times10^3)}{1000}}\n=6.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-03",
+      "prompt": "A small hole is \\(0.80\\,\\mathrm{m}\\) below the surface of a large open water tank. Estimate the exit speed.",
+      "answer": "For a large open tank,\n\\[\nv=\\sqrt{2gh}\n\\]\n\\[\nv=\\sqrt{2(9.8)(0.80)}=4.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-04",
+      "prompt": "A liquid flows steadily with the same speed at two points. Point 2 is \\(3.0\\,\\mathrm{m}\\) higher than point 1. For water, find \\(p_1-p_2\\).",
+      "answer": "The speeds are equal, so the kinetic terms cancel:\n\\[\np_1+\\rho gy_1=p_2+\\rho gy_2\n\\]\n\\[\np_1-p_2=\\rho g(y_2-y_1)=(1000)(9.8)(3.0)=2.94\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-05",
+      "prompt": "Water flows horizontally through a constriction where the area halves. If \\(v_1=1.5\\,\\mathrm{m\\,s^{-1}}\\), find \\(v_2\\) and \\(p_1-p_2\\).",
+      "answer": "Continuity gives\n\\[\nv_2=\\frac{A_1}{A_2}v_1=2(1.5)=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nAt the same height,\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)\n\\]\n\\[\np_1-p_2=\\frac{1}{2}(1000)(9.0-2.25)=3.38\\times10^3\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-06",
+      "prompt": "Water flows from point 1 to point 2. The speed changes from \\(2.0\\,\\mathrm{m\\,s^{-1}}\\) to \\(3.0\\,\\mathrm{m\\,s^{-1}}\\), and point 2 is \\(4.0\\,\\mathrm{m}\\) higher. Find \\(p_1-p_2\\).",
+      "answer": "Bernoulli gives\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)+\\rho g(y_2-y_1)\n\\]\n\\[\np_1-p_2=\\frac{1}{2}(1000)(9-4)+(1000)(9.8)(4.0)\n\\]\n\\[\np_1-p_2=4.17\\times10^4\\,\\mathrm{Pa}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-07",
+      "prompt": "A Pitot-style measurement in air of density \\(1.2\\,\\mathrm{kg\\,m^{-3}}\\) gives stagnation pressure \\(540\\,\\mathrm{Pa}\\) above static pressure. Find the air speed.",
+      "answer": "The stagnation pressure rise is the dynamic pressure:\n\\[\n\\Delta p=\\frac{1}{2}\\rho v^2\n\\]\n\\[\nv=\\sqrt{\\frac{2\\Delta p}{\\rho}}\n=\\sqrt{\\frac{2(540)}{1.2}}\n=30\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-08",
+      "prompt": "A hole in a large tank is \\(1.25\\,\\mathrm{m}\\) below the water surface and \\(0.80\\,\\mathrm{m}\\) above the floor. Estimate the horizontal range of the emerging water stream.",
+      "answer": "The exit speed is\n\\[\nv=\\sqrt{2gh}=\\sqrt{2(9.8)(1.25)}=4.95\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe fall time from \\(0.80\\,\\mathrm{m}\\) is\n\\[\nt=\\sqrt{\\frac{2(0.80)}{9.8}}=0.404\\,\\mathrm{s}\n\\]\nThe horizontal range is\n\\[\nx=vt=(4.95)(0.404)=2.0\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-09",
+      "prompt": "A horizontal Venturi tube carries water. The wide area is four times the narrow area, and the wide-section speed is \\(1.0\\,\\mathrm{m\\,s^{-1}}\\). Find the pressure drop from wide to narrow section.",
+      "answer": "Continuity gives \\(v_2=4v_1=4.0\\,\\mathrm{m\\,s^{-1}}\\). The pressure drop is\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)\n\\]\n\\[\np_1-p_2=\\frac{1}{2}(1000)(16-1)=7.5\\times10^3\\,\\mathrm{Pa}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-10",
+      "prompt": "A large open tank has a small outlet of area \\(1.0\\times10^{-4}\\,\\mathrm{m^2}\\), located \\(2.0\\,\\mathrm{m}\\) below the surface. Estimate the volume flow rate from the outlet.",
+      "answer": "The exit speed is\n\\[\nv=\\sqrt{2gh}=\\sqrt{2(9.8)(2.0)}=6.26\\,\\mathrm{m\\,s^{-1}}\n\\]\nTherefore\n\\[\nQ=av=(1.0\\times10^{-4})(6.26)=6.3\\times10^{-4}\\,\\mathrm{m^3\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-11",
+      "prompt": "Water flows horizontally. At section 1, \\(p_1=2.20\\times10^5\\,\\mathrm{Pa}\\) and \\(v_1=2.0\\,\\mathrm{m\\,s^{-1}}\\). At section 2, \\(v_2=7.0\\,\\mathrm{m\\,s^{-1}}\\). Find \\(p_2\\).",
+      "answer": "For horizontal flow,\n\\[\np_1+\\frac{1}{2}\\rho v_1^2=p_2+\\frac{1}{2}\\rho v_2^2\n\\]\n\\[\np_2=p_1+\\frac{1}{2}\\rho(v_1^2-v_2^2)\n\\]\n\\[\np_2=2.20\\times10^5+\\frac{1}{2}(1000)(4-49)\n=1.98\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-12",
+      "prompt": "A water jet exits vertically upward into the atmosphere from a nozzle fed by gauge pressure \\(45\\,\\mathrm{kPa}\\). Neglect losses and inlet speed. Estimate the maximum jet height.",
+      "answer": "The pressure energy per volume becomes gravitational potential energy per volume:\n\\[\np_{\\mathrm{gauge}}=\\rho gh\n\\]\n\\[\nh=\\frac{p_{\\mathrm{gauge}}}{\\rho g}\n=\\frac{45\\times10^3}{(1000)(9.8)}\n=4.6\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-13",
+      "prompt": "Explain why a horizontal ideal-fluid streamline that speeds up must move toward lower pressure. Use Bernoulli\u0027s equation and also state the force interpretation.",
+      "answer": "For horizontal ideal flow,\n\\[\np+\\frac{1}{2}\\rho v^2=\\text{constant}\n\\]\nIf \\(v\\) increases, the kinetic term increases, so \\(p\\) must decrease. The force interpretation is the same: a fluid element speeds up only if there is a net force along the streamline, which requires higher pressure behind it than ahead of it.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-14",
+      "prompt": "A horizontal pipe carries a liquid of unknown density. The speed increases from \\(1.0\\,\\mathrm{m\\,s^{-1}}\\) to \\(4.0\\,\\mathrm{m\\,s^{-1}}\\), and the pressure falls by \\(6.0\\,\\mathrm{kPa}\\). Find the density implied by Bernoulli\u0027s equation.",
+      "answer": "At the same height,\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)\n\\]\nThus\n\\[\n\\rho=\\frac{2(p_1-p_2)}{v_2^2-v_1^2}\n=\\frac{2(6.0\\times10^3)}{16-1}\n=8.0\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-15",
+      "prompt": "A siphon carries water from a large open reservoir to an outlet \\(1.5\\,\\mathrm{m}\\) below the reservoir surface. The siphon crest is \\(0.80\\,\\mathrm{m}\\) above the reservoir surface. Neglect losses and pipe-radius changes. Estimate the absolute pressure at the crest.",
+      "answer": "The outlet is \\(1.5\\,\\mathrm{m}\\) below the reservoir surface, so\n\\[\n\\frac{v^2}{2g}=1.5\\,\\mathrm{m}\n\\]\nAt the crest, Bernoulli from the reservoir surface gives\n\\[\np_{\\mathrm{atm}}=p_c+\\frac{1}{2}\\rho v^2+\\rho g(0.80)\n\\]\nTherefore\n\\[\np_c=p_{\\mathrm{atm}}-\\rho g(1.5+0.80)\n\\]\n\\[\np_c=1.01\\times10^5-(1000)(9.8)(2.30)=7.8\\times10^4\\,\\mathrm{Pa}\n\\]\nThis is absolute pressure, under the ideal no-loss model.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-16",
+      "prompt": "A horizontal streamline has speed \\(v(s)\\) along distance coordinate \\(s\\). Starting from Bernoulli\u0027s equation, derive \\(dp/ds\\) in terms of \\(v\\) and \\(dv/ds\\). Interpret the sign when the flow accelerates.",
+      "answer": "For horizontal flow,\n\\[\np+\\frac{1}{2}\\rho v^2=\\text{constant}\n\\]\nDifferentiate with respect to \\(s\\):\n\\[\n\\frac{dp}{ds}+\\rho v\\frac{dv}{ds}=0\n\\]\nso\n\\[\n\\frac{dp}{ds}=-\\rho v\\frac{dv}{ds}\n\\]\nIf the flow accelerates along \\(s\\), \\(dv/ds\u003e0\\), so \\(dp/ds\u003c0\\): pressure decreases downstream.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-17",
+      "prompt": "For horizontal incompressible flow, section 1 has area \\(A_1\\), speed \\(v_1\\), and pressure \\(p_1\\). Section 2 has area \\(A_2\\). Derive \\(p_1-p_2\\) in terms of \\(\\rho\\), \\(v_1\\), and \\(k=A_1/A_2\\).",
+      "answer": "Continuity gives\n\\[\nv_2=\\frac{A_1}{A_2}v_1=kv_1\n\\]\nHorizontal Bernoulli gives\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)\n\\]\nTherefore\n\\[\np_1-p_2=\\frac{1}{2}\\rho v_1^2(k^2-1)\n\\]\nFor a constriction, \\(k\u003e1\\), so the pressure drop is positive.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-18",
+      "prompt": "A tank surface area \\(A_T\\) is not extremely large compared with a hole area \\(a\\). The water surface is height \\(h\\) above the hole, and both surface and hole are open to the atmosphere. Derive the hole speed using continuity and Bernoulli.",
+      "answer": "Let the hole speed be \\(v\\). Continuity gives the downward surface speed\n\\[\nv_T=\\frac{a}{A_T}v\n\\]\nBoth points are open to the atmosphere, so pressures cancel:\n\\[\n\\frac{1}{2}\\rho v_T^2+\\rho gh=\\frac{1}{2}\\rho v^2\n\\]\nSubstitute \\(v_T=(a/A_T)v\\):\n\\[\nv^2\\left(1-\\frac{a^2}{A_T^2}\\right)=2gh\n\\]\n\\[\nv=\\sqrt{\\frac{2gh}{1-(a/A_T)^2}}\n\\]\nThis reduces to \\(\\sqrt{2gh}\\) when \\(A_T\\gg a\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-19",
+      "prompt": "A horizontal constriction has \\(A_1/A_2=k\u003e1\\). Upstream pressure is \\(p_1\\), vapor pressure is \\(p_v\\), and density is \\(\\rho\\). Derive the maximum upstream speed \\(v_1\\) that keeps the narrow-section pressure at or above \\(p_v\\).",
+      "answer": "Continuity gives \\(v_2=kv_1\\). Bernoulli gives\n\\[\np_2=p_1+\\frac{1}{2}\\rho(v_1^2-v_2^2)\n=p_1-\\frac{1}{2}\\rho v_1^2(k^2-1)\n\\]\nRequire \\(p_2\\ge p_v\\):\n\\[\np_1-\\frac{1}{2}\\rho v_1^2(k^2-1)\\ge p_v\n\\]\nso\n\\[\nv_1\\le \\sqrt{\\frac{2(p_1-p_v)}{\\rho(k^2-1)}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-bernoulli-20",
+      "prompt": "A streamline connects points 1 and 2 in steady incompressible nonviscous flow. Derive a symbolic condition, using only \\(p_1-p_2\\), \\(y_2-y_1\\), and \\(\\rho\\), for point 2 to have a larger speed than point 1. Interpret the condition physically.",
+      "answer": "Bernoulli between the two points gives\n\\[\np_1-p_2=\\frac{1}{2}\\rho(v_2^2-v_1^2)+\\rho g(y_2-y_1)\n\\]\nRearrange:\n\\[\nv_2^2-v_1^2=\\frac{2}{\\rho}\\left[p_1-p_2-\\rho g(y_2-y_1)\\right]\n\\]\nPoint 2 has the larger speed when\n\\[\np_1-p_2\u003e\\rho g(y_2-y_1)\n\\]\nThe pressure drop from 1 to 2 must exceed the pressure change needed merely to lift the fluid. Any remaining pressure drop appears as increased kinetic energy.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

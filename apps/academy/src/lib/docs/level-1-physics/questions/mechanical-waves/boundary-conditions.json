@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "boundary-conditions",
+  "topicTitle": "Boundary Conditions",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "wave-boundaries-01",
+      "prompt": "A crest pulse reflects from a fixed end. What shape returns?",
+      "answer": "A trough returns. A fixed end requires inversion on reflection.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-02",
+      "prompt": "A trough pulse reflects from a free end. What shape returns?",
+      "answer": "A trough returns. A free end reflects without inversion.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-03",
+      "prompt": "State the boundary condition for a fixed end on a string.",
+      "answer": "At a fixed end, the displacement must always be zero:\n\\[\ny(L,t)=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-04",
+      "prompt": "State the boundary condition for a free end on a string.",
+      "answer": "At a free end, the slope must vanish:\n\\[\n\\frac{\\partial y}{\\partial x}(L,t)=0\n\\]\nThis expresses zero transverse force at the boundary.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-05",
+      "prompt": "A pulse travels at \\(20\\,\\mathrm{m\\,s^{-1}}\\) toward a rigid wall \\(3.0\\,\\mathrm{m}\\) away. How long does it take to return to its starting point after reflection?",
+      "answer": "The pulse travels to the wall and back, so the total distance is\n\\[\n2(3.0)=6.0\\,\\mathrm{m}\n\\]\nHence\n\\[\nt=\\frac{6.0}{20}=0.30\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-06",
+      "prompt": "Does reflection from a fixed end in the same medium change the wave speed? Explain briefly.",
+      "answer": "No. In the same medium the wave speed is unchanged. Reflection changes the phase according to the boundary condition, not the propagation speed.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-07",
+      "prompt": "A pulse returns inverted after reflecting from an unknown boundary. Infer the boundary type and justify the conclusion using the boundary condition rather than a memorized rule.",
+      "answer": "An inverted reflected pulse indicates a fixed-end boundary. The reason is that a fixed end must satisfy\n\\[\ny(L,t)=0\n\\]\nfor all times, so at the boundary the reflected displacement must cancel the incident displacement:\n\\[\ny_r(L,t)=-y_i(L,t)\n\\]\nThat minus sign is the inversion.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "wave-boundaries-08",
+      "prompt": "A standing wave on a string has a node at the left boundary and an antinode at the right boundary. Determine the effective boundary type at each end and explain the reflection phase change associated with each boundary.",
+      "answer": "A node at the boundary means the displacement there is always zero, so that end behaves like a fixed boundary:\n\\[\ny=0\n\\]\nAn antinode at the boundary means the endpoint can move with maximum amplitude, so that end behaves like a free boundary where the slope vanishes:\n\\[\n\\frac{\\partial y}{\\partial x}=0\n\\]\nThe fixed end gives a phase reversal of \\(\\pi\\) on reflection, while the free end gives no phase reversal.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

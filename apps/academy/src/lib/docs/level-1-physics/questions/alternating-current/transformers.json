@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "transformers",
+  "topicTitle": "Transformers",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "transformers-01",
+      "prompt": "What physical effect allows a transformer to transfer energy between coils?",
+      "answer": "A changing magnetic flux links the coils and induces emf by Faraday's law.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-02",
+      "prompt": "State the ideal transformer voltage ratio.",
+      "answer": "For an ideal transformer,\n\\[\n\\frac{V_s}{V_p}=\\frac{N_s}{N_p}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-03",
+      "prompt": "Does a step-up transformer increase or decrease current in the ideal model?",
+      "answer": "A step-up transformer increases voltage and decreases current in the ideal model, because input power equals output power.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-04",
+      "prompt": "A transformer has \\(N_p=200\\), \\(N_s=1000\\), and \\(V_p=24\\,\\mathrm V\\). Find \\(V_s\\).",
+      "answer": "\\[\nV_s=V_p\\frac{N_s}{N_p}=24\\frac{1000}{200}=120\\,\\mathrm V\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-05",
+      "prompt": "An ideal transformer has \\(V_p=240\\,\\mathrm V\\), \\(V_s=12\\,\\mathrm V\\), and \\(I_s=5.0\\,\\mathrm A\\). Find \\(I_p\\).",
+      "answer": "For an ideal transformer,\n\\[\nV_pI_p=V_sI_s\n\\]\nso\n\\[\nI_p=\\frac{V_sI_s}{V_p}=\\frac{(12)(5.0)}{240}=0.25\\,\\mathrm A\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-06",
+      "prompt": "A transformer steps \\(120\\,\\mathrm V\\) up to \\(480\\,\\mathrm V\\). If the primary has \\(150\\) turns, find the secondary turns.",
+      "answer": "\\[\n\\frac{V_s}{V_p}=\\frac{N_s}{N_p}\n\\]\nso\n\\[\nN_s=N_p\\frac{V_s}{V_p}=150\\frac{480}{120}=600\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-07",
+      "prompt": "A real transformer takes \\(500\\,\\mathrm W\\) from the primary and delivers \\(450\\,\\mathrm W\\) to the secondary. Find its efficiency.",
+      "answer": "\\[\n\\eta=\\frac{P_{\\mathrm{out}}}{P_{\\mathrm{in}}}=\\frac{450}{500}=0.90\n\\]\nThe efficiency is \\(90\\%\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-08",
+      "prompt": "Why does an ideal transformer not work with steady DC?",
+      "answer": "A steady DC current produces steady magnetic flux after transients die away. Faraday's law requires changing flux for induced emf:\n\\[\n\\mathcal E=-N\\frac{d\\Phi_B}{dt}\n\\]\nIf \\(d\\Phi_B/dt=0\\), there is no induced secondary emf.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-09",
+      "prompt": "An ideal transformer has turns ratio \\(N_s/N_p=4.0\\). A \\(10\\,\\Omega\\) load is connected to the secondary. What effective resistance is seen by the primary?",
+      "answer": "The reflected resistance is\n\\[\nR_{\\mathrm{eff}}=\\left(\\frac{N_p}{N_s}\\right)^2R_L\n\\]\nHere\n\\[\nR_{\\mathrm{eff}}=\\left(\\frac{1}{4.0}\\right)^2(10)=0.625\\,\\Omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "transformers-10",
+      "prompt": "Derive the ideal transformer current ratio from the voltage ratio and conservation of power.",
+      "answer": "The voltage ratio is\n\\[\n\\frac{V_s}{V_p}=\\frac{N_s}{N_p}\n\\]\nIdeal power conservation gives\n\\[\nV_pI_p=V_sI_s\n\\]\nso\n\\[\n\\frac{I_s}{I_p}=\\frac{V_p}{V_s}\n\\]\nUsing the voltage ratio,\n\\[\n\\frac{V_p}{V_s}=\\frac{N_p}{N_s}\n\\]\nTherefore\n\\[\n\\frac{I_s}{I_p}=\\frac{N_p}{N_s}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

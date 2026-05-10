@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "motion-in-space",
+  "topicId": "position-and-velocity-vectors",
+  "topicTitle": "Position and Velocity Vectors",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "position-velocity-vectors-01",
+      "prompt": "A particle moves from \\((1,2)\\,\\mathrm{m}\\) to \\((5,-1)\\,\\mathrm{m}\\). Find \\(\\Delta\\vec{r}\\).",
+      "answer": "\\[\n\\Delta\\vec{r}=(5-1)\\hat{\\imath}+(-1-2)\\hat{\\jmath}\n\\]\n\\[\n\\Delta\\vec{r}=4\\hat{\\imath}-3\\hat{\\jmath}\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-02",
+      "prompt": "Write the position vector for a particle at \\(x=-3\\,\\mathrm{m}\\), \\(y=4\\,\\mathrm{m}\\), \\(z=2\\,\\mathrm{m}\\).",
+      "answer": "\\[\n\\vec{r}=-3\\hat{\\imath}+4\\hat{\\jmath}+2\\hat{k}\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-19",
+      "prompt": "If \\(z(t)=0\\) for all \\(t\\), what can be said about the motion?",
+      "answer": "The motion stays in the \\(xy\\)-plane. The \\(z\\)-component of position and velocity is zero.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-03",
+      "prompt": "For \\(\\vec{r}(t)=2t\\hat{\\imath}+3t^2\\hat{\\jmath}\\), find \\(\\vec{v}(t)\\).",
+      "answer": "\\[\n\\vec{v}(t)=\\frac{d\\vec{r}}{dt}=2\\hat{\\imath}+6t\\hat{\\jmath}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-04",
+      "prompt": "For \\(\\vec{v}=6\\hat{\\imath}+8\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\\), find the speed.",
+      "answer": "\\[\nv=|\\vec{v}|=\\sqrt{6^2+8^2}=10\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-16",
+      "prompt": "A particle has \\(\\vec{v}=v_x\\hat{\\imath}+v_y\\hat{\\jmath}\\). Write its speed.",
+      "answer": "\\[\nv=\\sqrt{v_x^2+v_y^2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-05",
+      "prompt": "A particle\u0027s displacement is \\(12\\hat{\\imath}-5\\hat{\\jmath}\\,\\mathrm{m}\\) over \\(4\\,\\mathrm{s}\\). Find average velocity.",
+      "answer": "\\[\n\\bar{\\vec{v}}=\\frac{\\Delta\\vec{r}}{\\Delta t}\n\\]\n\\[\n\\bar{\\vec{v}}=3\\hat{\\imath}-1.25\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-06",
+      "prompt": "For \\(\\vec{r}(t)=t^2\\hat{\\imath}+(5-t)\\hat{\\jmath}\\), find \\(\\vec{v}\\) at \\(t=2\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\vec{v}=2t\\hat{\\imath}-\\hat{\\jmath}\n\\]\n\\[\n\\vec{v}(2)=4\\hat{\\imath}-\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-13",
+      "prompt": "For \\(\\vec{r}(t)=(t^2-4t)\\hat{\\imath}+3\\hat{\\jmath}\\), when is the velocity zero?",
+      "answer": "\\[\n\\vec{v}=(2t-4)\\hat{\\imath}\n\\]\n\\[\n2t-4=0\n\\]\n\\[\nt=2\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-17",
+      "prompt": "A particle travels around a semicircle of radius \\(2\\,\\mathrm{m}\\). Its displacement magnitude is \\(4\\,\\mathrm{m}\\). What distance did it travel?",
+      "answer": "The distance is the arc length of a semicircle:\n\\[\nd=\\pi r=2\\pi\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-07",
+      "prompt": "A particle has \\(\\vec{v}=3\\hat{\\imath}-4\\hat{\\jmath}+12\\hat{k}\\,\\mathrm{m\\,s^{-1}}\\). Find its speed and direction cosine with the \\(+\\hat{k}\\)-axis.",
+      "answer": "\\[\nv=\\sqrt{3^2+(-4)^2+12^2}=13\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe direction cosine with \\(+\\hat{k}\\) is\n\\[\n\\cos\\gamma=\\frac{v_z}{|\\vec v|}=\\frac{12}{13}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-08",
+      "prompt": "If \\(\\vec{r}(t)=4\\cos t\\,\\hat{\\imath}+4\\sin t\\,\\hat{\\jmath}\\), find \\(\\vec{v}(t)\\) and show that \\(\\vec{r}\\cdot\\vec{v}=0\\).",
+      "answer": "\\[\n\\vec{v}(t)=-4\\sin t\\,\\hat{\\imath}+4\\cos t\\,\\hat{\\jmath}\n\\]\n\\[\n\\vec r\\cdot\\vec v=(4\\cos t)(-4\\sin t)+(4\\sin t)(4\\cos t)=0\n\\]\nSo \\(\\vec r\\) is perpendicular to \\(\\vec v\\) for all \\(t\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-14",
+      "prompt": "Can two particles have the same speed but different velocities?",
+      "answer": "Yes. Speed is only magnitude. Velocity also includes direction. For example,\n\\[\n3\\hat{\\imath}\\quad\\text{and}\\quad 3\\hat{\\jmath}\n\\]\nhave the same speed but different velocities.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-20",
+      "prompt": "Show why shifting the origin by a constant vector \\(\\vec{c}\\) does not change displacement.",
+      "answer": "If \\(\\vec{r}\u0027=\\vec{r}-\\vec{c}\\), then\n\\[\n\\Delta\\vec{r}\u0027=(\\vec{r}_f-\\vec{c})-(\\vec{r}_i-\\vec{c})=\\vec{r}_f-\\vec{r}_i\n\\]\n\\[\n\\Delta\\vec{r}\u0027=\\Delta\\vec{r}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-09",
+      "prompt": "A particle moves as \\(\\vec{r}(t)=(t^2-4t)\\hat{\\imath}+(t+1)\\hat{\\jmath}\\). Find the instant of closest approach to the origin and the minimum distance.",
+      "answer": "\\[\n\\vec r(t)=(t^2-4t)\\hat{\\imath}+(t+1)\\hat{\\jmath},\\qquad\nr^2(t)=(t^2-4t)^2+(t+1)^2\n\\]\nMinimize \\(r^2\\):\n\\[\n\\frac{d}{dt}r^2=4t^3-24t^2+36t+2=0\n\\]\nThe physical root is \\(t\\approx2.43\\,\\mathrm s\\). Then\n\\[\nr_{\\min}=\\sqrt{(t^2-4t)^2+(t+1)^2}\\Big|_{t=2.43}\\approx2.85\\,\\mathrm m\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-10",
+      "prompt": "For \\(\\vec{r}(t)=(t^2-1)\\hat{\\imath}+2t\\hat{\\jmath}+3\\hat{k}\\), find \\(\\vec{v}(t)\\) and the angle between \\(\\vec{v}(1)\\) and \\(\\hat{\\imath}\\).",
+      "answer": "\\[\n\\vec{v}(t)=2t\\hat{\\imath}+2\\hat{\\jmath}\n\\]\n\\[\n\\vec v(1)=2\\hat{\\imath}+2\\hat{\\jmath}\n\\]\nAngle with \\(+\\hat\\imath\\):\n\\[\n\theta=\\tan^{-1}\\!\\left(\\frac{2}{2}\\right)=45^\\circ\n\\]\nThe constant \\(3\\hat{k}\\) contributes zero velocity.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-15",
+      "prompt": "A particle\u0027s velocity is tangent to its path. What does that mean physically?",
+      "answer": "At each instant, \\(\\vec{v}\\) points in the direction the particle is moving along the path.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-11",
+      "prompt": "A particle starts at \\(\\vec{r}_0=2\\hat{\\imath}-\\hat{\\jmath}\\,\\mathrm{m}\\) and has velocity \\(\\vec{v}(t)=(4t-1)\\hat{\\imath}+(3-2t)\\hat{\\jmath}\\). Find \\(\\vec{r}(2)\\).",
+      "answer": "\\[\n\\vec r(t)=\\vec r_0+\\int_0^t\\vec v(\\tau)\\,d\\tau\n\\]\n\\[\n\\int_0^2(4\\tau-1)\\,d\\tau=6,\n\\qquad\n\\int_0^2(3-2\\tau)\\,d\\tau=2\n\\]\n\\[\n\\vec r(2)=(2+6)\\hat{\\imath}+(-1+2)\\hat{\\jmath}\n=8\\hat{\\imath}+\\hat{\\jmath}\\,\\mathrm m\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-12",
+      "prompt": "A trajectory is \\(\\vec{r}(t)=t\\hat{\\imath}+(t^2-2t)\\hat{\\jmath}\\). Find the equation of the tangent line at \\(t=3\\).",
+      "answer": "\\[\nx=t,\\qquad y=t^2-2t\n\\]\nAt \\(t=3\\): \\((x,y)=(3,3)\\).\n\\[\n\\frac{dy}{dx}=\\frac{dy/dt}{dx/dt}=\\frac{2t-2}{1}\n\\Rightarrow m=4\n\\]\nTangent line:\n\\[\ny-3=4(x-3)\n\\]\n\\[\ny=4x-9\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-18",
+      "prompt": "For \\(\\vec{r}(t)=e^t\\hat{\\imath}+t^3\\hat{\\jmath}\\), find \\(\\vec{v}(t)\\) and determine whether speed is increasing at \\(t=0\\).",
+      "answer": "\\[\n\\vec v(t)=e^t\\hat\\imath+3t^2\\hat\\jmath\n\\]\nSpeed increases when \\(\\vec v\\cdot\\vec a\u003e0\\).\n\\[\n\\vec a(t)=e^t\\hat\\imath+6t\\hat\\jmath\n\\]\nAt \\(t=0\\): \\(\\vec v(0)=\\hat\\imath\\), \\(\\vec a(0)=\\hat\\imath\\), so\n\\[\n\\vec v\\cdot\\vec a=1\u003e0\n\\]\nTherefore speed is increasing at \\(t=0\\).",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-21",
+      "prompt": "A particle has \\(\\vec{r}(t)=(t^2-2t)\\hat{\\imath}+(3t-t^2)\\hat{\\jmath}\\). Find all times when the velocity is perpendicular to position, and classify each event as moving toward or away from the origin immediately after that instant.",
+      "answer": "Perpendicular means \\(\\vec r\\cdot\\vec v=0\\).\n\\[\n\\vec r=(t^2-2t)\\hat\\imath+(3t-t^2)\\hat\\jmath,\n\\quad\n\\vec v=(2t-2)\\hat\\imath+(3-2t)\\hat\\jmath\n\\]\n\\[\n\\vec r\\cdot\\vec v=-4t^3+13t^2-13t=0\n\\]\n\\[\nt\\,(4t^2-13t+13)=0\n\\Rightarrow t=0,\\ \\frac{13\\pm\\sqrt{(-39)}}{8}\n\\]\nOnly real time is \\(t=0\\). To classify motion after that instant, use\n\\[\n\\frac{d}{dt}(r^2)=2\\vec r\\cdot\\vec v\n\\]\nNear \\(t=0^+\\), \\(\\vec r\\cdot\\vec v\\approx-13t\u003c0\\), so \\(r\\) is decreasing: the particle moves toward the origin immediately after \\(t=0\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "position-velocity-vectors-22",
+      "prompt": "A particle moves with \\(\\vec{r}(t)=R\\cos(\\omega t)\\hat{\\imath}+R\\sin(\\omega t)\\hat{\\jmath}+bt\\hat{k}\\). Prove speed is constant, derive curvature \\(\\kappa\\), and state how \\(\\kappa\\) changes as \\(b\\) increases with \\(R,\\omega\\) fixed.",
+      "answer": "\\[\n\\vec r=R\\cos(\\omega t)\\hat\\imath+R\\sin(\\omega t)\\hat\\jmath+bt\\hat k\n\\]\n\\[\n\\vec v=-R\\omega\\sin(\\omega t)\\hat\\imath+R\\omega\\cos(\\omega t)\\hat\\jmath+b\\hat k\n\\]\n\\[\n|\\vec v|=\\sqrt{R^2\\omega^2+b^2}=\\text{constant}\n\\]\n\\[\n\\vec a=-R\\omega^2\\cos(\\omega t)\\hat\\imath-R\\omega^2\\sin(\\omega t)\\hat\\jmath\n\\]\n\\[\n|\\vec v\\times\\vec a|=R\\omega^2\\sqrt{R^2\\omega^2+b^2},\n\\qquad\n\\kappa=\\frac{|\\vec v\\times\\vec a|}{|\\vec v|^3}=\frac{R\\omega^2}{R^2\\omega^2+b^2}\n\\]\nAs \\(b\\) increases, the denominator grows, so curvature decreases.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

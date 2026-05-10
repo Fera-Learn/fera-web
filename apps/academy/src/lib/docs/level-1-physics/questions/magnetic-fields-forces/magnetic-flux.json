@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "magnetic-flux",
+  "topicTitle": "Magnetic Flux",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "magnetic-flux-01",
+      "prompt": "State the magnetic flux through a flat surface in a uniform magnetic field.",
+      "answer": "The magnetic flux is\n\\[\n\\Phi_B=BA\\cos\\theta\n\\]\nwhere \\(\\theta\\) is the angle between \\(\\vec B\\) and the area vector.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-02",
+      "prompt": "What is the SI unit of magnetic flux?",
+      "answer": "The SI unit is the weber:\n\\[\n1\\,\\mathrm{Wb}=1\\,\\mathrm{T\\,m^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-03",
+      "prompt": "What direction is the area vector for a flat surface?",
+      "answer": "The area vector is perpendicular, or normal, to the surface. Its sign depends on which side is chosen as positive.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-04",
+      "prompt": "A \\(0.30\\,\\mathrm{m^2}\\) loop is perpendicular to a \\(0.40\\,\\mathrm{T}\\) field. Find the flux.",
+      "answer": "Perpendicular loop means the area vector is parallel to the field:\n\\[\n\\Phi_B=BA=(0.40)(0.30)=0.12\\,\\mathrm{Wb}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-05",
+      "prompt": "A \\(0.50\\,\\mathrm{m^2}\\) loop has area vector at \\(60^\\circ\\) to a \\(0.20\\,\\mathrm{T}\\) field. Find the flux.",
+      "answer": "\\[\n\\Phi_B=BA\\cos60^\\circ=(0.20)(0.50)(0.5)=0.050\\,\\mathrm{Wb}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-06",
+      "prompt": "When is magnetic flux through a flat loop zero?",
+      "answer": "For a uniform field, \\(\\Phi_B=BA\\cos\\theta\\). The flux is zero when the area vector is perpendicular to the field, so the field lies in the plane of the loop.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-07",
+      "prompt": "A loop has area \\(0.25\\,\\mathrm{m^2}\\) and flux \\(0.10\\,\\mathrm{Wb}\\) when perpendicular to the field. Find \\(B\\).",
+      "answer": "For perpendicular orientation,\n\\[\n\\Phi_B=BA\n\\]\nso\n\\[\nB=\\frac{0.10}{0.25}=0.40\\,\\mathrm{T}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-08",
+      "prompt": "A \\(0.10\\,\\mathrm{m^2}\\) coil in a \\(0.80\\,\\mathrm{T}\\) field has flux \\(0.040\\,\\mathrm{Wb}\\). Find the angle between \\(\\vec B\\) and the area vector.",
+      "answer": "\\[\n\\cos\\theta=\\frac{\\Phi_B}{BA}=\\frac{0.040}{(0.80)(0.10)}=0.50\n\\]\nThus\n\\[\n\\theta=60^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-09",
+      "prompt": "What is the net magnetic flux through any closed surface?",
+      "answer": "It is zero:\n\\[\n\\oint \\vec B\\cdot d\\vec A=0\n\\]\nThis is Gauss's law for magnetism.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-10",
+      "prompt": "Why does the net magnetic flux through a closed surface vanish?",
+      "answer": "Magnetic field lines form closed loops rather than starting or ending on isolated magnetic charges. Any field line entering a closed surface must also leave it, so the signed net flux is zero.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-11",
+      "prompt": "A flat loop is rotated from maximum positive flux to maximum negative flux in the same uniform field. What is the change in flux?",
+      "answer": "Maximum positive flux is \\(+BA\\). Maximum negative flux is \\(-BA\\). The change is\n\\[\n\\Delta\\Phi_B=-BA-(+BA)=-2BA\n\\]\nThe magnitude of the change is \\(2BA\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-12",
+      "prompt": "A surface is parallel to the magnetic field lines. Is the flux through that surface maximum or zero?",
+      "answer": "It is zero. If the field lies in the plane of the surface, then the field is perpendicular to the area vector, so \\(\\vec B\\cdot\\vec A=0\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-13",
+      "prompt": "A square loop has side \\(0.20\\,\\mathrm{m}\\) in a \\(0.50\\,\\mathrm{T}\\) field. Its area vector is \\(37^\\circ\\) from the field. Find \\(\\Phi_B\\).",
+      "answer": "The area is\n\\[\nA=(0.20)^2=0.040\\,\\mathrm{m^2}\n\\]\nThen\n\\[\n\\Phi_B=BA\\cos37^\\circ=(0.50)(0.040)(0.799)=1.6\\times10^{-2}\\,\\mathrm{Wb}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-14",
+      "prompt": "A coil has \\(N\\) identical turns. What is the flux linkage for uniform flux \\(\\Phi_B\\) through each turn?",
+      "answer": "The flux linkage is\n\\[\nN\\Phi_B\n\\]\nIt counts the magnetic flux through all turns of the coil.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-15",
+      "prompt": "Why can magnetic flux be negative even though field strength and area are positive?",
+      "answer": "Flux is a dot product:\n\\[\n\\Phi_B=\\vec B\\cdot\\vec A=BA\\cos\\theta\n\\]\nIf the chosen area vector points more than \\(90^\\circ\\) from \\(\\vec B\\), then \\(\\cos\\theta\\) is negative.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-16",
+      "prompt": "A closed surface encloses a bar magnet. What is the net magnetic flux through the surface?",
+      "answer": "The net flux is zero:\n\\[\n\\oint\\vec B\\cdot d\\vec A=0\n\\]\nThe magnet has north and south poles, but no isolated magnetic charge is enclosed.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-17",
+      "prompt": "A magnetic field is nonuniform over a surface. Why is \\(BA\\cos\\theta\\) not generally enough?",
+      "answer": "The field magnitude or direction changes over the surface, so one value of \\(B\\) and one angle cannot represent the whole surface. Use the flux integral:\n\\[\n\\Phi_B=\\int\\vec B\\cdot d\\vec A\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-18",
+      "prompt": "Two surfaces have the same area in the same uniform field. One has twice the flux of the other. What can you infer about their orientations?",
+      "answer": "Since \\(\\Phi_B=BA\\cos\\theta\\) and \\(B\\) and \\(A\\) are the same, the cosines of their angles differ by a factor of two:\n\\[\n\\cos\\theta_1=2\\cos\\theta_2\n\\]\nThe surface with larger flux has its area vector closer to the field direction.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-19",
+      "prompt": "Explain why changing only the sign convention for the area vector changes the sign of flux but not the physical field.",
+      "answer": "The area vector is a chosen normal direction. Reversing it sends \\(\\vec A\\rightarrow-\\vec A\\), so \\(\\Phi_B=\\vec B\\cdot\\vec A\\) changes sign. The magnetic field itself is unchanged; only the positive-flux convention changed.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-flux-20",
+      "prompt": "Use magnetic flux to state the difference between a magnetic field with no monopoles and an electric field with enclosed charge.",
+      "answer": "For magnetism, every closed surface has zero net flux:\n\\[\n\\oint\\vec B\\cdot d\\vec A=0\n\\]\nFor electricity, a closed surface can have nonzero net electric flux when it encloses net charge:\n\\[\n\\oint\\vec E\\cdot d\\vec A=\\frac{Q_{\\mathrm{enc}}}{\\epsilon_0}\n\\]\nThe difference reflects the absence of isolated magnetic charge in ordinary electromagnetism.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

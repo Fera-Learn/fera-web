@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "electron-waves",
+  "topicTitle": "Electron Waves",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-electron-waves-01",
+      "prompt": "State the de Broglie wavelength relation.",
+      "answer": "\\[\n\\lambda=\\frac{h}{p}\n\\]\nwhere \\(p\\) is the particle momentum magnitude.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-02",
+      "prompt": "What happens to a particle's de Broglie wavelength when its momentum increases?",
+      "answer": "The wavelength decreases because \\(\\lambda=h/p\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-03",
+      "prompt": "Why can electrons diffract from crystals?",
+      "answer": "Electrons have de Broglie wavelengths. When the wavelength is comparable with atomic spacings in a crystal, the scattered electron waves can interfere and diffract.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-04",
+      "prompt": "An electron has momentum \\(2.00\\times10^{-24}\\,\\mathrm{kg\\,m\\,s^{-1}}\\). Find its de Broglie wavelength.",
+      "answer": "\\[\n\\lambda=\\frac{h}{p}=\\frac{6.63\\times10^{-34}}{2.00\\times10^{-24}}=3.32\\times10^{-10}\\,\\mathrm m\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-05",
+      "prompt": "A particle has de Broglie wavelength \\(1.50\\times10^{-10}\\,\\mathrm m\\). Find its momentum.",
+      "answer": "\\[\np=\\frac{h}{\\lambda}=\\frac{6.63\\times10^{-34}}{1.50\\times10^{-10}}=4.42\\times10^{-24}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-06",
+      "prompt": "An electron is accelerated from rest through \\(100\\,\\mathrm V\\). Find its kinetic energy in electronvolts and joules.",
+      "answer": "The electron gains\n\\[\nK=eV=100\\,\\mathrm{eV}\n\\]\nIn joules,\n\\[\nK=100(1.60\\times10^{-19})=1.60\\times10^{-17}\\,\\mathrm J\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-07",
+      "prompt": "An electron is accelerated through \\(150\\,\\mathrm V\\). Estimate its nonrelativistic de Broglie wavelength.",
+      "answer": "Use\n\\[\n\\lambda=\\frac{h}{\\sqrt{2m_eeV}}\n\\]\nWith \\(V=150\\,\\mathrm V\\),\n\\[\n\\lambda=1.00\\times10^{-10}\\,\\mathrm m\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-08",
+      "prompt": "A nonrelativistic electron's kinetic energy is quadrupled. By what factor does its de Broglie wavelength change?",
+      "answer": "For nonrelativistic motion,\n\\[\np=\\sqrt{2mK}\n\\]\nso \\(\\lambda=h/p\\propto1/\\sqrt K\\). If \\(K\\) is quadrupled, \\(\\lambda\\) is halved.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-09",
+      "prompt": "Use \\(K=p^2/(2m)\\) to derive \\(\\lambda=h/\\sqrt{2mK}\\).",
+      "answer": "From\n\\[\nK=\\frac{p^2}{2m}\n\\]\nwe get\n\\[\np=\\sqrt{2mK}\n\\]\nSubstitute into \\(\\lambda=h/p\\):\n\\[\n\\lambda=\\frac{h}{\\sqrt{2mK}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-10",
+      "prompt": "A crystal has plane spacing \\(0.200\\,\\mathrm{nm}\\). Electrons of wavelength \\(0.100\\,\\mathrm{nm}\\) scatter from it. Find the first-order Bragg angle.",
+      "answer": "Use\n\\[\n2d\\sin\\theta=n\\lambda\n\\]\nFor \\(n=1\\),\n\\[\n\\sin\\theta=\\frac{0.100}{2(0.200)}=0.250\n\\]\n\\[\n\\theta=14.5^\\circ\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-11",
+      "prompt": "Derive the wavelength of an electron accelerated from rest through potential difference \\(V\\).",
+      "answer": "The gained kinetic energy is\n\\[\nK=eV\n\\]\nFor a nonrelativistic electron,\n\\[\nK=\\frac{p^2}{2m_e}\n\\]\nso\n\\[\np=\\sqrt{2m_eeV}\n\\]\nUsing \\(\\lambda=h/p\\),\n\\[\n\\lambda=\\frac{h}{\\sqrt{2m_eeV}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-12",
+      "prompt": "What accelerating voltage gives an electron a nonrelativistic wavelength of \\(0.100\\,\\mathrm{nm}\\)?",
+      "answer": "Rearrange\n\\[\n\\lambda=\\frac{h}{\\sqrt{2m_eeV}}\n\\]\nso\n\\[\nV=\\frac{h^2}{2m_ee\\lambda^2}\n\\]\nWith \\(\\lambda=1.00\\times10^{-10}\\,\\mathrm m\\),\n\\[\nV=151\\,\\mathrm V\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-13",
+      "prompt": "A proton and an electron have the same speed. Which has the shorter de Broglie wavelength?",
+      "answer": "At the same speed, momentum is \\(p=mv\\). The proton has much larger mass, so it has larger momentum and therefore shorter wavelength because \\(\\lambda=h/p\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-14",
+      "prompt": "A proton and an electron have the same nonrelativistic kinetic energy. Which has the shorter de Broglie wavelength?",
+      "answer": "For the same kinetic energy,\n\\[\np=\\sqrt{2mK}\n\\]\nThe proton has larger mass, so it has larger momentum and shorter wavelength.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-15",
+      "prompt": "Why are macroscopic matter waves usually unobservable?",
+      "answer": "Macroscopic objects have enormous momentum compared with microscopic particles, so \\(\\lambda=h/p\\) is extremely small. Their wave effects are far too small to resolve in ordinary conditions.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-16",
+      "prompt": "Show that the de Broglie relation gives a standing-wave condition for a circular orbit.",
+      "answer": "A stable circular wave requires an integer number of wavelengths around the circumference:\n\\[\n2\\pi r=n\\lambda\n\\]\nUsing \\(\\lambda=h/p=h/(mv)\\),\n\\[\n2\\pi r=n\\frac{h}{mv}\n\\]\nso\n\\[\nmvr=n\\frac{h}{2\\pi}=n\\hbar\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-17",
+      "prompt": "Explain why observing electron diffraction supports the wave-particle model rather than a purely particle model.",
+      "answer": "A purely particle model predicts localized impacts but does not explain systematic constructive and destructive interference from a crystal. Diffraction peaks require a wavelength and phase relation. Electrons arrive as particles, but their probabilities are governed by wave behavior.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-18",
+      "prompt": "An electron wavelength is comparable to atomic spacing. Explain why this matters for microscopy.",
+      "answer": "Resolution is limited by wavelength. Electrons accelerated to atomic-scale wavelengths can probe much smaller structures than visible light. This is the wave basis for high-resolution electron microscopy.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-19",
+      "prompt": "A nonrelativistic electron wavelength calculation gives a speed close to \\(c\\). What should you change?",
+      "answer": "The nonrelativistic momentum relation \\(p=\\sqrt{2mK}\\) is no longer reliable. Use relativistic energy and momentum, then apply \\(\\lambda=h/p\\). The de Broglie relation remains valid, but the momentum model changes.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-electron-waves-20",
+      "prompt": "Derive how electron wavelength scales with accelerating voltage and state the physical meaning.",
+      "answer": "From\n\\[\n\\lambda=\\frac{h}{\\sqrt{2m_eeV}}\n\\]\nall constants except \\(V\\) are fixed, so\n\\[\n\\lambda\\propto V^{-1/2}\n\\]\nA larger accelerating voltage gives the electron more momentum, reducing its wavelength and improving diffraction-limited resolution.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "spherical-refraction",
+  "topicTitle": "Spherical Refraction",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "spherical-refraction-01",
+      "prompt": "State the paraxial equation for refraction at a spherical surface.",
+      "answer": "The spherical refraction equation is\n\\[\n\\frac{n_1}{s}+\\frac{n_2}{s'}=\\frac{n_2-n_1}{R}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-02",
+      "prompt": "What do \\(n_1\\) and \\(n_2\\) represent in spherical refraction?",
+      "answer": "\\(n_1\\) is the refractive index on the incident side, and \\(n_2\\) is the refractive index on the refracted side.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-03",
+      "prompt": "State the lateral magnification for a single spherical refracting surface.",
+      "answer": "The magnification is\n\\[\nm=-\\frac{n_1s'}{n_2s}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-04",
+      "prompt": "Light goes from air to glass \\((n_2=1.50)\\) at a spherical surface with \\(R=0.30\\,\\mathrm{m}\\). An object is \\(0.60\\,\\mathrm{m}\\) away. Find \\(s'\\).",
+      "answer": "\\[\n\\frac{1.00}{0.60}+\\frac{1.50}{s'}=\\frac{1.50-1.00}{0.30}\n\\]\nBoth sides excluding the image term are \\(1.67\\,\\mathrm{m^{-1}}\\), so\n\\[\n\\frac{1.50}{s'}=0\n\\]\nThe image is at infinity.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-05",
+      "prompt": "For a plane refracting surface, what happens to the spherical refraction equation?",
+      "answer": "For a plane surface, \\(R\\rightarrow\\infty\\), so the right side is zero:\n\\[\n\\frac{n_1}{s}+\\frac{n_2}{s'}=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-06",
+      "prompt": "A point object is \\(0.20\\,\\mathrm{m}\\) inside water \\((n=1.33)\\), viewed from air through a plane surface. Estimate its apparent depth.",
+      "answer": "For near-normal viewing through a plane surface, apparent depth is\n\\[\nd_{\\mathrm{app}}=\\frac{d}{n}=\\frac{0.20}{1.33}=0.15\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-07",
+      "prompt": "Why does a fish in water appear closer to the surface than it really is?",
+      "answer": "Light rays bend away from the normal as they pass from water to air. The eye traces them backward in straight lines, locating a virtual image at a shallower apparent depth.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-08",
+      "prompt": "An object in air is \\(0.40\\,\\mathrm{m}\\) from a glass surface with \\(n_2=1.50\\) and \\(R=0.20\\,\\mathrm{m}\\). Find \\(s'\\).",
+      "answer": "\\[\n\\frac{1.00}{0.40}+\\frac{1.50}{s'}=\\frac{0.50}{0.20}=2.50\n\\]\n\\[\n2.50+\\frac{1.50}{s'}=2.50\n\\]\nso \\(s'\\) is at infinity.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-09",
+      "prompt": "What does a positive image distance usually mean for a refracting surface?",
+      "answer": "With the usual outgoing-side sign convention, positive \\(s'\\) means a real image on the refracted side of the surface.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-10",
+      "prompt": "What does a negative image distance usually mean for a refracting surface?",
+      "answer": "A negative \\(s'\\) means the refracted rays diverge as if from an image on the incident side. The image is virtual.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-11",
+      "prompt": "Why does curvature matter in spherical refraction?",
+      "answer": "Curvature changes the surface normal from ray to ray. Different rays therefore refract by different directions, allowing the surface to converge or diverge rays.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-12",
+      "prompt": "Use the spherical refraction equation to find image distance for \\(n_1=1.00\\), \\(n_2=1.50\\), \\(s=1.00\\,\\mathrm{m}\\), and \\(R=0.50\\,\\mathrm{m}\\).",
+      "answer": "\\[\n\\frac{1.00}{1.00}+\\frac{1.50}{s'}=\\frac{0.50}{0.50}=1.00\n\\]\nThus\n\\[\n\\frac{1.50}{s'}=0\n\\]\nso the image is at infinity.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-13",
+      "prompt": "For \\(n_1=1.00\\), \\(n_2=1.50\\), \\(s=0.25\\,\\mathrm{m}\\), and \\(R=0.50\\,\\mathrm{m}\\), find \\(s'\\).",
+      "answer": "\\[\n\\frac{1}{0.25}+\\frac{1.50}{s'}=\\frac{0.50}{0.50}=1.00\n\\]\n\\[\n\\frac{1.50}{s'}=-3.00\n\\]\n\\[\ns'=-0.50\\,\\mathrm{m}\n\\]\nThe image is virtual.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-14",
+      "prompt": "For the previous question, find the magnification.",
+      "answer": "\\[\nm=-\\frac{n_1s'}{n_2s}=-\\frac{(1.00)(-0.50)}{(1.50)(0.25)}=+1.33\n\\]\nThe image is upright and enlarged.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-15",
+      "prompt": "Why does the formula for spherical refraction include refractive indices multiplying \\(1/s\\) and \\(1/s'\\)?",
+      "answer": "The bending depends on optical path and wave speed in each medium. The refractive indices weight the ray convergence on each side because the same geometric angle corresponds to different optical behavior in different media.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-16",
+      "prompt": "What happens to spherical refraction if \\(n_1=n_2\\)?",
+      "answer": "If \\(n_1=n_2\\), the right side \\((n_2-n_1)/R\\) is zero and there is no refractive focusing. A boundary between identical media has no optical effect.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-17",
+      "prompt": "Why is the spherical refraction equation a paraxial formula?",
+      "answer": "Its derivation uses small-angle approximations for rays close to the optical axis. Large-angle rays do not focus exactly according to the same linear relation.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-18",
+      "prompt": "How does a spherical refracting surface differ from a thin lens?",
+      "answer": "A spherical refracting surface is one boundary between two media. A thin lens uses two refracting surfaces close together, so its net focusing combines both surface powers.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-19",
+      "prompt": "Explain how spherical refraction leads toward the thin-lens equation.",
+      "answer": "Apply the spherical refraction equation at the first surface to form an intermediate image, then use that image as the object for the second surface. In the thin-lens limit, the surface separation is negligible and the two surface powers combine to give \\(1/s+1/s'=1/f\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-refraction-20",
+      "prompt": "Explain why apparent depth at a plane surface is a virtual-image effect.",
+      "answer": "For a plane interface, refracted rays entering the observer's eye diverge. The eye traces those rays backward into the original medium, locating a point from which the rays appear to come. Since the rays do not actually meet there after refraction, the apparent image is virtual.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

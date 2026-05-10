@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "molecular-view-of-induced-charge",
+  "topicTitle": "Molecular View of Induced Charge",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "molecular-induced-charge-01",
+      "prompt": "A simple dipole consists of charges \\(\\pm 3.0\\times10^{-19}\\,\\mathrm{C}\\) separated by \\(2.0\\times10^{-10}\\,\\mathrm{m}\\). Find the dipole moment magnitude.",
+      "answer": "\\[\np=q\\ell=(3.0\\times10^{-19})(2.0\\times10^{-10})\n=6.0\\times10^{-29}\\,\\mathrm{C\\,m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-02",
+      "prompt": "A molecular dipole with \\(p=4.0\\times10^{-30}\\,\\mathrm{C\\,m}\\) is at \\(60^\\circ\\) to an electric field of \\(2.5\\times10^6\\,\\mathrm{V\\,m^{-1}}\\). Find the torque magnitude.",
+      "answer": "\\[\n\\tau=pE\\sin\\theta\n\\]\n\\[\n\\tau=(4.0\\times10^{-30})(2.5\\times10^6)\\sin60^\\circ\n=8.7\\times10^{-24}\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-03",
+      "prompt": "A dielectric slab is placed between capacitor plates whose free-charge field points to the right. Identify the signs of bound charge on the left and right faces of the slab, and state the direction of the field due to bound charge.",
+      "answer": "The dipoles tend to align with the free-charge field, so their positive ends point to the right and their negative ends point to the left.\n\nTherefore the left face of the dielectric has negative bound charge and the right face has positive bound charge. The electric field due to those bound charges points from the positive bound face to the negative bound face, so it points left. That opposes the original free-charge field.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-04",
+      "prompt": "Explain why a dielectric can reduce the electric field inside a capacitor while still allowing a nonzero field, whereas a conductor in electrostatic equilibrium has zero field inside its material.",
+      "answer": "A dielectric has charges bound to atoms or molecules. An applied field slightly separates or rotates those charges, producing polarization. The bound charge field opposes the applied field, but the charges cannot flow freely enough to rearrange until the net field is zero.\n\nA conductor has mobile free charge. In electrostatic equilibrium, any nonzero field inside conducting material would exert forces on those charges and make them move. The charges redistribute until the internal field in the conducting material is zero.\n\nSo the difference is the charge mobility: bound polarization partly cancels the field in a dielectric, while free-charge motion cancels the field inside a conductor at equilibrium.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-05",
+      "prompt": "A dipole has moment \\(p=3.0\\times10^{-30}\\,\\mathrm{C\\,m}\\) in a uniform electric field \\(E=2.0\\times10^6\\,\\mathrm{V\\,m^{-1}}\\). Find the potential energy when it is aligned with the field.",
+      "answer": "For a dipole in a uniform field,\n\\[\nU=-\\vec p\\cdot\\vec E=-pE\\cos\\theta\n\\]\nAligned means \\(\\theta=0\\), so\n\\[\nU=-pE=-(3.0\\times10^{-30})(2.0\\times10^6)\n=-6.0\\times10^{-24}\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-06",
+      "prompt": "At what angle between \\(\\vec p\\) and \\(\\vec E\\) is the torque on an electric dipole largest?",
+      "answer": "The torque magnitude is\n\\[\n\\tau=pE\\sin\\theta\n\\]\nThis is largest when\n\\[\n\\sin\\theta=1\n\\]\nso\n\\[\n\\theta=90^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-07",
+      "prompt": "A dielectric has uniform polarization magnitude \\(P=4.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\\). Find the bound surface charge density on a face whose outward normal is parallel to \\(\\vec P\\), and on a face whose outward normal is opposite \\(\\vec P\\).",
+      "answer": "The bound surface charge density is\n\\[\n\\sigma_b=\\vec P\\cdot\\hat n\n\\]\nIf \\(\\hat n\\) is parallel to \\(\\vec P\\),\n\\[\n\\sigma_b=+P=+4.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]\nIf \\(\\hat n\\) is opposite \\(\\vec P\\),\n\\[\n\\sigma_b=-P=-4.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-08",
+      "prompt": "A material contains \\(2.0\\times10^{28}\\) identical molecular dipoles per cubic metre, each with average aligned dipole moment \\(1.5\\times10^{-31}\\,\\mathrm{C\\,m}\\). Estimate the polarization magnitude.",
+      "answer": "Polarization is dipole moment per unit volume:\n\\[\nP=N_vp_{\\mathrm{avg}}\n\\]\nwhere \\(N_v\\) is the number per unit volume. Thus\n\\[\nP=(2.0\\times10^{28})(1.5\\times10^{-31})\n=3.0\\times10^{-3}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-09",
+      "prompt": "A dipole with \\(p=5.0\\times10^{-30}\\,\\mathrm{C\\,m}\\) is in a \\(1.2\\times10^6\\,\\mathrm{V\\,m^{-1}}\\) field. Find its energy at \\(\\theta=0^\\circ\\), \\(90^\\circ\\), and \\(180^\\circ\\).",
+      "answer": "Use\n\\[\nU=-pE\\cos\\theta\n\\]\nThe product is\n\\[\npE=(5.0\\times10^{-30})(1.2\\times10^6)\n=6.0\\times10^{-24}\\,\\mathrm{J}\n\\]\nAt \\(0^\\circ\\):\n\\[\nU=-6.0\\times10^{-24}\\,\\mathrm{J}\n\\]\nAt \\(90^\\circ\\):\n\\[\nU=0\n\\]\nAt \\(180^\\circ\\):\n\\[\nU=+6.0\\times10^{-24}\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-10",
+      "prompt": "A uniformly polarized dielectric block has \\(\\vec P\\) pointing to the right. Identify the signs of bound charge on the left and right faces, and explain why the total bound charge on the whole block is zero.",
+      "answer": "If \\(\\vec P\\) points right, molecular positive ends are biased to the right and negative ends to the left.\n\nThe right face has positive bound charge because \\(\\sigma_b=\\vec P\\cdot\\hat n=+P\\). The left face has negative bound charge because its outward normal points left, opposite \\(\\vec P\\).\n\nThe total bound charge is zero because the two faces carry equal and opposite bound charge. Interior molecular charges cancel pairwise in uniform polarization.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-11",
+      "prompt": "Explain the difference between polarization of a nonpolar molecule and rotation of a permanent polar molecule in an applied electric field.",
+      "answer": "A nonpolar molecule has no permanent dipole moment without the field. The applied field slightly shifts its electron cloud relative to its nuclei, inducing a dipole moment.\n\nA permanent polar molecule already has a dipole moment. The applied field exerts a torque that tends to rotate the molecule toward alignment. In real materials, thermal motion prevents perfect alignment, so the observed polarization is an average over many molecules.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-12",
+      "prompt": "A dielectric fills the gap between capacitor plates. The free charge on the left plate is positive and the right plate is negative. Describe the direction of molecular dipole alignment and the signs of bound charge on the dielectric faces.",
+      "answer": "The electric field points from the positive left plate to the negative right plate. Dipoles tend to align with \\(\\vec p\\) in the field direction, so their positive ends point right and negative ends point left.\n\nTherefore the dielectric face near the positive plate carries negative bound charge, and the face near the negative plate carries positive bound charge. The bound-charge field points left, opposing the free-charge field.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-13",
+      "prompt": "A dipole starts at \\(\\theta=90^\\circ\\) in a uniform electric field and is released from rest. Which way does it rotate, and what happens to its electric potential energy?",
+      "answer": "At \\(\\theta=90^\\circ\\), the torque magnitude is \\(pE\\), its maximum value. The torque rotates the dipole toward alignment with the field, reducing \\(\\theta\\) toward \\(0^\\circ\\).\n\nThe potential energy is\n\\[\nU=-pE\\cos\\theta\n\\]\nAs \\(\\theta\\) decreases from \\(90^\\circ\\) to \\(0^\\circ\\), \\(\\cos\\theta\\) increases from \\(0\\) to \\(1\\), so \\(U\\) decreases from \\(0\\) to \\(-pE\\). The lost potential energy becomes rotational kinetic energy if there are no dissipative processes.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-14",
+      "prompt": "A linear dielectric has \\(\\kappa=4.0\\) and field \\(E=3.0\\times10^5\\,\\mathrm{V\\,m^{-1}}\\). Use \\(P=(\\kappa-1)\\epsilon_0E\\) to estimate the polarization magnitude.",
+      "answer": "For a linear dielectric,\n\\[\nP=(\\kappa-1)\\epsilon_0E\n\\]\nThus\n\\[\nP=(4.0-1)(8.85\\times10^{-12})(3.0\\times10^5)\n=8.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-15",
+      "prompt": "For a uniformly polarized slab with polarization \\(P\\) normal to its faces, derive the electric field produced by the two bound surface charge sheets alone.",
+      "answer": "For a uniformly polarized slab with \\(\\vec P\\) normal to the faces,\n\\[\n\\sigma_b=+P\n\\]\non one face and\n\\[\n\\sigma_b=-P\n\\]\non the other.\n\nTwo infinite sheets with surface charge densities \\(\\pm P\\) produce a uniform field between them of magnitude\n\\[\nE_b=\\frac{P}{\\epsilon_0}\n\\]\ndirected from the positive bound face to the negative bound face. In a capacitor dielectric, this bound-charge field points opposite the field due to the free plate charges.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-16",
+      "prompt": "A dielectric slab in a capacitor has free surface charge density \\(\\sigma_f\\) on the plates and dielectric constant \\(\\kappa\\). Derive the bound surface charge density magnitude on the dielectric faces in terms of \\(\\sigma_f\\) and \\(\\kappa\\).",
+      "answer": "For a filled capacitor,\n\\[\nE=\\frac{\\sigma_f}{\\kappa\\epsilon_0}\n\\]\nIn a linear dielectric,\n\\[\nP=(\\kappa-1)\\epsilon_0E\n\\]\nSubstitute the field:\n\\[\nP=(\\kappa-1)\\epsilon_0\\frac{\\sigma_f}{\\kappa\\epsilon_0}\n=\\sigma_f\\left(1-\\frac{1}{\\kappa}\\right)\n\\]\nFor polarization normal to the faces, the bound surface charge magnitude is\n\\[\n|\\sigma_b|=P=\\sigma_f\\left(1-\\frac{1}{\\kappa}\\right)\n\\]\nThe signs are opposite to the adjacent free plate charges.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-17",
+      "prompt": "Using \\(U=-\\vec p\\cdot\\vec E\\), classify the stable and unstable orientations of a dipole in a uniform field and justify your answer from small angular changes.",
+      "answer": "The energy is\n\\[\nU(\\theta)=-pE\\cos\\theta\n\\]\nAt \\(\\theta=0\\),\n\\[\nU=-pE\n\\]\nwhich is the minimum value. A small angular displacement increases \\(U\\), so alignment is stable.\n\nAt \\(\\theta=\\pi\\),\n\\[\nU=+pE\n\\]\nwhich is the maximum value. A small angular displacement lowers \\(U\\), so anti-alignment is unstable.\n\nThis matches the torque\n\\[\n\\tau=pE\\sin\\theta\n\\]\nwhich tends to rotate the dipole toward \\(\\theta=0\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-18",
+      "prompt": "A dielectric is placed in a nonuniform electric field. Explain qualitatively why it can experience a net force even if its net charge is zero.",
+      "answer": "A neutral dielectric can polarize: one side of each molecule is slightly positive and the other slightly negative. In a uniform field, the forces on the two ends are equal and opposite, giving torque but no net force on an ideal dipole.\n\nIn a nonuniform field, the two ends of a dipole sit in fields of different strength. The force on one end can be larger than the force on the other, so the dipole has a net force toward the region of stronger field for ordinary induced dipoles.\n\nThus a dielectric can be pulled into a capacitor even though its total charge is zero.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-19",
+      "prompt": "For a simple dipole \\(\\pm q\\) separated by vector \\(\\vec \\ell\\), derive the torque vector \\(\\vec\\tau=\\vec p\\times\\vec E\\) in a uniform field.",
+      "answer": "Let the vector \\(\\vec\\ell\\) point from the negative charge to the positive charge, so\n\\[\n\\vec p=q\\vec\\ell\n\\]\nIn a uniform field, the forces are\n\\[\n\\vec F_+=q\\vec E,\\qquad \\vec F_-=-q\\vec E\n\\]\nThe net force is zero, but the forces form a couple. About the midpoint, the position vectors are \\(\\vec r_+=\\vec\\ell/2\\) and \\(\\vec r_-=-\\vec\\ell/2\\). Thus\n\\[\n\\vec\\tau=\\vec r_+\\times q\\vec E+\\vec r_-\\times(-q\\vec E)\n\\]\n\\[\n\\vec\\tau=\\frac{\\vec\\ell}{2}\\times q\\vec E+\\left(-\\frac{\\vec\\ell}{2}\\right)\\times(-q\\vec E)\n=q\\vec\\ell\\times\\vec E\n\\]\nTherefore\n\\[\n\\vec\\tau=\\vec p\\times\\vec E\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "molecular-induced-charge-20",
+      "prompt": "A small dielectric molecule has induced dipole moment \\(\\vec p=\\alpha\\vec E\\). Show that its interaction energy in a slowly applied field is \\(U=-\\frac12\\alpha E^2\\), and explain the origin of the factor \\(1/2\\).",
+      "answer": "For an induced dipole,\n\\[\np=\\alpha E\n\\]\nbut the dipole moment is not fixed while the field is being turned on. The small work associated with increasing the field can be written as\n\\[\ndU=-p(E\u0027)\\,dE\u0027\n\\]\nwhere \\(E\u0027\\) is the intermediate field. Since\n\\[\np(E\u0027)=\\alpha E\u0027\n\\]\nthe energy change from zero field to \\(E\\) is\n\\[\nU=-\\int_0^E \\alpha E\u0027\\,dE\u0027\n=-\\frac{1}{2}\\alpha E^2\n\\]\nThe factor \\(1/2\\) appears because the induced dipole grows from zero to its final value during the field application. This differs from a permanent dipole, where \\(p\\) is fixed and \\(U=-\\vec p\\cdot\\vec E\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

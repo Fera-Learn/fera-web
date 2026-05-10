@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "thin-lenses",
+  "topicTitle": "Thin Lenses",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thin-lenses-01",
+      "prompt": "State the thin-lens equation.",
+      "answer": "For a thin lens in air,\n\\[\n\\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{f}\n\\]\nwhere \\(s\\) is object distance, \\(s'\\) is image distance, and \\(f\\) is focal length.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-02",
+      "prompt": "State the lateral magnification equation for a thin lens.",
+      "answer": "The lateral magnification is\n\\[\nm=\\frac{y'}{y}=-\\frac{s'}{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-03",
+      "prompt": "What sign is the focal length of a converging thin lens?",
+      "answer": "A converging lens has a positive focal length:\n\\[\nf>0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-04",
+      "prompt": "What sign is the focal length of a diverging thin lens?",
+      "answer": "A diverging lens has a negative focal length:\n\\[\nf<0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-05",
+      "prompt": "An object is \\(30\\,\\mathrm{cm}\\) from a converging lens with \\(f=10\\,\\mathrm{cm}\\). Find the image distance.",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{f}-\\frac{1}{s}=\\frac{1}{10}-\\frac{1}{30}=\\frac{2}{30}\n\\]\nso\n\\[\ns'=15\\,\\mathrm{cm}\n\\]\nThe image is real and on the far side of the lens.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-06",
+      "prompt": "For the lens in question 5, find the magnification.",
+      "answer": "\\[\nm=-\\frac{s'}{s}=-\\frac{15}{30}=-0.50\n\\]\nThe image is inverted and half the object height.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-07",
+      "prompt": "A diverging lens has \\(f=-15\\,\\mathrm{cm}\\). An object is \\(30\\,\\mathrm{cm}\\) from it. Find \\(s'\\).",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{f}-\\frac{1}{s}=-\\frac{1}{15}-\\frac{1}{30}=-\\frac{3}{30}\n\\]\nso\n\\[\ns'=-10\\,\\mathrm{cm}\n\\]\nThe image is virtual.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-08",
+      "prompt": "What does a negative image distance mean for a thin lens?",
+      "answer": "A negative \\(s'\\) means the image is virtual and lies on the same side of the lens as the object.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-09",
+      "prompt": "An object is at the focal point of a converging lens. Where is the image?",
+      "answer": "With \\(s=f\\),\n\\[\n\\frac{1}{s'}=\\frac{1}{f}-\\frac{1}{f}=0\n\\]\nso the image is at infinity. The emerging rays are parallel.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-10",
+      "prompt": "An object is very far away from a converging lens. Where is the image formed?",
+      "answer": "For \\(s\\rightarrow\\infty\\), \\(1/s\\rightarrow0\\), so\n\\[\ns'\\approx f\n\\]\nThe image forms at the focal plane.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-11",
+      "prompt": "Define optical power and give its unit.",
+      "answer": "Optical power is\n\\[\nP=\\frac{1}{f}\n\\]\nwith \\(f\\) in metres. The unit is the dioptre, \\(\\mathrm{D}=\\mathrm{m^{-1}}\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-12",
+      "prompt": "Find the power of a lens with \\(f=0.25\\,\\mathrm{m}\\).",
+      "answer": "\\[\nP=\\frac{1}{0.25}=4.0\\,\\mathrm{D}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-13",
+      "prompt": "Find the focal length of a lens with power \\(-2.0\\,\\mathrm{D}\\).",
+      "answer": "\\[\nf=\\frac{1}{P}=\\frac{1}{-2.0}=-0.50\\,\\mathrm{m}\n\\]\nThe negative sign means it is a diverging lens.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-14",
+      "prompt": "Two thin lenses in contact have powers \\(+3.0\\,\\mathrm{D}\\) and \\(-1.0\\,\\mathrm{D}\\). Find the combined power.",
+      "answer": "For thin lenses in contact,\n\\[\nP_{\\mathrm{total}}=P_1+P_2=3.0-1.0=2.0\\,\\mathrm{D}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-15",
+      "prompt": "A converging lens produces a real image twice the object height. What is the ratio \\(s'/s\\)?",
+      "answer": "A real image is inverted, so \\(m=-2\\). Since\n\\[\nm=-\\frac{s'}{s}\n\\]\nwe have\n\\[\n\\frac{s'}{s}=2\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-16",
+      "prompt": "A converging lens has \\(f=12\\,\\mathrm{cm}\\). An object is \\(8\\,\\mathrm{cm}\\) from the lens. Find the image distance.",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{12}-\\frac{1}{8}=\\frac{2-3}{24}=-\\frac{1}{24}\n\\]\nso\n\\[\ns'=-24\\,\\mathrm{cm}\n\\]\nThe image is virtual and on the object side.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-17",
+      "prompt": "For the lens in question 16, find the magnification and describe the image.",
+      "answer": "\\[\nm=-\\frac{s'}{s}=-\\frac{-24}{8}=+3\n\\]\nThe image is upright, virtual, and three times the object height.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-18",
+      "prompt": "List the three principal rays commonly used for a converging-lens ray diagram.",
+      "answer": "Use a ray parallel to the axis that passes through the far focal point, a ray through the near focal point that leaves parallel to the axis, and a ray through the lens centre that is undeviated.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-19",
+      "prompt": "What approximation is assumed when using the simple thin-lens equation?",
+      "answer": "The lens thickness is taken to be negligible compared with object and image distances, and the rays are paraxial so small-angle approximations apply.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thin-lenses-20",
+      "prompt": "A lens has \\(s=20\\,\\mathrm{cm}\\) and forms a real image at \\(s'=60\\,\\mathrm{cm}\\). Find its focal length.",
+      "answer": "\\[\n\\frac{1}{f}=\\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{20}+\\frac{1}{60}=\\frac{4}{60}\n\\]\nso\n\\[\nf=15\\,\\mathrm{cm}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

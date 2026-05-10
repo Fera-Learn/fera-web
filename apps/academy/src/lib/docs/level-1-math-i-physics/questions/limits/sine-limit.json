@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "limits",
+  "topicId": "sine-limit",
+  "topicTitle": "Sine Limit",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-limits-sine-limit-01",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(6x)}{x}\\).",
+      "answer": "Rewrite the expression as\n\\[\n\\frac{\\sin(6x)}{x}=6\\frac{\\sin(6x)}{6x}.\n\\]\nSince \\(6x\\to0\\), the standard sine limit gives\n\\[\n\\frac{\\sin(6x)}{6x}\\to1.\n\\]\nTherefore the limit is \\(6\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-sine-limit-02",
+      "prompt": "Evaluate \\(\\lim_{t\\to0}\\frac{\\sin(2t)}{\\sin(3t)}\\).",
+      "answer": "Divide numerator and denominator by \\(t\\):\n\\[\n\\frac{\\sin(2t)}{\\sin(3t)}=\\frac{\\sin(2t)/t}{\\sin(3t)/t}.\n\\]\nUsing the scaled sine limit, the numerator tends to \\(2\\) and the denominator tends to \\(3\\), so the limit is\n\\[\n\\frac{2}{3}.\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-limits-sine-limit-03",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{1-\\cos(2x)}{x^2}\\).",
+      "answer": "Use \\(1-\\cos u=2\\sin^2(u/2)\\) with \\(u=2x\\):\n\\[\n1-\\cos(2x)=2\\sin^2 x.\n\\]\nThus\n\\[\n\\frac{1-\\cos(2x)}{x^2}=2\\left(\\frac{\\sin x}{x}\\right)^2.\n\\]\nThe sine fraction tends to \\(1\\), so the limit is \\(2\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

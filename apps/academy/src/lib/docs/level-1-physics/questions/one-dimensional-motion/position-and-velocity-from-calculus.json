@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "one-dimensional-motion",
+  "topicId": "position-and-velocity-from-calculus",
+  "topicTitle": "Position and Velocity from Calculus",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "calculus-motion-01",
+      "prompt": "For \\(x(t)=2t^3-t\\), find \\(v_x\\), \\(a_x\\), and their values at \\(t=1\\,\\mathrm{s}\\).",
+      "answer": "\\[\nv_x=6t^2-1\n\\]\n\\[\na_x=12t\n\\]\n\\[\nv_x(1)=5\\,\\mathrm{m\\,s^{-1}},\\qquad a_x(1)=12\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-02",
+      "prompt": "If \\(v_x(t)=4t\\) and \\(x(0)=3\\,\\mathrm{m}\\), find \\(x(t)\\).",
+      "answer": "\\[\nx(t)=3+\\int_0^t 4\\tau\\,d\\tau\n\\]\n\\[\nx(t)=3+2t^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-19",
+      "prompt": "For \\(x(t)=t^3-6t^2\\), find when acceleration is zero.",
+      "answer": "\\[\nv_x=3t^2-12t\n\\]\n\\[\na_x=6t-12\n\\]\n\\[\na_x=0\\Rightarrow t=2\\,\\mathrm{s}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-03",
+      "prompt": "If \\(a_x(t)=6t\\) and \\(v_x(0)=2\\,\\mathrm{m\\,s^{-1}}\\), find \\(v_x(t)\\).",
+      "answer": "\\[\nv_x(t)=2+\\int_0^t 6\\tau\\,d\\tau\n\\]\n\\[\nv_x(t)=2+3t^2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-04",
+      "prompt": "For \\(v_x(t)=3t^2-2\\), find displacement from \\(t=0\\) to \\(t=2\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\Delta x=\\int_0^2(3t^2-2)\\,dt\n\\]\n\\[\n\\Delta x=[t^3-2t]_0^2=4\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-16",
+      "prompt": "If \\(v_x(t)=kt\\) and \\(x(0)=0\\), find \\(x(t)\\).",
+      "answer": "\\[\nx(t)=\\int_0^t k\\tau\\,d\\tau=\\frac{1}{2}kt^2\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-05",
+      "prompt": "For \\(a_x(t)=2t+1\\), find the velocity change from \\(t=0\\) to \\(t=3\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\Delta v_x=\\int_0^3(2t+1)\\,dt\n\\]\n\\[\n\\Delta v_x=[t^2+t]_0^3=12\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-06",
+      "prompt": "For \\(x(t)=t^4\\), find \\(v_x(t)\\) and \\(a_x(t)\\).",
+      "answer": "\\[\nv_x=4t^3\n\\]\n\\[\na_x=12t^2\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-13",
+      "prompt": "For \\(x(t)=5+3t-2t^2\\), find when the particle stops.",
+      "answer": "\\[\nv_x=3-4t\n\\]\n\\[\n0=3-4t\n\\]\n\\[\nt=0.75\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-17",
+      "prompt": "What physical quantity is represented by area under a velocity-time graph?",
+      "answer": "The signed area gives displacement:\n\\[\n\\Delta x=\\int_{t_i}^{t_f}v_x(t)\\,dt\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-07",
+      "prompt": "For \\(x(t)=A\\sin(\\omega t)\\), find \\(v_x(t)\\) and \\(a_x(t)\\).",
+      "answer": "\\[\nv_x=A\\omega\\cos(\\omega t)\n\\]\n\\[\na_x=-A\\omega^2\\sin(\\omega t)\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-08",
+      "prompt": "If \\(v_x(t)=5\\,\\mathrm{m\\,s^{-1}}\\) and \\(x(0)=x_0\\), find \\(x(t)\\).",
+      "answer": "\\[\nx(t)=x_0+\\int_0^t5\\,d\\tau\n\\]\n\\[\nx(t)=x_0+5t\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-14",
+      "prompt": "For \\(v_x(t)=6-2t\\), find displacement from \\(t=0\\) to \\(t=5\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\Delta x=\\int_0^5(6-2t)\\,dt\n\\]\n\\[\n\\Delta x=[6t-t^2]_0^5=5\\,\\mathrm{m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-20",
+      "prompt": "Check the units of \\(\\int v_x(t)\\,dt\\).",
+      "answer": "Velocity has units \\(\\mathrm{m\\,s^{-1}}\\), and \\(dt\\) has units \\(\\mathrm{s}\\):\n\\[\n\\mathrm{m\\,s^{-1}}\\cdot\\mathrm{s}=\\mathrm{m}\n\\]\nSo the integral has displacement units.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-09",
+      "prompt": "If velocity is constant, what is acceleration?",
+      "answer": "\\[\na_x=\\frac{dv_x}{dt}=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-10",
+      "prompt": "Why are initial conditions needed after integration?",
+      "answer": "Integration introduces a constant. An initial condition fixes that constant, such as \\(x(0)\\) or \\(v_x(0)\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-15",
+      "prompt": "If \\(a_x=4\\,\\mathrm{m\\,s^{-2}}\\) and \\(v_x(2)=10\\,\\mathrm{m\\,s^{-1}}\\), find \\(v_x(t)\\).",
+      "answer": "\\[\nv_x=4t+C\n\\]\n\\[\n10=4(2)+C\n\\]\n\\[\nv_x(t)=4t+2\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-11",
+      "prompt": "For \\(v_x(t)=t^2\\), find displacement from \\(t=1\\,\\mathrm{s}\\) to \\(t=3\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\Delta x=\\int_1^3t^2\\,dt\n\\]\n\\[\n\\Delta x=\\left[\\frac{t^3}{3}\\right]_1^3=\\frac{26}{3}\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-12",
+      "prompt": "Starting with \\(a_y=-g\\), integrate to get the free-fall velocity and position equations.",
+      "answer": "\\[\nv_y(t)=v_{0y}+\\int_0^t(-g)\\,d\\tau=v_{0y}-gt\n\\]\n\\[\ny(t)=y_0+\\int_0^t(v_{0y}-g\\tau)\\,d\\tau=y_0+v_{0y}t-\\frac{1}{2}gt^2\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-18",
+      "prompt": "What physical quantity is represented by area under an acceleration-time graph?",
+      "answer": "The signed area gives velocity change:\n\\[\n\\Delta v_x=\\int_{t_i}^{t_f}a_x(t)\\,dt\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-21",
+      "prompt": "A particle has \\(a_x(t)=6t-4\\), \\(v_x(0)=3\\,\\mathrm{m\\,s^{-1}}\\), and \\(x(0)=-2\\,\\mathrm{m}\\). Find \\(v_x(t)\\) and \\(x(t)\\).",
+      "answer": "\\[\nv_x(t)=3+\\int_0^t(6\\tau-4)\\,d\\tau\n\\]\n\\[\nv_x(t)=3+3t^2-4t\n\\]\n\\[\nx(t)=-2+\\int_0^t(3+3\\tau^2-4\\tau)\\,d\\tau\n\\]\n\\[\nx(t)=-2+3t+t^3-2t^2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "calculus-motion-22",
+      "prompt": "A particle has \\(v_x(t)=t^2-4t+3\\). Find its displacement and distance traveled from \\(t=0\\) to \\(t=4\\,\\mathrm{s}\\).",
+      "answer": "First find where velocity changes sign:\n\\[\nt^2-4t+3=(t-1)(t-3)\n\\]\n\\[\n\\Delta x=\\int_0^4(t^2-4t+3)\\,dt=\\left[\\frac{t^3}{3}-2t^2+3t\\right]_0^4=\\frac{4}{3}\\,\\mathrm{m}\n\\]\nFor distance, split at \\(t=1\\) and \\(t=3\\), then add absolute displacements on each interval.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

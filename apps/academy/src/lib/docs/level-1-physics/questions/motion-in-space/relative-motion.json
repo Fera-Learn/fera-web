@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "motion-in-space",
+  "topicId": "relative-motion",
+  "topicTitle": "Relative Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "relative-motion-01",
+      "prompt": "A boat moves east at \\(4\\,\\mathrm{m\\,s^{-1}}\\) relative to water. The river flows north at \\(3\\,\\mathrm{m\\,s^{-1}}\\). Find boat velocity relative to ground.",
+      "answer": "\\[\n\\vec{v}_{BG}=4\\hat{\\imath}+3\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-02",
+      "prompt": "Using \\(\\vec{v}_{BG}=4\\hat{\\imath}+3\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\\), find ground speed.",
+      "answer": "\\[\nv_{BG}=\\sqrt{4^2+3^2}=5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-19",
+      "prompt": "If \\(\\vec{v}_{AB}=7\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\\), what is \\(\\vec{v}_{BA}\\)?",
+      "answer": "\\[\n\\vec{v}_{BA}=-\\vec{v}_{AB}=-7\\hat{\\imath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-03",
+      "prompt": "A person walks forward at \\(1.2\\,\\mathrm{m\\,s^{-1}}\\) on a train moving forward at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Find person velocity relative to ground.",
+      "answer": "\\[\nv_{PG}=v_{PT}+v_{TG}=1.2+15=16.2\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-04",
+      "prompt": "A person walks backward at \\(1.2\\,\\mathrm{m\\,s^{-1}}\\) on a train moving forward at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Find person velocity relative to ground.",
+      "answer": "\\[\nv_{PG}=-1.2+15=13.8\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe result is still forward relative to the ground.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-16",
+      "prompt": "A boat aims due north at \\(6\\,\\mathrm{m\\,s^{-1}}\\) relative to water. The current is east at \\(2\\,\\mathrm{m\\,s^{-1}}\\). Find drift angle east of north.",
+      "answer": "\\[\n\\tan\\theta=\\frac{2}{6}\n\\]\n\\[\n\\theta=18.4^\\circ\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-05",
+      "prompt": "A plane has airspeed \\(80\\,\\mathrm{m\\,s^{-1}}\\) east. Wind is \\(20\\,\\mathrm{m\\,s^{-1}}\\) west. Find ground velocity.",
+      "answer": "\\[\nv_{PG}=80-20=60\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe direction is east.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-06",
+      "prompt": "A plane has airspeed \\(80\\,\\mathrm{m\\,s^{-1}}\\) east. Wind is \\(20\\,\\mathrm{m\\,s^{-1}}\\) north. Find ground speed.",
+      "answer": "\\[\n\\vec{v}_{PG}=80\\hat{\\imath}+20\\hat{\\jmath}\n\\]\n\\[\nv_{PG}=\\sqrt{80^2+20^2}=82.5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-13",
+      "prompt": "A drone moves \\(5\\,\\mathrm{m\\,s^{-1}}\\) north relative to air. Wind is \\(2\\,\\mathrm{m\\,s^{-1}}\\) south. Find ground velocity.",
+      "answer": "\\[\nv_{DG}=5-2=3\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe direction is north.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-17",
+      "prompt": "A plane wants a ground velocity due east at \\(100\\,\\mathrm{m\\,s^{-1}}\\). Wind is north at \\(20\\,\\mathrm{m\\,s^{-1}}\\). What must the plane\u0027s air-velocity components be?",
+      "answer": "The north wind must be cancelled by a southward air component:\n\\[\n\\vec{v}_{PA}=100\\hat{\\imath}-20\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-07",
+      "prompt": "If \\(\\vec{v}_{PA}=\\vec{v}_{PB}+\\vec{v}_{BA}\\), solve for \\(\\vec{v}_{PB}\\).",
+      "answer": "\\[\n\\vec{v}_{PB}=\\vec{v}_{PA}-\\vec{v}_{BA}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-08",
+      "prompt": "A swimmer can swim \\(2\\,\\mathrm{m\\,s^{-1}}\\) north relative to water. Current is \\(1\\,\\mathrm{m\\,s^{-1}}\\) east. Find swimmer velocity relative to ground.",
+      "answer": "\\[\n\\vec{v}_{SG}=1\\hat{\\imath}+2\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-14",
+      "prompt": "A walkway moves east at \\(1\\,\\mathrm{m\\,s^{-1}}\\). A person walks west at \\(1.5\\,\\mathrm{m\\,s^{-1}}\\) relative to the walkway. Find ground velocity, east positive.",
+      "answer": "\\[\nv_{PG}=-1.5+1=-0.5\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe person moves west relative to the ground.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-20",
+      "prompt": "A rain drop falls vertically at \\(8\\,\\mathrm{m\\,s^{-1}}\\) relative to air. Wind blows east at \\(6\\,\\mathrm{m\\,s^{-1}}\\). Find rain velocity relative to ground.",
+      "answer": "\\[\n\\vec{v}_{RG}=6\\hat{\\imath}-8\\hat{\\jmath}\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_{RG}=10\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-09",
+      "prompt": "A boat has speed \\(4\\,\\mathrm{m\\,s^{-1}}\\) relative to water. Current is \\(3\\,\\mathrm{m\\,s^{-1}}\\) east. Find all possible ground-speed magnitudes and the headings that produce minimum and maximum values.",
+      "answer": "Let \\(|\\vec v_{BW}|=4\\) and \\(|\\vec v_{WG}|=3\\) east.\nGround speed is \\(|\\vec v_{BG}|=|\\vec v_{BW}+\\vec v_{WG}|\\).\nBy vector bounds,\n\\[\n||4-3||\\le |\\vec v_{BG}|\\le 4+3\n\\]\n\\[\n1\\le v_{BG}\\le 7\\,\\mathrm{m\\,s^{-1}}\n\\]\nMaximum \\(7\\) occurs when boat aims east (with current), minimum \\(1\\) when aiming west (against current).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-10",
+      "prompt": "Car A moves east at \\(25\\,\\mathrm{m\\,s^{-1}}\\). Car B moves north at \\(15\\,\\mathrm{m\\,s^{-1}}\\). Find \\(\\vec v_{AB}\\), its magnitude, and its direction measured from east toward north.",
+      "answer": "\\[\n\\vec v_{AG}=25\\hat\\imath,\n\\quad\n\\vec v_{BG}=15\\hat\\jmath\n\\]\n\\[\n\\vec v_{AB}=\\vec v_{AG}-\\vec v_{BG}=25\\hat\\imath-15\\hat\\jmath\n\\]\n\\[\n|\\vec v_{AB}|=\\sqrt{25^2+15^2}=29.2\\,\\mathrm{m\\,s^{-1}}\n\\]\nDirection from east toward north is negative (toward south):\n\\[\n\theta=\\tan^{-1}\\left(\\frac{-15}{25}\\right)=-31.0^\\circ\n\\]\nSo A moves \\(31.0^\\circ\\) south of east relative to B.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-15",
+      "prompt": "Why must relative velocities be added as vectors?",
+      "answer": "Directions matter. Crossed motions, such as east and north components, cannot be combined by ordinary scalar addition.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-11",
+      "prompt": "A pilot wants a ground track due north at \\(120\\,\\mathrm{m\\,s^{-1}}\\). Wind is \\(35\\,\\mathrm{m\\,s^{-1}}\\) east. Find required heading angle and required airspeed.",
+      "answer": "Need\n\\[\n\\vec v_{PG}=\\vec v_{PA}+\\vec v_{AG}=120\\hat\\jmath\n\\]\nwith wind \\(\\vec v_{AG}=35\\hat\\imath\\).\nHence\n\\[\n\\vec v_{PA}=-35\\hat\\imath+120\\hat\\jmath\n\\]\nRequired airspeed:\n\\[\n|\\vec v_{PA}|=\\sqrt{35^2+120^2}=125\\,\\mathrm{m\\,s^{-1}}\n\\]\nHeading angle west of north:\n\\[\n\tan\\theta=\\frac{35}{120}\\Rightarrow \\theta=16.3^\\circ\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-12",
+      "prompt": "If frame B moves with constant velocity relative to A, derive the relation between \\(\\vec a_{PA}\\) and \\(\\vec a_{PB}\\). Then state what changes if B has constant nonzero acceleration relative to A.",
+      "answer": "Start with\n\\[\n\\vec r_{PA}=\\vec r_{PB}+\\vec r_{BA}\n\\]\nDifferentiate twice:\n\\[\n\\vec a_{PA}=\\vec a_{PB}+\\vec a_{BA}\n\\]\nIf B has constant velocity relative to A, \\(\\vec a_{BA}=0\\), so\n\\[\n\\vec a_{PA}=\\vec a_{PB}\n\\]\nIf B has constant nonzero acceleration, then\n\\[\n\\vec a_{PA}=\\vec a_{PB}+\\vec a_{BA}\n\\]\nso accelerations differ by that frame acceleration.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-18",
+      "prompt": "For \\(\\vec r_{PA}=6\\hat\\imath+2\\hat\\jmath\\,\\mathrm m\\), \\(\\vec r_{BA}=4\\hat\\imath-\\hat\\jmath\\,\\mathrm m\\), and \\(\\vec v_{BA}=(-2\\hat\\imath+3\\hat\\jmath)\\,\\mathrm{m\\,s^{-1}}\\), find \\(\\vec r_{PB}\\) and \\(\\vec v_{PB}\\) given \\(\\vec v_{PA}=5\\hat\\imath+\\hat\\jmath\\,\\mathrm{m\\,s^{-1}}\\).",
+      "answer": "Position relation:\n\\[\n\\vec r_{PA}=\\vec r_{PB}+\\vec r_{BA}\n\\Rightarrow\n\\vec r_{PB}=\\vec r_{PA}-\\vec r_{BA}\n\\]\n\\[\n\\vec r_{PB}=(6\\hat\\imath+2\\hat\\jmath)-(4\\hat\\imath-\\hat\\jmath)\n=2\\hat\\imath+3\\hat\\jmath\\,\\mathrm m\n\\]\nVelocity relation:\n\\[\n\\vec v_{PA}=\\vec v_{PB}+\\vec v_{BA}\n\\Rightarrow\n\\vec v_{PB}=\\vec v_{PA}-\\vec v_{BA}\n\\]\n\\[\n\\vec v_{PB}=(5\\hat\\imath+\\hat\\jmath)-(-2\\hat\\imath+3\\hat\\jmath)\n=7\\hat\\imath-2\\hat\\jmath\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-21",
+      "prompt": "A swimmer speed relative to water is \\(2.5\\,\\mathrm{m\\,s^{-1}}\\). River current is \\(1.0\\,\\mathrm{m\\,s^{-1}}\\) east, river width \\(120\\,\\mathrm m\\). Compare (i) minimum-time crossing and (ii) zero-drift crossing: find heading, crossing time, and downstream drift in each strategy.",
+      "answer": "Given \\(v_{SW}=2.5\\,\\mathrm{m\\,s^{-1}}\\), current \\(v_{WG}=1.0\\,\\mathrm{m\\,s^{-1}}\\) east, width \\(L=120\\,\\mathrm m\\).\n\n(i) Minimum-time crossing: maximize north component, so aim due north.\n\\[\nv_{north}=2.5,\n\\quad\nt_{\\min}=\\frac{120}{2.5}=48.0\\,\\mathrm s\n\\]\nDownstream drift:\n\\[\nd=1.0(48.0)=48.0\\,\\mathrm m\\ \\text{east}\n\\]\n\n(ii) Zero-drift crossing: require west component to cancel current.\n\\[\n2.5\\sin\\theta=1.0\\Rightarrow \\theta=23.6^\\circ\\ \\text{west of north}\n\\]\nNorth component then\n\\[\nv_{north}=2.5\\cos\\theta=2.29\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nt=\\frac{120}{2.29}=52.4\\,\\mathrm s,\n\\quad d=0\n\\]\nTradeoff: minimum-time is faster but drifts; zero-drift is slower but lands directly opposite.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "relative-motion-22",
+      "prompt": "An aircraft has fixed airspeed \\(200\\,\\mathrm{m\\,s^{-1}}\\). Wind is \\(60\\,\\mathrm{m\\,s^{-1}}\\) from west to east. The aircraft flies out-and-back along an east-west line over equal ground distances. Derive total travel time and average ground speed for the round trip, and compare to no-wind case.",
+      "answer": "Let aircraft airspeed be \\(u=200\\,\\mathrm{m\\,s^{-1}}\\), wind \\(w=60\\,\\mathrm{m\\,s^{-1}}\\) east.\nGround speeds along route:\n\\[\nv_{\\text{out}}=u+w=260,\n\\qquad\nv_{\\text{back}}=u-w=140\\,\\mathrm{m\\,s^{-1}}\n\\]\nFor one-way ground distance \\(D\\):\n\\[\nt_{\\text{tot}}=\\frac{D}{260}+\\frac{D}{140}\n=D\\left(\\frac{1}{260}+\\frac{1}{140}\\right)\n=\\frac{2Du}{u^2-w^2}\n\\]\nNumerically:\n\\[\nt_{\\text{tot}}=0.01099\\,D\\ \\text{s (if \\(D\\) in m)}\n\\]\nRound-trip average ground speed:\n\\[\n\\bar v=\\frac{2D}{t_{\\text{tot}}}=\\frac{u^2-w^2}{u}=\\frac{200^2-60^2}{200}=182\\,\\mathrm{m\\,s^{-1}}\n\\]\nNo-wind round-trip average would be \\(200\\,\\mathrm{m\\,s^{-1}}\\), so wind lowers average by \\(18\\,\\mathrm{m\\,s^{-1}}\\) despite helping one leg.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

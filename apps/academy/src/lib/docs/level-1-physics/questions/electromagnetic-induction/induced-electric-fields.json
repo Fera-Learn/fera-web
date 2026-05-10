@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electromagnetic-induction",
+  "topicId": "induced-electric-fields",
+  "topicTitle": "Induced Electric Fields",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "induced-electric-fields-01",
+      "prompt": "State Faraday's law in field form.",
+      "answer": "\\[\\n\\oint\\vec E\\cdot d\\vec\\ell=-\\frac{d\\Phi_B}{dt}\\n\\]\\nIt says a changing magnetic flux creates a circulating electric field.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-02",
+      "prompt": "A circular path of radius \\(0.20\\,\\mathrm{m}\\) has uniform tangential induced field \\(0.30\\,\\mathrm{V\\,m^{-1}}\\). Find the emf around the path.",
+      "answer": "\\[\\n\\mathcal E=E(2\\pi r)=0.30(2\\pi)(0.20)=0.377\\,\\mathrm{V}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-03",
+      "prompt": "A uniform magnetic field changes at \\(4.0\\,\\mathrm{T\\,s^{-1}}\\) inside a circular region. Find the induced electric field magnitude at \\(r=0.10\\,\\mathrm{m}\\) inside the region.",
+      "answer": "Inside the changing-field region,\\n\\[\\nE=\\frac{r}{2}\\left|\\frac{dB}{dt}\\right|=\\frac{0.10}{2}(4.0)=0.20\\,\\mathrm{V\\,m^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-04",
+      "prompt": "A changing magnetic field is confined to radius \\(R=0.30\\,\\mathrm{m}\\) and changes at \\(2.0\\,\\mathrm{T\\,s^{-1}}\\). Find \\(E\\) at \\(r=0.60\\,\\mathrm{m}\\).",
+      "answer": "Outside the changing-field region,\\n\\[\\nE=\\frac{R^2}{2r}\\left|\\frac{dB}{dt}\\right|=\\frac{0.30^2}{2(0.60)}(2.0)=0.15\\,\\mathrm{V\\,m^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-05",
+      "prompt": "Explain why an induced electric field can exist even where there is no wire.",
+      "answer": "The changing magnetic flux creates the electric field in space. A wire is only a path where charges can move in response. Faraday's field law does not require matter on the integration path.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-06",
+      "prompt": "Why is an induced electric field from changing magnetic flux nonconservative?",
+      "answer": "A conservative electrostatic field has zero closed-loop integral. Here\\n\\[\\n\\oint\\vec E\\cdot d\\vec\\ell=-\\frac{d\\Phi_B}{dt}\\n\\]\\nwhich is nonzero when magnetic flux changes. Therefore the field is nonconservative.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-07",
+      "prompt": "Inside a radius \\(R\\) where \\(dB/dt\\) is uniform, derive \\(E=(r/2)|dB/dt|\\).",
+      "answer": "For a circular path of radius \\(r<R\\),\\n\\[\\n\\oint\\vec E\\cdot d\\vec\\ell=E(2\\pi r)\\n\\]\\nand\\n\\[\\n\\Phi_B=B\\pi r^2\\n\\]\\nFaraday's law gives\\n\\[\\nE(2\\pi r)=-\\pi r^2\\frac{dB}{dt}\\n\\]\\nso the magnitude is\\n\\[\\nE=\\frac{r}{2}\\left|\\frac{dB}{dt}\\right|\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-08",
+      "prompt": "Outside a changing-field region of radius \\(R\\), derive \\(E=(R^2/2r)|dB/dt|\\).",
+      "answer": "For \\(r>R\\), the path encloses flux only through area \\(\\pi R^2\\):\\n\\[\\n\\Phi_B=B\\pi R^2\\n\\]\\nThe circulation is \\(E(2\\pi r)\\), so\\n\\[\\nE(2\\pi r)=-\\pi R^2\\frac{dB}{dt}\\n\\]\\nThus\\n\\[\\nE=\\frac{R^2}{2r}\\left|\\frac{dB}{dt}\\right|\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-09",
+      "prompt": "A changing magnetic field into the page is increasing. What is the direction of the induced electric field lines?",
+      "answer": "The induced current direction in a test loop would create field out of the page to oppose the increase into the page. That requires counterclockwise circulation. The induced electric field lines are counterclockwise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-10",
+      "prompt": "A changing magnetic field out of the page is increasing. What is the direction of the induced electric field lines?",
+      "answer": "The induced field must drive currents that create magnetic field into the page. That requires clockwise circulation. So the induced electric field lines are clockwise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-11",
+      "prompt": "For a circular path inside a changing-field region, if \\(r\\) doubles, how does \\(E\\) change?",
+      "answer": "Inside the region,\\n\\[\\nE=\\frac{r}{2}\\left|\\frac{dB}{dt}\\right|\\n\\]\\nso \\(E\\) is proportional to \\(r\\). Doubling \\(r\\) doubles \\(E\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-12",
+      "prompt": "For a circular path outside a changing-field region, if \\(r\\) doubles, how does \\(E\\) change?",
+      "answer": "Outside the region,\\n\\[\\nE=\\frac{R^2}{2r}\\left|\\frac{dB}{dt}\\right|\\n\\]\\nso \\(E\\) is proportional to \\(1/r\\). Doubling \\(r\\) halves \\(E\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-13",
+      "prompt": "At \\(r=R\\), show that the inside and outside circular-field formulas agree.",
+      "answer": "Inside formula at \\(r=R\\):\\n\\[\\nE=\\frac{R}{2}\\left|\\frac{dB}{dt}\\right|\\n\\]\\nOutside formula at \\(r=R\\):\\n\\[\\nE=\\frac{R^2}{2R}\\left|\\frac{dB}{dt}\\right|=\\frac{R}{2}\\left|\\frac{dB}{dt}\\right|\\n\\]\\nThey match.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-14",
+      "prompt": "A circular electron orbit of radius \\(0.050\\,\\mathrm{m}\\) lies inside a region where \\(B\\) changes at \\(8.0\\,\\mathrm{T\\,s^{-1}}\\). Find the induced electric force magnitude on an electron.",
+      "answer": "\\[\\nE=\\frac{r}{2}\\left|\\frac{dB}{dt}\\right|=\\frac{0.050}{2}(8.0)=0.20\\,\\mathrm{V\\,m^{-1}}\\n\\]\\nThe force magnitude is\\n\\[\\nF=eE=(1.60\\times10^{-19})(0.20)=3.2\\times10^{-20}\\,\\mathrm{N}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-15",
+      "prompt": "A circular path of radius \\(0.25\\,\\mathrm{m}\\) has emf magnitude \\(0.50\\,\\mathrm{V}\\). Find the average tangential induced electric field.",
+      "answer": "\\[\\nE=\\frac{|\\mathcal E|}{2\\pi r}=\\frac{0.50}{2\\pi(0.25)}=0.318\\,\\mathrm{V\\,m^{-1}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-16",
+      "prompt": "A changing field is uniform inside radius \\(R\\). Sketch verbally how \\(E(r)\\) varies from \\(r=0\\) to far outside the region.",
+      "answer": "Inside the region, \\(E\\propto r\\), so it starts at zero at the center and rises linearly to \\(r=R\\). Outside, \\(E\\propto1/r\\), so it decreases with radius. The two expressions meet continuously at \\(R\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-17",
+      "prompt": "Explain why voltage between two points is path-dependent for an induced electric field.",
+      "answer": "For nonconservative induced fields, the closed-loop integral can be nonzero. If two different paths between the same endpoints form a loop, the integrals along the two paths can differ by \\(-d\\Phi_B/dt\\). Therefore a single path-independent potential difference cannot describe the field.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-18",
+      "prompt": "A circular region has \\(B(t)=B_0+kt\\) into the page. Determine whether the induced electric field direction is clockwise or counterclockwise for \\(k>0\\).",
+      "answer": "For \\(k>0\\), into-page flux is increasing. The induced field must drive positive charge in a direction that creates out-of-page magnetic field. That direction is counterclockwise.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-19",
+      "prompt": "For \\(r<R\\), derive the acceleration magnitude of a charge \\(q\\), mass \\(m\\), released at radius \\(r\\) by a changing magnetic field \\(dB/dt\\).",
+      "answer": "Inside the region,\\n\\[\\nE=\\frac{r}{2}\\left|\\frac{dB}{dt}\\right|\\n\\]\\nThe force magnitude is \\(|q|E\\), so\\n\\[\\na=\\frac{|q|E}{m}=\\frac{|q|r}{2m}\\left|\\frac{dB}{dt}\\right|\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "induced-electric-fields-20",
+      "prompt": "Use Faraday's law to explain why induced electric field lines cannot be purely radial around the axis of a changing uniform magnetic field.",
+      "answer": "A radial field around the axis would be perpendicular to the tangential path element around a circular loop, giving \\(\\oint\\vec E\\cdot d\\vec\\ell=0\\). But a changing magnetic flux requires a nonzero circulation. Symmetry therefore requires the induced field to be tangential, forming closed loops around the changing flux.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

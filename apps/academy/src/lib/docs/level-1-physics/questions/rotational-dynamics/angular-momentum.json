@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rotational-dynamics",
+  "topicId": "angular-momentum",
+  "topicTitle": "Angular Momentum",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "angular-momentum-01",
+      "prompt": "A \\(0.40\\,\\mathrm{kg}\\) particle moves at \\(5.0\\,\\mathrm{m\\,s^{-1}}\\) perpendicular to a radius \\(0.30\\,\\mathrm{m}\\). Find \\(L\\) about the origin.",
+      "answer": "\\[\nL=mrv=0.40(0.30)(5.0)=0.60\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-02",
+      "prompt": "A disk has \\(I=0.25\\,\\mathrm{kg\\,m^2}\\) and \\(\\omega=16\\,\\mathrm{rad\\,s^{-1}}\\). Find its angular momentum about its axle.",
+      "answer": "\\[\nL=I\\omega=0.25(16)=4.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-03",
+      "prompt": "A particle moves directly away from the origin. What is its angular momentum about the origin?",
+      "answer": "It is zero because \\(\\vec r\\) and \\(\\vec p\\) are parallel:\n\\[\n\\vec L=\\vec r\\times\\vec p=\\vec0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-04",
+      "prompt": "If \\(\\vec r\\) points along \\(+\\hat\\imath\\) and \\(\\vec p\\) points along \\(+\\hat\\jmath\\), what direction is \\(\\vec L\\)?",
+      "answer": "\\[\n\\hat\\imath\\times\\hat\\jmath=\\hat k\n\\]\nSo \\(\\vec L\\) points in the \\(+\\hat k\\) direction.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-05",
+      "prompt": "A \\(2.0\\,\\mathrm{kg}\\) particle is at \\(\\vec r=3\\hat\\imath+1\\hat\\jmath\\,\\mathrm{m}\\) and has velocity \\(\\vec v=4\\hat\\jmath\\,\\mathrm{m\\,s^{-1}}\\). Find \\(L_z\\).",
+      "answer": "\\[\nL_z=m(xv_y-yv_x)\n\\]\n\\[\nL_z=2.0[3(4)-1(0)]=24\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-06",
+      "prompt": "A net torque of \\(6.0\\,\\mathrm{N\\,m}\\) acts for \\(2.5\\,\\mathrm{s}\\) along a fixed axis. Find the change in angular momentum.",
+      "answer": "\\[\n\\Delta L=\\tau\\Delta t=6.0(2.5)=15\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-07",
+      "prompt": "A particle has \\(m=0.20\\,\\mathrm{kg}\\), \\(r=0.50\\,\\mathrm{m}\\), \\(v=8.0\\,\\mathrm{m\\,s^{-1}}\\), and the angle between \\(\\vec r\\) and \\(\\vec v\\) is \\(30^\\circ\\). Find \\(L\\).",
+      "answer": "\\[\nL=mrv\\sin\\phi\n\\]\n\\[\nL=0.20(0.50)(8.0)\\sin30^\\circ=0.40\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-08",
+      "prompt": "A wheel\u0027s angular momentum changes from \\(3.0\\) to \\(11.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\\) in \\(4.0\\,\\mathrm{s}\\). Find the average external torque.",
+      "answer": "\\[\n\\tau_{\\mathrm{avg}}=\\frac{\\Delta L}{\\Delta t}=\\frac{11.0-3.0}{4.0}=2.0\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-09",
+      "prompt": "A particle moves in the plane with \\(\\vec r(t)=bt\\,\\hat\\imath+c\\,\\hat\\jmath\\) and \\(\\vec v=b\\,\\hat\\imath\\), where \\(b\\) and \\(c\\) are constants. Find \\(\\vec L\\) about the origin and interpret why it is constant.",
+      "answer": "The momentum is\n\\[\n\\vec p=m\\vec v=mb\\,\\hat\\imath\n\\]\nThen\n\\[\n\\vec L=\\vec r\\times\\vec p=(bt\\,\\hat\\imath+c\\,\\hat\\jmath)\\times mb\\,\\hat\\imath\n\\]\n\\[\n\\vec L=-mbc\\,\\hat k\n\\]\nIt is constant because the particle moves in a straight line with constant perpendicular distance \\(c\\) from the origin.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-10",
+      "prompt": "A disk with \\(I=0.40\\,\\mathrm{kg\\,m^2}\\) spins at \\(20\\,\\mathrm{rad\\,s^{-1}}\\). A constant external torque of \\(2.0\\,\\mathrm{N\\,m}\\) acts opposite the spin for \\(3.0\\,\\mathrm{s}\\). Find the final angular momentum and angular speed.",
+      "answer": "Initial angular momentum:\n\\[\nL_i=I\\omega_i=0.40(20)=8.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\nThe torque impulse is opposite the spin:\n\\[\n\\Delta L=-\\tau\\Delta t=-2.0(3.0)=-6.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\n\\[\nL_f=2.0\\,\\mathrm{kg\\,m^2\\,s^{-1}}\n\\]\n\\[\n\\omega_f=\\frac{L_f}{I}=\\frac{2.0}{0.40}=5.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-11",
+      "prompt": "A particle moves under a central force \\(\\vec F=f(r)\\hat r\\). Show that its angular momentum about the force centre is conserved, and state what this implies about the plane of motion.",
+      "answer": "For a central force,\n\\[\n\\vec F=f(r)\\hat r\n\\]\nThe torque about the force centre is\n\\[\n\\vec\\tau=\\vec r\\times\\vec F\n\\]\nSince \\(\\vec F\\) is parallel or antiparallel to \\(\\vec r\\),\n\\[\n\\vec\\tau=\\vec0\n\\]\nTherefore\n\\[\n\\frac{d\\vec L}{dt}=\\vec0\n\\]\nso \\(\\vec L\\) is conserved. A fixed \\(\\vec L\\) direction means \\(\\vec r\\) and \\(\\vec v\\) remain in the plane perpendicular to \\(\\vec L\\), so the motion is planar.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "angular-momentum-12",
+      "prompt": "For a rigid body moving in a plane, derive \\(L_O=\\vec R_{\\mathrm{cm}}\\times M\\vec V_{\\mathrm{cm}}+I_{\\mathrm{cm}}\\omega\\,\\hat k\\) about an arbitrary origin \\(O\\). State the condition under which the simpler form \\(L_O=I_O\\omega\\) is valid.",
+      "answer": "Write each particle position relative to the centre of mass:\n\\[\n\\vec r_i=\\vec R_{\\mathrm{cm}}+\\vec\\rho_i\n\\]\nand velocity\n\\[\n\\vec v_i=\\vec V_{\\mathrm{cm}}+\\vec\\omega\\times\\vec\\rho_i\n\\]\nThe angular momentum about \\(O\\) is\n\\[\n\\vec L_O=\\sum_i \\vec r_i\\times m_i\\vec v_i\n\\]\nSubstitute:\n\\[\n\\vec L_O=\\sum_i(\\vec R_{\\mathrm{cm}}+\\vec\\rho_i)\\times m_i(\\vec V_{\\mathrm{cm}}+\\vec\\omega\\times\\vec\\rho_i)\n\\]\nThe centre-of-mass definitions give\n\\[\n\\sum_i m_i\\vec\\rho_i=\\vec0\n\\]\nso the mixed terms vanish. The result is\n\\[\n\\vec L_O=\\vec R_{\\mathrm{cm}}\\times M\\vec V_{\\mathrm{cm}}+\\sum_i\\vec\\rho_i\\times m_i(\\vec\\omega\\times\\vec\\rho_i)\n\\]\nFor planar rotation about a principal axis,\n\\[\n\\sum_i\\vec\\rho_i\\times m_i(\\vec\\omega\\times\\vec\\rho_i)=I_{\\mathrm{cm}}\\omega\\,\\hat k\n\\]\nThus\n\\[\nL_O=\\vec R_{\\mathrm{cm}}\\times M\\vec V_{\\mathrm{cm}}+I_{\\mathrm{cm}}\\omega\\,\\hat k\n\\]\nThe simpler form \\(L_O=I_O\\omega\\) is valid when the body is in pure rotation about a fixed point or fixed axis through \\(O\\). It is not generally valid for a translating body.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

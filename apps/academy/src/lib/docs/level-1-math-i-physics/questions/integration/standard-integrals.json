@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "standard-integrals",
+  "topicTitle": "Standard Integrals",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "si-1",
+      "prompt": "Evaluate the integral of x^3 dx.",
+      "answer": "x^4/4 + C",
+      "hints": ["Power rule: add 1, divide by new power."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-2",
+      "prompt": "Evaluate the integral of cos x dx.",
+      "answer": "sin x + C",
+      "hints": ["Cosine integrates to sine."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-3",
+      "prompt": "Evaluate the integral of e^x dx.",
+      "answer": "e^x + C",
+      "hints": ["e^x is its own antiderivative."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-4",
+      "prompt": "Evaluate the integral of (3x^2 + 2x) dx.",
+      "answer": "x^3 + x^2 + C",
+      "hints": ["Integrate term by term."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-5",
+      "prompt": "Evaluate the integral of 1/x dx.",
+      "answer": "ln|x| + C",
+      "hints": ["Reciprocal integrates to ln."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-6",
+      "prompt": "Evaluate the integral of sin x dx.",
+      "answer": "-cos x + C",
+      "hints": ["Sine integrates to negative cosine."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-7",
+      "prompt": "Evaluate the integral of x^{-3} dx.",
+      "answer": "-1/(2x^2) + C",
+      "hints": ["x^{-3+1}/(-3+1) = x^{-2}/(-2)."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-8",
+      "prompt": "Evaluate the integral of sec^2 x dx.",
+      "answer": "tan x + C",
+      "hints": ["Derivative of tan is sec^2."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-9",
+      "prompt": "Evaluate the integral of 5e^x dx.",
+      "answer": "5e^x + C",
+      "hints": ["Factor out constant."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "si-10",
+      "prompt": "Evaluate the integral of (x^4 - 3x^2 + 1) dx.",
+      "answer": "x^5/5 - x^3 + x + C",
+      "hints": ["Integrate each term separately."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

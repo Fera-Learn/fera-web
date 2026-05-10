@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "nature-of-light",
+  "topicTitle": "Nature of Light",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "nature-light-01",
+      "prompt": "What type of wave is light in the classical wave model?",
+      "answer": "Light is an electromagnetic transverse wave made of oscillating electric and magnetic fields.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-02",
+      "prompt": "State the wave equation relating speed, frequency, and wavelength.",
+      "answer": "The wave equation is\n\\[\nv=f\\lambda\n\\]\nFor light in vacuum,\n\\[\nc=f\\lambda_0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-03",
+      "prompt": "Light has wavelength \\(500\\,\\mathrm{nm}\\) in vacuum. Find its frequency.",
+      "answer": "\\[\nf=\\frac{c}{\\lambda}=\\frac{3.00\\times10^8}{500\\times10^{-9}}\n\\]\n\\[\nf=6.00\\times10^{14}\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-04",
+      "prompt": "A material has refractive index \\(n=1.50\\). Find the speed of light in the material.",
+      "answer": "\\[\nv=\\frac{c}{n}=\\frac{3.00\\times10^8}{1.50}=2.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-05",
+      "prompt": "Light has wavelength \\(600\\,\\mathrm{nm}\\) in vacuum. Find its wavelength in glass with \\(n=1.50\\).",
+      "answer": "Frequency stays fixed, so wavelength scales with speed:\n\\[\n\\lambda=\\frac{\\lambda_0}{n}=\\frac{600\\,\\mathrm{nm}}{1.50}=400\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-06",
+      "prompt": "When light enters a higher-index material from air, which quantities change: speed, frequency, wavelength?",
+      "answer": "The speed decreases and the wavelength decreases. The frequency stays the same because it is set by the source.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-07",
+      "prompt": "Red light has longer wavelength than blue light in vacuum. Which has the higher frequency?",
+      "answer": "Frequency is\n\\[\nf=\\frac{c}{\\lambda}\n\\]\nA shorter wavelength means a higher frequency, so blue light has the higher frequency.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-08",
+      "prompt": "A light wave in a material has speed \\(2.25\\times10^8\\,\\mathrm{m\\,s^{-1}}\\) and frequency \\(5.00\\times10^{14}\\,\\mathrm{Hz}\\). Find its wavelength and refractive index.",
+      "answer": "\\[\n\\lambda=\\frac{v}{f}=\\frac{2.25\\times10^8}{5.00\\times10^{14}}=4.50\\times10^{-7}\\,\\mathrm m\n\\]\n\\[\nn=\\frac{c}{v}=\\frac{3.00\\times10^8}{2.25\\times10^8}=1.33\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-09",
+      "prompt": "Derive \\(\\lambda=\\lambda_0/n\\) for light entering a material of refractive index \\(n\\).",
+      "answer": "In vacuum,\n\\[\nc=f\\lambda_0\n\\]\nIn the material,\n\\[\nv=f\\lambda\n\\]\nThe frequency is unchanged at the boundary. Since\n\\[\nv=\\frac{c}{n}\n\\]\nthen\n\\[\nf\\lambda=\\frac{c}{n}=\\frac{f\\lambda_0}{n}\n\\]\nCancel \\(f\\):\n\\[\n\\lambda=\\frac{\\lambda_0}{n}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-10",
+      "prompt": "Light of frequency \\(4.80\\times10^{14}\\,\\mathrm{Hz}\\) passes from vacuum into water \\((n=1.33)\\). Find the vacuum wavelength, speed in water, and wavelength in water.",
+      "answer": "Vacuum wavelength:\n\\[\n\\lambda_0=\\frac{c}{f}=\\frac{3.00\\times10^8}{4.80\\times10^{14}}=6.25\\times10^{-7}\\,\\mathrm m\n\\]\nSpeed in water:\n\\[\nv=\\frac{c}{n}=\\frac{3.00\\times10^8}{1.33}=2.26\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]\nWavelength in water:\n\\[\n\\lambda=\\frac{\\lambda_0}{n}=\\frac{6.25\\times10^{-7}}{1.33}=4.70\\times10^{-7}\\,\\mathrm m\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-11",
+      "prompt": "Light travels through \\(0.40\\,\\mathrm m\\) of glass with \\(n=1.60\\). Find the travel time and compare it with the vacuum travel time over the same distance.",
+      "answer": "In glass,\n\\[\nv=\\frac{c}{n}\n\\]\nso the travel time is\n\\[\nt=\\frac{L}{v}=\\frac{nL}{c}=\\frac{(1.60)(0.40)}{3.00\\times10^8}=2.13\\times10^{-9}\\,\\mathrm s\n\\]\nIn vacuum,\n\\[\nt_0=\\frac{0.40}{3.00\\times10^8}=1.33\\times10^{-9}\\,\\mathrm s\n\\]\nThe glass time is \\(1.60\\) times the vacuum time.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-12",
+      "prompt": "A monochromatic wave has wavelength \\(480\\,\\mathrm{nm}\\) in medium A with \\(n_A=1.25\\). Find its vacuum wavelength and its wavelength in medium B with \\(n_B=1.60\\).",
+      "answer": "The vacuum wavelength is\n\\[\n\\lambda_0=n_A\\lambda_A=(1.25)(480\\,\\mathrm{nm})=600\\,\\mathrm{nm}\n\\]\nIn medium B,\n\\[\n\\lambda_B=\\frac{\\lambda_0}{n_B}=\\frac{600\\,\\mathrm{nm}}{1.60}=375\\,\\mathrm{nm}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-13",
+      "prompt": "A light beam crosses \\(0.20\\,\\mathrm m\\) of water \\((n=1.33)\\) and then \\(0.10\\,\\mathrm m\\) of glass \\((n=1.50)\\). Find the total travel time.",
+      "answer": "Use \\(t=nL/c\\) for each material:\n\\[\nt=\\frac{n_wL_w+n_gL_g}{c}\n\\]\n\\[\nt=\\frac{(1.33)(0.20)+(1.50)(0.10)}{3.00\\times10^8}\n\\]\n\\[\nt=1.39\\times10^{-9}\\,\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-14",
+      "prompt": "A wave has frequency \\(6.0\\times10^{14}\\,\\mathrm{Hz}\\). How many wavelengths fit inside \\(1.0\\,\\mathrm{mm}\\) of glass with \\(n=1.50\\)?",
+      "answer": "Vacuum wavelength:\n\\[\n\\lambda_0=\\frac{c}{f}=\\frac{3.00\\times10^8}{6.0\\times10^{14}}=5.0\\times10^{-7}\\,\\mathrm m\n\\]\nIn glass,\n\\[\n\\lambda=\\frac{\\lambda_0}{n}=3.33\\times10^{-7}\\,\\mathrm m\n\\]\nThe number of wavelengths is\n\\[\nN=\\frac{1.0\\times10^{-3}}{3.33\\times10^{-7}}=3.0\\times10^3\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-15",
+      "prompt": "Two beams have the same frequency. Beam A is in air with wavelength \\(700\\,\\mathrm{nm}\\), and beam B is in a material with wavelength \\(500\\,\\mathrm{nm}\\). Find the refractive index of the material, taking air as \\(n\\approx1\\).",
+      "answer": "For the same frequency, wavelength is inversely proportional to refractive index:\n\\[\n\\lambda=\\frac{\\lambda_0}{n}\n\\]\nThus\n\\[\nn=\\frac{\\lambda_0}{\\lambda}=\\frac{700}{500}=1.40\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-16",
+      "prompt": "Explain why a light wave's frequency must stay the same across a stationary boundary, while speed and wavelength may change.",
+      "answer": "The boundary is driven by the incoming oscillating field at a definite time rate. For the transmitted field to match continuously at the same boundary points, it must oscillate at the same frequency. The material changes the wave speed through \\(v=c/n\\), so the wavelength adjusts through\n\\[\nv=f\\lambda\n\\]\nwith \\(f\\) fixed.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-17",
+      "prompt": "A beam has optical path length \\(nL=0.75\\,\\mathrm m\\) through a material. Find the travel time and the equivalent vacuum distance traveled in that time.",
+      "answer": "Travel time through a material can be written\n\\[\nt=\\frac{nL}{c}\n\\]\nThus\n\\[\nt=\\frac{0.75}{3.00\\times10^8}=2.50\\times10^{-9}\\,\\mathrm s\n\\]\nIn the same time, light in vacuum travels\n\\[\nct=0.75\\,\\mathrm m\n\\]\nwhich is why \\(nL\\) is called an optical path length.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-18",
+      "prompt": "A material has refractive index \\(1.40\\) for one color and \\(1.56\\) for another. Over a \\(2.0\\,\\mathrm m\\) path, find the arrival-time difference for simultaneous pulses of the two colors.",
+      "answer": "For each color,\n\\[\nt=\\frac{nL}{c}\n\\]\nThe time difference is\n\\[\n\\Delta t=\\frac{(n_2-n_1)L}{c}\n\\]\n\\[\n\\Delta t=\\frac{(1.56-1.40)(2.0)}{3.00\\times10^8}=1.07\\times10^{-9}\\,\\mathrm s\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-19",
+      "prompt": "A light wave in a transparent material has wavelength \\(420\\,\\mathrm{nm}\\) and frequency \\(5.20\\times10^{14}\\,\\mathrm{Hz}\\). Find the material speed and refractive index.",
+      "answer": "The wave speed is\n\\[\nv=f\\lambda=(5.20\\times10^{14})(420\\times10^{-9})=2.18\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe refractive index is\n\\[\nn=\\frac{c}{v}=\\frac{3.00\\times10^8}{2.18\\times10^8}=1.37\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "nature-light-20",
+      "prompt": "A beam has wavelength \\(\\lambda_1\\) in medium 1 and \\(\\lambda_2\\) in medium 2, with no frequency change at the boundary. Derive \\(n_2/n_1\\) in terms of the two wavelengths.",
+      "answer": "In each medium,\n\\[\nv=f\\lambda\n\\]\nand\n\\[\nn=\\frac{c}{v}=\\frac{c}{f\\lambda}\n\\]\nFor fixed frequency,\n\\[\nn\\propto\\frac{1}{\\lambda}\n\\]\nTherefore\n\\[\n\\frac{n_2}{n_1}=\\frac{\\lambda_1}{\\lambda_2}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

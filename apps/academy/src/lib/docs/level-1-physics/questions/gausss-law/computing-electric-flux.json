@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gausss-law",
+  "topicId": "computing-electric-flux",
+  "topicTitle": "Computing Electric Flux",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "computing-flux-01",
+      "prompt": "What component of \\(\\vec E\\) contributes to electric flux through a surface?",
+      "answer": "Only the component of \\(\\vec E\\) normal to the surface contributes to electric flux.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-02",
+      "prompt": "Write the flux element \\(d\\Phi_E\\) in terms of \\(\\vec E\\) and \\(d\\vec A\\).",
+      "answer": "The flux element is\n\\[\nd\\Phi_E=\\vec E\\cdot d\\vec A\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-03",
+      "prompt": "A surface patch has \\(d\\vec A=(0.020\\,\\mathrm{m^2})\\hat\\jmath\\) and \\(\\vec E=(150\\,\\mathrm{N\\,C^{-1}})\\hat\\jmath\\). Find \\(d\\Phi_E\\).",
+      "answer": "\\[\nd\\Phi_E=\\vec E\\cdot d\\vec A=(150)(0.020)=3.0\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-04",
+      "prompt": "A surface patch has \\(d\\vec A=(0.030\\,\\mathrm{m^2})\\hat k\\) and \\(\\vec E=(80\\,\\mathrm{N\\,C^{-1}})\\hat\\imath\\). Find \\(d\\Phi_E\\).",
+      "answer": "The field and area vector are perpendicular, so\n\\[\nd\\Phi_E=\\vec E\\cdot d\\vec A=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-05",
+      "prompt": "A rectangular panel has area \\(0.60\\,\\mathrm{m^2}\\) and outward normal \\(\\hat\\imath\\). The uniform field is \\(\\vec E=(25\\hat\\imath+10\\hat\\jmath)\\,\\mathrm{N\\,C^{-1}}\\). Find the flux.",
+      "answer": "Only the \\(x\\)-component is normal:\n\\[\n\\Phi_E=E_xA=(25)(0.60)=15\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-06",
+      "prompt": "A rectangular panel has area \\(0.40\\,\\mathrm{m^2}\\) and outward normal \\(-\\hat\\jmath\\). The uniform field is \\(\\vec E=(12\\hat\\imath+30\\hat\\jmath)\\,\\mathrm{N\\,C^{-1}}\\). Find the flux.",
+      "answer": "The outward normal is \\(-\\hat\\jmath\\), so the normal field component is \\(-30\\,\\mathrm{N\\,C^{-1}}\\):\n\\[\n\\Phi_E=(-30)(0.40)=-12\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-07",
+      "prompt": "A cube of side \\(0.20\\,\\mathrm{m}\\) is in a uniform field \\(\\vec E=(100\\,\\mathrm{N\\,C^{-1}})\\hat\\imath\\). Find the flux through the face whose outward normal is \\(+\\hat\\imath\\).",
+      "answer": "The face area is\n\\[\nA=(0.20)^2=0.040\\,\\mathrm{m^2}\n\\]\nThe field points with the outward normal:\n\\[\n\\Phi_E=EA=(100)(0.040)=4.0\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-08",
+      "prompt": "For the same cube and field as question 7, find the total flux through the closed cube.",
+      "answer": "The \\(+\\hat\\imath\\) face has flux\n\\[\n+EA\n\\]\nand the \\(-\\hat\\imath\\) face has flux\n\\[\n-EA\n\\]\nThe other four faces have zero flux because their normals are perpendicular to the field. Thus\n\\[\n\\Phi_{\\mathrm{total}}=0\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-09",
+      "prompt": "A cylinder\u0027s axis is parallel to a uniform field \\(\\vec E\\). Which parts of the cylinder have nonzero flux: the two circular end caps, the curved side, or both?",
+      "answer": "Only the two circular end caps have nonzero flux. The field is perpendicular to the end caps, but tangent to the curved side.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-10",
+      "prompt": "A cylinder of radius \\(0.10\\,\\mathrm{m}\\) has its axis along a \\(300\\,\\mathrm{N\\,C^{-1}}\\) uniform field. Find the flux through the end cap whose outward normal points with the field.",
+      "answer": "The end-cap area is\n\\[\nA=\\pi r^2=\\pi(0.10)^2=3.14\\times10^{-2}\\,\\mathrm{m^2}\n\\]\nThe outward normal points with the field:\n\\[\n\\Phi_E=EA=(300)(3.14\\times10^{-2})=9.42\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-11",
+      "prompt": "The same cylinder has two end caps and a curved side. Find the total flux through the closed cylinder in the uniform axial field.",
+      "answer": "One end cap has flux\n\\[\n+EA\n\\]\nThe other end cap has flux\n\\[\n-EA\n\\]\nThe curved side has zero flux because the field is tangent to it. Therefore\n\\[\n\\Phi_{\\mathrm{closed}}=EA-EA+0=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-12",
+      "prompt": "A rectangular box has side lengths \\(a\\), \\(b\\), and \\(c\\). It is placed in uniform field \\(\\vec E=E\\hat k\\). Find the flux through each pair of opposite faces and the total flux.",
+      "answer": "The faces perpendicular to the \\(z\\)-axis have area \\(ab\\). The top face has flux\n\\[\n\\Phi_{\\mathrm{top}}=Eab\n\\]\nand the bottom face has flux\n\\[\n\\Phi_{\\mathrm{bottom}}=-Eab\n\\]\nThe faces perpendicular to \\(x\\) and \\(y\\) have zero flux because the field is tangent to them. Therefore\n\\[\n\\Phi_{\\mathrm{total}}=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-13",
+      "prompt": "A square plate of side \\(0.25\\,\\mathrm{m}\\) has unit normal \\(\\hat n=(0.60\\hat\\imath+0.80\\hat\\jmath)\\). The field is \\(\\vec E=(50\\hat\\imath)\\,\\mathrm{N\\,C^{-1}}\\). Find the flux.",
+      "answer": "The area is\n\\[\nA=(0.25)^2=0.0625\\,\\mathrm{m^2}\n\\]\nThe area vector is\n\\[\n\\vec A=A\\hat n=0.0625(0.60\\hat\\imath+0.80\\hat\\jmath)\n\\]\nThus\n\\[\n\\Phi_E=\\vec E\\cdot\\vec A=(50)(0.0625)(0.60)\n\\]\n\\[\n\\Phi_E=1.88\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-14",
+      "prompt": "A closed rectangular box extends from \\(x=0\\) to \\(x=L\\), with face area \\(A\\) perpendicular to the \\(x\\)-axis. The field is \\(\\vec E=\\alpha x\\,\\hat\\imath\\). Compute the total flux through the box.",
+      "answer": "Only the faces perpendicular to the \\(x\\)-axis contribute. At \\(x=L\\), the outward normal is \\(+\\hat\\imath\\) and\n\\[\nE=\\alpha L\n\\]\nso\n\\[\n\\Phi_R=\\alpha LA\n\\]\nAt \\(x=0\\), the field is zero:\n\\[\n\\Phi_L=0\n\\]\nThe other faces have zero flux. Therefore\n\\[\n\\Phi_{\\mathrm{total}}=\\alpha LA\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-15",
+      "prompt": "A closed rectangular box extends from \\(x=x_1\\) to \\(x=x_2\\), with cross-sectional area \\(A\\). The field is \\(\\vec E=E_0\\hat\\imath+\\beta x\\hat\\imath\\). Compute the total flux through the box.",
+      "answer": "Only the two \\(x\\)-faces contribute. At \\(x=x_2\\), the outward normal is \\(+\\hat\\imath\\):\n\\[\n\\Phi_2=(E_0+\\beta x_2)A\n\\]\nAt \\(x=x_1\\), the outward normal is \\(-\\hat\\imath\\):\n\\[\n\\Phi_1=-(E_0+\\beta x_1)A\n\\]\nTherefore\n\\[\n\\Phi_{\\mathrm{total}}=\\beta A(x_2-x_1)\n\\]\nThe uniform part cancels between opposite faces.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-16",
+      "prompt": "A sphere is placed in a uniform electric field. Without evaluating an integral in spherical coordinates, explain why the net flux through the sphere is zero.",
+      "answer": "A uniform field enters one side of the sphere and leaves the other side. The outward normal on the entering side gives negative flux, while the outward normal on the leaving side gives positive flux.\n\nFor every contribution associated with field entering the closed surface, there is an equal contribution associated with field leaving it. Since the field is uniform and no face is favored, the net flux through the closed sphere is zero.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-17",
+      "prompt": "A closed surface is made of flat panels in a uniform field. Prove from the panel area vectors that the net flux is zero.",
+      "answer": "For flat panels in a uniform field,\n\\[\n\\Phi_{\\mathrm{net}}=\\sum_i\\vec E\\cdot\\Delta\\vec A_i\n\\]\nSince \\(\\vec E\\) is the same on all panels,\n\\[\n\\Phi_{\\mathrm{net}}=\\vec E\\cdot\\sum_i\\Delta\\vec A_i\n\\]\nFor any closed polyhedral surface, the vector sum of outward area vectors is zero:\n\\[\n\\sum_i\\Delta\\vec A_i=\\vec 0\n\\]\nThus\n\\[\n\\Phi_{\\mathrm{net}}=0\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-18",
+      "prompt": "A nonuniform field is \\(\\vec E=\\alpha x\\hat\\imath+\\beta y\\hat\\jmath\\). A rectangular box spans \\(0\u003cx\u003ca\\), \\(0\u003cy\u003cb\\), \\(0\u003cz\u003cc\\). Compute the net flux through the box by summing faces.",
+      "answer": "Only the \\(x\\)- and \\(y\\)-faces contribute.\n\nFor \\(x=a\\), outward normal \\(+\\hat\\imath\\), area \\(bc\\):\n\\[\n\\Phi_{x=a}=\\alpha a\\,bc\n\\]\nFor \\(x=0\\), the field component is zero:\n\\[\n\\Phi_{x=0}=0\n\\]\nFor \\(y=b\\), outward normal \\(+\\hat\\jmath\\), area \\(ac\\):\n\\[\n\\Phi_{y=b}=\\beta b\\,ac\n\\]\nFor \\(y=0\\), the field component is zero:\n\\[\n\\Phi_{y=0}=0\n\\]\nThe \\(z\\)-faces have zero flux. Therefore\n\\[\n\\Phi_{\\mathrm{net}}=\\alpha abc+\\beta abc=(\\alpha+\\beta)abc\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-19",
+      "prompt": "A field is \\(\\vec E=E_0\\hat z\\). A closed surface is cut into a horizontal disk and a curved cap above it. Use flux cancellation to find the flux through the cap if the disk\u0027s outward normal is \\(-\\hat z\\).",
+      "answer": "The disk has outward normal \\(-\\hat z\\), so its flux is\n\\[\n\\Phi_{\\mathrm{disk}}=-E_0A\n\\]\nwhere \\(A\\) is the disk area. The disk plus cap is a closed surface in a uniform field, so the total flux is zero:\n\\[\n\\Phi_{\\mathrm{cap}}+\\Phi_{\\mathrm{disk}}=0\n\\]\nThus\n\\[\n\\Phi_{\\mathrm{cap}}=E_0A\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "computing-flux-20",
+      "prompt": "For a closed polyhedral surface in a slowly varying field, explain how the face-sum method becomes a surface integral and what information is lost if only the net flux is reported.",
+      "answer": "For each small face, approximate the field as constant over that face:\n\\[\n\\Delta\\Phi_i\\approx \\vec E_i\\cdot\\Delta\\vec A_i\n\\]\nSumming faces gives\n\\[\n\\Phi_E\\approx\\sum_i\\vec E_i\\cdot\\Delta\\vec A_i\n\\]\nAs the faces become smaller, this becomes\n\\[\n\\Phi_E=\\oint_S\\vec E\\cdot d\\vec A\n\\]\nReporting only the net flux keeps the total balance of outward and inward normal field, but it loses where the field entered, where it left, and how large the local field was on each part of the surface.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

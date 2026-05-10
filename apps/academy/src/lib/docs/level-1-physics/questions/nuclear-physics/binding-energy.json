@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "binding-energy",
+  "topicTitle": "Binding Energy",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "binding-energy-01",
+      "prompt": "Define nuclear binding energy.",
+      "answer": "Binding energy is the energy required to separate a nucleus into its individual protons and neutrons. It is also the energy released when those nucleons form the bound nucleus.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-02",
+      "prompt": "Define mass defect and write its relation to binding energy.",
+      "answer": "Mass defect is the missing mass between separated nucleons and the bound nucleus:\\n\\[\\n\\Delta m=Zm_{\\mathrm p}+Nm_{\\mathrm n}-M_{\\mathrm{nucleus}}\\n\\]\\nThe binding energy is\\n\\[\\nB=\\Delta mc^2\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-03",
+      "prompt": "A nucleus has mass defect \\(0.0250\\,\\mathrm u\\). Find its binding energy in MeV.",
+      "answer": "Use \\(1\\,\\mathrm u\\,c^2=931.5\\,\\mathrm{MeV}\\):\\n\\[\\nB=0.0250(931.5)=23.3\\,\\mathrm{MeV}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-04",
+      "prompt": "A nucleus has total binding energy \\(160\\,\\mathrm{MeV}\\) and \\(A=20\\). Find \\(B/A\\).",
+      "answer": "\\[\\n\\frac{B}{A}=\\frac{160\\,\\mathrm{MeV}}{20}=8.0\\,\\mathrm{MeV}\\n\\]\\nThe average binding per nucleon is \\(8.0\\,\\mathrm{MeV}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-05",
+      "prompt": "Why is binding energy per nucleon more useful than total binding energy when comparing nuclei?",
+      "answer": "Total binding energy generally increases with nucleon number. Binding energy per nucleon divides out size and compares average tightness of binding, which is more closely related to relative nuclear stability.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-06",
+      "prompt": "Using atomic masses, write the mass defect for \\(^{A}_{Z}X\\) in terms of hydrogen atom mass, neutron mass, and atomic mass.",
+      "answer": "For neutral atomic masses, electron masses cancel if hydrogen atoms are used for protons:\\n\\[\\n\\Delta m=Zm_{\\mathrm H}+(A-Z)m_{\\mathrm n}-M_{\\mathrm{atom}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-07",
+      "prompt": "Calculate the binding energy of \\(^{4}\\mathrm{He}\\) using \\(m_{\\mathrm H}=1.007825\\,\\mathrm u\\), \\(m_n=1.008665\\,\\mathrm u\\), and atomic mass \\(4.002603\\,\\mathrm u\\).",
+      "answer": "For helium-4, \\(Z=2\\), \\(N=2\\):\\n\\[\\n\\Delta m=2(1.007825)+2(1.008665)-4.002603=0.030377\\,\\mathrm u\\n\\]\\n\\[\\nB=0.030377(931.5)=28.3\\,\\mathrm{MeV}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-08",
+      "prompt": "Using the previous helium-4 binding energy \\(28.3\\,\\mathrm{MeV}\\), find its binding energy per nucleon.",
+      "answer": "\\[\\n\\frac{B}{A}=\\frac{28.3}{4}=7.08\\,\\mathrm{MeV}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-09",
+      "prompt": "A reaction increases total binding energy from \\(180\\,\\mathrm{MeV}\\) to \\(190\\,\\mathrm{MeV}\\). What energy is released?",
+      "answer": "Energy released equals the increase in total binding energy:\\n\\[\\nQ=B_f-B_i=190-180=10\\,\\mathrm{MeV}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-10",
+      "prompt": "Explain why a bound nucleus has less mass than its separated nucleons.",
+      "answer": "Forming the nucleus releases energy. By \\(E=mc^2\\), the released energy corresponds to a decrease in rest mass. The missing mass is the mass defect.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-11",
+      "prompt": "Convert \\(5.0\\,\\mathrm{MeV}\\) to joules.",
+      "answer": "Use \\(1\\,\\mathrm{MeV}=1.602\\times10^{-13}\\,\\mathrm J\\):\\n\\[\\n5.0\\,\\mathrm{MeV}=5.0(1.602\\times10^{-13})=8.0\\times10^{-13}\\,\\mathrm J\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-12",
+      "prompt": "A nucleus has \\(Z=6\\), \\(N=6\\), separated nucleon mass \\(12.09894\\,\\mathrm u\\), and nuclear mass \\(12.00000\\,\\mathrm u\\). Find \\(B\\).",
+      "answer": "\\[\\n\\Delta m=12.09894-12.00000=0.09894\\,\\mathrm u\\n\\]\\n\\[\\nB=0.09894(931.5)=92.2\\,\\mathrm{MeV}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-13",
+      "prompt": "In a graph of \\(B/A\\) against \\(A\\), why do fission and fusion both release energy in different regions?",
+      "answer": "Light nuclei release energy by fusing toward larger \\(B/A\\). Very heavy nuclei release energy by splitting into medium nuclei with larger \\(B/A\\). In both cases, products have greater total binding energy and lower rest mass.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-14",
+      "prompt": "Why must electron masses be handled carefully when using atomic masses for binding energy?",
+      "answer": "Atomic masses include electrons. If the formula uses hydrogen atom masses for protons, the electron masses on the separated-atom side match the electrons in the neutral atom and cancel. Mixing nuclear and atomic masses without accounting for electrons gives a systematic error.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-15",
+      "prompt": "A nucleus has \\(B/A=7.5\\,\\mathrm{MeV}\\) and \\(A=40\\). Find its mass defect in atomic mass units.",
+      "answer": "The total binding energy is\\n\\[\\nB=40(7.5)=300\\,\\mathrm{MeV}\\n\\]\\nUsing \\(1\\,\\mathrm u\\,c^2=931.5\\,\\mathrm{MeV}\\),\\n\\[\\n\\Delta m=\\frac{300}{931.5}=0.322\\,\\mathrm u\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-16",
+      "prompt": "A nucleus forms from separated nucleons and emits a \\(2.0\\,\\mathrm{MeV}\\) gamma ray. What mass change corresponds to the emitted energy?",
+      "answer": "\\[\\n\\Delta m=\\frac{E}{c^2}=\\frac{2.0\\,\\mathrm{MeV}}{931.5\\,\\mathrm{MeV/u}}=2.1\\times10^{-3}\\,\\mathrm u\\n\\]\\nThe bound system mass is lower by this amount.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-17",
+      "prompt": "Two possible products have the same \\(A\\), but product 1 has larger binding energy. Which product has smaller rest mass, and why?",
+      "answer": "Product 1 has smaller rest mass. For the same separated nucleons, larger binding energy means a larger mass defect, and\\n\\[\\nM=m_{\\mathrm{sep}}-\\frac{B}{c^2}\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-18",
+      "prompt": "Derive \\(Q=B_f-B_i\\) for a nuclear reaction involving the same total number of protons and neutrons before and after.",
+      "answer": "For the same separated nucleons, write each total nuclear mass as\\n\\[\\nM=m_{\\mathrm{sep}}-\\frac{B}{c^2}\\n\\]\\nThen\\n\\[\\nQ=(M_i-M_f)c^2=\\left(m_{\\mathrm{sep}}-\\frac{B_i}{c^2}-m_{\\mathrm{sep}}+\\frac{B_f}{c^2}\\right)c^2\\n\\]\\nso\\n\\[\\nQ=B_f-B_i\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-19",
+      "prompt": "A proposed bound nucleus has calculated \\(\\Delta m<0\\). Interpret the result.",
+      "answer": "A negative mass defect would give negative binding energy, meaning the assembled system has more rest mass than separated nucleons. It is not bound against separation by that calculation; energy would have to be supplied rather than released to form it.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "binding-energy-20",
+      "prompt": "Prove that energy release in a nuclear reaction corresponds to a decrease in total rest mass, not a loss of total energy.",
+      "answer": "The reaction energy is\\n\\[\\nQ=(m_i-m_f)c^2\\n\\]\\nIf \\(Q>0\\), final rest mass is smaller. Conservation of total energy is maintained because the missing rest energy appears as kinetic energy, photons, or excitation energy of products. Thus rest mass decreases, but total energy is conserved.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

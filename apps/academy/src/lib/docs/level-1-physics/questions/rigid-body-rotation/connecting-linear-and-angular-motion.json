@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "connecting-linear-and-angular-motion",
+  "topicTitle": "Connecting Linear and Angular Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "linear-angular-01",
+      "prompt": "A point is \\(0.40\\,\\mathrm{m}\\) from an axis and turns through \\(5.0\\,\\mathrm{rad}\\). Find its arc length.",
+      "answer": "\\[\ns=r\\theta=0.40(5.0)=2.0\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-02",
+      "prompt": "A point is \\(0.25\\,\\mathrm{m}\\) from an axis with \\(\\omega=12\\,\\mathrm{rad\\,s^{-1}}\\). Find its tangential speed.",
+      "answer": "\\[\nv_t=r\\omega=0.25(12)=3.0\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-03",
+      "prompt": "A point is \\(0.30\\,\\mathrm{m}\\) from an axis with \\(\\alpha=4.0\\,\\mathrm{rad\\,s^{-2}}\\). Find tangential acceleration.",
+      "answer": "\\[\na_t=r\\alpha=0.30(4.0)=1.2\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-04",
+      "prompt": "A point is \\(0.50\\,\\mathrm{m}\\) from an axis with \\(\\omega=3.0\\,\\mathrm{rad\\,s^{-1}}\\). Find centripetal acceleration.",
+      "answer": "\\[\na_c=r\\omega^2=0.50(3.0^2)=4.5\\,\\mathrm{m\\,s^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-05",
+      "prompt": "A wheel of radius \\(0.30\\,\\mathrm{m}\\) rolls without slipping through \\(6.0\\,\\mathrm{m}\\). Find its angular displacement.",
+      "answer": "No slip gives\n\\[\n\\Delta x_{\\mathrm{cm}}=R\\Delta\\theta\n\\]\n\\[\n\\Delta\\theta=\\frac{6.0}{0.30}=20\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-06",
+      "prompt": "A wheel of radius \\(0.50\\,\\mathrm{m}\\) rolls without slipping with center speed \\(4.0\\,\\mathrm{m\\,s^{-1}}\\). Find \\(\\omega\\).",
+      "answer": "\\[\nv_{\\mathrm{cm}}=R\\omega\n\\]\n\\[\n\\omega=\\frac{4.0}{0.50}=8.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-07",
+      "prompt": "Two points on a rigid wheel are at radii \\(0.20\\,\\mathrm{m}\\) and \\(0.50\\,\\mathrm{m}\\). If \\(\\omega=10\\,\\mathrm{rad\\,s^{-1}}\\), compare their tangential speeds and centripetal accelerations.",
+      "answer": "Tangential speeds:\n\\[\nv_1=0.20(10)=2.0\\,\\mathrm{m\\,s^{-1}}\n\\]\n\\[\nv_2=0.50(10)=5.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nCentripetal accelerations:\n\\[\na_{c1}=0.20(10^2)=20\\,\\mathrm{m\\,s^{-2}}\n\\]\n\\[\na_{c2}=0.50(10^2)=50\\,\\mathrm{m\\,s^{-2}}\n\\]\nThe outer point has the larger linear speed and centripetal acceleration because both scale with radius for fixed \\(\\omega\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-08",
+      "prompt": "A wheel of radius \\(0.40\\,\\mathrm{m}\\) rolls without slipping from rest with constant \\(\\alpha=3.0\\,\\mathrm{rad\\,s^{-2}}\\) for \\(5.0\\,\\mathrm{s}\\). Find the center speed and center displacement.",
+      "answer": "The wheel\u0027s angular speed after \\(5.0\\,\\mathrm{s}\\) is\n\\[\n\\omega=\\alpha t=3.0(5.0)=15\\,\\mathrm{rad\\,s^{-1}}\n\\]\nNo slip gives\n\\[\nv_{\\mathrm{cm}}=R\\omega=0.40(15)=6.0\\,\\mathrm{m\\,s^{-1}}\n\\]\nAngular displacement:\n\\[\n\\Delta\\theta=\\frac{1}{2}\\alpha t^2=\\frac{1}{2}(3.0)(5.0)^2=37.5\\,\\mathrm{rad}\n\\]\nCenter displacement:\n\\[\n\\Delta x_{\\mathrm{cm}}=R\\Delta\\theta=0.40(37.5)=15\\,\\mathrm{m}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-09",
+      "prompt": "Two pulleys are connected by a non-slipping belt. Pulley 1 has radius \\(0.20\\,\\mathrm{m}\\) and starts from rest with \\(\\alpha_1=6.0\\,\\mathrm{rad\\,s^{-2}}\\) for \\(4.0\\,\\mathrm{s}\\). Pulley 2 has radius \\(0.50\\,\\mathrm{m}\\). Find \\(\\alpha_2\\), \\(\\omega_2\\), and \\(\\theta_2\\), stating the no-slip constraint used.",
+      "answer": "No slip means equal belt arc acceleration, speed, and displacement:\n\\[\nR_1\\alpha_1=R_2\\alpha_2\n\\]\n\\[\n\\alpha_2=\\frac{R_1}{R_2}\\alpha_1=\\frac{0.20}{0.50}(6.0)=2.4\\,\\mathrm{rad\\,s^{-2}}\n\\]\nAfter \\(4.0\\,\\mathrm{s}\\):\n\\[\n\\omega_2=\\alpha_2t=2.4(4.0)=9.6\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\n\\theta_2=\\frac{1}{2}\\alpha_2t^2=\\frac{1}{2}(2.4)(4.0)^2=19.2\\,\\mathrm{rad}\n\\]\nAssumption: the belt does not slip, so matching linear belt motion sets the angular quantities.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "linear-angular-10",
+      "prompt": "Two pulleys of radii \\(R_1\\) and \\(R_2\\) are connected by a belt that does not slip. Derive the relations between \\(\\theta_1,\\omega_1,\\alpha_1\\) and \\(\\theta_2,\\omega_2,\\alpha_2\\), including the sign difference between an open and crossed belt.",
+      "answer": "The no-slip constraint is equality of belt arc motion:\n\\[\nR_1\\theta_1=\\sigma R_2\\theta_2\n\\]\nwhere \\(\\sigma=+1\\) if the chosen positive rotations make the belt motion have the same sign, and \\(\\sigma=-1\\) if the belt reverses the sign, as for a crossed belt convention.\nThus\n\\[\n\\theta_2=\\sigma\\frac{R_1}{R_2}\\theta_1\n\\]\nDifferentiating gives\n\\[\n\\omega_2=\\sigma\\frac{R_1}{R_2}\\omega_1\n\\]\n\\[\n\\alpha_2=\\sigma\\frac{R_1}{R_2}\\alpha_1\n\\]\nThe symbolic sign is the essential modeling step; the magnitudes are fixed by equal belt speed.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "fluids",
+  "topicId": "density-in-gases-and-liquids",
+  "topicTitle": "Density in Gases and Liquids",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fluids-density-01",
+      "prompt": "A liquid sample has mass \\(3.6\\,\\mathrm{kg}\\) and volume \\(4.5\\times10^{-3}\\,\\mathrm{m^3}\\). Find its density.",
+      "answer": "\\[\n\\rho=\\frac{m}{V}=\\frac{3.6}{4.5\\times10^{-3}}=8.0\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-02",
+      "prompt": "A fluid has density \\(920\\,\\mathrm{kg\\,m^{-3}}\\) and occupies \\(1.8\\times10^{-3}\\,\\mathrm{m^3}\\). Find its mass.",
+      "answer": "\\[\nm=\\rho V=(920)(1.8\\times10^{-3})=1.656\\,\\mathrm{kg}\\approx1.7\\,\\mathrm{kg}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-03",
+      "prompt": "A gas sample has mass \\(0.24\\,\\mathrm{kg}\\) and density \\(1.2\\,\\mathrm{kg\\,m^{-3}}\\). Find its volume.",
+      "answer": "\\[\nV=\\frac{m}{\\rho}=\\frac{0.24}{1.2}=0.20\\,\\mathrm{m^3}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-04",
+      "prompt": "A sample has mass \\(75\\,\\mathrm{g}\\) and volume \\(50\\,\\mathrm{cm^3}\\). Find its density in \\(\\mathrm{kg\\,m^{-3}}\\).",
+      "answer": "Convert first:\n\\[\n75\\,\\mathrm{g}=0.075\\,\\mathrm{kg},\\qquad 50\\,\\mathrm{cm^3}=50\\times10^{-6}\\,\\mathrm{m^3}\n\\]\n\\[\n\\rho=\\frac{0.075}{50\\times10^{-6}}=1.5\\times10^3\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-05",
+      "prompt": "An empty flask has mass \\(0.44\\,\\mathrm{kg}\\). Filled with liquid, its mass is \\(2.84\\,\\mathrm{kg}\\). The flask volume is \\(2.0\\times10^{-3}\\,\\mathrm{m^3}\\). Find the liquid density.",
+      "answer": "The liquid mass is\n\\[\nm=2.84-0.44=2.40\\,\\mathrm{kg}\n\\]\nso\n\\[\n\\rho=\\frac{2.40}{2.0\\times10^{-3}}=1.2\\times10^3\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-06",
+      "prompt": "Two gas samples have the same mass. Sample A occupies \\(0.30\\,\\mathrm{m^3}\\), and sample B occupies \\(0.75\\,\\mathrm{m^3}\\). Find \\(\\rho_A/\\rho_B\\).",
+      "answer": "For equal masses, \\(\\rho=m/V\\), so density is inversely proportional to volume:\n\\[\n\\frac{\\rho_A}{\\rho_B}=\\frac{V_B}{V_A}=\\frac{0.75}{0.30}=2.5\n\\]\nSample A is \\(2.5\\) times as dense as sample B.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-07",
+      "prompt": "A rectangular tank has base area \\(0.015\\,\\mathrm{m^2}\\) and is filled to height \\(0.80\\,\\mathrm{m}\\) with brine of density \\(1030\\,\\mathrm{kg\\,m^{-3}}\\). Find the mass of brine.",
+      "answer": "The volume is\n\\[\nV=Ah=(0.015)(0.80)=0.012\\,\\mathrm{m^3}\n\\]\nso\n\\[\nm=\\rho V=(1030)(0.012)=12.36\\,\\mathrm{kg}\\approx12\\,\\mathrm{kg}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-08",
+      "prompt": "A spherical sealed float has radius \\(4.0\\,\\mathrm{cm}\\) and mass \\(0.20\\,\\mathrm{kg}\\). Find its average density and compare it with water density \\(1000\\,\\mathrm{kg\\,m^{-3}}\\).",
+      "answer": "The volume is\n\\[\nV=\\frac{4}{3}\\pi r^3=\\frac{4}{3}\\pi(0.040)^3=2.68\\times10^{-4}\\,\\mathrm{m^3}\n\\]\nso\n\\[\n\\rho=\\frac{0.20}{2.68\\times10^{-4}}=7.5\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]\nThis is less than \\(1000\\,\\mathrm{kg\\,m^{-3}}\\), so the average density is less than water\u0027s density.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-09",
+      "prompt": "A gas of initial density \\(1.1\\,\\mathrm{kg\\,m^{-3}}\\) is compressed from \\(1.6\\,\\mathrm{m^3}\\) to \\(0.40\\,\\mathrm{m^3}\\) without changing its mass. Find the final density.",
+      "answer": "The mass is unchanged, so \\(\\rho V\\) is constant:\n\\[\n\\rho_2=\\rho_1\\frac{V_1}{V_2}=1.1\\frac{1.6}{0.40}=4.4\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-10",
+      "prompt": "A metal sample is lowered into a measuring cylinder. The reading rises from \\(450\\,\\mathrm{mL}\\) to \\(810\\,\\mathrm{mL}\\). If the sample mass is \\(2.8\\,\\mathrm{kg}\\), find its density.",
+      "answer": "The displaced volume is\n\\[\n\\Delta V=810-450=360\\,\\mathrm{mL}=3.60\\times10^{-4}\\,\\mathrm{m^3}\n\\]\nso\n\\[\n\\rho=\\frac{2.8}{3.60\\times10^{-4}}=7.8\\times10^3\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-11",
+      "prompt": "A layer of fluid has horizontal area \\(0.50\\,\\mathrm{m^2}\\), height \\(0.40\\,\\mathrm{m}\\), and density \\(\\rho(y)=900+200y\\), where \\(y\\) is in metres and \\(\\rho\\) is in \\(\\mathrm{kg\\,m^{-3}}\\). Find the total mass.",
+      "answer": "For a horizontal layer, \\(dV=A\\,dy\\), so\n\\[\nm=\\int_0^{0.40}\\rho(y)A\\,dy\n\\]\n\\[\nm=0.50\\int_0^{0.40}(900+200y)\\,dy\n\\]\n\\[\nm=0.50\\left[900y+100y^2\\right]_0^{0.40}=0.50(360+16)=188\\,\\mathrm{kg}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-12",
+      "prompt": "A tank contains \\(0.030\\,\\mathrm{m^3}\\) of oil at \\(780\\,\\mathrm{kg\\,m^{-3}}\\) and \\(0.020\\,\\mathrm{m^3}\\) of salt solution at \\(1050\\,\\mathrm{kg\\,m^{-3}}\\). Find the average density of the combined contents.",
+      "answer": "Add masses, then divide by total volume:\n\\[\nm=(780)(0.030)+(1050)(0.020)=23.4+21.0=44.4\\,\\mathrm{kg}\n\\]\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{44.4}{0.050}=8.88\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-13",
+      "prompt": "A sealed container has outside volume \\(2.5\\times10^{-3}\\,\\mathrm{m^3}\\) and total mass \\(0.90\\,\\mathrm{kg}\\). Find the average density of the sealed object and explain why it may differ from the density of the material inside.",
+      "answer": "\\[\n\\rho_{\\mathrm{avg}}=\\frac{0.90}{2.5\\times10^{-3}}=3.6\\times10^2\\,\\mathrm{kg\\,m^{-3}}\n\\]\nThis is the average density of the entire sealed object. It can differ from the material density because the outside volume may include empty space or trapped gas.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-14",
+      "prompt": "A one-dimensional density model is \\(\\rho(x)=\\rho_0(1+x/L)\\) for \\(0\\le x\\le L\\). Derive the average density over the interval.",
+      "answer": "The average over a length is\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{1}{L}\\int_0^L \\rho(x)\\,dx\n\\]\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{\\rho_0}{L}\\int_0^L\\left(1+\\frac{x}{L}\\right)\\,dx\n=\\rho_0\\left(1+\\frac{1}{2}\\right)\n\\]\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{3}{2}\\rho_0\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-15",
+      "prompt": "A cylinder of radius \\(R\\) and height \\(H\\) contains fluid with \\(\\rho(z)=\\rho_0(1+\\beta z/H)\\) for \\(0\\le z\\le H\\). Derive the total mass and average density.",
+      "answer": "Use \\(dV=\\pi R^2\\,dz\\):\n\\[\nm=\\pi R^2\\int_0^H\\rho_0\\left(1+\\beta\\frac{z}{H}\\right)\\,dz\n\\]\n\\[\nm=\\pi R^2\\rho_0 H\\left(1+\\frac{\\beta}{2}\\right)\n\\]\nSince the total volume is \\(\\pi R^2H\\),\n\\[\n\\rho_{\\mathrm{avg}}=\\rho_0\\left(1+\\frac{\\beta}{2}\\right)\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-16",
+      "prompt": "Two liquids of densities \\(700\\,\\mathrm{kg\\,m^{-3}}\\) and \\(1100\\,\\mathrm{kg\\,m^{-3}}\\) are mixed without volume change. The total volume is \\(0.050\\,\\mathrm{m^3}\\), and the average density is \\(860\\,\\mathrm{kg\\,m^{-3}}\\). Find the volume of each liquid.",
+      "answer": "Let \\(V_1\\) be the \\(700\\,\\mathrm{kg\\,m^{-3}}\\) volume and \\(V_2\\) the \\(1100\\,\\mathrm{kg\\,m^{-3}}\\) volume.\n\\[\nV_1+V_2=0.050\n\\]\n\\[\n700V_1+1100V_2=(860)(0.050)=43.0\n\\]\nSubstitute \\(V_1=0.050-V_2\\):\n\\[\n700(0.050-V_2)+1100V_2=43.0\n\\]\n\\[\nV_2=0.020\\,\\mathrm{m^3},\\qquad V_1=0.030\\,\\mathrm{m^3}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-17",
+      "prompt": "A gas in a vertical box of area \\(A\\) and height \\(H\\) has density \\(\\rho(y)=\\rho_0(1-y/(2H))\\). Derive the total mass, state the condition that the density stays positive on the interval, and interpret the average density.",
+      "answer": "Use \\(dV=A\\,dy\\):\n\\[\nm=A\\int_0^H\\rho_0\\left(1-\\frac{y}{2H}\\right)\\,dy\n\\]\n\\[\nm=A\\rho_0H\\left(1-\\frac{1}{4}\\right)=\\frac{3}{4}\\rho_0AH\n\\]\nThe density is positive on \\(0\\le y\\le H\\) because its minimum is \\(\\rho(H)=\\rho_0/2\u003e0\\), assuming \\(\\rho_0\u003e0\\).\nThe average density is\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{m}{AH}=\\frac{3}{4}\\rho_0\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-18",
+      "prompt": "A container of unknown empty mass \\(M_c\\) is filled once with volume \\(V\\) of liquid A and once with the same volume \\(V\\) of liquid B. The filled masses are \\(M_A\\) and \\(M_B\\), with densities \\(\\rho_A\\) and \\(\\rho_B\\). Derive \\(V\\) and \\(M_c\\) in terms of the measured quantities.",
+      "answer": "The two measurements are\n\\[\nM_A=M_c+\\rho_A V,\\qquad M_B=M_c+\\rho_BV\n\\]\nSubtract:\n\\[\nM_B-M_A=(\\rho_B-\\rho_A)V\n\\]\nso\n\\[\nV=\\frac{M_B-M_A}{\\rho_B-\\rho_A}\n\\]\nThen\n\\[\nM_c=M_A-\\rho_A V\n=M_A-\\rho_A\\frac{M_B-M_A}{\\rho_B-\\rho_A}\n\\]\nThe method assumes the same filled volume in both measurements.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-19",
+      "prompt": "A spherical fluid cloud has density \\(\\rho(r)=\\rho_c(1-r^2/R^2)\\) for \\(0\\le r\\le R\\). Derive its total mass and average density.",
+      "answer": "Use spherical shells, \\(dV=4\\pi r^2\\,dr\\):\n\\[\nM=4\\pi\\rho_c\\int_0^R\\left(1-\\frac{r^2}{R^2}\\right)r^2\\,dr\n\\]\n\\[\nM=4\\pi\\rho_c\\left(\\frac{R^3}{3}-\\frac{R^3}{5}\\right)\n=\\frac{8\\pi}{15}\\rho_cR^3\n\\]\nThe sphere volume is \\(4\\pi R^3/3\\), so\n\\[\n\\rho_{\\mathrm{avg}}=\\frac{M}{(4/3)\\pi R^3}=\\frac{2}{5}\\rho_c\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fluids-density-20",
+      "prompt": "A fluid parcel initially has cross-sectional area \\(A\\), length \\(L\\), and density \\(\\rho(x)=\\rho_0(1+x/L)\\). It is stretched to length \\(\\lambda L\\) by the mapping \\(x\u0027=\\lambda x\\), with cross-section unchanged and mass conserved. Derive the new density \\(\\rho\u0027(x\u0027)\\).",
+      "answer": "Mass conservation for a small slice gives\n\\[\n\\rho\u0027(x\u0027)A\\,dx\u0027=\\rho(x)A\\,dx\n\\]\nWith \\(x\u0027=\\lambda x\\), \\(dx\u0027=\\lambda dx\\), so\n\\[\n\\rho\u0027(x\u0027)=\\frac{\\rho(x)}{\\lambda}\n\\]\nReplace \\(x=x\u0027/\\lambda\\):\n\\[\n\\rho\u0027(x\u0027)=\\frac{\\rho_0}{\\lambda}\\left(1+\\frac{x\u0027}{\\lambda L}\\right)\n\\]\nfor \\(0\\le x\u0027\\le \\lambda L\\). The density decreases because each original mass element occupies a larger volume.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "photons",
+  "topicId": "uncertainty-principle",
+  "topicTitle": "Uncertainty Principle",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "uncertainty-principle-01",
+      "prompt": "State the position-momentum uncertainty principle.",
+      "answer": "\\[\n\\Delta x\\,\\Delta p\\ge\\frac{\\hbar}{2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-02",
+      "prompt": "What is \\(\\hbar\\) in terms of \\(h\\)?",
+      "answer": "\\[\n\\hbar=\\frac{h}{2\\pi}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-03",
+      "prompt": "Is the uncertainty principle mainly a statement about poor instruments?",
+      "answer": "No. It is a limit on quantum states themselves, even with ideal measurements.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-04",
+      "prompt": "An electron is localized to \\(0.100\\,\\mathrm{nm}\\). Estimate the minimum momentum uncertainty using \\(\\hbar=1.05\\times10^{-34}\\,\\mathrm{J\\,s}\\).",
+      "answer": "\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}=\\frac{1.05\\times10^{-34}}{2(1.00\\times10^{-10})}=5.25\\times10^{-25}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-05",
+      "prompt": "A particle has \\(\\Delta x=1.0\\times10^{-12}\\,\\mathrm{m}\\). Estimate the minimum \\(\\Delta p\\).",
+      "answer": "\\[\n\\Delta p\\ge\\frac{1.05\\times10^{-34}}{2(1.0\\times10^{-12})}=5.25\\times10^{-23}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-06",
+      "prompt": "If \\(\\Delta x\\) is made ten times smaller, what happens to the minimum possible \\(\\Delta p\\)?",
+      "answer": "Since\n\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}\n\\]\nmaking \\(\\Delta x\\) ten times smaller makes the minimum \\(\\Delta p\\) ten times larger.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-07",
+      "prompt": "A particle has \\(\\Delta p=2.0\\times10^{-24}\\,\\mathrm{kg\\,m\\,s^{-1}}\\). Find the minimum \\(\\Delta x\\).",
+      "answer": "\\[\n\\Delta x\\ge\\frac{\\hbar}{2\\Delta p}=\\frac{1.05\\times10^{-34}}{2(2.0\\times10^{-24})}=2.63\\times10^{-11}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-08",
+      "prompt": "State the energy-time uncertainty estimate.",
+      "answer": "\\[\n\\Delta E\\,\\Delta t\\gtrsim\\frac{\\hbar}{2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-09",
+      "prompt": "A state lasts \\(1.0\\times10^{-9}\\,\\mathrm{s}\\). Estimate the minimum energy uncertainty.",
+      "answer": "\\[\n\\Delta E\\gtrsim\\frac{\\hbar}{2\\Delta t}=\\frac{1.05\\times10^{-34}}{2(1.0\\times10^{-9})}=5.25\\times10^{-26}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-10",
+      "prompt": "Convert \\(5.25\\times10^{-26}\\,\\mathrm{J}\\) to eV using \\(1\\,\\mathrm{eV}=1.60\\times10^{-19}\\,\\mathrm{J}\\).",
+      "answer": "\\[\n\\Delta E=\\frac{5.25\\times10^{-26}}{1.60\\times10^{-19}}=3.28\\times10^{-7}\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-11",
+      "prompt": "Why does a narrow slit imply a spread in transverse momentum?",
+      "answer": "Passing through a narrow slit localizes the particle's transverse position. The uncertainty principle then requires a larger uncertainty in transverse momentum, which appears as diffraction.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-12",
+      "prompt": "A beam is localized to a slit of width \\(a\\). What rough momentum spread scale follows from de Broglie reasoning?",
+      "answer": "The transverse momentum spread is of order\n\\[\n\\Delta p_y\\sim\\frac{h}{a}\n\\]\nup to factors of order 1.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-13",
+      "prompt": "Can \\(\\Delta x\\) and \\(\\Delta p\\) both be zero for the same particle state?",
+      "answer": "No. If both were zero, their product would be zero, violating\n\\[\n\\Delta x\\,\\Delta p\\ge\\frac{\\hbar}{2}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-14",
+      "prompt": "If \\(\\Delta x\\) is very large, does the uncertainty principle force \\(\\Delta p\\) to be large?",
+      "answer": "No. The lower bound on \\(\\Delta p\\) is \\(\\hbar/(2\\Delta x)\\), so a very large \\(\\Delta x\\) allows a small momentum uncertainty.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-15",
+      "prompt": "A particle is localized to nuclear scale, \\(\\Delta x=1.0\\times10^{-15}\\,\\mathrm{m}\\). Estimate \\(\\Delta p_{\\min}\\).",
+      "answer": "\\[\n\\Delta p\\ge\\frac{1.05\\times10^{-34}}{2(1.0\\times10^{-15})}=5.25\\times10^{-20}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-16",
+      "prompt": "Why is confinement energy important for light particles such as electrons?",
+      "answer": "Strong confinement makes \\(\\Delta x\\) small, forcing a large \\(\\Delta p\\). For a light particle, that momentum spread corresponds to significant kinetic energy.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-17",
+      "prompt": "A short-lived excited state has lifetime \\(2.0\\times10^{-15}\\,\\mathrm{s}\\). Estimate its minimum energy width in joules.",
+      "answer": "\\[\n\\Delta E\\gtrsim\\frac{1.05\\times10^{-34}}{2(2.0\\times10^{-15})}=2.63\\times10^{-20}\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-18",
+      "prompt": "Convert the energy width in question 17 to eV.",
+      "answer": "\\[\n\\Delta E=\\frac{2.63\\times10^{-20}}{1.60\\times10^{-19}}=0.164\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-19",
+      "prompt": "Explain why the uncertainty principle is consistent with diffraction.",
+      "answer": "A narrow aperture makes transverse position more certain. The resulting momentum uncertainty gives a range of transverse momenta, so the beam spreads into a diffraction pattern.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "uncertainty-principle-20",
+      "prompt": "Derive the minimum momentum uncertainty for a given position uncertainty.",
+      "answer": "Start with\n\\[\n\\Delta x\\,\\Delta p\\ge\\frac{\\hbar}{2}\n\\]\nDivide both sides by \\(\\Delta x\\):\n\\[\n\\Delta p\\ge\\frac{\\hbar}{2\\Delta x}\n\\]\nThis gives the minimum possible momentum uncertainty for a specified \\(\\Delta x\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

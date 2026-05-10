@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "atomic-quantum-structure",
+  "topicId": "exclusion-principle",
+  "topicTitle": "Exclusion Principle",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "exclusion-principle-01",
+      "prompt": "State the Pauli exclusion principle for electrons in an atom.",
+      "answer": "No two electrons in the same atom can have the same complete set of four quantum numbers.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-02",
+      "prompt": "List the four quantum numbers used to label an electron in an atom.",
+      "answer": "\\[\n(n,\\ell,m_\\ell,m_s)\n\\]\nThey are the principal, orbital angular momentum, magnetic, and spin projection quantum numbers.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-03",
+      "prompt": "Why can a \\(1s\\) orbital hold only two electrons?",
+      "answer": "For a \\(1s\\) orbital, \\(n=1\\), \\(\\ell=0\\), and \\(m_\\ell=0\\) are fixed. Only two spin values remain, \\(m_s=+1/2\\) and \\(m_s=-1/2\\), so the orbital can hold at most two electrons.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-04",
+      "prompt": "Two electrons occupy the same spatial orbital. What must be true about their spin quantum numbers?",
+      "answer": "Their spin projection quantum numbers must be opposite:\n\\[\nm_s=+\\frac12\\quad\\mathrm{and}\\quad m_s=-\\frac12\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-05",
+      "prompt": "What is the maximum number of electrons in a shell with principal quantum number \\(n\\)?",
+      "answer": "\\[\nN_e=2n^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-06",
+      "prompt": "How many electrons can fit in the \\(n=2\\) shell?",
+      "answer": "\\[\nN_e=2n^2=2(2^2)=8\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-07",
+      "prompt": "How many electrons can fit in the \\(n=3\\) shell?",
+      "answer": "\\[\nN_e=2n^2=2(3^2)=18\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-08",
+      "prompt": "How many electrons can a \\(p\\) subshell hold?",
+      "answer": "A \\(p\\) subshell has \\(\\ell=1\\), so it has \\(2\\ell+1=3\\) orbitals. Each orbital holds two electrons:\n\\[\nN_e=2(3)=6\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-09",
+      "prompt": "How many electrons can a \\(d\\) subshell hold?",
+      "answer": "A \\(d\\) subshell has \\(\\ell=2\\), so it has \\(2\\ell+1=5\\) orbitals. Each orbital holds two electrons:\n\\[\nN_e=2(5)=10\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-10",
+      "prompt": "Can two electrons in one atom both have \\(n=2\\), \\(\\ell=1\\), \\(m_\\ell=0\\), and \\(m_s=+1/2\\)?",
+      "answer": "No. That would give the two electrons the same four quantum numbers, which violates the Pauli exclusion principle.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-11",
+      "prompt": "What kind of particles does the Pauli exclusion principle apply to?",
+      "answer": "It applies to identical fermions. Electrons are fermions, so atomic electrons obey the exclusion principle.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-12",
+      "prompt": "Why does the Pauli exclusion principle help explain the periodic table?",
+      "answer": "It limits how many electrons can occupy each orbital, subshell, and shell. These filling limits create repeated valence-electron patterns, which produce chemical periodicity.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-13",
+      "prompt": "For fixed \\(n\\), \\(\\ell\\), and \\(m_\\ell\\), how many electrons are allowed?",
+      "answer": "At most two electrons are allowed, because only two spin projections are possible:\n\\[\nm_s=+\\frac12\\quad\\mathrm{or}\\quad m_s=-\\frac12\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-14",
+      "prompt": "What is the electron capacity of a subshell with orbital quantum number \\(\\ell\\)?",
+      "answer": "A subshell has \\(2\\ell+1\\) orbitals, and each orbital holds two electrons:\n\\[\nN_e=2(2\\ell+1)\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-15",
+      "prompt": "Use the exclusion principle to explain why a single orbital has capacity 2.",
+      "answer": "A spatial orbital fixes \\(n\\), \\(\\ell\\), and \\(m_\\ell\\). The two allowed electron states differ only by spin, \\(m_s=+1/2\\) or \\(m_s=-1/2\\). A third electron would have to duplicate one of those complete quantum states.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-16",
+      "prompt": "Why is the helium ground-state configuration \\(1s^2\\) allowed?",
+      "answer": "The two helium electrons share the same \\(1s\\) spatial orbital but have opposite spin projections, so their full quantum-number sets are different.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-17",
+      "prompt": "Why does the third electron in lithium enter a \\(2s\\) orbital rather than the \\(1s\\) orbital?",
+      "answer": "The \\(1s\\) orbital is already full with two opposite-spin electrons. A third electron in \\(1s\\) would have to duplicate an occupied quantum state, so it enters the next available orbital.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-18",
+      "prompt": "What is the difference between the Pauli exclusion principle and Hund's rule?",
+      "answer": "The Pauli exclusion principle forbids identical fermions from sharing the same full quantum state. Hund's rule describes the lower-energy ordering of electrons within degenerate orbitals, favoring unpaired parallel spins before pairing.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-19",
+      "prompt": "How does the Pauli exclusion principle affect dense matter?",
+      "answer": "It prevents many electrons from collapsing into the same low-energy state. In very dense matter this creates electron degeneracy pressure, which is important in compact astrophysical objects.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "exclusion-principle-20",
+      "prompt": "Derive the \\(2n^2\\) shell capacity from state counting.",
+      "answer": "For a fixed shell \\(n\\), the allowed \\(\\ell\\) values are \\(0\\) to \\(n-1\\). Each \\(\\ell\\) gives \\(2\\ell+1\\) values of \\(m_\\ell\\), and each spatial state has two spin states:\n\\[\nN_e=2\\sum_{\\ell=0}^{n-1}(2\\ell+1)=2n^2\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

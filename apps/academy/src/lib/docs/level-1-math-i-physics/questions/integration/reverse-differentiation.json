@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "reverse-differentiation",
+  "topicTitle": "Reverse Differentiation",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "rd-1",
+      "prompt": "Find the antiderivative of 4x^3.",
+      "answer": "x^4 + C",
+      "hints": ["Multiply coefficient by new power."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-2",
+      "prompt": "Find the antiderivative of 6.",
+      "answer": "6x + C",
+      "hints": ["Constant integrates to constant times x."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-3",
+      "prompt": "Find the antiderivative of e^x.",
+      "answer": "e^x + C",
+      "hints": ["e^x is its own antiderivative."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-4",
+      "prompt": "Find the antiderivative of 2x + 1.",
+      "answer": "x^2 + x + C",
+      "hints": ["Integrate each term separately."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-5",
+      "prompt": "Find the antiderivative of sin x.",
+      "answer": "-cos x + C",
+      "hints": ["Sine integrates to negative cosine."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-6",
+      "prompt": "Find F(x) if F'(x) = 4x^3 and F(0) = 5.",
+      "answer": "x^4 + 5",
+      "hints": ["General antiderivative: x^4 + C, then F(0)=5."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-7",
+      "prompt": "Find the antiderivative of x^{-2}.",
+      "answer": "-1/x + C",
+      "hints": ["x^{-2+1}/(-2+1) = x^{-1}/(-1) = -1/x."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-8",
+      "prompt": "Find the antiderivative of sec^2 x.",
+      "answer": "tan x + C",
+      "hints": ["Derivative of tan x is sec^2 x."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-9",
+      "prompt": "Find the antiderivative of 1/(1+x^2).",
+      "answer": "arctan x + C",
+      "hints": ["Standard integral."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "rd-10",
+      "prompt": "Find the antiderivative of x(x+1)^2.",
+      "answer": "(x+1)^3/3 - (x+1)^2/2 + C",
+      "hints": ["Expand or substitute u=x+1."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

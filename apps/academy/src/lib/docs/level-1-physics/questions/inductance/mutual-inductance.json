@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "mutual-inductance",
+  "topicTitle": "Mutual Inductance",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "mutual-inductance-01",
+      "prompt": "What does mutual inductance measure?",
+      "answer": "Mutual inductance measures how strongly a changing current in one circuit changes the magnetic flux linkage of another circuit.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-02",
+      "prompt": "State the definition of mutual inductance using flux linkage.",
+      "answer": "For flux linkage in circuit 2 due to current in circuit 1,\n\\[\nM=\\frac{N_2\\Phi_{21}}{I_1}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-03",
+      "prompt": "State the induced emf in circuit 2 when current \\(I_1\\) changes in circuit 1.",
+      "answer": "For constant mutual inductance,\n\\[\n\\mathcal E_2=-M\\frac{dI_1}{dt}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-04",
+      "prompt": "Two coils have \\(M=0.20\\,\\mathrm{H}\\). The current in coil 1 changes at \\(5.0\\,\\mathrm{A\\,s^{-1}}\\). Find \\(|\\mathcal E_2|\\).",
+      "answer": "\\[\n|\\mathcal E_2|=M\\left|\\frac{dI_1}{dt}\\right|=(0.20)(5.0)=1.0\\,\\mathrm{V}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-05",
+      "prompt": "A current in coil 1 is constant. What emf is induced in coil 2 by mutual inductance?",
+      "answer": "No emf is induced by mutual inductance because\n\\[\n\\frac{dI_1}{dt}=0\n\\]\nso\n\\[\n\\mathcal E_2=-M\\frac{dI_1}{dt}=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-06",
+      "prompt": "A coil with \\(N_2=200\\) has flux per turn \\(3.0\\times10^{-5}\\,\\mathrm{Wb}\\) due to \\(I_1=2.0\\,\\mathrm{A}\\). Find \\(M\\).",
+      "answer": "\\[\nM=\\frac{N_2\\Phi_{21}}{I_1}=\\frac{(200)(3.0\\times10^{-5})}{2.0}=3.0\\times10^{-3}\\,\\mathrm{H}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-07",
+      "prompt": "Two coils have \\(L_1=4.0\\,\\mathrm{H}\\), \\(L_2=9.0\\,\\mathrm{H}\\), and coupling coefficient \\(k=0.50\\). Find \\(M\\).",
+      "answer": "\\[\nM=k\\sqrt{L_1L_2}=0.50\\sqrt{(4.0)(9.0)}=3.0\\,\\mathrm{H}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-08",
+      "prompt": "Coils have \\(L_1=0.80\\,\\mathrm{H}\\), \\(L_2=0.20\\,\\mathrm{H}\\), and \\(M=0.20\\,\\mathrm{H}\\). Find the coupling coefficient.",
+      "answer": "\\[\nk=\\frac{M}{\\sqrt{L_1L_2}}=\\frac{0.20}{\\sqrt{(0.80)(0.20)}}=0.50\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-09",
+      "prompt": "What does the minus sign in \\(\\mathcal E_2=-M\\,dI_1/dt\\) represent?",
+      "answer": "The minus sign represents Lenz's law. The induced emf is directed so that its effects oppose the change in flux linkage that produced it.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-10",
+      "prompt": "If two coils are moved farther apart, what usually happens to their mutual inductance?",
+      "answer": "Their mutual inductance usually decreases because a smaller fraction of the magnetic flux produced by one coil links the other coil.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-11",
+      "prompt": "Why is \\(M_{12}=M_{21}\\) for ordinary stationary linear circuits?",
+      "answer": "The same magnetic coupling links the two circuits in either direction. In ordinary reciprocal magnetic systems, the flux linkage per current is symmetric, so\n\\[\nM_{12}=M_{21}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-12",
+      "prompt": "A current changes from \\(1.0\\,\\mathrm{A}\\) to \\(4.0\\,\\mathrm{A}\\) in \\(0.020\\,\\mathrm{s}\\). With \\(M=0.060\\,\\mathrm{H}\\), find the average induced emf magnitude.",
+      "answer": "\\[\n\\left|\\frac{\\Delta I}{\\Delta t}\\right|=\\frac{4.0-1.0}{0.020}=150\\,\\mathrm{A\\,s^{-1}}\n\\]\n\\[\n|\\mathcal E|=M\\left|\\frac{\\Delta I}{\\Delta t}\\right|=(0.060)(150)=9.0\\,\\mathrm{V}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-13",
+      "prompt": "Derive \\(\\mathcal E_2=-M\\,dI_1/dt\\) from flux linkage.",
+      "answer": "For a linear system,\n\\[\nN_2\\Phi_{21}=MI_1\n\\]\nFaraday's law for circuit 2 gives\n\\[\n\\mathcal E_2=-\\frac{d}{dt}(N_2\\Phi_{21})\n\\]\nTherefore\n\\[\n\\mathcal E_2=-M\\frac{dI_1}{dt}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-14",
+      "prompt": "Why is mutual inductance useful in transformer modeling?",
+      "answer": "A transformer transfers changing magnetic flux from one coil to another. Mutual inductance captures how a changing primary current induces emf in the secondary without requiring the full magnetic-field geometry every time.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-15",
+      "prompt": "Can \\(M\\) be larger than \\(\\sqrt{L_1L_2}\\) for passive coupled coils? Explain.",
+      "answer": "No. For passive coupled coils,\n\\[\nM=k\\sqrt{L_1L_2}\n\\]\nwith\n\\[\n0\\le k\\le1\n\\]\nso \\(M\\le\\sqrt{L_1L_2}\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-16",
+      "prompt": "Two coils have \\(M=0.15\\,\\mathrm{H}\\). If \\(I_1(t)=2.0t^2\\) in amperes with \\(t\\) in seconds, find \\(\\mathcal E_2\\) at \\(t=3.0\\,\\mathrm{s}\\).",
+      "answer": "\\[\n\\frac{dI_1}{dt}=4.0t\n\\]\nAt \\(t=3.0\\,\\mathrm{s}\\),\n\\[\n\\frac{dI_1}{dt}=12\\,\\mathrm{A\\,s^{-1}}\n\\]\nThus\n\\[\n\\mathcal E_2=-M\\frac{dI_1}{dt}=-(0.15)(12)=-1.8\\,\\mathrm{V}\n\\]\nThe sign depends on the chosen terminal convention.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-17",
+      "prompt": "A pair of coils has \\(L_1=2.0\\,\\mathrm{H}\\), \\(L_2=8.0\\,\\mathrm{H}\\), and \\(k=1\\). What is the maximum possible mutual inductance?",
+      "answer": "\\[\nM_{\\max}=\\sqrt{L_1L_2}=\\sqrt{(2.0)(8.0)}=4.0\\,\\mathrm{H}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-18",
+      "prompt": "A secondary coil is open-circuit. Can a changing primary current still induce emf in it?",
+      "answer": "Yes. Faraday's law induces emf from changing flux linkage even if the secondary circuit is open. An open circuit prevents sustained current, but it does not prevent an induced potential difference.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-19",
+      "prompt": "Why does inserting an iron core usually increase mutual inductance between two coils?",
+      "answer": "An iron core has high permeability, so the same current can produce larger magnetic flux and guide more of that flux through the other coil. Greater shared flux linkage per current means larger \\(M\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "mutual-inductance-20",
+      "prompt": "Explain the difference between mutual inductance and self-inductance using flux linkage.",
+      "answer": "Self-inductance relates a circuit's own current to its own flux linkage:\n\\[\nN\\Phi_B=LI\n\\]\nMutual inductance relates current in one circuit to flux linkage in another:\n\\[\nN_2\\Phi_{21}=MI_1\n\\]\nSelf-inductance produces back emf in the same circuit; mutual inductance produces induced emf in a coupled circuit.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

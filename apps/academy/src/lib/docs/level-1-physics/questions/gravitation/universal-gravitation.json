@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "universal-gravitation",
+  "topicTitle": "Universal Gravitation",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "universal-gravitation-01",
+      "prompt": "Two isolated masses attract gravitationally. What direction is the force on each mass?",
+      "answer": "Each force points along the line joining the masses, toward the other mass. The two forces have equal magnitude and opposite directions.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-02",
+      "prompt": "One mass is doubled, the other is tripled, and their separation is quadrupled. By what factor does the gravitational force magnitude change?",
+      "answer": "The force scales as\n\\[\nF_g\\propto \\frac{m_1m_2}{r^2}\n\\]\nso the factor is\n\\[\n\\frac{2\\cdot 3}{4^2}=\\frac{6}{16}=\\frac{3}{8}\n\\]\nThe new force is \\(3/8\\) of the original force.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-03",
+      "prompt": "Using \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\), find the gravitational force magnitude between \\(6.0\\,\\mathrm{kg}\\) and \\(9.0\\,\\mathrm{kg}\\) masses separated by \\(0.30\\,\\mathrm{m}\\).",
+      "answer": "\\[\nF_g=G\\frac{m_1m_2}{r^2}\n\\]\n\\[\nF_g=(6.67\\times10^{-11})\\frac{(6.0)(9.0)}{(0.30)^2}\n=4.0\\times10^{-8}\\,\\mathrm{N}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-04",
+      "prompt": "Outside a spherical body of mass \\(4.5\\times10^{24}\\,\\mathrm{kg}\\), find the gravitational field magnitude at \\(r=9.0\\times10^6\\,\\mathrm{m}\\) from its center.",
+      "answer": "\\[\ng=G\\frac{M}{r^2}\n\\]\n\\[\ng=(6.67\\times10^{-11})\\frac{4.5\\times10^{24}}{(9.0\\times10^6)^2}\n=3.7\\,\\mathrm{N\\,kg^{-1}}\n\\]\nThe field points toward the body\u0027s center.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-05",
+      "prompt": "A test mass \\(m\\) is at \\(x=a\\), and a source mass \\(M\\) is at the origin. Write the vector gravitational force on \\(m\\) using \\(\\hat{\\imath}\\).",
+      "answer": "The outward radial direction from the source to the test mass is \\(+\\hat{\\imath}\\), but gravity is attractive. Therefore\n\\[\n\\vec F_g=-G\\frac{Mm}{a^2}\\hat{\\imath}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-06",
+      "prompt": "A probe moves from radius \\(R\\) to radius \\(3R\\) around the same spherical source. What happens to the gravitational field magnitude and to the probe\u0027s weight?",
+      "answer": "Both field magnitude and weight scale as \\(1/r^2\\) for the same source:\n\\[\n\\frac{g(3R)}{g(R)}=\\frac{R^2}{(3R)^2}=\\frac{1}{9}\n\\]\nThe field magnitude becomes one ninth as large, and the probe\u0027s weight also becomes one ninth as large. The probe\u0027s mass is unchanged.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-07",
+      "prompt": "Around a body of mass \\(5.0\\times10^{24}\\,\\mathrm{kg}\\), at what radius is the gravitational field magnitude \\(1.5\\,\\mathrm{N\\,kg^{-1}}\\)? Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "Start from\n\\[\ng=G\\frac{M}{r^2}\n\\]\nso\n\\[\nr=\\sqrt{\\frac{GM}{g}}\n\\]\n\\[\nr=\\sqrt{\\frac{(6.67\\times10^{-11})(5.0\\times10^{24})}{1.5}}\n=1.49\\times10^7\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-08",
+      "prompt": "Two equal masses are fixed at \\(x=0\\) and \\(x=d\\). Where on the line between them is the net gravitational field zero, and why is it not zero outside the interval?",
+      "answer": "By symmetry the zero-field point is halfway between the equal masses:\n\\[\nx=\\frac{d}{2}\n\\]\nInside the interval, the two fields point in opposite directions. Outside the interval, both gravitational fields point toward the two masses on the same side, so they add rather than cancel.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-09",
+      "prompt": "Mass \\(M\\) is fixed at \\(x=0\\), and mass \\(9M\\) is fixed at \\(x=d\\). Find the point between them where the net gravitational field is zero.",
+      "answer": "Let the zero-field point be \\(x\\) from mass \\(M\\), so its distance from \\(9M\\) is \\(d-x\\). Between the masses the fields oppose, so set magnitudes equal:\n\\[\nG\\frac{M}{x^2}=G\\frac{9M}{(d-x)^2}\n\\]\n\\[\n(d-x)^2=9x^2\n\\]\nUsing the positive distance root,\n\\[\nd-x=3x\n\\]\n\\[\nx=\\frac{d}{4}\n\\]\nThe zero-field point is closer to the smaller mass.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "universal-gravitation-10",
+      "prompt": "Two spherical source masses \\(M_A\\) and \\(M_B\\) are separated by distance \\(d\\). Derive the location of the zero-field point between them, measured from \\(M_A\\), and interpret which source it lies closer to.",
+      "answer": "Let the point be \\(x\\) from \\(M_A\\), so it is \\(d-x\\) from \\(M_B\\). Between the masses, the fields point in opposite directions. Equating magnitudes gives\n\\[\nG\\frac{M_A}{x^2}=G\\frac{M_B}{(d-x)^2}\n\\]\n\\[\n\\frac{d-x}{x}=\\sqrt{\\frac{M_B}{M_A}}\n\\]\nso\n\\[\nx=\\frac{d}{1+\\sqrt{M_B/M_A}}\n\\]\nThe zero-field point lies closer to the smaller mass because the smaller source must be approached more closely for its field to match the larger source\u0027s field.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

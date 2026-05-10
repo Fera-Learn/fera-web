@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "real-numbers",
+  "topicId": "real-numbers",
+  "topicTitle": "Real Numbers",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-real-numbers-01",
+      "prompt": "In this course convention, which of the following sets contain \\(0\\): \\(\\mathbb R\\), \\(\\mathbb Z\\), and \\(\\mathbb N\\)?",
+      "answer": "\\(0\\) is a real number, an integer, and a non-negative integer. Therefore \\(0\\in\\mathbb R\\), \\(0\\in\\mathbb Z\\), and \\(0\\in\\mathbb N\\) in this course convention.",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-02",
+      "prompt": "State the restriction needed for the expression \\(\\frac{7}{x-4}\\) to be defined.",
+      "answer": "Division by zero is not defined, so the denominator must not be zero:\n\\[\nx-4\\ne0\n\\]\nHence\n\\[\nx\\ne4\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-03",
+      "prompt": "Explain why \\(\\frac{a}{0}\\) is not allowed in real-number algebra.",
+      "answer": "Division by \\(b\\) asks for a number which, when multiplied by \\(b\\), gives the numerator. If \\(b=0\\), multiplication by \\(0\\) always gives \\(0\\), so it cannot recover a general numerator. To keep algebra consistent, division by zero is excluded.",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-04",
+      "prompt": "For nonzero \\(a\\), evaluate \\(a^0\\).",
+      "answer": "The course uses the standard zero-power convention\n\\[\na^0=1\\quad\\text{for}\\quad a\\ne0\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-05",
+      "prompt": "Write \\(a^5\\) using only multiplication symbols.",
+      "answer": "For a positive integer power, the exponent counts repeated multiplication:\n\\[\na^5=a\\cdot a\\cdot a\\cdot a\\cdot a\n\\]",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-06",
+      "prompt": "Simplify \\(\\frac{1}{a}+\\frac{1}{b}\\), stating the restrictions.",
+      "answer": "The denominators require \\(a\\ne0\\) and \\(b\\ne0\\). Then\n\\[\n\\frac{1}{a}+\\frac{1}{b}=\\frac{b}{ab}+\\frac{a}{ab}=\\frac{a+b}{ab}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-07",
+      "prompt": "Simplify \\(\\frac{x^2-9}{x-3}\\), and state any value of \\(x\\) that is still excluded.",
+      "answer": "The original expression requires \\(x\\ne3\\). Factor the numerator:\n\\[\n\\frac{x^2-9}{x-3}=\\frac{(x-3)(x+3)}{x-3}=x+3\n\\]\nSo the simplified expression is \\(x+3\\), but only for \\(x\\ne3\\).",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-08",
+      "prompt": "Find the restrictions on \\(x\\) for \\(\\frac{x+1}{x^2-4}\\).",
+      "answer": "The denominator must not be zero. Factor it:\n\\[\nx^2-4=(x-2)(x+2)\n\\]\nTherefore\n\\[\nx\\ne2,\\qquad x\\ne-2\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-09",
+      "prompt": "Simplify \\(\\frac{1/a+1/b}{1/(a-b)}\\), stating the restrictions.",
+      "answer": "The expression requires \\(a\\ne0\\), \\(b\\ne0\\), and \\(a-b\\ne0\\). Then\n\\[\n\\frac{1/a+1/b}{1/(a-b)}=\\frac{(a+b)/(ab)}{1/(a-b)}\n\\]\n\\[\n=\\frac{(a+b)(a-b)}{ab}=\\frac{a^2-b^2}{ab}\n\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-10",
+      "prompt": "Solve the inequality \\(-3x+5<14\\).",
+      "answer": "Subtract \\(5\\):\n\\[\n-3x<9\n\\]\nDivide by \\(-3\\), reversing the inequality sign:\n\\[\nx>-3\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-11",
+      "prompt": "A student writes \\(\\frac{x^2-1}{x-1}=x+1\\), so \\(x=1\\) is allowed in the simplified form. Identify the mistake.",
+      "answer": "The original expression has denominator \\(x-1\\), so \\(x=1\\) is not allowed. Cancelling the factor \\((x-1)\\) gives\n\\[\n\\frac{x^2-1}{x-1}=x+1\\quad\\text{for}\\quad x\\ne1\n\\]\nThe cancellation does not restore the excluded value.",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-12",
+      "prompt": "Show that \\((a-b)(a+b)=a^2-b^2\\).",
+      "answer": "Expand using distributivity:\n\\[\n(a-b)(a+b)=a(a+b)-b(a+b)\n\\]\n\\[\n=a^2+ab-ab-b^2=a^2-b^2\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-13",
+      "prompt": "For real \\(a\\), compare \\((-a)^2\\) and \\(-a^2\\). Are they always equal?",
+      "answer": "They are not always equal. Since\n\\[\n(-a)^2=(-a)(-a)=a^2\n\\]\nbut\n\\[\n-a^2=-(a^2)\n\\]\nThey are equal only when \\(a^2=0\\), so only when \\(a=0\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-14",
+      "prompt": "Find the restrictions on \\(x\\) for \\(\\frac{2x}{(x-1)(x+5)}+\\frac{3}{x+5}\\).",
+      "answer": "Every denominator must be nonzero. The first denominator excludes \\(x=1\\) and \\(x=-5\\). The second denominator also excludes \\(x=-5\\). Therefore\n\\[\nx\\ne1,\\qquad x\\ne-5\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-15",
+      "prompt": "Simplify \\(\\frac{x^2-4}{x^2+x-6}\\), stating all restrictions.",
+      "answer": "Factor numerator and denominator:\n\\[\nx^2-4=(x-2)(x+2),\\qquad x^2+x-6=(x+3)(x-2)\n\\]\nThe original denominator requires \\(x\\ne-3\\) and \\(x\\ne2\\). Thus\n\\[\n\\frac{x^2-4}{x^2+x-6}=\\frac{(x-2)(x+2)}{(x+3)(x-2)}=\\frac{x+2}{x+3}\n\\]\nfor \\(x\\ne-3,2\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-16",
+      "prompt": "Solve \\(2<5-x\\le8\\).",
+      "answer": "Handle both sides. From \\(2<5-x\\), subtract \\(5\\): \\(-3<-x\\), so \\(x<3\\). From \\(5-x\\le8\\), subtract \\(5\\): \\(-x\\le3\\), so \\(x\\ge-3\\). Therefore\n\\[\n-3\\le x<3\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-17",
+      "prompt": "For a real parameter \\(c\\), simplify \\(\\frac{x^2-c^2}{x-c}\\), and state the restriction.",
+      "answer": "The denominator requires \\(x\\ne c\\). Factor the numerator:\n\\[\nx^2-c^2=(x-c)(x+c)\n\\]\nThus\n\\[\n\\frac{x^2-c^2}{x-c}=x+c\\quad\\text{for}\\quad x\\ne c\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-18",
+      "prompt": "Use the definition of positive integer powers to show that \\(a^m a^n=a^{m+n}\\) for positive integers \\(m\\) and \\(n\\).",
+      "answer": "\\(a^m\\) is \\(m\\) copies of \\(a\\) multiplied together, and \\(a^n\\) is \\(n\\) copies of \\(a\\). Their product is therefore \\(m+n\\) copies of \\(a\\) multiplied together, so\n\\[\na^m a^n=a^{m+n}\n\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-19",
+      "prompt": "A student solves \\((x-2)y=0\\) by dividing both sides by \\(x-2\\), obtaining \\(y=0\\). What condition did the student forget?",
+      "answer": "Dividing by \\(x-2\\) is allowed only if \\(x-2\\ne0\\), so only if \\(x\\ne2\\). If \\(x=2\\), then \\((x-2)y=0\\) becomes \\(0=0\\), which gives no restriction on \\(y\\).",
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-20",
+      "prompt": "Find all real \\(x\\) for which \\(\\frac{x-1}{x^2-1}\\) is defined, then simplify the expression.",
+      "answer": "Factor the denominator:\n\\[\nx^2-1=(x-1)(x+1)\n\\]\nThe expression is defined only when \\(x\\ne1\\) and \\(x\\ne-1\\). For those values,\n\\[\n\\frac{x-1}{x^2-1}=\\frac{x-1}{(x-1)(x+1)}=\\frac{1}{x+1}\n\\]\nwith \\(x\\ne1,-1\\).",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-21",
+      "prompt": "Prove that if \\(a>b\\), then \\(-a<-b\\).",
+      "answer": "Starting from \\(a>b\\), subtract \\(a+b\\) from both sides:\n\\[\na-(a+b)>b-(a+b)\n\\]\nThis gives\n\\[\n-b>-a\n\\]\nwhich is the same statement as\n\\[\n-a<-b\n\\]",
+      "rating": "***+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-22",
+      "prompt": "Find the largest real-number domain of \\(F(x)=\\frac{x+2}{x(x-2)}\\).",
+      "answer": "The denominator is \\(x(x-2)\\), so it is zero when \\(x=0\\) or \\(x=2\\). Therefore the largest real-number domain is\n\\[\n\\mathbb R\\setminus\\{0,2\\}\n\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-23",
+      "prompt": "For which real values of \\(a\\) is the statement \\(a^0=1\\) being used in this topic?",
+      "answer": "It is being used for real \\(a\\) with \\(a\\ne0\\). The topic explicitly defines\n\\[\na^0=1\\quad\\text{for nonzero real }a\n\\]\nand does not use \\(0^0\\).",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-real-numbers-24",
+      "prompt": "A simplification gives \\(\\frac{(x-2)(x+1)}{x-2}=x+1\\). Explain why this is an equality of expressions with a condition, not an unrestricted identity.",
+      "answer": "The original denominator is \\(x-2\\), so the original expression is not defined at \\(x=2\\). The equality is valid only after excluding that value:\n\\[\n\\frac{(x-2)(x+1)}{x-2}=x+1\\quad\\text{for}\\quad x\\ne2\n\\]\nWithout the condition, the right side is defined at \\(x=2\\) while the left side is not.",
+      "rating": "****",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

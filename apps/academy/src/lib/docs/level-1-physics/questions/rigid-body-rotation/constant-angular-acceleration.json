@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "rigid-body-rotation",
+  "topicId": "constant-angular-acceleration",
+  "topicTitle": "Constant Angular Acceleration",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "constant-angular-acceleration-01",
+      "prompt": "A wheel starts from rest with \\(\\alpha=2.0\\,\\mathrm{rad\\,s^{-2}}\\) for \\(3.0\\,\\mathrm{s}\\). Find \\(\\omega\\).",
+      "answer": "\\[\n\\omega=\\omega_0+\\alpha t=0+2.0(3.0)=6.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-02",
+      "prompt": "A wheel turns through \\(10\\,\\mathrm{rad}\\) in \\(2.0\\,\\mathrm{s}\\) at constant angular velocity. Find \\(\\omega\\).",
+      "answer": "\\[\n\\omega=\\frac{\\Delta\\theta}{\\Delta t}=\\frac{10}{2.0}=5.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-03",
+      "prompt": "Convert \\(5.0\\) revolutions to radians.",
+      "answer": "\\[\n5.0\\,\\mathrm{rev}=5.0(2\\pi)=10\\pi\\,\\mathrm{rad}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-04",
+      "prompt": "A wheel has \\(\\omega_0=4.0\\,\\mathrm{rad\\,s^{-1}}\\), \\(\\alpha=3.0\\,\\mathrm{rad\\,s^{-2}}\\), and \\(t=5.0\\,\\mathrm{s}\\). Find \\(\\omega\\) and \\(\\Delta\\theta\\).",
+      "answer": "\\[\n\\omega=\\omega_0+\\alpha t=4.0+3.0(5.0)=19\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\n\\Delta\\theta=\\omega_0t+\\frac{1}{2}\\alpha t^2=4.0(5.0)+\\frac{1}{2}(3.0)(5.0)^2=57.5\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-05",
+      "prompt": "A rotor slows from \\(20\\,\\mathrm{rad\\,s^{-1}}\\) to \\(5.0\\,\\mathrm{rad\\,s^{-1}}\\) in \\(3.0\\,\\mathrm{s}\\). Find \\(\\alpha\\) and \\(\\Delta\\theta\\).",
+      "answer": "\\[\n\\alpha=\\frac{\\omega-\\omega_0}{t}=\\frac{5.0-20}{3.0}=-5.0\\,\\mathrm{rad\\,s^{-2}}\n\\]\n\\[\n\\Delta\\theta=\\frac{1}{2}(\\omega_0+\\omega)t=\\frac{1}{2}(20+5.0)(3.0)=37.5\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-06",
+      "prompt": "A disk starts from rest and has \\(\\alpha=4.0\\,\\mathrm{rad\\,s^{-2}}\\). Find its angular speed after turning through \\(18\\,\\mathrm{rad}\\).",
+      "answer": "Use the no-time equation:\n\\[\n\\omega^2=\\omega_0^2+2\\alpha\\Delta\\theta\n\\]\n\\[\n\\omega=\\sqrt{2(4.0)(18)}=12\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-07",
+      "prompt": "A wheel has \\(\\omega_0=2.0\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\alpha=3.0\\,\\mathrm{rad\\,s^{-2}}\\). Find the positive time when it has turned through \\(20\\,\\mathrm{rad}\\).",
+      "answer": "\\[\n20=2.0t+\\frac{1}{2}(3.0)t^2\n\\]\n\\[\n1.5t^2+2.0t-20=0\n\\]\n\\[\nt=\\frac{-2.0+\\sqrt{2.0^2+4(1.5)(20)}}{3.0}=3.05\\,\\mathrm{s}\n\\]\nThe negative root is not a future time.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-08",
+      "prompt": "A rotor decelerates uniformly from \\(50\\,\\mathrm{rad\\,s^{-1}}\\) to \\(10\\,\\mathrm{rad\\,s^{-1}}\\) with \\(\\alpha=-5.0\\,\\mathrm{rad\\,s^{-2}}\\), then coasts for \\(6.0\\,\\mathrm{s}\\) at \\(10\\,\\mathrm{rad\\,s^{-1}}\\). Find the total angular displacement.",
+      "answer": "First find the deceleration time:\n\\[\nt_1=\\frac{10-50}{-5.0}=8.0\\,\\mathrm{s}\n\\]\nAngular displacement during deceleration:\n\\[\n\\Delta\\theta_1=\\frac{1}{2}(50+10)(8.0)=240\\,\\mathrm{rad}\n\\]\nCoasting displacement:\n\\[\n\\Delta\\theta_2=10(6.0)=60\\,\\mathrm{rad}\n\\]\n\\[\n\\Delta\\theta_{\\mathrm{total}}=300\\,\\mathrm{rad}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-09",
+      "prompt": "A rotor starts and ends at rest after turning through \\(100\\,\\mathrm{rad}\\). It accelerates at \\(+4.0\\,\\mathrm{rad\\,s^{-2}}\\) for the first phase and at \\(-4.0\\,\\mathrm{rad\\,s^{-2}}\\) for the second phase. Find the total time and peak angular speed, and justify where the switch occurs.",
+      "answer": "The switch must occur at peak angular speed; with equal acceleration magnitudes and rest-to-rest motion, the phases have equal duration \\(\\tau\\). The angle is\n\\[\n100=\\frac{1}{2}(4.0)\\tau^2+\\frac{1}{2}(4.0)\\tau^2=4.0\\tau^2\n\\]\n\\[\n\\tau=5.0\\,\\mathrm{s}\n\\]\nTotal time:\n\\[\nt_{\\mathrm{total}}=2\\tau=10.0\\,\\mathrm{s}\n\\]\nPeak angular speed:\n\\[\n\\omega_{\\max}=4.0(5.0)=20\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe switch occurs halfway through the angular displacement because the acceleration schedule is symmetric and the rotor starts and ends at rest.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "constant-angular-acceleration-10",
+      "prompt": "A rotation through angle \\(\\Theta\\) must start and end at rest. The angular acceleration magnitude cannot exceed \\(\\alpha_{\\max}\\). Derive the minimum time and peak angular speed, stating the acceleration schedule assumed.",
+      "answer": "To minimize time, use the maximum allowed acceleration magnitude: accelerate at \\(+\\alpha_{\\max}\\), then brake at \\(-\\alpha_{\\max}\\). Let each phase last \\(\\tau\\). Then\n\\[\n\\Theta=\\frac{1}{2}\\alpha_{\\max}\\tau^2+\\frac{1}{2}\\alpha_{\\max}\\tau^2=\\alpha_{\\max}\\tau^2\n\\]\n\\[\n\\tau=\\sqrt{\\frac{\\Theta}{\\alpha_{\\max}}}\n\\]\nThus\n\\[\nt_{\\min}=2\\sqrt{\\frac{\\Theta}{\\alpha_{\\max}}}\n\\]\nand\n\\[\n\\omega_{\\max}=\\alpha_{\\max}\\tau=\\sqrt{\\alpha_{\\max}\\Theta}\n\\]\nAssumption: no limit on angular speed, and the only constraint is the acceleration magnitude.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

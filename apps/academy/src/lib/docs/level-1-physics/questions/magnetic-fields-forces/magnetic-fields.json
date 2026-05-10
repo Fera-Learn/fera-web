@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "magnetic-fields",
+  "topicTitle": "Magnetic Fields",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "magnetic-fields-01",
+      "prompt": "State the magnetic force law for a moving charged particle.",
+      "answer": "The magnetic force law is\n\\[\n\\vec F_B=q\\vec v\\times\\vec B\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-02",
+      "prompt": "State the magnitude of the magnetic force on a particle of charge magnitude \\(|q|\\).",
+      "answer": "The magnitude is\n\\[\nF_B=|q|vB\\sin\\theta\n\\]\nwhere \\(\\theta\\) is the angle between \\(\\vec v\\) and \\(\\vec B\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-03",
+      "prompt": "When is the magnetic force on a moving charged particle zero?",
+      "answer": "It is zero if \\(q=0\\), \\(v=0\\), \\(B=0\\), or if \\(\\vec v\\) is parallel or antiparallel to \\(\\vec B\\), so \\(\\sin\\theta=0\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-04",
+      "prompt": "A proton moves at \\(3.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\) perpendicular to \\(0.20\\,\\mathrm{T}\\). Find the magnetic force magnitude.",
+      "answer": "For perpendicular motion,\n\\[\nF_B=qvB=(1.60\\times10^{-19})(3.0\\times10^5)(0.20)=9.6\\times10^{-15}\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-05",
+      "prompt": "An electron moves at \\(4.0\\times10^6\\,\\mathrm{m\\,s^{-1}}\\) at \\(30^\\circ\\) to a \\(0.50\\,\\mathrm{T}\\) field. Find the force magnitude.",
+      "answer": "Use \\(|q|=e\\):\n\\[\nF_B=evB\\sin30^\\circ\n\\]\n\\[\nF_B=(1.60\\times10^{-19})(4.0\\times10^6)(0.50)(0.5)=1.6\\times10^{-13}\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-06",
+      "prompt": "A charge \\(2.0\\,\\mu\\mathrm{C}\\) moves perpendicular to a magnetic field at \\(1.5\\times10^3\\,\\mathrm{m\\,s^{-1}}\\). The force is \\(6.0\\times10^{-4}\\,\\mathrm{N}\\). Find \\(B\\).",
+      "answer": "For perpendicular motion,\n\\[\nB=\\frac{F_B}{|q|v}=\\frac{6.0\\times10^{-4}}{(2.0\\times10^{-6})(1.5\\times10^3)}=0.20\\,\\mathrm{T}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-07",
+      "prompt": "A positive charge moves east through a magnetic field pointing north. What is the force direction?",
+      "answer": "Use the right-hand rule for \\(\\vec v\\times\\vec B\\): east crossed with north points upward. For a positive charge, the force is upward.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-08",
+      "prompt": "An electron moves east through a magnetic field pointing north. What is the force direction?",
+      "answer": "For a positive charge, east crossed with north points upward. An electron is negative, so the force reverses and points downward.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-09",
+      "prompt": "A particle moves through a magnetic field but its speed does not change. Why is this consistent with a nonzero magnetic force?",
+      "answer": "The magnetic force is perpendicular to the velocity. It can change the direction of the velocity while doing no work:\n\\[\n\\vec F_B\\cdot\\vec v=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-10",
+      "prompt": "A particle has velocity components parallel and perpendicular to \\(\\vec B\\). Which component determines the magnetic force magnitude?",
+      "answer": "Only the perpendicular component determines the magnitude:\n\\[\nF_B=|q|v_{\\perp}B\n\\]\nThe parallel component contributes no magnetic force.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-11",
+      "prompt": "Find the perpendicular speed component for a particle moving at \\(8.0\\times10^4\\,\\mathrm{m\\,s^{-1}}\\) at \\(60^\\circ\\) to \\(\\vec B\\).",
+      "answer": "The perpendicular component is\n\\[\nv_\\perp=v\\sin\\theta=(8.0\\times10^4)\\sin60^\\circ=6.9\\times10^4\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-12",
+      "prompt": "Show from the cross product why magnetic force is perpendicular to velocity.",
+      "answer": "The magnetic force is\n\\[\n\\vec F_B=q\\vec v\\times\\vec B\n\\]\nA cross product is perpendicular to both input vectors. Therefore \\(\\vec F_B\\perp\\vec v\\), so the force is perpendicular to the velocity.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-13",
+      "prompt": "A particle of charge \\(5.0\\,\\mathrm{nC}\\) moves perpendicular to \\(0.080\\,\\mathrm{T}\\) and feels \\(2.0\\times10^{-6}\\,\\mathrm{N}\\). Find its speed.",
+      "answer": "For perpendicular motion,\n\\[\nv=\\frac{F_B}{|q|B}=\\frac{2.0\\times10^{-6}}{(5.0\\times10^{-9})(0.080)}=5.0\\times10^3\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-14",
+      "prompt": "A positive charge moves in the \\(+x\\) direction through a magnetic field in the \\(+z\\) direction. Find the force direction.",
+      "answer": "Use \\(\\hat x\\times\\hat z=-\\hat y\\). For a positive charge, the force points in the \\(-y\\) direction.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-15",
+      "prompt": "What magnetic field direction would make a positive charge moving in \\(+x\\) feel force in \\(+y\\)?",
+      "answer": "We need \\(\\vec v\\times\\vec B=+\\hat y\\). Since \\(\\hat x\\times\\hat z=-\\hat y\\), choose \\(\\vec B\\) in the \\(-z\\) direction because \\(\\hat x\\times(-\\hat z)=+\\hat y\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-16",
+      "prompt": "Derive the tesla in base force-current-length units from the force on a wire.",
+      "answer": "For a wire perpendicular to the field,\n\\[\nF=ILB\n\\]\nso\n\\[\nB=\\frac{F}{IL}\n\\]\nTherefore\n\\[\n1\\,\\mathrm{T}=1\\,\\mathrm{N\\,A^{-1}\\,m^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-17",
+      "prompt": "A charge moves at fixed speed through a region where \\(\\vec B\\) is uniform. What happens to its kinetic energy if no other forces act?",
+      "answer": "Its kinetic energy remains constant. Magnetic force does no work because it is perpendicular to displacement at each instant.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-18",
+      "prompt": "A charged particle experiences no magnetic force in a region. Does this prove \\(B=0\\)? Explain.",
+      "answer": "No. The particle might be stationary or moving parallel to the magnetic field. Since \\(F_B=|q|vB\\sin\\theta\\), zero force does not by itself prove \\(B=0\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-19",
+      "prompt": "Two particles have equal speed and equal charge magnitude in the same magnetic field. One moves perpendicular to the field and one at \\(30^\\circ\\). Compare force magnitudes.",
+      "answer": "The perpendicular particle has\n\\[\nF_\\perp=|q|vB\n\\]\nThe \\(30^\\circ\\) particle has\n\\[\nF_{30}=|q|vB\\sin30^\\circ=0.5|q|vB\n\\]\nSo the perpendicular particle feels twice the force.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-fields-20",
+      "prompt": "Explain why the magnetic force law must include both a magnitude rule and a direction rule.",
+      "answer": "The magnitude rule \\(F_B=|q|vB\\sin\\theta\\) gives only the size of the force. Magnetic force is a vector, so the direction must also be determined by \\(\\vec v\\times\\vec B\\) and by the sign of charge. Without the direction rule, the predicted path of the particle is incomplete.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

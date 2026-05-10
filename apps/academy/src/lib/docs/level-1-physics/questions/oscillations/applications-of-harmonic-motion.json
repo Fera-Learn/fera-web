@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "applications-of-harmonic-motion",
+  "topicTitle": "Applications of Harmonic Motion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "harmonic-applications-01",
+      "prompt": "At a stable equilibrium, what is the net force?",
+      "answer": "At equilibrium, the net force is zero:\n\\[\nF(x_0)=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-11",
+      "prompt": "For small oscillations about equilibrium, should \\(k_{\\mathrm{eff}}\\) be positive or negative?",
+      "answer": "For stable small oscillations,\n\\[\nk_{\\mathrm{eff}}\u003e0\n\\]\nso the local force is restoring:\n\\[\nF\\approx-k_{\\mathrm{eff}}\\eta\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-02",
+      "prompt": "A force near equilibrium is \\(F(x)\\approx -12\\eta\\), where \\(\\eta=x-x_0\\). Find \\(k_{\\mathrm{eff}}\\).",
+      "answer": "Compare with the restoring form\n\\[\nF\\approx-k_{\\mathrm{eff}}\\eta\n\\]\nGiven\n\\[\nF\\approx-12\\eta\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=12\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-12",
+      "prompt": "At an equilibrium point, \\(F\u0027(x_0)=-20\\,\\mathrm{N\\,m^{-1}}\\). Find \\(k_{\\mathrm{eff}}\\).",
+      "answer": "The effective stiffness is\n\\[\nk_{\\mathrm{eff}}=-F\u0027(x_0)\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=-(-20)=20\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-03",
+      "prompt": "For \\(F(x)=6-3x\\) in SI units, find the equilibrium position and \\(k_{\\mathrm{eff}}\\).",
+      "answer": "Equilibrium occurs where\n\\[\nF(x_0)=0\n\\]\nso\n\\[\n6-3x_0=0\n\\]\n\\[\nx_0=2.0\\,\\mathrm{m}\n\\]\nThe slope is\n\\[\nF\u0027(x)=-3\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=-F\u0027(x_0)=3\\,\\mathrm{N\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-04",
+      "prompt": "A mass \\(0.50\\,\\mathrm{kg}\\) oscillates near equilibrium with \\(k_{\\mathrm{eff}}=18\\,\\mathrm{N\\,m^{-1}}\\). Find \\(\\omega\\) and \\(T\\).",
+      "answer": "\\[\n\\omega=\\sqrt{\\frac{k_{\\mathrm{eff}}}{m}}\n=\\sqrt{\\frac{18}{0.50}}=6.0\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nT=\\frac{2\\pi}{\\omega}=\\frac{2\\pi}{6.0}=1.05\\,\\mathrm{s}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-13",
+      "prompt": "Near equilibrium, a force is \\(F=-4(x-2)\\) in SI units. For mass \\(1.0\\,\\mathrm{kg}\\), find \\(x_0\\) and \\(\\omega\\).",
+      "answer": "The force is already in the form\n\\[\nF=-4(x-2)\n\\]\nso equilibrium is at\n\\[\nx_0=2.0\\,\\mathrm{m}\n\\]\nand\n\\[\nk_{\\mathrm{eff}}=4\\,\\mathrm{N\\,m^{-1}}\n\\]\nFor \\(m=1.0\\,\\mathrm{kg}\\),\n\\[\n\\omega=\\sqrt{\\frac{k_{\\mathrm{eff}}}{m}}=2.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-14",
+      "prompt": "A vertical spring has \\(k=120\\,\\mathrm{N\\,m^{-1}}\\) and supports \\(m=3.0\\,\\mathrm{kg}\\). Find the static equilibrium stretch.",
+      "answer": "Static equilibrium gives\n\\[\nky_0=mg\n\\]\nso\n\\[\ny_0=\\frac{mg}{k}=\\frac{(3.0)(9.8)}{120}=0.245\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-05",
+      "prompt": "A vertical spring stretches \\(0.080\\,\\mathrm{m}\\) under a hanging mass. Find the small-oscillation angular frequency using \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\).",
+      "answer": "For the static stretch,\n\\[\nky_0=mg\n\\]\nso\n\\[\n\\frac{k}{m}=\\frac{g}{y_0}\n\\]\nThe small-oscillation angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{g}{y_0}}\n\\]\n\\[\n\\omega=\\sqrt{\\frac{9.8}{0.080}}=11.1\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-15",
+      "prompt": "A potential near equilibrium is \\(U(x)=U_0+\\frac{1}{2}\\alpha(x-x_0)^2\\). Find the small-oscillation angular frequency for mass \\(m\\).",
+      "answer": "The force is\n\\[\nF=-\\frac{dU}{dx}=-\\alpha(x-x_0)\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=\\alpha\n\\]\nand the small-oscillation angular frequency is\n\\[\n\\omega=\\sqrt{\\frac{\\alpha}{m}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-06",
+      "prompt": "A particle of mass \\(m\\) moves near \\(x=0\\) under \\(F(x)=-\\alpha x+\\beta x^2\\), with \\(\\alpha\u003e0\\). Find the small-oscillation angular frequency about \\(x=0\\).",
+      "answer": "The equilibrium at \\(x=0\\) has \\(F(0)=0\\). Let the small displacement be \\(\\eta=x\\). The local slope is\n\\[\nF\u0027(x)=-\\alpha+2\\beta x\n\\]\nso\n\\[\nF\u0027(0)=-\\alpha\n\\]\nThen\n\\[\nk_{\\mathrm{eff}}=-F\u0027(0)=\\alpha\n\\]\nand\n\\[\n\\omega=\\sqrt{\\frac{\\alpha}{m}}\n\\]\nThe \\(x^2\\) term is higher order for sufficiently small displacement.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-07",
+      "prompt": "A force is \\(F(x)=ax-bx^3\\), with \\(a,b\u003e0\\). Determine whether \\(x=0\\) is a stable equilibrium for small oscillations.",
+      "answer": "At \\(x=0\\),\n\\[\nF(0)=0\n\\]\nThe local slope is\n\\[\nF\u0027(x)=a-3bx^2\n\\]\nso\n\\[\nF\u0027(0)=a\u003e0\n\\]\nFor stability in one dimension, the force slope at equilibrium must be negative, so\n\\[\nk_{\\mathrm{eff}}=-F\u0027(0)=-a\u003c0\n\\]\nTherefore \\(x=0\\) is unstable, not a small-oscillation equilibrium.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-16",
+      "prompt": "A mass on a spring has net force \\(F=F_0-kx\\). Find the shifted equilibrium and the small-oscillation angular frequency.",
+      "answer": "Equilibrium satisfies\n\\[\nF_0-kx_0=0\n\\]\nso\n\\[\nx_0=\\frac{F_0}{k}\n\\]\nLet \\(\\eta=x-x_0\\). Then\n\\[\nF=F_0-k(x_0+\\eta)=F_0-kx_0-k\\eta=-k\\eta\n\\]\nso\n\\[\n\\omega=\\sqrt{\\frac{k}{m}}\n\\]\nThe constant force shifts equilibrium but does not change the frequency.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-17",
+      "prompt": "A potential is \\(U(x)=U_0-\\frac{1}{2}cx^2\\), with \\(c\u003e0\\). Is \\(x=0\\) a stable small-oscillation equilibrium? Explain using the force slope or potential curvature.",
+      "answer": "The force is\n\\[\nF=-\\frac{dU}{dx}=cx\n\\]\nso\n\\[\nF\u0027(0)=c\u003e0\n\\]\nThen\n\\[\nk_{\\mathrm{eff}}=-F\u0027(0)=-c\u003c0\n\\]\nThe equilibrium is unstable. Equivalently, \\(U\u0027\u0027(0)=-c\u003c0\\), so \\(x=0\\) is a local maximum of potential energy.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-08",
+      "prompt": "For \\(F(x)=C/x^2-D\\), with \\(C,D\u003e0\\), find the equilibrium position and the small-oscillation angular frequency for mass \\(m\\).",
+      "answer": "Equilibrium satisfies\n\\[\n\\frac{C}{x_0^2}-D=0\n\\]\nso\n\\[\nx_0=\\sqrt{\\frac{C}{D}}\n\\]\nThe force slope is\n\\[\nF\u0027(x)=-\\frac{2C}{x^3}\n\\]\nTherefore\n\\[\nk_{\\mathrm{eff}}=-F\u0027(x_0)=\\frac{2C}{x_0^3}\n\\]\nUsing \\(x_0=(C/D)^{1/2}\\),\n\\[\nk_{\\mathrm{eff}}=\\frac{2D^{3/2}}{C^{1/2}}\n\\]\nand\n\\[\n\\omega=\\sqrt{\\frac{k_{\\mathrm{eff}}}{m}}\n=\\sqrt{\\frac{2D^{3/2}}{mC^{1/2}}}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-18",
+      "prompt": "A force near equilibrium is \\(F(\\eta)=-a\\eta-c\\eta^3\\), with \\(a,c\u003e0\\). Find the leading small-amplitude angular frequency and state what part of the force changes only larger-amplitude behavior.",
+      "answer": "For very small \\(\\eta\\), the leading restoring term is\n\\[\nF\\approx-a\\eta\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=a\n\\]\nand\n\\[\n\\omega=\\sqrt{\\frac{a}{m}}\n\\]\nThe cubic term \\(-c\\eta^3\\) changes the force at larger displacement and can make the period amplitude-dependent, but it does not change the leading small-amplitude frequency.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-09",
+      "prompt": "A particle of mass \\(m\\) has potential energy \\(U(x)=U_0+\\alpha x^2+\\beta x^3+\\gamma x^4\\), with \\(\\alpha\u003e0\\). Derive the small-oscillation angular frequency about \\(x=0\\), and explain why the cubic and quartic terms do not affect the leading small-amplitude frequency.",
+      "answer": "The force is\n\\[\nF(x)=-\\frac{dU}{dx}\n\\]\nso\n\\[\nF(x)=-(2\\alpha x+3\\beta x^2+4\\gamma x^3)\n\\]\nNear \\(x=0\\), the leading term is\n\\[\nF(x)\\approx -2\\alpha x\n\\]\nTherefore\n\\[\nk_{\\mathrm{eff}}=2\\alpha\n\\]\nand\n\\[\n\\omega=\\sqrt{\\frac{2\\alpha}{m}}\n\\]\nThe cubic and quartic potential terms produce force terms proportional to \\(x^2\\) and \\(x^3\\). These are smaller than the linear term in the small-displacement limit, so they affect amplitude-dependent corrections but not the leading small-amplitude frequency.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-19",
+      "prompt": "A particle of mass \\(m\\) has force \\(F(x)=p-qx+sx^2\\), with \\(p,q,s\u003e0\\). Derive the equilibrium positions when they exist, and determine which equilibrium is stable.",
+      "answer": "Equilibria satisfy\n\\[\np-qx+sx^2=0\n\\]\nThis quadratic has real equilibria if\n\\[\nq^2-4sp\\ge0\n\\]\nThe roots are\n\\[\nx_{\\pm}=\\frac{q\\pm\\sqrt{q^2-4sp}}{2s}\n\\]\nStability comes from the force slope:\n\\[\nF\u0027(x)=-q+2sx\n\\]\nAt \\(x_-\\),\n\\[\nF\u0027(x_-)=-q+q-\\sqrt{q^2-4sp}\u003c0\n\\]\nso \\(x_-\\) is stable. At \\(x_+\\),\n\\[\nF\u0027(x_+)=-q+q+\\sqrt{q^2-4sp}\u003e0\n\\]\nso \\(x_+\\) is unstable. If the discriminant is zero, the slope is zero and the linear small-oscillation test is inconclusive.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-10",
+      "prompt": "A mass \\(m\\) is attached to two horizontal springs fixed to walls. The left spring has constant \\(k_1\\) and natural length arranged so it is unstretched at \\(x=0\\); the right spring has constant \\(k_2\\) and is also unstretched at \\(x=0\\). Derive the small-oscillation frequency if the mass is displaced by \\(x\\), and then state how a constant external force \\(F_0\\) changes the equilibrium and the frequency.",
+      "answer": "A displacement \\(x\\) stretches one spring and compresses the other. Both forces oppose the displacement:\n\\[\nF_1=-k_1x,\\qquad F_2=-k_2x\n\\]\nThe net spring force is\n\\[\nF=-(k_1+k_2)x\n\\]\nso\n\\[\nk_{\\mathrm{eff}}=k_1+k_2\n\\]\nand\n\\[\n\\omega=\\sqrt{\\frac{k_1+k_2}{m}}\n\\]\nWith a constant external force \\(F_0\\), the equilibrium shifts to \\(x_0\\) such that\n\\[\n-(k_1+k_2)x_0+F_0=0\n\\]\nso\n\\[\nx_0=\\frac{F_0}{k_1+k_2}\n\\]\nThe frequency is unchanged because the local force slope is still \\(-(k_1+k_2)\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "harmonic-applications-20",
+      "prompt": "A particle of mass \\(m\\) has potential \\(U(x)=\\alpha x^4-\\beta x^2\\), with \\(\\alpha,\\beta\u003e0\\). Find all equilibrium points, classify their stability, and derive the small-oscillation angular frequency about each stable equilibrium.",
+      "answer": "Equilibrium points satisfy\n\\[\n\\frac{dU}{dx}=4\\alpha x^3-2\\beta x=0\n\\]\nso\n\\[\n2x(2\\alpha x^2-\\beta)=0\n\\]\nThe equilibria are\n\\[\nx=0,\\qquad x=\\pm\\sqrt{\\frac{\\beta}{2\\alpha}}\n\\]\nClassify using curvature:\n\\[\nU\u0027\u0027(x)=12\\alpha x^2-2\\beta\n\\]\nAt \\(x=0\\),\n\\[\nU\u0027\u0027(0)=-2\\beta\u003c0\n\\]\nso \\(x=0\\) is unstable. At\n\\[\nx=\\pm\\sqrt{\\frac{\\beta}{2\\alpha}}\n\\]\nthe curvature is\n\\[\nU\u0027\u0027=12\\alpha\\frac{\\beta}{2\\alpha}-2\\beta=4\\beta\n\\]\nso both are stable. For small oscillations,\n\\[\n\\omega=\\sqrt{\\frac{U\u0027\u0027}{m}}=\\sqrt{\\frac{4\\beta}{m}}=2\\sqrt{\\frac{\\beta}{m}}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

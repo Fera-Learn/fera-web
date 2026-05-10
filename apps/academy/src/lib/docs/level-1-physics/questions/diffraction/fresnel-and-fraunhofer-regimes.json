@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "fresnel-and-fraunhofer-regimes",
+  "topicTitle": "Fresnel and Fraunhofer Regimes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "fresnel-fraunhofer-01",
+      "prompt": "What is diffraction?",
+      "answer": "Diffraction is the spreading and interference of waves after they pass through an aperture or around an obstacle.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-02",
+      "prompt": "When is diffraction most noticeable?",
+      "answer": "Diffraction is most noticeable when the aperture or obstacle size is comparable with the wavelength.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-03",
+      "prompt": "State the Fresnel number used to classify diffraction regimes.",
+      "answer": "\\[\nN_F=\\frac{a^2}{\\lambda L}\n\\]\nwhere \\(a\\) is aperture size, \\(\\lambda\\) is wavelength, and \\(L\\) is propagation distance.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-04",
+      "prompt": "What regime is usually associated with \\(N_F\\ll1\\)?",
+      "answer": "\\(N_F\\ll1\\) usually indicates Fraunhofer diffraction, where the far-field angular pattern is observed.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-05",
+      "prompt": "What regime is usually associated with \\(N_F\\gtrsim1\\)?",
+      "answer": "\\(N_F\\gtrsim1\\) usually indicates Fresnel diffraction, where near-field wavefront curvature matters.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-06",
+      "prompt": "A slit has \\(a=0.20\\,\\mathrm{mm}\\), \\(L=2.0\\,\\mathrm{m}\\), and \\(\\lambda=500\\,\\mathrm{nm}\\). Find \\(N_F\\).",
+      "answer": "\\[\nN_F=\\frac{(0.20\\times10^{-3})^2}{(500\\times10^{-9})(2.0)}=0.040\n\\]\nThis is a far-field, Fraunhofer-like setup.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-07",
+      "prompt": "A slit has \\(a=1.0\\,\\mathrm{mm}\\), \\(L=0.50\\,\\mathrm{m}\\), and \\(\\lambda=500\\,\\mathrm{nm}\\). Find \\(N_F\\).",
+      "answer": "\\[\nN_F=\\frac{(1.0\\times10^{-3})^2}{(500\\times10^{-9})(0.50)}=4.0\n\\]\nThis is a near-field, Fresnel-like setup.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-08",
+      "prompt": "How does increasing the screen distance \\(L\\) affect the Fresnel number?",
+      "answer": "Since\n\\[\nN_F=\\frac{a^2}{\\lambda L}\n\\]\nincreasing \\(L\\) decreases \\(N_F\\), pushing the setup toward the Fraunhofer regime.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-09",
+      "prompt": "How does increasing aperture width \\(a\\) affect the Fresnel number?",
+      "answer": "The Fresnel number scales as \\(a^2\\). Doubling \\(a\\) increases \\(N_F\\) by a factor of 4.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-10",
+      "prompt": "For a far-field diffraction pattern, what small-angle relation connects screen position and angle?",
+      "answer": "For small angles,\n\\[\ny\\approx L\\theta\n\\]\nwhere \\(L\\) is the aperture-screen distance.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-11",
+      "prompt": "A diffraction feature is observed at \\(y=4.0\\,\\mathrm{mm}\\) on a screen \\(2.0\\,\\mathrm{m}\\) away. Estimate \\(\\theta\\).",
+      "answer": "\\[\n\\theta\\approx\\frac{y}{L}=\\frac{4.0\\times10^{-3}}{2.0}=2.0\\times10^{-3}\\,\\mathrm{rad}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-12",
+      "prompt": "Why are Fraunhofer diffraction patterns often described as angular patterns?",
+      "answer": "In the far field, the phase variation from the aperture depends mainly on direction. Moving the screen mainly scales the pattern by \\(y\\approx L\\theta\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-13",
+      "prompt": "Why is a lens often used to observe Fraunhofer diffraction in a laboratory?",
+      "answer": "A lens can bring rays traveling at the same angle to the same point in its focal plane, producing the far-field angular pattern at a finite distance.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-14",
+      "prompt": "A setup has \\(N_F=0.02\\). Should wavefront curvature near the aperture be a dominant part of the observed pattern?",
+      "answer": "No. Since \\(N_F\\ll1\\), the setup is in the Fraunhofer limit, where the far-field angular pattern is the main description.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-15",
+      "prompt": "Find the screen distance needed for \\(N_F=1\\) when \\(a=0.50\\,\\mathrm{mm}\\) and \\(\\lambda=500\\,\\mathrm{nm}\\).",
+      "answer": "\\[\nL=\\frac{a^2}{\\lambda N_F}=\\frac{(0.50\\times10^{-3})^2}{500\\times10^{-9}}=0.50\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-16",
+      "prompt": "If the wavelength is doubled with \\(a\\) and \\(L\\) fixed, what happens to \\(N_F\\)?",
+      "answer": "Since \\(N_F\\propto1/\\lambda\\), doubling the wavelength halves the Fresnel number.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-17",
+      "prompt": "Explain why geometric optics fails when a slit is very narrow compared with the beam size but comparable with the wavelength.",
+      "answer": "Geometric optics treats light as rays and ignores phase differences across the aperture. A slit comparable with \\(\\lambda\\) produces strong wave spreading and interference, so diffraction dominates.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-18",
+      "prompt": "Two setups use the same aperture and wavelength. Setup A has \\(L=1.0\\,\\mathrm{m}\\), and setup B has \\(L=4.0\\,\\mathrm{m}\\). Compare their Fresnel numbers.",
+      "answer": "\\[\nN_F\\propto\\frac{1}{L}\n\\]\nso\n\\[\nN_{F,B}=\\frac{1}{4}N_{F,A}\n\\]\nSetup B is closer to the Fraunhofer regime.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-19",
+      "prompt": "A pattern is first described by angle \\(\\theta\\), then plotted on a screen. What assumption is needed to use \\(y\\approx L\\theta\\)?",
+      "answer": "The angle must be small enough that \\(\\tan\\theta\\approx\\theta\\), and the screen position must satisfy \\(y\\ll L\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "fresnel-fraunhofer-20",
+      "prompt": "A slit width is chosen so that \\(N_F=1\\). Express \\(a\\) in terms of \\(\\lambda\\) and \\(L\\).",
+      "answer": "Start with\n\\[\nN_F=\\frac{a^2}{\\lambda L}=1\n\\]\nso\n\\[\na=\\sqrt{\\lambda L}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

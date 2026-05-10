@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "geometric-optics",
+  "topicId": "spherical-mirrors",
+  "topicTitle": "Spherical Mirrors",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "spherical-mirrors-01",
+      "prompt": "State the mirror equation for spherical mirrors.",
+      "answer": "The mirror equation is\n\\[\n\\frac{1}{s}+\\frac{1}{s'}=\\frac{1}{f}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-02",
+      "prompt": "State the relation between focal length and radius of curvature for a spherical mirror.",
+      "answer": "For paraxial rays,\n\\[\nf=\\frac{R}{2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-03",
+      "prompt": "A concave mirror has \\(R=0.80\\,\\mathrm{m}\\). Find its focal length.",
+      "answer": "\\[\nf=\\frac{R}{2}=0.40\\,\\mathrm{m}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-04",
+      "prompt": "An object is \\(0.60\\,\\mathrm{m}\\) from a concave mirror with \\(f=0.20\\,\\mathrm{m}\\). Find the image distance.",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{0.20}-\\frac{1}{0.60}=3.33\\,\\mathrm{m^{-1}}\n\\]\n\\[\ns'=0.30\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-05",
+      "prompt": "For the previous question, find the magnification.",
+      "answer": "\\[\nm=-\\frac{s'}{s}=-\\frac{0.30}{0.60}=-0.50\n\\]\nThe image is inverted and half the object height.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-06",
+      "prompt": "What sign is the focal length of a convex mirror?",
+      "answer": "A convex mirror has negative focal length in the usual real-is-positive mirror convention.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-07",
+      "prompt": "An object is \\(0.30\\,\\mathrm{m}\\) from a convex mirror with \\(f=-0.20\\,\\mathrm{m}\\). Find \\(s'\\).",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{f}-\\frac{1}{s}=\\frac{1}{-0.20}-\\frac{1}{0.30}=-8.33\\,\\mathrm{m^{-1}}\n\\]\n\\[\ns'=-0.12\\,\\mathrm{m}\n\\]\nThe image is virtual.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-08",
+      "prompt": "For the convex mirror in the previous question, find the magnification.",
+      "answer": "\\[\nm=-\\frac{s'}{s}=-\\frac{-0.12}{0.30}=+0.40\n\\]\nThe image is upright and reduced.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-09",
+      "prompt": "Where is the image for an object placed at the focal point of a concave mirror?",
+      "answer": "The reflected rays are parallel, so the image is at infinity. In the mirror equation, \\(s=f\\) makes \\(1/s'=0\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-10",
+      "prompt": "An object is placed very far from a concave mirror. Where is the image formed?",
+      "answer": "For \\(s\\rightarrow\\infty\\), \\(1/s\\rightarrow0\\). The mirror equation gives\n\\[\ns'=f\n\\]\nso the image forms at the focal point.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-11",
+      "prompt": "What does a negative image distance mean for a mirror?",
+      "answer": "A negative image distance means the image is behind the mirror and virtual.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-12",
+      "prompt": "What does negative magnification mean?",
+      "answer": "Negative magnification means the image is inverted relative to the object.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-13",
+      "prompt": "A concave mirror has \\(f=15\\,\\mathrm{cm}\\). An object is \\(10\\,\\mathrm{cm}\\) from the mirror. Find \\(s'\\).",
+      "answer": "\\[\n\\frac{1}{s'}=\\frac{1}{15}-\\frac{1}{10}=-\\frac{1}{30}\\,\\mathrm{cm^{-1}}\n\\]\n\\[\ns'=-30\\,\\mathrm{cm}\n\\]\nThe image is virtual.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-14",
+      "prompt": "Find the magnification for the previous question.",
+      "answer": "\\[\nm=-\\frac{s'}{s}=-\\frac{-30}{10}=+3.0\n\\]\nThe image is upright and enlarged.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-15",
+      "prompt": "Why do convex mirrors give a wider field of view than plane mirrors?",
+      "answer": "A convex mirror diverges reflected rays, allowing rays from a larger angular range of object directions to enter the eye. The image is reduced, which fits more scene into the mirror.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-16",
+      "prompt": "A real image from a concave mirror is projected on a screen. What sign must \\(s'\\) have?",
+      "answer": "For mirrors, a real image forms in front of the mirror where reflected rays actually meet, so \\(s'\\) is positive.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-17",
+      "prompt": "A concave mirror produces an image twice the object height and inverted. If the object distance is \\(30\\,\\mathrm{cm}\\), find the image distance and focal length.",
+      "answer": "Inverted twice size means \\(m=-2\\). Since \\(m=-s'/s\\),\n\\[\n-2=-\\frac{s'}{30}\\Rightarrow s'=60\\,\\mathrm{cm}\n\\]\nThen\n\\[\n\\frac{1}{f}=\\frac{1}{30}+\\frac{1}{60}=\\frac{1}{20}\n\\]\nso \\(f=20\\,\\mathrm{cm}\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-18",
+      "prompt": "Why are spherical mirror equations limited to paraxial rays?",
+      "answer": "Only rays close to the axis and making small angles focus approximately at the same image point. Wide-angle rays suffer spherical aberration and do not obey the simple mirror equation exactly.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-19",
+      "prompt": "A concave mirror is used for shaving or makeup. Where should the face be relative to the focal point?",
+      "answer": "The face should be inside the focal length. Then the mirror forms a virtual, upright, magnified image behind the mirror.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "spherical-mirrors-20",
+      "prompt": "Explain how the signs of \\(s'\\) and \\(m\\) classify a spherical mirror image.",
+      "answer": "For mirrors, \\(s'>0\\) means a real image in front of the mirror, while \\(s'<0\\) means a virtual image behind it. Magnification \\(m=-s'/s\\) gives orientation: \\(m<0\\) is inverted and \\(m>0\\) is upright. The magnitude \\(|m|\\) gives relative size.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

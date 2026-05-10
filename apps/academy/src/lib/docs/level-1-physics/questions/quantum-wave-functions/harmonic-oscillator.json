@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "harmonic-oscillator",
+  "topicTitle": "Harmonic Oscillator",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "harmonic-oscillator-01",
+      "prompt": "Write the potential energy of a one-dimensional harmonic oscillator in terms of \\(m\\), \\(\\omega\\), and \\(x\\).",
+      "answer": "\\[\\nV(x)=\\frac12m\\omega^2x^2\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-02",
+      "prompt": "Write the allowed energy levels of the quantum harmonic oscillator.",
+      "answer": "\\[\\nE_n=\\left(n+\\frac12\\right)\\hbar\\omega,\\qquad n=0,1,2,\\ldots\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-03",
+      "prompt": "What is the ground-state energy of a quantum harmonic oscillator?",
+      "answer": "For \\(n=0\\),\\n\\[\\nE_0=\\frac12\\hbar\\omega\\n\\]\\nThis is the zero-point energy.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-04",
+      "prompt": "Find the energy spacing \\(E_{n+1}-E_n\\).",
+      "answer": "\\[\\nE_{n+1}-E_n=\\left(n+\\frac32\\right)\\hbar\\omega-\\left(n+\\frac12\\right)\\hbar\\omega=\\hbar\\omega\\n\\]\\nThe levels are equally spaced.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-05",
+      "prompt": "A harmonic oscillator has adjacent energy spacing \\(0.20\\,\\mathrm{eV}\\). Find \\(\\omega\\) in terms of this spacing.",
+      "answer": "The spacing is \\(\\Delta E=\\hbar\\omega\\), so\\n\\[\\n\\omega=\\frac{\\Delta E}{\\hbar}=\\frac{0.20\\,\\mathrm{eV}}{\\hbar}\\n\\]\\nConvert eV to joules if a numerical SI value is required.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-06",
+      "prompt": "What photon energy is emitted in a transition from \\(n=5\\) to \\(n=2\\) for a harmonic oscillator?",
+      "answer": "\\[\\n\\Delta E=E_5-E_2=(5-2)\\hbar\\omega=3\\hbar\\omega\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-07",
+      "prompt": "Write the ground-state length scale \\(x_0\\) for a quantum harmonic oscillator.",
+      "answer": "\\[\\nx_0=\\sqrt{\\frac{\\hbar}{m\\omega}}\\n\\]\\nA larger mass or angular frequency makes the ground state narrower.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-08",
+      "prompt": "How does the ground-state width change if \\(\\omega\\) is quadrupled while \\(m\\) is fixed?",
+      "answer": "Since\\n\\[\\nx_0\\propto \\frac{1}{\\sqrt\\omega}\\n\\]\\nquadrupling \\(\\omega\\) makes \\(x_0\\) half as large.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-09",
+      "prompt": "Find the classical turning-point magnitude for an oscillator state of energy \\(E_n\\).",
+      "answer": "At a turning point, all energy is potential:\\n\\[\\nE_n=\\frac12m\\omega^2x_t^2\\n\\]\\nso\\n\\[\\nx_t=\\sqrt{\\frac{2E_n}{m\\omega^2}}=\\sqrt{\\frac{(2n+1)\\hbar}{m\\omega}}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-10",
+      "prompt": "How many nodes does the \\(n=4\\) harmonic oscillator eigenstate have?",
+      "answer": "The \\(n\\)th harmonic oscillator eigenstate has \\(n\\) nodes. Therefore the \\(n=4\\) state has \\(4\\) nodes.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-11",
+      "prompt": "State the parity pattern of one-dimensional harmonic oscillator eigenstates.",
+      "answer": "The states alternate parity. Even \\(n\\) states are even functions, and odd \\(n\\) states are odd functions.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-12",
+      "prompt": "Find \\(\\langle x\\rangle\\) for any harmonic oscillator energy eigenstate centered at \\(x=0\\).",
+      "answer": "The probability density \\(|\\psi_n(x)|^2\\) is even, so \\(x|\\psi_n(x)|^2\\) is odd. Therefore\\n\\[\\n\\langle x\\rangle=0\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-13",
+      "prompt": "For the oscillator ground state, use \\(\\Delta x=\\sqrt{\\hbar/(2m\\omega)}\\) and \\(\\Delta p=\\sqrt{\\hbar m\\omega/2}\\) to find \\(\\Delta x\\Delta p\\).",
+      "answer": "\\[\\n\\Delta x\\Delta p=\\sqrt{\\frac{\\hbar}{2m\\omega}}\\sqrt{\\frac{\\hbar m\\omega}{2}}=\\frac{\\hbar}{2}\\n\\]\\nThe ground state saturates the uncertainty relation.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-14",
+      "prompt": "Using the virial theorem for a harmonic oscillator, find \\(\\langle K\\rangle\\) and \\(\\langle V\\rangle\\) in the state \\(n\\).",
+      "answer": "For a quadratic potential,\\n\\[\\n\\langle K\\rangle=\\langle V\\rangle=\\frac{E_n}{2}\\n\\]\\nThus\\n\\[\\n\\langle K\\rangle=\\langle V\\rangle=\\frac12\\left(n+\\frac12\\right)\\hbar\\omega\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-15",
+      "prompt": "Find \\(\\langle x^2\\rangle\\) for the oscillator ground state using the virial theorem.",
+      "answer": "For the ground state, \\(E_0=\\hbar\\omega/2\\), so\\n\\[\\n\\langle V\\rangle=\\frac{E_0}{2}=\\frac{\\hbar\\omega}{4}\\n\\]\\nBut\\n\\[\\n\\langle V\\rangle=\\frac12m\\omega^2\\langle x^2\\rangle\\n\\]\\nTherefore\\n\\[\\n\\langle x^2\\rangle=\\frac{\\hbar}{2m\\omega}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-16",
+      "prompt": "Why is the oscillator ground-state energy nonzero?",
+      "answer": "A zero-energy oscillator would require both \\(x=0\\) and \\(p=0\\) with no spread, which violates the uncertainty principle. The ground state balances localization kinetic energy against potential energy and has\\n\\[\\nE_0=\\frac12\\hbar\\omega\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-17",
+      "prompt": "Contrast the energy spacing of a harmonic oscillator with that of a particle in a box.",
+      "answer": "For a harmonic oscillator,\\n\\[\\nE_{n+1}-E_n=\\hbar\\omega\\n\\]\\nconstant. For a box, \\(E_n\\propto n^2\\), so\\n\\[\\nE_{n+1}-E_n=(2n+1)E_1\\n\\]\\nwhich increases with \\(n\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-18",
+      "prompt": "A perturbation can only cause transitions with \\(\\Delta n=\\pm1\\) when it is proportional to \\(x\\). Explain this selection rule qualitatively using parity.",
+      "answer": "The operator \\(x\\) is odd under parity. A nonzero matrix element \\(\\langle m|x|n\\rangle\\) requires the integrand to be even, so the two oscillator states must have opposite parity. Neighboring oscillator states have opposite parity, and the ladder-operator form of \\(x\\) makes the stricter result \\(\\Delta n=\\pm1\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-19",
+      "prompt": "Use the ladder-operator result \\(\\hat H=\\hbar\\omega(\\hat a^\\dagger\\hat a+1/2)\\) to justify the oscillator spectrum.",
+      "answer": "The number operator \\(\\hat a^\\dagger\\hat a\\) has eigenvalues \\(n=0,1,2,\\ldots\\). Therefore\\n\\[\\n\\hat H|n\\rangle=\\hbar\\omega\\left(n+\\frac12\\right)|n\\rangle\\n\\]\\nso\\n\\[\\nE_n=\\left(n+\\frac12\\right)\\hbar\\omega\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "harmonic-oscillator-20",
+      "prompt": "Estimate the oscillator zero-point energy by minimizing \\(E\\approx (\\Delta p)^2/(2m)+m\\omega^2(\\Delta x)^2/2\\) with \\(\\Delta p\\approx\\hbar/(2\\Delta x)\\).",
+      "answer": "Substitute the uncertainty estimate:\\n\\[\\nE(\\Delta x)\\approx \\frac{\\hbar^2}{8m(\\Delta x)^2}+\\frac12m\\omega^2(\\Delta x)^2\\n\\]\\nMinimizing gives\\n\\[\\n\\Delta x^2=\\frac{\\hbar}{2m\\omega}\\n\\]\\nSubstitute back:\\n\\[\\nE_{\\min}=\\frac14\\hbar\\omega+\frac14\\hbar\\omega=\\frac12\\hbar\\omega\\n\\]\\nThis recovers the zero-point energy scale.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

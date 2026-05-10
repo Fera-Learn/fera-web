@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "diffraction",
+  "topicId": "intensity-in-single-slit-patterns",
+  "topicTitle": "Intensity in Single-Slit Patterns",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "single-slit-intensity-01",
+      "prompt": "Write the single-slit intensity formula in terms of \\(\\beta\\).",
+      "answer": "\\[\nI=I_0\\left(\\frac{\\sin\\beta}{\\beta}\\right)^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-02",
+      "prompt": "Define \\(\\beta\\) for a single-slit diffraction pattern.",
+      "answer": "\\[\n\\beta=\\frac{\\pi a\\sin\\theta}{\\lambda}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-03",
+      "prompt": "What is the value of \\(I/I_0\\) at \\(\\beta=0\\)?",
+      "answer": "Using the limit \\(\\sin\\beta/\\beta\\rightarrow1\\) as \\(\\beta\\rightarrow0\\),\n\\[\n\\frac{I}{I_0}=1\n\\]\nThis is the central maximum.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-04",
+      "prompt": "Find \\(I/I_0\\) when \\(\\beta=\\pi/2\\).",
+      "answer": "\\[\n\\frac{I}{I_0}=\\left(\\frac{\\sin(\\pi/2)}{\\pi/2}\\right)^2=\\left(\\frac{2}{\\pi}\\right)^2=0.405\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-05",
+      "prompt": "Find \\(I/I_0\\) when \\(\\beta=\\pi\\).",
+      "answer": "\\[\n\\frac{I}{I_0}=\\left(\\frac{\\sin\\pi}{\\pi}\\right)^2=0\n\\]\nThis is a diffraction minimum.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-06",
+      "prompt": "What values of \\(\\beta\\) give single-slit intensity minima?",
+      "answer": "Minima occur when\n\\[\n\\sin\\beta=0\n\\]\nwith \\(\\beta\\ne0\\), so\n\\[\n\\beta=m\\pi,\\quad m=1,2,3,\\ldots\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-07",
+      "prompt": "Show that \\(\\beta=m\\pi\\) gives \\(a\\sin\\theta=m\\lambda\\).",
+      "answer": "Use\n\\[\n\\beta=\\frac{\\pi a\\sin\\theta}{\\lambda}\n\\]\nand set \\(\\beta=m\\pi\\):\n\\[\n\\frac{\\pi a\\sin\\theta}{\\lambda}=m\\pi\n\\]\nso\n\\[\na\\sin\\theta=m\\lambda\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-08",
+      "prompt": "Why is the single-slit intensity pattern symmetric about \\(\\theta=0\\)?",
+      "answer": "The intensity depends on \\(\\sin\\theta\\) through a squared function. Reversing the angle changes the sign of \\(\\beta\\), but \\((\\sin\\beta/\\beta)^2\\) is unchanged.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-09",
+      "prompt": "For \\(a=0.20\\,\\mathrm{mm}\\), \\(\\lambda=500\\,\\mathrm{nm}\\), and \\(\\theta=1.25\\times10^{-3}\\,\\mathrm{rad}\\), find \\(\\beta\\).",
+      "answer": "For small angles, \\(\\sin\\theta\\approx\\theta\\):\n\\[\n\\beta=\\frac{\\pi(0.20\\times10^{-3})(1.25\\times10^{-3})}{500\\times10^{-9}}=\\frac{\\pi}{2}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-10",
+      "prompt": "Using the result of question 9, find \\(I/I_0\\).",
+      "answer": "With \\(\\beta=\\pi/2\\),\n\\[\n\\frac{I}{I_0}=\\left(\\frac{2}{\\pi}\\right)^2=0.405\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-11",
+      "prompt": "Why are side maxima in a single-slit pattern much weaker than the central maximum?",
+      "answer": "Away from the center, phasors from different parts of the slit point in different directions and partially cancel. The resultant field amplitude is much smaller than at \\(\\theta=0\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-12",
+      "prompt": "At a single-slit minimum, does the electric field amplitude or only the intensity vanish?",
+      "answer": "The resultant electric field amplitude vanishes ideally because the aperture phasors sum to zero. The intensity then also vanishes because intensity is proportional to field amplitude squared.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-13",
+      "prompt": "A point has \\(\\beta=3\\pi\\). What is the intensity?",
+      "answer": "\\[\n\\sin(3\\pi)=0\n\\]\nso\n\\[\nI=I_0\\left(\\frac{0}{3\\pi}\\right)^2=0\n\\]\nThis is the third minimum.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-14",
+      "prompt": "Find \\(I/I_0\\) when \\(\\beta=3\\pi/2\\).",
+      "answer": "\\[\n\\frac{I}{I_0}=\\left(\\frac{\\sin(3\\pi/2)}{3\\pi/2}\\right)^2=\\left(\\frac{-1}{3\\pi/2}\\right)^2=\\frac{4}{9\\pi^2}=0.045\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-15",
+      "prompt": "What is wrong with substituting \\(\\beta=0\\) directly into \\(\\sin\\beta/\\beta\\)?",
+      "answer": "Direct substitution gives \\(0/0\\), which is indeterminate. The physical value is found from the limit \\(\\sin\\beta/\\beta\\rightarrow1\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-16",
+      "prompt": "A single-slit minimum is observed when \\(\\beta=2\\pi\\). What minimum order is this?",
+      "answer": "Minima occur at \\(\\beta=m\\pi\\). If \\(\\beta=2\\pi\\), then \\(m=2\\).",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-17",
+      "prompt": "Explain why the intensity formula contains a square.",
+      "answer": "The aperture phasors first determine the resultant electric-field amplitude. Light intensity is proportional to the square of the field amplitude, so the amplitude factor is squared.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-18",
+      "prompt": "A measurement gives \\(I/I_0=0\\) at \\(\\theta=4.0\\times10^{-3}\\,\\mathrm{rad}\\) for the first minimum. If \\(a=0.150\\,\\mathrm{mm}\\), estimate \\(\\lambda\\).",
+      "answer": "For the first minimum,\n\\[\na\\theta\\approx\\lambda\n\\]\nso\n\\[\n\\lambda=(0.150\\times10^{-3})(4.0\\times10^{-3})=6.0\\times10^{-7}\\,\\mathrm{m}\n\\]\nThus \\(\\lambda=600\\,\\mathrm{nm}\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-19",
+      "prompt": "If \\(a\\) is increased while \\(\\theta\\) and \\(\\lambda\\) are fixed, what happens to \\(\\beta\\)?",
+      "answer": "Because\n\\[\n\\beta=\\frac{\\pi a\\sin\\theta}{\\lambda}\n\\]\n\\(\\beta\\) increases in direct proportion to \\(a\\).",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "single-slit-intensity-20",
+      "prompt": "Why can the single-slit intensity formula be described as a continuous version of many-source interference?",
+      "answer": "The slit is treated as many tiny coherent sources across its width. Taking the limit of infinitely many small sources turns the phasor sum into a continuous sum, giving the sinc-squared intensity pattern.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

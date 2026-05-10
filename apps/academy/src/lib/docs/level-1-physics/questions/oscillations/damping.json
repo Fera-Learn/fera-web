@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "oscillations",
+  "topicId": "damping",
+  "topicTitle": "Damping",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "damping-01",
+      "prompt": "For linear damping \\(F_d=-bv\\), what direction does the damping force point relative to velocity?",
+      "answer": "The damping force points opposite the velocity. If \\(v\\) is positive, \\(F_d\\) is negative; if \\(v\\) is negative, \\(F_d\\) is positive.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-02",
+      "prompt": "A mass \\(m=2.0\\,\\mathrm{kg}\\) has damping coefficient \\(b=0.80\\,\\mathrm{kg\\,s^{-1}}\\). Find \\(\\beta=b/(2m)\\).",
+      "answer": "\\[\n\\beta=\\frac{b}{2m}\n\\]\n\\[\n\\beta=\\frac{0.80}{2(2.0)}=0.20\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-11",
+      "prompt": "If an oscillator is moving in the negative \\(x\\)-direction, what is the sign of the linear damping force \\(F_d=-bv\\)?",
+      "answer": "If the oscillator moves in the negative direction, \\(v\u003c0\\). Then\n\\[\nF_d=-bv\u003e0\n\\]\nso the damping force points in the positive \\(x\\)-direction, opposite the motion.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-03",
+      "prompt": "An oscillator has \\(\\omega_0=8.0\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\beta=3.0\\,\\mathrm{s^{-1}}\\). Is it underdamped?",
+      "answer": "The underdamped condition is\n\\[\n\\beta\u003c\\omega_0\n\\]\nHere\n\\[\n3.0\u003c8.0\n\\]\nso the oscillator is underdamped.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-12",
+      "prompt": "An oscillator has \\(\\beta=\\omega_0\\). Does the underdamped cosine form apply?",
+      "answer": "No. The underdamped condition is\n\\[\n\\beta\u003c\\omega_0\n\\]\nIf \\(\\beta=\\omega_0\\), the oscillator is at the critical boundary, so the decaying cosine form does not apply.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-04",
+      "prompt": "For \\(\\omega_0=10\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\beta=6.0\\,\\mathrm{s^{-1}}\\), find the damped angular frequency \\(\\omega_d\\).",
+      "answer": "\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}\n\\]\n\\[\n\\omega_d=\\sqrt{10^2-6.0^2}=\\sqrt{64}=8.0\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-05",
+      "prompt": "An underdamped oscillator has envelope \\(A(t)=A_0e^{-0.40t}\\). What fraction of its initial amplitude remains after \\(5.0\\,\\mathrm{s}\\)?",
+      "answer": "The remaining fraction is\n\\[\n\\frac{A(t)}{A_0}=e^{-0.40t}\n\\]\nAt \\(t=5.0\\,\\mathrm{s}\\),\n\\[\n\\frac{A}{A_0}=e^{-2.0}=0.135\n\\]\nAbout \\(13.5\\%\\) of the initial amplitude remains.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-13",
+      "prompt": "A \\(1.5\\,\\mathrm{kg}\\) oscillator has damping rate \\(\\beta=0.60\\,\\mathrm{s^{-1}}\\). Find \\(b\\).",
+      "answer": "From\n\\[\n\\beta=\\frac{b}{2m}\n\\]\nwe get\n\\[\nb=2m\\beta=2(1.5)(0.60)=1.8\\,\\mathrm{kg\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-14",
+      "prompt": "An underdamped oscillator has \\(\\omega_0=13\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\omega_d=12\\,\\mathrm{rad\\,s^{-1}}\\). Find \\(\\beta\\).",
+      "answer": "Use\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}\n\\]\nso\n\\[\n\\beta=\\sqrt{\\omega_0^2-\\omega_d^2}\n\\]\n\\[\n\\beta=\\sqrt{13^2-12^2}=5.0\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-06",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) oscillator with \\(k=32\\,\\mathrm{N\\,m^{-1}}\\) has \\(b=2.0\\,\\mathrm{kg\\,s^{-1}}\\). Find \\(\\omega_0\\), \\(\\beta\\), and decide whether the cosine underdamped form applies.",
+      "answer": "The undamped angular frequency is\n\\[\n\\omega_0=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{32}{0.50}}=8.0\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe damping rate is\n\\[\n\\beta=\\frac{b}{2m}=\\frac{2.0}{2(0.50)}=2.0\\,\\mathrm{s^{-1}}\n\\]\nSince\n\\[\n\\beta\u003c\\omega_0\n\\]\nthe motion is underdamped, so the decaying cosine form applies.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-15",
+      "prompt": "An underdamped oscillator has \\(\\beta=0.20\\,\\mathrm{s^{-1}}\\) and period approximately \\(1.0\\,\\mathrm{s}\\). What fraction of amplitude remains after \\(5\\) oscillations?",
+      "answer": "Five oscillations take approximately\n\\[\nt=5(1.0)=5.0\\,\\mathrm{s}\n\\]\nThe envelope fraction is\n\\[\n\\frac{A}{A_0}=e^{-\\beta t}=e^{-0.20(5.0)}=e^{-1}=0.368\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-07",
+      "prompt": "An underdamped oscillator has \\(A_0=0.12\\,\\mathrm{m}\\) and \\(\\beta=0.25\\,\\mathrm{s^{-1}}\\). Find the time for the amplitude envelope to fall to \\(0.030\\,\\mathrm{m}\\).",
+      "answer": "The envelope is\n\\[\nA(t)=A_0e^{-\\beta t}\n\\]\nso\n\\[\n0.030=0.12e^{-0.25t}\n\\]\n\\[\n\\frac{0.030}{0.12}=e^{-0.25t}\n\\]\n\\[\n0.25=e^{-0.25t}\n\\]\nTake logs:\n\\[\n\\ln(0.25)=-0.25t\n\\]\n\\[\nt=\\frac{-\\ln(0.25)}{0.25}=5.55\\,\\mathrm{s}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-08",
+      "prompt": "For \\(m=1.0\\,\\mathrm{kg}\\), \\(k=25\\,\\mathrm{N\\,m^{-1}}\\), find the largest value of \\(b\\) for which the oscillator is still underdamped.",
+      "answer": "The underdamped condition is\n\\[\n\\beta\u003c\\omega_0\n\\]\nwith\n\\[\n\\beta=\\frac{b}{2m},\\qquad \\omega_0=\\sqrt{\\frac{k}{m}}\n\\]\nThe boundary is\n\\[\n\\frac{b}{2m}=\\sqrt{\\frac{k}{m}}\n\\]\nso\n\\[\nb=2m\\sqrt{\\frac{k}{m}}\n\\]\nFor \\(m=1.0\\,\\mathrm{kg}\\), \\(k=25\\,\\mathrm{N\\,m^{-1}}\\),\n\\[\nb=2(1.0)\\sqrt{25}=10\\,\\mathrm{kg\\,s^{-1}}\n\\]\nThe oscillator is underdamped for \\(b\u003c10\\,\\mathrm{kg\\,s^{-1}}\\).",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-16",
+      "prompt": "The amplitude envelope of an underdamped oscillator falls from \\(0.080\\,\\mathrm{m}\\) to \\(0.050\\,\\mathrm{m}\\) in \\(3.0\\,\\mathrm{s}\\). Estimate \\(\\beta\\).",
+      "answer": "The envelope is\n\\[\nA(t)=A_0e^{-\\beta t}\n\\]\nso\n\\[\n\\frac{0.050}{0.080}=e^{-3.0\\beta}\n\\]\nTake logs:\n\\[\n\\ln(0.625)=-3.0\\beta\n\\]\nThus\n\\[\n\\beta=-\\frac{\\ln(0.625)}{3.0}=0.157\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-17",
+      "prompt": "If the displacement amplitude has fallen to \\(30\\%\\) of its initial value, what fraction of the oscillator\u0027s mechanical energy remains, assuming energy scales as amplitude squared?",
+      "answer": "If energy scales as amplitude squared,\n\\[\n\\frac{E}{E_0}=\\left(\\frac{A}{A_0}\\right)^2\n\\]\nWith \\(A/A_0=0.30\\),\n\\[\n\\frac{E}{E_0}=0.30^2=0.090\n\\]\nSo \\(9.0\\%\\) of the initial mechanical energy remains.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-09",
+      "prompt": "For weak damping where \\(\\beta\\ll\\omega_0\\), use a first-order binomial argument on \\(\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}\\) to show why the frequency shift is second order in \\(\\beta/\\omega_0\\).",
+      "answer": "Write\n\\[\n\\omega_d=\\omega_0\\sqrt{1-\\frac{\\beta^2}{\\omega_0^2}}\n\\]\nLet\n\\[\n\\epsilon=\\frac{\\beta^2}{\\omega_0^2}\n\\]\nFor weak damping, \\(\\epsilon\\ll1\\). The binomial approximation gives\n\\[\n\\sqrt{1-\\epsilon}\\approx1-\\frac{\\epsilon}{2}\n\\]\nso\n\\[\n\\omega_d\\approx\\omega_0\\left(1-\\frac{1}{2}\\frac{\\beta^2}{\\omega_0^2}\\right)\n\\]\nThe fractional shift is\n\\[\n\\frac{\\omega_0-\\omega_d}{\\omega_0}\\approx\\frac{1}{2}\\left(\\frac{\\beta}{\\omega_0}\\right)^2\n\\]\nso it is second order in \\(\\beta/\\omega_0\\), not first order.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-18",
+      "prompt": "Derive the critical damping coefficient \\(b_c\\) by setting \\(\\beta=\\omega_0\\), with \\(\\beta=b/(2m)\\) and \\(\\omega_0=\\sqrt{k/m}\\).",
+      "answer": "Critical damping occurs at\n\\[\n\\beta=\\omega_0\n\\]\nUsing\n\\[\n\\beta=\\frac{b}{2m},\\qquad \\omega_0=\\sqrt{\\frac{k}{m}}\n\\]\ngives\n\\[\n\\frac{b_c}{2m}=\\sqrt{\\frac{k}{m}}\n\\]\nso\n\\[\nb_c=2m\\sqrt{\\frac{k}{m}}=2\\sqrt{mk}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-10",
+      "prompt": "An underdamped oscillator has measured damped angular frequency \\(\\omega_d\\) and envelope half-life \\(t_{1/2}\\). Derive \\(\\beta\\), \\(\\omega_0\\), and \\(b\\) for a known mass \\(m\\).",
+      "answer": "The envelope has the form\n\\[\nA(t)=A_0e^{-\\beta t}\n\\]\nAt the amplitude half-life,\n\\[\n\\frac{1}{2}=e^{-\\beta t_{1/2}}\n\\]\nso\n\\[\n\\beta=\\frac{\\ln 2}{t_{1/2}}\n\\]\nThe damped frequency satisfies\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}\n\\]\nso\n\\[\n\\omega_0=\\sqrt{\\omega_d^2+\\beta^2}\n\\]\nFinally,\n\\[\n\\beta=\\frac{b}{2m}\n\\]\nso\n\\[\nb=2m\\beta=\\frac{2m\\ln2}{t_{1/2}}\n\\]\nThese results assume the oscillator is underdamped and the measured half-life describes the displacement envelope, not the energy envelope.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-19",
+      "prompt": "An underdamped oscillator has two measured positive peak displacements \\(A_1\\) and \\(A_2\\), separated by \\(N\\) complete damped periods \\(T_d\\). Derive \\(\\beta\\) in terms of these measurements.",
+      "answer": "Peak amplitudes follow the envelope\n\\[\nA(t)=A_0e^{-\\beta t}\n\\]\nIf \\(A_1\\) and \\(A_2\\) are separated by time\n\\[\n\\Delta t=NT_d\n\\]\nthen\n\\[\nA_2=A_1e^{-\\beta NT_d}\n\\]\nso\n\\[\n\\frac{A_2}{A_1}=e^{-\\beta NT_d}\n\\]\nTake logs:\n\\[\n\\ln\\left(\\frac{A_2}{A_1}\\right)=-\\beta NT_d\n\\]\nTherefore\n\\[\n\\beta=\\frac{1}{NT_d}\\ln\\left(\\frac{A_1}{A_2}\\right)\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "damping-20",
+      "prompt": "A mass-spring oscillator with known \\(m\\) and \\(k\\) must remain underdamped while its amplitude envelope falls to at most a fraction \\(r\\) after time \\(\\tau\\). Derive the allowed interval for \\(b\\), and state when no such underdamped \\(b\\) exists.",
+      "answer": "The amplitude fraction after time \\(\\tau\\) is\n\\[\n\\frac{A(\\tau)}{A_0}=e^{-\\beta\\tau}\n\\]\nRequire\n\\[\ne^{-\\beta\\tau}\\le r\n\\]\nwith \\(0\u003cr\u003c1\\). Taking logs gives\n\\[\n-\\beta\\tau\\le \\ln r\n\\]\nso\n\\[\n\\beta\\ge \\frac{-\\ln r}{\\tau}\n\\]\nIn terms of \\(b\\),\n\\[\nb=2m\\beta\n\\]\nso the amplitude requirement gives\n\\[\nb\\ge \\frac{2m(-\\ln r)}{\\tau}\n\\]\nUnderdamping requires\n\\[\n\\beta\u003c\\omega_0=\\sqrt{\\frac{k}{m}}\n\\]\nso\n\\[\nb\u003c2m\\sqrt{\\frac{k}{m}}=2\\sqrt{mk}\n\\]\nThe allowed interval is\n\\[\n\\frac{2m(-\\ln r)}{\\tau}\\le b\u003c2\\sqrt{mk}\n\\]\nNo underdamped solution exists if\n\\[\n\\frac{-\\ln r}{\\tau}\\ge \\sqrt{\\frac{k}{m}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

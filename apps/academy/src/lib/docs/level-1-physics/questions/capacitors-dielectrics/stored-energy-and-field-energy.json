@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "stored-energy-and-field-energy",
+  "topicTitle": "Stored Energy and Field Energy",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "capacitor-energy-01",
+      "prompt": "Find the energy stored in an \\(8.0\\,\\mu\\mathrm{F}\\) capacitor charged to \\(50\\,\\mathrm{V}\\).",
+      "answer": "\\[\nU=\\frac{1}{2}CV^2\n=\\frac{1}{2}(8.0\\times10^{-6})(50^2)\n=1.0\\times10^{-2}\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-02",
+      "prompt": "A capacitor has \\(C=5.0\\,\\mu\\mathrm{F}\\) and charge \\(Q=30\\,\\mu\\mathrm{C}\\). Find its voltage and stored energy.",
+      "answer": "First find the voltage:\n\\[\nV=\\frac{Q}{C}\n=\\frac{30\\,\\mu\\mathrm{C}}{5.0\\,\\mu\\mathrm{F}}\n=6.0\\,\\mathrm{V}\n\\]\nThen\n\\[\nU=\\frac{Q^2}{2C}\n=\\frac{(30\\times10^{-6})^2}{2(5.0\\times10^{-6})}\n=9.0\\times10^{-5}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-03",
+      "prompt": "A uniform electric field of magnitude \\(1.5\\times10^5\\,\\mathrm{V\\,m^{-1}}\\) fills a volume \\(2.0\\times10^{-5}\\,\\mathrm{m^3}\\) in vacuum. Estimate the field energy in that volume.",
+      "answer": "The vacuum field energy density is\n\\[\nu_E=\\frac{1}{2}\\epsilon_0E^2\n\\]\n\\[\nu_E=\\frac{1}{2}(8.85\\times10^{-12})(1.5\\times10^5)^2\n=9.96\\times10^{-2}\\,\\mathrm{J\\,m^{-3}}\n\\]\nThe energy in the given volume is\n\\[\nU=u_E(\\text{volume})=(9.96\\times10^{-2})(2.0\\times10^{-5})\n=2.0\\times10^{-6}\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-04",
+      "prompt": "An isolated parallel-plate capacitor has plate area fixed and charge fixed. Its plate separation is doubled. Determine how \\(C\\), \\(V\\), \\(E\\), and \\(U\\) change, and explain why the energy change does not contradict energy conservation.",
+      "answer": "For fixed plate area,\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nDoubling \\(d\\) halves the capacitance:\n\\[\nC_2=\\frac{C_1}{2}\n\\]\nThe capacitor is isolated, so \\(Q\\) is fixed. Since \\(V=Q/C\\),\n\\[\nV_2=2V_1\n\\]\nFor ideal parallel plates,\n\\[\nE=\\frac{V}{d}=\\frac{Q}{\\epsilon_0A}\n\\]\nso \\(E\\) is unchanged: both \\(V\\) and \\(d\\) doubled.\n\nThe energy at fixed charge is\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nso\n\\[\nU_2=2U_1\n\\]\nThe extra energy comes from external work done pulling the oppositely charged plates farther apart against their attraction.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-05",
+      "prompt": "A capacitor has \\(Q=20\\,\\mu\\mathrm{C}\\) and \\(V=30\\,\\mathrm{V}\\). Find its stored energy.",
+      "answer": "\\[\nU=\\frac{1}{2}QV\n=\\frac{1}{2}(20\\times10^{-6})(30)\n=3.0\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-06",
+      "prompt": "A capacitor with \\(C=4.0\\,\\mu\\mathrm{F}\\) stores \\(2.0\\times10^{-3}\\,\\mathrm{J}\\). Find its voltage and charge.",
+      "answer": "Use\n\\[\nU=\\frac{1}{2}CV^2\n\\]\nso\n\\[\nV=\\sqrt{\\frac{2U}{C}}\n=\\sqrt{\\frac{2(2.0\\times10^{-3})}{4.0\\times10^{-6}}}\n=31.6\\,\\mathrm{V}\n\\]\nThen\n\\[\nQ=CV=(4.0\\times10^{-6})(31.6)\n=1.26\\times10^{-4}\\,\\mathrm{C}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-07",
+      "prompt": "If the voltage across a fixed capacitor is doubled, by what factor does the stored energy change?",
+      "answer": "For fixed capacitance,\n\\[\nU=\\frac{1}{2}CV^2\n\\]\nso energy is proportional to \\(V^2\\). Doubling \\(V\\) increases \\(U\\) by\n\\[\n2^2=4\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-08",
+      "prompt": "An isolated capacitor keeps the same charge while its capacitance is tripled. By what factor does its stored energy change?",
+      "answer": "For an isolated capacitor, \\(Q\\) is fixed. Use\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nIf \\(C\\) is tripled, then\n\\[\nU\u0027=\\frac{Q^2}{2(3C)}=\\frac{U}{3}\n\\]\nThe stored energy decreases by a factor of \\(3\\).",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-09",
+      "prompt": "A vacuum electric field has magnitude \\(4.0\\times10^5\\,\\mathrm{V\\,m^{-1}}\\). Find the electric field energy density.",
+      "answer": "\\[\nu_E=\\frac{1}{2}\\epsilon_0E^2\n\\]\n\\[\nu_E=\\frac{1}{2}(8.85\\times10^{-12})(4.0\\times10^5)^2\n=0.708\\,\\mathrm{J\\,m^{-3}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-10",
+      "prompt": "A vacuum parallel-plate capacitor has \\(A=0.020\\,\\mathrm{m^2}\\), \\(d=1.0\\,\\mathrm{mm}\\), and \\(V=200\\,\\mathrm{V}\\). Find its stored energy using both \\(U=\\frac12CV^2\\) and \\(u_E=\\frac12\\epsilon_0E^2\\) times volume.",
+      "answer": "First,\n\\[\nC=\\epsilon_0\\frac{A}{d}\n=\\frac{(8.85\\times10^{-12})(0.020)}{1.0\\times10^{-3}}\n=1.77\\times10^{-10}\\,\\mathrm{F}\n\\]\nThen\n\\[\nU=\\frac{1}{2}CV^2\n=\\frac{1}{2}(1.77\\times10^{-10})(200^2)\n=3.54\\times10^{-6}\\,\\mathrm{J}\n\\]\nUsing field energy,\n\\[\nE=\\frac{V}{d}=\\frac{200}{1.0\\times10^{-3}}\n=2.0\\times10^5\\,\\mathrm{V\\,m^{-1}}\n\\]\n\\[\nu_E=\\frac{1}{2}\\epsilon_0E^2\n=0.177\\,\\mathrm{J\\,m^{-3}}\n\\]\nThe field volume is\n\\[\nAd=(0.020)(1.0\\times10^{-3})=2.0\\times10^{-5}\\,\\mathrm{m^3}\n\\]\nso\n\\[\nU=u_EAd=(0.177)(2.0\\times10^{-5})\n=3.54\\times10^{-6}\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-11",
+      "prompt": "Derive the three equivalent capacitor energy forms \\(U=Q^2/(2C)\\), \\(U=\\frac12CV^2\\), and \\(U=\\frac12QV\\).",
+      "answer": "During charging, when charge \\(q\\) is already on the capacitor,\n\\[\nv(q)=\\frac{q}{C}\n\\]\nThe work added is\n\\[\ndW=v(q)\\,dq=\\frac{q}{C}\\,dq\n\\]\nso\n\\[\nU=\\int_0^Q\\frac{q}{C}\\,dq=\\frac{Q^2}{2C}\n\\]\nSince \\(Q=CV\\),\n\\[\nU=\\frac{(CV)^2}{2C}=\\frac{1}{2}CV^2\n\\]\nAlso,\n\\[\n\\frac{Q^2}{2C}=\\frac{1}{2}Q\\frac{Q}{C}=\\frac{1}{2}QV\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-12",
+      "prompt": "A \\(6.0\\,\\mu\\mathrm{F}\\) capacitor is charged to \\(40\\,\\mathrm{V}\\) and then discharged through a lamp. How much energy is available to the lamp?",
+      "answer": "The available energy is the stored capacitor energy:\n\\[\nU=\\frac{1}{2}CV^2\n\\]\n\\[\nU=\\frac{1}{2}(6.0\\times10^{-6})(40^2)\n=4.8\\times10^{-3}\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-13",
+      "prompt": "A vacuum parallel-plate capacitor has area \\(0.010\\,\\mathrm{m^2}\\) and breakdown field \\(3.0\\times10^6\\,\\mathrm{V\\,m^{-1}}\\). If the plate separation is \\(0.50\\,\\mathrm{mm}\\), estimate the maximum stored energy before breakdown.",
+      "answer": "At breakdown,\n\\[\nE_{\\max}=3.0\\times10^6\\,\\mathrm{V\\,m^{-1}}\n\\]\nThe maximum energy density is\n\\[\nu_{\\max}=\\frac{1}{2}\\epsilon_0E_{\\max}^2\n\\]\n\\[\nu_{\\max}=\\frac{1}{2}(8.85\\times10^{-12})(3.0\\times10^6)^2\n=39.8\\,\\mathrm{J\\,m^{-3}}\n\\]\nThe field volume is\n\\[\nAd=(0.010)(0.50\\times10^{-3})=5.0\\times10^{-6}\\,\\mathrm{m^3}\n\\]\nThus\n\\[\nU_{\\max}=u_{\\max}Ad=(39.8)(5.0\\times10^{-6})\n=2.0\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-14",
+      "prompt": "A \\(3.0\\,\\mu\\mathrm{F}\\) capacitor charged to \\(18\\,\\mathrm{V}\\) is connected in parallel with an uncharged \\(6.0\\,\\mu\\mathrm{F}\\) capacitor. Find the final stored energy and the energy dissipated.",
+      "answer": "Initial charge:\n\\[\nQ_{\\mathrm{tot}}=C_1V_1=(3.0\\,\\mu\\mathrm{F})(18\\,\\mathrm{V})=54\\,\\mu\\mathrm{C}\n\\]\nFinal common voltage:\n\\[\nV_f=\\frac{Q_{\\mathrm{tot}}}{C_1+C_2}\n=\\frac{54\\,\\mu\\mathrm{C}}{9.0\\,\\mu\\mathrm{F}}\n=6.0\\,\\mathrm{V}\n\\]\nInitial energy:\n\\[\nU_i=\\frac{1}{2}(3.0\\times10^{-6})(18^2)\n=4.86\\times10^{-4}\\,\\mathrm{J}\n\\]\nFinal energy:\n\\[\nU_f=\\frac{1}{2}(9.0\\times10^{-6})(6.0^2)\n=1.62\\times10^{-4}\\,\\mathrm{J}\n\\]\nEnergy dissipated:\n\\[\nU_i-U_f=3.24\\times10^{-4}\\,\\mathrm{J}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-15",
+      "prompt": "A battery remains connected to a parallel-plate capacitor while the plate separation is doubled. Determine how \\(C\\), \\(Q\\), \\(E\\), and capacitor stored energy change. Explain where the energy difference goes.",
+      "answer": "For fixed area,\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nDoubling \\(d\\) halves \\(C\\):\n\\[\nC_2=\\frac{C_1}{2}\n\\]\nThe battery fixes \\(V\\), so\n\\[\nQ=CV\n\\]\nalso halves:\n\\[\nQ_2=\\frac{Q_1}{2}\n\\]\nThe field is\n\\[\nE=\\frac{V}{d}\n\\]\nso it also halves:\n\\[\nE_2=\\frac{E_1}{2}\n\\]\nThe stored energy is\n\\[\nU=\\frac{1}{2}CV^2\n\\]\nso\n\\[\nU_2=\\frac{U_1}{2}\n\\]\nThe difference is handled by the battery and any mechanical work done moving the plates. Because the battery remains connected, charge can flow off the plates as the capacitance decreases.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-16",
+      "prompt": "An isolated parallel-plate capacitor with fixed \\(Q\\) has plate separation increased by \\(\\Delta d\\). Derive the work required in terms of \\(Q\\), \\(\\epsilon_0\\), \\(A\\), and \\(\\Delta d\\), neglecting edge effects.",
+      "answer": "For fixed \\(Q\\),\n\\[\nU=\\frac{Q^2}{2C}\n\\]\nand for parallel plates\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nso\n\\[\nU(d)=\\frac{Q^2d}{2\\epsilon_0A}\n\\]\nIncreasing the separation by \\(\\Delta d\\) changes the energy by\n\\[\n\\Delta U=U(d+\\Delta d)-U(d)\n=\\frac{Q^2\\Delta d}{2\\epsilon_0A}\n\\]\nThe required external work is\n\\[\nW_{\\mathrm{ext}}=\\Delta U=\\frac{Q^2\\Delta d}{2\\epsilon_0A}\n\\]\nfor a slow separation with no losses.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-17",
+      "prompt": "A capacitor is charged by a battery from zero to final voltage \\(V\\). Show that the battery supplies \\(CV^2\\) of energy while the capacitor stores only \\(\\frac12CV^2\\). State where the other half goes in a real circuit.",
+      "answer": "The final charge is\n\\[\nQ=CV\n\\]\nThe battery moves charge through potential difference \\(V\\), so the energy supplied by the battery is\n\\[\nW_{\\mathrm{battery}}=QV=CV^2\n\\]\nThe capacitor stores\n\\[\nU=\\frac{1}{2}CV^2\n\\]\nTherefore only half of the battery\u0027s supplied energy is stored:\n\\[\nU=\\frac{1}{2}W_{\\mathrm{battery}}\n\\]\nIn a real circuit, the other half is dissipated as thermal energy in resistance or emitted electromagnetically during the charging transient.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-18",
+      "prompt": "Use energy to derive the attractive force between parallel capacitor plates held at fixed voltage \\(V\\). Treat \\(C=\\epsilon_0A/d\\) and explain why the relevant force magnitude is \\(F=\\frac12\\epsilon_0AV^2/d^2\\).",
+      "answer": "At fixed voltage, the capacitor energy alone is\n\\[\nU_C(d)=\\frac{1}{2}C(d)V^2=\\frac{1}{2}\\epsilon_0\\frac{A}{d}V^2\n\\]\nAs the plates move, the battery supplies or absorbs charge, so the mechanical force must be found from the energy of the capacitor plus battery. The result is equivalent to using the field energy density between plates:\n\\[\nu_E=\\frac{1}{2}\\epsilon_0E^2\n\\]\nwith\n\\[\nE=\\frac{V}{d}\n\\]\nThe attractive pressure is this energy density, so\n\\[\n\\frac{F}{A}=\\frac{1}{2}\\epsilon_0\\left(\\frac{V}{d}\\right)^2\n\\]\nThus\n\\[\nF=\\frac{1}{2}\\epsilon_0A\\frac{V^2}{d^2}\n\\]\nThe force is attractive: it acts to reduce \\(d\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-19",
+      "prompt": "Use energy to derive the attractive force between isolated parallel capacitor plates carrying fixed charge \\(Q\\). Show that the force magnitude is \\(F=Q^2/(2\\epsilon_0A)\\).",
+      "answer": "At fixed charge, the stored energy is\n\\[\nU(d)=\\frac{Q^2}{2C}\n\\]\nwith\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nso\n\\[\nU(d)=\\frac{Q^2d}{2\\epsilon_0A}\n\\]\nThe external work needed to increase separation by \\(dd\\) is\n\\[\ndW_{\\mathrm{ext}}=dU=\\frac{Q^2}{2\\epsilon_0A}\\,dd\n\\]\nTherefore the attractive force magnitude is\n\\[\nF=\\frac{dU}{dd}=\\frac{Q^2}{2\\epsilon_0A}\n\\]\nIt is constant with \\(d\\) in the ideal parallel-plate model because the field \\(E=Q/(\\epsilon_0A)\\) is independent of separation.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitor-energy-20",
+      "prompt": "Two capacitors \\(C_1\\) and \\(C_2\\) initially at voltages \\(V_1\\) and \\(V_2\\) are connected positive-to-positive. Derive the energy dissipated and prove it is nonnegative.",
+      "answer": "The final common voltage is\n\\[\nV_f=\\frac{C_1V_1+C_2V_2}{C_1+C_2}\n\\]\nInitial energy:\n\\[\nU_i=\\frac{1}{2}C_1V_1^2+\\frac{1}{2}C_2V_2^2\n\\]\nFinal energy:\n\\[\nU_f=\\frac{1}{2}(C_1+C_2)V_f^2\n\\]\nSubstitute \\(V_f\\):\n\\[\nU_f=\\frac{1}{2}\\frac{(C_1V_1+C_2V_2)^2}{C_1+C_2}\n\\]\nThus\n\\[\nU_i-U_f\n=\\frac{1}{2}C_1V_1^2+\\frac{1}{2}C_2V_2^2\n-\\frac{1}{2}\\frac{(C_1V_1+C_2V_2)^2}{C_1+C_2}\n\\]\nPutting over a common denominator gives\n\\[\nU_i-U_f=\\frac{1}{2}\\frac{C_1C_2}{C_1+C_2}(V_1-V_2)^2\n\\]\nSince \\(C_1\u003e0\\), \\(C_2\u003e0\\), and \\((V_1-V_2)^2\\ge0\\), the dissipated energy is nonnegative. It is zero only when \\(V_1=V_2\\).",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

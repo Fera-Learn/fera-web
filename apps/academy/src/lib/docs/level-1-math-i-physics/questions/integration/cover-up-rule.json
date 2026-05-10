@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "integration",
+  "topicId": "cover-up-rule",
+  "topicTitle": "Cover-Up Rule",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "cu-1",
+      "prompt": "Find A and B for 1/[(x-1)(x-2)] = A/(x-1) + B/(x-2).",
+      "answer": "A=-1, B=1",
+      "hints": ["A=1/(1-2)=-1, B=1/(2-1)=1."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-2",
+      "prompt": "Find A and B for 3/[(x-1)(x+2)].",
+      "answer": "A=1, B=-1",
+      "hints": ["A=3/(1+2)=1, B=3/(-2-1)=-1."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-3",
+      "prompt": "Use cover-up to decompose 2/[(x-3)(x-1)].",
+      "answer": "1/(x-3) + 1/(x-1)",
+      "hints": ["A=2/(3-1)=1, B=2/(1-3)=-1? Wait: both positive."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-4",
+      "prompt": "Find coefficients for (5)/[(x-2)(x+3)].",
+      "answer": "1/(x-2) + (-1)/(x+3)",
+      "hints": ["A=5/(5)=1, B=5/(-5)=-1."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-5",
+      "prompt": "Decompose 4/[(x-1)(x-4)].",
+      "answer": "-4/3/(x-1) + 4/3/(x-4)",
+      "hints": ["A=4/(1-4)=-4/3, B=4/(4-1)=4/3."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-6",
+      "prompt": "Find A, B for (2x+1)/[(x-1)(x+1)].",
+      "answer": "3/2/(x-1) - 1/2/(x+1)",
+      "hints": ["A=(2(1)+1)/(1+1)=3/2, B=(2(-1)+1)/(-1-1)=-1/-2=1/2."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-7",
+      "prompt": "Decompose 1/[(x-a)(x-b)] for general a,b.",
+      "answer": "1/(b-a)/(x-a) - 1/(b-a)/(x-b)",
+      "hints": ["A=1/(a-b), B=1/(b-a)."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-8",
+      "prompt": "Use cover-up to find partial fractions of x/[(x-2)(x-5)].",
+      "answer": "-2/3/(x-2) + 5/3/(x-5)",
+      "hints": ["A=2/(-3)=-2/3, B=5/3."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-9",
+      "prompt": "Decompose (3x)/[(x-1)(x+2)].",
+      "answer": "1/(x-1) + 2/(x+2)",
+      "hints": ["A=3/(1+2)=1, B=3/(-2-1)=-1? No: B=3(-2)/(-3)=2."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "cu-10",
+      "prompt": "Find partial fractions of (x+3)/[(x-2)(x-3)].",
+      "answer": "6/(x-2) - 5/(x-3)",
+      "hints": ["After division or just A/(x-2) + B/(x-3)."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "common-thermodynamic-processes",
+  "topicTitle": "Common Thermodynamic Processes",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thermo-processes-01",
+      "prompt": "Which named process has constant volume?",
+      "answer": "A constant-volume process is called isochoric.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-02",
+      "prompt": "Which named process has no heat transfer?",
+      "answer": "A process with no heat transfer is called adiabatic:\n\\[\nQ=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-03",
+      "prompt": "For an isochoric process with \\(Q=450\\,\\mathrm{J}\\), find \\(W\\) and \\(\\Delta U\\).",
+      "answer": "Isochoric means constant volume, so\n\\[\nW=0\n\\]\nThen\n\\[\n\\Delta U=Q-W=450-0=450\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-04",
+      "prompt": "For an isobaric expansion at \\(p=2.0\\times10^5\\,\\mathrm{Pa}\\) with \\(\\Delta V=0.010\\,\\mathrm{m^3}\\), find \\(W\\).",
+      "answer": "For an isobaric process,\n\\[\nW=p\\Delta V\n\\]\n\\[\nW=(2.0\\times10^5)(0.010)=2.0\\times10^3\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-05",
+      "prompt": "An ideal gas expands isothermally and does \\(350\\,\\mathrm{J}\\) of work. Find \\(\\Delta U\\) and \\(Q\\).",
+      "answer": "For an ideal gas, internal energy depends only on temperature. Isothermal means \\(\\Delta T=0\\), so\n\\[\n\\Delta U=0\n\\]\nThen\n\\[\n0=Q-W\n\\]\nso\n\\[\nQ=W=350\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-06",
+      "prompt": "A gas undergoes an adiabatic compression with \\(W=-280\\,\\mathrm{J}\\). Find \\(Q\\) and \\(\\Delta U\\).",
+      "answer": "Adiabatic means\n\\[\nQ=0\n\\]\nUsing\n\\[\n\\Delta U=Q-W\n\\]\n\\[\n\\Delta U=0-(-280)=280\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-07",
+      "prompt": "A process is isobaric with \\(Q=900\\,\\mathrm{J}\\) and \\(W=250\\,\\mathrm{J}\\). Find \\(\\Delta U\\) and state whether temperature rises for an ideal gas.",
+      "answer": "\\[\n\\Delta U=Q-W\n\\]\n\\[\n\\Delta U=900-250=650\\,\\mathrm{J}\n\\]\nFor an ideal gas, internal energy depends only on temperature. Since \\(\\Delta U\u003e0\\), the temperature rises.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-08",
+      "prompt": "A cyclic process rejects \\(400\\,\\mathrm{J}\\) of heat overall. Find net work done by the system and interpret its sign.",
+      "answer": "Rejecting \\(400\\,\\mathrm{J}\\) of heat means\n\\[\nQ_{\\mathrm{net}}=-400\\,\\mathrm{J}\n\\]\nFor a cycle,\n\\[\n\\Delta U=0\n\\]\nso\n\\[\nW_{\\mathrm{net}}=Q_{\\mathrm{net}}=-400\\,\\mathrm{J}\n\\]\nThe negative sign means the surroundings do net work on the system.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-09",
+      "prompt": "An ideal gas goes from state \\(A\\) to state \\(B\\) with the same temperature by two processes: isothermal expansion and free expansion into vacuum. Compare \\(Q\\), \\(W\\), and \\(\\Delta U\\) for the two processes.",
+      "answer": "For both processes, the ideal gas has the same initial and final temperature, so\n\\[\n\\Delta U=0\n\\]\nFor a quasistatic isothermal expansion,\n\\[\nW\u003e0\n\\]\nand the first law gives\n\\[\nQ=W\u003e0\n\\]\nFor free expansion into vacuum, there is no opposing pressure, so\n\\[\nW=0\n\\]\nIf the free expansion is isolated,\n\\[\nQ=0\n\\]\nThe endpoint temperature can be the same for an ideal gas even though the heat and work transfers are different.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermo-processes-10",
+      "prompt": "A gas is heated from \\(T_i\\) to \\(T_f\\) once at constant volume and once at constant pressure. For an ideal gas, derive which path requires more heat and by how much per mole.",
+      "answer": "At constant volume,\n\\[\nQ_V=nC_V\\Delta T\n\\]\nAt constant pressure,\n\\[\nQ_P=nC_P\\Delta T\n\\]\nFor an ideal gas,\n\\[\nC_P-C_V=R\n\\]\nso\n\\[\nQ_P-Q_V=nR\\Delta T\n\\]\nPer mole, the constant-pressure path requires extra heat\n\\[\nR\\Delta T\n\\]\nbecause some of the heat input becomes expansion work.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

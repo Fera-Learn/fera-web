@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "first-principles",
+  "topicTitle": "First Principles",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "fp-1",
+      "prompt": "Use first principles to find f'(x) for f(x) = x^2.",
+      "answer": "2x",
+      "hints": ["Start with the limit definition.", "Expand (x+h)^2 before simplifying."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-2",
+      "prompt": "Use first principles to find the derivative of f(x) = 3x.",
+      "answer": "3",
+      "hints": ["The numerator simplifies to 3h.", "After cancelling h, take the limit."],
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-3",
+      "prompt": "Find f'(x) from first principles if f(x) = x^3.",
+      "answer": "3x^2",
+      "hints": ["Expand (x+h)^3 using the binomial expansion.", "Factor out h before taking the limit."],
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-4",
+      "prompt": "Use first principles to find f'(2) for f(x) = x^2.",
+      "answer": "4",
+      "hints": ["Use the definition f'(a) = lim (f(x)-f(a))/(x-a).", "Or find f'(x) first, then substitute x=2."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-5",
+      "prompt": "Find the derivative of f(x) = x^2 - 4x using first principles.",
+      "answer": "2x - 4",
+      "hints": ["Expand f(x+h) - f(x) completely.", "Factor out h and cancel."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-6",
+      "prompt": "Use first principles to show that the derivative of f(x) = 5 is 0.",
+      "answer": "0",
+      "hints": ["The numerator f(x+h) - f(x) = 5 - 5 = 0.", "0 divided by h is 0."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-7",
+      "prompt": "Find f'(1) if f(x) = 1/x using first principles.",
+      "answer": "-1",
+      "hints": ["f(x+h) - f(x) = 1/(x+h) - 1/x = -h/(x(x+h)).", "After dividing by h and taking the limit, substitute x=1."],
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-8",
+      "prompt": "Use first principles to find f'(x) for f(x) = sqrt(x).",
+      "answer": "1/(2 sqrt(x))",
+      "hints": ["f(x+h) - f(x) = sqrt(x+h) - sqrt(x).", "Multiply by the conjugate to rationalize."],
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-9",
+      "prompt": "Prove from first principles that the derivative of f(x) = e^x is e^x.",
+      "answer": "e^x",
+      "hints": ["This requires knowing that lim (e^h - 1)/h = 1.", "Or use the fact that e^x is defined by its derivative property."],
+      "rating": "****",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "fp-10",
+      "prompt": "Use the alternative form f'(a) = lim (f(x)-f(a))/(x-a) to find f'(3) for f(x) = 2x + 1.",
+      "answer": "2",
+      "hints": ["Substitute directly into the alternative form.", "The linear function has constant slope."],
+      "rating": "**",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

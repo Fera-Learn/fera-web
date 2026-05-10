@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "huygens-principle",
+  "topicTitle": "Huygens Principle",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "huygens-principle-01",
+      "prompt": "State Huygens principle.",
+      "answer": "Every point on a wavefront can be treated as a source of secondary wavelets. The next wavefront is the envelope of those wavelets.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-02",
+      "prompt": "In an isotropic medium, what is the relationship between rays and wavefronts?",
+      "answer": "Rays are perpendicular to wavefronts in an isotropic medium.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-03",
+      "prompt": "A wave travels at \\(2.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\). How far do Huygens wavelets expand in \\(1.5\\,\\mathrm{ns}\\)?",
+      "answer": "\\[\nr=v\\Delta t=(2.0\\times10^8)(1.5\\times10^{-9})=0.30\\,\\mathrm m\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-04",
+      "prompt": "How does Huygens principle explain the law of reflection?",
+      "answer": "The wavelets from points on the reflecting boundary form a reflected wavefront whose geometry is symmetric with the incident wavefront. This gives\n\\[\n\\theta_r=\\theta_i\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-05",
+      "prompt": "If light enters a slower medium, how does the Huygens construction predict the ray bends?",
+      "answer": "The part of the wavefront that enters the slower medium first advances more slowly. The wavefront rotates so that the ray bends toward the normal.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-06",
+      "prompt": "If light enters a faster medium, how does the ray bend according to the Huygens construction?",
+      "answer": "The part of the wavefront that enters the faster medium first advances more quickly. The wavefront rotates so that the ray bends away from the normal.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-07",
+      "prompt": "State Snell's law in speed form.",
+      "answer": "The speed form of Snell's law is\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-08",
+      "prompt": "A wavefront enters a medium where its speed changes from \\(3.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\) to \\(2.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\\). If \\(\\theta_1=45^\\circ\\), find \\(\\theta_2\\).",
+      "answer": "Use the speed form:\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]\nso\n\\[\n\\sin\\theta_2=\\sin45^\\circ\\frac{v_2}{v_1}=0.707\\frac{2.0}{3.0}=0.471\n\\]\n\\[\n\\theta_2=28.1^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-09",
+      "prompt": "Use Huygens principle to explain why a plane wave remains plane while traveling through a uniform medium.",
+      "answer": "In a uniform medium, every point on a plane wavefront emits wavelets that expand at the same speed. After the same time \\(\\Delta t\\), all wavelets have the same radius \\(v\\Delta t\\). Their common envelope is another plane parallel to the first, so the wavefront remains plane.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-10",
+      "prompt": "Show how the speed form of Snell's law becomes the index form.",
+      "answer": "Start with the speed form:\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]\nUsing \\(v=c/n\\),\n\\[\n\\frac{v_1}{v_2}=\\frac{c/n_1}{c/n_2}=\\frac{n_2}{n_1}\n\\]\nThus\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{n_2}{n_1}\n\\]\nRearrange:\n\\[\nn_1\\sin\\theta_1=n_2\\sin\\theta_2\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-11",
+      "prompt": "Light travels in glass of refractive index \\(1.50\\). How far do Huygens wavelets expand in \\(2.0\\,\\mathrm{ns}\\)?",
+      "answer": "The speed in the glass is\n\\[\nv=\\frac{c}{n}=\\frac{3.0\\times10^8}{1.50}=2.0\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]\nThe wavelet radius after \\(2.0\\,\\mathrm{ns}\\) is\n\\[\nr=v\\Delta t=(2.0\\times10^8)(2.0\\times10^{-9})=0.40\\,\\mathrm m\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-12",
+      "prompt": "Use the speed form of Snell's law to find the refracted angle when light enters glass \\((n=1.50)\\) from air at \\(30^\\circ\\).",
+      "answer": "In air, \\(v_1=c\\). In glass,\n\\[\nv_2=\\frac{c}{1.50}\n\\]\nUsing\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]\nwe get\n\\[\n\\sin\\theta_2=\\sin30^\\circ\\frac{v_2}{v_1}=0.500\\times\\frac{1}{1.50}=0.333\n\\]\n\\[\n\\theta_2=19.5^\\circ\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-13",
+      "prompt": "Use Huygens principle to explain why a wave spreads after passing through a narrow opening.",
+      "answer": "Each point across the opening acts as a source of secondary wavelets. When the opening is narrow, the wavelets from the edges spread into regions that would be shadowed in a simple ray model. Their envelope forms a spreading wavefront, so diffraction becomes significant.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-14",
+      "prompt": "Use the Huygens construction to explain why a ray does not bend at normal incidence when entering a new medium.",
+      "answer": "At normal incidence, every point on the wavefront reaches the boundary at the same time. After entering the new medium, all points on the wavefront change speed together. The wavefront remains parallel to the boundary, so the ray direction, which is normal to the wavefront, does not rotate.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-15",
+      "prompt": "A wave enters a faster medium where its speed becomes \\(1.25\\) times larger. If the incident angle is \\(30^\\circ\\), find the refracted angle using the speed form of Snell's law.",
+      "answer": "Use\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]\nWith \\(v_2=1.25v_1\\),\n\\[\n\\sin\\theta_2=\\sin30^\\circ\\frac{v_2}{v_1}=0.500\\times1.25=0.625\n\\]\n\\[\n\\theta_2=38.7^\\circ\n\\]\nThe ray bends away from the normal because it enters a faster medium.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-16",
+      "prompt": "Use a Huygens construction to derive the law of reflection.",
+      "answer": "Consider two points on a plane incident wavefront reaching a reflecting surface. The point that arrives first emits a secondary wavelet while the other part of the incident wavefront continues to the surface. Since the reflected wave travels in the same medium, both distances covered in the same time are equal. The incident and reflected right triangles therefore have a common hypotenuse and equal corresponding sides, so their angles are equal:\n\\[\n\\theta_i=\\theta_r\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-17",
+      "prompt": "Use the Huygens wavefront construction to derive Snell's law in speed form.",
+      "answer": "Take a plane wavefront meeting a boundary at an angle. One end of the wavefront reaches the second medium first and, in time \\(t\\), travels a distance \\(v_2t\\). During the same time, the other end still in the first medium travels \\(v_1t\\). The geometry of the incident and refracted wavefronts gives\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1t}{v_2t}\n\\]\nso\n\\[\n\\frac{\\sin\\theta_1}{\\sin\\theta_2}=\\frac{v_1}{v_2}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-18",
+      "prompt": "A wavefront crosses into a region where the lower part of the wavefront travels more slowly than the upper part. Use Huygens principle to describe what happens to the wavefront and ray direction.",
+      "answer": "The lower points on the wavefront emit smaller secondary wavelets in the same time because their speed is lower. The upper points emit larger wavelets. The envelope of these unequal wavelets rotates, so the wavefront turns. Since rays are perpendicular to wavefronts, the ray direction bends toward the slower region.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-19",
+      "prompt": "Explain how Huygens principle connects wavefronts with ray optics, and why it also predicts diffraction.",
+      "answer": "In ray optics, rays are drawn perpendicular to wavefronts. Huygens principle explains the motion of the wavefront as the envelope of secondary wavelets, so reflection and refraction laws can be obtained from wavefront geometry. Unlike a pure ray model, Huygens principle also allows wavelets to spread around edges and through openings, which explains diffraction.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "huygens-principle-20",
+      "prompt": "Use Huygens principle to explain why a wavefront bends toward the normal when entering a medium where its speed is halved.",
+      "answer": "In the slower medium, each secondary wavelet has radius\n\\[\nr_2=v_2\\Delta t=\\frac12v_1\\Delta t\n\\]\nso the part of the wavefront that enters the second medium first advances only half as far as the part still moving in the first medium. The new envelope therefore rotates so that the ray, perpendicular to the wavefront, moves closer to the normal. This is the wavefront explanation for bending toward the normal.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

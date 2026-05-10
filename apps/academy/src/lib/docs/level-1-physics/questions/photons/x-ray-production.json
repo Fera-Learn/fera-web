@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "photons",
+  "topicId": "x-ray-production",
+  "topicTitle": "X-Ray Production",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "x-ray-production-01",
+      "prompt": "How are x-rays produced in a basic x-ray tube?",
+      "answer": "Electrons are accelerated through a large potential difference and strike a metal target. Their deceleration and atomic transitions in the target produce x-rays.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-02",
+      "prompt": "What is bremsstrahlung radiation?",
+      "answer": "Bremsstrahlung is radiation emitted when fast charged particles decelerate, especially when electrons are slowed in a target.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-03",
+      "prompt": "State the electron energy gained after acceleration through potential difference \\(V\\).",
+      "answer": "\\[\nK=eV\n\\]\nIn electronvolt units, an electron accelerated through \\(V\\) volts gains \\(V\\,\\mathrm{eV}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-04",
+      "prompt": "Electrons are accelerated through \\(30.0\\,\\mathrm{kV}\\). What is their kinetic energy in keV?",
+      "answer": "An electron accelerated through \\(30.0\\,\\mathrm{kV}\\) gains\n\\[\nK=30.0\\,\\mathrm{keV}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-05",
+      "prompt": "State the minimum wavelength cutoff for an x-ray tube.",
+      "answer": "\\[\n\\lambda_{\\min}=\\frac{hc}{eV}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-06",
+      "prompt": "Find \\(\\lambda_{\\min}\\) for a \\(30.0\\,\\mathrm{kV}\\) x-ray tube using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\n\\lambda_{\\min}=\\frac{1240}{30.0\\times10^3}=0.0413\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-07",
+      "prompt": "Find the tube voltage needed for \\(\\lambda_{\\min}=0.0500\\,\\mathrm{nm}\\). Use \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\neV=\\frac{hc}{\\lambda_{\\min}}=\\frac{1240}{0.0500}=2.48\\times10^4\\,\\mathrm{eV}\n\\]\nso\n\\[\nV=24.8\\,\\mathrm{kV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-08",
+      "prompt": "Does the minimum wavelength cutoff depend on the target material?",
+      "answer": "No. The cutoff is set by the maximum electron energy \\(eV\\), so it depends on tube voltage, not target material.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-09",
+      "prompt": "What causes characteristic x-ray lines?",
+      "answer": "An inner-shell vacancy is filled by an outer electron. The level energy difference is emitted as an x-ray photon.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-10",
+      "prompt": "A target transition has \\(\\Delta E=8.0\\,\\mathrm{keV}\\). Find the characteristic x-ray wavelength.",
+      "answer": "Use \\(hc=1240\\,\\mathrm{eV\\,nm}\\):\n\\[\n\\lambda=\\frac{1240}{8000}=0.155\\,\\mathrm{nm}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-11",
+      "prompt": "Why is the x-ray spectrum continuous below the maximum photon energy?",
+      "answer": "An incident electron can lose different fractions of its kinetic energy in different deceleration events, producing photons with a continuous range of energies.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-12",
+      "prompt": "Why can an x-ray photon not have energy greater than \\(eV\\) in an x-ray tube?",
+      "answer": "The electron's kinetic energy after acceleration is \\(eV\\). A single emitted photon cannot receive more energy than the electron has available.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-13",
+      "prompt": "If the accelerating voltage is doubled, what happens to \\(\\lambda_{\\min}\\)?",
+      "answer": "Since\n\\[\n\\lambda_{\\min}=\\frac{hc}{eV}\n\\]\ndoubling \\(V\\) halves \\(\\lambda_{\\min}\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-14",
+      "prompt": "If tube current is increased while voltage is fixed, what happens to the cutoff wavelength?",
+      "answer": "The cutoff wavelength stays the same because the maximum electron energy is unchanged. More current means more electrons and usually greater x-ray intensity.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-15",
+      "prompt": "A \\(50.0\\,\\mathrm{kV}\\) tube emits its maximum-energy photon. Find that photon energy.",
+      "answer": "The maximum photon energy equals the electron energy:\n\\[\nE_{\\gamma,\\max}=50.0\\,\\mathrm{keV}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-16",
+      "prompt": "Find the frequency of a \\(20.0\\,\\mathrm{keV}\\) x-ray photon using \\(h=4.14\\times10^{-15}\\,\\mathrm{eV\\,s}\\).",
+      "answer": "\\[\nf=\\frac{E}{h}=\\frac{20.0\\times10^3}{4.14\\times10^{-15}}=4.83\\times10^{18}\\,\\mathrm{Hz}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-17",
+      "prompt": "Why do characteristic x-ray wavelengths identify the target material?",
+      "answer": "Characteristic lines come from atomic energy-level differences. Those level spacings depend on the nuclear charge and electron structure of the target element.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-18",
+      "prompt": "A tube has \\(V=40.0\\,\\mathrm{kV}\\). Calculate \\(\\lambda_{\\min}\\) in metres using \\(h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}\\), \\(c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\\), and \\(e=1.60\\times10^{-19}\\,\\mathrm{C}\\).",
+      "answer": "\\[\n\\lambda_{\\min}=\\frac{hc}{eV}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{(1.60\\times10^{-19})(4.00\\times10^4)}\n\\]\n\\[\n\\lambda_{\\min}=3.11\\times10^{-11}\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-19",
+      "prompt": "Explain why x-ray production is inefficient in ordinary tubes.",
+      "answer": "Most electron energy becomes thermal energy in the target through collisions. Only a small fraction is converted into x-ray photons.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "x-ray-production-20",
+      "prompt": "Derive the x-ray cutoff wavelength relation.",
+      "answer": "The shortest wavelength occurs when one electron gives all of its kinetic energy to one photon:\n\\[\nE_\\gamma=eV\n\\]\nUsing \\(E_\\gamma=hc/\\lambda\\),\n\\[\n\\frac{hc}{\\lambda_{\\min}}=eV\n\\]\nso\n\\[\n\\lambda_{\\min}=\\frac{hc}{eV}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gravitation",
+  "topicId": "weight-in-gravitational-fields",
+  "topicTitle": "Weight in Gravitational Fields",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "weight-grav-field-01",
+      "prompt": "A \\(12\\,\\mathrm{kg}\\) object is in a gravitational field of magnitude \\(4.0\\,\\mathrm{N\\,kg^{-1}}\\). Find its weight magnitude.",
+      "answer": "\\[\nW=mg=12(4.0)=48\\,\\mathrm{N}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-02",
+      "prompt": "An object has mass \\(20\\,\\mathrm{kg}\\). If the local gravitational field halves, what happens to its mass and weight?",
+      "answer": "The mass remains \\(20\\,\\mathrm{kg}\\). Weight is \\(W=mg\\), so if \\(g\\) halves, the weight halves.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-03",
+      "prompt": "A \\(75\\,\\mathrm{kg}\\) explorer has weight \\(255\\,\\mathrm{N}\\) on a moon. Find the moon\u0027s local gravitational field magnitude.",
+      "answer": "\\[\ng=\\frac{W}{m}=\\frac{255}{75}=3.4\\,\\mathrm{N\\,kg^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-04",
+      "prompt": "A \\(25\\,\\mathrm{kg}\\) payload is outside a spherical body of mass \\(7.0\\times10^{22}\\,\\mathrm{kg}\\), at \\(2.0\\times10^6\\,\\mathrm{m}\\) from its center. Find the payload\u0027s weight magnitude. Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "First find the local field:\n\\[\ng=G\\frac{M}{r^2}\n=\\frac{(6.67\\times10^{-11})(7.0\\times10^{22})}{(2.0\\times10^6)^2}\n=1.17\\,\\mathrm{N\\,kg^{-1}}\n\\]\nThen\n\\[\nW=mg=25(1.17)=29.2\\,\\mathrm{N}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-05",
+      "prompt": "An object has weight \\(W_R\\) at radius \\(R\\) from a spherical planet. Find its weight at radius \\(2R\\).",
+      "answer": "For the same source and object,\n\\[\nW\\propto \\frac{1}{r^2}\n\\]\nso\n\\[\nW_{2R}=W_R\\frac{R^2}{(2R)^2}=\\frac{W_R}{4}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-06",
+      "prompt": "Two probes have masses \\(m\\) and \\(3m\\). They are at radii \\(R\\) and \\(2R\\) from the same spherical source. Find the ratio of their weight magnitudes \\(W_{3m,2R}/W_{m,R}\\).",
+      "answer": "Weight scales as \\(m/r^2\\), so\n\\[\n\\frac{W_{3m,2R}}{W_{m,R}}\n=\\frac{3m/(2R)^2}{m/R^2}\n=\\frac{3}{4}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-07",
+      "prompt": "At what height above the surface of a spherical planet of radius \\(R\\) is an object\u0027s weight half its surface weight?",
+      "answer": "Let the radius from the center be \\(R+h\\). The ratio to surface weight is\n\\[\n\\frac{W}{W_s}=\\frac{GMm/(R+h)^2}{GMm/R^2}\n=\\left(\\frac{R}{R+h}\\right)^2\n\\]\nSet this equal to \\(1/2\\):\n\\[\n\\left(\\frac{R}{R+h}\\right)^2=\\frac12\n\\]\n\\[\nR+h=\\sqrt{2}R\n\\]\nTherefore\n\\[\nh=(\\sqrt{2}-1)R\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-08",
+      "prompt": "A \\(5.0\\,\\mathrm{kg}\\) object is in a local gravitational field \\(\\vec g=(-2.0\\hat{\\imath}-7.0\\hat{\\jmath})\\,\\mathrm{N\\,kg^{-1}}\\). Find its weight vector and magnitude.",
+      "answer": "Weight is \\(m\\vec g\\):\n\\[\n\\vec W=5.0(-2.0\\hat{\\imath}-7.0\\hat{\\jmath})\n=(-10\\hat{\\imath}-35\\hat{\\jmath})\\,\\mathrm{N}\n\\]\nMagnitude:\n\\[\nW=\\sqrt{10^2+35^2}=36.4\\,\\mathrm{N}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-09",
+      "prompt": "A \\(50\\,\\mathrm{kg}\\) lander has weight \\(300\\,\\mathrm{N}\\) at radius \\(8.0\\times10^6\\,\\mathrm{m}\\) from a spherical planet\u0027s center. Infer the planet mass. Use \\(G=6.67\\times10^{-11}\\,\\mathrm{N\\,m^2\\,kg^{-2}}\\).",
+      "answer": "The field magnitude at the lander is\n\\[\ng=\\frac{W}{m}=\\frac{300}{50}=6.0\\,\\mathrm{N\\,kg^{-1}}\n\\]\nFor a spherical source,\n\\[\ng=G\\frac{M}{r^2}\n\\]\nso\n\\[\nM=\\frac{gr^2}{G}\n=\\frac{6.0(8.0\\times10^6)^2}{6.67\\times10^{-11}}\n=5.8\\times10^{24}\\,\\mathrm{kg}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "weight-grav-field-10",
+      "prompt": "A body of radius \\(R\\) has surface weight \\(W_s\\). Derive the height \\(h\\) above the surface at which the weight has fallen by a fraction \\(p\\), so \\(W=(1-p)W_s\\). State the allowed range of \\(p\\).",
+      "answer": "At radius \\(R+h\\),\n\\[\n\\frac{W}{W_s}=\\left(\\frac{R}{R+h}\\right)^2\n\\]\nThe condition is\n\\[\n1-p=\\left(\\frac{R}{R+h}\\right)^2\n\\]\nTaking the positive distance root,\n\\[\n\\sqrt{1-p}=\\frac{R}{R+h}\n\\]\nso\n\\[\nR+h=\\frac{R}{\\sqrt{1-p}}\n\\]\nand\n\\[\nh=R\\left(\\frac{1}{\\sqrt{1-p}}-1\\right)\n\\]\nFor a real positive height with a reduced but nonnegative weight, \\(0\\le p\u003c1\\).",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

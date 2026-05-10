@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-field-sources",
+  "topicId": "biot-savart-for-current-elements",
+  "topicTitle": "Biot-Savart for Current Elements",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "biot-savart-current-elements-01",
+      "prompt": "What source quantity appears in the Biot-Savart law for a small current element?",
+      "answer": "The source quantity is the current element\n\\[\nI\\,d\\vec l\n\\]\nwhere \\(d\\vec l\\) points in the direction of conventional current.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-02",
+      "prompt": "State the Biot-Savart law for the magnetic field contribution from a current element.",
+      "answer": "The field contribution is\n\\[\nd\\vec B=\\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec l\\times\\hat r}{r^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-03",
+      "prompt": "A current element points upward. The field point is directly to its right. What is the direction of \\(d\\vec B\\)?",
+      "answer": "Use \\(d\\vec l\\times\\hat r\\). Up crossed with right gives into the page, so \\(d\\vec B\\) is into the page.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-04",
+      "prompt": "For \\(I=4.0\\,\\mathrm A\\), \\(dl=3.0\\,\\mathrm{mm}\\), \\(r=0.20\\,\\mathrm m\\), and \\(\\theta=90^\\circ\\), estimate \\(dB\\).",
+      "answer": "Use\n\\[\ndB=\\frac{\\mu_0}{4\\pi}\\frac{I\\,dl\\sin\\theta}{r^2}\n\\]\n\\[\ndB=10^{-7}\\frac{(4.0)(3.0\\times10^{-3})}{0.20^2}\n\\]\n\\[\ndB=3.0\\times10^{-8}\\,\\mathrm T\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-05",
+      "prompt": "Why does a current element produce no magnetic field contribution at a point lying exactly along the element direction?",
+      "answer": "At that point, \\(d\\vec l\\) is parallel or antiparallel to \\(\\hat r\\). The cross product is zero:\n\\[\nd\\vec l\\times\\hat r=\\vec0\n\\]\nso \\(d\\vec B=\\vec0\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-06",
+      "prompt": "Why must Biot-Savart contributions be added as vectors rather than as scalars?",
+      "answer": "Each current element can produce a field contribution in a different direction. The total field is therefore\n\\[\n\\vec B=\\int d\\vec B\n\\]\nnot simply the sum of magnitudes. Components may cancel by symmetry.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-07",
+      "prompt": "A short element has \\(I=2.0\\,\\mathrm A\\), \\(dl=5.0\\,\\mathrm{mm}\\), \\(r=0.10\\,\\mathrm m\\), and \\(\\theta=30^\\circ\\). Find \\(dB\\).",
+      "answer": "Use \\(\\sin30^\\circ=0.50\\):\n\\[\ndB=10^{-7}\\frac{(2.0)(5.0\\times10^{-3})(0.50)}{0.10^2}\n\\]\n\\[\ndB=5.0\\times10^{-8}\\,\\mathrm T\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-08",
+      "prompt": "At the centre of a circular current arc of radius \\(R\\), why is every current element's contribution perpendicular to the plane of the arc?",
+      "answer": "For each element, \\(d\\vec l\\) is tangent to the arc and \\(\\hat r\\) points from the element toward the centre, radially inward. Tangent crossed with radial is perpendicular to the plane, so every \\(d\\vec B\\) has the same axial direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-09",
+      "prompt": "Use Biot-Savart to derive the magnetic field at the centre of a circular arc of radius \\(R\\), current \\(I\\), and angle \\(\\phi\\) in radians.",
+      "answer": "At the centre, \\(dl\\perp\\hat r\\) and \\(r=R\\), so\n\\[\ndB=\\frac{\\mu_0}{4\\pi}\\frac{I\\,dl}{R^2}\n\\]\nAll contributions have the same perpendicular direction. Since \\(dl=R\\,d\\phi\\),\n\\[\nB=\\frac{\\mu_0 I}{4\\pi R}\\int_0^\\phi d\\phi\n\\]\n\\[\nB=\\frac{\\mu_0 I\\phi}{4\\pi R}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biot-savart-current-elements-10",
+      "prompt": "A semicircular wire of radius \\(0.050\\,\\mathrm m\\) carries \\(6.0\\,\\mathrm A\\). Straight radial leads connect to the arc. Find the field at the centre due to the arc and explain why the radial leads contribute zero.",
+      "answer": "For a semicircle, \\(\\phi=\\pi\\), so\n\\[\nB=\\frac{\\mu_0 I\\phi}{4\\pi R}=\\frac{\\mu_0 I}{4R}\n\\]\n\\[\nB=\\frac{(4\\pi\\times10^{-7})(6.0)}{4(0.050)}=3.8\\times10^{-5}\\,\\mathrm T\n\\]\nThe radial leads have \\(d\\vec l\\parallel\\hat r\\) for the centre point, so \\(d\\vec l\\times\\hat r=0\\) and they contribute no field at the centre.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

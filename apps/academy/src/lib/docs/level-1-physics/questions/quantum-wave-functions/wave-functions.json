@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "wave-functions",
+  "topicTitle": "Wave Functions",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "wave-functions-01",
+      "prompt": "What physical quantity is represented by \\(|\\psi(x,t)|^2\\) in one-dimensional quantum mechanics?",
+      "answer": "\\(|\\psi(x,t)|^2\\) is the probability density for position. The probability of finding the particle in an interval is found by integrating this density over that interval.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-02",
+      "prompt": "A one-dimensional wave function is normalized by \\(\\int |\\psi|^2\\,dx=1\\). What are the units of \\(\\psi\\)?",
+      "answer": "Since \\(|\\psi|^2dx\\) must be dimensionless, \\(|\\psi|^2\\) has units \\(\\mathrm{m^{-1}}\\). Therefore \\(\\psi\\) has units \\(\\mathrm{m^{-1/2}}\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-03",
+      "prompt": "Normalize \\(\\psi(x)=A\\sin(\\pi x/L)\\) on \\(0\\le x\\le L\\), with \\(\\psi=0\\) elsewhere.",
+      "answer": "Use\\n\\[\\n1=|A|^2\\int_0^L\\sin^2\\left(\\frac{\\pi x}{L}\\right)dx=|A|^2\\frac{L}{2}\\n\\]\\nso\\n\\[\\nA=\\sqrt{\\frac{2}{L}}\\n\\]\\nup to an arbitrary overall phase.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-04",
+      "prompt": "For the normalized state \\(\\psi=\\sqrt{2/L}\\sin(\\pi x/L)\\) on \\(0\\le x\\le L\\), find the probability of locating the particle in the left half of the box.",
+      "answer": "The probability density \\(\\sin^2(\\pi x/L)\\) is symmetric about \\(L/2\\), so the left half and right half have equal probability. Therefore\\n\\[\\nP(0\\le x\\le L/2)=\\frac12\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-05",
+      "prompt": "Normalize \\(\\psi(x)=Ae^{-|x|/a}\\) on the whole line.",
+      "answer": "\\[\\n1=|A|^2\\int_{-\\infty}^{\\infty}e^{-2|x|/a}dx=|A|^2\\left(2\\int_0^{\\infty}e^{-2x/a}dx\\right)=|A|^2a\\n\\]\\nThus\\n\\[\\nA=\\frac{1}{\\sqrt a}\\n\\]\\nup to a phase.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-06",
+      "prompt": "For \\(\\psi(x)=a^{-1/2}e^{-|x|/a}\\), find the probability that \\(|x|\\le a\\).",
+      "answer": "\\[\\nP=\\int_{-a}^{a}\\frac{1}{a}e^{-2|x|/a}dx=\\frac{2}{a}\\int_0^a e^{-2x/a}dx\\n\\]\\n\\[\\nP=1-e^{-2}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-07",
+      "prompt": "Explain why multiplying a wave function by a constant phase factor \\(e^{i\\alpha}\\) does not change any position probabilities.",
+      "answer": "The probability density becomes\\n\\[\\n|e^{i\\alpha}\\psi|^2=|e^{i\\alpha}|^2|\\psi|^2=|\\psi|^2\\n\\]\\nbecause \\(|e^{i\\alpha}|=1\\). A global phase has no position-probability effect.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-08",
+      "prompt": "Let \\(\\psi=(\\phi_1+\\phi_2)/\\sqrt2\\), where \\(\\phi_1\\) and \\(\\phi_2\\) are normalized but may overlap. Expand \\(|\\psi|^2\\) and identify the interference term.",
+      "answer": "\\[\\n|\\psi|^2=\\frac12(\\phi_1+\\phi_2)^*(\\phi_1+\\phi_2)\\n\\]\\n\\[\\n|\\psi|^2=\\frac12\\left(|\\phi_1|^2+|\\phi_2|^2+\\phi_1^*\\phi_2+\\phi_2^*\\phi_1\\right)\\n\\]\\nThe cross terms \\(\\phi_1^*\\phi_2+\\phi_2^*\\phi_1=2\\mathrm{Re}(\\phi_1^*\\phi_2)\\) are the interference terms.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-09",
+      "prompt": "For \\(\\psi=\\sqrt{2/L}\\sin(\\pi x/L)\\) in an infinite well, find \\(\\langle x\\rangle\\) without evaluating a full integral.",
+      "answer": "The probability density is symmetric about the center of the well. Therefore the mean position is at the center:\\n\\[\\n\\langle x\\rangle=\\frac{L}{2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-10",
+      "prompt": "For \\(\\psi=\\sqrt{2/L}\\sin(\\pi x/L)\\) on \\(0\\le x\\le L\\), evaluate \\(\\langle x^2\\rangle\\).",
+      "answer": "\\[\\n\\langle x^2\\rangle=\\frac{2}{L}\\int_0^Lx^2\\sin^2\\left(\\frac{\\pi x}{L}\\right)dx\\n\\]\\nUsing \\(\\sin^2u=(1-\\cos2u)/2\\),\\n\\[\\n\\langle x^2\\rangle=L^2\\left(\\frac13-\\frac{1}{2\\pi^2}\\right)\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-11",
+      "prompt": "Why can a nonzero constant wave function on the whole real line not describe a single localized particle?",
+      "answer": "If \\(\\psi=A\\) everywhere, then\\n\\[\\n\\int_{-\\infty}^{\\infty}|\\psi|^2dx=|A|^2\\int_{-\\infty}^{\\infty}dx\\n\\]\\ndiverges unless \\(A=0\\). A nonzero constant on an infinite line cannot be normalized.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-12",
+      "prompt": "A state is \\(\\psi=C(\\phi_1+i\\phi_2)\\), where \\(\\phi_1\\) and \\(\\phi_2\\) are orthonormal. Find \\(C\\) for normalization.",
+      "answer": "Because the basis states are orthonormal,\\n\\[\\n1=|C|^2(1+|i|^2)=2|C|^2\\n\\]\\nso\\n\\[\\n|C|=\\frac{1}{\\sqrt2}\\n\\]\\nA convenient choice is \\(C=1/\\sqrt2\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-13",
+      "prompt": "At a point where \\(\\psi(x)=0\\), what is the probability of detecting the particle exactly at that point? What is the more meaningful nearby question?",
+      "answer": "The probability density at that point is zero, but the probability of any exact point in a continuous distribution is already zero. The meaningful question is the probability over a small interval,\\n\\[\\nP=\\int_a^b|\\psi|^2dx\\n\\]\\nA node means intervals around that point have suppressed probability.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-14",
+      "prompt": "A normalized state has \\(\\langle x\\rangle=0\\) and \\(\\langle x^2\\rangle=a^2\\). Find \\(\\Delta x\\).",
+      "answer": "\\[\\n\\Delta x=\\sqrt{\\langle x^2\\rangle-\\langle x\\rangle^2}=\\sqrt{a^2-0}=a\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-15",
+      "prompt": "A wave function is odd: \\(\\psi(-x)=-\\psi(x)\\). What can you infer about \\(\\langle x\\rangle\\) if the state is normalized on a symmetric domain?",
+      "answer": "\\(|\\psi|^2\\) is even, so \\(x|\\psi|^2\\) is odd. The integral over a symmetric domain is zero:\\n\\[\\n\\langle x\\rangle=\\int x|\\psi|^2dx=0\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-16",
+      "prompt": "For \\(\\psi=A x\\) on \\(0\\le x\\le L\\), zero elsewhere, find the real positive normalization constant.",
+      "answer": "\\[\\n1=A^2\\int_0^Lx^2dx=A^2\\frac{L^3}{3}\\n\\]\\nso\\n\\[\\nA=\\sqrt{\\frac{3}{L^3}}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-17",
+      "prompt": "A state is \\(\\psi=(\\phi_1e^{-iE_1t/\\hbar}+\\phi_2e^{-iE_2t/\\hbar})/\\sqrt2\\), where \\(\\phi_1\\) and \\(\\phi_2\\) are real energy eigenfunctions. Explain when the probability density is time-dependent.",
+      "answer": "The density contains the cross term\\n\\[\\n\\phi_1\\phi_2\\cos\\left(\\frac{(E_2-E_1)t}{\\hbar}\\right)\\n\\]\\nIf \\(E_1\\ne E_2\\) and the product \\(\\phi_1\\phi_2\\) is not zero, the density changes in time. A single energy eigenstate has only a global time phase and no density change.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-18",
+      "prompt": "Two normalized states have overlap \\(\\langle\\phi_1|\\phi_2\\rangle=s\\), where \\(s\\) is real. Normalize \\(\\psi=A(\\phi_1+\\phi_2)\\).",
+      "answer": "\\[\\n1=|A|^2(\\langle\\phi_1|\\phi_1\\rangle+\\langle\\phi_2|\\phi_2\\rangle+\\langle\\phi_1|\\phi_2\\rangle+\\langle\\phi_2|\\phi_1\\rangle)\\n\\]\\nSince \\(s\\) is real,\\n\\[\\n1=|A|^2(2+2s)\\Rightarrow A=\\frac{1}{\\sqrt{2(1+s)}}\\n\\]\\nup to phase.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-19",
+      "prompt": "A normalized wave packet is squeezed so its spatial width is halved. Give a qualitative consequence for momentum uncertainty and justify it.",
+      "answer": "The momentum uncertainty must increase. Localizing the particle more tightly requires a broader spread of spatial frequencies \\(k\\), and momentum is linked to wave number by \\(p=\\hbar k\\). This is the wave-function origin of the uncertainty tradeoff.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "wave-functions-20",
+      "prompt": "Prove that the probability density alone is not enough to predict all later quantum behavior, using two wave functions with the same \\(|\\psi|^2\\) but different relative phase.",
+      "answer": "Let\\n\\[\\n\\psi_+=\\frac{\\phi_1+\\phi_2}{\\sqrt2},\\qquad \\psi_- =\\frac{\\phi_1-\\phi_2}{\\sqrt2}\\n\\]\\nwhere \\(\\phi_1\\) and \\(\\phi_2\\) are non-overlapping at one instant. At that instant the densities are the same because the cross term vanishes. If the packets later overlap, the densities contain cross terms with opposite signs. The later interference patterns differ, so phase information not contained in \\(|\\psi|^2\\) is physically important.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

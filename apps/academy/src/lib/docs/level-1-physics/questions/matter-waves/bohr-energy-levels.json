@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-waves",
+  "topicId": "bohr-energy-levels",
+  "topicTitle": "Bohr Energy Levels",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "matter-waves-bohr-levels-01",
+      "prompt": "State the Bohr angular momentum quantization rule.",
+      "answer": "\\[\nm_evr_n=n\\hbar\n\\]\nwhere \\(n=1,2,3,\\ldots\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-02",
+      "prompt": "State the hydrogen Bohr energy formula.",
+      "answer": "\\[\nE_n=-\\frac{13.6\\,\\mathrm{eV}}{n^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-03",
+      "prompt": "What is the physical meaning of negative energy in the hydrogen Bohr model?",
+      "answer": "Negative energy means the electron is bound to the proton. Zero energy corresponds to an electron free at infinite separation.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-04",
+      "prompt": "Find the energy of the \\(n=2\\) level in hydrogen.",
+      "answer": "\\[\nE_2=-\\frac{13.6}{2^2}=-3.40\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-05",
+      "prompt": "Find the energy of the \\(n=3\\) level in hydrogen.",
+      "answer": "\\[\nE_3=-\\frac{13.6}{3^2}=-1.51\\,\\mathrm{eV}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-06",
+      "prompt": "A hydrogen atom changes from \\(n=3\\) to \\(n=2\\). Find the photon energy.",
+      "answer": "\\[\nE_\\gamma=E_3-E_2=(-1.51)-(-3.40)=1.89\\,\\mathrm{eV}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-07",
+      "prompt": "Find the wavelength of the \\(n=3\\to n=2\\) photon using \\(hc=1240\\,\\mathrm{eV\\,nm}\\).",
+      "answer": "\\[\n\\lambda=\\frac{1240}{1.89}=656\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-08",
+      "prompt": "State how Bohr orbit radius depends on \\(n\\) for hydrogen.",
+      "answer": "\\[\nr_n=n^2a_0\n\\]\nThe orbital radius increases as \\(n^2\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-09",
+      "prompt": "Find the radius of the \\(n=3\\) Bohr orbit in terms of \\(a_0\\).",
+      "answer": "\\[\nr_3=3^2a_0=9a_0\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-10",
+      "prompt": "A hydrogen atom is ionized from the ground state. What minimum energy is required?",
+      "answer": "The ground state has \\(E_1=-13.6\\,\\mathrm{eV}\\). Ionization takes the electron to \\(E=0\\), so the required energy is\n\\[\n13.6\\,\\mathrm{eV}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-11",
+      "prompt": "Find the ionization energy from the \\(n=2\\) hydrogen level.",
+      "answer": "The \\(n=2\\) energy is\n\\[\nE_2=-3.40\\,\\mathrm{eV}\n\\]\nIonization requires raising the energy to \\(0\\), so the ionization energy is \\(3.40\\,\\mathrm{eV}\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-12",
+      "prompt": "A photon of energy \\(10.2\\,\\mathrm{eV}\\) is absorbed by ground-state hydrogen. Which level is reached?",
+      "answer": "Ground-state hydrogen has \\(E_1=-13.6\\,\\mathrm{eV}\\). After absorbing \\(10.2\\,\\mathrm{eV}\\),\n\\[\nE=-3.40\\,\\mathrm{eV}\n\\]\nThis is the \\(n=2\\) level.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-13",
+      "prompt": "Explain why a transition from \\(n=2\\) to \\(n=3\\) requires absorption rather than emission.",
+      "answer": "The \\(n=3\\) level has energy \\(-1.51\\,\\mathrm{eV}\\), which is higher than \\(-3.40\\,\\mathrm{eV}\\). The atom must gain energy to move upward, so it absorbs a photon.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-14",
+      "prompt": "Find the energy and wavelength of a hydrogen photon emitted by \\(n=4\\to n=2\\).",
+      "answer": "\\[\nE_4=-\\frac{13.6}{16}=-0.850\\,\\mathrm{eV}\n\\]\n\\[\nE_\\gamma=E_4-E_2=(-0.850)-(-3.40)=2.55\\,\\mathrm{eV}\n\\]\n\\[\n\\lambda=\\frac{1240}{2.55}=486\\,\\mathrm{nm}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-15",
+      "prompt": "Why does the Bohr model work best for hydrogen-like atoms?",
+      "answer": "Hydrogen-like atoms have one electron moving in a Coulomb field from a nucleus. Multi-electron atoms include electron-electron repulsion and shielding, so the simple Bohr energy formula no longer applies exactly.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-16",
+      "prompt": "Derive Bohr angular momentum quantization from the electron standing-wave condition.",
+      "answer": "A standing wave around the orbit requires\n\\[\n2\\pi r=n\\lambda\n\\]\nUsing \\(\\lambda=h/(m_ev)\\),\n\\[\n2\\pi r=n\\frac{h}{m_ev}\n\\]\nso\n\\[\nm_evr=n\\frac{h}{2\\pi}=n\\hbar\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-17",
+      "prompt": "Show that larger \\(n\\) levels in hydrogen become closer together in energy.",
+      "answer": "Hydrogen levels are\n\\[\nE_n=-\\frac{13.6}{n^2}\\,\\mathrm{eV}\n\\]\nAs \\(n\\) increases, \\(1/n^2\\) changes less between adjacent integers. The energy levels approach \\(0\\) and their spacing decreases.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-18",
+      "prompt": "Explain why Bohr's stationary states avoid the classical radiation problem.",
+      "answer": "Classically, an accelerating orbiting electron should radiate continuously and spiral into the nucleus. Bohr postulated stationary allowed orbits that do not radiate; radiation occurs only during transitions between allowed energies.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-19",
+      "prompt": "A hydrogen atom emits a photon while ending in \\(n=1\\). Why is this photon more energetic than a comparable transition ending in \\(n=2\\)?",
+      "answer": "The \\(n=1\\) level is much lower in energy than \\(n=2\\). A transition ending at \\(n=1\\) usually has a larger energy drop, so the photon carries larger energy and has shorter wavelength.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "matter-waves-bohr-levels-20",
+      "prompt": "Connect the Bohr model to matter waves in one argument.",
+      "answer": "The electron is treated as a wave around the nucleus. Only orbits whose circumference contains an integer number of de Broglie wavelengths form standing waves. This gives \\(m_evr=n\\hbar\\), discrete radii, and discrete energies, which explain hydrogen spectral lines.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

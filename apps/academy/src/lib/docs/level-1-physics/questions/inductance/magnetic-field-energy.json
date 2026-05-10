@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "magnetic-field-energy",
+  "topicTitle": "Magnetic Field Energy",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "magnetic-field-energy-01",
+      "prompt": "State the energy stored in an inductor.",
+      "answer": "The magnetic energy stored in an inductor is\n\\[\nU_B=\\frac12LI^2\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-02",
+      "prompt": "A \\(0.20\\,\\mathrm{H}\\) inductor carries \\(3.0\\,\\mathrm{A}\\). Find the stored energy.",
+      "answer": "\\[\nU_B=\\frac12LI^2=\\frac12(0.20)(3.0)^2=0.90\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-03",
+      "prompt": "How does stored magnetic energy change if current doubles?",
+      "answer": "Since\n\\[\nU_B=\\frac12LI^2\n\\]\nenergy is proportional to \\(I^2\\). Doubling current makes the stored energy four times larger.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-04",
+      "prompt": "A \\(5.0\\,\\mathrm{mH}\\) inductor carries \\(2.0\\,\\mathrm{A}\\). Find the stored energy.",
+      "answer": "\\[\nU_B=\\frac12(5.0\\times10^{-3})(2.0)^2=1.0\\times10^{-2}\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-05",
+      "prompt": "An inductor stores \\(2.0\\,\\mathrm{J}\\) at \\(4.0\\,\\mathrm{A}\\). Find \\(L\\).",
+      "answer": "Rearrange \\(U_B=\\frac12LI^2\\):\n\\[\nL=\\frac{2U_B}{I^2}=\\frac{2(2.0)}{(4.0)^2}=0.25\\,\\mathrm{H}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-06",
+      "prompt": "An inductor with \\(L=0.80\\,\\mathrm{H}\\) stores \\(10\\,\\mathrm{J}\\). Find the current.",
+      "answer": "\\[\nI=\\sqrt{\\frac{2U_B}{L}}=\\sqrt{\\frac{2(10)}{0.80}}=5.0\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-07",
+      "prompt": "State the magnetic energy density in a medium of permeability \\(\\mu\\).",
+      "answer": "The magnetic energy density is\n\\[\nu_B=\\frac{B^2}{2\\mu}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-08",
+      "prompt": "Find the vacuum magnetic energy density for \\(B=0.10\\,\\mathrm{T}\\).",
+      "answer": "\\[\nu_B=\\frac{B^2}{2\\mu_0}=\\frac{(0.10)^2}{2(4\\pi\\times10^{-7})}=4.0\\times10^3\\,\\mathrm{J\\,m^{-3}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-09",
+      "prompt": "Why is magnetic energy always nonnegative in the ideal inductor formula?",
+      "answer": "The formula is\n\\[\nU_B=\\frac12LI^2\n\\]\nFor a passive inductor, \\(L>0\\), and \\(I^2\\) is never negative. Therefore \\(U_B\\ge0\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-10",
+      "prompt": "Derive \\(U_B=\\frac12LI^2\\) from power into an inductor.",
+      "answer": "With passive sign convention,\n\\[\nV_L=L\\frac{dI}{dt}\n\\]\nPower into the inductor is\n\\[\nP=IV_L=LI\\frac{dI}{dt}\n\\]\nSince \\(P=dU_B/dt\\),\n\\[\ndU_B=LI\\,dI\n\\]\nIntegrating from \\(0\\) to \\(I\\):\n\\[\nU_B=\\int_0^I LI'\\,dI'=\\frac12LI^2\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-11",
+      "prompt": "An inductor current increases linearly from \\(0\\) to \\(6.0\\,\\mathrm{A}\\). If \\(L=0.30\\,\\mathrm{H}\\), how much energy is stored at the end?",
+      "answer": "Only the final current matters for stored energy:\n\\[\nU_B=\\frac12LI^2=\\frac12(0.30)(6.0)^2=5.4\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-12",
+      "prompt": "A \\(0.50\\,\\mathrm{H}\\) inductor current decreases from \\(4.0\\,\\mathrm{A}\\) to \\(1.0\\,\\mathrm{A}\\). How much magnetic energy is released?",
+      "answer": "\\[\n\\Delta U=\\frac12L(I_f^2-I_i^2)=\\frac12(0.50)(1.0^2-4.0^2)=-3.75\\,\\mathrm{J}\n\\]\nSo \\(3.75\\,\\mathrm{J}\\) is released from the magnetic field.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-13",
+      "prompt": "Why does an inductor behave like an energy-storage element rather than an energy-dissipating element?",
+      "answer": "An ideal inductor stores energy in its magnetic field when current increases and can return that energy when current decreases. A resistor dissipates energy as thermal energy; an ideal inductor does not.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-14",
+      "prompt": "A long solenoid has field \\(0.050\\,\\mathrm{T}\\) in air and volume \\(4.0\\times10^{-4}\\,\\mathrm{m^3}\\). Estimate the total magnetic energy.",
+      "answer": "First find energy density:\n\\[\nu_B=\\frac{B^2}{2\\mu_0}=\\frac{(0.050)^2}{2(4\\pi\\times10^{-7})}=9.95\\times10^2\\,\\mathrm{J\\,m^{-3}}\n\\]\nThen\n\\[\nU=u_BV=(9.95\\times10^2)(4.0\\times10^{-4})=0.40\\,\\mathrm{J}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-15",
+      "prompt": "Show that \\(1\\,\\mathrm{H\\,A^2}\\) has units of joules.",
+      "answer": "Since\n\\[\n1\\,\\mathrm{H}=1\\,\\mathrm{V\\,s\\,A^{-1}}\n\\]\nthen\n\\[\n1\\,\\mathrm{H\\,A^2}=1\\,\\mathrm{V\\,s\\,A}=1\\,\\mathrm{J}\n\\]\nbecause \\(1\\,\\mathrm{V\\,A}=1\\,\\mathrm{W}\\) and \\(1\\,\\mathrm{W\\,s}=1\\,\\mathrm{J}\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-16",
+      "prompt": "A \\(2.0\\,\\mathrm{H}\\) inductor carries current \\(I(t)=3.0t\\) for \\(t\\) in seconds. Find stored energy at \\(t=2.0\\,\\mathrm{s}\\).",
+      "answer": "At \\(t=2.0\\,\\mathrm{s}\\),\n\\[\nI=3.0(2.0)=6.0\\,\\mathrm{A}\n\\]\nThus\n\\[\nU_B=\\frac12(2.0)(6.0)^2=36\\,\\mathrm{J}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-17",
+      "prompt": "At one instant an inductor has \\(I=5.0\\,\\mathrm{A}\\) and \\(dI/dt=-2.0\\,\\mathrm{A\\,s^{-1}}\\), with \\(L=0.40\\,\\mathrm{H}\\). Find the rate of change of stored energy.",
+      "answer": "\\[\n\\frac{dU_B}{dt}=LI\\frac{dI}{dt}=(0.40)(5.0)(-2.0)=-4.0\\,\\mathrm{W}\n\\]\nThe magnetic field energy is decreasing at \\(4.0\\,\\mathrm{W}\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-18",
+      "prompt": "Why does a collapsing inductor current sometimes produce a large voltage?",
+      "answer": "The stored magnetic energy must go somewhere as current decreases. If the circuit tries to make \\(dI/dt\\) very large, the inductor voltage\n\\[\nV_L=L\\frac{dI}{dt}\n\\]\ncan become large enough to drive current through another path, such as a spark or protection diode.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-19",
+      "prompt": "Compare capacitor energy and inductor energy in terms of the circuit variable being squared.",
+      "answer": "A capacitor stores electric-field energy according to\n\\[\nU_E=\\frac12CV^2=\\frac{q^2}{2C}\n\\]\nAn inductor stores magnetic-field energy according to\n\\[\nU_B=\\frac12LI^2\n\\]\nCapacitor energy depends on voltage or charge; inductor energy depends on current.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "magnetic-field-energy-20",
+      "prompt": "Explain why the field energy density \\(u_B=B^2/(2\\mu)\\) and circuit energy \\(U_B=\\frac12LI^2\\) are consistent for a solenoid.",
+      "answer": "For a long solenoid, \\(B=\\mu NI/l\\), volume is \\(Al\\), and \\(L=\\mu N^2A/l\\). The field energy is\n\\[\nu_BAl=\\frac{B^2}{2\\mu}Al\n\\]\nSubstituting \\(B=\\mu NI/l\\) gives\n\\[\nU=\\frac{1}{2}\\mu\\frac{N^2A}{l}I^2=\\frac12LI^2\n\\]\nSo the field and circuit descriptions match.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

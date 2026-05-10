@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "radioactivity",
+  "topicTitle": "Radioactivity",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "radioactivity-01",
+      "prompt": "Write the exponential decay law for the number of undecayed nuclei.",
+      "answer": "\\[\\nN(t)=N_0e^{-\\lambda t}\\n\\]\\nwhere \\(\\lambda\\) is the decay constant.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-02",
+      "prompt": "Write the differential equation that leads to radioactive exponential decay.",
+      "answer": "The decay rate is proportional to the number of undecayed nuclei:\\n\\[\\n\\frac{dN}{dt}=-\\lambda N\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-03",
+      "prompt": "Define activity and state its SI unit.",
+      "answer": "Activity is the decay rate magnitude:\\n\\[\\nA=-\\frac{dN}{dt}=\\lambda N\\n\\]\\nIts SI unit is the becquerel, where \\(1\\,\\mathrm{Bq}=1\\,\\mathrm{s^{-1}}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-04",
+      "prompt": "Derive the relation between half-life and decay constant.",
+      "answer": "At one half-life, \\(N=N_0/2\\):\\n\\[\\n\\frac12=e^{-\\lambda t_{1/2}}\\n\\]\\nTaking logs gives\\n\\[\\nt_{1/2}=\\frac{\\ln2}{\\lambda}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-05",
+      "prompt": "A sample has half-life \\(6.0\\,\\mathrm h\\). What fraction remains after \\(18\\,\\mathrm h\\)?",
+      "answer": "The elapsed time is three half-lives, so\\n\\[\\n\\frac{N}{N_0}=\\left(\\frac12\\right)^3=\\frac18\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-06",
+      "prompt": "A sample has \\(N=2.0\\times10^{12}\\) undecayed nuclei and \\(\\lambda=3.0\\times10^{-6}\\,\\mathrm{s^{-1}}\\). Find its activity.",
+      "answer": "\\[\\nA=\\lambda N=(3.0\\times10^{-6})(2.0\\times10^{12})=6.0\\times10^{6}\\,\\mathrm{Bq}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-07",
+      "prompt": "A radioactive source has initial activity \\(800\\,\\mathrm{Bq}\\). After two half-lives, what is its activity?",
+      "answer": "Activity is proportional to \\(N\\), so it halves each half-life:\\n\\[\\nA=800\\left(\\frac12\\right)^2=200\\,\\mathrm{Bq}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-08",
+      "prompt": "If \\(\\lambda=0.020\\,\\mathrm{min^{-1}}\\), find the half-life in minutes.",
+      "answer": "\\[\\nt_{1/2}=\\frac{\\ln2}{\\lambda}=\\frac{0.693}{0.020}=34.7\\,\\mathrm{min}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-09",
+      "prompt": "Show that activity follows the same exponential time dependence as \\(N\\).",
+      "answer": "Since \\(A=\\lambda N\\) and \\(N=N_0e^{-\\lambda t}\\),\\n\\[\\nA(t)=\\lambda N_0e^{-\\lambda t}=A_0e^{-\\lambda t}\\n\\]\\nwhere \\(A_0=\\lambda N_0\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-10",
+      "prompt": "A sample has \\(12.5\\%\\) of its original undecayed nuclei. How many half-lives have elapsed?",
+      "answer": "\\(12.5\\%=1/8\\), and\\n\\[\\n\\frac18=\\left(\\frac12\\right)^3\\n\\]\\nso three half-lives have elapsed.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-11",
+      "prompt": "Derive the mean lifetime \\(\\tau\\) in terms of decay constant \\(\\lambda\\).",
+      "answer": "For exponential decay, the probability density for decay time is \\(p(t)=\\lambda e^{-\\lambda t}\\). The mean is\\n\\[\\n\\tau=\\int_0^\\infty t\\lambda e^{-\\lambda t}dt=\\frac{1}{\\lambda}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-12",
+      "prompt": "A source has half-life \\(10\\,\\mathrm s\\). Find the probability that one nucleus decays within \\(30\\,\\mathrm s\\).",
+      "answer": "The survival probability after three half-lives is \\((1/2)^3=1/8\\). Therefore the decay probability is\\n\\[\\n1-\\frac18=\\frac78\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-13",
+      "prompt": "Explain why radioactive decay is random for one nucleus but predictable for a large sample.",
+      "answer": "A single nucleus has a fixed probability per unit time of decaying, so its exact decay time is random. In a large sample, many independent nuclei average out statistical fluctuations, giving the predictable exponential law.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-14",
+      "prompt": "A sample starts with \\(N_0\\) nuclei. Find the number that have decayed by time \\(t\\).",
+      "answer": "The number remaining is \\(N=N_0e^{-\\lambda t}\\). Therefore the number decayed is\\n\\[\\nN_{\\mathrm{decayed}}=N_0-N=N_0(1-e^{-\\lambda t})\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-15",
+      "prompt": "Why does exponential decay not have a fixed time at which the sample becomes exactly zero?",
+      "answer": "The model gives\\n\\[\\nN=N_0e^{-\\lambda t}\\n\\]\\nwhich approaches zero asymptotically but never equals zero for finite \\(t\\). For very small samples, the continuous model gives probabilities rather than an exact remaining count.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-16",
+      "prompt": "A source has \\(A_0=4.0\\times10^5\\,\\mathrm{Bq}\\) and \\(\\lambda=1.0\\times10^{-4}\\,\\mathrm{s^{-1}}\\). Find its activity after \\(1.0\\times10^4\\,\\mathrm s\\).",
+      "answer": "\\[\\nA=A_0e^{-\\lambda t}=4.0\\times10^5e^{-(1.0\\times10^{-4})(1.0\\times10^4)}\\n\\]\\n\\[\\nA=4.0\\times10^5e^{-1}=1.47\\times10^5\\,\\mathrm{Bq}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-17",
+      "prompt": "A parent isotope decays into a radioactive daughter. Why can daughter activity initially rise even while the parent decays?",
+      "answer": "The daughter is being produced by parent decays while also decaying itself. If production initially exceeds daughter decay, the number of daughter nuclei and its activity increase. Later, as parent activity falls, daughter activity can peak and decline.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-18",
+      "prompt": "For a short time interval \\(\\Delta t\\), show that the decay probability of one nucleus is approximately \\(\\lambda\\Delta t\\).",
+      "answer": "The survival probability is \\(e^{-\\lambda\\Delta t}\\), so the decay probability is\\n\\[\\n1-e^{-\\lambda\\Delta t}\\n\\]\\nFor small \\(\\lambda\\Delta t\\), \\(e^{-\\lambda\\Delta t}\\approx1-\\lambda\\Delta t\\), giving\\n\\[\\nP\\approx\\lambda\\Delta t\\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-19",
+      "prompt": "A sample has two independent radioactive isotopes with activities \\(A_1=A_{10}e^{-\\lambda_1t}\\) and \\(A_2=A_{20}e^{-\\lambda_2t}\\). Why is the total activity generally not a single exponential?",
+      "answer": "The total activity is\\n\\[\\nA_{\\mathrm{tot}}=A_{10}e^{-\\lambda_1t}+A_{20}e^{-\\lambda_2t}\\n\\]\\nA sum of exponentials with different decay constants cannot generally be written as one exponential with a single constant decay rate. The apparent half-life changes with time.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "radioactivity-20",
+      "prompt": "Prove the exponential decay law by solving \\(dN/dt=-\\lambda N\\).",
+      "answer": "Separate variables:\\n\\[\\n\\frac{dN}{N}=-\\lambda dt\\n\\]\\nIntegrate from \\(N_0\\) to \\(N\\) and from \\(0\\) to \\(t\\):\\n\\[\\n\\ln\\left(\\frac{N}{N_0}\\right)=-\\lambda t\\n\\]\\nExponentiating gives\\n\\[\\nN=N_0e^{-\\lambda t}\\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

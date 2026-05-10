@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "thermal-expansion",
+  "topicTitle": "Thermal Expansion",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "thermal-expansion-01",
+      "prompt": "A rod has \\(L_0=2.00\\,\\mathrm{m}\\), \\(\\alpha=1.5\\times10^{-5}\\,\\mathrm{K^{-1}}\\), and \\(\\Delta T=40\\,\\mathrm{K}\\). Find \\(\\Delta L\\).",
+      "answer": "\\[\n\\Delta L=\\alpha L_0\\Delta T=(1.5\\times10^{-5})(2.00)(40)=1.2\\times10^{-3}\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-02",
+      "prompt": "A liquid has \\(V_0=0.80\\,\\mathrm{m^3}\\), \\(\\beta=9.0\\times10^{-4}\\,\\mathrm{K^{-1}}\\), and \\(\\Delta T=12\\,\\mathrm{K}\\). Find \\(\\Delta V\\).",
+      "answer": "\\[\n\\Delta V=\\beta V_0\\Delta T=(9.0\\times10^{-4})(0.80)(12)=8.64\\times10^{-3}\\,\\mathrm{m^3}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-03",
+      "prompt": "A circular hole in a metal plate is heated uniformly. Does the hole diameter increase, decrease, or stay the same?",
+      "answer": "The hole diameter increases. A hole expands as if it were made from the same material as the surrounding plate, because every linear dimension of the plate scales up during uniform free expansion.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-04",
+      "prompt": "An aluminum strip is \\(0.500\\,\\mathrm{m}\\) long at \\(18\\,{}^\\circ\\mathrm{C}\\). Find its length at \\(68\\,{}^\\circ\\mathrm{C}\\), using \\(\\alpha=2.3\\times10^{-5}\\,\\mathrm{K^{-1}}\\).",
+      "answer": "\\[\n\\Delta T=68-18=50\\,\\mathrm{K}\n\\]\n\\[\n\\Delta L=\\alpha L_0\\Delta T=(2.3\\times10^{-5})(0.500)(50)=5.75\\times10^{-4}\\,\\mathrm{m}\n\\]\n\\[\nL=0.500575\\,\\mathrm{m}\\approx0.501\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-05",
+      "prompt": "A steel bridge span is \\(45.0\\,\\mathrm{m}\\) long. Estimate the expansion gap needed for a temperature increase of \\(35\\,\\mathrm{K}\\), using \\(\\alpha=1.2\\times10^{-5}\\,\\mathrm{K^{-1}}\\).",
+      "answer": "\\[\n\\Delta L=\\alpha L_0\\Delta T=(1.2\\times10^{-5})(45.0)(35)=1.89\\times10^{-2}\\,\\mathrm{m}\n\\]\nThe span needs about \\(1.9\\,\\mathrm{cm}\\) of expansion allowance for that temperature rise.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-06",
+      "prompt": "A solid expands isotropically with \\(\\alpha=1.0\\times10^{-5}\\,\\mathrm{K^{-1}}\\). Estimate its volume expansion coefficient \\(\\beta\\).",
+      "answer": "For an isotropic solid,\n\\[\n\\beta\\approx3\\alpha=3(1.0\\times10^{-5})=3.0\\times10^{-5}\\,\\mathrm{K^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-07",
+      "prompt": "A tank has volume \\(2.0\\times10^{-3}\\,\\mathrm{m^3}\\) and is completely filled with liquid. The liquid has \\(\\beta_l=8.0\\times10^{-4}\\,\\mathrm{K^{-1}}\\), while the tank has \\(\\beta_t=3.6\\times10^{-5}\\,\\mathrm{K^{-1}}\\). Estimate the overflow volume for \\(\\Delta T=25\\,\\mathrm{K}\\).",
+      "answer": "Overflow is the liquid\u0027s extra expansion beyond the tank\u0027s expansion:\n\\[\n\\Delta V_{\\mathrm{overflow}}=(\\beta_l-\\beta_t)V_0\\Delta T\n\\]\n\\[\n\\Delta V_{\\mathrm{overflow}}=(8.0\\times10^{-4}-3.6\\times10^{-5})(2.0\\times10^{-3})(25)\n\\]\n\\[\n\\Delta V_{\\mathrm{overflow}}=3.82\\times10^{-5}\\,\\mathrm{m^3}\n\\]\nor about \\(38\\,\\mathrm{mL}\\).",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-08",
+      "prompt": "A rod would freely expand by \\(0.90\\,\\mathrm{mm}\\) when heated, but its ends are held fixed. Its cross-sectional area is \\(1.5\\times10^{-4}\\,\\mathrm{m^2}\\), Young modulus is \\(2.0\\times10^{11}\\,\\mathrm{Pa}\\), and initial length is \\(3.0\\,\\mathrm{m}\\). Find the compressive force.",
+      "answer": "The prevented free strain is\n\\[\n\\epsilon=\\frac{\\Delta L_{\\mathrm{free}}}{L_0}\n=\\frac{0.90\\times10^{-3}}{3.0}=3.0\\times10^{-4}\n\\]\nThe stress magnitude is\n\\[\n\\sigma=Y\\epsilon=(2.0\\times10^{11})(3.0\\times10^{-4})=6.0\\times10^7\\,\\mathrm{Pa}\n\\]\nThe force magnitude is\n\\[\nF=\\sigma A=(6.0\\times10^7)(1.5\\times10^{-4})=9.0\\times10^3\\,\\mathrm{N}\n\\]\nThe force is compressive.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-09",
+      "prompt": "A measuring tape made of steel is correct at \\(20\\,{}^\\circ\\mathrm{C}\\). At \\(35\\,{}^\\circ\\mathrm{C}\\), it is used to measure a table and reads \\(1.500\\,\\mathrm{m}\\). Is the true table length slightly larger or smaller than the reading? Estimate it using \\(\\alpha=1.2\\times10^{-5}\\,\\mathrm{K^{-1}}\\).",
+      "answer": "At the higher temperature, each tape marking is farther apart than it was at calibration. A length that reads \\(1.500\\,\\mathrm{m}\\) is therefore slightly longer than \\(1.500\\,\\mathrm{m}\\).\n\\[\nL_{\\mathrm{true}}=L_{\\mathrm{read}}(1+\\alpha\\Delta T)\n\\]\n\\[\nL_{\\mathrm{true}}=1.500[1+(1.2\\times10^{-5})(15)]\n=1.50027\\,\\mathrm{m}\n\\]\nThe true length is about \\(0.27\\,\\mathrm{mm}\\) larger than the reading.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-10",
+      "prompt": "Derive \\(\\beta\\approx3\\alpha\\) for an isotropic solid by starting from \\(V=L^3\\) and keeping only first-order terms in \\(\\alpha\\Delta T\\).",
+      "answer": "For isotropic expansion,\n\\[\nL=L_0(1+\\alpha\\Delta T)\n\\]\nThus\n\\[\nV=L^3=L_0^3(1+\\alpha\\Delta T)^3\n\\]\nFor \\(|\\alpha\\Delta T|\\ll1\\),\n\\[\n(1+\\alpha\\Delta T)^3\\approx1+3\\alpha\\Delta T\n\\]\nso\n\\[\nV\\approx V_0(1+3\\alpha\\Delta T)\n\\]\nComparing with \\(V=V_0(1+\\beta\\Delta T)\\),\n\\[\n\\beta\\approx3\\alpha\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-11",
+      "prompt": "A composite bar is made from two materials of equal original length joined end to end. Their coefficients are \\(\\alpha_1\\) and \\(\\alpha_2\\). The total end-to-end length is free to change. Derive the effective linear expansion coefficient of the composite bar.",
+      "answer": "Let each original segment have length \\(L\\). The total original length is \\(2L\\). The two changes are\n\\[\n\\Delta L_1=\\alpha_1L\\Delta T,\\qquad \\Delta L_2=\\alpha_2L\\Delta T\n\\]\nso\n\\[\n\\Delta L_{\\mathrm{tot}}=(\\alpha_1+\\alpha_2)L\\Delta T\n\\]\nDefine \\(\\alpha_{\\mathrm{eff}}\\) by\n\\[\n\\Delta L_{\\mathrm{tot}}=\\alpha_{\\mathrm{eff}}(2L)\\Delta T\n\\]\nTherefore\n\\[\n\\alpha_{\\mathrm{eff}}=\\frac{\\alpha_1+\\alpha_2}{2}\n\\]\nfor equal segment lengths.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "thermal-expansion-12",
+      "prompt": "A rod of length \\(L_0\\), area \\(A\\), Young modulus \\(Y\\), and expansion coefficient \\(\\alpha\\) is clamped between rigid walls at temperature \\(T_0\\). It is heated by \\(\\Delta T\\). Derive the thermal stress and elastic energy stored in the rod, assuming linear elasticity.",
+      "answer": "The rod\u0027s total strain is zero because the walls are rigid:\n\\[\n0=\\alpha\\Delta T+\\epsilon_{\\mathrm{mech}}\n\\]\nso\n\\[\n\\epsilon_{\\mathrm{mech}}=-\\alpha\\Delta T\n\\]\nThe stress is\n\\[\n\\sigma=Y\\epsilon_{\\mathrm{mech}}=-Y\\alpha\\Delta T\n\\]\nnegative for compressive stress during heating. The elastic energy density is\n\\[\nu=\\frac{1}{2}Y\\epsilon_{\\mathrm{mech}}^2\n=\\frac{1}{2}Y\\alpha^2\\Delta T^2\n\\]\nMultiplying by the rod volume \\(AL_0\\),\n\\[\nU=\\frac{1}{2}Y\\alpha^2\\Delta T^2AL_0\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

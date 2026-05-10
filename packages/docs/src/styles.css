@@ -1,0 +1,198 @@
+@source "../**/*.{ts,tsx}";
+
+@layer components {
+  .docs-prose {
+    @apply text-[15px] leading-7 text-foreground;
+  }
+
+  .docs-prose [data-slot="accordion"] {
+    max-width: 42rem;
+  }
+
+  .docs-prose [data-slot="accordion-content"][data-state="closed"] > div {
+    height: 0;
+    padding-bottom: 0;
+  }
+
+  .docs-prose [data-slot="accordion-content"][data-state="open"] > div {
+    height: var(--radix-accordion-content-height);
+  }
+
+  .docs-prose > :first-child {
+    margin-top: 0;
+  }
+
+  .docs-prose > :last-child {
+    margin-bottom: 0;
+  }
+
+  .docs-prose h2 {
+    @apply mt-12 scroll-mt-28 font-heading text-2xl font-semibold tracking-tight text-foreground;
+  }
+
+  .docs-prose h3 {
+    @apply mt-8 scroll-mt-28 font-heading text-xl font-medium text-foreground;
+  }
+
+  .docs-prose p {
+    @apply my-4 text-foreground/80;
+  }
+
+  .docs-prose a {
+    @apply text-primary underline decoration-primary/35 underline-offset-4 transition-colors hover:text-foreground;
+  }
+
+  .docs-prose strong {
+    @apply font-semibold text-foreground;
+  }
+
+  .docs-prose ul,
+  .docs-prose ol {
+    @apply my-4 ml-6 space-y-2 text-foreground/80;
+  }
+
+  .docs-prose ul {
+    @apply list-disc;
+  }
+
+  .docs-prose ol {
+    @apply list-decimal;
+  }
+
+  .docs-prose blockquote {
+    @apply my-6 border-l-4 border-primary/35 pl-4 italic text-foreground/75;
+  }
+
+  .docs-prose hr {
+    @apply my-10 border-border;
+  }
+
+  .docs-prose pre {
+    @apply my-6 overflow-x-auto rounded-3xl border border-border/80 bg-subtle-surface px-4 py-4 text-sm leading-6 text-foreground;
+  }
+
+  .docs-prose :not(pre) > code {
+    @apply rounded-md bg-muted px-1.5 py-0.5 font-mono text-[0.9em] text-foreground;
+  }
+
+  .docs-equation {
+    @apply my-4 grid gap-2 rounded-lg bg-muted/30 px-4 py-3;
+  }
+
+  .docs-equation-label {
+    @apply text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground;
+  }
+
+  .docs-equation-body {
+    @apply overflow-x-auto text-foreground;
+  }
+
+  .docs-equation-body mjx-container {
+    @apply my-0 text-left;
+  }
+
+  .docs-notation {
+    @apply my-4 grid w-full max-w-xl overflow-hidden rounded-lg bg-muted/25;
+  }
+
+  .docs-notation-row {
+    @apply grid grid-cols-[minmax(5.5rem,auto)_minmax(0,1fr)_auto] items-center gap-3 border-b border-border/60 px-4 py-2.5 text-sm last:border-b-0;
+  }
+
+  .docs-notation-symbol {
+    @apply font-medium text-foreground;
+  }
+
+  .docs-notation-symbol mjx-container {
+    @apply my-0 text-left;
+  }
+
+  .docs-notation-meaning {
+    @apply text-foreground/78;
+  }
+
+  .docs-notation-unit {
+    @apply rounded-md bg-background/80 px-2 py-0.5 font-mono text-xs text-muted-foreground;
+  }
+
+  .docs-notation-unit mjx-container {
+    @apply my-0;
+  }
+
+  .docs-physics-aside {
+    @apply my-5 rounded-lg border-l-2 border-primary/45 bg-muted/25 px-4 py-3 text-sm leading-6 text-foreground/80;
+  }
+
+  .docs-physics-aside-title {
+    @apply mb-1 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground;
+  }
+
+  .docs-physics-aside p {
+    @apply my-0;
+  }
+
+  .docs-physics-derivation {
+    @apply my-5 grid max-w-2xl gap-2;
+  }
+
+  .docs-physics-derivation-row {
+    @apply grid gap-1 rounded-lg bg-muted/25 px-4 py-3;
+  }
+
+  .docs-physics-derivation-label {
+    @apply text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground;
+  }
+
+  .docs-physics-derivation-equation {
+    @apply overflow-x-auto text-foreground;
+  }
+
+  .docs-physics-derivation-equation mjx-container {
+    @apply my-0 text-left;
+  }
+
+  .docs-physics-derivation-note {
+    @apply text-sm leading-6 text-foreground/72;
+  }
+
+  .docs-physics-examples {
+    @apply my-6 max-w-3xl;
+  }
+
+  .docs-physics-examples-list {
+    @apply h-auto max-w-full flex-wrap justify-start gap-1 overflow-visible;
+  }
+
+  .docs-physics-examples [data-slot="tabs-trigger"] {
+    @apply min-w-28 px-3 py-1.5 text-[15px];
+  }
+
+  .docs-physics-example-panel {
+    @apply mt-3 space-y-4 rounded-lg bg-muted/25 px-5 py-5 text-[15px] leading-7 text-foreground/84;
+  }
+
+  .docs-physics-example-text {
+    @apply inline;
+  }
+
+  .docs-physics-example-inline-equation {
+    @apply inline text-foreground;
+  }
+
+  .docs-physics-example-inline-equation mjx-container {
+    @apply my-0;
+  }
+
+  .docs-physics-example-equation {
+    @apply my-2 overflow-x-auto text-foreground;
+  }
+
+  .docs-physics-example-label {
+    @apply text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground;
+  }
+
+  .docs-physics-example-equation mjx-container,
+  .docs-physics-example-panel mjx-container {
+    @apply my-0 text-left;
+  }
+}

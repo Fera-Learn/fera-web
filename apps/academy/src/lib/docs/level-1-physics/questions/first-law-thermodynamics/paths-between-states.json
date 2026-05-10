@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "first-law-thermodynamics",
+  "topicId": "paths-between-states",
+  "topicTitle": "Paths Between States",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "paths-between-states-01",
+      "prompt": "Is internal energy a state function or a path function?",
+      "answer": "Internal energy is a state function.\n\nIts change depends only on the initial and final states, not on the path taken between them.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-02",
+      "prompt": "For a complete thermodynamic cycle, what is \\(\\Delta U\\)?",
+      "answer": "For a complete cycle, the system returns to its initial state. Since internal energy is a state function,\n\\[\n\\Delta U=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-03",
+      "prompt": "Can two paths between the same states have different work values?",
+      "answer": "Yes. Work is a path function.\n\nOn a \\(p\\)-\\(V\\) diagram,\n\\[\nW=\\int p\\,dV\n\\]\nso different paths between the same endpoints can enclose different areas under the curve.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-04",
+      "prompt": "A process from \\(A\\) to \\(B\\) has \\(\\Delta U=120\\,\\mathrm{J}\\) and \\(W=50\\,\\mathrm{J}\\). Find \\(Q\\).",
+      "answer": "Use\n\\[\n\\Delta U=Q-W\n\\]\nso\n\\[\nQ=\\Delta U+W\n\\]\n\\[\nQ=120+50=170\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-05",
+      "prompt": "Two paths connect the same states. Path 1 has \\(W=200\\,\\mathrm{J}\\); path 2 has \\(W=80\\,\\mathrm{J}\\). If \\(\\Delta U=60\\,\\mathrm{J}\\), find \\(Q\\) for each path.",
+      "answer": "For each path,\n\\[\nQ=\\Delta U+W\n\\]\nPath 1:\n\\[\nQ_1=60+200=260\\,\\mathrm{J}\n\\]\nPath 2:\n\\[\nQ_2=60+80=140\\,\\mathrm{J}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-06",
+      "prompt": "A cyclic process absorbs \\(900\\,\\mathrm{J}\\) of heat. Find the net work done by the system over the cycle.",
+      "answer": "For a cycle,\n\\[\n\\Delta U=0\n\\]\nThe first law gives\n\\[\n0=Q_{\\mathrm{net}}-W_{\\mathrm{net}}\n\\]\nso\n\\[\nW_{\\mathrm{net}}=Q_{\\mathrm{net}}=900\\,\\mathrm{J}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-07",
+      "prompt": "A gas goes from \\(A\\) to \\(B\\) by a path with \\(Q=500\\,\\mathrm{J}\\) and \\(W=180\\,\\mathrm{J}\\). It returns from \\(B\\) to \\(A\\) with \\(W=-80\\,\\mathrm{J}\\). Find \\(Q\\) for the return path.",
+      "answer": "For the path from \\(A\\) to \\(B\\):\n\\[\n\\Delta U_{AB}=Q-W=500-180=320\\,\\mathrm{J}\n\\]\nFor the return path,\n\\[\n\\Delta U_{BA}=-320\\,\\mathrm{J}\n\\]\nUse\n\\[\nQ=\\Delta U+W\n\\]\nso\n\\[\nQ_{BA}=-320+(-80)=-400\\,\\mathrm{J}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-08",
+      "prompt": "On a \\(p\\)-\\(V\\) diagram, why can work differ for two paths with identical endpoints?",
+      "answer": "Work on a \\(p\\)-\\(V\\) diagram is the area under the path:\n\\[\nW=\\int p\\,dV\n\\]\nTwo paths can start and end at the same states but pass through different pressures at intermediate volumes. That changes the area under the curve, so it changes the work.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-09",
+      "prompt": "A system moves from \\(A\\) to \\(B\\) along path 1 with heat \\(Q_1\\) and work \\(W_1\\). Along path 2, the work is \\(W_2\\). Derive \\(Q_2\\) in terms of \\(Q_1,W_1,W_2\\).",
+      "answer": "The change in internal energy is the same for both paths:\n\\[\n\\Delta U=Q_1-W_1=Q_2-W_2\n\\]\nSolve for \\(Q_2\\):\n\\[\nQ_2=Q_1-W_1+W_2\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "paths-between-states-10",
+      "prompt": "A closed cycle consists of expansion at pressure \\(p_h\\), cooling at constant volume, compression at pressure \\(p_l\\), and heating at constant volume. Derive the net heat absorbed over the cycle in terms of \\(p_h,p_l,V_1,V_2\\).",
+      "answer": "The constant-volume steps do no work. The expansion at \\(p_h\\) gives\n\\[\nW_h=p_h(V_2-V_1)\n\\]\nThe compression at \\(p_l\\) gives\n\\[\nW_l=p_l(V_1-V_2)\n\\]\nTherefore\n\\[\nW_{\\mathrm{net}}=(p_h-p_l)(V_2-V_1)\n\\]\nBecause the process is a closed cycle,\n\\[\n\\Delta U_{\\mathrm{cycle}}=0\n\\]\nso\n\\[\nQ_{\\mathrm{net}}=W_{\\mathrm{net}}=(p_h-p_l)(V_2-V_1)\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "temperature-heat",
+  "topicId": "heat-as-energy-transfer",
+  "topicTitle": "Heat as Energy Transfer",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "heat-energy-transfer-01",
+      "prompt": "How much heat is required to warm \\(2.0\\,\\mathrm{kg}\\) of material with \\(c=500\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\\) by \\(10\\,\\mathrm{K}\\)?",
+      "answer": "\\[\nQ=mc\\Delta T=(2.0)(500)(10)=1.0\\times10^4\\,\\mathrm{J}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-02",
+      "prompt": "A \\(0.40\\,\\mathrm{kg}\\) object absorbs \\(1200\\,\\mathrm{J}\\) and its temperature rises by \\(6.0\\,\\mathrm{K}\\). Find its specific heat capacity.",
+      "answer": "\\[\nc=\\frac{Q}{m\\Delta T}=\\frac{1200}{(0.40)(6.0)}=5.0\\times10^2\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-03",
+      "prompt": "An object loses \\(850\\,\\mathrm{J}\\) of heat. What is the sign of \\(Q\\) if the object is the system?",
+      "answer": "Heat removed from the chosen system is negative:\n\\[\nQ=-850\\,\\mathrm{J}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-04",
+      "prompt": "Find the temperature rise of \\(0.25\\,\\mathrm{kg}\\) of aluminum with \\(c=900\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\\) when it absorbs \\(4.5\\times10^3\\,\\mathrm{J}\\).",
+      "answer": "\\[\n\\Delta T=\\frac{Q}{mc}\n=\\frac{4.5\\times10^3}{(0.25)(900)}\n=20\\,\\mathrm{K}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-05",
+      "prompt": "A \\(3.0\\,\\mathrm{kg}\\) block has heat capacity \\(2400\\,\\mathrm{J\\,K^{-1}}\\). Find its specific heat capacity.",
+      "answer": "The object\u0027s heat capacity is \\(C=mc\\), so\n\\[\nc=\\frac{C}{m}=\\frac{2400}{3.0}=800\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-06",
+      "prompt": "A heater supplies \\(150\\,\\mathrm{W}\\) to \\(0.60\\,\\mathrm{kg}\\) of water with \\(c=4190\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\\). Ignoring losses, find the initial rate of temperature rise.",
+      "answer": "With no losses,\n\\[\n\\frac{dT}{dt}=\\frac{P}{mc}\n\\]\n\\[\n\\frac{dT}{dt}=\\frac{150}{(0.60)(4190)}=5.97\\times10^{-2}\\,\\mathrm{K\\,s^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-07",
+      "prompt": "A copper sample and a water sample have the same mass and absorb the same heat. Copper has a smaller specific heat capacity than water. Which has the larger temperature rise? Explain.",
+      "answer": "For the same \\(Q\\) and \\(m\\),\n\\[\n\\Delta T=\\frac{Q}{mc}\n\\]\nThe smaller \\(c\\) gives the larger temperature rise. Copper warms more than water for the same heat input per kilogram.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-08",
+      "prompt": "A \\(0.50\\,\\mathrm{kg}\\) component with \\(c=700\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\\) generates thermal energy internally at \\(18\\,\\mathrm{W}\\) while losing heat to the surroundings at \\(10\\,\\mathrm{W}\\). Find \\(dT/dt\\).",
+      "answer": "The net heating power is\n\\[\nP_{\\mathrm{net}}=18-10=8\\,\\mathrm{W}\n\\]\nThen\n\\[\n\\frac{dT}{dt}=\\frac{P_{\\mathrm{net}}}{mc}\n=\\frac{8}{(0.50)(700)}\n=2.3\\times10^{-2}\\,\\mathrm{K\\,s^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-09",
+      "prompt": "A material sample of mass \\(0.30\\,\\mathrm{kg}\\) is heated electrically at \\(24\\,\\mathrm{W}\\). Its temperature rises from \\(22\\,{}^\\circ\\mathrm{C}\\) to \\(30\\,{}^\\circ\\mathrm{C}\\) in \\(140\\,\\mathrm{s}\\), with negligible heat loss. Estimate \\(c\\).",
+      "answer": "The electrical energy supplied is\n\\[\nQ=Pt=(24)(140)=3360\\,\\mathrm{J}\n\\]\nThe temperature change is\n\\[\n\\Delta T=30-22=8\\,\\mathrm{K}\n\\]\nThus\n\\[\nc=\\frac{Q}{m\\Delta T}=\\frac{3360}{(0.30)(8)}=1.4\\times10^3\\,\\mathrm{J\\,kg^{-1}\\,K^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-10",
+      "prompt": "Two objects have heat capacities \\(C_1\\) and \\(C_2\\). The same positive heat \\(Q\\) is added to each separately. Derive the ratio of their temperature changes and interpret it.",
+      "answer": "For each object,\n\\[\n\\Delta T_1=\\frac{Q}{C_1},\\qquad \\Delta T_2=\\frac{Q}{C_2}\n\\]\nTherefore\n\\[\n\\frac{\\Delta T_1}{\\Delta T_2}=\\frac{C_2}{C_1}\n\\]\nThe object with the larger heat capacity has the smaller temperature change for the same heat input.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-11",
+      "prompt": "A body with temperature-dependent heat capacity \\(C(T)=C_0(1+\\gamma T)\\) is heated from \\(T_1\\) to \\(T_2\\). Derive the heat input \\(Q\\).",
+      "answer": "For a temperature-dependent heat capacity,\n\\[\ndQ=C(T)\\,dT\n\\]\nso\n\\[\nQ=\\int_{T_1}^{T_2}C_0(1+\\gamma T)\\,dT\n\\]\n\\[\nQ=C_0\\left[(T_2-T_1)+\\frac{\\gamma}{2}(T_2^2-T_1^2)\\right]\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "heat-energy-transfer-12",
+      "prompt": "A device of heat capacity \\(C\\) receives constant power \\(P\\) and loses heat at rate \\(b(T-T_s)\\), where \\(T_s\\) is surroundings temperature. Derive \\(T(t)\\) for initial temperature \\(T(0)=T_s\\), and identify the limiting temperature.",
+      "answer": "Energy balance gives\n\\[\nC\\frac{dT}{dt}=P-b(T-T_s)\n\\]\nLet \\(\\theta=T-T_s\\). Since \\(T(0)=T_s\\), \\(\\theta(0)=0\\). Then\n\\[\nC\\frac{d\\theta}{dt}=P-b\\theta\n\\]\nor\n\\[\n\\frac{d\\theta}{dt}+\\frac{b}{C}\\theta=\\frac{P}{C}\n\\]\nThe solution is\n\\[\n\\theta(t)=\\frac{P}{b}\\left(1-e^{-bt/C}\\right)\n\\]\nso\n\\[\nT(t)=T_s+\\frac{P}{b}\\left(1-e^{-bt/C}\\right)\n\\]\nThe limiting temperature is\n\\[\nT_{\\infty}=T_s+\\frac{P}{b}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

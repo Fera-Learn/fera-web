@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "quantum-wave-functions",
+  "topicId": "potential-barriers-and-tunneling",
+  "topicTitle": "Potential Barriers and Tunneling",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "potential-barriers-tunneling-01",
+      "prompt": "What is quantum tunneling?",
+      "answer": "Quantum tunneling is transmission through a potential barrier even when the particle energy is below the barrier height. It occurs because the wave function has an exponentially decaying but nonzero amplitude inside the classically forbidden region.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-02",
+      "prompt": "For a rectangular barrier of height \\(V_0\\) and a particle with \\(E<V_0\\), write the decay constant inside the barrier.",
+      "answer": "\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-03",
+      "prompt": "Use \\(T\\sim e^{-2\\kappa a}\\) to estimate the transmission if \\(\\kappa=3.0\\,\\mathrm{nm^{-1}}\\) and \\(a=0.50\\,\\mathrm{nm}\\).",
+      "answer": "\\[\\n2\\kappa a=2(3.0)(0.50)=3.0\\n\\]\\nso\\n\\[\\nT\\sim e^{-3.0}\\approx5.0\\times10^{-2}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-04",
+      "prompt": "If the barrier width is doubled while \\(\\kappa\\) is unchanged, how does the tunneling estimate change?",
+      "answer": "Originally \\(T\\sim e^{-2\\kappa a}\\). With width \\(2a\\),\\n\\[\\nT'\\sim e^{-4\\kappa a}=(e^{-2\\kappa a})^2\\n\\]\\nThe transmission is squared relative to the original estimate.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-05",
+      "prompt": "How does increasing the particle mass affect below-barrier tunneling, all else fixed?",
+      "answer": "Since\\n\\[\\n\\kappa=\\frac{\\sqrt{2m(V_0-E)}}{\\hbar}\\n\\]\\na larger mass increases \\(\\kappa\\). The exponent \\(2\\kappa a\\) becomes larger, so tunneling is exponentially suppressed.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-06",
+      "prompt": "As \\(E\\) approaches \\(V_0\\) from below, what happens to the tunneling probability through a fixed rectangular barrier?",
+      "answer": "\\(V_0-E\\) decreases, so \\(\\kappa\\) decreases. Therefore the exponential factor \\(e^{-2\\kappa a}\\) increases. Tunneling becomes more likely.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-07",
+      "prompt": "For a lossless one-dimensional barrier, what relation connects reflection probability \\(R\\) and transmission probability \\(T\\)?",
+      "answer": "Conservation of probability current gives\\n\\[\\nR+T=1\\n\\]\\nfor a single incident channel and no absorption.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-08",
+      "prompt": "State the matching conditions at each finite edge of a rectangular barrier.",
+      "answer": "At each finite edge, the wave function and its first derivative must be continuous:\\n\\[\\n\\psi_{\\mathrm{left}}=\\psi_{\\mathrm{right}},\\qquad \\psi'_{\\mathrm{left}}=\\psi'_{\\mathrm{right}}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-09",
+      "prompt": "An electron and a proton have the same energy below the same barrier. Which tunnels more easily, and why?",
+      "answer": "The electron tunnels more easily because it has much smaller mass. Smaller \\(m\\) gives smaller \\(\\kappa=\\sqrt{2m(V_0-E)}/\\hbar\\), so the exponential suppression is weaker.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-10",
+      "prompt": "Write the WKB tunneling estimate for a smoothly varying barrier where \\(V(x)>E\\) between turning points \\(x_1\\) and \\(x_2\\).",
+      "answer": "\\[\\nT\\sim \\exp\\left[-2\\int_{x_1}^{x_2}\\kappa(x)\\,dx\\right]\\n\\]\\nwhere\\n\\[\\n\\kappa(x)=\\frac{\\sqrt{2m(V(x)-E)}}{\\hbar}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-11",
+      "prompt": "A barrier consists of two adjacent below-energy regions with \\(\\kappa_1,a_1\\) and \\(\\kappa_2,a_2\\). Estimate the total exponential transmission factor.",
+      "answer": "The decay exponents add:\\n\\[\\nT\\sim \\exp[-2(\\kappa_1a_1+\\kappa_2a_2)]\\n\\]\\nThis is the rectangular-barrier version of the WKB integral.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-12",
+      "prompt": "A particle has \\(E>V_0\\) for a finite rectangular barrier. Is reflection necessarily zero? Explain.",
+      "answer": "No. Above the barrier the wave number changes at the barrier edges, and wave matching can still produce partial reflection. Reflection is small when the mismatch is weak or the energy is high, but it is not automatically zero.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-13",
+      "prompt": "Define transmission probability in terms of probability current for a scattering state.",
+      "answer": "Transmission is the ratio of transmitted probability current to incident probability current:\\n\\[\\nT=\\frac{j_{\\mathrm{trans}}}{j_{\\mathrm{in}}}\\n\\]\\nReflection is \\(R=j_{\\mathrm{ref}}/j_{\\mathrm{in}}\\), with signs handled by current direction.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-14",
+      "prompt": "Explain why tunneling does not violate conservation of energy.",
+      "answer": "A stationary scattering state has one definite total energy \\(E\\). The transmitted wave on the far side has the same energy as the incident wave. The barrier changes the wave amplitude and phase, not the conserved energy of an ideal elastic tunneling process.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-15",
+      "prompt": "Derive the exponential form of the wave function inside a constant below-energy barrier from the time-independent Schrodinger equation.",
+      "answer": "Inside the barrier, \\(V=V_0\\) and \\(E<V_0\\), so\\n\\[\\n-\\frac{\\hbar^2}{2m}\\psi''+V_0\\psi=E\\psi\\n\\]\\nRearrange:\\n\\[\\n\\psi''=\\frac{2m(V_0-E)}{\\hbar^2}\\psi=\\kappa^2\\psi\\n\\]\\nThus\\n\\[\\n\\psi=Ae^{\\kappa x}+Be^{-\\kappa x}\\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-16",
+      "prompt": "For a thick rectangular barrier, a more detailed estimate is \\(T\\approx 16E(V_0-E)V_0^{-2}e^{-2\\kappa a}\\). Which factor controls the strongest dependence on width?",
+      "answer": "The exponential factor controls the strongest width dependence:\\n\\[\\ne^{-2\\kappa a}\\n\\]\\nThe prefactor depends on energy and height, but not exponentially on \\(a\\). Small changes in width can therefore produce large changes in transmission.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-17",
+      "prompt": "In a scanning tunneling microscope, current is roughly proportional to \\(e^{-2\\kappa d}\\). If the tip distance increases by \\(\\Delta d\\), find the current ratio.",
+      "answer": "\\[\\n\\frac{I(d+\\Delta d)}{I(d)}=\\frac{e^{-2\\kappa(d+\\Delta d)}}{e^{-2\\kappa d}}=e^{-2\\kappa\\Delta d}\\n\\]\\nThis exponential distance dependence gives atomic-scale sensitivity.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-18",
+      "prompt": "Use tunneling to explain qualitatively why alpha decay rates are extremely sensitive to nuclear energy release.",
+      "answer": "The alpha particle must tunnel through a Coulomb barrier. A larger decay energy reduces the forbidden width and lowers the WKB exponent\\n\\[\\n2\\int \\kappa(x)dx\\n\\]\\nBecause the rate depends exponentially on this exponent, small energy changes can produce very large half-life changes.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-19",
+      "prompt": "Show that the classical limit suppresses tunneling in the WKB estimate.",
+      "answer": "The WKB exponent contains\\n\\[\\n\\kappa(x)=\\frac{\\sqrt{2m(V-E)}}{\\hbar}\\n\\]\\nAs \\(\\hbar\\to0\\), the exponent \\(2\\int\\kappa dx\\) becomes very large for a fixed forbidden region. Therefore\\n\\[\\nT\\sim e^{-2\\int\\kappa dx}\\to0\\n\\]\\nwhich recovers the classical prohibition.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "potential-barriers-tunneling-20",
+      "prompt": "Prove that a single decaying exponential inside a barrier cannot by itself describe nonzero transmission through the whole barrier.",
+      "answer": "A single real decaying exponential has zero probability current because \\(\\psi^*d\\psi/dx\\) is real, so \\(\\mathrm{Im}(\\psi^*d\\psi/dx)=0\\). Nonzero transmission requires a scattering solution matched to traveling waves on both sides. Inside the finite barrier the full solution is generally a combination \\(Ae^{\\kappa x}+Be^{-\\kappa x}\\); the current is determined by the matched global state, not by an isolated decaying term.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

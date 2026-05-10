@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "matter-thermal-scale",
+  "topicId": "phases-of-matter",
+  "topicTitle": "Phases of Matter",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "phases-matter-01",
+      "prompt": "What does a point on a phase boundary in a \\(p\\)-\\(T\\) phase diagram represent?",
+      "answer": "A point on a phase boundary represents conditions where two phases can coexist in equilibrium, such as solid-liquid or liquid-vapor equilibrium.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-02",
+      "prompt": "What is the triple point of a substance?",
+      "answer": "The triple point is the unique pressure and temperature at which solid, liquid, and gas phases of a substance can all coexist in equilibrium.",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-03",
+      "prompt": "Below the triple-point pressure, a solid is heated. What phase change can occur instead of melting?",
+      "answer": "Sublimation can occur: the solid changes directly into gas because the liquid phase is not stable below the triple-point pressure.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-04",
+      "prompt": "A substance is above its critical temperature. Can a sharp liquid-gas phase boundary be crossed by changing pressure alone? Explain.",
+      "answer": "No. Above the critical temperature, the liquid-gas distinction disappears. Changing pressure can make the fluid denser or less dense, but it does not cross a sharp liquid-gas phase boundary.",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-05",
+      "prompt": "For a vaporization boundary, \\(L\u003e0\\) and the gas specific volume is larger than the liquid specific volume. Use the Clapeyron relation to determine the sign of \\(dp/dT\\).",
+      "answer": "The Clapeyron relation is\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nFor vaporization, \\(\\Delta v=v_{\\mathrm{gas}}-v_{\\mathrm{liquid}}\u003e0\\), with \\(L\u003e0\\) and \\(T\u003e0\\). Therefore\n\\[\n\\frac{dp}{dT}\u003e0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-06",
+      "prompt": "On a phase diagram, explain the difference between being inside a phase region and being on a phase boundary.",
+      "answer": "Inside a phase region, one phase is the stable equilibrium phase for that pressure and temperature. On a phase boundary, two phases can coexist in equilibrium, and changing energy can change the phase amounts without moving away from the boundary condition.",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-07",
+      "prompt": "For a transition with \\(L=2.5\\times10^5\\,\\mathrm{J\\,kg^{-1}}\\), \\(T=400\\,\\mathrm{K}\\), and \\(\\Delta v=0.80\\,\\mathrm{m^3\\,kg^{-1}}\\), estimate the phase-boundary slope \\(dp/dT\\).",
+      "answer": "\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n=\\frac{2.5\\times10^5}{(400)(0.80)}\n=7.8\\times10^2\\,\\mathrm{Pa\\,K^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-08",
+      "prompt": "Water\u0027s solid-liquid boundary has a negative slope. Using the Clapeyron relation and \\(L\u003e0\\), what does this imply about \\(\\Delta v=v_{\\mathrm{liquid}}-v_{\\mathrm{solid}}\\) for melting?",
+      "answer": "For melting,\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nWith \\(L\u003e0\\) and \\(T\u003e0\\), a negative slope requires\n\\[\n\\Delta v\u003c0\n\\]\nSo \\(v_{\\mathrm{liquid}}\u003cv_{\\mathrm{solid}}\\): the liquid has smaller specific volume and is denser than the solid.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-09",
+      "prompt": "A sealed sample contains liquid and vapor in equilibrium. The volume is slowly reduced at constant temperature below the critical temperature. Explain why pressure can remain nearly constant while the relative amounts of liquid and vapor change.",
+      "answer": "Below the critical temperature, liquid and vapor can coexist along a phase boundary at a saturation pressure set mainly by temperature. Compressing the sample at fixed temperature converts some vapor into liquid. The pressure stays nearly constant because the system remains on the liquid-vapor coexistence line while the phase fractions change.",
+      "rating": "***+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-10",
+      "prompt": "Starting from \\(dp/dT=L/(T\\Delta v)\\), derive the approximate Clausius-Clapeyron form \\(d\\ln p/dT=L/(RT^2)\\) for vaporization by assuming the vapor is ideal and the liquid volume is negligible.",
+      "answer": "Start with\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nFor vaporization, assume the liquid specific volume is negligible compared with the vapor specific volume:\n\\[\n\\Delta v\\approx v_{\\mathrm{gas}}\n\\]\nFor an ideal gas per unit mass,\n\\[\npv_{\\mathrm{gas}}=R_{\\mathrm{specific}}T\n\\]\nso\n\\[\nv_{\\mathrm{gas}}=\\frac{R_{\\mathrm{specific}}T}{p}\n\\]\nSubstitute:\n\\[\n\\frac{dp}{dT}=\\frac{L}{T(R_{\\mathrm{specific}}T/p)}\n=\\frac{Lp}{R_{\\mathrm{specific}}T^2}\n\\]\nDivide by \\(p\\):\n\\[\n\\frac{1}{p}\\frac{dp}{dT}=\\frac{L}{R_{\\mathrm{specific}}T^2}\n\\]\nThus\n\\[\n\\frac{d\\ln p}{dT}=\\frac{L}{R_{\\mathrm{specific}}T^2}\n\\]\nIf \\(R\\) is used, it must be the gas constant in units consistent with \\(L\\), such as a molar latent heat with the molar gas constant.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-11",
+      "prompt": "A phase boundary has slope \\(dp/dT=2.0\\times10^5\\,\\mathrm{Pa\\,K^{-1}}\\) at \\(T=300\\,\\mathrm{K}\\). If the specific-volume change is \\(\\Delta v=1.2\\times10^{-3}\\,\\mathrm{m^3\\,kg^{-1}}\\), estimate the latent heat per kilogram using the Clapeyron relation.",
+      "answer": "The Clapeyron relation is\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nSolve for \\(L\\):\n\\[\nL=T\\Delta v\\frac{dp}{dT}\n\\]\nSubstitute the values:\n\\[\nL=(300)(1.2\\times10^{-3})(2.0\\times10^5)\n=7.2\\times10^4\\,\\mathrm{J\\,kg^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-12",
+      "prompt": "A substance has a vaporization latent heat \\(L=3.0\\times10^5\\,\\mathrm{J\\,kg^{-1}}\\), temperature \\(350\\,\\mathrm K\\), and \\(\\Delta v=0.50\\,\\mathrm{m^3\\,kg^{-1}}\\). Find \\(dp/dT\\).",
+      "answer": "Use the Clapeyron relation:\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nThus\n\\[\n\\frac{dp}{dT}=\\frac{3.0\\times10^5}{(350)(0.50)}=1.7\\times10^3\\,\\mathrm{Pa\\,K^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-13",
+      "prompt": "Explain why boiling temperature changes with external pressure.",
+      "answer": "Boiling occurs when the liquid-vapor equilibrium pressure matches the external pressure. Changing external pressure changes the temperature at which that equality occurs. Lower pressure gives a lower boiling temperature; higher pressure gives a higher boiling temperature.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-14",
+      "prompt": "Why does adding heat during a phase change not necessarily raise temperature?",
+      "answer": "On a phase boundary, added energy changes molecular arrangement and phase fraction rather than average molecular kinetic energy. The temperature can remain fixed while latent heat converts one phase into another.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-15",
+      "prompt": "A sample is at its triple point. What happens if temperature is held fixed but pressure is changed slightly?",
+      "answer": "The triple coexistence condition is unique. A small pressure change at the same temperature moves the system away from three-phase coexistence, leaving only the phase or two-phase boundary stable for the new point on the phase diagram.",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-16",
+      "prompt": "Derive the sign of the solid-liquid boundary slope for a substance whose liquid is denser than its solid.",
+      "answer": "For melting,\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nwhere \\(\\Delta v=v_{\\mathrm{liquid}}-v_{\\mathrm{solid}}\\). If the liquid is denser, it has smaller specific volume, so \\(\\Delta v<0\\). Since \\(L>0\\) and \\(T>0\\), the slope is negative.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-17",
+      "prompt": "Derive the integrated Clausius-Clapeyron form \\(\\ln(p_2/p_1)=-(L/R)(1/T_2-1/T_1)\\) for constant molar latent heat.",
+      "answer": "Start from\n\\[\n\\frac{d\\ln p}{dT}=\\frac{L}{RT^2}\n\\]\nAssuming \\(L\\) is constant,\n\\[\n\\int_{p_1}^{p_2}d\\ln p=\\frac{L}{R}\\int_{T_1}^{T_2}T^{-2}\\,dT\n\\]\nThus\n\\[\n\\ln\\frac{p_2}{p_1}=\\frac{L}{R}\\left[-\\frac{1}{T}\\right]_{T_1}^{T_2}\n=-\\frac{L}{R}\\left(\\frac{1}{T_2}-\\frac{1}{T_1}\\right)\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-18",
+      "prompt": "Explain why there is no sharp distinction between liquid and gas above the critical point.",
+      "answer": "Above the critical temperature and pressure, the liquid-vapor coexistence line has ended. Density can change continuously from liquid-like to gas-like values without crossing a phase boundary, so there is no latent heat or sharp interface separating liquid from gas.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-19",
+      "prompt": "Use a phase diagram to explain why carbon dioxide can sublime at atmospheric pressure.",
+      "answer": "At atmospheric pressure, carbon dioxide is below its triple-point pressure. The liquid phase is not stable at that pressure, so heating solid carbon dioxide crosses the solid-vapor boundary instead of the solid-liquid boundary. The solid changes directly into gas.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "phases-matter-20",
+      "prompt": "Connect latent heat, phase coexistence, and the Clapeyron relation in one explanation.",
+      "answer": "Along a phase boundary, two phases coexist at equilibrium. Adding latent heat changes phase fraction rather than temperature. The Clapeyron relation\n\\[\n\\frac{dp}{dT}=\\frac{L}{T\\Delta v}\n\\]\nconnects the energy needed for that phase change to the slope of the coexistence curve and the specific-volume change between phases.",
+      "rating": "*****",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

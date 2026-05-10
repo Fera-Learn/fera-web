@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "gausss-law",
+  "topicId": "charge-and-electric-flux",
+  "topicTitle": "Charge and Electric Flux",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-flux-01",
+      "prompt": "What does electric flux measure for a surface in an electric field?",
+      "answer": "Electric flux measures how much of the electric field passes through a surface in the direction normal to that surface.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-02",
+      "prompt": "What is the direction of the area vector for a flat surface?",
+      "answer": "The area vector is perpendicular to the flat surface. For a closed surface, the area vector points outward.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-03",
+      "prompt": "Write the flux through a flat surface in a uniform electric field in terms of \\(E\\), \\(A\\), and \\(\\theta\\).",
+      "answer": "For a uniform field through a flat surface,\n\\[\n\\Phi_E=EA\\cos\\theta\n\\]\nwhere \\(\\theta\\) is the angle between \\(\\vec E\\) and the area vector.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-04",
+      "prompt": "A \\(60\\,\\mathrm{N\\,C^{-1}}\\) uniform electric field is perpendicular to a \\(0.40\\,\\mathrm{m^2}\\) surface and points with the chosen area vector. Find \\(\\Phi_E\\).",
+      "answer": "The field points with the area vector, so \\(\\theta=0\\):\n\\[\n\\Phi_E=EA\\cos0=(60)(0.40)=24\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-05",
+      "prompt": "A uniform electric field is parallel to a flat surface. What is the electric flux through the surface?",
+      "answer": "The field has no component normal to the surface, so\n\\[\n\\Phi_E=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-06",
+      "prompt": "A \\(120\\,\\mathrm{N\\,C^{-1}}\\) field makes a \\(60^\\circ\\) angle with the area vector of a \\(0.50\\,\\mathrm{m^2}\\) surface. Find the flux.",
+      "answer": "Use\n\\[\n\\Phi_E=EA\\cos\\theta\n\\]\n\\[\n\\Phi_E=(120)(0.50)\\cos60^\\circ=30\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-07",
+      "prompt": "A \\(90\\,\\mathrm{N\\,C^{-1}}\\) field points opposite the area vector of a \\(0.20\\,\\mathrm{m^2}\\) flat surface. Find the flux.",
+      "answer": "The angle between the field and area vector is \\(180^\\circ\\):\n\\[\n\\Phi_E=EA\\cos180^\\circ=-(90)(0.20)\n\\]\n\\[\n\\Phi_E=-18\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-08",
+      "prompt": "A flat surface has area vector \\(\\vec A=(0.30\\,\\mathrm{m^2})\\hat\\imath\\). A uniform field is \\(\\vec E=(50\\,\\mathrm{N\\,C^{-1}})\\hat\\imath\\). Find \\(\\Phi_E\\).",
+      "answer": "Use the dot product:\n\\[\n\\Phi_E=\\vec E\\cdot\\vec A\n\\]\n\\[\n\\Phi_E=(50)(0.30)=15\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-09",
+      "prompt": "A flat surface has \\(\\vec A=(0.20\\hat\\imath+0.10\\hat\\jmath)\\,\\mathrm{m^2}\\) and \\(\\vec E=(40\\hat\\imath-30\\hat\\jmath)\\,\\mathrm{N\\,C^{-1}}\\). Find the flux.",
+      "answer": "Use\n\\[\n\\Phi_E=\\vec E\\cdot\\vec A\n\\]\n\\[\n\\Phi_E=(40)(0.20)+(-30)(0.10)\n\\]\n\\[\n\\Phi_E=8.0-3.0=5.0\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-10",
+      "prompt": "A circular plate of radius \\(0.15\\,\\mathrm{m}\\) has its area vector \\(35^\\circ\\) from a \\(200\\,\\mathrm{N\\,C^{-1}}\\) uniform field. Find the flux.",
+      "answer": "The plate area is\n\\[\nA=\\pi r^2=\\pi(0.15)^2=7.07\\times10^{-2}\\,\\mathrm{m^2}\n\\]\nThen\n\\[\n\\Phi_E=EA\\cos35^\\circ\n\\]\n\\[\n\\Phi_E=(200)(7.07\\times10^{-2})\\cos35^\\circ\n\\]\n\\[\n\\Phi_E=11.6\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-11",
+      "prompt": "A square loop of side \\(0.30\\,\\mathrm{m}\\) is rotated from having its area vector parallel to a uniform field to having its area vector perpendicular to the field. If \\(E=75\\,\\mathrm{N\\,C^{-1}}\\), what is the change in flux?",
+      "answer": "The area is\n\\[\nA=(0.30)^2=0.090\\,\\mathrm{m^2}\n\\]\nInitially the area vector is parallel to the field:\n\\[\n\\Phi_i=EA=(75)(0.090)=6.75\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]\nFinally the area vector is perpendicular to the field:\n\\[\n\\Phi_f=0\n\\]\nThus\n\\[\n\\Delta\\Phi_E=\\Phi_f-\\Phi_i=-6.75\\,\\mathrm{N\\,m^2\\,C^{-1}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-12",
+      "prompt": "A \\(0.10\\,\\mathrm{m^2}\\) surface has flux \\(4.0\\,\\mathrm{N\\,m^2\\,C^{-1}}\\) in a \\(100\\,\\mathrm{N\\,C^{-1}}\\) uniform field. What angle does the field make with the area vector?",
+      "answer": "Use\n\\[\n\\Phi_E=EA\\cos\\theta\n\\]\nso\n\\[\n\\cos\\theta=\\frac{\\Phi_E}{EA}\n\\]\n\\[\n\\cos\\theta=\\frac{4.0}{(100)(0.10)}=0.40\n\\]\n\\[\n\\theta=\\cos^{-1}(0.40)=66^\\circ\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-13",
+      "prompt": "A uniform field \\(\\vec E=E\\hat\\imath\\) passes through a cube of side \\(L\\). Find the flux through the right face, left face, and the total flux through the closed cube.",
+      "answer": "The right face has outward area vector \\(+L^2\\hat\\imath\\), so\n\\[\n\\Phi_R=EL^2\n\\]\nThe left face has outward area vector \\(-L^2\\hat\\imath\\), so\n\\[\n\\Phi_L=-EL^2\n\\]\nThe other faces have area vectors perpendicular to \\(\\vec E\\), so their fluxes are zero. Therefore\n\\[\n\\Phi_{\\mathrm{closed}}=EL^2-EL^2=0\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-14",
+      "prompt": "A uniform electric field points upward through a horizontal disk. Compare the flux if the disk\u0027s area vector is chosen upward versus downward.",
+      "answer": "If the area vector is upward, it is parallel to the field:\n\\[\n\\Phi_E=+EA\n\\]\nIf the area vector is downward, it is opposite the field:\n\\[\n\\Phi_E=-EA\n\\]\nThe two choices have equal magnitude and opposite sign.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-15",
+      "prompt": "A flat rectangular surface has side lengths \\(a\\) and \\(b\\). Its normal is tilted by angle \\(\\theta\\) from a uniform field \\(\\vec E\\). Derive the flux and state when its magnitude is largest.",
+      "answer": "The area is\n\\[\nA=ab\n\\]\nOnly the field component normal to the surface contributes:\n\\[\nE_\\perp=E\\cos\\theta\n\\]\nThus\n\\[\n\\Phi_E=Eab\\cos\\theta\n\\]\nThe magnitude is largest when \\(|\\cos\\theta|=1\\), meaning the field is perpendicular to the surface. The positive maximum occurs when the field points with the chosen normal; the negative minimum occurs when it points opposite the chosen normal.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-16",
+      "prompt": "A curved surface is divided into small patches. Explain why the flux is \\(\\int_S \\vec E\\cdot d\\vec A\\), not simply \\(EA\\).",
+      "answer": "On a curved surface, the normal direction changes from point to point. The field may also vary over the surface. A single angle and a single field value are therefore not enough.\n\nFor a small patch,\n\\[\nd\\Phi_E=\\vec E\\cdot d\\vec A\n\\]\nAdding all patches gives\n\\[\n\\Phi_E=\\int_S \\vec E\\cdot d\\vec A\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-17",
+      "prompt": "A closed box is placed in a uniform electric field. Without using Gauss\u0027s law, argue from area vectors why the total flux through the box is zero.",
+      "answer": "For a closed box in a uniform field, opposite faces have equal areas and opposite outward area vectors. The flux through one face is\n\\[\n\\vec E\\cdot\\vec A\n\\]\nand the flux through the opposite face is\n\\[\n\\vec E\\cdot(-\\vec A)\n\\]\nso the pair cancels. The remaining pairs cancel the same way, or have zero flux if their normals are perpendicular to the field. Therefore the total closed-surface flux is zero.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-18",
+      "prompt": "A flat surface has fixed area \\(A\\) in a uniform field \\(E\\). You may choose its orientation. Derive the range of possible flux values and explain the geometric meaning of the endpoints.",
+      "answer": "For fixed \\(E\\) and \\(A\\),\n\\[\n\\Phi_E=EA\\cos\\theta\n\\]\nSince\n\\[\n-1\\le \\cos\\theta\\le 1\n\\]\nthe possible flux values are\n\\[\n-EA\\le \\Phi_E\\le EA\n\\]\nThe endpoint \\(+EA\\) occurs when the field points with the area vector. The endpoint \\(-EA\\) occurs when the field points opposite the area vector. Zero occurs when the field is tangent to the surface.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-19",
+      "prompt": "Two flat surfaces have the same boundary curve but one is bulged outward. In a uniform electric field, explain why their fluxes need not be the same if the boundary is not closed by an additional surface.",
+      "answer": "Flux depends on the local normal direction over the surface:\n\\[\n\\Phi_E=\\int_S\\vec E\\cdot d\\vec A\n\\]\nBulging the surface changes the distribution of area-vector directions, so the dot products over the surface can change. If the two surfaces are not combined into a closed surface, there is no cancellation argument that forces their individual fluxes to match.\n\nIf the original and bulged surfaces were joined along their boundary to form a closed surface, then in a uniform field the total flux through that closed surface would be zero, forcing the two oriented open-surface fluxes to cancel with the correct orientation.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-flux-20",
+      "prompt": "A surface is made from many small flat patches with area vectors \\(\\Delta\\vec A_i\\). Starting from the uniform-field dot product, derive the surface-integral definition of electric flux and state the assumptions needed for the limiting process.",
+      "answer": "For one small nearly flat patch in an approximately uniform field,\n\\[\n\\Delta\\Phi_i=\\vec E_i\\cdot\\Delta\\vec A_i\n\\]\nFor many patches,\n\\[\n\\Phi_E\\approx\\sum_i \\vec E_i\\cdot\\Delta\\vec A_i\n\\]\nIn the limit where the largest patch size approaches zero, the field and normal are effectively constant over each patch, and the sum becomes\n\\[\n\\Phi_E=\\int_S\\vec E\\cdot d\\vec A\n\\]\nThe assumptions are that the surface is well-defined, the electric field is finite on the surface, and the patch approximation converges as the patch sizes shrink.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

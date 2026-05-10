@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "sectionId": "differentiation",
+  "topicId": "quotient-rule",
+  "topicTitle": "Quotient Rule",
+  "paperTags": ["term-1"],
+  "questions": [
+    {
+      "id": "math-i-quotient-rule-01",
+      "prompt": "State the quotient rule for differentiation.",
+      "answer": "For \\(y=\\frac{f(x)}{g(x)}\\) where \\(g(x)\\ne0\\):\n\\[y'=\\frac{f'(x)g(x)-f(x)g'(x)}{[g(x)]^2}\\]\nor equivalently \\(\\left(\\frac{f}{g}\\right)'=\\frac{f'g-fg'}{g^2}\\).",
+      "rating": "*",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-02",
+      "prompt": "Differentiate \\(f(x)=\\frac{x}{\\sin x}\\).",
+      "answer": "Let \\(f=x\\) so \\(f'=1\\), and \\(g=\\sin x\\) so \\(g'=\\cos x\\).\n\\[f'(x)=\\frac{1\\cdot\\sin x-x\\cdot\\cos x}{\\sin^2x}=\\frac{\\sin x-x\\cos x}{\\sin^2x}\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-03",
+      "prompt": "Find \\(\\frac{d}{dx}\\left(\\frac{x^2}{x+1}\\right)\\).",
+      "answer": "Using the quotient rule with \\(f=x^2\\) and \\(g=x+1\\):\n\\[\\frac{d}{dx}=\\frac{2x(x+1)-x^2(1)}{(x+1)^2}=\\frac{2x^2+2x-x^2}{(x+1)^2}=\\frac{x^2+2x}{(x+1)^2}=\\frac{x(x+2)}{(x+1)^2}\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-04",
+      "prompt": "Find \\(\\frac{d}{dx}\\left(\\frac{\\sin x}{x}\\right)\\) for \\(x\\ne0\\).",
+      "answer": "Using the quotient rule:\n\\[\\frac{d}{dx}\\left(\\frac{\\sin x}{x}\\right)=\\frac{\\cos x\\cdot x-\\sin x\\cdot1}{x^2}=\\frac{x\\cos x-\\sin x}{x^2}\\]",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-05",
+      "prompt": "A particle's kinetic energy is \\(K=\\frac{1}{2}mv^2\\). If m is constant and v varies with time, find \\(dK/dt\\).",
+      "answer": "Since m is constant, treat it as a constant multiple:\n\\[\\frac{dK}{dt}=\\frac{1}{2}m\\cdot2v\\frac{dv}{dt}=mv\\frac{dv}{dt}\\]\nNote: this can also be seen as the product rule on \\(v\\cdot mv\\).",
+      "rating": "**+",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-06",
+      "prompt": "Differentiate \\(f(x)=\\frac{x^2+1}{x^2-1}\\).",
+      "answer": "Using the quotient rule:\n\\[f'(x)=\\frac{2x(x^2-1)-(x^2+1)(2x)}{(x^2-1)^2}=\\frac{2x^3-2x-2x^3-2x}{(x^2-1)^2}=\\frac{-4x}{(x^2-1)^2}\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-07",
+      "prompt": "Find the derivative of \\(y=\\frac{e^x}{x}\\) for \\(x>0\\).",
+      "answer": "Using the quotient rule:\n\\[\\frac{dy}{dx}=\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}=\\frac{e^x(x-1)}{x^2}\\]",
+      "rating": "**",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-08",
+      "prompt": "Use the quotient rule to verify \\(\\frac{d}{dx}(\\cot x)=-\\csc^2 x\\).",
+      "answer": "Since \\(\\cot x=\\frac{\\cos x}{\\sin x}\\):\n\\[\\frac{d}{dx}(\\cot x)=\\frac{-\\sin x\\cdot\\sin x-\\cos x\\cdot\\cos x}{\\sin^2x}=\\frac{-\\sin^2x-\\cos^2x}{\\sin^2x}=\\frac{-1}{\\sin^2x}=-\\csc^2x\\]",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-09",
+      "prompt": "For \\(f(x)=\\frac{2x+1}{x-3}\\), find where the function is increasing.",
+      "answer": "First find the derivative:\n\\[f'(x)=\\frac{2(x-3)-(2x+1)(1)}{(x-3)^2}=\\frac{2x-6-2x-1}{(x-3)^2}=\\frac{-7}{(x-3)^2}\\]\nSince \\((x-3)^2>0\\) for \\(x\\ne3\\) and \\(-7<0\\), we have \\(f'(x)<0\\) everywhere it exists. The function is decreasing on its domain.",
+      "rating": "***",
+      "paperTags": ["term-1"]
+    },
+    {
+      "id": "math-i-quotient-rule-10",
+      "prompt": "State the domain restriction when applying the quotient rule.",
+      "answer": "The denominator function \\(g(x)\\) must be nonzero wherever we want to evaluate the derivative. So \\(g(x)\\ne0\\) is required. For example, \\(\\frac{1}{x}\\) has domain \\(x\\ne0\\), and this restriction carries over to its derivative.",
+      "rating": "*+",
+      "paperTags": ["term-1"]
+    }
+  ]
+}

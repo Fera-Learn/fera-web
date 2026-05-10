@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "equilibrium-materials",
+  "topicId": "stress-and-strain",
+  "topicTitle": "Stress and Strain",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "stress-strain-01",
+      "prompt": "A \\(1800\\,\\mathrm{N}\\) tensile force acts on cross-sectional area \\(6.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the normal stress.",
+      "answer": "\\[\n\\sigma=\\frac{F}{A}=\\frac{1800}{6.0\\times10^{-4}}=3.0\\times10^6\\,\\mathrm{Pa}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-02",
+      "prompt": "A \\(1.8\\,\\mathrm{m}\\) tie extends by \\(0.72\\,\\mathrm{mm}\\). Find the tensile strain.",
+      "answer": "\\[\n\\epsilon=\\frac{\\Delta L}{L_0}=\\frac{0.72\\times10^{-3}}{1.8}=4.0\\times10^{-4}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-03",
+      "prompt": "A compressive force of \\(900\\,\\mathrm{N}\\) acts on area \\(3.0\\times10^{-4}\\,\\mathrm{m^2}\\). Find the stress magnitude and state whether it is tensile or compressive.",
+      "answer": "\\[\n|\\sigma|=\\frac{900}{3.0\\times10^{-4}}=3.0\\times10^6\\,\\mathrm{Pa}\n\\]\nThe stress is compressive.",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-04",
+      "prompt": "A rod has length \\(1.5\\,\\mathrm{m}\\) and tensile strain \\(4.0\\times10^{-4}\\). Find its extension.",
+      "answer": "\\[\n\\Delta L=\\epsilon L_0=(4.0\\times10^{-4})(1.5)=6.0\\times10^{-4}\\,\\mathrm{m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-05",
+      "prompt": "A shear force of \\(600\\,\\mathrm{N}\\) acts on area \\(2.0\\times10^{-3}\\,\\mathrm{m^2}\\). Find the shear stress.",
+      "answer": "\\[\n\\tau=\\frac{F_\\parallel}{A}=\\frac{600}{2.0\\times10^{-3}}=3.0\\times10^5\\,\\mathrm{Pa}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-06",
+      "prompt": "A rectangular block of height \\(0.20\\,\\mathrm{m}\\) is sheared sideways by \\(0.50\\,\\mathrm{mm}\\). Find the shear strain.",
+      "answer": "\\[\n\\gamma=\\frac{\\Delta x}{h}=\\frac{0.50\\times10^{-3}}{0.20}=2.5\\times10^{-3}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-07",
+      "prompt": "Two rods carry the same tensile force. Rod A has twice the cross-sectional area of rod B. Compare their normal stresses and explain the physical meaning.",
+      "answer": "Stress is force divided by area. With the same force,\n\\[\n\\sigma_A=\\frac{F}{2A}\n\\]\n\\[\n\\sigma_B=\\frac{F}{A}\n\\]\nSo\n\\[\n\\sigma_A=\\frac{1}{2}\\sigma_B\n\\]\nThe larger-area rod spreads the same internal load over more area.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-08",
+      "prompt": "A circular wire of diameter \\(1.2\\,\\mathrm{mm}\\) carries \\(150\\,\\mathrm{N}\\). Find the tensile stress and compare it with a yield stress of \\(180\\,\\mathrm{MPa}\\).",
+      "answer": "\\[\nA=\\pi\\left(\\frac{1.2\\times10^{-3}}{2}\\right)^2=1.13\\times10^{-6}\\,\\mathrm{m^2}\n\\]\n\\[\n\\sigma=\\frac{150}{1.13\\times10^{-6}}=1.33\\times10^8\\,\\mathrm{Pa}=133\\,\\mathrm{MPa}\n\\]\nSince \\(133\\,\\mathrm{MPa}\u003c180\\,\\mathrm{MPa}\\), the wire is below yield in this simple average-stress model.",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-09",
+      "prompt": "A vertical cable supports a load \\(P\\). The cable has two equal-length sections in series: the upper section has area \\(2A\\), the lower section has area \\(A\\). Derive the stress in each section, state the assumption about internal force, and interpret which section controls yielding.",
+      "answer": "Assume the cable sections are in series, massless compared with the load, and carry the same internal tensile force \\(P\\).\n\\[\n\\sigma_{\\mathrm{upper}}=\\frac{P}{2A}\n\\]\n\\[\n\\sigma_{\\mathrm{lower}}=\\frac{P}{A}\n\\]\nThe lower section has twice the stress:\n\\[\n\\sigma_{\\mathrm{lower}}=2\\sigma_{\\mathrm{upper}}\n\\]\nIt controls yielding because it reaches any specified yield stress first.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "stress-strain-10",
+      "prompt": "A tensile member has cross-sectional area \\(A(x)=A_0(1+\\alpha x/L)\\) for \\(0\\le x\\le L\\), with \\(\\alpha\u003e0\\), and carries axial force \\(F\\). Derive \\(\\sigma(x)\\), find the maximum stress, and give the symbolic no-yield condition for yield stress \\(\\sigma_y\\). State assumptions and interpret the role of \\(\\alpha\\).",
+      "answer": "Assume axial loading, static equilibrium, and uniform stress over each cross-section. The internal axial force is \\(F\\) at every section.\n\\[\n\\sigma(x)=\\frac{F}{A(x)}=\\frac{F}{A_0(1+\\alpha x/L)}\n\\]\nSince \\(A(x)\\) increases with \\(x\\), the maximum stress occurs at \\(x=0\\):\n\\[\n\\sigma_{\\max}=\\frac{F}{A_0}\n\\]\nThe no-yield condition is\n\\[\n\\frac{F}{A_0}\u003c\\sigma_y\n\\]\nor\n\\[\nF\u003c\\sigma_y A_0\n\\]\nIncreasing \\(\\alpha\\) adds area away from the narrow end, but it does not reduce the maximum stress at \\(x=0\\).",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

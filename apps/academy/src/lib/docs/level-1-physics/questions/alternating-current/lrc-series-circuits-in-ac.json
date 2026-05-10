@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "lrc-series-circuits-in-ac",
+  "topicTitle": "LRC Series Circuits in AC",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ac-lrc-series-01",
+      "prompt": "In a series LRC circuit, which quantity is the same through the resistor, inductor, and capacitor?",
+      "answer": "The same current passes through every component in a series circuit.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-02",
+      "prompt": "State the impedance magnitude of a series LRC circuit.",
+      "answer": "The impedance magnitude is\n\\[\nZ=\\sqrt{R^2+(X_L-X_C)^2}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-03",
+      "prompt": "State the phase-angle relation for a series LRC circuit.",
+      "answer": "The phase angle of source voltage relative to current satisfies\n\\[\n\\tan\\phi=\\frac{X_L-X_C}{R}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-04",
+      "prompt": "A series circuit has \\(R=30\\,\\Omega\\), \\(X_L=80\\,\\Omega\\), and \\(X_C=40\\,\\Omega\\). Find \\(Z\\).",
+      "answer": "\\[\nZ=\\sqrt{R^2+(X_L-X_C)^2}\n\\]\n\\[\nZ=\\sqrt{30^2+(80-40)^2}=50\\,\\Omega\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-05",
+      "prompt": "A series LRC circuit has \\(Z=60\\,\\Omega\\) and source voltage \\(120\\,\\mathrm V\\) rms. Find the rms current.",
+      "answer": "\\[\nI_{\\mathrm{rms}}=\\frac{V_{\\mathrm{rms}}}{Z}=\\frac{120}{60}=2.0\\,\\mathrm A\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-06",
+      "prompt": "A series circuit has \\(R=20\\,\\Omega\\), \\(X_L=70\\,\\Omega\\), and \\(X_C=45\\,\\Omega\\). Find \\(\\phi\\) and state whether the circuit is inductive or capacitive.",
+      "answer": "\\[\n\\tan\\phi=\\frac{X_L-X_C}{R}=\\frac{70-45}{20}=1.25\n\\]\n\\[\n\\phi=51.3^\\circ\n\\]\nSince \\(X_L>X_C\\), the circuit is inductive and source voltage leads current.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-07",
+      "prompt": "A series circuit has \\(I_{\\mathrm{rms}}=2.0\\,\\mathrm A\\), \\(R=10\\,\\Omega\\), \\(X_L=50\\,\\Omega\\), and \\(X_C=20\\,\\Omega\\). Find \\(V_R\\), \\(V_L\\), and \\(V_C\\).",
+      "answer": "Use rms component voltages:\n\\[\nV_R=IR=(2.0)(10)=20\\,\\mathrm V\n\\]\n\\[\nV_L=IX_L=(2.0)(50)=100\\,\\mathrm V\n\\]\n\\[\nV_C=IX_C=(2.0)(20)=40\\,\\mathrm V\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-08",
+      "prompt": "Using the circuit in the previous question, find the source rms voltage.",
+      "answer": "The source voltage is the phasor sum:\n\\[\nV=\\sqrt{V_R^2+(V_L-V_C)^2}\n\\]\n\\[\nV=\\sqrt{20^2+(100-40)^2}=63.2\\,\\mathrm V\n\\]\nThis is not \\(20+100+40\\) because the component voltages are not in phase.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-09",
+      "prompt": "A series circuit has \\(R=40\\,\\Omega\\), \\(L=0.20\\,\\mathrm H\\), \\(C=50\\,\\mu\\mathrm F\\), and \\(f=50\\,\\mathrm{Hz}\\). Find \\(Z\\).",
+      "answer": "\\[\n\\omega=2\\pi f=314\\,\\mathrm{rad\\,s^{-1}}\n\\]\n\\[\nX_L=\\omega L=(314)(0.20)=62.8\\,\\Omega\n\\]\n\\[\nX_C=\\frac{1}{\\omega C}=\\frac{1}{(314)(50\\times10^{-6})}=63.7\\,\\Omega\n\\]\nThus\n\\[\nZ=\\sqrt{40^2+(62.8-63.7)^2}=40.0\\,\\Omega\n\\]\nThe circuit is very close to resonance.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-lrc-series-10",
+      "prompt": "Derive why the series LRC impedance uses \\(X_L-X_C\\), not \\(X_L+X_C\\).",
+      "answer": "Take current as the phasor reference. The resistor voltage is in phase with current. The inductor voltage leads current by \\(90^\\circ\\), while the capacitor voltage lags current by \\(90^\\circ\\). Therefore the inductor and capacitor voltage phasors point in opposite vertical directions in the phasor diagram. Their net reactive voltage is\n\\[\nI(X_L-X_C)\n\\]\nThe source voltage magnitude is therefore\n\\[\nV=I\\sqrt{R^2+(X_L-X_C)^2}\n\\]\nso\n\\[\nZ=\\frac{V}{I}=\\sqrt{R^2+(X_L-X_C)^2}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

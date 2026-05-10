@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "alternating-current",
+  "topicId": "phasors-and-ac-signals",
+  "topicTitle": "Phasors and AC Signals",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "ac-signals-01",
+      "prompt": "What does rms mean for a sinusoidal AC voltage?",
+      "answer": "RMS means root-mean-square. For a sinusoidal voltage, it is the equivalent DC voltage that would produce the same average heating in a resistor.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-02",
+      "prompt": "State the relationship between angular frequency \\(\\omega\\) and frequency \\(f\\).",
+      "answer": "The relationship is\n\\[\n\\omega=2\\pi f\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-03",
+      "prompt": "A sinusoidal voltage has peak value \\(170\\,\\mathrm V\\). Find its rms value.",
+      "answer": "\\[\nV_{\\mathrm{rms}}=\\frac{V_0}{\\sqrt2}=\\frac{170}{\\sqrt2}=120\\,\\mathrm V\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-04",
+      "prompt": "An AC signal has frequency \\(60\\,\\mathrm{Hz}\\). Find its angular frequency.",
+      "answer": "\\[\n\\omega=2\\pi f=2\\pi(60)=377\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-05",
+      "prompt": "A sinusoidal current has \\(I_{\\mathrm{rms}}=3.0\\,\\mathrm A\\). Find its peak current.",
+      "answer": "For a sinusoid,\n\\[\nI_{\\mathrm{rms}}=\\frac{I_0}{\\sqrt2}\n\\]\nso\n\\[\nI_0=\\sqrt2I_{\\mathrm{rms}}=4.24\\,\\mathrm A\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-06",
+      "prompt": "A voltage is \\(v(t)=80\\cos(100\\pi t)\\,\\mathrm V\\). Find the peak voltage, rms voltage, angular frequency, frequency, and period.",
+      "answer": "The peak voltage is\n\\[\nV_0=80\\,\\mathrm V\n\\]\nThe rms voltage is\n\\[\nV_{\\mathrm{rms}}=\\frac{80}{\\sqrt2}=56.6\\,\\mathrm V\n\\]\nThe angular frequency is\n\\[\n\\omega=100\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nso\n\\[\nf=\\frac{\\omega}{2\\pi}=50\\,\\mathrm{Hz}\n\\]\nand\n\\[\nT=\\frac{1}{f}=0.020\\,\\mathrm s\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-07",
+      "prompt": "Voltage is \\(v(t)=V_0\\cos(\\omega t+30^\\circ)\\) and current is \\(i(t)=I_0\\cos(\\omega t-10^\\circ)\\). What is the phase difference, and which signal leads?",
+      "answer": "The phase difference of voltage relative to current is\n\\[\n\\phi=30^\\circ-(-10^\\circ)=40^\\circ\n\\]\nThe voltage has the larger phase angle, so voltage leads current by \\(40^\\circ\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-08",
+      "prompt": "A sinusoidal voltage is \\(120\\,\\mathrm V\\) rms at \\(50\\,\\mathrm{Hz}\\) with zero phase. Write \\(v(t)\\) using cosine form.",
+      "answer": "First find the peak voltage:\n\\[\nV_0=\\sqrt2V_{\\mathrm{rms}}=120\\sqrt2=170\\,\\mathrm V\n\\]\nThe angular frequency is\n\\[\n\\omega=2\\pi(50)=100\\pi\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThus\n\\[\nv(t)=170\\cos(100\\pi t)\\,\\mathrm V\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-09",
+      "prompt": "Show that the rms value of \\(V_0\\cos\\omega t\\) is \\(V_0/\\sqrt2\\).",
+      "answer": "The rms value is defined by\n\\[\nV_{\\mathrm{rms}}=\\sqrt{\\langle v^2\\rangle}\n\\]\nFor \\(v=V_0\\cos\\omega t\\),\n\\[\n\\langle v^2\\rangle=V_0^2\\langle\\cos^2\\omega t\\rangle\n\\]\nOver a full cycle,\n\\[\n\\langle\\cos^2\\omega t\\rangle=\\frac12\n\\]\nso\n\\[\nV_{\\mathrm{rms}}=\\sqrt{\\frac{V_0^2}{2}}=\\frac{V_0}{\\sqrt2}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "ac-signals-10",
+      "prompt": "Two sinusoidal voltages of the same frequency have rms values \\(30\\,\\mathrm V\\) and \\(40\\,\\mathrm V\\), with a \\(90^\\circ\\) phase difference. Find the rms value of their phasor sum.",
+      "answer": "For phasors at right angles, add by Pythagoras:\n\\[\nV_{\\mathrm{rms,net}}=\\sqrt{30^2+40^2}=50\\,\\mathrm V\n\\]\nThe result uses rms values because phasor magnitudes can be consistently represented by rms magnitudes.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

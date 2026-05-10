@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "capacitors-dielectrics",
+  "topicId": "capacitance",
+  "topicTitle": "Capacitance",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "capacitance-01",
+      "prompt": "A capacitor stores \\(6.0\\,\\mu\\mathrm{C}\\) when the potential difference is \\(12\\,\\mathrm{V}\\). Find its capacitance.",
+      "answer": "\\[\nC=\\frac{Q}{\\Delta V}\n=\\frac{6.0\\times10^{-6}}{12}\n=5.0\\times10^{-7}\\,\\mathrm{F}\n\\]\nSo \\(C=0.50\\,\\mu\\mathrm{F}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-02",
+      "prompt": "A parallel-plate capacitor has plate area \\(2.5\\times10^{-2}\\,\\mathrm{m^2}\\) and separation \\(1.0\\,\\mathrm{mm}\\). Estimate its capacitance in vacuum.",
+      "answer": "\\[\nC=\\epsilon_0\\frac{A}{d}\n=\\frac{(8.85\\times10^{-12})(2.5\\times10^{-2})}{1.0\\times10^{-3}}\n=2.2\\times10^{-10}\\,\\mathrm{F}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-03",
+      "prompt": "An isolated conducting sphere has radius \\(0.15\\,\\mathrm{m}\\). Estimate its capacitance, then find the charge needed to raise it to \\(900\\,\\mathrm{V}\\) relative to infinity.",
+      "answer": "For an isolated conducting sphere,\n\\[\nC=4\\pi\\epsilon_0R\n\\]\n\\[\nC=4\\pi(8.85\\times10^{-12})(0.15)\n=1.67\\times10^{-11}\\,\\mathrm{F}\n\\]\nThen\n\\[\nQ=CV=(1.67\\times10^{-11})(900)\n=1.5\\times10^{-8}\\,\\mathrm{C}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-04",
+      "prompt": "A parallel-plate capacitor is scaled so every length in the geometry is multiplied by \\(s\\): the plate side lengths become \\(s\\) times larger and the separation also becomes \\(s\\) times larger. Derive how \\(C\\) changes. Compare this with the scaling of an isolated conducting sphere and explain the common pattern.",
+      "answer": "For square plates, scaling every length by \\(s\\) makes\n\\[\nA\\rightarrow s^2A,\\qquad d\\rightarrow sd\n\\]\nThus\n\\[\nC\u0027=\\epsilon_0\\frac{s^2A}{sd}=s\\epsilon_0\\frac{A}{d}=sC\n\\]\nFor an isolated sphere,\n\\[\nC=4\\pi\\epsilon_0R\n\\]\nso \\(R\\rightarrow sR\\) also gives \\(C\u0027\\rightarrow sC\\).\n\nThe common pattern is that capacitance has the dimensions of permittivity times length. When the entire shape is enlarged without changing its proportions, the charge-storage ability per volt grows linearly with the size scale.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-05",
+      "prompt": "Convert \\(0.020\\,\\mu\\mathrm{F}\\) into nanofarads and picofarads.",
+      "answer": "Use\n\\[\n1\\,\\mu\\mathrm{F}=10^3\\,\\mathrm{nF}=10^6\\,\\mathrm{pF}\n\\]\nTherefore\n\\[\n0.020\\,\\mu\\mathrm{F}=20\\,\\mathrm{nF}=2.0\\times10^4\\,\\mathrm{pF}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-06",
+      "prompt": "A \\(2.2\\,\\mathrm{nF}\\) capacitor is connected across \\(9.0\\,\\mathrm{V}\\). Find the charge magnitude on either plate.",
+      "answer": "\\[\nQ=C\\Delta V\n=(2.2\\times10^{-9})(9.0)\n=2.0\\times10^{-8}\\,\\mathrm{C}\n\\]\nSo \\(Q=20\\,\\mathrm{nC}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-07",
+      "prompt": "A capacitor has charge magnitude \\(45\\,\\mathrm{nC}\\) when its capacitance is \\(1.5\\,\\mathrm{nF}\\). Find the potential difference.",
+      "answer": "\\[\n\\Delta V=\\frac{Q}{C}\n=\\frac{45\\,\\mathrm{nC}}{1.5\\,\\mathrm{nF}}\n=30\\,\\mathrm{V}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-08",
+      "prompt": "A vacuum parallel-plate capacitor has \\(A=0.040\\,\\mathrm{m^2}\\), \\(d=2.0\\,\\mathrm{mm}\\), and is connected across \\(150\\,\\mathrm{V}\\). Find \\(C\\), \\(Q\\), and the approximate field magnitude between the plates.",
+      "answer": "The capacitance is\n\\[\nC=\\epsilon_0\\frac{A}{d}\n=\\frac{(8.85\\times10^{-12})(0.040)}{2.0\\times10^{-3}}\n=1.77\\times10^{-10}\\,\\mathrm{F}\n\\]\nThe charge is\n\\[\nQ=C\\Delta V=(1.77\\times10^{-10})(150)\n=2.7\\times10^{-8}\\,\\mathrm{C}\n\\]\nFor a uniform field,\n\\[\nE=\\frac{\\Delta V}{d}\n=\\frac{150}{2.0\\times10^{-3}}\n=7.5\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-09",
+      "prompt": "A vacuum parallel-plate capacitor must have capacitance \\(100\\,\\mathrm{pF}\\) with plate separation \\(0.80\\,\\mathrm{mm}\\). What plate area is required?",
+      "answer": "Rearrange the parallel-plate formula:\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\quad\\Rightarrow\\quad\nA=\\frac{Cd}{\\epsilon_0}\n\\]\n\\[\nA=\\frac{(100\\times10^{-12})(0.80\\times10^{-3})}{8.85\\times10^{-12}}\n=9.0\\times10^{-3}\\,\\mathrm{m^2}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-10",
+      "prompt": "A parallel-plate capacitor has its plate area doubled and its separation tripled. By what factor does its capacitance change?",
+      "answer": "For parallel plates,\n\\[\nC\\propto\\frac{A}{d}\n\\]\nWith \\(A\\rightarrow2A\\) and \\(d\\rightarrow3d\\),\n\\[\n\\frac{C\u0027}{C}=\\frac{2}{3}\n\\]\nThe capacitance becomes two thirds of its original value.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-11",
+      "prompt": "Capacitor B has twice the plate area and half the plate separation of capacitor A. Both are vacuum parallel-plate capacitors. Find \\(C_B/C_A\\).",
+      "answer": "For vacuum parallel plates,\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nFor capacitor B,\n\\[\nA_B=2A_A,\\qquad d_B=\\frac{d_A}{2}\n\\]\nThus\n\\[\n\\frac{C_B}{C_A}\n=\\frac{A_B/d_B}{A_A/d_A}\n=\\frac{2A_A/(d_A/2)}{A_A/d_A}\n=4\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-12",
+      "prompt": "An isolated conducting sphere has radius \\(5.0\\,\\mathrm{cm}\\) and is held at \\(2.0\\,\\mathrm{kV}\\) relative to infinity. Find its capacitance, charge, and surface electric field magnitude.",
+      "answer": "For an isolated conducting sphere,\n\\[\nC=4\\pi\\epsilon_0R\n=4\\pi(8.85\\times10^{-12})(0.050)\n=5.6\\times10^{-12}\\,\\mathrm{F}\n\\]\nThe charge is\n\\[\nQ=CV=(5.6\\times10^{-12})(2.0\\times10^3)\n=1.1\\times10^{-8}\\,\\mathrm{C}\n\\]\nAt the surface of a charged conducting sphere,\n\\[\nE=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{R^2}\n\\]\nUsing \\(V=(1/4\\pi\\epsilon_0)Q/R\\), this can be written as\n\\[\nE=\\frac{V}{R}\n=\\frac{2.0\\times10^3}{0.050}\n=4.0\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-13",
+      "prompt": "A parallel-plate capacitor has capacitance \\(220\\,\\mathrm{pF}\\), plate separation \\(1.2\\,\\mathrm{mm}\\), and charge \\(3.3\\,\\mathrm{nC}\\). Find the plate area and the electric field magnitude between the plates.",
+      "answer": "First find the plate area:\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\quad\\Rightarrow\\quad\nA=\\frac{Cd}{\\epsilon_0}\n\\]\n\\[\nA=\\frac{(220\\times10^{-12})(1.2\\times10^{-3})}{8.85\\times10^{-12}}\n=2.98\\times10^{-2}\\,\\mathrm{m^2}\n\\]\nThe voltage is\n\\[\n\\Delta V=\\frac{Q}{C}\n=\\frac{3.3\\times10^{-9}}{220\\times10^{-12}}\n=15\\,\\mathrm{V}\n\\]\nThus\n\\[\nE=\\frac{\\Delta V}{d}\n=\\frac{15}{1.2\\times10^{-3}}\n=1.25\\times10^4\\,\\mathrm{V\\,m^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-14",
+      "prompt": "Derive the vacuum parallel-plate result \\(C=\\epsilon_0A/d\\) from \\(\\sigma=Q/A\\), \\(E=\\sigma/\\epsilon_0\\), and \\(\\Delta V=Ed\\).",
+      "answer": "For large close plates, ignore fringing so the field between the plates is approximately uniform. The charge density is\n\\[\n\\sigma=\\frac{Q}{A}\n\\]\nThe field between oppositely charged conducting plates is\n\\[\nE=\\frac{\\sigma}{\\epsilon_0}\n=\\frac{Q}{\\epsilon_0A}\n\\]\nThe potential difference across a uniform field is\n\\[\n\\Delta V=Ed\n=\\frac{Qd}{\\epsilon_0A}\n\\]\nTherefore\n\\[\nC=\\frac{Q}{\\Delta V}\n=\\frac{Q}{Qd/(\\epsilon_0A)}\n=\\epsilon_0\\frac{A}{d}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-15",
+      "prompt": "Derive the capacitance of an isolated conducting sphere of radius \\(R\\), using \\(V=(1/4\\pi\\epsilon_0)Q/R\\). Explain why the result does not depend on \\(Q\\).",
+      "answer": "For an isolated conducting sphere with reference \\(V(\\infty)=0\\),\n\\[\nV=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{R}\n\\]\nCapacitance is\n\\[\nC=\\frac{Q}{V}\n\\]\nso\n\\[\nC=\\frac{Q}{(1/4\\pi\\epsilon_0)(Q/R)}\n=4\\pi\\epsilon_0R\n\\]\nThe \\(Q\\) cancels because increasing the charge increases the potential in the same proportion. For this geometry in vacuum, the ratio \\(Q/V\\) is fixed by \\(R\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-16",
+      "prompt": "An isolated vacuum parallel-plate capacitor keeps the same charge while its separation is increased from \\(1.0\\,\\mathrm{mm}\\) to \\(2.5\\,\\mathrm{mm}\\). By what factors do \\(C\\), \\(\\Delta V\\), and the plate field \\(E\\) change?",
+      "answer": "For fixed area,\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\]\nChanging \\(d\\) from \\(1.0\\,\\mathrm{mm}\\) to \\(2.5\\,\\mathrm{mm}\\) multiplies the separation by \\(2.5\\), so\n\\[\nC_2=\\frac{C_1}{2.5}\n\\]\nThe capacitor is isolated, so \\(Q\\) is fixed. Since\n\\[\n\\Delta V=\\frac{Q}{C}\n\\]\nthe voltage increases by a factor of \\(2.5\\):\n\\[\n\\Delta V_2=2.5\\Delta V_1\n\\]\nFor ideal parallel plates,\n\\[\nE=\\frac{Q}{\\epsilon_0A}\n\\]\nso the field is unchanged. Equivalently, \\(\\Delta V\\) and \\(d\\) both increased by the same factor, so \\(E=\\Delta V/d\\) is unchanged.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-17",
+      "prompt": "A vacuum parallel-plate capacitor remains connected to a battery while its plate separation is halved. By what factors do \\(C\\), \\(Q\\), and \\(E\\) change?",
+      "answer": "Halving the separation gives\n\\[\nC=\\epsilon_0\\frac{A}{d}\n\\quad\\Rightarrow\\quad\nC_2=2C_1\n\\]\nThe battery fixes \\(\\Delta V\\), so\n\\[\nQ=C\\Delta V\n\\]\nalso doubles:\n\\[\nQ_2=2Q_1\n\\]\nThe field is\n\\[\nE=\\frac{\\Delta V}{d}\n\\]\nWith fixed \\(\\Delta V\\) and \\(d\\) halved,\n\\[\nE_2=2E_1\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-18",
+      "prompt": "Two isolated conducting spheres are far apart. Sphere A has radius \\(R\\) and charge \\(Q_0\\); sphere B has radius \\(2R\\) and is initially uncharged. They are connected by a thin wire until they reach a common potential, then disconnected. Find the final charge on each sphere.",
+      "answer": "The spheres are far apart, so approximate their capacitances as isolated-sphere capacitances:\n\\[\nC_A=4\\pi\\epsilon_0R,\\qquad C_B=4\\pi\\epsilon_0(2R)=2C_A\n\\]\nWhen connected, they must have a common final potential \\(V_f\\). Charge is conserved:\n\\[\nQ_A+Q_B=Q_0\n\\]\nand\n\\[\nQ_A=C_AV_f,\\qquad Q_B=C_BV_f\n\\]\nThus\n\\[\nQ_0=(C_A+C_B)V_f=3C_AV_f\n\\]\nso\n\\[\nV_f=\\frac{Q_0}{3C_A}\n\\]\nThe final charges are\n\\[\nQ_A=C_AV_f=\\frac{Q_0}{3}\n\\]\n\\[\nQ_B=C_BV_f=2C_AV_f=\\frac{2Q_0}{3}\n\\]\nThe larger sphere takes more charge because it has larger capacitance at the same potential.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-19",
+      "prompt": "Two concentric conducting spherical shells of radii \\(a\\) and \\(b\\), with \\(b\u003ea\\), form a capacitor. Derive its capacitance in vacuum. Check the limits \\(b\\gg a\\) and \\(b-a\\ll a\\).",
+      "answer": "Put charge \\(+Q\\) on the inner shell and \\(-Q\\) on the outer shell. Between the shells, Gauss\u0027s law gives\n\\[\nE(r)=\\frac{1}{4\\pi\\epsilon_0}\\frac{Q}{r^2}\n\\]\nThe potential difference is\n\\[\n\\Delta V=\\int_a^b E(r)\\,dr\n=\\frac{Q}{4\\pi\\epsilon_0}\\int_a^b\\frac{dr}{r^2}\n\\]\n\\[\n\\Delta V=\\frac{Q}{4\\pi\\epsilon_0}\\left(\\frac{1}{a}-\\frac{1}{b}\\right)\n\\]\nTherefore\n\\[\nC=\\frac{Q}{\\Delta V}\n=\\frac{4\\pi\\epsilon_0}{1/a-1/b}\n=4\\pi\\epsilon_0\\frac{ab}{b-a}\n\\]\nIf \\(b\\gg a\\), then \\(ab/(b-a)\\approx a\\), so\n\\[\nC\\approx4\\pi\\epsilon_0a\n\\]\nwhich is the isolated-sphere result.\n\nIf \\(b-a=d\\ll a\\), then \\(ab\\approx a^2\\), so\n\\[\nC\\approx4\\pi\\epsilon_0\\frac{a^2}{d}\n\\]\nThis matches the parallel-plate form \\(\\epsilon_0A/d\\) with \\(A\\approx4\\pi a^2\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "capacitance-20",
+      "prompt": "A long coaxial cylindrical capacitor has inner radius \\(a\\), outer conductor inner radius \\(b\\), and length \\(L\\), with \\(L\\gg b\\). Derive its capacitance in vacuum by finding the field from a line charge and integrating the potential difference.",
+      "answer": "Let the inner conductor carry charge per length \\(+\\lambda\\), and the outer conductor carry \\(-\\lambda\\). For \\(a\u003cr\u003cb\\), a cylindrical Gaussian surface gives\n\\[\nE(2\\pi rL)=\\frac{\\lambda L}{\\epsilon_0}\n\\]\nso\n\\[\nE(r)=\\frac{\\lambda}{2\\pi\\epsilon_0r}\n\\]\nThe potential difference between the conductors is\n\\[\n\\Delta V=\\int_a^b E(r)\\,dr\n=\\frac{\\lambda}{2\\pi\\epsilon_0}\\int_a^b\\frac{dr}{r}\n\\]\n\\[\n\\Delta V=\\frac{\\lambda}{2\\pi\\epsilon_0}\\ln\\left(\\frac{b}{a}\\right)\n\\]\nThe total charge on length \\(L\\) is \\(Q=\\lambda L\\), so\n\\[\nC=\\frac{Q}{\\Delta V}\n=\\frac{\\lambda L}{(\\lambda/2\\pi\\epsilon_0)\\ln(b/a)}\n\\]\n\\[\nC=\\frac{2\\pi\\epsilon_0L}{\\ln(b/a)}\n\\]\nThe capacitance per unit length is\n\\[\n\\frac{C}{L}=\\frac{2\\pi\\epsilon_0}{\\ln(b/a)}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "current-resistance",
+  "topicId": "electric-current",
+  "topicTitle": "Electric Current",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "electric-current-01",
+      "prompt": "What is the SI unit of electric current?",
+      "answer": "The SI unit of electric current is the ampere:\n\\[\n1\\,\\mathrm{A}=1\\,\\mathrm{C\\,s^{-1}}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-02",
+      "prompt": "State the definition of average current in terms of charge and time.",
+      "answer": "Average current is charge crossing a surface per time:\n\\[\nI_{\\mathrm{avg}}=\\frac{\\Delta Q}{\\Delta t}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-03",
+      "prompt": "A metal wire has conventional current to the left. Which way do electrons drift?",
+      "answer": "In a metal, electrons drift opposite conventional current. If conventional current is to the left, electrons drift to the right.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-04",
+      "prompt": "A charge of \\(24\\,\\mathrm{C}\\) crosses a wire cross-section in \\(8.0\\,\\mathrm{s}\\). Find the average current.",
+      "answer": "\\[\nI_{\\mathrm{avg}}=\\frac{\\Delta Q}{\\Delta t}\n\\]\n\\[\nI_{\\mathrm{avg}}=\\frac{24}{8.0}=3.0\\,\\mathrm{A}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-05",
+      "prompt": "A steady current of \\(0.40\\,\\mathrm{A}\\) flows for \\(3.0\\,\\mathrm{min}\\). How much charge crosses a cross-section?",
+      "answer": "Convert the time:\n\\[\n3.0\\,\\mathrm{min}=180\\,\\mathrm{s}\n\\]\nUse\n\\[\n\\Delta Q=I\\Delta t\n\\]\n\\[\n\\Delta Q=(0.40)(180)=72\\,\\mathrm{C}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-06",
+      "prompt": "A wire of cross-sectional area \\(2.0\\times10^{-6}\\,\\mathrm{m^2}\\) carries a uniform current \\(5.0\\,\\mathrm{A}\\). Find the current density magnitude.",
+      "answer": "For uniform flow,\n\\[\nJ=\\frac{I}{A}\n\\]\n\\[\nJ=\\frac{5.0}{2.0\\times10^{-6}}\n\\]\n\\[\nJ=2.5\\times10^6\\,\\mathrm{A\\,m^{-2}}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-07",
+      "prompt": "The charge that has crossed a surface is \\(Q(t)=0.50t^2+2.0t\\), with \\(Q\\) in coulombs and \\(t\\) in seconds. Find \\(I(t)\\) and \\(I(4.0\\,\\mathrm{s})\\).",
+      "answer": "Instantaneous current is\n\\[\nI(t)=\\frac{dQ}{dt}\n\\]\nGiven\n\\[\nQ(t)=0.50t^2+2.0t\n\\]\n\\[\nI(t)=1.0t+2.0\n\\]\nAt \\(t=4.0\\,\\mathrm{s}\\),\n\\[\nI(4.0)=6.0\\,\\mathrm{A}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-08",
+      "prompt": "A wire carries current density \\(\\vec J=(3.0\\hat\\imath-4.0\\hat\\jmath)\\times10^6\\,\\mathrm{A\\,m^{-2}}\\). Find the current through a flat area \\(1.0\\times10^{-6}\\,\\mathrm{m^2}\\) whose area vector is \\(\\vec A=A\\hat\\imath\\).",
+      "answer": "Current through a flat area is\n\\[\nI=\\vec J\\cdot\\vec A\n\\]\nHere\n\\[\n\\vec A=A\\hat\\imath\n\\]\nso only the \\(x\\)-component contributes:\n\\[\nI=J_xA=(3.0\\times10^6)(1.0\\times10^{-6})\n\\]\n\\[\nI=3.0\\,\\mathrm{A}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-09",
+      "prompt": "A current varies as \\(I(t)=I_0(1-t/T)\\) from \\(t=0\\) to \\(T\\). Derive the total charge that crosses a surface during this interval and interpret it as an area under a graph.",
+      "answer": "Total charge is the time integral of current:\n\\[\nQ=\\int_0^T I(t)\\,dt\n\\]\n\\[\nQ=\\int_0^T I_0\\left(1-\\frac{t}{T}\\right)\\,dt\n\\]\n\\[\nQ=I_0\\left[t-\\frac{t^2}{2T}\\right]_0^T\n\\]\n\\[\nQ=\\frac12 I_0T\n\\]\nThis is the triangular area under the current-time graph: base \\(T\\), height \\(I_0\\), area \\(\\frac12 I_0T\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "electric-current-10",
+      "prompt": "Two charge carriers cross the same surface: positive ions with current contribution \\(I_+\\) to the right and electrons whose drift is also to the right with magnitude contribution \\(I_e\\). Derive the net conventional current direction and magnitude in terms of \\(I_+\\) and \\(I_e\\), including the case split.",
+      "answer": "Take rightward conventional current as positive. Positive ions moving right contribute\n\\[\n+I_+\n\\]\nElectrons drifting right contribute conventional current to the left, so their contribution is\n\\[\n-I_e\n\\]\nThus\n\\[\nI_{\\mathrm{net}}=I_+-I_e\n\\]\nIf \\(I_+\u003eI_e\\), the net conventional current is rightward with magnitude \\(I_+-I_e\\). If \\(I_e\u003eI_+\\), it is leftward with magnitude \\(I_e-I_+\\). If \\(I_e=I_+\\), the net conventional current is zero.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

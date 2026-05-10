@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "setId": "set-3",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "constants": [
+    {
+      "label": "Gravitational acceleration",
+      "value": "g=9.81\\,\\mathrm{m\\,s^{-2}}"
+    },
+    {
+      "label": "Speed of light",
+      "value": "c=3.00\\times10^8\\,\\mathrm{m\\,s^{-1}}"
+    },
+    {
+      "label": "Elementary charge",
+      "value": "e=1.60\\times10^{-19}\\,\\mathrm{C}"
+    },
+    {
+      "label": "Electron mass",
+      "value": "m_e=9.11\\times10^{-31}\\,\\mathrm{kg}"
+    },
+    {
+      "label": "Planck constant",
+      "value": "h=6.63\\times10^{-34}\\,\\mathrm{J\\,s}"
+    },
+    {
+      "label": "Permittivity of free space",
+      "value": "\\epsilon_0=8.85\\times10^{-12}\\,\\mathrm{F\\,m^{-1}}"
+    },
+    {
+      "label": "Magnetic constant",
+      "value": "\\mu_0=1.26\\times10^{-6}\\,\\mathrm{N\\,A^{-2}}"
+    },
+    {
+      "label": "Boltzmann constant",
+      "value": "k_B=1.38\\times10^{-23}\\,\\mathrm{J\\,K^{-1}}"
+    }
+  ],
+  "description": "Mechanics, waves and optics, oscillations, collisions, conservation, and fields.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the model, assumptions, and sign conventions clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "ap-s3-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Mechanics",
+      "stem": "On a level test track, cart \\(A\\) of mass \\(1.80\\,\\mathrm{kg}\\) moves to the right at \\(4.00\\,\\mathrm{m\\,s^{-1}}\\). It runs into cart \\(B\\), of mass \\(1.20\\,\\mathrm{kg}\\), which is initially at rest. A spring bumper between the carts compresses during the impact, and a catch then holds the carts together. The collision time is short enough that external horizontal impulses can be neglected. The linked carts then enter a rough patch of track of length \\(0.800\\,\\mathrm{m}\\).",
+      "title": "Spring-bumper carts and a rough patch",
+      "parts": [
+        {
+          "answer": "Take right as positive. During the short collision the horizontal momentum of the two-cart system is conserved:\n\\[\nm_Au_A+m_Bu_B=(m_A+m_B)v.\n\\]\nWith \\(u_B=0\\),\n\\[\nv=\\frac{(1.80)(4.00)}{1.80+1.20}=2.40\\,\\mathrm{m\\,s^{-1}}.\n\\]\nThe impulse on cart \\(B\\) is its change in momentum:\n\\[\nJ_B=m_B(v-u_B)=(1.20)(2.40)=2.88\\,\\mathrm{N\\,s}.\n\\]\nThe impulse is to the right.",
+          "id": "ap-s3-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the common speed immediately after the catch engages, and find the impulse delivered to cart \\(B\\) during the collision."
+        },
+        {
+          "answer": "At maximum compression, just before the catch removes the rebound, the carts have the common centre-of-mass speed found in part (a). The initial kinetic energy is\n\\[\nK_i=\\frac12m_Au_A^2=\\frac12(1.80)(4.00)^2=14.4\\,\\mathrm{J}.\n\\]\nThe kinetic energy when both carts momentarily share \\(2.40\\,\\mathrm{m\\,s^{-1}}\\) is\n\\[\nK_c=\\frac12(m_A+m_B)v^2=\\frac12(3.00)(2.40)^2=8.64\\,\\mathrm{J}.\n\\]\nIf losses during compression are negligible, the spring stores\n\\[\nE_s=K_i-K_c=5.76\\,\\mathrm{J}.\n\\]\nUsing \\(E_s=\\tfrac12kx^2\\) with \\(k=720\\,\\mathrm{N\\,m^{-1}}\\),\n\\[\nx=\\sqrt{\\frac{2E_s}{k}}=\\sqrt{\\frac{2(5.76)}{720}}=0.126\\,\\mathrm{m}.\n\\]",
+          "id": "ap-s3-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "The spring bumper has stiffness \\(720\\,\\mathrm{N\\,m^{-1}}\\). Estimate its maximum compression, assuming negligible energy loss before maximum compression."
+        },
+        {
+          "answer": "Across the rough patch, friction does negative work on the linked carts. Let \\(M=m_A+m_B=3.00\\,\\mathrm{kg}\\). The carts enter at \\(2.40\\,\\mathrm{m\\,s^{-1}}\\) and are measured leaving at \\(1.60\\,\\mathrm{m\\,s^{-1}}\\), so\n\\[\n\\Delta K=\\frac12M(v_f^2-v_i^2)\n=\\frac12(3.00)(1.60^2-2.40^2)=-4.80\\,\\mathrm{J}.\n\\]\nThe work by kinetic friction is\n\\[\nW_f=-\\mu_kMgL.\n\\]\nThus\n\\[\n\\mu_k=\\frac{4.80}{(3.00)(9.81)(0.800)}=0.204.\n\\]",
+          "id": "ap-s3-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "The linked carts leave the rough patch at \\(1.60\\,\\mathrm{m\\,s^{-1}}\\). Use work-energy to infer the coefficient of kinetic friction on the patch."
+        },
+        {
+          "answer": "On the rubber stop the friction force is \\(\\mu_sMg\\), so the deceleration magnitude is \\(a=\\mu_sg\\). With entry speed \\(1.60\\,\\mathrm{m\\,s^{-1}}\\),\n\\[\n0=v^2-2\\mu_sgd\n\\]\nand therefore\n\\[\nd=\\frac{v^2}{2\\mu_sg}=\\frac{1.60^2}{2(0.360)(9.81)}=0.363\\,\\mathrm{m}.\n\\]",
+          "id": "ap-s3-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "After the patch, the carts move onto a rubber stopping strip with coefficient of kinetic friction \\(0.360\\). Find the additional stopping distance."
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section A: Mechanics",
+      "stem": "A uniform inspection boom of length \\(3.00\\,\\mathrm{m}\\) and mass \\(18.0\\,\\mathrm{kg}\\) is hinged to a wall and held horizontal. A \\(10.0\\,\\mathrm{kg}\\) camera module is fixed \\(2.40\\,\\mathrm{m}\\) from the hinge. A cable is attached \\(2.20\\,\\mathrm{m}\\) from the hinge. The cable is \\(50.0^\\circ\\) above the horizontal boom, and its horizontal projection is \\(20.0^\\circ\\) sideways from the boom, so the cable force is not in the boom's vertical plane.",
+      "title": "Off-axis support cable and inspection boom",
+      "parts": [
+        {
+          "answer": "Take torques about the hinge. The hinge force gives no torque about the hinge. Only the vertical component of the cable tension contributes to the torque that balances the weights, because the boom position vector is along the boom.\n\nThe vertical component is \\(T_y=T\\sin50.0^\\circ\\). Equilibrium gives\n\\[\nT_y(2.20)=(18.0g)(1.50)+(10.0g)(2.40).\n\\]\nHence\n\\[\nT_y=\\frac{(18.0)(9.81)(1.50)+(10.0)(9.81)(2.40)}{2.20}=227\\,\\mathrm{N}.\n\\]\nTherefore\n\\[\nT=\\frac{227}{\\sin50.0^\\circ}=297\\,\\mathrm{N}.\n\\]",
+          "id": "ap-s3-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Use torque equilibrium about the hinge to find the cable tension."
+        },
+        {
+          "answer": "Resolve the cable force. With \\(+x\\) along the boom away from the wall, \\(+y\\) upward, and \\(+z\\) sideways, the cable components on the boom are\n\\[\nT_x=-T\\cos50.0^\\circ\\cos20.0^\\circ,\\quad\nT_z=T\\cos50.0^\\circ\\sin20.0^\\circ,\\quad\nT_y=T\\sin50.0^\\circ.\n\\]\nUsing \\(T=297\\,\\mathrm{N}\\),\n\\[\nT_x=-179\\,\\mathrm{N},\\quad T_z=65.4\\,\\mathrm{N},\\quad T_y=227\\,\\mathrm{N}.\n\\]\nForce equilibrium gives\n\\[\nH_x=-T_x=179\\,\\mathrm{N},\\quad H_z=-T_z=-65.4\\,\\mathrm{N},\n\\]\n\\[\nH_y=(18.0+10.0)g-T_y=274.7-227.4=47.3\\,\\mathrm{N}.\n\\]\nThe hinge force magnitude is\n\\[\nH=\\sqrt{179^2+(-65.4)^2+47.3^2}=196\\,\\mathrm{N}.\n\\]",
+          "id": "ap-s3-p1-q2-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the three components of the hinge force and its magnitude."
+        },
+        {
+          "answer": "Immediately after the cable is cut, the boom is still horizontal and has zero angular speed, but the weights now provide an unbalanced torque about the hinge:\n\\[\n\\tau=-(18.0g)(1.50)-(10.0g)(2.40)=-500\\,\\mathrm{N\\,m}.\n\\]\nThe moment of inertia about the hinge is\n\\[\nI=\\frac13ML^2+mr^2=\\frac13(18.0)(3.00)^2+(10.0)(2.40)^2=111.6\\,\\mathrm{kg\\,m^2}.\n\\]\nThus\n\\[\n\\alpha=\\frac{\\tau}{I}=\\frac{-500}{111.6}=-4.48\\,\\mathrm{rad\\,s^{-2}}.\n\\]\nThe negative sign means clockwise rotation if counter-clockwise is positive.",
+          "id": "ap-s3-p1-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "The cable is suddenly cut. Calculate the angular acceleration of the boom immediately after release."
+        },
+        {
+          "answer": "The angular acceleration is not constant. As the boom rotates, the horizontal moment arms of the boom's centre of mass and the camera change, so the gravitational torque changes with angle. Since \\(\\alpha=\\tau/I\\) and \\(I\\) about the hinge is fixed, the changing torque gives a changing angular acceleration. The hinge force also changes during the fall because, after the first instant, the boom has angular speed and needs centripetal as well as tangential acceleration of its mass elements.",
+          "id": "ap-s3-p1-q2-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Explain why the angular acceleration and hinge force do not remain equal to their initial-release values as the boom falls."
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section B: Waves and Optics",
+      "stem": "A teaching spectrometer uses a narrow adjustable slit, a thin converging lens, and a removable diffraction grating. Green laser light of wavelength \\(532\\,\\mathrm{nm}\\) is normally incident on the slit unless stated otherwise.",
+      "title": "Spectrometer slit, lens, and grating checks",
+      "parts": [
+        {
+          "answer": "For single-slit diffraction, minima satisfy\n\\[\na\\sin\\theta_m=m\\lambda.\n\\]\nIn the focal plane of a lens, small angles give \\(y\\simeq f\\theta\\). The measured central maximum width is the distance from the first minimum on one side to the first minimum on the other, so\n\\[\nw=2y_1\\simeq\\frac{2f\\lambda}{a}.\n\\]\nTherefore\n\\[\na=\\frac{2f\\lambda}{w}=\\frac{2(0.750)(532\\times10^{-9})}{3.80\\times10^{-3}}=2.10\\times10^{-4}\\,\\mathrm{m}.\n\\]\nThe slit width is \\(0.210\\,\\mathrm{mm}\\).",
+          "id": "ap-s3-p1-q3-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "With no grating in place, a lens of focal length \\(0.750\\,\\mathrm{m}\\) forms the far-field diffraction pattern in its focal plane. The central maximum is \\(3.80\\,\\mathrm{mm}\\) wide. Find the slit width."
+        },
+        {
+          "answer": "Use the thin-lens equation\n\\[\n\\frac1s+\\frac1{s'}=\\frac1f.\n\\]\nWith \\(f=12.0\\,\\mathrm{cm}\\) and \\(s=30.0\\,\\mathrm{cm}\\),\n\\[\n\\frac1{s'}=\\frac1{12.0}-\\frac1{30.0}=0.0500\\,\\mathrm{cm^{-1}},\n\\]\nso\n\\[\ns'=20.0\\,\\mathrm{cm}.\n\\]\nThe magnification is\n\\[\nm=-\\frac{s'}{s}=-\\frac{20.0}{30.0}=-0.667.\n\\]\nAn illuminated slit height of \\(1.50\\,\\mathrm{mm}\\) forms an inverted image of height\n\\[\nh'=mh=-1.00\\,\\mathrm{mm}.\n\\]",
+          "id": "ap-s3-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "The slit is then used as an object for a \\(12.0\\,\\mathrm{cm}\\) focal-length lens. The slit is \\(30.0\\,\\mathrm{cm}\\) from the lens and its illuminated height is \\(1.50\\,\\mathrm{mm}\\). Find the image distance and image height."
+        },
+        {
+          "answer": "A grating with \\(600\\,\\mathrm{lines\\,mm^{-1}}\\) has spacing\n\\[\nd=\\frac{1}{600\\times10^3}=1.67\\times10^{-6}\\,\\mathrm{m}.\n\\]\nThe grating equation is\n\\[\nd\\sin\\theta_m=m\\lambda.\n\\]\nFor \\(m=1\\),\n\\[\n\\sin\\theta_1=\\frac{532\\times10^{-9}}{1.67\\times10^{-6}}=0.319,\n\\]\nso\n\\[\n\\theta_1=18.6^\\circ.\n\\]\nThe observed \\(18.7^\\circ\\) is consistent within normal reading precision. The second order is also possible because \\(2\\lambda<d\\); its angle is\n\\[\n\\theta_2=\\sin^{-1}\\left(\\frac{2(532\\times10^{-9})}{1.67\\times10^{-6}}\\right)=39.7^\\circ.\n\\]",
+          "id": "ap-s3-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "A \\(600\\,\\mathrm{lines\\,mm^{-1}}\\) grating is inserted. Check whether an observed first-order angle of \\(18.7^\\circ\\) is consistent with \\(532\\,\\mathrm{nm}\\) light, and find the second-order angle."
+        },
+        {
+          "answer": "The single-slit width of the central maximum is proportional to wavelength:\n\\[\nw\\propto\\lambda.\n\\]\nFor \\(650\\,\\mathrm{nm}\\),\n\\[\nw_{650}=3.80\\,\\mathrm{mm}\\left(\\frac{650}{532}\\right)=4.64\\,\\mathrm{mm}.\n\\]\nFor the grating, \\(\\sin\\theta_1=\\lambda/d\\), so\n\\[\n\\theta_1=\\sin^{-1}\\left(\\frac{650\\times10^{-9}}{1.67\\times10^{-6}}\\right)=23.0^\\circ.\n\\]\nThe wavelength increase spreads both patterns, but the grating angle scales through \\(\\sin\\theta\\), not exactly through \\(\\theta\\) once the angle is no longer very small.",
+          "id": "ap-s3-p1-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "If the source is changed to \\(650\\,\\mathrm{nm}\\) red light without changing the apparatus, find the new central maximum width and first-order grating angle. Comment on the scaling."
+        }
+      ]
+    },
+    {
+      "id": "ap-s3-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section C: Oscillations and Collisions, Conservation and Fields",
+      "stem": "A fluid-density sensor consists of a \\(0.850\\,\\mathrm{kg}\\) probe on a vertical spring of constant \\(34.0\\,\\mathrm{N\\,m^{-1}}\\). In a test fluid the motion is lightly damped, with damping coefficient \\(b=0.680\\,\\mathrm{kg\\,s^{-1}}\\). The probe is a sealed cylinder of diameter \\(42.0\\,\\mathrm{mm}\\) and length \\(180\\,\\mathrm{mm}\\), fully submerged during measurement.\n\nThe damping rate is\n\\[\n\\beta=\\frac{b}{2m}\n\\]\nand the damped angular frequency is\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}.\n\\]\nFor underdamped motion, the amplitude envelope is\n\\[\nA(t)=A_0e^{-\\beta t}.\n\\]",
+      "title": "Damped spring sensor in a fluid",
+      "parts": [
+        {
+          "answer": "The undamped angular frequency is\n\\[\n\\omega_0=\\sqrt{\\frac{k}{m}}=\\sqrt{\\frac{34.0}{0.850}}=6.32\\,\\mathrm{rad\\,s^{-1}}.\n\\]\nFor linear damping,\n\\[\n\\beta=\\frac{b}{2m}=\\frac{0.680}{2(0.850)}=0.400\\,\\mathrm{s^{-1}}.\n\\]\nThe damped angular frequency is\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\beta^2}=\\sqrt{6.32^2-0.400^2}=6.31\\,\\mathrm{rad\\,s^{-1}},\n\\]\nso\n\\[\nf_d=\\frac{\\omega_d}{2\\pi}=1.00\\,\\mathrm{Hz}.\n\\]",
+          "id": "ap-s3-p1-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the damped oscillation frequency of the sensor."
+        },
+        {
+          "answer": "For underdamped motion the amplitude envelope is\n\\[\nA(t)=A_0e^{-\\beta t}.\n\\]\nThe damped period is\n\\[\nT_d=\\frac{2\\pi}{\\omega_d}=\\frac{2\\pi}{6.31}=0.996\\,\\mathrm{s}.\n\\]\nAfter four cycles,\n\\[\nt=4T_d=3.98\\,\\mathrm{s}.\n\\]\nWith \\(A_0=18.0\\,\\mathrm{mm}\\),\n\\[\nA=18.0e^{-(0.400)(3.98)}=3.67\\,\\mathrm{mm}.\n\\]\nThe amplitude has fallen to about \\(20.4\\%\\) of its starting value.",
+          "id": "ap-s3-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "The probe is displaced and released with initial envelope amplitude \\(18.0\\,\\mathrm{mm}\\). Find the envelope amplitude after four complete oscillations."
+        },
+        {
+          "answer": "For a spring oscillator, the mechanical energy associated with an amplitude \\(A\\) is\n\\[\nE=\\frac12kA^2.\n\\]\nInitially,\n\\[\nE_0=\\frac12(34.0)(0.0180)^2=5.51\\times10^{-3}\\,\\mathrm{J}.\n\\]\nAfter four cycles, \\(A=0.00367\\,\\mathrm{m}\\), so\n\\[\nE_4=\\frac12(34.0)(0.00367)^2=2.29\\times10^{-4}\\,\\mathrm{J}.\n\\]\nThe energy lost to the fluid is therefore\n\\[\nE_0-E_4=5.28\\times10^{-3}\\,\\mathrm{J}.\n\\]",
+          "id": "ap-s3-p1-q4-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Estimate the mechanical energy lost to the fluid over those four oscillations."
+        },
+        {
+          "answer": "The probe is fully submerged, so the displaced volume is its cylindrical volume:\n\\[\nV=\\pi r^2L=\\pi(0.0210)^2(0.180)=2.49\\times10^{-4}\\,\\mathrm{m^3}.\n\\]",
+          "id": "ap-s3-p1-q4-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Find the volume of fluid displaced by the submerged probe."
+        },
+        {
+          "answer": "The buoyant force reduces the static spring extension. The measured extension is \\(62.0\\,\\mathrm{mm}\\) smaller in the fluid than in air, so\n\\[\nF_B=k\\Delta x=(34.0)(0.0620)=2.11\\,\\mathrm{N}.\n\\]\nUsing \\(F_B=\\rho_f gV\\),\n\\[\n\\rho_f=\\frac{F_B}{gV}=\\frac{2.11}{(9.81)(2.49\\times10^{-4})}=864\\,\\mathrm{kg\\,m^{-3}}.\n\\]\nThe value is consistent with a light oil rather than water.",
+          "id": "ap-s3-p1-q4-e",
+          "label": "(e)",
+          "marks": 3,
+          "prompt": "When the probe is immersed, its static spring extension is \\(62.0\\,\\mathrm{mm}\\) smaller than in air. Infer the fluid density."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Physics Paper 1",
+  "totalMarks": 60
+}

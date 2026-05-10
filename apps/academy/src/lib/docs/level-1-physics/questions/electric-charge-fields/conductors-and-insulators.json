@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "electric-charge-fields",
+  "topicId": "conductors-and-insulators",
+  "topicTitle": "Conductors and Insulators",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "conductors-insulators-01",
+      "prompt": "In a conductor, are some charges free to move through the material?",
+      "answer": "Yes. In a conductor, some charges are mobile and can move through the material.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-02",
+      "prompt": "In electrostatic equilibrium, what is \\(\\vec E\\) inside conducting material?",
+      "answer": "Inside conducting material in electrostatic equilibrium,\n\\[\n\\vec E=0\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-03",
+      "prompt": "A neutral insulating rod is polarized by a nearby charged object. Does polarization require the rod to have nonzero net charge?",
+      "answer": "No. Polarization separates or slightly shifts charge within the rod, but the net charge can remain zero.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-04",
+      "prompt": "A free electron in a metal feels an electric field \\(40\\,\\mathrm{N\\,C^{-1}}\\) to the right. What is the direction of its electric force?",
+      "answer": "The electric force is\n\\[\n\\vec F=q\\vec E\n\\]\nAn electron has \\(q\u003c0\\), so its force is opposite the field. If \\(\\vec E\\) points right, the force on the electron points left.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-05",
+      "prompt": "A conductor carries \\(18\\,\\mathrm{nC}\\) of excess charge spread over area \\(6.0\\times10^{-3}\\,\\mathrm{m^2}\\). Find the average surface charge density.",
+      "answer": "Average surface charge density is\n\\[\n\\sigma=\\frac{Q}{A}\n\\]\n\\[\n\\sigma=\\frac{18\\times10^{-9}}{6.0\\times10^{-3}}\n\\]\n\\[\n\\sigma=3.0\\times10^{-6}\\,\\mathrm{C\\,m^{-2}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-06",
+      "prompt": "Why does excess charge placed on an isolated conductor move to its surface after electrostatic equilibrium is reached?",
+      "answer": "If excess charge remained in the conducting bulk, free charges would create and respond to electric fields inside the material. They would keep moving.\n\nElectrostatic equilibrium requires no drift of free charge, so\n\\[\n\\vec F=q\\vec E=0\n\\]\ninside the conducting material. The excess charge redistributes to the surface.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-07",
+      "prompt": "A hollow metal shell is placed in a static external electric field. Explain why the field inside the metal of the shell is zero, but do not assume the field everywhere inside the hollow cavity is automatically zero without checking the setup.",
+      "answer": "Free charges in the metal move until the electric force inside the conducting material vanishes:\n\\[\n\\vec F=q\\vec E=0\n\\]\nso\n\\[\n\\vec E=0\n\\]\nin the metal of the shell.\n\nThat statement is about the conducting material. The field in a hollow cavity depends on additional information, such as whether charges are inside the cavity and how the conductor is connected or shielded.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-08",
+      "prompt": "Two identical neutral objects are placed near a positive rod. Object A is metal; object B is plastic. Compare the charge response in A and B.",
+      "answer": "The metal object has mobile charges, so charge can redistribute over the object until the conductor reaches electrostatic equilibrium.\n\nThe plastic object is an insulator. Its bound charges can shift locally, so it polarizes, but charge does not freely flow through the whole object the way it does in a metal.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-09",
+      "prompt": "A conductor is claimed to be in electrostatic equilibrium while a nonzero uniform electric field exists throughout its bulk. Use the force on free charge to test the claim and state the exception hidden in the wording.",
+      "answer": "In the conducting bulk, free charge would feel\n\\[\n\\vec F=q\\vec E\n\\]\nIf \\(\\vec E\\ne0\\), mobile charges drift, so the conductor is not in electrostatic equilibrium.\n\nThus the claim is inconsistent for conducting material in electrostatic equilibrium. The hidden exception is that a field may exist in a cavity or outside the conductor, or in a non-electrostatic situation with currents, but not throughout the conducting bulk at electrostatic rest.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "conductors-insulators-10",
+      "prompt": "A neutral conductor and a neutral insulator have the same external shape and are placed in the same nonuniform electric field. Explain why both can be attracted, but why the microscopic charge motion and final charge distribution are different.",
+      "answer": "Both objects can be attracted because the nonuniform field produces a stronger force on the closer induced charge than on the farther induced charge.\n\nIn the conductor, mobile charges move through the object and can accumulate on surfaces. In the insulator, bound charges shift locally within atoms or molecules. The conductor can create a larger-scale redistribution; the insulator mainly polarizes locally. Both responses can put opposite sign closer to the external source, giving net attraction in a nonuniform field.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

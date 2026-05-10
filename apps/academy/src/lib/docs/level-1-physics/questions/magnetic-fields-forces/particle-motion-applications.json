@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "particle-motion-applications",
+  "topicTitle": "Particle Motion Applications",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "particle-motion-applications-01",
+      "prompt": "What condition lets a charged particle pass undeflected through crossed electric and magnetic fields?",
+      "answer": "The electric and magnetic force magnitudes must be equal and opposite:\n\\[\n|q|E=|q|vB\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-02",
+      "prompt": "State the selected speed in a velocity selector.",
+      "answer": "The selected speed is\n\\[\nv=\\frac{E}{B}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-03",
+      "prompt": "A velocity selector has \\(E=2.4\\times10^4\\,\\mathrm{N\\,C^{-1}}\\) and \\(B=0.12\\,\\mathrm{T}\\). Find the selected speed.",
+      "answer": "\\[\nv=\\frac{E}{B}=\\frac{2.4\\times10^4}{0.12}=2.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-04",
+      "prompt": "Does the selected speed \\(v=E/B\\) depend on the particle charge magnitude?",
+      "answer": "No. The charge magnitude cancels from the balance \\(|q|E=|q|vB\\), so the selected speed depends only on \\(E\\) and \\(B\\).",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-05",
+      "prompt": "A selector uses \\(B=0.25\\,\\mathrm{T}\\) to pass particles at \\(3.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\). Find the required electric field.",
+      "answer": "Use \\(E=vB\\):\n\\[\nE=(3.0\\times10^5)(0.25)=7.5\\times10^4\\,\\mathrm{N\\,C^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-06",
+      "prompt": "After speed selection, a singly charged ion moves in radius \\(0.30\\,\\mathrm{m}\\) in \\(0.50\\,\\mathrm{T}\\) at \\(2.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\). Find its mass.",
+      "answer": "Use \\(r=mv/(|q|B)\\):\n\\[\nm=\\frac{|q|Br}{v}=\\frac{(1.60\\times10^{-19})(0.50)(0.30)}{2.0\\times10^5}=1.2\\times10^{-25}\\,\\mathrm{kg}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-07",
+      "prompt": "State the momentum relation for a charged particle moving perpendicular to a magnetic field in a circular path.",
+      "answer": "The momentum is\n\\[\np=|q|Br\n\\]\nfor motion perpendicular to the field.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-08",
+      "prompt": "Why can a velocity selector pass both positive and negative particles of the same speed if their paths are arranged correctly?",
+      "answer": "Both electric and magnetic forces reverse when the charge sign reverses. The balance condition still has the same magnitude:\n\\[\n|q|E=|q|vB\n\\]\nso \\(v=E/B\\) is unchanged.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-09",
+      "prompt": "A particle with selected speed \\(1.5\\times10^5\\,\\mathrm{m\\,s^{-1}}\\) enters a magnetic analyzer with \\(B=0.40\\,\\mathrm{T}\\) and radius \\(0.10\\,\\mathrm{m}\\). Find \\(m/|q|\\).",
+      "answer": "\\[\n\\frac{m}{|q|}=\\frac{rB}{v}=\\frac{(0.10)(0.40)}{1.5\\times10^5}=2.7\\times10^{-7}\\,\\mathrm{kg\\,C^{-1}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-10",
+      "prompt": "In a magnetic analyzer, which particle has the larger radius: larger \\(m/|q|\\) or smaller \\(m/|q|\\), at the same speed and field?",
+      "answer": "The larger \\(m/|q|\\) particle has the larger radius because\n\\[\nr=\\frac{m}{|q|}\\frac{v}{B}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-11",
+      "prompt": "What happens in a velocity selector if a particle is slower than \\(E/B\\), assuming electric and magnetic forces oppose?",
+      "answer": "Then \\(|q|vB<|q|E\\), so the electric force is larger than the magnetic force. The particle deflects in the electric-force direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-12",
+      "prompt": "What happens in a velocity selector if a particle is faster than \\(E/B\\), assuming electric and magnetic forces oppose?",
+      "answer": "Then \\(|q|vB>|q|E\\), so the magnetic force is larger. The particle deflects in the magnetic-force direction.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-13",
+      "prompt": "Derive \\(v=E/B\\) for a velocity selector.",
+      "answer": "For undeflected motion, the force magnitudes balance:\n\\[\n|q|E=|q|vB\n\\]\nCancel \\(|q|\\):\n\\[\nE=vB\n\\]\nTherefore\n\\[\nv=\\frac{E}{B}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-14",
+      "prompt": "Derive \\(m/|q|=rB/v\\) for a magnetic analyzer.",
+      "answer": "Use the circular-path radius:\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nRearrange:\n\\[\n\\frac{m}{|q|}=\\frac{rB}{v}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-15",
+      "prompt": "A mass spectrometer selects speed \\(2.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\). Two singly charged ions have radii \\(0.20\\,\\mathrm{m}\\) and \\(0.25\\,\\mathrm{m}\\) in the same magnetic field. Compare their masses.",
+      "answer": "For fixed \\(|q|\\), \\(v\\), and \\(B\\),\n\\[\nm\\propto r\n\\]\nThus\n\\[\n\\frac{m_2}{m_1}=\\frac{0.25}{0.20}=1.25\n\\]\nThe ion with the larger radius has \\(1.25\\) times the mass.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-16",
+      "prompt": "A particle has \\(q=3.2\\times10^{-19}\\,\\mathrm{C}\\), speed \\(4.0\\times10^5\\,\\mathrm{m\\,s^{-1}}\\), and radius \\(0.50\\,\\mathrm{m}\\) in \\(0.20\\,\\mathrm{T}\\). Find its mass.",
+      "answer": "\\[\nm=\\frac{|q|Br}{v}=\\frac{(3.2\\times10^{-19})(0.20)(0.50)}{4.0\\times10^5}=8.0\\times10^{-26}\\,\\mathrm{kg}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-17",
+      "prompt": "Why is a velocity selector often placed before a magnetic analyzer?",
+      "answer": "The analyzer radius depends on both mass-to-charge ratio and speed:\n\\[\nr=\\frac{mv}{|q|B}\n\\]\nThe selector fixes \\(v\\), so radius differences can be interpreted as differences in \\(m/|q|\\).",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-18",
+      "prompt": "A particle passes undeflected through crossed fields, then enters an analyzer. If \\(E\\) in the selector is doubled while selector \\(B\\) is unchanged, how does analyzer radius change?",
+      "answer": "The selected speed doubles because \\(v=E/B\\). In the analyzer,\n\\[\nr=\\frac{mv}{|q|B_{\\mathrm{an}}}\n\\]\nso the radius also doubles if the analyzer field and particle are unchanged.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-19",
+      "prompt": "A selector has electric force upward and magnetic force downward on positive particles at the selected speed. What happens to negative particles moving with the same velocity?",
+      "answer": "Both forces reverse: electric force becomes downward and magnetic force becomes upward. They still oppose and have equal magnitudes at \\(v=E/B\\), so negative particles of that same speed also pass undeflected.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "particle-motion-applications-20",
+      "prompt": "Explain how a velocity selector and magnetic analyzer together can identify ions by mass-to-charge ratio.",
+      "answer": "The selector transmits only particles with\n\\[\nv=\\frac{E}{B}\n\\]\nThen the analyzer bends those particles with radius\n\\[\nr=\\frac{mv}{|q|B_{\\mathrm{an}}}\n\\]\nBecause \\(v\\) and \\(B_{\\mathrm{an}}\\) are known, measuring \\(r\\) gives\n\\[\n\\frac{m}{|q|}=\\frac{rB_{\\mathrm{an}}}{v}\n\\]\nDifferent radii correspond to different mass-to-charge ratios.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "magnetic-fields-forces",
+  "topicId": "dc-motors",
+  "topicTitle": "DC Motors",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "dc-motors-01",
+      "prompt": "What physical effect produces torque in a simple DC motor?",
+      "answer": "Magnetic forces on current-carrying sides of a coil produce a torque on the coil.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-02",
+      "prompt": "State the ideal torque magnitude for a motor coil.",
+      "answer": "The ideal torque magnitude is\n\\[\n\\tau=NIAB\\sin\\theta\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-03",
+      "prompt": "What is the maximum torque of a motor coil?",
+      "answer": "The maximum torque occurs when \\(\\sin\\theta=1\\):\n\\[\n\\tau_{\\max}=NIAB\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-04",
+      "prompt": "A coil has \\(N=100\\), \\(I=0.50\\,\\mathrm{A}\\), \\(A=4.0\\times10^{-3}\\,\\mathrm{m^2}\\), and \\(B=0.20\\,\\mathrm{T}\\). Find maximum torque.",
+      "answer": "\\[\n\\tau_{\\max}=NIAB=(100)(0.50)(4.0\\times10^{-3})(0.20)=4.0\\times10^{-2}\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-05",
+      "prompt": "Why does a simple DC motor need a commutator?",
+      "answer": "The commutator reverses the current every half-turn so the magnetic torque continues in the same rotational sense.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-06",
+      "prompt": "What would happen in a simple coil motor without current reversal?",
+      "answer": "After half a turn, the torque would reverse direction. The coil would tend to settle or oscillate rather than keep rotating in one direction.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-07",
+      "prompt": "A motor coil has maximum torque \\(0.080\\,\\mathrm{N\\,m}\\). At \\(30^\\circ\\), what torque does it produce?",
+      "answer": "\\[\n\\tau=\\tau_{\\max}\\sin30^\\circ=(0.080)(0.5)=0.040\\,\\mathrm{N\\,m}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-08",
+      "prompt": "How does increasing the number of turns affect motor torque, all else equal?",
+      "answer": "Torque is proportional to \\(N\\):\n\\[\n\\tau=NIAB\\sin\\theta\n\\]\nIncreasing the number of turns increases the torque in the same ratio.",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-09",
+      "prompt": "A motor provides torque \\(0.25\\,\\mathrm{N\\,m}\\) at angular speed \\(120\\,\\mathrm{rad\\,s^{-1}}\\). Find mechanical power output.",
+      "answer": "\\[\nP=\\tau\\omega=(0.25)(120)=30\\,\\mathrm{W}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-10",
+      "prompt": "A motor draws \\(2.0\\,\\mathrm{A}\\) from \\(12\\,\\mathrm{V}\\). Find electrical input power.",
+      "answer": "\\[\nP_{\\mathrm{in}}=IV=(2.0)(12)=24\\,\\mathrm{W}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-11",
+      "prompt": "A motor has electrical input \\(100\\,\\mathrm{W}\\) and mechanical output \\(75\\,\\mathrm{W}\\). Find efficiency.",
+      "answer": "\\[\n\\eta=\\frac{P_{\\mathrm{out}}}{P_{\\mathrm{in}}}=\\frac{75}{100}=0.75\n\\]\nThe efficiency is \\(75\\%\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-12",
+      "prompt": "What is back emf in a spinning DC motor?",
+      "answer": "Back emf is an induced emf produced by the rotating coil. It opposes the supply emf and reduces the current while the motor spins.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-13",
+      "prompt": "Why can a DC motor draw a large current when it first starts?",
+      "answer": "At startup the coil is not yet rotating, so back emf is initially zero or small. The current is then limited mainly by coil resistance, which can allow a large starting current.",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-14",
+      "prompt": "A motor coil resistance is \\(3.0\\,\\Omega\\) and it is connected to \\(12\\,\\mathrm{V}\\). Estimate the starting current if back emf is zero.",
+      "answer": "With zero back emf,\n\\[\nI=\\frac{V}{R}=\\frac{12}{3.0}=4.0\\,\\mathrm{A}\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-15",
+      "prompt": "The same motor has back emf \\(9.0\\,\\mathrm{V}\\) while running from \\(12\\,\\mathrm{V}\\), with coil resistance \\(3.0\\,\\Omega\\). Find the running current.",
+      "answer": "The net voltage across the resistance is \\(12-9.0=3.0\\,\\mathrm{V}\\):\n\\[\nI=\\frac{3.0}{3.0}=1.0\\,\\mathrm{A}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-16",
+      "prompt": "Why does increasing magnetic field strength increase ideal motor torque?",
+      "answer": "The magnetic force on each current-carrying side increases with \\(B\\), and the torque is\n\\[\n\\tau=NIAB\\sin\\theta\n\\]\nSo ideal torque is directly proportional to field strength.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-17",
+      "prompt": "A motor has output torque \\(0.40\\,\\mathrm{N\\,m}\\) and output power \\(80\\,\\mathrm{W}\\). Find angular speed.",
+      "answer": "Use \\(P=\\tau\\omega\\):\n\\[\n\\omega=\\frac{P}{\\tau}=\\frac{80}{0.40}=200\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-18",
+      "prompt": "A motor input is \\(60\\,\\mathrm{W}\\). It loses \\(12\\,\\mathrm{W}\\) as heating and \\(6\\,\\mathrm{W}\\) as friction. Find output power and efficiency.",
+      "answer": "Output power is\n\\[\nP_{\\mathrm{out}}=60-12-6=42\\,\\mathrm{W}\n\\]\nEfficiency is\n\\[\n\\eta=\\frac{42}{60}=0.70\n\\]\nSo the efficiency is \\(70\\%\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-19",
+      "prompt": "A motor coil has area doubled and current halved. What happens to ideal torque if all else stays fixed?",
+      "answer": "Since \\(\\tau=NIAB\\sin\\theta\\), torque is proportional to \\(IA\\). Doubling \\(A\\) and halving \\(I\\) leaves \\(IA\\) unchanged, so ideal torque is unchanged.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dc-motors-20",
+      "prompt": "Explain the energy conversion chain in a real DC motor, including why input power is not all mechanical output power.",
+      "answer": "Electrical input power \\(IV\\) drives current through a coil in a magnetic field. Magnetic torque converts part of that energy into mechanical power \\(\\tau\\omega\\). Some input energy is lost as resistive heating, friction, sound, and other losses, so \\(P_{\\mathrm{out}}<P_{\\mathrm{in}}\\). Back emf reflects the motor's conversion of electrical energy into mechanical energy while reducing the running current.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

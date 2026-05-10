@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "light-propagation",
+  "topicId": "dispersion",
+  "topicTitle": "Dispersion",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "dispersion-light-01",
+      "prompt": "What is dispersion in optics?",
+      "answer": "Dispersion is the dependence of refractive index, and therefore wave speed, on wavelength.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-02",
+      "prompt": "In ordinary glass, which usually has the larger refractive index: red light or violet light?",
+      "answer": "Violet light usually has the larger refractive index in ordinary glass.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-03",
+      "prompt": "Why does a prism separate white light into colors?",
+      "answer": "Different wavelengths have different refractive indices in the prism, so they refract by different angles at the prism surfaces.",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-04",
+      "prompt": "In glass, red light has \\(n=1.51\\) and violet light has \\(n=1.53\\). Which travels slower?",
+      "answer": "Speed is\n\\[\nv=\\frac{c}{n}\n\\]\nViolet has the larger refractive index, so violet travels slower.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-05",
+      "prompt": "Find the speed of red light in a material with \\(n=1.50\\).",
+      "answer": "\\[\nv=\\frac{c}{n}=\\frac{3.00\\times10^8}{1.50}=2.00\\times10^8\\,\\mathrm{m\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-06",
+      "prompt": "Light enters glass from air at \\(40^\\circ\\). Find the refracted angle for red light with \\(n=1.51\\).",
+      "answer": "Use Snell's law:\n\\[\n1.00\\sin40^\\circ=1.51\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.426\n\\]\n\\[\n\\theta_2=25.2^\\circ\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-07",
+      "prompt": "For the same incident angle \\(40^\\circ\\), find the refracted angle for violet light with \\(n=1.53\\).",
+      "answer": "\\[\n1.00\\sin40^\\circ=1.53\\sin\\theta_2\n\\]\n\\[\n\\sin\\theta_2=0.420\n\\]\n\\[\n\\theta_2=24.8^\\circ\n\\]\nViolet bends slightly more toward the normal than red light.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-08",
+      "prompt": "Red light has vacuum wavelength \\(650\\,\\mathrm{nm}\\) and blue light has vacuum wavelength \\(450\\,\\mathrm{nm}\\). If both enter the same material with indices \\(n_r=1.51\\) and \\(n_b=1.53\\), find their wavelengths in the material.",
+      "answer": "Use \\(\\lambda=\\lambda_0/n\\):\n\\[\n\\lambda_r=\\frac{650}{1.51}=430\\,\\mathrm{nm}\n\\]\n\\[\n\\lambda_b=\\frac{450}{1.53}=294\\,\\mathrm{nm}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-09",
+      "prompt": "A material follows \\(n(\\lambda)=A+B/\\lambda^2\\), with positive \\(B\\). Explain why shorter wavelengths bend more strongly.",
+      "answer": "If \\(B>0\\), then decreasing \\(\\lambda\\) increases \\(B/\\lambda^2\\), so \\(n\\) increases. In Snell's law for air into the material,\n\\[\n\\sin\\theta_2=\\frac{\\sin\\theta_1}{n(\\lambda)}\n\\]\nA larger \\(n\\) gives a smaller refracted angle, so the shorter wavelength bends more toward the normal.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-10",
+      "prompt": "A narrow beam enters a material from air at \\(50^\\circ\\). The refractive indices are \\(n_r=1.48\\) and \\(n_v=1.54\\). Find the angular separation between the red and violet refracted rays.",
+      "answer": "For red:\n\\[\n\\sin\\theta_r=\\frac{\\sin50^\\circ}{1.48}=0.518\n\\]\n\\[\n\\theta_r=31.2^\\circ\n\\]\nFor violet:\n\\[\n\\sin\\theta_v=\\frac{\\sin50^\\circ}{1.54}=0.497\n\\]\n\\[\n\\theta_v=29.8^\\circ\n\\]\nThe angular separation is\n\\[\n31.2^\\circ-29.8^\\circ=1.4^\\circ\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-11",
+      "prompt": "A material has \\(n=1.500\\) at \\(700\\,\\mathrm{nm}\\) and \\(n=1.530\\) at \\(400\\,\\mathrm{nm}\\). Over \\(1.0\\,\\mathrm m\\), find the arrival-time difference between these colors.",
+      "answer": "Travel time through a material is\n\\[\nt=\\frac{nL}{c}\n\\]\nThus\n\\[\n\\Delta t=\\frac{(1.530-1.500)(1.0)}{3.00\\times10^8}=1.0\\times10^{-10}\\,\\mathrm s\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-12",
+      "prompt": "For a material with \\(n(\\lambda)=1.45+4.0\\times10^{-15}/\\lambda^2\\), with \\(\\lambda\\) in meters, find \\(n\\) at \\(500\\,\\mathrm{nm}\\).",
+      "answer": "Substitute \\(\\lambda=500\\times10^{-9}\\,\\mathrm m\\):\n\\[\nn=1.45+\\frac{4.0\\times10^{-15}}{(500\\times10^{-9})^2}\n\\]\n\\[\nn=1.45+0.016=1.466\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-13",
+      "prompt": "A beam enters a dispersive material at \\(45^\\circ\\). For two colors with \\(n_1=1.46\\) and \\(n_2=1.50\\), find the difference between their refracted angles.",
+      "answer": "For \\(n_1=1.46\\):\n\\[\n\\sin\\theta_1=\\frac{\\sin45^\\circ}{1.46}=0.484\n\\]\n\\[\n\\theta_1=28.9^\\circ\n\\]\nFor \\(n_2=1.50\\):\n\\[\n\\sin\\theta_2=\\frac{\\sin45^\\circ}{1.50}=0.471\n\\]\n\\[\n\\theta_2=28.1^\\circ\n\\]\nThe angular difference is \\(0.8^\\circ\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-14",
+      "prompt": "Explain why a converging lens made from ordinary glass has chromatic aberration.",
+      "answer": "Ordinary glass has a refractive index that depends on wavelength. Shorter wavelengths usually have larger \\(n\\), so they refract more strongly at each lens surface. Different colors therefore focus at different distances, producing chromatic aberration.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-15",
+      "prompt": "White light passes through a prism. Explain why the outgoing colors are spread in angle even though all colors enter at the same angle.",
+      "answer": "Each wavelength obeys Snell's law with a different refractive index:\n\\[\nn_1\\sin\\theta_1=n_2(\\lambda)\\sin\\theta_2(\\lambda)\n\\]\nBecause \\(n_2\\) differs by wavelength, \\(\\theta_2\\) differs too. The second prism surface adds further wavelength-dependent refraction, increasing the angular spread.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-16",
+      "prompt": "Two wavelengths in a material have refractive indices \\(n_a\\) and \\(n_b\\). Derive the difference in travel times over length \\(L\\).",
+      "answer": "For each wavelength,\n\\[\nt=\\frac{L}{v}=\\frac{nL}{c}\n\\]\nThus\n\\[\nt_a=\\frac{n_aL}{c},\\qquad t_b=\\frac{n_bL}{c}\n\\]\nThe difference is\n\\[\n\\Delta t=\\frac{|n_a-n_b|L}{c}\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-17",
+      "prompt": "For small index difference \\(\\Delta n\\), explain qualitatively why larger incidence angles make color separation by refraction easier to observe.",
+      "answer": "Snell's law gives\n\\[\n\\sin\\theta_2=\\frac{n_1\\sin\\theta_1}{n_2}\n\\]\nWhen \\(\\theta_1\\) is larger, \\(\\sin\\theta_1\\) is larger, so a small change in \\(n_2\\) produces a larger change in \\(\\sin\\theta_2\\). The resulting angular separation between colors is therefore easier to observe, as long as the geometry remains below any total-internal-reflection limits.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-18",
+      "prompt": "A pulse contains red and blue components. The blue component has a larger refractive index in a fiber. Which component exits first, and why?",
+      "answer": "The red component exits first if it has the smaller refractive index. Speed is\n\\[\nv=\\frac{c}{n}\n\\]\nso the component with smaller \\(n\\) travels faster. The larger-index blue component takes longer to cover the same fiber length.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-19",
+      "prompt": "A material has \\(n_v-n_r=0.020\\). For a \\(5.0\\,\\mathrm m\\) path, estimate the red-violet time spread.",
+      "answer": "Use\n\\[\n\\Delta t=\\frac{\\Delta n\\,L}{c}\n\\]\n\\[\n\\Delta t=\\frac{(0.020)(5.0)}{3.00\\times10^8}=3.33\\times10^{-10}\\,\\mathrm s\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "dispersion-light-20",
+      "prompt": "In a simplified rainbow model, explain why both refraction and internal reflection are needed.",
+      "answer": "Refraction at the first water-air boundary separates colors because water is dispersive. Internal reflection inside the droplet redirects the light back toward the observer. Refraction again as the light exits changes the direction further and preserves color-dependent angular separation, producing the observed spread of colors.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

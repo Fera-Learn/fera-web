@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "relativity",
+  "topicId": "relativistic-momentum",
+  "topicTitle": "Relativistic Momentum",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "relativity-momentum-01",
+      "prompt": "State the formula for relativistic momentum.",
+      "answer": "\\[\n\\vec p=\\gamma m\\vec v\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-02",
+      "prompt": "What does \\(m\\) mean in \\(p=\\gamma mv\\)?",
+      "answer": "\\(m\\) is the rest mass of the particle.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-03",
+      "prompt": "What is the low-speed limit of relativistic momentum?",
+      "answer": "When \\(v\\ll c\\), \\(\\gamma\\approx1\\), so\n\\[\np=\\gamma mv\\approx mv\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-04",
+      "prompt": "A particle with mass \\(m\\) moves at \\(0.600c\\). Find \\(p\\) in units of \\(mc\\).",
+      "answer": "For \\(0.600c\\), \\(\\gamma=1.25\\). Therefore\n\\[\np=\\gamma mv=(1.25)m(0.600c)=0.750mc\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-05",
+      "prompt": "A particle with mass \\(m\\) moves at \\(0.800c\\). Find \\(p\\) in units of \\(mc\\).",
+      "answer": "For \\(0.800c\\), \\(\\gamma=1.67\\). Thus\n\\[\np=(1.67)m(0.800c)=1.33mc\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-06",
+      "prompt": "A proton with rest energy \\(938\\,\\mathrm{MeV}\\) moves at \\(0.600c\\). Find \\(pc\\).",
+      "answer": "\\[\npc=\\gamma\\beta mc^2\n\\]\nWith \\(\\gamma=1.25\\) and \\(\\beta=0.600\\),\n\\[\npc=(1.25)(0.600)(938)=704\\,\\mathrm{MeV}\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-07",
+      "prompt": "Why does relativistic momentum increase without bound as \\(v\\to c\\)?",
+      "answer": "The speed factor \\(v\\) approaches \\(c\\), but the Lorentz factor \\(\\gamma=1/\\sqrt{1-v^2/c^2}\\) grows without bound. Since \\(p=\\gamma mv\\), the momentum grows without bound.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-08",
+      "prompt": "A particle has \\(p=3.00mc\\). Find \\(\\gamma\\beta\\).",
+      "answer": "Since\n\\[\np=\\gamma mv=\\gamma\\beta mc\n\\]\nthen\n\\[\n\\frac{p}{mc}=\\gamma\\beta=3.00\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-09",
+      "prompt": "A particle has \\(\\beta=0.900\\). Find \\(p/(mc)\\).",
+      "answer": "\\[\n\\gamma=\\frac{1}{\\sqrt{1-0.900^2}}=2.29\n\\]\n\\[\n\\frac{p}{mc}=\\gamma\\beta=(2.29)(0.900)=2.06\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-10",
+      "prompt": "A proton with rest energy \\(938\\,\\mathrm{MeV}\\) moves at \\(0.800c\\). Find \\(p\\) in \\(\\mathrm{MeV}\\,c^{-1}\\).",
+      "answer": "\\[\npc=\\gamma\\beta mc^2=(1.67)(0.800)(938)=1.25\\times10^3\\,\\mathrm{MeV}\n\\]\nTherefore\n\\[\np=1.25\\times10^3\\,\\mathrm{MeV}\\,c^{-1}\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-11",
+      "prompt": "Find the speed of a particle for which \\(p=mc\\).",
+      "answer": "Use\n\\[\n\\frac{p}{mc}=\\gamma\\beta=1\n\\]\nSince \\(\\gamma^2=1/(1-\\beta^2)\\),\n\\[\n\\frac{\\beta^2}{1-\\beta^2}=1\n\\]\n\\[\n2\\beta^2=1\n\\]\n\\[\n\\beta=0.707\n\\]\nso \\(v=0.707c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-12",
+      "prompt": "A particle has \\(pc=4.00\\,\\mathrm{GeV}\\) and rest energy \\(3.00\\,\\mathrm{GeV}\\). Find its speed as a fraction of \\(c\\).",
+      "answer": "First find total energy:\n\\[\nE=\\sqrt{(pc)^2+(mc^2)^2}=\\sqrt{4.00^2+3.00^2}=5.00\\,\\mathrm{GeV}\n\\]\nFor a particle,\n\\[\n\\beta=\\frac{pc}{E}=\\frac{4.00}{5.00}=0.800\n\\]\nso \\(v=0.800c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-13",
+      "prompt": "A photon has energy \\(3.20\\times10^{-19}\\,\\mathrm J\\). Find its momentum.",
+      "answer": "For a photon,\n\\[\np=\\frac{E}{c}\n\\]\nThus\n\\[\np=\\frac{3.20\\times10^{-19}}{3.00\\times10^8}=1.07\\times10^{-27}\\,\\mathrm{kg\\,m\\,s^{-1}}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-14",
+      "prompt": "Explain why \\(p=mv\\) can badly underestimate momentum at high speed.",
+      "answer": "The Newtonian expression omits the factor \\(\\gamma\\). At high speed, \\(\\gamma\\) can be much larger than \\(1\\), so the correct momentum \\(p=\\gamma mv\\) is larger than \\(mv\\) by that factor.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-15",
+      "prompt": "A particle's momentum is doubled from \\(mc\\) to \\(2mc\\). Does its speed double?",
+      "answer": "No. Relativistic momentum is \\(p=\\gamma mv\\), so changing momentum changes both \\(v\\) and \\(\\gamma\\). Speeds cannot scale linearly with momentum near \\(c\\), and no massive particle can reach or exceed \\(c\\).",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-16",
+      "prompt": "Derive \\(pc=\\gamma\\beta mc^2\\) from \\(p=\\gamma mv\\).",
+      "answer": "Start with\n\\[\np=\\gamma mv\n\\]\nMultiply by \\(c\\):\n\\[\npc=\\gamma mvc\n\\]\nSince \\(v=\\beta c\\),\n\\[\npc=\\gamma m(\\beta c)c=\\gamma\\beta mc^2\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-17",
+      "prompt": "Show that \\(\\beta=pc/E\\) for a massive relativistic particle.",
+      "answer": "Use\n\\[\npc=\\gamma mvc\n\\]\nand\n\\[\nE=\\gamma mc^2\n\\]\nDivide:\n\\[\n\\frac{pc}{E}=\\frac{\\gamma mvc}{\\gamma mc^2}=\\frac{v}{c}=\\beta\n\\]",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-18",
+      "prompt": "Why can a photon have momentum even though its rest mass is zero?",
+      "answer": "Relativistic momentum is tied to energy as well as mass. The energy-momentum relation is\n\\[\nE^2=(pc)^2+(mc^2)^2\n\\]\nFor a photon, \\(m=0\\), so \\(E=pc\\). A photon with nonzero energy therefore has nonzero momentum.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-19",
+      "prompt": "A particle and antiparticle have equal and opposite momenta. Explain why total momentum is zero but total energy is not.",
+      "answer": "Momentum is a vector, so equal and opposite momenta cancel. Energy is a scalar and is positive for each particle. The total energy is the sum of their total energies, including rest energy and kinetic energy.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "relativity-momentum-20",
+      "prompt": "Explain why relativistic momentum is needed for momentum conservation to hold in all inertial frames.",
+      "answer": "Momentum conservation must be compatible with Lorentz transformations between inertial frames. The Newtonian definition \\(m\\vec v\\) does not transform correctly at high speeds. Including the factor \\(\\gamma\\) gives a momentum that combines with energy into a conserved relativistic four-vector.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

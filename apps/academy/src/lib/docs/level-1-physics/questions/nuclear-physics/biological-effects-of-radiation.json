@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "nuclear-physics",
+  "topicId": "biological-effects-of-radiation",
+  "topicTitle": "Biological Effects of Radiation",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "biological-effects-radiation-01",
+      "prompt": "Define absorbed dose and state its SI unit.",
+      "answer": "Absorbed dose is energy deposited per unit mass:\\n\\[\\nD=\\frac{E}{m}\\n\\]\\nIts SI unit is the gray, \\(1\\,\\mathrm{Gy}=1\\,\\mathrm{J\\,kg^{-1}}\\).",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-02",
+      "prompt": "Define equivalent dose in terms of absorbed dose and radiation weighting factor.",
+      "answer": "Equivalent dose is\\n\\[\\nH=w_RD\\n\\]\\nwhere \\(w_R\\) accounts for biological effectiveness of the radiation type. Its unit is the sievert.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-03",
+      "prompt": "\\(0.030\\,\\mathrm J\\) is deposited in \\(0.50\\,\\mathrm{kg}\\) of tissue. Find the absorbed dose.",
+      "answer": "\\[\\nD=\\frac{E}{m}=\\frac{0.030}{0.50}=0.060\\,\\mathrm{Gy}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-04",
+      "prompt": "A tissue receives \\(0.020\\,\\mathrm{Gy}\\) from alpha radiation with \\(w_R=20\\). Find the equivalent dose.",
+      "answer": "\\[\\nH=w_RD=20(0.020)=0.40\\,\\mathrm{Sv}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-05",
+      "prompt": "Explain the difference between gray and sievert.",
+      "answer": "Gray measures physical energy deposited per kilogram. Sievert is a weighted dose that accounts for biological damage effectiveness. The same absorbed dose in gray can correspond to different equivalent doses in sieverts.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-06",
+      "prompt": "A person receives dose rate \\(3.0\\,\\mu\\mathrm{Gy\\,h^{-1}}\\) for \\(5.0\\,\\mathrm h\\). Find absorbed dose.",
+      "answer": "\\[\\nD=\\dot D\\Delta t=(3.0\\,\\mu\\mathrm{Gy\\,h^{-1}})(5.0\\,\\mathrm h)=15\\,\\mu\\mathrm{Gy}\\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-07",
+      "prompt": "Why can alpha radiation be more dangerous internally than externally?",
+      "answer": "Alpha particles have high ionization and high weighting factor but low penetration. Outside the body they may be stopped by skin; inside tissue, their energy is deposited over a short distance in sensitive cells.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-08",
+      "prompt": "Order alpha, beta, and gamma radiation by typical penetration ability.",
+      "answer": "Typical penetration increases in the order\\n\\[\\n\\alpha<\\beta<\\gamma\\n\\]\\nAlpha is easily stopped; beta penetrates moderately; gamma is highly penetrating.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-09",
+      "prompt": "Why is dense shielding useful for gamma radiation but not the only concern for beta radiation?",
+      "answer": "Gamma rays are highly penetrating, so dense high-\\(Z\\) materials reduce intensity effectively. High-energy beta particles in dense materials can produce bremsstrahlung x-rays, so lower-\\(Z\\) shielding may be used first.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-10",
+      "prompt": "A mixed exposure gives \\(D_\\alpha=1.0\\,\\mathrm{mGy}\\) with \\(w_R=20\\) and \\(D_\\gamma=4.0\\,\\mathrm{mGy}\\) with \\(w_R=1\\). Find total equivalent dose.",
+      "answer": "\\[\\nH=20(1.0\\,\\mathrm{mGy})+1(4.0\\,\\mathrm{mGy})=24\\,\\mathrm{mSv}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-11",
+      "prompt": "A \\(70\\,\\mathrm{kg}\\) person receives an absorbed whole-body dose of \\(0.10\\,\\mathrm{Gy}\\). How much energy was deposited?",
+      "answer": "\\[\\nE=Dm=(0.10)(70)=7.0\\,\\mathrm J\\n\\]\\nThe energy is small thermally but biologically significant because it is deposited ionizingly.",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-12",
+      "prompt": "Explain why a small deposited energy can cause significant biological damage.",
+      "answer": "Ionizing radiation deposits energy in localized molecular events, breaking bonds and damaging DNA. The damage depends on microscopic ionization density and repair processes, not just macroscopic temperature rise.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-13",
+      "prompt": "A gamma-ray intensity is reduced by shielding according to \\(I=I_0e^{-\\mu x}\\). Find the thickness needed to reduce intensity to \\(1/10\\).",
+      "answer": "Set \\(I/I_0=0.10\\):\\n\\[\\n0.10=e^{-\\mu x}\\n\\]\\nso\\n\\[\\nx=\\frac{\\ln10}{\\mu}\\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-14",
+      "prompt": "Define half-value layer and relate it to attenuation coefficient \\(\\mu\\).",
+      "answer": "The half-value layer \\(x_{1/2}\\) is the thickness that halves intensity:\\n\\[\\n\\frac12=e^{-\\mu x_{1/2}}\\n\\]\\nso\\n\\[\\nx_{1/2}=\\frac{\\ln2}{\\mu}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-15",
+      "prompt": "A shield has half-value layer \\(4.0\\,\\mathrm{mm}\\). How many half-value layers are needed to reduce intensity by a factor of \\(32\\), and what thickness is that?",
+      "answer": "\\(32=2^5\\), so five half-value layers are needed. The thickness is\\n\\[\\nx=5(4.0\\,\\mathrm{mm})=20\\,\\mathrm{mm}\\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-16",
+      "prompt": "What is the difference between deterministic and stochastic radiation effects?",
+      "answer": "Deterministic effects have threshold-like behavior and severity increases with dose. Stochastic effects are probabilistic; their chance increases with dose, but severity is not modeled as increasing in the same direct way.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-17",
+      "prompt": "A source can be treated as point-like. If distance from the source doubles, how does unshielded intensity change?",
+      "answer": "For a point source, intensity follows an inverse-square law:\\n\\[\\nI\\propto\\frac{1}{r^2}\\n\\]\\nDoubling distance reduces intensity by a factor of \\(4\\).",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-18",
+      "prompt": "A worker's exposure is reduced by halving time, doubling distance from a point source, and adding a shield that transmits \\(25\\%\\). Find the total reduction factor.",
+      "answer": "Halving time gives factor \\(1/2\\). Doubling distance gives factor \\(1/4\\). Shielding gives factor \\(1/4\\). Total factor:\\n\\[\\n\\frac12\\cdot\\frac14\\cdot\\frac14=\\frac{1}{32}\\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-19",
+      "prompt": "Explain why equivalent dose is not enough by itself to predict risk to a specific organ.",
+      "answer": "Equivalent dose accounts for radiation type but not the differing sensitivity of tissues or organs. Risk assessment may require tissue weighting, dose distribution, exposure duration, and biological context.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "biological-effects-radiation-20",
+      "prompt": "Prove dimensionally that absorbed dose and equivalent dose have the same base units even though they represent different ideas.",
+      "answer": "Absorbed dose is\\n\\[\\nD=\\frac{E}{m}\\n\\]\\nso its units are \\(\\mathrm{J\\,kg^{-1}}\\). Equivalent dose is\\n\\[\\nH=w_RD\\n\\]\\nwhere \\(w_R\\) is dimensionless, so \\(H\\) also has units \\(\\mathrm{J\\,kg^{-1}}\\). The special names gray and sievert distinguish physical dose from biologically weighted dose.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}

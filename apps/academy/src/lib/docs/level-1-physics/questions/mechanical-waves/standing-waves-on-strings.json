@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "mechanical-waves",
+  "topicId": "standing-waves-on-strings",
+  "topicTitle": "Standing Waves on Strings",
+  "paperTags": ["paper-1"],
+  "questions": [
+    {
+      "id": "standing-string-01",
+      "prompt": "For a standing wave with wavelength \\(0.80\\,\\mathrm{m}\\), what is the spacing between neighboring nodes?",
+      "answer": "Neighboring nodes are separated by half a wavelength:\n\\[\n\\Delta x=\\frac{\\lambda}{2}=\\frac{0.80}{2}=0.40\\,\\mathrm{m}\n\\]",
+      "rating": "*",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-02",
+      "prompt": "A string of length \\(0.60\\,\\mathrm{m}\\) supports waves at \\(90\\,\\mathrm{m\\,s^{-1}}\\). Find the fundamental frequency.",
+      "answer": "\\[\nf_1=\\frac{v_w}{2L}=\\frac{90}{2(0.60)}=75\\,\\mathrm{Hz}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-03",
+      "prompt": "For \\(y(x,t)=2A\\sin(kx)\\cos(\\omega t)\\), state the condition for a node.",
+      "answer": "Nodes occur where the spatial factor vanishes:\n\\[\n\\sin(kx)=0\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-04",
+      "prompt": "For \\(y(x,t)=2A\\sin(kx)\\cos(\\omega t)\\), where are the antinodes?",
+      "answer": "Antinodes occur where the oscillation amplitude is largest:\n\\[\n|\\sin(kx)|=1\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-05",
+      "prompt": "A string fixed at both ends has length \\(1.2\\,\\mathrm{m}\\). What is the fundamental wavelength?",
+      "answer": "For the fundamental of a string fixed at both ends,\n\\[\n\\lambda_1=2L=2(1.2)=2.4\\,\\mathrm{m}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-06",
+      "prompt": "A standing wave on a string has wavelength \\(1.0\\,\\mathrm{m}\\). How many node intervals fit into a \\(2.0\\,\\mathrm{m}\\) length?",
+      "answer": "Node spacing is\n\\[\n\\frac{\\lambda}{2}=\\frac{1.0}{2}=0.50\\,\\mathrm{m}\n\\]\nSo the number of node intervals in \\(2.0\\,\\mathrm{m}\\) is\n\\[\n\\frac{2.0}{0.50}=4\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-07",
+      "prompt": "For \\(y(x,t)=2A\\sin(\\pi x/L)\\cos(\\omega t)\\), identify all node positions on the interval \\(0\\le x\\le L\\) and explain why this is the fundamental mode.",
+      "answer": "Nodes occur when\n\\[\n\\sin\\left(\\frac{\\pi x}{L}\\right)=0\n\\]\nwhich requires\n\\[\n\\frac{\\pi x}{L}=m\\pi\n\\quad\\Rightarrow\\quad\nx=mL\n\\]\nOn the interval \\(0\\le x\\le L\\), this gives\n\\[\nx=0,\\qquad x=L\n\\]\nThere are no interior nodes, so the string contains exactly half a wavelength between its ends. That is the fundamental mode.",
+      "rating": "****",
+      "paperTags": ["paper-1"]
+    },
+    {
+      "id": "standing-string-08",
+      "prompt": "For the standing wave \\(y(x,t)=2A\\sin(kx)\\cos(\\omega t)\\), find all positions in one wavelength interval where the oscillation amplitude is exactly \\(A\\).",
+      "answer": "The oscillation amplitude at position \\(x\\) is\n\\[\n2A|\\sin(kx)|\n\\]\nSet this equal to \\(A\\):\n\\[\n2A|\\sin(kx)|=A\n\\quad\\Rightarrow\\quad\n|\\sin(kx)|=\\frac{1}{2}\n\\]\nThus\n\\[\nkx=\\frac{\\pi}{6},\\ \\frac{5\\pi}{6},\\ \\frac{7\\pi}{6},\\ \\frac{11\\pi}{6}\n\\]\nwithin one full wavelength interval \\(0\\le kx\u003c2\\pi\\). Therefore\n\\[\nx=\\frac{\\pi}{6k},\\ \\frac{5\\pi}{6k},\\ \\frac{7\\pi}{6k},\\ \\frac{11\\pi}{6k}\n\\]\nSince \\(k=2\\pi/\\lambda\\), these are also\n\\[\nx=\\frac{\\lambda}{12},\\ \\frac{5\\lambda}{12},\\ \\frac{7\\lambda}{12},\\ \\frac{11\\lambda}{12}\n\\]",
+      "rating": "****+",
+      "paperTags": ["paper-1"]
+    }
+  ]
+}

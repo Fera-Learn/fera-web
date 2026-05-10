@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-physics",
+  "sectionId": "inductance",
+  "topicId": "lrc-series-circuits",
+  "topicTitle": "LRC Series Circuits",
+  "paperTags": ["paper-2"],
+  "questions": [
+    {
+      "id": "lrc-series-circuits-01",
+      "prompt": "What three ideal elements make up a series LRC circuit?",
+      "answer": "A series LRC circuit contains an inductor \\(L\\), a resistor \\(R\\), and a capacitor \\(C\\) connected in one series path.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-02",
+      "prompt": "What role does resistance play in a free LRC circuit?",
+      "answer": "Resistance dissipates electromagnetic energy as thermal energy and damps the circuit's oscillation.",
+      "rating": "*",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-03",
+      "prompt": "State the source-free series LRC equation for charge.",
+      "answer": "The charge equation is\n\\[\nL\\frac{d^2q}{dt^2}+R\\frac{dq}{dt}+\\frac{q}{C}=0\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-04",
+      "prompt": "State the undamped natural angular frequency of an LRC circuit.",
+      "answer": "The undamped natural angular frequency is\n\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}\n\\]",
+      "rating": "*+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-05",
+      "prompt": "State the damping coefficient for a series LRC circuit.",
+      "answer": "The damping coefficient is\n\\[\n\\gamma=\\frac{R}{2L}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-06",
+      "prompt": "For \\(L=0.50\\,\\mathrm{H}\\), \\(C=20\\,\\mu\\mathrm{F}\\), and \\(R=20\\,\\Omega\\), find \\(\\omega_0\\).",
+      "answer": "\\[\n\\omega_0=\\frac{1}{\\sqrt{LC}}=\\frac{1}{\\sqrt{(0.50)(20\\times10^{-6})}}=316\\,\\mathrm{rad\\,s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-07",
+      "prompt": "With \\(L=0.50\\,\\mathrm{H}\\) and \\(R=20\\,\\Omega\\), find the damping coefficient.",
+      "answer": "\\[\n\\gamma=\\frac{R}{2L}=\\frac{20}{2(0.50)}=20\\,\\mathrm{s^{-1}}\n\\]",
+      "rating": "**",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-08",
+      "prompt": "State the condition for underdamped free oscillations in a series LRC circuit.",
+      "answer": "The circuit is underdamped when\n\\[\nR<2\\sqrt{\\frac{L}{C}}\n\\]\n",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-09",
+      "prompt": "For \\(L=0.50\\,\\mathrm{H}\\) and \\(C=20\\,\\mu\\mathrm{F}\\), find the critical resistance.",
+      "answer": "\\[\nR_c=2\\sqrt{\\frac{L}{C}}=2\\sqrt{\\frac{0.50}{20\\times10^{-6}}}=316\\,\\Omega\n\\]",
+      "rating": "**+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-10",
+      "prompt": "If \\(R=20\\,\\Omega\\) and \\(R_c=316\\,\\Omega\\), is the circuit underdamped, critically damped, or overdamped?",
+      "answer": "Since\n\\[\nR<R_c\n\\]\nthe circuit is underdamped and will oscillate with a decaying amplitude.",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-11",
+      "prompt": "State the damped angular frequency for an underdamped series LRC circuit.",
+      "answer": "The damped angular frequency is\n\\[\n\\omega_d=\\sqrt{\\frac{1}{LC}-\\frac{R^2}{4L^2}}\n\\]",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-12",
+      "prompt": "Using \\(\\omega_0=316\\,\\mathrm{rad\\,s^{-1}}\\) and \\(\\gamma=20\\,\\mathrm{s^{-1}}\\), find \\(\\omega_d\\).",
+      "answer": "\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}=\\sqrt{316^2-20^2}=315\\,\\mathrm{rad\\,s^{-1}}\n\\]\nThe damping is weak, so \\(\\omega_d\\) is close to \\(\\omega_0\\).",
+      "rating": "***",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-13",
+      "prompt": "Derive the source-free LRC equation from Kirchhoff's loop law.",
+      "answer": "Kirchhoff's loop law gives\n\\[\nL\\frac{dI}{dt}+RI+\\frac{q}{C}=0\n\\]\nUsing \\(I=dq/dt\\),\n\\[\nL\\frac{d^2q}{dt^2}+R\\frac{dq}{dt}+\\frac{q}{C}=0\n\\]",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-14",
+      "prompt": "Why does total electromagnetic energy decrease in a free LRC circuit?",
+      "answer": "The resistor dissipates energy as heat. The loss rate is\n\\[\n\\frac{dU}{dt}=-I^2R\n\\]\nso total electromagnetic energy decreases unless \\(I=0\\).",
+      "rating": "***+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-15",
+      "prompt": "What happens to the LRC equation if \\(R=0\\)?",
+      "answer": "The equation becomes\n\\[\nL\\frac{d^2q}{dt^2}+\\frac{q}{C}=0\n\\]\nor\n\\[\n\\frac{d^2q}{dt^2}+\\frac{1}{LC}q=0\n\\]\nwhich is the ideal LC oscillator equation.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-16",
+      "prompt": "A series LRC circuit has \\(L=0.10\\,\\mathrm{H}\\) and \\(C=10\\,\\mu\\mathrm{F}\\). Find the resistance for critical damping.",
+      "answer": "\\[\nR_c=2\\sqrt{\\frac{L}{C}}=2\\sqrt{\\frac{0.10}{10\\times10^{-6}}}=200\\,\\Omega\n\\]",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-17",
+      "prompt": "For the previous circuit, classify the damping if \\(R=500\\,\\Omega\\).",
+      "answer": "Since \\(R=500\\,\\Omega\\) is greater than \\(R_c=200\\,\\Omega\\), the circuit is overdamped. It returns toward equilibrium without oscillating.",
+      "rating": "****",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-18",
+      "prompt": "Why is the damped frequency lower than the ideal LC frequency?",
+      "answer": "Resistance removes energy and adds damping. Mathematically,\n\\[\n\\omega_d=\\sqrt{\\omega_0^2-\\gamma^2}\n\\]\nso any nonzero \\(\\gamma\\) reduces the oscillation frequency below \\(\\omega_0\\), as long as the circuit remains underdamped.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-19",
+      "prompt": "Explain the difference between underdamped and overdamped response in physical terms.",
+      "answer": "In an underdamped circuit, energy transfers between capacitor and inductor while resistance gradually removes energy, so the circuit oscillates with decaying amplitude. In an overdamped circuit, resistance removes energy so strongly that the circuit returns to equilibrium without completing oscillations.",
+      "rating": "****+",
+      "paperTags": ["paper-2"]
+    },
+    {
+      "id": "lrc-series-circuits-20",
+      "prompt": "Explain how a free LRC circuit connects the ideal LC oscillator and the RL transient.",
+      "answer": "With \\(R=0\\), the series LRC equation reduces to the ideal LC oscillator with conserved electromagnetic energy. With resistance present, energy is dissipated as \\(I^2R\\), so oscillations are damped. If damping is strong enough, the response becomes non-oscillatory, resembling a transient return controlled by inductive and resistive effects.",
+      "rating": "*****",
+      "paperTags": ["paper-2"]
+    }
+  ]
+}
