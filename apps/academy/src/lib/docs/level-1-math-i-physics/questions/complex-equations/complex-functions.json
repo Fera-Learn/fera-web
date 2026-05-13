@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-equations",
+  "topicId": "complex-functions",
+  "topicTitle": "Complex Functions",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-equations-complex-functions-01",
+      "prompt": "Write \\(e^{x+iy}\\) in terms of real functions of \\(x\\) and \\(y\\).",
+      "answer": "Split the exponential: \\(e^{x+iy}=e^xe^{iy}\\). By Euler's formula, \\(e^{iy}=\\cos y+i\\sin y\\), so \\(e^{x+iy}=e^x(\\cos y+i\\sin y)\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-02",
+      "prompt": "What is \\(|e^{x+iy}|\\)?",
+      "answer": "Using \\(e^{x+iy}=e^x(\\cos y+i\\sin y)\\), the trigonometric factor has modulus \\(1\\). Therefore \\(|e^{x+iy}|=e^x\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-03",
+      "prompt": "Find \\(e^{i\\pi}\\).",
+      "answer": "Euler's formula gives \\(e^{i\\pi}=\\cos\\pi+i\\sin\\pi\\). Since \\(\\cos\\pi=-1\\) and \\(\\sin\\pi=0\\), \\(e^{i\\pi}=-1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-04",
+      "prompt": "Find \\(|e^{3+2i}|\\).",
+      "answer": "For \\(e^{x+iy}\\), the modulus is \\(e^x\\). Here \\(x=3\\), so \\(|e^{3+2i}|=e^3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-05",
+      "prompt": "Find the real and imaginary parts of \\(e^{1+i\\pi/2}\\).",
+      "answer": "\\(e^{1+i\\pi/2}=e(\\cos(\\pi/2)+i\\sin(\\pi/2))=e(0+i)=ie\\). The real part is \\(0\\) and the imaginary part is \\(e\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-06",
+      "prompt": "Evaluate \\(\\cos(iu)\\) using the exponential definition.",
+      "answer": "\\(\\cos z=(e^{iz}+e^{-iz})/2\\). With \\(z=iu\\), \\(\\cos(iu)=(e^{-u}+e^u)/2=\\cosh u\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-07",
+      "prompt": "Evaluate \\(\\sin(iu)\\) using the exponential definition.",
+      "answer": "\\(\\sin z=(e^{iz}-e^{-iz})/(2i)\\). With \\(z=iu\\), this becomes \\((e^{-u}-e^u)/(2i)=i(e^u-e^{-u})/2=i\\sinh u\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-08",
+      "prompt": "Show that \\(e^{z+2\\pi i}=e^z\\).",
+      "answer": "\\(e^{z+2\\pi i}=e^ze^{2\\pi i}\\). Since \\(e^{2\\pi i}=1\\), the product is \\(e^z\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-09",
+      "prompt": "Find \\(e^{(1+i)(2-i)}\\) in the form \\(e^x(\\cos y+i\\sin y)\\).",
+      "answer": "First multiply the exponent: \\((1+i)(2-i)=2-i+2i-i^2=3+i\\). Thus \\(e^{(1+i)(2-i)}=e^{3+i}=e^3(\\cos1+i\\sin1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-10",
+      "prompt": "Find \\(\\operatorname{Re}(e^{2+i\\pi})\\) and \\(\\operatorname{Im}(e^{2+i\\pi})\\).",
+      "answer": "\\(e^{2+i\\pi}=e^2(\\cos\\pi+i\\sin\\pi)=e^2(-1+0i)=-e^2\\). The real part is \\(-e^2\\) and the imaginary part is \\(0\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-11",
+      "prompt": "Explain why \\(e^z\\) never equals \\(0\\).",
+      "answer": "Write \\(z=x+iy\\). Then \\(|e^z|=e^x\\), and \\(e^x>0\\) for every real \\(x\\). A complex number with positive modulus cannot be zero.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-12",
+      "prompt": "Verify the identity \\(\\cosh(iz)=\\cos z\\).",
+      "answer": "Use \\(\\cosh w=(e^w+e^{-w})/2\\). With \\(w=iz\\), \\(\\cosh(iz)=(e^{iz}+e^{-iz})/2\\), which is exactly the exponential definition of \\(\\cos z\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-13",
+      "prompt": "Find all \\(z=x+iy\\) such that \\(|e^z|=e^4\\).",
+      "answer": "Since \\(|e^{x+iy}|=e^x\\), the condition is \\(e^x=e^4\\). Therefore \\(x=4\\), while \\(y\\) can be any real number, so \\(z=4+iy\\) with \\(y\\in\\mathbb R\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-14",
+      "prompt": "Find all \\(z=x+iy\\) such that \\(e^z\\) is a positive real number.",
+      "answer": "\\(e^z=e^x(\\cos y+i\\sin y)\\). This is positive real when \\(\\sin y=0\\) and \\(\\cos y=1\\), so \\(y=2\\pi k\\) for \\(k\\in\\mathbb Z\\); \\(x\\) is any real number.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-15",
+      "prompt": "For which real \\(y\\) is \\(e^{2+iy}\\) purely imaginary?",
+      "answer": "\\(e^{2+iy}=e^2(\\cos y+i\\sin y)\\). It is purely imaginary when \\(\\cos y=0\\), so \\(y=\\pi/2+\\pi k\\) for \\(k\\in\\mathbb Z\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-16",
+      "prompt": "Find all real \\(x,y\\) such that \\(e^{x+iy}=e^2\\).",
+      "answer": "Match modulus and argument. The modulus gives \\(e^x=e^2\\), so \\(x=2\\). The argument must be \\(0\\) modulo \\(2\\pi\\), so \\(y=2\\pi k\\), \\(k\\in\\mathbb Z\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-17",
+      "prompt": "Show that \\(\\sinh(iz)=i\\sin z\\).",
+      "answer": "\\(\\sinh(iz)=(e^{iz}-e^{-iz})/2\\). Since \\(\\sin z=(e^{iz}-e^{-iz})/(2i)\\), multiplying the sine formula by \\(i\\) gives \\(i\\sin z=(e^{iz}-e^{-iz})/2\\). Hence \\(\\sinh(iz)=i\\sin z\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-18",
+      "prompt": "A learner claims \\(\\arg(e^{x+iy})=y\\) exactly. Diagnose the statement.",
+      "answer": "The statement misses the modulo convention for arguments. Since \\(e^{x+i(y+2\\pi k)}=e^{x+iy}\\), the argument is \\(y\\) modulo \\(2\\pi\\), not a unique exact real number unless a branch is chosen.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-19",
+      "prompt": "Prove that \\(e^z\\) is periodic in the imaginary direction with period \\(2\\pi i\\), but not with real period \\(2\\pi\\).",
+      "answer": "For the imaginary period, \\(e^{z+2\\pi i}=e^ze^{2\\pi i}=e^z\\). For a real shift, \\(e^{z+2\\pi}=e^ze^{2\\pi}\\), and \\(e^{2\\pi}\\ne1\\), so the value usually changes. Thus the period is imaginary, not real.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-complex-functions-20",
+      "prompt": "Derive \\(\\cos^2 z+\\sin^2 z=1\\) from the exponential definitions.",
+      "answer": "Let \\(A=e^{iz}\\) and \\(B=e^{-iz}\\), so \\(AB=1\\). Then \\(\\cos z=(A+B)/2\\) and \\(\\sin z=(A-B)/(2i)\\). Hence \\(\\cos^2z+\\sin^2z=((A+B)^2-(A-B)^2)/4=(4AB)/4=1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "vector-spaces",
+  "topicTitle": "Vector Spaces",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-vector-spaces-01",
+      "prompt": "State the two closure properties a real vector space must satisfy.",
+      "answer": "For a real vector space \\(V\\), if \\(\\mathbf u,\\mathbf v\\in V\\), then closure under addition requires \\(\\mathbf u+\\mathbf v\\in V\\). If \\(\\lambda\\in\\mathbb R\\) and \\(\\mathbf v\\in V\\), then closure under scalar multiplication requires \\(\\lambda\\mathbf v\\in V\\). These say that the operations never leave the set.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-02",
+      "prompt": "What is the zero vector in \\(\\mathbb R^3\\), and why must it belong to any vector space structure on \\(\\mathbb R^3\\) with usual addition?",
+      "answer": "The zero vector is \\(\\mathbf 0=(0,0,0)\\). It must belong because a vector space needs an additive identity satisfying \\(\\mathbf v+\\mathbf 0=\\mathbf v\\) for every vector \\(\\mathbf v\\). Without this vector inside the set, the additive identity axiom fails.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-03",
+      "prompt": "Let \\(V=\\{(x,y)\\in\\mathbb R^2:x\\ge 0\\}\\) with usual operations. Use one scalar multiple to decide whether \\(V\\) is a vector space.",
+      "answer": "Take \\(\\mathbf v=(1,0)\\in V\\) because its first component is non-negative. Use the scalar \\(-1\\). Then \\(-1\\mathbf v=(-1,0)\\), whose first component is negative, so \\((-1,0)\notin V\\). Scalar closure fails, so \\(V\\) is not a vector space.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-04",
+      "prompt": "Let \\(S\\) be the set of unit vectors in \\(\\mathbb R^2\\). Show that \\(S\\) is not a vector space using the vector \\((1,0)\\).",
+      "answer": "The vector \\((1,0)\\) is in \\(S\\) because its length is \\(1\\). But \\(2(1,0)=(2,0)\\), and this vector has length \\(2\\), not \\(1\\). Therefore scalar multiplication does not keep vectors in \\(S\\), so \\(S\\) is not a vector space.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-05",
+      "prompt": "Check whether \\(V=\\{(x,y)\\in\\mathbb R^2:y=2x\\}\\) is closed under addition.",
+      "answer": "Let \\(\\mathbf u=(a,2a)\\) and \\(\\mathbf v=(b,2b)\\) be arbitrary vectors in \\(V\\). Their sum is \\(\\mathbf u+\\mathbf v=(a+b,2a+2b)=(a+b,2(a+b))\\). The second component is twice the first component, so \\(\\mathbf u+\\mathbf v\\in V\\). Thus \\(V\\) is closed under addition.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-06",
+      "prompt": "Check whether \\(V=\\{(x,y)\\in\\mathbb R^2:y=2x\\}\\) is closed under scalar multiplication.",
+      "answer": "Let \\(\\mathbf v=(a,2a)\\in V\\) and let \\(\\lambda\\in\\mathbb R\\). Then \\(\\lambda\\mathbf v=(\\lambda a,2\\lambda a)\\). Since the second component is \\(2\\) times the first component, \\(\\lambda\\mathbf v\\in V\\). Therefore \\(V\\) is closed under scalar multiplication.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-07",
+      "prompt": "Decide whether \\(A=\\{(x,y)\\in\\mathbb R^2:y=x+1\\}\\) is a vector space with usual operations.",
+      "answer": "The zero vector is \\((0,0)\\). For \\((0,0)\\) to be in \\(A\\), it would need to satisfy \\(0=0+1\\), which is false. Since \\(\\mathbf 0\notin A\\), the additive identity axiom fails. Therefore \\(A\\) is not a vector space.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-08",
+      "prompt": "Let \\(P\\) be the set of all real polynomials of degree exactly \\(2\\). Explain why \\(P\\) is not a vector space.",
+      "answer": "Take \\(p(x)=x^2\\) and \\(q(x)=-x^2\\), both of degree exactly \\(2\\). Their sum is \\(p(x)+q(x)=0\\), the zero polynomial. The zero polynomial does not have degree exactly \\(2\\), so addition closure fails. Hence \\(P\\) is not a vector space.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-09",
+      "prompt": "Show that the set \\(V=\\{(x,y,z)\\in\\mathbb R^3:x+y+z=0\\}\\) is closed under addition and scalar multiplication.",
+      "answer": "Let \\(\\mathbf u=(u_1,u_2,u_3)\\) and \\(\\mathbf v=(v_1,v_2,v_3)\\) be in \\(V\\). Then \\(u_1+u_2+u_3=0\\) and \\(v_1+v_2+v_3=0\\). For the sum, \\[(u_1+v_1)+(u_2+v_2)+(u_3+v_3)=(u_1+u_2+u_3)+(v_1+v_2+v_3)=0.\\] For a scalar \\(\\lambda\\), \\(\\lambda u_1+\\lambda u_2+\\lambda u_3=\\lambda(u_1+u_2+u_3)=0\\). So both closures hold.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-10",
+      "prompt": "For real functions on \\(\\mathbb R\\), let \\(E\\) be the set of even functions, where \\(f(-x)=f(x)\\). Show that \\(E\\) is closed under addition and scalar multiplication.",
+      "answer": "Let \\(f,g\\in E\\). Then \\(f(-x)=f(x)\\) and \\(g(-x)=g(x)\\). For addition, \\((f+g)(-x)=f(-x)+g(-x)=f(x)+g(x)=(f+g)(x)\\), so \\(f+g\\in E\\). For scalar multiplication, \\((\\lambda f)(-x)=\\lambda f(-x)=\\lambda f(x)=(\\lambda f)(x)\\), so \\(\\lambda f\\in E\\). Thus \\(E\\) is closed under both operations.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-11",
+      "prompt": "Decide whether the set \\(O\\) of odd real functions, satisfying \\(f(-x)=-f(x)\\), is a vector space under usual function addition and scalar multiplication.",
+      "answer": "The zero function is odd because \\(0(-x)=0=-0(x)\\). If \\(f,g\\in O\\), then \\((f+g)(-x)=f(-x)+g(-x)=-f(x)-g(x)=-(f+g)(x)\\), so addition closure holds. If \\(\\lambda\\in\\mathbb R\\), then \\((\\lambda f)(-x)=\\lambda f(-x)=\\lambda(-f(x))=-(\\lambda f)(x)\\), so scalar closure holds. The usual function operations obey the vector-space laws, so \\(O\\) is a vector space.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-12",
+      "prompt": "A physics model allows displacement vectors \\((x,y,z)\\) only when \\(z=5\\). Explain algebraically why the allowed displacements do not form a vector space.",
+      "answer": "The zero displacement is \\((0,0,0)\\), but it does not satisfy \\(z=5\\). Therefore the allowed set has no additive identity from \\(\\mathbb R^3\\). Also, if \\((0,0,5)\\) is allowed, then \\(2(0,0,5)=(0,0,10)\\), which is not allowed. Since zero containment and scalar closure fail, the allowed displacements do not form a vector space.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-13",
+      "prompt": "Let \\(V\\) be the set of all real \\(2\\times2\\) matrices with trace \\(0\\). Show that \\(V\\) is a vector space under usual matrix operations.",
+      "answer": "The zero matrix has trace \\(0\\), so it is in \\(V\\). If \\(A,B\\in V\\), then \\(\\operatorname{tr}(A+B)=\\operatorname{tr}(A)+\\operatorname{tr}(B)=0+0=0\\), so \\(A+B\\in V\\). If \\(\\lambda\\in\\mathbb R\\), then \\(\\operatorname{tr}(\\lambda A)=\\lambda\\operatorname{tr}(A)=0\\), so \\(\\lambda A\\in V\\). The remaining vector-space laws are inherited from all \\(2\\times2\\) matrices, so \\(V\\) is a vector space.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-14",
+      "prompt": "Let \\(S=\\{(x,y)\\in\\mathbb R^2:xy=0\\}\\). Decide whether \\(S\\) is a vector space.",
+      "answer": "The set contains both coordinate axes. The vectors \\((1,0)\\) and \\((0,1)\\) are in \\(S\\), because each has product \\(xy=0\\). Their sum is \\((1,1)\\), and \\(1\\cdot1=1\\ne0\\), so \\((1,1)\notin S\\). Addition closure fails. Therefore \\(S\\) is not a vector space.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-15",
+      "prompt": "For which real values of \\(a\\) is \\(V_a=\\{(x,y)\\in\\mathbb R^2:y=ax\\}\\) a vector space with usual operations?",
+      "answer": "For every real \\(a\\), the set \\(V_a\\) is a line through the origin. Let \\((s,as),(t,at)\\in V_a\\). Their sum is \\((s+t,as+at)=(s+t,a(s+t))\\), so addition closure holds. For \\(\\lambda\\in\\mathbb R\\), \\(\\lambda(s,as)=(\\lambda s,a\\lambda s)\\), so scalar closure holds. Also \\((0,0)\\in V_a\\). Hence \\(V_a\\) is a vector space for all \\(a\\in\\mathbb R\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-16",
+      "prompt": "For which real values of \\(b\\) is \\(W_b=\\{(x,y)\\in\\mathbb R^2:y=x+b\\}\\) a vector space with usual operations?",
+      "answer": "A vector space must contain \\((0,0)\\). This vector lies in \\(W_b\\) exactly when \\(0=0+b\\), so \\(b=0\\). If \\(b=0\\), then \\(W_0=\\{(x,y):y=x\\}\\), a line through the origin, and it is closed under addition and scalar multiplication. If \\(b\\ne0\\), the zero vector is missing. Therefore \\(W_b\\) is a vector space only for \\(b=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-17",
+      "prompt": "Let \\(V_c=\\{(x,y,z)\\in\\mathbb R^3:x+y+z=c\\}\\). Determine all \\(c\\in\\mathbb R\\) for which \\(V_c\\) is a vector space.",
+      "answer": "The zero vector satisfies \\(0+0+0=0\\). Thus \\(\\mathbf 0\\in V_c\\) only when \\(c=0\\). If \\(c=0\\), then for \\(\\mathbf u,\\mathbf v\\in V_0\\), the component sums add to \\(0+0=0\\), and for \\(\\lambda\\mathbf u\\), the component sum is \\(\\lambda\\cdot0=0\\). So \\(V_0\\) is a vector space. If \\(c\\ne0\\), the zero vector is absent. Therefore the only value is \\(c=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-18",
+      "prompt": "A student claims: \"If a set contains \\(\\mathbf 0\\), then it is a vector space.\" Disprove the claim with a concrete subset of \\(\\mathbb R^2\\).",
+      "answer": "Use \\(S=\\{(x,y):xy=0\\}\\), the union of the two coordinate axes. It contains \\((0,0)\\), so the student's condition holds. But \\((1,0)\\in S\\) and \\((0,1)\\in S\\), while their sum is \\((1,1)\notin S\\). Addition closure fails. Therefore containing \\(\\mathbf 0\\) is necessary but not sufficient for being a vector space.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-19",
+      "prompt": "Suppose a non-empty subset \\(V\\subseteq\\mathbb R^n\\) is closed under addition and scalar multiplication. Prove that \\(V\\) contains the zero vector and additive inverses.",
+      "answer": "Because \\(V\\) is non-empty, choose \\(\\mathbf v\\in V\\). Scalar closure with scalar \\(0\\) gives \\(0\\mathbf v=\\mathbf 0\\in V\\). Now take any \\(\\mathbf u\\in V\\). Scalar closure with scalar \\(-1\\) gives \\((-1)\\mathbf u=-\\mathbf u\\in V\\). Thus closure under scalar multiplication already forces the zero vector and every additive inverse to be in \\(V\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-vector-spaces-20",
+      "prompt": "A set \\(V\\) uses usual vector addition but defines scalar multiplication by \\(\\lambda\\odot\\mathbf v=\\mathbf v\\) for every scalar \\(\\lambda\\). Explain which vector-space axiom fails for a non-zero \\(\\mathbf v\\).",
+      "answer": "The distributive law over scalar addition requires \\((\\lambda+\\mu)\\odot\\mathbf v=(\\lambda\\odot\\mathbf v)+(\\mu\\odot\\mathbf v)\\). With the proposed operation, the left side is \\(\\mathbf v\\), while the right side is \\(\\mathbf v+\\mathbf v=2\\mathbf v\\). For a non-zero \\(\\mathbf v\\), \\(\\mathbf v\\ne2\\mathbf v\\). Therefore the scalar-sum distributive law fails, so this is not a vector space structure.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

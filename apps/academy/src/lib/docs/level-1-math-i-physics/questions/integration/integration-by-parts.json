@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "integration-by-parts",
   "topicTitle": "Integration by Parts",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "ibp-1",
-      "prompt": "Integrate x e^x dx.",
-      "answer": "xe^x - e^x + C",
-      "hints": ["Let u=x, dv=e^x dx."],
+      "id": "math-i-integration-integration-by-parts-01",
+      "prompt": "State the integration by parts formula.",
+      "answer": "The formula is\n\\[\\int u\\,dv=uv-\\int v\\,du.\\]\nIt comes from reversing the product rule for differentiation.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-02",
+      "prompt": "For \\(\\int x e^x\\,dx\\), a useful choice is \\(u=x\\). What are \\(du\\), \\(dv\\), and \\(v\\)?",
+      "answer": "Choose \\(u=x\\), so \\(du=dx\\). Then \\(dv=e^x\\,dx\\), so \\(v=e^x\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-03",
+      "prompt": "In the LIATE guideline, which is normally chosen first: algebraic or exponential?",
+      "answer": "LIATE orders choices as Logarithmic, Inverse trigonometric, Algebraic, Trigonometric, Exponential. Algebraic comes before exponential, so choose the algebraic factor for \\(u\\) when appropriate.",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-2",
-      "prompt": "Integrate x sin x dx.",
-      "answer": "-x cos x + sin x + C",
-      "hints": ["Let u=x, dv=sin x dx."],
+      "id": "math-i-integration-integration-by-parts-04",
+      "prompt": "For \\(\\int x\\cos x\\,dx\\), choose \\(u\\) and \\(dv\\) using LIATE.",
+      "answer": "The factor \\(x\\) is algebraic and \\(\\cos x\\) is trigonometric. Algebraic comes before trigonometric in LIATE, so choose\n\\[u=x,\\quad dv=\\cos x\\,dx.\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-3",
-      "prompt": "Integrate ln x dx.",
-      "answer": "x ln x - x + C",
-      "hints": ["Let u=ln x, dv=dx."],
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ibp-4",
-      "prompt": "Integrate x^2 e^x dx.",
-      "answer": "x^2 e^x - 2x e^x + 2e^x + C",
-      "hints": ["Apply IBP twice."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ibp-5",
-      "prompt": "Integrate x cos x dx.",
-      "answer": "x sin x + cos x + C",
-      "hints": ["Let u=x, dv=cos x dx."],
+      "id": "math-i-integration-integration-by-parts-05",
+      "prompt": "Evaluate \\(\\int x e^x\\,dx\\).",
+      "answer": "Let \\(u=x\\), \\(dv=e^x\\,dx\\). Then \\(du=dx\\), \\(v=e^x\\).\n\\[\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C=e^x(x-1)+C.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-6",
-      "prompt": "Integrate x^2 ln x dx.",
-      "answer": "x^3 ln x/3 - x^3/9 + C",
-      "hints": ["Let u=ln x, dv=x^2 dx."],
+      "id": "math-i-integration-integration-by-parts-06",
+      "prompt": "Evaluate \\(\\int x\\cos x\\,dx\\).",
+      "answer": "Let \\(u=x\\), \\(dv=\\cos x\\,dx\\). Then \\(du=dx\\), \\(v=\\sin x\\).\n\\[\\int x\\cos x\\,dx=x\\sin x-\\int\\sin x\\,dx.\\]\nSince \\(\\int\\sin x\\,dx=-\\cos x\\), the answer is\n\\[x\\sin x+\\cos x+C.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-07",
+      "prompt": "Evaluate \\(\\int \\ln x\\,dx\\) for \\(x>0\\).",
+      "answer": "Treat \\(1\\,dx\\) as \\(dv\\). Let \\(u=\\ln x\\), \\(dv=dx\\). Then \\(du=\\frac1x dx\\), \\(v=x\\).\n\\[\\int\\ln x\\,dx=x\\ln x-\\int x\\cdot\\frac1x\\,dx=x\\ln x-\\int1\\,dx.\\]\nSo\n\\[\\int\\ln x\\,dx=x\\ln x-x+C.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-7",
-      "prompt": "Integrate e^x sin x dx.",
-      "answer": "(e^x sin x - e^x cos x)/2 + C",
-      "hints": ["Apply IBP twice, then solve for the integral."],
-      "rating": "***+",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-integration-by-parts-08",
+      "prompt": "Evaluate \\(\\int x\\sin x\\,dx\\).",
+      "answer": "Let \\(u=x\\), \\(dv=\\sin x\\,dx\\). Then \\(du=dx\\), \\(v=-\\cos x\\).\n\\[\\int x\\sin x\\,dx=-x\\cos x-\\int(-\\cos x)\\,dx.\\]\nThus\n\\[-x\\cos x+\\sin x+C.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-8",
-      "prompt": "Integrate x^3 e^x dx.",
-      "answer": "x^3 e^x - 3x^2 e^x + 6x e^x - 6e^x + C",
-      "hints": ["Apply IBP three times or use tabular method."],
-      "rating": "****",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ibp-9",
-      "prompt": "Integrate x^2 sin x dx.",
-      "answer": "-x^2 cos x + 2x sin x + 2 cos x + C",
-      "hints": ["Apply IBP twice."],
+      "id": "math-i-integration-integration-by-parts-09",
+      "prompt": "Evaluate \\(\\int x^2 e^x\\,dx\\).",
+      "answer": "First let \\(u=x^2\\), \\(dv=e^x dx\\). Then \\(du=2x dx\\), \\(v=e^x\\):\n\\[\\int x^2e^x dx=x^2e^x-\\int2xe^x dx.\\]\nNow \\(\\int xe^x dx=e^x(x-1)\\). Therefore\n\\[\\int x^2e^x dx=x^2e^x-2e^x(x-1)+C=e^x(x^2-2x+2)+C.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ibp-10",
-      "prompt": "Integrate arctan x dx.",
-      "answer": "x arctan x - ln(1+x^2)/2 + C",
-      "hints": ["Let u=arctan x, dv=dx, then use substitution."],
+      "id": "math-i-integration-integration-by-parts-10",
+      "prompt": "Evaluate \\(\\int x^2\\cos x\\,dx\\).",
+      "answer": "Let \\(u=x^2\\), \\(dv=\\cos x dx\\). Then \\(du=2x dx\\), \\(v=\\sin x\\):\n\\[I=x^2\\sin x-\\int2x\\sin x dx.\\]\nFor \\(\\int x\\sin x dx\\), integration by parts gives \\(-x\\cos x+\\sin x\\). Hence\n\\[I=x^2\\sin x-2(-x\\cos x+\\sin x)+C=x^2\\sin x+2x\\cos x-2\\sin x+C.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-11",
+      "prompt": "Evaluate \\(\\int_0^1 x e^x\\,dx\\).",
+      "answer": "First find an antiderivative:\n\\[\\int xe^x dx=e^x(x-1)+C.\\]\nEvaluate from \\(0\\) to \\(1\\):\n\\[[e^x(x-1)]_0^1=e(0)-1(-1)=1.\\]\nSo \\(\\int_0^1xe^x dx=1\\).",
       "rating": "***+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-12",
+      "prompt": "Verify by differentiating that \\(x\\sin x+\\cos x+C\\) is an antiderivative of \\(x\\cos x\\).",
+      "answer": "Differentiate term by term:\n\\[\\frac{d}{dx}(x\\sin x)=\\sin x+x\\cos x\\]\nby the product rule, and\n\\[\\frac{d}{dx}(\\cos x)=-\\sin x.\\]\nAdding gives \\(\\sin x+x\\cos x-\\sin x=x\\cos x\\), so the antiderivative is correct.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-13",
+      "prompt": "Evaluate \\(\\int x\\ln x\\,dx\\) for \\(x>0\\).",
+      "answer": "Let \\(u=\\ln x\\), \\(dv=x\\,dx\\). Then \\(du=\\frac1x dx\\), \\(v=x^2/2\\).\n\\[\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\int\\frac{x^2}{2}\\cdot\\frac1x dx.\\]\n\\[=\\frac{x^2}{2}\\ln x-\\frac12\\int x dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-14",
+      "prompt": "Evaluate \\(\\int e^x\\sin x\\,dx\\).",
+      "answer": "Let \\(I=\\int e^x\\sin x dx\\). Choose \\(u=\\sin x\\), \\(dv=e^x dx\\):\n\\[I=e^x\\sin x-\\int e^x\\cos x dx.\\]\nLet \\(J=\\int e^x\\cos x dx\\). Then\n\\[J=e^x\\cos x+\\int e^x\\sin x dx=e^x\\cos x+I.\\]\nSo \\(I=e^x\\sin x-(e^x\\cos x+I)\\), hence \\(2I=e^x(\\sin x-\\cos x)\\).\n\\[I=\\frac{e^x(\\sin x-\\cos x)}{2}+C.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-15",
+      "prompt": "Find \\(a\\) if \\(\\int x e^{ax}\\,dx=e^{ax}\\left(\\frac{x}{a}-\\frac{1}{a^2}\\right)+C\\) and the integrand is \\(xe^{3x}\\).",
+      "answer": "The formula applies to \\(xe^{ax}\\). Since the given integrand is \\(xe^{3x}\\), we have \\(a=3\\). Substituting gives\n\\[\\int xe^{3x}dx=e^{3x}\\left(\\frac{x}{3}-\\frac{1}{9}\\right)+C.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-16",
+      "prompt": "For which polynomial degree is the tabular method especially efficient in \\(\\int p(x)e^x\\,dx\\), and why?",
+      "answer": "It is especially efficient when \\(p(x)\\) is a polynomial of finite degree, such as degree \\(n\\). Repeated differentiation eventually reaches zero after finitely many steps, while repeated integration of \\(e^x\\) stays \\(e^x\\). This makes the tabular process stop cleanly.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-17",
+      "prompt": "Evaluate \\(\\int x^3 e^x\\,dx\\) using repeated integration by parts or the tabular pattern.",
+      "answer": "For \\(x^3\\), repeated derivatives are \\(x^3,3x^2,6x,6,0\\), and repeated integrals of \\(e^x\\) are \\(e^x\\). Alternating signs give\n\\[\\int x^3e^x dx=e^x(x^3-3x^2+6x-6)+C.\\]\nDifferentiating the product gives \\(e^x\\) times the bracket plus \\(e^x(3x^2-6x+6)\\), leaving \\(x^3e^x\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-18",
+      "prompt": "A student evaluating \\(\\int x\\cos x\\,dx\\) writes \\(x\\sin x-\\int\\sin x\\,dx=x\\sin x-\\cos x+C\\). Find and correct the sign error.",
+      "answer": "The error is in integrating \\(\\sin x\\). Since\n\\[\\int\\sin x\\,dx=-\\cos x,\\]\nwe get\n\\[x\\sin x-\\int\\sin x\\,dx=x\\sin x-(-\\cos x)=x\\sin x+\\cos x+C.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-19",
+      "prompt": "Explain why choosing \\(u=e^x\\) and \\(dv=x\\,dx\\) is inefficient for \\(\\int xe^x\\,dx\\), even though it is not illegal.",
+      "answer": "If \\(u=e^x\\) and \\(dv=x\\,dx\\), then \\(du=e^x dx\\) and \\(v=x^2/2\\). Integration by parts gives\n\\[\\int xe^x dx=\\frac{x^2e^x}{2}-\\int\\frac{x^2e^x}{2}dx,\\]\nwhich is more complicated than the original integral. Choosing \\(u=x\\) makes \\(du=dx\\), reducing the algebraic factor and producing a simpler remaining integral.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-integration-by-parts-20",
+      "prompt": "Derive the integration by parts formula from the product rule.",
+      "answer": "Start with the product rule in differential form:\n\\[d(uv)=u\\,dv+v\\,du.\\]\nRearrange to isolate \\(u\\,dv\\):\n\\[u\\,dv=d(uv)-v\\,du.\\]\nIntegrate both sides:\n\\[\\int u\\,dv=\\int d(uv)-\\int v\\,du.\\]\nSince \\(\\int d(uv)=uv\\), the formula is\n\\[\\int u\\,dv=uv-\\int v\\,du.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

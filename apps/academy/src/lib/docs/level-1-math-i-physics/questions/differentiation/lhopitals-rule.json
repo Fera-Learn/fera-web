@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "lhopitals-rule",
   "topicTitle": "L'Hopital Rule",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "lh-1",
-      "prompt": "Evaluate lim x -> 0 of (sin x) / x.",
-      "answer": "1",
-      "hints": ["Both numerator and denominator approach 0.", "Apply L'Hopital's Rule."],
+      "id": "math-i-differentiation-lhopitals-rule-01",
+      "prompt": "Name the two indeterminate quotient forms used in L'Hopital's rule.",
+      "answer": "The quotient forms are\n\\[\n\\frac00\\quad\\text{and}\\quad\\frac{\\infty}{\\infty}.\n\\]\nOnly after getting one of these forms should the rule be considered.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-2",
-      "prompt": "Evaluate lim x -> 0 of (e^x - 1) / x.",
-      "answer": "1",
-      "hints": ["This is the definition of the derivative of e^x at x=0.", "Apply L'Hopital's Rule."],
+      "id": "math-i-differentiation-lhopitals-rule-02",
+      "prompt": "State L'Hopital's rule for \\(\\lim_{x\\to a} f(x)/g(x)\\).",
+      "answer": "If \\(f(x)/g(x)\\) gives \\(0/0\\) or \\(\\infty/\\infty\\), and the needed conditions hold, then\n\\[\n\\lim_{x\\to a}\\frac{f(x)}{g(x)}=\\lim_{x\\to a}\\frac{f'(x)}{g'(x)}\n\\]\nprovided the limit on the right exists.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-3",
-      "prompt": "Evaluate lim x -> 0 of (tan x) / x.",
-      "answer": "1",
-      "hints": ["Both approach 0.", "L'Hopital's Rule: derivative of tan x is sec^2 x."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-lhopitals-rule-03",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\sin x/x\\) using L'Hopital's rule.",
+      "answer": "Direct substitution gives \\(0/0\\). Differentiate numerator and denominator:\n\\[\n\\lim_{x\\to0}\\frac{\\sin x}{x}=\\lim_{x\\to0}\\frac{\\cos x}{1}=1.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-4",
-      "prompt": "Evaluate lim x -> infinity of x / e^x.",
-      "answer": "0",
-      "hints": ["Infinity over infinity form.", "Apply L'Hopital's Rule: 1/e^x = 0."],
+      "id": "math-i-differentiation-lhopitals-rule-04",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(e^x-1)/x\\).",
+      "answer": "Substitution gives \\(0/0\\). Apply L'Hopital's rule:\n\\[\n\\lim_{x\\to0}\\frac{e^x-1}{x}=\\lim_{x\\to0}\\frac{e^x}{1}=1.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}(x^2-1)/(x-1)\\) using L'Hopital's rule.",
+      "answer": "Substitution gives \\(0/0\\). Differentiate top and bottom:\n\\[\n\\lim_{x\\to1}\\frac{x^2-1}{x-1}=\\lim_{x\\to1}\\frac{2x}{1}=2.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-5",
-      "prompt": "Evaluate lim x -> 0 of (ln(1+x)) / x.",
-      "answer": "1",
-      "hints": ["0/0 form.", "Apply L'Hopital's Rule."],
+      "id": "math-i-differentiation-lhopitals-rule-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\ln(1+x)/x\\).",
+      "answer": "Direct substitution gives \\(0/0\\). Differentiate:\n\\[\n\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}=\\lim_{x\\to0}\\frac{1/(1+x)}{1}=1.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-6",
-      "prompt": "Evaluate lim x -> 0 of (x - sin x) / x^3.",
-      "answer": "1/6",
-      "hints": ["0/0 form, may need to apply twice.", "sin x = x - x^3/6 + ..."],
+      "id": "math-i-differentiation-lhopitals-rule-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(1-\\cos x)/x^2\\).",
+      "answer": "Substitution gives \\(0/0\\). First application gives\n\\[\n\\lim_{x\\to0}\\frac{\\sin x}{2x},\n\\]\nwhich is still \\(0/0\\). Apply again:\n\\[\n\\lim_{x\\to0}\\frac{\\cos x}{2}=\\frac12.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(x-\\sin x)/x^3\\).",
+      "answer": "The form is \\(0/0\\). Apply L'Hopital repeatedly:\n\\[\n\\frac{x-\\sin x}{x^3}\\to\\frac{1-\\cos x}{3x^2}\\to\\frac{\\sin x}{6x}\\to\\frac{\\cos x}{6}.\n\\]\nAt \\(x=0\\), the limit is \\(1/6\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty} x/e^x\\).",
+      "answer": "The quotient has form \\(\\infty/\\infty\\). Differentiate top and bottom:\n\\[\n\\lim_{x\\to\\infty}\\frac{x}{e^x}=\\lim_{x\\to\\infty}\\frac1{e^x}=0.\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-7",
-      "prompt": "Evaluate lim x -> 0 of (e^x - e^{-x}) / (sin x).",
-      "answer": "2",
-      "hints": ["0/0 form.", "Apply L'Hopital's Rule once, then evaluate."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-lhopitals-rule-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty} \\ln x/x\\).",
+      "answer": "The form is \\(\\infty/\\infty\\). Apply L'Hopital's rule:\n\\[\n\\lim_{x\\to\\infty}\\frac{\\ln x}{x}=\\lim_{x\\to\\infty}\\frac{1/x}{1}=0.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-8",
-      "prompt": "Evaluate lim x -> 0 of (1/x - 1/sin x).",
-      "answer": "0",
-      "hints": ["Rewrite as (sin x - x) / (x sin x).", "0/0 form, may need Taylor series."],
+      "id": "math-i-differentiation-lhopitals-rule-11",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(\\tan x)/x\\).",
+      "answer": "Substitution gives \\(0/0\\). Differentiate:\n\\[\n\\lim_{x\\to0}\\frac{\\tan x}{x}=\\lim_{x\\to0}\\frac{\\sec^2x}{1}=1.\n\\]",
       "rating": "***+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-9",
-      "prompt": "Evaluate lim x -> 0 of (x^2) / (1 - cos x).",
-      "answer": "2",
-      "hints": ["0/0 form.", "Apply L'Hopital's Rule or use identity 1 - cos x = 2 sin^2(x/2)."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-lhopitals-rule-12",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(e^{2x}-1)/\\sin x\\).",
+      "answer": "Substitution gives \\(0/0\\). Apply L'Hopital's rule:\n\\[\n\\lim_{x\\to0}\\frac{e^{2x}-1}{\\sin x}=\\lim_{x\\to0}\\frac{2e^{2x}}{\\cos x}=2.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "lh-10",
-      "prompt": "Evaluate lim x -> 0 of (sin^2 x) / (x^2).",
-      "answer": "1",
-      "hints": ["0/0 form.", "Apply L'Hopital's Rule twice, or use (sin x)/x -> 1."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-lhopitals-rule-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(\\sin x-x)/(x^3)\\).",
+      "answer": "Apply L'Hopital repeatedly because each first stages gives \\(0/0\\):\n\\[\n\\frac{\\sin x-x}{x^3}\\to\\frac{\\cos x-1}{3x^2}\\to\\frac{-\\sin x}{6x}\\to\\frac{-\\cos x}{6}.\n\\]\nAt \\(0\\), the limit is \\(-1/6\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}(\\ln x)/(x^2-1)\\).",
+      "answer": "Substitution gives \\(0/0\\). Differentiate numerator and denominator:\n\\[\n\\lim_{x\\to1}\\frac{\\ln x}{x^2-1}=\\lim_{x\\to1}\\frac{1/x}{2x}=\\frac12.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-15",
+      "prompt": "Evaluate \\(\\lim_{x\\to0^+} x\\ln x\\) by rewriting it for L'Hopital's rule.",
+      "answer": "Rewrite as\n\\[\nx\\ln x=\\frac{\\ln x}{1/x}.\n\\]\nAs \\(x\\to0^+\\), this is \\(-\\infty/\\infty\\). Apply L'Hopital:\n\\[\n\\lim_{x\\to0^+}\\frac{1/x}{-1/x^2}=\\lim_{x\\to0^+}(-x)=0.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-16",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(e^x-1-x)/x^2\\).",
+      "answer": "Direct substitution gives \\(0/0\\). Apply once:\n\\[\n\\lim_{x\\to0}\\frac{e^x-1}{2x},\n\\]\nstill \\(0/0\\). Apply again:\n\\[\n\\lim_{x\\to0}\\frac{e^x}{2}=\\frac12.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-17",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}(\\ln(1+x)-x)/x^2\\).",
+      "answer": "The form is \\(0/0\\). First application:\n\\[\n\\lim_{x\\to0}\\frac{1/(1+x)-1}{2x}=\\lim_{x\\to0}\\frac{-x/(1+x)}{2x},\n\\]\nwhich is still handled by another derivative or simplification. Differentiate again from the previous quotient:\n\\[\n\\lim_{x\\to0}\\frac{-1/(1+x)^2}{2}=-\\frac12.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-18",
+      "prompt": "A student applies L'Hopital's rule to \\(\\lim_{x\\to0}(1+x)/x\\). Explain why this is invalid.",
+      "answer": "Substitution gives\n\\[\n\\frac{1+0}{0},\n\\]\nwhich is not \\(0/0\\) or \\(\\infty/\\infty\\). L'Hopital's rule does not apply. The expression behaves like \\(1/x\\), so the two-sided limit does not exist.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-19",
+      "prompt": "A student evaluates \\(\\lim_{x\\to0}x/\\sin x\\) by differentiating only the numerator. Diagnose and correct the solution.",
+      "answer": "L'Hopital's rule differentiates the numerator and denominator separately. Since the form is \\(0/0\\),\n\\[\n\\lim_{x\\to0}\\frac{x}{\\sin x}=\\lim_{x\\to0}\\frac{1}{\\cos x}=1.\n\\]\nDifferentiating only the numerator would change the quotient incorrectly.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-lhopitals-rule-20",
+      "prompt": "Explain why repeated L'Hopital's rule is allowed for \\(\\lim_{x\\to0}(1-\\cos x)/x^2\\), and compute the limit.",
+      "answer": "Direct substitution gives \\(0/0\\), so one application is allowed if the hypotheses hold:\n\\[\n\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}=\\lim_{x\\to0}\\frac{\\sin x}{2x}.\n\\]\nThis new quotient is again \\(0/0\\), so apply the rule again:\n\\[\n\\lim_{x\\to0}\\frac{\\cos x}{2}=\\frac12.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

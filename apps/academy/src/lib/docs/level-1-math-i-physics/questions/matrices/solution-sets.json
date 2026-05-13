@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "solution-sets",
+  "topicTitle": "Solution Sets",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-solution-sets-01",
+      "prompt": "For the row-reduced augmented matrix \\(\\left(\\begin{array}{cc|c}1&0&3\\\\0&1&-2\\end{array}\\right)\\), state the solution of the system.",
+      "answer": "The first row gives \\(x=3\\). The second row gives \\(y=-2\\). Therefore the solution is \\[\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}3\\\\-2\\end{pmatrix}.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-02",
+      "prompt": "In a row-reduced augmented matrix, what does the row \\(\\left(\\begin{array}{ccc|c}0&0&0&5\\end{array}\\right)\\) say about the solution set?",
+      "answer": "The row represents the equation \\(0x+0y+0z=5\\), so it says \\(0=5\\). This is impossible, so the system is inconsistent and has no solution.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-03",
+      "prompt": "For \\(\\left(\\begin{array}{ccc|c}1&0&-4&2\\\\0&1&3&-1\\\\0&0&0&0\\end{array}\\right)\\), identify the pivot variables and the free variable.",
+      "answer": "The leading \\(1\\)s are in the columns for \\(x\\) and \\(y\\), so \\(x\\) and \\(y\\) are pivot variables. There is no pivot in the \\(z\\)-column, so \\(z\\) is free.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-04",
+      "prompt": "A homogeneous system in three variables row-reduces to \\(\\left(\\begin{array}{ccc|c}1&2&0&0\\\\0&0&1&0\\end{array}\\right)\\). Does it have only the trivial solution or infinitely many solutions?",
+      "answer": "There are pivots in the \\(x\\)- and \\(z\\)-columns, but no pivot in the \\(y\\)-column. Since \\(y\\) is free and the system is homogeneous, it has infinitely many solutions, including the trivial solution.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-05",
+      "prompt": "Describe the solution set of \\(\\left(\\begin{array}{ccc|c}1&0&2&7\\\\0&1&-5&4\\end{array}\\right)\\).",
+      "answer": "Let the free variable be \\(z=t\\), where \\(t\\in\\mathbb R\\). The rows give \\(x+2z=7\\) and \\(y-5z=4\\). Hence \\(x=7-2t\\) and \\(y=4+5t\\). Therefore \\[\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}7\\\\4\\\\0\\end{pmatrix}+t\\begin{pmatrix}-2\\\\5\\\\1\\end{pmatrix},\\qquad t\\in\\mathbb R.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-06",
+      "prompt": "Solve the system represented by \\(\\left(\\begin{array}{ccc|c}1&-1&0&6\\\\0&1&2&3\\\\0&0&1&-2\\end{array}\\right)\\).",
+      "answer": "The third row gives \\(z=-2\\). The second row gives \\(y+2z=3\\), so \\(y+2(-2)=3\\), hence \\(y=7\\). The first row gives \\(x-y=6\\), so \\(x-7=6\\), hence \\(x=13\\). Thus \\[\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}13\\\\7\\\\-2\\end{pmatrix}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-07",
+      "prompt": "For \\(\\left(\\begin{array}{cccc|c}1&0&3&-1&2\\\\0&1&-2&4&5\\\\0&0&0&0&0\\end{array}\\right)\\), write the solution set using two parameters.",
+      "answer": "The variables \\(z\\) and \\(w\\) are free. Let \\(z=s\\) and \\(w=t\\). The rows give \\(x+3z-w=2\\) and \\(y-2z+4w=5\\). Thus \\(x=2-3s+t\\) and \\(y=5+2s-4t\\). Therefore \\[\\begin{pmatrix}x\\\\y\\\\z\\\\w\\end{pmatrix}=\\begin{pmatrix}2\\\\5\\\\0\\\\0\\end{pmatrix}+s\\begin{pmatrix}-3\\\\2\\\\1\\\\0\\end{pmatrix}+t\\begin{pmatrix}1\\\\-4\\\\0\\\\1\\end{pmatrix}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-08",
+      "prompt": "A system row-reduces to \\(\\left(\\begin{array}{ccc|c}1&0&2&3\\\\0&1&-1&8\\\\0&0&0&0\\end{array}\\right)\\). Explain why the system has infinitely many solutions, not one solution.",
+      "answer": "The row of zeros is not inconsistent because it represents \\(0=0\\). There are pivots in the \\(x\\)- and \\(y\\)-columns, but no pivot in the \\(z\\)-column. Since \\(z\\) is free and can take any real value, the consistent system has infinitely many solutions.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-09",
+      "prompt": "Solve \\(x+2y-z=4\\), \\(2x+4y-2z=8\\), and \\(y+z=1\\), and describe the solution set.",
+      "answer": "The second equation is twice the first, so it adds no new condition. Use \\(y+z=1\\), so \\(y=1-z\\). Let \\(z=t\\). Substitute into \\(x+2y-z=4\\): \\(x+2(1-t)-t=4\\), so \\(x+2-3t=4\\), hence \\(x=2+3t\\). Therefore \\[\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}2\\\\1\\\\0\\end{pmatrix}+t\\begin{pmatrix}3\\\\-1\\\\1\\end{pmatrix},\\qquad t\\in\\mathbb R.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-10",
+      "prompt": "Row reduction of \\((A\\mid \\mathbf b)\\) gives \\(\\left(\\begin{array}{cccc|c}1&0&2&0&-1\\\\0&1&-3&0&4\\\\0&0&0&1&6\\end{array}\\right)\\). Write all solutions as \\(\\mathbf{x}_p+\\mathbf{x}_h\\).",
+      "answer": "The free variable is \\(x_3=t\\). The rows give \\(x_1+2x_3=-1\\), \\(x_2-3x_3=4\\), and \\(x_4=6\\). Hence \\(x_1=-1-2t\\), \\(x_2=4+3t\\), and \\(x_4=6\\). Therefore \\[\\mathbf{x}=\\begin{pmatrix}-1\\\\4\\\\0\\\\6\\end{pmatrix}+t\\begin{pmatrix}-2\\\\3\\\\1\\\\0\\end{pmatrix}.\\] Here \\(\\mathbf{x}_p=\\begin{pmatrix}-1\\\\4\\\\0\\\\6\\end{pmatrix}\\) and \\(\\mathbf{x}_h=t\\begin{pmatrix}-2\\\\3\\\\1\\\\0\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-11",
+      "prompt": "For the homogeneous system with row-reduced matrix \\(\\begin{pmatrix}1&-2&0&5\\\\0&0&1&-3\\\\0&0&0&0\\end{pmatrix}\\), find a basis-style parametrisation of the solution set.",
+      "answer": "Let \\(x_2=s\\) and \\(x_4=t\\), since columns \\(2\\) and \\(4\\) are free. The first row gives \\(x_1-2x_2+5x_4=0\\), so \\(x_1=2s-5t\\). The second row gives \\(x_3-3x_4=0\\), so \\(x_3=3t\\). Thus \\[\\mathbf{x}=s\\begin{pmatrix}2\\\\1\\\\0\\\\0\\end{pmatrix}+t\\begin{pmatrix}-5\\\\0\\\\3\\\\1\\end{pmatrix},\\qquad s,t\\in\\mathbb R.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-12",
+      "prompt": "Suppose \\(\\mathbf u\\) and \\(\\mathbf v\\) are both solutions of \\(A\\mathbf x=\\mathbf b\\). Show that \\(\\mathbf u-\\mathbf v\\) solves the associated homogeneous system.",
+      "answer": "Since \\(\\mathbf u\\) and \\(\\mathbf v\\) both solve the same inhomogeneous system, \\(A\\mathbf u=\\mathbf b\\) and \\(A\\mathbf v=\\mathbf b\\). Therefore \\[A(\\mathbf u-\\mathbf v)=A\\mathbf u-A\\mathbf v=\\mathbf b-\\mathbf b=\\mathbf0.\\] So \\(\\mathbf u-\\mathbf v\\) solves \\(A\\mathbf x=\\mathbf0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-13",
+      "prompt": "Find all values of \\(k\\) for which the system \\(x+y=2\\) and \\(2x+2y=k\\) is consistent, then describe the solution set for those values.",
+      "answer": "The second left-hand side is twice the first left-hand side. For consistency, the right-hand side must also be twice as large: \\(k=2\\cdot2=4\\). If \\(k\\ne4\\), the equations are parallel inconsistent equations. When \\(k=4\\), only \\(x+y=2\\) remains. Let \\(y=t\\). Then \\(x=2-t\\), so \\[\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}2\\\\0\\end{pmatrix}+t\\begin{pmatrix}-1\\\\1\\end{pmatrix}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-14",
+      "prompt": "For what value of \\(k\\) does \\(\\left(\\begin{array}{ccc|c}1&2&-1&3\\\\0&1&4&5\\\\0&0&k-2&6\\end{array}\\right)\\) have infinitely many solutions? Explain.",
+      "answer": "The first two rows have pivots in the \\(x\\)- and \\(y\\)-columns. For infinitely many solutions, the last row must not create a pivot and must not be inconsistent. That requires \\(k-2=0\\) and the right side also \\(0\\). But the right side is \\(6\\), not \\(0\\). If \\(k=2\\), the last row is \\(0=6\\), which is inconsistent. If \\(k\\ne2\\), the last row gives a pivot in \\(z\\), producing a unique solution. Therefore there is no value of \\(k\\) that gives infinitely many solutions.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-15",
+      "prompt": "Classify the solutions by parameter \\(a\\) for \\(x+y+z=1\\), \\(2x+2y+2z=2\\), and \\(x+y+az=3\\).",
+      "answer": "The second equation is twice the first, so it is redundant. Compare the first and third equations: subtracting gives \\((a-1)z=2\\). If \\(a\\ne1\\), then \\(z=\\frac{2}{a-1}\\), and \\(x+y=1-z\\), so one free variable remains and there are infinitely many solutions. If \\(a=1\\), the third equation becomes \\(x+y+z=3\\), while the first says \\(x+y+z=1\\). This is inconsistent. Therefore \\(a=1\\) gives no solution, and every \\(a\\ne1\\) gives infinitely many solutions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-16",
+      "prompt": "For \\(\\left(\\begin{array}{ccc|c}1&1&0&2\\\\0&a&1&3\\\\0&0&a-2&4\\end{array}\\right)\\), determine whether each value of \\(a\\) gives a unique solution, no solution, or infinitely many solutions.",
+      "answer": "The first row always has a pivot. The second row has a pivot in the \\(y\\)-column when \\(a\\ne0\\), or in the \\(z\\)-column when \\(a=0\\) because the row is \\(z=3\\). The last row is \\((a-2)z=4\\). If \\(a\\ne2\\), this gives a pivot condition for \\(z\\), and the system is consistent with a unique solution. If \\(a=2\\), the last row becomes \\(0=4\\), which is inconsistent. Therefore \\(a=2\\) gives no solution, and every \\(a\\ne2\\) gives a unique solution. No value gives infinitely many solutions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-17",
+      "prompt": "A consistent system in five variables has row-reduced augmented matrix with pivot columns \\(1\\), \\(3\\), and \\(5\\). Explain the dimension of its solution set and write its general form using named vectors.",
+      "answer": "There are five variables and three pivot variables, so there are \\(5-3=2\\) free variables. A consistent system with two free variables has a two-parameter family of solutions. Its solutions can be written as \\[\\mathbf{x}=\\mathbf{x}_p+s\\mathbf{v}_1+t\\mathbf{v}_2,\\qquad s,t\\in\\mathbb R,\\] where \\(\\mathbf{x}_p\\) is one particular solution and \\(\\mathbf{v}_1,\\mathbf{v}_2\\) are homogeneous solution directions produced by the two free variables.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-18",
+      "prompt": "A student says: \"A homogeneous system with a free variable might have no solution if the parameter is chosen badly.\" Diagnose the error.",
+      "answer": "The statement confuses a parametrised solution set with a consistency condition. A homogeneous system \\(A\\mathbf{x}=\\mathbf0\\) is always consistent because \\(\\mathbf{x}=\\mathbf0\\) always works. If row reduction produces a free variable, every real value of that parameter gives a valid solution after the pivot variables are computed from the rows. There is no separate right-hand side that can become inconsistent, because the augmented column is zero throughout row reduction.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-19",
+      "prompt": "Explain why the full solution set of a consistent inhomogeneous system is not usually a vector space, even though its homogeneous part is.",
+      "answer": "If \\(A\\mathbf{x}=\\mathbf b\\) is consistent, all solutions have the form \\(\\mathbf{x}_p+\\mathbf{x}_h\\), where \\(A\\mathbf{x}_p=\\mathbf b\\) and \\(A\\mathbf{x}_h=\\mathbf0\\). The homogeneous solutions form a vector space because they include \\(\\mathbf0\\) and are closed under addition and scalar multiplication. The inhomogeneous solution set is shifted by \\(\\mathbf{x}_p\\). Unless \\(\\mathbf b=\\mathbf0\\), it usually does not contain \\(\\mathbf0\\), so it cannot be a vector space.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-solution-sets-20",
+      "prompt": "A row-reduced augmented matrix has no inconsistent row and has more columns of variables than pivot columns. Prove that the system has infinitely many solutions.",
+      "answer": "No inconsistent row means the system is consistent, so at least one solution exists. If there are more variable columns than pivot columns, at least one variable column has no pivot. That variable is free. A free variable may be assigned any real value, and after that the pivot variables are determined by the row-reduced equations. Since \\(\\mathbb R\\) contains infinitely many choices for the free variable, the system has infinitely many solutions.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

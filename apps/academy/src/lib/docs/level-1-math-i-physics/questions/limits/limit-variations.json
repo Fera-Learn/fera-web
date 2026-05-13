@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "limit-variations",
   "topicTitle": "Limit Variations",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-limit-variations-01",
-      "prompt": "Find \\(\\lim_{x\\to 2^+}\\frac{1}{x-2}\\) and \\(\\lim_{x\\to 2^-}\\frac{1}{x-2}\\).",
-      "answer": "As \\(x\\to2^+\\), the denominator \\(x-2\\) is positive and tends to \\(0\\), so\n\\[\n\\frac{1}{x-2}\\to\\infty.\n\\]\nAs \\(x\\to2^-\\), the denominator is negative and tends to \\(0\\), so\n\\[\n\\frac{1}{x-2}\\to-\\infty.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "What does \\(\\lim_{x\\to a^-}f(x)=L\\) mean?",
+      "answer": "It means \\(f(x)\\) approaches \\(L\\) as \\(x\\) approaches \\(a\\) from values less than \\(a\\).\nOnly the left-hand side of \\(a\\) is considered.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-limit-variations-02",
-      "prompt": "A function is defined by \\(f(x)=x+1\\) for \\(x<1\\), and \\(f(x)=3x-1\\) for \\(x>1\\). Does \\(\\lim_{x\\to1}f(x)\\) exist?",
-      "answer": "The left-hand limit is\n\\[\n\\lim_{x\\to1^-}(x+1)=2.\n\\]\nThe right-hand limit is\n\\[\n\\lim_{x\\to1^+}(3x-1)=2.\n\\]\nThe one-sided limits agree, so the two-sided limit exists and equals \\(2\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "What condition on one-sided limits makes \\(\\lim_{x\\to a}f(x)\\) exist?",
+      "answer": "The two-sided limit exists exactly when both one-sided limits exist and are equal:\n\\[\\lim_{x\\to a^-}f(x)=\\lim_{x\\to a^+}f(x).\\]\nTheir common value is the two-sided limit.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-limit-variations-03",
-      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{6x^3-x}{2x^3+5x^2+1}\\).",
-      "answer": "Divide numerator and denominator by \\(x^3\\):\n\\[\n\\frac{6-1/x^2}{2+5/x+1/x^3}.\n\\]\nAs \\(x\\to\\infty\\), the reciprocal terms tend to \\(0\\), so the limit is\n\\[\n\\frac{6}{2}=3.\n\\]",
+      "prompt": "If \\(\\lim_{x\\to2^-}f(x)=5\\) and \\(\\lim_{x\\to2^+}f(x)=5\\), find \\(\\lim_{x\\to2}f(x)\\).",
+      "answer": "The left-hand and right-hand limits are both \\(5\\).\nTherefore the two-sided limit exists and equals their common value:\n\\[\\lim_{x\\to2}f(x)=5.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-04",
+      "prompt": "If \\(\\lim_{x\\to1^-}f(x)=3\\) and \\(\\lim_{x\\to1^+}f(x)=7\\), does \\(\\lim_{x\\to1}f(x)\\) exist?",
+      "answer": "No. A two-sided limit exists only when the left-hand and right-hand limits are equal.\nHere\n\\[3\\ne7,\\]\nso \\(\\lim_{x\\to1}f(x)\\) does not exist.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{3x^2+1}{x^2-5}\\).",
+      "answer": "Compare leading terms by dividing numerator and denominator by \\(x^2\\):\n\\[\\frac{3x^2+1}{x^2-5}=\\frac{3+1/x^2}{1-5/x^2}.\\]\nAs \\(x\\to\\infty\\), \\(1/x^2\\to0\\), so the limit is\n\\[\\frac3{1}=3.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{2x+4}{5x-1}\\).",
+      "answer": "Divide numerator and denominator by \\(x\\):\n\\[\\frac{2x+4}{5x-1}=\\frac{2+4/x}{5-1/x}.\\]\nAs \\(x\\to\\infty\\), \\(4/x\\to0\\) and \\(1/x\\to0\\).\nThus the limit is\n\\[\\frac25.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-07",
+      "prompt": "Find \\(\\lim_{x\\to2^+}\\frac1{x-2}\\).",
+      "answer": "As \\(x\\to2^+\\), the quantity \\(x-2\\) is positive and approaches \\(0\\).\nThe reciprocal of a small positive number grows without bound, so\n\\[\\lim_{x\\to2^+}\\frac1{x-2}=+\\infty.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-08",
+      "prompt": "Find \\(\\lim_{x\\to2^-}\\frac1{x-2}\\).",
+      "answer": "As \\(x\\to2^-\\), the quantity \\(x-2\\) is negative and approaches \\(0\\).\nThe reciprocal of a small negative number decreases without bound, so\n\\[\\lim_{x\\to2^-}\\frac1{x-2}=-\\infty.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{4x^3-x}{2x^3+7}\\).",
+      "answer": "Divide by \\(x^3\\):\n\\[\\frac{4x^3-x}{2x^3+7}=\\frac{4-1/x^2}{2+7/x^3}.\\]\nAs \\(x\\to\\infty\\), the reciprocal terms approach \\(0\\).\nThe limit is\n\\[\\frac42=2.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{x}{x^2+1}\\).",
+      "answer": "Divide by \\(x^2\\), the highest power in the denominator:\n\\[\\frac{x}{x^2+1}=\\frac{1/x}{1+1/x^2}.\\]\nAs \\(x\\to\\infty\\), \\(1/x\\to0\\) and \\(1/x^2\\to0\\).\nThe limit is \\(0\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-11",
+      "prompt": "For \\(f(x)=\\begin{cases}x+1,&x<0\\2x+1,&x>0\\end{cases}\\), find \\(\\lim_{x\\to0^-}f(x)\\), \\(\\lim_{x\\to0^+}f(x)\\), and the two-sided limit.",
+      "answer": "From the left, use \\(x+1\\):\n\\[\\lim_{x\\to0^-}f(x)=0+1=1.\\]\nFrom the right, use \\(2x+1\\):\n\\[\\lim_{x\\to0^+}f(x)=2(0)+1=1.\\]\nSince both one-sided limits are equal,\n\\[\\lim_{x\\to0}f(x)=1.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-12",
+      "prompt": "For \\(f(x)=\\begin{cases}1,&x<3\\4,&x>3\\end{cases}\\), determine whether \\(\\lim_{x\\to3}f(x)\\) exists.",
+      "answer": "The left-hand limit is\n\\[\\lim_{x\\to3^-}f(x)=1.\\]\nThe right-hand limit is\n\\[\\lim_{x\\to3^+}f(x)=4.\\]\nSince \\(1\\ne4\\), the two-sided limit does not exist.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to-\\infty}\\frac{5x^2+x}{2x^2-3}\\).",
+      "answer": "Divide numerator and denominator by \\(x^2\\):\n\\[\\frac{5x^2+x}{2x^2-3}=\\frac{5+1/x}{2-3/x^2}.\\]\nAs \\(x\\to-\\infty\\), \\(1/x\\to0\\) and \\(1/x^2\\to0\\).\nThe limit is\n\\[\\frac52.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to\\infty}\\frac{7x-1}{x^2+4}\\) and interpret the horizontal behavior.",
+      "answer": "Divide by \\(x^2\\):\n\\[\\frac{7x-1}{x^2+4}=\\frac{7/x-1/x^2}{1+4/x^2}.\\]\nAll reciprocal terms in the numerator approach \\(0\\), while the denominator approaches \\(1\\).\nThe limit is \\(0\\), so the graph approaches the horizontal asymptote \\(y=0\\) to the right.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-15",
+      "prompt": "Find \\(\\lim_{x\\to1^+}\\frac{2}{(x-1)^2}\\) and \\(\\lim_{x\\to1^-}\\frac{2}{(x-1)^2}\\).",
+      "answer": "On both sides of \\(1\\), \\((x-1)^2\\) is positive and approaches \\(0\\).\nThus \\(\\frac2{(x-1)^2}\\) grows without bound from both directions:\n\\[\\lim_{x\\to1^+}\\frac2{(x-1)^2}=+\\infty,\\qquad \\lim_{x\\to1^-}\\frac2{(x-1)^2}=+\\infty.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-16",
+      "prompt": "Find \\(\\lim_{x\\to0^+}\\frac{1}{x^3}\\) and \\(\\lim_{x\\to0^-}\\frac{1}{x^3}\\).",
+      "answer": "If \\(x\\to0^+\\), then \\(x^3\\) is positive and approaches \\(0\\), so\n\\[\\lim_{x\\to0^+}\\frac1{x^3}=+\\infty.\\]\nIf \\(x\\to0^-\\), then \\(x^3\\) is negative and approaches \\(0\\), so\n\\[\\lim_{x\\to0^-}\\frac1{x^3}=-\\infty.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-17",
+      "prompt": "For \\(\\frac{x^2+1}{x-4}\\), classify the behavior as \\(x\\to4^+\\) and \\(x\\to4^-\\).",
+      "answer": "Near \\(x=4\\), the numerator \\(x^2+1\\) is positive and close to \\(17\\).\nThe denominator \\(x-4\\) approaches \\(0\\). From the right it is positive, so the quotient approaches \\(+\\infty\\). From the left it is negative, so the quotient approaches \\(-\\infty\\).\nThus\n\\[\\lim_{x\\to4^+}\\frac{x^2+1}{x-4}=+\\infty,\\qquad \\lim_{x\\to4^-}\\frac{x^2+1}{x-4}=-\\infty.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-18",
+      "prompt": "A student says \\(\\lim_{x\\to\\infty}\\frac{3x^2+10}{x}=3\\) by comparing coefficients. Diagnose the error and find the correct behavior.",
+      "answer": "The degrees are not equal. Divide by \\(x\\):\n\\[\\frac{3x^2+10}{x}=3x+\\frac{10}{x}.\\]\nAs \\(x\\to\\infty\\), \\(3x\\to\\infty\\) and \\(10/x\\to0\\).\nSo the expression grows without bound:\n\\[\\lim_{x\\to\\infty}\\frac{3x^2+10}{x}=+\\infty.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-19",
+      "prompt": "Construct a simple piecewise function whose left-hand limit at \\(0\\) is \\(-1\\) and right-hand limit at \\(0\\) is \\(1\\), and state the two-sided limit.",
+      "answer": "One example is\n\\[f(x)=\\begin{cases}-1,&x<0\\1,&x>0.\\end{cases}\\]\nThen\n\\[\\lim_{x\\to0^-}f(x)=-1,\\qquad \\lim_{x\\to0^+}f(x)=1.\\]\nSince the one-sided limits are different, \\(\\lim_{x\\to0}f(x)\\) does not exist.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-variations-20",
+      "prompt": "Explain why \\(\\lim_{x\\to a}f(x)=+\\infty\\) is not a finite limit, even though it describes limiting behavior.",
+      "answer": "A finite limit \\(L\\) means \\(f(x)\\) gets arbitrarily close to a real number \\(L\\).\nThe statement \\(\\lim_{x\\to a}f(x)=+\\infty\\) means \\(f(x)\\) eventually exceeds every positive bound as \\(x\\) approaches \\(a\\).\nSo it describes unbounded behavior, not approach to a real number. It is an infinite limit, not a finite limit.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

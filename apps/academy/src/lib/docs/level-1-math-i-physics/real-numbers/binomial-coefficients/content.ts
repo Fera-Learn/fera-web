@@ -1,10 +1,10 @@
 export const content = String.raw`## Understanding nCr Notation
 
-The notation $\binom{n}{r}$ (read as "n choose r") represents the number of ways to select $r$ objects from $n$ distinct objects without regard to order.
+The notation \(\binom{n}{r}\) (read as "n choose r") represents the number of ways to select \(r\) objects from \(n\) distinct objects without regard to order.
 
 <Equation label="Binomial Coefficient Definition" tex="\binom{n}{r} = \frac{n!}{r!(n-r)!}" />
 
-where $n!$ (n factorial) is the product of all positive integers up to $n$:
+where \(n!\) (n factorial) is the product of all positive integers up to \(n\):
 <Equation label="Factorial" tex="n! = n \times (n-1) \times (n-2) \times \cdots \times 2 \times 1" />
 
 ## Properties of Binomial Coefficients
@@ -19,13 +19,13 @@ where $n!$ (n factorial) is the product of all positive integers up to $n$:
 
 Pascal's triangle is a triangular array where each entry is a binomial coefficient:
 
-- Row 0: $\binom{0}{0} = 1$
-- Row 1: $\binom{1}{0}, \binom{1}{1} = 1, 1$
-- Row 2: $\binom{2}{0}, \binom{2}{1}, \binom{2}{2} = 1, 2, 1$
-- Row 3: $\binom{3}{0}, \binom{3}{1}, \binom{3}{2}, \binom{3}{3} = 1, 3, 3, 1$
-- Row 4: $1, 4, 6, 4, 1$
+- Row 0: \(\binom{0}{0} = 1\)
+- Row 1: \(\binom{1}{0}, \binom{1}{1} = 1, 1\)
+- Row 2: \(\binom{2}{0}, \binom{2}{1}, \binom{2}{2} = 1, 2, 1\)
+- Row 3: \(\binom{3}{0}, \binom{3}{1}, \binom{3}{2}, \binom{3}{3} = 1, 3, 3, 1\)
+- Row 4: \(1, 4, 6, 4, 1\)
 
-Each row corresponds to the coefficients $\binom{n}{0}, \binom{n}{1}, \ldots, \binom{n}{n}$ for $n = 0, 1, 2, \ldots$
+Each row corresponds to the coefficients \(\binom{n}{0}, \binom{n}{1}, \ldots, \binom{n}{n}\) for \(n = 0, 1, 2, \ldots\)
 
 ## Building Pascal's Triangle
 
@@ -40,5 +40,5 @@ A **combination** is a selection of items where order does not matter.
 
 <Equation label="Relationship" tex="P(n,r) = r! \times \binom{n}{r}" />
 
-where $P(n,r)$ are permutations (order matters) and $\binom{n}{r}$ are combinations (order doesn't matter).
+where \(P(n,r)\) are permutations (order matters) and \(\binom{n}{r}\) are combinations (order doesn't matter).
 `;

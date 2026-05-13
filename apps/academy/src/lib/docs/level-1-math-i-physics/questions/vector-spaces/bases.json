@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "bases",
+  "topicTitle": "Bases",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-bases-01",
+      "prompt": "What two properties must a list have to be a basis for a vector space \\(V\\)?",
+      "answer": "A basis must span the vector space and be linearly independent. Spanning means every vector in the space can be made from the list. Linear independence means no vector in the list is redundant.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-02",
+      "prompt": "Why is \\(\\{(1,0),(0,1)\\}\\) called the standard basis of \\(\\mathbb R^2\\)?",
+      "answer": "Every \\((x,y)\\in\\mathbb R^2\\) can be written as \\(x(1,0)+y(0,1)\\), so the list spans. Also \\(c_1(1,0)+c_2(0,1)=(0,0)\\) gives \\(c_1=c_2=0\\), so it is independent. Therefore it is a basis.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-03",
+      "prompt": "Can \\(\\{(1,0),(2,0)\\}\\) be a basis for \\(\\mathbb R^2\\)?",
+      "answer": "No. The second vector is \\(2(1,0)\\), so the list is linearly dependent. Its combinations have form \\((a+2b,0)\\), only points on the \\(x\\)-axis. It is dependent and does not span \\(\\mathbb R^2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-04",
+      "prompt": "Is a single non-zero vector a basis for the line it spans?",
+      "answer": "Yes. If \\(\\mathbf v\\ne\\mathbf0\\), then \\(\\{\\mathbf v\\}\\) spans \\(\\operatorname{span}\\{\\mathbf v\\}\\) by definition. It is independent because \\(c\\mathbf v=\\mathbf0\\) forces \\(c=0\\). Therefore it is a basis for that line.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-05",
+      "prompt": "Check whether \\(B=\\{(1,1),(1,-1)\\}\\) is a basis for \\(\\mathbb R^2\\).",
+      "answer": "Use determinant \\(\\begin{vmatrix}1&1\\\\1&-1\\end{vmatrix}=-1-1=-2\\ne0\\). The non-zero determinant means the two columns are independent and span \\(\\mathbb R^2\\). Therefore \\(B\\) is a basis.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-06",
+      "prompt": "Check whether \\(B=\\{(1,2),(2,4)\\}\\) is a basis for \\(\\mathbb R^2\\).",
+      "answer": "The second vector is twice the first: \\((2,4)=2(1,2)\\). Thus the list is dependent. Since a basis must be independent, \\(B\\) is not a basis. It also spans only one line, not the whole plane.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-07",
+      "prompt": "Find a basis for \\(W=\\{(x,y,0):x,y\\in\\mathbb R\\}\\).",
+      "answer": "Every vector in \\(W\\) can be written as \\((x,y,0)=x(1,0,0)+y(0,1,0)\\). The two listed vectors are independent because \\(a(1,0,0)+b(0,1,0)=\\mathbf0\\) gives \\(a=b=0\\). A basis is \\(\\{(1,0,0),(0,1,0)\\}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-08",
+      "prompt": "Find a basis for the line \\(L=\\{t(2,-3,1):t\\in\\mathbb R\\}\\).",
+      "answer": "The vector \\((2,-3,1)\\) spans the line by definition. It is non-zero, so the one-vector list is independent. Therefore \\(\\{(2,-3,1)\\}\\) is a basis for \\(L\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-09",
+      "prompt": "Show that \\(B=\\{(1,0,1),(0,1,1),(0,0,1)\\}\\) is a basis for \\(\\mathbb R^3\\).",
+      "answer": "Use the column matrix \\(A=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\1&1&1\\end{pmatrix}\\). Its determinant is \\(1\\), so the columns are independent. Three independent vectors in \\(\\mathbb R^3\\) also span \\(\\mathbb R^3\\). Hence \\(B\\) is a basis.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-10",
+      "prompt": "Decide whether \\(\\{1,x,x^2\\}\\) is a basis for \\(P_2\\), the polynomials of degree at most \\(2\\).",
+      "answer": "Every \\(p(x)=a+bx+cx^2\\in P_2\\) equals \\(a\\cdot1+b\\cdot x+c\\cdot x^2\\), so the list spans. If \\(a+b x+c x^2=0\\) as a polynomial, then all coefficients are zero, so the list is independent. Therefore it is a basis for \\(P_2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-11",
+      "prompt": "Explain why a basis gives unique coordinates.",
+      "answer": "Suppose \\(\\mathbf v\\) has two basis expansions: \\(\\sum_i a_i\\mathbf b_i=\\sum_i c_i\\mathbf b_i\\). Subtracting gives \\(\\sum_i(a_i-c_i)\\mathbf b_i=\\mathbf0\\). Since the basis is independent, every \\(a_i-c_i=0\\), so \\(a_i=c_i\\). Thus the coordinate list is unique.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-12",
+      "prompt": "Why is a spanning list with a redundant vector not a basis? Use \\((1,0),(0,1),(1,1)\\).",
+      "answer": "The list spans \\(\\mathbb R^2\\) because it contains the standard basis. But \\((1,1)=(1,0)+(0,1)\\), so the third vector is redundant and the list is dependent. A basis must span and be independent, so this list is not a basis.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-13",
+      "prompt": "For which \\(k\\) is \\(\\{(1,1),(1,k)\\}\\) a basis for \\(\\mathbb R^2\\)?",
+      "answer": "The determinant is \\(\\begin{vmatrix}1&1\\\\1&k\\end{vmatrix}=k-1\\). The vectors form a basis exactly when the determinant is non-zero. Therefore they are a basis for \\(k\\ne1\\), and not a basis for \\(k=1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-14",
+      "prompt": "For which \\(a\\) is \\(\\{(1,0,a),(0,1,a),(1,1,2a)\\}\\) a basis for \\(\\mathbb R^3\\)?",
+      "answer": "The third vector is always \\((1,0,a)+(0,1,a)=(1,1,2a)\\). Therefore the list is dependent for every \\(a\\). A dependent list cannot be a basis, so there is no real value of \\(a\\) that works.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-15",
+      "prompt": "For which \\(t\\) is \\(B_t=\\{(1,0,0),(0,1,0),(1,1,t)\\}\\) a basis for \\(\\mathbb R^3\\)?",
+      "answer": "Use determinant \\(\\det\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&t\\end{pmatrix}=t\\). The list is a basis exactly when the determinant is non-zero. Hence \\(B_t\\) is a basis for \\(t\\ne0\\), and not a basis for \\(t=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-16",
+      "prompt": "For which \\(a\\) is \\(\\{1+x,1+ax\\}\\) a basis for \\(P_1\\)?",
+      "answer": "The space \\(P_1\\) has dimension \\(2\\), so two independent polynomials form a basis. If \\(1+ax=\\lambda(1+x)\\), comparing constants gives \\(\\lambda=1\\), then comparing \\(x\\)-coefficients gives \\(a=1\\). Thus the list is dependent when \\(a=1\\) and independent when \\(a\\ne1\\). It is a basis exactly for \\(a\\ne1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-17",
+      "prompt": "For which \\(b\\) do \\((1,0,b),(0,1,b),(1,1,1)\\) form a basis for \\(\\mathbb R^3\\)?",
+      "answer": "Compute \\(\\det\\begin{pmatrix}1&0&1\\\\0&1&1\\b&b&1\\end{pmatrix}=1-2b\\). A set of three vectors in \\(\\mathbb R^3\\) is a basis exactly when this determinant is non-zero. Therefore it is a basis for \\(b\\ne\\tfrac12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-18",
+      "prompt": "A student says every spanning set is a basis. Diagnose the error.",
+      "answer": "Spanning only says every vector in the space can be built from the list. It does not say the list has no redundancy. For example, \\((1,0),(0,1),(1,1)\\) spans \\(\\mathbb R^2\\), but \\((1,1)=(1,0)+(0,1)\\), so the list is dependent. Therefore not every spanning set is a basis.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-19",
+      "prompt": "Prove that if a list is a basis, no vector in the list can be removed without losing spanning.",
+      "answer": "Let \\(B\\) be a basis and remove \\(\\mathbf b_j\\). If the remaining list still spanned the space, then \\(\\mathbf b_j\\) could be written as a linear combination of the other basis vectors. Moving all terms to one side would give a non-trivial linear relation among vectors of \\(B\\). That contradicts independence. Therefore removing any basis vector destroys spanning.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-bases-20",
+      "prompt": "Prove that if a list is a basis, adding any vector from the same space makes the enlarged list dependent.",
+      "answer": "Let \\(B=\\{\\mathbf b_1,\\ldots,\\mathbf b_n\\}\\) be a basis and let \\(\\mathbf v\\) be in the space. Since \\(B\\) spans, \\(\\mathbf v=c_1\\mathbf b_1+\\cdots+c_n\\mathbf b_n\\). Then \\(\\mathbf v-c_1\\mathbf b_1-\\cdots-c_n\\mathbf b_n=\\mathbf0\\). This is a non-trivial relation in the enlarged list because the coefficient of \\(\\mathbf v\\) is \\(1\\). Thus the enlarged list is dependent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

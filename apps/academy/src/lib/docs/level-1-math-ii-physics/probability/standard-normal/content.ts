@@ -50,7 +50,7 @@ The area up to \(b\) includes the area up to \(a\). Subtract to isolate the inte
 
 <Equation label="Symmetry" tex="\Phi(z)=1-\Phi(-z)" />
 
-<Equation label="Centre" tex="\Phi(0)=\frac12" />
+<Equation label="Centre" tex="\Phi(0)=\frac{1}{2}" />
 
 <Equation label="Interval" tex="P(a\le Z\le b)=\Phi(b)-\Phi(a)" />
 

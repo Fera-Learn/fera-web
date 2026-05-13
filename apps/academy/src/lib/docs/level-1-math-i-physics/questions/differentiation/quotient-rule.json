@@ -1,80 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "quotient-rule",
   "topicTitle": "Quotient Rule",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-quotient-rule-01",
-      "prompt": "State the quotient rule for differentiation.",
-      "answer": "For \\(y=\\frac{f(x)}{g(x)}\\) where \\(g(x)\\ne0\\):\n\\[y'=\\frac{f'(x)g(x)-f(x)g'(x)}{[g(x)]^2}\\]\nor equivalently \\(\\left(\\frac{f}{g}\\right)'=\\frac{f'g-fg'}{g^2}\\).",
+      "id": "math-i-differentiation-quotient-rule-01",
+      "prompt": "State the quotient rule for \\(\\frac{f(x)}{g(x)}\\).",
+      "answer": "The quotient rule is\n\\[\\frac{d}{dx}\\left(\\frac{f}{g}\\right)=\\frac{f'g-fg'}{g^2},\\quad g(x)\\ne0.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-quotient-rule-02",
-      "prompt": "Differentiate \\(f(x)=\\frac{x}{\\sin x}\\).",
-      "answer": "Let \\(f=x\\) so \\(f'=1\\), and \\(g=\\sin x\\) so \\(g'=\\cos x\\).\n\\[f'(x)=\\frac{1\\cdot\\sin x-x\\cdot\\cos x}{\\sin^2x}=\\frac{\\sin x-x\\cos x}{\\sin^2x}\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-quotient-rule-02",
+      "prompt": "What condition must hold before differentiating \\(f(x)/g(x)\\) at a point?",
+      "answer": "The denominator must be non-zero at that point: \\(g(x)\\ne0\\). Otherwise the quotient is not defined there, so it cannot have a derivative there.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-quotient-rule-03",
-      "prompt": "Find \\(\\frac{d}{dx}\\left(\\frac{x^2}{x+1}\\right)\\).",
-      "answer": "Using the quotient rule with \\(f=x^2\\) and \\(g=x+1\\):\n\\[\\frac{d}{dx}=\\frac{2x(x+1)-x^2(1)}{(x+1)^2}=\\frac{2x^2+2x-x^2}{(x+1)^2}=\\frac{x^2+2x}{(x+1)^2}=\\frac{x(x+2)}{(x+1)^2}\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-04",
-      "prompt": "Find \\(\\frac{d}{dx}\\left(\\frac{\\sin x}{x}\\right)\\) for \\(x\\ne0\\).",
-      "answer": "Using the quotient rule:\n\\[\\frac{d}{dx}\\left(\\frac{\\sin x}{x}\\right)=\\frac{\\cos x\\cdot x-\\sin x\\cdot1}{x^2}=\\frac{x\\cos x-\\sin x}{x^2}\\]",
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-05",
-      "prompt": "A particle's kinetic energy is \\(K=\\frac{1}{2}mv^2\\). If m is constant and v varies with time, find \\(dK/dt\\).",
-      "answer": "Since m is constant, treat it as a constant multiple:\n\\[\\frac{dK}{dt}=\\frac{1}{2}m\\cdot2v\\frac{dv}{dt}=mv\\frac{dv}{dt}\\]\nNote: this can also be seen as the product rule on \\(v\\cdot mv\\).",
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-06",
-      "prompt": "Differentiate \\(f(x)=\\frac{x^2+1}{x^2-1}\\).",
-      "answer": "Using the quotient rule:\n\\[f'(x)=\\frac{2x(x^2-1)-(x^2+1)(2x)}{(x^2-1)^2}=\\frac{2x^3-2x-2x^3-2x}{(x^2-1)^2}=\\frac{-4x}{(x^2-1)^2}\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-07",
-      "prompt": "Find the derivative of \\(y=\\frac{e^x}{x}\\) for \\(x>0\\).",
-      "answer": "Using the quotient rule:\n\\[\\frac{dy}{dx}=\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}=\\frac{e^x(x-1)}{x^2}\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-08",
-      "prompt": "Use the quotient rule to verify \\(\\frac{d}{dx}(\\cot x)=-\\csc^2 x\\).",
-      "answer": "Since \\(\\cot x=\\frac{\\cos x}{\\sin x}\\):\n\\[\\frac{d}{dx}(\\cot x)=\\frac{-\\sin x\\cdot\\sin x-\\cos x\\cdot\\cos x}{\\sin^2x}=\\frac{-\\sin^2x-\\cos^2x}{\\sin^2x}=\\frac{-1}{\\sin^2x}=-\\csc^2x\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-09",
-      "prompt": "For \\(f(x)=\\frac{2x+1}{x-3}\\), find where the function is increasing.",
-      "answer": "First find the derivative:\n\\[f'(x)=\\frac{2(x-3)-(2x+1)(1)}{(x-3)^2}=\\frac{2x-6-2x-1}{(x-3)^2}=\\frac{-7}{(x-3)^2}\\]\nSince \\((x-3)^2>0\\) for \\(x\\ne3\\) and \\(-7<0\\), we have \\(f'(x)<0\\) everywhere it exists. The function is decreasing on its domain.",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-quotient-rule-10",
-      "prompt": "State the domain restriction when applying the quotient rule.",
-      "answer": "The denominator function \\(g(x)\\) must be nonzero wherever we want to evaluate the derivative. So \\(g(x)\\ne0\\) is required. For example, \\(\\frac{1}{x}\\) has domain \\(x\\ne0\\), and this restriction carries over to its derivative.",
+      "id": "math-i-differentiation-quotient-rule-03",
+      "prompt": "Differentiate \\(\\frac{x}{\\sin x}\\).",
+      "answer": "Let \\(f=x\\), \\(g=\\sin x\\). Then \\(f'=1\\), \\(g'=\\cos x\\).\n\\[\\frac{d}{dx}\\left(\\frac{x}{\\sin x}\\right)=\\frac{\\sin x-x\\cos x}{\\sin^2x}.\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-04",
+      "prompt": "Differentiate \\(\\frac{e^x}{x}\\).",
+      "answer": "Let \\(f=e^x\\), \\(g=x\\). Then \\(f'=e^x\\), \\(g'=1\\).\n\\[\\frac{d}{dx}\\left(\\frac{e^x}{x}\\right)=\\frac{xe^x-e^x}{x^2}=\\frac{e^x(x-1)}{x^2}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-05",
+      "prompt": "Differentiate \\(\\frac{x^2}{x+1}\\).",
+      "answer": "Let \\(f=x^2\\), \\(g=x+1\\). Then\n\\[y'=\\frac{(2x)(x+1)-x^2(1)}{(x+1)^2}.\\]\nSimplify the numerator: \\(2x^2+2x-x^2=x^2+2x\\). Thus \\(y'=\\frac{x^2+2x}{(x+1)^2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-06",
+      "prompt": "Differentiate \\(\\frac{\\sin x}{x}\\).",
+      "answer": "Let \\(f=\\sin x\\), \\(g=x\\). Then\n\\[y'=\\frac{x\\cos x-\\sin x}{x^2}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-07",
+      "prompt": "Differentiate \\(\\frac{x^3+1}{x^2}\\) using the quotient rule.",
+      "answer": "Let \\(f=x^3+1\\), \\(g=x^2\\). Then \\(f'=3x^2\\), \\(g'=2x\\).\n\\[y'=\\frac{3x^2\\cdot x^2-(x^3+1)2x}{x^4}=\\frac{3x^4-2x^4-2x}{x^4}=\\frac{x^4-2x}{x^4}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-08",
+      "prompt": "Differentiate \\(\\frac{\\ln x}{x}\\) for \\(x>0\\).",
+      "answer": "Let \\(f=\\ln x\\), \\(g=x\\). Then \\(f'=1/x\\), \\(g'=1\\).\n\\[y'=\\frac{x(1/x)-\\ln x}{x^2}=\\frac{1-\\ln x}{x^2}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-09",
+      "prompt": "Find \\(f'(1)\\) for \\(f(x)=\\frac{x^2+1}{x+2}\\).",
+      "answer": "Differentiate:\n\\[f'(x)=\\frac{2x(x+2)-(x^2+1)}{(x+2)^2}.\\]\nAt \\(x=1\\),\n\\[f'(1)=\\frac{2(1)(3)-2}{9}=\\frac49.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-10",
+      "prompt": "Differentiate \\(\\frac{x^2-1}{x-1}\\) for \\(x\\ne1\\), and compare with simplifying first.",
+      "answer": "Simplifying first gives \\(\\frac{x^2-1}{x-1}=x+1\\), so the derivative is \\(1\\) for \\(x\\ne1\\). Quotient rule gives\n\\[\\frac{2x(x-1)-(x^2-1)}{(x-1)^2}=\\frac{x^2-2x+1}{(x-1)^2}=1\\]\nfor \\(x\\ne1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-11",
+      "prompt": "Differentiate \\(\\frac{x\\cos x}{x+1}\\).",
+      "answer": "Let numerator \\(f=x\\cos x\\), denominator \\(g=x+1\\). First \\(f'=\\cos x-x\\sin x\\). Then\n\\[y'=\\frac{(\\cos x-x\\sin x)(x+1)-x\\cos x}{(x+1)^2}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-12",
+      "prompt": "Explain the sign order in the quotient rule using \\((f/g)'\\).",
+      "answer": "The numerator is \\(f'g-fg'\\), not \\(fg'-f'g\\). A useful memory aid is low times derivative of high minus high times derivative of low, over low squared, if the quotient is high over low. Reversing the subtraction changes the sign of the derivative.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-13",
+      "prompt": "Differentiate \\(\\frac{x^2\\sin x}{e^x}\\).",
+      "answer": "Let \\(f=x^2\\sin x\\), \\(g=e^x\\). First \\(f'=2x\\sin x+x^2\\cos x\\), and \\(g'=e^x\\). Therefore\n\\[y'=\\frac{e^x(2x\\sin x+x^2\\cos x)-x^2\\sin x\\,e^x}{e^{2x}}.\\]\nThis may be simplified by cancelling one \\(e^x\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-14",
+      "prompt": "Differentiate \\(\\frac{x^2+1}{\\sin x}\\).",
+      "answer": "Let \\(f=x^2+1\\), \\(g=\\sin x\\). Then \\(f'=2x\\), \\(g'=\\cos x\\).\n\\[y'=\\frac{2x\\sin x-(x^2+1)\\cos x}{\\sin^2x}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-15",
+      "prompt": "Find \\(a\\) if \\(f(x)=\\frac{x+a}{x+1}\\) has \\(f'(0)=3\\).",
+      "answer": "Quotient rule gives\n\\[f'(x)=\\frac{1(x+1)-(x+a)1}{(x+1)^2}=\\frac{1-a}{(x+1)^2}.\\]\nAt \\(x=0\\), \\(f'(0)=1-a\\). Set \\(1-a=3\\), so \\(a=-2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-16",
+      "prompt": "Find all \\(x\\ne0\\) where \\(f(x)=\\frac{x^2+1}{x}\\) has horizontal tangent.",
+      "answer": "Differentiate by simplifying: \\(f(x)=x+1/x\\). Then\n\\[f'(x)=1-\\frac1{x^2}.\\]\nSet \\(f'(x)=0\\): \\(1=1/x^2\\), so \\(x^2=1\\). Thus \\(x=\\pm1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-17",
+      "prompt": "Find \\(k\\) if \\(f(x)=\\frac{kx}{x+2}\\) has \\(f'(2)=1\\).",
+      "answer": "Quotient rule gives\n\\[f'(x)=\\frac{k(x+2)-kx}{(x+2)^2}=\\frac{2k}{(x+2)^2}.\\]\nAt \\(x=2\\), \\(f'(2)=2k/16=k/8\\). Set \\(k/8=1\\), so \\(k=8\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-18",
+      "prompt": "A student differentiates \\(\\frac{x^2}{x+1}\\) as \\(\\frac{2x}{1}\\). Diagnose the error.",
+      "answer": "The student divided the derivatives, which is not the quotient rule. The denominator also changes and must be included:\n\\[\\frac{d}{dx}\\left(\\frac{x^2}{x+1}\\right)=\\frac{2x(x+1)-x^2}{(x+1)^2}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-19",
+      "prompt": "Show how the quotient rule follows from writing \\(f/g=f\\cdot g^{-1}\\).",
+      "answer": "Write \\(f/g=f g^{-1}\\). Product rule gives\n\\[(fg^{-1})'=f'g^{-1}+f(-g^{-2}g').\\]\nRewrite with a common denominator:\n\\[\\frac{f'}{g}-\\frac{fg'}{g^2}=\\frac{f'g-fg'}{g^2}.\\]\nThis is the quotient rule.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-quotient-rule-20",
+      "prompt": "Explain why the derivative of \\(\\frac{x^2-1}{x-1}\\) at \\(x=1\\) does not exist even though the simplified derivative is \\(1\\).",
+      "answer": "The original function is not defined at \\(x=1\\), because its denominator is zero. A derivative at a point requires the function value at that point. Although the expression equals \\(x+1\\) for \\(x\\ne1\\) and has nearby slope \\(1\\), the original function has no derivative at the missing point unless it is first redefined there.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

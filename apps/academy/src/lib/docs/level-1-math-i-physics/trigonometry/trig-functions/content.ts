@@ -4,7 +4,7 @@ The three primary trigonometric functions relate the angles of a right triangle 
 
 ### Definitions
 
-Given a right triangle with angle $\theta$, we define:
+Given a right triangle with angle \(\theta\), we define:
 
 <Equation label="Sine" tex="\sin\theta = \frac{\text{opposite}}{\text{hypotenuse}}" />
 
@@ -14,20 +14,20 @@ Given a right triangle with angle $\theta$, we define:
 
 ### The Unit Circle
 
-The unit circle is a circle with radius 1 centered at the origin. For any angle $\theta$, the coordinates of the point where the terminal side intersects the unit circle are $(\cos\theta, \sin\theta)$.
+The unit circle is a circle with radius 1 centered at the origin. For any angle \(\theta\), the coordinates of the point where the terminal side intersects the unit circle are \((\cos\theta, \sin\theta)\).
 
 Key angles and their values:
 
-- $\sin(0) = 0$, $\cos(0) = 1$, $\tan(0) = 0$
-- $\sin\left(\frac{\pi}{2}\right) = 1$, $\cos\left(\frac{\pi}{2}\right) = 0$, $\tan\left(\frac{\pi}{2}\right)$ is undefined
-- $\sin(\pi) = 0$, $\cos(\pi) = -1$, $\tan(\pi) = 0$
+- \(\sin(0) = 0\), \(\cos(0) = 1\), \(\tan(0) = 0\)
+- \(\sin\left(\frac{\pi}{2}\right) = 1\), \(\cos\left(\frac{\pi}{2}\right) = 0\), \(\tan\left(\frac{\pi}{2}\right)\) is undefined
+- \(\sin(\pi) = 0\), \(\cos(\pi) = -1\), \(\tan(\pi) = 0\)
 
 ### Graphs and Periodicity
 
 The trigonometric functions are periodic, meaning they repeat their values in a regular cycle.
 
-- **Sine** and **cosine** have period $2\pi$: $\sin(\theta + 2\pi) = \sin\theta$, $\cos(\theta + 2\pi) = \cos\theta$
-- **Tangent** has period $\pi$: $\tan(\theta + \pi) = \tan\theta$
+- **Sine** and **cosine** have period \(2\pi\): \(\sin(\theta + 2\pi) = \sin\theta\), \(\cos(\theta + 2\pi) = \cos\theta\)
+- **Tangent** has period \(\pi\): \(\tan(\theta + \pi) = \tan\theta\)
 
 The amplitude of sine and cosine is 1, while tangent has no bounded amplitude.
 

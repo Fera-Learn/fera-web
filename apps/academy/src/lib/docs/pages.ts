@@ -7,7 +7,8 @@ import {
   level1PhysicsCourseIntroHeadings,
 } from "./level-1-physics/course-page";
 import { level1PhysicsExamSets } from "./level-1-physics/exams";
-import { level1MathIPhysicsTopicBodies } from "./level-1-math-i-physics/content";
+import { getLevel1MathIPhysicsTopicBody } from "./level-1-math-i-physics/content";
+import { level1MathIPhysicsExamSets } from "./level-1-math-i-physics/exams";
 import { level1MathIIPhysicsTopicBodies } from "./level-1-math-ii-physics/content";
 import {
   level1MathIPhysicsCourseIntroBody,
@@ -1318,6 +1319,10 @@ function getLevel1PhysicsExamPaperSlug(setId: string, paperId: string) {
   return ["level-1-physics", "exam-papers", setId, paperId];
 }
 
+function getLevel1MathIPhysicsExamPaperSlug(setId: string, paperId: string) {
+  return ["level-1-math-i-physics", "exam-papers", setId, paperId];
+}
+
 export function getCourseExamPapersHref(course: CourseMeta) {
   return `/${getCourseExamPapersSlug(course).join("/")}`;
 }
@@ -1452,7 +1457,7 @@ const level1MathIPhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1MathIPhysicsEquationSheetSlug(),
   title: "Equation Sheet",
   description:
-    "A Level 1 - Math I (Physics) formula reference will appear here once the sheet is written.",
+    "A curated Level 1 - Math I (Physics) formula reference with a print-ready PDF view.",
   category: "Level 1 - Math I (Physics)",
   order: 46,
   badges: ["Equation Sheet"],
@@ -1511,6 +1516,21 @@ const level1PhysicsExamPaperPages = level1PhysicsExamSets.flatMap(
     ),
 );
 
+const level1MathIPhysicsExamPaperPages = level1MathIPhysicsExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel1MathIPhysicsExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 1 - Math I (Physics)",
+        order: 4000 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
+
 const level1MathIPhysicsTopicPages = level1MathIPhysicsSections.flatMap(
   (section, sectionIndex) =>
     section.topics.map((topic, topicIndex) =>
@@ -1522,7 +1542,7 @@ const level1MathIPhysicsTopicPages = level1MathIPhysicsSections.flatMap(
         category: "Level 1 - Math I (Physics)",
         order: 1000 + sectionIndex * 100 + topicIndex,
         badges: [section.title],
-        body: level1MathIPhysicsTopicBodies.get(topic.title),
+        body: getLevel1MathIPhysicsTopicBody(section.id, topic.title),
       }),
     ),
 );
@@ -1538,10 +1558,7 @@ const level1MathIIPhysicsTopicPages = level1MathIIPhysicsSections.flatMap(
         category: "Level 1 - Math II (Physics)",
         order: 2000 + sectionIndex * 100 + topicIndex,
         badges: [section.title],
-        body:
-          section.id === "probability" || section.id === "vectors"
-            ? level1MathIIPhysicsTopicBodies.get(topic.title)
-            : undefined,
+        body: level1MathIIPhysicsTopicBodies.get(topic.title),
       }),
     ),
 );
@@ -1584,6 +1601,7 @@ export const docsPages: DocPage[] = [
   level1MathIIPhysicsEquationSheetPage,
   level1PhysicsEquationSheetPage,
   ...courseExamPaperPages,
+  ...level1MathIPhysicsExamPaperPages,
   ...level1PhysicsExamPaperPages,
   ...level1MathIPhysicsTopicPages,
   ...level1MathIIPhysicsTopicPages,
@@ -1813,6 +1831,14 @@ export function isLevel1PhysicsEquationSheetPage(page: DocPage) {
     page.slug.length === 2 &&
     page.slug[0] === "level-1-physics" &&
     page.slug[1] === "equation-sheet"
+  );
+}
+
+export function isCourseEquationSheetPage(page: DocPage) {
+  return (
+    page.slug.length === 2 &&
+    page.slug[1] === "equation-sheet" &&
+    academyCourses.some((course) => course.scope === page.slug[0])
   );
 }
 

@@ -4,7 +4,7 @@ When computing limits, we can use established laws that govern how limits intera
 
 ### Basic Limit Laws
 
-If $\lim_{x \to a} f(x) = L$ and $\lim_{x \to a} g(x) = M$, then:
+If \(\lim_{x \to a} f(x) = L\) and \(\lim_{x \to a} g(x) = M\), then:
 
 **Sum Law:**
 <Equation label="Sum Rule" tex="\lim_{x \to a} [f(x) + g(x)] = L + M = \lim_{x \to a} f(x) + \lim_{x \to a} g(x)" />

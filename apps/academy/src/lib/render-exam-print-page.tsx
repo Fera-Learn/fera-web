@@ -8,9 +8,14 @@ import {
   getLevel1PhysicsExamPaper,
   level1PhysicsExamSets,
 } from "@/lib/docs/level-1-physics/exams";
+import {
+  getLevel1MathIPhysicsExamPaper,
+  level1MathIPhysicsExamSets,
+} from "@/lib/docs/level-1-math-i-physics/exams";
 
 type ExamPrintPageData = {
   backHref: string;
+  courseId: string;
   courseLabel: string;
   filename: string;
   mode: ExamPrintMode;
@@ -20,7 +25,22 @@ type ExamPrintPageData = {
   setLabel: string;
 };
 
-const LEVEL_1_PHYSICS_LABEL = "Level 1 - Physics";
+const examCourseConfigs = {
+  "level-1-math-i-physics": {
+    getPaper: getLevel1MathIPhysicsExamPaper,
+    label: "Level 1 - Math I (Physics)",
+    sets: level1MathIPhysicsExamSets,
+  },
+  "level-1-physics": {
+    getPaper: getLevel1PhysicsExamPaper,
+    label: "Level 1 - Physics",
+    sets: level1PhysicsExamSets,
+  },
+};
+
+function getExamCourseConfig(courseId: string) {
+  return examCourseConfigs[courseId as keyof typeof examCourseConfigs] ?? null;
+}
 
 function getMode(value: string | undefined): ExamPrintMode | null {
   if (value === "questions" || value === "answers") {
@@ -31,25 +51,29 @@ function getMode(value: string | undefined): ExamPrintMode | null {
 }
 
 function filenameFor({
+  courseId,
   mode,
   paperId,
   setId,
 }: {
+  courseId: string;
   mode: ExamPrintMode;
   paperId: string;
   setId: string;
 }) {
-  return `level-1-physics-${setId}-${paperId}-${mode}.pdf`;
+  return `${courseId}-${setId}-${paperId}-${mode}.pdf`;
 }
 
 export function getExamPrintPageData(slug: string[]): ExamPrintPageData | null {
   const [courseSlug, examPapersSlug, setId, paperId, printSlug, modeSlug] =
     slug;
   const mode = getMode(modeSlug);
+  const examConfig = courseSlug ? getExamCourseConfig(courseSlug) : null;
 
   if (
     slug.length !== 6 ||
-    courseSlug !== "level-1-physics" ||
+    !courseSlug ||
+    !examConfig ||
     examPapersSlug !== "exam-papers" ||
     printSlug !== "print" ||
     !setId ||
@@ -59,7 +83,7 @@ export function getExamPrintPageData(slug: string[]): ExamPrintPageData | null {
     return null;
   }
 
-  const set = level1PhysicsExamSets.find((entry) => entry.id === setId);
+  const set = examConfig.sets.find((entry) => entry.id === setId);
   const paper = set?.papers.find((entry) => entry.id === paperId);
 
   if (!set || !paper) {
@@ -67,9 +91,10 @@ export function getExamPrintPageData(slug: string[]): ExamPrintPageData | null {
   }
 
   return {
-    backHref: `/level-1-physics/exam-papers/${setId}/${paperId}`,
-    courseLabel: LEVEL_1_PHYSICS_LABEL,
-    filename: filenameFor({ mode, paperId, setId }),
+    backHref: `/${courseSlug}/exam-papers/${setId}/${paperId}`,
+    courseId: courseSlug,
+    courseLabel: examConfig.label,
+    filename: filenameFor({ courseId: courseSlug, mode, paperId, setId }),
     mode,
     paperId,
     paperTitle: paper.title,
@@ -85,7 +110,8 @@ export function RenderExamPrintPage({ slug }: { slug: string[] }) {
     notFound();
   }
 
-  const paper = getLevel1PhysicsExamPaper(data.setId, data.paperId);
+  const examConfig = getExamCourseConfig(data.courseId);
+  const paper = examConfig?.getPaper(data.setId, data.paperId);
 
   if (!paper) {
     notFound();

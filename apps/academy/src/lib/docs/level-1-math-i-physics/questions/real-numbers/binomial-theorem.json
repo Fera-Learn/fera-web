@@ -1,150 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "real-numbers",
   "topicId": "binomial-theorem",
   "topicTitle": "Binomial Theorem",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-binomial-theorem-01",
-      "prompt": "State the binomial theorem for \\((a+b)^n\\).",
-      "answer": "For a non-negative integer \\(n\\),\n\\[\n(a+b)^n=\\sum_{k=0}^{n}\\binom{n}{k}a^{n-k}b^k\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-01",
+      "prompt": "State the binomial theorem for \\((a+b)^n\\), where \\(n\\) is a non-negative integer.",
+      "answer": "The binomial theorem is\n\\[\n(a+b)^n=\\sum_{k=0}^{n}\\binom nk a^{n-k}b^k\n\\]\nThe expansion has \\(n+1\\) terms.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-02",
-      "prompt": "Expand \\((1+x)^3\\).",
-      "answer": "\\[\n(1+x)^3=1+3x+3x^2+x^3\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-02",
+      "prompt": "How many terms are in the expansion of \\((x+y)^7\\)?",
+      "answer": "The expansion of \\((a+b)^n\\) has \\(n+1\\) terms. Here \\(n=7\\), so the number of terms is\n\\[\n7+1=8\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-03",
-      "prompt": "Expand \\((1-x)^3\\).",
-      "answer": "Use alternating signs:\n\\[\n(1-x)^3=1-3x+3x^2-x^3\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-03",
+      "prompt": "Write the general term of \\((a+b)^5\\) using index \\(k\\).",
+      "answer": "The general term is\n\\[\n\\binom5k a^{5-k}b^k\n\\]\nwhere \\(k=0,1,2,3,4,5\\).",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-04",
-      "prompt": "Expand \\((a+b)^4\\).",
-      "answer": "Use row \\(4\\) of Pascal's triangle:\n\\[\n(a+b)^4=a^4+4a^3b+6a^2b^2+4ab^3+b^4\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-05",
-      "prompt": "Find the coefficient of \\(x^2\\) in \\((1+x)^5\\).",
-      "answer": "The coefficient is\n\\[\n\\binom{5}{2}=10\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-04",
+      "prompt": "Find the coefficient of \\(x^2y^3\\) in \\((x+y)^5\\).",
+      "answer": "In \\((x+y)^5\\), the term with \\(x^2y^3\\) has \\(k=3\\):\n\\[\n\\binom53 x^{5-3}y^3=\\binom53 x^2y^3\n\\]\nThe coefficient is\n\\[\n\\binom53=10\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-06",
-      "prompt": "Find the coefficient of \\(x^3\\) in \\((2+x)^5\\).",
-      "answer": "Use the term with \\(k=3\\):\n\\[\n\\binom{5}{3}2^{5-3}x^3=10\\cdot4x^3=40x^3\n\\]\nThe coefficient is \\(40\\).",
+      "id": "math-i-real-numbers-binomial-theorem-05",
+      "prompt": "Expand \\((x+2)^3\\).",
+      "answer": "Use \\((a+b)^3=a^3+3a^2b+3ab^2+b^3\\) with \\(a=x\\), \\(b=2\\):\n\\[\n(x+2)^3=x^3+3x^2(2)+3x(2^2)+2^3\n\\]\n\\[\n=x^3+6x^2+12x+8\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-07",
-      "prompt": "Find the coefficient of \\(x^2\\) in \\((3+2x)^4\\).",
-      "answer": "Use \\(k=2\\):\n\\[\n\\binom{4}{2}3^{2}(2x)^2=6\\cdot9\\cdot4x^2=216x^2\n\\]\nThe coefficient is \\(216\\).",
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-08",
-      "prompt": "Expand \\((1+x)^5\\).",
-      "answer": "\\[\n(1+x)^5=1+5x+10x^2+10x^3+5x^4+x^5\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-06",
+      "prompt": "Expand \\((2x+y)^2\\).",
+      "answer": "Use \\((a+b)^2=a^2+2ab+b^2\\) with \\(a=2x\\), \\(b=y\\):\n\\[\n(2x+y)^2=(2x)^2+2(2x)y+y^2\n\\]\n\\[\n=4x^2+4xy+y^2\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-09",
-      "prompt": "Expand \\((1-x)^5\\).",
-      "answer": "\\[\n(1-x)^5=1-5x+10x^2-10x^3+5x^4-x^5\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-10",
-      "prompt": "Simplify \\((1-x)^5+(1+x)^5\\).",
-      "answer": "Add the two expansions. Odd powers cancel and even powers double:\n\\[\n(1-x)^5+(1+x)^5=2+20x^2+10x^4\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-07",
+      "prompt": "Find the fourth term in \\((x+3)^6\\), counting from the first term.",
+      "answer": "The term number is \\(k+1\\), so the fourth term has \\(k=3\\). Use\n\\[\n\\binom63 x^{6-3}3^3\n\\]\n\\[\n=20x^3\\cdot27=540x^3\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-11",
-      "prompt": "Simplify \\((1+x)^5-(1-x)^5\\).",
-      "answer": "Subtract the expansions. Even powers cancel and odd powers double:\n\\[\n(1+x)^5-(1-x)^5=10x+20x^3+2x^5\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-08",
+      "prompt": "Find the coefficient of \\(x^4\\) in \\((x+1)^6\\).",
+      "answer": "The term containing \\(x^4\\) occurs when \\(x^{6-k}=x^4\\), so \\(k=2\\). The coefficient is\n\\[\n\\binom62\\cdot1^2=15\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-12",
-      "prompt": "Write the general term in \\((a+b)^n\\) containing \\(b^k\\).",
-      "answer": "The term containing \\(b^k\\) is\n\\[\n\\binom{n}{k}a^{n-k}b^k\n\\]",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-13",
-      "prompt": "Find the term containing \\(x^4\\) in \\((1+2x)^6\\).",
-      "answer": "Use \\(k=4\\):\n\\[\n\\binom{6}{4}(2x)^4=15\\cdot16x^4=240x^4\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-14",
-      "prompt": "Find the coefficient of \\(x^3\\) in \\((1-2x)^6\\).",
-      "answer": "Use \\(k=3\\):\n\\[\n\\binom{6}{3}(-2x)^3=20(-8)x^3=-160x^3\n\\]\nThe coefficient is \\(-160\\).",
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-theorem-15",
-      "prompt": "Why do odd powers cancel in \\((1-x)^n+(1+x)^n\\)?",
-      "answer": "The coefficient of \\(x^k\\) in \\((1-x)^n\\) is \\((-1)^k\\binom{n}{k}\\), while in \\((1+x)^n\\) it is \\(\\binom{n}{k}\\). If \\(k\\) is odd, the signs are opposite, so the terms cancel.",
+      "id": "math-i-real-numbers-binomial-theorem-09",
+      "prompt": "Expand \\((x-1)^4\\).",
+      "answer": "Use \\((x+(-1))^4\\):\n\\[\n\\sum_{k=0}^{4}\\binom4k x^{4-k}(-1)^k\n\\]\nCompute the terms:\n\\[\nx^4-4x^3+6x^2-4x+1\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-16",
-      "prompt": "Use the binomial theorem to expand \\((2-x)^4\\).",
-      "answer": "\\[\n(2-x)^4=2^4+4(2^3)(-x)+6(2^2)(x^2)+4(2)(-x^3)+x^4\n\\]\n\\[\n=16-32x+24x^2-8x^3+x^4\n\\]",
+      "id": "math-i-real-numbers-binomial-theorem-10",
+      "prompt": "Find the coefficient of \\(x^3\\) in \\((2x-3)^5\\).",
+      "answer": "The general term is\n\\[\n\\binom5k(2x)^{5-k}(-3)^k\n\\]\nFor \\(x^3\\), need \\(5-k=3\\), so \\(k=2\\). Then the term is\n\\[\n\\binom52(2x)^3(-3)^2=10\\cdot8x^3\\cdot9=720x^3\n\\]\nThe coefficient is \\(720\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-17",
-      "prompt": "Show that the coefficients in \\((1+x)^n\\) sum to \\(2^n\\).",
-      "answer": "Set \\(x=1\\) in the expansion:\n\\[\n(1+x)^n=\\sum_{k=0}^{n}\\binom{n}{k}x^k\n\\]\nThen\n\\[\n2^n=\\sum_{k=0}^{n}\\binom{n}{k}\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-binomial-theorem-11",
+      "prompt": "Explain why the coefficients in \\((x+y)^n\\) are symmetric.",
+      "answer": "The coefficient of \\(x^{n-k}y^k\\) is \\(\\binom nk\\). The matching term from the other end has coefficient \\(\\binom n{n-k}\\). Since\n\\[\n\\binom nk=\\binom n{n-k}\n\\]\nthe coefficients read the same forwards and backwards.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-18",
-      "prompt": "Show that \\(\\sum_{k=0}^{n}(-1)^k\\binom{n}{k}=0\\) for \\(n\\ge1\\).",
-      "answer": "Set \\(x=-1\\) in \\((1+x)^n\\):\n\\[\n(1-1)^n=\\sum_{k=0}^{n}\\binom{n}{k}(-1)^k\n\\]\nFor \\(n\\ge1\\), the left side is \\(0\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-binomial-theorem-12",
+      "prompt": "Use the binomial theorem to explain why the coefficients of \\((x+y)^4\\) are \\(1,4,6,4,1\\).",
+      "answer": "The coefficients are\n\\[\n\\binom40,\\binom41,\\binom42,\\binom43,\\binom44\n\\]\nEvaluate them:\n\\[\n1,4,6,4,1\n\\]\nTherefore\n\\[\n(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-19",
-      "prompt": "In the induction proof of the binomial theorem, why is Pascal's identity needed?",
-      "answer": "After multiplying \\((a+b)^N\\) by \\((a+b)\\), terms with the same power \\(a^{N-k+1}b^k\\) come from two neighbouring coefficients:\n\\[\n\\binom{N}{k}+\\binom{N}{k-1}\n\\]\nPascal's identity turns this into\n\\[\n\\binom{N+1}{k}\n\\]\nwhich is the required coefficient for power \\(N+1\\).",
+      "id": "math-i-real-numbers-binomial-theorem-13",
+      "prompt": "Find the constant term in \\((2x+\\frac1x)^6\\).",
+      "answer": "The general term is\n\\[\n\\binom6k(2x)^{6-k}\\left(\\frac1x\\right)^k\n\\]\nThe power of \\(x\\) is \\(6-k-k=6-2k\\). For a constant term, set \\(6-2k=0\\), so \\(k=3\\). The term is\n\\[\n\\binom63(2x)^3\\left(\\frac1x\\right)^3=20\\cdot8=160\n\\]",
       "rating": "****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-theorem-20",
-      "prompt": "Prove the binomial theorem step from \\(N\\) to \\(N+1\\) in outline.",
-      "answer": "Assume\n\\[\n(a+b)^N=\\sum_{k=0}^{N}\\binom{N}{k}a^{N-k}b^k\n\\]\nThen multiply by \\(a+b\\). The \\(a\\)-part and \\(b\\)-part give neighbouring coefficients for each middle term. Pascal's identity combines them:\n\\[\n\\binom{N}{k}+\\binom{N}{k-1}=\\binom{N+1}{k}\n\\]\nThe end terms are \\(a^{N+1}\\) and \\(b^{N+1}\\), so the result is the binomial theorem for \\(N+1\\).",
+      "id": "math-i-real-numbers-binomial-theorem-14",
+      "prompt": "Find the coefficient of \\(x^2\\) in \\((1+2x)^5\\).",
+      "answer": "The general term is\n\\[\n\\binom5k1^{5-k}(2x)^k\n\\]\nFor \\(x^2\\), take \\(k=2\\):\n\\[\n\\binom52(2x)^2=10\\cdot4x^2=40x^2\n\\]\nThe coefficient is \\(40\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-15",
+      "prompt": "Find all terms in \\((x+2)^5\\) that contain powers of \\(x\\) greater than \\(2\\).",
+      "answer": "The general term is \\(\\binom5k x^{5-k}2^k\\). Powers greater than \\(2\\) require\n\\[\n5-k>2\n\\]\nso \\(k=0,1,2\\). The terms are\n\\[\nx^5\n\\]\n\\[\n\\binom51x^4(2)=10x^4\n\\]\n\\[\n\\binom52x^3(4)=40x^3\n\\]\nSo the required terms are \\(x^5+10x^4+40x^3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-16",
+      "prompt": "Find the term independent of \\(x\\) in \\((x^2-\\frac{2}{x})^9\\).",
+      "answer": "The general term is\n\\[\n\\binom9k(x^2)^{9-k}\\left(-\\frac2x\\right)^k\n\\]\nThe power of \\(x\\) is \\(2(9-k)-k=18-3k\\). For an independent term, set \\(18-3k=0\\), giving \\(k=6\\). Then\n\\[\n\\binom96(x^2)^3\\left(-\\frac2x\\right)^6=84\\cdot x^6\\cdot\\frac{64}{x^6}=5376\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-17",
+      "prompt": "In \\((a+b)^n\\), determine which term contains \\(a^3b^{n-3}\\), and state its coefficient.",
+      "answer": "The general term is\n\\[\n\\binom nk a^{n-k}b^k\n\\]\nFor \\(a^3b^{n-3}\\), need \\(n-k=3\\), so \\(k=n-3\\). Its term number is \\(k+1=n-2\\). The coefficient is\n\\[\n\\binom n{n-3}=\\binom n3\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-18",
+      "prompt": "Diagnose the error: \\((x+y)^3=x^3+y^3\\).",
+      "answer": "The error is ignoring the middle terms produced by multiplying three brackets. By the binomial theorem,\n\\[\n(x+y)^3=\\binom30x^3+\\binom31x^2y+\\binom32xy^2+\\binom33y^3\n\\]\n\\[\n=x^3+3x^2y+3xy^2+y^3\n\\]\nOnly when the middle terms happen to be zero would \\(x^3+y^3\\) match.",
       "rating": "*****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-19",
+      "prompt": "Use the binomial theorem to prove \\(\\sum_{k=0}^{n}\\binom nk=2^n\\).",
+      "answer": "Start with the binomial theorem:\n\\[\n(a+b)^n=\\sum_{k=0}^{n}\\binom nk a^{n-k}b^k\n\\]\nSet \\(a=1\\) and \\(b=1\\):\n\\[\n(1+1)^n=\\sum_{k=0}^{n}\\binom nk1^{n-k}1^k\n\\]\nSince all powers of \\(1\\) equal \\(1\\),\n\\[\n2^n=\\sum_{k=0}^{n}\\binom nk\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-theorem-20",
+      "prompt": "Find the coefficient of \\(x^0\\) in \\((3x^2-\\frac{1}{x})^{12}\\), or explain why no such term exists.",
+      "answer": "The general term is\n\\[\n\\binom{12}{k}(3x^2)^{12-k}\\left(-\\frac1x\\right)^k\n\\]\nThe power of \\(x\\) is\n\\[\n2(12-k)-k=24-3k\n\\]\nFor \\(x^0\\), solve \\(24-3k=0\\), so \\(k=8\\). Thus a constant term exists. Its coefficient is\n\\[\n\\binom{12}{8}3^{12-8}(-1)^8=\\binom{12}{8}3^4\n\\]\n\\[\n=495\\cdot81=40095\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

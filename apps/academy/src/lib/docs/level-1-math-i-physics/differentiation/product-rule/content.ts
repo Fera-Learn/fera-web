@@ -10,9 +10,9 @@ Used to differentiate products of functions.
 
 ## Example
 
-Find $\frac{d}{dx}[x^2 \sin(x)]$
+Find \(\frac{d}{dx}[x^2 \sin(x)]\)
 
-Let $f(x) = x^2$, $g(x) = \sin(x)$
+Let \(f(x) = x^2\), \(g(x) = \sin(x)\)
 
 <Equation label="Example" tex="\frac{d}{dx}[x^2 \sin(x)] = 2x \cdot \sin(x) + x^2 \cdot \cos(x)" />
 

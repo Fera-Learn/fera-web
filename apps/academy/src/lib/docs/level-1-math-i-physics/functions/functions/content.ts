@@ -1,6 +1,6 @@
 ﻿export const content = String.raw`## Functions
 
-A **function** $f: A \to B$ maps each element of set $A$ (domain) to exactly one element of set $B$ (codomain/range).
+A **function** \(f: A \to B\) maps each element of set \(A\) (domain) to exactly one element of set \(B\) (codomain/range).
 
 ## Key Properties
 
@@ -14,5 +14,5 @@ A **function** $f: A \to B$ maps each element of set $A$ (domain) to exactly one
 
 ## Function Composition
 
-If $f: A \to B$ and $g: B \to C$, then:
+If \(f: A \to B\) and \(g: B \to C\), then:
 <Equation label="Composition" tex="(g \circ f)(x) = g(f(x))" />`;

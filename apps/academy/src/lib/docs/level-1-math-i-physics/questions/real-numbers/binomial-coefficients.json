@@ -1,150 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "real-numbers",
   "topicId": "binomial-coefficients",
   "topicTitle": "Binomial Coefficients",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-binomial-coefficients-01",
-      "prompt": "Evaluate \\(4!\\).",
-      "answer": "\\[\n4!=1\\cdot2\\cdot3\\cdot4=24\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-01",
+      "prompt": "State the factorial formula for \\(\\binom{n}{r}\\).",
+      "answer": "For integers \\(0\\le r\\le n\\),\n\\[\n\\binom{n}{r}=\\frac{n!}{r!(n-r)!}\n\\]\nwhere \\(n!\\) is the product of the positive integers from \\(1\\) to \\(n\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-02",
-      "prompt": "What is \\(0!\\)?",
-      "answer": "By definition,\n\\[\n0!=1\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-02",
+      "prompt": "Evaluate \\(\\binom{6}{0}\\).",
+      "answer": "Choosing no objects from \\(6\\) objects can be done in exactly one way. Also, by the boundary property,\n\\[\n\\binom{6}{0}=1\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-03",
-      "prompt": "Compute \\(\\binom{5}{2}\\).",
-      "answer": "\\[\n\\binom{5}{2}=\\frac{5!}{2!3!}=\\frac{5\\cdot4}{2}=10\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-03",
+      "prompt": "Evaluate \\(\\binom{5}{2}\\).",
+      "answer": "Use the formula:\n\\[\n\\binom{5}{2}=\\frac{5!}{2!3!}\n\\]\nCancel \\(3!\\):\n\\[\n=\\frac{5\\cdot4}{2\\cdot1}=10\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-04",
-      "prompt": "Compute \\(\\binom{6}{0}\\) and \\(\\binom{6}{6}\\).",
-      "answer": "The edge values are always \\(1\\):\n\\[\n\\binom{6}{0}=1,\\qquad \\binom{6}{6}=1\n\\]",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-05",
-      "prompt": "Use symmetry to evaluate \\(\\binom{8}{6}\\).",
-      "answer": "Use \\(\\binom{n}{k}=\\binom{n}{n-k}\\):\n\\[\n\\binom{8}{6}=\\binom{8}{2}=\\frac{8\\cdot7}{2}=28\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-06",
-      "prompt": "Compute \\(\\binom{7}{1}\\) and \\(\\binom{7}{6}\\).",
-      "answer": "Choosing one object from seven gives \\(7\\), and by symmetry choosing six is the same as leaving out one:\n\\[\n\\binom{7}{1}=7,\\qquad \\binom{7}{6}=7\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-04",
+      "prompt": "Use symmetry to rewrite \\(\\binom{12}{9}\\) with a smaller lower number, then evaluate it if possible.",
+      "answer": "By symmetry,\n\\[\n\\binom{12}{9}=\\binom{12}{12-9}=\\binom{12}{3}\n\\]\nThen\n\\[\n\\binom{12}{3}=\\frac{12\\cdot11\\cdot10}{3\\cdot2\\cdot1}=220\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-07",
-      "prompt": "Compute \\(\\binom{6}{3}\\).",
-      "answer": "\\[\n\\binom{6}{3}=\\frac{6!}{3!3!}=\\frac{6\\cdot5\\cdot4}{3\\cdot2\\cdot1}=20\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-05",
+      "prompt": "Evaluate \\(\\binom{7}{3}\\).",
+      "answer": "Use\n\\[\n\\binom{7}{3}=\\frac{7!}{3!4!}\n\\]\nCancel \\(4!\\):\n\\[\n=\\frac{7\\cdot6\\cdot5}{3\\cdot2\\cdot1}=35\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-08",
-      "prompt": "State Pascal's identity.",
-      "answer": "For suitable integers \\(n\\) and \\(k\\), Pascal's identity is\n\\[\n\\binom{n}{k-1}+\\binom{n}{k}=\\binom{n+1}{k}\n\\]",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-09",
-      "prompt": "Use Pascal's identity to compute \\(\\binom{5}{2}\\) from row \\(4\\).",
-      "answer": "\\[\n\\binom{5}{2}=\\binom{4}{1}+\\binom{4}{2}=4+6=10\n\\]",
+      "id": "math-i-real-numbers-binomial-coefficients-06",
+      "prompt": "How many ways are there to choose \\(2\\) students from \\(8\\) students when order does not matter?",
+      "answer": "This is a combination because order does not matter:\n\\[\n\\binom{8}{2}=\\frac{8\\cdot7}{2\\cdot1}=28\n\\]\nSo there are \\(28\\) ways.",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-binomial-coefficients-10",
-      "prompt": "Write row \\(4\\) of Pascal's triangle.",
-      "answer": "Row \\(4\\) is\n\\[\n1,\\ 4,\\ 6,\\ 4,\\ 1\n\\]\nThese are \\(\\binom{4}{0}\\) through \\(\\binom{4}{4}\\).",
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-11",
-      "prompt": "Show from the factorial definition that \\(\\binom{n}{0}=1\\).",
-      "answer": "\\[\n\\binom{n}{0}=\\frac{n!}{0!(n-0)!}=\\frac{n!}{1\\cdot n!}=1\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-12",
-      "prompt": "Show from the factorial definition that \\(\\binom{n}{k}=\\binom{n}{n-k}\\).",
-      "answer": "\\[\n\\binom{n}{n-k}=\\frac{n!}{(n-k)!(n-(n-k))!}=\\frac{n!}{(n-k)!k!}=\\binom{n}{k}\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-13",
-      "prompt": "Compute \\(\\binom{10}{3}\\).",
-      "answer": "\\[\n\\binom{10}{3}=\\frac{10\\cdot9\\cdot8}{3\\cdot2\\cdot1}=120\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-14",
-      "prompt": "Explain why \\(\\binom{n}{k}\\) is not defined here when \\(k>n\\).",
-      "answer": "The definition uses \\((n-k)!\\). In this topic factorials are defined for non-negative integers, so \\((n-k)!\\) is not available when \\(k>n\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-15",
-      "prompt": "Prove Pascal's identity using factorials.",
-      "answer": "Start with\n\\[\n\\binom{n}{k-1}+\\binom{n}{k}=\\frac{n!}{(k-1)!(n-k+1)!}+\\frac{n!}{k!(n-k)!}\n\\]\nUse common denominator \\(k!(n-k+1)!\\):\n\\[\n=\\frac{kn!+(n-k+1)n!}{k!(n-k+1)!}=\\frac{(n+1)n!}{k!(n-k+1)!}\n\\]\n\\[\n=\\frac{(n+1)!}{k!((n+1)-k)!}=\\binom{n+1}{k}\n\\]",
-      "rating": "****",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-16",
-      "prompt": "How many ways are there to choose \\(3\\) objects from \\(8\\)?",
-      "answer": "The number is\n\\[\n\\binom{8}{3}=\\frac{8\\cdot7\\cdot6}{3\\cdot2\\cdot1}=56\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-17",
-      "prompt": "Find \\(\\binom{n}{2}\\) as a formula in \\(n\\).",
-      "answer": "\\[\n\\binom{n}{2}=\\frac{n!}{2!(n-2)!}=\\frac{n(n-1)}{2}\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-18",
-      "prompt": "Find \\(\\binom{n}{3}\\) as a formula in \\(n\\).",
-      "answer": "\\[\n\\binom{n}{3}=\\frac{n!}{3!(n-3)!}=\\frac{n(n-1)(n-2)}{6}\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-19",
-      "prompt": "Use Pascal's identity to find \\(\\binom{7}{4}\\) from row \\(6\\).",
-      "answer": "\\[\n\\binom{7}{4}=\\binom{6}{3}+\\binom{6}{4}=20+15=35\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-binomial-coefficients-20",
-      "prompt": "Why are the binomial coefficients in row \\(n\\) symmetric?",
-      "answer": "Algebraically,\n\\[\n\\binom{n}{k}=\\binom{n}{n-k}\n\\]\nCombinatorially, choosing \\(k\\) objects is equivalent to choosing which \\(n-k\\) objects are left out.",
+      "id": "math-i-real-numbers-binomial-coefficients-07",
+      "prompt": "Find the row \\(5\\) entries of Pascal's triangle using binomial coefficients.",
+      "answer": "Row \\(5\\) contains\n\\[\n\\binom50,\\binom51,\\binom52,\\binom53,\\binom54,\\binom55\n\\]\nTheir values are\n\\[\n1,5,10,10,5,1\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-08",
+      "prompt": "Use Pascal's recurrence to compute \\(\\binom{6}{3}\\) from row \\(5\\).",
+      "answer": "Pascal's recurrence gives\n\\[\n\\binom{6}{3}=\\binom{5}{2}+\\binom{5}{3}\n\\]\nSince \\(\\binom52=10\\) and \\(\\binom53=10\\),\n\\[\n\\binom63=10+10=20\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-09",
+      "prompt": "Show that \\(\\binom{n}{1}=n\\).",
+      "answer": "Use the factorial formula:\n\\[\n\\binom{n}{1}=\\frac{n!}{1!(n-1)!}\n\\]\nSince \\(1!=1\\) and \\(n!=n(n-1)!\\),\n\\[\n\\binom{n}{1}=\\frac{n(n-1)!}{(n-1)!}=n\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-10",
+      "prompt": "A group has \\(6\\) labelled objects. Compare the number of ordered selections of \\(3\\) objects with unordered selections of \\(3\\) objects.",
+      "answer": "Unordered selections are counted by\n\\[\n\\binom63=20\n\\]\nFor each chosen group of \\(3\\), there are \\(3!=6\\) orders. Thus ordered selections are\n\\[\n3!\\binom63=6\\cdot20=120\n\\]\nOrder multiplies the count by \\(3!\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-11",
+      "prompt": "Explain combinatorially why \\(\\binom{n}{r}=\\binom{n}{n-r}\\).",
+      "answer": "Choosing \\(r\\) objects to include is equivalent to choosing the \\(n-r\\) objects to leave out. Each selection of included objects corresponds to exactly one selection of excluded objects, and vice versa. Therefore the counts are equal:\n\\[\n\\binom{n}{r}=\\binom{n}{n-r}\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-12",
+      "prompt": "Explain why the edge entries of Pascal's triangle are \\(1\\).",
+      "answer": "The edge entries are \\(\\binom n0\\) and \\(\\binom nn\\). There is exactly one way to choose no objects, and exactly one way to choose all \\(n\\) objects. Therefore\n\\[\n\\binom n0=\\binom nn=1\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-13",
+      "prompt": "Prove Pascal's recurrence \\(\\binom{n}{r}=\\binom{n-1}{r-1}+\\binom{n-1}{r}\\) by separating cases for one distinguished object.",
+      "answer": "Distinguish one object from the \\(n\\) objects. To choose \\(r\\) objects, either include the distinguished object or do not include it. If it is included, choose the remaining \\(r-1\\) from the other \\(n-1\\) objects: \\(\\binom{n-1}{r-1}\\). If it is not included, choose all \\(r\\) from the other \\(n-1\\) objects: \\(\\binom{n-1}{r}\\). These cases do not overlap and cover all choices, so\n\\[\n\\binom{n}{r}=\\binom{n-1}{r-1}+\\binom{n-1}{r}\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-14",
+      "prompt": "Evaluate \\(\\binom{10}{4}\\) efficiently using cancellation.",
+      "answer": "Use the shortened product form:\n\\[\n\\binom{10}{4}=\\frac{10\\cdot9\\cdot8\\cdot7}{4\\cdot3\\cdot2\\cdot1}\n\\]\nCancel \\(8/(4\\cdot2)=1\\), leaving\n\\[\n\\frac{10\\cdot9\\cdot7}{3}=10\\cdot3\\cdot7=210\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-15",
+      "prompt": "Find all \\(r\\) such that \\(\\binom{8}{r}=\\binom{8}{3}\\).",
+      "answer": "By symmetry,\n\\[\n\\binom{8}{3}=\\binom{8}{8-3}=\\binom85\n\\]\nFor row \\(8\\), the matching positions for \\(\\binom83\\) are \\(r=3\\) and \\(r=5\\). Therefore \\(r=3\\) or \\(r=5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-16",
+      "prompt": "A committee of \\(4\\) is chosen from \\(5\\) physicists and \\(3\\) mathematicians. How many committees have exactly \\(2\\) physicists?",
+      "answer": "Choose \\(2\\) physicists from \\(5\\) and \\(2\\) mathematicians from \\(3\\):\n\\[\n\\binom52\\binom32\n\\]\nEvaluate:\n\\[\n\\binom52=10,\\quad \\binom32=3\n\\]\nSo the number of committees is\n\\[\n10\\cdot3=30\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-17",
+      "prompt": "How many ways can \\(5\\) objects be chosen from \\(9\\) if at least one of two specified objects must be included?",
+      "answer": "Count all choices, then subtract choices with neither specified object. All choices:\n\\[\n\\binom95=126\n\\]\nIf neither specified object is included, choose all \\(5\\) from the remaining \\(7\\):\n\\[\n\\binom75=21\n\\]\nTherefore the number with at least one specified object is\n\\[\n126-21=105\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-18",
+      "prompt": "Diagnose the error: \\(\\binom{7}{2}=\\frac{7!}{2!}=2520\\).",
+      "answer": "The formula is missing the factor \\((7-2)!\\) in the denominator. The correct formula is\n\\[\n\\binom72=\\frac{7!}{2!5!}\n\\]\nCancel \\(5!\\):\n\\[\n\\binom72=\\frac{7\\cdot6}{2\\cdot1}=21\n\\]\nThe incorrect calculation counted ordered arrangements and extra factors, not unordered selections.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-19",
+      "prompt": "Prove algebraically that \\(\\binom{n}{r}=\\binom{n}{n-r}\\).",
+      "answer": "Start with the right side:\n\\[\n\\binom{n}{n-r}=\\frac{n!}{(n-r)!(n-(n-r))!}\n\\]\nSimplify the second factorial:\n\\[\nn-(n-r)=r\n\\]\nSo\n\\[\n\\binom{n}{n-r}=\\frac{n!}{(n-r)!r!}=\\frac{n!}{r!(n-r)!}=\\binom nr\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-binomial-coefficients-20",
+      "prompt": "Find the number of subsets of a set with \\(n\\) elements by using binomial coefficients, and explain the result.",
+      "answer": "A subset can have size \\(0,1,2,\\ldots,n\\). The number of subsets of size \\(r\\) is \\(\\binom nr\\). Therefore the total number is\n\\[\n\\sum_{r=0}^{n}\\binom nr\n\\]\nBy the binomial theorem with \\((1+1)^n\\),\n\\[\n\\sum_{r=0}^{n}\\binom nr=2^n\n\\]\nSo a set with \\(n\\) elements has \\(2^n\\) subsets.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

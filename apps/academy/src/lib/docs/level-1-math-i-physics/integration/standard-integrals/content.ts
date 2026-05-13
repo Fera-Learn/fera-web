@@ -44,9 +44,9 @@ These are the fundamental integrals that form the building blocks for solving mo
 
 | Expression | Substitution |
 |------------|-------------|
-| $\sqrt{a^2 - x^2}$ | $x = a \sin\theta$ |
-| $\sqrt{a^2 + x^2}$ | $x = a \tan\theta$ |
-| $\sqrt{x^2 - a^2}$ | $x = a \sec\theta$ |
+| \(\sqrt{a^2 - x^2}\) | \(x = a \sin\theta\) |
+| \(\sqrt{a^2 + x^2}\) | \(x = a \tan\theta\) |
+| \(\sqrt{x^2 - a^2}\) | \(x = a \sec\theta\) |
 
 These standard forms and substitution patterns enable integration of many rational and radical expressions.
 `;

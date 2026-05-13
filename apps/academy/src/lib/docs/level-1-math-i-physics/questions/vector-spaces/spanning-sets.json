@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "spanning-sets",
+  "topicTitle": "Spanning Sets",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-spanning-sets-01",
+      "prompt": "Define \\(\\operatorname{span}\\{\\mathbf v_1,\\ldots,\\mathbf v_k\\}\\).",
+      "answer": "The span is the set of all linear combinations of the listed vectors: \\[\\operatorname{span}\\{\\mathbf v_1,\\ldots,\\mathbf v_k\\}=\\{c_1\\mathbf v_1+\\cdots+c_k\\mathbf v_k:c_i\\in\\mathbb R\\}.\\] It contains every vector that can be built from the list.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-02",
+      "prompt": "Why does every span contain \\(\\mathbf0\\)?",
+      "answer": "Choose every coefficient equal to zero. Then \\(0\\mathbf v_1+\\cdots+0\\mathbf v_k=\\mathbf0\\). Therefore \\(\\mathbf0\\) is always in the span, even if the listed vectors are not independent.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-03",
+      "prompt": "Describe \\(\\operatorname{span}\\{(2,0)\\}\\) in \\(\\mathbb R^2\\).",
+      "answer": "Every vector in the span has form \\(t(2,0)=(2t,0)\\). Since \\(2t\\) can be any real number, this is exactly the \\(x\\)-axis: \\(\\{(x,0):x\\in\\mathbb R\\}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-04",
+      "prompt": "Does \\(\\{(1,0),(0,1)\\}\\) span \\(\\mathbb R^2\\)?",
+      "answer": "Yes. For any \\((x,y)\\in\\mathbb R^2\\), \\((x,y)=x(1,0)+y(0,1)\\). Since every target vector can be written as a linear combination of the two vectors, they span \\(\\mathbb R^2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-05",
+      "prompt": "Determine whether \\((3,4)\\) lies in \\(\\operatorname{span}\\{(1,2)\\}\\).",
+      "answer": "We need \\(t(1,2)=(3,4)\\). The first component gives \\(t=3\\). The second component would then be \\(2t=6\\), not \\(4\\). No single \\(t\\) works, so \\((3,4)\\) is not in the span.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-06",
+      "prompt": "Determine whether \\((3,6)\\) lies in \\(\\operatorname{span}\\{(1,2)\\}\\).",
+      "answer": "Solve \\(t(1,2)=(3,6)\\). Components give \\(t=3\\) and \\(2t=6\\), which are consistent. Hence \\((3,6)=3(1,2)\\), so \\((3,6)\\) lies in the span.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-07",
+      "prompt": "Find coefficients showing that \\((5,1)\\) is in the span of \\((1,1)\\) and \\((1,-1)\\).",
+      "answer": "Solve \\(a(1,1)+b(1,-1)=(5,1)\\). Components give \\(a+b=5\\) and \\(a-b=1\\). Adding gives \\(2a=6\\), so \\(a=3\\). Then \\(3+b=5\\), so \\(b=2\\). Thus \\((5,1)=3(1,1)+2(1,-1)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-08",
+      "prompt": "Do \\((1,0,0)\\) and \\((0,1,0)\\) span \\(\\mathbb R^3\\)?",
+      "answer": "No. Any linear combination has form \\(a(1,0,0)+b(0,1,0)=(a,b,0)\\), whose third component is always \\(0\\). For example, \\((0,0,1)\\) cannot be produced. Therefore the pair does not span \\(\\mathbb R^3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-09",
+      "prompt": "Show that \\((1,0,1)\\) and \\((0,1,1)\\) span the plane \\(z=x+y\\) in \\(\\mathbb R^3\\).",
+      "answer": "A linear combination is \\(a(1,0,1)+b(0,1,1)=(a,b,a+b)\\), which satisfies \\(z=x+y\\). Conversely, any vector in the plane has form \\((x,y,x+y)=x(1,0,1)+y(0,1,1)\\). Therefore the two vectors span exactly that plane.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-10",
+      "prompt": "Do \\((1,2)\\) and \\((2,4)\\) span \\(\\mathbb R^2\\)?",
+      "answer": "No. Both vectors lie on the same line because \\((2,4)=2(1,2)\\). Their linear combinations have form \\(a(1,2)+b(2,4)=(a+2b)(1,2)\\), still on that line. They cannot produce a vector such as \\((1,0)\\), so they do not span \\(\\mathbb R^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-11",
+      "prompt": "Show that \\((1,0),(1,1)\\) span \\(\\mathbb R^2\\).",
+      "answer": "Let \\((x,y)\\) be an arbitrary target. Solve \\(a(1,0)+b(1,1)=(x,y)\\). Components give \\(a+b=x\\) and \\(b=y\\). Thus \\(b=y\\) and \\(a=x-y\\). Since these coefficients exist for every \\((x,y)\\), the vectors span \\(\\mathbb R^2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-12",
+      "prompt": "Adding a vector already in a span does not change the span. Illustrate using \\((1,0),(0,1),(1,1)\\).",
+      "answer": "Since \\((1,1)=(1,0)+(0,1)\\), the third vector is already in \\(\\operatorname{span}\\{(1,0),(0,1)\\}\\). Any combination \\(a(1,0)+b(0,1)+c(1,1)\\) equals \\((a+c)(1,0)+(b+c)(0,1)\\). So the span is still \\(\\mathbb R^2\\), unchanged by adding \\((1,1)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-13",
+      "prompt": "For which \\(k\\) do \\((1,1)\\) and \\((1,k)\\) span \\(\\mathbb R^2\\)?",
+      "answer": "They span \\(\\mathbb R^2\\) exactly when they are not scalar multiples. Use determinant \\(\\begin{vmatrix}1&1\\\\1&k\\end{vmatrix}=k-1\\). The determinant is non-zero when \\(k\\ne1\\). Therefore the pair spans \\(\\mathbb R^2\\) for \\(k\\ne1\\), and fails when \\(k=1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-14",
+      "prompt": "Find all \\(a\\) such that \\((1,0,a),(0,1,a),(1,1,2a)\\) span \\(\\mathbb R^3\\).",
+      "answer": "The third vector is always the sum of the first two, since \\((1,1,2a)=(1,0,a)+(0,1,a)\\). Thus the span has at most two independent directions. A two-dimensional span cannot equal \\(\\mathbb R^3\\). Therefore there is no real value of \\(a\\) for which the three vectors span \\(\\mathbb R^3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-15",
+      "prompt": "For which \\(t\\) do \\((1,0,0),(0,1,0),(1,1,t)\\) span \\(\\mathbb R^3\\)?",
+      "answer": "Use the column determinant \\(\\det\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&t\\end{pmatrix}=t\\). The vectors span \\(\\mathbb R^3\\) exactly when this determinant is non-zero. Therefore they span \\(\\mathbb R^3\\) for \\(t\\ne0\\), and do not span it for \\(t=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-16",
+      "prompt": "For which \\(a\\) does \\(\\{(1,a),(a,1),(1,1)\\}\\) span \\(\\mathbb R^2\\)?",
+      "answer": "The set spans \\(\\mathbb R^2\\) if at least two vectors are not scalar multiples. If \\(a\\ne1\\), then \\((1,a)\\) and \\((1,1)\\) are not scalar multiples, so the set spans. If \\(a=1\\), all three vectors equal \\((1,1)\\), so the span is only a line. Therefore the set spans \\(\\mathbb R^2\\) exactly when \\(a\\ne1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-17",
+      "prompt": "For which \\(b\\) do \\((1,0,b)\\), \\((0,1,b)\\), and \\((1,1,1)\\) span \\(\\mathbb R^3\\)?",
+      "answer": "Use the determinant \\(\\det\\begin{pmatrix}1&0&1\\\\0&1&1\\b&b&1\\end{pmatrix}\\). Expanding gives \\(1(1-b)-0+1(0-b)=1-2b\\). The columns span \\(\\mathbb R^3\\) when \\(1-2b\\ne0\\). Thus they span for \\(b\\ne\\tfrac12\\), and fail for \\(b=\\tfrac12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-18",
+      "prompt": "A student says two vectors in \\(\\mathbb R^3\\) can span all of \\(\\mathbb R^3\\) if they are long enough. Explain the error.",
+      "answer": "Length does not determine how many independent directions a set provides. Linear combinations of two vectors use only two scalar coefficients, so their span is at most a plane through the origin. The vector lengths can be large, but the number of independent directions is still at most two. Therefore two vectors cannot span all of \\(\\mathbb R^3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-19",
+      "prompt": "Prove that the span of any list of vectors is a subspace.",
+      "answer": "Let \\(S=\\operatorname{span}\\{\\mathbf v_1,\\ldots,\\mathbf v_k\\}\\). The zero vector is in \\(S\\) by taking all coefficients zero. If \\(\\mathbf a,\\mathbf b\\in S\\), write \\(\\mathbf a=\\sum_i r_i\\mathbf v_i\\) and \\(\\mathbf b=\\sum_i s_i\\mathbf v_i\\). Then \\(\\lambda\\mathbf a+\\mu\\mathbf b=\\sum_i(\\lambda r_i+\\mu s_i)\\mathbf v_i\\), another linear combination of the same vectors. Hence \\(S\\) is a subspace.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-spanning-sets-20",
+      "prompt": "Prove that if \\(T\\subseteq S\\), then \\(\\operatorname{span}(T)\\subseteq\\operatorname{span}(S)\\).",
+      "answer": "Every vector in \\(\\operatorname{span}(T)\\) is a linear combination of vectors from \\(T\\). Since every vector of \\(T\\) is also a vector of \\(S\\), the same linear combination is also a linear combination of vectors from \\(S\\). Therefore every vector in \\(\\operatorname{span}(T)\\) lies in \\(\\operatorname{span}(S)\\), so \\(\\operatorname{span}(T)\\subseteq\\operatorname{span}(S)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

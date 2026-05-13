@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "subspaces",
+  "topicTitle": "Subspaces",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-subspaces-01",
+      "prompt": "State the linear-combination test for a subset \\(W\\) of a vector space \\(V\\) to be a subspace.",
+      "answer": "A non-empty subset \\(W\\subseteq V\\) is a subspace if, whenever \\(\\mathbf u,\\mathbf v\\in W\\) and \\(\\lambda,\\mu\\in\\mathbb R\\), the vector \\(\\lambda\\mathbf u+\\mu\\mathbf v\\) is also in \\(W\\). This single test combines closure under addition and scalar multiplication.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-02",
+      "prompt": "Why must every subspace contain the zero vector?",
+      "answer": "A subspace is itself a vector space using the inherited operations. Every vector space has an additive identity, so it must contain \\(\\mathbf 0\\). Equivalently, if \\(\\mathbf w\\in W\\), scalar closure gives \\(0\\mathbf w=\\mathbf 0\\in W\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-03",
+      "prompt": "Use the zero-vector test to decide whether \\(A=\\{(x,y)\\in\\mathbb R^2:y=3\\}\\) is a subspace.",
+      "answer": "The zero vector in \\(\\mathbb R^2\\) is \\((0,0)\\). It does not satisfy \\(y=3\\), so \\((0,0)\notin A\\). Since every subspace must contain the zero vector, \\(A\\) is not a subspace.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-04",
+      "prompt": "Is the line \\(L=\\{t(2,-1):t\\in\\mathbb R\\}\\) a subspace of \\(\\mathbb R^2\\)?",
+      "answer": "Yes. The set contains \\(\\mathbf 0\\) by choosing \\(t=0\\). If \\(s(2,-1),t(2,-1)\\in L\\), then \\(s(2,-1)+t(2,-1)=(s+t)(2,-1)\\in L\\). Also \\(\\lambda s(2,-1)=(\\lambda s)(2,-1)\\in L\\). Hence \\(L\\) is a subspace.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-05",
+      "prompt": "Show that \\(W=\\{(x,y,z)\\in\\mathbb R^3:z=0\\}\\) is closed under addition.",
+      "answer": "Let \\(\\mathbf u=(u_1,u_2,0)\\) and \\(\\mathbf v=(v_1,v_2,0)\\) be in \\(W\\). Then \\(\\mathbf u+\\mathbf v=(u_1+v_1,u_2+v_2,0+0)=(u_1+v_1,u_2+v_2,0)\\). The third component is still zero, so the sum is in \\(W\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-06",
+      "prompt": "Show that \\(W=\\{(x,y,z)\\in\\mathbb R^3:z=0\\}\\) is closed under scalar multiplication.",
+      "answer": "Let \\(\\mathbf w=(a,b,0)\\in W\\) and let \\(\\lambda\\in\\mathbb R\\). Then \\(\\lambda\\mathbf w=(\\lambda a,\\lambda b,\\lambda\\cdot0)=(\\lambda a,\\lambda b,0)\\). The third component remains zero, so \\(\\lambda\\mathbf w\\in W\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-07",
+      "prompt": "Decide whether \\(S=\\{(x,y)\\in\\mathbb R^2:x+y=1\\}\\) is a subspace.",
+      "answer": "The zero vector \\((0,0)\\) gives \\(0+0=0\\), not \\(1\\). Therefore \\(\\mathbf 0\notin S\\). Since every subspace contains the zero vector, \\(S\\) is not a subspace. It is a translated line, not a line through the origin.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-08",
+      "prompt": "Decide whether \\(S=\\{(x,y)\\in\\mathbb R^2:x+y=0\\}\\) is a subspace.",
+      "answer": "The zero vector satisfies \\(0+0=0\\). If \\(\\mathbf u=(a,b)\\) and \\(\\mathbf v=(c,d)\\) satisfy \\(a+b=0\\) and \\(c+d=0\\), then \\((a+c)+(b+d)=(a+b)+(c+d)=0\\). For scalar multiplication, \\(\\lambda a+\\lambda b=\\lambda(a+b)=0\\). Thus \\(S\\) is a subspace.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-09",
+      "prompt": "Show that \\(W=\\{(x,y,z):x-2y+z=0\\}\\) is a subspace of \\(\\mathbb R^3\\).",
+      "answer": "The zero vector satisfies \\(0-2\\cdot0+0=0\\). Let \\(\\mathbf u,\\mathbf v\\in W\\), so \\(u_1-2u_2+u_3=0\\) and \\(v_1-2v_2+v_3=0\\). For scalars \\(\\lambda,\\mu\\), \\[(\\lambda u_1+\\mu v_1)-2(\\lambda u_2+\\mu v_2)+(\\lambda u_3+\\mu v_3)=\\lambda0+\\mu0=0.\\] Hence every linear combination stays in \\(W\\), so \\(W\\) is a subspace.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-10",
+      "prompt": "Decide whether \\(Q=\\{(x,y):x^2+y^2=0\\}\\) is a subspace of \\(\\mathbb R^2\\).",
+      "answer": "Over the real numbers, \\(x^2+y^2=0\\) implies \\(x=0\\) and \\(y=0\\). Therefore \\(Q=\\{(0,0)\\}\\). The zero subspace is closed under addition because \\(\\mathbf0+\\mathbf0=\\mathbf0\\), and closed under scalar multiplication because \\(\\lambda\\mathbf0=\\mathbf0\\). Thus \\(Q\\) is a subspace.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-11",
+      "prompt": "Let \\(U=\\{(x,y,z):x+y=0\\}\\) and \\(W=\\{(x,y,z):z=0\\}\\). Show that \\(U\\cap W\\) is a subspace.",
+      "answer": "A vector in \\(U\\cap W\\) satisfies both \\(x+y=0\\) and \\(z=0\\). The zero vector satisfies both equations. If \\(\\mathbf u,\\mathbf v\\in U\\cap W\\), then any \\(\\lambda\\mathbf u+\\mu\\mathbf v\\) satisfies \\(x+y=\\lambda0+\\mu0=0\\) and \\(z=\\lambda0+\\mu0=0\\). Therefore the intersection is closed under linear combinations and is a subspace.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-12",
+      "prompt": "Explain why \\(C=\\{(x,y)\\in\\mathbb R^2:x\\ge0\\}\\) is not a subspace even though it contains \\((0,0)\\).",
+      "answer": "The zero vector is present, but scalar closure fails. The vector \\((1,0)\\) is in \\(C\\) because its first component is non-negative. Multiplying by \\(-1\\) gives \\((-1,0)\\), whose first component is negative, so \\((-1,0)\notin C\\). Therefore \\(C\\) is not a subspace.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-13",
+      "prompt": "Let \\(P_2\\) be polynomials of degree at most \\(2\\). Show that \\(W=\\{p\\in P_2:p(0)=0\\}\\) is a subspace.",
+      "answer": "The zero polynomial satisfies \\(0(0)=0\\). If \\(p,q\\in W\\), then \\((p+q)(0)=p(0)+q(0)=0+0=0\\), so \\(p+q\\in W\\). If \\(\\lambda\\in\\mathbb R\\), then \\((\\lambda p)(0)=\\lambda p(0)=0\\), so \\(\\lambda p\\in W\\). Therefore \\(W\\) is a subspace of \\(P_2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-14",
+      "prompt": "Let \\(M\\) be all real \\(2\\times2\\) matrices. Is \\(W=\\{A\\in M:A^T=A\\}\\) a subspace?",
+      "answer": "Yes. The zero matrix is symmetric because \\(0^T=0\\). If \\(A^T=A\\) and \\(B^T=B\\), then \\((A+B)^T=A^T+B^T=A+B\\), so \\(A+B\\) is symmetric. Also \\((\\lambda A)^T=\\lambda A^T=\\lambda A\\), so scalar multiples remain symmetric. Hence \\(W\\) is a subspace.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-15",
+      "prompt": "For which real \\(c\\) is \\(W_c=\\{(x,y,z):x+y+z=c\\}\\) a subspace of \\(\\mathbb R^3\\)?",
+      "answer": "A subspace must contain \\((0,0,0)\\). This vector satisfies \\(x+y+z=c\\) only when \\(c=0\\). When \\(c=0\\), linear combinations preserve the equation because sums of components combine linearly. When \\(c\\ne0\\), the zero vector is absent. Thus \\(W_c\\) is a subspace only for \\(c=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-16",
+      "prompt": "For which real \\(k\\) is \\(L_k=\\{(x,y):y=kx+2\\}\\) a subspace?",
+      "answer": "The zero vector would need to satisfy \\(0=k\\cdot0+2\\), which gives \\(0=2\\), impossible. Therefore \\((0,0)\notin L_k\\) for every real \\(k\\). Since a subspace must contain \\(\\mathbf0\\), no real value of \\(k\\) makes \\(L_k\\) a subspace.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-17",
+      "prompt": "For which real \\(a\\) is \\(W_a=\\{(x,y):y=ax\\}\\) a subspace of \\(\\mathbb R^2\\)?",
+      "answer": "For every \\(a\\in\\mathbb R\\), \\((0,0)\\in W_a\\). If \\((s,as),(t,at)\\in W_a\\), then \\(\\lambda(s,as)+\\mu(t,at)=(\\lambda s+\\mu t,a(\\lambda s+\\mu t))\\), which is still in \\(W_a\\). Therefore \\(W_a\\) is a subspace for all real \\(a\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-18",
+      "prompt": "A student says the union of two subspaces is always a subspace. Give a counterexample in \\(\\mathbb R^2\\).",
+      "answer": "Let \\(U\\) be the \\(x\\)-axis and \\(W\\) be the \\(y\\)-axis. Both are subspaces. The vectors \\((1,0)\\in U\\subset U\\cup W\\) and \\((0,1)\\in W\\subset U\\cup W\\), but their sum \\((1,1)\\) is on neither axis. Hence \\((1,1)\notin U\\cup W\\). The union is not closed under addition, so it is not a subspace.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-19",
+      "prompt": "Prove that the intersection of two subspaces \\(U\\) and \\(W\\) of \\(V\\) is a subspace of \\(V\\).",
+      "answer": "Since \\(U\\) and \\(W\\) are subspaces, \\(\\mathbf0\\in U\\) and \\(\\mathbf0\\in W\\), so \\(\\mathbf0\\in U\\cap W\\). If \\(\\mathbf a,\\mathbf b\\in U\\cap W\\), then they lie in both \\(U\\) and \\(W\\). For scalars \\(\\lambda,\\mu\\), \\(\\lambda\\mathbf a+\\mu\\mathbf b\\in U\\) because \\(U\\) is a subspace, and also in \\(W\\) because \\(W\\) is a subspace. Thus it lies in \\(U\\cap W\\), proving the intersection is a subspace.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-subspaces-20",
+      "prompt": "A subset \\(W\\subseteq V\\) is non-empty and closed under all linear combinations \\(\\lambda\\mathbf u+\\mu\\mathbf v\\). Prove that \\(W\\) is a subspace.",
+      "answer": "Because \\(W\\) is non-empty, choose \\(\\mathbf w\\in W\\). Taking \\(\\lambda=0\\) and \\(\\mu=0\\) gives \\(0\\mathbf w+0\\mathbf w=\\mathbf0\\in W\\). For closure under addition, take \\(\\lambda=1\\) and \\(\\mu=1\\), so \\(\\mathbf u+\\mathbf v\\in W\\). For scalar closure, take \\(\\mu=0\\), so \\(\\lambda\\mathbf u+0\\mathbf v=\\lambda\\mathbf u\\in W\\). The inherited vector-space laws come from \\(V\\), so \\(W\\) is a subspace.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

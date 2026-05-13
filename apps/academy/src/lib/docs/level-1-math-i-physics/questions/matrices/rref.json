@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "rref",
+  "topicTitle": "RREF",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-rref-01",
+      "prompt": "What does \\(RREF\\) stand for?",
+      "answer": "RREF stands for reduced row echelon form. It is a standard final form of a matrix after row reduction.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-02",
+      "prompt": "In RREF, what value must every leading entry in a nonzero row have?",
+      "answer": "Every leading entry in a nonzero row must be \\(1\\). Such a leading \\(1\\) is a pivot.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-03",
+      "prompt": "In RREF, what must be true about the other entries in a pivot column?",
+      "answer": "A pivot column must have zeros above and below its leading \\(1\\). Thus the pivot is the only nonzero entry in that column.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-04",
+      "prompt": "Where must \\(zero\\) rows appear in RREF?",
+      "answer": "Zero rows, if any are present, must appear at the bottom of the matrix, below all nonzero rows.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-05",
+      "prompt": "Identify the pivot columns in \\(\\begin{pmatrix}1&0&3\\\\0&1&-2\\end{pmatrix}\\).",
+      "answer": "A pivot column contains a leading \\(1\\). The first row has leading \\(1\\) in column \\(1\\), and the second row has leading \\(1\\) in column \\(2\\). Therefore the pivot columns are columns \\(1\\) and \\(2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-06",
+      "prompt": "For variables \\((x,y,z)\\), the RREF has pivot columns \\(1\\) and \\(3\\). Which variable is free?",
+      "answer": "Column \\(1\\) corresponds to \\(x\\), column \\(2\\) to \\(y\\), and column \\(3\\) to \\(z\\). Pivot columns \\(1\\) and \\(3\\) make \\(x\\) and \\(z\\) pivot variables. Column \\(2\\) is not a pivot column, so \\(y\\) is free.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-07",
+      "prompt": "Read the equations from \\(\\left(\\begin{array}{ccc|c}1&0&2&7\\\\0&1&-1&3\\end{array}\\right)\\).",
+      "answer": "Use variables \\((x,y,z)\\). The first row gives\n\\[\nx+2z=7.\n\\]\nThe second row gives\n\\[\ny-z=3.\n\\]\nThese are the equations represented by the RREF rows.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-08",
+      "prompt": "Is \\(\\begin{pmatrix}1&2&0\\\\0&1&0\\end{pmatrix}\\) in RREF? Explain.",
+      "answer": "No. The second row has a leading \\(1\\) in column \\(2\\). In RREF, a pivot column must have zeros above and below the pivot. But column \\(2\\) has a \\(2\\) above that leading \\(1\\). Therefore the matrix is not in RREF.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-09",
+      "prompt": "Find the solution set from \\(\\left(\\begin{array}{ccc|c}1&0&2&5\\\\0&1&-3&4\\end{array}\\right)\\).",
+      "answer": "The pivot variables are \\(x\\) and \\(y\\), and \\(z\\) is free. Let \\(z=t\\). The rows give\n\\[\nx+2z=5,\\qquad y-3z=4.\n\\]\nSubstitute \\(z=t\\):\n\\[\nx=5-2t,\\qquad y=4+3t.\n\\]\nThus\n\\[\n(x,y,z)=(5-2t,4+3t,t),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-10",
+      "prompt": "Decide whether \\(\\begin{pmatrix}1&0&0\\\\0&0&1\\\\0&0&0\\end{pmatrix}\\) is in RREF.",
+      "answer": "The nonzero rows have leading entries equal to \\(1\\). The pivot in column \\(1\\) has zeros above and below it, and the pivot in column \\(3\\) has zeros above and below it. The pivots move to the right as rows go down, and the zero row is at the bottom. Therefore the matrix is in RREF.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-11",
+      "prompt": "Explain why a \\(non\\)-pivot variable in RREF is called free.",
+      "answer": "A non-pivot variable does not have a row that solves directly for it as a leading variable. Instead, it can be assigned any real parameter value, and the pivot variables are then expressed in terms of that parameter. It is called free because the RREF imposes no direct pivot equation fixing its value.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-12",
+      "prompt": "Why is \\(RREF\\) useful for checking whether a system has infinitely many solutions?",
+      "answer": "RREF shows pivot and non-pivot columns clearly. If the system is consistent and at least one variable column is not a pivot column, that variable is free. A free variable can take infinitely many real values, and the pivot variables adjust according to the RREF equations. Therefore the system has infinitely many solutions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-13",
+      "prompt": "Find the solution set from \\(\\left(\\begin{array}{cccc|c}1&0&2&0&3\\\\0&1&-1&0&5\\\\0&0&0&1&-2\\end{array}\\right)\\) for variables \\((w,x,y,z)\\).",
+      "answer": "Pivot columns are \\(1\\), \\(2\\), and \\(4\\), so \\(w\\), \\(x\\), and \\(z\\) are pivot variables. The variable \\(y\\) is free; let \\(y=t\\). The rows give\n\\[\nw+2y=3,\\qquad x-y=5,\\qquad z=-2.\n\\]\nThus\n\\[\nw=3-2t,\\quad x=5+t,\\quad y=t,\\quad z=-2.\n\\]\nThe solution set is \\((w,x,y,z)=(3-2t,5+t,t,-2)\\), where \\(t\\in\\mathbb R\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-14",
+      "prompt": "A matrix in RREF has \\(5\\) variable columns and pivot columns \\(1\\), \\(3\\), and \\(5\\), with no inconsistent row. How many parameters are needed in the solution set?",
+      "answer": "Each non-pivot variable column gives one free variable. There are \\(5\\) variable columns total, and \\(3\\) of them are pivot columns. Thus there are\n\\[\n5-3=2\n\\]\nfree variables. The solution set needs \\(2\\) parameters.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-15",
+      "prompt": "For what values of \\(a\\) is \\(\\begin{pmatrix}1&a\\\\0&1\\end{pmatrix}\\) in RREF?",
+      "answer": "The second row has a leading \\(1\\) in column \\(2\\). For RREF, column \\(2\\) must have zeros above and below that pivot. The entry above it is \\(a\\), so we need\n\\[\na=0.\n\\]\nTherefore the matrix is in RREF only when \\(a=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-16",
+      "prompt": "For which values of \\(a\\) is \\(\\begin{pmatrix}1&0&a\\\\0&1&2\\\\0&0&0\\end{pmatrix}\\) in RREF?",
+      "answer": "The leading entries are \\(1\\) in columns \\(1\\) and \\(2\\). Column \\(1\\) has zeros above and below its pivot, and column \\(2\\) has zeros above and below its pivot. The entry \\(a\\) is in column \\(3\\), which is not a pivot column, so RREF does not require it to be zero. The zero row is already at the bottom. Therefore the matrix is in RREF for every real \\(a\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-17",
+      "prompt": "An augmented RREF for variables \\((x,y,z)\\) is \\(\\left(\\begin{array}{ccc|c}1&0&a&2\\\\0&1&1&3\\\\0&0&0&0\\end{array}\\right)\\). Describe the solution set in terms of \\(a\\).",
+      "answer": "The pivot variables are \\(x\\) and \\(y\\), and \\(z\\) is free. Let \\(z=t\\). The rows give\n\\[\nx+az=2,\\qquad y+z=3.\n\\]\nThus\n\\[\nx=2-at,\\qquad y=3-t,\\qquad z=t.\n\\]\nFor every real \\(a\\), the solution set is\n\\[\n(x,y,z)=(2-at,3-t,t),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-18",
+      "prompt": "Diagnose the error: from \\(\\left(\\begin{array}{ccc|c}1&0&2&4\\\\0&1&-1&5\\end{array}\\right)\\), a learner says \\(z=0\\) because there is no pivot in the \\(z\\)-column.",
+      "answer": "A non-pivot variable is free; it is not automatically zero. Let \\(z=t\\), where \\(t\\in\\mathbb R\\). The first row gives\n\\[\nx+2z=4,\n\\]\nso \\(x=4-2t\\). The second row gives\n\\[\ny-z=5,\n\\]\nso \\(y=5+t\\). The correct solution set is\n\\[\n(x,y,z)=(4-2t,5+t,t),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-19",
+      "prompt": "Explain why RREF is unique even though different valid row-operation paths may be used to reach it.",
+      "answer": "Different row-operation paths can produce different intermediate matrices, but they all preserve the same linear relationships among the rows and therefore the same solution information. RREF imposes strict final conditions: leading entries are \\(1\\), pivot columns are cleaned above and below, pivots move right, and zero rows are at the bottom. These conditions leave only one reduced row echelon representative for a given matrix. Thus the path may vary, but the final RREF is unique.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-rref-20",
+      "prompt": "A learner checks RREF by looking only for leading \\(1\\)s. Give a counterexample and explain the missing conditions.",
+      "answer": "The matrix\n\\[\n\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\n\\]\nhas leading \\(1\\)s in both nonzero rows, but it is not in RREF. The pivot in column \\(2\\) has a nonzero entry \\(2\\) above it. In RREF, each pivot column must have zeros everywhere except at the leading \\(1\\). One must also check that pivots move right as rows go down and that zero rows are at the bottom.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

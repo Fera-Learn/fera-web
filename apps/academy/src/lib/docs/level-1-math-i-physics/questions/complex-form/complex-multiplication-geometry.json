@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "complex-multiplication-geometry",
+  "topicTitle": "Complex Multiplication Geometry",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-01",
+      "prompt": "What geometric effect does multiplication by \\(i\\) have in the complex plane?",
+      "answer": "Multiplication by \\(i\\) rotates every complex number by\n\\[\n\\frac{\\pi}{2}\n\\]\nradians counterclockwise about the origin.\nFor example,\n\\[\ni(a+bi)=ai+b i^2=-b+ai,\n\\]\nso the point \\((a,b)\\) moves to \\((-b,a)\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-02",
+      "prompt": "State the modulus rule for a product \\(z_1z_2\\).",
+      "answer": "For complex numbers \\(z_1\\) and \\(z_2\\),\n\\[\n|z_1z_2|=|z_1|\\,|z_2|.\n\\]\nGeometrically, multiplication scales lengths by the modulus of the multiplier.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-03",
+      "prompt": "Find the image of \\(3+2i\\) after multiplication by \\(-1\\).",
+      "answer": "Compute\n\\[\n-1(3+2i)=-3-2i.\n\\]\nGeometrically, multiplying by \\(-1\\) rotates the vector by \\(\\pi\\) radians, sending \\((3,2)\\) to \\((-3,-2)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-04",
+      "prompt": "Find the image of \\(4-i\\) after multiplication by \\(2\\).",
+      "answer": "Compute\n\\[\n2(4-i)=8-2i.\n\\]\nGeometrically, multiplying by the positive real number \\(2\\) doubles the distance from the origin without changing direction.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-05",
+      "prompt": "Multiply \\(1+i\\) by \\(i\\) and describe the rotation.",
+      "answer": "Compute\n\\[\ni(1+i)=i+i^2=-1+i.\n\\]\nThe point \\((1,1)\\) has been rotated counterclockwise by \\(\\pi/2\\) to \\((-1,1)\\).\nThe modulus is unchanged because \\(|i|=1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-06",
+      "prompt": "If \\(z=2\\operatorname{cis}(\\pi/6)\\), find the modulus and argument of \\(3z\\).",
+      "answer": "Multiplication by \\(3\\) scales by \\(3\\) and adds argument \\(0\\).\nSo the modulus becomes\n\\[\n3\\cdot2=6,\n\\]\nand the argument remains\n\\[\n\\frac{\\pi}{6}.\n\\]\nThus \\(3z=6\\operatorname{cis}(\\pi/6)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-07",
+      "prompt": "If \\(z=5\\operatorname{cis}(\\pi/4)\\), find the polar form of \\(iz\\).",
+      "answer": "The number \\(i\\) has polar form \\(\\operatorname{cis}(\\pi/2)\\).\nMultiplying adds arguments and multiplies moduli:\n\\[\niz=5\\operatorname{cis}\\left(\\frac{\\pi}{2}+\\frac{\\pi}{4}\\right)=5\\operatorname{cis}\\frac{3\\pi}{4}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-08",
+      "prompt": "Find the geometric effect of multiplying by \\(2\\operatorname{cis}(-\\pi/3)\\).",
+      "answer": "A multiplier \\(r\\operatorname{cis}\\theta\\) scales by \\(r\\) and rotates by \\(\\theta\\).\nHere \\(r=2\\) and \\(\\theta=-\\pi/3\\).\nSo the operation doubles all distances from the origin and rotates vectors clockwise by \\(\\pi/3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-09",
+      "prompt": "Use polar form to find \\((1+i)(\\sqrt3+i)\\).",
+      "answer": "Write the factors in polar form:\n\\[\n1+i=\\sqrt2\\operatorname{cis}\\frac{\\pi}{4},\\quad \\sqrt3+i=2\\operatorname{cis}\\frac{\\pi}{6}.\n\\]\nMultiply moduli and add arguments:\n\\[\n(1+i)(\\sqrt3+i)=2\\sqrt2\\operatorname{cis}\\left(\\frac{\\pi}{4}+\\frac{\\pi}{6}\\right)=2\\sqrt2\\operatorname{cis}\\frac{5\\pi}{12}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-10",
+      "prompt": "A point has complex coordinate \\(2-2i\\). Find its image after multiplication by \\(\\operatorname{cis}(\\pi/2)\\).",
+      "answer": "Multiplication by \\(\\operatorname{cis}(\\pi/2)=i\\) rotates by \\(\\pi/2\\).\nCompute directly:\n\\[\ni(2-2i)=2i-2i^2=2+2i.\n\\]\nSo the image is\n\\[\n2+2i.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-11",
+      "prompt": "Explain why multiplication by a unit complex number preserves distance from the origin.",
+      "answer": "Let the multiplier be \\(u\\) with \\(|u|=1\\).\nFor any complex number \\(z\\), the product rule for moduli gives\n\\[\n|uz|=|u|\\,|z|=1\\cdot |z|=|z|.\n\\]\nSo the distance from the origin is unchanged. Geometrically, multiplication by \\(u\\) is a pure rotation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-12",
+      "prompt": "A student says multiplying by \\(1+i\\) is only a rotation by \\(\\pi/4\\). What is missing?",
+      "answer": "The argument of \\(1+i\\) is \\(\\pi/4\\), so the rotation part is correct.\nBut the modulus is\n\\[\n|1+i|=\\sqrt2.\n\\]\nTherefore multiplication by \\(1+i\\) rotates by \\(\\pi/4\\) and scales distances by \\(\\sqrt2\\).\nThe missing part is the scaling.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-13",
+      "prompt": "Find the multiplier that maps \\(1\\) to \\(-3i\\), and describe its geometry.",
+      "answer": "If \\(m\\cdot1=-3i\\), then \\(m=-3i\\).\nWrite it in polar form:\n\\[\n-3i=3\\operatorname{cis}\\left(-\\frac{\\pi}{2}\\right).\n\\]\nSo the transformation scales distances by \\(3\\) and rotates clockwise by \\(\\pi/2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-14",
+      "prompt": "Find the complex multiplier that rotates every point by \\(\\pi/6\\) and halves its distance from the origin.",
+      "answer": "A rotation by \\(\\theta\\) and scaling by \\(r\\) is multiplication by\n\\[\nr\\operatorname{cis}\\theta.\n\\]\nHere \\(r=1/2\\) and \\(\\theta=\\pi/6\\).\nThus the multiplier is\n\\[\n\\frac12\\operatorname{cis}\\frac{\\pi}{6}=\\frac12\\left(\\frac{\\sqrt3}{2}+\\frac12 i\\right)=\\frac{\\sqrt3}{4}+\\frac14 i.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-15",
+      "prompt": "For which real \\(t\\) does multiplication by \\(t+i\\) preserve distances from the origin?",
+      "answer": "A multiplier preserves distances exactly when its modulus is \\(1\\).\nSo require\n\\[\n|t+i|=1.\n\\]\nThis gives\n\\[\n\\sqrt{t^2+1}=1.\n\\]\nSquare both sides:\n\\[\nt^2+1=1,\\quad t^2=0.\n\\]\nThus\n\\[\nt=0.\n\\]\nThe multiplier is then \\(i\\), a pure rotation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-16",
+      "prompt": "For which real \\(t>0\\) does multiplication by \\(t\\operatorname{cis}(\\pi/3)\\) triple areas in the plane?",
+      "answer": "Multiplication by \\(t\\operatorname{cis}(\\pi/3)\\) scales all lengths by \\(t\\).\nAreas scale by the square of the length scale, so the area scale factor is \\(t^2\\).\nWe need\n\\[\nt^2=3.\n\\]\nSince \\(t>0\\),\n\\[\nt=\\sqrt3.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-17",
+      "prompt": "For which real \\(t\\) is multiplication by \\(2+ti\\) a scaling by \\(\\sqrt5\\)?",
+      "answer": "The scaling factor is the modulus of the multiplier:\n\\[\n|2+ti|=\\sqrt{2^2+t^2}=\\sqrt{4+t^2}.\n\\]\nSet this equal to \\(\\sqrt5\\):\n\\[\n\\sqrt{4+t^2}=\\sqrt5.\n\\]\nSquare both sides:\n\\[\n4+t^2=5,\\quad t^2=1.\n\\]\nThus\n\\[\nt=1\\quad \\text{or}\\quad t=-1.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-18",
+      "prompt": "Prove that multiplication by \\(re^{i\\theta}\\), with \\(r>0\\), scales lengths by \\(r\\) and rotates arguments by \\(\\theta\\).",
+      "answer": "Let \\(z=\\rho e^{i\\phi}\\), where \\(\\rho=|z|\\).\nThen\n\\[\n(re^{i\\theta})z=(re^{i\\theta})(\\rho e^{i\\phi})=r\\rho e^{i(\\theta+\\phi)}.\n\\]\nThe modulus of the product is \\(r\\rho\\), so the original length \\(\\rho\\) has been multiplied by \\(r\\).\nThe argument of the product is \\(\\phi+\\theta\\), adjusted by full turns if needed, so the direction has been rotated by \\(\\theta\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-19",
+      "prompt": "Show that multiplication by a non-zero complex number maps straight rays from the origin to straight rays from the origin.",
+      "answer": "Let the multiplier be \\(m=re^{i\\theta}\\) with \\(r>0\\).\nA ray from the origin consists of points\n\\[\nz=s e^{i\\phi},\\quad s\\ge0,\n\\]\nfor a fixed direction \\(\\phi\\).\nAfter multiplication,\n\\[\nmz=(re^{i\\theta})(s e^{i\\phi})=rs e^{i(\\theta+\\phi)}.\n\\]\nAs \\(s\\) varies over \\(s\\ge0\\), the new modulus \\(rs\\) also varies over non-negative values, while the new direction \\(\\theta+\\phi\\) is fixed.\nTherefore the image is another ray from the origin.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-multiplication-geometry-20",
+      "prompt": "A learner claims that multiplying by any complex number only rotates the plane. Disprove this and state the correct rule.",
+      "answer": "Use the multiplier \\(2\\).\nIt has argument \\(0\\), so it does not rotate points, but it sends\n\\[\n1+i \\mapsto 2+2i.\n\\]\nThe distance from the origin changes from\n\\[\n|1+i|=\\sqrt2\n\\]\nto\n\\[\n|2+2i|=2\\sqrt2.\n\\]\nSo multiplication can scale as well as rotate.\nThe correct rule is: multiplication by \\(r\\operatorname{cis}\\theta\\) scales by \\(r\\) and rotates by \\(\\theta\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

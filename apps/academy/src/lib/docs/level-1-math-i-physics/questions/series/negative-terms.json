@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "negative-terms",
+  "topicTitle": "Negative Terms",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-negative-terms-01",
+      "prompt": "What feature distinguishes a mixed-sign series from a positive series?",
+      "answer": "A mixed-sign series \\(\\sum a_n\\) has terms that may be positive and negative. Negative terms can subtract from previous partial sums, so cancellation becomes important.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-02",
+      "prompt": "What is \\(|a_n|\\) used for when studying signed series?",
+      "answer": "\\(|a_n|\\) is the magnitude of the term, ignoring its sign. It is used to form the positive series \\(\\sum |a_n|\\) when testing absolute convergence.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-03",
+      "prompt": "Write the first four terms of \\(\\sum_{n=1}^{\\infty}(-1)^{n+1}/n\\).",
+      "answer": "Substitute \\(n=1,2,3,4\\):\n\\[\n1-\\frac12+\\frac13-\\frac14.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-04",
+      "prompt": "State whether \\(\\sum_{n=1}^{\\infty}(-1)^n/n^2\\) is a positive series.",
+      "answer": "No. The factor \\((-1)^n\\) alternates signs, so the terms are negative for odd \\(n\\) and positive for even \\(n\\). Positive-series tests cannot be applied directly to the signed terms.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-05",
+      "prompt": "Find the magnitudes of the first four terms of \\(-1+1/2-1/3+1/4-\\cdots\\).",
+      "answer": "The terms are \\(-1,1/2,-1/3,1/4\\). Their magnitudes are\n\\[\n1,\\quad \\frac12,\\quad \\frac13,\\quad \\frac14.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-06",
+      "prompt": "If only \\(a_1\\) and \\(a_2\\) are negative and all later terms are non-negative, what part matters for convergence?",
+      "answer": "Changing or removing finitely many terms does not change whether an infinite series converges. The convergence behavior is determined by the tail \\(a_3+a_4+\\cdots\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-07",
+      "prompt": "Explain why \\(\\sum(-1)^n\\) diverges using partial sums.",
+      "answer": "The terms are \\(-1,1,-1,1,\\ldots\\). The partial sums are\n\\[\n-1,0,-1,0,\\ldots\n\\]\nThey oscillate and do not approach one limit, so the series diverges.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-08",
+      "prompt": "For \\(a_n=(-1)^n/(n+1)\\), write \\(|a_n|\\).",
+      "answer": "The sign factor disappears under absolute value:\n\\[\n|a_n|=\\left|\\frac{(-1)^n}{n+1}\\right|=\\frac{1}{n+1}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-09",
+      "prompt": "Why can cancellation make a signed series converge when the corresponding positive intuition is not enough?",
+      "answer": "Negative terms can offset positive terms, so partial sums may settle even when the magnitudes alone would accumulate too much. The alternating harmonic series \\(\\sum (-1)^{n+1}/n\\) is the standard example: signs create cancellation while magnitudes behave like the divergent harmonic series.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-10",
+      "prompt": "Show why positive-series comparison cannot be applied directly to \\(\\sum (-1)^{n+1}/n\\).",
+      "answer": "The terms are not all non-negative: they alternate between positive and negative. Positive-series comparison requires \\(a_n\\ge0\\). To use positive-series tools, one must instead test the magnitude series \\(\\sum |(-1)^{n+1}/n|=\\sum1/n\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-11",
+      "prompt": "Explain why finitely many negative terms do not affect convergence of an otherwise non-negative series.",
+      "answer": "Convergence depends on the limiting behavior of partial sums \\(s_n\\) as the index goes to infinity. Adding, removing, or changing finitely many initial terms shifts partial sums by a fixed finite amount but does not change whether the tail has a finite limit.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-12",
+      "prompt": "A charge model sums \\(+1,-1/2,+1/3,-1/4,\\ldots\\). What sign feature must be analyzed before using positive-series tests?",
+      "answer": "The signs alternate, so the series is not positive. One must analyze cancellation in the signed series or test the absolute-value series before applying positive-series comparison, ratio, root, or integral tests.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-13",
+      "prompt": "Classify the sign pattern of \\(a_n=(-1)^{n+1}/(n^2+1)\\) and give the magnitude sequence.",
+      "answer": "The factor \\((-1)^{n+1}\\) makes the signs alternate, starting positive at \\(n=1\\). The magnitudes are\n\\[\n|a_n|=\\frac{1}{n^2+1}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-14",
+      "prompt": "If \\(a_n=(-1)^n n/(n+1)\\), use the term condition to classify \\(\\sum a_n\\).",
+      "answer": "The term magnitudes satisfy\n\\[\n\\left|a_n\\right|=\\frac{n}{n+1}\\to1.\n\\]\nThe signed terms do not tend to \\(0\\), since they oscillate with magnitude approaching \\(1\\). Therefore the series diverges.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-15",
+      "prompt": "A signed series has negative terms only when \\(n=1,2,3\\), and for \\(n\\ge4\\), \\(a_n=1/n^2\\). Does it converge?",
+      "answer": "The tail is\n\\[\n\\sum_{n=4}^{\\infty}\\frac1{n^2},\n\\]\nwhich converges because it is part of a convergent \\(p\\)-series with \\(p=2\\). The finitely many negative initial terms do not affect convergence, so the full series converges.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-16",
+      "prompt": "Give an example of a mixed-sign series that diverges because its terms do not tend to zero, and justify it.",
+      "answer": "One example is \\(\\sum_{n=1}^{\\infty}(-1)^n\\). Its terms are \\(-1,1,-1,1,\\ldots\\), so they do not tend to \\(0\\). By the term condition, the series diverges.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-17",
+      "prompt": "A signed displacement correction has terms \\((-1)^{n+1}0.1^n\\). Why is it reasonable to test magnitudes first?",
+      "answer": "The magnitude series is \\(\\sum0.1^n\\), a positive geometric series with ratio \\(0.1\\). Since this converges, the total size of corrections is controlled, which also proves the signed series converges absolutely.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-18",
+      "prompt": "Diagnose the error: \\(\\sum (-1)^{n+1}/n\\) diverges because \\(\\sum1/n\\) diverges.",
+      "answer": "Divergence of the absolute-value series does not by itself prove the signed series diverges. The alternating harmonic series\n\\[\n\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}n\n\\]\nactually converges conditionally by cancellation, while \\(\\sum1/n\\) diverges.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-19",
+      "prompt": "Explain why rearranging a conditionally convergent mixed-sign series is risky.",
+      "answer": "For conditional convergence of \\(\\sum a_n\\), cancellation depends on the order of positive and negative terms. Rearranging changes how partial sums accumulate those cancellations and can change the limiting sum, so rearrangement is not safe without absolute convergence.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-negative-terms-20",
+      "prompt": "Prove that if \\(\\sum |a_n|\\) converges for a signed series, then \\(a_n\\to0\\).",
+      "answer": "If \\(\\sum |a_n|\\) converges, the terms of that positive series must tend to zero:\n\\[\n|a_n|\\to0.\n\\]\nSince \\(-|a_n|\\le a_n\\le |a_n|\\), the squeeze idea gives \\(a_n\\to0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

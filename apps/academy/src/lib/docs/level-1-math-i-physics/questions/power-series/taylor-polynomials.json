@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "taylor-polynomials",
+  "topicTitle": "Taylor Polynomials",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-taylor-polynomials-01",
+      "prompt": "State the degree \\(N\\) Taylor polynomial for \\(f\\) about \\(c\\).",
+      "answer": "It is \\(P_N(x)=\\sum_{n=0}^{N}\\frac{f^{(n)}(c)}{n!}(x-c)^n\\). It is finite because the sum stops at \\(N\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-02",
+      "prompt": "What centre defines a Maclaurin polynomial?",
+      "answer": "A Maclaurin polynomial is a Taylor polynomial centred at \\(0\\). It uses powers of \\(x\\) rather than powers of \\(x-c\\) for a nonzero centre.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-03",
+      "prompt": "Find the linear Maclaurin polynomial for \\(e^x\\).",
+      "answer": "For \\(e^x\\), \\(f(0)=1\\) and \\(f'(0)=1\\). Therefore \\(P_1(x)=1+x\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-04",
+      "prompt": "Find the quadratic Maclaurin polynomial for \\(\\cos x\\).",
+      "answer": "The needed values are \\(f(0)=1\\), \\(f'(0)=0\\), and \\(f''(0)=-1\\). Thus \\(P_2(x)=1-\\frac{x^2}{2}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-05",
+      "prompt": "Find \\(P_2(x)\\) for \\(f(x)=x^2+2x+1\\) about \\(0\\).",
+      "answer": "The function is already a polynomial of degree \\(2\\), so the quadratic Taylor polynomial equals it exactly: \\(P_2(x)=x^2+2x+1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-06",
+      "prompt": "Find \\(P_2(x)\\) for \\(e^x\\) about \\(0\\).",
+      "answer": "All derivatives of \\(e^x\\) at \\(0\\) equal \\(1\\). Therefore \\(P_2(x)=1+x+\\frac{x^2}{2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-07",
+      "prompt": "Find the cubic Maclaurin polynomial for \\(\\sin x\\).",
+      "answer": "The derivative values at \\(0\\) are \\(0\\), \\(1\\), \\(0\\), and \\(-1\\). Hence \\(P_3(x)=x-\\frac{x^3}{3!}=x-\\frac{x^3}{6}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-08",
+      "prompt": "Find the linear Taylor polynomial for \\(\\sqrt{x}\\) about \\(4\\).",
+      "answer": "Here \\(f(4)=2\\) and \\(f'(x)=\\frac{1}{2\\sqrt{x}}\\), so \\(f'(4)=\\frac14\\). Therefore \\(P_1(x)=2+\\frac{x-4}{4}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-09",
+      "prompt": "Find the quadratic Taylor polynomial for \\(\\ln x\\) about \\(1\\).",
+      "answer": "Values at \\(1\\) are \\(f(1)=0\\), \\(f'(1)=1\\), and \\(f''(1)=-1\\). Thus \\(P_2(x)=(x-1)-\\frac{(x-1)^2}{2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-10",
+      "prompt": "Find \\(P_3(x)\\) for \\(e^{2x}\\) about \\(0\\).",
+      "answer": "Derivative values at \\(0\\) are \\(1\\), \\(2\\), \\(4\\), and \\(8\\). Therefore \\(P_3(x)=1+2x+\\frac{4x^2}{2!}+\\frac{8x^3}{3!}=1+2x+2x^2+\\frac{4x^3}{3}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-11",
+      "prompt": "Explain why \\(P_N(c)=f(c)\\) for a Taylor polynomial about \\(c\\).",
+      "answer": "Substitute \\(x=c\\). Every term with \\((x-c)^n\\) for \\(n\\ge1\\) becomes zero. The only remaining term is \\(f(c)\\), so \\(P_N(c)=f(c)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-12",
+      "prompt": "Why is a quadratic Taylor term important near a stable equilibrium?",
+      "answer": "At equilibrium the linear coefficient is often zero. The first change in potential may be \\(\\frac{U''(c)(x-c)^2}{2}\\), which describes local curvature and the leading restoring behaviour.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-13",
+      "prompt": "Find the quadratic Taylor polynomial for \\(1/x\\) about \\(1\\).",
+      "answer": "At \\(1\\), \\(f=1\\), \\(f'=-1\\), and \\(f''=2\\). Therefore \\(P_2(x)=1-(x-1)+\\frac{2(x-1)^2}{2}=1-(x-1)+(x-1)^2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-14",
+      "prompt": "Find the cubic Taylor polynomial for \\(x^4\\) about \\(1\\).",
+      "answer": "Derivative values at \\(1\\) are \\(1\\), \\(4\\), \\(12\\), and \\(24\\). Hence \\(P_3(x)=1+4(x-1)+6(x-1)^2+4(x-1)^3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-15",
+      "prompt": "Construct \\(P_3(x)\\) about \\(2\\) if \\(f(2)=5\\), \\(f'(2)=1\\), \\(f''(2)=-4\\), and \\(f'''(2)=12\\).",
+      "answer": "Substitute into the Taylor formula: \\(P_3(x)=5+(x-2)-\\frac{4(x-2)^2}{2!}+\\frac{12(x-2)^3}{3!}\\). Simplifying gives \\(5+(x-2)-2(x-2)^2+2(x-2)^3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-16",
+      "prompt": "Choose a better centre, \\(0\\) or \\(5\\), to approximate \\(\\sqrt{x}\\) near \\(x=4.8\\), and justify.",
+      "answer": "The better centre is \\(5\\) because \\(4.8\\) is close to \\(5\\). Taylor polynomials are local approximations, and a smaller \\(|x-c|\\) usually makes higher powers smaller.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-17",
+      "prompt": "Why is the degree \\(3\\) Maclaurin polynomial for \\(\\cos x\\) the same as degree \\(2\\)?",
+      "answer": "The cubic coefficient uses \\(f'''(0)\\). For \\(\\cos x\\), \\(f'''(x)=\\sin x\\), so \\(f'''(0)=0\\). The cubic term is zero, leaving \\(P_3(x)=1-\\frac{x^2}{2}=P_2(x)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-18",
+      "prompt": "Diagnose the error: \\(P_2=f(c)+f'(c)(x-c)+f''(c)(x-c)^2\\).",
+      "answer": "The quadratic term is missing the factorial denominator. The correct coefficient is \\(\\frac{f''(c)}{2!}\\), so the student's quadratic term is twice too large.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-19",
+      "prompt": "Why is \\(P_N\\) exact for every \\(x\\) when \\(f\\) is a polynomial of degree at most \\(N\\)?",
+      "answer": "All derivatives above the polynomial degree are zero, so no higher-order terms remain after degree \\(N\\). The Taylor polynomial captures every term of \\(f\\), making the remainder \\(0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-polynomials-20",
+      "prompt": "Explain one reason a linear approximation may fail even near the centre.",
+      "answer": "If \\(f'(c)=0\\), the linear correction vanishes, so the first non-zero change may be quadratic. Then \\(P_1\\) can miss the leading behaviour, as in potential energy near stable equilibrium.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

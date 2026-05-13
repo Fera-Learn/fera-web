@@ -4,7 +4,7 @@ When integrating rational functions where the numerator's degree is greater than
 
 ### When to Use
 
-For $\int \frac{P(x)}{Q(x)} \, dx$ where $\deg(P) \geq \deg(Q)$, divide first to get a polynomial plus a proper fraction.
+For \(\int \frac{P(x)}{Q(x)} \, dx\) where \(\deg(P) \geq \deg(Q)\), divide first to get a polynomial plus a proper fraction.
 
 ### Polynomial Long Division Steps
 
@@ -15,25 +15,25 @@ For $\int \frac{P(x)}{Q(x)} \, dx$ where $\deg(P) \geq \deg(Q)$, divide first to
 
 ### Example
 
-Divide $2x^3 + 4x^2 - 3x + 1$ by $x^2 + 1$:
+Divide \(2x^3 + 4x^2 - 3x + 1\) by \(x^2 + 1\):
 
 <Equation label="Division Setup" tex="\begin{aligned} 2x^3 + 4x^2 - 3x + 1 &\div (x^2 + 1) \end{aligned}" />
 
-**Step 1:** $2x^3 \div x^2 = 2x$
+**Step 1:** \(2x^3 \div x^2 = 2x\)
 
-Multiply: $2x(x^2 + 1) = 2x^3 + 2x$
+Multiply: \(2x(x^2 + 1) = 2x^3 + 2x\)
 
-Subtract: $(2x^3 + 4x^2 - 3x + 1) - (2x^3 + 2x) = 4x^2 - 5x + 1$
+Subtract: \((2x^3 + 4x^2 - 3x + 1) - (2x^3 + 2x) = 4x^2 - 5x + 1\)
 
-**Step 2:** $4x^2 \div x^2 = 4$
+**Step 2:** \(4x^2 \div x^2 = 4\)
 
-Multiply: $4(x^2 + 1) = 4x^2 + 4$
+Multiply: \(4(x^2 + 1) = 4x^2 + 4\)
 
-Subtract: $(4x^2 - 5x + 1) - (4x^2 + 4) = -5x - 3$
+Subtract: \((4x^2 - 5x + 1) - (4x^2 + 4) = -5x - 3\)
 
 <Equation label="Result" tex="2x^3 + 4x^2 - 3x + 1 = (x^2 + 1)(2x + 4) + (-5x - 3)" />
 
-So: $\frac{2x^3 + 4x^2 - 3x + 1}{x^2 + 1} = 2x + 4 + \frac{-5x - 3}{x^2 + 1}$
+So: \(\frac{2x^3 + 4x^2 - 3x + 1}{x^2 + 1} = 2x + 4 + \frac{-5x - 3}{x^2 + 1}\)
 
 ### Integration Application
 

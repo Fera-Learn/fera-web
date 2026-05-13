@@ -1,6 +1,6 @@
 export const content = String.raw`## Algebraic Methods for Evaluating Limits
 
-While direct substitution works for many functions, algebraic manipulation is often necessary when direct substitution produces an indeterminate form like $\frac{0}{0}$.
+While direct substitution works for many functions, algebraic manipulation is often necessary when direct substitution produces an indeterminate form like \(\frac{0}{0}\).
 
 ### Direct Substitution
 
@@ -14,7 +14,7 @@ For rational functions, direct substitution works when the denominator is non-ze
 
 ### Factoring Method
 
-When direct substitution gives $\frac{0}{0}$, factor and cancel:
+When direct substitution gives \(\frac{0}{0}\), factor and cancel:
 
 <Equation label="Factoring Example" tex="\lim_{x \to 2} \frac{x^2 - 4}{x - 2} = \lim_{x \to 2} \frac{(x-2)(x+2)}{x-2} = \lim_{x \to 2} (x+2) = 4" />
 
@@ -32,14 +32,14 @@ For expressions involving differences of cubes:
 
 <Equation label="Difference of Cubes" tex="\lim_{x \to 8} \frac{x^{2/3} - 4}{x - 8} = \lim_{x \to 8} \frac{(x^{1/3} - 2)(x^{1/3} + 2)}{x - 8}" />
 
-Let $u = x^{1/3}$, so when $x \to 8$, $u \to 2$:
+Let \(u = x^{1/3}\), so when \(x \to 8\), \(u \to 2\):
 
 <Equation label="Substituted Form" tex="= \lim_{u \to 2} \frac{(u-2)(u+2)}{u^3 - 8} = \lim_{u \to 2} \frac{u+2}{u^2 + 2u + 4} = \frac{4}{12} = \frac{1}{3}" />
 
 ### Strategy Summary
 
 1. Try direct substitution first
-2. If result is $\frac{0}{0}$, factor and cancel
+2. If result is \(\frac{0}{0}\), factor and cancel
 3. If radicals are present, rationalize
 4. Consider substitution for complex expressions
 5. Apply limit laws after simplification`;

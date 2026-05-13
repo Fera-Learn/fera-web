@@ -1,150 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "real-numbers",
   "topicId": "proof-by-induction",
   "topicTitle": "Proof by Induction",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-proof-by-induction-01",
-      "prompt": "State the two main parts of a proof by induction.",
-      "answer": "A proof by induction needs a base case and an induction step. The base case proves the first statement. The induction step proves that if the statement is true for \\(n=N\\), then it is true for \\(n=N+1\\).",
+      "id": "math-i-real-numbers-proof-by-induction-01",
+      "prompt": "State the two main steps required in a proof by mathematical induction.",
+      "answer": "The two main steps are: first, prove the base case, usually \\(P(1)\\) or \\(P(0)\\). Second, prove the inductive step: assume \\(P(k)\\) is true for an arbitrary integer \\(k\\) in the range, then prove \\(P(k+1)\\) is true.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-02",
-      "prompt": "For the statement \\(P(n): 1+2+\\cdots+n=\\frac{n(n+1)}{2}\\), verify the base case \\(n=1\\).",
-      "answer": "For \\(n=1\\), the left side is \\(1\\). The right side is\n\\[\n\\frac{1(1+1)}{2}=1\n\\]\nSo the base case holds.",
+      "id": "math-i-real-numbers-proof-by-induction-02",
+      "prompt": "For the statement \\(1+2+\\cdots+n=\\frac{n(n+1)}2\\) for \\(n\\ge1\\), verify the base case.",
+      "answer": "For \\(n=1\\), the left side is \\(1\\). The right side is\n\\[\n\\frac{1(1+1)}2=\\frac22=1\n\\]\nBoth sides are equal, so the base case is true.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-03",
-      "prompt": "What is the induction hypothesis for proving \\(\\sum_{k=1}^{n}k=\\frac{n(n+1)}{2}\\)?",
-      "answer": "Assume the formula is true for \\(n=N\\):\n\\[\n\\sum_{k=1}^{N}k=\\frac{N(N+1)}{2}\n\\]",
+      "id": "math-i-real-numbers-proof-by-induction-03",
+      "prompt": "Write the inductive hypothesis for proving \\(1+3+5+\\cdots+(2n-1)=n^2\\) for \\(n\\ge1\\).",
+      "answer": "Assume the statement is true for an arbitrary positive integer \\(k\\). The inductive hypothesis is\n\\[\n1+3+5+\\cdots+(2k-1)=k^2\n\\]\nThis assumption is then used to prove the case \\(k+1\\).",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-04",
-      "prompt": "Complete the induction step: if \\(\\sum_{k=1}^{N}k=\\frac{N(N+1)}{2}\\), find \\(\\sum_{k=1}^{N+1}k\\).",
-      "answer": "Add the next term:\n\\[\n\\sum_{k=1}^{N+1}k=\\sum_{k=1}^{N}k+(N+1)\n\\]\nUsing the hypothesis,\n\\[\n=\\frac{N(N+1)}{2}+(N+1)=\\frac{(N+1)(N+2)}{2}\n\\]",
+      "id": "math-i-real-numbers-proof-by-induction-04",
+      "prompt": "If \\(P(k)\\) is \\(2+4+\\cdots+2k=k(k+1)\\), write the statement \\(P(k+1)\\).",
+      "answer": "Replace \\(k\\) by \\(k+1\\). The left side gains the next even term \\(2(k+1)\\):\n\\[\n2+4+\\cdots+2k+2(k+1)\n\\]\nThe right side becomes\n\\[\n(k+1)((k+1)+1)=(k+1)(k+2)\n\\]\nSo \\(P(k+1)\\) is \\(2+4+\\cdots+2k+2(k+1)=(k+1)(k+2)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-05",
+      "prompt": "Complete the inductive step: if \\(1+2+\\cdots+k=\\frac{k(k+1)}2\\), show \\(1+2+\\cdots+k+(k+1)=\\frac{(k+1)(k+2)}2\\).",
+      "answer": "Start from the left side for \\(k+1\\):\n\\[\n1+2+\\cdots+k+(k+1)\n\\]\nUse the inductive hypothesis:\n\\[\n=\\frac{k(k+1)}2+(k+1)\n\\]\nPut over a common denominator:\n\\[\n=\\frac{k(k+1)+2(k+1)}2\n\\]\nFactor \\(k+1\\):\n\\[\n=\\frac{(k+1)(k+2)}2\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-05",
-      "prompt": "Why is checking \\(n=1,2,3\\) not enough to prove a statement for all positive integers?",
-      "answer": "It only proves three cases. A proof for all positive integers needs a mechanism that carries truth from an arbitrary case to the next case. That mechanism is the induction step.",
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-06",
-      "prompt": "Verify the base case \\(n=1\\) for \\(\\sum_{k=1}^{n}k^2=\\frac{n(n+1)(2n+1)}{6}\\).",
-      "answer": "The left side is \\(1^2=1\\). The right side is\n\\[\n\\frac{1(2)(3)}{6}=1\n\\]\nSo the base case holds.",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-07",
-      "prompt": "State the induction hypothesis for \\(\\sum_{k=1}^{n}k^2=\\frac{n(n+1)(2n+1)}{6}\\).",
-      "answer": "Assume that for some arbitrary \\(N\\ge1\\),\n\\[\n\\sum_{k=1}^{N}k^2=\\frac{N(N+1)(2N+1)}{6}\n\\]",
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-08",
-      "prompt": "Using the induction hypothesis for squares, write \\(\\sum_{k=1}^{N+1}k^2\\) in terms of \\(N\\).",
-      "answer": "\\[\n\\sum_{k=1}^{N+1}k^2=\\sum_{k=1}^{N}k^2+(N+1)^2\n\\]\nUsing the hypothesis,\n\\[\n=\\frac{N(N+1)(2N+1)}{6}+(N+1)^2\n\\]",
+      "id": "math-i-real-numbers-proof-by-induction-06",
+      "prompt": "Verify the base case for \\(2^n\\ge n+1\\) for all integers \\(n\\ge1\\).",
+      "answer": "For \\(n=1\\), the left side is \\(2^1=2\\). The right side is \\(1+1=2\\). Since \\(2\\ge2\\), the base case is true.",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-09",
-      "prompt": "Simplify \\(\\frac{N(N+1)(2N+1)}{6}+(N+1)^2\\) into the formula for \\(N+1\\).",
-      "answer": "Factor \\(N+1\\):\n\\[\n\\frac{N(N+1)(2N+1)}{6}+(N+1)^2=(N+1)\\left(\\frac{N(2N+1)}{6}+N+1\\right)\n\\]\n\\[\n=\\frac{(N+1)(2N^2+7N+6)}{6}=\\frac{(N+1)(N+2)(2N+3)}{6}\n\\]\nThis is \\(\\frac{(N+1)((N+1)+1)(2(N+1)+1)}{6}\\).",
+      "id": "math-i-real-numbers-proof-by-induction-07",
+      "prompt": "In an induction proof, why must \\(k\\) be arbitrary rather than a specific value such as \\(k=5\\)?",
+      "answer": "The inductive step must show that any true case forces the next case to be true. If we only assume the statement for \\(k=5\\), we can at most connect \\(P(5)\\) to \\(P(6)\\). By using an arbitrary \\(k\\), the proof establishes the general implication \\(P(k)\\Rightarrow P(k+1)\\) throughout the whole range.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-08",
+      "prompt": "For \\(P(n): 3^n-1\\) is divisible by \\(2\\), write the inductive hypothesis and the target for \\(P(k+1)\\).",
+      "answer": "The inductive hypothesis is: assume \\(3^k-1\\) is divisible by \\(2\\). That means \\(3^k-1=2m\\) for some integer \\(m\\). The target is to prove \\(3^{k+1}-1\\) is divisible by \\(2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-09",
+      "prompt": "Prove by induction that \\(2+4+\\cdots+2n=n(n+1)\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: for \\(n=1\\), left side \\(=2\\) and right side \\(=1(2)=2\\).\nAssume for \\(n=k\\):\n\\[\n2+4+\\cdots+2k=k(k+1)\n\\]\nFor \\(k+1\\):\n\\[\n2+4+\\cdots+2k+2(k+1)=k(k+1)+2(k+1)\n\\]\n\\[\n=(k+1)(k+2)\n\\]\nThis is the required formula with \\(n=k+1\\). Therefore the result holds for all \\(n\\ge1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-10",
+      "prompt": "Prove by induction that \\(1+3+5+\\cdots+(2n-1)=n^2\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: for \\(n=1\\), \\(1=1^2\\).\nAssume\n\\[\n1+3+\\cdots+(2k-1)=k^2\n\\]\nFor \\(k+1\\), the next odd term is \\(2(k+1)-1=2k+1\\). Thus\n\\[\n1+3+\\cdots+(2k-1)+(2k+1)=k^2+2k+1\n\\]\n\\[\n=(k+1)^2\n\\]\nSo the statement is true for \\(k+1\\), and hence for all \\(n\\ge1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-11",
+      "prompt": "Explain why the base case cannot be omitted from an induction proof.",
+      "answer": "The inductive step only proves a conditional statement: if \\(P(k)\\) is true, then \\(P(k+1)\\) is true. Without a true starting case, there is no first true statement to begin the chain. The base case supplies the first domino; the inductive step only explains why each true case forces the next one.",
       "rating": "***+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-10",
-      "prompt": "Prove by induction that \\(1+3+5+\\cdots+(2n-1)=n^2\\).",
-      "answer": "Base case: for \\(n=1\\), both sides equal \\(1\\). Assume \\(\\sum_{k=1}^{N}(2k-1)=N^2\\). Then\n\\[\n\\sum_{k=1}^{N+1}(2k-1)=N^2+(2(N+1)-1)\n\\]\n\\[\n=N^2+2N+1=(N+1)^2\n\\]\nSo the result holds for all \\(n\\ge1\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-proof-by-induction-12",
+      "prompt": "Find the flaw: A proof assumes \\(P(k+1)\\) is true and then derives \\(P(k)\\). Why is this not a standard induction proof of all cases from \\(1\\) upward?",
+      "answer": "Standard induction needs the forward implication \\(P(k)\\Rightarrow P(k+1)\\), because the base case starts at \\(P(1)\\) and moves upward. Showing \\(P(k+1)\\Rightarrow P(k)\\) moves backward. It does not let \\(P(1)\\) prove \\(P(2)\\), then \\(P(3)\\), and so on.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-11",
-      "prompt": "Prove by induction that \\(2^n\\ge n+1\\) for all integers \\(n\\ge1\\).",
-      "answer": "Base case: \\(2^1=2\\ge2\\). Assume \\(2^N\\ge N+1\\). Then\n\\[\n2^{N+1}=2\\cdot2^N\\ge2(N+1)=2N+2\n\\]\nSince \\(2N+2\\ge N+2\\) for \\(N\\ge0\\), we get \\(2^{N+1}\\ge (N+1)+1\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-12",
-      "prompt": "Identify the flaw: 'Assume \\(P(n)\\) is true for all \\(n\\). Then \\(P(n+1)\\) is true.'",
-      "answer": "The assumption is too strong: it assumes the whole result being proved. In induction, assume only one arbitrary case, usually \\(P(N)\\), and use it to prove \\(P(N+1)\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-13",
-      "prompt": "For a statement starting at \\(n=0\\), what base case should be checked?",
-      "answer": "Check \\(n=0\\). The base case must match the first integer included in the statement.",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-14",
-      "prompt": "Prove by induction that \\(\\sum_{k=0}^{n}2^k=2^{n+1}-1\\) for \\(n\\ge0\\).",
-      "answer": "Base case: for \\(n=0\\), both sides equal \\(1\\). Assume \\(\\sum_{k=0}^{N}2^k=2^{N+1}-1\\). Then\n\\[\n\\sum_{k=0}^{N+1}2^k=(2^{N+1}-1)+2^{N+1}=2^{N+2}-1\n\\]\nThis is the formula for \\(N+1\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-15",
-      "prompt": "What should the final line of an induction proof state?",
-      "answer": "It should state that the base case and induction step together prove the result for all integers in the claimed range, usually by induction.",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-proof-by-induction-16",
-      "prompt": "Prove by induction that \\(n!\\ge2^{n-1}\\) for all integers \\(n\\ge1\\).",
-      "answer": "Base case: \\(1!=1=2^0\\). Assume \\(N!\\ge2^{N-1}\\). Then\n\\[\n(N+1)!=(N+1)N!\\ge (N+1)2^{N-1}\n\\]\nFor \\(N\\ge1\\), \\(N+1\\ge2\\), so\n\\[\n(N+1)!\\ge2\\cdot2^{N-1}=2^N\n\\]\nThis is the required formula for \\(N+1\\).",
+      "id": "math-i-real-numbers-proof-by-induction-13",
+      "prompt": "Prove by induction that \\(\\sum_{i=1}^{n} i^2=\\frac{n(n+1)(2n+1)}6\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: for \\(n=1\\), both sides equal \\(1\\).\nAssume\n\\[\n\\sum_{i=1}^{k}i^2=\\frac{k(k+1)(2k+1)}6\n\\]\nThen\n\\[\n\\sum_{i=1}^{k+1}i^2=\\frac{k(k+1)(2k+1)}6+(k+1)^2\n\\]\nFactor \\(k+1\\):\n\\[\n=(k+1)\\left(\\frac{k(2k+1)}6+k+1\\right)\n\\]\n\\[\n=(k+1)\\frac{2k^2+7k+6}{6}\n\\]\n\\[\n=\\frac{(k+1)(k+2)(2k+3)}6\n\\]\nThis is the formula with \\(n=k+1\\).",
       "rating": "****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-17",
-      "prompt": "Prove by induction that \\(3\\) divides \\(4^n-1\\) for all integers \\(n\\ge1\\).",
-      "answer": "Base case: \\(4^1-1=3\\), divisible by \\(3\\). Assume \\(4^N-1=3m\\). Then\n\\[\n4^{N+1}-1=4\\cdot4^N-1=4(4^N-1)+3\n\\]\n\\[\n=4(3m)+3=3(4m+1)\n\\]\nso it is divisible by \\(3\\).",
+      "id": "math-i-real-numbers-proof-by-induction-14",
+      "prompt": "Prove by induction that \\(3^n-1\\) is divisible by \\(2\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: \\(3^1-1=2\\), divisible by \\(2\\).\nAssume \\(3^k-1=2m\\) for some integer \\(m\\). Then \\(3^k=2m+1\\). For \\(k+1\\):\n\\[\n3^{k+1}-1=3\\cdot3^k-1=3(2m+1)-1\n\\]\n\\[\n=6m+2=2(3m+1)\n\\]\nSince \\(3m+1\\) is an integer, \\(3^{k+1}-1\\) is divisible by \\(2\\).",
       "rating": "****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-18",
-      "prompt": "For \\(P(n): n^2+n\\) is even, prove the induction step.",
-      "answer": "Assume \\(N^2+N\\) is even. Then\n\\[\n(N+1)^2+(N+1)=N^2+3N+2=(N^2+N)+2N+2\n\\]\nThe first term is even by the hypothesis, and \\(2N+2\\) is even, so the sum is even.",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-proof-by-induction-15",
+      "prompt": "Prove by induction that \\(5^n-1\\) is divisible by \\(4\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: \\(5^1-1=4\\), divisible by \\(4\\).\nAssume \\(5^k-1=4m\\), so \\(5^k=4m+1\\). Then\n\\[\n5^{k+1}-1=5\\cdot5^k-1=5(4m+1)-1\n\\]\n\\[\n=20m+4=4(5m+1)\n\\]\nThis is divisible by \\(4\\). Therefore the statement holds for all \\(n\\ge1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-19",
-      "prompt": "Why must \\(N\\) be arbitrary in the induction step?",
-      "answer": "The step must work from any true case to the next case. If it is proved only for a particular value such as \\(N=5\\), it proves only the move from \\(5\\) to \\(6\\), not the whole chain.",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-proof-by-induction-16",
+      "prompt": "Prove by induction that \\(2^n\\ge n+1\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: \\(2^1=2\\) and \\(1+1=2\\), so true.\nAssume \\(2^k\\ge k+1\\). Then\n\\[\n2^{k+1}=2\\cdot2^k\\ge2(k+1)=2k+2\n\\]\nWe need \\(2^{k+1}\\ge(k+1)+1=k+2\\). Since\n\\[\n2k+2-(k+2)=k\\ge1\n\\]\nfor \\(k\\ge1\\), we have \\(2k+2\\ge k+2\\). Thus \\(2^{k+1}\\ge k+2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-proof-by-induction-20",
-      "prompt": "Prove by induction that \\(\\sum_{k=1}^{n}(2k)=n(n+1)\\).",
-      "answer": "Base case: for \\(n=1\\), both sides equal \\(2\\). Assume \\(\\sum_{k=1}^{N}2k=N(N+1)\\). Then\n\\[\n\\sum_{k=1}^{N+1}2k=N(N+1)+2(N+1)\n\\]\n\\[\n=(N+1)(N+2)\n\\]\nwhich is the formula with \\(n=N+1\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-proof-by-induction-17",
+      "prompt": "A statement is claimed for all integers \\(n\\ge4\\). What base case should be checked, and how does the induction step change?",
+      "answer": "The base case should be \\(n=4\\), because that is the first value in the claimed range. The inductive step should assume the statement is true for an arbitrary \\(k\\ge4\\), then prove it is true for \\(k+1\\). The structure is the same, but the chain starts at \\(4\\) instead of \\(1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-18",
+      "prompt": "Diagnose the error: \"The formula is true for \\(n=1\\), \\(2\\), and \\(3\\), so it is true for all \\(n\\).\"",
+      "answer": "Checking several examples is not a proof for all positive integers. The missing part is the inductive step: one must show that whenever the statement is true for an arbitrary \\(k\\), it must also be true for \\(k+1\\). Without that implication, the statement might fail at \\(n=4\\) or any later value.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-19",
+      "prompt": "Prove by induction that \\(7^n-2^n\\) is divisible by \\(5\\) for all \\(n\\ge1\\).",
+      "answer": "Base case: \\(7^1-2^1=5\\), divisible by \\(5\\).\nAssume \\(7^k-2^k=5m\\), so \\(7^k=2^k+5m\\). Then\n\\[\n7^{k+1}-2^{k+1}=7\\cdot7^k-2\\cdot2^k\n\\]\nSubstitute \\(7^k=2^k+5m\\):\n\\[\n=7(2^k+5m)-2\\cdot2^k\n\\]\n\\[\n=5\\cdot2^k+35m=5(2^k+7m)\n\\]\nThis is divisible by \\(5\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-proof-by-induction-20",
+      "prompt": "A proposed induction proof of \\(1+2+\\cdots+n=n^2\\) uses a valid-looking inductive step. Explain why the claim is still false.",
+      "answer": "First test the base case and early values. For \\(n=1\\), \\(1=1^2\\), so the base case holds. But for \\(n=2\\),\n\\[\n1+2=3\n\\]\nwhile\n\\[\n2^2=4\n\\]\nThe statement is false. A correct inductive step cannot actually prove \\(P(k)\\Rightarrow P(k+1)\\) for this false formula; any valid-looking proof must contain an algebraic or logical error. Induction cannot make a false statement true.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

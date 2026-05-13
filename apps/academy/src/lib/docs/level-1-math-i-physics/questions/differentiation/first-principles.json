@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "first-principles",
   "topicTitle": "First Principles",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "fp-1",
-      "prompt": "Use first principles to find f'(x) for f(x) = x^2.",
-      "answer": "2x",
-      "hints": ["Start with the limit definition.", "Expand (x+h)^2 before simplifying."],
+      "id": "math-i-differentiation-first-principles-01",
+      "prompt": "Write the first-principles definition of \\(f'(x)\\).",
+      "answer": "The first-principles definition is\n\\[f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}.\\]\nThe fraction is the average rate of change over an interval of width \\(h\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-2",
-      "prompt": "Use first principles to find the derivative of f(x) = 3x.",
-      "answer": "3",
-      "hints": ["The numerator simplifies to 3h.", "After cancelling h, take the limit."],
+      "id": "math-i-differentiation-first-principles-02",
+      "prompt": "In \\(\\frac{f(x+h)-f(x)}{h}\\), what does \\(h\\) represent?",
+      "answer": "The quantity \\(h\\) is the change in the input variable. As \\(h\\to0\\), the average rate of change approaches an instantaneous rate of change.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-3",
-      "prompt": "Find f'(x) from first principles if f(x) = x^3.",
-      "answer": "3x^2",
-      "hints": ["Expand (x+h)^3 using the binomial expansion.", "Factor out h before taking the limit."],
+      "id": "math-i-differentiation-first-principles-03",
+      "prompt": "For \\(f(x)=x^2\\), write \\(f(x+h)\\).",
+      "answer": "Replace \\(x\\) by \\(x+h\\):\n\\[f(x+h)=(x+h)^2=x^2+2xh+h^2.\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-4",
-      "prompt": "Use first principles to find f'(2) for f(x) = x^2.",
-      "answer": "4",
-      "hints": ["Use the definition f'(a) = lim (f(x)-f(a))/(x-a).", "Or find f'(x) first, then substitute x=2."],
+      "id": "math-i-differentiation-first-principles-04",
+      "prompt": "For \\(f(x)=3x+1\\), write the difference quotient \\(\\frac{f(x+h)-f(x)}{h}\\).",
+      "answer": "Compute \\(f(x+h)=3(x+h)+1=3x+3h+1\\). Then\n\\[\\frac{f(x+h)-f(x)}{h}=\\frac{(3x+3h+1)-(3x+1)}{h}=\\frac{3h}{h}=3.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-05",
+      "prompt": "Use first principles to differentiate \\(f(x)=2x\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{2(x+h)-2x}{h}=\\lim_{h\\to0}\\frac{2h}{h}=\\lim_{h\\to0}2=2.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-5",
-      "prompt": "Find the derivative of f(x) = x^2 - 4x using first principles.",
-      "answer": "2x - 4",
-      "hints": ["Expand f(x+h) - f(x) completely.", "Factor out h and cancel."],
+      "id": "math-i-differentiation-first-principles-06",
+      "prompt": "Use first principles to differentiate \\(f(x)=x+4\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{(x+h+4)-(x+4)}{h}=\\lim_{h\\to0}\\frac{h}{h}=1.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-6",
-      "prompt": "Use first principles to show that the derivative of f(x) = 5 is 0.",
-      "answer": "0",
-      "hints": ["The numerator f(x+h) - f(x) = 5 - 5 = 0.", "0 divided by h is 0."],
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "fp-7",
-      "prompt": "Find f'(1) if f(x) = 1/x using first principles.",
-      "answer": "-1",
-      "hints": ["f(x+h) - f(x) = 1/(x+h) - 1/x = -h/(x(x+h)).", "After dividing by h and taking the limit, substitute x=1."],
+      "id": "math-i-differentiation-first-principles-07",
+      "prompt": "Use first principles to differentiate \\(f(x)=x^2\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{(x+h)^2-x^2}{h}\\]\n\\[=\\lim_{h\\to0}\\frac{x^2+2xh+h^2-x^2}{h}=\\lim_{h\\to0}(2x+h)=2x.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-8",
-      "prompt": "Use first principles to find f'(x) for f(x) = sqrt(x).",
-      "answer": "1/(2 sqrt(x))",
-      "hints": ["f(x+h) - f(x) = sqrt(x+h) - sqrt(x).", "Multiply by the conjugate to rationalize."],
+      "id": "math-i-differentiation-first-principles-08",
+      "prompt": "Use first principles to differentiate \\(f(x)=x^2+3\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{(x+h)^2+3-(x^2+3)}{h}\\]\n\\[=\\lim_{h\\to0}\\frac{2xh+h^2}{h}=\\lim_{h\\to0}(2x+h)=2x.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-09",
+      "prompt": "Use first principles to differentiate \\(f(x)=x^3\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{(x+h)^3-x^3}{h}.\\]\nExpand: \\((x+h)^3=x^3+3x^2h+3xh^2+h^3\\). Then\n\\[\\frac{(x+h)^3-x^3}{h}=3x^2+3xh+h^2\\to3x^2.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-9",
-      "prompt": "Prove from first principles that the derivative of f(x) = e^x is e^x.",
-      "answer": "e^x",
-      "hints": ["This requires knowing that lim (e^h - 1)/h = 1.", "Or use the fact that e^x is defined by its derivative property."],
+      "id": "math-i-differentiation-first-principles-10",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=5-x^2\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{5-(x+h)^2-(5-x^2)}{h}.\\]\nThe numerator is \\(-x^2-2xh-h^2+x^2=-2xh-h^2\\). Divide by \\(h\\):\n\\[-2x-h\\to-2x.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-11",
+      "prompt": "Use the alternative first-principles form to find \\(f'(2)\\) for \\(f(x)=x^2+1\\).",
+      "answer": "Use\n\\[f'(2)=\\lim_{x\\to2}\\frac{f(x)-f(2)}{x-2}.\\]\nSince \\(f(2)=5\\),\n\\[\\frac{x^2+1-5}{x-2}=\\frac{x^2-4}{x-2}=x+2\\quad(x\\ne2).\\]\nThe limit is \\(4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-12",
+      "prompt": "Explain why the factor \\(h\\) must be cancelled before setting \\(h=0\\) in a first-principles derivative.",
+      "answer": "Before simplification, the difference quotient usually has denominator \\(h\\), so substituting \\(h=0\\) gives division by zero. Algebraic simplification removes the common factor \\(h\\), producing an equivalent expression for \\(h\\ne0\\) whose limit as \\(h\\to0\\) can be evaluated.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-13",
+      "prompt": "Use first principles to differentiate \\(f(x)=1/x\\) for \\(x\\ne0\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{\\frac1{x+h}-\\frac1x}{h}\\]\n\\[=\\lim_{h\\to0}\\frac{\\frac{x-(x+h)}{x(x+h)}}{h}=\\lim_{h\\to0}\\frac{-h}{h x(x+h)}.\\]\nCancel \\(h\\):\n\\[f'(x)=\\lim_{h\\to0}\\frac{-1}{x(x+h)}=-\\frac1{x^2}.\\]",
       "rating": "****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "fp-10",
-      "prompt": "Use the alternative form f'(a) = lim (f(x)-f(a))/(x-a) to find f'(3) for f(x) = 2x + 1.",
-      "answer": "2",
-      "hints": ["Substitute directly into the alternative form.", "The linear function has constant slope."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-first-principles-14",
+      "prompt": "Use first principles to differentiate \\(f(x)=\\sqrt{x}\\) for \\(x>0\\).",
+      "answer": "\n\\[f'(x)=\\lim_{h\\to0}\\frac{\\sqrt{x+h}-\\sqrt{x}}{h}.\\]\nRationalise:\n\\[\\frac{\\sqrt{x+h}-\\sqrt{x}}{h}\\cdot\\frac{\\sqrt{x+h}+\\sqrt{x}}{\\sqrt{x+h}+\\sqrt{x}}=\\frac{1}{\\sqrt{x+h}+\\sqrt{x}}.\\]\nLet \\(h\\to0\\): \\(f'(x)=1/(2\\sqrt{x})\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-15",
+      "prompt": "For \\(f(x)=ax^2\\), use first principles to find \\(a\\) if \\(f'(3)=18\\).",
+      "answer": "First principles gives\n\\[f'(x)=\\lim_{h\\to0}\\frac{a(x+h)^2-ax^2}{h}=\\lim_{h\\to0}a(2x+h)=2ax.\\]\nThus \\(f'(3)=6a\\). Set \\(6a=18\\), giving \\(a=3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-16",
+      "prompt": "Use first principles to find \\(f'(0)\\) for \\(f(x)=|x|\\), or explain why it does not exist.",
+      "answer": "At \\(0\\),\n\\[\\frac{f(0+h)-f(0)}{h}=\\frac{|h|}{h}.\\]\nFor \\(h>0\\), this equals \\(1\\). For \\(h<0\\), it equals \\(-1\\). The one-sided limits differ, so \\(f'(0)\\) does not exist.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-17",
+      "prompt": "For \\(f(x)=x^2+kx\\), use first principles to find \\(k\\) if \\(f'(1)=7\\).",
+      "answer": "Compute the quotient:\n\\[f(x+h)-f(x)=(x+h)^2+k(x+h)-x^2-kx=2xh+h^2+kh.\\]\nDivide by \\(h\\): \\(2x+h+k\\). Let \\(h\\to0\\), so \\(f'(x)=2x+k\\). Then \\(f'(1)=2+k=7\\), giving \\(k=5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-18",
+      "prompt": "A student substitutes \\(h=0\\) into \\(\\frac{(x+h)^2-x^2}{h}\\) and says the derivative is undefined. Diagnose the error.",
+      "answer": "The derivative is a limit as \\(h\\to0\\), not the value of the quotient at \\(h=0\\). Simplify first:\n\\[\\frac{(x+h)^2-x^2}{h}=\\frac{2xh+h^2}{h}=2x+h\\quad(h\\ne0).\\]\nThen let \\(h\\to0\\), giving \\(2x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-19",
+      "prompt": "Use first principles to show that the derivative of a constant function \\(f(x)=c\\) is zero.",
+      "answer": "For \\(f(x)=c\\),\n\\[f'(x)=\\lim_{h\\to0}\\frac{c-c}{h}=\\lim_{h\\to0}0=0.\\]\nThe output does not change when the input changes, so the instantaneous rate of change is zero.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-first-principles-20",
+      "prompt": "Using first principles, explain why a corner in a graph can prevent differentiability.",
+      "answer": "At a corner, the difference quotient can approach different values from the left and the right. For example \\(f(x)=|x|\\) at \\(0\\) gives \\(|h|/h\\), which tends to \\(1\\) from the right and \\(-1\\) from the left. Since one unique limit is required, the derivative does not exist.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

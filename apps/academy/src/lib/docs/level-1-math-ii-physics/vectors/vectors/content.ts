@@ -2,7 +2,7 @@ export const content = String.raw`## Principle
 
 A vector is a quantity with both magnitude and direction. It is not just a number: the number gives the size, while the direction tells where the quantity points.
 
-Physical vectors can carry units. A velocity may have unit \(m s^\{-1\}\), an acceleration may have unit \(m s^\{-2\}\), a force may have unit \(N\), an electric field may have unit \(N/C\), and a magnetic field may have unit \(T\).
+Physical vectors can carry units. A velocity may have unit \(m s^{-1}\), an acceleration may have unit \(m s^{-2}\), a force may have unit \(N\), an electric field may have unit \(N/C\), and a magnetic field may have unit \(T\).
 
 ## Notation
 
@@ -22,11 +22,11 @@ Physical vectors can carry units. A velocity may have unit \(m s^\{-1\}\), an ac
 
 ### Step 1: Choose an origin
 
-Choose a reference point \(O\). A position vector such as \(\overrightarrow\{OA\}\) starts at \(O\) and ends at the labelled point \(A\).
+Choose a reference point \(O\). A position vector such as \(\overrightarrow{OA}\) starts at \(O\) and ends at the labelled point \(A\).
 
 ### Step 2: Draw a directed line
 
-Draw an arrow from the starting point to the finishing point. The arrow direction is part of the vector: \(\overrightarrow\{BC\}\) points from \(B\) to \(C\), not from \(C\) to \(B\).
+Draw an arrow from the starting point to the finishing point. The arrow direction is part of the vector: \(\overrightarrow{BC}\) points from \(B\) to \(C\), not from \(C\) to \(B\).
 
 ### Step 3: Label the length
 
@@ -76,5 +76,5 @@ The equation above means the arrow from \(B\) to \(C\) and the arrow from \(B'\)
 ## Checks
 
 - Do not treat the magnitude alone as the vector. The magnitude \(|\mathbf v|\) is only the size of \(\mathbf v\).
-- Include units when the vector is physical, such as \(m s^\{-1\}\), \(m s^\{-2\}\), \(N\), \(N/C\), or \(T\).
+- Include units when the vector is physical, such as \(m s^{-1}\), \(m s^{-2}\), \(N\), \(N/C\), or \(T\).
 - Do not assign a direction to the zero vector.`;

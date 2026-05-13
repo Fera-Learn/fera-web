@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "group-tables",
+  "topicTitle": "Group Tables",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-group-tables-01",
+      "prompt": "In a group table, what do the row label \\(a\\) and column label \\(b\\) represent?",
+      "answer": "The row label is the first element in the product, and the column label is the second element. The entry where they meet is the result of combining row element with column element.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-02",
+      "prompt": "What feature of a group table shows closure?",
+      "answer": "Closure is shown when every table entry is an element of the listed set \\(G\\). If any entry lies outside \\(G\\), the operation is not closed on \\(G\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-03",
+      "prompt": "For a table with headings \\(e,a\\), the row \\(e\\) reads \\(e,a\\). What does this show about left multiplication by \\(e\\)?",
+      "answer": "It shows \\(e*e=e\\) and \\(e*a=a\\). Thus left multiplication by \\(e\\) leaves each listed element unchanged.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-04",
+      "prompt": "If the entry in row \\(a\\), column \\(b\\) is \\(e\\), what inverse information does this provide?",
+      "answer": "It shows \\(a*b=e\\), so \\(b\\) is a right inverse of \\(a\\). To prove a two-sided inverse, one should also check that \\(b*a=e\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-05",
+      "prompt": "Use the table row \\(a\\): entries under columns \\(e,a\\) are \\(a,e\\). What is \\(a*a\\)?",
+      "answer": "The column labelled \\(a\\) in row \\(a\\) has entry \\(e\\). Therefore \\(a*a=e\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-06",
+      "prompt": "For \\(G=\\{e,a\\}\\) with \\(a*a=e\\), find \\(a^{-1}\\).",
+      "answer": "The inverse of \\(a\\) is the element that gives \\(e\\) when combined with \\(a\\). Since \\(a*a=e\\), and the same equation holds on both sides in this two-element table, \\(a^{-1}=a\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-07",
+      "prompt": "A table has headings \\(e,a,b\\). The row \\(e\\) is \\(e,a,b\\), but the column \\(e\\) is \\(e,b,a\\). Can \\(e\\) be a two-sided identity?",
+      "answer": "No. The row \\(e\\) works for left identity, but the column \\(e\\) should reproduce the row headings \\(e,a,b\\). Since it reads \\(e,b,a\\), right multiplication by \\(e\\) does not leave all elements unchanged.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-08",
+      "prompt": "In a table for \\(G=\\{e,a,b\\}\\), row \\(a\\), column \\(b\\) is \\(e\\), and row \\(b\\), column \\(a\\) is \\(e\\). What can you conclude?",
+      "answer": "Both \\(a*b=e\\) and \\(b*a=e\\). Therefore \\(b\\) is the two-sided inverse of \\(a\\), and \\(a\\) is the two-sided inverse of \\(b\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-09",
+      "prompt": "For addition modulo \\(3\\), compute the row for element \\(1\\) with columns \\(0,1,2\\).",
+      "answer": "Add \\(1\\) to each column modulo \\(3\\). \\(1+0\\equiv1\\), \\(1+1\\equiv2\\), and \\(1+2\\equiv0\\pmod3\\). The row is \\(1,2,0\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-10",
+      "prompt": "For addition modulo \\(4\\), find the inverse of \\(3\\) by table reasoning.",
+      "answer": "The identity is \\(0\\). In the row for \\(3\\), look for the column that gives \\(0\\): \\(3+1\\equiv0\\pmod4\\). Also \\(1+3\\equiv0\\pmod4\\). Therefore the inverse of \\(3\\) is \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-11",
+      "prompt": "Why must each row of a finite group table contain the identity exactly once?",
+      "answer": "For a fixed row element \\(a\\), the entry \\(e\\) occurs at column \\(a^{-1}\\), so it occurs at least once. If \\(a*b=e\\) and \\(a*c=e\\), multiply on the left by \\(a^{-1}\\): \\(b=c\\). Thus it occurs exactly once.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-12",
+      "prompt": "A table has a row with a repeated entry. Explain why it cannot be a group table.",
+      "answer": "In a group, left multiplication by a fixed element is reversible. If row \\(a\\) had \\(a*b=a*c\\) with \\(b\\ne c\\), multiplying by \\(a^{-1}\\) on the left would give \\(b=c\\), a contradiction. Therefore rows in a group table cannot repeat entries.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-13",
+      "prompt": "Build the Cayley table for \\(\\{0,1,2\\}\\) under addition modulo \\(3\\). Give the rows in order \\(0,1,2\\).",
+      "answer": "Row \\(0\\) is \\(0,1,2\\). Row \\(1\\) is \\(1,2,0\\). Row \\(2\\) is \\(2,0,1\\). These come from reducing each sum modulo \\(3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-14",
+      "prompt": "Given a finite group table, describe how to find all self-inverse elements.",
+      "answer": "First identify the identity \\(e\\). Then inspect each diagonal entry, because the diagonal gives \\(a*a\\). Any element \\(a\\) whose diagonal entry is \\(e\\) satisfies \\(a^2=e\\), so \\(a^{-1}=a\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-15",
+      "prompt": "A table is symmetric across its main diagonal. What does that suggest about commutativity, and what does it not prove?",
+      "answer": "A symmetric table suggests \\(a*b=b*a\\) for every pair, so the operation is commutative. It does not by itself prove associativity, identity, or inverses. Those group axioms must still be checked separately.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-16",
+      "prompt": "A finite table has every row and column containing each element exactly once. Why is this still not a complete proof that the table defines a group?",
+      "answer": "The Latin-square property gives strong cancellation-like behaviour and supports closure if entries lie in the set \\(G\\). However, a group also needs associativity and a two-sided identity. Associativity involves triples of elements and is not guaranteed by row and column permutations alone.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-17",
+      "prompt": "Explain how row-first convention affects reading a non-commutative group table.",
+      "answer": "With row-first convention, the row element is applied or multiplied first and the column element second according to the table's operation convention. In a non-commutative group, swapping row and column can change the result, so row \\(a\\), column \\(b\\) need not match row \\(b\\), column \\(a\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-18",
+      "prompt": "A student identifies an identity by finding only a row that reproduces the headings. Diagnose the mistake.",
+      "answer": "A group identity must work on both sides. A row reproducing the headings shows \\(e*a=a\\) for all \\(a\\), but the column must also reproduce the headings to show \\(a*e=a\\). Without the column check, the student has only found a left identity candidate.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-19",
+      "prompt": "Prove that each column of a finite group table contains every group element exactly once.",
+      "answer": "Fix a column element \\(b\\). If two rows \\(a\\) and \\(c\\) give the same entry, then \\(a*b=c*b\\). Multiply on the right by \\(b^{-1}\\) to get \\(a=c\\). So no entry repeats in the column. Since the finite column has \\(|G|\\) positions and all entries lie in \\(G\\), it contains every element exactly once.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-tables-20",
+      "prompt": "A proposed table for four elements has one entry outside the listed set but otherwise looks like a group table. What is the decisive failure?",
+      "answer": "Closure fails immediately. A group operation on \\(G\\) must combine any two elements of \\(G\\) and return an element of \\(G\\). One outside entry means the operation is not a binary operation from \\(G\\times G\\) to \\(G\\), so the structure cannot be a group.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

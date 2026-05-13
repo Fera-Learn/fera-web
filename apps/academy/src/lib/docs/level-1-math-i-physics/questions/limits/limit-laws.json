@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "limit-laws",
   "topicTitle": "Limit Laws",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-limit-laws-01",
-      "prompt": "If \\(\\lim_{x\\to2}f(x)=3\\) and \\(\\lim_{x\\to2}g(x)=5\\), find \\(\\lim_{x\\to2}(4f(x)-g(x))\\).",
-      "answer": "Use the constant multiple and difference laws:\n\\[\n\\lim_{x\\to2}(4f(x)-g(x))=4\\cdot3-5=7.\n\\]",
-      "rating": "*+",
-      "paperTags": ["term-1"]
+      "prompt": "If \\(\\lim_{x\\to a}f(x)=4\\) and \\(\\lim_{x\\to a}g(x)=-1\\), find \\(\\lim_{x\\to a}(f(x)+g(x))\\).",
+      "answer": "By the sum law,\n\\[\\lim_{x\\to a}(f(x)+g(x))=4+(-1)=3.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-limit-laws-02",
-      "prompt": "If \\(\\lim_{x\\to1}p(x)=2\\) and \\(\\lim_{x\\to1}q(x)=-4\\), find \\(\\lim_{x\\to1}p(x)^2q(x)\\).",
-      "answer": "Use the power and product laws:\n\\[\n\\lim_{x\\to1}p(x)^2q(x)=2^2(-4)=-16.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "State the condition needed before applying \\(\\lim_{x\\to a}\\frac{f(x)}{g(x)}=\\frac{L}{M}\\).",
+      "answer": "The individual limits must exist and the denominator limit must be non-zero: \\(M\\ne0\\). Otherwise \\(L/M\\) is not defined as a real number.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-limit-laws-03",
-      "prompt": "Explain why the quotient law cannot be used directly on \\(\\lim_{x\\to0}\\frac{x^2}{x}\\) by substituting separate numerator and denominator limits.",
-      "answer": "The numerator limit is \\(0\\) and the denominator limit is also \\(0\\). The quotient law requires the denominator limit to be nonzero, so it cannot be applied directly. Instead simplify for \\(x\\ne0\\):\n\\[\n\\frac{x^2}{x}=x,\n\\]\nso the limit is \\(0\\).",
+      "prompt": "If \\(\\lim_{x\\to2}f(x)=5\\), find \\(\\lim_{x\\to2}3f(x)\\).",
+      "answer": "Use the constant multiple law:\n\\[\\lim_{x\\to2}3f(x)=3\\lim_{x\\to2}f(x)=3\\cdot5=15.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-04",
+      "prompt": "If \\(\\lim_{x\\to1}h(x)=2\\), find \\(\\lim_{x\\to1}(h(x))^4\\).",
+      "answer": "Use the power law:\n\\[\\lim_{x\\to1}(h(x))^4=(\\lim_{x\\to1}h(x))^4=2^4=16.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to3}(2x^2-5x+1)\\).",
+      "answer": "Polynomials are evaluated by substitution:\n\\[2(3)^2-5(3)+1=18-15+1=4.\\]\nSo the limit is \\(4\\).",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to4}\\sqrt{x+5}\\).",
+      "answer": "The square-root function is continuous for positive inputs. Substitute \\(x=4\\):\n\\[\\sqrt{4+5}=\\sqrt9=3.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to2}\\frac{x^2+1}{x+3}\\).",
+      "answer": "The denominator limit is \\(2+3=5\\ne0\\), so the quotient law applies:\n\\[\\frac{2^2+1}{2+3}=\\frac5{5}=1.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to-1}(x^3+2)(4-x)\\).",
+      "answer": "Use product and polynomial laws. The factors tend to \\((-1)^3+2=1\\) and \\(4-(-1)=5\\). Their product is \\(1\\cdot5=5\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-09",
+      "prompt": "Given \\(\\lim f=2\\), \\(\\lim g=-3\\), evaluate \\(\\lim(4f^2-g)\\) at the same approach point.",
+      "answer": "Apply the power, constant multiple, and difference laws:\n\\[\\lim(4f^2-g)=4(2)^2-(-3)=16+3=19.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{x^2-1}{x-1}\\) by using limit laws after simplification.",
+      "answer": "Direct substitution gives \\(0/0\\), so simplify first:\n\\[\\frac{x^2-1}{x-1}=\\frac{(x-1)(x+1)}{x-1}=x+1\\quad(x\\ne1).\\]\nThen \\(\\lim_{x\\to1}(x+1)=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-11",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{(1+x)^2-1}{x}\\).",
+      "answer": "Expand before applying laws:\n\\[(1+x)^2-1=1+2x+x^2-1=2x+x^2.\\]\nThen\n\\[\\frac{2x+x^2}{x}=2+x\\quad(x\\ne0),\\]\nso the limit is \\(2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-12",
+      "prompt": "Explain why the quotient law cannot be applied directly to \\(\\lim_{x\\to2}\\frac{x^2-4}{x-2}\\).",
+      "answer": "The denominator limit is \\(2-2=0\\), so the quotient law condition \\(M\\ne0\\) fails. Direct quotient substitution gives \\(0/0\\), an indeterminate form. One must simplify first; then the limit is \\(4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to9}\\frac{\\sqrt{x}-3}{x-9}\\).",
+      "answer": "Rationalise the numerator:\n\\[\\frac{\\sqrt{x}-3}{x-9}\\cdot\\frac{\\sqrt{x}+3}{\\sqrt{x}+3}=\\frac{x-9}{(x-9)(\\sqrt{x}+3)}=\\frac1{\\sqrt{x}+3}.\\]\nNow substitute \\(x=9\\): \\(1/(3+3)=1/6\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{x^3-1}{x^2-1}\\).",
+      "answer": "Factor both expressions:\n\\[x^3-1=(x-1)(x^2+x+1),\\quad x^2-1=(x-1)(x+1).\\]\nCancel \\(x-1\\) for \\(x\\ne1\\):\n\\[\\lim_{x\\to1}\\frac{x^2+x+1}{x+1}=\\frac{3}{2}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-15",
+      "prompt": "Find \\(c\\) so that \\(\\lim_{x\\to2}\\frac{x^2+cx-6}{x-2}\\) is finite.",
+      "answer": "For a finite limit, the numerator must also be zero at \\(x=2\\) so that the factor \\(x-2\\) can cancel:\n\\[2^2+2c-6=0\\Rightarrow 4+2c-6=0\\Rightarrow2c=2\\Rightarrow c=1.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-16",
+      "prompt": "For what values of \\(a\\) is \\(\\lim_{x\\to1}\\sqrt{a+x}\\) a real limit using the root law?",
+      "answer": "The radicand approaches \\(a+1\\). For a real square-root limit at the approach point, need \\(a+1\\ge0\\). Thus \\(a\\ge-1\\). If \\(a>-1\\), substitution is interior; if \\(a=-1\\), the limit is \\(0\\) from the domain side.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-17",
+      "prompt": "Determine \\(k\\) if \\(\\lim_{x\\to3}(kx^2-2x)=30\\).",
+      "answer": "Polynomials use direct substitution:\n\\[\\lim_{x\\to3}(kx^2-2x)=9k-6.\\]\nSet this equal to \\(30\\): \\(9k-6=30\\), so \\(9k=36\\) and \\(k=4\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-18",
+      "prompt": "A student writes \\(\\lim_{x\\to0}\\frac{x+1}{x}=\\frac{1}{0}=0\\). Diagnose the mistake.",
+      "answer": "Division by zero is not defined. The quotient law requires the denominator limit to be non-zero, but here \\(\\lim_{x\\to0}x=0\\). In fact \\(\\frac{x+1}{x}=1+\\frac1x\\), whose two-sided limit does not exist because \\(1/x\\) diverges with opposite signs.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-19",
+      "prompt": "Show that if \\(\\lim f=L\\) and \\(\\lim g=0\\), the product limit \\(\\lim(fg)=0\\), provided \\(L\\) exists and is finite.",
+      "answer": "By the product law,\n\\[\\lim(fg)=(\\lim f)(\\lim g)=L\\cdot0=0.\\]\nThe finiteness of \\(L\\) matters because the product law assumes both individual limits are real finite numbers.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-limit-laws-20",
+      "prompt": "Explain why limit laws cannot prove \\(\\lim_{x\\to0}\\sin(1/x)\\) exists.",
+      "answer": "The inner expression \\(1/x\\) has no finite limit as \\(x\\to0\\), and \\(\\sin(1/x)\\) oscillates between \\(-1\\) and \\(1\\) infinitely often near \\(0\\). Limit laws combine existing limits; they do not create a limit when the component behaviour does not settle.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

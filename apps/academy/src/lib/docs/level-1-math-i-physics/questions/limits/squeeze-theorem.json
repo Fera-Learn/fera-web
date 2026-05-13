@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "squeeze-theorem",
   "topicTitle": "Squeeze Theorem",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-squeeze-theorem-01",
-      "prompt": "Use the squeeze theorem to evaluate \\(\\lim_{x\\to0}x^2\\sin(1/x)\\).",
-      "answer": "For all allowed \\(x\\),\n\\[\n-1\\le \\sin(1/x)\\le1.\n\\]\nMultiplying by \\(x^2\\ge0\\) gives\n\\[\n-x^2\\le x^2\\sin(1/x)\\le x^2.\n\\]\nBoth bounds tend to \\(0\\), so the squeeze theorem gives\n\\[\n\\lim_{x\\to0}x^2\\sin(1/x)=0.\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "prompt": "State the squeeze theorem in words.",
+      "answer": "If a function \\(f(x)\\) is trapped between two functions \\(g(x)\\) and \\(h(x)\\) near \\(a\\), and both outside functions approach the same limit \\(L\\), then \\(f(x)\\) also approaches \\(L\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-squeeze-theorem-02",
-      "prompt": "Suppose \\(4-2x^2\\le f(x)\\le4+x^2\\) for \\(x\\) near \\(0\\). Find \\(\\lim_{x\\to0}f(x)\\).",
-      "answer": "The lower bound tends to\n\\[\n\\lim_{x\\to0}(4-2x^2)=4,\n\\]\nand the upper bound tends to\n\\[\n\\lim_{x\\to0}(4+x^2)=4.\n\\]\nSince both bounds tend to \\(4\\), the squeeze theorem gives\n\\[\n\\lim_{x\\to0}f(x)=4.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "What are the three ingredients needed to use the squeeze theorem?",
+      "answer": "You need an inequality\n\\[g(x)\\le f(x)\\le h(x)\\]\nnear the approach point, the limit \\(\\lim g(x)\\), and the limit \\(\\lim h(x)\\).\nThe two outside limits must be equal.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-squeeze-theorem-03",
-      "prompt": "Show that \\(\\lim_{x\\to0}|x|\\cos(7/x)=0\\).",
-      "answer": "Since \\(|\\cos(7/x)|\\le1\\),\n\\[\n\\big||x|\\cos(7/x)\\big|\\le |x|.\n\\]\nAs \\(x\\to0\\), \\(|x|\\to0\\). Therefore the absolute-value squeeze gives\n\\[\n\\lim_{x\\to0}|x|\\cos(7/x)=0.\n\\]",
+      "prompt": "If \\(-x^2\\le f(x)\\le x^2\\) near \\(0\\), what is \\(\\lim_{x\\to0}f(x)\\)?",
+      "answer": "Both bounding functions approach \\(0\\):\n\\[\\lim_{x\\to0}(-x^2)=0,\\qquad \\lim_{x\\to0}x^2=0.\\]\nSince \\(f(x)\\) is squeezed between them,\n\\[\\lim_{x\\to0}f(x)=0.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-04",
+      "prompt": "Why is \\(-1\\le\\sin(1/x)\\le1\\) useful when evaluating limits near \\(x=0\\)?",
+      "answer": "The function \\(\\sin(1/x)\\) oscillates rapidly near \\(0\\), but it is always bounded between \\(-1\\) and \\(1\\).\nMultiplying this bound by a factor that tends to \\(0\\), such as \\(x^2\\), can squeeze the whole product to \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x^2\\sin(1/x)\\).",
+      "answer": "Since \\(-1\\le\\sin(1/x)\\le1\\), multiply by \\(x^2\\ge0\\):\n\\[-x^2\\le x^2\\sin(1/x)\\le x^2.\\]\nBoth bounds tend to \\(0\\).\nBy the squeeze theorem,\n\\[\\lim_{x\\to0}x^2\\sin(1/x)=0.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x\\sin(1/x)\\).",
+      "answer": "Use \\(-1\\le\\sin(1/x)\\le1\\). Since \\(|x|\\ge0\\), write\n\\[-|x|\\le x\\sin(1/x)\\le |x|.\\]\nAs \\(x\\to0\\), both \\(-|x|\\) and \\(|x|\\) approach \\(0\\).\nSo the limit is \\(0\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-07",
+      "prompt": "If \\(2-x^2\\le f(x)\\le2+x^2\\), find \\(\\lim_{x\\to0}f(x)\\).",
+      "answer": "Compute the outer limits:\n\\[\\lim_{x\\to0}(2-x^2)=2,\\qquad \\lim_{x\\to0}(2+x^2)=2.\\]\nSince both bounds approach \\(2\\), the squeeze theorem gives\n\\[\\lim_{x\\to0}f(x)=2.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x^4\\cos(3/x)\\).",
+      "answer": "Because \\(-1\\le\\cos(3/x)\\le1\\), and \\(x^4\\ge0\\),\n\\[-x^4\\le x^4\\cos(3/x)\\le x^4.\\]\nBoth bounds approach \\(0\\) as \\(x\\to0\\).\nTherefore\n\\[\\lim_{x\\to0}x^4\\cos(3/x)=0.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x^2\\cos(1/x^2)\\).",
+      "answer": "Use \\(-1\\le\\cos(1/x^2)\\le1\\). Since \\(x^2\\ge0\\),\n\\[-x^2\\le x^2\\cos(1/x^2)\\le x^2.\\]\nBoth outer functions tend to \\(0\\).\nThus the squeezed limit is\n\\[0.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x^2(3+\\sin(1/x))\\).",
+      "answer": "Since \\(-1\\le\\sin(1/x)\\le1\\),\n\\[2\\le3+\\sin(1/x)\\le4.\\]\nMultiply by \\(x^2\\ge0\\):\n\\[2x^2\\le x^2(3+\\sin(1/x))\\le4x^2.\\]\nBoth bounds approach \\(0\\), so the limit is \\(0\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-11",
+      "prompt": "Explain why the inequality in the squeeze theorem only needs to hold near the approach point, not necessarily at the point itself.",
+      "answer": "A limit depends on values of the functions for \\(x\\) close to the approach point with \\(x\\ne a\\).\nThe functions may be undefined or behave differently at \\(a\\).\nTherefore the squeezing inequality must hold in a deleted neighborhood around \\(a\\), but it does not need to hold at \\(a\\) itself.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-12",
+      "prompt": "Use \\(|\\sin u|\\le1\\) to show \\(\\lim_{x\\to0}|x\\sin(5/x)|=0\\).",
+      "answer": "Since \\(|\\sin(5/x)|\\le1\\),\n\\[|x\\sin(5/x)|=|x|\\,|\\sin(5/x)|\\le |x|.\\]\nAlso \\(|x\\sin(5/x)|\\ge0\\).\nThus\n\\[0\\le |x\\sin(5/x)|\\le |x|.\\]\nBoth bounds tend to \\(0\\), so the limit is \\(0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x^2\\left\\lfloor\\frac1{x^2}\\right\\rfloor\\), where \\(\\lfloor y\\rfloor\\) is the greatest integer less than or equal to \\(y\\).",
+      "answer": "For \\(x\\ne0\\),\n\\[\\left\\lfloor\\frac1{x^2}\\right\\rfloor\\le\\frac1{x^2}\\]\nand it is nonnegative. Multiplying by \\(x^2>0\\),\n\\[0\\le x^2\\left\\lfloor\\frac1{x^2}\\right\\rfloor\\le1.\\]\nThese bounds do not squeeze to a single value, so this inequality alone is insufficient. In fact the expression is close to \\(1\\), not \\(0\\), because\n\\[\\frac1{x^2}-1<\\left\\lfloor\\frac1{x^2}\\right\\rfloor\\le\\frac1{x^2}.\\]\nMultiplying gives\n\\[1-x^2<x^2\\left\\lfloor\\frac1{x^2}\\right\\rfloor\\le1,\\]\nso the limit is \\(1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}x\\left\\lfloor\\frac1x\\right\\rfloor\\) as \\(x\\to0^+\\).",
+      "answer": "For \\(x>0\\),\n\\[\\frac1x-1<\\left\\lfloor\\frac1x\\right\\rfloor\\le\\frac1x.\\]\nMultiplying by \\(x>0\\),\n\\[1-x<x\\left\\lfloor\\frac1x\\right\\rfloor\\le1.\\]\nAs \\(x\\to0^+\\), both \\(1-x\\) and \\(1\\) approach \\(1\\).\nBy the squeeze theorem, the right-hand limit is \\(1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-15",
+      "prompt": "Show that \\(\\lim_{x\\to0}x^2\\sin^2(1/x)=0\\).",
+      "answer": "Since \\(0\\le\\sin^2(1/x)\\le1\\), multiply by \\(x^2\\ge0\\):\n\\[0\\le x^2\\sin^2(1/x)\\le x^2.\\]\nBoth outer bounds approach \\(0\\), so the squeeze theorem gives\n\\[\\lim_{x\\to0}x^2\\sin^2(1/x)=0.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-16",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{x^2\\sin(1/x)}{|x|}\\).",
+      "answer": "For \\(x\\ne0\\),\n\\[\\frac{x^2}{|x|}=|x|.\\]\nSo\n\\[\\frac{x^2\\sin(1/x)}{|x|}=|x|\\sin(1/x).\\]\nUsing \\(-1\\le\\sin(1/x)\\le1\\),\n\\[-|x|\\le |x|\\sin(1/x)\\le |x|.\\]\nBoth bounds tend to \\(0\\), so the limit is \\(0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-17",
+      "prompt": "A student tries to squeeze \\(\\sin(1/x)\\) between \\(-1\\) and \\(1\\) and concludes \\(\\lim_{x\\to0}\\sin(1/x)=0\\). Diagnose the error.",
+      "answer": "The bounds \\(-1\\le\\sin(1/x)\\le1\\) do not approach the same number.\nThe squeeze theorem requires both outer functions to have the same limit. Here the bounds are constant at \\(-1\\) and \\(1\\), so they do not squeeze to \\(0\\).\nIn fact \\(\\sin(1/x)\\) oscillates and has no limit as \\(x\\to0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-18",
+      "prompt": "Use the squeeze theorem with \\(\\cos x\\le\\frac{\\sin x}{x}\\le1\\) near \\(0\\) to find \\(\\lim_{x\\to0}\\frac{\\sin x}{x}\\).",
+      "answer": "The inequality is\n\\[\\cos x\\le\\frac{\\sin x}{x}\\le1\\]\nnear \\(0\\) for \\(x\\ne0\\).\nThe outer limits are\n\\[\\lim_{x\\to0}\\cos x=1,\\qquad \\lim_{x\\to0}1=1.\\]\nBy the squeeze theorem,\n\\[\\lim_{x\\to0}\\frac{\\sin x}{x}=1.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-19",
+      "prompt": "Prove \\(\\lim_{x\\to0}x\\cos(1/x)=0\\) using absolute values.",
+      "answer": "Use \\(|\\cos(1/x)|\\le1\\). Then\n\\[|x\\cos(1/x)|=|x|\\,|\\cos(1/x)|\\le |x|.\\]\nAlso \\(|x\\cos(1/x)|\\ge0\\). Thus\n\\[0\\le |x\\cos(1/x)|\\le |x|.\\]\nSince \\(|x|\\to0\\), the absolute value tends to \\(0\\). Therefore\n\\[x\\cos(1/x)\\to0.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-squeeze-theorem-20",
+      "prompt": "Suppose \\(|f(x)-3|\\le(x-2)^2\\) for all \\(x\\) near \\(2\\). Prove \\(\\lim_{x\\to2}f(x)=3\\).",
+      "answer": "The inequality\n\\[|f(x)-3|\\le(x-2)^2\\]\nmeans the distance from \\(f(x)\\) to \\(3\\) is bounded by \\((x-2)^2\\).\nSince\n\\[\\lim_{x\\to2}(x-2)^2=0,\\]\nwe have\n\\[0\\le |f(x)-3|\\le(x-2)^2.\\]\nBy the squeeze theorem, \\(|f(x)-3|\\to0\\), so \\(f(x)\\to3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

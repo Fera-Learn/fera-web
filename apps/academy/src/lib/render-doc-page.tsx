@@ -21,9 +21,17 @@ import {
   level1PhysicsEquationSheetPrintHref,
 } from "@/lib/docs/level-1-physics/equation-sheet";
 import {
+  level1MathIPhysicsEquationSheet,
+  level1MathIPhysicsEquationSheetPrintHref,
+} from "@/lib/docs/level-1-math-i-physics/equation-sheet";
+import {
   level1PhysicsExamSets,
   getLevel1PhysicsExamPaper,
 } from "@/lib/docs/level-1-physics/exams";
+import {
+  getLevel1MathIPhysicsExamPaper,
+  level1MathIPhysicsExamSets,
+} from "@/lib/docs/level-1-math-i-physics/exams";
 import {
   getCourseBySlug,
   getCourseExamPapersHref,
@@ -33,9 +41,9 @@ import {
   isCourseExamPaperPage,
   isCourseExamPapersPage,
   isCourseFlashcardsPage,
+  isCourseEquationSheetPage,
   isCourseQuestionsPage,
   isCourseTopicPage,
-  isLevel1PhysicsEquationSheetPage,
   resolveDocPage,
   resolveSidebarScopeFromSlug,
   searchIndex,
@@ -63,6 +71,52 @@ const level1PhysicsPaperTopics = [
     totalMarks: 60,
   },
 ];
+
+const level1MathIPhysicsPaperTopics = [
+  {
+    label: "Paper 1",
+    description:
+      "Algebra, functions, trigonometry, limits, differentiation, integration, and complex numbers for physics support.",
+    timeAllowed: "2 hours",
+    totalMarks: 60,
+  },
+];
+
+const examCourseConfigs = {
+  "level-1-math-i-physics": {
+    getPaper: getLevel1MathIPhysicsExamPaper,
+    paperTopics: level1MathIPhysicsPaperTopics,
+    sets: level1MathIPhysicsExamSets,
+  },
+  "level-1-physics": {
+    getPaper: getLevel1PhysicsExamPaper,
+    paperTopics: level1PhysicsPaperTopics,
+    sets: level1PhysicsExamSets,
+  },
+};
+
+const equationSheetCourseConfigs = {
+  "level-1-math-i-physics": {
+    printHref: level1MathIPhysicsEquationSheetPrintHref,
+    sheet: level1MathIPhysicsEquationSheet,
+  },
+  "level-1-physics": {
+    printHref: level1PhysicsEquationSheetPrintHref,
+    sheet: level1PhysicsEquationSheet,
+  },
+};
+
+function getExamCourseConfig(courseId: string) {
+  return examCourseConfigs[courseId as keyof typeof examCourseConfigs] ?? null;
+}
+
+function getEquationSheetCourseConfig(courseId: string) {
+  return (
+    equationSheetCourseConfigs[
+      courseId as keyof typeof equationSheetCourseConfigs
+    ] ?? null
+  );
+}
 
 function getPaperFilterOptions(courseId: string) {
   const papers = getPapers({ courseId }) ?? [];
@@ -108,15 +162,17 @@ function getDifficultyFilterOptions(courseId: string) {
 }
 
 function getExamPaperPrintHref({
+  courseId,
   mode,
   paperId,
   setId,
 }: {
+  courseId: string;
   mode: "answers" | "questions";
   paperId: string;
   setId: string;
 }) {
-  return `/level-1-physics/exam-papers/${setId}/${paperId}/print/${mode}`;
+  return `/${courseId}/exam-papers/${setId}/${paperId}/print/${mode}`;
 }
 
 export async function RenderDocsPage({
@@ -137,9 +193,17 @@ export async function RenderDocsPage({
   const isExamPaperMode = isCourseExamPaperPage(page);
   const isQuestionsPage = isCourseQuestionsPage(page);
   const isFlashcardsPage = isCourseFlashcardsPage(page);
-  const isEquationSheetPage = isLevel1PhysicsEquationSheetPage(page);
+  const isEquationSheetPage = isCourseEquationSheetPage(page);
 
   if (isEquationSheetPage) {
+    const equationSheetConfig = course?.scope
+      ? getEquationSheetCourseConfig(course.scope)
+      : null;
+
+    if (!equationSheetConfig) {
+      notFound();
+    }
+
     const neighbors = getPrevNextDoc(docsTree, page.href);
 
     return (
@@ -153,8 +217,8 @@ export async function RenderDocsPage({
       >
         <DocsArticle neighbors={neighbors} page={page}>
           <EquationSheetPage
-            printHref={level1PhysicsEquationSheetPrintHref}
-            sheet={level1PhysicsEquationSheet}
+            printHref={equationSheetConfig.printHref}
+            sheet={equationSheetConfig.sheet}
           />
         </DocsArticle>
       </DocsAppShell>
@@ -212,19 +276,22 @@ export async function RenderDocsPage({
   }
 
   if (isExamPapersMode) {
+    const examConfig = course?.scope ? getExamCourseConfig(course.scope) : null;
     const sets =
-      course?.scope === "level-1-physics"
-        ? level1PhysicsExamSets.map((set) => ({
+      course && examConfig
+        ? examConfig.sets.map((set) => ({
             ...set,
             papers: set.papers.map((paper) => ({
               ...paper,
               answerPdfHref: getExamPaperPrintHref({
+                courseId: course.scope,
                 mode: "answers",
                 paperId: paper.id,
                 setId: set.id,
               }),
-              href: `/level-1-physics/exam-papers/${set.id}/${paper.id}`,
+              href: `/${course.scope}/exam-papers/${set.id}/${paper.id}`,
               questionPdfHref: getExamPaperPrintHref({
+                courseId: course.scope,
                 mode: "questions",
                 paperId: paper.id,
                 setId: set.id,
@@ -246,11 +313,7 @@ export async function RenderDocsPage({
         <DocsArticle neighbors={neighbors} page={page}>
           <ExamPapersIndex
             courseLabel={course?.label ?? page.title}
-            paperTopics={
-              course?.scope === "level-1-physics"
-                ? level1PhysicsPaperTopics
-                : []
-            }
+            paperTopics={examConfig?.paperTopics ?? []}
             sets={sets}
           />
         </DocsArticle>
@@ -260,9 +323,10 @@ export async function RenderDocsPage({
 
   if (isExamPaperMode) {
     const [, , setId, paperId] = page.slug;
+    const examConfig = course?.scope ? getExamCourseConfig(course.scope) : null;
     const paper =
-      course?.scope === "level-1-physics" && setId && paperId
-        ? getLevel1PhysicsExamPaper(setId, paperId)
+      examConfig && setId && paperId
+        ? examConfig.getPaper(setId, paperId)
         : undefined;
 
     if (!course || !paper || !setId || !paperId) {
@@ -284,11 +348,13 @@ export async function RenderDocsPage({
           courseLabel={course.label}
           exportHrefs={{
             answers: getExamPaperPrintHref({
+              courseId: course.scope,
               mode: "answers",
               paperId,
               setId,
             }),
             questions: getExamPaperPrintHref({
+              courseId: course.scope,
               mode: "questions",
               paperId,
               setId,

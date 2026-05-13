@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "matrix-operations",
+  "topicTitle": "Matrix Operations",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-matrix-operations-01",
+      "prompt": "What operation does \\(A^T\\) denote?",
+      "answer": "The notation \\(A^T\\) denotes the transpose of \\(A\\). Transposing swaps rows and columns: row \\(i\\) of \\(A\\) becomes column \\(i\\) of \\(A^T\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-02",
+      "prompt": "What is the size of the identity matrix \\(I_4\\)?",
+      "answer": "The identity matrix \\(I_n\\) is an \\(n\\times n\\) square matrix. Therefore \\(I_4\\) has size\n\\[\n4\\times4.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-03",
+      "prompt": "Can a \\(2\\times3\\) matrix be added to a \\(2\\times2\\) matrix? Explain.",
+      "answer": "Matrix addition requires equal sizes. A \\(2\\times3\\) matrix and a \\(2\\times2\\) matrix have different numbers of columns, so their sizes do not match. Therefore the sum is not defined.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-04",
+      "prompt": "If \\(A\\) is \\(3\\times2\\) and \\(B\\) is \\(2\\times5\\), what is the size of \\(AB\\)?",
+      "answer": "For \\(AB\\), the inner dimensions must match. Here they are both \\(2\\), so the product exists. The outer dimensions give the result size:\n\\[\n3\\times5.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-05",
+      "prompt": "Compute \\(\\begin{pmatrix}1&-2\\\\3&0\\end{pmatrix}+\\begin{pmatrix}4&5\\\\-1&7\\end{pmatrix}\\).",
+      "answer": "Add corresponding entries:\n\\[\n\\begin{pmatrix}1+4&-2+5\\\\3+(-1)&0+7\\end{pmatrix}=\\begin{pmatrix}5&3\\\\2&7\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-06",
+      "prompt": "Compute \\(-3\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}\\).",
+      "answer": "Scalar multiplication acts entry by entry:\n\\[\n-3\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}=\\begin{pmatrix}-6&3\\\\0&-12\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-07",
+      "prompt": "Find \\(A^T\\) for \\(A=\\begin{pmatrix}1&2&3\\\\4&5&6\\end{pmatrix}\\).",
+      "answer": "The first row \\((1,2,3)\\) becomes the first column, and the second row \\((4,5,6)\\) becomes the second column. Thus\n\\[\nA^T=\\begin{pmatrix}1&4\\\\2&5\\\\3&6\\end{pmatrix}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-08",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}0&5\\\\6&-1\\end{pmatrix}\\), compute \\(2A-B\\).",
+      "answer": "First compute\n\\[\n2A=\\begin{pmatrix}2&4\\\\6&8\\end{pmatrix}.\n\\]\nThen subtract entry by entry:\n\\[\n2A-B=\\begin{pmatrix}2-0&4-5\\\\6-6&8-(-1)\\end{pmatrix}=\\begin{pmatrix}2&-1\\\\0&9\\end{pmatrix}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-09",
+      "prompt": "Compute \\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\begin{pmatrix}5\\\\6\\end{pmatrix}\\).",
+      "answer": "Multiply each row of the matrix by the column vector. The first entry is\n\\[\n1\\cdot5+2\\cdot6=17.\n\\]\nThe second entry is\n\\[\n3\\cdot5+4\\cdot6=39.\n\\]\nTherefore\n\\[\n\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\begin{pmatrix}5\\\\6\\end{pmatrix}=\\begin{pmatrix}17\\\\39\\end{pmatrix}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-10",
+      "prompt": "Compute \\(AB\\) for \\(A=\\begin{pmatrix}1&0&2\\\\-1&3&1\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}2&1\\\\0&4\\\\5&-2\\end{pmatrix}\\).",
+      "answer": "The product exists because \\(A\\) is \\(2\\times3\\) and \\(B\\) is \\(3\\times2\\). Compute row-column products:\n\\[\nAB=\\begin{pmatrix}1\\cdot2+0\\cdot0+2\\cdot5&1\\cdot1+0\\cdot4+2(-2)\\\\(-1)2+3\\cdot0+1\\cdot5&(-1)1+3\\cdot4+1(-2)\\end{pmatrix}.\n\\]\nSo\n\\[\nAB=\\begin{pmatrix}12&-3\\\\3&9\\end{pmatrix}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-11",
+      "prompt": "Show with a calculation that matrix multiplication is not commutative for \\(A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\), \\(B=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nAB=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}.\n\\]\nCompute the reverse order:\n\\[\nBA=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}=\\begin{pmatrix}1&1\\\\1&2\\end{pmatrix}.\n\\]\nSince \\(AB\\ne BA\\), matrix multiplication is not commutative in general.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-12",
+      "prompt": "Explain why \\(AI_3=A\\) is valid when \\(A\\) is \\(2\\times3\\), but \\(AI_2\\) is not defined.",
+      "answer": "For \\(AI_3\\), the sizes are \\((2\\times3)(3\\times3)\\). The inner dimensions match, so the product exists and the identity on the right leaves the three columns of \\(A\\) unchanged. For \\(AI_2\\), the sizes would be \\((2\\times3)(2\\times2)\\). The inner dimensions are \\(3\\) and \\(2\\), which do not match, so \\(AI_2\\) is not defined.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-13",
+      "prompt": "Find all real \\(a\\) for which \\(A=\\begin{pmatrix}2&a\\\\a+1&5\\end{pmatrix}\\) is symmetric.",
+      "answer": "A matrix is symmetric when \\(A^T=A\\), so entries mirrored across the main diagonal must be equal. Here that requires\n\\[\na=a+1.\n\\]\nSubtract \\(a\\) from both sides:\n\\[\n0=1,\n\\]\nwhich is impossible. Therefore there is no real value of \\(a\\) for which \\(A\\) is symmetric.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-14",
+      "prompt": "Let \\(A\\) be \\(2\\times3\\), \\(B\\) be \\(3\\times2\\), and \\(C\\) be \\(2\\times2\\). Which of \\(AB+C\\), \\(BA+C\\), and \\(AC\\) are defined?",
+      "answer": "First, \\(AB\\) has size \\((2\\times3)(3\\times2)=2\\times2\\), so \\(AB+C\\) is defined because \\(C\\) is also \\(2\\times2\\). Next, \\(BA\\) has size \\((3\\times2)(2\\times3)=3\\times3\\), so \\(BA+C\\) is not defined because \\(3\\times3\\) cannot be added to \\(2\\times2\\). Finally, \\(AC\\) would have sizes \\((2\\times3)(2\\times2)\\), whose inner dimensions \\(3\\) and \\(2\\) do not match, so \\(AC\\) is not defined.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-15",
+      "prompt": "For what values of \\(t\\) is \\(A=\\begin{pmatrix}1&t\\\\3&2\\end{pmatrix}\\) such that \\(A+A^T\\) has equal off-diagonal entries?",
+      "answer": "Compute the transpose:\n\\[\nA^T=\\begin{pmatrix}1&3\\\\t&2\\end{pmatrix}.\n\\]\nThen\n\\[\nA+A^T=\\begin{pmatrix}2&t+3\\\\3+t&4\\end{pmatrix}.\n\\]\nThe off-diagonal entries are \\(t+3\\) and \\(3+t\\), which are equal for every real \\(t\\). Therefore all real values of \\(t\\) work.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-16",
+      "prompt": "Find the condition on \\(a,b,c\\) for \\(\\begin{pmatrix}a&b\\\\0&c\\end{pmatrix}\\begin{pmatrix}1\\\\1\\end{pmatrix}=\\begin{pmatrix}5\\\\2\\end{pmatrix}\\).",
+      "answer": "Multiply the matrix by the vector:\n\\[\n\\begin{pmatrix}a&b\\\\0&c\\end{pmatrix}\\begin{pmatrix}1\\\\1\\end{pmatrix}=\\begin{pmatrix}a+b\\\\c\\end{pmatrix}.\n\\]\nFor this to equal \\(\\begin{pmatrix}5\\\\2\\end{pmatrix}\\), corresponding entries must match:\n\\[\na+b=5,\\qquad c=2.\n\\]\nThus the condition is \\(c=2\\) and \\(a+b=5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-17",
+      "prompt": "For which sizes of \\(A\\) can both \\(AI_4\\) and \\(I_3A\\) be defined? Determine the size of \\(A\\).",
+      "answer": "For \\(AI_4\\) to be defined, \\(A\\) must have \\(4\\) columns. So \\(A\\) has size \\(m\\times4\\). For \\(I_3A\\) to be defined, \\(I_3\\) has size \\(3\\times3\\), so \\(A\\) must have \\(3\\) rows. Thus \\(m=3\\). Therefore\n\\[\nA\\text{ has size }3\\times4.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-18",
+      "prompt": "Diagnose the error: a learner computes \\(\\begin{pmatrix}1&2\\end{pmatrix}\\begin{pmatrix}3&4\\end{pmatrix}=\\begin{pmatrix}3&8\\end{pmatrix}\\) by multiplying entries position by position.",
+      "answer": "The learner used entry-wise multiplication, but matrix multiplication is row-by-column multiplication. The first matrix has size \\(1\\times2\\), and the second also has size \\(1\\times2\\). For a product \\(AB\\), the inner dimensions must match. Here they are \\(2\\) and \\(1\\), so they do not match. Therefore the product is not defined at all; \\(\\begin{pmatrix}3&8\\end{pmatrix}\\) is not a valid matrix product.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-19",
+      "prompt": "Prove using entry reasoning that \\((A+B)^T=A^T+B^T\\) for matrices of the same size.",
+      "answer": "Let \\(A\\) and \\(B\\) have the same size. The \\((i,j)\\)-entry of \\((A+B)^T\\) is the \\((j,i)\\)-entry of \\(A+B\\), which is\n\\[\na_{ji}+b_{ji}.\n\\]\nThe \\((i,j)\\)-entry of \\(A^T+B^T\\) is the \\((i,j)\\)-entry of \\(A^T\\) plus the \\((i,j)\\)-entry of \\(B^T\\), also\n\\[\na_{ji}+b_{ji}.\n\\]\nSince every corresponding entry is equal, \\((A+B)^T=A^T+B^T\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-matrix-operations-20",
+      "prompt": "A physics transformation sends \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}\\) to \\(\\begin{pmatrix}2x-y\\\\x+3y\\end{pmatrix}\\). Find its matrix and explain why the order of entries matters.",
+      "answer": "The output components are linear combinations of \\(x\\) and \\(y\\). The first output \\(2x-y\\) gives the first row \\((2,-1)\\). The second output \\(x+3y\\) gives the second row \\((1,3)\\). Thus the matrix is\n\\[\nA=\\begin{pmatrix}2&-1\\\\1&3\\end{pmatrix},\\qquad A\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}2x-y\\\\x+3y\\end{pmatrix}.\n\\]\nThe order matters because the first row produces the first output component and the second row produces the second output component. Swapping rows would swap the physical components of the transformed vector.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

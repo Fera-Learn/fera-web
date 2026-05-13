@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "matrix-representations",
+  "topicTitle": "Matrix Representations",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-matrix-representations-01",
+      "prompt": "What do the columns of the standard matrix of a linear map represent?",
+      "answer": "The columns are the images of the standard basis vectors. If \\(T:\\mathbb R^n\\to\\mathbb R^m\\), then the standard matrix is\n\\[\nA=\\begin{pmatrix}|&|&&|\\\\ T(\\mathbf e_1)&T(\\mathbf e_2)&\\cdots&T(\\mathbf e_n)\\\\ |&|&&|\\end{pmatrix}.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-02",
+      "prompt": "What size matrix represents a map \\(T:\\mathbb R^3\\to\\mathbb R^2\\)?",
+      "answer": "The number of columns is the input dimension and the number of rows is the output dimension. Therefore the matrix has \\(2\\) rows and \\(3\\) columns, so it is \\(2\\times3\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-03",
+      "prompt": "Find the standard matrix for \\(T(x,y)=(3x,5y)\\).",
+      "answer": "Compute the basis images:\n\\[\nT(1,0)=(3,0),\\qquad T(0,1)=(0,5).\n\\]\nPlace them as columns:\n\\[\nA=\\begin{pmatrix}3&0\\\\0&5\\end{pmatrix}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-04",
+      "prompt": "For \\(A=\\begin{pmatrix}2&-1\\\\4&0\\end{pmatrix}\\), what are \\(T(\\mathbf e_1)\\) and \\(T(\\mathbf e_2)\\)?",
+      "answer": "The first column is \\(T(\\mathbf e_1)\\) and the second column is \\(T(\\mathbf e_2)\\). Hence\n\\[\nT(\\mathbf e_1)=(2,4),\\qquad T(\\mathbf e_2)=(-1,0).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-05",
+      "prompt": "Find the matrix of \\(T(x,y)=(x+y,2x-y)\\).",
+      "answer": "Evaluate the standard basis vectors:\n\\[\nT(1,0)=(1,2),\\qquad T(0,1)=(1,-1).\n\\]\nThese become columns, so\n\\[\nA=\\begin{pmatrix}1&1\\\\2&-1\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-06",
+      "prompt": "The matrix \\(A=\\begin{pmatrix}1&0&2\\\\0&3&-1\\end{pmatrix}\\) represents \\(T:\\mathbb R^3\\to\\mathbb R^2\\). Find \\(T(x,y,z)\\).",
+      "answer": "Multiply \\(A\\) by the coordinate column:\n\\[\n\\begin{pmatrix}1&0&2\\\\0&3&-1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=\\begin{pmatrix}x+2z\\\\3y-z\\end{pmatrix}.\n\\]\nTherefore \\(T(x,y,z)=(x+2z,3y-z)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-07",
+      "prompt": "A linear map satisfies \\(T(1,0)=(2,-1,0)\\) and \\(T(0,1)=(4,3,5)\\). Write its standard matrix.",
+      "answer": "The outputs are the columns of the matrix. Since the output vectors have three components and there are two input basis vectors,\n\\[\nA=\\begin{pmatrix}2&4\\\\-1&3\\\\0&5\\end{pmatrix}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-08",
+      "prompt": "For \\(A=\\begin{pmatrix}2&1\\\\-1&3\\end{pmatrix}\\), compute the output for input \\((4,-2)\\).",
+      "answer": "Multiply:\n\\[\nA\\begin{pmatrix}4\\\\-2\\end{pmatrix}=\\begin{pmatrix}2(4)+1(-2)\\\\-1(4)+3(-2)\\end{pmatrix}=\\begin{pmatrix}6\\\\-10\\end{pmatrix}.\n\\]\nSo the output is \\((6,-10)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-09",
+      "prompt": "Find the standard matrix of \\(T(x,y,z)=(x-z,2x+y,3z)\\).",
+      "answer": "Compute columns:\n\\[\nT(1,0,0)=(1,2,0),\\quad T(0,1,0)=(0,1,0),\\quad T(0,0,1)=(-1,0,3).\n\\]\nThus\n\\[\nA=\\begin{pmatrix}1&0&-1\\\\2&1&0\\\\0&0&3\\end{pmatrix}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-10",
+      "prompt": "Given \\(A=\\begin{pmatrix}1&2\\\\3&4\\\\5&6\\end{pmatrix}\\), express \\(T(x,y)\\) as a linear combination of the columns.",
+      "answer": "The columns are \\((1,3,5)\\) and \\((2,4,6)\\). Therefore\n\\[\nT(x,y)=x(1,3,5)+y(2,4,6).\n\\]\nComponentwise this is \\((x+2y,3x+4y,5x+6y)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-11",
+      "prompt": "A map has matrix \\(A=\\begin{pmatrix}1&1\\\\0&2\\end{pmatrix}\\). Verify from columns that \\(T(3,4)=3T(1,0)+4T(0,1)\\).",
+      "answer": "The columns give \\(T(1,0)=(1,0)\\) and \\(T(0,1)=(1,2)\\). Then\n\\[\n3T(1,0)+4T(0,1)=3(1,0)+4(1,2)=(7,8).\n\\]\nAlso\n\\[\nA\\begin{pmatrix}3\\\\4\\end{pmatrix}=\\begin{pmatrix}7\\\\8\\end{pmatrix}.\n\\]\nThey match.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-12",
+      "prompt": "Explain why a \\(3\\times2\\) matrix cannot represent a standard-coordinate map from \\(\\mathbb R^3\\) to \\(\\mathbb R^2\\).",
+      "answer": "A standard matrix has one column for each input coordinate and one row for each output coordinate. A map \\(\\mathbb R^3\\to\\mathbb R^2\\) needs \\(3\\) columns and \\(2\\) rows, so its matrix is \\(2\\times3\\). A \\(3\\times2\\) matrix instead represents a map \\(\\mathbb R^2\\to\\mathbb R^3\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-13",
+      "prompt": "A linear map sends \\((1,1)\\) to \\((3,5)\\) and \\((1,-1)\\) to \\((1,-1)\\). Find its standard matrix.",
+      "answer": "Let \\(T(1,0)=\\mathbf a\\) and \\(T(0,1)=\\mathbf b\\). Then\n\\[\n\\mathbf a+\\mathbf b=(3,5),\\qquad \\mathbf a-\\mathbf b=(1,-1).\n\\]\nAdd equations: \\(2\\mathbf a=(4,4)\\), so \\(\\mathbf a=(2,2)\\). Then \\(\\mathbf b=(1,3)\\). Therefore\n\\[\nA=\\begin{pmatrix}2&1\\\\2&3\\end{pmatrix}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-14",
+      "prompt": "Find the matrix of the map that projects \\((x,y,z)\\) onto the \\(xz\\)-plane by removing the \\(y\\)-component.",
+      "answer": "The map is \\(T(x,y,z)=(x,0,z)\\). Compute basis images:\n\\[\nT(1,0,0)=(1,0,0),\\quad T(0,1,0)=(0,0,0),\\quad T(0,0,1)=(0,0,1).\n\\]\nThus\n\\[\nA=\\begin{pmatrix}1&0&0\\\\0&0&0\\\\0&0&1\\end{pmatrix}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-15",
+      "prompt": "For which \\(a\\) does \\(A=\\begin{pmatrix}1&a\\\\2&4\\end{pmatrix}\\) send \\((1,-1)\\) to \\((0,-2)\\)?",
+      "answer": "Compute\n\\[\nA\\begin{pmatrix}1\\\\-1\\end{pmatrix}=\\begin{pmatrix}1-a\\\\2-4\\end{pmatrix}=\\begin{pmatrix}1-a\\\\-2\\end{pmatrix}.\n\\]\nSet this equal to \\((0,-2)\\). The second component already matches, and the first gives \\(1-a=0\\). Hence \\(a=1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-16",
+      "prompt": "Find all \\(b\\) such that \\(A=\\begin{pmatrix}b&1\\\\1&b\\end{pmatrix}\\) sends both \\((1,1)\\) and \\((1,-1)\\) to scalar multiples of themselves.",
+      "answer": "Compute\n\\[\nA(1,1)=(b+1,b+1)=(b+1)(1,1),\n\\]\nso \\((1,1)\\) always stays on its line. Also\n\\[\nA(1,-1)=(b-1,1-b)=(b-1)(1,-1).\n\\]\nThis also always stays on its line. Therefore every real value of \\(b\\) works.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-17",
+      "prompt": "A matrix has columns \\(\\mathbf c_1=(1,2)\\), \\(\\mathbf c_2=(0,1)\\), and \\(\\mathbf c_3=(3,-1)\\). Find the input \\((x,y,z)\\) that maps to \\(2\\mathbf c_1-\\mathbf c_2+4\\mathbf c_3\\).",
+      "answer": "Matrix multiplication forms\n\\[\nT(x,y,z)=x\\mathbf c_1+y\\mathbf c_2+z\\mathbf c_3.\n\\]\nTo get \\(2\\mathbf c_1-\\mathbf c_2+4\\mathbf c_3\\), choose the coordinates that are the coefficients: \\(x=2\\), \\(y=-1\\), \\(z=4\\). The input is \\((2,-1,4)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-18",
+      "prompt": "A student writes the basis-vector images as rows instead of columns. Diagnose the error for \\(T(1,0)=(2,3)\\), \\(T(0,1)=(5,7)\\).",
+      "answer": "The correct matrix uses those images as columns:\n\\[\nA=\\begin{pmatrix}2&5\\\\3&7\\end{pmatrix}.\n\\]\nThe row version would be \\(B=\\begin{pmatrix}2&3\\\\5&7\\end{pmatrix}\\). It gives \\(B(1,0)=(2,5)\\), not \\((2,3)\\). Therefore the row placement represents a different map.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-19",
+      "prompt": "Prove that knowing a linear map on a basis determines its matrix and its value on every vector.",
+      "answer": "Every vector in \\(\\mathbb R^n\\) can be written uniquely as\n\\[\n\\mathbf v=x_1\\mathbf e_1+\\cdots+x_n\\mathbf e_n.\n\\]\nLinearity gives\n\\[\nT(\\mathbf v)=x_1T(\\mathbf e_1)+\\cdots+x_nT(\\mathbf e_n).\n\\]\nSo the outputs of the basis vectors determine every output. Placing those outputs as columns gives the matrix that performs exactly this linear combination.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-matrix-representations-20",
+      "prompt": "Can two different standard matrices represent the same linear map \\(\\mathbb R^2\\to\\mathbb R^2\\)? Justify your answer.",
+      "answer": "No. If two standard matrices \\(A\\) and \\(B\\) represent the same map, they give the same outputs for \\(\\mathbf e_1\\) and \\(\\mathbf e_2\\). But those outputs are exactly the columns of the standard matrix. Therefore column 1 of \\(A\\) equals column 1 of \\(B\\), and column 2 of \\(A\\) equals column 2 of \\(B\\). Hence \\(A=B\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

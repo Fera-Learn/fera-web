@@ -103,7 +103,7 @@ Expand \(\mathbf n\cdot(\mathbf r-\mathbf a)=0\) without skipping the algebra:
 
 ### Distance from the origin
 
-Let \(O\) be the origin. The signed perpendicular distance from \(O\) to the plane in the unit-normal direction is the projection of \(\mathbf a\) onto \(\hat\{\mathbf n\}\). Its physical distance is the absolute value:
+Let \(O\) be the origin. The signed perpendicular distance from \(O\) to the plane in the unit-normal direction is the projection of \(\mathbf a\) onto \(\hat{\mathbf n}\). Its physical distance is the absolute value:
 
 <PhysicsDerivation
   items={[

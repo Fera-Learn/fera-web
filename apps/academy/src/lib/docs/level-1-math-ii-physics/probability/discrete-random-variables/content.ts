@@ -76,7 +76,7 @@ For an interval, sum the PMF over the supported values inside the interval.
     {
       title: "Example 1",
       question: "Two fair coins are tossed. Let \\(X\\) be the number of heads. Find the PMF.",
-      answer: "The outcomes are \\(HH,HT,TH,TT\\). The values are \\(X=2,1,1,0\\), so \\[p_X(0)=\\frac14,\\quad p_X(1)=\\frac12,\\quad p_X(2)=\\frac14.\\]",
+      answer: "The outcomes are \\(HH,HT,TH,TT\\). The values are \\(X=2,1,1,0\\), so \\[p_X(0)=\\frac{1}{4},\\quad p_X(1)=\\frac{1}{2},\\quad p_X(2)=\\frac{1}{4}.\\]",
     },
     {
       title: "Example 2",

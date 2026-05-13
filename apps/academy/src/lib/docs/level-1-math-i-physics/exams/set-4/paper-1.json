@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "setId": "set-4",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "description": "Functions, limits, differentiation, integration, and complex-number identities for physics mathematics.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the algebra, definitions, and modelling steps clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mi-s4-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Functions and Inverses",
+      "stem": "A logarithmic response model is \\(R(q)=2+\\ln(q+1)\\), where \\(q>-1\\). A read-back formula is \\(A(y)=e^{y-2}-1\\).",
+      "title": "Logarithmic response functions",
+      "parts": [
+        {
+          "answer": "Since \\(q>-1\\), we have \\(q+1>0\\), so \\(\\ln(q+1)\\) can take every real value. Therefore the range of \\(R\\) is all real numbers. To find the inverse, write\n\\[\ny=2+\\ln(q+1).\n\\]\nThen\n\\[\ny-2=\\ln(q+1).\n\\]\nExponentiating gives\n\\[\ne^{y-2}=q+1.\n\\]\nHence\n\\[\nR^{-1}(y)=e^{y-2}-1.\n\\]",
+          "id": "l1mi-s4-p1-q1-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the range of \\(R\\), and find an expression for \\(R^{-1}(y)\\)."
+        },
+        {
+          "answer": "Substitute \\(R(q)=2+\\ln(q+1)\\) into \\(A(y)=e^{y-2}-1\\):\n\\[\nA(R(q))=e^{2+\\ln(q+1)-2}-1.\n\\]\nThis simplifies to\n\\[\nA(R(q))=e^{\\ln(q+1)}-1.\n\\]\nSince \\(q>-1\\), \\(q+1>0\\), so\n\\[\nA(R(q))=q+1-1=q.\n\\]\nThus the read-back formula recovers the original setting.",
+          "id": "l1mi-s4-p1-q1-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Simplify \\(A(R(q))\\), and state what this means for the read-back formula."
+        },
+        {
+          "answer": "Set the model equal to the given reading:\n\\[\n2+\\ln(q+1)=\\ln6.\n\\]\nThen\n\\[\n\\ln(q+1)=\\ln6-2.\n\\]\nSince \\(2=\\ln(e^2)\\), this is\n\\[\n\\ln(q+1)=\\ln\\left(\\frac{6}{e^2}\\right).\n\\]\nTherefore\n\\[\nq+1=\\frac{6}{e^2},\\qquad q=6e^{-2}-1.\n\\]",
+          "id": "l1mi-s4-p1-q1-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Find the setting \\(q\\) for which \\(R(q)=\\ln6\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s4-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Limits and Derivatives",
+      "stem": "A removable discontinuity is used to test a numerical routine. A separate polynomial model is differentiated from first principles.",
+      "title": "Continuity, first principles, and small angles",
+      "parts": [
+        {
+          "answer": "For \\(x\\ne2\\), factor the numerator:\n\\[\n\\frac{x^2-4}{x-2}=\\frac{(x-2)(x+2)}{x-2}=x+2.\n\\]\nThus\n\\[\n\\lim_{x\\to2}\\frac{x^2-4}{x-2}=\\lim_{x\\to2}(x+2)=4.\n\\]\nFor the function to be continuous at \\(x=2\\), the defined value must equal this limit. Hence\n\\[\nk=4.\n\\]",
+          "id": "l1mi-s4-p1-q2-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Let \\(f(x)=\\frac{x^2-4}{x-2}\\) for \\(x\\ne2\\), and let \\(f(2)=k\\). Find \\(k\\) so that \\(f\\) is continuous at \\(x=2\\)."
+        },
+        {
+          "answer": "Using first principles,\n\\[\ng'(x)=\\lim_{h\\to0}\\frac{g(x+h)-g(x)}{h}.\n\\]\nFor \\(g(x)=x^2-4x\\),\n\\[\ng(x+h)=(x+h)^2-4(x+h).\n\\]\nThen\n\\[\ng(x+h)-g(x)=x^2+2xh+h^2-4x-4h-(x^2-4x).\n\\]\nThis simplifies to\n\\[\ng(x+h)-g(x)=2xh+h^2-4h.\n\\]\nDivide by \\(h\\):\n\\[\n\\frac{g(x+h)-g(x)}{h}=2x+h-4.\n\\]\nTaking \\(h\\to0\\) gives\n\\[\ng'(x)=2x-4.\n\\]",
+          "id": "l1mi-s4-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Using first principles, differentiate \\(g(x)=x^2-4x\\)."
+        },
+        {
+          "answer": "Use the identity \\(\\cos a-1=-2\\sin^2\\left(\\frac{a}{2}\\right)\\). Then\n\\[\n\\frac{\\cos(3x)-1}{x^2}=\\frac{-2\\sin^2\\left(\\frac{3x}{2}\\right)}{x^2}.\n\\]\nRewrite this as\n\\[\n-2\\left(\\frac{\\sin\\left(\\frac{3x}{2}\\right)}{x}\\right)^2.\n\\]\nNow\n\\[\n\\frac{\\sin\\left(\\frac{3x}{2}\\right)}{x}=\\frac{3}{2}\\frac{\\sin\\left(\\frac{3x}{2}\\right)}{\\frac{3x}{2}}\\to\\frac{3}{2}.\n\\]\nTherefore\n\\[\n\\lim_{x\\to0}\\frac{\\cos(3x)-1}{x^2}=-2\\left(\\frac{3}{2}\\right)^2=-\\frac{9}{2}.\n\\]",
+          "id": "l1mi-s4-p1-q2-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\cos(3x)-1}{x^2}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s4-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Integration",
+      "stem": "Accumulated quantities are computed from three rate models over short intervals: a polynomial rate, a trigonometric rate, and an exponential rate.",
+      "title": "Definite integrals from rate models",
+      "parts": [
+        {
+          "answer": "Integrate term by term:\n\\[\n\\int_0^1(6u^2-4u+5)\\,du=\\left[2u^3-2u^2+5u\\right]_0^1.\n\\]\nAt \\(u=1\\), this is\n\\[\n2-2+5=5.\n\\]\nAt \\(u=0\\), it is \\(0\\). Therefore\n\\[\n\\int_0^1(6u^2-4u+5)\\,du=5.\n\\]",
+          "id": "l1mi-s4-p1-q3-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\int_0^1(6u^2-4u+5)\\,du\\)."
+        },
+        {
+          "answer": "Let \\(y=\\cos\\theta\\). Then \\(dy=-\\sin\\theta\\,d\\theta\\). When \\(\\theta=0\\), \\(y=1\\). When \\(\\theta=\\frac{\\pi}{4}\\), \\(y=\\frac{\\sqrt{2}}{2}\\). Thus\n\\[\n\\int_0^{\\pi/4}\\frac{\\sin\\theta}{\\cos^3\\theta}\\,d\\theta=\\int_1^{\\sqrt{2}/2}-y^{-3}\\,dy.\n\\]\nReverse the limits:\n\\[\n\\int_{\\sqrt{2}/2}^{1}y^{-3}\\,dy=\\left[-\\frac{1}{2y^2}\\right]_{\\sqrt{2}/2}^{1}.\n\\]\nTherefore\n\\[\n-\\frac{1}{2}-\\left(-1\\right)=\\frac{1}{2}.\n\\]",
+          "id": "l1mi-s4-p1-q3-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Use a substitution to evaluate \\(\\int_0^{\\pi/4}\\frac{\\sin\\theta}{\\cos^3\\theta}\\,d\\theta\\)."
+        },
+        {
+          "answer": "Use integration by parts with \\(a=u\\) and \\(db=e^{2u}\\,du\\). Then \\(da=du\\) and \\(b=\\frac{1}{2}e^{2u}\\). Hence\n\\[\n\\int_0^1 u e^{2u}\\,du=\\left[\\frac{u}{2}e^{2u}\\right]_0^1-\\int_0^1\\frac{1}{2}e^{2u}\\,du.\n\\]\nThe boundary term is \\(\\frac{e^2}{2}\\). The remaining integral is\n\\[\n\\int_0^1\\frac{1}{2}e^{2u}\\,du=\\left[\\frac{1}{4}e^{2u}\\right]_0^1=\\frac{e^2-1}{4}.\n\\]\nTherefore\n\\[\n\\int_0^1 u e^{2u}\\,du=\\frac{e^2}{2}-\\frac{e^2-1}{4}=\\frac{e^2+1}{4}.\n\\]",
+          "id": "l1mi-s4-p1-q3-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Use integration by parts to evaluate \\(\\int_0^1 u e^{2u}\\,du\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s4-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Complex Numbers and De Moivre's Theorem",
+      "stem": "Let \\(z=\\cos\\theta+i\\sin\\theta\\). De Moivre's theorem connects powers of \\(z\\) with trigonometric identities and roots of complex numbers.",
+      "title": "Complex powers and roots",
+      "parts": [
+        {
+          "answer": "By De Moivre's theorem,\n\\[\nz^3=(\\cos\\theta+i\\sin\\theta)^3=\\cos3\\theta+i\\sin3\\theta.\n\\]\nAlso\n\\[\nz^{-3}=\\cos(-3\\theta)+i\\sin(-3\\theta)=\\cos3\\theta-i\\sin3\\theta.\n\\]\nAdding gives\n\\[\nz^3+z^{-3}=2\\cos3\\theta.\n\\]",
+          "id": "l1mi-s4-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Use De Moivre's theorem to show that \\(z^3+z^{-3}=2\\cos3\\theta\\)."
+        },
+        {
+          "answer": "Expand the cube:\n\\[\n(\\cos\\theta+i\\sin\\theta)^3=\\cos^3\\theta+3i\\cos^2\\theta\\sin\\theta-3\\cos\\theta\\sin^2\\theta-i\\sin^3\\theta.\n\\]\nThe real part is\n\\[\n\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta.\n\\]\nBy De Moivre's theorem, this real part equals \\(\\cos3\\theta\\). Use \\(\\sin^2\\theta=1-\\cos^2\\theta\\):\n\\[\n\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta(1-\\cos^2\\theta).\n\\]\nTherefore\n\\[\n\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta.\n\\]",
+          "id": "l1mi-s4-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Deduce that \\(\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta\\)."
+        },
+        {
+          "answer": "Write\n\\[\n-16=16e^{i(\\pi+2m\\pi)},\\qquad m\\in\\mathbb{Z}.\n\\]\nThe fourth roots have modulus \\(16^{1/4}=2\\). Their arguments are\n\\[\n\\frac{\\pi+2m\\pi}{4}=\\frac{\\pi}{4}+\\frac{m\\pi}{2}.\n\\]\nTaking four distinct values,\n\\[\nw=2e^{i(\\pi/4+k\\pi/2)},\\qquad k=0,1,2,3.\n\\]\nThese are the four fourth roots of \\(-16\\).",
+          "id": "l1mi-s4-p1-q4-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Find all fourth roots of \\(-16\\), giving your answers in exponential form."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Math I (Physics) Paper 1",
+  "totalMarks": 60
+}

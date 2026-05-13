@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "series-basics",
+  "topicTitle": "Series Basics",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-series-basics-01",
+      "prompt": "In the finite series \\(\\sum_{n=1}^{5} a_n\\), what does the symbol \\(n\\) represent?",
+      "answer": "The symbol \\(n\\) is the summation index. It takes the integer values \\(1,2,3,4,5\\), and each value tells you which term \\(a_n\\) to include in the sum.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-02",
+      "prompt": "State whether \\(\\sum_{k=1}^{8} k^2\\) is a finite series or an infinite series.",
+      "answer": "It is a finite series because the upper limit is \\(8\\), not \\(\\infty\\). The sum contains only the terms with \\(k=1,2,\\ldots,8\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-03",
+      "prompt": "Expand \\(\\sum_{n=2}^{5} n\\) without evaluating it first.",
+      "answer": "Substitute each integer index from \\(2\\) to \\(5\\):\n\\[\n\\sum_{n=2}^{5} n=2+3+4+5.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-04",
+      "prompt": "Write the first four terms of \\(\\sum_{j=0}^{\\infty} (j+1)^2\\).",
+      "answer": "Use \\(j=0,1,2,3\\) for the first four terms:\n\\[\n(0+1)^2+(1+1)^2+(2+1)^2+(3+1)^2=1+4+9+16.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-05",
+      "prompt": "Evaluate \\(\\sum_{n=1}^{4} 2n\\).",
+      "answer": "Expand first, then add:\n\\[\n\\sum_{n=1}^{4}2n=2+4+6+8=20.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-06",
+      "prompt": "Evaluate \\(\\sum_{m=0}^{3} 3^m\\).",
+      "answer": "The lower index is \\(0\\), so include \\(3^0\\):\n\\[\n3^0+3^1+3^2+3^3=1+3+9+27=40.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-07",
+      "prompt": "For \\(a_n=5-n\\), write \\(\\sum_{n=1}^{4}a_n\\) as an ordinary sum and evaluate it.",
+      "answer": "First find the terms:\n\\[\na_1=4,\\quad a_2=3,\\quad a_3=2,\\quad a_4=1.\n\\]\nTherefore\n\\[\n\\sum_{n=1}^{4}a_n=4+3+2+1=10.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-08",
+      "prompt": "A physics model adds four sample readings \\(r_i=0.2i\\) for \\(i=1,2,3,4\\). Write the total using sigma notation and evaluate it.",
+      "answer": "The total is\n\\[\n\\sum_{i=1}^{4}0.2i.\n\\]\nExpanding gives\n\\[\n0.2+0.4+0.6+0.8=2.0.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-09",
+      "prompt": "Expand and simplify \\(\\sum_{n=1}^{4}(n^2-n)\\).",
+      "answer": "Substitute \\(n=1,2,3,4\\):\n\\[\n(1^2-1)+(2^2-2)+(3^2-3)+(4^2-4)\n\\]\n\\[\n=0+2+6+12=20.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-10",
+      "prompt": "Write \\(5+8+11+14+17\\) using sigma notation with lower limit \\(n=0\\).",
+      "answer": "The terms increase by \\(3\\), and the first term at \\(n=0\\) should be \\(5\\). A suitable term formula is \\(5+3n\\). Thus\n\\[\n5+8+11+14+17=\\sum_{n=0}^{4}(5+3n).\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-11",
+      "prompt": "Explain why \\(\\sum_{n=1}^{3} n^2\\) and \\(\\sum_{j=1}^{3} j^2\\) have the same value, then evaluate it.",
+      "answer": "The index name is a dummy variable. Both sums use the same limits and the same rule for each index value.\n\\[\n\\sum_{n=1}^{3}n^2=1^2+2^2+3^2=1+4+9=14.\n\\]\nThe \\(j\\)-sum gives the same expansion and the same value.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-12",
+      "prompt": "A learner says \\(\\sum_{n=1}^{\\infty} a_n\\) is the same object as the sequence \\(a_1,a_2,a_3,\\ldots\\). Correct the statement.",
+      "answer": "The sequence is the ordered list of terms \\(a_1,a_2,a_3,\\ldots\\). The series is the formal sum \\(a_1+a_2+a_3+\\cdots\\). The terms build the series, but the list of terms and the sum of terms are different objects.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-13",
+      "prompt": "Convert \\(\\sum_{n=3}^{6}(2n-1)\\) into a sum that starts at \\(k=0\\), and check by expanding both forms.",
+      "answer": "Let \\(n=k+3\\). When \\(n=3\\), \\(k=0\\); when \\(n=6\\), \\(k=3\\). The term becomes \\(2(k+3)-1=2k+5\\), so\n\\[\n\\sum_{n=3}^{6}(2n-1)=\\sum_{k=0}^{3}(2k+5).\n\\]\nBoth expand to \\(5+7+9+11\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-14",
+      "prompt": "Find a sigma notation for the finite sum \\(\\frac12+\\frac13+\\frac14+\\frac15\\) using an index that starts at \\(n=1\\).",
+      "answer": "The denominator is one more than the index: for \\(n=1\\), the denominator is \\(2\\); for \\(n=4\\), it is \\(5\\). Therefore\n\\[\n\\frac12+\\frac13+\\frac14+\\frac15=\\sum_{n=1}^{4}\\frac{1}{n+1}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-15",
+      "prompt": "For \\(\\sum_{n=p}^{p+3} n\\), expand the series and simplify the result in terms of \\(p\\).",
+      "answer": "The four index values are \\(p,p+1,p+2,p+3\\). Thus\n\\[\n\\sum_{n=p}^{p+3}n=p+(p+1)+(p+2)+(p+3)=4p+6.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-16",
+      "prompt": "For which integer values of \\(q\\) does \\(\\sum_{n=2}^{q} n\\) have exactly five terms?",
+      "answer": "A finite sum from \\(2\\) to \\(q\\) has \\(q-2+1=q-1\\) terms. Set this equal to \\(5\\):\n\\[\nq-1=5\\quad\\Rightarrow\\quad q=6.\n\\]\nSo the upper limit must be \\(6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-17",
+      "prompt": "The sum \\(\\sum_{n=0}^{N} (4-n)\\) is expanded as \\(4+3+2+1\\). Find \\(N\\) and justify your answer.",
+      "answer": "The terms shown correspond to \\(n=0,1,2,3\\):\n\\[\n4-0=4,\\quad 4-1=3,\\quad 4-2=2,\\quad 4-3=1.\n\\]\nThe last included index is therefore \\(N=3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-18",
+      "prompt": "Diagnose the error: \\(\\sum_{n=1}^{4}2^n=1+2+4+8\\). Give the correct expansion and value.",
+      "answer": "The expansion incorrectly starts with \\(2^0=1\\), but the lower limit is \\(n=1\\). The correct expansion is\n\\[\n2^1+2^2+2^3+2^4=2+4+8+16=30.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-19",
+      "prompt": "Show that \\(\\sum_{n=1}^{N} c\\) equals \\(Nc\\) for any constant term \\(c\\).",
+      "answer": "The term formula does not depend on \\(n\\). Therefore every included term is \\(c\\):\n\\[\n\\sum_{n=1}^{N}c=c+c+\\cdots+c.\n\\]\nThere are \\(N\\) terms, so the sum is \\(Nc\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-basics-20",
+      "prompt": "A student rewrites \\(\\sum_{n=1}^{4} n^2\\) as \\(\\sum_{n=2}^{5} n^2\\) because both sums have four terms. Explain why this is invalid and give the two values.",
+      "answer": "Having the same number of terms is not enough; the actual index values changed.\n\\[\n\\sum_{n=1}^{4}n^2=1+4+9+16=30,\n\\]\nwhile\n\\[\n\\sum_{n=2}^{5}n^2=4+9+16+25=54.\n\\]\nThe limits determine which terms are included.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

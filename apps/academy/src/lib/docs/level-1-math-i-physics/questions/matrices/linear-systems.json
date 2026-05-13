@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "linear-systems",
+  "topicTitle": "Linear Systems",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-linear-systems-01",
+      "prompt": "Which of these equations is linear in \\(x\\) and \\(y\\): \\(3x-2y=7\\), \\(xy=4\\), or \\(x^2+y=1\\)? Explain your choice.",
+      "answer": "A linear equation has only constant multiples of the variables and constants. The equation \\(3x-2y=7\\) is linear because \\(x\\) and \\(y\\) appear only to the first power and are not multiplied together. The equation \\(xy=4\\) is not linear because it contains a product of variables. The equation \\(x^2+y=1\\) is not linear because it contains \\(x^2\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-02",
+      "prompt": "For the system \\(2x+y=5\\), \\(x-y=1\\), name the coefficient matrix \\(A\\), unknown vector \\(\\mathbf{x}\\), and right-hand-side vector \\(\\mathbf{b}\\) in \\(A\\mathbf{x}=\\mathbf{b}\\).",
+      "answer": "Use the variable order \\((x,y)\\). The coefficients are \\(2,1\\) in the first equation and \\(1,-1\\) in the second equation, so\n\\[\nA=\\begin{pmatrix}2&1\\\\1&-1\\end{pmatrix}.\n\\]\nThe unknown vector and right-hand side are\n\\[\n\\mathbf{x}=\\begin{pmatrix}x\\\\y\\end{pmatrix},\\qquad \\mathbf{b}=\\begin{pmatrix}5\\\\1\\end{pmatrix}.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-03",
+      "prompt": "Write the equations represented by \\(\\begin{pmatrix}4&-1\\\\0&3\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}6\\\\9\\end{pmatrix}\\).",
+      "answer": "Multiply each row of the coefficient matrix by the unknown vector. The first row gives\n\\[\n4x-y=6.\n\\]\nThe second row gives\n\\[\n0x+3y=9,\n\\]\nwhich is \\(3y=9\\). The system is therefore\n\\[\n\\begin{aligned}\n4x-y&=6,\\\\\n3y&=9.\n\\end{aligned}\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-04",
+      "prompt": "A system is written as \\(y+2x=8\\) and \\(3x-y=1\\). Rewrite it in the consistent variable order \\((x,y)\\).",
+      "answer": "The first equation should list the \\(x\\)-term before the \\(y\\)-term:\n\\[\ny+2x=8 \\quad\\Longrightarrow\\quad 2x+y=8.\n\\]\nThe second equation is already in the order \\((x,y)\\):\n\\[\n3x-y=1.\n\\]\nSo the consistently ordered system is\n\\[\n\\begin{aligned}\n2x+y&=8,\\\\\n3x-y&=1.\n\\end{aligned}\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-05",
+      "prompt": "Solve the system \\(x+y=9\\), \\(x-y=3\\) by elimination.",
+      "answer": "Add the two equations to eliminate \\(y\\):\n\\[\n(x+y)+(x-y)=9+3.\n\\]\nThis gives\n\\[\n2x=12,\n\\]\nso \\(x=6\\). Substitute into \\(x-y=3\\):\n\\[\n6-y=3.\n\\]\nThus \\(y=3\\). The solution is\n\\[\n(x,y)=(6,3).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-06",
+      "prompt": "Solve the system \\(2x+y=11\\), \\(x+y=7\\).",
+      "answer": "Subtract the second equation from the first:\n\\[\n(2x+y)-(x+y)=11-7.\n\\]\nThis gives\n\\[\nx=4.\n\\]\nSubstitute into \\(x+y=7\\):\n\\[\n4+y=7,\n\\]\nso \\(y=3\\). The solution is\n\\[\n(x,y)=(4,3).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-07",
+      "prompt": "Solve \\(3x+2y=16\\), \\(x+2y=8\\), choosing an elimination step that removes one variable quickly.",
+      "answer": "The \\(2y\\) terms match, so subtract the second equation from the first:\n\\[\n(3x+2y)-(x+2y)=16-8.\n\\]\nThen\n\\[\n2x=8,\n\\]\nso \\(x=4\\). Substitute into \\(x+2y=8\\):\n\\[\n4+2y=8.\n\\]\nThus \\(2y=4\\), so \\(y=2\\). The solution is \\((4,2)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-08",
+      "prompt": "Solve \\(2x-3y=1\\), \\(4x+y=17\\).",
+      "answer": "Use the first equation to make the \\(x\\)-coefficients match. Double it:\n\\[\n4x-6y=2.\n\\]\nSubtract this from \\(4x+y=17\\):\n\\[\n(4x+y)-(4x-6y)=17-2.\n\\]\nSo\n\\[\n7y=15,\n\\]\nand \\(y=\\frac{15}{7}\\). Substitute into \\(4x+y=17\\):\n\\[\n4x+\\frac{15}{7}=17=\\frac{119}{7}.\n\\]\nTherefore\n\\[\n4x=\\frac{104}{7},\\qquad x=\\frac{26}{7}.\n\\]\nThe solution is \\(\\left(\\frac{26}{7},\\frac{15}{7}\\right)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-09",
+      "prompt": "Solve the three-variable system \\(x+y+z=6\\), \\(x-y+z=2\\), \\(2x+z=7\\).",
+      "answer": "Subtract the second equation from the first:\n\\[\n(x+y+z)-(x-y+z)=6-2,\n\\]\nso \\(2y=4\\) and \\(y=2\\). Use \\(x-y+z=2\\):\n\\[\nx-2+z=2,\n\\]\nso \\(x+z=4\\). The third equation gives\n\\[\n2x+z=7.\n\\]\nSubtract \\(x+z=4\\) from \\(2x+z=7\\):\n\\[\nx=3.\n\\]\nThen \\(3+z=4\\), so \\(z=1\\). The solution is\n\\[\n(x,y,z)=(3,2,1).\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-10",
+      "prompt": "Solve \\(x+2y-z=4\\), \\(2x-y+z=1\\), \\(x+y+z=6\\).",
+      "answer": "Add the first and third equations:\n\\[\n(x+2y-z)+(x+y+z)=4+6,\n\\]\nso\n\\[\n2x+3y=10.\n\\]\nAdd the second and first equations:\n\\[\n(2x-y+z)+(x+2y-z)=1+4,\n\\]\nso\n\\[\n3x+y=5.\n\\]\nFrom \\(3x+y=5\\), \\(y=5-3x\\). Substitute into \\(2x+3y=10\\):\n\\[\n2x+3(5-3x)=10.\n\\]\nThus \\(-7x=-5\\), so \\(x=\\frac{5}{7}\\). Then \\(y=\\frac{20}{7}\\). Use \\(x+y+z=6\\) to get \\(z=\\frac{17}{7}\\). The solution is \\(\\left(\\frac{5}{7},\\frac{20}{7},\\frac{17}{7}\\right)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-11",
+      "prompt": "The system \\(x+y=4\\), \\(2x+2y=8\\) is solved by letting \\(y=t\\). Write the full solution set and explain why there are infinitely many solutions.",
+      "answer": "The second equation is exactly twice the first:\n\\[\n2x+2y=2(x+y)=8.\n\\]\nSo it gives no new restriction beyond \\(x+y=4\\). Let \\(y=t\\), where \\(t\\in\\mathbb R\\). Then\n\\[\nx+t=4,\n\\]\nso\n\\[\nx=4-t.\n\\]\nThe solution set is\n\\[\n(x,y)=(4-t,t),\\qquad t\\in\\mathbb R.\n\\]\nThere are infinitely many solutions because every real value of \\(t\\) gives a different ordered pair satisfying both equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-12",
+      "prompt": "Check whether \\((x,y)=(2,5)\\) is a solution of the system \\(3x-y=1\\), \\(x+y=7\\), and then solve the system.",
+      "answer": "Check the proposed pair in the first equation:\n\\[\n3(2)-5=1,\n\\]\nso it satisfies \\(3x-y=1\\). Check the second equation:\n\\[\n2+5=7,\n\\]\nso it also satisfies \\(x+y=7\\). Therefore \\((2,5)\\) is a solution. To solve by elimination, add the equations:\n\\[\n(3x-y)+(x+y)=1+7,\n\\]\nso \\(4x=8\\) and \\(x=2\\). Then \\(2+y=7\\), so \\(y=5\\). The solution is \\((2,5)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-13",
+      "prompt": "For what value of \\(k\\) does the system \\(x+y=3\\), \\(2x+2y=k\\) have at least one solution? Describe the solutions for that value.",
+      "answer": "The left side of the second equation is twice the left side of the first:\n\\[\n2x+2y=2(x+y).\n\\]\nIf \\(x+y=3\\), then\n\\[\n2x+2y=2\\cdot3=6.\n\\]\nSo the system has at least one solution only when \\(k=6\\). For \\(k=6\\), the second equation repeats the first one. Let \\(y=t\\). Then\n\\[\nx+t=3,\n\\]\nso \\(x=3-t\\). The solutions are\n\\[\n(x,y)=(3-t,t),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-14",
+      "prompt": "A particle's constant velocity components \\((u,v)\\) satisfy \\(2u+v=13\\) and \\(u-v=2\\). Solve for \\((u,v)\\) and check both equations.",
+      "answer": "Add the equations:\n\\[\n(2u+v)+(u-v)=13+2.\n\\]\nThis gives\n\\[\n3u=15,\n\\]\nso \\(u=5\\). Substitute into \\(u-v=2\\):\n\\[\n5-v=2,\n\\]\nso \\(v=3\\). Check:\n\\[\n2(5)+3=13\n\\]\nand\n\\[\n5-3=2.\n\\]\nBoth equations are true, so \\((u,v)=(5,3)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-15",
+      "prompt": "For which values of \\(a\\) does \\(x+y=2\\), \\(2x+2y=a\\) have no solution, and for which value does it have infinitely many solutions?",
+      "answer": "The second left-hand side is twice the first:\n\\[\n2x+2y=2(x+y).\n\\]\nIf \\(x+y=2\\), then any common solution must satisfy\n\\[\n2x+2y=4.\n\\]\nTherefore, if \\(a\\ne4\\), the second equation demands a value different from \\(4\\), so the system has no solution. If \\(a=4\\), the second equation is just twice the first and adds no new restriction. Then there are infinitely many solutions:\n\\[\n(x,y)=(2-t,t),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-16",
+      "prompt": "Find all values of \\(a\\) for which \\(ax+y=1\\), \\(2x+2y=2\\) has infinitely many solutions, one solution, or no solution.",
+      "answer": "Simplify the second equation by dividing by \\(2\\):\n\\[\nx+y=1.\n\\]\nThe system is\n\\[\nax+y=1,\\qquad x+y=1.\n\\]\nSubtract the second equation from the first:\n\\[\n(a-1)x=0.\n\\]\nIf \\(a=1\\), this becomes \\(0=0\\), so the two equations are the same and there are infinitely many solutions \\((x,y)=(t,1-t)\\). If \\(a\\ne1\\), then \\(x=0\\), and \\(x+y=1\\) gives \\(y=1\\), so there is exactly one solution. There is no value of \\(a\\) that gives no solution, because the constants are compatible in the only dependent case.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-17",
+      "prompt": "The system \\(x+y+z=5\\), \\(2x+2y+2z=10\\), \\(x-y=1\\) has a free variable. Write its solution set.",
+      "answer": "The second equation is twice the first, so it adds no new restriction. Use\n\\[\nx+y+z=5,\\qquad x-y=1.\n\\]\nLet \\(z=t\\). Then the first equation gives\n\\[\nx+y=5-t.\n\\]\nTogether with \\(x-y=1\\), add the two equations:\n\\[\n(x+y)+(x-y)=(5-t)+1.\n\\]\nSo\n\\[\n2x=6-t,\\qquad x=3-\\frac{t}{2}.\n\\]\nUse \\(x-y=1\\):\n\\[\ny=x-1=2-\\frac{t}{2}.\n\\]\nThus\n\\[\n(x,y,z)=\\left(3-\\frac{t}{2},2-\\frac{t}{2},t\\right),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-18",
+      "prompt": "A learner claims that multiplying one equation in a system by \\(0\\) is a valid elimination step because \\(0=0\\) is always true. Explain the error using \\(x+y=3\\), \\(x-y=1\\).",
+      "answer": "Multiplying an equation by a nonzero constant preserves exactly the same solutions, but multiplying by \\(0\\) erases information. In the system\n\\[\nx+y=3,\\qquad x-y=1,\n\\]\nthe true solution is found by adding the equations:\n\\[\n2x=4,\n\\]\nso \\(x=2\\), and then \\(y=1\\). If the first equation is multiplied by \\(0\\), it becomes\n\\[\n0=0,\n\\]\nleaving only \\(x-y=1\\). That single equation has infinitely many solutions, such as \\((1,0)\\), but \\((1,0)\\) does not satisfy \\(x+y=3\\). The operation introduced false solutions, so scaling by \\(0\\) is not valid.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-19",
+      "prompt": "Prove briefly that swapping the order of equations in a linear system cannot change the solution set.",
+      "answer": "A solution of a system is a choice of variable values that makes every equation in the system true. If a pair or tuple satisfies every original equation, then it still satisfies those same equations after they are written in a different order. Conversely, if it satisfies every equation in the reordered system, then it satisfies every equation in the original system because the list contains the same equations. Therefore the set of solutions is unchanged by swapping \\(equation\\) order.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-linear-systems-20",
+      "prompt": "Diagnose the mistake: from \\(x+y=6\\) and \\(x-y=2\\), a learner subtracts and writes \\(2y=4\\), then concludes \\(y=2\\) and \\(x=4\\). Is the method sound?",
+      "answer": "The conclusion is correct, and the subtraction is sound if the learner means subtracting the second equation from the first:\n\\[\n(x+y)-(x-y)=6-2.\n\\]\nThe left side is\n\\[\nx+y-x+y=2y,\n\\]\nand the right side is \\(4\\), so \\(2y=4\\). Then \\(y=2\\), and substituting into \\(x+y=6\\) gives \\(x=4\\). The important diagnostic point is that the subtraction order must be consistent on both sides of the equation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

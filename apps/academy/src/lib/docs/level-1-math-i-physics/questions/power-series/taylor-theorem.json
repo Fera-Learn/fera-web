@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "taylor-theorem",
+  "topicTitle": "Taylor Theorem",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-taylor-theorem-01",
+      "prompt": "State Taylor's theorem using \\(P_N\\) and \\(R_N\\).",
+      "answer": "Taylor's theorem writes \\(f(x)=P_N(x)+R_N(x)\\), where \\(P_N\\) is the degree \\(N\\) Taylor polynomial and \\(R_N\\) is the remainder or error term.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-02",
+      "prompt": "In the Lagrange remainder, what is \\(\\xi\\)?",
+      "answer": "The point \\(\\xi\\) is some value between the centre \\(c\\) and the input \\(x\\). Its exact value is usually unknown, but it lies in the interval where we bound the derivative.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-03",
+      "prompt": "Write the Lagrange remainder for degree \\(N\\) in words or symbols.",
+      "answer": "The Lagrange remainder is \\(R_N(x)=\\frac{f^{(N+1)}(\\xi)}{(N+1)!}(x-c)^{N+1}\\), where \\(\\xi\\) lies between \\(c\\) and \\(x\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-04",
+      "prompt": "For a linear Taylor polynomial, which derivative appears in the remainder?",
+      "answer": "A linear polynomial has \\(N=1\\). The remainder uses derivative order \\(N+1=2\\), so the second derivative appears.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-05",
+      "prompt": "Write \\(e^x\\) as its linear Maclaurin polynomial plus Lagrange remainder.",
+      "answer": "The linear polynomial is \\(1+x\\). Since the second derivative of \\(e^x\\) is \\(e^x\\), Taylor's theorem gives \\(e^x=1+x+\\frac{e^{\\xi}x^2}{2}\\), where \\(\\xi\\) is between \\(0\\) and \\(x\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-06",
+      "prompt": "If \\(|f'''(t)|\\le 6\\), bound the quadratic remainder at \\(x=0.2\\) about \\(0\\).",
+      "answer": "For \\(N=2\\), \\(|R_2(x)|\\le \\frac{M|x|^3}{3!}\\). With \\(M=6\\) and \\(x=0.2\\), \\(|R_2(0.2)|\\le \\frac{6(0.2)^3}{6}=0.008\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-07",
+      "prompt": "For \\(f(x)=\\sin x\\), write the remainder after \\(P_1(x)=x\\).",
+      "answer": "For \\(N=1\\), \\(R_1(x)=\\frac{f''(\\xi)x^2}{2!}\\). Since \\(f''(x)=-\\sin x\\), the remainder is \\(-\\frac{\\sin(\\xi)x^2}{2}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-08",
+      "prompt": "If \\(|f^{(4)}(t)|\\le 5\\) and \\(|x-c|\\le 0.1\\), bound \\(|R_3|\\).",
+      "answer": "For \\(N=3\\), \\(|R_3(x)|\\le \\frac{M|x-c|^4}{4!}\\). Thus \\(|R_3(x)|\\le \\frac{5(0.1)^4}{24}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-09",
+      "prompt": "Bound the error in \\(\\cos x\\approx 1-\\frac{x^2}{2}\\) for \\(|x|\\le 0.1\\) using \\(|f^{(3)}|\\le 1\\).",
+      "answer": "This is degree \\(2\\), so \\(|R_2(x)|\\le \\frac{|x|^3}{3!}\\). For \\(|x|\\le 0.1\\), \\(|R_2(x)|\\le \\frac{0.1^3}{6}=\\frac{0.001}{6}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-10",
+      "prompt": "Explain how Taylor's theorem justifies linear response near \\(c\\).",
+      "answer": "Taylor's theorem gives \\(f(x)=f(c)+f'(c)(x-c)+R_1(x)\\). If \\(|f''|\\le M\\), then \\(|R_1|\\le \\frac{M|x-c|^2}{2}\\). For small displacement, the quadratic error is smaller than the linear term.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-11",
+      "prompt": "Why does a Taylor remainder bound need an interval, not only the centre?",
+      "answer": "The remainder contains a derivative evaluated at \\(\\xi\\), where \\(\\xi\\) lies between \\(c\\) and \\(x\\). To bound it, we need a derivative bound throughout that interval, not just at \\(c\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-12",
+      "prompt": "For \\(e^x\\approx 1+x\\), bound the error on \\(0\\le x\\le 0.2\\) if \\(e^t<2\\).",
+      "answer": "The remainder is \\(\\frac{e^{\\xi}x^2}{2}\\). Since \\(e^{\\xi}<2\\), \\(|R_1|<x^2\\). On \\(0\\le x\\le 0.2\\), the largest bound is \\(0.2^2=0.04\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-13",
+      "prompt": "Bound the error in \\(\\sin x\\approx x-\\frac{x^3}{6}\\) for \\(|x|\\le 0.1\\) using \\(|f^{(4)}|\\le 1\\).",
+      "answer": "For degree \\(3\\), \\(|R_3(x)|\\le \\frac{|x|^4}{4!}\\). With \\(|x|\\le 0.1\\), \\(|R_3(x)|\\le \\frac{0.1^4}{24}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-14",
+      "prompt": "Show that if \\(|f''(t)|\\le 8\\), then linear error is at most \\(4|x-c|^2\\).",
+      "answer": "For \\(N=1\\), \\(|R_1(x)|\\le \\frac{M|x-c|^2}{2!}\\). With \\(M=8\\), this becomes \\(|R_1(x)|\\le \\frac{8|x-c|^2}{2}=4|x-c|^2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-15",
+      "prompt": "If \\(|R_1|\\le x^2\\), how small must \\(|x|\\) be to guarantee error below \\(0.01\\)?",
+      "answer": "Require \\(x^2\\le 0.01\\). Taking square roots gives \\(|x|\\le 0.1\\). Inputs within \\(0.1\\) of the centre meet the bound.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-16",
+      "prompt": "Why does the degree \\(N\\) Taylor remainder start with order \\(N+1\\)?",
+      "answer": "The polynomial matches derivative information through order \\(N\\) at the centre. The first unmatched derivative is order \\(N+1\\), so the error uses the next power, \\((x-c)^{N+1}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-17",
+      "prompt": "Using \\(|R_2|\\le \\frac{|x|^3}{6}\\), is \\(|x|\\le 0.1\\) guaranteed below tolerance \\(10^{-4}\\)?",
+      "answer": "The bound is \\(\\frac{0.1^3}{6}=\\frac{0.001}{6}\\), about \\(1.67\\times 10^{-4}\\). This is larger than \\(10^{-4}\\), so the bound does not guarantee the required tolerance.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-18",
+      "prompt": "Diagnose the error: \\(R_N=\\frac{f^{(N)}(\\xi)(x-c)^N}{N!}\\).",
+      "answer": "The remainder uses the first omitted order, not the last included order. The correct Lagrange form uses \\(f^{(N+1)}\\), the power \\(N+1\\), and the denominator \\((N+1)!\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-19",
+      "prompt": "Why does Taylor's theorem not automatically prove an infinite Taylor series equals \\(f\\)?",
+      "answer": "Taylor's theorem gives \\(f(x)=P_N(x)+R_N(x)\\) for finite \\(N\\). To pass to an infinite series, we must show \\(R_N(x)\\to 0\\). Without that, the series may not represent the function.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-theorem-20",
+      "prompt": "Describe a rigorous strategy for proving a degree \\(2\\) truncation is accurate on \\(|x-c|\\le h\\).",
+      "answer": "Bound the third derivative on the interval, say \\(|f'''(t)|\\le M\\). Taylor's theorem gives \\(|R_2(x)|\\le \\frac{M|x-c|^3}{6}\\le \\frac{Mh^3}{6}\\). Compare \\(\\frac{Mh^3}{6}\\) with the allowed tolerance.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -8,13 +8,13 @@ If \(\theta\) is the angle between \(\mathbf a\) and \(\mathbf b\), with \(0\le\
 
 <Equation label="Cross-product magnitude" tex="|\mathbf a\times\mathbf b|=|\mathbf a||\mathbf b|\sin\theta" />
 
-This magnitude is also the area of the parallelogram whose adjacent side vectors are \(\mathbf a\) and \(\mathbf b\). The right-hand rule chooses between the two possible perpendicular directions: curl the fingers of your right hand from \(\mathbf a\) toward \(\mathbf b\) through the smaller angle \(\theta\); your thumb points in the direction of \(\hat\{\mathbf n\}\).
+This magnitude is also the area of the parallelogram whose adjacent side vectors are \(\mathbf a\) and \(\mathbf b\). The right-hand rule chooses between the two possible perpendicular directions: curl the fingers of your right hand from \(\mathbf a\) toward \(\mathbf b\) through the smaller angle \(\theta\); your thumb points in the direction of \(\hat{\mathbf n}\).
 
-If \(\hat\{\mathbf n\}\) is the unit normal selected by the right-hand rule, then
+If \(\hat{\mathbf n}\) is the unit normal selected by the right-hand rule, then
 
 <Equation label="Vector product" tex="\mathbf a\times\mathbf b=|\mathbf a||\mathbf b|\sin\theta\,\hat{\mathbf n}" />
 
-The unit normal \(\hat\{\mathbf n\}\) has magnitude \(1\) and is perpendicular to the plane spanned by \(\mathbf a\) and \(\mathbf b\).
+The unit normal \(\hat{\mathbf n}\) has magnitude \(1\) and is perpendicular to the plane spanned by \(\mathbf a\) and \(\mathbf b\).
 
 ## Notation
 
@@ -39,7 +39,7 @@ A normal vector to a plane is a vector perpendicular to every direction in that 
 
 ### Step 1: Determine the normal direction
 
-Identify the plane spanned by \(\mathbf a\) and \(\mathbf b\). Use the right-hand rule: curl from \(\mathbf a\) to \(\mathbf b\), and let your thumb choose the positive normal direction \(\hat\{\mathbf n\}\).
+Identify the plane spanned by \(\mathbf a\) and \(\mathbf b\). Use the right-hand rule: curl from \(\mathbf a\) to \(\mathbf b\), and let your thumb choose the positive normal direction \(\hat{\mathbf n}\).
 
 If \(\mathbf a\) and \(\mathbf b\) are parallel or one of them is \(\mathbf 0\), the parallelogram has zero area and \(\mathbf a\times\mathbf b=\mathbf 0\). In that case there is no unique unit normal from the cross product.
 

@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "definite-integrals",
   "topicTitle": "Definite Integrals",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "di-1",
-      "prompt": "Evaluate the integral from 0 to 2 of x dx.",
-      "answer": "2",
-      "hints": ["Find antiderivative: x^2/2, then evaluate at bounds."],
+      "id": "math-i-integration-definite-integrals-01",
+      "prompt": "Evaluate \\(\\int_0^3 2\\,dx\\).",
+      "answer": "A constant integrand gives rectangle area.\n\\[\\int_0^3 2\\,dx=[2x]_0^3=2(3)-2(0)=6.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-2",
-      "prompt": "Evaluate the integral from 0 to 1 of x^2 dx.",
-      "answer": "1/3",
-      "hints": ["Antiderivative of x^2 is x^3/3."],
+      "id": "math-i-integration-definite-integrals-02",
+      "prompt": "What is \\(\\int_5^5 (x^2+1)\\,dx\\)?",
+      "answer": "The lower and upper limits are equal, so the interval has zero width.\n\\[\\int_5^5 (x^2+1)\\,dx=0.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-3",
-      "prompt": "Evaluate the integral from 0 to pi of sin x dx.",
-      "answer": "2",
-      "hints": ["Antiderivative of sin x is -cos x."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-definite-integrals-03",
+      "prompt": "Use the order-reversal property to rewrite \\(\\int_4^1 x^2\\,dx\\) with lower limit \\(1\\) and upper limit \\(4\\).",
+      "answer": "Reversing the limits changes the sign:\n\\[\\int_4^1 x^2\\,dx=-\\int_1^4 x^2\\,dx.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-4",
-      "prompt": "Evaluate the integral from 1 to 2 of 3x^2 dx.",
-      "answer": "7",
-      "hints": ["Antiderivative: x^3, then 8 - 1 = 7."],
+      "id": "math-i-integration-definite-integrals-04",
+      "prompt": "If \\(\\int_1^6 f(x)\\,dx=9\\), find \\(\\int_6^1 f(x)\\,dx\\).",
+      "answer": "Changing the order of the bounds multiplies the integral by \\(-1\\). Therefore\n\\[\\int_6^1 f(x)\\,dx=-\\int_1^6 f(x)\\,dx=-9.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-05",
+      "prompt": "Evaluate \\(\\int_0^2 x\\,dx\\).",
+      "answer": "An antiderivative of \\(x\\) is \\(x^2/2\\).\n\\[\\int_0^2 x\\,dx=\\left[\\frac{x^2}{2}\\right]_0^2=\\frac{4}{2}-0=2.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-5",
-      "prompt": "Evaluate the integral from 0 to 1 of e^x dx.",
-      "answer": "e - 1",
-      "hints": ["Antiderivative of e^x is e^x."],
+      "id": "math-i-integration-definite-integrals-06",
+      "prompt": "Evaluate \\(\\int_1^3 (2x+1)\\,dx\\).",
+      "answer": "Integrate term by term:\n\\[\\int(2x+1)\\,dx=x^2+x.\\]\nThen evaluate at the bounds:\n\\[(3^2+3)-(1^2+1)=12-2=10.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-6",
-      "prompt": "Evaluate the integral from 0 to 3 of (2x + 1) dx.",
-      "answer": "12",
-      "hints": ["Antiderivative: x^2 + x."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-definite-integrals-07",
+      "prompt": "Evaluate \\(\\int_{-1}^{2} (3x^2-4)\\,dx\\).",
+      "answer": "An antiderivative is \\(x^3-4x\\).\n\\[\\int_{-1}^{2}(3x^2-4)\\,dx=[x^3-4x]_{-1}^{2}.\\]\nAt \\(2\\): \\(8-8=0\\). At \\(-1\\): \\(-1+4=3\\). Hence the value is \\(0-3=-3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-7",
-      "prompt": "Evaluate the integral from 0 to 2 of (x^3 - x) dx.",
-      "answer": "2",
-      "hints": ["FTC: x^4/4 - x^2/2 from 0 to 2."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-definite-integrals-08",
+      "prompt": "Evaluate \\(\\int_0^4 \\sqrt{x}\\,dx\\).",
+      "answer": "Write \\(\\sqrt{x}=x^{1/2}\\).\n\\[\\int x^{1/2}\\,dx=\\frac{x^{3/2}}{3/2}=\\frac{2}{3}x^{3/2}.\\]\nSo\n\\[\\int_0^4\\sqrt{x}\\,dx=\\left[\\frac{2}{3}x^{3/2}\\right]_0^4=\\frac{2}{3}\\cdot 8=\\frac{16}{3}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-8",
-      "prompt": "Evaluate the integral from 0 to 1 of x e^x dx.",
-      "answer": "1",
-      "hints": ["Integration by parts or recognize derivative of (x-1)e^x."],
+      "id": "math-i-integration-definite-integrals-09",
+      "prompt": "Evaluate \\(\\int_1^2 (x^3-2x+5)\\,dx\\).",
+      "answer": "Integrate each term:\n\\[\\int(x^3-2x+5)\\,dx=\\frac{x^4}{4}-x^2+5x.\\]\nEvaluate:\n\\[\\left(\\frac{16}{4}-4+10\\right)-\\left(\\frac14-1+5\\right)=10-\\frac{17}{4}=\\frac{23}{4}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-9",
-      "prompt": "Evaluate the integral from 0 to pi of x sin x dx.",
-      "answer": "pi",
-      "hints": ["Integration by parts: u=x, dv=sin x dx."],
+      "id": "math-i-integration-definite-integrals-10",
+      "prompt": "Evaluate \\(\\int_0^\\pi \\sin x\\,dx\\).",
+      "answer": "An antiderivative of \\(\\sin x\\) is \\(-\\cos x\\).\n\\[\\int_0^\\pi \\sin x\\,dx=[-\\cos x]_0^\\pi=-\\cos\\pi-(-\\cos0).\\]\nSince \\(\\cos\\pi=-1\\) and \\(\\cos0=1\\), the value is \\(1+1=2\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "di-10",
-      "prompt": "Evaluate the integral from 1 to e of ln x dx.",
-      "answer": "1",
-      "hints": ["Integration by parts or known result."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-definite-integrals-11",
+      "prompt": "The velocity of a particle is \\(v(t)=6t-2\\) metres per second. Find its displacement from \\(t=1\\) to \\(t=4\\).",
+      "answer": "Displacement is the signed integral of velocity:\n\\[\\int_1^4(6t-2)\\,dt=[3t^2-2t]_1^4.\\]\nAt \\(4\\): \\(48-8=40\\). At \\(1\\): \\(3-2=1\\).\nSo the displacement is \\(40-1=39\\) m.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-12",
+      "prompt": "Find the signed area \\(\\int_{-2}^{2} x^3\\,dx\\), and explain why the value is reasonable.",
+      "answer": "An antiderivative is \\(x^4/4\\).\n\\[\\int_{-2}^{2}x^3\\,dx=\\left[\\frac{x^4}{4}\\right]_{-2}^{2}=\\frac{16}{4}-\\frac{16}{4}=0.\\]\nThis is reasonable because \\(x^3\\) is odd: the negative signed area on \\([-2,0]\\) cancels the positive signed area on \\([0,2]\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-13",
+      "prompt": "Find the area between \\(y=x+2\\) and the \\(x\\)-axis from \\(x=-1\\) to \\(x=3\\).",
+      "answer": "On \\([-1,3]\\), \\(x+2\\ge 1\\), so area equals the definite integral.\n\\[\\int_{-1}^{3}(x+2)\\,dx=\\left[\\frac{x^2}{2}+2x\\right]_{-1}^{3}.\\]\nAt \\(3\\): \\(9/2+6=21/2\\). At \\(-1\\): \\(1/2-2=-3/2\\).\nArea \\(=21/2-(-3/2)=24/2=12\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-14",
+      "prompt": "Find the area between \\(y=4-x^2\\) and the \\(x\\)-axis from \\(x=-2\\) to \\(x=2\\).",
+      "answer": "Since \\(4-x^2\\ge0\\) on \\([-2,2]\\), area equals\n\\[\\int_{-2}^{2}(4-x^2)\\,dx=\\left[4x-\\frac{x^3}{3}\\right]_{-2}^{2}.\\]\nAt \\(2\\): \\(8-8/3=16/3\\). At \\(-2\\): \\(-8+8/3=-16/3\\).\nArea \\(=16/3-(-16/3)=32/3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-15",
+      "prompt": "Find \\(k\\) if \\(\\int_0^2 kx\\,dx=12\\).",
+      "answer": "Take \\(k\\) outside the integral:\n\\[\\int_0^2kx\\,dx=k\\int_0^2x\\,dx=k\\left[\\frac{x^2}{2}\\right]_0^2=2k.\\]\nSet \\(2k=12\\), so \\(k=6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-16",
+      "prompt": "Find \\(a>0\\) such that \\(\\int_0^a 3x^2\\,dx=24\\).",
+      "answer": "Evaluate in terms of \\(a\\):\n\\[\\int_0^a3x^2\\,dx=[x^3]_0^a=a^3.\\]\nSo \\(a^3=24\\). Because \\(a>0\\),\n\\[a=\\sqrt[3]{24}=2\\sqrt[3]{3}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-17",
+      "prompt": "For which values of \\(c\\) is \\(\\int_{-c}^{c} (x^2-1)\\,dx=0\\)?",
+      "answer": "Compute the integral:\n\\[\\int_{-c}^{c}(x^2-1)\\,dx=\\left[\\frac{x^3}{3}-x\\right]_{-c}^{c}.\\]\nThis equals \\((c^3/3-c)-(-c^3/3+c)=2c^3/3-2c\\).\nSet it to zero:\n\\[\\frac{2c^3}{3}-2c=2c\\left(\\frac{c^2}{3}-1\\right)=0.\\]\nThus \\(c=0\\) or \\(c^2=3\\), so \\(c=0,\\pm\\sqrt3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-18",
+      "prompt": "A student says \\(\\int_{-1}^{1} x^2\\,dx=0\\) because the limits are symmetric. Identify the error and find the correct value.",
+      "answer": "Symmetric limits only force cancellation for odd functions. The function \\(x^2\\) is even and non-negative, so the areas add.\n\\[\\int_{-1}^{1}x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_{-1}^{1}=\\frac13-\\left(-\\frac13\\right)=\\frac23.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-19",
+      "prompt": "Find the total area between \\(y=x\\) and the \\(x\\)-axis from \\(x=-2\\) to \\(x=3\\).",
+      "answer": "Total area uses absolute value because \\(x\\) is below the axis on \\([-2,0]\\) and above it on \\([0,3]\\).\n\\[\\text{Area}=\\int_{-2}^{0}(-x)\\,dx+\\int_0^3x\\,dx.\\]\n\\[\\int_{-2}^{0}(-x)\\,dx=\\left[-\\frac{x^2}{2}\\right]_{-2}^{0}=2,\\quad \\int_0^3x\\,dx=\\frac92.\\]\nTotal area \\(=2+9/2=13/2\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-definite-integrals-20",
+      "prompt": "Suppose \\(f(x)\\ge0\\) on \\([0,2]\\), \\(f(x)\\le0\\) on \\([2,5]\\), \\(\\int_0^2 f(x)\\,dx=7\\), and \\(\\int_2^5 f(x)\\,dx=-4\\). Find the signed area and the total area from \\(0\\) to \\(5\\).",
+      "answer": "The signed area is the definite integral over the whole interval:\n\\[\\int_0^5 f(x)\\,dx=\\int_0^2f(x)\\,dx+\\int_2^5f(x)\\,dx=7+(-4)=3.\\]\nThe total area treats the below-axis part as positive. Since \\(f\\le0\\) on \\([2,5]\\), that area is \\(4\\).\nTotal area \\(=7+4=11\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

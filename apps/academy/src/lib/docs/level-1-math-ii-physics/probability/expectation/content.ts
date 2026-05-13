@@ -66,7 +66,7 @@ Linearity lets constants pass through expectation and lets sums be averaged term
     {
       title: "Example 1",
       question: "Find the expected score on a fair die.",
-      answer: "Each value has probability \\(1/6\\): \\[E[X]=1\\cdot\\frac16+2\\cdot\\frac16+3\\cdot\\frac16+4\\cdot\\frac16+5\\cdot\\frac16+6\\cdot\\frac16=\\frac{21}{6}=3.5.\\]",
+      answer: "Each value has probability \\(1/6\\): \\[E[X]=1\\cdot\\frac{1}{6}+2\\cdot\\frac{1}{6}+3\\cdot\\frac{1}{6}+4\\cdot\\frac{1}{6}+5\\cdot\\frac{1}{6}+6\\cdot\\frac{1}{6}=\\frac{21}{6}=3.5.\\]",
     },
     {
       title: "Example 2",

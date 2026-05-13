@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "taylor-series",
+  "topicTitle": "Taylor Series",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-taylor-series-01",
+      "prompt": "State the Taylor series for \\(f\\) about \\(c\\).",
+      "answer": "The Taylor series is \\(\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(c)}{n!}(x-c)^n\\). It uses all derivative orders at the centre.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-02",
+      "prompt": "What is a Maclaurin series?",
+      "answer": "A Maclaurin series is a Taylor series centred at \\(0\\). It has terms \\(\\frac{f^{(n)}(0)x^n}{n!}\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-03",
+      "prompt": "Write the first four non-zero terms of \\(e^x\\).",
+      "answer": "The exponential series is \\(e^x=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\). The first four non-zero terms are \\(1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-04",
+      "prompt": "Write the first three non-zero terms of \\(\\cos x\\).",
+      "answer": "The cosine series begins \\(\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots\\). The first three non-zero terms are \\(1-\\frac{x^2}{2!}+\\frac{x^4}{4!}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-05",
+      "prompt": "Write the first three non-zero terms of \\(\\sin x\\).",
+      "answer": "The sine series begins \\(\\sin x=x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots\\). The first three non-zero terms are \\(x-\\frac{x^3}{3!}+\\frac{x^5}{5!}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-06",
+      "prompt": "Write \\(\\frac{1}{1-x}\\) as a series and state its condition.",
+      "answer": "The geometric series gives \\(\\frac{1}{1-x}=1+x+x^2+\\cdots\\). It is valid when \\(|x|<1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-07",
+      "prompt": "Find the Maclaurin series for \\(e^{2x}\\).",
+      "answer": "Substitute \\(u=2x\\) into \\(e^u=\\sum_{n=0}^{\\infty}\\frac{u^n}{n!}\\). Then \\(e^{2x}=\\sum_{n=0}^{\\infty}\\frac{(2x)^n}{n!}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-08",
+      "prompt": "Write the first four terms of the Taylor series for \\(e^x\\) about \\(1\\).",
+      "answer": "All derivatives at \\(1\\) equal \\(e\\). The first four terms are \\(e+e(x-1)+\\frac{e(x-1)^2}{2!}+\\frac{e(x-1)^3}{3!}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-09",
+      "prompt": "Derive the cosine series pattern from derivative values at \\(0\\).",
+      "answer": "The derivative values repeat \\(1,0,-1,0\\). Only even powers remain, with alternating signs. Therefore \\(\\cos x=\\sum_{n=0}^{\\infty}(-1)^n\\frac{x^{2n}}{(2n)!}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-10",
+      "prompt": "Find the Maclaurin series for \\(\\frac{1}{1+x}\\) and state its condition.",
+      "answer": "Write \\(\\frac{1}{1+x}=\\frac{1}{1-(-x)}\\). The series is \\(1-x+x^2-x^3+\\cdots\\) and is valid for \\(|x|<1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-11",
+      "prompt": "Use Taylor series to explain why \\(\\sin x\\) is approximately \\(x\\) for small \\(x\\).",
+      "answer": "The series is \\(\\sin x=x-\\frac{x^3}{3!}+\\cdots\\). When \\(|x|\\) is small, \\(x^3\\) and higher powers are much smaller than \\(x\\), so the leading approximation is \\(\\sin x\\approx x\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-12",
+      "prompt": "Why should a Taylor series be stated with its validity interval?",
+      "answer": "A formal series such as \\(\\sum_{n=0}^{\\infty}a_n(x-c)^n\\) may diverge or fail to represent the function outside its valid range. The interval tells where the infinite sum can be used as the function representation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-13",
+      "prompt": "Find the Maclaurin series for \\(\\ln(1+x)\\).",
+      "answer": "Integrate \\(\\frac{1}{1+x}=1-x+x^2-x^3+\\cdots\\) term by term. This gives \\(\\ln(1+x)=x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\frac{x^4}{4}+\\cdots\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-14",
+      "prompt": "Find the Taylor series for \\(\\frac{1}{x}\\) about \\(1\\).",
+      "answer": "Write \\(\\frac{1}{x}=\\frac{1}{1+(x-1)}\\). Using \\(\\frac{1}{1+u}=1-u+u^2-\\cdots\\), the series is \\(\\sum_{n=0}^{\\infty}(-1)^n(x-1)^n\\), valid for \\(|x-1|<1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-15",
+      "prompt": "Find the first three non-zero terms of \\(e^x\\cos x\\).",
+      "answer": "Use \\(e^x=1+x+\\frac{x^2}{2}+\\frac{x^3}{6}+\\cdots\\) and \\(\\cos x=1-\\frac{x^2}{2}+\\cdots\\). Multiplying gives constant \\(1\\), linear \\(x\\), quadratic cancellation, and cubic \\(\\frac{x^3}{6}-\\frac{x^3}{2}=-\\frac{x^3}{3}\\). The terms are \\(1+x-\\frac{x^3}{3}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-16",
+      "prompt": "Find the Maclaurin series for \\(\\sin(3x)\\).",
+      "answer": "Use \\(\\sin u=\\sum_{n=0}^{\\infty}(-1)^n\\frac{u^{2n+1}}{(2n+1)!}\\). With \\(u=3x\\), \\(\\sin(3x)=\\sum_{n=0}^{\\infty}(-1)^n\\frac{(3x)^{2n+1}}{(2n+1)!}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-17",
+      "prompt": "A Maclaurin series has coefficients \\(a_n=\\frac{1}{n!}\\). Identify the function.",
+      "answer": "The series is \\(\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\), which is the Maclaurin series for \\(e^x\\). This matches because every derivative of \\(e^x\\) at \\(0\\) equals \\(1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-18",
+      "prompt": "Diagnose the error: \\(\\sin x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots\\).",
+      "answer": "That is the cosine series. Since \\(\\sin 0=0\\), the sine series cannot start with \\(1\\). The correct sine series begins \\(x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-19",
+      "prompt": "Why do standard trigonometric Taylor series require radians?",
+      "answer": "The derivative identities \\(\\frac{d}{dx}\\sin x=\\cos x\\) and \\(\\frac{d}{dx}\\cos x=-\\sin x\\) have their simple forms only when the input is measured in radians. In degrees, conversion factors change the coefficients.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-series-20",
+      "prompt": "Does convergence of a Taylor series alone prove it equals the original function?",
+      "answer": "No. Convergence means the series has a finite sum. Equality to the original function also requires the Taylor remainder \\(R_n(x)\\) to tend to \\(0\\) or another theorem proving representation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

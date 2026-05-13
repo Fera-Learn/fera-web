@@ -1,6 +1,6 @@
 export const content = String.raw`## Inverse Derivatives
 
-If $y = f^{-1}(x)$, then $f(y) = x$.
+If \(y = f^{-1}(x)\), then \(f(y) = x\).
 
 Differentiating implicitly:
 <Equation label="Starting" tex="f(y) = x" />
@@ -9,9 +9,9 @@ Differentiating implicitly:
 
 <Equation label="Result" tex="\frac{dy}{dx} = \frac{1}{f'(y)} = \frac{1}{f'(f^{-1}(x))}" />
 
-## Example: $\arcsin(x)$
+## Example: \(\arcsin(x)\)
 
-If $y = \arcsin(x)$, then $\sin(y) = x$
+If \(y = \arcsin(x)\), then \(\sin(y) = x\)
 
 <Equation label="Example" tex="\cos(y) \cdot \frac{dy}{dx} = 1" />
 

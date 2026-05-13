@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "matrix-groups",
+  "topicTitle": "Matrix Groups",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-matrix-groups-01",
+      "prompt": "What is \\(GL_n(\\mathbb R)\\)?",
+      "answer": "It is the general linear group of invertible \\(n\\times n\\) matrices with real entries. Equivalently, \\(GL_n(\\mathbb R)=\\{A\\in M_n(\\mathbb R):\\det A\\ne0\\}\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-02",
+      "prompt": "What is the identity element in a matrix group under multiplication?",
+      "answer": "The identity element is the identity matrix \\(I\\). It satisfies \\(IA=A\\) and \\(AI=A\\) for every compatible square matrix \\(A\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-03",
+      "prompt": "What determinant condition tells you a square matrix is in \\(GL_n(\\mathbb R)\\)?",
+      "answer": "The determinant must be non-zero. A square real matrix \\(A\\) is in \\(GL_n(\\mathbb R)\\) exactly when \\(\\det A\\ne0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-04",
+      "prompt": "Is a \\(2\\times3\\) real matrix an element of \\(GL_2(\\mathbb R)\\)?",
+      "answer": "No. Elements of \\(GL_2(\\mathbb R)\\) must be invertible \\(2\\times2\\) matrices. A \\(2\\times3\\) matrix is not square, so it is not in \\(GL_2(\\mathbb R)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-05",
+      "prompt": "Determine whether \\(\\begin{pmatrix}1&0\\\\0&2\\end{pmatrix}\\) is in \\(GL_2(\\mathbb R)\\).",
+      "answer": "Its determinant is \\((1)(2)-(0)(0)=2\\). Since \\(2\\ne0\\), the matrix is invertible and lies in \\(GL_2(\\mathbb R)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-06",
+      "prompt": "Determine whether \\(\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\) is in \\(GL_2(\\mathbb R)\\).",
+      "answer": "The determinant is \\((1)(4)-(2)(2)=4-4=0\\). Since the determinant is zero, the matrix is not invertible and is not in \\(GL_2(\\mathbb R)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-07",
+      "prompt": "For \\(A=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\), find \\(A^{-1}\\).",
+      "answer": "A diagonal matrix is inverted by inverting its non-zero diagonal entries. Thus \\(A^{-1}=\\begin{pmatrix}1/2&0\\\\0&1/3\\end{pmatrix}\\). Multiplying gives the identity matrix.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-08",
+      "prompt": "Why is matrix multiplication generally not commutative?",
+      "answer": "For matrices, the row-column products depend on order. It is possible for \\(AB\\) and \\(BA\\) to both be defined but have different entries. Therefore matrix groups need not be abelian.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-09",
+      "prompt": "Compute the determinant of the rotation matrix \\(R(\\theta)=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}\\).",
+      "answer": "Use the \\(2\\times2\\) formula: \\(\\det R=(\\cos\\theta)(\\cos\\theta)-(-\\sin\\theta)(\\sin\\theta)\\). This is \\(\\cos^2\\theta+\\sin^2\\theta=1\\). Therefore every such rotation matrix is invertible.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-10",
+      "prompt": "Show that the product of two invertible matrices is invertible by giving its inverse.",
+      "answer": "If \\(A\\) and \\(B\\) are invertible, then \\((AB)^{-1}=B^{-1}A^{-1}\\). Check: \\((AB)(B^{-1}A^{-1})=A(BB^{-1})A^{-1}=AIA^{-1}=I\\), and similarly on the other side.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-11",
+      "prompt": "Verify that \\(\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\) is in \\(GL_2(\\mathbb R)\\) and interpret it geometrically.",
+      "answer": "The determinant is \\((0)(0)-(-1)(1)=1\\), so it is invertible and belongs to \\(GL_2(\\mathbb R)\\). Geometrically, it is rotation by \\(90^\\circ\\) in the plane.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-12",
+      "prompt": "Give an example of two invertible \\(2\\times2\\) matrices \\(A,B\\) with \\(AB\\ne BA\\).",
+      "answer": "Let \\(A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\\). Then \\(AB=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\), while \\(BA=\\begin{pmatrix}1&1\\\\1&2\\end{pmatrix}\\). They differ, and both matrices have determinant \\(1\\), so both are invertible.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-13",
+      "prompt": "Verify the group axioms for \\(GL_n(\\mathbb R)\\) under multiplication.",
+      "answer": "Closure holds because the product of invertible matrices is invertible. Associativity is inherited from matrix multiplication. The identity matrix \\(I\\) is invertible and acts as identity. If \\(A\\in GL_n(\\mathbb R)\\), then \\(A^{-1}\\) exists and is also invertible. Hence \\(GL_n(\\mathbb R)\\) is a group.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-14",
+      "prompt": "Show that the set of \\(2\\times2\\) real matrices with determinant \\(1\\) is closed under multiplication.",
+      "answer": "Let \\(A\\) and \\(B\\) have determinant \\(1\\). The determinant product rule gives \\(\\det(AB)=\\det(A)\\det(B)=1\\cdot1=1\\). Therefore \\(AB\\) also has determinant \\(1\\), so the set is closed under multiplication.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-15",
+      "prompt": "Show that a \\(2\\times2\\) matrix with determinant \\(1\\) has an inverse that also has determinant \\(1\\).",
+      "answer": "If \\(A\\) has determinant \\(1\\), then \\(AA^{-1}=I\\). Taking determinants gives \\(\\det(A)\\det(A^{-1})=\\det(I)=1\\). Since \\(\\det(A)=1\\), it follows that \\(\\det(A^{-1})=1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-16",
+      "prompt": "Explain why all real \\(2\\times2\\) matrices do not form a group under multiplication.",
+      "answer": "The set contains singular matrices, such as \\(\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\), whose determinant is \\(0\\). Such matrices have no inverse. Since a group requires every element to have an inverse in the set, all \\(2\\times2\\) matrices do not form a group under multiplication.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-17",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\\), compute \\(A^n\\) for positive integers \\(n\\).",
+      "answer": "Multiplying shows \\(A^2=\\begin{pmatrix}1&4\\\\0&1\\end{pmatrix}\\) and \\(A^3=\\begin{pmatrix}1&6\\\\0&1\\end{pmatrix}\\). The pattern is \\(A^n=\\begin{pmatrix}1&2n\\\\0&1\\end{pmatrix}\\). This can be proved by induction using one more multiplication by \\(A\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-18",
+      "prompt": "A student says \\(A^{-1}\\) is found by taking the reciprocal of every entry of \\(A\\). Diagnose the error.",
+      "answer": "A matrix inverse is defined by \\(AA^{-1}=A^{-1}A=I\\), not by entrywise reciprocals. Entrywise reciprocals often do not even make sense when entries are zero, and they generally do not produce a matrix product equal to \\(I\\). One must use determinant and adjugate methods or row reduction.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-19",
+      "prompt": "Prove that if \\(A\\in GL_n(\\mathbb R)\\), then \\(A^{-1}\\in GL_n(\\mathbb R)\\).",
+      "answer": "Since \\(A\\in GL_n(\\mathbb R)\\), there is a matrix \\(A^{-1}\\) with \\(AA^{-1}=A^{-1}A=I\\). The inverse of \\(A^{-1}\\) is \\(A\\), so \\(A^{-1}\\) is itself invertible. It is also an \\(n\\times n\\) real matrix, hence \\(A^{-1}\\in GL_n(\\mathbb R)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-matrix-groups-20",
+      "prompt": "Explain why rotation matrices form a subgroup of \\(GL_2(\\mathbb R)\\).",
+      "answer": "Each rotation matrix has determinant \\(1\\), so it lies in \\(GL_2(\\mathbb R)\\). The product of rotations through angles \\(\\alpha\\) and \\(\\beta\\) is rotation through \\(\\alpha+\\beta\\), so closure holds. The identity is rotation through \\(0\\). The inverse of rotation through \\(\\theta\\) is rotation through \\(-\\theta\\). Thus the rotation matrices form a subgroup.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

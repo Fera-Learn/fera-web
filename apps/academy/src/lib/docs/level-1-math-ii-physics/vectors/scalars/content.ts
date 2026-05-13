@@ -35,7 +35,7 @@ State the number set being used. Most physical scalar measurements use real numb
 
 ### Step 3: Attach the correct unit
 
-If the scalar is physical, write the unit with the value. Temperature may use \(K\), density may use \(kg\,m^\{-3\}\), elapsed time may use \(s\), pressure may use \(Pa\), electric charge may use \(C\), and frequency may use \(Hz\).
+If the scalar is physical, write the unit with the value. Temperature may use \(K\), density may use \(kg\,m^{-3}\), elapsed time may use \(s\), pressure may use \(Pa\), electric charge may use \(C\), and frequency may use \(Hz\).
 
 ## Rules
 
@@ -49,7 +49,7 @@ In these rules, \(a\) and \(b\) are scalars and \(S\) is the chosen number set, 
 
 A scalar field is a scalar-valued function: each input point in the domain \(D\) is assigned one scalar value. Examples include a temperature field \(T(t)\), a density field \(\rho(\mathbf x)\), or a pressure field \(p(\mathbf x,t)\).
 
-- Scalars can carry physical units such as \(K\), \(kg\,m^\{-3\}\), \(s\), \(Pa\), \(C\), or \(Hz\).
+- Scalars can carry physical units such as \(K\), \(kg\,m^{-3}\), \(s\), \(Pa\), \(C\), or \(Hz\).
 - Adding physical scalars is meaningful only when the units are compatible.
 - Multiplying or dividing physical scalars combines units according to the same operation.
 

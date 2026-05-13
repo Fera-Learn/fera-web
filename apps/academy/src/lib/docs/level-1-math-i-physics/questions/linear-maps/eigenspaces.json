@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "eigenspaces",
+  "topicTitle": "Eigenspaces",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-eigenspaces-01",
+      "prompt": "Define the eigenspace \\(E_\\lambda\\) of a matrix \\(A\\).",
+      "answer": "The eigenspace for eigenvalue \\(\\lambda\\) is\n\\[\nE_\\lambda=\\ker(A-\\lambda I).\n\\]\nIt contains all eigenvectors with eigenvalue \\(\\lambda\\), together with the zero vector.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-02",
+      "prompt": "Why does an eigenspace include \\(\\mathbf0\\)?",
+      "answer": "The zero vector is included because \\(E_\\lambda\\) is a solution space of a homogeneous system. Including \\(\\mathbf0\\) makes it a subspace, even though \\(\\mathbf0\\) itself is not an eigenvector.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-03",
+      "prompt": "Find \\(E_2\\) for \\(A=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\).",
+      "answer": "Solve \\((A-2I)\\mathbf v=\\mathbf0\\):\n\\[\nA-2I=\\begin{pmatrix}0&0\\\\0&3\\end{pmatrix}.\n\\]\nThis gives \\(y=0\\), with \\(x\\) free. Hence\n\\[\nE_2=\\operatorname{span}\\{(1,0)\\}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-04",
+      "prompt": "Find \\(E_5\\) for \\(A=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\).",
+      "answer": "Solve \\((A-5I)\\mathbf v=\\mathbf0\\):\n\\[\nA-5I=\\begin{pmatrix}-3&0\\\\0&0\\end{pmatrix}.\n\\]\nThus \\(x=0\\), with \\(y\\) free. Therefore\n\\[\nE_5=\\operatorname{span}\\{(0,1)\\}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-05",
+      "prompt": "Find the eigenspace for \\(\\lambda=3\\) when \\(A=\\begin{pmatrix}3&1\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA-3I=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}.\n\\]\nThe equation \\((A-3I)(x,y)^T=\\mathbf0\\) gives \\(y=0\\). Thus\n\\[\nE_3=\\operatorname{span}\\{(1,0)\\}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-06",
+      "prompt": "Find \\(E_1\\) for \\(A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}\\).",
+      "answer": "Solve\n\\[\nA-I=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}.\n\\]\nThe equation is \\(x+y=0\\), so \\(y=-x\\). Therefore\n\\[\nE_1=\\operatorname{span}\\{(1,-1)\\}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-07",
+      "prompt": "Find \\(E_3\\) for \\(A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}\\).",
+      "answer": "Solve\n\\[\nA-3I=\\begin{pmatrix}-1&1\\\\1&-1\\end{pmatrix}.\n\\]\nThe equation is \\(-x+y=0\\), so \\(y=x\\). Hence\n\\[\nE_3=\\operatorname{span}\\{(1,1)\\}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-08",
+      "prompt": "What is \\(\\dim E_4\\) if \\(E_4=\\operatorname{span}\\{(1,2,0),(0,1,1)\\}\\) and the two spanning vectors are independent?",
+      "answer": "The dimension is the number of independent basis directions. Since the two listed vectors are independent,\n\\[\n\\dim E_4=2.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-09",
+      "prompt": "Find \\(E_2\\) for \\(A=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&5\\end{pmatrix}\\).",
+      "answer": "Solve \\((A-2I)\\mathbf v=\\mathbf0\\):\n\\[\nA-2I=\\begin{pmatrix}0&0&0\\\\0&0&0\\\\0&0&3\\end{pmatrix}.\n\\]\nThus \\(z=0\\), while \\(x,y\\) are free. Therefore\n\\[\nE_2=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-10",
+      "prompt": "Find \\(E_0\\) for \\(A=\\begin{pmatrix}1&-1\\\\2&-2\\end{pmatrix}\\).",
+      "answer": "Since \\(E_0=\\ker A\\), solve\n\\[\nx-y=0,\\qquad 2x-2y=0.\n\\]\nBoth give \\(x=y\\). Hence\n\\[\nE_0=\\operatorname{span}\\{(1,1)\\}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-11",
+      "prompt": "Explain why an eigenspace is a subspace.",
+      "answer": "It is the kernel of a linear map, namely \\(A-\\lambda I\\). Kernels are subspaces because if \\(\\mathbf u\\) and \\(\\mathbf v\\) solve \\((A-\\lambda I)\\mathbf x=\\mathbf0\\), then any linear combination also solves it. Thus \\(E_\\lambda\\) is closed under addition and scalar multiplication and contains \\(\\mathbf0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-12",
+      "prompt": "Explain why eigenspaces for distinct eigenvalues meet only in \\(\\mathbf0\\).",
+      "answer": "If a non-zero vector belonged to both \\(E_\\lambda\\) and \\(E_\\mu\\), then\n\\[\nA\\mathbf v=\\lambda\\mathbf v\\quad\\text{and}\\quad A\\mathbf v=\\mu\\mathbf v.\n\\]\nSubtracting gives \\((\\lambda-\\mu)\\mathbf v=\\mathbf0\\). For \\(\\lambda\\ne\\mu\\) and \\(\\mathbf v\\ne\\mathbf0\\), this is impossible. Only \\(\\mathbf0\\) can be shared.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-13",
+      "prompt": "For which \\(a\\) does \\(A=\\begin{pmatrix}a&0\\\\0&3\\end{pmatrix}\\) have \\(E_3=\\mathbb R^2\\)?",
+      "answer": "For every vector to be in \\(E_3\\), the matrix must act as multiplication by \\(3\\) on every vector, so \\(A=3I\\). That requires the first diagonal entry to be \\(3\\). Therefore \\(a=3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-14",
+      "prompt": "For which \\(k\\) does \\(E_1\\) of \\(A=\\begin{pmatrix}1&k\\\\0&1\\end{pmatrix}\\) have dimension \\(2\\)?",
+      "answer": "Compute\n\\[\nA-I=\\begin{pmatrix}0&k\\\\0&0\\end{pmatrix}.\n\\]\nThe eigenspace has dimension \\(2\\) only if this matrix imposes no condition, which requires \\(k=0\\). If \\(k\\ne0\\), the equation \\(ky=0\\) forces \\(y=0\\), giving dimension \\(1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-15",
+      "prompt": "Find \\(E_2\\) for \\(A=\\begin{pmatrix}2&1&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA-2I=\\begin{pmatrix}0&1&0\\\\0&0&0\\\\0&0&1\\end{pmatrix}.\n\\]\nThe equations are \\(y=0\\) and \\(z=0\\), with \\(x\\) free. Hence\n\\[\nE_2=\\operatorname{span}\\{(1,0,0)\\}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-16",
+      "prompt": "Find \\(E_3\\) for \\(A=\\begin{pmatrix}2&0&0\\\\0&3&1\\\\0&0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA-3I=\\begin{pmatrix}-1&0&0\\\\0&0&1\\\\0&0&0\\end{pmatrix}.\n\\]\nThe equations are \\(x=0\\) and \\(z=0\\), with \\(y\\) free. Therefore\n\\[\nE_3=\\operatorname{span}\\{(0,1,0)\\}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-17",
+      "prompt": "A matrix has \\(E_2=\\operatorname{span}\\{(1,0),(0,1)\\}\\). What does the matrix do to every vector in \\(\\mathbb R^2\\)?",
+      "answer": "Since \\(E_2\\) is all of \\(\\mathbb R^2\\), every vector satisfies\n\\[\nA\\mathbf v=2\\mathbf v.\n\\]\nTherefore the matrix scales the whole plane by \\(2\\). In standard coordinates, this means \\(A=2I\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-18",
+      "prompt": "A student lists \\(E_4=\\{(1,0),(2,0),(3,0)\\}\\). Explain why this is not a correct eigenspace description.",
+      "answer": "An eigenspace is a subspace, so it must include all scalar multiples and sums of its vectors, not just three examples. The listed vectors lie on the same line. A correct description would be\n\\[\nE_4=\\operatorname{span}\\{(1,0)\\}\n\\]\nif that whole line is the solution space.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-19",
+      "prompt": "Prove that \\(E_\\lambda=\\ker(A-\\lambda I)\\).",
+      "answer": "A vector \\(\\mathbf v\\) is in \\(E_\\lambda\\) exactly when it satisfies \\(A\\mathbf v=\\lambda\\mathbf v\\), with the zero vector included for the space. Rearranging gives\n\\[\nA\\mathbf v-\\lambda\\mathbf v=\\mathbf0.\n\\]\nSince \\(\\lambda\\mathbf v=\\lambda I\\mathbf v\\), this is\n\\[\n(A-\\lambda I)\\mathbf v=\\mathbf0.\n\\]\nThat is precisely the kernel of \\(A-\\lambda I\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenspaces-20",
+      "prompt": "Explain why the geometric multiplicity of an eigenvalue cannot exceed its algebraic multiplicity in the examples studied.",
+      "answer": "The algebraic multiplicity counts how many times the eigenvalue appears as a root of the characteristic polynomial. The geometric multiplicity is \\(\\dim E_\\lambda\\), the number of independent eigenvector directions. In finite-dimensional matrix examples, each independent eigenvector direction contributes to the structure allowed by that root. If the eigenspace had more independent directions than the root multiplicity, the characteristic polynomial would not have enough repeated factors to support those independent directions. Thus the geometric multiplicity is at most the algebraic multiplicity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

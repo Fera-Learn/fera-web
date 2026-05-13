@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "diagonalisation",
+  "topicTitle": "Diagonalisation",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-diagonalisation-01",
+      "prompt": "State the diagonalisation form of a matrix \\(A\\).",
+      "answer": "A diagonalisation writes\n\\[\nA=PDP^{-1},\n\\]\nwhere the columns of \\(P\\) are independent eigenvectors of \\(A\\), and \\(D\\) is diagonal with the matching eigenvalues.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-02",
+      "prompt": "What must the columns of \\(P\\) be in \\(A=PDP^{-1}\\)?",
+      "answer": "They must be linearly independent eigenvectors of \\(A\\). Their order must match the order of the eigenvalues placed on the diagonal of \\(D\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-03",
+      "prompt": "If \\(P=[\\mathbf v_1\\ \\mathbf v_2]\\) and \\(A\\mathbf v_1=4\\mathbf v_1\\), \\(A\\mathbf v_2=-1\\mathbf v_2\\), write \\(D\\).",
+      "answer": "The diagonal entries must match the column order of \\(P\\). Therefore\n\\[\nD=\\begin{pmatrix}4&0\\\\0&-1\\end{pmatrix}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-04",
+      "prompt": "Is the diagonal matrix \\(A=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\) already diagonalised?",
+      "answer": "Yes. We may take \\(P=I\\) and \\(D=A\\), so\n\\[\nA=IAI^{-1}.\n\\]\nThe standard basis vectors are already eigenvectors.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-05",
+      "prompt": "Given eigenvectors \\(\\mathbf v_1=(1,0)\\), \\(\\mathbf v_2=(1,1)\\) with eigenvalues \\(2\\), \\(3\\), build \\(P\\) and \\(D\\).",
+      "answer": "Put eigenvectors as columns:\n\\[\nP=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}.\n\\]\nPlace matching eigenvalues in the same order:\n\\[\nD=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-06",
+      "prompt": "For \\(P=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) and \\(D=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\), compute \\(PD\\).",
+      "answer": "Multiply by the diagonal matrix, which scales columns of \\(P\\):\n\\[\nPD=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}=\\begin{pmatrix}2&3\\\\0&3\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-07",
+      "prompt": "Verify \\(AP=PD\\) for \\(A=\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}\\), \\(P=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\), \\(D=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nAP=\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}=\\begin{pmatrix}2&3\\\\0&3\\end{pmatrix}.\n\\]\nAlso\n\\[\nPD=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}=\\begin{pmatrix}2&3\\\\0&3\\end{pmatrix}.\n\\]\nThey match.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-08",
+      "prompt": "Why does the order of columns in \\(P\\) matter?",
+      "answer": "Each column of \\(P\\) must match the eigenvalue in the same position in \\(D\\). If column \\(j\\) is \\(\\mathbf v_j\\), then\n\\[\nA\\mathbf v_j=\\lambda_j\\mathbf v_j.\n\\]\nThe entry \\(\\lambda_j\\) must be the \\(j\\)-th diagonal entry of \\(D\\), otherwise \\(AP=PD\\) fails.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-09",
+      "prompt": "Diagonalise \\(A=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\).",
+      "answer": "The matrix is already diagonal. The eigenvectors are the standard basis vectors, so choose\n\\[\nP=I=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix},\\qquad D=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}.\n\\]\nThen \\(A=PDP^{-1}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-10",
+      "prompt": "Diagonalise \\(A=\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Eigenvalues are \\(2\\) and \\(3\\). For \\(\\lambda=2\\), an eigenvector is \\((1,0)\\). For \\(\\lambda=3\\), solve \\((-1)x+y=0\\), giving \\((1,1)\\). Thus\n\\[\nP=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix},\\qquad D=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-11",
+      "prompt": "Explain why \\(n\\) distinct eigenvalues guarantee diagonalisation of an \\(n\\times n\\) matrix.",
+      "answer": "Eigenvectors belonging to distinct eigenvalues are linearly independent. Therefore \\(n\\) distinct eigenvalues give \\(n\\) independent eigenvectors. These form a basis, so they can be placed as columns of an invertible matrix \\(P\\), giving a diagonalisation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-12",
+      "prompt": "Explain why \\(A=PDP^{-1}\\) means the map is simple in eigenvector coordinates.",
+      "answer": "The factor \\(P^{-1}\\) converts a vector into eigenvector coordinates. The diagonal matrix \\(D\\) then scales each coordinate independently. Finally \\(P\\) converts back to the original coordinates. Thus the mixing in standard coordinates becomes separate scaling in the eigenvector basis.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-13",
+      "prompt": "Show that \\(A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) is not diagonalizable.",
+      "answer": "The only eigenvalue is \\(1\\). Solve\n\\[\nA-I=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}.\n\\]\nThe equation gives \\(y=0\\), so \\(E_1=\\operatorname{span}\\{(1,0)\\}\\). There is only one independent eigenvector, but a \\(2\\times2\\) diagonalisation needs two. Hence \\(A\\) is not diagonalizable.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-14",
+      "prompt": "For which \\(k\\) is \\(A=\\begin{pmatrix}2&k\\\\0&2\\end{pmatrix}\\) diagonalizable?",
+      "answer": "The only eigenvalue is \\(2\\). Compute\n\\[\nA-2I=\\begin{pmatrix}0&k\\\\0&0\\end{pmatrix}.\n\\]\nIf \\(k=0\\), then \\(A=2I\\) and every vector is an eigenvector, so it is diagonalizable. If \\(k\\ne0\\), then \\(y=0\\), giving only one independent eigenvector. Thus diagonalizable exactly when \\(k=0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-15",
+      "prompt": "Diagonalise \\(A=\\begin{pmatrix}4&0\\\\0&4\\end{pmatrix}\\) in two different ways.",
+      "answer": "Since \\(A=4I\\), every non-zero vector is an eigenvector with eigenvalue \\(4\\). One choice is\n\\[\nP=I,\\qquad D=\\begin{pmatrix}4&0\\\\0&4\\end{pmatrix}.\n\\]\nAnother is\n\\[\nP=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix},\\qquad D=\\begin{pmatrix}4&0\\\\0&4\\end{pmatrix},\n\\]\nbecause the columns of this \\(P\\) are independent eigenvectors.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-16",
+      "prompt": "A diagonalisation uses \\(P=\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}\\) and \\(D=\\begin{pmatrix}6&0\\\\0&2\\end{pmatrix}\\). What are two eigenvector-eigenvalue pairs?",
+      "answer": "The first column of \\(P\\) is \\((1,1)\\), matched with the first diagonal entry \\(6\\). The second column is \\((1,-1)\\), matched with \\(2\\). Thus\n\\[\nA(1,1)=6(1,1),\\qquad A(1,-1)=2(1,-1).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-17",
+      "prompt": "Find \\(A\\) from \\(P=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\), \\(D=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\), and \\(A=PDP^{-1}\\).",
+      "answer": "First\n\\[\nP^{-1}=\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}.\n\\]\nCompute\n\\[\nPD=\\begin{pmatrix}2&3\\\\0&3\\end{pmatrix}.\n\\]\nThen\n\\[\nA=PD P^{-1}=\\begin{pmatrix}2&3\\\\0&3\\end{pmatrix}\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}=\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-18",
+      "prompt": "A student builds \\(P\\) from two eigenvectors that are scalar multiples. Explain why this cannot diagonalise a \\(2\\times2\\) matrix.",
+      "answer": "If the columns of \\(P\\) are scalar multiples, they are linearly dependent. Then \\(P\\) is not invertible, so \\(P^{-1}\\) does not exist. Since diagonalisation requires \\(A=PDP^{-1}\\), dependent eigenvector columns cannot be used.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-19",
+      "prompt": "Prove that \\(AP=PD\\) when \\(P\\) has eigenvectors as columns and \\(D\\) has matching eigenvalues.",
+      "answer": "Let \\(P=[\\mathbf v_1\\ \\cdots\\ \\mathbf v_n]\\) and \\(D=\\operatorname{diag}(\\lambda_1,\\ldots,\\lambda_n)\\), with \\(A\\mathbf v_i=\\lambda_i\\mathbf v_i\\). Then the columns of \\(AP\\) are\n\\[\nA\\mathbf v_1,\\ldots,A\\mathbf v_n.\n\\]\nThe columns of \\(PD\\) are\n\\[\n\\lambda_1\\mathbf v_1,\\ldots,\\lambda_n\\mathbf v_n.\n\\]\nThese match column by column, so \\(AP=PD\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-20",
+      "prompt": "Explain why repeated eigenvalues require checking eigenspace dimension before diagonalising.",
+      "answer": "A repeated eigenvalue may or may not provide enough independent eigenvectors. For a \\(2\\times2\\) matrix with repeated eigenvalue \\(\\lambda\\), diagonalisation still needs two independent eigenvectors. If \\(\\dim E_\\lambda=2\\), diagonalisation is possible. If \\(\\dim E_\\lambda=1\\), there are not enough columns for an invertible \\(P\\), so diagonalisation fails.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

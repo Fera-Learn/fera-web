@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "formal-limits",
   "topicTitle": "Formal Limits",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-formal-limits-01",
-      "prompt": "State, in words, what \\(\\lim_{x\\to a}f(x)=L\\) says about nearby values of \\(x\\).",
-      "answer": "It says that by taking \\(x\\) sufficiently close to \\(a\\), but not necessarily equal to \\(a\\), the value \\(f(x)\\) can be made as close as required to \\(L\\). The statement is about nearby behaviour, not just the value \\(f(a)\\).",
+      "prompt": "In words, what does \\(\\lim_{x\\to a}f(x)=L\\) mean?",
+      "answer": "It means \\(f(x)\\) can be made as close as desired to \\(L\\) by taking \\(x\\) sufficiently close to \\(a\\), with \\(x\\ne a\\).\nThe value of \\(f(a)\\) itself is not the main issue; the nearby behavior is.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-formal-limits-02",
-      "prompt": "Using the \\(\\varepsilon\\)-\\(\\delta\\) definition, prove that \\(\\lim_{x\\to 3}(2x-1)=5\\).",
-      "answer": "Let \\(\\varepsilon>0\\). We need\n\\[\n|(2x-1)-5|<\\varepsilon.\n\\]\nNow\n\\[\n|(2x-1)-5|=|2x-6|=2|x-3|.\n\\]\nChoose \\(\\delta=\\varepsilon/2\\). Then \\(0<|x-3|<\\delta\\) implies\n\\[\n|(2x-1)-5|=2|x-3|<2\\delta=\\varepsilon.\n\\]\nTherefore \\(\\lim_{x\\to3}(2x-1)=5\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "prompt": "In the epsilon-delta definition, which quantity is chosen first: \\(\\epsilon\\) or \\(\\delta\\)?",
+      "answer": "\\(\\epsilon\\) is chosen first.\nThe definition says that for every \\(\\epsilon>0\\), there must exist a \\(\\delta>0\\) such that\n\\[0<|x-a|<\\delta\\implies |f(x)-L|<\\epsilon.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-formal-limits-03",
-      "prompt": "Find a suitable \\(\\delta\\) in terms of \\(\\varepsilon\\) to prove \\(\\lim_{x\\to -1}(4x+7)=3\\).",
-      "answer": "We need\n\\[\n|(4x+7)-3|<\\varepsilon.\n\\]\nSimplify:\n\\[\n|(4x+7)-3|=|4x+4|=4|x+1|.\n\\]\nSo it is enough to require \\(4|x+1|<\\varepsilon\\). A suitable choice is\n\\[\n\\delta=\\frac{\\varepsilon}{4}.\n\\]",
+      "prompt": "Translate \\(|f(x)-L|<\\epsilon\\) into interval notation for \\(f(x)\\).",
+      "answer": "The inequality means \\(f(x)\\) is within \\(\\epsilon\\) of \\(L\\).\nSo\n\\[-\\epsilon<f(x)-L<\\epsilon.\\]\nAdd \\(L\\) throughout:\n\\[L-\\epsilon<f(x)<L+\\epsilon.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-04",
+      "prompt": "Translate \\(0<|x-a|<\\delta\\) into a statement about \\(x\\).",
+      "answer": "The inequality \\(|x-a|<\\delta\\) means\n\\[a-\\delta<x<a+\\delta.\\]\nThe extra condition \\(0<|x-a|\\) means \\(x\\ne a\\).\nSo \\(x\\) is inside the deleted interval around \\(a\\): close to \\(a\\), but not equal to \\(a\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-05",
+      "prompt": "Use the epsilon-delta definition to prove \\(\\lim_{x\\to2}(x+3)=5\\).",
+      "answer": "Let \\(\\epsilon>0\\). We need \\(|(x+3)-5|<\\epsilon\\).\nSimplify:\n\\[|(x+3)-5|=|x-2|.\\]\nChoose \\(\\delta=\\epsilon\\). Then if \\(0<|x-2|<\\delta\\),\n\\[|(x+3)-5|=|x-2|<\\delta=\\epsilon.\\]\nTherefore the limit is \\(5\\).",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-06",
+      "prompt": "Use the epsilon-delta definition to prove \\(\\lim_{x\\to1}2x=2\\).",
+      "answer": "Let \\(\\epsilon>0\\). We want \\(|2x-2|<\\epsilon\\).\nFactor:\n\\[|2x-2|=2|x-1|.\\]\nChoose \\(\\delta=\\frac\\epsilon2\\). If \\(0<|x-1|<\\delta\\), then\n\\[|2x-2|=2|x-1|<2\\delta=\\epsilon.\\]\nThus \\(\\lim_{x\\to1}2x=2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-07",
+      "prompt": "Find a suitable \\(\\delta\\) in terms of \\(\\epsilon\\) to prove \\(\\lim_{x\\to4}(3x-1)=11\\).",
+      "answer": "We need\n\\[|(3x-1)-11|<\\epsilon.\\]\nSimplify:\n\\[|(3x-1)-11|=|3x-12|=3|x-4|.\\]\nTo make this less than \\(\\epsilon\\), require \\(|x-4|<\\frac\\epsilon3\\).\nA suitable choice is\n\\[\\delta=\\frac\\epsilon3.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-08",
+      "prompt": "For \\(f(x)=5-2x\\), find \\(\\delta\\) in terms of \\(\\epsilon\\) to prove \\(\\lim_{x\\to1}f(x)=3\\).",
+      "answer": "Compute the output error:\n\\[|f(x)-3|=|(5-2x)-3|=|2-2x|=2|x-1|.\\]\nTo force \\(2|x-1|<\\epsilon\\), require\n\\[|x-1|<\\frac\\epsilon2.\\]\nSo choose \\(\\delta=\\frac\\epsilon2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-09",
+      "prompt": "Prove \\(\\lim_{x\\to3}(4x+1)=13\\) using epsilon-delta language.",
+      "answer": "Let \\(\\epsilon>0\\). Choose \\(\\delta=\\frac\\epsilon4\\).\nIf \\(0<|x-3|<\\delta\\), then\n\\[|(4x+1)-13|=|4x-12|=4|x-3|<4\\delta=\\epsilon.\\]\nTherefore, by the epsilon-delta definition, \\(\\lim_{x\\to3}(4x+1)=13\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-10",
+      "prompt": "Prove \\(\\lim_{x\\to-2}(7-x)=9\\) using epsilon-delta language.",
+      "answer": "Let \\(\\epsilon>0\\). We have\n\\[|(7-x)-9|=|-x-2|=|x+2|.\\]\nChoose \\(\\delta=\\epsilon\\). If \\(0<|x-(-2)|=|x+2|<\\delta\\), then\n\\[|(7-x)-9|=|x+2|<\\epsilon.\\]\nSo the limit is \\(9\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-11",
+      "prompt": "Explain why the condition \\(0<|x-a|\\) appears in the formal limit definition.",
+      "answer": "The condition \\(0<|x-a|\\) excludes \\(x=a\\).\nLimits describe what happens as \\(x\\) approaches \\(a\\), not necessarily what happens at \\(a\\).\nThis allows a limit to exist even if \\(f(a)\\) is undefined or different from the limiting value.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-12",
+      "prompt": "A function satisfies \\(f(x)=2x+1\\) for \\(x\\ne1\\), but \\(f(1)=100\\). What is \\(\\lim_{x\\to1}f(x)\\), and why?",
+      "answer": "For \\(x\\ne1\\), the nearby values are controlled by \\(2x+1\\).\nSo\n\\[\\lim_{x\\to1}f(x)=\\lim_{x\\to1}(2x+1)=3.\\]\nThe value \\(f(1)=100\\) does not affect the limit because the formal definition uses \\(0<|x-1|\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-13",
+      "prompt": "Prove \\(\\lim_{x\\to2}x^2=4\\) by first restricting \\(|x-2|<1\\).",
+      "answer": "Let \\(\\epsilon>0\\). We need\n\\[|x^2-4|=|x-2||x+2|<\\epsilon.\\]\nIf \\(|x-2|<1\\), then \\(1<x<3\\), so \\(3<x+2<5\\), hence \\(|x+2|<5\\).\nChoose\n\\[\\delta=\\min\\left(1,\\frac\\epsilon5\\right).\\]\nThen \\(|x^2-4|<5|x-2|<5\\delta\\le\\epsilon\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-14",
+      "prompt": "Prove \\(\\lim_{x\\to1}x^2=1\\) using an epsilon-delta argument.",
+      "answer": "Let \\(\\epsilon>0\\). Factor the error:\n\\[|x^2-1|=|x-1||x+1|.\\]\nIf \\(|x-1|<1\\), then \\(0<x<2\\), so \\(|x+1|<3\\).\nChoose\n\\[\\delta=\\min\\left(1,\\frac\\epsilon3\\right).\\]\nIf \\(0<|x-1|<\\delta\\), then\n\\[|x^2-1|<3|x-1|<3\\delta\\le\\epsilon.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-15",
+      "prompt": "Find a \\(\\delta\\) that works for \\(\\lim_{x\\to0}x^2=0\\).",
+      "answer": "We need \\(|x^2-0|<\\epsilon\\), or \\(|x|^2<\\epsilon\\).\nThis is guaranteed if\n\\[|x|<\\sqrt\\epsilon.\\]\nSo choose\n\\[\\delta=\\sqrt\\epsilon.\\]\nThen \\(0<|x|<\\delta\\) implies \\(|x^2|<\\epsilon\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-16",
+      "prompt": "For \\(\\lim_{x\\to a}cx=ca\\), where \\(c\\ne0\\), find a suitable \\(\\delta\\) in terms of \\(\\epsilon\\).",
+      "answer": "The output error is\n\\[|cx-ca|=|c||x-a|.\\]\nTo make this less than \\(\\epsilon\\), require\n\\[|x-a|<\\frac\\epsilon{|c|}.\\]\nSo a suitable choice is\n\\[\\delta=\\frac\\epsilon{|c|}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-17",
+      "prompt": "A proof chooses \\(\\delta=\\epsilon^2\\) to prove \\(\\lim_{x\\to0}x=0\\). Does it work for every \\(\\epsilon>0\\)? Explain.",
+      "answer": "We need \\(|x|<\\epsilon\\). If \\(0<\\epsilon<1\\), then \\(\\epsilon^2<\\epsilon\\), so \\(|x|<\\epsilon^2\\) works.\nBut if \\(\\epsilon>1\\), then \\(\\epsilon^2>\\epsilon\\), so \\(|x|<\\epsilon^2\\) does not guarantee \\(|x|<\\epsilon\\).\nA safe choice would be \\(\\delta=\\min(1,\\epsilon)\\) or simply \\(\\delta=\\epsilon\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-18",
+      "prompt": "Disprove the claim \\(\\lim_{x\\to0}1=2\\) using the epsilon-delta definition.",
+      "answer": "Choose \\(\\epsilon=\\frac12\\).\nFor every \\(x\\),\n\\[|1-2|=1.\\]\nBut \\(1\\not<\\frac12\\).\nSo no matter what \\(\\delta>0\\) is chosen, the implication\n\\[0<|x-0|<\\delta\\implies |1-2|<\\frac12\\]\nfails. Therefore the limit is not \\(2\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-19",
+      "prompt": "Explain why the order \\(\\forall\\epsilon>0\\,\\exists\\delta>0\\) cannot be swapped in the formal definition of a limit.",
+      "answer": "The limit definition must work for every requested output tolerance \\(\\epsilon\\). The allowed input distance \\(\\delta\\) may need to shrink when \\(\\epsilon\\) shrinks.\nIf the order were swapped, one fixed \\(\\delta\\) would have to work before knowing how small \\(\\epsilon\\) is. That would not express arbitrary closeness.\nThe correct order captures: first choose the demanded accuracy, then choose a close enough input window.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-formal-limits-20",
+      "prompt": "Prove \\(\\lim_{x\\to a}(mx+b)=ma+b\\) for constant \\(m\\ne0\\).",
+      "answer": "Let \\(\\epsilon>0\\). The output error is\n\\[|(mx+b)-(ma+b)|=|m(x-a)|=|m||x-a|.\\]\nChoose\n\\[\\delta=\\frac\\epsilon{|m|}.\\]\nIf \\(0<|x-a|<\\delta\\), then\n\\[|(mx+b)-(ma+b)|=|m||x-a|<|m|\\delta=\\epsilon.\\]\nTherefore \\(\\lim_{x\\to a}(mx+b)=ma+b\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

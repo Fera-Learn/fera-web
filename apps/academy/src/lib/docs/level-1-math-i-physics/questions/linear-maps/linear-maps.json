@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "linear-maps",
+  "topicTitle": "Linear Maps",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-linear-maps-01",
+      "prompt": "State the condition for a map \\(T\\) to be linear.",
+      "answer": "A map is linear when it preserves every linear combination:\n\\[\nT(a\\mathbf u+b\\mathbf v)=aT(\\mathbf u)+bT(\\mathbf v).\n\\]\nThis includes preservation of addition and scalar multiplication.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-02",
+      "prompt": "What must \\(T(\\mathbf0)\\) equal if \\(T\\) is linear?",
+      "answer": "It must equal the zero vector in the codomain. Since \\(\\mathbf0=0\\mathbf v\\),\n\\[\nT(\\mathbf0)=T(0\\mathbf v)=0T(\\mathbf v)=\\mathbf0.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-03",
+      "prompt": "Use the zero-vector test to decide whether \\(S(x,y)=(x,y+3)\\) is linear.",
+      "answer": "Compute\n\\[\nS(0,0)=(0,3).\n\\]\nA linear map must send \\((0,0)\\) to \\((0,0)\\). Since \\((0,3)\\ne(0,0)\\), \\(S\\) is not linear.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-04",
+      "prompt": "For \\(T(x,y)=(4x-y,2x+3y)\\), find \\(T(2,-1)\\).",
+      "answer": "Substitute \\(x=2\\) and \\(y=-1\\):\n\\[\n4x-y=4(2)-(-1)=9,\\qquad 2x+3y=2(2)+3(-1)=1.\n\\]\nTherefore \\(T(2,-1)=(9,1)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-05",
+      "prompt": "Show that \\(T(x,y)=(2x,x-y)\\) preserves scalar multiplication.",
+      "answer": "For scalar \\(c\\),\n\\[\nT(cx,cy)=(2cx,cx-cy)=c(2x,x-y)=cT(x,y).\n\\]\nSo \\(T(c\\mathbf v)=cT(\\mathbf v)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-06",
+      "prompt": "Show that \\(T(x,y,z)=(x+z,2y)\\) preserves addition.",
+      "answer": "For \\(\\mathbf u=(x_1,y_1,z_1)\\) and \\(\\mathbf v=(x_2,y_2,z_2)\\),\n\\[\nT(\\mathbf u+\\mathbf v)=((x_1+x_2)+(z_1+z_2),2(y_1+y_2)).\n\\]\nThis equals\n\\[\n(x_1+z_1,2y_1)+(x_2+z_2,2y_2)=T(\\mathbf u)+T(\\mathbf v).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-07",
+      "prompt": "Decide whether \\(F(x,y)=(xy,x+y)\\) is linear.",
+      "answer": "It is not linear. With \\(\\mathbf v=(1,1)\\),\n\\[\nF(2\\mathbf v)=F(2,2)=(4,4),\n\\]\nbut\n\\[\n2F(\\mathbf v)=2F(1,1)=2(1,2)=(2,4).\n\\]\nThese differ, so homogeneity fails.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-08",
+      "prompt": "If \\(T\\) is linear, \\(T(\\mathbf u)=(1,4)\\), and \\(T(\\mathbf v)=(-2,5)\\), compute \\(T(3\\mathbf u-2\\mathbf v)\\).",
+      "answer": "Use linearity:\n\\[\nT(3\\mathbf u-2\\mathbf v)=3T(\\mathbf u)-2T(\\mathbf v).\n\\]\nThus\n\\[\n3(1,4)-2(-2,5)=(3,12)-(-4,10)=(7,2).\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-09",
+      "prompt": "Prove that \\(T:\\mathbb R^3\\to\\mathbb R^2\\), \\(T(x,y,z)=(2x-y,z+3y)\\), is linear.",
+      "answer": "Let \\(\\mathbf u=(x_1,y_1,z_1)\\), \\(\\mathbf v=(x_2,y_2,z_2)\\). For scalars \\(a,b\\), applying \\(T\\) to \\(a\\mathbf u+b\\mathbf v\\) gives\n\\[\n(2(ax_1+bx_2)-(ay_1+by_2),(az_1+bz_2)+3(ay_1+by_2)).\n\\]\nGrouping terms gives\n\\[\naT(\\mathbf u)+bT(\\mathbf v).\n\\]\nTherefore \\(T\\) is linear.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-10",
+      "prompt": "Find \\(\\ker T\\) for \\(T(x,y)=(x-y,2x-2y)\\).",
+      "answer": "Solve \\(T(x,y)=(0,0)\\):\n\\[\nx-y=0,\\qquad 2x-2y=0.\n\\]\nBoth equations give \\(x=y\\). Let \\(y=t\\). Then\n\\[\n(x,y)=t(1,1).\n\\]\nSo \\(\\ker T=\\operatorname{span}\\{(1,1)\\}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-11",
+      "prompt": "Find \\(\\operatorname{im}T\\) for \\(T(x,y)=(x,2x+y,y)\\).",
+      "answer": "Write\n\\[\nT(x,y)=x(1,2,0)+y(0,1,1).\n\\]\nBoth spanning vectors occur as outputs, so\n\\[\n\\operatorname{im}T=\\operatorname{span}\\{(1,2,0),(0,1,1)\\}.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-12",
+      "prompt": "Explain geometrically what \\(T(x,y)=(x-y,x-y)\\) does.",
+      "answer": "The output has equal components, so it lies on the line spanned by \\((1,1)\\). Also\n\\[\nT(x,y)=(x-y)(1,1).\n\\]\nThus the map collapses the plane onto \\(\\operatorname{span}\\{(1,1)\\}\\). Vectors with \\(x=y\\) are sent to zero.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-13",
+      "prompt": "For which \\(k\\) is \\(T_k(x,y)=(kx+y,x+ky)\\) injective?",
+      "answer": "Solve the kernel equations\n\\[\nkx+y=0,\\qquad x+ky=0.\n\\]\nFrom \\(y=-kx\\), substitute to get\n\\[\n(1-k^2)x=0.\n\\]\nOnly the zero solution occurs when \\(1-k^2\\ne0\\). Therefore \\(T_k\\) is injective for \\(k\\ne1\\) and \\(k\\ne-1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-14",
+      "prompt": "For \\(T(x,y,z)=(x+z,y-z)\\), find bases for the kernel and image.",
+      "answer": "Kernel: solve\n\\[\nx+z=0,\\qquad y-z=0.\n\\]\nThen \\((x,y,z)=t(-1,1,1)\\), so a kernel basis is \\(\\{(-1,1,1)\\}\\). Image: \\(T(x,y,z)=x(1,0)+y(0,1)+z(1,-1)\\). Since \\((1,0)\\) and \\((0,1)\\) span \\(\\mathbb R^2\\), an image basis is \\(\\{(1,0),(0,1)\\}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-15",
+      "prompt": "For which \\(a\\) is \\(S_a(x,y)=(x+ay,a+x^2)\\) linear?",
+      "answer": "Test homogeneity. With \\((1,0)\\) and scalar \\(2\\),\n\\[\nS_a(2,0)=(2,a+4),\\qquad 2S_a(1,0)=(2,2a+2).\n\\]\nEquality would require \\(a=2\\). Test \\(a=2\\) with \\((2,0)\\):\n\\[\nS_2(4,0)=(4,18),\\qquad 2S_2(2,0)=(4,12).\n\\]\nThey differ, so no value of \\(a\\) works.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-16",
+      "prompt": "Given linear \\(T\\) with \\(T(1,1)=(3,0)\\) and \\(T(1,-1)=(1,4)\\), find \\(T(5,1)\\).",
+      "answer": "Write\n\\[\na(1,1)+b(1,-1)=(5,1).\n\\]\nThen \\(a+b=5\\) and \\(a-b=1\\), so \\(a=3\\), \\(b=2\\). Hence\n\\[\nT(5,1)=3(3,0)+2(1,4)=(11,8).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-17",
+      "prompt": "For \\(T(\\mathbf v)=\\mathbf v-\\operatorname{proj}_{(1,1)}\\mathbf v\\), show linearity and find the image.",
+      "answer": "For \\(\\mathbf v=(x,y)\\),\n\\[\n\\operatorname{proj}_{(1,1)}(x,y)=\\frac{x+y}{2}(1,1).\n\\]\nThis is linear, and subtracting it from the identity map remains linear. Also\n\\[\nT(x,y)=\\left(\\frac{x-y}{2},\\frac{y-x}{2}\\right),\n\\]\nso the image is \\(\\operatorname{span}\\{(1,-1)\\}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-18",
+      "prompt": "Explain why checking \\(\\mathbf0\\), \\((1,0)\\), and \\((0,1)\\) is not enough to prove a map is linear.",
+      "answer": "A few outputs do not prove the rules hold for every vector. For example\n\\[\nF(x,y)=(x^2,y)\n\\]\nsends \\((0,0)\\) to \\((0,0)\\), but\n\\[\nF(2,0)=(4,0)\\ne(2,0)=2F(1,0).\n\\]\nSo homogeneity fails, even though the zero-vector test passes.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-19",
+      "prompt": "Prove that the rule \\(T(a\\mathbf u+b\\mathbf v)=aT(\\mathbf u)+bT(\\mathbf v)\\) implies the usual two linearity rules.",
+      "answer": "Set \\(a=b=1\\) to get\n\\[\nT(\\mathbf u+\\mathbf v)=T(\\mathbf u)+T(\\mathbf v).\n\\]\nSet \\(b=0\\) to get\n\\[\nT(a\\mathbf u)=aT(\\mathbf u)+0T(\\mathbf v)=aT(\\mathbf u).\n\\]\nThus the combined rule implies additivity and homogeneity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-linear-maps-20",
+      "prompt": "A linear map sends every vector on \\(y=x\\) to \\(\\mathbf0\\) and satisfies \\(T(1,0)=(2,-1)\\). Find \\(T(x,y)\\).",
+      "answer": "Because \\(T(1,1)=\\mathbf0\\),\n\\[\nT(1,0)+T(0,1)=\\mathbf0.\n\\]\nSo \\(T(0,1)=(-2,1)\\). Then\n\\[\nT(x,y)=xT(1,0)+yT(0,1)=x(2,-1)+y(-2,1).\n\\]\nTherefore\n\\[\nT(x,y)=(2x-2y,-x+y).\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

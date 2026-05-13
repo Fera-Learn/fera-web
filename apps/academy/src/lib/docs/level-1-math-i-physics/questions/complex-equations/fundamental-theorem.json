@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-equations",
+  "topicId": "fundamental-theorem",
+  "topicTitle": "Fundamental Theorem",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-01",
+      "prompt": "State what the fundamental theorem of algebra guarantees for a non-constant complex polynomial.",
+      "answer": "It guarantees at least one complex root. Equivalently, a degree \\(n\\) polynomial has \\(n\\) complex roots when multiplicity is counted.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-02",
+      "prompt": "How many complex roots counted with multiplicity does a degree \\(6\\) polynomial have?",
+      "answer": "A degree \\(n\\) polynomial has \\(n\\) complex roots counted with multiplicity. Therefore a degree \\(6\\) polynomial has \\(6\\) such roots.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-03",
+      "prompt": "If \\(p(z)=(z-2)^3(z+i)\\), what is the degree of \\(p\\)?",
+      "answer": "The factors contribute degrees \\(3\\) and \\(1\\). Thus the total degree is \\(3+1=4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-04",
+      "prompt": "In \\(p(z)=(z-1)^2(z+3)\\), what is the multiplicity of the root \\(z=1\\)?",
+      "answer": "The factor \\((z-1)\\) appears squared. Therefore \\(z=1\\) has multiplicity \\(2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-05",
+      "prompt": "List the roots of \\(p(z)=(z-1)(z+2)(z-i)\\).",
+      "answer": "Set each factor to zero. The roots are \\(z=1\\), \\(z=-2\\), and \\(z=i\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-06",
+      "prompt": "Factor \\(z^2+1\\) over \\(\\mathbb C\\).",
+      "answer": "The roots are \\(i\\) and \\(-i\\). Therefore \\(z^2+1=(z-i)(z+i)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-07",
+      "prompt": "A real-coefficient polynomial has root \\(3-2i\\). What other root must it have?",
+      "answer": "Non-real roots of real-coefficient polynomials occur in conjugate pairs. Therefore \\(3+2i\\) must also be a root.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-08",
+      "prompt": "How many roots remain after factoring a linear factor from a degree \\(5\\) polynomial?",
+      "answer": "Factoring out one linear factor leaves a polynomial of degree \\(4\\). Therefore \\(4\\) roots counted with multiplicity remain.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-09",
+      "prompt": "Use the theorem to predict the number of roots of \\(z^4+z+1=0\\) over \\(\\mathbb C\\).",
+      "answer": "The polynomial has degree \\(4\\). The fundamental theorem of algebra says it has \\(4\\) complex roots counted with multiplicity.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-10",
+      "prompt": "Factor \\(z^3-1\\) completely over \\(\\mathbb C\\).",
+      "answer": "First \\(z^3-1=(z-1)(z^2+z+1)\\). The quadratic roots are \\((-1\\pm i\\sqrt3)/2\\), so the complete factorisation is \\((z-1)(z-(-1+i\\sqrt3)/2)(z-(-1-i\\sqrt3)/2)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-11",
+      "prompt": "Explain why \\(z^4+4\\) must factor into four linear factors over \\(\\mathbb C\\).",
+      "answer": "The polynomial is degree \\(4\\) and non-constant. By the fundamental theorem of algebra, it has four complex roots counted with multiplicity, so it can be written as a leading coefficient times four linear factors.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-12",
+      "prompt": "If \\(p(z)\\) is a real cubic and \\(1+i\\) is a root, explain why at least one real root exists.",
+      "answer": "Since coefficients are real, \\(1-i\\) is also a root. These two roots account for a quadratic factor, leaving one more root because a cubic has three roots counted with multiplicity. The remaining root must be real, otherwise it would need another conjugate partner.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-13",
+      "prompt": "Find the missing root of a monic cubic with roots \\(2+i\\), \\(2-i\\), and one more root, if the constant term is \\(-10\\).",
+      "answer": "For a monic cubic, the product of roots is \\(-\\)constant term, so the product is \\(10\\). The known product is \\((2+i)(2-i)=5\\), so the missing root is \\(10/5=2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-14",
+      "prompt": "Solve \\(z^4-5z^2+4=0\\) and count the roots with multiplicity.",
+      "answer": "Let \\(w=z^2\\). Then \\(w^2-5w+4=0=(w-1)(w-4)\\), so \\(z^2=1\\) or \\(z^2=4\\). The roots are \\(-2,-1,1,2\\), four roots matching degree \\(4\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-15",
+      "prompt": "Can a real polynomial of degree \\(5\\) have exactly two non-real roots counted with multiplicity? Explain.",
+      "answer": "Yes. Non-real roots of a real polynomial occur in conjugate pairs, so two non-real roots can form one pair. The remaining three roots counted with multiplicity can be real.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-16",
+      "prompt": "Can a real polynomial of degree \\(4\\) have exactly one non-real root? Explain.",
+      "answer": "No. Any non-real root must appear with its conjugate, so non-real roots occur in pairs when counted with multiplicity. Exactly one non-real root is impossible for a real-coefficient polynomial.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-17",
+      "prompt": "Find a real monic quartic whose roots are \\(i\\), \\(-i\\), \\(2\\), and \\(-3\\).",
+      "answer": "Use the factors \\((z-i)(z+i)(z-2)(z+3)\\). The first pair gives \\(z^2+1\\), and the real pair gives \\(z^2+z-6\\), so the polynomial is \\((z^2+1)(z^2+z-6)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-18",
+      "prompt": "A learner says the fundamental theorem of algebra gives a formula for the roots of every polynomial. Correct the statement.",
+      "answer": "The theorem gives existence and counting, not an explicit formula. It says every non-constant complex polynomial has at least one root and that a degree \\(n\\) polynomial has \\(n\\) roots counted with multiplicity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-19",
+      "prompt": "Explain why the fundamental theorem of algebra does not apply to \\(e^z-1=0\\).",
+      "answer": "The theorem applies to non-constant polynomials, which are finite sums of powers of \\(z\\). The function \\(e^z-1\\) is transcendental, not a polynomial, so the theorem does not control its number of roots.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-fundamental-theorem-20",
+      "prompt": "Prove that a monic degree \\(n\\) polynomial with roots \\(z_1,\\ldots,z_n\\) counted with multiplicity factors as \\(\\prod_{j=1}^n(z-z_j)\\).",
+      "answer": "By the factor theorem, each root \\(z_j\\) corresponds to a factor \\((z-z_j)\\), repeated according to multiplicity. Removing all \\(n\\) linear factors leaves a constant polynomial. Since the original polynomial is monic and the product is monic, that constant is \\(1\\), so the factorisation is \\(\\prod_{j=1}^n(z-z_j)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

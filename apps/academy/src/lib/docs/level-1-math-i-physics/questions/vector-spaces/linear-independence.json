@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "linear-independence",
+  "topicTitle": "Linear Independence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-linear-independence-01",
+      "prompt": "State the definition of a linearly independent list \\(\\mathbf v_1,\\ldots,\\mathbf v_k\\).",
+      "answer": "The list is linearly independent if \\(c_1\\mathbf v_1+\\cdots+c_k\\mathbf v_k=\\mathbf0\\) implies \\(c_1=\\cdots=c_k=0\\). In words, only the trivial coefficient choice makes the zero vector.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-02",
+      "prompt": "What does it mean for a list of vectors to be linearly dependent?",
+      "answer": "A list is linearly dependent if there is a non-trivial relation \\(c_1\\mathbf v_1+\\cdots+c_k\\mathbf v_k=\\mathbf0\\), where at least one coefficient is non-zero. That means at least one vector is redundant because it can be built from the others.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-03",
+      "prompt": "Explain why any list containing \\(\\mathbf0\\) is linearly dependent.",
+      "answer": "If \\(\\mathbf0\\) is in the list, put coefficient \\(1\\) on that vector and coefficient \\(0\\) on every other vector. The combination equals \\(\\mathbf0\\), but the coefficient \\(1\\) is non-zero. This is a non-trivial relation, so the list is dependent.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-04",
+      "prompt": "Are \\((1,0)\\) and \\((0,1)\\) linearly independent in \\(\\mathbb R^2\\)?",
+      "answer": "Set \\(c_1(1,0)+c_2(0,1)=(0,0)\\). This gives \\((c_1,c_2)=(0,0)\\), so \\(c_1=0\\) and \\(c_2=0\\). Since the only solution is trivial, the two vectors are linearly independent.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-05",
+      "prompt": "Test whether \\((1,2)\\) and \\((3,6)\\) are linearly independent.",
+      "answer": "The second vector is \\(3(1,2)=(3,6)\\). Hence \\(3(1,2)-(3,6)=(0,0)\\). The coefficients \\(3\\) and \\(-1\\) are not both zero, so this is a non-trivial relation. The vectors are linearly dependent.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-06",
+      "prompt": "Test whether \\((2,1)\\) and \\((1,-1)\\) are linearly independent.",
+      "answer": "Solve \\(c_1(2,1)+c_2(1,-1)=(0,0)\\). Components give \\(2c_1+c_2=0\\) and \\(c_1-c_2=0\\). From the second equation, \\(c_2=c_1\\). Substitute into the first: \\(3c_1=0\\), so \\(c_1=0\\), and then \\(c_2=0\\). The pair is independent.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-07",
+      "prompt": "Explain why three vectors in \\(\\mathbb R^2\\) must be linearly dependent.",
+      "answer": "The space \\(\\mathbb R^2\\) has only two independent coordinate directions. A list with more than \\(2\\) vectors in \\(\\mathbb R^2\\) cannot be independent. Therefore any three vectors in \\(\\mathbb R^2\\) are linearly dependent.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-08",
+      "prompt": "Test whether \\((1,0,0),(0,1,0),(1,1,0)\\) are linearly independent.",
+      "answer": "The third vector is the sum of the first two: \\((1,1,0)=(1,0,0)+(0,1,0)\\). Therefore \\((1,0,0)+(0,1,0)-(1,1,0)=\\mathbf0\\). This is a non-trivial relation, so the list is linearly dependent.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-09",
+      "prompt": "Test whether \\((1,0,1),(0,1,1),(1,1,0)\\) are linearly independent.",
+      "answer": "Solve \\(a(1,0,1)+b(0,1,1)+c(1,1,0)=(0,0,0)\\). Components give \\(a+c=0\\), \\(b+c=0\\), and \\(a+b=0\\). From the first two, \\(a=-c\\) and \\(b=-c\\). Then \\(a+b=-2c=0\\), so \\(c=0\\), and therefore \\(a=b=0\\). The list is independent.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-10",
+      "prompt": "Test whether the polynomials \\(1+x\\), \\(1-x\\), and \\(2\\) are linearly independent in \\(P_1\\).",
+      "answer": "Consider \\(a(1+x)+b(1-x)+c(2)=0\\). Collect terms: constant coefficient \\(a+b+2c=0\\), and \\(x\\)-coefficient \\(a-b=0\\). Since there are three unknowns and only two equations, a non-trivial solution may exist. Taking \\(a=b=1\\) gives \\(2+2c=0\\), so \\(c=-1\\). Thus \\((1+x)+(1-x)-2=0\\), a non-trivial relation. The list is dependent.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-11",
+      "prompt": "Use a determinant to test whether \\((1,2)\\) and \\((3,5)\\) are independent in \\(\\mathbb R^2\\).",
+      "answer": "Place the vectors as columns: \\(A=\\begin{pmatrix}1&3\\\\2&5\\end{pmatrix}\\). The determinant is \\(1\\cdot5-3\\cdot2=5-6=-1\\ne0\\). A non-zero determinant means the columns are independent, so the two vectors are linearly independent.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-12",
+      "prompt": "A pair of non-zero displacement directions in a plane are not scalar multiples. Explain why they are independent.",
+      "answer": "For two vectors in \\(\\mathbb R^2\\), dependence means one vector is a scalar multiple of the other. The directions are non-zero and not scalar multiples, so no non-trivial combination can cancel to \\(\\mathbf0\\). Therefore the pair gives two independent planar directions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-13",
+      "prompt": "Find all \\(k\\) for which \\((1,k)\\) and \\((2,4)\\) are linearly dependent.",
+      "answer": "Two vectors in \\(\\mathbb R^2\\) are dependent when one is a scalar multiple of the other. If \\((2,4)=2(1,k)\\), then \\((2,4)=(2,2k)\\), so \\(2k=4\\) and \\(k=2\\). Thus the pair is dependent only when \\(k=2\\); otherwise it is independent.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-14",
+      "prompt": "Find all \\(a\\) for which \\((1,0,a),(0,1,a),(1,1,2a)\\) are linearly independent.",
+      "answer": "Notice \\((1,1,2a)=(1,0,a)+(0,1,a)\\) for every real \\(a\\). Therefore \\((1,0,a)+(0,1,a)-(1,1,2a)=\\mathbf0\\) is always a non-trivial relation. The vectors are never linearly independent.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-15",
+      "prompt": "For which \\(t\\) are \\((1,0,1),(0,1,1),(1,1,t)\\) linearly independent?",
+      "answer": "Use the column matrix \\(A=\\begin{pmatrix}1&0&1\\\\0&1&1\\\\1&1&t\\end{pmatrix}\\). Its determinant is \\(1(t-1)-0+1(0-1)=t-1-1=t-2\\). The columns are independent exactly when \\(\\det A\\ne0\\). Therefore they are independent for \\(t\\ne2\\) and dependent for \\(t=2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-16",
+      "prompt": "For which \\(a\\) are \\((1,a)\\) and \\((a,1)\\) linearly dependent?",
+      "answer": "Use determinant \\(\\begin{vmatrix}1&a\\\\a&1\\end{vmatrix}=1-a^2\\). The pair is dependent exactly when the determinant is zero. Thus \\(1-a^2=0\\), so \\(a=1\\) or \\(a=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-17",
+      "prompt": "For which \\(p\\) are the polynomials \\(1+x\\), \\(1+px\\) independent in \\(P_1\\)?",
+      "answer": "If they are dependent, \\(1+px=\\lambda(1+x)\\). Comparing constant terms gives \\(1=\\lambda\\), so \\(\\lambda=1\\). Comparing \\(x\\)-coefficients then gives \\(p=1\\). Therefore the polynomials are dependent when \\(p=1\\), and independent when \\(p\\ne1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-18",
+      "prompt": "A student checks that no two vectors in a list of three are scalar multiples and concludes the list is independent. Give a counterexample.",
+      "answer": "In \\(\\mathbb R^2\\), take \\((1,0),(0,1),(1,1)\\). No two of these are scalar multiples. However, \\((1,0)+(0,1)-(1,1)=(0,0)\\), which is a non-trivial relation. Therefore pairwise non-multiplicity is not enough for independence of three or more vectors.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-19",
+      "prompt": "Prove that any subset of a linearly independent list is linearly independent.",
+      "answer": "Let the original list be independent and take a subset. Suppose a linear combination of the subset equals \\(\\mathbf0\\). Extend this to a combination of the full list by giving coefficient \\(0\\) to every vector not in the subset. Since the full list is independent, all coefficients in the full combination are zero. In particular, all subset coefficients are zero, so the subset is independent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-linear-independence-20",
+      "prompt": "Prove that if one vector in a finite list is a linear combination of the others, then the list is linearly dependent.",
+      "answer": "Suppose \\(\\mathbf v_j=\\sum_{i\\ne j}c_i\\mathbf v_i\\). Move all terms to one side: \\(\\mathbf v_j-\\sum_{i\\ne j}c_i\\mathbf v_i=\\mathbf0\\). This is a linear relation among the listed vectors. The coefficient of \\(\\mathbf v_j\\) is \\(1\\), which is non-zero, so the relation is non-trivial. Hence the list is linearly dependent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

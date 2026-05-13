@@ -1,6 +1,8 @@
 import { level1PhysicsExamSets } from "@/lib/docs/level-1-physics/exams";
+import { level1MathIPhysicsExamSets } from "@/lib/docs/level-1-math-i-physics/exams";
 import { level1MathIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-i-physics/questions.generated";
 import { level1PhysicsQuestionTopics } from "@/lib/docs/level-1-physics/questions.generated";
+import type { Level1PhysicsExamSet } from "@/lib/docs/level-1-physics/exams/types";
 
 type QuestionSource = "exam" | "topic";
 
@@ -217,8 +219,16 @@ function getLevel1MathIPhysicsTopicQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
-function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
-  return level1PhysicsExamSets.flatMap((set) =>
+function getExamQuestionEntries({
+  courseId,
+  examSets,
+  getSectionIds = (section: string) => [section],
+}: {
+  courseId: string;
+  examSets: Level1PhysicsExamSet[];
+  getSectionIds?: (section: string) => string[];
+}): QuestionBankEntry[] {
+  return examSets.flatMap((set) =>
     set.papers.flatMap((paper) =>
       paper.questions.map((question) => {
         const parts = question.parts.map((part) => ({
@@ -233,7 +243,7 @@ function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
           answer: parts
             .map((part) => `${part.label} ${part.answer}`)
             .join("\n\n"),
-          courseId: LEVEL_1_PHYSICS_COURSE_ID,
+          courseId,
           id: `${set.id}-${paper.id}-${question.id}`,
           marks: question.marks,
           paperId: paper.id,
@@ -243,7 +253,7 @@ function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
             .filter(Boolean)
             .join("\n\n"),
           sectionId: question.section,
-          sectionIds: getLevel1PhysicsExamQuestionSectionIds(question.section),
+          sectionIds: getSectionIds(question.section),
           setId: set.id,
           source: "exam" as const,
           stem: question.stem,
@@ -254,12 +264,33 @@ function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
   );
 }
 
-function getLevel1PhysicsPapers(): QuestionBankPaper[] {
-  return level1PhysicsExamSets.flatMap<QuestionBankPaper>((set) =>
+function getLevel1MathIPhysicsExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_1_MATH_I_PHYSICS_COURSE_ID,
+    examSets: level1MathIPhysicsExamSets,
+  });
+}
+
+function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_1_PHYSICS_COURSE_ID,
+    examSets: level1PhysicsExamSets,
+    getSectionIds: getLevel1PhysicsExamQuestionSectionIds,
+  });
+}
+
+function getExamPapers({
+  courseId,
+  examSets,
+}: {
+  courseId: string;
+  examSets: Level1PhysicsExamSet[];
+}): QuestionBankPaper[] {
+  return examSets.flatMap<QuestionBankPaper>((set) =>
     set.papers.map((paper) => ({
-      courseId: LEVEL_1_PHYSICS_COURSE_ID,
+      courseId,
       description: paper.description,
-      href: `/${LEVEL_1_PHYSICS_COURSE_ID}/exam-papers/${set.id}/${paper.id}`,
+      href: `/${courseId}/exam-papers/${set.id}/${paper.id}`,
       label: paper.label,
       paperId: paper.id,
       setId: set.id,
@@ -270,12 +301,26 @@ function getLevel1PhysicsPapers(): QuestionBankPaper[] {
   );
 }
 
+function getLevel1MathIPhysicsPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_1_MATH_I_PHYSICS_COURSE_ID,
+    examSets: level1MathIPhysicsExamSets,
+  });
+}
+
+function getLevel1PhysicsPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_1_PHYSICS_COURSE_ID,
+    examSets: level1PhysicsExamSets,
+  });
+}
+
 const COURSE_PROVIDERS: CourseQuestionProvider[] = [
   {
     aliases: [],
     courseId: LEVEL_1_MATH_I_PHYSICS_COURSE_ID,
-    getExamQuestions: () => [],
-    getPapers: () => [],
+    getExamQuestions: getLevel1MathIPhysicsExamQuestionEntries,
+    getPapers: getLevel1MathIPhysicsPapers,
     getTopicQuestions: getLevel1MathIPhysicsTopicQuestionEntries,
     label: "Level 1 - Math I (Physics)",
   },

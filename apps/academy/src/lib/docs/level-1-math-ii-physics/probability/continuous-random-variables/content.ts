@@ -55,7 +55,7 @@ Continuous probability is area. The endpoints do not change the probability beca
     {
       title: "Example 1",
       question: "A value is uniformly distributed on \\([2,6]\\). Find the density and \\(P(3\\le X\\le5)\\).",
-      answer: "The support length is \\(4\\), so \\(f_X(x)=1/4\\) on \\([2,6]\\). Then \\[P(3\\le X\\le5)=\\int_3^5\\frac14\\,dx=\\frac{5-3}{4}=\\frac12.\\]",
+      answer: "The support length is \\(4\\), so \\(f_X(x)=1/4\\) on \\([2,6]\\). Then \\[P(3\\le X\\le5)=\\int_3^5\\frac{1}{4}\\,dx=\\frac{5-3}{4}=\\frac{1}{2}.\\]",
     },
     {
       title: "Example 2",

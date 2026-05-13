@@ -4,7 +4,7 @@ Complex division requires eliminating the imaginary part from the denominator.
 
 ### Division Formula
 
-For $z_1 = a + bi$ and $z_2 = c + di \neq 0$:
+For \(z_1 = a + bi\) and \(z_2 = c + di \neq 0\):
 
 <Equation label="Division" tex="\frac{z_1}{z_2} = \frac{(ac + bd) + (bc - ad)i}{c^2 + d^2}" />
 
@@ -18,7 +18,7 @@ Multiply numerator and denominator by the conjugate of the denominator:
 
 <Equation label="Reciprocal" tex="\frac{1}{a + bi} = \frac{a - bi}{a^2 + b^2}" />
 
-The denominator $a^2 + b^2 = |z|^2$ is always real and positive.
+The denominator \(a^2 + b^2 = |z|^2\) is always real and positive.
 
 ### Verification
 

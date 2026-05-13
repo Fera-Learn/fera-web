@@ -10,7 +10,7 @@ Used to differentiate quotients of functions.
 
 ## Example
 
-Find $\frac{d}{dx}\left[\frac{x}{\sin(x)}\right]$
+Find \(\frac{d}{dx}\left[\frac{x}{\sin(x)}\right]\)
 
 <Equation label="Example" tex="= \frac{1 \cdot \sin(x) - x \cdot \cos(x)}{[\sin(x)]^2}" />
 

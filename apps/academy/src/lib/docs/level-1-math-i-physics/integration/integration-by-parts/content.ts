@@ -20,17 +20,17 @@ Use the **LIATE** rule (prioritize in this order):
 
 ### Examples
 
-**Example 1:** $\int x e^x \, dx$
+**Example 1:** \(\int x e^x \, dx\)
 
-Let $u = x$ (algebraic), $dv = e^x \, dx$ (exponential):
+Let \(u = x\) (algebraic), \(dv = e^x \, dx\) (exponential):
 
 <Equation label="Example 1" tex="u = x \Rightarrow du = dx, \quad dv = e^x \, dx \Rightarrow v = e^x" />
 
 <Equation label="Result 1" tex="\int x e^x \, dx = xe^x - \int e^x \, dx = xe^x - e^x + C = e^x(x - 1) + C" />
 
-**Example 2:** $\int \ln x \, dx$
+**Example 2:** \(\int \ln x \, dx\)
 
-Let $u = \ln x$ (logarithmic), $dv = dx$:
+Let \(u = \ln x\) (logarithmic), \(dv = dx\):
 
 <Equation label="Example 2" tex="u = \ln x \Rightarrow du = \frac{1}{x}dx, \quad v = x" />
 
@@ -38,7 +38,7 @@ Let $u = \ln x$ (logarithmic), $dv = dx$:
 
 ### Repeated Integration by Parts
 
-For integrals like $\int e^x \sin x \, dx$, apply IBP twice:
+For integrals like \(\int e^x \sin x \, dx\), apply IBP twice:
 
 <Equation label="Repeated" tex="\int e^x \sin x \, dx = e^x \sin x - \int e^x \cos x \, dx" />
 
@@ -50,10 +50,10 @@ For repeated differentiation of one factor, use a table:
 
 | u | dv |
 |---|----|
-| $x^2$ | $e^x$ |
-| $2x$ | $e^x$ |
-| $2$ | $e^x$ |
-| $0$ | $e^x$ |
+| \(x^2\) | \(e^x\) |
+| \(2x\) | \(e^x\) |
+| \(2\) | \(e^x\) |
+| \(0\) | \(e^x\) |
 
-This efficiently handles products like $\int x^2 e^x \, dx$.
+This efficiently handles products like \(\int x^2 e^x \, dx\).
 `;

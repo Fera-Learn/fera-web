@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "nullity",
+  "topicTitle": "Nullity",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-nullity-01",
+      "prompt": "Define the nullity of a matrix \\(A\\).",
+      "answer": "The nullity of \\(A\\) is the dimension of its null space: \\(\\operatorname{nullity}A=\\dim\\operatorname{Null}(A)\\). It counts independent solution directions of \\(A\\mathbf x=\\mathbf0\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-02",
+      "prompt": "State the rank-nullity theorem for an \\(m\\times n\\) matrix \\(A\\).",
+      "answer": "The theorem says \\(\\operatorname{rank}A+\\operatorname{nullity}A=n\\), where \\(n\\) is the number of columns of \\(A\\). It splits input directions into constrained directions and null-space directions.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-03",
+      "prompt": "A matrix has \\(5\\) columns and rank \\(3\\). What is its nullity?",
+      "answer": "Use rank-nullity: \\(\\operatorname{rank}A+\\operatorname{nullity}A=5\\). Thus \\(3+\\operatorname{nullity}A=5\\), so \\(\\operatorname{nullity}A=2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-04",
+      "prompt": "What is the nullity of a \\(3\\times3\\) full-rank matrix?",
+      "answer": "Full rank for a \\(3\\times3\\) matrix means rank \\(3\\). Rank-nullity gives \\(3+\\operatorname{nullity}A=3\\). Therefore the nullity is \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-05",
+      "prompt": "Find the nullity of \\(A=\\begin{pmatrix}1&0&0\\\\0&1&0\\end{pmatrix}\\).",
+      "answer": "The matrix has \\(3\\) columns. Its first two columns are pivot columns, so the rank is \\(2\\). By rank-nullity, \\(\\operatorname{nullity}A=3-2=1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-06",
+      "prompt": "Find the nullity of the zero \\(2\\times4\\) matrix.",
+      "answer": "The zero matrix has rank \\(0\\) and \\(4\\) columns. Rank-nullity gives \\(0+\\operatorname{nullity}A=4\\). Therefore the nullity is \\(4\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-07",
+      "prompt": "If row reduction of a \\(4\\)-column matrix gives pivots in columns \\(1\\) and \\(3\\), what is the nullity?",
+      "answer": "There are two pivot columns, so the rank is \\(2\\). The matrix has \\(4\\) columns, so rank-nullity gives \\(\\operatorname{nullity}=4-2=2\\). Equivalently, there are two free variables.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-08",
+      "prompt": "Solve \\(x+y=0\\) as a null space and state its nullity.",
+      "answer": "The equation gives \\(x=-y\\). Let \\(y=t\\). Then \\((x,y)=(-t,t)=t(-1,1)\\). The null space has basis \\(\\{(-1,1)\\}\\), so its nullity is \\(1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-09",
+      "prompt": "Find a basis and nullity for \\(A=\\begin{pmatrix}1&1&1\\end{pmatrix}\\).",
+      "answer": "Solve \\(x+y+z=0\\). Let \\(y=s\\) and \\(z=t\\), so \\(x=-s-t\\). Then \\((x,y,z)=s(-1,1,0)+t(-1,0,1)\\). A basis is \\(\\{(-1,1,0),(-1,0,1)\\}\\), so the nullity is \\(2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-10",
+      "prompt": "Find the nullity of \\(A=\\begin{pmatrix}1&2&3\\\\0&1&1\\end{pmatrix}\\).",
+      "answer": "There are pivots in columns \\(1\\) and \\(2\\), so the rank is \\(2\\). The matrix has \\(3\\) columns. Therefore \\(\\operatorname{nullity}A=3-2=1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-11",
+      "prompt": "Find a basis for the null space of \\(\\begin{pmatrix}1&2&3\\\\0&1&1\\end{pmatrix}\\).",
+      "answer": "Solve \\(x+2y+3z=0\\) and \\(y+z=0\\). From the second equation, \\(y=-z\\). Substitute into the first: \\(x+2(-z)+3z=0\\), so \\(x+z=0\\) and \\(x=-z\\). Let \\(z=t\\). Then \\((x,y,z)=t(-1,-1,1)\\). A basis is \\(\\{(-1,-1,1)\\}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-12",
+      "prompt": "Explain why the zero vector being in every null space does not mean every nullity is positive.",
+      "answer": "Nullity counts the dimension of the null space, not whether the zero vector is present. If \\(\\operatorname{Null}(A)=\\{\\mathbf0\\}\\), then its basis is empty and its dimension is \\(0\\). Thus the zero vector is always present, but nullity can still be \\(0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-13",
+      "prompt": "Find the nullity of \\(A=\\begin{pmatrix}1&0&1&0\\\\0&1&0&1\\end{pmatrix}\\) and give a basis for the null space.",
+      "answer": "The equations are \\(x_1+x_3=0\\) and \\(x_2+x_4=0\\). Let \\(x_3=s\\), \\(x_4=t\\). Then \\(x_1=-s\\), \\(x_2=-t\\), so \\(\\mathbf x=s(-1,0,1,0)+t(0,-1,0,1)\\). A basis has two vectors, so the nullity is \\(2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-14",
+      "prompt": "Find the nullity of \\(\\begin{pmatrix}1&1&0\\\\0&1&1\\\\1&2&1\\end{pmatrix}\\).",
+      "answer": "The third row is the sum of the first two rows, so there are at most two pivots. The first two rows are independent, so rank is \\(2\\). The matrix has \\(3\\) columns. Rank-nullity gives \\(\\operatorname{nullity}=3-2=1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-15",
+      "prompt": "For which \\(t\\) does \\(A_t=\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&t\\end{pmatrix}\\) have nullity \\(0\\)?",
+      "answer": "The matrix has \\(3\\) columns. Nullity \\(0\\) means rank \\(3\\). The determinant is \\(t\\), so rank is \\(3\\) exactly when \\(t\\ne0\\). Therefore the nullity is \\(0\\) for \\(t\\ne0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-16",
+      "prompt": "For which \\(a\\) does \\(\\begin{pmatrix}1&a\\\\a&1\\end{pmatrix}\\) have nullity \\(1\\)?",
+      "answer": "A \\(2\\times2\\) matrix has nullity \\(1\\) when its rank is \\(1\\). The determinant is \\(1-a^2\\), so rank drops below \\(2\\) when \\(a=\\pm1\\). The matrix is not zero at those values, so rank is \\(1\\) and nullity is \\(2-1=1\\). Thus \\(a=1\\) or \\(a=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-17",
+      "prompt": "For which \\(b\\) does \\(\\begin{pmatrix}1&0&1\\\\0&1&1\\b&b&1\\end{pmatrix}\\) have positive nullity?",
+      "answer": "Positive nullity for a \\(3\\)-column square matrix means rank is less than \\(3\\), so the determinant is zero. The determinant is \\(1-2b\\). Thus positive nullity occurs when \\(1-2b=0\\), so \\(b=\\tfrac12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-18",
+      "prompt": "A student uses the number of rows instead of columns in rank-nullity. Give a correction using a \\(2\\times3\\) matrix of rank \\(2\\).",
+      "answer": "Rank-nullity uses the number of columns because columns count input variables. For a \\(2\\times3\\) matrix with rank \\(2\\), the correct calculation is \\(2+\\operatorname{nullity}=3\\), so nullity is \\(1\\). Using the number of rows would give \\(0\\), which is wrong for a rank-\\(2\\) map with three input coordinates.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-19",
+      "prompt": "Prove that nullity equals the number of free variables in \\(A\\mathbf x=\\mathbf0\\).",
+      "answer": "After row reduction, each pivot column determines one pivot variable in terms of the free variables. Each free variable can be set independently to \\(1\\) while the others are set to \\(0\\), producing one basis direction for the null space. If there are \\(f\\) free variables, these \\(f\\) directions span all homogeneous solutions and are independent. Therefore the nullity is \\(f\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-nullity-20",
+      "prompt": "Explain why nullity counts hidden input directions in a model \\(\\mathbf y=A\\mathbf x\\).",
+      "answer": "A vector \\(\\mathbf x\\) in \\(\\operatorname{Null}(A)\\) satisfies \\(A\\mathbf x=\\mathbf0\\), so changing the input by that direction produces no change in output. Independent null-space directions are independent hidden changes. Since nullity is the dimension of the null space, it counts those hidden input directions.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Complex addition is performed component-wise, adding real parts and imaginary pa
 
 ### Component-Wise Addition
 
-For two complex numbers $z_1 = a + bi$ and $z_2 = c + di$:
+For two complex numbers \(z_1 = a + bi\) and \(z_2 = c + di\):
 
 <Equation label="Addition" tex="z_1 + z_2 = (a + c) + (b + d)i" />
 
@@ -12,7 +12,7 @@ For two complex numbers $z_1 = a + bi$ and $z_2 = c + di$:
 
 Adding complex numbers corresponds to **vector addition** in the complex plane:
 - Each complex number is a vector from the origin
-- Adding $z_1 + z_2$ means placing the vectors tip-to-tail
+- Adding \(z_1 + z_2\) means placing the vectors tip-to-tail
 - The resulting vector goes from the origin to the sum
 
 <Equation label="VectorSum" tex="\vec{z_1} + \vec{z_2} = \overrightarrow{\text{tip of } z_1 \text{ to tip of combined}}" />
@@ -20,9 +20,9 @@ Adding complex numbers corresponds to **vector addition** in the complex plane:
 ### Properties
 
 Complex addition is:
-- **Commutative**: $z_1 + z_2 = z_2 + z_1$
-- **Associative**: $(z_1 + z_2) + z_3 = z_1 + (z_2 + z_3)$
-- **Has identity** $0$: $z + 0 = z$
+- **Commutative**: \(z_1 + z_2 = z_2 + z_1\)
+- **Associative**: \((z_1 + z_2) + z_3 = z_1 + (z_2 + z_3)\)
+- **Has identity** \(0\): \(z + 0 = z\)
 
 ### Example
 

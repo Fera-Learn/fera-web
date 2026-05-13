@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "complex-trig-formulae",
+  "topicTitle": "Complex Trig Formulae",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-01",
+      "prompt": "Write \\(\\cos\\theta\\) in terms of complex exponentials.",
+      "answer": "The complex exponential formula for cosine is\n\\[\n\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}.\n\\]\nIt follows by adding Euler's formula for \\(e^{i\\theta}\\) and \\(e^{-i\\theta}\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-02",
+      "prompt": "Write \\(\\sin\\theta\\) in terms of complex exponentials.",
+      "answer": "The complex exponential formula for sine is\n\\[\n\\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]\nIt follows by subtracting Euler's formula for \\(e^{-i\\theta}\\) from the formula for \\(e^{i\\theta}\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-03",
+      "prompt": "Use the exponential formula to evaluate \\(\\cos 0\\).",
+      "answer": "Use\n\\[\n\\cos0=\\frac{e^{i0}+e^{-i0}}{2}.\n\\]\nSince \\(e^{i0}=e^{-i0}=1\\),\n\\[\n\\cos0=\\frac{1+1}{2}=1.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-04",
+      "prompt": "Use the exponential formula to evaluate \\(\\sin0\\).",
+      "answer": "Use\n\\[\n\\sin0=\\frac{e^{i0}-e^{-i0}}{2i}.\n\\]\nSince both exponentials equal \\(1\\),\n\\[\n\\sin0=\\frac{1-1}{2i}=0.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-05",
+      "prompt": "Derive \\(e^{i\\theta}+e^{-i\\theta}=2\\cos\\theta\\).",
+      "answer": "Euler's formula gives\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta\n\\]\nand\n\\[\ne^{-i\\theta}=\\cos\\theta-i\\sin\\theta.\n\\]\nAdding cancels the imaginary terms:\n\\[\ne^{i\\theta}+e^{-i\\theta}=2\\cos\\theta.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-06",
+      "prompt": "Derive \\(e^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta\\).",
+      "answer": "Using Euler's formula,\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta,\\quad e^{-i\\theta}=\\cos\\theta-i\\sin\\theta.\n\\]\nSubtract the second from the first:\n\\[\ne^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-07",
+      "prompt": "Use complex exponentials to show that \\(\\cos(-\\theta)=\\cos\\theta\\).",
+      "answer": "Use\n\\[\n\\cos(-\\theta)=\\frac{e^{-i\\theta}+e^{i\\theta}}{2}.\n\\]\nAddition is commutative, so\n\\[\n\\frac{e^{-i\\theta}+e^{i\\theta}}{2}=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}=\\cos\\theta.\n\\]\nTherefore \\(\\cos\\) is even.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-08",
+      "prompt": "Use complex exponentials to show that \\(\\sin(-\\theta)=-\\sin\\theta\\).",
+      "answer": "Use\n\\[\n\\sin(-\\theta)=\\frac{e^{-i\\theta}-e^{i\\theta}}{2i}.\n\\]\nFactor out \\(-1\\):\n\\[\n\\sin(-\\theta)=-\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]\nThe fraction is \\(\\sin\\theta\\), so\n\\[\n\\sin(-\\theta)=-\\sin\\theta.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-09",
+      "prompt": "Use complex exponentials to prove \\(\\cos^2\\theta+\\sin^2\\theta=1\\).",
+      "answer": "Let \\(A=e^{i\\theta}\\) and \\(B=e^{-i\\theta}\\). Then\n\\[\n\\cos\\theta=\\frac{A+B}{2},\\quad \\sin\\theta=\\frac{A-B}{2i}.\n\\]\nSo\n\\[\n\\cos^2\\theta+\\sin^2\\theta=\\frac{(A+B)^2}{4}-\\frac{(A-B)^2}{4}.\n\\]\nCombine:\n\\[\n\\frac{(A+B)^2-(A-B)^2}{4}=\\frac{4AB}{4}=AB.\n\\]\nSince \\(AB=e^{i\\theta}e^{-i\\theta}=1\\), the identity follows.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-10",
+      "prompt": "Use exponentials to derive \\(\\cos(\\alpha+\\beta)\\).",
+      "answer": "Start with\n\\[\ne^{i(\\alpha+\\beta)}=e^{i\\alpha}e^{i\\beta}.\n\\]\nUsing Euler's formula,\n\\[\n\\cos(\\alpha+\\beta)+i\\sin(\\alpha+\\beta)=(\\cos\\alpha+i\\sin\\alpha)(\\cos\\beta+i\\sin\\beta).\n\\]\nExpand the right side:\n\\[\n\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta+i(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta).\n\\]\nEquating real parts gives\n\\[\n\\cos(\\alpha+\\beta)=\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-11",
+      "prompt": "Explain why the formulas for \\(\\cos\\theta\\) and \\(\\sin\\theta\\) from exponentials still produce real values for real \\(\\theta\\).",
+      "answer": "For real \\(\\theta\\), \\(e^{-i\\theta}\\) is the complex conjugate of \\(e^{i\\theta}\\).\nThe sum\n\\[\ne^{i\\theta}+e^{-i\\theta}\n\\]\ncancels imaginary parts, so dividing by \\(2\\) gives a real number.\nThe difference\n\\[\ne^{i\\theta}-e^{-i\\theta}\n\\]\nis purely imaginary, and dividing by \\(2i\\) gives a real number.\nThus both formulas return real sine and cosine values.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-12",
+      "prompt": "A student writes \\(\\sin\\theta=(e^{i\\theta}-e^{-i\\theta})/2\\). Diagnose the error.",
+      "answer": "The numerator is\n\\[\ne^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta.\n\\]\nTo isolate \\(\\sin\\theta\\), we must divide by \\(2i\\), not by \\(2\\).\nThe correct formula is\n\\[\n\\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]\nThe missing factor \\(i\\) would make the result imaginary instead of real.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-13",
+      "prompt": "Use complex exponentials to express \\(\\cos^2\\theta\\) in terms of \\(\\cos 2\\theta\\).",
+      "answer": "Use\n\\[\n\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}.\n\\]\nSquare it:\n\\[\n\\cos^2\\theta=\\frac{e^{2i\\theta}+2+e^{-2i\\theta}}{4}.\n\\]\nSince\n\\[\ne^{2i\\theta}+e^{-2i\\theta}=2\\cos2\\theta,\n\\]\nwe get\n\\[\n\\cos^2\\theta=\\frac{2\\cos2\\theta+2}{4}=\\frac{1+\\cos2\\theta}{2}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-14",
+      "prompt": "Use complex exponentials to express \\(\\sin^2\\theta\\) in terms of \\(\\cos2\\theta\\).",
+      "answer": "Use\n\\[\n\\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]\nSquare it:\n\\[\n\\sin^2\\theta=-\\frac{e^{2i\\theta}-2+e^{-2i\\theta}}{4}.\n\\]\nSo\n\\[\n\\sin^2\\theta=\\frac{2-(e^{2i\\theta}+e^{-2i\\theta})}{4}.\n\\]\nSince \\(e^{2i\\theta}+e^{-2i\\theta}=2\\cos2\\theta\\),\n\\[\n\\sin^2\\theta=\\frac{1-\\cos2\\theta}{2}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-15",
+      "prompt": "For which real \\(\\theta\\) does \\(e^{i\\theta}+e^{-i\\theta}=0\\)?",
+      "answer": "Use\n\\[\ne^{i\\theta}+e^{-i\\theta}=2\\cos\\theta.\n\\]\nSo the equation becomes\n\\[\n2\\cos\\theta=0.\n\\]\nHence\n\\[\n\\cos\\theta=0.\n\\]\nThe solutions are\n\\[\n\\theta=\\frac{\\pi}{2}+k\\pi,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-16",
+      "prompt": "For which real \\(\\theta\\) is \\((e^{i\\theta}-e^{-i\\theta})/(2i)=1\\)?",
+      "answer": "The left side is \\(\\sin\\theta\\).\nSo solve\n\\[\n\\sin\\theta=1.\n\\]\nThis occurs at\n\\[\n\\theta=\\frac{\\pi}{2}+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-17",
+      "prompt": "For which real \\(\\theta\\) is \\(e^{2i\\theta}+e^{-2i\\theta}=1\\)?",
+      "answer": "Use\n\\[\ne^{2i\\theta}+e^{-2i\\theta}=2\\cos2\\theta.\n\\]\nSo\n\\[\n2\\cos2\\theta=1,\\quad \\cos2\\theta=\\frac12.\n\\]\nThus\n\\[\n2\\theta=2k\\pi\\pm\\frac{\\pi}{3}.\n\\]\nDivide by \\(2\\):\n\\[\n\\theta=k\\pi\\pm\\frac{\\pi}{6},\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-18",
+      "prompt": "Prove the angle addition formula for \\(\\sin(\\alpha+\\beta)\\) using Euler's formula.",
+      "answer": "Use\n\\[\ne^{i(\\alpha+\\beta)}=e^{i\\alpha}e^{i\\beta}.\n\\]\nThen\n\\[\n\\cos(\\alpha+\\beta)+i\\sin(\\alpha+\\beta)=(\\cos\\alpha+i\\sin\\alpha)(\\cos\\beta+i\\sin\\beta).\n\\]\nExpand:\n\\[\n\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta+i(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta).\n\\]\nEquating imaginary parts gives\n\\[\n\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-19",
+      "prompt": "Prove \\(\\cosh^2 x-\\sinh^2 x=1\\) from the exponential definitions.",
+      "answer": "Use\n\\[\n\\cosh x=\\frac{e^x+e^{-x}}{2},\\quad \\sinh x=\\frac{e^x-e^{-x}}{2}.\n\\]\nThen\n\\[\n\\cosh^2x-\\sinh^2x=\\frac{(e^x+e^{-x})^2-(e^x-e^{-x})^2}{4}.\n\\]\nUse \\((A+B)^2-(A-B)^2=4AB\\) with \\(A=e^x\\), \\(B=e^{-x}\\):\n\\[\n\\frac{4e^xe^{-x}}{4}=1.\n\\]\nSo \\(\\cosh^2x-\\sinh^2x=1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-trig-formulae-20",
+      "prompt": "A learner says complex exponentials make trig identities unnecessary. Explain why the exponential forms are useful but do not remove the need to interpret trig identities.",
+      "answer": "Complex exponentials are a powerful way to derive and manipulate trig identities.\nFor example,\n\\[\n\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2},\\quad \\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]\nThese formulas can turn trig algebra into exponential algebra.\nHowever, the final meaning often concerns real quantities such as wave displacement, phase, amplitude, or angles.\nSo the exponential form is a method, while the trig identity is still the interpreted real relationship. Both are needed.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

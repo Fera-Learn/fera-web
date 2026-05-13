@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "setId": "set-1",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "description": "Functions, trigonometry, limits, differentiation, integration, and complex numbers for physics modelling.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the algebra, definitions, and modelling steps clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mi-s1-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Functions and Trigonometry",
+      "stem": "A sensor arm rotates through an angle \\(\\theta\\), where \\(-\\frac{\\pi}{2}\\le \\theta\\le \\frac{\\pi}{2}\\). Its height above a reference rail is modelled by \\(h(\\theta)=1.20+0.50\\sin\\theta\\), measured in metres. A calibration circuit converts height to voltage by \\(V(h)=6h-4\\).",
+      "title": "Sensor calibration functions",
+      "parts": [
+        {
+          "answer": "On the given interval, \\(\\sin\\theta\\) runs from \\(-1\\) to \\(1\\). Hence\n\\[\nh_{\\min}=1.20-0.50=0.70,\\qquad h_{\\max}=1.20+0.50=1.70.\n\\]\nThe range is \\(0.70\\le h\\le1.70\\). For the inverse, write \\(y=1.20+0.50\\sin\\theta\\). Then\n\\[\n\\sin\\theta=\\frac{y-1.20}{0.50}.\n\\]\nBecause the domain is the principal sine interval,\n\\[\nh^{-1}(y)=\\sin^{-1}\\left(\\frac{y-1.20}{0.50}\\right),\\qquad 0.70\\le y\\le1.70.\n\\]",
+          "id": "l1mi-s1-p1-q1-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the range of \\(h\\), and find an expression for \\(h^{-1}(y)\\)."
+        },
+        {
+          "answer": "Substitute the height model into the voltage model:\n\\[\nV(h(\\theta))=6(1.20+0.50\\sin\\theta)-4.\n\\]\nTherefore\n\\[\nV(h(\\theta))=3.20+3\\sin\\theta.\n\\]\nSet this equal to \\(4.70\\):\n\\[\n3.20+3\\sin\\theta=4.70.\n\\]\nThen\n\\[\n3\\sin\\theta=1.50,\\qquad \\sin\\theta=\\frac{1}{2}.\n\\]\nOn \\(-\\frac{\\pi}{2}\\le\\theta\\le\\frac{\\pi}{2}\\), the solution is\n\\[\n\\theta=\\frac{\\pi}{6}.\n\\]",
+          "id": "l1mi-s1-p1-q1-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the voltage as a function of \\(\\theta\\), written as \\(V(h(\\theta))\\). Hence find the value of \\(\\theta\\) for which the voltage is \\(4.70\\,\\mathrm{V}\\)."
+        },
+        {
+          "answer": "From part (b), the voltage is \\(4.70\\,\\mathrm{V}\\) when \\(\\theta=\\frac{\\pi}{6}\\). Substitute into the sweep model:\n\\[\n-\\frac{\\pi}{6}+\\frac{\\pi t}{12}=\\frac{\\pi}{6}.\n\\]\nThus\n\\[\n\\frac{\\pi t}{12}=\\frac{\\pi}{3}.\n\\]\nDividing by \\(\\pi\\) gives \\(\\frac{t}{12}=\\frac{1}{3}\\), so\n\\[\nt=4\\,\\mathrm{s}.\n\\]\nFor the power model, use \\(V(h(\\theta))=3.20+3\\sin\\theta\\):\n\\[\nP(V(h(\\theta)))=(3\\sin\\theta)^2+2=9\\sin^2\\theta+2.\n\\]",
+          "id": "l1mi-s1-p1-q1-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "During a sweep, \\(\\theta(t)=-\\frac{\\pi}{6}+\\frac{\\pi t}{12}\\) for \\(0\\le t\\le8\\). Find the time at which the voltage is \\(4.70\\,\\mathrm{V}\\). A power model is \\(P(V)=(V-3.20)^2+2\\); find \\(P(V(h(\\theta)))\\) in simplest form."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s1-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Limits and Differentiation",
+      "stem": "A test cart has displacement \\(x(t)=\\frac{t^2}{t+1}\\), where \\(x\\) is in metres and \\(t\\) is in seconds. A separate sensor response uses square-root behaviour for small changes.",
+      "title": "Rates from limits and derivatives",
+      "parts": [
+        {
+          "answer": "By first principles,\n\\[\nf'(t)=\\lim_{\\Delta t\\to0}\\frac{f(t+\\Delta t)-f(t)}{\\Delta t}.\n\\]\nNow\n\\[\nf(t+\\Delta t)=(t+\\Delta t)^2+3(t+\\Delta t).\n\\]\nTherefore\n\\[\nf(t+\\Delta t)-f(t)=2t\\Delta t+(\\Delta t)^2+3\\Delta t.\n\\]\nDivide by \\(\\Delta t\\):\n\\[\n\\frac{f(t+\\Delta t)-f(t)}{\\Delta t}=2t+\\Delta t+3.\n\\]\nTaking the limit gives\n\\[\nf'(t)=2t+3.\n\\]",
+          "id": "l1mi-s1-p1-q2-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Using first principles, show that if \\(f(t)=t^2+3t\\), then \\(f'(t)=2t+3\\)."
+        },
+        {
+          "answer": "Use the quotient rule with numerator \\(t^2\\) and denominator \\(t+1\\):\n\\[\nx'(t)=\\frac{(t+1)(2t)-t^2}{(t+1)^2}.\n\\]\nSimplify the numerator:\n\\[\nx'(t)=\\frac{2t^2+2t-t^2}{(t+1)^2}=\\frac{t^2+2t}{(t+1)^2}.\n\\]\nThus\n\\[\nx'(t)=\\frac{t(t+2)}{(t+1)^2}.\n\\]\nAt \\(t=2\\),\n\\[\nx'(2)=\\frac{2(4)}{3^2}=\\frac{8}{9}.\n\\]\nThe velocity is \\(\\frac{8}{9}\\,\\mathrm{m\\,s^{-1}}\\).",
+          "id": "l1mi-s1-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Differentiate \\(x(t)=\\frac{t^2}{t+1}\\) and find the cart velocity at \\(t=2\\)."
+        },
+        {
+          "answer": "Rationalise the numerator:\n\\[\n\\frac{\\sqrt{1+4u}-1}{u}\\cdot\\frac{\\sqrt{1+4u}+1}{\\sqrt{1+4u}+1}=\\frac{(1+4u)-1}{u(\\sqrt{1+4u}+1)}.\n\\]\nThis simplifies to\n\\[\n\\frac{4}{\\sqrt{1+4u}+1}.\n\\]\nTherefore\n\\[\n\\lim_{u\\to0}\\frac{\\sqrt{1+4u}-1}{u}=\\frac{4}{1+1}=2.\n\\]\nThis is the instantaneous rate of change at zero of the response function \\(g(u)=\\sqrt{1+4u}\\).",
+          "id": "l1mi-s1-p1-q2-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\lim_{u\\to0}\\frac{\\sqrt{1+4u}-1}{u}\\) and state what type of rate this limit represents."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s1-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Integration",
+      "stem": "In a straight-track experiment, accumulated quantities are found by integrating simple rate or force models.",
+      "title": "Accumulation by integration",
+      "parts": [
+        {
+          "answer": "Work is the signed area under the force-displacement graph:\n\\[\nW=\\int_0^4(2x+3)\\,dx.\n\\]\nAn antiderivative is \\(x^2+3x\\). Hence\n\\[\nW=[x^2+3x]_0^4=(16+12)-0=28.\n\\]\nThe work done is \\(28\\,\\mathrm{J}\\).",
+          "id": "l1mi-s1-p1-q3-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "A variable force is \\(F(x)=2x+3\\) for \\(0\\le x\\le4\\). Find the work done and state the definite-integral interpretation."
+        },
+        {
+          "answer": "Let \\(u=1+t^2\\). Then \\(du=2t\\,dt\\), so \\(4t\\,dt=2\\,du\\). The limits become \\(u=1\\) when \\(t=0\\), and \\(u=2\\) when \\(t=1\\). Therefore\n\\[\n\\int_0^1 4t(1+t^2)^3\\,dt=\\int_1^2 2u^3\\,du.\n\\]\nNow\n\\[\n\\int_1^2 2u^3\\,du=\\left[\\frac{u^4}{2}\\right]_1^2=\\frac{16}{2}-\\frac{1}{2}=\\frac{15}{2}.\n\\]",
+          "id": "l1mi-s1-p1-q3-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Use substitution to evaluate \\(\\int_0^1 4t(1+t^2)^3\\,dt\\)."
+        },
+        {
+          "answer": "Use integration by parts with \\(u=t\\) and \\(dv=e^{-t}\\,dt\\). Then \\(du=dt\\) and \\(v=-e^{-t}\\). Thus\n\\[\n\\int t e^{-t}\\,dt=-te^{-t}+\\int e^{-t}\\,dt=-te^{-t}-e^{-t}+C.\n\\]\nTherefore\n\\[\n\\int_0^2 t e^{-t}\\,dt=[-te^{-t}-e^{-t}]_0^2.\n\\]\nSubstitute the limits:\n\\[\n(-2e^{-2}-e^{-2})-(-1)=1-3e^{-2}.\n\\]\nHence the accumulated control input is\n\\[\n1-3e^{-2}\\approx0.594.\n\\]",
+          "id": "l1mi-s1-p1-q3-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "A control input is \\(I(t)=t e^{-t}\\). Use integration by parts to find \\(\\int_0^2 t e^{-t}\\,dt\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s1-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Complex Numbers",
+      "stem": "Complex numbers are used to represent amplitudes and phases of oscillatory signals. Write \\(i^2=-1\\).",
+      "title": "Complex phasor arithmetic",
+      "parts": [
+        {
+          "answer": "The modulus is\n\\[\nr=\\sqrt{(\\sqrt{3})^2+1^2}=2.\n\\]\nThe point is in the first quadrant and\n\\[\n\\tan\\theta=\\frac{1}{\\sqrt{3}},\n\\]\nso \\(\\theta=\\frac{\\pi}{6}\\). Therefore\n\\[\nz=2\\left(\\cos\\frac{\\pi}{6}+i\\sin\\frac{\\pi}{6}\\right).\n\\]",
+          "id": "l1mi-s1-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Write \\(z=\\sqrt{3}+i\\) in polar form \\(r(\\cos\\theta+i\\sin\\theta)\\)."
+        },
+        {
+          "answer": "From part (a), \\(z\\) has modulus \\(2\\) and argument \\(\\frac{\\pi}{6}\\). The number \\(w\\) has modulus \\(3\\) and argument \\(-\\frac{\\pi}{3}\\). Multiplying in polar form multiplies moduli and adds arguments, so\n\\[\nzw=6\\left(\\cos\\left(-\\frac{\\pi}{6}\\right)+i\\sin\\left(-\\frac{\\pi}{6}\\right)\\right).\n\\]\nUsing \\(\\cos\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}\\) and \\(\\sin\\left(-\\frac{\\pi}{6}\\right)=-\\frac{1}{2}\\),\n\\[\nzw=6\\left(\\frac{\\sqrt{3}}{2}-\\frac{1}{2}i\\right)=3\\sqrt{3}-3i.\n\\]",
+          "id": "l1mi-s1-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Let \\(w=3\\left(\\cos\\left(-\\frac{\\pi}{3}\\right)+i\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)\\). Find \\(zw\\) in polar form and in the form \\(a+bi\\)."
+        },
+        {
+          "answer": "Euler's formula gives \\(e^{i\\alpha}=\\cos\\alpha+i\\sin\\alpha\\). Therefore\n\\[\n6e^{i(3t+\\frac{\\pi}{3})}=6\\cos\\left(3t+\\frac{\\pi}{3}\\right)+6i\\sin\\left(3t+\\frac{\\pi}{3}\\right).\n\\]\nThe real displacement is\n\\[\nx(t)=6\\cos\\left(3t+\\frac{\\pi}{3}\\right).\n\\]\nAt \\(t=\\frac{\\pi}{18}\\),\n\\[\n3t+\\frac{\\pi}{3}=\\frac{\\pi}{6}+\\frac{\\pi}{3}=\\frac{\\pi}{2}.\n\\]\nThus\n\\[\nx\\left(\\frac{\\pi}{18}\\right)=6\\cos\\frac{\\pi}{2}=0.\n\\]",
+          "id": "l1mi-s1-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "A signal is represented by \\(\\operatorname{Re}\\left(6e^{i(3t+\\frac{\\pi}{3})}\\right)\\). Write it as a real trigonometric function and find its value at \\(t=\\frac{\\pi}{18}\\)."
+        },
+        {
+          "answer": "The modulus is\n\\[\nR=|5-5i|=\\sqrt{5^2+(-5)^2}=5\\sqrt{2}.\n\\]\nThe argument is in the fourth quadrant and satisfies \\(\\tan\\phi=-1\\), so\n\\[\n\\phi=-\\frac{\\pi}{4}.\n\\]\nTherefore\n\\[\n5-5i=5\\sqrt{2}e^{-i\\frac{\\pi}{4}}.\n\\]\nThe modulus \\(5\\sqrt{2}\\) is the resultant amplitude and \\(-\\frac{\\pi}{4}\\) is the phase angle.",
+          "id": "l1mi-s1-p1-q4-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Write \\(5-5i\\) in the form \\(Re^{i\\phi}\\), and interpret \\(R\\) and \\(\\phi\\) for an oscillatory signal."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Math I (Physics) Paper 1",
+  "totalMarks": 60
+}

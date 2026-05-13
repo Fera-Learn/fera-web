@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "substitution",
   "topicTitle": "Substitution",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "sub-1",
-      "prompt": "Integrate 2x cos(x^2) dx.",
-      "answer": "sin(x^2) + C",
-      "hints": ["Let u=x^2, du=2x dx."],
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "sub-2",
-      "prompt": "Integrate (x+1)^2 dx.",
-      "answer": "(x+1)^3/3 + C",
-      "hints": ["Let u=x+1."],
+      "id": "math-i-integration-substitution-01",
+      "prompt": "In \\(\\int 6x(3x^2+4)^5\\,dx\\), what substitution makes the inner expression a single variable?",
+      "answer": "Choose the inner expression:\n\\[u=3x^2+4.\\]\nThen\n\\[du=6x\\,dx.\\]\nSo the integral becomes \\(\\int u^5\\,du\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-3",
-      "prompt": "Integrate 3x^2 e^{x^3} dx.",
-      "answer": "e^{x^3} + C",
-      "hints": ["Let u=x^3."],
+      "id": "math-i-integration-substitution-02",
+      "prompt": "For \\(u=5x-1\\), write \\(du\\) in terms of \\(dx\\).",
+      "answer": "Differentiate \\(u=5x-1\\) with respect to \\(x\\):\n\\[\\frac{du}{dx}=5.\\]\nTherefore\n\\[du=5\\,dx.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-03",
+      "prompt": "Evaluate \\(\\int 4x(x^2+7)^3\\,dx\\).",
+      "answer": "Let\n\\[u=x^2+7,\\qquad du=2x\\,dx.\\]\nSince \\(4x\\,dx=2\\,du\\),\n\\[\\int 4x(x^2+7)^3\\,dx=2\\int u^3\\,du.\\]\nIntegrate:\n\\[2\\cdot \\frac{u^4}{4}=\\frac{u^4}{2}+C.\\]\nSubstitute back:\n\\[\\boxed{\\frac{(x^2+7)^4}{2}+C}.\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-4",
-      "prompt": "Integrate sin(2x) dx.",
-      "answer": "-cos(2x)/2 + C",
-      "hints": ["Let u=2x, du=2dx."],
+      "id": "math-i-integration-substitution-04",
+      "prompt": "Evaluate \\(\\int 3\\cos(3x+2)\\,dx\\).",
+      "answer": "Let\n\\[u=3x+2,\\qquad du=3\\,dx.\\]\nThen\n\\[\\int 3\\cos(3x+2)\\,dx=\\int \\cos u\\,du=\\sin u+C.\\]\nSo\n\\[\\boxed{\\sin(3x+2)+C}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-05",
+      "prompt": "Evaluate \\(\\int \\frac{2x}{x^2+9}\\,dx\\).",
+      "answer": "Let\n\\[u=x^2+9,\\qquad du=2x\\,dx.\\]\nThe integral becomes\n\\[\\int \\frac{1}{u}\\,du=\\ln|u|+C.\\]\nSince \\(x^2+9>0\\), this may be written as\n\\[\\boxed{\\ln(x^2+9)+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-5",
-      "prompt": "Integrate x sqrt(x^2+1) dx.",
-      "answer": "(x^2+1)^{3/2}/3 + C",
-      "hints": ["Let u=x^2+1."],
+      "id": "math-i-integration-substitution-06",
+      "prompt": "Evaluate \\(\\int x\\sqrt{x^2+1}\\,dx\\).",
+      "answer": "Let\n\\[u=x^2+1,\\qquad du=2x\\,dx.\\]\nThus \\(x\\,dx=\\frac12du\\), so\n\\[\\int x\\sqrt{x^2+1}\\,dx=\\frac12\\int u^{1/2}\\,du.\\]\nIntegrate:\n\\[\\frac12\\cdot \\frac{2}{3}u^{3/2}=\\frac13u^{3/2}+C.\\]\nTherefore\n\\[\\boxed{\\frac13(x^2+1)^{3/2}+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-6",
-      "prompt": "Integrate cos(x) sin^n(x) dx for n=2.",
-      "answer": "-cos^3(x)/3 + C",
-      "hints": ["Let u=cos x."],
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "sub-7",
-      "prompt": "Integrate e^{sqrt(x)} dx.",
-      "answer": "2e^{sqrt(x)}(sqrt(x)-1) + C",
-      "hints": ["Let u=sqrt(x), x=u^2, dx=2u du."],
-      "rating": "***+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "sub-8",
-      "prompt": "Integrate (ln x)^2/x dx.",
-      "answer": "(ln x)^3/3 + C",
-      "hints": ["Let u=ln x."],
+      "id": "math-i-integration-substitution-07",
+      "prompt": "Evaluate \\(\\int (2x-5)e^{x^2-5x}\\,dx\\).",
+      "answer": "The derivative of the exponent is \\(2x-5\\). Let\n\\[u=x^2-5x,\\qquad du=(2x-5)\\,dx.\\]\nThen\n\\[\\int (2x-5)e^{x^2-5x}\\,dx=\\int e^u\\,du=e^u+C.\\]\nSo\n\\[\\boxed{e^{x^2-5x}+C}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-9",
-      "prompt": "Integrate x/(1+x^2) dx.",
-      "answer": "ln(1+x^2)/2 + C",
-      "hints": ["Let u=1+x^2."],
+      "id": "math-i-integration-substitution-08",
+      "prompt": "Evaluate \\(\\int \\frac{x^2}{1+x^3}\\,dx\\).",
+      "answer": "Let\n\\[u=1+x^3,\\qquad du=3x^2\\,dx.\\]\nThen \\(x^2\\,dx=\\frac13du\\), so\n\\[\\int \\frac{x^2}{1+x^3}\\,dx=\\frac13\\int \\frac{1}{u}\\,du.\\]\nTherefore\n\\[\\boxed{\\frac13\\ln|1+x^3|+C}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sub-10",
-      "prompt": "Integrate tan x dx.",
-      "answer": "-ln|cos x| + C",
-      "hints": ["Write as sin x/cos x, let u=cos x."],
+      "id": "math-i-integration-substitution-09",
+      "prompt": "Evaluate \\(\\int_0^2 2x(x^2+1)^4\\,dx\\) by changing the limits.",
+      "answer": "Let\n\\[u=x^2+1,\\qquad du=2x\\,dx.\\]\nChange the limits: when \\(x=0\\), \\(u=1\\); when \\(x=2\\), \\(u=5\\).\nSo\n\\[\\int_0^2 2x(x^2+1)^4\\,dx=\\int_1^5 u^4\\,du.\\]\nIntegrate:\n\\[\\left[\\frac{u^5}{5}\\right]_1^5=\\frac{5^5-1^5}{5}=\\frac{3125-1}{5}=\\boxed{\\frac{3124}{5}}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-10",
+      "prompt": "Evaluate \\(\\int \\frac{\\sin(\\sqrt{x})}{\\sqrt{x}}\\,dx\\) for \\(x>0\\).",
+      "answer": "Let\n\\[u=\\sqrt{x}=x^{1/2}.\\]\nThen\n\\[du=\\frac{1}{2\\sqrt{x}}\\,dx,\\qquad \\frac{dx}{\\sqrt{x}}=2\\,du.\\]\nTherefore\n\\[\\int \\frac{\\sin(\\sqrt{x})}{\\sqrt{x}}\\,dx=2\\int \\sin u\\,du=-2\\cos u+C.\\]\nSubstitute back:\n\\[\\boxed{-2\\cos(\\sqrt{x})+C}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-11",
+      "prompt": "Evaluate \\(\\int x(4-x^2)^6\\,dx\\).",
+      "answer": "Let\n\\[u=4-x^2,\\qquad du=-2x\\,dx.\\]\nThus \\(x\\,dx=-\\frac12du\\). Then\n\\[\\int x(4-x^2)^6\\,dx=-\\frac12\\int u^6\\,du.\\]\nIntegrate:\n\\[-\\frac12\\cdot \\frac{u^7}{7}=-\\frac{u^7}{14}+C.\\]\nSo\n\\[\\boxed{-\\frac{(4-x^2)^7}{14}+C}.\\]\nDifferentiating this gives \\(x(4-x^2)^6\\), confirming the sign.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-12",
+      "prompt": "Evaluate \\(\\int_1^e \\frac{\\ln x}{x}\\,dx\\), and explain why the substitution changes both limits.",
+      "answer": "Let\n\\[u=\\ln x,\\qquad du=\\frac{1}{x}\\,dx.\\]\nBecause this is a definite integral, the limits must be converted to \\(u\\)-values.\nWhen \\(x=1\\), \\(u=\\ln1=0\\). When \\(x=e\\), \\(u=\\ln e=1\\).\nSo\n\\[\\int_1^e \\frac{\\ln x}{x}\\,dx=\\int_0^1 u\\,du=\\left[\\frac{u^2}{2}\\right]_0^1=\\boxed{\\frac12}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-13",
+      "prompt": "Evaluate \\(\\int x^3\\sqrt{x^2+2}\\,dx\\).",
+      "answer": "The factor \\(x^3\\) is not exactly the derivative of \\(x^2+2\\), so rewrite it. Let\n\\[u=x^2+2,\\qquad du=2x\\,dx.\\]\nSince \\(x^3\\,dx=x^2(x\\,dx)=(u-2)\\frac{du}{2}\\),\n\\[\\int x^3\\sqrt{x^2+2}\\,dx=\\frac12\\int (u-2)u^{1/2}\\,du.\\]\nExpand and integrate:\n\\[\\frac12\\int (u^{3/2}-2u^{1/2})\\,du=\\frac12\\left(\\frac{2}{5}u^{5/2}-\\frac{4}{3}u^{3/2}\\right)+C.\\]\nTherefore\n\\[\\boxed{\\frac15(x^2+2)^{5/2}-\\frac23(x^2+2)^{3/2}+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-14",
+      "prompt": "Evaluate \\(\\int \\frac{x}{(x+1)^4}\\,dx\\).",
+      "answer": "Let\n\\[u=x+1,\\qquad du=dx,\\qquad x=u-1.\\]\nThen\n\\[\\int \\frac{x}{(x+1)^4}\\,dx=\\int \\frac{u-1}{u^4}\\,du=\\int (u^{-3}-u^{-4})\\,du.\\]\nIntegrate term by term:\n\\[-\\frac{1}{2}u^{-2}+\\frac{1}{3}u^{-3}+C.\\]\nSubstitute back:\n\\[\\boxed{-\\frac{1}{2(x+1)^2}+\\frac{1}{3(x+1)^3}+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-15",
+      "prompt": "For which constant \\(k\\) does \\(\\int (kx+3)(x^2+3x+8)^7\\,dx\\) become a direct single-substitution integral using \\(u=x^2+3x+8\\)? Then evaluate it.",
+      "answer": "For \\(u=x^2+3x+8\\),\n\\[du=(2x+3)\\,dx.\\]\nWe need \\(kx+3=2x+3\\), so\n\\[k=2.\\]\nThen\n\\[\\int (2x+3)(x^2+3x+8)^7\\,dx=\\int u^7\\,du=\\frac{u^8}{8}+C.\\]\nTherefore\n\\[\\boxed{k=2,\\quad \\frac{(x^2+3x+8)^8}{8}+C}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-16",
+      "prompt": "Evaluate \\(\\int \\frac{x+1}{x^2+2x+5}\\,dx\\), making any completion of the square explicit.",
+      "answer": "The derivative of the denominator is \\(2x+2=2(x+1)\\). Let\n\\[u=x^2+2x+5,\\qquad du=2(x+1)\\,dx.\\]\nThus\n\\[\\int \\frac{x+1}{x^2+2x+5}\\,dx=\\frac12\\int \\frac{1}{u}\\,du=\\frac12\\ln|u|+C.\\]\nAlso \\(x^2+2x+5=(x+1)^2+4>0\\), so the absolute value is not needed.\nHence\n\\[\\boxed{\\frac12\\ln(x^2+2x+5)+C}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-17",
+      "prompt": "Evaluate \\(\\int_0^1 \\frac{x}{(1+x^2)^2}\\,dx\\), and state whether the value is positive or negative before computing it.",
+      "answer": "On \\([0,1]\\), \\(x\\ge0\\) and \\((1+x^2)^2>0\\), so the integral is positive.\nLet\n\\[u=1+x^2,\\qquad du=2x\\,dx.\\]\nLimits: \\(x=0\\Rightarrow u=1\\), and \\(x=1\\Rightarrow u=2\\).\nThus\n\\[\\int_0^1 \\frac{x}{(1+x^2)^2}\\,dx=\\frac12\\int_1^2 u^{-2}\\,du.\\]\nIntegrate:\n\\[\\frac12[-u^{-1}]_1^2=\\frac12\\left(-\\frac12+1\\right)=\\boxed{\\frac14}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-18",
+      "prompt": "A student claims \\(\\int 2x\\cos(x^2)\\,dx=2x\\sin(x^2)+C\\). Identify the error and give the correct antiderivative.",
+      "answer": "The student treated \\(2x\\) as if it were a constant multiplier after integrating \\(\\cos(x^2)\\). The factor \\(2x\\,dx\\) should be absorbed into the substitution.\nLet\n\\[u=x^2,\\qquad du=2x\\,dx.\\]\nThen\n\\[\\int 2x\\cos(x^2)\\,dx=\\int \\cos u\\,du=\\sin u+C.\\]\nSo the correct result is\n\\[\\boxed{\\sin(x^2)+C}.\\]\nDifferentiating \\(2x\\sin(x^2)\\) would produce extra terms, so it cannot be correct.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-19",
+      "prompt": "Evaluate \\(\\int \\frac{x^2}{\\sqrt{1+x^3}}\\,dx\\) and justify the constant factor carefully.",
+      "answer": "Let\n\\[u=1+x^3.\\]\nThen\n\\[du=3x^2\\,dx,\\qquad x^2\\,dx=\\frac13du.\\]\nSo\n\\[\\int \\frac{x^2}{\\sqrt{1+x^3}}\\,dx=\\frac13\\int u^{-1/2}\\,du.\\]\nIntegrating gives\n\\[\\frac13\\cdot 2u^{1/2}+C=\\frac23\\sqrt{u}+C.\\]\nTherefore\n\\[\\boxed{\\frac23\\sqrt{1+x^3}+C}.\\]\nThe factor is \\(\\frac13\\), not \\(3\\), because \\(du\\) is three times \\(x^2\\,dx\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-substitution-20",
+      "prompt": "Show that \\(\\int_a^b f'(x)F(f(x))\\,dx=\\int_{f(a)}^{f(b)}F(u)\\,du\\), assuming \\(f\\) is differentiable and the substitution is valid.",
+      "answer": "Let\n\\[u=f(x).\\]\nDifferentiating gives\n\\[du=f'(x)\\,dx.\\]\nWhen \\(x=a\\), the new lower limit is \\(u=f(a)\\). When \\(x=b\\), the new upper limit is \\(u=f(b)\\).\nReplacing \\(f(x)\\) by \\(u\\) and \\(f'(x)\\,dx\\) by \\(du\\) gives\n\\[\\int_a^b f'(x)F(f(x))\\,dx=\\int_{f(a)}^{f(b)}F(u)\\,du.\\]\nThis is the definite-integral form of substitution and is the integral version of reversing the chain rule.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

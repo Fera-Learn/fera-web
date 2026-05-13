@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "dimension",
+  "topicTitle": "Dimension",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-dimension-01",
+      "prompt": "Define the dimension of a finite-dimensional vector space \\(V\\).",
+      "answer": "The dimension of a vector space is the number of vectors in any basis for that space. A basis both spans the space and is linearly independent, so the count measures independent directions.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-02",
+      "prompt": "What is \\(\\dim\\mathbb R^4\\)?",
+      "answer": "The standard basis of \\(\\mathbb R^4\\) has four vectors: \\((1,0,0,0),(0,1,0,0),(0,0,1,0),(0,0,0,1)\\). Therefore \\(\\dim\\mathbb R^4=4\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-03",
+      "prompt": "What is the dimension of the zero subspace \\(\\{\\mathbf0\\}\\)?",
+      "answer": "The zero subspace has basis the empty list, because no non-zero direction is needed to span only \\(\\mathbf0\\). Therefore its dimension is \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-04",
+      "prompt": "What is the dimension of \\(L=\\{t(3,-1):t\\in\\mathbb R\\}\\)?",
+      "answer": "The single non-zero vector \\((3,-1)\\) spans \\(L\\) and is independent. Thus \\(\\{(3,-1)\\}\\) is a basis for \\(L\\), so \\(\\dim L=1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-05",
+      "prompt": "Find the dimension of \\(W=\\{(x,y,0):x,y\\in\\mathbb R\\}\\).",
+      "answer": "Every vector in \\(W\\) is \\(x(1,0,0)+y(0,1,0)\\). The two spanning vectors are independent, so they form a basis. Therefore \\(\\dim W=2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-06",
+      "prompt": "Find the dimension of \\(\\operatorname{span}\\{(1,2,3)\\}\\).",
+      "answer": "The span of one non-zero vector is a line through the origin. The list \\(\\{(1,2,3)\\}\\) is a basis for that line. Hence the dimension is \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-07",
+      "prompt": "What is the dimension of \\(P_2\\), the polynomials of degree at most \\(2\\)?",
+      "answer": "A basis is \\(\\{1,x,x^2\\}\\). It spans every polynomial \\(a+bx+cx^2\\), and equality to the zero polynomial forces \\(a=b=c=0\\). There are three basis vectors, so \\(\\dim P_2=3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-08",
+      "prompt": "Find the dimension of \\(\\operatorname{span}\\{(1,0),(0,1),(1,1)\\}\\) in \\(\\mathbb R^2\\).",
+      "answer": "The first two vectors form the standard basis of \\(\\mathbb R^2\\), so the span is all of \\(\\mathbb R^2\\). The third vector is redundant. Therefore the dimension of the span is \\(2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-09",
+      "prompt": "Find the dimension of \\(W=\\{(x,y,z):x+y+z=0\\}\\).",
+      "answer": "Solve for \\(z=-x-y\\). Then \\((x,y,z)=(x,y,-x-y)=x(1,0,-1)+y(0,1,-1)\\). These two vectors are independent, so they form a basis for \\(W\\). Hence \\(\\dim W=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-10",
+      "prompt": "Find the dimension of \\(\\{p\\in P_3:p(0)=0\\}\\).",
+      "answer": "A polynomial in \\(P_3\\) has form \\(a+bx+cx^2+dx^3\\). The condition \\(p(0)=0\\) gives \\(a=0\\), so \\(p(x)=bx+cx^2+dx^3\\). A basis is \\(\\{x,x^2,x^3\\}\\), so the dimension is \\(3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-11",
+      "prompt": "Explain why a plane through the origin in \\(\\mathbb R^3\\) has dimension \\(2\\).",
+      "answer": "A plane through the origin can be spanned by two non-parallel direction vectors in the plane. Those two vectors are independent and every point of the plane is a linear combination of them. Therefore they form a basis with two vectors, so the dimension is \\(2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-12",
+      "prompt": "A particle constrained to move on a line through the origin in space has how many positional degrees of freedom?",
+      "answer": "Its allowed displacement vectors form a one-dimensional subspace \\(\\{t\\mathbf v:t\\in\\mathbb R\\}\\) for some non-zero direction \\(\\mathbf v\\). Only the scalar \\(t\\) is needed to describe position along the line. Therefore it has \\(1\\) positional degree of freedom.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-13",
+      "prompt": "Find the dimension of all real \\(2\\times2\\) diagonal matrices.",
+      "answer": "A diagonal matrix has form \\(\\begin{pmatrix}a&0\\\\0&b\\end{pmatrix}=a\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}+b\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}\\). These two matrices are independent and span the set. Hence the dimension is \\(2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-14",
+      "prompt": "Find the dimension of all real \\(2\\times2\\) symmetric matrices.",
+      "answer": "A symmetric \\(2\\times2\\) matrix has form \\(\\begin{pmatrix}a&b\\b&c\\end{pmatrix}\\). This equals \\(a\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}+b\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}+c\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}\\). The three displayed matrices are independent, so the dimension is \\(3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-15",
+      "prompt": "For which \\(a\\) does \\(\\operatorname{span}\\{(1,0,a),(0,1,a),(1,1,2a)\\}\\) have dimension \\(2\\)?",
+      "answer": "The third vector is always the sum of the first two. The first two are independent because \\(c_1(1,0,a)+c_2(0,1,a)=\\mathbf0\\) forces \\(c_1=0\\) and \\(c_2=0\\) from the first two components. Thus the span has exactly two independent directions for every real \\(a\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-16",
+      "prompt": "For which \\(t\\) does \\(\\operatorname{span}\\{(1,0,0),(0,1,0),(1,1,t)\\}\\) have dimension \\(3\\)?",
+      "answer": "The column determinant is \\(\\det\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&t\\end{pmatrix}=t\\). The span has dimension \\(3\\) exactly when the three vectors are independent, so this occurs for \\(t\\ne0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-17",
+      "prompt": "For which \\(b\\) does \\(\\operatorname{span}\\{(1,b),(b,1)\\}\\) have dimension \\(1\\)?",
+      "answer": "The span has dimension \\(1\\) when the two vectors are dependent but not both zero. The determinant \\(\\begin{vmatrix}1&b\\b&1\\end{vmatrix}=1-b^2\\) must be zero. Thus \\(b=1\\) or \\(b=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-18",
+      "prompt": "A student counts three vectors in a spanning list and says the dimension is \\(3\\). Give a correction using \\((1,0),(0,1),(1,1)\\).",
+      "answer": "Dimension counts vectors in a basis, not vectors in any spanning list. The list \\((1,0),(0,1),(1,1)\\) has three vectors and spans \\(\\mathbb R^2\\), but \\((1,1)\\) is redundant. A basis is \\((1,0),(0,1)\\), so the dimension is \\(2\\), not \\(3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-19",
+      "prompt": "Explain why a subspace of \\(\\mathbb R^3\\) cannot have dimension \\(4\\).",
+      "answer": "A subspace of \\(\\mathbb R^3\\) consists of vectors with three coordinates. At most three vectors in \\(\\mathbb R^3\\) can be linearly independent. Since dimension is the size of an independent spanning basis, the dimension of any subspace of \\(\\mathbb R^3\\) is at most \\(3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-dimension-20",
+      "prompt": "Prove that if \\(U\\subseteq V\\) are finite-dimensional vector spaces, then \\(\\dim U\\le\\dim V\\).",
+      "answer": "Take a basis of \\(U\\). It is an independent list in \\(U\\), and since \\(U\\subseteq V\\), it is also an independent list in \\(V\\). No independent list in \\(V\\) can have more vectors than a basis of \\(V\\). Therefore the number of vectors in a basis of \\(U\\) is at most \\(\\dim V\\), so \\(\\dim U\\le\\dim V\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

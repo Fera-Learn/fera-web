@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "antiderivatives",
   "topicTitle": "Antiderivatives",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "ad-1",
-      "prompt": "Find the antiderivative of x^4.",
-      "answer": "x^5/5 + C",
-      "hints": ["Add 1 to exponent, divide by new exponent."],
+      "id": "math-i-integration-antiderivatives-01",
+      "prompt": "Find an antiderivative of \\(7\\).",
+      "answer": "An antiderivative differentiates back to the integrand. Since \\(\\frac{d}{dx}(7x)=7\\), one antiderivative is \\(7x\\). The full indefinite integral is \\(7x+C\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-2",
-      "prompt": "Find the antiderivative of 5.",
-      "answer": "5x + C",
-      "hints": ["Constant integrates to constant times x."],
+      "id": "math-i-integration-antiderivatives-02",
+      "prompt": "What term must be included in \\(\\int f(x)\\,dx\\) to represent all antiderivatives?",
+      "answer": "Include the constant of integration, \\(C\\). If \\(F'(x)=f(x)\\), then \\((F(x)+C)'=f(x)\\) for every constant \\(C\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-3",
-      "prompt": "Find the antiderivative of e^x.",
-      "answer": "e^x + C",
-      "hints": ["e^x is its own antiderivative."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-antiderivatives-03",
+      "prompt": "Complete the statement: if \\(F'(x)=f(x)\\), then \\(\\int f(x)\\,dx=\\,?\\)",
+      "answer": "The indefinite integral is the family of antiderivatives:\n\\[\\int f(x)\\,dx=F(x)+C.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-4",
-      "prompt": "Find the antiderivative of 3x^2 + 2x.",
-      "answer": "x^3 + x^2 + C",
-      "hints": ["Integrate term by term."],
+      "id": "math-i-integration-antiderivatives-04",
+      "prompt": "Why is \\(C\\) needed in \\(\\int 3x^2\\,dx=x^3+C\\)?",
+      "answer": "Differentiating any constant gives zero. Therefore \\(x^3\\), \\(x^3+5\\), and \\(x^3-12\\) all differentiate to \\(3x^2\\). The \\(+C\\) records all such possibilities.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-05",
+      "prompt": "Find \\(\\int x^4\\,dx\\).",
+      "answer": "Use the power rule with \\(n=4\\):\n\\[\\int x^4\\,dx=\\frac{x^{5}}{5}+C.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-5",
-      "prompt": "Find the antiderivative of 1/x.",
-      "answer": "ln|x| + C",
-      "hints": ["Reciprocal integrates to ln."],
+      "id": "math-i-integration-antiderivatives-06",
+      "prompt": "Find \\(\\int 6x^2\\,dx\\).",
+      "answer": "Integrate the power and keep the constant factor:\n\\[\\int 6x^2\\,dx=6\\cdot\\frac{x^3}{3}+C=2x^3+C.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-6",
-      "prompt": "Find the antiderivative of cos x.",
-      "answer": "sin x + C",
-      "hints": ["Cosine integrates to sine."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-antiderivatives-07",
+      "prompt": "Find \\(\\int (4x^3-5)\\,dx\\).",
+      "answer": "Integrate term by term:\n\\[\\int4x^3\\,dx=x^4,\\quad \\int(-5)\\,dx=-5x.\\]\nTherefore\n\\[\\int(4x^3-5)\\,dx=x^4-5x+C.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-7",
-      "prompt": "Find F(x) if F'(x) = 6x^2 and F(0) = 1.",
-      "answer": "2x^3 + 1",
-      "hints": ["Integrate to get 2x^3 + C, then find C from F(0)=1."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-antiderivatives-08",
+      "prompt": "Find \\(\\int \\frac{1}{x^3}\\,dx\\) for \\(x\\ne0\\).",
+      "answer": "Rewrite \\(1/x^3\\) as \\(x^{-3}\\).\n\\[\\int x^{-3}\\,dx=\\frac{x^{-2}}{-2}+C=-\\frac{1}{2x^2}+C.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-8",
-      "prompt": "Find the antiderivative of x^{-3}.",
-      "answer": "-1/(2x^2) + C",
-      "hints": ["x^{-3+1}/(-3+1) = x^{-2}/(-2) = -1/(2x^2)."],
+      "id": "math-i-integration-antiderivatives-09",
+      "prompt": "Find \\(\\int (3x^2-4x+8)\\,dx\\).",
+      "answer": "Integrate each term:\n\\[\\int3x^2\\,dx=x^3,\\quad \\int(-4x)\\,dx=-2x^2,\\quad \\int8\\,dx=8x.\\]\nSo\n\\[\\int(3x^2-4x+8)\\,dx=x^3-2x^2+8x+C.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-9",
-      "prompt": "Find the antiderivative of sin(2x).",
-      "answer": "-cos(2x)/2 + C",
-      "hints": ["Chain rule in reverse: need factor 2."],
+      "id": "math-i-integration-antiderivatives-10",
+      "prompt": "Find \\(\\int \\left(2\\sqrt{x}+\\frac{3}{x}\\right)dx\\) for \\(x>0\\).",
+      "answer": "Write \\(\\sqrt{x}=x^{1/2}\\).\n\\[\\int2x^{1/2}\\,dx=2\\cdot\\frac{x^{3/2}}{3/2}=\\frac{4}{3}x^{3/2}.\\]\nAlso \\(\\int 3/x\\,dx=3\\ln x\\) because \\(x>0\\).\nThus the answer is \\(\\frac{4}{3}x^{3/2}+3\\ln x+C\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ad-10",
-      "prompt": "Find the antiderivative of (x+1)^2.",
-      "answer": "(x+1)^3/3 + C",
-      "hints": ["Let u = x+1, or expand first."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-antiderivatives-11",
+      "prompt": "Find \\(F(x)\\) if \\(F'(x)=5x^4-2x\\) and \\(F(1)=10\\).",
+      "answer": "First integrate:\n\\[F(x)=x^5-x^2+C.\\]\nUse \\(F(1)=10\\):\n\\[1-1+C=10\\Rightarrow C=10.\\]\nTherefore \\(F(x)=x^5-x^2+10\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-12",
+      "prompt": "Verify that \\(F(x)=\\frac{x^5}{5}-3x+C\\) is an antiderivative of \\(x^4-3\\).",
+      "answer": "Differentiate \\(F\\):\n\\[F'(x)=\\frac{1}{5}\\cdot5x^4-3+0=x^4-3.\\]\nSince the derivative equals the integrand, \\(F(x)\\) is an antiderivative of \\(x^4-3\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-13",
+      "prompt": "Find \\(\\int \\left(\\frac{2}{\\sqrt{x}}-x^{-2}\\right)dx\\) for \\(x>0\\).",
+      "answer": "Rewrite \\(2/\\sqrt{x}=2x^{-1/2}\\).\n\\[\\int2x^{-1/2}\\,dx=2\\cdot\\frac{x^{1/2}}{1/2}=4\\sqrt{x}.\\]\nAlso\n\\[\\int(-x^{-2})\\,dx=-\\frac{x^{-1}}{-1}=x^{-1}.\\]\nSo the integral is \\(4\\sqrt{x}+\\frac1x+C\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-14",
+      "prompt": "Find \\(F(x)\\) if \\(F''(x)=12x-6\\), \\(F'(0)=5\\), and \\(F(0)=2\\).",
+      "answer": "Integrate \\(F''\\) to get \\(F'\\):\n\\[F'(x)=6x^2-6x+C_1.\\]\nUse \\(F'(0)=5\\), so \\(C_1=5\\). Integrate again:\n\\[F(x)=2x^3-3x^2+5x+C_2.\\]\nUse \\(F(0)=2\\), so \\(C_2=2\\). Hence \\(F(x)=2x^3-3x^2+5x+2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-15",
+      "prompt": "Find \\(a\\) if \\(\\int (ax^2+4)\\,dx=2x^3+4x+C\\).",
+      "answer": "Differentiate the proposed antiderivative:\n\\[\\frac{d}{dx}(2x^3+4x+C)=6x^2+4.\\]\nThis must equal \\(ax^2+4\\), so \\(a=6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-16",
+      "prompt": "For which \\(n\\) does the power rule formula \\(\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\) fail, and what integral replaces it?",
+      "answer": "The formula fails when \\(n+1=0\\), so \\(n=-1\\), because division by zero would occur. In that case\n\\[\\int x^{-1}\\,dx=\\int\\frac1x\\,dx=\\ln|x|+C.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-17",
+      "prompt": "Find \\(F(x)\\) if \\(F'(x)=2x+k\\), \\(F(0)=3\\), and \\(F(2)=15\\).",
+      "answer": "Integrate first:\n\\[F(x)=x^2+kx+C.\\]\nUse \\(F(0)=3\\), giving \\(C=3\\). Use \\(F(2)=15\\):\n\\[4+2k+3=15\\Rightarrow 2k=8\\Rightarrow k=4.\\]\nThus \\(F(x)=x^2+4x+3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-18",
+      "prompt": "A student writes \\(\\int x^{-1}\\,dx=\\frac{x^0}{0}+C\\). Explain the error and give the correct antiderivative.",
+      "answer": "The power rule \\(x^{n+1}/(n+1)\\) requires \\(n\\ne-1\\). For \\(n=-1\\), the denominator is zero, so the rule is not valid. The correct result is\n\\[\\int x^{-1}\\,dx=\\ln|x|+C.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-19",
+      "prompt": "Show that any two antiderivatives of the same function differ by a constant, assuming the fact that a function with derivative zero on an interval is constant.",
+      "answer": "Let \\(F'(x)=f(x)\\) and \\(G'(x)=f(x)\\) on the same interval. Then\n\\[(F-G)'=F'-G'=f(x)-f(x)=0.\\]\nBy the stated fact, \\(F-G\\) is constant. Therefore \\(F(x)=G(x)+C\\), so any two antiderivatives differ only by a constant.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-antiderivatives-20",
+      "prompt": "Find all functions \\(F\\) such that \\(F'(x)=6x^2-4x+1\\) and \\(F(1)-F(0)=5\\), or explain if none exist.",
+      "answer": "Integrate:\n\\[F(x)=2x^3-2x^2+x+C.\\]\nThen\n\\[F(1)-F(0)=(2-2+1+C)-C=1.\\]\nThe difference is forced to be \\(1\\), regardless of \\(C\\). Since the required difference is \\(5\\), no such function exists.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

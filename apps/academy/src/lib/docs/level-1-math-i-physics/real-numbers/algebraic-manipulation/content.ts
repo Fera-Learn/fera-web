@@ -6,15 +6,15 @@ When expanding brackets, each term inside the bracket is multiplied by the term(
 
 <Equation label="Single Term Expansion" tex="a(b + c) = ab + ac" />
 
-**Example:** $3(x + 4) = 3x + 12$
+**Example:** \(3(x + 4) = 3x + 12\)
 
 ### Two Terms Outside (FOIL)
 
-For $(a + b)(c + d)$, multiply:
-- **F**irst: $a \times c$
-- **O**uter: $a \times d$
-- **I**nner: $b \times c$
-- **L**ast: $b \times d$
+For \((a + b)(c + d)\), multiply:
+- **F**irst: \(a \times c\)
+- **O**uter: \(a \times d\)
+- **I**nner: \(b \times c\)
+- **L**ast: \(b \times d\)
 
 <Equation label="FOIL" tex="(a + b)(c + d) = ac + ad + bc + bd" />
 
@@ -44,13 +44,13 @@ Factor out the greatest common factor (GCF):
 
 ### Quadratic Trinomials
 
-For $ax^2 + bx + c$, find two numbers that multiply to $ac$ and add to $b$:
+For \(ax^2 + bx + c\), find two numbers that multiply to \(ac\) and add to \(b\):
 
 <Equation label="Quadratic Factoring" tex="x^2 + 5x + 6 = (x + 2)(x + 3)" />
 
 ### Completing the Square
 
-Convert a quadratic $ax^2 + bx + c$ to vertex form:
+Convert a quadratic \(ax^2 + bx + c\) to vertex form:
 
 <Equation label="Completing Square" tex="x^2 + bx = \left(x + \frac{b}{2}\right)^2 - \left(\frac{b}{2}\right)^2" />
 
@@ -58,7 +58,7 @@ Convert a quadratic $ax^2 + bx + c$ to vertex form:
 
 <Equation label="Vertex Form" tex="ax^2 + bx + c = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}" />
 
-This form reveals the vertex of the parabola at $\left(-\frac{b}{2a}, -\frac{b^2 - 4ac}{4a}\right)$.
+This form reveals the vertex of the parabola at \(\left(-\frac{b}{2a}, -\frac{b^2 - 4ac}{4a}\right)\).
 
 ## Strategy for Algebraic Manipulation
 

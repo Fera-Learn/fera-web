@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "trig-power-integrals",
   "topicTitle": "Trig Power Integrals",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "tpi-1",
-      "prompt": "Integrate sin^3 x cos x dx.",
-      "answer": "sin^4(x)/4 + C",
-      "hints": ["Let u=sin x."],
+      "id": "math-i-integration-trig-power-integrals-01",
+      "prompt": "Which identity is useful for reducing \\(\\sin^2 x\\) in an even-power integral?",
+      "answer": "Use the half-angle identity\n\\[\\boxed{\\sin^2 x=\\frac{1-\\cos 2x}{2}}.\\]\nIt changes an even power into an expression that can be integrated directly.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-02",
+      "prompt": "Which identity rewrites \\(\\tan^2 x\\) in terms of \\(\\sec^2 x\\)?",
+      "answer": "Use\n\\[\\boxed{\\tan^2 x=\\sec^2 x-1}.\\]\nThis is useful because \\(\\int \\sec^2 x\\,dx=\\tan x+C\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-03",
+      "prompt": "Evaluate \\(\\int \\sin x\\,dx\\).",
+      "answer": "Since \\(\\frac{d}{dx}\\cos x=-\\sin x\\),\n\\[\\int \\sin x\\,dx=\\boxed{-\\cos x+C}.\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-2",
-      "prompt": "Integrate sin^2 x dx.",
-      "answer": "x/2 - sin(2x)/4 + C",
-      "hints": ["Use half-angle: sin^2 x = (1-cos(2x))/2."],
+      "id": "math-i-integration-trig-power-integrals-04",
+      "prompt": "Evaluate \\(\\int \\sec^2 x\\,dx\\).",
+      "answer": "The derivative of \\(\\tan x\\) is \\(\\sec^2 x\\). Therefore\n\\[\\boxed{\\int \\sec^2 x\\,dx=\\tan x+C}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-05",
+      "prompt": "Evaluate \\(\\int \\cos^2 x\\,dx\\).",
+      "answer": "Use\n\\[\\cos^2 x=\\frac{1+\\cos 2x}{2}.\\]\nThen\n\\[\\int \\cos^2 x\\,dx=\\frac12\\int(1+\\cos2x)dx.\\]\nSo\n\\[\\boxed{\\frac{x}{2}+\\frac{\\sin2x}{4}+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-3",
-      "prompt": "Integrate cos^2 x dx.",
-      "answer": "x/2 + sin(2x)/4 + C",
-      "hints": ["Use half-angle: cos^2 x = (1+cos(2x))/2."],
+      "id": "math-i-integration-trig-power-integrals-06",
+      "prompt": "Evaluate \\(\\int \\sin^2 x\\,dx\\).",
+      "answer": "Use\n\\[\\sin^2 x=\\frac{1-\\cos2x}{2}.\\]\nThen\n\\[\\int \\sin^2x\\,dx=\\frac12\\int(1-\\cos2x)dx.\\]\nTherefore\n\\[\\boxed{\\frac{x}{2}-\\frac{\\sin2x}{4}+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-4",
-      "prompt": "Integrate sin^3 x dx.",
-      "answer": "-cos x + cos^3(x)/3 + C",
-      "hints": ["sin^3 x = (1-cos^2 x) sin x, let u=cos x."],
+      "id": "math-i-integration-trig-power-integrals-07",
+      "prompt": "Evaluate \\(\\int \\sin^3 x\\,dx\\).",
+      "answer": "Separate one \\(\\sin x\\):\n\\[\\sin^3x=(1-\\cos^2x)\\sin x.\\]\nLet \\(u=\\cos x\\), so \\(du=-\\sin x\\,dx\\). Then\n\\[\\int \\sin^3x\\,dx=-\\int(1-u^2)du.\\]\nSo\n\\[\\boxed{-\\cos x+\\frac{\\cos^3x}{3}+C}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-5",
-      "prompt": "Integrate sin x cos^2 x dx.",
-      "answer": "-cos^3(x)/3 + C",
-      "hints": ["Let u=cos x."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-trig-power-integrals-08",
+      "prompt": "Evaluate \\(\\int \\cos^3 x\\,dx\\).",
+      "answer": "Separate one \\(\\cos x\\):\n\\[\\cos^3x=(1-\\sin^2x)\\cos x.\\]\nLet \\(u=\\sin x\\), so \\(du=\\cos x\\,dx\\). Then\n\\[\\int \\cos^3x\\,dx=\\int(1-u^2)du.\\]\nThus\n\\[\\boxed{\\sin x-\\frac{\\sin^3x}{3}+C}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-6",
-      "prompt": "Integrate sin^4 x dx.",
-      "answer": "3x/8 - sin(2x)/4 + sin(4x)/32 + C",
-      "hints": ["Apply half-angle formula twice."],
+      "id": "math-i-integration-trig-power-integrals-09",
+      "prompt": "Evaluate \\(\\int \\tan^2 x\\,dx\\).",
+      "answer": "Use\n\\[\\tan^2x=\\sec^2x-1.\\]\nThen\n\\[\\int \\tan^2x\\,dx=\\int(\\sec^2x-1)dx.\\]\nTherefore\n\\[\\boxed{\\tan x-x+C}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-10",
+      "prompt": "Evaluate \\(\\int \\sin^2 x\\cos x\\,dx\\).",
+      "answer": "Let \\(u=\\sin x\\), so \\(du=\\cos x\\,dx\\).\nThen\n\\[\\int \\sin^2x\\cos x\\,dx=\\int u^2\\,du=\\frac{u^3}{3}+C.\\]\nThus\n\\[\\boxed{\\frac{\\sin^3x}{3}+C}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-11",
+      "prompt": "Evaluate \\(\\int \\sin^3 x\\cos^2 x\\,dx\\).",
+      "answer": "Because the sine power is odd, save one \\(\\sin x\\):\n\\[\\sin^3x\\cos^2x=(1-\\cos^2x)\\cos^2x\\sin x.\\]\nLet \\(u=\\cos x\\), so \\(du=-\\sin x\\,dx\\).\nThen\n\\[-\\int(1-u^2)u^2du=-\\int(u^2-u^4)du.\\]\nSo\n\\[\\boxed{-\\frac{\\cos^3x}{3}+\\frac{\\cos^5x}{5}+C}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-12",
+      "prompt": "Evaluate \\(\\int \\sin^2 x\\cos^3 x\\,dx\\).",
+      "answer": "Because the cosine power is odd, save one \\(\\cos x\\):\n\\[\\sin^2x\\cos^3x=\\sin^2x(1-\\sin^2x)\\cos x.\\]\nLet \\(u=\\sin x\\), so \\(du=\\cos x\\,dx\\).\nThen\n\\[\\int u^2(1-u^2)du=\\int(u^2-u^4)du.\\]\nThus\n\\[\\boxed{\\frac{\\sin^3x}{3}-\\frac{\\sin^5x}{5}+C}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-13",
+      "prompt": "Evaluate \\(\\int \\sin^4 x\\,dx\\).",
+      "answer": "Use \\(\\sin^2x=\\frac{1-\\cos2x}{2}\\):\n\\[\\sin^4x=\\left(\\frac{1-\\cos2x}{2}\\right)^2=\\frac{1-2\\cos2x+\\cos^2 2x}{4}.\\]\nUse \\(\\cos^2 2x=\\frac{1+\\cos4x}{2}\\):\n\\[\\sin^4x=\\frac38-\\frac12\\cos2x+\\frac18\\cos4x.\\]\nIntegrate:\n\\[\\boxed{\\frac{3x}{8}-\\frac{\\sin2x}{4}+\\frac{\\sin4x}{32}+C}.\\]",
       "rating": "****",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-7",
-      "prompt": "Integrate sin^2 x cos^2 x dx.",
-      "answer": "x/8 - sin(4x)/32 + C",
-      "hints": ["Use sin^2 x cos^2 x = (1-cos(4x))/8."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-trig-power-integrals-14",
+      "prompt": "Evaluate \\(\\int \\cos^4 x\\,dx\\).",
+      "answer": "Use \\(\\cos^2x=\\frac{1+\\cos2x}{2}\\):\n\\[\\cos^4x=\\left(\\frac{1+\\cos2x}{2}\\right)^2=\\frac{1+2\\cos2x+\\cos^2 2x}{4}.\\]\nSince \\(\\cos^2 2x=\\frac{1+\\cos4x}{2}\\),\n\\[\\cos^4x=\\frac38+\\frac12\\cos2x+\\frac18\\cos4x.\\]\nTherefore\n\\[\\boxed{\\frac{3x}{8}+\\frac{\\sin2x}{4}+\\frac{\\sin4x}{32}+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-8",
-      "prompt": "Integrate tan^2 x dx.",
-      "answer": "tan x - x + C",
-      "hints": ["tan^2 x = sec^2 x - 1."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-trig-power-integrals-15",
+      "prompt": "Evaluate \\(\\int \\tan^3 x\\,dx\\).",
+      "answer": "Rewrite\n\\[\\tan^3x=\\tan x(\\sec^2x-1).\\]\nThen\n\\[\\int \\tan^3x\\,dx=\\int \\tan x\\sec^2x\\,dx-\\int\\tan x\\,dx.\\]\nFor the first integral, let \\(u=\\tan x\\), giving \\(\\frac12\\tan^2x\\). Also \\(\\int\\tan x\\,dx=\\ln|\\sec x|\\).\nThus\n\\[\\boxed{\\frac12\\tan^2x-\\ln|\\sec x|+C}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-9",
-      "prompt": "Integrate cos^3 x dx.",
-      "answer": "sin x - sin^3(x)/3 + C",
-      "hints": ["cos^3 x = (1-sin^2 x) cos x."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-trig-power-integrals-16",
+      "prompt": "Evaluate \\(\\int \\sec^4 x\\,dx\\).",
+      "answer": "Save \\(\\sec^2x\\) and rewrite the rest:\n\\[\\sec^4x=\\sec^2x\\sec^2x=(1+\\tan^2x)\\sec^2x.\\]\nLet \\(u=\\tan x\\), so \\(du=\\sec^2x\\,dx\\).\nThen\n\\[\\int \\sec^4x\\,dx=\\int(1+u^2)du=u+\\frac{u^3}{3}+C.\\]\nTherefore\n\\[\\boxed{\\tan x+\\frac{\\tan^3x}{3}+C}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "tpi-10",
-      "prompt": "Integrate sin(2x) cos(2x) dx.",
-      "answer": "sin^2(2x)/4 + C",
-      "hints": ["Let u=sin(2x) or use double-angle."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-trig-power-integrals-17",
+      "prompt": "Evaluate \\(\\int \\sin^5 x\\,dx\\).",
+      "answer": "Save one sine factor:\n\\[\\sin^5x=(1-\\cos^2x)^2\\sin x.\\]\nLet \\(u=\\cos x\\), so \\(du=-\\sin x\\,dx\\).\nThen\n\\[-\\int(1-u^2)^2du=-\\int(1-2u^2+u^4)du.\\]\nIntegrate:\n\\[-u+\\frac{2u^3}{3}-\\frac{u^5}{5}+C.\\]\nThus\n\\[\\boxed{-\\cos x+\\frac{2\\cos^3x}{3}-\\frac{\\cos^5x}{5}+C}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-18",
+      "prompt": "A student says \\(\\int \\sin^2x\\,dx=\\frac{\\sin^3x}{3}+C\\). Diagnose the error and give the correct answer.",
+      "answer": "The formula \\(\\frac{\\sin^3x}{3}\\) would differentiate to \\(\\sin^2x\\cos x\\), not \\(\\sin^2x\\). The missing \\(\\cos x\\) factor means direct substitution \\(u=\\sin x\\) is not valid.\nUse the half-angle identity:\n\\[\\sin^2x=\\frac{1-\\cos2x}{2}.\\]\nThen\n\\[\\int\\sin^2x\\,dx=\\frac12\\int(1-\\cos2x)dx=\\boxed{\\frac{x}{2}-\\frac{\\sin2x}{4}+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-19",
+      "prompt": "Derive a reduction formula for \\(I_n=\\int \\sin^n x\\,dx\\) for \\(n>1\\).",
+      "answer": "Write\n\\[I_n=\\int \\sin^{n-1}x\\sin x\\,dx.\\]\nUse integration by parts with \\(u=\\sin^{n-1}x\\) and \\(dv=\\sin x\\,dx\\). Then \\(du=(n-1)\\sin^{n-2}x\\cos x\\,dx\\) and \\(v=-\\cos x\\).\nSo\n\\[I_n=-\\sin^{n-1}x\\cos x+(n-1)\\int \\sin^{n-2}x\\cos^2x\\,dx.\\]\nUse \\(\\cos^2x=1-\\sin^2x\\):\n\\[I_n=-\\sin^{n-1}x\\cos x+(n-1)I_{n-2}-(n-1)I_n.\\]\nThus\n\\[nI_n=-\\sin^{n-1}x\\cos x+(n-1)I_{n-2}.\\]\nTherefore\n\\[\\boxed{I_n=-\\frac{\\sin^{n-1}x\\cos x}{n}+\\frac{n-1}{n}I_{n-2}}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-trig-power-integrals-20",
+      "prompt": "Evaluate \\(\\int \\sin^2x\\cos^2x\\,dx\\) using a double-angle identity.",
+      "answer": "Use\n\\[\\sin x\\cos x=\\frac12\\sin2x.\\]\nThen\n\\[\\sin^2x\\cos^2x=\\frac14\\sin^2 2x.\\]\nApply \\(\\sin^2 y=\\frac{1-\\cos2y}{2}\\) with \\(y=2x\\):\n\\[\\frac14\\sin^2 2x=\\frac18(1-\\cos4x).\\]\nIntegrate:\n\\[\\int \\sin^2x\\cos^2x\\,dx=\\frac18\\int(1-\\cos4x)dx.\\]\nTherefore\n\\[\\boxed{\\frac{x}{8}-\\frac{\\sin4x}{32}+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

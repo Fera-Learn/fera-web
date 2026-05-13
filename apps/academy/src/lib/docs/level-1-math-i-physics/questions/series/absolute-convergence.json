@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "absolute-convergence",
+  "topicTitle": "Absolute Convergence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-absolute-convergence-01",
+      "prompt": "Define absolute convergence for \\(\\sum a_n\\).",
+      "answer": "The series \\(\\sum a_n\\) is absolutely convergent when the magnitude series\n\\[\n\\sum |a_n|\n\\]\nconverges.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-02",
+      "prompt": "What does absolute convergence imply about ordinary convergence?",
+      "answer": "Absolute convergence implies ordinary convergence. If \\(\\sum |a_n|\\) converges, then \\(\\sum a_n\\) also converges.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-03",
+      "prompt": "Write the absolute-value series for \\(\\sum_{n=1}^{\\infty}(-1)^n/n^2\\).",
+      "answer": "Take magnitudes term by term:\n\\[\n\\sum_{n=1}^{\\infty}\\left|\\frac{(-1)^n}{n^2}\\right|=\\sum_{n=1}^{\\infty}\\frac1{n^2}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-04",
+      "prompt": "Write \\(|(-3)^n/5^n|\\) in simpler form.",
+      "answer": "Use \\(|(-3)^n|=3^n\\):\n\\[\n\\left|\\frac{(-3)^n}{5^n}\\right|=\\frac{3^n}{5^n}=\\left(\\frac35\\right)^n.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-05",
+      "prompt": "Determine whether \\(\\sum_{n=1}^{\\infty}(-1)^n/n^2\\) converges absolutely.",
+      "answer": "The absolute-value series is\n\\[\n\\sum_{n=1}^{\\infty}\\frac1{n^2}.\n\\]\nThis is a convergent \\(p\\)-series with \\(p=2>1\\). Therefore the original series converges absolutely.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-06",
+      "prompt": "Determine whether \\(\\sum_{n=1}^{\\infty}(-1)^n/2^n\\) converges absolutely.",
+      "answer": "The absolute-value series is\n\\[\n\\sum_{n=1}^{\\infty}\\frac1{2^n},\n\\]\na geometric series with ratio \\(1/2\\). It converges, so the original signed series converges absolutely.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-07",
+      "prompt": "Use comparison to test absolute convergence of \\(\\sum (-1)^n/(n^2+1)\\).",
+      "answer": "The magnitude terms satisfy\n\\[\n0\\le\\frac1{n^2+1}\\le\\frac1{n^2}.\n\\]\nSince \\(\\sum1/n^2\\) converges, \\(\\sum1/(n^2+1)\\) converges. Therefore the signed series converges absolutely.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-08",
+      "prompt": "Use the ratio test on the absolute-value series for \\(\\sum (-1)^n n!/4^n\\).",
+      "answer": "The magnitude terms are \\(a_n=n!/4^n\\). Then\n\\[\n\\frac{a_{n+1}}{a_n}=\\frac{(n+1)!}{4^{n+1}}\\frac{4^n}{n!}=\\frac{n+1}{4}\\to\\infty.\n\\]\nThe absolute-value series diverges, so the original series is not absolutely convergent.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-09",
+      "prompt": "Test absolute convergence of \\(\\sum_{n=1}^{\\infty}(-1)^n\\frac{n}{3^n}\\).",
+      "answer": "Test \\(\\sum n/3^n\\). The ratio is\n\\[\n\\frac{(n+1)/3^{n+1}}{n/3^n}=\\frac{n+1}{3n}\\to\\frac13.\n\\]\nSince \\(1/3<1\\), the magnitude series converges, so the original series converges absolutely.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-10",
+      "prompt": "Test absolute convergence of \\(\\sum_{n=1}^{\\infty}\\sin(n)/n^2\\).",
+      "answer": "Use \\(|\\sin n|\\le1\\). Then\n\\[\n0\\le\\left|\\frac{\\sin n}{n^2}\\right|\\le\\frac1{n^2}.\n\\]\nSince \\(\\sum1/n^2\\) converges, comparison proves absolute convergence.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-11",
+      "prompt": "Explain why divergence of \\(\\sum |a_n|\\) does not by itself prove divergence of \\(\\sum a_n\\).",
+      "answer": "Absolute convergence is stronger than ordinary convergence. If \\(\\sum |a_n|\\) diverges, the original series may still converge by cancellation. The alternating harmonic series is a standard example: \\(\\sum1/n\\) diverges, but \\(\\sum(-1)^{n+1}/n\\) converges conditionally.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-12",
+      "prompt": "Why are rearrangements safe for absolutely convergent series?",
+      "answer": "Absolute convergence controls the total magnitude \\(\\sum |a_n|\\). Because the total amount of positive and negative movement is finite, changing the order cannot create a different limiting sum.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-13",
+      "prompt": "For which real \\(p\\) does \\(\\sum (-1)^n/n^p\\) converge absolutely?",
+      "answer": "Absolute convergence requires\n\\[\n\\sum\\left|\\frac{(-1)^n}{n^p}\\right|=\\sum\\frac1{n^p}\n\\]\nto converge. By the \\(p\\)-series rule, this happens exactly when \\(p>1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-14",
+      "prompt": "Test absolute convergence of \\(\\sum_{n=1}^{\\infty}(-1)^n\\frac{2^n}{n^3}\\).",
+      "answer": "The magnitude terms are \\(2^n/n^3\\). Their term limit does not go to zero; exponential growth dominates polynomial growth. Therefore \\(\\sum 2^n/n^3\\) diverges, so the signed series is not absolutely convergent.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-15",
+      "prompt": "For which real \\(r\\) does \\(\\sum_{n=0}^{\\infty}(-1)^n r^n\\) converge absolutely?",
+      "answer": "The absolute-value series is\n\\[\n\\sum_{n=0}^{\\infty}|r|^n.\n\\]\nThis geometric series converges when \\(|r|<1\\). Therefore absolute convergence occurs for\n\\[\n-1<r<1.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-16",
+      "prompt": "Show absolute convergence of \\(\\sum_{n=1}^{\\infty}(-1)^n/(n^2+n)\\) by comparison.",
+      "answer": "For \\(n\\ge1\\),\n\\[\n0\\le\\frac1{n^2+n}\\le\\frac1{n^2}.\n\\]\nThe comparison series \\(\\sum1/n^2\\) converges. Therefore \\(\\sum1/(n^2+n)\\) converges, so the signed series converges absolutely.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-17",
+      "prompt": "A correction series has signed terms \\(a_n=(-1)^n0.2^n/n\\). Prove the total magnitude is finite.",
+      "answer": "The magnitude series is\n\\[\n\\sum_{n=1}^{\\infty}\\frac{0.2^n}{n}.\n\\]\nSince \\(1/n\\le1\\) for \\(n\\ge1\\),\n\\[\n0\\le\\frac{0.2^n}{n}\\le0.2^n.\n\\]\nThe geometric series \\(\\sum0.2^n\\) converges, so the total magnitude is finite.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-18",
+      "prompt": "Diagnose the error: \\(\\sum a_n\\) converges, so \\(\\sum |a_n|\\) must converge.",
+      "answer": "Ordinary convergence does not imply absolute convergence. The alternating harmonic series converges, but\n\\[\n\\sum\\left|\\frac{(-1)^{n+1}}n\\right|=\\sum\\frac1n\n\\]\ndiverges. The implication only goes from absolute convergence to ordinary convergence.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-19",
+      "prompt": "Prove that \\(\\sum |a_n|\\) convergent implies \\(\\sum a_n\\) convergent using positive and negative parts conceptually.",
+      "answer": "Write each term as positive movement minus negative movement. Both total positive movement and total negative movement are bounded by the total magnitude \\(\\sum |a_n|\\). Since those non-negative totals are finite, their difference has a finite limit. Therefore \\(\\sum a_n\\) converges.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-absolute-convergence-20",
+      "prompt": "A learner tests \\(\\sum (-1)^n n/2^n\\) by saying the signs alternate, so it converges. Give a stronger correct conclusion.",
+      "answer": "Test magnitudes:\n\\[\n\\sum\\frac{n}{2^n}.\n\\]\nThe ratio test gives\n\\[\n\\frac{(n+1)/2^{n+1}}{n/2^n}=\\frac{n+1}{2n}\\to\\frac12<1.\n\\]\nSo the magnitude series converges. The signed series converges absolutely, which is stronger than just alternating convergence.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

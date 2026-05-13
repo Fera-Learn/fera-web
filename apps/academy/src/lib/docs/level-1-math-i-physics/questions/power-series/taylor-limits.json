@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "taylor-limits",
+  "topicTitle": "Taylor Limits",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-taylor-limits-01",
+      "prompt": "State the leading behaviour of \\(\\sin x\\) as \\(x\\) approaches \\(0\\).",
+      "answer": "In radians, \\(\\sin x=x-\\frac{x^3}{3!}+\\cdots\\). The leading term is \\(x\\), so \\(\\sin x\\) has the same leading behaviour as \\(x\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-02",
+      "prompt": "State the leading behaviour of \\(1-\\cos x\\) as \\(x\\) approaches \\(0\\).",
+      "answer": "Since \\(\\cos x=1-\\frac{x^2}{2}+\\cdots\\), we get \\(1-\\cos x=\\frac{x^2}{2}+\\cdots\\). The leading behaviour is \\(\\frac{x^2}{2}\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-03",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin x}{x}\\).",
+      "answer": "Use \\(\\sin x=x+\\) higher powers. Then \\(\\frac{\\sin x}{x}=1\\) plus terms that tend to \\(0\\). The limit is \\(1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-04",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{e^x-1}{x}\\).",
+      "answer": "Use \\(e^x=1+x+\\frac{x^2}{2}+\\cdots\\). Then \\(e^x-1=x+\\frac{x^2}{2}+\\cdots\\). Dividing by \\(x\\) gives \\(1+\\frac{x}{2}+\\cdots\\), so the limit is \\(1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}\\).",
+      "answer": "Use \\(1-\\cos x=\\frac{x^2}{2}+\\cdots\\). Dividing by \\(x^2\\) gives \\(\\frac12\\) plus terms that tend to \\(0\\). The limit is \\(\\frac12\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{e^x-1-x}{x^2}\\).",
+      "answer": "Expand \\(e^x=1+x+\\frac{x^2}{2}+\\frac{x^3}{6}+\\cdots\\). Then \\(e^x-1-x=\\frac{x^2}{2}+\\frac{x^3}{6}+\\cdots\\). Dividing by \\(x^2\\) gives the limit \\(\\frac12\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin x-x}{x^3}\\).",
+      "answer": "Use \\(\\sin x=x-\\frac{x^3}{6}+\\cdots\\). Then \\(\\sin x-x=-\\frac{x^3}{6}+\\cdots\\). Dividing by \\(x^3\\) gives \\(-\\frac16\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\ln(1+x)}{x}\\).",
+      "answer": "Use \\(\\ln(1+x)=x-\\frac{x^2}{2}+\\cdots\\). Dividing by \\(x\\) gives \\(1-\\frac{x}{2}+\\cdots\\), so the limit is \\(1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{x-\\arctan x}{x^3}\\), using \\(\\arctan x=x-\\frac{x^3}{3}+\\cdots\\).",
+      "answer": "Substitute the expansion: \\(x-\\arctan x=x-\\left(x-\\frac{x^3}{3}+\\cdots\\right)=\\frac{x^3}{3}+\\cdots\\). Dividing by \\(x^3\\) gives \\(\\frac13\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{e^{3x}-1-3x}{x^2}\\).",
+      "answer": "Expand \\(e^{3x}=1+3x+\\frac{(3x)^2}{2}+\\cdots=1+3x+\\frac{9x^2}{2}+\\cdots\\). The numerator is \\(\\frac{9x^2}{2}+\\cdots\\), so the limit is \\(\\frac92\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-11",
+      "prompt": "Why may a Taylor-limit calculation require more than the first term?",
+      "answer": "Leading terms can cancel. For example, \\(e^x-1-x\\) cancels the constant and linear terms in \\(e^x=1+x+\\frac{x^2}{2}+\\cdots\\), so the quadratic term becomes the first non-zero term.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-12",
+      "prompt": "Why do trigonometric Taylor limits assume radians?",
+      "answer": "The standard series \\(\\sin x=x-\\frac{x^3}{3!}+\\cdots\\) and \\(\\cos x=1-\\frac{x^2}{2}+\\cdots\\) rely on derivative rules that hold in simple form for radians. In degrees, conversion factors change the coefficients.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin x-x\\cos x}{x^3}\\).",
+      "answer": "Use \\(\\sin x=x-\\frac{x^3}{6}+\\cdots\\) and \\(x\\cos x=x\\left(1-\\frac{x^2}{2}+\\cdots\\right)=x-\\frac{x^3}{2}+\\cdots\\). Subtracting gives \\(x^3\\left(\\frac12-\\frac16\\right)+\\cdots=\\frac{x^3}{3}+\\cdots\\). The limit is \\(\\frac13\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\cos x-1+\\frac{x^2}{2}}{x^4}\\).",
+      "answer": "Use \\(\\cos x=1-\\frac{x^2}{2}+\\frac{x^4}{24}+\\cdots\\). The numerator becomes \\(\\frac{x^4}{24}+\\cdots\\). Dividing by \\(x^4\\) gives \\(\\frac1{24}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-15",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\ln(1+x)-x+\\frac{x^2}{2}}{x^3}\\).",
+      "answer": "Use \\(\\ln(1+x)=x-\\frac{x^2}{2}+\\frac{x^3}{3}-\\cdots\\). The numerator is \\(\\frac{x^3}{3}+\\cdots\\). Dividing by \\(x^3\\) gives \\(\\frac13\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-16",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{e^x+e^{-x}-2}{x^2}\\).",
+      "answer": "Expand \\(e^x=1+x+\\frac{x^2}{2}+\\cdots\\) and \\(e^{-x}=1-x+\\frac{x^2}{2}+\\cdots\\). Adding and subtracting \\(2\\) leaves \\(x^2+\\cdots\\). The limit is \\(1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-17",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(2x)-2\\sin x}{x^3}\\).",
+      "answer": "Use \\(\\sin(2x)=2x-\\frac{(2x)^3}{6}+\\cdots=2x-\\frac{4x^3}{3}+\\cdots\\) and \\(2\\sin x=2x-\\frac{x^3}{3}+\\cdots\\). The difference is \\(-x^3+\\cdots\\), so the limit is \\(-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-18",
+      "prompt": "Diagnose the error: \\(\\frac{1-\\cos x}{x}\\) tends to \\(\\frac12\\) because \\(1-\\cos x\\) behaves like \\(\\frac{x^2}{2}\\).",
+      "answer": "The cancellation was wrong. Since \\(1-\\cos x\\) behaves like \\(\\frac{x^2}{2}\\), the quotient behaves like \\(\\frac{x}{2}\\), which tends to \\(0\\). The correct limit is \\(0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-19",
+      "prompt": "How do you handle a Taylor-limit quotient when leading terms cancel?",
+      "answer": "Expand numerator and denominator until each has a first non-zero surviving term, such as \\(a_mx^m\\) and \\(b_nx^n\\). Compare their powers. Equal powers give \\(\\frac{a_m}{b_n}\\); a higher numerator power gives \\(0\\); a lower numerator power usually diverges or needs one-sided analysis.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-taylor-limits-20",
+      "prompt": "Why do \\(\\sin\\theta\\approx\\theta\\) and \\(1-\\cos\\theta\\approx\\frac{\\theta^2}{2}\\) have different orders?",
+      "answer": "The sine series starts linearly: \\(\\sin\\theta=\\theta-\\frac{\\theta^3}{6}+\\cdots\\). The cosine difference cancels the constant and starts quadratically: \\(1-\\cos\\theta=\\frac{\\theta^2}{2}+\\cdots\\). This changes which powers cancel in small-angle limits.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

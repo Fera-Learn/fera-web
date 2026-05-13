@@ -4,7 +4,7 @@ The modulus of a complex number represents its distance from the origin in the c
 
 ### Definition
 
-For $z = a + bi$:
+For \(z = a + bi\):
 
 <Equation label="Definition" tex="|z| = \sqrt{a^2 + b^2}" />
 
@@ -12,7 +12,7 @@ The modulus is always a non-negative real number.
 
 ### Geometric Interpretation
 
-The modulus is the **length of the vector** representing $z$ in the complex plane. By the Pythagorean theorem:
+The modulus is the **length of the vector** representing \(z\) in the complex plane. By the Pythagorean theorem:
 
 <Equation label="Pythagorean" tex="|z|^2 = a^2 + b^2" />
 
@@ -28,15 +28,15 @@ The modulus is the **length of the vector** representing $z$ in the complex plan
 
 <Equation label="Conjugate" tex="|z|^2 = z \cdot z^*" />
 
-This provides an alternative formula: $|z| = \sqrt{z \cdot z^*}$
+This provides an alternative formula: \(|z| = \sqrt{z \cdot z^*}\)
 
 ### In Polar Form
 
-If $z = re^{i\theta}$, then:
+If \(z = re^{i\theta}\), then:
 
 <Equation label="PolarMod" tex="|z| = r" />
 
-The modulus in polar form is simply $r$, the distance from origin.
+The modulus in polar form is simply \(r\), the distance from origin.
 
 ### Example
 

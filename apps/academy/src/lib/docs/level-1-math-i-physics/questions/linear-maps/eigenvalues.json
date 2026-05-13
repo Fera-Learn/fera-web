@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "eigenvalues",
+  "topicTitle": "Eigenvalues",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-eigenvalues-01",
+      "prompt": "What is an eigenvalue in the equation \\(A\\mathbf v=\\lambda\\mathbf v\\)?",
+      "answer": "The eigenvalue is the scalar \\(\\lambda\\) by which the matrix scales the non-zero vector \\(\\mathbf v\\). The vector direction is preserved, although it may be reversed or stretched.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-02",
+      "prompt": "Why must \\(A\\) be square when discussing eigenvalues?",
+      "answer": "The equation \\(A\\mathbf v=\\lambda\\mathbf v\\) compares two vectors in the same space. Therefore the input and output dimensions must match, so \\(A\\) must be square.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-03",
+      "prompt": "Find the eigenvalues of \\(D=\\begin{pmatrix}2&0\\\\0&7\\end{pmatrix}\\).",
+      "answer": "For a diagonal matrix, the coordinate axes are eigenvector directions. The scale factors are the diagonal entries, so the eigenvalues are\n\\[\n\\lambda=2\\quad\\text{and}\\quad \\lambda=7.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-04",
+      "prompt": "Write the characteristic equation for \\(A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\).",
+      "answer": "Use \\(\\det(A-\\lambda I)=0\\). Thus\n\\[\n\\det\\begin{pmatrix}a-\\lambda&b\\\\c&d-\\lambda\\end{pmatrix}=0,\n\\]\nso\n\\[\n(a-\\lambda)(d-\\lambda)-bc=0.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-05",
+      "prompt": "Find the eigenvalues of \\(A=\\begin{pmatrix}3&0\\\\0&-1\\end{pmatrix}\\) using the characteristic equation.",
+      "answer": "Compute\n\\[\n\\det(A-\\lambda I)=\\det\\begin{pmatrix}3-\\lambda&0\\\\0&-1-\\lambda\\end{pmatrix}=(3-\\lambda)(-1-\\lambda).\n\\]\nSet this equal to zero. Therefore \\(\\lambda=3\\) or \\(\\lambda=-1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-06",
+      "prompt": "Find the eigenvalues of \\(A=\\begin{pmatrix}1&4\\\\0&5\\end{pmatrix}\\).",
+      "answer": "This matrix is triangular, so the determinant is\n\\[\n\\det(A-\\lambda I)=(1-\\lambda)(5-\\lambda).\n\\]\nSet it to zero:\n\\[\n(1-\\lambda)(5-\\lambda)=0.\n\\]\nThe eigenvalues are \\(1\\) and \\(5\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-07",
+      "prompt": "Check whether \\(4\\) is an eigenvalue of \\(A=\\begin{pmatrix}4&1\\\\0&2\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA-4I=\\begin{pmatrix}0&1\\\\0&-2\\end{pmatrix}.\n\\]\nIts determinant is\n\\[\n0(-2)-0(1)=0.\n\\]\nSince \\(A-4I\\) is singular, \\(4\\) is an eigenvalue.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-08",
+      "prompt": "Check whether \\(-1\\) is an eigenvalue of \\(A=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA-(-1)I=A+I=\\begin{pmatrix}3&0\\\\0&4\\end{pmatrix}.\n\\]\nThe determinant is \\(12\\), not zero. Therefore \\(A+I\\) is not singular, so \\(-1\\) is not an eigenvalue.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-09",
+      "prompt": "Find the eigenvalues of \\(A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\n\\det(A-\\lambda I)=\\det\\begin{pmatrix}2-\\lambda&1\\\\1&2-\\lambda\\end{pmatrix}=(2-\\lambda)^2-1.\n\\]\nSet to zero:\n\\[\n(2-\\lambda)^2=1.\n\\]\nSo \\(2-\\lambda=\\pm1\\), giving \\(\\lambda=1\\) and \\(\\lambda=3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-10",
+      "prompt": "Find the eigenvalues of \\(A=\\begin{pmatrix}0&1\\\\-2&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\n\\det(A-\\lambda I)=\\det\\begin{pmatrix}-\\lambda&1\\\\-2&3-\\lambda\\end{pmatrix}=(-\\lambda)(3-\\lambda)+2.\n\\]\nExpand:\n\\[\n\\lambda^2-3\\lambda+2=(\\lambda-1)(\\lambda-2).\n\\]\nSo the eigenvalues are \\(1\\) and \\(2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-11",
+      "prompt": "A matrix has characteristic polynomial \\(p(\\lambda)=(\\lambda-2)^2(\\lambda+5)\\). List the eigenvalues and algebraic multiplicities.",
+      "answer": "The roots of the characteristic polynomial are the eigenvalues. The factor \\((\\lambda-2)^2\\) gives eigenvalue \\(2\\) with algebraic multiplicity \\(2\\). The factor \\(\\lambda+5\\) gives eigenvalue \\(-5\\) with algebraic multiplicity \\(1\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-12",
+      "prompt": "Explain why \\(\\det A=0\\) means \\(0\\) is an eigenvalue of square matrix \\(A\\).",
+      "answer": "The eigenvalue condition is\n\\[\n\\det(A-\\lambda I)=0.\n\\]\nFor \\(\\lambda=0\\), this becomes\n\\[\n\\det(A-0I)=\\det A=0.\n\\]\nSo if \\(\\det A=0\\), then \\(0\\) satisfies the characteristic equation and is an eigenvalue.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-13",
+      "prompt": "For which \\(k\\) does \\(A=\\begin{pmatrix}k&0\\\\0&2\\end{pmatrix}\\) have repeated eigenvalue \\(2\\)?",
+      "answer": "The eigenvalues of this diagonal matrix are its diagonal entries, \\(k\\) and \\(2\\). To have repeated eigenvalue \\(2\\), the first diagonal entry must also be \\(2\\). Therefore \\(k=2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-14",
+      "prompt": "For which \\(a\\) is \\(3\\) an eigenvalue of \\(A=\\begin{pmatrix}a&1\\\\0&4\\end{pmatrix}\\)?",
+      "answer": "Since the matrix is triangular, its eigenvalues are the diagonal entries \\(a\\) and \\(4\\). For \\(3\\) to be an eigenvalue, one diagonal entry must be \\(3\\). Thus \\(a=3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-15",
+      "prompt": "Find all \\(t\\) such that \\(A=\\begin{pmatrix}1&t\\\\t&1\\end{pmatrix}\\) has eigenvalue \\(0\\).",
+      "answer": "Eigenvalue \\(0\\) occurs when \\(\\det A=0\\). Compute\n\\[\n\\det A=1\\cdot1-t^2=1-t^2.\n\\]\nSet this to zero:\n\\[\n1-t^2=0.\n\\]\nThus \\(t=1\\) or \\(t=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-16",
+      "prompt": "For which \\(c\\) does \\(A=\\begin{pmatrix}2&c\\\\0&2\\end{pmatrix}\\) have only one distinct eigenvalue?",
+      "answer": "This triangular matrix has eigenvalues given by its diagonal entries, \\(2\\) and \\(2\\). The off-diagonal entry \\(c\\) does not change the characteristic polynomial:\n\\[\n(2-\\lambda)^2=0.\n\\]\nSo for every value of \\(c\\), the only distinct eigenvalue is \\(2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-17",
+      "prompt": "A repeated eigenvalue is not always a problem for finding eigenvalues. Explain using \\(A=\\begin{pmatrix}5&1\\\\0&5\\end{pmatrix}\\).",
+      "answer": "The eigenvalues come from the characteristic equation. Here\n\\[\n\\det(A-\\lambda I)=(5-\\lambda)^2.\n\\]\nSo \\(\\lambda=5\\) is an eigenvalue with algebraic multiplicity \\(2\\). The repeated root is clear from the determinant; the extra care is needed later when finding enough eigenvectors, not when identifying the eigenvalue.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-18",
+      "prompt": "A student solves \\(\\det A=0\\) to find all eigenvalues. Diagnose the mistake.",
+      "answer": "Solving \\(\\det A=0\\) only checks whether \\(0\\) is an eigenvalue. The full eigenvalue condition is\n\\[\n\\det(A-\\lambda I)=0.\n\\]\nFor example, \\(A=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\) has \\(\\det A=6\\ne0\\), but it still has eigenvalues \\(2\\) and \\(3\\). The determinant of \\(A\\) alone is not enough.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-19",
+      "prompt": "Prove that eigenvalues of a diagonal matrix are its diagonal entries.",
+      "answer": "Let \\(D=\\operatorname{diag}(d_1,\\ldots,d_n)\\). Then\n\\[\nD-\\lambda I=\\operatorname{diag}(d_1-\\lambda,\\ldots,d_n-\\lambda).\n\\]\nThe determinant of a diagonal matrix is the product of diagonal entries, so\n\\[\n\\det(D-\\lambda I)=\\prod_{i=1}^n(d_i-\\lambda).\n\\]\nThis is zero exactly when \\(\\lambda=d_i\\) for some \\(i\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvalues-20",
+      "prompt": "Explain why a real rotation by \\(90^\\circ\\), \\(R=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\), has no real eigenvalues.",
+      "answer": "Compute\n\\[\n\\det(R-\\lambda I)=\\det\\begin{pmatrix}-\\lambda&-1\\\\1&-\\lambda\\end{pmatrix}=\\lambda^2+1.\n\\]\nThe equation \\(\\lambda^2+1=0\\) has no real solutions. Geometrically, a \\(90^\\circ\\) rotation turns every non-zero real vector to a perpendicular direction, so no real non-zero vector stays on its original line.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

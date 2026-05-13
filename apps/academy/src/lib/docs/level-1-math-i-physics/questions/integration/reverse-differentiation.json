@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "reverse-differentiation",
   "topicTitle": "Reverse Differentiation",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "rd-1",
-      "prompt": "Find the antiderivative of 4x^3.",
-      "answer": "x^4 + C",
-      "hints": ["Multiply coefficient by new power."],
+      "id": "math-i-integration-reverse-differentiation-01",
+      "prompt": "Since \\(\\frac{d}{dx}(x^4)=4x^3\\), find \\(\\int 4x^3\\,dx\\).",
+      "answer": "Integration reverses differentiation. Because \\((x^4)'=4x^3\\),\n\\[\\int4x^3\\,dx=x^4+C.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-2",
-      "prompt": "Find the antiderivative of 6.",
-      "answer": "6x + C",
-      "hints": ["Constant integrates to constant times x."],
+      "id": "math-i-integration-reverse-differentiation-02",
+      "prompt": "Since \\(\\frac{d}{dx}(\\sin x)=\\cos x\\), find \\(\\int \\cos x\\,dx\\).",
+      "answer": "Reverse the derivative statement:\n\\[\\int\\cos x\\,dx=\\sin x+C.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-3",
-      "prompt": "Find the antiderivative of e^x.",
-      "answer": "e^x + C",
-      "hints": ["e^x is its own antiderivative."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-reverse-differentiation-03",
+      "prompt": "Use reverse differentiation to find \\(\\int e^x\\,dx\\).",
+      "answer": "The derivative of \\(e^x\\) is \\(e^x\\), so it is its own antiderivative.\n\\[\\int e^x\\,dx=e^x+C.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-4",
-      "prompt": "Find the antiderivative of 2x + 1.",
-      "answer": "x^2 + x + C",
-      "hints": ["Integrate each term separately."],
+      "id": "math-i-integration-reverse-differentiation-04",
+      "prompt": "If \\(\\frac{d}{dx}(\\ln|x|)=1/x\\) for \\(x\\ne0\\), find \\(\\int \\frac1x\\,dx\\).",
+      "answer": "Reverse the derivative:\n\\[\\int\\frac1x\\,dx=\\ln|x|+C.\\]\nThe absolute value allows both positive and negative \\(x\\) values, excluding \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-05",
+      "prompt": "Find \\(\\int 10x^4\\,dx\\) by reversing a derivative.",
+      "answer": "Since \\(\\frac{d}{dx}(2x^5)=10x^4\\),\n\\[\\int10x^4\\,dx=2x^5+C.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-5",
-      "prompt": "Find the antiderivative of sin x.",
-      "answer": "-cos x + C",
-      "hints": ["Sine integrates to negative cosine."],
+      "id": "math-i-integration-reverse-differentiation-06",
+      "prompt": "Find \\(\\int -\\sin x\\,dx\\).",
+      "answer": "Because \\(\\frac{d}{dx}(\\cos x)=-\\sin x\\),\n\\[\\int-\\sin x\\,dx=\\cos x+C.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-6",
-      "prompt": "Find F(x) if F'(x) = 4x^3 and F(0) = 5.",
-      "answer": "x^4 + 5",
-      "hints": ["General antiderivative: x^4 + C, then F(0)=5."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-reverse-differentiation-07",
+      "prompt": "Find \\(\\int (6x^2+5)\\,dx\\) and check by differentiating.",
+      "answer": "Reverse each derivative:\n\\[\\int6x^2\\,dx=2x^3,\\quad \\int5\\,dx=5x.\\]\nSo \\(\\int(6x^2+5)\\,dx=2x^3+5x+C\\). Check:\n\\[\\frac{d}{dx}(2x^3+5x+C)=6x^2+5.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-7",
-      "prompt": "Find the antiderivative of x^{-2}.",
-      "answer": "-1/x + C",
-      "hints": ["x^{-2+1}/(-2+1) = x^{-1}/(-1) = -1/x."],
+      "id": "math-i-integration-reverse-differentiation-08",
+      "prompt": "Find \\(\\int (3x+1)^4\\,dx\\) using the reverse chain rule.",
+      "answer": "For \\((3x+1)^4\\), increase the power to \\(5\\) and divide by the inner derivative \\(3\\) and by \\(5\\):\n\\[\\int(3x+1)^4\\,dx=\\frac{(3x+1)^5}{3\\cdot5}+C=\\frac{(3x+1)^5}{15}+C.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-09",
+      "prompt": "Find \\(\\int 2(2x-5)^6\\,dx\\).",
+      "answer": "The derivative of \\(2x-5\\) is \\(2\\), matching the outside factor. Let the power rise from \\(6\\) to \\(7\\):\n\\[\\int2(2x-5)^6\\,dx=\\frac{(2x-5)^7}{7}+C.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-8",
-      "prompt": "Find the antiderivative of sec^2 x.",
-      "answer": "tan x + C",
-      "hints": ["Derivative of tan x is sec^2 x."],
+      "id": "math-i-integration-reverse-differentiation-10",
+      "prompt": "Find \\(\\int \\frac{4}{4x+7}\\,dx\\).",
+      "answer": "The derivative of \\(4x+7\\) is \\(4\\), which appears in the numerator. Therefore\n\\[\\int\\frac{4}{4x+7}\\,dx=\\ln|4x+7|+C.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-9",
-      "prompt": "Find the antiderivative of 1/(1+x^2).",
-      "answer": "arctan x + C",
-      "hints": ["Standard integral."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-reverse-differentiation-11",
+      "prompt": "Find \\(\\int 6x\\cos(3x^2)\\,dx\\) and verify the result.",
+      "answer": "The derivative of \\(3x^2\\) is \\(6x\\), so reverse the chain rule:\n\\[\\int6x\\cos(3x^2)\\,dx=\\sin(3x^2)+C.\\]\nCheck:\n\\[\\frac{d}{dx}\\sin(3x^2)=\\cos(3x^2)\\cdot6x.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "rd-10",
-      "prompt": "Find the antiderivative of x(x+1)^2.",
-      "answer": "(x+1)^3/3 - (x+1)^2/2 + C",
-      "hints": ["Expand or substitute u=x+1."],
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-integration-reverse-differentiation-12",
+      "prompt": "Find \\(\\int -5e^{-5x}\\,dx\\) and explain the sign.",
+      "answer": "The derivative of \\(-5x\\) is \\(-5\\), matching the factor outside. Since \\(\\frac{d}{dx}(e^{-5x})=-5e^{-5x}\\),\n\\[\\int-5e^{-5x}\\,dx=e^{-5x}+C.\\]\nThe negative sign is already supplied by the inner derivative.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-13",
+      "prompt": "Find \\(\\int x(x^2+4)^3\\,dx\\).",
+      "answer": "The derivative of \\(x^2+4\\) is \\(2x\\), but only \\(x\\) is present. Factor \\(1/2\\):\n\\[x\\,dx=\\frac12(2x\\,dx).\\]\nThus\n\\[\\int x(x^2+4)^3\\,dx=\\frac12\\cdot\\frac{(x^2+4)^4}{4}+C=\\frac{(x^2+4)^4}{8}+C.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-14",
+      "prompt": "Find \\(\\int \\frac{x}{1+x^2}\\,dx\\).",
+      "answer": "The derivative of \\(1+x^2\\) is \\(2x\\). Insert the missing factor by using \\(x\\,dx=\\frac12(2x\\,dx)\\):\n\\[\\int\\frac{x}{1+x^2}\\,dx=\\frac12\\ln(1+x^2)+C.\\]\nNo absolute value is needed here because \\(1+x^2>0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-15",
+      "prompt": "Find \\(a\\) such that \\(\\int a(2x+1)^5\\,dx=(2x+1)^6+C\\).",
+      "answer": "Differentiate the proposed antiderivative:\n\\[\\frac{d}{dx}(2x+1)^6=6(2x+1)^5\\cdot2=12(2x+1)^5.\\]\nSo the integrand must have \\(a=12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-16",
+      "prompt": "For which constant \\(k\\) is \\(\\int kx e^{x^2}\\,dx=e^{x^2}+C\\)?",
+      "answer": "Differentiate \\(e^{x^2}\\):\n\\[\\frac{d}{dx}e^{x^2}=2xe^{x^2}.\\]\nTherefore the integrand must be \\(2xe^{x^2}\\), so \\(k=2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-17",
+      "prompt": "Find \\(k\\) if \\(\\int (kx+3)(kx^2+6x)^4\\,dx=\\frac{(kx^2+6x)^5}{10}+C\\).",
+      "answer": "Differentiate the right side:\n\\[\\frac{d}{dx}\\frac{(kx^2+6x)^5}{10}=\\frac12(kx^2+6x)^4(2kx+6).\\]\nThis simplifies to \\((kx+3)(kx^2+6x)^4\\), which matches the integrand for every constant \\(k\\).\nTherefore any real value of \\(k\\) works.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-18",
+      "prompt": "A student writes \\(\\int \\cos(5x)\\,dx=\\sin(5x)+C\\). Diagnose the error and correct it.",
+      "answer": "Differentiate the student's answer:\n\\[\\frac{d}{dx}\\sin(5x)=5\\cos(5x),\\]\nwhich is five times too large. Divide by the inner derivative \\(5\\):\n\\[\\int\\cos(5x)\\,dx=\\frac{1}{5}\\sin(5x)+C.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-19",
+      "prompt": "Explain why \\(\\int (x^2+1)^5\\,dx\\) is not a direct reverse-chain-rule integral of the form \\((x^2+1)^6/12+C\\).",
+      "answer": "If \\(\\frac{(x^2+1)^6}{12}\\) were differentiated, the chain rule gives\n\\[\\frac{1}{12}\\cdot6(x^2+1)^5\\cdot2x=x(x^2+1)^5.\\]\nThe extra factor \\(x\\) appears, but the original integrand has no such factor. Therefore the direct reverse-chain-rule form does not apply.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-reverse-differentiation-20",
+      "prompt": "Find all constants \\(A\\) and \\(B\\) such that \\(\\frac{d}{dx}[A(3x-2)^5+B]=30(3x-2)^4\\).",
+      "answer": "Differentiate:\n\\[\\frac{d}{dx}[A(3x-2)^5+B]=A\\cdot5(3x-2)^4\\cdot3+0=15A(3x-2)^4.\\]\nMatch coefficients with \\(30(3x-2)^4\\):\n\\[15A=30\\Rightarrow A=2.\\]\nThe constant \\(B\\) differentiates to zero, so \\(B\\) can be any real constant.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

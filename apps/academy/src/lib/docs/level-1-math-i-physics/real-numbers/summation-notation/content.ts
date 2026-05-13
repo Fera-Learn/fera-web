@@ -1,16 +1,16 @@
-export const content = String.raw`## Sigma Notation ($\Sigma$)
+export const content = String.raw`## Sigma Notation (\(\Sigma\))
 
-**Sigma notation** provides a compact way to represent the sum of a sequence of terms. The Greek letter $\Sigma$ (sigma) means "sum".
+**Sigma notation** provides a compact way to represent the sum of a sequence of terms. The Greek letter \(\Sigma\) (sigma) means "sum".
 
 ### General Form
 
 <Equation label="Sigma Notation" tex="\sum_{i=m}^{n} a_i = a_m + a_{m+1} + \cdots + a_n" />
 
 where:
-- $i$ is the **index** of summation
-- $m$ is the **lower bound** (starting value)
-- $n$ is the **upper bound** (ending value)
-- $a_i$ is the **term** being summed
+- \(i\) is the **index** of summation
+- \(m\) is the **lower bound** (starting value)
+- \(n\) is the **upper bound** (ending value)
+- \(a_i\) is the **term** being summed
 
 ### Example
 
@@ -44,7 +44,7 @@ where:
 
 ### Infinite Geometric Series
 
-For $|r| < 1$:
+For \(|r| < 1\):
 <Equation label="Infinite Geometric" tex="\sum_{i=0}^{\infty} ar^i = \frac{a}{1-r}" />
 
 ## Double Summation

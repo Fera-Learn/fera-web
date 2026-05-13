@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "geometric-series",
+  "topicTitle": "Geometric Series",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-geometric-series-01",
+      "prompt": "In \\(\\sum_{n=0}^{\\infty}ax^n\\), what is the common ratio?",
+      "answer": "The common ratio is \\(x\\). Each term is obtained from the previous term by multiplying by \\(x\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-02",
+      "prompt": "State the condition for \\(\\sum_{n=0}^{\\infty}ax^n\\) to converge when \\(a\\ne0\\).",
+      "answer": "The infinite geometric series converges exactly when \\(|x|<1\\). If \\(|x|\\ge1\\), the terms do not shrink enough to give a finite sum.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-03",
+      "prompt": "Find the first four terms of \\(\\sum_{n=0}^{\\infty}5(1/3)^n\\).",
+      "answer": "Use \\(n=0,1,2,3\\):\n\\[\n5,\\quad \\frac53,\\quad \\frac59,\\quad \\frac5{27}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-04",
+      "prompt": "For \\(4+2+1+1/2+\\cdots\\), identify \\(a\\) and \\(x\\).",
+      "answer": "The first term is \\(a=4\\). The ratio is\n\\[\nx=\\frac{2}{4}=\\frac12.\n\\]\nSo the series has form \\(\\sum_{n=0}^{\\infty}4(1/2)^n\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-05",
+      "prompt": "Compute \\(\\sum_{n=0}^{\\infty}3(1/2)^n\\).",
+      "answer": "Here \\(a=3\\) and \\(x=1/2\\), with \\(|x|<1\\). Thus\n\\[\n\\sum_{n=0}^{\\infty}3\\left(\\frac12\\right)^n=\\frac{3}{1-1/2}=6.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-06",
+      "prompt": "Compute the finite sum \\(\\sum_{n=0}^{3}2^n\\).",
+      "answer": "Expand the four terms:\n\\[\n2^0+2^1+2^2+2^3=1+2+4+8=15.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-07",
+      "prompt": "Use the finite geometric formula to find \\(\\sum_{n=0}^{4}3(2)^n\\).",
+      "answer": "This has five terms, so use \\(N=5\\), \\(a=3\\), \\(x=2\\):\n\\[\nS_5=\\frac{3(1-2^5)}{1-2}=\\frac{3(1-32)}{-1}=93.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-08",
+      "prompt": "Decide whether \\(\\sum_{n=0}^{\\infty}7(-0.4)^n\\) converges, and find its sum if it does.",
+      "answer": "The ratio is \\(x=-0.4\\), so \\(|x|=0.4<1\\). The sum is\n\\[\n\\frac{7}{1-(-0.4)}=\\frac{7}{1.4}=5.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-09",
+      "prompt": "Find \\(\\sum_{n=1}^{\\infty}2(1/3)^n\\).",
+      "answer": "The first included term is at \\(n=1\\): \\(2/3\\). The ratio is \\(1/3\\), so\n\\[\n\\sum_{n=1}^{\\infty}2\\left(\\frac13\\right)^n=\\frac{2/3}{1-1/3}=1.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-10",
+      "prompt": "Derive \\(S_N=a(1-x^N)/(1-x)\\) for \\(S_N=a+ax+\\cdots+ax^{N-1}\\), with \\(x\\ne1\\).",
+      "answer": "Multiply by \\(x\\):\n\\[\nxS_N=ax+ax^2+\\cdots+ax^N.\n\\]\nSubtract:\n\\[\nS_N-xS_N=a-ax^N.\n\\]\nSo \\((1-x)S_N=a(1-x^N)\\), and\n\\[\nS_N=\\frac{a(1-x^N)}{1-x}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-11",
+      "prompt": "Explain why the formula \\(a/(1-x)\\) is invalid for \\(\\sum_{n=0}^{\\infty}a(1.2)^n\\).",
+      "answer": "The infinite formula requires \\(|x|<1\\). Here \\(|1.2|=1.2>1\\), so the terms grow rather than tend to zero. The infinite series diverges, so \\(a/(1-x)\\) must not be used.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-12",
+      "prompt": "A reflected pulse keeps \\(60\\%\\) of its previous size. If the first contribution is \\(10\\), find the total contribution of infinitely many reflections.",
+      "answer": "This is geometric with \\(a=10\\) and \\(x=0.6\\). Since \\(|0.6|<1\\),\n\\[\nS=\\frac{10}{1-0.6}=25.\n\\]\nThe total contribution is \\(25\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-13",
+      "prompt": "For what real values of \\(r\\) does \\(\\sum_{n=0}^{\\infty}4r^n\\) converge?",
+      "answer": "A nonzero geometric series converges when \\(|r|<1\\). Therefore the real values are\n\\[\n-1<r<1.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-14",
+      "prompt": "Find \\(r\\) if \\(\\sum_{n=0}^{\\infty}6r^n=15\\) and \\(|r|<1\\).",
+      "answer": "Use the infinite formula:\n\\[\n\\frac{6}{1-r}=15.\n\\]\nThen \\(6=15(1-r)=15-15r\\), so \\(15r=9\\) and\n\\[\nr=\\frac35.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-15",
+      "prompt": "Find the smallest \\(N\\) such that the remainder after \\(N\\) terms of \\(\\sum_{n=0}^{\\infty}(1/2)^n\\) is less than \\(1/16\\).",
+      "answer": "After \\(N\\) terms, the remainder is\n\\[\n\\frac{(1/2)^N}{1-1/2}=2\\left(\\frac12\\right)^N=2^{1-N}.\n\\]\nNeed \\(2^{1-N}<2^{-4}\\), so \\(1-N<-4\\), giving \\(N>5\\). The smallest integer is \\(N=6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-16",
+      "prompt": "For which real \\(x\\) does \\(\\sum_{n=0}^{\\infty}(x-2)^n\\) converge?",
+      "answer": "The ratio is \\(x-2\\). Convergence requires\n\\[\n|x-2|<1.\n\\]\nThis gives \\(-1<x-2<1\\), so\n\\[\n1<x<3.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-17",
+      "prompt": "Compute \\(\\sum_{n=2}^{\\infty}5(1/4)^n\\) carefully accounting for the starting index.",
+      "answer": "The first term is \\(5(1/4)^2=5/16\\), and the ratio is \\(1/4\\). Thus\n\\[\nS=\\frac{5/16}{1-1/4}=\\frac{5/16}{3/4}=\\frac{5}{12}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-18",
+      "prompt": "Diagnose the error: \\(\\sum_{n=0}^{\\infty}2^n=1/(1-2)=-1\\).",
+      "answer": "The formula \\(1/(1-x)\\) requires \\(|x|<1\\). Here \\(x=2\\), so \\(|x|>1\\), and the terms \\(1,2,4,\\ldots\\) do not tend to zero. The series diverges; it does not sum to \\(-1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-19",
+      "prompt": "Show from partial sums why \\(\\sum_{n=0}^{\\infty}a\\) diverges when \\(a\\ne0\\).",
+      "answer": "This is the geometric case \\(x=1\\). The partial sum of \\(N\\) terms is\n\\[\nS_N=Na.\n\\]\nIf \\(a\\ne0\\), \\(Na\\) does not approach a finite limit as \\(N\\to\\infty\\). Therefore the series diverges.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-geometric-series-20",
+      "prompt": "A finite geometric sum is \\(S_N=12(1-0.7^N)\\). Identify the infinite sum and explain why it exists.",
+      "answer": "Since \\(|0.7|<1\\), the factor \\(0.7^N\\to0\\). Hence\n\\[\n\\lim_{N\\to\\infty}S_N=12(1-0)=12.\n\\]\nThe infinite sum exists because the geometric tail shrinks to zero.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

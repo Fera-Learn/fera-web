@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "gaussian-elimination",
+  "topicTitle": "Gaussian Elimination",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-gaussian-elimination-01",
+      "prompt": "In Gaussian elimination, what is a \\(pivot\\)?",
+      "answer": "A pivot is a nonzero leading entry used to eliminate entries below it in the same column. It marks the variable being solved at that stage of the elimination.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-02",
+      "prompt": "What does an inconsistent row such as \\((0,0\\mid5)\\) mean?",
+      "answer": "The row \\((0,0\\mid5)\\) represents the equation\n\\[\n0=5.\n\\]\nThis is impossible, so the whole system has no solution.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-03",
+      "prompt": "Why might Gaussian elimination require swapping rows before choosing a pivot?",
+      "answer": "A pivot must be nonzero. If the entry in the planned pivot position is \\(0\\), it cannot be used to eliminate entries below it. Swapping with a lower row that has a nonzero entry in that column can provide a valid pivot.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-04",
+      "prompt": "In triangular form, do elimination steps create zeros above or below \\(pivots\\)?",
+      "answer": "Gaussian elimination creates zeros below pivots. Zeros above pivots are created later if reducing all the way to reduced row echelon form.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-05",
+      "prompt": "Use back substitution to solve \\(z=2\\), \\(y+3z=10\\), \\(x-y+z=1\\).",
+      "answer": "Start with the last variable already known: \\(z=2\\). Then\n\\[\ny+3(2)=10,\n\\]\nso \\(y+6=10\\) and \\(y=4\\). Finally\n\\[\nx-y+z=1\n\\]\ngives\n\\[\nx-4+2=1,\n\\]\nso \\(x=3\\). The solution is \\((3,4,2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-06",
+      "prompt": "For \\(\\left(\\begin{array}{cc|c}1&2&5\\\\3&7&16\\end{array}\\right)\\), perform one elimination step to create a zero below the first pivot.",
+      "answer": "Use \\(R_2-3R_1\\):\n\\[\n(3,7,16)-3(1,2,5)=(0,1,1).\n\\]\nThe matrix becomes\n\\[\n\\left(\\begin{array}{cc|c}1&2&5\\\\0&1&1\\end{array}\\right).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-07",
+      "prompt": "Solve the triangular system \\(2x-y+z=5\\), \\(3y+2z=13\\), \\(z=2\\).",
+      "answer": "Back substitute from the bottom. Since \\(z=2\\), the second equation gives\n\\[\n3y+2(2)=13.\n\\]\nThus \\(3y=9\\), so \\(y=3\\). The first equation gives\n\\[\n2x-3+2=5,\n\\]\nso \\(2x=6\\) and \\(x=3\\). The solution is \\((3,3,2)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-08",
+      "prompt": "The first column of an augmented matrix begins \\((0,2,-1)^T\\). What should you do before using the first pivot?",
+      "answer": "The top entry is \\(0\\), so it cannot be used as a pivot. Swap row \\(1\\) with a lower row that has a nonzero first entry, such as row \\(2\\) or row \\(3\\). After the swap, use the nonzero entry as the first pivot.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-09",
+      "prompt": "Use Gaussian elimination to solve \\(x+y=6\\), \\(2x+3y=15\\).",
+      "answer": "Write the augmented matrix and eliminate below the first pivot:\n\\[\n\\left(\\begin{array}{cc|c}1&1&6\\\\2&3&15\\end{array}\\right)\\to\\left(\\begin{array}{cc|c}1&1&6\\\\0&1&3\\end{array}\\right)\n\\]\nusing \\(R_2-2R_1\\). The second row gives \\(y=3\\). Substitute into the first row:\n\\[\nx+3=6,\n\\]\nso \\(x=3\\). The solution is \\((3,3)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-10",
+      "prompt": "Use Gaussian elimination to solve \\(x+y+z=6\\), \\(2x+y-z=3\\), \\(x-y+2z=7\\).",
+      "answer": "Start with the augmented matrix. Use \\(R_2-2R_1\\) and \\(R_3-R_1\\):\n\\[\n\\left(\\begin{array}{ccc|c}1&1&1&6\\\\0&-1&-3&-9\\\\0&-2&1&1\\end{array}\\right).\n\\]\nUse \\(R_3-2R_2\\):\n\\[\n\\left(\\begin{array}{ccc|c}1&1&1&6\\\\0&-1&-3&-9\\\\0&0&7&19\\end{array}\\right).\n\\]\nBack substitute: \\(7z=19\\), so \\(z=\\frac{19}{7}\\). Then \\(-y-3z=-9\\), so \\(y=9-3z=\\frac{6}{7}\\). Finally \\(x+y+z=6\\), so \\(x=\\frac{17}{7}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-11",
+      "prompt": "During elimination, a row becomes \\((0,0,0\\mid0)\\). Explain how this affects the solution process.",
+      "answer": "The row represents \\(0=0\\), which is always true. It adds no restriction and is not a contradiction. The system may still have one solution or infinitely many solutions depending on the remaining pivot rows. The zero row should be kept at the bottom and ignored when back substituting.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-12",
+      "prompt": "Use elimination to show that \\(x+y=2\\), \\(2x+2y=5\\) is inconsistent.",
+      "answer": "Write the augmented matrix and eliminate below the first pivot:\n\\[\n\\left(\\begin{array}{cc|c}1&1&2\\\\2&2&5\\end{array}\\right).\n\\]\nUse \\(R_2-2R_1\\):\n\\[\n(2,2,5)-2(1,1,2)=(0,0,1).\n\\]\nThe new row represents\n\\[\n0=1,\n\\]\nwhich is impossible. Therefore the system has no solution.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-13",
+      "prompt": "Solve \\(2x+y-z=1\\), \\(4x+3y+z=7\\), \\(-2x+y+2z=4\\) by Gaussian elimination.",
+      "answer": "Use the first row as pivot. Apply \\(R_2-2R_1\\) and \\(R_3+R_1\\):\n\\[\n\\left(\\begin{array}{ccc|c}2&1&-1&1\\\\0&1&3&5\\\\0&2&1&5\\end{array}\\right).\n\\]\nUse \\(R_3-2R_2\\):\n\\[\n\\left(\\begin{array}{ccc|c}2&1&-1&1\\\\0&1&3&5\\\\0&0&-5&-5\\end{array}\\right).\n\\]\nBack substitute: \\(-5z=-5\\), so \\(z=1\\). Then \\(y+3=5\\), so \\(y=2\\). Finally \\(2x+2-1=1\\), so \\(x=0\\). The solution is \\((0,2,1)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-14",
+      "prompt": "A system has triangular augmented matrix \\(\\left(\\begin{array}{ccc|c}1&2&-1&0\\\\0&0&3&6\\\\0&0&0&0\\end{array}\\right)\\). Describe the solution set.",
+      "answer": "The second row gives \\(3z=6\\), so \\(z=2\\). The first row gives\n\\[\nx+2y-z=0.\n\\]\nSubstitute \\(z=2\\):\n\\[\nx+2y-2=0,\n\\]\nso \\(x=2-2y\\). Let \\(y=t\\), where \\(t\\in\\mathbb R\\). The solution set is\n\\[\n(x,y,z)=(2-2t,t,2),\\qquad t\\in\\mathbb R.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-15",
+      "prompt": "For what values of \\(k\\) does elimination on \\(x+y=1\\), \\(2x+2y=k\\) produce an inconsistent row?",
+      "answer": "Use \\(R_2-2R_1\\) on the augmented rows:\n\\[\n(2,2,k)-2(1,1,1)=(0,0,k-2).\n\\]\nThis is inconsistent when it represents \\(0=k-2\\) with a nonzero right-hand side. Therefore the system is inconsistent when\n\\[\nk-2\\ne0,\\quad \\text{so } k\\ne2.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-16",
+      "prompt": "For which values of \\(a\\) does the first elimination step for \\(ax+y=1\\), \\(2x+3y=4\\) need a row swap if row \\(1\\) is chosen first?",
+      "answer": "The planned first pivot is the coefficient \\(a\\) in row \\(1\\), column \\(1\\). A pivot must be nonzero. Therefore a row swap is needed exactly when\n\\[\na=0.\n\\]\nIf \\(a=0\\), row \\(2\\) has first entry \\(2\\), so swapping rows provides a valid nonzero pivot.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-17",
+      "prompt": "Classify the solutions of \\(x+y+z=1\\), \\(2x+2y+2z=2\\), \\(x-y=0\\) using Gaussian elimination reasoning.",
+      "answer": "The second equation is twice the first, so elimination produces a zero row rather than a contradiction. The independent equations are\n\\[\nx+y+z=1,\\qquad x-y=0.\n\\]\nFrom \\(x-y=0\\), \\(x=y\\). Let \\(z=t\\). Then\n\\[\nx+y=1-t.\n\\]\nSince \\(x=y\\), \\(2x=1-t\\), so \\(x=\\frac{1-t}{2}\\) and \\(y=\\frac{1-t}{2}\\). The solutions are\n\\[\n(x,y,z)=\\left(\\frac{1-t}{2},\\frac{1-t}{2},t\\right),\\qquad t\\in\\mathbb R.\n\\]\nThere are infinitely many solutions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-18",
+      "prompt": "Diagnose the error: after reaching \\(\\left(\\begin{array}{ccc|c}1&2&1&5\\\\0&1&-1&0\\\\0&0&2&6\\end{array}\\right)\\), a learner solves from the top row first.",
+      "answer": "In triangular form, back substitution starts from the bottom row because it contains the fewest unknowns. The bottom row gives\n\\[\n2z=6,\n\\]\nso \\(z=3\\). Then the second row gives\n\\[\ny-z=0,\n\\]\nso \\(y=3\\). Finally the first row gives\n\\[\nx+2(3)+3=5,\n\\]\nso \\(x=-4\\). Solving from the top first is inefficient and can be impossible because the top row still contains several unknowns.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-19",
+      "prompt": "Explain why a zero row \\((0,0,0\\mid0)\\) and an inconsistent row \\((0,0,0\\mid1)\\) must not be treated the same way.",
+      "answer": "The row \\((0,0,0\\mid0)\\) represents \\(0=0\\), which is always true and adds no condition. It can be ignored when describing the restrictions on variables. The row \\((0,0,0\\mid1)\\) represents \\(0=1\\), which is never true. If any row is inconsistent, no variable values can satisfy the whole system. Therefore a zero row allows the solution process to continue, while an inconsistent row ends it with no solution.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-gaussian-elimination-20",
+      "prompt": "Give a strategy argument for why Gaussian elimination preserves the solution set when it uses only \\(elementary\\) row operations.",
+      "answer": "Each elementary row operation corresponds to an equation operation that does not change the set of common solutions. Swapping rows only reorders equations. Multiplying a row by a nonzero constant gives an equivalent equation. Replacing one row by that row plus a multiple of another is reversible by subtracting the same multiple. Since every step preserves the solution set, a sequence of such steps also preserves the solution set. Gaussian elimination is exactly such a sequence, followed by reading the simplified system.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -227,7 +227,9 @@ function PaperIntro({ paper }: { paper: Level1PhysicsExamPaper }) {
 }
 
 function ConstantsList({ paper }: { paper: Level1PhysicsExamPaper }) {
-  if (paper.constants.length === 0) {
+  const constants = paper.constants ?? [];
+
+  if (constants.length === 0) {
     return null;
   }
 
@@ -237,7 +239,7 @@ function ConstantsList({ paper }: { paper: Level1PhysicsExamPaper }) {
         Constants
       </h2>
       <div className="grid gap-x-6 gap-y-2 text-sm text-foreground/82 sm:grid-cols-2">
-        {paper.constants.map((constant) => (
+        {constants.map((constant) => (
           <div
             className="flex min-w-0 items-baseline justify-between gap-3"
             key={constant.label}

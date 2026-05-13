@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "conditional-convergence",
+  "topicTitle": "Conditional Convergence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-conditional-convergence-01",
+      "prompt": "Define conditional convergence for \\(\\sum a_n\\).",
+      "answer": "A series is conditionally convergent when \\(\\sum a_n\\) converges but \\(\\sum |a_n|\\) diverges.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-02",
+      "prompt": "State the two magnitude conditions used in the alternating series test.",
+      "answer": "The magnitudes must tend to zero, \\(|a_n|\\to0\\), and they must eventually decrease: \\(|a_{n+1}|\\le |a_n|\\) on the tail.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-03",
+      "prompt": "Write the absolute-value series for the alternating harmonic series \\(\\sum (-1)^{n+1}/n\\).",
+      "answer": "Taking magnitudes gives\n\\[\n\\sum_{n=1}^{\\infty}\\left|\\frac{(-1)^{n+1}}n\\right|=\\sum_{n=1}^{\\infty}\\frac1n.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-04",
+      "prompt": "Do the magnitudes \\(1/n\\) tend to zero and decrease?",
+      "answer": "Yes. We have \\(1/n\\to0\\), and for each \\(n\\ge1\\),\n\\[\n\\frac1{n+1}\\le\\frac1n.\n\\]\nSo the magnitudes decrease to zero.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-05",
+      "prompt": "Show that \\(\\sum_{n=1}^{\\infty}(-1)^{n+1}/n\\) satisfies the alternating series test.",
+      "answer": "The signs alternate. The magnitudes are \\(1/n\\), and\n\\[\n\\frac1n\\to0,\\quad \\frac1{n+1}\\le\\frac1n.\n\\]\nTherefore the alternating series test proves ordinary convergence.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-06",
+      "prompt": "Show that the alternating harmonic series is not absolutely convergent.",
+      "answer": "Its absolute-value series is\n\\[\n\\sum_{n=1}^{\\infty}\\frac1n,\n\\]\nthe harmonic series. The harmonic series diverges, so the alternating harmonic series is not absolutely convergent.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-07",
+      "prompt": "Determine whether \\(\\sum_{n=1}^{\\infty}(-1)^n/n^2\\) is conditionally convergent.",
+      "answer": "The absolute-value series is \\(\\sum1/n^2\\), which converges. Therefore the series is absolutely convergent, not conditionally convergent.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-08",
+      "prompt": "Determine whether \\(\\sum_{n=2}^{\\infty}(-1)^n/\\ln n\\) passes the alternating series test.",
+      "answer": "For \\(n\\ge2\\), the magnitudes are \\(1/\\ln n\\). They tend to \\(0\\) because \\(\\ln n\\to\\infty\\), and they decrease because \\(\\ln n\\) increases. Thus the alternating series test applies.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-09",
+      "prompt": "Show that \\(\\sum_{n=1}^{\\infty}(-1)^{n+1}/\\sqrt n\\) converges conditionally.",
+      "answer": "The magnitudes \\(1/\\sqrt n\\) decrease to \\(0\\), so the alternating series test proves ordinary convergence. The absolute-value series\n\\[\n\\sum\\frac1{\\sqrt n}\n\\]\nis a \\(p\\)-series with \\(p=1/2\\le1\\), so it diverges. Hence the convergence is conditional.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-10",
+      "prompt": "Explain why conditional convergence depends on cancellation.",
+      "answer": "In conditional convergence, the magnitude series \\(\\sum |a_n|\\) diverges, so the total unsigned size is not controlled. The signed series converges only because positive and negative terms cancel in the given order.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-11",
+      "prompt": "Why does the alternating series test not prove absolute convergence?",
+      "answer": "The alternating series test uses cancellation between signs. It checks decreasing magnitudes tending to zero for the signed series. Absolute convergence instead requires the positive series \\(\\sum |a_n|\\) to converge, which is a separate stronger condition.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-12",
+      "prompt": "A series converges by the alternating series test, and its absolute-value series also converges. Is it conditional?",
+      "answer": "No. Conditional convergence requires the signed series to converge and the absolute-value series \\(\\sum |a_n|\\) to diverge. If the absolute-value series converges, the series is absolutely convergent instead.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-13",
+      "prompt": "For which real \\(p\\) is \\(\\sum_{n=1}^{\\infty}(-1)^{n+1}/n^p\\) conditionally convergent?",
+      "answer": "Ordinary convergence by the alternating test needs \\(1/n^p\\to0\\), so \\(p>0\\). Absolute convergence needs \\(\\sum1/n^p\\) to converge, which requires \\(p>1\\). Conditional convergence occurs when\n\\[\n0<p\\le1.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-14",
+      "prompt": "Test \\(\\sum_{n=1}^{\\infty}(-1)^n n/(n+1)\\) for conditional convergence.",
+      "answer": "The magnitudes are \\(n/(n+1)\\), and\n\\[\n\\frac{n}{n+1}\\to1,\n\\]\nnot \\(0\\). The signed terms do not tend to zero, so the series diverges. It is not conditionally convergent.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-15",
+      "prompt": "For which real \\(p\\) is \\(\\sum_{n=2}^{\\infty}(-1)^n/(n(\\ln n)^p)\\) conditionally convergent, assuming the alternating test applies?",
+      "answer": "The absolute-value series \\(\\sum 1/(n(\\ln n)^p)\\) converges for \\(p>1\\) and diverges for \\(p\\le1\\). The signed alternating series converges when the magnitudes decrease to zero, which holds for these positive-log terms with \\(p\\) in the usual tail range. Thus conditional convergence occurs for\n\\[\np\\le1\n\\]\nwhen the magnitudes tend to zero, in particular for \\(p>0\\) with this form.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-16",
+      "prompt": "A signed approximation has terms \\((-1)^{n+1}/n\\). What warning does conditional convergence give about rearranging corrections?",
+      "answer": "The series is conditionally convergent: it converges by alternating cancellation, but its magnitude series \\(\\sum1/n\\) diverges. Because the sum depends on the order of cancellation, rearranging the corrections can change the limiting value.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-17",
+      "prompt": "Show that \\(\\sum_{n=1}^{\\infty}(-1)^n\\frac{\\ln n}{n}\\) is not absolutely convergent, and state the ordinary convergence idea.",
+      "answer": "The magnitude series is \\(\\sum (\\ln n)/n\\), which diverges by the integral test since \\(\\int (\\ln x)/x\\,dx=(\\ln x)^2/2\\). The signed series can be handled by alternating-test reasoning because \\((\\ln n)/n\\to0\\) and eventually decreases. Thus it is conditionally convergent once eventual decrease is checked.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-18",
+      "prompt": "Diagnose the error: the alternating harmonic series converges, so its absolute-value series must converge too.",
+      "answer": "This reverses the valid implication. Absolute convergence implies ordinary convergence, but ordinary convergence does not imply absolute convergence. For the alternating harmonic series, the signed series converges, while\n\\[\n\\sum\\left|\\frac{(-1)^{n+1}}n\\right|=\\sum\\frac1n\n\\]\ndiverges.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-19",
+      "prompt": "Prove that conditional convergence requires two separate tests, not one.",
+      "answer": "To prove conditional convergence, one must show ordinary convergence of \\(\\sum a_n\\) and divergence of \\(\\sum |a_n|\\). The first fact says the signed partial sums have a finite limit. The second says convergence is not absolute. Without both facts, the series could be divergent or absolutely convergent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-conditional-convergence-20",
+      "prompt": "A learner says every alternating series with terms tending to zero is conditionally convergent. Correct the statement with examples.",
+      "answer": "Terms tending to zero are not enough; the alternating test also needs eventual decrease. Even when an alternating series converges, it may be absolute rather than conditional. For example, \\(\\sum(-1)^n/n^2\\) is absolutely convergent, while \\(\\sum(-1)^{n+1}/n\\) is conditionally convergent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

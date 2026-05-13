@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "euler-formula",
+  "topicTitle": "Euler Formula",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-euler-formula-01",
+      "prompt": "State Euler's formula.",
+      "answer": "Euler's formula is\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta,\n\\]\nwhere \\(\\theta\\) is measured in radians.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-02",
+      "prompt": "State Euler's identity obtained from Euler's formula when \\(\\theta=\\pi\\).",
+      "answer": "Substitute \\(\\theta=\\pi\\) into\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nThen\n\\[\ne^{i\\pi}=-1+0i=-1.\n\\]\nSo Euler's identity is\n\\[\ne^{i\\pi}+1=0.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-03",
+      "prompt": "Use Euler's formula to write \\(e^{-i\\theta}\\) in terms of sine and cosine.",
+      "answer": "Apply Euler's formula with angle \\(-\\theta\\):\n\\[\ne^{-i\\theta}=\\cos(-\\theta)+i\\sin(-\\theta).\n\\]\nUsing \\(\\cos(-\\theta)=\\cos\\theta\\) and \\(\\sin(-\\theta)=-\\sin\\theta\\),\n\\[\ne^{-i\\theta}=\\cos\\theta-i\\sin\\theta.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-04",
+      "prompt": "Evaluate \\(e^{i0}\\) using Euler's formula.",
+      "answer": "Use\n\\[\ne^{i0}=\\cos0+i\\sin0.\n\\]\nSince \\(\\cos0=1\\) and \\(\\sin0=0\\),\n\\[\ne^{i0}=1.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-05",
+      "prompt": "Evaluate \\(e^{i\\pi/3}\\) in Cartesian form.",
+      "answer": "Euler's formula gives\n\\[\ne^{i\\pi/3}=\\cos\\frac{\\pi}{3}+i\\sin\\frac{\\pi}{3}.\n\\]\nUsing exact values,\n\\[\ne^{i\\pi/3}=\\frac12+\\frac{\\sqrt3}{2}i.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-06",
+      "prompt": "Evaluate \\(e^{-i\\pi/4}\\) in Cartesian form.",
+      "answer": "Euler's formula gives\n\\[\ne^{-i\\pi/4}=\\cos\\left(-\\frac{\\pi}{4}\\right)+i\\sin\\left(-\\frac{\\pi}{4}\\right).\n\\]\nThus\n\\[\ne^{-i\\pi/4}=\\frac{\\sqrt2}{2}-\\frac{\\sqrt2}{2}i.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-07",
+      "prompt": "Derive \\(\\cos\\theta=(e^{i\\theta}+e^{-i\\theta})/2\\).",
+      "answer": "Euler's formula gives\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta\n\\]\nand\n\\[\ne^{-i\\theta}=\\cos\\theta-i\\sin\\theta.\n\\]\nAdd the equations:\n\\[\ne^{i\\theta}+e^{-i\\theta}=2\\cos\\theta.\n\\]\nDivide by \\(2\\):\n\\[\n\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-08",
+      "prompt": "Derive \\(\\sin\\theta=(e^{i\\theta}-e^{-i\\theta})/(2i)\\).",
+      "answer": "Using Euler's formula,\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta,\\quad e^{-i\\theta}=\\cos\\theta-i\\sin\\theta.\n\\]\nSubtract:\n\\[\ne^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta.\n\\]\nDivide by \\(2i\\):\n\\[\n\\sin\\theta=\\frac{e^{i\\theta}-e^{-i\\theta}}{2i}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-09",
+      "prompt": "Use Euler's formula to compute \\(e^{i\\pi/6}e^{i\\pi/3}\\).",
+      "answer": "Combine exponents:\n\\[\ne^{i\\pi/6}e^{i\\pi/3}=e^{i(\\pi/6+\\pi/3)}=e^{i\\pi/2}.\n\\]\nEuler's formula gives\n\\[\ne^{i\\pi/2}=\\cos\\frac{\\pi}{2}+i\\sin\\frac{\\pi}{2}=i.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-10",
+      "prompt": "Use Euler's formula to show that \\(|e^{i\\theta}|=1\\).",
+      "answer": "Euler's formula gives\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nThe modulus is\n\\[\n|e^{i\\theta}|=\\sqrt{\\cos^2\\theta+\\sin^2\\theta}.\n\\]\nUsing \\(\\cos^2\\theta+\\sin^2\\theta=1\\),\n\\[\n|e^{i\\theta}|=1.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-11",
+      "prompt": "Explain how Euler's formula connects complex exponentials to circular motion.",
+      "answer": "Euler's formula says\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nAs \\(\\theta\\) changes, the point has coordinates \\((\\cos\\theta,\\sin\\theta)\\).\nThese coordinates lie on the unit circle because\n\\[\n\\cos^2\\theta+\\sin^2\\theta=1.\n\\]\nThus \\(e^{i\\theta}\\) traces circular motion around the origin.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-12",
+      "prompt": "A student writes \\(e^{i\\theta}=\\cos\\theta+\\sin\\theta\\). Identify the error.",
+      "answer": "The imaginary unit is missing.\nEuler's formula is\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nThe real part is \\(\\cos\\theta\\) and the imaginary part is \\(\\sin\\theta\\).\nWithout the factor \\(i\\), the right side is a real number, so it cannot generally equal the complex number \\(e^{i\\theta}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-13",
+      "prompt": "Use Euler's formula to simplify \\(e^{i\\theta}+e^{i(\\theta+\\pi)}\\).",
+      "answer": "Use\n\\[\ne^{i(\\theta+\\pi)}=e^{i\\theta}e^{i\\pi}.\n\\]\nSince \\(e^{i\\pi}=-1\\),\n\\[\ne^{i(\\theta+\\pi)}=-e^{i\\theta}.\n\\]\nTherefore\n\\[\ne^{i\\theta}+e^{i(\\theta+\\pi)}=e^{i\\theta}-e^{i\\theta}=0.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-14",
+      "prompt": "Use Euler's formula to express \\(2\\cos\\theta\\) as a sum of complex exponentials.",
+      "answer": "From Euler's formula,\n\\[\n\\cos\\theta=\\frac{e^{i\\theta}+e^{-i\\theta}}{2}.\n\\]\nMultiply both sides by \\(2\\):\n\\[\n2\\cos\\theta=e^{i\\theta}+e^{-i\\theta}.\n\\]\nThis is useful because it turns a trigonometric expression into exponential terms.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-15",
+      "prompt": "For which real \\(\\theta\\in[0,2\\pi)\\) is \\(e^{i\\theta}=i\\)?",
+      "answer": "Euler's formula gives\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nFor this to equal \\(i=0+i\\), we need\n\\[\n\\cos\\theta=0,\\quad \\sin\\theta=1.\n\\]\nIn \\([0,2\\pi)\\), this occurs at\n\\[\n\\theta=\\frac{\\pi}{2}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-16",
+      "prompt": "For which real \\(\\theta\\in[0,2\\pi)\\) is \\(e^{i\\theta}\\) real?",
+      "answer": "The imaginary part of \\(e^{i\\theta}\\) is \\(\\sin\\theta\\).\nFor the value to be real,\n\\[\n\\sin\\theta=0.\n\\]\nIn \\([0,2\\pi)\\), this happens at\n\\[\n\\theta=0\\quad\\text{and}\\quad \\theta=\\pi.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-17",
+      "prompt": "For which real \\(\\theta\\) does \\(e^{i\\theta}=e^{-i\\theta}\\)?",
+      "answer": "Using Euler's formula,\n\\[\ne^{i\\theta}-e^{-i\\theta}=2i\\sin\\theta.\n\\]\nThe two exponentials are equal when this difference is zero:\n\\[\n2i\\sin\\theta=0.\n\\]\nSo\n\\[\n\\sin\\theta=0,\\quad \\theta=k\\pi,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-18",
+      "prompt": "Use Taylor series to justify Euler's formula by grouping real and imaginary terms.",
+      "answer": "Start with the exponential series:\n\\[\ne^{i\\theta}=1+i\\theta+\\frac{(i\\theta)^2}{2!}+\\frac{(i\\theta)^3}{3!}+\\frac{(i\\theta)^4}{4!}+\\cdots.\n\\]\nUsing powers of \\(i\\), this becomes\n\\[\n1+i\\theta-\\frac{\\theta^2}{2!}-i\\frac{\\theta^3}{3!}+\\frac{\\theta^4}{4!}+i\\frac{\\theta^5}{5!}-\\cdots.\n\\]\nGroup real and imaginary parts:\n\\[\n\\left(1-\\frac{\\theta^2}{2!}+\\frac{\\theta^4}{4!}-\\cdots\\right)+i\\left(\\theta-\\frac{\\theta^3}{3!}+\\frac{\\theta^5}{5!}-\\cdots\\right).\n\\]\nThese are the Taylor series for \\(\\cos\\theta\\) and \\(\\sin\\theta\\), so\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-19",
+      "prompt": "Prove \\(e^{i(\\theta+2\\pi)}=e^{i\\theta}\\) using Euler's formula.",
+      "answer": "Euler's formula gives\n\\[\ne^{i(\\theta+2\\pi)}=\\cos(\\theta+2\\pi)+i\\sin(\\theta+2\\pi).\n\\]\nSine and cosine are \\(2\\pi\\)-periodic, so\n\\[\n\\cos(\\theta+2\\pi)=\\cos\\theta,\\quad \\sin(\\theta+2\\pi)=\\sin\\theta.\n\\]\nTherefore\n\\[\ne^{i(\\theta+2\\pi)}=\\cos\\theta+i\\sin\\theta=e^{i\\theta}.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-euler-formula-20",
+      "prompt": "A learner argues that \\(e^{i\\pi}=e^i e^\\pi\\). Explain why this is incorrect and give the correct value.",
+      "answer": "The exponent law is\n\\[\ne^{a+b}=e^a e^b,\n\\]\nnot \\(e^{ab}=e^a e^b\\).\nThe exponent \\(i\\pi\\) is a product, not a sum, so \\(e^{i\\pi}\\ne e^i e^\\pi\\).\nUsing Euler's formula,\n\\[\ne^{i\\pi}=\\cos\\pi+i\\sin\\pi=-1+0i=-1.\n\\]\nThus the correct value is \\(-1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "series-sums",
+  "topicTitle": "Series Sums",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-series-sums-01",
+      "prompt": "State the linearity rule for \\(\\sum_{k=1}^{n}(ca_k+b_k)\\).",
+      "answer": "Linearity gives\n\\[\n\\sum_{k=1}^{n}(ca_k+b_k)=c\\sum_{k=1}^{n}a_k+\\sum_{k=1}^{n}b_k.\n\\]\nIt lets finite sums split and scalar multiples move outside.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-02",
+      "prompt": "What does it mean for a series to telescope?",
+      "answer": "A telescoping series has terms that cancel in the partial sums, often because each term is a difference such as \\(b_{k+1}-b_k\\). After expansion, only boundary terms remain.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-03",
+      "prompt": "Expand \\(\\sum_{k=1}^{4}(1/(k+1)-1/k)\\).",
+      "answer": "Substitute \\(k=1,2,3,4\\):\n\\[\n\\left(\\frac12-1\\right)+\\left(\\frac13-\\frac12\\right)+\\left(\\frac14-\\frac13\\right)+\\left(\\frac15-\\frac14\\right).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-04",
+      "prompt": "Use linearity to rewrite \\(\\sum_{k=1}^{n}(3k+2)\\).",
+      "answer": "Split the sum term by term:\n\\[\n\\sum_{k=1}^{n}(3k+2)=3\\sum_{k=1}^{n}k+\\sum_{k=1}^{n}2.\n\\]\nSince \\(2\\) is constant, the second sum is \\(2n\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-05",
+      "prompt": "Compute \\(\\sum_{k=1}^{5}(2k-1)\\).",
+      "answer": "Expand or recognize the first five odd numbers:\n\\[\n1+3+5+7+9=25.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-06",
+      "prompt": "Compute \\(\\sum_{k=1}^{4}(k^2+k)\\).",
+      "answer": "Use linearity or expand directly:\n\\[\n(1+1)+(4+2)+(9+3)+(16+4)=2+6+12+20=40.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-07",
+      "prompt": "Find \\(\\sum_{k=1}^{n}(1/(k+1)-1/k)\\).",
+      "answer": "Expand the partial sum. Middle terms cancel:\n\\[\n\\left(\\frac12-1\\right)+\\left(\\frac13-\\frac12\\right)+\\cdots+\\left(\\frac1{n+1}-\\frac1n\\right).\n\\]\nOnly \\(1/(n+1)\\) and \\(-1\\) remain, so the sum is \\(\\frac1{n+1}-1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-08",
+      "prompt": "Find \\(\\sum_{k=1}^{n}(k+1-k)\\).",
+      "answer": "Each term simplifies to \\(1\\), so\n\\[\n\\sum_{k=1}^{n}(k+1-k)=\\sum_{k=1}^{n}1=n.\n\\]\nThis also telescopes as \\((2-1)+(3-2)+\\cdots+(n+1-n)=n\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-09",
+      "prompt": "Compute \\(\\sum_{k=1}^{n}(4k-3)\\) in terms of \\(n\\).",
+      "answer": "Use linearity:\n\\[\n\\sum_{k=1}^{n}(4k-3)=4\\sum_{k=1}^{n}k-3n.\n\\]\nSince \\(\\sum k=n(n+1)/2\\),\n\\[\nS_n=2n(n+1)-3n=2n^2-n.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-10",
+      "prompt": "Find the infinite sum \\(\\sum_{k=1}^{\\infty}(1/k-1/(k+1))\\).",
+      "answer": "The partial sum is\n\\[\nS_n=\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\cdots+\\left(\\frac1n-\\frac1{n+1}\\right)=1-\\frac1{n+1}.\n\\]\nTaking \\(n\\to\\infty\\) gives \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-11",
+      "prompt": "Explain why the order of signs matters in \\(\\sum_{k=1}^{n}(1/(k+1)-1/k)\\).",
+      "answer": "With this sign order, the partial sum is \\(1/(n+1)-1\\). Reversing the signs gives \\(1-1/(n+1)\\). The cancellation pattern is similar, but the surviving boundary terms have opposite signs.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-12",
+      "prompt": "A learner cancels all terms in an infinite telescoping series and gets \\(0\\). Explain the correct method.",
+      "answer": "First form a finite partial sum, cancel only within that finite sum, then take the limit. Infinite cancellation without tracking boundary terms can miss the first and last surviving terms, which determine the answer.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-13",
+      "prompt": "Evaluate \\(\\sum_{k=1}^{n}\\frac{1}{k(k+1)}\\) using telescoping.",
+      "answer": "Use partial fractions:\n\\[\n\\frac{1}{k(k+1)}=\\frac1k-\\frac1{k+1}.\n\\]\nThus\n\\[\nS_n=\\left(1-\\frac12\\right)+\\cdots+\\left(\\frac1n-\\frac1{n+1}\\right)=1-\\frac1{n+1}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-14",
+      "prompt": "Find \\(\\sum_{k=2}^{n}(1/(k-1)-1/k)\\).",
+      "answer": "Expand from \\(k=2\\):\n\\[\n\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\cdots+\\left(\\frac1{n-1}-\\frac1n\\right).\n\\]\nThe middle terms cancel, leaving \\(1-1/n\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-15",
+      "prompt": "Find \\(\\sum_{k=1}^{n}(b_{k+1}-b_k)\\) and state what survives.",
+      "answer": "Write out the terms:\n\\[\n(b_2-b_1)+(b_3-b_2)+\\cdots+(b_{n+1}-b_n).\n\\]\nAll middle \\(b_2,\\ldots,b_n\\) cancel, leaving\n\\[\nb_{n+1}-b_1.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-16",
+      "prompt": "Use telescoping to compute \\(\\sum_{k=1}^{\\infty}\\frac{2}{(k+1)(k+3)}\\).",
+      "answer": "Decompose:\n\\[\n\\frac{2}{(k+1)(k+3)}=\\frac{1}{k+1}-\\frac{1}{k+3}.\n\\]\nThe partial sum is \\(1/2+1/3-1/(n+2)-1/(n+3)\\). Taking the limit gives\n\\[\n\\frac12+\\frac13=\\frac56.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-17",
+      "prompt": "A finite energy correction is \\(\\sum_{k=1}^{n}(E_{k+1}-E_k)\\). Express the total correction in boundary terms.",
+      "answer": "The sum telescopes:\n\\[\n(E_2-E_1)+(E_3-E_2)+\\cdots+(E_{n+1}-E_n).\n\\]\nAll interior energy levels cancel, leaving\n\\[\nE_{n+1}-E_1.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-18",
+      "prompt": "Diagnose the error: \\(\\sum_{k=1}^{\\infty}(1/(k+1)-1/k)=0\\) because every term cancels.",
+      "answer": "The boundary terms do not all cancel. The finite partial sum is\n\\[\nS_n=\\frac1{n+1}-1.\n\\]\nTaking the limit gives \\(-1\\), not \\(0\\). The error is cancelling an infinite list without first using finite partial sums.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-19",
+      "prompt": "Show that shifting an index requires shifting limits by rewriting \\(\\sum_{k=1}^{n}a_{k+1}\\) with index \\(j=k+1\\).",
+      "answer": "Let \\(j=k+1\\). When \\(k=1\\), \\(j=2\\); when \\(k=n\\), \\(j=n+1\\). Therefore\n\\[\n\\sum_{k=1}^{n}a_{k+1}=\\sum_{j=2}^{n+1}a_j.\n\\]\nKeeping the old limits would change the terms being summed.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-series-sums-20",
+      "prompt": "Prove that \\(\\sum_{k=1}^{n}(2k+1)\\) equals \\(n^2+2n\\).",
+      "answer": "Use linearity:\n\\[\n\\sum_{k=1}^{n}(2k+1)=2\\sum_{k=1}^{n}k+\\sum_{k=1}^{n}1.\n\\]\nThen\n\\[\n2\\cdot\\frac{n(n+1)}2+n=n(n+1)+n=n^2+2n.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

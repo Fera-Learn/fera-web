@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "eigenvectors",
+  "topicTitle": "Eigenvectors",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-eigenvectors-01",
+      "prompt": "What condition must a non-zero vector \\(\\mathbf v\\) satisfy to be an eigenvector of \\(A\\)?",
+      "answer": "It must satisfy\n\\[\nA\\mathbf v=\\lambda\\mathbf v\n\\]\nfor some scalar \\(\\lambda\\). The vector \\(\\mathbf v\\) must be non-zero.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-02",
+      "prompt": "Why is \\(\\mathbf0\\) not called an eigenvector?",
+      "answer": "The zero vector always satisfies \\(A\\mathbf0=\\lambda\\mathbf0\\) for any \\(\\lambda\\), so it would not identify a special direction. Eigenvectors must be non-zero to represent directions preserved by the map.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-03",
+      "prompt": "Check whether \\((1,0)\\) is an eigenvector of \\(A=\\begin{pmatrix}5&2\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA(1,0)=(5,0)=5(1,0).\n\\]\nThe output is a scalar multiple of the input, so \\((1,0)\\) is an eigenvector with eigenvalue \\(5\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-04",
+      "prompt": "If \\(\\mathbf v\\) is an eigenvector with eigenvalue \\(4\\), what is \\(A(3\\mathbf v)\\)?",
+      "answer": "Use linearity:\n\\[\nA(3\\mathbf v)=3A\\mathbf v=3(4\\mathbf v)=12\\mathbf v.\n\\]\nEquivalently, \\(3\\mathbf v\\) is also an eigenvector with eigenvalue \\(4\\), so \\(A(3\\mathbf v)=4(3\\mathbf v)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-05",
+      "prompt": "Find an eigenvector for \\(A=\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\) with eigenvalue \\(2\\).",
+      "answer": "Solve \\((A-2I)\\mathbf v=\\mathbf0\\):\n\\[\nA-2I=\\begin{pmatrix}0&0\\\\0&3\\end{pmatrix}.\n\\]\nThe equation gives \\(3y=0\\), so \\(y=0\\), while \\(x\\) is free. One eigenvector is \\((1,0)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-06",
+      "prompt": "Find an eigenvector for \\(A=\\begin{pmatrix}1&0\\\\0&-3\\end{pmatrix}\\) with eigenvalue \\(-3\\).",
+      "answer": "Solve \\((A+3I)\\mathbf v=\\mathbf0\\):\n\\[\nA+3I=\\begin{pmatrix}4&0\\\\0&0\\end{pmatrix}.\n\\]\nThus \\(4x=0\\), so \\(x=0\\), and \\(y\\) is free. One eigenvector is \\((0,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-07",
+      "prompt": "Check whether \\((1,1)\\) is an eigenvector of \\(A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA(1,1)=(3,3)=3(1,1).\n\\]\nThe output is a scalar multiple of the input, so \\((1,1)\\) is an eigenvector with eigenvalue \\(3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-08",
+      "prompt": "Check whether \\((1,2)\\) is an eigenvector of \\(A=\\begin{pmatrix}1&0\\\\0&3\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA(1,2)=(1,6).\n\\]\nIf this were a scalar multiple of \\((1,2)\\), the first component would give scalar \\(1\\), but the second component would give scalar \\(3\\). These conflict, so \\((1,2)\\) is not an eigenvector.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-09",
+      "prompt": "Find eigenvectors for \\(A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}\\) with eigenvalue \\(1\\).",
+      "answer": "Solve\n\\[\n(A-I)\\mathbf v=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\mathbf0.\n\\]\nThis gives \\(x+y=0\\), so \\(y=-x\\). Hence eigenvectors are non-zero multiples of \\((1,-1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-10",
+      "prompt": "Find eigenvectors for \\(A=\\begin{pmatrix}4&1\\\\0&4\\end{pmatrix}\\) with eigenvalue \\(4\\).",
+      "answer": "Solve\n\\[\n(A-4I)\\mathbf v=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\mathbf0.\n\\]\nThe equation is \\(y=0\\), with \\(x\\) free. The eigenvectors are all non-zero multiples of \\((1,0)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-11",
+      "prompt": "Explain why any non-zero scalar multiple of an eigenvector is also an eigenvector.",
+      "answer": "If \\(A\\mathbf v=\\lambda\\mathbf v\\) and \\(c\\ne0\\), then\n\\[\nA(c\\mathbf v)=cA\\mathbf v=c\\lambda\\mathbf v=\\lambda(c\\mathbf v).\n\\]\nSince \\(c\\mathbf v\\ne\\mathbf0\\), it is also an eigenvector with the same eigenvalue.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-12",
+      "prompt": "Interpret an eigenvector of a stretching matrix physically.",
+      "answer": "An eigenvector gives a direction that the stretching does not rotate. If \\(A\\mathbf v=\\lambda\\mathbf v\\), a displacement along \\(\\mathbf v\\) remains along the same line after the map acts. The value \\(\\lambda\\) tells the stretch, shrink, or reversal factor.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-13",
+      "prompt": "For which \\(k\\) is \\((1,1)\\) an eigenvector of \\(A=\\begin{pmatrix}2&k\\\\1&3\\end{pmatrix}\\)?",
+      "answer": "Compute\n\\[\nA(1,1)=(2+k,4).\n\\]\nFor this to be a multiple of \\((1,1)\\), the two components must be equal:\n\\[\n2+k=4.\n\\]\nThus \\(k=2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-14",
+      "prompt": "For which \\(a\\) is \\((1,-1)\\) an eigenvector of \\(A=\\begin{pmatrix}a&2\\\\3&1\\end{pmatrix}\\)?",
+      "answer": "Compute\n\\[\nA(1,-1)=(a-2,2).\n\\]\nA multiple of \\((1,-1)\\) has form \\((\\lambda,-\\lambda)\\). Thus \\(2=-\\lambda\\), so \\(\\lambda=-2\\). Then the first component must be \\(-2\\):\n\\[\na-2=-2,\n\\]\nso \\(a=0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-15",
+      "prompt": "Find eigenvectors for \\(A=\\begin{pmatrix}3&2\\\\0&1\\end{pmatrix}\\) for each eigenvalue.",
+      "answer": "The eigenvalues are \\(3\\) and \\(1\\). For \\(\\lambda=3\\):\n\\[\nA-3I=\\begin{pmatrix}0&2\\\\0&-2\\end{pmatrix},\n\\]\nso \\(y=0\\), giving \\((1,0)\\). For \\(\\lambda=1\\):\n\\[\nA-I=\\begin{pmatrix}2&2\\\\0&0\\end{pmatrix},\n\\]\nso \\(x+y=0\\), giving \\((1,-1)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-16",
+      "prompt": "Find all \\(t\\) such that \\((1,t)\\) is an eigenvector of \\(A=\\begin{pmatrix}0&1\\\\2&1\\end{pmatrix}\\).",
+      "answer": "Compute\n\\[\nA(1,t)=(t,2+t).\n\\]\nIf this equals \\(\\lambda(1,t)=(\\lambda,\\lambda t)\\), then \\(\\lambda=t\\) and\n\\[\n2+t=t^2.\n\\]\nSo \\(t^2-t-2=0\\), hence\n\\[\n(t-2)(t+1)=0.\n\\]\nThus \\(t=2\\) or \\(t=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-17",
+      "prompt": "A matrix has eigenvectors \\((1,0)\\) and \\((1,1)\\) with eigenvalues \\(2\\) and \\(5\\). Find \\(A(3,2)\\).",
+      "answer": "Express \\((3,2)\\) in the eigenvector basis:\n\\[\na(1,0)+b(1,1)=(a+b,b)=(3,2).\n\\]\nSo \\(b=2\\) and \\(a=1\\). Then\n\\[\nA(3,2)=1\\cdot2(1,0)+2\\cdot5(1,1)=(2,0)+(10,10)=(12,10).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-18",
+      "prompt": "A student finds \\((0,0)\\) while solving \\((A-\\lambda I)\\mathbf v=\\mathbf0\\) and lists it as an eigenvector. Explain the error.",
+      "answer": "The zero vector always solves any homogeneous system, including \\((A-\\lambda I)\\mathbf v=\\mathbf0\\). But it does not describe a preserved direction, and the definition of eigenvector requires \\(\\mathbf v\\ne\\mathbf0\\). The student should list non-zero vectors in the solution space, not \\((0,0)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-19",
+      "prompt": "Prove that eigenvectors belonging to distinct eigenvalues of a \\(2\\times2\\) matrix are linearly independent.",
+      "answer": "Let \\(A\\mathbf v=\\lambda\\mathbf v\\) and \\(A\\mathbf w=\\mu\\mathbf w\\), with \\(\\lambda\\ne\\mu\\). Suppose \\(\\mathbf w=c\\mathbf v\\). Then\n\\[\nA\\mathbf w=A(c\\mathbf v)=c\\lambda\\mathbf v=\\lambda\\mathbf w.\n\\]\nBut also \\(A\\mathbf w=\\mu\\mathbf w\\). Hence \\((\\lambda-\\mu)\\mathbf w=\\mathbf0\\). Since \\(\\lambda\\ne\\mu\\) and \\(\\mathbf w\\ne\\mathbf0\\), this is impossible. So the vectors cannot be scalar multiples and are independent in \\(\\mathbb R^2\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-eigenvectors-20",
+      "prompt": "Explain why solving \\(A\\mathbf v=\\mathbf0\\) usually does not find eigenvectors for a non-zero eigenvalue.",
+      "answer": "For eigenvalue \\(\\lambda\\), the correct equation is\n\\[\n(A-\\lambda I)\\mathbf v=\\mathbf0.\n\\]\nSolving \\(A\\mathbf v=\\mathbf0\\) is the special case \\(\\lambda=0\\). If \\(\\lambda\\ne0\\), using \\(A\\mathbf v=\\mathbf0\\) searches for vectors sent to zero, not vectors scaled by \\(\\lambda\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

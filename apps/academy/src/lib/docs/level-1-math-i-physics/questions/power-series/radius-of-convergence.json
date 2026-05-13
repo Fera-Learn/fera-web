@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "radius-of-convergence",
+  "topicTitle": "Radius of Convergence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-radius-of-convergence-01",
+      "prompt": "What does the radius of convergence \\(R\\) measure?",
+      "answer": "It measures the distance from the centre to the edge of the main convergence interval. The interior condition has the form \\(|x-c|<R\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-02",
+      "prompt": "For centre \\(2\\) and radius \\(7\\), write the radius condition.",
+      "answer": "Use \\(|x-c|<R\\). With \\(c=2\\) and \\(R=7\\), the condition is \\(|x-2|<7\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-03",
+      "prompt": "Convert \\(|x+1|<3\\) to an open interval.",
+      "answer": "This means \\(-3<x+1<3\\). Subtract \\(1\\) throughout to get \\(-4<x<2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-04",
+      "prompt": "If the ratio-test limit is \\(\\frac{|x-5|}{4}\\), find \\(R\\).",
+      "answer": "Require \\(\\frac{|x-5|}{4}<1\\). Then \\(|x-5|<4\\), so the radius is \\(R=4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-05",
+      "prompt": "Find the radius of \\(\\sum_{n=0}^{\\infty}\\left(\\frac{x}{6}\\right)^n\\).",
+      "answer": "This is geometric with ratio \\(\\frac{x}{6}\\). Convergence requires \\(\\left|\\frac{x}{6}\\right|<1\\), so \\(|x|<6\\). The radius is \\(6\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-06",
+      "prompt": "Find the radius of \\(\\sum_{n=0}^{\\infty}2^n(x+3)^n\\).",
+      "answer": "The ratio is \\(2(x+3)\\). Require \\(|2(x+3)|<1\\), so \\(|x+3|<\\frac{1}{2}\\). The radius is \\(R=\\frac{1}{2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-07",
+      "prompt": "Use the ratio test to find \\(R\\) for \\(\\sum_{n=1}^{\\infty}\\frac{(x-1)^n}{n}\\).",
+      "answer": "Let \\(t_n=\\frac{(x-1)^n}{n}\\). Then \\(\\left|\\frac{t_{n+1}}{t_n}\\right|=|x-1|\\frac{n}{n+1}\\), which tends to \\(|x-1|\\). Require \\(|x-1|<1\\), so \\(R=1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-08",
+      "prompt": "Find the centre and radius of \\(\\sum_{n=0}^{\\infty}\\frac{(x-4)^n}{5^n}\\).",
+      "answer": "The series is geometric with ratio \\(\\frac{x-4}{5}\\). The centre is \\(4\\). Convergence requires \\(|x-4|<5\\), so \\(R=5\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-09",
+      "prompt": "Find \\(R\\) for \\(\\sum_{n=0}^{\\infty}\\frac{(x+2)^n}{n!}\\).",
+      "answer": "The ratio is \\(\\frac{|x+2|}{n+1}\\), which tends to \\(0\\) for every fixed \\(x\\). Therefore the series converges for every real \\(x\\), so \\(R=\\infty\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-10",
+      "prompt": "Find \\(R\\) for \\(\\sum_{n=0}^{\\infty}n!(x-2)^n\\).",
+      "answer": "The ratio is \\((n+1)|x-2|\\). If \\(x\\ne2\\), this tends to \\(\\infty\\), so the series diverges. Only the centre can work, so \\(R=0\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-11",
+      "prompt": "If the ratio-test limit is \\(8|x+1|\\), find the radius and centre.",
+      "answer": "Require \\(8|x+1|<1\\), so \\(|x+1|<\\frac{1}{8}\\). The centre is \\(-1\\) and the radius is \\(\\frac{1}{8}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-12",
+      "prompt": "A student calls \\((1,9)\\) the radius of convergence. Correct the language if the centre is \\(5\\).",
+      "answer": "\\((1,9)\\) is an interval, not a radius. The radius is the distance from the centre \\(5\\) to either endpoint, which is \\(4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-13",
+      "prompt": "Find \\(R\\) for \\(\\sum_{n=1}^{\\infty}\\frac{4^n(x-3)^n}{n^2}\\).",
+      "answer": "The ratio tends to \\(4|x-3|\\) because \\(\\frac{n^2}{(n+1)^2}\\) tends to \\(1\\). Require \\(4|x-3|<1\\), so \\(R=\\frac{1}{4}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-14",
+      "prompt": "Find \\(R\\) for \\(\\sum_{n=0}^{\\infty}\\frac{(n+1)(x+2)^n}{3^n}\\).",
+      "answer": "The ratio is \\(\\frac{n+2}{n+1}\\frac{|x+2|}{3}\\). The first factor tends to \\(1\\), so require \\(\\frac{|x+2|}{3}<1\\). Thus \\(R=3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-15",
+      "prompt": "For \\(\\sum_{n=0}^{\\infty}k^n(x-c)^n\\) with \\(k>0\\), find \\(R\\).",
+      "answer": "The ratio is \\(k(x-c)\\). Convergence requires \\(|k(x-c)|<1\\), so \\(|x-c|<\\frac{1}{k}\\). Therefore \\(R=\\frac{1}{k}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-16",
+      "prompt": "If \\(\\lim_{n\\to\\infty}\\left|\\frac{a_{n+1}}{a_n}\\right|=L>0\\), derive \\(R\\) for \\(\\sum_{n=0}^{\\infty}a_n(x-c)^n\\).",
+      "answer": "The term ratio tends to \\(L|x-c|\\). The ratio test requires \\(L|x-c|<1\\), so \\(|x-c|<\\frac{1}{L}\\). Thus \\(R=\\frac{1}{L}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-17",
+      "prompt": "Find \\(R\\) if the ratio-test limit is \\(|x|\\) times \\(\\lim_{n\\to\\infty}\\frac{2n+1}{5n-3}\\).",
+      "answer": "The coefficient limit is \\(\\frac{2}{5}\\). The ratio-test limit is \\(\\frac{2|x|}{5}\\). Require \\(\\frac{2|x|}{5}<1\\), so \\(|x|<\\frac{5}{2}\\). Hence \\(R=\\frac{5}{2}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-18",
+      "prompt": "Diagnose the error: after \\(|x-1|<2\\), a student says endpoints must converge because they are exactly distance \\(2\\).",
+      "answer": "The radius condition only guarantees convergence for distance strictly less than \\(2\\). At endpoints the ratio test is usually inconclusive, so each endpoint must be tested separately.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-19",
+      "prompt": "Why does \\(\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\) have infinite radius?",
+      "answer": "The ratio is \\(\\frac{|x|}{n+1}\\). For any fixed \\(x\\), this tends to \\(0\\), which is less than \\(1\\). The factorial denominator eventually dominates every fixed power.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-radius-of-convergence-20",
+      "prompt": "Compare the radii of \\(\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\) and \\(\\sum_{n=0}^{\\infty}n!x^n\\).",
+      "answer": "For \\(\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\), the ratio tends to \\(0\\) for every \\(x\\), so \\(R=\\infty\\). For \\(\\sum_{n=0}^{\\infty}n!x^n\\), the ratio is \\((n+1)|x|\\), which diverges for \\(x\\ne0\\), so \\(R=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

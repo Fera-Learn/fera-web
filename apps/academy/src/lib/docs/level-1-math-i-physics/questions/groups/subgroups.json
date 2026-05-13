@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "subgroups",
+  "topicTitle": "Subgroups",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-subgroups-01",
+      "prompt": "What does \\(H\\le G\\) mean?",
+      "answer": "It means \\(H\\) is a subgroup of \\(G\\). The subset \\(H\\) is itself a group using the same operation as \\(G\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-02",
+      "prompt": "Does a subgroup use a new operation or the parent group's operation \\(*\\)?",
+      "answer": "A subgroup uses the parent group's operation. It is not allowed to invent a different operation on the subset.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-03",
+      "prompt": "Name one subgroup of \\((\\mathbb Z,+)\\).",
+      "answer": "The even integers \\(2\\mathbb Z\\) form a subgroup of \\((\\mathbb Z,+)\\). They contain \\(0\\), are closed under addition, and contain additive inverses.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-04",
+      "prompt": "What identity element must a subgroup of \\((\\mathbb Z,+)\\) contain?",
+      "answer": "It must contain the parent identity, which is \\(0\\). A subgroup cannot choose a different identity from the one used in the parent group.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-05",
+      "prompt": "Show that \\(2\\mathbb Z\\) is closed under addition.",
+      "answer": "Let \\(2m,2n\\in2\\mathbb Z\\), where \\(m,n\\in\\mathbb Z\\). Then \\(2m+2n=2(m+n)\\). Since \\(m+n\\in\\mathbb Z\\), the sum is in \\(2\\mathbb Z\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-06",
+      "prompt": "Show that \\(2\\mathbb Z\\) is closed under additive inverses.",
+      "answer": "Let \\(2m\\in2\\mathbb Z\\). Its additive inverse is \\(-(2m)=2(-m)\\). Since \\(-m\\in\\mathbb Z\\), the inverse is also in \\(2\\mathbb Z\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-07",
+      "prompt": "Is \\(\\{1,-1\\}\\) a subgroup of the non-zero real numbers under multiplication?",
+      "answer": "Yes. It is non-empty, products stay in the set, and each element is its own multiplicative inverse. It uses the same multiplication operation as the parent group.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-08",
+      "prompt": "Why is \\(\\{1,2\\}\\) not a subgroup of the non-zero real numbers under multiplication?",
+      "answer": "The inverse of \\(2\\) under multiplication is \\(1/2\\), but \\(1/2\notin\\{1,2\\}\\). Since inverses must stay inside the subset, it is not a subgroup.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-09",
+      "prompt": "Test whether \\(3\\mathbb Z\\) is a subgroup of \\((\\mathbb Z,+)\\).",
+      "answer": "It is non-empty because \\(0=3\\cdot0\\in3\\mathbb Z\\). If \\(3m,3n\\in3\\mathbb Z\\), then \\(3m+3n=3(m+n)\\in3\\mathbb Z\\). The inverse of \\(3m\\) is \\(-3m=3(-m)\\in3\\mathbb Z\\). Therefore \\(3\\mathbb Z\\le\\mathbb Z\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-10",
+      "prompt": "Test whether the positive integers are a subgroup of \\((\\mathbb Z,+)\\).",
+      "answer": "The positive integers do not contain the parent identity \\(0\\). Also, the inverse of \\(1\\) under addition is \\(-1\\), which is not positive. Therefore they are not a subgroup of \\((\\mathbb Z,+)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-11",
+      "prompt": "Why does associativity not need a new proof when testing a subgroup \\(H\\le G\\)?",
+      "answer": "The subgroup uses the same operation as \\(G\\). Since associativity holds for all elements of \\(G\\), it automatically holds for the elements of \\(H\\), which are also elements of \\(G\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-12",
+      "prompt": "In \\(D_4\\), explain why \\(\\{e,r,r^2,r^3\\}\\) is a subgroup.",
+      "answer": "This subset contains the identity \\(e\\). Products of rotations are rotations, so it is closed. The inverse of \\(r^k\\) is \\(r^{4-k}\\) modulo \\(4\\), which is also in the subset. Associativity is inherited from \\(D_4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-13",
+      "prompt": "Test whether \\(\\{e,r^2\\}\\) is a subgroup of the rotations of a square.",
+      "answer": "The set contains \\(e\\). Closure holds because \\(r^2r^2=r^4=e\\), and multiplying by \\(e\\) changes nothing. Each element is its own inverse: \\(e^{-1}=e\\) and \\((r^2)^{-1}=r^2\\). Hence it is a subgroup.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-14",
+      "prompt": "Test whether \\(\\{e,s\\}\\) is a subgroup of a dihedral group when \\(s\\) is a reflection.",
+      "answer": "It contains \\(e\\). Since \\(s^2=e\\), products of elements in \\(\\{e,s\\}\\) remain in \\(\\{e,s\\}\\). Also \\(s^{-1}=s\\) and \\(e^{-1}=e\\). Associativity is inherited, so \\(\\{e,s\\}\\) is a subgroup.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-15",
+      "prompt": "Show that the intersection of two subgroups \\(H\\) and \\(K\\) of \\(G\\) is a subgroup of \\(G\\).",
+      "answer": "Both \\(H\\) and \\(K\\) contain \\(e\\), so \\(H\\cap K\\) is non-empty. If \\(a,b\\in H\\cap K\\), then they are in both subgroups, so \\(ab\\in H\\) and \\(ab\\in K\\); hence \\(ab\\in H\\cap K\\). If \\(a\\in H\\cap K\\), then \\(a^{-1}\\) is in both \\(H\\) and \\(K\\). Thus \\(H\\cap K\\le G\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-16",
+      "prompt": "Why is the union of two subgroups not always a subgroup? Give an example in \\((\\mathbb Z,+)\\).",
+      "answer": "Take \\(2\\mathbb Z\\) and \\(3\\mathbb Z\\). Both are subgroups. But \\(2\\in2\\mathbb Z\\) and \\(3\\in3\\mathbb Z\\), so both are in the union, while \\(2+3=5\\) is in neither \\(2\\mathbb Z\\) nor \\(3\\mathbb Z\\). The union is not closed, so it is not a subgroup.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-17",
+      "prompt": "Let \\(H\\) be a non-empty finite subset of a group \\(G\\) that is closed under products. Explain why \\(H\\) is a subgroup.",
+      "answer": "Choose \\(h\\in H\\). Since \\(H\\) is finite and closed under products, the powers \\(h,h^2,h^3,\\ldots\\) must eventually repeat. Cancellation in \\(G\\) gives a positive power \\(h^k=e\\), so \\(e\\in H\\). Then \\(h^{k-1}\\in H\\) and \\(h h^{k-1}=e\\), so \\(h^{-1}\\in H\\). Thus inverses exist in \\(H\\), and \\(H\\le G\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-18",
+      "prompt": "A student tests a subgroup candidate by changing multiplication to addition inside the subset. Diagnose the error.",
+      "answer": "A subgroup must use the same operation \\(*\\) as the parent group. Changing the operation creates a different algebraic structure and does not prove anything about being a subgroup of the original group. The subset must be tested using the parent operation only.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-19",
+      "prompt": "Prove that every subgroup contains the parent identity.",
+      "answer": "Let \\(H\\le G\\). Since \\(H\\) is a group under the same operation, it has an identity, say \\(e_H\\). For any \\(h\\in H\\), the equation \\(e_Hh=h\\) holds. In the parent group, the identity satisfying this role is unique, so \\(e_H=e_G\\). Therefore the subgroup contains the parent identity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-subgroups-20",
+      "prompt": "If \\(H\\le G\\) and \\(g\\in G\\), why is the set \\(gHg^{-1}=\\{ghg^{-1}:h\\in H\\}\\) a subgroup?",
+      "answer": "It is non-empty because \\(geg^{-1}=e\\) is included. If \\(gh_1g^{-1}\\) and \\(gh_2g^{-1}\\) are elements, their product is \\(gh_1g^{-1}gh_2g^{-1}=g(h_1h_2)g^{-1}\\), and \\(h_1h_2\\in H\\). The inverse of \\(ghg^{-1}\\) is \\(g h^{-1} g^{-1}\\), and \\(h^{-1}\\in H\\). Therefore the set is a subgroup.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

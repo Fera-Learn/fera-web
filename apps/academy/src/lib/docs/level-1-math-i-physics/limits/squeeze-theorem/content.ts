@@ -14,9 +14,9 @@ The function f(x) is "squeezed" between g(x) and h(x), both of which approach th
 
 Think of f(x) as being trapped between two "walls" g(x) and h(x). If both walls approach the same height L as x approaches a, then f(x) must also approach that height—it's squeezed to the same limit.
 
-### Classic Example: $\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)$
+### Classic Example: \(\lim_{x \to 0} x^2 \sin\left(\frac{1}{x}\right)\)
 
-The function $\sin(1/x)$ oscillates wildly as x → 0, but it's always bounded between -1 and 1:
+The function \(\sin(1/x)\) oscillates wildly as x → 0, but it's always bounded between -1 and 1:
 
 <Equation label="Bounded Sine" tex="-1 \leq \sin\left(\frac{1}{x}\right) \leq 1" />
 

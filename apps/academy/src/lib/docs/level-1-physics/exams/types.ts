@@ -17,7 +17,7 @@ export type Level1PhysicsExamQuestion = {
 };
 
 export type Level1PhysicsExamPaper = {
-  constants: Array<{
+  constants?: Array<{
     label: string;
     value: string;
   }>;

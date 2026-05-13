@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "interval-of-convergence",
+  "topicTitle": "Interval of Convergence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-interval-of-convergence-01",
+      "prompt": "What is an interval of convergence for a power series in \\(x\\)?",
+      "answer": "It is the full set of real \\(x\\)-values where a power series converges, including exactly the endpoints that pass separate tests.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-02",
+      "prompt": "If \\(c=1\\), \\(R=2\\), and neither endpoint converges, what is the interval?",
+      "answer": "The open interval is \\((1-2,1+2)=(-1,3)\\). Since neither endpoint converges, the interval remains \\((-1,3)\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-03",
+      "prompt": "If \\(c=4\\), \\(R=3\\), and both endpoints converge, write the interval.",
+      "answer": "The endpoints are \\(1\\) and \\(7\\). Since both endpoints converge, include both: \\([1,7]\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-04",
+      "prompt": "Find the centre and radius of the open interval \\((-2,6)\\).",
+      "answer": "The centre is the midpoint, \\(\\frac{-2+6}{2}=2\\). The radius is the distance from \\(2\\) to \\(6\\), which is \\(4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-05",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=0}^{\\infty}x^n\\).",
+      "answer": "It is geometric with ratio \\(x\\), so \\(|x|<1\\). At \\(x=1\\) and \\(x=-1\\) the terms do not give a convergent series. The interval is \\((-1,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-06",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{x^n}{n}\\).",
+      "answer": "The radius condition is \\(|x|<1\\). At \\(x=1\\) the harmonic series diverges. At \\(x=-1\\) the alternating harmonic series converges. The interval is \\([-1,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-07",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{(x-2)^n}{n^2}\\).",
+      "answer": "The radius condition is \\(|x-2|<1\\), so \\(1<x<3\\). At both endpoints the absolute series is comparable to \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\), which converges. The interval is \\([1,3]\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-08",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{(x+2)^n}{n}\\).",
+      "answer": "The radius condition is \\(|x+2|<1\\), so \\(-3<x<-1\\). At \\(x=-3\\) the alternating harmonic series converges; at \\(x=-1\\) the harmonic series diverges. The interval is \\([-3,-1)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-09",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{(x-3)^n}{n2^n}\\).",
+      "answer": "The interior condition is \\(\\left|\\frac{x-3}{2}\\right|<1\\), so \\(1<x<5\\). At \\(x=1\\) the alternating harmonic series converges; at \\(x=5\\) the harmonic series diverges. The interval is \\([1,5)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-10",
+      "prompt": "Find the interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{(x+1)^n}{n^3}\\).",
+      "answer": "The interior condition is \\(|x+1|<1\\), so \\(-2<x<0\\). Both endpoints give series dominated by \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^3}\\), which converges. The interval is \\([-2,0]\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-11",
+      "prompt": "Why does the ratio test not usually decide endpoints such as \\(x=c\\pm R\\)?",
+      "answer": "At endpoints the ratio-test limit often equals \\(1\\). The ratio test is inconclusive at \\(1\\), so each endpoint must be substituted into the original series and tested separately.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-12",
+      "prompt": "If \\(R=\\infty\\), what is the interval of convergence?",
+      "answer": "The series converges for every real \\(x\\). The interval is all real numbers, written as \\((-\\infty,\\infty)\\). There are no finite endpoints to test.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-13",
+      "prompt": "Find the interval of \\(\\sum_{n=1}^{\\infty}\\frac{3^n(x-1)^n}{n}\\).",
+      "answer": "The interior condition is \\(|3(x-1)|<1\\), so \\(\\frac{2}{3}<x<\\frac{4}{3}\\). The left endpoint gives an alternating harmonic series and converges; the right endpoint gives a harmonic series and diverges. The interval is \\([\\frac{2}{3},\\frac{4}{3})\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-14",
+      "prompt": "Find the interval of \\(\\sum_{n=1}^{\\infty}\\frac{n(x+4)^n}{2^n}\\).",
+      "answer": "The interior condition is \\(\\left|\\frac{x+4}{2}\\right|<1\\), so \\(-6<x<-2\\). At both endpoints the terms have size \\(n\\) and do not tend to zero. The interval is \\((-6,-2)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-15",
+      "prompt": "For \\(\\sum_{n=1}^{\\infty}\\frac{(x-c)^n}{n}\\), determine the interval in terms of \\(c\\).",
+      "answer": "The radius is \\(1\\). At \\(x=c-1\\) the alternating harmonic series converges. At \\(x=c+1\\) the harmonic series diverges. The interval is \\([c-1,c+1)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-16",
+      "prompt": "For \\(\\sum_{n=1}^{\\infty}\\frac{(x-c)^n}{n^2}\\), determine the interval in terms of \\(c\\).",
+      "answer": "The radius is \\(1\\). At both endpoints the absolute series is \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\), which converges. The interval is \\([c-1,c+1]\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-17",
+      "prompt": "A series has centre \\(0\\), radius \\(4\\), left endpoint convergent, and right endpoint divergent. Write the interval.",
+      "answer": "The endpoints are \\(-4\\) and \\(4\\). Include \\(-4\\) because it converges and exclude \\(4\\) because it diverges. The interval is \\([-4,4)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-18",
+      "prompt": "Diagnose the error: after finding \\(R=3\\), a student writes a closed interval without testing endpoints.",
+      "answer": "The radius gives only the open interval from \\(c-3\\) to \\(c+3\\). Square brackets claim endpoint convergence, which is not known until each endpoint is tested.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-19",
+      "prompt": "Give two same-radius examples with different endpoint behaviour.",
+      "answer": "Both \\(\\sum_{n=1}^{\\infty}\\frac{x^n}{n}\\) and \\(\\sum_{n=1}^{\\infty}\\frac{x^n}{n^2}\\) have radius \\(1\\). The first has interval \\([-1,1)\\), while the second has interval \\([-1,1]\\). This shows radius alone does not determine endpoints.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-interval-of-convergence-20",
+      "prompt": "Why can endpoint convergence matter in a boundary-value physical model with parameter \\(x\\)?",
+      "answer": "A boundary parameter may be exactly an endpoint such as \\(x=c+R\\). If the endpoint diverges, the power-series model cannot be used at that boundary; if it converges, the model may remain valid there.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "title": "Level 1 - Math I (Physics) Equation Sheet",
+  "selectionNote": "Curated from the Level 1 - Math I (Physics) topic content. Reusable definitions, identities, theorems, and computational formulas are included; derivation-only steps, narrow examples, and repeated rearrangements are intentionally omitted.",
+  "sections": [
+    {
+      "sectionId": "real-numbers",
+      "sectionTitle": "Real Numbers",
+      "equations": [
+        {
+          "topicId": "real-numbers",
+          "topicTitle": "Real Numbers",
+          "label": "Absolute value",
+          "tex": "|x|=\\sqrt{x^2}"
+        },
+        {
+          "topicId": "real-numbers",
+          "topicTitle": "Real Numbers",
+          "label": "Triangle inequality",
+          "tex": "|x+y|\\le |x|+|y|"
+        },
+        {
+          "topicId": "algebraic-manipulation",
+          "topicTitle": "Algebraic Manipulation",
+          "label": "Difference of squares",
+          "tex": "a^2-b^2=(a-b)(a+b)"
+        },
+        {
+          "topicId": "summation-notation",
+          "topicTitle": "Summation Notation",
+          "label": "Finite sum notation",
+          "tex": "\\sum_{k=m}^{n}a_k=a_m+a_{m+1}+\\cdots+a_n"
+        },
+        {
+          "topicId": "binomial-coefficients",
+          "topicTitle": "Binomial Coefficients",
+          "label": "Binomial coefficient",
+          "tex": "\\binom{n}{r}=\\frac{n!}{r!(n-r)!}"
+        },
+        {
+          "topicId": "binomial-theorem",
+          "topicTitle": "Binomial Theorem",
+          "label": "Binomial theorem",
+          "tex": "(a+b)^n=\\sum_{r=0}^{n}\\binom{n}{r}a^{n-r}b^r"
+        }
+      ]
+    },
+    {
+      "sectionId": "functions",
+      "sectionTitle": "Functions",
+      "equations": [
+        {
+          "topicId": "functions",
+          "topicTitle": "Functions",
+          "label": "Function rule",
+          "tex": "f:A\\to B"
+        },
+        {
+          "topicId": "functions",
+          "topicTitle": "Functions",
+          "label": "Domain condition",
+          "tex": "x\\in\\operatorname{dom}f"
+        },
+        {
+          "topicId": "inverse-functions",
+          "topicTitle": "Inverse Functions",
+          "label": "Inverse relations",
+          "tex": "f^{-1}(f(x))=x,\\qquad f(f^{-1}(y))=y"
+        },
+        {
+          "topicId": "inverse-functions",
+          "topicTitle": "Inverse Functions",
+          "label": "One-to-one condition",
+          "tex": "f(x_1)=f(x_2)\\Rightarrow x_1=x_2"
+        }
+      ]
+    },
+    {
+      "sectionId": "trigonometry",
+      "sectionTitle": "Trigonometry",
+      "equations": [
+        {
+          "topicId": "pythagoras-theorem",
+          "topicTitle": "Pythagoras Theorem",
+          "label": "Pythagoras theorem",
+          "tex": "a^2+b^2=c^2"
+        },
+        {
+          "topicId": "trig-functions",
+          "topicTitle": "Trig Functions",
+          "label": "Pythagorean identity",
+          "tex": "\\sin^2\\theta+\\cos^2\\theta=1"
+        },
+        {
+          "topicId": "trig-functions",
+          "topicTitle": "Trig Functions",
+          "label": "Tangent identity",
+          "tex": "\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}"
+        },
+        {
+          "topicId": "angle-addition-formulae",
+          "topicTitle": "Angle Addition Formulae",
+          "label": "Sine addition",
+          "tex": "\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B"
+        },
+        {
+          "topicId": "angle-addition-formulae",
+          "topicTitle": "Angle Addition Formulae",
+          "label": "Cosine addition",
+          "tex": "\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B"
+        },
+        {
+          "topicId": "angle-addition-formulae",
+          "topicTitle": "Angle Addition Formulae",
+          "label": "Double angle identities",
+          "tex": "\\sin2A=2\\sin A\\cos A,\\qquad \\cos2A=\\cos^2A-\\sin^2A"
+        },
+        {
+          "topicId": "inverse-trig-functions",
+          "topicTitle": "Inverse Trig Functions",
+          "label": "Arctangent angle",
+          "tex": "\\theta=\\arctan\\left(\\frac{y}{x}\\right)"
+        }
+      ]
+    },
+    {
+      "sectionId": "limits",
+      "sectionTitle": "Limits",
+      "equations": [
+        {
+          "topicId": "formal-limits",
+          "topicTitle": "Formal Limits",
+          "label": "Limit definition",
+          "tex": "\\lim_{x\\to a}f(x)=L"
+        },
+        {
+          "topicId": "limit-variations",
+          "topicTitle": "Limit Variations",
+          "label": "One-sided limits",
+          "tex": "\\lim_{x\\to a^-}f(x),\\qquad \\lim_{x\\to a^+}f(x)"
+        },
+        {
+          "topicId": "limit-laws",
+          "topicTitle": "Limit Laws",
+          "label": "Sum law",
+          "tex": "\\lim_{x\\to a}(f(x)+g(x))=\\lim_{x\\to a}f(x)+\\lim_{x\\to a}g(x)"
+        },
+        {
+          "topicId": "limit-laws",
+          "topicTitle": "Limit Laws",
+          "label": "Product law",
+          "tex": "\\lim_{x\\to a}f(x)g(x)=\\left(\\lim_{x\\to a}f(x)\\right)\\left(\\lim_{x\\to a}g(x)\\right)"
+        },
+        {
+          "topicId": "sine-limit",
+          "topicTitle": "Sine Limit",
+          "label": "Sine limit",
+          "tex": "\\lim_{x\\to0}\\frac{\\sin x}{x}=1"
+        },
+        {
+          "topicId": "continuity",
+          "topicTitle": "Continuity",
+          "label": "Continuity at a point",
+          "tex": "\\lim_{x\\to a}f(x)=f(a)"
+        }
+      ]
+    },
+    {
+      "sectionId": "differentiation",
+      "sectionTitle": "Differentiation",
+      "equations": [
+        {
+          "topicId": "derivatives",
+          "topicTitle": "Derivatives",
+          "label": "Derivative notation",
+          "tex": "f'(x)=\\frac{df}{dx}"
+        },
+        {
+          "topicId": "first-principles",
+          "topicTitle": "First Principles",
+          "label": "First-principles derivative",
+          "tex": "f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}"
+        },
+        {
+          "topicId": "standard-derivatives",
+          "topicTitle": "Standard Derivatives",
+          "label": "Power rule",
+          "tex": "\\frac{d}{dx}x^n=nx^{n-1}"
+        },
+        {
+          "topicId": "standard-derivatives",
+          "topicTitle": "Standard Derivatives",
+          "label": "Exponential derivative",
+          "tex": "\\frac{d}{dx}e^x=e^x"
+        },
+        {
+          "topicId": "standard-derivatives",
+          "topicTitle": "Standard Derivatives",
+          "label": "Trigonometric derivatives",
+          "tex": "\\frac{d}{dx}\\sin x=\\cos x,\\qquad \\frac{d}{dx}\\cos x=-\\sin x"
+        },
+        {
+          "topicId": "product-rule",
+          "topicTitle": "Product Rule",
+          "label": "Product rule",
+          "tex": "(uv)'=u'v+uv'"
+        },
+        {
+          "topicId": "quotient-rule",
+          "topicTitle": "Quotient Rule",
+          "label": "Quotient rule",
+          "tex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}"
+        },
+        {
+          "topicId": "chain-rule",
+          "topicTitle": "Chain Rule",
+          "label": "Chain rule",
+          "tex": "\\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}"
+        },
+        {
+          "topicId": "higher-order-derivatives",
+          "topicTitle": "Higher Order Derivatives",
+          "label": "Second derivative",
+          "tex": "f''(x)=\\frac{d^2f}{dx^2}"
+        },
+        {
+          "topicId": "inverse-derivatives",
+          "topicTitle": "Inverse Derivatives",
+          "label": "Inverse derivative",
+          "tex": "\\frac{d}{dy}f^{-1}(y)=\\frac{1}{f'(x)},\\qquad y=f(x)"
+        },
+        {
+          "topicId": "l-hopital-rule",
+          "topicTitle": "L'Hopital Rule",
+          "label": "L'Hopital rule",
+          "tex": "\\lim_{x\\to a}\\frac{f(x)}{g(x)}=\\lim_{x\\to a}\\frac{f'(x)}{g'(x)}"
+        }
+      ]
+    },
+    {
+      "sectionId": "integration",
+      "sectionTitle": "Integration",
+      "equations": [
+        {
+          "topicId": "antiderivatives",
+          "topicTitle": "Antiderivatives",
+          "label": "Antiderivative",
+          "tex": "F'(x)=f(x)"
+        },
+        {
+          "topicId": "standard-integrals",
+          "topicTitle": "Standard Integrals",
+          "label": "Power integral",
+          "tex": "\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C,\\qquad n\\ne -1"
+        },
+        {
+          "topicId": "standard-integrals",
+          "topicTitle": "Standard Integrals",
+          "label": "Reciprocal integral",
+          "tex": "\\int\\frac{1}{x}\\,dx=\\ln|x|+C"
+        },
+        {
+          "topicId": "definite-integrals",
+          "topicTitle": "Definite Integrals",
+          "label": "Definite integral",
+          "tex": "\\int_a^b f(x)\\,dx"
+        },
+        {
+          "topicId": "fundamental-theorem",
+          "topicTitle": "Fundamental Theorem",
+          "label": "Fundamental theorem",
+          "tex": "\\int_a^b f(x)\\,dx=F(b)-F(a)"
+        },
+        {
+          "topicId": "substitution",
+          "topicTitle": "Substitution",
+          "label": "Substitution",
+          "tex": "\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du"
+        },
+        {
+          "topicId": "integration-by-parts",
+          "topicTitle": "Integration by Parts",
+          "label": "Integration by parts",
+          "tex": "\\int u\\,dv=uv-\\int v\\,du"
+        },
+        {
+          "topicId": "partial-fractions",
+          "topicTitle": "Partial Fractions",
+          "label": "Linear partial fractions",
+          "tex": "\\frac{P(x)}{(x-a)(x-b)}=\\frac{A}{x-a}+\\frac{B}{x-b}"
+        },
+        {
+          "topicId": "trig-power-integrals",
+          "topicTitle": "Trig Power Integrals",
+          "label": "Trig square reduction",
+          "tex": "\\sin^2x=\\frac{1-\\cos2x}{2},\\qquad \\cos^2x=\\frac{1+\\cos2x}{2}"
+        }
+      ]
+    },
+    {
+      "sectionId": "complex-arithmetic",
+      "sectionTitle": "Complex Arithmetic",
+      "equations": [
+        {
+          "topicId": "complex-numbers",
+          "topicTitle": "Complex Numbers",
+          "label": "Complex number",
+          "tex": "z=a+bi"
+        },
+        {
+          "topicId": "real-part",
+          "topicTitle": "Real Part",
+          "label": "Real part",
+          "tex": "\\operatorname{Re}(a+bi)=a"
+        },
+        {
+          "topicId": "imaginary-part",
+          "topicTitle": "Imaginary Part",
+          "label": "Imaginary part",
+          "tex": "\\operatorname{Im}(a+bi)=b"
+        },
+        {
+          "topicId": "conjugate",
+          "topicTitle": "Conjugate",
+          "label": "Conjugate",
+          "tex": "\\overline{a+bi}=a-bi"
+        },
+        {
+          "topicId": "modulus",
+          "topicTitle": "Modulus",
+          "label": "Modulus",
+          "tex": "|a+bi|=\\sqrt{a^2+b^2}"
+        },
+        {
+          "topicId": "complex-division",
+          "topicTitle": "Complex Division",
+          "label": "Division by conjugate",
+          "tex": "\\frac{z}{w}=\\frac{z\\overline w}{|w|^2},\\qquad w\\ne0"
+        }
+      ]
+    },
+    {
+      "sectionId": "complex-form",
+      "sectionTitle": "Complex Form",
+      "equations": [
+        {
+          "topicId": "polar-form",
+          "topicTitle": "Polar Form",
+          "label": "Polar form",
+          "tex": "z=r(\\cos\\theta+i\\sin\\theta)"
+        },
+        {
+          "topicId": "argument",
+          "topicTitle": "Argument",
+          "label": "Argument",
+          "tex": "\\theta=\\arg z"
+        },
+        {
+          "topicId": "euler-formula",
+          "topicTitle": "Euler Formula",
+          "label": "Euler formula",
+          "tex": "e^{i\\theta}=\\cos\\theta+i\\sin\\theta"
+        },
+        {
+          "topicId": "complex-exponential",
+          "topicTitle": "Complex Exponential",
+          "label": "Exponential form",
+          "tex": "z=re^{i\\theta}"
+        },
+        {
+          "topicId": "de-moivre-theorem",
+          "topicTitle": "De Moivre Theorem",
+          "label": "De Moivre theorem",
+          "tex": "(re^{i\\theta})^n=r^ne^{in\\theta}"
+        },
+        {
+          "topicId": "complex-multiplication-geometry",
+          "topicTitle": "Complex Multiplication Geometry",
+          "label": "Multiplication in polar form",
+          "tex": "r_1e^{i\\theta_1}r_2e^{i\\theta_2}=r_1r_2e^{i(\\theta_1+\\theta_2)}"
+        }
+      ]
+    },
+    {
+      "sectionId": "complex-equations",
+      "sectionTitle": "Complex Equations",
+      "equations": [
+        {
+          "topicId": "linear-complex-equations",
+          "topicTitle": "Linear Complex Equations",
+          "label": "Linear equation",
+          "tex": "az+b=0\\Rightarrow z=-\\frac{b}{a},\\qquad a\\ne0"
+        },
+        {
+          "topicId": "quadratic-complex-equations",
+          "topicTitle": "Quadratic Complex Equations",
+          "label": "Quadratic formula",
+          "tex": "z=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+        },
+        {
+          "topicId": "roots-of-unity",
+          "topicTitle": "Roots of Unity",
+          "label": "Roots of unity",
+          "tex": "z_k=e^{2\\pi ik/n},\\qquad k=0,1,\\ldots,n-1"
+        },
+        {
+          "topicId": "general-complex-roots",
+          "topicTitle": "General Complex Roots",
+          "label": "General complex roots",
+          "tex": "z_k=\\rho^{1/n}e^{i(\\chi/n+2\\pi k/n)},\\qquad k=0,1,\\ldots,n-1"
+        },
+        {
+          "topicId": "fundamental-theorem",
+          "topicTitle": "Fundamental Theorem",
+          "label": "Fundamental theorem of algebra",
+          "tex": "p(z)=a_n\\prod_{k=1}^{n}(z-z_k)"
+        },
+        {
+          "topicId": "complex-functions",
+          "topicTitle": "Complex Functions",
+          "label": "Complex equation function",
+          "tex": "f:\\mathbb C\\to\\mathbb C,\\qquad f(z)=0"
+        },
+        {
+          "topicId": "transcendental-equations-in-a-complex-variable",
+          "topicTitle": "Transcendental Equations in a Complex Variable",
+          "label": "Complex exponential periodicity",
+          "tex": "e^{z+2\\pi i}=e^z"
+        }
+      ]
+    },
+    {
+      "sectionId": "groups",
+      "sectionTitle": "Groups",
+      "equations": [
+        {
+          "topicId": "group-definition",
+          "topicTitle": "Group Definition",
+          "label": "Group operation",
+          "tex": "*:G\\times G\\to G"
+        },
+        {
+          "topicId": "group-axioms",
+          "topicTitle": "Group Axioms",
+          "label": "Associativity",
+          "tex": "a*(b*c)=(a*b)*c"
+        },
+        {
+          "topicId": "group-axioms",
+          "topicTitle": "Group Axioms",
+          "label": "Identity",
+          "tex": "e*a=a*e=a"
+        },
+        {
+          "topicId": "group-axioms",
+          "topicTitle": "Group Axioms",
+          "label": "Inverse",
+          "tex": "a*a^{-1}=a^{-1}*a=e"
+        },
+        {
+          "topicId": "subgroups",
+          "topicTitle": "Subgroups",
+          "label": "Subgroup test",
+          "tex": "a,b\\in H\\Rightarrow ab^{-1}\\in H"
+        },
+        {
+          "topicId": "group-maps",
+          "topicTitle": "Group Maps",
+          "label": "Homomorphism",
+          "tex": "\\phi(a*b)=\\phi(a)\\diamond\\phi(b)"
+        },
+        {
+          "topicId": "group-maps",
+          "topicTitle": "Group Maps",
+          "label": "Kernel",
+          "tex": "\\ker\\phi=\\{g\\in G:\\phi(g)=e_K\\}"
+        },
+        {
+          "topicId": "cyclic-groups",
+          "topicTitle": "Cyclic Groups",
+          "label": "Cyclic subgroup",
+          "tex": "\\langle g\\rangle=\\{g^n:n\\in\\mathbb Z\\}"
+        },
+        {
+          "topicId": "polygon-symmetries",
+          "topicTitle": "Polygon Symmetries",
+          "label": "Dihedral group order",
+          "tex": "|D_n|=2n"
+        },
+        {
+          "topicId": "matrix-groups",
+          "topicTitle": "Matrix Groups",
+          "label": "General linear group",
+          "tex": "\\mathrm{GL}_n(\\mathbb R)=\\{A\\in\\mathrm{Mat}_n(\\mathbb R):\\det A\\ne0\\}"
+        }
+      ]
+    },
+    {
+      "sectionId": "series",
+      "sectionTitle": "Series",
+      "equations": [
+        {
+          "topicId": "series-basics",
+          "topicTitle": "Series Basics",
+          "label": "Infinite series",
+          "tex": "\\sum_{n=1}^{\\infty}a_n=a_1+a_2+a_3+\\cdots"
+        },
+        {
+          "topicId": "partial-sums",
+          "topicTitle": "Partial Sums",
+          "label": "Partial sum",
+          "tex": "S_N=\\sum_{n=1}^{N}a_n"
+        },
+        {
+          "topicId": "geometric-series",
+          "topicTitle": "Geometric Series",
+          "label": "Finite geometric series",
+          "tex": "S_N=\\frac{a(1-r^N)}{1-r},\\qquad r\\ne1"
+        },
+        {
+          "topicId": "geometric-series",
+          "topicTitle": "Geometric Series",
+          "label": "Infinite geometric series",
+          "tex": "\\sum_{n=0}^{\\infty}ar^n=\\frac{a}{1-r},\\qquad |r|\\lt1"
+        },
+        {
+          "topicId": "positive-series",
+          "topicTitle": "Positive Series",
+          "label": "p-series test",
+          "tex": "\\sum_{n=1}^{\\infty}\\frac{1}{n^p}\\text{ converges for }p\\gt1"
+        },
+        {
+          "topicId": "convergence-tests",
+          "topicTitle": "Convergence Tests",
+          "label": "Ratio test",
+          "tex": "L=\\lim_{n\\to\\infty}\\left|\\frac{a_{n+1}}{a_n}\\right|"
+        },
+        {
+          "topicId": "convergence-tests",
+          "topicTitle": "Convergence Tests",
+          "label": "Root test",
+          "tex": "L=\\lim_{n\\to\\infty}\\sqrt[n]{|a_n|}"
+        },
+        {
+          "topicId": "absolute-convergence",
+          "topicTitle": "Absolute Convergence",
+          "label": "Absolute convergence",
+          "tex": "\\sum |a_n|\\text{ converges }\\Rightarrow\\sum a_n\\text{ converges}"
+        },
+        {
+          "topicId": "partial-sums",
+          "topicTitle": "Partial Sums",
+          "label": "Series convergence by partial sums",
+          "tex": "\\sum_{n=1}^{\\infty}a_n=S\\quad\\Longleftrightarrow\\quad \\lim_{N\\to\\infty}S_N=S"
+        },
+        {
+          "topicId": "series-sums",
+          "topicTitle": "Series Sums",
+          "label": "Linearity of finite sums",
+          "tex": "\\sum_{k=1}^{n}(ca_k+b_k)=c\\sum_{k=1}^{n}a_k+\\sum_{k=1}^{n}b_k"
+        },
+        {
+          "topicId": "series-sums",
+          "topicTitle": "Series Sums",
+          "label": "Telescoping sum",
+          "tex": "\\sum_{k=1}^{n}(b_{k+1}-b_k)=b_{n+1}-b_1"
+        },
+        {
+          "topicId": "conditional-convergence",
+          "topicTitle": "Conditional Convergence",
+          "label": "Alternating sign test",
+          "tex": "\\sum a_n\\text{ alternating},\\quad |a_n|\\to0,\\quad |a_{n+1}|\\le |a_n|\\Rightarrow\\sum a_n\\text{ converges}"
+        },
+        {
+          "topicId": "conditional-convergence",
+          "topicTitle": "Conditional Convergence",
+          "label": "Conditional convergence",
+          "tex": "\\sum a_n\\text{ converges but }\\sum |a_n|\\text{ diverges}"
+        }
+      ]
+    },
+    {
+      "sectionId": "power-series",
+      "sectionTitle": "Power Series",
+      "equations": [
+        {
+          "topicId": "power-series",
+          "topicTitle": "Power Series",
+          "label": "Power series",
+          "tex": "\\sum_{n=0}^{\\infty}a_n(x-c)^n"
+        },
+        {
+          "topicId": "coefficients",
+          "topicTitle": "Coefficients",
+          "label": "Taylor coefficient",
+          "tex": "a_n=\\frac{f^{(n)}(c)}{n!}"
+        },
+        {
+          "topicId": "radius-of-convergence",
+          "topicTitle": "Radius of Convergence",
+          "label": "Radius from ratio test",
+          "tex": "R=\\frac{1}{\\lim_{n\\to\\infty}|a_{n+1}/a_n|}"
+        },
+        {
+          "topicId": "interval-of-convergence",
+          "topicTitle": "Interval of Convergence",
+          "label": "Interior convergence",
+          "tex": "|x-c|\\lt R"
+        },
+        {
+          "topicId": "taylor-polynomials",
+          "topicTitle": "Taylor Polynomials",
+          "label": "Taylor polynomial",
+          "tex": "T_N(x)=\\sum_{n=0}^{N}\\frac{f^{(n)}(c)}{n!}(x-c)^n"
+        },
+        {
+          "topicId": "taylor-series",
+          "topicTitle": "Taylor Series",
+          "label": "Taylor series",
+          "tex": "f(x)=\\sum_{n=0}^{\\infty}\\frac{f^{(n)}(c)}{n!}(x-c)^n"
+        },
+        {
+          "topicId": "remainders",
+          "topicTitle": "Remainders",
+          "label": "Lagrange remainder bound",
+          "tex": "|R_N(x)|\\le\\frac{M|x-c|^{N+1}}{(N+1)!}"
+        },
+        {
+          "topicId": "taylor-limits",
+          "topicTitle": "Taylor Limits",
+          "label": "Small-angle leading terms",
+          "tex": "\\sin x=x+O(x^3),\\qquad \\cos x=1-\\frac{x^2}{2}+O(x^4)"
+        },
+        {
+          "topicId": "power-series",
+          "topicTitle": "Power Series",
+          "label": "Termwise derivative",
+          "tex": "\\frac{d}{dx}\\sum_{n=0}^{\\infty}a_n(x-c)^n=\\sum_{n=1}^{\\infty}na_n(x-c)^{n-1}"
+        },
+        {
+          "topicId": "power-series",
+          "topicTitle": "Power Series",
+          "label": "Termwise integral",
+          "tex": "\\int\\sum_{n=0}^{\\infty}a_n(x-c)^n\\,dx=C+\\sum_{n=0}^{\\infty}\\frac{a_n}{n+1}(x-c)^{n+1}"
+        },
+        {
+          "topicId": "taylor-series",
+          "topicTitle": "Taylor Series",
+          "label": "Exponential series",
+          "tex": "e^x=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}"
+        },
+        {
+          "topicId": "taylor-series",
+          "topicTitle": "Taylor Series",
+          "label": "Sine and cosine series",
+          "tex": "\\sin x=\\sum_{n=0}^{\\infty}\\frac{(-1)^nx^{2n+1}}{(2n+1)!},\\qquad \\cos x=\\sum_{n=0}^{\\infty}\\frac{(-1)^nx^{2n}}{(2n)!}"
+        }
+      ]
+    },
+    {
+      "sectionId": "matrices",
+      "sectionTitle": "Matrices",
+      "equations": [
+        {
+          "topicId": "linear-systems",
+          "topicTitle": "Linear Systems",
+          "label": "Matrix system",
+          "tex": "A\\mathbf x=\\mathbf b"
+        },
+        {
+          "topicId": "matrix-notation",
+          "topicTitle": "Matrix Notation",
+          "label": "Matrix entries",
+          "tex": "A=(a_{ij})"
+        },
+        {
+          "topicId": "matrix-operations",
+          "topicTitle": "Matrix Operations",
+          "label": "Matrix product",
+          "tex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}"
+        },
+        {
+          "topicId": "determinants",
+          "topicTitle": "Determinants",
+          "label": "Two by two determinant",
+          "tex": "\\det\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}=ad-bc"
+        },
+        {
+          "topicId": "determinant-properties",
+          "topicTitle": "Determinant Properties",
+          "label": "Product determinant",
+          "tex": "\\det(AB)=\\det(A)\\det(B)"
+        },
+        {
+          "topicId": "inverse-matrices",
+          "topicTitle": "Inverse Matrices",
+          "label": "Inverse condition",
+          "tex": "A^{-1}A=AA^{-1}=I"
+        },
+        {
+          "topicId": "inverse-matrices",
+          "topicTitle": "Inverse Matrices",
+          "label": "Two by two inverse",
+          "tex": "\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}^{-1}=\\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}"
+        },
+        {
+          "topicId": "lu-decomposition",
+          "topicTitle": "LU Decomposition",
+          "label": "LU factorisation",
+          "tex": "A=LU"
+        },
+        {
+          "topicId": "determinants",
+          "topicTitle": "Determinants",
+          "label": "Cofactor expansion",
+          "tex": "\\det(A)=\\sum_{j=1}^{n}(-1)^{i+j}a_{ij}M_{ij}"
+        },
+        {
+          "topicId": "inverse-matrices",
+          "topicTitle": "Inverse Matrices",
+          "label": "Determinant invertibility test",
+          "tex": "A\\text{ is invertible}\\quad\\Longleftrightarrow\\quad \\det(A)\\ne0"
+        },
+        {
+          "topicId": "inverse-matrices",
+          "topicTitle": "Inverse Matrices",
+          "label": "Solving with inverse",
+          "tex": "A\\mathbf x=\\mathbf b\\quad\\Rightarrow\\quad \\mathbf x=A^{-1}\\mathbf b"
+        },
+        {
+          "topicId": "matrix-operations",
+          "topicTitle": "Matrix Operations",
+          "label": "Transpose of product",
+          "tex": "(AB)^T=B^TA^T"
+        }
+      ]
+    },
+    {
+      "sectionId": "vector-spaces",
+      "sectionTitle": "Vector Spaces",
+      "equations": [
+        {
+          "topicId": "vector-spaces",
+          "topicTitle": "Vector Spaces",
+          "label": "Linear combination",
+          "tex": "a_1\\mathbf v_1+\\cdots+a_n\\mathbf v_n"
+        },
+        {
+          "topicId": "subspaces",
+          "topicTitle": "Subspaces",
+          "label": "Subspace closure",
+          "tex": "\\mathbf u,\\mathbf v\\in W\\Rightarrow a\\mathbf u+b\\mathbf v\\in W"
+        },
+        {
+          "topicId": "linear-independence",
+          "topicTitle": "Linear Independence",
+          "label": "Linear independence",
+          "tex": "a_1\\mathbf v_1+\\cdots+a_n\\mathbf v_n=\\mathbf0\\Rightarrow a_1=\\cdots=a_n=0"
+        },
+        {
+          "topicId": "spanning-sets",
+          "topicTitle": "Spanning Sets",
+          "label": "Span",
+          "tex": "\\operatorname{span}\\{\\mathbf v_1,\\ldots,\\mathbf v_n\\}=\\{a_1\\mathbf v_1+\\cdots+a_n\\mathbf v_n\\}"
+        },
+        {
+          "topicId": "bases",
+          "topicTitle": "Bases",
+          "label": "Basis representation",
+          "tex": "\\mathbf v=a_1\\mathbf b_1+\\cdots+a_n\\mathbf b_n"
+        },
+        {
+          "topicId": "dimension",
+          "topicTitle": "Dimension",
+          "label": "Dimension",
+          "tex": "\\dim V=\\text{number of vectors in a basis}"
+        },
+        {
+          "topicId": "rank",
+          "topicTitle": "Rank",
+          "label": "Rank",
+          "tex": "\\operatorname{rank}A=\\dim\\operatorname{col}(A)"
+        },
+        {
+          "topicId": "nullity",
+          "topicTitle": "Nullity",
+          "label": "Rank-nullity",
+          "tex": "\\operatorname{rank}A+\\operatorname{nullity}A=n"
+        },
+        {
+          "topicId": "coordinates",
+          "topicTitle": "Coordinates",
+          "label": "Coordinate vector",
+          "tex": "\\mathbf v=c_1\\mathbf b_1+\\cdots+c_n\\mathbf b_n"
+        },
+        {
+          "topicId": "rank",
+          "topicTitle": "Rank",
+          "label": "Image",
+          "tex": "\\operatorname{Im}(A)=\\{\\mathbf w:\\mathbf w=A\\mathbf v\\text{ for some }\\mathbf v\\}"
+        },
+        {
+          "topicId": "nullity",
+          "topicTitle": "Nullity",
+          "label": "Kernel",
+          "tex": "\\ker(A)=\\{\\mathbf v:A\\mathbf v=\\mathbf0\\}"
+        }
+      ]
+    },
+    {
+      "sectionId": "linear-maps",
+      "sectionTitle": "Linear Maps",
+      "equations": [
+        {
+          "topicId": "linear-maps",
+          "topicTitle": "Linear Maps",
+          "label": "Linearity",
+          "tex": "T(a\\mathbf u+b\\mathbf v)=aT(\\mathbf u)+bT(\\mathbf v)"
+        },
+        {
+          "topicId": "matrix-representations",
+          "topicTitle": "Matrix Representations",
+          "label": "Matrix representation",
+          "tex": "[T(\\mathbf v)]_{\\beta}=A[\\mathbf v]_{\\alpha}"
+        },
+        {
+          "topicId": "special-matrices",
+          "topicTitle": "Special Matrices",
+          "label": "Orthogonal matrix",
+          "tex": "Q^TQ=I"
+        },
+        {
+          "topicId": "eigenvalues",
+          "topicTitle": "Eigenvalues",
+          "label": "Eigenvalue equation",
+          "tex": "A\\mathbf v=\\lambda\\mathbf v"
+        },
+        {
+          "topicId": "eigenvalues",
+          "topicTitle": "Eigenvalues",
+          "label": "Characteristic equation",
+          "tex": "\\det(A-\\lambda I)=0"
+        },
+        {
+          "topicId": "eigenspaces",
+          "topicTitle": "Eigenspaces",
+          "label": "Eigenspace",
+          "tex": "E_{\\lambda}=\\ker(A-\\lambda I)"
+        },
+        {
+          "topicId": "diagonalisation",
+          "topicTitle": "Diagonalisation",
+          "label": "Diagonalisation",
+          "tex": "A=PDP^{-1}"
+        },
+        {
+          "topicId": "diagonalisation-applications",
+          "topicTitle": "Diagonalisation Applications",
+          "label": "Powers by diagonalisation",
+          "tex": "A^n=PD^nP^{-1}"
+        },
+        {
+          "topicId": "special-matrices",
+          "topicTitle": "Special Matrices",
+          "label": "Hermitian condition",
+          "tex": "A^{\\dagger}=A"
+        },
+        {
+          "topicId": "special-matrices",
+          "topicTitle": "Special Matrices",
+          "label": "Unitary condition",
+          "tex": "A^{\\dagger}A=AA^{\\dagger}=I"
+        },
+        {
+          "topicId": "special-matrices",
+          "topicTitle": "Special Matrices",
+          "label": "Normal matrix",
+          "tex": "A^{\\dagger}A=AA^{\\dagger}"
+        },
+        {
+          "topicId": "diagonalisation-applications",
+          "topicTitle": "Diagonalisation Applications",
+          "label": "Matrix exponential by diagonalisation",
+          "tex": "A=PDP^{-1}\\quad\\Rightarrow\\quad e^A=Pe^DP^{-1}"
+        }
+      ]
+    }
+  ]
+}

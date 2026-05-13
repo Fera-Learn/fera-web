@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "cover-up-rule",
   "topicTitle": "Cover-Up Rule",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "cu-1",
-      "prompt": "Find A and B for 1/[(x-1)(x-2)] = A/(x-1) + B/(x-2).",
-      "answer": "A=-1, B=1",
-      "hints": ["A=1/(1-2)=-1, B=1/(2-1)=1."],
+      "id": "math-i-integration-cover-up-rule-01",
+      "prompt": "For \\(\\frac{4x+1}{(x-2)(x+5)}=\\frac{A}{x-2}+\\frac{B}{x+5}\\), what value of \\(x\\) finds \\(A\\) by cover-up?",
+      "answer": "The coefficient \\(A\\) belongs to the factor \\(x-2\\). Set that factor equal to zero:\n\\[x-2=0\\Rightarrow x=2.\\]\nSo \\(x=2\\) is used to find \\(A\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-02",
+      "prompt": "State one condition under which the cover-up rule can be used directly.",
+      "answer": "It can be used directly when the denominator factors into distinct linear factors and the rational function is already proper. For example, \\((x-a)(x-b)\\) with \\(a\\ne b\\) is suitable.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-03",
+      "prompt": "Use cover-up to find \\(A\\) in \\(\\frac{3x+2}{(x-1)(x+4)}=\\frac{A}{x-1}+\\frac{B}{x+4}\\).",
+      "answer": "Cover the factor \\(x-1\\) and set \\(x=1\\):\n\\[A=\\frac{3(1)+2}{1+4}=\\frac{5}{5}=1.\\]\nThus \\(\\boxed{A=1}\\).",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-2",
-      "prompt": "Find A and B for 3/[(x-1)(x+2)].",
-      "answer": "A=1, B=-1",
-      "hints": ["A=3/(1+2)=1, B=3/(-2-1)=-1."],
+      "id": "math-i-integration-cover-up-rule-04",
+      "prompt": "Use cover-up to find \\(B\\) in \\(\\frac{3x+2}{(x-1)(x+4)}=\\frac{A}{x-1}+\\frac{B}{x+4}\\).",
+      "answer": "Cover the factor \\(x+4\\) and set \\(x=-4\\):\n\\[B=\\frac{3(-4)+2}{-4-1}=\\frac{-12+2}{-5}=2.\\]\nTherefore \\(\\boxed{B=2}\\).",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-3",
-      "prompt": "Use cover-up to decompose 2/[(x-3)(x-1)].",
-      "answer": "1/(x-3) + 1/(x-1)",
-      "hints": ["A=2/(3-1)=1, B=2/(1-3)=-1? Wait: both positive."],
+      "id": "math-i-integration-cover-up-rule-05",
+      "prompt": "Decompose \\(\\frac{5}{x(x+5)}\\) using cover-up.",
+      "answer": "Write\n\\[\\frac{5}{x(x+5)}=\\frac{A}{x}+\\frac{B}{x+5}.\\]\nCover \\(x\\), set \\(x=0\\):\n\\[A=\\frac{5}{0+5}=1.\\]\nCover \\(x+5\\), set \\(x=-5\\):\n\\[B=\\frac{5}{-5}=-1.\\]\nSo\n\\[\\boxed{\\frac{5}{x(x+5)}=\\frac1x-\\frac1{x+5}}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-4",
-      "prompt": "Find coefficients for (5)/[(x-2)(x+3)].",
-      "answer": "1/(x-2) + (-1)/(x+3)",
-      "hints": ["A=5/(5)=1, B=5/(-5)=-1."],
+      "id": "math-i-integration-cover-up-rule-06",
+      "prompt": "Decompose \\(\\frac{2x+7}{(x-3)(x+1)}\\) using cover-up.",
+      "answer": "Let\n\\[\\frac{2x+7}{(x-3)(x+1)}=\\frac{A}{x-3}+\\frac{B}{x+1}.\\]\nFor \\(A\\), set \\(x=3\\):\n\\[A=\\frac{2(3)+7}{3+1}=\\frac{13}{4}.\\]\nFor \\(B\\), set \\(x=-1\\):\n\\[B=\\frac{2(-1)+7}{-1-3}=\\frac{5}{-4}=-\\frac54.\\]\nThus\n\\[\\boxed{\\frac{13}{4(x-3)}-\\frac{5}{4(x+1)}}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-5",
-      "prompt": "Decompose 4/[(x-1)(x-4)].",
-      "answer": "-4/3/(x-1) + 4/3/(x-4)",
-      "hints": ["A=4/(1-4)=-4/3, B=4/(4-1)=4/3."],
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "cu-6",
-      "prompt": "Find A, B for (2x+1)/[(x-1)(x+1)].",
-      "answer": "3/2/(x-1) - 1/2/(x+1)",
-      "hints": ["A=(2(1)+1)/(1+1)=3/2, B=(2(-1)+1)/(-1-1)=-1/-2=1/2."],
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "cu-7",
-      "prompt": "Decompose 1/[(x-a)(x-b)] for general a,b.",
-      "answer": "1/(b-a)/(x-a) - 1/(b-a)/(x-b)",
-      "hints": ["A=1/(a-b), B=1/(b-a)."],
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "cu-8",
-      "prompt": "Use cover-up to find partial fractions of x/[(x-2)(x-5)].",
-      "answer": "-2/3/(x-2) + 5/3/(x-5)",
-      "hints": ["A=2/(-3)=-2/3, B=5/3."],
+      "id": "math-i-integration-cover-up-rule-07",
+      "prompt": "Use cover-up to decompose \\(\\frac{x^2+1}{(x-1)(x+1)(x+2)}\\).",
+      "answer": "Write\n\\[\\frac{x^2+1}{(x-1)(x+1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+1}+\\frac{C}{x+2}.\\]\nSet \\(x=1\\): \\(A=\\frac{2}{(2)(3)}=\\frac13\\).\nSet \\(x=-1\\): \\(B=\\frac{2}{(-2)(1)}=-1\\).\nSet \\(x=-2\\): \\(C=\\frac{5}{(-3)(-1)}=\\frac53\\).\nSo\n\\[\\boxed{\\frac{1}{3(x-1)}-\\frac1{x+1}+\\frac{5}{3(x+2)}}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-9",
-      "prompt": "Decompose (3x)/[(x-1)(x+2)].",
-      "answer": "1/(x-1) + 2/(x+2)",
-      "hints": ["A=3/(1+2)=1, B=3/(-2-1)=-1? No: B=3(-2)/(-3)=2."],
+      "id": "math-i-integration-cover-up-rule-08",
+      "prompt": "Use cover-up to evaluate \\(\\int \\frac{6}{(x-1)(x+2)}\\,dx\\).",
+      "answer": "Decompose first:\n\\[\\frac{6}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2}.\\]\nSet \\(x=1\\): \\(A=\\frac{6}{3}=2\\).\nSet \\(x=-2\\): \\(B=\\frac{6}{-3}=-2\\).\nThus\n\\[\\int\\left(\\frac2{x-1}-\\frac2{x+2}\\right)dx=\\boxed{2\\ln|x-1|-2\\ln|x+2|+C}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "cu-10",
-      "prompt": "Find partial fractions of (x+3)/[(x-2)(x-3)].",
-      "answer": "6/(x-2) - 5/(x-3)",
-      "hints": ["After division or just A/(x-2) + B/(x-3)."],
+      "id": "math-i-integration-cover-up-rule-09",
+      "prompt": "Use cover-up to evaluate \\(\\int \\frac{4x+1}{(x-2)(x+3)}\\,dx\\).",
+      "answer": "Set\n\\[\\frac{4x+1}{(x-2)(x+3)}=\\frac{A}{x-2}+\\frac{B}{x+3}.\\]\nFor \\(A\\), set \\(x=2\\):\n\\[A=\\frac{9}{5}.\\]\nFor \\(B\\), set \\(x=-3\\):\n\\[B=\\frac{-11}{-5}=\\frac{11}{5}.\\]\nTherefore\n\\[\\boxed{\\int \\frac{4x+1}{(x-2)(x+3)}dx=\\frac95\\ln|x-2|+\\frac{11}{5}\\ln|x+3|+C}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-10",
+      "prompt": "Use cover-up to decompose \\(\\frac{2x^2-3}{x(x-1)(x+1)}\\).",
+      "answer": "Write\n\\[\\frac{2x^2-3}{x(x-1)(x+1)}=\\frac{A}{x}+\\frac{B}{x-1}+\\frac{C}{x+1}.\\]\nSet \\(x=0\\): \\(A=\\frac{-3}{(-1)(1)}=3\\).\nSet \\(x=1\\): \\(B=\\frac{-1}{1\\cdot2}=-\\frac12\\).\nSet \\(x=-1\\): \\(C=\\frac{-1}{(-1)(-2)}=-\\frac12\\).\nThus\n\\[\\boxed{\\frac3x-\\frac{1}{2(x-1)}-\\frac{1}{2(x+1)}}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-11",
+      "prompt": "Explain why cover-up is not directly valid for \\(\\frac{x+1}{(x-2)^2}\\), then decompose it by another method.",
+      "answer": "The factor \\((x-2)^2\\) is repeated. Direct cover-up finds the coefficient of \\(\\frac{1}{(x-2)^2}\\) but not the coefficient of \\(\\frac{1}{x-2}\\).\nUse\n\\[\\frac{x+1}{(x-2)^2}=\\frac{A}{x-2}+\\frac{B}{(x-2)^2}.\\]\nMultiply through:\n\\[x+1=A(x-2)+B.\\]\nEquate coefficients: \\(A=1\\), then \\(-2+B=1\\), so \\(B=3\\).\nHence\n\\[\\boxed{\\frac{x+1}{(x-2)^2}=\\frac1{x-2}+\\frac3{(x-2)^2}}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-12",
+      "prompt": "Use cover-up to evaluate \\(\\int \\frac{x+5}{(x+1)(x+4)}\\,dx\\), and check the numerator after decomposing.",
+      "answer": "Let\n\\[\\frac{x+5}{(x+1)(x+4)}=\\frac{A}{x+1}+\\frac{B}{x+4}.\\]\nSet \\(x=-1\\): \\(A=\\frac{4}{3}\\).\nSet \\(x=-4\\): \\(B=\\frac{1}{-3}=-\\frac13\\).\nSo\n\\[\\frac{x+5}{(x+1)(x+4)}=\\frac{4}{3(x+1)}-\\frac{1}{3(x+4)}.\\]\nCheck: numerator \\(\\frac43(x+4)-\\frac13(x+1)=x+5\\).\nThus\n\\[\\boxed{\\frac43\\ln|x+1|-\\frac13\\ln|x+4|+C}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-13",
+      "prompt": "Decompose \\(\\frac{x^2+2x+4}{(x+1)(x+2)(x+3)}\\) using cover-up.",
+      "answer": "Use\n\\[\\frac{x^2+2x+4}{(x+1)(x+2)(x+3)}=\\frac{A}{x+1}+\\frac{B}{x+2}+\\frac{C}{x+3}.\\]\nSet \\(x=-1\\): \\(A=\\frac{1-2+4}{(1)(2)}=\\frac32\\).\nSet \\(x=-2\\): \\(B=\\frac{4-4+4}{(-1)(1)}=-4\\).\nSet \\(x=-3\\): \\(C=\\frac{9-6+4}{(-2)(-1)}=\\frac72\\).\nTherefore\n\\[\\boxed{\\frac{3}{2(x+1)}-\\frac4{x+2}+\\frac{7}{2(x+3)}}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-14",
+      "prompt": "Evaluate \\(\\int \\frac{x^2+4}{x(x-2)(x+2)}\\,dx\\) using cover-up.",
+      "answer": "Set\n\\[\\frac{x^2+4}{x(x-2)(x+2)}=\\frac{A}{x}+\\frac{B}{x-2}+\\frac{C}{x+2}.\\]\nSet \\(x=0\\): \\(A=\\frac4{(-2)(2)}=-1\\).\nSet \\(x=2\\): \\(B=\\frac8{2\\cdot4}=1\\).\nSet \\(x=-2\\): \\(C=\\frac8{(-2)(-4)}=1\\).\nIntegrate:\n\\[\\int\\left(-\\frac1x+\\frac1{x-2}+\\frac1{x+2}\\right)dx.\\]\nSo\n\\[\\boxed{-\\ln|x|+\\ln|x-2|+\\ln|x+2|+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-15",
+      "prompt": "Find \\(k\\) so that the \\(\\frac{1}{x-2}\\) term vanishes in the decomposition of \\(\\frac{kx+1}{(x-2)(x+3)}\\).",
+      "answer": "The coefficient of \\(\\frac1{x-2}\\) is found by setting \\(x=2\\):\n\\[A=\\frac{k(2)+1}{2+3}=\\frac{2k+1}{5}.\\]\nFor the term to vanish, \\(A=0\\):\n\\[2k+1=0\\Rightarrow k=-\\frac12.\\]\nThus\n\\[\\boxed{k=-\\frac12}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-16",
+      "prompt": "For \\(\\frac{x+a}{(x-1)(x+1)}\\), find \\(a\\) so the cover-up coefficients are opposites.",
+      "answer": "The coefficients are\n\\[A=\\frac{1+a}{1+1}=\\frac{1+a}{2},\\qquad B=\\frac{-1+a}{-1-1}=\\frac{1-a}{2}.\\]\nOpposites means \\(B=-A\\):\n\\[\\frac{1-a}{2}=-\\frac{1+a}{2}.\\]\nSo\n\\[1-a=-1-a\\Rightarrow 1=-1,\\]\nwhich is impossible.\nTherefore\n\\[\\boxed{\\text{no value of }a\\text{ works}}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-17",
+      "prompt": "For \\(\\frac{x+a}{(x-2)(x+2)}\\), find \\(a\\) so the two cover-up coefficients are equal.",
+      "answer": "The coefficients are\n\\[A=\\frac{2+a}{2+2}=\\frac{a+2}{4},\\qquad B=\\frac{-2+a}{-2-2}=\\frac{2-a}{4}.\\]\nSet them equal:\n\\[\\frac{a+2}{4}=\\frac{2-a}{4}.\\]\nThus\n\\[a+2=2-a\\Rightarrow 2a=0\\Rightarrow a=0.\\]\nSo\n\\[\\boxed{a=0}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-18",
+      "prompt": "A student uses cover-up on \\(\\frac{x+1}{(x-1)(x^2+4)}\\) and writes \\(\\frac{A}{x-1}+\\frac{B}{x^2+4}\\). Diagnose the issue.",
+      "answer": "The factor \\(x^2+4\\) is irreducible quadratic, so its numerator must be linear, not just constant. The correct setup is\n\\[\\frac{x+1}{(x-1)(x^2+4)}=\\frac{A}{x-1}+\\frac{Bx+C}{x^2+4}.\\]\nCover-up can find \\(A\\) because \\(x-1\\) is a distinct linear factor:\n\\[A=\\frac{1+1}{1^2+4}=\\frac25.\\]\nBut cover-up alone does not find both \\(B\\) and \\(C\\). Coefficient comparison is still needed.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-19",
+      "prompt": "Justify the cover-up formula for \\(A\\) in \\(\\frac{P(x)}{(x-a)(x-b)}=\\frac{A}{x-a}+\\frac{B}{x-b}\\), where \\(a\\ne b\\).",
+      "answer": "Multiply both sides by \\((x-a)(x-b)\\):\n\\[P(x)=A(x-b)+B(x-a).\\]\nNow set \\(x=a\\). The term \\(B(x-a)\\) becomes zero, so\n\\[P(a)=A(a-b).\\]\nTherefore\n\\[A=\\frac{P(a)}{a-b}.\\]\nThis is exactly what cover-up does: remove the factor \\(x-a\\), then substitute \\(x=a\\) into what remains.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-cover-up-rule-20",
+      "prompt": "Use cover-up where valid to evaluate \\(\\int \\frac{2x^2+x-1}{(x-2)(x+1)(x-1)}\\,dx\\), and explain the zero coefficient if it occurs.",
+      "answer": "Set\n\\[\\frac{2x^2+x-1}{(x-2)(x+1)(x-1)}=\\frac{A}{x-2}+\\frac{B}{x+1}+\\frac{C}{x-1}.\\]\nCover-up gives\n\\[A=\\frac{2(2)^2+2-1}{(2+1)(2-1)}=3,\\]\n\\[B=\\frac{2(-1)^2-1-1}{(-1-2)(-1-1)}=0,\\]\n\\[C=\\frac{2(1)^2+1-1}{(1-2)(1+1)}=-1.\\]\nThe zero occurs because the numerator is zero at \\(x=-1\\), so that factor contributes no term.\nThus the integrand is \\(\\frac3{x-2}-\\frac1{x-1}\\), and\n\\[\\boxed{3\\ln|x-2|-\\ln|x-1|+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

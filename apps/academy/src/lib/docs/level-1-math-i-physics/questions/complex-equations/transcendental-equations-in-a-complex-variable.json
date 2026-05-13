@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-equations",
+  "topicId": "transcendental-equations-in-a-complex-variable",
+  "topicTitle": "Transcendental Equations in a Complex Variable",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-01",
+      "prompt": "Why does \\(e^z=0\\) have no complex solution?",
+      "answer": "Write \\(z=x+iy\\). Then \\(|e^z|=e^x\\), and \\(e^x>0\\) for all real \\(x\\), so \\(e^z\\) can never be zero.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-02",
+      "prompt": "Give the general solution of \\(e^z=1\\).",
+      "answer": "Write \\(1=e^{2\\pi ik i}\\). Matching modulus gives \\(\\operatorname{Re}(z)=0\\), and matching argument gives \\(\\operatorname{Im}(z)=2\\pi k\\). Thus \\(z=2\\pi ik\\), \\(k\\in\\mathbb Z\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-03",
+      "prompt": "Solve \\(e^z=-1\\).",
+      "answer": "Write \\(-1=e^{i(\\pi+2\\pi k)}\\). Therefore \\(z=i(\\pi+2\\pi k)=(2k+1)\\pi i\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-04",
+      "prompt": "Solve \\(e^z=e^3\\).",
+      "answer": "The target has modulus \\(e^3\\) and argument \\(0\\) modulo \\(2\\pi\\). Hence \\(z=3+2\\pi ik\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-05",
+      "prompt": "Solve \\(e^z=i\\).",
+      "answer": "Write \\(i=e^{i(\\pi/2+2\\pi k)}\\). Thus \\(z=i(\\pi/2+2\\pi k)\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-06",
+      "prompt": "Solve \\(e^z=1+i\\).",
+      "answer": "Write \\(1+i=\\sqrt2e^{i(\\pi/4+2\\pi k)}\\). Matching modulus gives \\(\\operatorname{Re}(z)=\\ln\\sqrt2=\\tfrac12\\ln2\\), so \\(z=\\tfrac12\\ln2+i(\\pi/4+2\\pi k)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-07",
+      "prompt": "Solve \\(e^{2z}=1\\).",
+      "answer": "Use the solution of \\(e^w=1\\): \\(2z=2\\pi ik\\). Therefore \\(z=\\pi ik\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-08",
+      "prompt": "Solve \\(e^{z+1}=-1\\).",
+      "answer": "Set \\(z+1=i(\\pi+2\\pi k)\\). Then \\(z=-1+i(\\pi+2\\pi k)\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-09",
+      "prompt": "Solve \\(\\sinh z=0\\).",
+      "answer": "Use \\(\\sinh z=(e^z-e^{-z})/2\\). Setting this to zero gives \\(e^z=e^{-z}\\), so \\(e^{2z}=1\\). Hence \\(2z=2\\pi ik\\), and \\(z=\\pi ik\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-10",
+      "prompt": "Solve \\(\\cos z=0\\).",
+      "answer": "Using \\(\\cos z=(e^{iz}+e^{-iz})/2\\), multiply by \\(2e^{iz}\\) to get \\(e^{2iz}+1=0\\). Thus \\(e^{2iz}=-1=e^{i(\\pi+2\\pi k)}\\), so \\(z=\\pi/2+\\pi k\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-11",
+      "prompt": "Solve \\(\\sin z=0\\) using exponentials.",
+      "answer": "\\(\\sin z=(e^{iz}-e^{-iz})/(2i)=0\\) gives \\(e^{iz}=e^{-iz}\\). Multiplying by \\(e^{iz}\\), \\(e^{2iz}=1\\), so \\(2iz=2\\pi ik\\), hence \\(z=\\pi k\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-12",
+      "prompt": "Verify that every \\(z=2\\pi ik\\) solves \\(e^z=1\\).",
+      "answer": "Substitute: \\(e^{2\\pi ik}=\\cos(2\\pi k)+i\\sin(2\\pi k)=1+0i=1\\). Therefore every integer \\(k\\) gives a solution.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-13",
+      "prompt": "Solve \\(e^{3z}=8\\).",
+      "answer": "Write \\(8=e^{\\ln8+2\\pi ik i}\\). Then \\(3z=\\\\ln8+2\\pi ik\\), so \\(z=\\ln2+\\frac{2\\pi i k}{3}\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-14",
+      "prompt": "Solve \\(e^{z}=2e^{i\\pi/3}\\).",
+      "answer": "Allow all arguments of the target: \\(2e^{i(\\pi/3+2\\pi k)}\\). Thus \\(z=\\ln2+i(\\pi/3+2\\pi k)\\), where \\(k\\in\\mathbb Z\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-15",
+      "prompt": "For which integers \\(k\\) does \\(z=\\pi ik\\) solve both \\(e^{2z}=1\\) and \\(e^z=1\\)?",
+      "answer": "All \\(z=\\pi ik\\) solve \\(e^{2z}=1\\). For \\(e^z=1\\), we need \\(\\pi k\\) to be a multiple of \\(2\\pi\\), so \\(k\\) must be even.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-16",
+      "prompt": "Find all \\(z\\) satisfying \\(e^z=\\overline{e^z}\\).",
+      "answer": "This means \\(e^z\\) is real. Write \\(z=x+iy\\); then \\(e^z=e^x(\\cos y+i\\sin y)\\). We need \\(\\sin y=0\\), so \\(y=\\pi k\\), and \\(z=x+i\\pi k\\) with \\(x\\in\\mathbb R\\), \\(k\\in\\mathbb Z\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-17",
+      "prompt": "Solve \\(\\cosh z=0\\).",
+      "answer": "\\(\\cosh z=(e^z+e^{-z})/2=0\\). Multiplying by \\(2e^z\\) gives \\(e^{2z}+1=0\\), so \\(e^{2z}=-1=e^{i(\\pi+2\\pi k)}\\). Hence \\(z=i(\\pi/2+\\pi k)\\), with \\(k\\in\\mathbb Z\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-18",
+      "prompt": "A learner solves \\(e^z=1\\) and gives only \\(z=0\\). Explain the error.",
+      "answer": "The learner found one solution but ignored periodicity in the imaginary direction. Since \\(e^{z+2\\pi i}=e^z\\), every \\(z=2\\pi ik\\) with \\(k\\in\\mathbb Z\\) solves the equation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-19",
+      "prompt": "Explain why the fundamental theorem of algebra gives no count for the solutions of \\(e^z=1\\).",
+      "answer": "The fundamental theorem of algebra applies only to polynomial equations. The equation \\(e^z=1\\) is transcendental and has infinitely many solutions \\(z=2\\pi ik\\), so polynomial root-counting does not apply.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-transcendental-equations-in-a-complex-variable-20",
+      "prompt": "Show that \\(e^{az}=1\\), with non-zero complex \\(a\\), has infinitely many solutions and give them.",
+      "answer": "The equation \\(e^w=1\\) has solutions \\(w=2\\pi ik\\). Put \\(w=az\\); since \\(a\\ne0\\), divide by \\(a\\) to get \\(z=2\\pi ik/a\\), where \\(k\\in\\mathbb Z\\). Distinct integers give an infinite periodic solution set along a complex line.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -18,7 +18,7 @@ These formulas express trigonometric functions of sums and differences of angles
 
 ### Double Angle Formulas
 
-Setting $B = A$ in the sum formulas gives the double angle formulas:
+Setting \(B = A\) in the sum formulas gives the double angle formulas:
 
 <Equation label="Sine double" tex="\sin(2A) = 2\sin A \cos A" />
 
@@ -36,5 +36,5 @@ Derived from the double angle formulas:
 
 <Equation label="Tangent half" tex="\tan\left(\frac{A}{2}\right) = \pm\sqrt{\frac{1 - \cos A}{1 + \cos A}} = \frac{\sin A}{1 + \cos A}" />
 
-The $\pm$ sign depends on the quadrant in which the angle lies.
+The \(\pm\) sign depends on the quadrant in which the angle lies.
 `;

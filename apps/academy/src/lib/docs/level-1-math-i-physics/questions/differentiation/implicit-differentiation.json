@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "implicit-differentiation",
   "topicTitle": "Implicit Differentiation",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "id-1",
-      "prompt": "Find dy/dx for x^2 + y^2 = 9.",
-      "answer": "-x/y",
-      "hints": ["Differentiate both sides.", "2x + 2y(dy/dx) = 0, so dy/dx = -x/y."],
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "id-2",
-      "prompt": "Find dy/dx for x^2 + 2y = 4.",
-      "answer": "-x",
-      "hints": ["Differentiate both sides: 2x + 2(dy/dx) = 0.", "dy/dx = -x."],
+      "id": "math-i-differentiation-implicit-differentiation-01",
+      "prompt": "When differentiating implicitly, what is \\(d(y)/dx\\)?",
+      "answer": "Treat \\(y\\) as a function of \\(x\\). Therefore\n\\[\n\\frac{d}{dx}[y]=\\frac{dy}{dx}.\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-3",
-      "prompt": "Find dy/dx for xy = 6.",
-      "answer": "-y/x",
-      "hints": ["Use the product rule on the left side.", "y + x(dy/dx) = 0, so dy/dx = -y/x."],
+      "id": "math-i-differentiation-implicit-differentiation-02",
+      "prompt": "What is \\(d(y^2)/dx\\) when \\(y\\) depends on \\(x\\)?",
+      "answer": "Use the chain rule with inner function \\(y\\):\n\\[\n\\frac{d}{dx}(y^2)=2y\\frac{dy}{dx}.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-03",
+      "prompt": "Differentiate \\(x^2+y^2=25\\) implicitly.",
+      "answer": "Differentiate both sides with respect to \\(x\\):\n\\[\n2x+2y\\frac{dy}{dx}=0.\n\\]\nSo\n\\[\n\\frac{dy}{dx}=-\\frac{x}{y}.\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-4",
-      "prompt": "Find the slope of the tangent to x^2 + y^2 = 25 at (3,4).",
-      "answer": "-3/4",
-      "hints": ["Find dy/dx first.", "dy/dx = -x/y, so at (3,4): dy/dx = -3/4."],
+      "id": "math-i-differentiation-implicit-differentiation-04",
+      "prompt": "Differentiate \\(xy=6\\) implicitly and solve for \\(dy/dx\\).",
+      "answer": "Use the product rule:\n\\[\nx\\frac{dy}{dx}+y=0.\n\\]\nMove \\(y\\) to the other side and divide by \\(x\\):\n\\[\n\\frac{dy}{dx}=-\\frac{y}{x}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-05",
+      "prompt": "Find \\(dy/dx\\) for \\(x^2+3y=10\\).",
+      "answer": "Differentiate:\n\\[\n2x+3\\frac{dy}{dx}=0.\n\\]\nHence\n\\[\n\\frac{dy}{dx}=-\\frac{2x}{3}.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-5",
-      "prompt": "Find dy/dx for x^3 + y^3 = 8.",
-      "answer": "-x^2/y^2",
-      "hints": ["Differentiate: 3x^2 + 3y^2(dy/dx) = 0.", "dy/dx = -x^2/y^2."],
+      "id": "math-i-differentiation-implicit-differentiation-06",
+      "prompt": "Find \\(dy/dx\\) for \\(y^3+x=4\\).",
+      "answer": "Differentiate both sides:\n\\[\n3y^2\\frac{dy}{dx}+1=0.\n\\]\nThus\n\\[\n\\frac{dy}{dx}=-\\frac{1}{3y^2}.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-6",
-      "prompt": "Find dy/dx for 2x^2 + 3xy + y^2 = 1.",
-      "answer": "-(4x + 3y)/(3x + 2y)",
-      "hints": ["Differentiate each term carefully.", "4x + 3y + 3x(dy/dx) + 2y(dy/dx) = 0."],
+      "id": "math-i-differentiation-implicit-differentiation-07",
+      "prompt": "Find \\(dy/dx\\) for \\(x^2+xy+y^2=7\\).",
+      "answer": "Differentiate term by term:\n\\[\n2x+\\left(x\\frac{dy}{dx}+y\\right)+2y\\frac{dy}{dx}=0.\n\\]\nCollect \\(dy/dx\\):\n\\[\n(x+2y)\\frac{dy}{dx}=-(2x+y).\n\\]\nSo \\(dy/dx=-(2x+y)/(x+2y)\\).",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-7",
-      "prompt": "Find dy/dx for x^2y + y^2 = 5.",
-      "answer": "-2xy/(x^2 + 2y)",
-      "hints": ["Product rule for x^2y.", "2xy + x^2(dy/dx) + 2y(dy/dx) = 0."],
+      "id": "math-i-differentiation-implicit-differentiation-08",
+      "prompt": "Find \\(dy/dx\\) for \\(x^3+y^3=9xy\\).",
+      "answer": "Differentiate:\n\\[\n3x^2+3y^2\\frac{dy}{dx}=9\\left(x\\frac{dy}{dx}+y\\right).\n\\]\nCollect terms:\n\\[\n(3y^2-9x)\\frac{dy}{dx}=9y-3x^2.\n\\]\nThus \\(dy/dx=(3y-x^2)/(y^2-3x)\\).",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-8",
-      "prompt": "Find dy/dx for sqrt(x) + sqrt(y) = 2.",
-      "answer": "-sqrt(y)/sqrt(x)",
-      "hints": ["Rewrite as x^(1/2) + y^(1/2) = 2.", "Differentiate: 1/(2 sqrt(x)) + (1/(2 sqrt(y)))(dy/dx) = 0."],
+      "id": "math-i-differentiation-implicit-differentiation-09",
+      "prompt": "For \\(x^2+y^2=25\\), find the slope at \\((3,4)\\).",
+      "answer": "From implicit differentiation,\n\\[\n\\frac{dy}{dx}=-\\frac{x}{y}.\n\\]\nAt \\((3,4)\\),\n\\[\n\\frac{dy}{dx}=-\\frac34.\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-9",
-      "prompt": "Find the second derivative d^2y/dx^2 when x^2 + y^2 = 1.",
-      "answer": "-1/y^3",
-      "hints": ["First find dy/dx = -x/y.", "Then differentiate dy/dx with respect to x using the quotient rule.", "d^2y/dx^2 = -(1*y - x*dy/dx)/y^2 = -(y + x^2/y)/y^2 = -1/y^3."],
-      "rating": "****",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-implicit-differentiation-10",
+      "prompt": "Find \\(dy/dx\\) for \\(\\sin y=x\\).",
+      "answer": "Differentiate both sides:\n\\[\n\\cos y\\frac{dy}{dx}=1.\n\\]\nProvided \\(\\cos y\\ne0\\),\n\\[\n\\frac{dy}{dx}=\\frac1{\\cos y}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "id-10",
-      "prompt": "Find dy/dx for sin(xy) = x + y.",
-      "answer": "(1 - y cos(xy))/(x cos(xy) - 1)",
-      "hints": ["Use the chain rule on sin(xy): cos(xy) times (y + x dy/dx).", "Collect dy/dx terms and solve."],
+      "id": "math-i-differentiation-implicit-differentiation-11",
+      "prompt": "Find \\(dy/dx\\) for \\(e^y+x^2=5\\).",
+      "answer": "Differentiate:\n\\[\ne^y\\frac{dy}{dx}+2x=0.\n\\]\nSolve for \\(dy/dx\\):\n\\[\n\\frac{dy}{dx}=-\\frac{2x}{e^y}.\n\\]",
       "rating": "***+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-12",
+      "prompt": "For \\(x^2+xy+y^2=3\\), find the slope at \\((1,1)\\).",
+      "answer": "Differentiate:\n\\[\n2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0.\n\\]\nSo\n\\[\n\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}.\n\\]\nAt \\((1,1)\\), the slope is \\(-3/3=-1\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-13",
+      "prompt": "Find \\(dy/dx\\) for \\(\\frac{x^2}{4}+\\frac{y^2}{9}=1\\).",
+      "answer": "Differentiate:\n\\[\n\\frac{x}{2}+\\frac{2y}{9}\\frac{dy}{dx}=0.\n\\]\nThen\n\\[\n\\frac{2y}{9}\\frac{dy}{dx}=-\\frac{x}{2},\\quad \\frac{dy}{dx}=-\\frac{9x}{4y}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-14",
+      "prompt": "Find \\(dy/dx\\) for \\(\\ln y=x^2\\), stating the condition on \\(y\\).",
+      "answer": "The logarithm requires \\(y>0\\). Differentiate:\n\\[\n\\frac1y\\frac{dy}{dx}=2x.\n\\]\nMultiply by \\(y\\):\n\\[\n\\frac{dy}{dx}=2xy.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-15",
+      "prompt": "Find \\(dy/dx\\) for \\(x\\sin y=y\\cos x\\).",
+      "answer": "Differentiate both sides. Left side:\n\\[\n\\sin y+x\\cos y\\frac{dy}{dx}.\n\\]\nRight side:\n\\[\n\\frac{dy}{dx}\\cos x-y\\sin x.\n\\]\nCollect terms:\n\\[\n(x\\cos y-\\cos x)\\frac{dy}{dx}=-y\\sin x-\\sin y.\n\\]\nThus \\(dy/dx=(-y\\sin x-\\sin y)/(x\\cos y-\\cos x)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-16",
+      "prompt": "For \\(x^2+y^2=r^2\\), find the tangent slope and explain why it is undefined at \\((r,0)\\).",
+      "answer": "Differentiate:\n\\[\n2x+2y\\frac{dy}{dx}=0,\\quad \\frac{dy}{dx}=-\\frac{x}{y}.\n\\]\nAt \\((r,0)\\), this becomes \\(-r/0\\), which is undefined. The tangent there is vertical, so it has no finite slope.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-17",
+      "prompt": "Find \\(d^2y/dx^2\\) for \\(x^2+y^2=25\\) in terms of \\(x\\) and \\(y\\).",
+      "answer": "First\n\\[\ny'=-\\frac{x}{y}.\n\\]\nDifferentiate \\(y'=-xy^{-1}\\):\n\\[\ny'{}'=-\\left(y^{-1}-xy^{-2}y'\\right)=-\\frac1y+\\frac{x}{y^2}\\left(-\\frac{x}{y}\\right).\n\\]\nSo\n\\[\n\\frac{d^2y}{dx^2}=-\\frac1y-\\frac{x^2}{y^3}=-\\frac{x^2+y^2}{y^3}=-\\frac{25}{y^3}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-18",
+      "prompt": "A student differentiates \\(y^2\\) as \\(2y\\). Explain the mistake in implicit differentiation.",
+      "answer": "Since \\(y\\) depends on \\(x\\), \\(y^2\\) is a composite function. The chain rule is required:\n\\[\n\\frac{d}{dx}(y^2)=2y\\frac{dy}{dx}.\n\\]\nThe missing factor \\(dy/dx\\) changes the equation and usually gives the wrong slope.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-19",
+      "prompt": "For \\(x^2+xy+y^2=3\\), find points on the curve where the tangent is horizontal.",
+      "answer": "The derivative is\n\\[\n\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}.\n\\]\nHorizontal means numerator \\(2x+y=0\\), so \\(y=-2x\\). Substitute:\n\\[\nx^2+x(-2x)+(-2x)^2=3\\Rightarrow 3x^2=3.\n\\]\nThus \\(x=\\pm1\\), giving \\((1,-2)\\) and \\((-1,2)\\), provided the denominator is not zero; it is \\(-3\\) and \\(3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-implicit-differentiation-20",
+      "prompt": "Show that the ellipse \\(x^2/a^2+y^2/b^2=1\\) has slope \\(-b^2x/(a^2y)\\).",
+      "answer": "Differentiate term by term:\n\\[\n\\frac{2x}{a^2}+\\frac{2y}{b^2}\\frac{dy}{dx}=0.\n\\]\nMove the first term:\n\\[\n\\frac{2y}{b^2}\\frac{dy}{dx}=-\\frac{2x}{a^2}.\n\\]\nMultiply by \\(b^2/(2y)\\):\n\\[\n\\frac{dy}{dx}=-\\frac{b^2x}{a^2y}.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

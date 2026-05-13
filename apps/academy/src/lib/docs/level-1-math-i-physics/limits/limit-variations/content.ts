@@ -42,10 +42,10 @@ For rational functions at vertical asymptotes:
 
 | Type | Notation | Meaning |
 |------|----------|---------|
-| Two-sided | $\lim_{x \to a} f(x)$ | Approaches from both sides |
-| Left-hand | $\lim_{x \to a^-} f(x)$ | Approaches from below |
-| Right-hand | $\lim_{x \to a^+} f(x)$ | Approaches from above |
-| At infinity | $\lim_{x \to \infty} f(x)$ | x grows arbitrarily large |
-| Infinite limit | $\lim_{x \to a} f(x) = \pm\infty$ | Function unbounded |
+| Two-sided | \(\lim_{x \to a} f(x)\) | Approaches from both sides |
+| Left-hand | \(\lim_{x \to a^-} f(x)\) | Approaches from below |
+| Right-hand | \(\lim_{x \to a^+} f(x)\) | Approaches from above |
+| At infinity | \(\lim_{x \to \infty} f(x)\) | x grows arbitrarily large |
+| Infinite limit | \(\lim_{x \to a} f(x) = \pm\infty\) | Function unbounded |
 
 Understanding these variations is essential for analyzing the complete behavior of functions.`;

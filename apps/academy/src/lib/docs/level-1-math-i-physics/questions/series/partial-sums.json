@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "partial-sums",
+  "topicTitle": "Partial Sums",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-partial-sums-01",
+      "prompt": "For \\(\\sum_{n=1}^{\\infty}a_n\\), what is \\(S_N\\)?",
+      "answer": "\\(S_N\\) is the finite partial sum through index \\(N\\):\n\\[\nS_N=\\sum_{n=1}^{N}a_n=a_1+a_2+\\cdots+a_N.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-02",
+      "prompt": "State the term test condition that every convergent series must satisfy.",
+      "answer": "If \\(\\sum a_n\\) converges, then \\(a_n\\to0\\). Therefore, if \\(a_n\\) does not tend to \\(0\\), the series diverges.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-03",
+      "prompt": "Find \\(S_3\\) for \\(\\sum_{n=1}^{\\infty}1/n\\).",
+      "answer": "Use the first three terms:\n\\[\nS_3=1+\\frac12+\\frac13=\\frac{11}{6}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-04",
+      "prompt": "Use the term condition on \\(\\sum_{n=1}^{\\infty}\\frac{n}{n+1}\\).",
+      "answer": "The term limit is\n\\[\n\\lim_{n\\to\\infty}\\frac{n}{n+1}=1.\n\\]\nSince the terms do not tend to \\(0\\), the series diverges.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-05",
+      "prompt": "Find \\(S_1,S_2,S_3,S_4\\) for the series \\(1+2+3+4+\\cdots\\).",
+      "answer": "Add one more term each time:\n\\[\nS_1=1,\\quad S_2=3,\\quad S_3=6,\\quad S_4=10.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-06",
+      "prompt": "For \\(a_n=(-1)^n\\), find the first four partial sums of \\(\\sum_{n=1}^{\\infty}a_n\\).",
+      "answer": "The terms are \\(-1,1,-1,1\\). Hence\n\\[\nS_1=-1,\\quad S_2=0,\\quad S_3=-1,\\quad S_4=0.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-07",
+      "prompt": "If \\(S_N=3-2/N\\), find the sum of the series if these are its partial sums.",
+      "answer": "Since \\(2/N\\to0\\),\n\\[\n\\lim_{N\\to\\infty}S_N=3-0=3.\n\\]\nThe series converges to \\(3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-08",
+      "prompt": "If \\(S_N=N/(N+2)\\), decide whether the corresponding series converges and find the limiting sum.",
+      "answer": "Divide by \\(N\\):\n\\[\nS_N=\\frac{1}{1+2/N}.\n\\]\nAs \\(N\\to\\infty\\), this tends to \\(1\\), so the series converges to \\(1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-09",
+      "prompt": "Use partial sums to show that \\(\\sum_{n=1}^{\\infty}n\\) diverges.",
+      "answer": "The partial sum is\n\\[\nS_N=1+2+\\cdots+N=\\frac{N(N+1)}{2}.\n\\]\nThis grows without bound as \\(N\\to\\infty\\), so the series diverges.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-10",
+      "prompt": "A series has partial sums \\(S_N=5+(-1)^N/N\\). Determine its convergence and sum.",
+      "answer": "The magnitude of \\((-1)^N/N\\) is \\(1/N\\), which tends to \\(0\\). Thus\n\\[\nS_N\\to5+0=5.\n\\]\nThe series converges to \\(5\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-11",
+      "prompt": "Explain why \\(a_n\\to0\\) does not prove convergence, using \\(a_n=1/n\\).",
+      "answer": "For \\(a_n=1/n\\), the terms tend to \\(0\\). But the partial sums\n\\[\n1+\\frac12+\\frac13+\\cdots+\\frac1N\n\\]\ndo not approach a finite limit. The harmonic series diverges, so the term condition is necessary but not sufficient.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-12",
+      "prompt": "For \\(\\sum_{n=0}^{\\infty}a_n\\), write \\(S_N\\) and state how many terms it contains.",
+      "answer": "The partial sum is\n\\[\nS_N=\\sum_{n=0}^{N}a_n=a_0+a_1+\\cdots+a_N.\n\\]\nIt contains \\(N+1\\) terms because the index starts at \\(0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-13",
+      "prompt": "Find \\(\\lim_{N\\to\\infty}\\frac{4N+1}{2N-3}\\) and interpret it as a series sum.",
+      "answer": "Divide top and bottom by \\(N\\):\n\\[\n\\frac{4N+1}{2N-3}=\\frac{4+1/N}{2-3/N}\\to\\frac42=2.\n\\]\nIf these are partial sums, the series converges to \\(2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-14",
+      "prompt": "If \\(S_N=(-1)^N+1/N\\), does the corresponding series converge?",
+      "answer": "Although \\(1/N\\to0\\), the term \\((-1)^N\\) keeps switching between \\(-1\\) and \\(1\\). The partial sums have no single limit, so the series diverges.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-15",
+      "prompt": "Given \\(S_N=\\sum_{n=1}^{N}(2n-1)\\), show the infinite series diverges.",
+      "answer": "The first \\(N\\) odd numbers sum to \\(N^2\\), so\n\\[\nS_N=N^2.\n\\]\nAs \\(N\\to\\infty\\), \\(N^2\\to\\infty\\). The partial sums are unbounded, so the series diverges.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-16",
+      "prompt": "If \\(S_N=L+c/(N+1)\\), where \\(L\\) and \\(c\\) are constants, prove convergence and find the sum.",
+      "answer": "Since \\(c/(N+1)\\to0\\),\n\\[\n\\lim_{N\\to\\infty}S_N=\\lim_{N\\to\\infty}\\left(L+\\frac{c}{N+1}\\right)=L.\n\\]\nThe series converges to \\(L\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-17",
+      "prompt": "Let \\(S_N=1-1/(N+1)\\) and \\(S_0=0\\). Find \\(a_1\\) and \\(a_2\\) using \\(a_N=S_N-S_{N-1}\\).",
+      "answer": "First\n\\[\nS_1=1-\\frac12=\\frac12,\\quad a_1=S_1-S_0=\\frac12.\n\\]\nNext\n\\[\nS_2=1-\\frac13=\\frac23,\\quad a_2=S_2-S_1=\\frac23-\\frac12=\\frac16.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-18",
+      "prompt": "Diagnose the error: \\(a_n\\to0\\), therefore \\(\\sum a_n\\) converges.",
+      "answer": "The conclusion does not follow. For \\(a_n=1/n\\), we have \\(a_n\\to0\\), but\n\\[\n\\sum_{n=1}^{\\infty}\\frac1n\n\\]\ndiverges. The term test only proves divergence when the term limit is not zero.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-19",
+      "prompt": "Prove that if \\(S_N\\to S\\), then the terms \\(a_N\\) of the series tend to \\(0\\).",
+      "answer": "For \\(N\\ge2\\),\n\\[\na_N=S_N-S_{N-1}.\n\\]\nIf \\(S_N\\to S\\), then \\(S_{N-1}\\to S\\) as well. Therefore\n\\[\n\\lim_{N\\to\\infty}a_N=S-S=0.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-partial-sums-20",
+      "prompt": "A model has partial sums \\(S_N=10-3(0.8)^N\\). Explain why the approximations stabilize and find the limiting total.",
+      "answer": "Because \\(|0.8|<1\\), \\((0.8)^N\\to0\\). Hence\n\\[\n\\lim_{N\\to\\infty}S_N=10-3\\cdot0=10.\n\\]\nThe remaining correction shrinks to zero, so the approximations stabilize at \\(10\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

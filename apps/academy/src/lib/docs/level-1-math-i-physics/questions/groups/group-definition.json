@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "group-definition",
+  "topicTitle": "Group Definition",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-group-definition-01",
+      "prompt": "What data must be specified before the phrase \"\\((G,*)\\) is a group\" has a precise meaning?",
+      "answer": "You must specify the set \\(G\\) and the binary operation \\(*\\) on that set. The group axioms are then tested for that particular set-operation pair.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-02",
+      "prompt": "State the four axioms in the definition of a group \\((G,*)\\).",
+      "answer": "The four axioms are closure, associativity, identity, and inverses. Closure keeps products in the set, associativity permits regrouping, the identity leaves elements unchanged, and inverses undo elements using the same operation.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-03",
+      "prompt": "In \\((\\mathbb Z,+)\\), what is the identity element?",
+      "answer": "The identity is \\(0\\). For every integer \\(a\\), \\(0+a=a\\) and \\(a+0=a\\), so adding \\(0\\) changes nothing.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-04",
+      "prompt": "In \\((\\mathbb Z,+)\\), what is the inverse of \\(7\\)?",
+      "answer": "The inverse of \\(7\\) under addition is \\(-7\\), because \\(7+(-7)=0\\) and \\((-7)+7=0\\). The identity for this group is \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-05",
+      "prompt": "Check closure for the set of even integers under addition.",
+      "answer": "Let two even integers be \\(2m\\) and \\(2n\\), where \\(m,n\\in\\mathbb Z\\). Their sum is \\(2m+2n=2(m+n)\\). Since \\(m+n\\in\\mathbb Z\\), the sum is even, so closure holds.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-06",
+      "prompt": "Why is \\((\\mathbb N,+)\\), with \\(\\mathbb N=\\{1,2,3,\\ldots\\}\\), not a group?",
+      "answer": "A group under addition would need an identity element \\(0\\), because \\(0+a=a\\). But \\(0\notin\\mathbb N\\) as defined here. Since the identity axiom fails, \\((\\mathbb N,+)\\) is not a group.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-07",
+      "prompt": "Is commutativity required in the definition of a group? Explain with the correct axiom it is often confused with.",
+      "answer": "No. A group does not have to satisfy \\(a*b=b*a\\). The required axiom is associativity, \\((a*b)*c=a*(b*c)\\), which is about moving parentheses, not switching the order of elements.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-08",
+      "prompt": "The operation \\(*\\) on real numbers is defined by \\(a*b=a+b+1\\). Find the identity element if one exists.",
+      "answer": "An identity \\(e\\) must satisfy \\(a*e=a\\). This gives \\(a+e+1=a\\), so \\(e=-1\\). Also \\(e*a=e+a+1=-1+a+1=a\\). Therefore the identity is \\(-1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-09",
+      "prompt": "For real numbers under \\(a*b=a+b+1\\), find the inverse of an element \\(a\\).",
+      "answer": "The identity is \\(-1\\). The inverse \\(x\\) of \\(a\\) must satisfy \\(a*x=-1\\). Thus \\(a+x+1=-1\\), so \\(x=-a-2\\). Also \\(x*a=x+a+1=-1\\), so the inverse is \\(-a-2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-10",
+      "prompt": "Explain why the non-zero real numbers form a group under multiplication.",
+      "answer": "Closure holds because the product of two non-zero real numbers is non-zero. Associativity is inherited from real multiplication. The identity is \\(1\\), and for each non-zero \\(a\\), the inverse \\(1/a\\) is also non-zero. Therefore \\((\\mathbb R\\setminus\\{0\\},\\cdot)\\) is a group.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-11",
+      "prompt": "Why do the real numbers fail to form a group under multiplication?",
+      "answer": "Closure and associativity hold, and \\(1\\) is the multiplicative identity. However, \\(0\\in\\mathbb R\\) has no multiplicative inverse because there is no real number \\(x\\) with \\(0x=1\\). Since every element needs an inverse, \\((\\mathbb R,\\cdot)\\) is not a group.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-12",
+      "prompt": "A set \\(G\\) with operation \\(*\\) has closure, an identity, and inverses. Why is this not enough to conclude it is a group?",
+      "answer": "The associativity axiom must also be checked. A group requires \\((a*b)*c=a*(b*c)\\) for all \\(a,b,c\\in G\\). Having closure, identity, and inverses does not by itself guarantee that parentheses can be moved safely.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-13",
+      "prompt": "Let \\(G=\\{0,1,2\\}\\) with addition modulo \\(3\\). Verify the group axioms concisely.",
+      "answer": "Closure holds because every sum modulo \\(3\\) is one of \\(0,1,2\\). Associativity comes from integer addition before reducing modulo \\(3\\). The identity is \\(0\\). The inverses are \\(0^{-1}=0\\), \\(1^{-1}=2\\), and \\(2^{-1}=1\\) under addition modulo \\(3\\). Hence this is a group.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-14",
+      "prompt": "The positive real numbers are given the operation \\(a*b=ab\\). Verify that this is a group.",
+      "answer": "If \\(a,b>0\\), then \\(ab>0\\), so closure holds. Multiplication is associative. The identity is \\(1\\), which is positive. For each \\(a>0\\), the inverse is \\(1/a>0\\), and \\(a(1/a)=1\\). Therefore the positive real numbers form a group under multiplication.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-15",
+      "prompt": "For \\((\\mathbb Z,-)\\), identify which group axiom fails first in a standard check and explain.",
+      "answer": "Closure holds because subtracting integers gives an integer, but associativity fails. For example, \\((5-3)-1=2-1=1\\), while \\(5-(3-1)=5-2=3\\). Since the two results differ, subtraction is not associative, so \\((\\mathbb Z,-)\\) is not a group.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-16",
+      "prompt": "On real numbers define \\(a*b=a+b-ab\\). Test whether \\(1\\) can belong to a group with this operation.",
+      "answer": "Compute \\(1*b=1+b-b=1\\) for every real \\(b\\). If \\(1\\) were in the set, multiplying it by any \\(b\\) would always give \\(1\\), so it cannot have an inverse to a separate identity for all elements. On all real numbers this prevents a group structure; one would need to remove problematic elements and recheck the axioms.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-17",
+      "prompt": "A student claims \\((\\mathbb Z,\\times)\\) is a group because multiplication is associative and has identity \\(1\\). Give the missing axiom check that disproves the claim.",
+      "answer": "The inverse axiom fails. For example, \\(2\\in\\mathbb Z\\), but its multiplicative inverse would have to be \\(1/2\\), and \\(1/2\notin\\mathbb Z\\). Since every element must have an inverse inside the same set, \\((\\mathbb Z,\\times)\\) is not a group.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-18",
+      "prompt": "Prove that a group has only one identity element.",
+      "answer": "Suppose \\(e\\) and \\(f\\) are both identities. Since \\(e\\) is an identity, \\(e*f=f\\). Since \\(f\\) is an identity, \\(e*f=e\\). Therefore \\(e=f\\). So the identity element is unique.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-19",
+      "prompt": "Prove that an element of a group has only one inverse.",
+      "answer": "Let \\(b\\) and \\(c\\) both be inverses of \\(a\\). Then \\(ab=e\\) and \\(ca=e\\). Now \\(b=e*b=(ca)b=c(ab)=c e=c\\), using associativity. Hence \\(b=c\\), so the inverse is unique.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-group-definition-20",
+      "prompt": "A finite operation table has entries only from \\(G\\), has a two-sided identity, and each element appears with the identity somewhere in its row and column. Why must associativity still be tested separately?",
+      "answer": "Those checks establish closure, an identity, and candidates for two-sided inverses. They do not control products of three elements. Associativity compares \\((a*b)*c\\) with \\(a*(b*c)\\) for all triples, and a table can satisfy the easier row and column checks while still failing this triple-product condition.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

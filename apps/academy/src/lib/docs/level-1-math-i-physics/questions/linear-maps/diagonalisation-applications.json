@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "diagonalisation-applications",
+  "topicTitle": "Diagonalisation Applications",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-01",
+      "prompt": "If \\(A=PDP^{-1}\\), state a formula for \\(A^n\\).",
+      "answer": "The power is\n\\[\nA^n=PD^nP^{-1}.\n\\]\nThis works because the middle factors \\(P^{-1}P\\) cancel when multiplying repeated copies of \\(A\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-02",
+      "prompt": "If \\(D=\\operatorname{diag}(2,5)\\), what is \\(D^3\\)?",
+      "answer": "Raise each diagonal entry to the third power:\n\\[\nD^3=\\operatorname{diag}(2^3,5^3)=\\operatorname{diag}(8,125).\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-03",
+      "prompt": "If a mode has eigenvalue \\(\\lambda=\\frac12\\), what happens to that mode after many repeated updates?",
+      "answer": "After \\(n\\) updates the multiplier is\n\\[\n\\left(\\frac12\\right)^n.\n\\]\nThis tends to \\(0\\) as \\(n\\) increases, so the mode decays.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-04",
+      "prompt": "If a mode has eigenvalue \\(-2\\), describe its repeated-update behaviour.",
+      "answer": "After \\(n\\) updates the factor is \\((-2)^n\\). Its magnitude grows like \\(2^n\\), and the sign alternates because the eigenvalue is negative.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-05",
+      "prompt": "Compute \\(D^4\\) for \\(D=\\begin{pmatrix}3&0\\\\0&-1\\end{pmatrix}\\).",
+      "answer": "Power each diagonal entry:\n\\[\nD^4=\\begin{pmatrix}3^4&0\\\\0&(-1)^4\\end{pmatrix}=\\begin{pmatrix}81&0\\\\0&1\\end{pmatrix}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-06",
+      "prompt": "If \\(\\mathbf x_0=3\\mathbf v_1-2\\mathbf v_2\\), with eigenvalues \\(4\\) and \\(1\\), find \\(A^2\\mathbf x_0\\).",
+      "answer": "Each eigenvector component evolves independently:\n\\[\nA^2\\mathbf x_0=3\\cdot4^2\\mathbf v_1-2\\cdot1^2\\mathbf v_2.\n\\]\nSo\n\\[\nA^2\\mathbf x_0=48\\mathbf v_1-2\\mathbf v_2.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-07",
+      "prompt": "Given \\(A=PDP^{-1}\\), \\(D=\\operatorname{diag}(2,3)\\), compute \\(D^5\\).",
+      "answer": "For a diagonal matrix, powers act entrywise:\n\\[\nD^5=\\operatorname{diag}(2^5,3^5)=\\operatorname{diag}(32,243).\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-08",
+      "prompt": "If \\(P^{-1}\\mathbf x_0=(2,-1)\\) and \\(D=\\operatorname{diag}(3,4)\\), find the eigenvector coordinates after two updates.",
+      "answer": "Eigenvector coordinates after two updates are\n\\[\nD^2P^{-1}\\mathbf x_0.\n\\]\nSince \\(D^2=\\operatorname{diag}(9,16)\\),\n\\[\nD^2(2,-1)=(18,-16).\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-09",
+      "prompt": "Show why \\((PDP^{-1})^2=PD^2P^{-1}\\).",
+      "answer": "Multiply two copies:\n\\[\n(PDP^{-1})(PDP^{-1})=PD(P^{-1}P)DP^{-1}.\n\\]\nSince \\(P^{-1}P=I\\), this becomes\n\\[\nPDIDP^{-1}=PD^2P^{-1}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-10",
+      "prompt": "If \\(A\\mathbf v_1=2\\mathbf v_1\\), \\(A\\mathbf v_2=5\\mathbf v_2\\), and \\(\\mathbf x=\\mathbf v_1+3\\mathbf v_2\\), find \\(A^3\\mathbf x\\).",
+      "answer": "Apply the power to each eigenvector component:\n\\[\nA^3\\mathbf x=2^3\\mathbf v_1+3\\cdot5^3\\mathbf v_2.\n\\]\nThus\n\\[\nA^3\\mathbf x=8\\mathbf v_1+375\\mathbf v_2.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-11",
+      "prompt": "Explain why diagonalisation is useful for repeated linear updates \\(\\mathbf x_{n+1}=A\\mathbf x_n\\).",
+      "answer": "If \\(A=PDP^{-1}\\), then\n\\[\n\\mathbf x_n=A^n\\mathbf x_0=PD^nP^{-1}\\mathbf x_0.\n\\]\nThe difficult repeated matrix multiplication is replaced by powers of diagonal entries. Each eigenvector coordinate evolves independently.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-12",
+      "prompt": "Interpret eigenvalues \\(0.8\\), \\(1\\), and \\(1.2\\) in a repeated-update model.",
+      "answer": "A component with eigenvalue \\(0.8\\) decays because \\(0.8^n\\to0\\). A component with eigenvalue \\(1\\) stays constant because \\(1^n=1\\). A component with eigenvalue \\(1.2\\) grows because \\(1.2^n\\) increases with \\(n\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-13",
+      "prompt": "Let \\(A=PDP^{-1}\\), with \\(D=\\operatorname{diag}(2,3)\\), \\(P=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\). Find \\(A^2(1,1)\\).",
+      "answer": "First compute\n\\[\nP^{-1}=\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix},\\qquad P^{-1}(1,1)=(0,1).\n\\]\nThen \\(D^2=\\operatorname{diag}(4,9)\\), so\n\\[\nD^2(0,1)=(0,9).\n\\]\nConvert back:\n\\[\nP(0,9)=(9,9).\n\\]\nThus \\(A^2(1,1)=(9,9)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-14",
+      "prompt": "For \\(D=\\operatorname{diag}(-1,2)\\), find all initial eigen-coordinates \\((a,b)\\) whose first component is unchanged after two updates.",
+      "answer": "After two updates,\n\\[\nD^2=\\operatorname{diag}((-1)^2,2^2)=\\operatorname{diag}(1,4).\n\\]\nSo\n\\[\nD^2(a,b)=(a,4b).\n\\]\nThe first component is \\(a\\), unchanged for every value of \\(a\\) and \\(b\\). Thus all initial eigen-coordinates \\((a,b)\\) have this property.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-15",
+      "prompt": "A state has eigen-coordinates \\((1,2)\\) and eigenvalues \\(\\frac12\\), \\(-3\\). Find its eigen-coordinates after \\(n\\) updates.",
+      "answer": "Each coordinate is multiplied by the corresponding eigenvalue to the \\(n\\)-th power:\n\\[\n\\left(\\left(\\frac12\\right)^n\\cdot1,(-3)^n\\cdot2\\right).\n\\]\nSo the coordinates are\n\\[\n\\left(\\left(\\frac12\\right)^n,2(-3)^n\\right).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-16",
+      "prompt": "For which \\(r\\) does a mode with eigenvalue \\(r\\) decay under repeated updates?",
+      "answer": "The size after \\(n\\) updates is controlled by \\(|r|^n\\). This tends to zero exactly when\n\\[\n|r|<1.\n\\]\nSo the mode decays for \\(-1<r<1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-17",
+      "prompt": "A diagonalised system has eigenvalues \\(2\\) and \\(3\\). Which mode dominates long term if both initial mode amplitudes are non-zero?",
+      "answer": "The mode with eigenvalue \\(3\\) dominates because \\(3^n\\) grows faster than \\(2^n\\). The ratio of the first mode to the second is proportional to\n\\[\n\\frac{2^n}{3^n}=\\left(\\frac23\\right)^n,\n\\]\nwhich tends to \\(0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-18",
+      "prompt": "A student computes \\(A^n= P D P^{-1}\\) instead of \\(P D^n P^{-1}\\). Explain the error.",
+      "answer": "The expression \\(PDP^{-1}\\) is just \\(A\\), not \\(A^n\\). When applying the matrix repeatedly, the diagonal action must also be repeated. Because \\(D\\) is diagonal, this means raising each diagonal entry to the \\(n\\)-th power:\n\\[\nA^n=PD^nP^{-1}.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-19",
+      "prompt": "Prove by cancellation that \\(A^n=PD^nP^{-1}\\) when \\(A=PDP^{-1}\\).",
+      "answer": "For \\(n=2\\), the middle factors cancel:\n\\[\nA^2=(PDP^{-1})(PDP^{-1})=PD(P^{-1}P)DP^{-1}=PD^2P^{-1}.\n\\]\nFor more factors, every adjacent \\(P^{-1}P\\) becomes \\(I\\). After \\(n\\) copies, only one \\(P\\) remains at the left, one \\(P^{-1}\\) at the right, and \\(n\\) copies of \\(D\\) remain in the middle. Thus \\(A^n=PD^nP^{-1}\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-diagonalisation-applications-20",
+      "prompt": "Explain why diagonalisation may fail as a method for powers even when eigenvalues are known.",
+      "answer": "Knowing eigenvalues is not enough. To use\n\\[\nA^n=PD^nP^{-1},\n\\]\nthere must be enough independent eigenvectors to form an invertible \\(P\\). If a matrix has a repeated eigenvalue but too small an eigenspace, \\(P\\) cannot be built from a full eigenvector basis. Then this diagonalisation method for powers is unavailable.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

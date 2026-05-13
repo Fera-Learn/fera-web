@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "algebraic-limits",
   "topicTitle": "Algebraic Limits",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-algebraic-limits-01",
-      "prompt": "Evaluate \\(\\lim_{x\\to5}\\frac{x^2-25}{x-5}\\).",
-      "answer": "Factor the numerator:\n\\[\nx^2-25=(x-5)(x+5).\n\\]\nFor \\(x\\ne5\\),\n\\[\n\\frac{x^2-25}{x-5}=x+5.\n\\]\nTherefore the limit is\n\\[\n5+5=10.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "What should you try first when evaluating an algebraic limit?",
+      "answer": "Try direct substitution first.\nIf the expression is defined at the approach value, substitute that value and simplify. If it gives an indeterminate form such as \\(\\frac00\\), use algebraic simplification before taking the limit.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-algebraic-limits-02",
-      "prompt": "Evaluate \\(\\lim_{x\\to9}\\frac{\\sqrt{x}-3}{x-9}\\).",
-      "answer": "Rationalise the numerator:\n\\[\n\\frac{\\sqrt{x}-3}{x-9}\\cdot\\frac{\\sqrt{x}+3}{\\sqrt{x}+3}=\\frac{x-9}{(x-9)(\\sqrt{x}+3)}.\n\\]\nFor \\(x\\ne9\\), this is\n\\[\n\\frac{1}{\\sqrt{x}+3}.\n\\]\nThus the limit is\n\\[\n\\frac{1}{3+3}=\\frac{1}{6}.\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "prompt": "What indeterminate form often signals that factoring or rationalizing may be needed?",
+      "answer": "The form\n\\[\\frac00\\]\noften signals that the expression has a removable factor or needs rationalizing. It does not mean the limit is automatically \\(0\\) or undefined.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-algebraic-limits-03",
-      "prompt": "Evaluate \\(\\lim_{h\\to0}\\frac{(1+h)^3-1}{h}\\).",
-      "answer": "Expand:\n\\[\n(1+h)^3-1=1+3h+3h^2+h^3-1=3h+3h^2+h^3.\n\\]\nFor \\(h\\ne0\\),\n\\[\n\\frac{(1+h)^3-1}{h}=3+3h+h^2.\n\\]\nTaking \\(h\\to0\\) gives\n\\[\n3.\n\\]",
+      "prompt": "Evaluate \\(\\lim_{x\\to2}(3x^2-5x+1)\\).",
+      "answer": "Polynomials are evaluated by direct substitution:\n\\[3(2)^2-5(2)+1=12-10+1=3.\\]\nTherefore\n\\[\\lim_{x\\to2}(3x^2-5x+1)=3.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-04",
+      "prompt": "Evaluate \\(\\lim_{x\\to3}\\frac{x^2+1}{x-1}\\).",
+      "answer": "The denominator at \\(x=3\\) is nonzero, so use direct substitution:\n\\[\\frac{3^2+1}{3-1}=\\frac{10}{2}=5.\\]\nThe limit is \\(5\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to2}\\frac{x^2-4}{x-2}\\).",
+      "answer": "Direct substitution gives \\(\\frac00\\), so factor:\n\\[x^2-4=(x-2)(x+2).\\]\nFor \\(x\\ne2\\),\n\\[\\frac{x^2-4}{x-2}=x+2.\\]\nThus\n\\[\\lim_{x\\to2}\\frac{x^2-4}{x-2}=2+2=4.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{x^2-1}{x-1}\\).",
+      "answer": "Factor the numerator:\n\\[x^2-1=(x-1)(x+1).\\]\nFor \\(x\\ne1\\), cancel \\(x-1\\):\n\\[\\frac{x^2-1}{x-1}=x+1.\\]\nNow substitute \\(x=1\\):\n\\[1+1=2.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to4}\\frac{\\sqrt{x}-2}{x-4}\\).",
+      "answer": "Rationalize the numerator:\n\\[\\frac{\\sqrt{x}-2}{x-4}\\cdot\\frac{\\sqrt{x}+2}{\\sqrt{x}+2}=\\frac{x-4}{(x-4)(\\sqrt{x}+2)}.\\]\nFor \\(x\\ne4\\), this is\n\\[\\frac1{\\sqrt{x}+2}.\\]\nSubstitute \\(x=4\\):\n\\[\\frac1{2+2}=\\frac14.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to9}\\frac{\\sqrt{x}-3}{x-9}\\).",
+      "answer": "Multiply by the conjugate:\n\\[\\frac{\\sqrt{x}-3}{x-9}\\cdot\\frac{\\sqrt{x}+3}{\\sqrt{x}+3}=\\frac{x-9}{(x-9)(\\sqrt{x}+3)}.\\]\nCancel for \\(x\\ne9\\):\n\\[\\frac1{\\sqrt{x}+3}.\\]\nThen\n\\[\\lim_{x\\to9}\\frac1{\\sqrt{x}+3}=\\frac16.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to3}\\frac{x^2-9}{x^2-5x+6}\\).",
+      "answer": "Factor both polynomials:\n\\[x^2-9=(x-3)(x+3),\\]\n\\[x^2-5x+6=(x-3)(x-2).\\]\nFor \\(x\\ne3\\), cancel \\(x-3\\):\n\\[\\frac{x+3}{x-2}.\\]\nSubstitute \\(x=3\\):\n\\[\\frac{6}{1}=6.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-10",
+      "prompt": "Evaluate \\(\\lim_{h\\to0}\\frac{(2+h)^2-4}{h}\\).",
+      "answer": "Expand the numerator:\n\\[(2+h)^2-4=4+4h+h^2-4=4h+h^2.\\]\nThen\n\\[\\frac{4h+h^2}{h}=4+h\\quad(h\\ne0).\\]\nNow take the limit:\n\\[\\lim_{h\\to0}(4+h)=4.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-11",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{(x+1)^3-1}{x}\\).",
+      "answer": "Expand:\n\\[(x+1)^3-1=(1+3x+3x^2+x^3)-1=3x+3x^2+x^3.\\]\nDivide by \\(x\\):\n\\[\\frac{3x+3x^2+x^3}{x}=3+3x+x^2.\\]\nSubstitute \\(x=0\\):\n\\[3.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-12",
+      "prompt": "Evaluate \\(\\lim_{x\\to2}\\frac{x^3-8}{x-2}\\).",
+      "answer": "Use the difference of cubes:\n\\[x^3-8=(x-2)(x^2+2x+4).\\]\nCancel \\(x-2\\) for \\(x\\ne2\\):\n\\[\\frac{x^3-8}{x-2}=x^2+2x+4.\\]\nSubstitute \\(x=2\\):\n\\[4+4+4=12.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sqrt{1+x}-1}{x}\\).",
+      "answer": "Rationalize:\n\\[\\frac{\\sqrt{1+x}-1}{x}\\cdot\\frac{\\sqrt{1+x}+1}{\\sqrt{1+x}+1}=\\frac{1+x-1}{x(\\sqrt{1+x}+1)}.\\]\nCancel \\(x\\):\n\\[\\frac1{\\sqrt{1+x}+1}.\\]\nSubstitute \\(x=0\\):\n\\[\\frac1{1+1}=\\frac12.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to8}\\frac{x^{2/3}-4}{x-8}\\) using \\(u=x^{1/3}\\).",
+      "answer": "Let \\(u=x^{1/3}\\). As \\(x\\to8\\), \\(u\\to2\\), and \\(x=u^3\\).\nThen\n\\[\\frac{x^{2/3}-4}{x-8}=\\frac{u^2-4}{u^3-8}.\\]\nFactor:\n\\[\\frac{(u-2)(u+2)}{(u-2)(u^2+2u+4)}=\\frac{u+2}{u^2+2u+4}.\\]\nAt \\(u=2\\), this is \\(\\frac4{12}=\\frac13\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-15",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{x^3-1}{x^2-1}\\), carefully stating what cancels.",
+      "answer": "Factor numerator and denominator:\n\\[x^3-1=(x-1)(x^2+x+1),\\]\n\\[x^2-1=(x-1)(x+1).\\]\nFor \\(x\\ne1\\), cancel the common factor \\(x-1\\):\n\\[\\frac{x^2+x+1}{x+1}.\\]\nNow substitute \\(x=1\\):\n\\[\\frac{1+1+1}{2}=\\frac32.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-16",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\frac1{x+1}-1}{x}\\).",
+      "answer": "Simplify the numerator:\n\\[\\frac1{x+1}-1=\\frac{1-(x+1)}{x+1}=\\frac{-x}{x+1}.\\]\nThen\n\\[\\frac{\\frac1{x+1}-1}{x}=\\frac{-x}{x+1}\\cdot\\frac1x=-\\frac1{x+1}\\quad(x\\ne0).\\]\nSubstitute \\(x=0\\):\n\\[-1.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-17",
+      "prompt": "A student cancels \\(x\\) in \\(\\frac{x+2}{x}\\) and gets \\(2\\). Explain why this is invalid, then describe \\(\\lim_{x\\to0}\\frac{x+2}{x}\\).",
+      "answer": "Cancellation only works for common factors, not terms in a sum. The numerator \\(x+2\\) does not have a factor \\(x\\).\nRewrite:\n\\[\\frac{x+2}{x}=1+\\fracrac2x.\\]\nAs \\(x\\to0^+\\), \\(2/x\\to+\\infty\\); as \\(x\\to0^-\\), \\(2/x\\to-\\infty\\).\nSo the two-sided finite limit does not exist.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-18",
+      "prompt": "Diagnose the error: direct substitution in \\(\\lim_{x\\to2}\\frac{x^2-4}{x-2}\\) gives \\(\\frac00\\), so the limit is \\(0\\).",
+      "answer": "The form \\(\\frac00\\) is indeterminate, not equal to \\(0\\).\nFactor the numerator:\n\\[x^2-4=(x-2)(x+2).\\]\nFor \\(x\\ne2\\),\n\\[\\frac{x^2-4}{x-2}=x+2.\\]\nTherefore the limit is\n\\[\\lim_{x\\to2}(x+2)=4.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-19",
+      "prompt": "Explain why canceling a factor in a limit problem does not require the original function to be defined at the approach point.",
+      "answer": "A limit concerns values near the approach point, with \\(x\\ne a\\).\nIf an expression has a common factor such as \\((x-a)\\), canceling it is valid for all nearby \\(x\\) except \\(a\\), because \\(x-a\\ne0\\) there.\nThe simplified expression matches the original on the deleted neighborhood, so it has the same limit even if the original is undefined at \\(a\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-algebraic-limits-20",
+      "prompt": "Evaluate \\(\\lim_{h\\to0}\\frac{\\sqrt{a+h}-\\sqrt a}{h}\\) for \\(a>0\\).",
+      "answer": "Rationalize the numerator:\n\\[\\frac{\\sqrt{a+h}-\\sqrt a}{h}\\cdot\\frac{\\sqrt{a+h}+\\sqrt a}{\\sqrt{a+h}+\\sqrt a}=\\frac{a+h-a}{h(\\sqrt{a+h}+\\sqrt a)}.\\]\nCancel \\(h\\) for \\(h\\ne0\\):\n\\[\\frac1{\\sqrt{a+h}+\\sqrt a}.\\]\nNow let \\(h\\to0\\):\n\\[\\frac1{\\sqrt a+\\sqrt a}=\\frac1{2\\sqrt a}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "argument",
+  "topicTitle": "Argument",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-argument-01",
+      "prompt": "State the principal argument interval used for a non-zero complex number \\(z\\).",
+      "answer": "The principal argument is written \\(\\operatorname{Arg}(z)\\).\nIt is chosen in the interval\n\\[\n-\\pi < \\operatorname{Arg}(z) \\le \\pi.\n\\]\nThe number \\(z=0\\) has no argument because it has no direction from the origin.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-02",
+      "prompt": "Give one argument of the complex number \\(3i\\).",
+      "answer": "The point \\(3i\\) is at \\((0,3)\\), directly above the origin on the positive imaginary axis.\nThe angle from the positive real axis is\n\\[\n\\frac{\\pi}{2}.\n\\]\nSo one argument is \\(\\pi/2\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-03",
+      "prompt": "Find \\(\\operatorname{Arg}(-4)\\).",
+      "answer": "The complex number \\(-4\\) is the point \\((-4,0)\\) on the negative real axis.\nThe angle from the positive real axis to this ray is \\(\\pi\\).\nSince \\(\\pi\\) is included in \\((-\\pi,\\pi]\\),\n\\[\n\\operatorname{Arg}(-4)=\\pi.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-04",
+      "prompt": "Find \\(\\operatorname{Arg}(2-2i)\\).",
+      "answer": "The point \\((2,-2)\\) lies in quadrant IV.\nThe reference angle satisfies\n\\[\n\\tan \\alpha=\\left|\\frac{-2}{2}\\right|=1,\\quad \\alpha=\\frac{\\pi}{4}.\n\\]\nIn quadrant IV the principal argument is negative, so\n\\[\n\\operatorname{Arg}(2-2i)=-\\frac{\\pi}{4}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-05",
+      "prompt": "Find the principal argument of \\(-3+3i\\).",
+      "answer": "The point \\((-3,3)\\) lies in quadrant II.\nThe reference angle is\n\\[\n\\tan^{-1}\\left|\\frac{3}{-3}\\right|=\\tan^{-1}(1)=\\frac{\\pi}{4}.\n\\]\nQuadrant II angles have form \\(\\pi-\\alpha\\), so\n\\[\n\\operatorname{Arg}(-3+3i)=\\pi-\\frac{\\pi}{4}=\\frac{3\\pi}{4}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-06",
+      "prompt": "Find the principal argument of \\(-5-5\\sqrt{3}i\\).",
+      "answer": "The point is in quadrant III.\nThe reference angle satisfies\n\\[\n\\tan \\alpha=\\left|\\frac{-5\\sqrt3}{-5}\\right|=\\sqrt3,\\quad \\alpha=\\frac{\\pi}{3}.\n\\]\nA quadrant III direction may be written \\(\\pi+\\pi/3=4\\pi/3\\), but this is outside \\((-\\pi,\\pi]\\).\nSubtract \\(2\\pi\\):\n\\[\n\\frac{4\\pi}{3}-2\\pi=-\\frac{2\\pi}{3}.\n\\]\nTherefore \\(\\operatorname{Arg}(-5-5\\sqrt3 i)=-2\\pi/3\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-07",
+      "prompt": "Write the general argument of \\(1+i\\) using an integer parameter.",
+      "answer": "The point \\((1,1)\\) lies in quadrant I and has reference angle\n\\[\n\\tan^{-1}(1)=\\frac{\\pi}{4}.\n\\]\nThe principal argument is \\(\\pi/4\\).\nAll arguments differ by full turns of \\(2\\pi\\), so\n\\[\n\\arg(1+i)=\\frac{\\pi}{4}+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-08",
+      "prompt": "Find the principal argument of \\(\\sqrt3-i\\), giving the answer in radians.",
+      "answer": "The point \\((\\sqrt3,-1)\\) lies in quadrant IV.\nThe reference angle is\n\\[\n\\alpha=\\tan^{-1}\\left(\\frac{1}{\\sqrt3}\\right)=\\frac{\\pi}{6}.\n\\]\nBecause the imaginary part is negative and the real part is positive, the principal argument is\n\\[\n-\\alpha=-\\frac{\\pi}{6}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-09",
+      "prompt": "A complex number has modulus \\(6\\) and principal argument \\(-2\\pi/3\\). Find its Cartesian form.",
+      "answer": "Use \\(z=r(\\cos\\theta+i\\sin\\theta)\\).\nHere \\(r=6\\) and \\(\\theta=-2\\pi/3\\).\n\\[\n\\cos\\left(-\\frac{2\\pi}{3}\\right)=-\\frac12,\\quad \\sin\\left(-\\frac{2\\pi}{3}\\right)=-\\frac{\\sqrt3}{2}.\n\\]\nTherefore\n\\[\nz=6\\left(-\\frac12-i\\frac{\\sqrt3}{2}\\right)=-3-3\\sqrt3 i.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-10",
+      "prompt": "Find all \\(\\theta\\in[0,2\\pi)\\) such that \\(\\theta\\) is an argument of \\(-2i\\).",
+      "answer": "The number \\(-2i\\) lies on the negative imaginary axis, so a direction angle is \\(-\\pi/2\\).\nTo express this in \\([0,2\\pi)\\), add \\(2\\pi\\):\n\\[\n-\\frac{\\pi}{2}+2\\pi=\\frac{3\\pi}{2}.\n\\]\nThere is only one representative in the interval, so\n\\[\n\\theta=\\frac{3\\pi}{2}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-11",
+      "prompt": "Explain why \\(\\arg(z)\\) is multi-valued but \\(\\operatorname{Arg}(z)\\) is single-valued for \\(z\\ne0\\).",
+      "answer": "A ray from the origin has the same direction after any whole number of full turns.\nIf \\(\\theta\\) is an argument of \\(z\\), then\n\\[\n\\theta+2k\\pi\n\\]\nis also an argument for every integer \\(k\\).\nThus \\(\\arg(z)\\) represents infinitely many angles.\nThe principal argument \\(\\operatorname{Arg}(z)\\) chooses exactly one of those angles by requiring\n\\[\n-\\pi<\\operatorname{Arg}(z)\\le\\pi.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-12",
+      "prompt": "A student says \\(\\operatorname{Arg}(-1-i)=5\\pi/4\\). Diagnose the error and give the correct principal argument.",
+      "answer": "The angle \\(5\\pi/4\\) points to quadrant III, so it is an argument of \\(-1-i\\).\nHowever, a principal argument must lie in\n\\[\n(-\\pi,\\pi].\n\\]\nSince \\(5\\pi/4>\\pi\\), subtract \\(2\\pi\\):\n\\[\n\\frac{5\\pi}{4}-2\\pi=-\\frac{3\\pi}{4}.\n\\]\nTherefore\n\\[\n\\operatorname{Arg}(-1-i)=-\\frac{3\\pi}{4}.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-13",
+      "prompt": "Find \\(\\operatorname{Arg}\\left((1+i)(-\\sqrt3+i)\\right)\\) without first fully expanding the product.",
+      "answer": "Arguments add under multiplication, with the result adjusted to the principal interval.\nFor \\(1+i\\),\n\\[\n\\operatorname{Arg}(1+i)=\\frac{\\pi}{4}.\n\\]\nFor \\(-\\sqrt3+i\\), the point is in quadrant II with reference angle \\(\\pi/6\\), so\n\\[\n\\operatorname{Arg}(-\\sqrt3+i)=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}.\n\\]\nAdd:\n\\[\n\\frac{\\pi}{4}+\\frac{5\\pi}{6}=\\frac{3\\pi}{12}+\\frac{10\\pi}{12}=\\frac{13\\pi}{12}.\n\\]\nThis is greater than \\(\\pi\\), so subtract \\(2\\pi\\):\n\\[\n\\frac{13\\pi}{12}-2\\pi=-\\frac{11\\pi}{12}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-14",
+      "prompt": "Let \\(z\\) have \\(\\operatorname{Arg}(z)=3\\pi/4\\). Find the principal argument of \\(-iz\\).",
+      "answer": "Multiplication by \\(-i\\) rotates a complex number by \\(-\\pi/2\\).\nSo an argument of \\(-iz\\) is\n\\[\n\\frac{3\\pi}{4}-\\frac{\\pi}{2}=\\frac{3\\pi}{4}-\\frac{2\\pi}{4}=\\frac{\\pi}{4}.\n\\]\nThis already lies in \\((-\\pi,\\pi]\\), so\n\\[\n\\operatorname{Arg}(-iz)=\\frac{\\pi}{4}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-15",
+      "prompt": "For which real values of \\(t\\) is \\(\\operatorname{Arg}(t+i)=\\pi/4\\)?",
+      "answer": "The number \\(t+i\\) is the point \\((t,1)\\).\nFor principal argument \\(\\pi/4\\), the point must lie on the ray making angle \\(\\pi/4\\), where\n\\[\n\\tan\\left(\\frac{\\pi}{4}\\right)=\\frac{\\text{imaginary part}}{\\text{real part}}=\\frac{1}{t}.\n\\]\nSince \\(\\tan(\\pi/4)=1\\),\n\\[\n1=\\frac{1}{t},\\quad t=1.\n\\]\nThis is in quadrant I, so it satisfies the required argument.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-16",
+      "prompt": "For which real values of \\(a\\) does \\(a-2i\\) have principal argument \\(-\\pi/2\\)?",
+      "answer": "The argument \\(-\\pi/2\\) is the negative imaginary axis.\nA point on that axis has real part \\(0\\) and negative imaginary part.\nFor \\(a-2i\\), the real part is \\(a\\) and the imaginary part is \\(-2\\).\nThus we need\n\\[\na=0.\n\\]\nThe imaginary part is already negative, so \\(a=0\\) is valid.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-17",
+      "prompt": "Find all real \\(x\\) such that \\(\\operatorname{Arg}(x+xi)=3\\pi/4\\).",
+      "answer": "The point is \\((x,x)\\).\nIf \\(x>0\\), it lies in quadrant I and has argument \\(\\pi/4\\).\nIf \\(x<0\\), it lies in quadrant III and the principal argument is\n\\[\n-\\frac{3\\pi}{4},\n\\]\nnot \\(3\\pi/4\\).\nIf \\(x=0\\), the number is \\(0\\), whose argument is undefined.\nTherefore there are no real values of \\(x\\) satisfying the condition.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-18",
+      "prompt": "Prove that for any non-zero complex number \\(z\\), \\(\\operatorname{Arg}(-z)\\) is obtained from \\(\\operatorname{Arg}(z)+\\pi\\) by adjusting into \\((-\\pi,\\pi]\\).",
+      "answer": "Multiplication by \\(-1\\) rotates every non-zero complex number by \\(\\pi\\) radians.\nIf \\(\\theta=\\operatorname{Arg}(z)\\), then an argument of \\(-z\\) is\n\\[\n\\theta+\\pi.\n\\]\nArguments that differ by \\(2k\\pi\\) describe the same ray, so all arguments of \\(-z\\) are\n\\[\n\\theta+\\pi+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nThe principal argument is the unique one of these values lying in \\((-\\pi,\\pi]\\).\nThus \\(\\operatorname{Arg}(-z)\\) is exactly \\(\\operatorname{Arg}(z)+\\pi\\) adjusted by a multiple of \\(2\\pi\\) into the principal interval.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-19",
+      "prompt": "A non-zero complex number \\(z\\) satisfies \\(\\operatorname{Arg}(z)=\\theta\\). Determine \\(\\operatorname{Arg}(1/z)\\) in terms of \\(\\theta\\), including the endpoint case.",
+      "answer": "Write \\(z=r e^{i\\theta}\\) with \\(r>0\\) and \\(-\\pi<\\theta\\le\\pi\\).\nThen\n\\[\n\\frac1z=\\frac1r e^{-i\\theta}.\n\\]\nSo an argument of \\(1/z\\) is \\(-\\theta\\).\nIf \\(-\\theta\\in(-\\pi,\\pi]\\), then \\(\\operatorname{Arg}(1/z)=-\\theta\\).\nThe only endpoint problem occurs when \\(\\theta=\\pi\\). Then \\(-\\theta=-\\pi\\), which is not allowed in the principal interval. Add \\(2\\pi\\):\n\\[\n-\\pi+2\\pi=\\pi.\n\\]\nTherefore\n\\[\n\\operatorname{Arg}(1/z)=\\begin{cases}-\\theta,& -\\pi<\\theta<\\pi,\\\\ \\pi,& \\theta=\\pi.\\end{cases}\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-argument-20",
+      "prompt": "Show why \\(\\operatorname{Arg}(z_1z_2)\\) is not always equal to \\(\\operatorname{Arg}(z_1)+\\operatorname{Arg}(z_2)\\), even though arguments add under multiplication.",
+      "answer": "Arguments add before the result is reduced to the principal interval.\nTake\n\\[\nz_1=z_2=-1+i\\sqrt3.\n\\]\nEach has principal argument \\(2\\pi/3\\).\nThe sum of principal arguments is\n\\[\n\\frac{2\\pi}{3}+\\frac{2\\pi}{3}=\\frac{4\\pi}{3}.\n\\]\nBut \\(4\\pi/3\\) is not in \\((-\\pi,\\pi]\\). The principal representative is\n\\[\n\\frac{4\\pi}{3}-2\\pi=-\\frac{2\\pi}{3}.\n\\]\nTherefore\n\\[\n\\operatorname{Arg}(z_1z_2)=-\\frac{2\\pi}{3}\\ne\\frac{4\\pi}{3}.\n\\]\nThe correct rule is to add arguments and then adjust by a multiple of \\(2\\pi\\) into the principal interval.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

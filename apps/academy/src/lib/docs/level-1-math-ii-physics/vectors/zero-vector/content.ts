@@ -25,13 +25,13 @@ An additive identity is a vector that leaves every vector unchanged when added. 
 
 ### Step 1: Build \(\mathbf 0\) from the origin
 
-Choose an origin \(O\). The position vector of the origin is the trip from \(O\) to \(O\), written \(\overrightarrow\{OO\}\). Since the start and finish are the same point, the displacement is zero, so
+Choose an origin \(O\). The position vector of the origin is the trip from \(O\) to \(O\), written \(\overrightarrow{OO}\). Since the start and finish are the same point, the displacement is zero, so
 
 <Equation label="Position vector of the origin" tex="\overrightarrow{OO}=\mathbf 0" />
 
 ### Step 2: Build \(-\mathbf a\) by reversing the arrow
 
-If \(\mathbf a=\overrightarrow\{OA\}\), then \(-\mathbf a\) is represented by the reversed arrow \(\overrightarrow\{AO\}\). The inverse has the same length as \(\mathbf a\), but it points back along the same line in the opposite direction when \(\mathbf a\) is not the zero vector.
+If \(\mathbf a=\overrightarrow{OA}\), then \(-\mathbf a\) is represented by the reversed arrow \(\overrightarrow{AO}\). The inverse has the same length as \(\mathbf a\), but it points back along the same line in the opposite direction when \(\mathbf a\) is not the zero vector.
 
 ### Step 3: Derive the additive inverse from a return trip
 

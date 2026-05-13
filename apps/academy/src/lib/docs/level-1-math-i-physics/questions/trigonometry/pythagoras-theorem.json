@@ -1,52 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "trigonometry",
   "topicId": "pythagoras-theorem",
   "topicTitle": "Pythagoras Theorem",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-pythagoras-theorem-01",
-      "prompt": "A right triangle has perpendicular sides \\(9\\) and \\(12\\). Find the hypotenuse.",
-      "answer": "Use Pythagoras' theorem:\n\\[\nc=\\sqrt{9^2+12^2}=\\sqrt{81+144}=\\sqrt{225}=15\n\\]",
+      "id": "math-i-trigonometry-pythagoras-theorem-01",
+      "prompt": "State the fundamental Pythagorean trigonometric identity for an angle \\(\\theta\\).",
+      "answer": "The identity is\n\\[\\sin^2\\theta+\\cos^2\\theta=1.\\]\nIt says the squared sine and squared cosine of the same angle always add to \\(1\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-pythagoras-theorem-02",
-      "prompt": "A right triangle has hypotenuse \\(13\\) and one leg \\(5\\). Find the other leg.",
-      "answer": "Let the missing leg be \\(x\\). Then\n\\[\nx^2+5^2=13^2\n\\]\nso\n\\[\nx^2=169-25=144\n\\]\nHence \\(x=12\\), since side lengths are non-negative.",
+      "id": "math-i-trigonometry-pythagoras-theorem-02",
+      "prompt": "If \\(\\sin\\theta=\\frac{3}{5}\\) and \\(\\theta\\) is acute, find \\(\\cos\\theta\\).",
+      "answer": "Use \\(\\sin^2\\theta+\\cos^2\\theta=1\\):\n\\[\\left(\\frac35\\right)^2+\\cos^2\\theta=1\\]\n\\[\\cos^2\\theta=1-\\frac9{25}=\\frac{16}{25}.\\]\nSince \\(\\theta\\) is acute, \\(\\cos\\theta>0\\), so \\(\\cos\\theta=\\frac45\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-pythagoras-theorem-03",
-      "prompt": "Find the distance between the points \\((-2,3)\\) and \\((4,-5)\\).",
-      "answer": "The coordinate changes are\n\\[\n\\Delta x=4-(-2)=6,\\qquad \\Delta y=-5-3=-8\n\\]\nTherefore\n\\[\nd=\\sqrt{6^2+(-8)^2}=\\sqrt{36+64}=10\n\\]",
+      "id": "math-i-trigonometry-pythagoras-theorem-03",
+      "prompt": "Use a Pythagorean identity to simplify \\(1-\\sin^2 x\\).",
+      "answer": "From \\(\\sin^2x+\\cos^2x=1\\), subtract \\(\\sin^2x\\) from both sides:\n\\[\\cos^2x=1-\\sin^2x.\\]\nTherefore \\(1-\\sin^2x=\\cos^2x\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-04",
+      "prompt": "Use a Pythagorean identity to simplify \\(\\sec^2 x-1\\).",
+      "answer": "The identity \\(1+\\tan^2x=\\sec^2x\\) gives\n\\[\\sec^2x-1=\\tan^2x.\\]\nSo the expression simplifies to \\(\\tan^2x\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-05",
+      "prompt": "If \\(\\cos\\theta=\\frac{12}{13}\\) and \\(\\theta\\) is acute, find \\(\\sin\\theta\\).",
+      "answer": "Use \\(\\sin^2\\theta+\\cos^2\\theta=1\\):\n\\[\\sin^2\\theta+\\left(\\frac{12}{13}\\right)^2=1\\]\n\\[\\sin^2\\theta=1-\\frac{144}{169}=\\frac{25}{169}.\\]\nFor an acute angle, sine is positive, so \\(\\sin\\theta=\\frac5{13}\\).",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-pythagoras-theorem-04",
-      "prompt": "A vector has perpendicular components \\(v_x=-7\\) and \\(v_y=24\\). Find its magnitude.",
-      "answer": "The signs of the components do not affect their squared contribution:\n\\[\n|\\vec v|=\\sqrt{(-7)^2+24^2}=\\sqrt{49+576}=25\n\\]",
+      "id": "math-i-trigonometry-pythagoras-theorem-06",
+      "prompt": "Simplify \\(\\sin^2x+\\cos^2x+\\tan^2x\\).",
+      "answer": "First use \\(\\sin^2x+\\cos^2x=1\\):\n\\[\\sin^2x+\\cos^2x+\\tan^2x=1+\\tan^2x.\\]\nThen use \\(1+\\tan^2x=\\sec^2x\\).\nThe simplified expression is \\(\\sec^2x\\).",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-pythagoras-theorem-05",
-      "prompt": "Show that side lengths \\(7\\), \\(24\\), and \\(25\\) can form a right triangle.",
-      "answer": "The largest side would be the hypotenuse. Check:\n\\[\n7^2+24^2=49+576=625\n\\]\nand\n\\[\n25^2=625\n\\]\nSince the sums match, these side lengths satisfy Pythagoras' theorem and can form a right triangle.",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-pythagoras-theorem-06",
-      "prompt": "Explain why \\(\\sqrt{(-4)^2}\\) equals \\(4\\), not \\(-4\\).",
-      "answer": "The square root symbol means the non-negative square root. Since\n\\[\n(-4)^2=16\n\\]\nwe have\n\\[\n\\sqrt{(-4)^2}=\\sqrt{16}=4\n\\]\nIn general, \\(\\sqrt{x^2}=|x|\\).",
+      "id": "math-i-trigonometry-pythagoras-theorem-07",
+      "prompt": "If \\(\\tan\\theta=\\frac34\\) and \\(\\theta\\) is in quadrant I, find \\(\\sec\\theta\\).",
+      "answer": "Use \\(1+\\tan^2\\theta=\\sec^2\\theta\\):\n\\[1+\\left(\\frac34\\right)^2=\\sec^2\\theta\\]\n\\[1+\\frac9{16}=\\frac{25}{16}=\\sec^2\\theta.\\]\nIn quadrant I, \\(\\sec\\theta>0\\), so \\(\\sec\\theta=\\frac54\\).",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-08",
+      "prompt": "If \\(\\cot\\theta=2\\) and \\(\\theta\\) is acute, find \\(\\csc\\theta\\).",
+      "answer": "Use \\(1+\\cot^2\\theta=\\csc^2\\theta\\):\n\\[1+2^2=\\csc^2\\theta\\]\n\\[5=\\csc^2\\theta.\\]\nFor an acute angle, \\(\\csc\\theta>0\\), so \\(\\csc\\theta=\\sqrt5\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-09",
+      "prompt": "Prove that \\(\\frac{1-\\cos^2x}{\\sin x}=\\sin x\\), assuming \\(\\sin x\\ne0\\).",
+      "answer": "Use \\(1-\\cos^2x=\\sin^2x\\):\n\\[\\frac{1-\\cos^2x}{\\sin x}=\\frac{\\sin^2x}{\\sin x}.\\]\nSince \\(\\sin x\\ne0\\), cancel one factor of \\(\\sin x\\):\n\\[\\frac{\\sin^2x}{\\sin x}=\\sin x.\\]\nSo the identity is true on its stated domain.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-10",
+      "prompt": "Simplify \\(\\frac{\\sec^2x-\\tan^2x}{\\cos x}\\), where \\(\\cos x\\ne0\\).",
+      "answer": "From \\(1+\\tan^2x=\\sec^2x\\), subtract \\(\\tan^2x\\):\n\\[\\sec^2x-\\tan^2x=1.\\]\nTherefore\n\\[\\frac{\\sec^2x-\\tan^2x}{\\cos x}=\\frac1{\\cos x}=\\sec x.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-11",
+      "prompt": "Show that \\((1-\\sin x)(1+\\sin x)=\\cos^2x\\).",
+      "answer": "Multiply the left side as a difference of squares:\n\\[(1-\\sin x)(1+\\sin x)=1-\\sin^2x.\\]\nUsing \\(\\sin^2x+\\cos^2x=1\\), we have \\(1-\\sin^2x=\\cos^2x\\).\nThus \\((1-\\sin x)(1+\\sin x)=\\cos^2x\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-12",
+      "prompt": "A unit vector makes angle \\(\\theta\\) with the positive \\(x\\)-axis. Its vertical component is \\(\\frac{7}{25}\\), and it lies in quadrant I. Find its horizontal component and explain the identity used.",
+      "answer": "For a unit vector, the components are \\((\\cos\\theta,\\sin\\theta)\\), so\n\\[\\cos^2\\theta+\\sin^2\\theta=1.\\]\nGiven \\(\\sin\\theta=\\frac7{25}\\),\n\\[\\cos^2\\theta=1-\\frac{49}{625}=\\frac{576}{625}.\\]\nIn quadrant I, \\(\\cos\\theta>0\\), so the horizontal component is \\(\\frac{24}{25}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-13",
+      "prompt": "Simplify \\(\\frac{1}{1+\\tan^2x}+\\frac{1}{1+\\cot^2x}\\), where the expressions are defined.",
+      "answer": "Use \\(1+\\tan^2x=\\sec^2x\\), so\n\\[\\frac1{1+\\tan^2x}=\\frac1{\\sec^2x}=\\cos^2x.\\]\nUse \\(1+\\cot^2x=\\csc^2x\\), so\n\\[\\frac1{1+\\cot^2x}=\\frac1{\\csc^2x}=\\sin^2x.\\]\nThe sum is \\(\\cos^2x+\\sin^2x=1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-14",
+      "prompt": "If \\(\\sin\\theta=-\\frac{5}{13}\\) and \\(\\theta\\) is in quadrant III, find \\(\\tan\\theta\\).",
+      "answer": "Use \\(\\sin^2\\theta+\\cos^2\\theta=1\\):\n\\[\\cos^2\\theta=1-\\frac{25}{169}=\\frac{144}{169}.\\]\nIn quadrant III, \\(\\cos\\theta<0\\), so \\(\\cos\\theta=-\\frac{12}{13}\\).\nThen\n\\[\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{-5/13}{-12/13}=\\frac5{12}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-15",
+      "prompt": "Find all possible values of \\(\\cos\\theta\\) if \\(\\sin\\theta=\\frac{8}{17}\\).",
+      "answer": "Use \\(\\sin^2\\theta+\\cos^2\\theta=1\\):\n\\[\\cos^2\\theta=1-\\left(\\frac8{17}\\right)^2=1-\\frac{64}{289}=\\frac{225}{289}.\\]\nTherefore\n\\[\\cos\\theta=\\pm\\frac{15}{17}.\\]\nBoth signs are possible because the prompt does not specify the quadrant.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-16",
+      "prompt": "For which values of \\(x\\) is the simplification \\(\\frac{\\sin^2x+\\cos^2x}{\\cos x}=\\sec x\\) valid?",
+      "answer": "The numerator simplifies to \\(1\\), so the expression becomes\n\\[\\frac1{\\cos x}=\\sec x.\\]\nThis requires \\(\\cos x\\ne0\\), because the original denominator must not be zero.\nThus the simplification is valid for all \\(x\\) except\n\\[x=\\frac\\pi2+k\\pi,\\quad k\\in\\mathbb Z.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-17",
+      "prompt": "A student says \\(\\sqrt{1-\\sin^2x}=\\cos x\\) for every \\(x\\). Diagnose the error and give the correct statement.",
+      "answer": "Since \\(1-\\sin^2x=\\cos^2x\\),\n\\[\\sqrt{1-\\sin^2x}=\\sqrt{\\cos^2x}.\\]\nThe square root returns the non-negative value, so\n\\[\\sqrt{\\cos^2x}=|\\cos x|.\\]\nThe student's statement is only true where \\(\\cos x\\ge0\\). The correct general statement is \\(\\sqrt{1-\\sin^2x}=|\\cos x|\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-18",
+      "prompt": "Prove \\(\\frac{\\tan^2x}{\\sec x+1}=\\sec x-1\\), assuming both sides are defined.",
+      "answer": "Use \\(\\tan^2x=\\sec^2x-1\\):\n\\[\\frac{\\tan^2x}{\\sec x+1}=\\frac{\\sec^2x-1}{\\sec x+1}.\\]\nFactor the numerator:\n\\[\\sec^2x-1=(\\sec x-1)(\\sec x+1).\\]\nThen\n\\[\\frac{(\\sec x-1)(\\sec x+1)}{\\sec x+1}=\\sec x-1,\\]\nprovided \\(\\sec x+1\\ne0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-19",
+      "prompt": "Determine whether \\(\\frac{1}{1-\\sin x}=\\frac{1+\\sin x}{\\cos^2x}\\) is an identity. State any restrictions.",
+      "answer": "Multiply the left side by the conjugate factor:\n\\[\\frac1{1-\\sin x}\\cdot\\frac{1+\\sin x}{1+\\sin x}=\\frac{1+\\sin x}{1-\\sin^2x}.\\]\nUsing \\(1-\\sin^2x=\\cos^2x\\), this becomes\n\\[\\frac{1+\\sin x}{\\cos^2x}.\\]\nThe original expression requires \\(1-\\sin x\\ne0\\), and the rewritten expression requires \\(\\cos x\\ne0\\). These exclude the same points where \\(\\sin x=1\\), so the identity holds on that domain.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-pythagoras-theorem-20",
+      "prompt": "Explain why the identity \\(1+\\tan^2\\theta=\\sec^2\\theta\\) is not valid at angles where \\(\\cos\\theta=0\\), even though it comes from \\(\\sin^2\\theta+\\cos^2\\theta=1\\).",
+      "answer": "The identity is derived by dividing\n\\[\\sin^2\\theta+\\cos^2\\theta=1\\]\nby \\(\\cos^2\\theta\\). That gives\n\\[\\frac{\\sin^2\\theta}{\\cos^2\\theta}+1=\\frac1{\\cos^2\\theta},\\]\nso \\(\\tan^2\\theta+1=\\sec^2\\theta\\).\nThis division is only allowed when \\(\\cos^2\\theta\\ne0\\). If \\(\\cos\\theta=0\\), then \\(\\tan\\theta\\) and \\(\\sec\\theta\\) are undefined, so the derived identity has no value there.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

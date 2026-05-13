@@ -18,17 +18,17 @@ Using the Taylor series expansions:
 
 <Equation label="Sine Series" tex="\sin\theta = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots" />
 
-Substituting and grouping real and imaginary terms yields $e^{i\theta} = \cos\theta + i\sin\theta$.
+Substituting and grouping real and imaginary terms yields \(e^{i\theta} = \cos\theta + i\sin\theta\).
 
 ### Special Cases
 
-Setting $\theta = \pi$ gives the famous **Euler's identity**:
+Setting \(\theta = \pi\) gives the famous **Euler's identity**:
 
 <Equation label="Euler's Identity" tex="e^{i\pi} + 1 = 0" />
 
-This connects five fundamental constants: $e$, $i$, $\pi$, $1$, and $0$.
+This connects five fundamental constants: \(e\), \(i\), \(\pi\), \(1\), and \(0\).
 
 Other useful forms:
-- $e^{-i\theta} = \cos\theta - i\sin\theta$
-- $\cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2}$
-- $\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}$`;
+- \(e^{-i\theta} = \cos\theta - i\sin\theta\)
+- \(\cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2}\)
+- \(\sin\theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}\)`;

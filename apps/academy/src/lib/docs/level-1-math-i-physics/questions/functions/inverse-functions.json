@@ -1,94 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "functions",
   "topicId": "inverse-functions",
   "topicTitle": "Inverse Functions",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-inverse-functions-01",
-      "prompt": "What does it mean for a function to be one-to-one?",
-      "answer": "A function is one-to-one if different inputs always give different outputs. Formally: \\(x_1\\ne x_2\\) implies \\(f(x_1)\\ne f(x_2)\\).",
+      "id": "math-i-functions-inverse-functions-01",
+      "prompt": "State the defining relationship between a function \\(f\\) and its inverse \\(f^{-1}\\).",
+      "answer": "The inverse reverses the mapping of \\(f\\). The defining relationship is\n\\[\nf^{-1}(y)=x \\Longleftrightarrow f(x)=y\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-02",
-      "prompt": "If \\(f^{-1}\\) is the inverse of \\(f\\), what does \\(f^{-1}(f(x))=x\\) mean?",
-      "answer": "It means applying \\(f\\) and then applying \\(f^{-1}\\) returns the original input. The inverse undoes what \\(f\\) does.",
+      "id": "math-i-functions-inverse-functions-02",
+      "prompt": "If \\(f(3)=10\\), what is \\(f^{-1}(10)\\), assuming the inverse exists?",
+      "answer": "An inverse reverses the input and output. Since\n\\[\nf(3)=10\n\\]\nit follows that\n\\[\nf^{-1}(10)=3\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-03",
-      "prompt": "Find the inverse of \\(f(x)=3x-2\\).",
-      "answer": "Set \\(y=3x-2\\) and solve for \\(x\\):\n\\[y+2=3x\\Longrightarrow x=\\frac{y+2}{3}\\]\nReplace y with x:\n\\[f^{-1}(x)=\\frac{x+2}{3}\\]",
+      "id": "math-i-functions-inverse-functions-03",
+      "prompt": "What condition must a function satisfy to have an inverse function on its stated domain?",
+      "answer": "It must be \\(\\text{one-to-one}\\) on its stated domain. That means no two different inputs produce the same output. Equivalently, each output in the range comes from exactly one input.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-04",
+      "prompt": "State the horizontal line test in words.",
+      "answer": "A graph passes the horizontal line test if every horizontal line intersects the graph \\(\\text{at most once}\\). Passing this test means the function is one-to-one and can have an inverse function on that domain.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-05",
+      "prompt": "Find the inverse of \\(f(x)=x+4\\).",
+      "answer": "Let \\(y=x+4\\). Solve for \\(x\\):\n\\[\ny=x+4\n\\]\n\\[\nx=y-4\n\\]\nSwap the variable name back to \\(x\\):\n\\[\nf^{-1}(x)=x-4\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-04",
-      "prompt": "Find the inverse of \\(f(x)=x^3+1\\).",
-      "answer": "Set \\(y=x^3+1\\) and solve for \\(x\\):\n\\[y-1=x^3\\Longrightarrow x=\\sqrt[3]{y-1}\\]\nTherefore\n\\[f^{-1}(x)=\\sqrt[3]{x-1}\\]",
+      "id": "math-i-functions-inverse-functions-06",
+      "prompt": "Find the inverse of \\(f(x)=3x\\).",
+      "answer": "Let \\(y=3x\\). Solve for \\(x\\):\n\\[\nx=\\frac{y}{3}\n\\]\nTherefore\n\\[\nf^{-1}(x)=\\frac{x}{3}\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-05",
-      "prompt": "Why does \\(f(x)=x^2\\) have no inverse function on \\(\\mathbb R\\)?",
-      "answer": "Because \\(f(2)=4\\) and \\(f(-2)=4\\). Since one output (4) comes from two different inputs (2 and -2), the inverse function would not know whether \\(f^{-1}(4)=2\\) or \\(f^{-1}(4)=-2\\). The function is not one-to-one.",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-inverse-functions-06",
-      "prompt": "What domain restriction makes \\(f(x)=x^2\\) have an inverse?",
-      "answer": "Restricting to \\(x\\ge0\\) (or alternatively \\(x\\le0\\)) makes the function one-to-one. The inverse on \\(x\\ge0\\) is \\(f^{-1}(x)=\\sqrt{x}\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-inverse-functions-07",
-      "prompt": "If \\(f^{-1}\\) is the inverse of \\(f\\), what is the relationship between the graphs of \\(f\\) and \\(f^{-1}\\)?",
-      "answer": "The graph of \\(f^{-1}\\) is the reflection of the graph of \\(f\\) across the line \\(y=x\\). This is because swapping \\(x\\) and \\(y\\) in the equation \\(y=f(x)\\) gives \\(x=f(y)\\), which is equivalent to \\(y=f^{-1}(x)\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-inverse-functions-08",
-      "prompt": "Is \\(f^{-1}(x)=\\frac{1}{f(x)}\\)? Explain.",
-      "answer": "No. \\(f^{-1}(x)\\) denotes the inverse function that undoes \\(f\\), while \\(\\frac{1}{f(x)}\\) is the reciprocal of the output. These are completely different concepts. For example, if \\(f(x)=x^2\\), then \\(f^{-1}(x)=\\sqrt{x}\\) but \\(\\frac{1}{f(x)}=\\frac{1}{x^2}\\).",
+      "id": "math-i-functions-inverse-functions-07",
+      "prompt": "Find the inverse of \\(f(x)=2x-5\\).",
+      "answer": "Let \\(y=2x-5\\). Solve for \\(x\\):\n\\[\ny+5=2x\n\\]\n\\[\nx=\\frac{y+5}{2}\n\\]\nThus\n\\[\nf^{-1}(x)=\\frac{x+5}{2}\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-09",
-      "prompt": "Find the inverse of \\(f(x)=\\frac{x+1}{x-1}\\) for \\(x\\ne1\\).",
-      "answer": "Set \\(y=\\frac{x+1}{x-1}\\) and solve for \\(x\\):\n\\[y(x-1)=x+1\\Longrightarrow yx-y=x+1\\]\n\\[yx-x=y+1\\Longrightarrow x(y-1)=y+1\\]\n\\[x=\\frac{y+1}{y-1}\\]\nTherefore\n\\[f^{-1}(x)=\\frac{x+1}{x-1}\\]\nThis function is its own inverse (an involution).",
+      "id": "math-i-functions-inverse-functions-08",
+      "prompt": "Verify that \\(f(x)=x-7\\) and \\(g(x)=x+7\\) are inverse functions.",
+      "answer": "Check both compositions:\n\\[\nf(g(x))=f(x+7)=(x+7)-7=x\n\\]\n\\[\ng(f(x))=g(x-7)=(x-7)+7=x\n\\]\nSince both compositions return \\(x\\), the functions are inverses.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-09",
+      "prompt": "Find the inverse of \\(f(x)=\\frac{x-1}{2}\\).",
+      "answer": "Let\n\\[\ny=\\frac{x-1}{2}\n\\]\nMultiply by \\(2\\):\n\\[\n2y=x-1\n\\]\nAdd \\(1\\):\n\\[\nx=2y+1\n\\]\nTherefore\n\\[\nf^{-1}(x)=2x+1\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-10",
-      "prompt": "What is the derivative of the inverse function at a point?",
-      "answer": "If \\(y=f^{-1}(x)\\) and \\(f\\) is differentiable with \\(f'(f^{-1}(x))\\ne0\\), then\n\\[\\frac{d}{dx}f^{-1}(x)=\\frac{1}{f'(f^{-1}(x))}\\]\nThis follows from differentiating \\(f(f^{-1}(x))=x\\) using the chain rule.",
+      "id": "math-i-functions-inverse-functions-10",
+      "prompt": "Find the inverse of \\(f(x)=\\frac{2x+3}{5}\\).",
+      "answer": "Let\n\\[\ny=\\frac{2x+3}{5}\n\\]\nMultiply by \\(5\\):\n\\[\n5y=2x+3\n\\]\nSubtract \\(3\\):\n\\[\n5y-3=2x\n\\]\nDivide by \\(2\\):\n\\[\nx=\\frac{5y-3}{2}\n\\]\nSo\n\\[\nf^{-1}(x)=\\frac{5x-3}{2}\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-11",
-      "prompt": "State the domain and range of \\(f^{-1}\\) if the domain of \\(f\\) is \\([0,\\infty)\\) and the range is \\([1,\\infty)\\).",
-      "answer": "The inverse swaps domain and range:\n- Domain of \\(f^{-1}\\) is \\([1,\\infty)\\) (the range of \\(f\\))\n- Range of \\(f^{-1}\\) is \\([0,\\infty)\\) (the domain of \\(f\\))",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-functions-inverse-functions-11",
+      "prompt": "Explain why \\(f(x)=x^2\\) on \\(\\mathbb R\\) does not have an inverse function.",
+      "answer": "It is not one-to-one on \\(\\mathbb R\\). For example,\n\\[\nf(2)=4\n\\]\nand\n\\[\nf(-2)=4\n\\]\nTwo different inputs produce the same output, so the inverse would have to send \\(4\\) to both \\(2\\) and \\(-2\\), which is not a function.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-functions-12",
-      "prompt": "Use the inverse function derivative formula to find \\((f^{-1})'(4)\\) if \\(f(1)=4\\) and \\(f'(1)=3\\).",
-      "answer": "Using \\((f^{-1})'(x)=\\frac{1}{f'(f^{-1}(x))}\\):\n\\[f^{-1}(4)=1\\text{ (since }f(1)=4\\text{)}\\]\n\\[f'(f^{-1}(4))=f'(1)=3\\]\nTherefore\n\\[(f^{-1})'(4)=\\frac{1}{3}\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-functions-inverse-functions-12",
+      "prompt": "Restrict \\(f(x)=x^2\\) to \\(x\\ge0\\). Find its inverse.",
+      "answer": "Let \\(y=x^2\\) with \\(x\\ge0\\). Solving gives\n\\[\nx=\\sqrt y\n\\]\nWe choose the non-negative square root because the original domain was \\(x\\ge0\\). Thus\n\\[\nf^{-1}(x)=\\sqrt x\n\\]\nwith inverse domain \\(x\\ge0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-13",
+      "prompt": "Find the inverse of \\(f(x)=\\frac{1}{x-2}\\), including restrictions.",
+      "answer": "Let\n\\[\ny=\\frac1{x-2}\n\\]\nThen \\(y\\ne0\\). Solve:\n\\[\ny(x-2)=1\n\\]\n\\[\nx-2=\\frac1y\n\\]\n\\[\nx=2+\\frac1y\n\\]\nTherefore\n\\[\nf^{-1}(x)=2+\\frac1x\n\\]\nwith \\(x\\ne0\\). The original function also has domain \\(x\\ne2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-14",
+      "prompt": "Show algebraically that \\(f(x)=5x-1\\) and \\(g(x)=\\frac{x+1}{5}\\) are inverses.",
+      "answer": "Compute both compositions:\n\\[\nf(g(x))=5\\left(\\frac{x+1}{5}\\right)-1=x+1-1=x\n\\]\n\\[\ng(f(x))=\\frac{(5x-1)+1}{5}=\\frac{5x}{5}=x\n\\]\nBoth compositions equal the identity function, so \\(g=f^{-1}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-15",
+      "prompt": "Find the inverse of \\(f(x)=\\frac{3x-4}{x+2}\\), stating excluded values for the inverse.",
+      "answer": "Let\n\\[\ny=\\frac{3x-4}{x+2}\n\\]\nMultiply:\n\\[\ny(x+2)=3x-4\n\\]\n\\[\nyx+2y=3x-4\n\\]\nCollect \\(x\\)-terms:\n\\[\nyx-3x=-4-2y\n\\]\n\\[\nx(y-3)=-(4+2y)\n\\]\n\\[\nx=\\frac{4+2y}{3-y}\n\\]\nThus\n\\[\nf^{-1}(x)=\\frac{4+2x}{3-x}\n\\]\nThe inverse excludes \\(x=3\\), since its denominator would be zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-16",
+      "prompt": "A function has inverse \\(f^{-1}(x)=2x+1\\). Find \\(f(x)\\).",
+      "answer": "Let \\(g(x)=2x+1\\). Since \\(g=f^{-1}\\), the original function is the inverse of \\(g\\). Solve\n\\[\ny=2x+1\n\\]\n\\[\ny-1=2x\n\\]\n\\[\nx=\\frac{y-1}{2}\n\\]\nTherefore\n\\[\nf(x)=\\frac{x-1}{2}\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-17",
+      "prompt": "The position model \\(s(t)=4t+1\\) has domain \\(t\\ge0\\). Find the inverse and interpret it.",
+      "answer": "Let\n\\[\ns=4t+1\n\\]\nSolve for \\(t\\):\n\\[\nt=\\frac{s-1}{4}\n\\]\nSo\n\\[\ns^{-1}(x)=\\frac{x-1}{4}\n\\]\nThe inverse takes a position value and returns the time that produced it. Since \\(t\\ge0\\), the range of the original model is \\(s\\ge1\\), so the inverse domain is \\(x\\ge1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-18",
+      "prompt": "Diagnose the error: to find the inverse of \\(f(x)=x^2\\), a student writes \\(f^{-1}(x)=\\pm\\sqrt{x}\\).",
+      "answer": "An inverse function must give exactly one output for each input. The expression \\(\\pm\\sqrt{x}\\) gives two outputs when \\(x>0\\), so it is not a function. To make an inverse, the domain of \\(f(x)=x^2\\) must be restricted, for example to \\(x\\ge0\\), giving \\(f^{-1}(x)=\\sqrt{x}\\), or to \\(x\\le0\\), giving \\(f^{-1}(x)=-\\sqrt{x}\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-19",
+      "prompt": "Prove that if \\(f\\) has an inverse function, then \\(f\\) is one-to-one.",
+      "answer": "Assume \\(f\\) has inverse \\(f^{-1}\\). Suppose \\(f(a)=f(b)\\). Apply \\(f^{-1}\\) to both sides:\n\\[\nf^{-1}(f(a))=f^{-1}(f(b))\n\\]\nUsing the inverse property,\n\\[\na=b\n\\]\nTherefore whenever two inputs have the same output, the inputs must be equal. Hence \\(f\\) is one-to-one.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-functions-inverse-functions-20",
+      "prompt": "Find a domain restriction for \\(f(x)=(x-2)^2+3\\) that makes it invertible, then find the inverse on that restricted domain.",
+      "answer": "Restrict the domain to \\(x\\ge2\\) so the right-hand branch is one-to-one. Let\n\\[\ny=(x-2)^2+3\n\\]\nThen\n\\[\ny-3=(x-2)^2\n\\]\nSince \\(x\\ge2\\), \\(x-2\\ge0\\), so take the positive square root:\n\\[\nx-2=\\sqrt{y-3}\n\\]\n\\[\nx=2+\\sqrt{y-3}\n\\]\nThus\n\\[\nf^{-1}(x)=2+\\sqrt{x-3}\n\\]\nwith inverse domain \\(x\\ge3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

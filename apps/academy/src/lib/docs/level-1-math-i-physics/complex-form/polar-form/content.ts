@@ -1,6 +1,6 @@
 export const content = String.raw`## Polar Form of Complex Numbers
 
-A complex number $z = a + bi$ can be expressed in polar form as $z = r(\cos\theta + i\sin\theta)$, where $r$ is the modulus (or absolute value) and $\theta$ is the argument.
+A complex number \(z = a + bi\) can be expressed in polar form as \(z = r(\cos\theta + i\sin\theta)\), where \(r\) is the modulus (or absolute value) and \(\theta\) is the argument.
 
 ### Modulus and Argument
 
@@ -14,7 +14,7 @@ The argument is the angle measured from the positive real axis:
 
 ### Polar (Modulus-Argument) Form
 
-Using Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$, we can write:
+Using Euler's formula \(e^{i\theta} = \cos\theta + i\sin\theta\), we can write:
 
 <Equation label="Polar Form" tex="z = r(\cos\theta + i\sin\theta) = re^{i\theta}" />
 
@@ -22,14 +22,14 @@ This is known as the **modulus-argument form** or **polar form** of a complex nu
 
 ### Conversion from Cartesian
 
-To convert from Cartesian form $z = a + bi$ to polar form:
+To convert from Cartesian form \(z = a + bi\) to polar form:
 
-1. Calculate the modulus: $r = \sqrt{a^2 + b^2}$
-2. Calculate the argument: $\theta = \arctan\left(\frac{b}{a}\right)$
-3. Adjust quadrant based on signs of $a$ and $b$
+1. Calculate the modulus: \(r = \sqrt{a^2 + b^2}\)
+2. Calculate the argument: \(\theta = \arctan\left(\frac{b}{a}\right)\)
+3. Adjust quadrant based on signs of \(a\) and \(b\)
 
-For example, for $z = 1 + i$:
-- $r = \sqrt{1^2 + 1^2} = \sqrt{2}$
-- $\theta = \arctan(1) = \frac{\pi}{4}$
+For example, for \(z = 1 + i\):
+- \(r = \sqrt{1^2 + 1^2} = \sqrt{2}\)
+- \(\theta = \arctan(1) = \frac{\pi}{4}\)
 
-So $z = \sqrt{2} \text{cis} \frac{\pi}{4}$ where $\text{cis}\theta = \cos\theta + i\sin\theta$.`;
+So \(z = \sqrt{2} \text{cis} \frac{\pi}{4}\) where \(\text{cis}\theta = \cos\theta + i\sin\theta\).`;

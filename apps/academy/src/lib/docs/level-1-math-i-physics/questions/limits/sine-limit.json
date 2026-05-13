@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "sine-limit",
   "topicTitle": "Sine Limit",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-sine-limit-01",
-      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(6x)}{x}\\).",
-      "answer": "Rewrite the expression as\n\\[\n\\frac{\\sin(6x)}{x}=6\\frac{\\sin(6x)}{6x}.\n\\]\nSince \\(6x\\to0\\), the standard sine limit gives\n\\[\n\\frac{\\sin(6x)}{6x}\\to1.\n\\]\nTherefore the limit is \\(6\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "State the fundamental sine limit for angles measured in radians.",
+      "answer": "For radian measure,\n\\[\n\\lim_{x\\to0}\\frac{\\sin x}{x}=1.\n\\]\nThe radian condition is essential because the arc length comparison uses radius 1.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-sine-limit-02",
-      "prompt": "Evaluate \\(\\lim_{t\\to0}\\frac{\\sin(2t)}{\\sin(3t)}\\).",
-      "answer": "Divide numerator and denominator by \\(t\\):\n\\[\n\\frac{\\sin(2t)}{\\sin(3t)}=\\frac{\\sin(2t)/t}{\\sin(3t)/t}.\n\\]\nUsing the scaled sine limit, the numerator tends to \\(2\\) and the denominator tends to \\(3\\), so the limit is\n\\[\n\\frac{2}{3}.\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "prompt": "What is \\(\\lim_{x\\to0}\\frac{\\tan x}{x}\\)?",
+      "answer": "Write \\(\\tan x=\\frac{\\sin x}{\\cos x}\\). Then\n\\[\n\\frac{\\tan x}{x}=\\frac{\\sin x}{x}\\cdot\\frac1{\\cos x}.\n\\]\nAs \\(x\\to0\\), the factors approach \\(1\\) and \\(1\\), so the limit is \\(1\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-sine-limit-03",
-      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{1-\\cos(2x)}{x^2}\\).",
-      "answer": "Use \\(1-\\cos u=2\\sin^2(u/2)\\) with \\(u=2x\\):\n\\[\n1-\\cos(2x)=2\\sin^2 x.\n\\]\nThus\n\\[\n\\frac{1-\\cos(2x)}{x^2}=2\\left(\\frac{\\sin x}{x}\\right)^2.\n\\]\nThe sine fraction tends to \\(1\\), so the limit is \\(2\\).",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(4x)}{4x}\\).",
+      "answer": "Let \\(u=4x\\). As \\(x\\to0\\), \\(u\\to0\\). Therefore\n\\[\n\\lim_{x\\to0}\\frac{\\sin(4x)}{4x}=\\lim_{u\\to0}\\frac{\\sin u}{u}=1.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-04",
+      "prompt": "Explain why \\(\\lim_{x\\to0}\\frac{1-\\cos x}{x}=0\\) using the identity \\(1-\\cos x=\\frac{\\sin^2x}{1+\\cos x}\\).",
+      "answer": "Substitute the identity:\n\\[\n\\frac{1-\\cos x}{x}=\\frac{\\sin^2x}{x(1+\\cos x)}=\\frac{\\sin x}{x}\\cdot\\frac{\\sin x}{1+\\cos x}.\n\\]\nThe first factor tends to \\(1\\), while the second tends to \\(0/(2)=0\\). Hence the limit is \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(5x)}{x}\\).",
+      "answer": "Insert the missing factor \\(5\\):\n\\[\n\\frac{\\sin(5x)}{x}=5\\frac{\\sin(5x)}{5x}.\n\\]\nWith \\(u=5x\\), \\(\\frac{\\sin u}{u}\\to1\\). Therefore the limit is \\(5\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(3x)}{\\sin(7x)}\\).",
+      "answer": "Rewrite both sine factors with their angles:\n\\[\n\\frac{\\sin(3x)}{\\sin(7x)}=\\frac{\\sin(3x)}{3x}\\cdot\\frac{3x}{7x}\\cdot\\frac{7x}{\\sin(7x)}.\n\\]\nThe outer factors tend to \\(1\\), so the limit is \\(\\frac37\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\tan(2x)}{x}\\).",
+      "answer": "Use \\(\\tan(2x)=\\frac{\\sin(2x)}{\\cos(2x)}\\):\n\\[\n\\frac{\\tan(2x)}{x}=2\\frac{\\sin(2x)}{2x}\\cdot\\frac1{\\cos(2x)}.\n\\]\nThe factors tend to \\(2\\), \\(1\\), and \\(1\\). The limit is \\(2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{1-\\cos(6x)}{x}\\).",
+      "answer": "Use \\(1-\\cos(6x)=\\frac{\\sin^2(6x)}{1+\\cos(6x)}\\):\n\\[\n\\frac{1-\\cos(6x)}{x}=\\frac{\\sin(6x)}{x}\\cdot\\frac{\\sin(6x)}{1+\\cos(6x)}.\n\\]\nThe first factor tends to \\(6\\), the second to \\(0/2=0\\). The limit is \\(0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(2x)+\\sin(5x)}{x}\\).",
+      "answer": "Split the fraction:\n\\[\n\\frac{\\sin(2x)+\\sin(5x)}{x}=\\frac{\\sin(2x)}{x}+\\frac{\\sin(5x)}{x}.\n\\]\nThe two limits are \\(2\\) and \\(5\\), so the required limit is \\(7\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(4x)}{\\tan(9x)}\\).",
+      "answer": "Write tangent as sine over cosine:\n\\[\n\\frac{\\sin(4x)}{\\tan(9x)}=\\frac{\\sin(4x)}{\\sin(9x)}\\cos(9x).\n\\]\nNow\n\\[\n\\frac{\\sin(4x)}{\\sin(9x)}\\to\\frac49,\\qquad \\cos(9x)\\to1.\n\\]\nThe limit is \\(\\frac49\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-11",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(3x)-\\sin x}{x}\\).",
+      "answer": "Separate the terms:\n\\[\n\\frac{\\sin(3x)-\\sin x}{x}=\\frac{\\sin(3x)}{x}-\\frac{\\sin x}{x}.\n\\]\nUsing the sine limit, these tend to \\(3\\) and \\(1\\). Hence the limit is \\(2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-12",
+      "prompt": "A small-angle pendulum model uses \\(\\sin\\theta\\approx\\theta\\). Explain the limit statement that justifies replacing \\(\\sin\\theta/\\theta\\) by \\(1\\) as \\(\\theta\\to0\\).",
+      "answer": "The mathematical statement is\n\\[\n\\lim_{\\theta\\to0}\\frac{\\sin\\theta}{\\theta}=1,\n\\]\nwhere \\(\\theta\\) is in radians. It says the ratio between \\(\\sin\\theta\\) and \\(\\theta\\) becomes arbitrarily close to \\(1\\) for sufficiently small angles, so \\(\\sin\\theta\\) and \\(\\theta\\) are nearly equal.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(2x)\\sin(5x)}{x^2}\\).",
+      "answer": "Group each sine with one factor of \\(x\\):\n\\[\n\\frac{\\sin(2x)\\sin(5x)}{x^2}=\\left(\\frac{\\sin(2x)}{x}\\right)\\left(\\frac{\\sin(5x)}{x}\\right).\n\\]\nThe factors tend to \\(2\\) and \\(5\\), so the limit is \\(10\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\tan(3x)-\\sin(3x)}{x}\\).",
+      "answer": "Factor the common sine term:\n\\[\n\\tan(3x)-\\sin(3x)=\\sin(3x)\\left(\\frac1{\\cos(3x)}-1\\right).\n\\]\nThus\n\\[\n\\frac{\\tan(3x)-\\sin(3x)}{x}=\\frac{\\sin(3x)}{x}\\left(\\frac1{\\cos(3x)}-1\\right).\n\\]\nThe first factor tends to \\(3\\), the second to \\(0\\), so the limit is \\(0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-15",
+      "prompt": "Find \\(k\\) if \\(\\lim_{x\\to0}\\frac{\\sin(kx)}{x}=12\\), where \\(k\\) is a constant.",
+      "answer": "For constant \\(k\\),\n\\[\n\\frac{\\sin(kx)}{x}=k\\frac{\\sin(kx)}{kx}.\n\\]\nAs \\(x\\to0\\), the second factor tends to \\(1\\), so the limit is \\(k\\). Therefore \\(k=12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-16",
+      "prompt": "Find all constants \\(a\\) for which \\(\\lim_{x\\to0}\\frac{\\sin(ax)}{\\sin(2x)}=3\\).",
+      "answer": "Use sine-limit ratios:\n\\[\n\\frac{\\sin(ax)}{\\sin(2x)}=\\frac{\\sin(ax)}{ax}\\cdot\\frac{a}{2}\\cdot\\frac{2x}{\\sin(2x)}.\n\\]\nIf \\(a\\) is finite, the limit is \\(a/2\\). Set \\(a/2=3\\), giving \\(a=6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-17",
+      "prompt": "For constants \\(a\\) and \\(b\\ne0\\), determine \\(\\lim_{x\\to0}\\frac{\\sin(ax)}{\\tan(bx)}\\).",
+      "answer": "Rewrite tangent:\n\\[\n\\frac{\\sin(ax)}{\\tan(bx)}=\\frac{\\sin(ax)}{\\sin(bx)}\\cos(bx).\n\\]\nThe sine ratio tends to \\(a/b\\), and \\(\\cos(bx)\\to1\\). Hence the limit is \\(\\frac{a}{b}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-18",
+      "prompt": "A student claims \\(\\lim_{x\\to0}\\frac{\\sin(5x)}{2x}=1\\) because \\(\\sin u/u\\to1\\). Identify the error and give the correct limit.",
+      "answer": "The denominator is \\(2x\\), not \\(5x\\). Rewrite as\n\\[\n\\frac{\\sin(5x)}{2x}=\\frac52\\frac{\\sin(5x)}{5x}.\n\\]\nThe sine-limit factor tends to \\(1\\), so the correct limit is \\(\\frac52\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-19",
+      "prompt": "Use squeeze-theorem reasoning to justify why \\(\\lim_{x\\to0^+}\\frac{\\sin x}{x}=1\\).",
+      "answer": "For \\(0<x<\\pi/2\\), unit-circle geometry gives\n\\[\n\\cos x\\le\\frac{\\sin x}{x}\\le1.\n\\]\nAs \\(x\\to0^+\\), both bounding functions tend to \\(1\\): \\(\\cos x\\to1\\) and \\(1\\to1\\). Therefore the squeezed ratio also tends to \\(1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-sine-limit-20",
+      "prompt": "Explain why the statement \\(\\lim_{x\\to0}\\frac{\\sin x}{x}=1\\) would not be correct if \\(x\\) were measured in degrees inside the sine function.",
+      "answer": "The geometric proof compares \\(x\\) with an arc length on the unit circle, so \\(x\\) must be in radians. If \\(x\\) is degrees, then \\(\\sin(x^\\circ)=\\sin(\\pi x/180)\\). Hence\n\\[\n\\lim_{x\\to0}\\frac{\\sin(x^\\circ)}{x}=\\frac{\\pi}{180}.\n\\]\nThe value \\(1\\) is a radian-measure result.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

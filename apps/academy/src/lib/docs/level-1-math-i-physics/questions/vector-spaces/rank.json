@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "rank",
+  "topicTitle": "Rank",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-rank-01",
+      "prompt": "Define the rank of a matrix \\(A\\).",
+      "answer": "The rank of \\(A\\) is the dimension of its column space: \\(\\operatorname{rank}A=\\dim\\operatorname{Col}(A)\\). It equals the number of independent columns, or equivalently the number of pivot columns after row reduction.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-02",
+      "prompt": "What is the largest possible rank of a \\(3\\times5\\) matrix?",
+      "answer": "The rank is at most the number of rows and at most the number of columns. Thus \\(\\operatorname{rank}A\\le\\min(3,5)=3\\). The largest possible rank is \\(3\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-03",
+      "prompt": "What is the rank of the zero \\(2\\times3\\) matrix?",
+      "answer": "All columns are zero, so the column space is \\(\\{\\mathbf0\\}\\). The zero subspace has dimension \\(0\\). Therefore the rank is \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-04",
+      "prompt": "What is the rank of the identity matrix \\(I_3\\)?",
+      "answer": "The columns of \\(I_3\\) are the standard basis vectors of \\(\\mathbb R^3\\). They are independent and span \\(\\mathbb R^3\\). Therefore \\(\\operatorname{rank}I_3=3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-05",
+      "prompt": "Find the rank of \\(\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\).",
+      "answer": "The second column is twice the first column. Therefore the column space is spanned by one non-zero vector, \\((1,2)\\). Its dimension is \\(1\\), so the rank is \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-06",
+      "prompt": "Find the rank of \\(\\begin{pmatrix}1&0\\\\0&1\\\\0&0\\end{pmatrix}\\).",
+      "answer": "The two columns are \\((1,0,0)\\) and \\((0,1,0)\\). They are independent because \\(a(1,0,0)+b(0,1,0)=\\mathbf0\\) forces \\(a=b=0\\). Thus the column space has dimension \\(2\\), so the rank is \\(2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-07",
+      "prompt": "A row-reduced matrix has pivots in columns \\(1\\), \\(3\\), and \\(4\\). What is its rank?",
+      "answer": "Rank equals the number of pivot columns. There are three pivot columns, so the rank is \\(3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-08",
+      "prompt": "Find the rank of \\(\\begin{pmatrix}1&2&3\\\\0&0&0\\\\0&1&1\\end{pmatrix}\\).",
+      "answer": "The first row has a pivot in column \\(1\\). The third row has a pivot in column \\(2\\). There are two non-zero pivot rows and two pivot columns. Therefore the rank is \\(2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-09",
+      "prompt": "Row-reduce enough to find the rank of \\(A=\\begin{pmatrix}1&2&3\\\\1&3&4\\\\2&5&7\\end{pmatrix}\\).",
+      "answer": "Use \\(R_2\\leftarrow R_2-R_1\\) to get \\((0,1,1)\\), and \\(R_3\\leftarrow R_3-2R_1\\) to get \\((0,1,1)\\). Then \\(R_3\\leftarrow R_3-R_2\\) gives a zero row. There are pivots in columns \\(1\\) and \\(2\\), so \\(\\operatorname{rank}A=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-10",
+      "prompt": "Find the rank of \\(A=\\begin{pmatrix}1&0&2\\\\0&1&3\\end{pmatrix}\\).",
+      "answer": "There is a pivot in column \\(1\\) from the first row and a pivot in column \\(2\\) from the second row. Since the matrix has only two rows, rank cannot exceed \\(2\\). Thus \\(\\operatorname{rank}A=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-11",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2&3\\\\0&1&1\\\\1&3&4\\end{pmatrix}\\), identify a basis for \\(\\operatorname{Col}(A)\\).",
+      "answer": "Row reduction gives pivots in columns \\(1\\) and \\(2\\), because the third row becomes the same as the second after subtracting the first row. A column-space basis uses the original pivot columns, not the reduced columns. Therefore a basis is \\(\\{(1,0,1),(2,1,3)\\}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-12",
+      "prompt": "Explain why row operations can identify pivot columns but the original columns are used for a column-space basis.",
+      "answer": "Row operations preserve linear dependence relations enough to locate pivot positions. However, they change the actual column vectors. The column space of the reduced matrix is generally not the same set as the original column space \\(\\operatorname{Col}(A)\\). Therefore pivot positions come from row reduction, but the basis vectors are the corresponding columns of the original matrix.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-13",
+      "prompt": "Find the rank of \\(\\begin{pmatrix}1&1&1\\\\1&2&3\\\\1&3&5\\end{pmatrix}\\).",
+      "answer": "Subtract row \\(1\\) from rows \\(2\\) and \\(3\\): rows become \\((1,1,1),(0,1,2),(0,2,4)\\). Then \\(R_3\\leftarrow R_3-2R_2\\) gives \\((0,0,0)\\). There are two pivot rows, so the rank is \\(2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-14",
+      "prompt": "Find the rank of the linear map whose matrix is \\(\\begin{pmatrix}1&0&1\\\\0&1&1\\\\1&1&2\\end{pmatrix}\\).",
+      "answer": "The third row is the sum of the first two rows. The first two rows are independent, so there are two independent constraints. Row reduction gives two pivots. Therefore the rank is \\(2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-15",
+      "prompt": "For which \\(t\\) does \\(A_t=\\begin{pmatrix}1&0&1\\\\0&1&1\\\\0&0&t\\end{pmatrix}\\) have rank \\(3\\)?",
+      "answer": "This matrix is upper triangular, so its determinant is \\(1\\cdot1\\cdot t=t\\). A \\(3\\times3\\) matrix has rank \\(3\\) exactly when its determinant is non-zero. Therefore \\(A_t\\) has rank \\(3\\) for \\(t\\ne0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-16",
+      "prompt": "For which \\(a\\) does \\(\\begin{pmatrix}1&a\\\\a&1\\end{pmatrix}\\) have rank \\(1\\)?",
+      "answer": "The determinant is \\(1-a^2\\). Rank is less than \\(2\\) when \\(1-a^2=0\\), so \\(a=\\pm1\\). The matrix is not the zero matrix for these values, so the rank is exactly \\(1\\). Thus \\(a=1\\) or \\(a=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-17",
+      "prompt": "For which \\(b\\) does \\(\\begin{pmatrix}1&0&1\\\\0&1&1\\b&b&1\\end{pmatrix}\\) have full rank?",
+      "answer": "Compute the determinant: \\(\\det=1(1-b)+1(0-b)=1-2b\\). Full rank for this \\(3\\times3\\) matrix means determinant non-zero. Therefore the matrix has full rank when \\(b\\ne\\tfrac12\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-18",
+      "prompt": "A student says rank is the number of non-zero entries in a matrix. Give a counterexample.",
+      "answer": "Consider \\(A=\\begin{pmatrix}1&1\\\\1&1\\end{pmatrix}\\). It has four non-zero entries. But both columns are the same, so the column space is spanned by one vector \\((1,1)\\). Therefore \\(\\operatorname{rank}A=1\\), not \\(4\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-19",
+      "prompt": "Prove that \\(\\operatorname{rank}A\\le\\min(m,n)\\) for \\(A\\in\\mathbb R^{m\\times n}\\).",
+      "answer": "The column space of \\(A\\) is a subspace of \\(\\mathbb R^m\\), so its dimension is at most \\(m\\). It is also spanned by the \\(n\\) columns of \\(A\\), so its dimension cannot exceed \\(n\\). Therefore \\(\\operatorname{rank}A\\le m\\) and \\(\\operatorname{rank}A\\le n\\), hence \\(\\operatorname{rank}A\\le\\min(m,n)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-rank-20",
+      "prompt": "Explain why rank counts independent outputs in a linear physics model \\(\\mathbf y=A\\mathbf x\\).",
+      "answer": "The possible outputs are all vectors \\(A\\mathbf x\\), which are linear combinations of the columns of \\(A\\). Thus the output space is \\(\\operatorname{Col}(A)\\). Its dimension is \\(\\operatorname{rank}A\\), so rank counts how many independent output directions the model can produce.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

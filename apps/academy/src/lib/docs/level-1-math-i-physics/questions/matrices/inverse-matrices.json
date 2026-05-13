@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "inverse-matrices",
+  "topicTitle": "Inverse Matrices",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-inverse-matrices-01",
+      "prompt": "What does it mean for a square matrix \\(A\\) to have inverse \\(A^{-1}\\)?",
+      "answer": "It means multiplication by \\(A^{-1}\\) reverses multiplication by \\(A\\). The defining equations are \\[AA^{-1}=I\\quad\\text{and}\\quad A^{-1}A=I,\\] where \\(I\\) is the identity matrix of the same size.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-02",
+      "prompt": "Can a non-square matrix have an inverse in this course's matrix sense?",
+      "answer": "No. Inverses apply to square matrices only, because the identity matrix must have compatible size on both sides of the multiplication \\(AA^{-1}=A^{-1}A=I\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-03",
+      "prompt": "Decide whether \\(\\begin{pmatrix}2&1\\\\5&3\\end{pmatrix}\\) is invertible.",
+      "answer": "Compute the determinant: \\[2\\cdot3-1\\cdot5=6-5=1.\\] Since the determinant is nonzero, the matrix is invertible.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-04",
+      "prompt": "Decide whether \\(\\begin{pmatrix}1&2\\\\3&6\\end{pmatrix}\\) is singular.",
+      "answer": "Compute the determinant: \\[1\\cdot6-2\\cdot3=6-6=0.\\] Since the determinant is zero, the matrix is singular and has no inverse.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-05",
+      "prompt": "Find the inverse of \\(A=\\begin{pmatrix}3&1\\\\2&1\\end{pmatrix}\\).",
+      "answer": "The determinant is \\(3\\cdot1-1\\cdot2=1\\). Therefore \\[A^{-1}=\\frac1{1}\\begin{pmatrix}1&-1\\\\-2&3\\end{pmatrix}=\\begin{pmatrix}1&-1\\\\-2&3\\end{pmatrix}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-06",
+      "prompt": "Use an inverse to solve \\(\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\\mathbf{x}=\\begin{pmatrix}5\\\\3\\end{pmatrix}\\), given \\(A^{-1}=\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}\\).",
+      "answer": "Multiply by \\(A^{-1}\\): \\[\\mathbf{x}=A^{-1}\\mathbf b=\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}\\begin{pmatrix}5\\\\3\\end{pmatrix}=\\begin{pmatrix}5-6\\\\3\\end{pmatrix}=\\begin{pmatrix}-1\\\\3\\end{pmatrix}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-07",
+      "prompt": "Check that \\(B=\\begin{pmatrix}3&-1\\\\-5&2\\end{pmatrix}\\) is the inverse of \\(A=\\begin{pmatrix}2&1\\\\5&3\\end{pmatrix}\\).",
+      "answer": "Compute \\[AB=\\begin{pmatrix}2&1\\\\5&3\\end{pmatrix}\\begin{pmatrix}3&-1\\\\-5&2\\end{pmatrix}=\\begin{pmatrix}6-5&-2+2\\\\15-15&-5+6\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.\\] Since the product gives \\(I\\), and these are square matrices, this verifies the inverse relationship.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-08",
+      "prompt": "Find \\(A^{-1}\\) for \\(A=\\begin{pmatrix}4&7\\\\2&5\\end{pmatrix}\\).",
+      "answer": "The determinant is \\(4\\cdot5-7\\cdot2=20-14=6\\). Therefore \\[A^{-1}=\\frac1{6}\\begin{pmatrix}5&-7\\\\-2&4\\end{pmatrix}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-09",
+      "prompt": "Solve \\(\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\mathbf{x}=\\begin{pmatrix}7\\\\4\\end{pmatrix}\\) using an inverse.",
+      "answer": "The determinant is \\(2\\cdot1-1\\cdot1=1\\), so \\[A^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.\\] Then \\[\\mathbf{x}=A^{-1}\\mathbf b=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\begin{pmatrix}7\\\\4\\end{pmatrix}=\\begin{pmatrix}3\\\\1\\end{pmatrix}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-10",
+      "prompt": "For \\(A=\\begin{pmatrix}a&1\\\\4&2\\end{pmatrix}\\), find the values of \\(a\\) for which \\(A^{-1}\\) exists.",
+      "answer": "Compute the determinant: \\[\\det(A)=a\\cdot2-1\\cdot4=2a-4.\\] The inverse exists when \\(\\det(A)\\ne0\\). Thus \\[2a-4\\ne0\\quad\\Rightarrow\\quad a\\ne2.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-11",
+      "prompt": "A student writes \\(\\begin{pmatrix}2&4\\\\1&3\\end{pmatrix}^{-1}=\\begin{pmatrix}\\frac12&\\frac14\\\\1&\\frac13\\end{pmatrix}\\). Explain the error and find the correct inverse.",
+      "answer": "Matrix inversion is not entry-wise reciprocation. The determinant is \\(2\\cdot3-4\\cdot1=2\\). The correct inverse is \\[\\frac1{2}\\begin{pmatrix}3&-4\\\\-1&2\\end{pmatrix}=\\begin{pmatrix}\\frac32&-2\\\\-\\frac12&1\\end{pmatrix}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-12",
+      "prompt": "Explain why \\(A\\mathbf{x}=\\mathbf b\\) has solution \\(\\mathbf{x}=A^{-1}\\mathbf b\\) when \\(A\\) is invertible.",
+      "answer": "Start with \\(A\\mathbf{x}=\\mathbf b\\). Multiply both sides on the left by \\(A^{-1}\\): \\[A^{-1}A\\mathbf{x}=A^{-1}\\mathbf b.\\] Since \\(A^{-1}A=I\\), this becomes \\[I\\mathbf{x}=A^{-1}\\mathbf b.\\] Therefore \\(\\mathbf{x}=A^{-1}\\mathbf b\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-13",
+      "prompt": "For \\(A(t)=\\begin{pmatrix}t&2\\\\8&t\\end{pmatrix}\\), classify the values of \\(t\\) for which \\(A\\) is invertible.",
+      "answer": "The determinant is \\[t^2-16=(t-4)(t+4).\\] The matrix is invertible exactly when the determinant is nonzero. Therefore \\(A\\) is invertible for \\(t\\ne4\\) and \\(t\\ne-4\\), and singular for \\(t=\\pm4\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-14",
+      "prompt": "Find \\(a\\) so that \\(\\begin{pmatrix}1&a\\\\a&9\\end{pmatrix}\\) has no inverse.",
+      "answer": "The matrix has no inverse when its determinant is zero. Compute \\[\\det=1\\cdot9-a^2=9-a^2.\\] Set this equal to zero: \\[9-a^2=0\\quad\\Rightarrow\\quad a^2=9.\\] Thus \\(a=3\\) or \\(a=-3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-15",
+      "prompt": "A square matrix has inverse. Explain why its columns cannot be proportional in the \\(2\\times2\\) case.",
+      "answer": "For a \\(2\\times2\\) matrix, proportional columns make the determinant zero. If the columns are \\(\\begin{pmatrix}a\\\\c\\end{pmatrix}\\) and \\(\\lambda\\begin{pmatrix}a\\\\c\\end{pmatrix}\\), the determinant is \\(a\\lambda c-\\\\lambda ac=0\\). But an inverse exists exactly when the determinant is nonzero. Therefore an invertible \\(2\\times2\\) matrix cannot have proportional columns.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-16",
+      "prompt": "If \\(A\\) and \\(B\\) are invertible square matrices of the same size, explain why \\(AB\\) is invertible using determinants.",
+      "answer": "Since \\(A\\) and \\(B\\) are invertible, \\(\\det(A)\\ne0\\) and \\(\\det(B)\\ne0\\). The determinant product rule gives \\[\\det(AB)=\\det(A)\\det(B).\\] A product of two nonzero numbers is nonzero, so \\(\\det(AB)\\ne0\\). Therefore \\(AB\\) is invertible.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-17",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\3&5\\end{pmatrix}\\), compute \\(A^{-1}\\) and verify one multiplication order.",
+      "answer": "The determinant is \\(1\\cdot5-2\\cdot3=-1\\). Hence \\[A^{-1}=\\frac1{-1}\\begin{pmatrix}5&-2\\\\-3&1\\end{pmatrix}=\\begin{pmatrix}-5&2\\\\3&-1\\end{pmatrix}.\\] Verify: \\[AA^{-1}=\\begin{pmatrix}1&2\\\\3&5\\end{pmatrix}\\begin{pmatrix}-5&2\\\\3&-1\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-18",
+      "prompt": "A student says that if \\(AB=I\\), then it is unnecessary to care about \\(BA\\). Discuss this for square matrices in this course.",
+      "answer": "The definition of inverse requires both \\(AB=I\\) and \\(BA=I\\). For square matrices of the same size, one identity product usually implies the other in standard linear algebra, but the definition is still two-sided because matrix multiplication is not generally commutative. Writing both equations prevents the common mistake of treating matrices like ordinary numbers.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-19",
+      "prompt": "Explain why a singular matrix cannot be used to solve every equation \\(A\\mathbf{x}=\\mathbf b\\) by multiplying by \\(A^{-1}\\).",
+      "answer": "A singular matrix has \\(\\det(A)=0\\), so \\(A^{-1}\\) does not exist. The step \\(\\mathbf{x}=A^{-1}\\mathbf b\\) is therefore meaningless. Depending on \\(\\mathbf b\\), the system may have no solution or infinitely many solutions, but there is no inverse matrix that gives a unique solution for every right-hand side.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-matrices-20",
+      "prompt": "Prove that if \\(A\\) is invertible, then \\(A\\mathbf{x}=\\mathbf0\\) has only the trivial solution.",
+      "answer": "Start with \\(A\\mathbf{x}=\\mathbf0\\). Since \\(A\\) is invertible, multiply both sides on the left by \\(A^{-1}\\): \\[A^{-1}A\\mathbf{x}=A^{-1}\\mathbf0.\\] The left side is \\(I\\mathbf{x}=\\mathbf{x}\\), and the right side is \\(\\mathbf0\\). Hence \\(\\mathbf{x}=\\mathbf0\\), so the homogeneous system has only the trivial solution.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

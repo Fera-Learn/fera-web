@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "symmetries",
+  "topicTitle": "Symmetries",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-symmetries-01",
+      "prompt": "For a square drawn in the plane, name the identity symmetry and state what it does to every point of the square.",
+      "answer": "The identity symmetry is \\(\\operatorname{id}\\). It sends every point \\(P\\) of the square to the same point \\(P\\), so the square and all its labelled positions are unchanged.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-02",
+      "prompt": "In the composition \\(T\\circ U\\), which transformation is applied first?",
+      "answer": "The transformation \\(U\\) is applied first. The notation \\(T\\circ U\\) means take an input, apply \\(U\\), and then apply \\(T\\) to the result.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-03",
+      "prompt": "An equilateral triangle is rotated by \\(120^\\circ\\). Is this a symmetry of the unlabelled triangle? Explain briefly.",
+      "answer": "Yes. A rotation by \\(120^\\circ\\) moves each vertex to the next vertex and leaves the occupied triangular region unchanged. Therefore it preserves the chosen structure of the unlabelled triangle.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-04",
+      "prompt": "A rectangle that is not a square is rotated by \\(90^\\circ\\) about its centre. Is this a symmetry of the rectangle?",
+      "answer": "No. A non-square rectangle has unequal side lengths, so a \\(90^\\circ\\) rotation swaps the long and short directions and does not leave the occupied region in the same place. The transformation is not a symmetry.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-05",
+      "prompt": "For the rotational symmetries \\(r_0,r_{120},r_{240}\\) of an equilateral triangle, compute \\(r_{120}\\circ r_{240}\\).",
+      "answer": "Apply \\(r_{240}\\) first and then \\(r_{120}\\). The total rotation is \\(240^\\circ+120^\\circ=360^\\circ\\). A full turn has the same effect as \\(r_0\\), so \\(r_{120}\\circ r_{240}=r_0\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-06",
+      "prompt": "Find the inverse of the \\(240^\\circ\\) rotation symmetry of an equilateral triangle.",
+      "answer": "The inverse must undo \\(240^\\circ\\). Since \\(240^\\circ+120^\\circ=360^\\circ\\), applying \\(120^\\circ\\) after \\(240^\\circ\\) returns to the starting orientation. Thus \\(r_{240}^{-1}=r_{120}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-07",
+      "prompt": "A regular pentagon is rotated by \\(144^\\circ\\), then by \\(216^\\circ\\). Which rotation symmetry is the composition equivalent to?",
+      "answer": "Add the angles because both transformations are rotations about the same centre: \\(144^\\circ+216^\\circ=360^\\circ\\). A \\(360^\\circ\\) rotation is the identity, so the composition is equivalent to \\(r_0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-08",
+      "prompt": "A transformation preserves the area \\(A\\) of a triangle but changes its shape. Is area preservation alone enough to make it a symmetry of the triangle as a geometric shape?",
+      "answer": "No. The preserved structure must be the whole geometric shape, not just one measurement. If the transformation changes the triangular region or its shape, then it is not a symmetry of that geometric object even if the area is unchanged.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-09",
+      "prompt": "The rotations of a square are \\(r_0,r_{90},r_{180},r_{270}\\). Compute \\(r_{270}\\circ r_{180}\\) and express the answer as one of these rotations.",
+      "answer": "Apply \\(r_{180}\\) first and then \\(r_{270}\\). The total angle is \\(180^\\circ+270^\\circ=450^\\circ\\). Since \\(450^\\circ=360^\\circ+90^\\circ\\), the same final position is \\(r_{90}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-10",
+      "prompt": "A circular potential \\(V(x,y)=x^2+y^2\\) is transformed by rotating the coordinates through any angle about the origin. Explain why this rotation is a symmetry of the potential.",
+      "answer": "A rotation about the origin preserves the distance from the origin. Since \\(V(x,y)=x^2+y^2\\) depends only on that squared distance, the value of \\(V\\) is unchanged after the rotation. The transformation preserves the physical structure, so it is a symmetry.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-11",
+      "prompt": "Let \\(T\\) and \\(U\\) be reversible symmetries of the same object. Explain why \\(T\\circ U\\) is also a symmetry.",
+      "answer": "First \\(U\\) preserves the object, so after applying \\(U\\) the chosen structure is unchanged. Then \\(T\\) is applied to a configuration with the same structure, and \\(T\\) also preserves it. Therefore the final result after \\(T\\circ U\\) still has the original structure, so the composition is a symmetry.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-12",
+      "prompt": "For rotations of a regular hexagon, let \\(r\\) be rotation by \\(60^\\circ\\). Compute \\(r^4\\circ r^5\\) and justify the reduction.",
+      "answer": "The product means a total of \\(4+5=9\\) steps of \\(60^\\circ\\). Since six steps make a full turn, reduce \\(9\\) modulo \\(6\\): \\(9=6+3\\). Thus \\(r^4\\circ r^5=r^9=r^3\\), a \\(180^\\circ\\) rotation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-13",
+      "prompt": "A square has vertices labelled \\(1,2,3,4\\) clockwise. A \\(90^\\circ\\) rotation preserves the unlabelled square but moves the labels. Is it a symmetry of the labelled square? Explain.",
+      "answer": "It depends on the chosen structure. For the unlabelled square, the \\(90^\\circ\\) rotation is a symmetry because the occupied region is unchanged. For the labelled square, each label must return to its original position; the rotation moves label \\(1\\) to a different corner, so it is not a symmetry of the labelled object.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-14",
+      "prompt": "A shape has exactly two known symmetries: the identity \\(e\\) and a reflection \\(s\\). Use composition to determine \\(s^{-1}\\).",
+      "answer": "A reflection applied twice returns every point to its starting position, so \\(s\\circ s=e\\). The inverse of \\(s\\) is the symmetry that composes with \\(s\\) to give \\(e\\). Since \\(s\\) itself does this, \\(s^{-1}=s\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-15",
+      "prompt": "A transformation \\(T\\) of a finite object is a symmetry, and applying \\(T\\) three times gives the identity. Show that \\(T^{-1}=T^2\\).",
+      "answer": "The statement \\(T^3=e\\) means \\(T\\circ T\\circ T=e\\). This can be grouped as \\(T\\circ T^2=e\\). Also \\(T^2\\circ T=e\\) because both are three applications of the same transformation. Therefore \\(T^2\\) undoes \\(T\\), so \\(T^{-1}=T^2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-16",
+      "prompt": "A pattern on a line is unchanged by translation by \\(2\\) metres. Explain why translation by \\(-2\\) metres is also a symmetry.",
+      "answer": "Translation by \\(2\\) metres is reversible, and its inverse is translation by \\(-2\\) metres. If shifting the pattern right by \\(2\\) metres leaves it unchanged, then undoing that shift must also leave the same pattern unchanged. Hence translation by \\(-2\\) metres is a symmetry.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-17",
+      "prompt": "A wallpaper pattern is unchanged by translations \\(A\\) and \\(B\\). Give a careful reason why \\(A\\circ B^{-1}\\) is also a symmetry.",
+      "answer": "Since \\(B\\) is a reversible symmetry, \\(B^{-1}\\) is also a symmetry. The composition of two symmetries of the same structure is again a symmetry. Therefore applying \\(B^{-1}\\) and then \\(A\\) preserves the wallpaper pattern, so \\(A\\circ B^{-1}\\) is a symmetry.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-18",
+      "prompt": "A student says, \"Every length-preserving transformation of a labelled triangle is a symmetry.\" Diagnose the error.",
+      "answer": "Length preservation is not enough unless the chosen structure is only the set of side lengths. A labelled triangle \\(ABC\\) also includes which label is at which vertex. A rotation or reflection may preserve all lengths but move the labels to different positions, so it can fail to be a symmetry of the labelled triangle.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-19",
+      "prompt": "Two symmetries \\(S\\) and \\(T\\) of an object satisfy \\(S\\circ T\\ne T\\circ S\\). Does this contradict the claim that symmetries can be composed? Explain.",
+      "answer": "No. Closure under composition says that \\(S\\circ T\\) and \\(T\\circ S\\) are both symmetries when \\(S\\) and \\(T\\) are symmetries of the same structure. It does not say the two compositions must be equal. Non-commuting symmetries are common, especially with rotations and reflections.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-symmetries-20",
+      "prompt": "A physical system is described by two quantities: its circular shape and a marked direction arrow on it. Which rotations are symmetries, and why might this differ from a plain circle?",
+      "answer": "For a plain circle, every rotation about the centre preserves the circular shape. With a marked direction arrow, the arrow must also return to the same direction. Usually only the \\(0^\\circ\\) rotation does that, unless the arrow marking has its own repeated symmetry. The answer differs because the chosen structure includes more than the shape alone.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

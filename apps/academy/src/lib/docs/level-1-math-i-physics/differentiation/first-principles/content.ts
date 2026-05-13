@@ -8,7 +8,7 @@ This is also called the **difference quotient** approach.
 
 ## Worked Example
 
-Find $f'(x)$ if $f(x) = x^2$:
+Find \(f'(x)\) if \(f(x) = x^2\):
 
 <Equation label="Step 1" tex="f'(x) = \lim_{h \to 0} \frac{(x+h)^2 - x^2}{h}" />
 

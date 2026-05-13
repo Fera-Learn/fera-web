@@ -1,5 +1,11 @@
 import type { DocHeading } from "@repo/docs";
 
+import { getPaperCount, getQuestionCount } from "@/lib/question-bank";
+
+const questionCount =
+  getQuestionCount({ courseId: "level-1-math-i-physics" }) ?? 0;
+const paperCount = getPaperCount({ courseId: "level-1-math-i-physics" }) ?? 0;
+
 export const level1MathIPhysicsCourseIntroHeadings: DocHeading[] = [
   { id: "course-purpose", level: 2, title: "Course Purpose" },
   { id: "what-you-will-study", level: 2, title: "What You Will Study" },
@@ -11,7 +17,18 @@ export const level1MathIPhysicsCourseIntroHeadings: DocHeading[] = [
   },
 ];
 
-export const level1MathIPhysicsCourseIntroBody = String.raw`<h2 id="course-purpose">Course Purpose</h2>
+export const level1MathIPhysicsCourseIntroBody = String.raw`<div className="not-prose grid gap-3 sm:grid-cols-2">
+  <div className="rounded-lg border border-border/80 bg-muted/25 p-4">
+    <p className="text-sm font-medium text-muted-foreground">Questions available</p>
+    <div className="mt-3 text-5xl font-semibold leading-none text-foreground">${questionCount.toLocaleString("en-GB")}</div>
+  </div>
+  <div className="rounded-lg border border-border/80 bg-muted/25 p-4">
+    <p className="text-sm font-medium text-muted-foreground">Exam papers available</p>
+    <div className="mt-3 text-5xl font-semibold leading-none text-foreground">${paperCount.toLocaleString("en-GB")}</div>
+  </div>
+</div>
+
+<h2 id="course-purpose">Course Purpose</h2>
 
 Level 1 - Math I (Physics) builds the mathematical language needed for calculus-based physics. It focuses on the skills that turn physical statements into usable equations: manipulating real and complex numbers, reasoning with functions, taking limits and derivatives, integrating, working with series, and using matrices and vector spaces.
 

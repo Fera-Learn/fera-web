@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "polar-form",
+  "topicTitle": "Polar Form",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-polar-form-01",
+      "prompt": "State the polar form of a non-zero complex number \\(z=a+bi\\).",
+      "answer": "For \\(z=a+bi\\ne0\\), the polar form is\n\\[\nz=r(\\cos\\theta+i\\sin\\theta),\n\\]\nwhere\n\\[\nr=|z|=\\sqrt{a^2+b^2}\n\\]\nand \\(\\theta\\) is an argument of \\(z\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-02",
+      "prompt": "Find the modulus of \\(6+8i\\).",
+      "answer": "Use \\(|a+bi|=\\sqrt{a^2+b^2}\\).\nFor \\(6+8i\\),\n\\[\n|6+8i|=\\sqrt{6^2+8^2}=\\sqrt{36+64}=\\sqrt{100}=10.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-03",
+      "prompt": "Convert \\(2\\operatorname{cis}(\\pi/3)\\) to Cartesian form, where \\(\\operatorname{cis}\\theta=\\cos\\theta+i\\sin\\theta\\).",
+      "answer": "Use\n\\[\n2\\operatorname{cis}\\left(\\frac{\\pi}{3}\\right)=2\\left(\\cos\\frac{\\pi}{3}+i\\sin\\frac{\\pi}{3}\\right).\n\\]\nSince \\(\\cos(\\pi/3)=1/2\\) and \\(\\sin(\\pi/3)=\\sqrt3/2\\),\n\\[\nz=2\\left(\\frac12+i\\frac{\\sqrt3}{2}\\right)=1+\\sqrt3 i.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-04",
+      "prompt": "Write \\(-5\\) in polar form using the principal argument.",
+      "answer": "The modulus is \\(|-5|=5\\).\nThe point \\((-5,0)\\) lies on the negative real axis, so the principal argument is \\(\\pi\\).\nTherefore\n\\[\n-5=5(\\cos\\pi+i\\sin\\pi)=5\\operatorname{cis}\\pi.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-05",
+      "prompt": "Write \\(3+3i\\) in polar form using the principal argument.",
+      "answer": "The modulus is\n\\[\nr=\\sqrt{3^2+3^2}=\\sqrt{18}=3\\sqrt2.\n\\]\nThe point is in quadrant I and\n\\[\n\\tan\\theta=\\frac{3}{3}=1,\\quad \\theta=\\frac{\\pi}{4}.\n\\]\nThus\n\\[\n3+3i=3\\sqrt2\\operatorname{cis}\\frac{\\pi}{4}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-06",
+      "prompt": "Write \\(-2+2\\sqrt3 i\\) in polar form using the principal argument.",
+      "answer": "The modulus is\n\\[\nr=\\sqrt{(-2)^2+(2\\sqrt3)^2}=\\sqrt{4+12}=4.\n\\]\nThe point is in quadrant II. The reference angle satisfies\n\\[\n\\tan\\alpha=\\frac{2\\sqrt3}{2}=\\sqrt3,\\quad \\alpha=\\frac{\\pi}{3}.\n\\]\nSo\n\\[\n\\theta=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}.\n\\]\nTherefore\n\\[\n-2+2\\sqrt3 i=4\\operatorname{cis}\\frac{2\\pi}{3}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-07",
+      "prompt": "Convert \\(4\\operatorname{cis}(-\\pi/6)\\) to Cartesian form.",
+      "answer": "Use \\(r\\operatorname{cis}\\theta=r(\\cos\\theta+i\\sin\\theta)\\).\n\\[\n4\\operatorname{cis}\\left(-\\frac{\\pi}{6}\\right)=4\\left(\\frac{\\sqrt3}{2}-\\frac12 i\\right).\n\\]\nTherefore\n\\[\nz=2\\sqrt3-2i.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-08",
+      "prompt": "Write \\(-i\\sqrt7\\) in polar form using a positive modulus and principal argument.",
+      "answer": "The modulus is\n\\[\nr=|-i\\sqrt7|=\\sqrt7.\n\\]\nThe point is on the negative imaginary axis, so the principal argument is\n\\[\n-\\frac{\\pi}{2}.\n\\]\nHence\n\\[\n-i\\sqrt7=\\sqrt7\\operatorname{cis}\\left(-\\frac{\\pi}{2}\\right).\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-09",
+      "prompt": "Convert \\(-6-6i\\) to polar form using the principal argument.",
+      "answer": "The modulus is\n\\[\nr=\\sqrt{(-6)^2+(-6)^2}=6\\sqrt2.\n\\]\nThe point lies in quadrant III with reference angle \\(\\pi/4\\).\nA standard angle is \\(5\\pi/4\\), but the principal interval is \\((-\\pi,\\pi]\\), so\n\\[\n5\\pi/4-2\\pi=-3\\pi/4.\n\\]\nTherefore\n\\[\n-6-6i=6\\sqrt2\\operatorname{cis}\\left(-\\frac{3\\pi}{4}\\right).\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-10",
+      "prompt": "Convert \\(5\\operatorname{cis}(7\\pi/6)\\) to Cartesian form and then rewrite it with a principal argument.",
+      "answer": "First convert to Cartesian form:\n\\[\n5\\operatorname{cis}\\left(\\frac{7\\pi}{6}\\right)=5\\left(-\\frac{\\sqrt3}{2}-\\frac12 i\\right)=-\\frac{5\\sqrt3}{2}-\\frac52 i.\n\\]\nThe angle \\(7\\pi/6\\) is outside \\((-\\pi,\\pi]\\).\nSubtract \\(2\\pi\\):\n\\[\n\\frac{7\\pi}{6}-2\\pi=-\\frac{5\\pi}{6}.\n\\]\nSo the same number is\n\\[\n5\\operatorname{cis}\\left(-\\frac{5\\pi}{6}\\right).\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-11",
+      "prompt": "Explain why \\(r\\) is required to be non-negative in the usual polar form \\(z=r\\operatorname{cis}\\theta\\).",
+      "answer": "The modulus \\(r=|z|\\) represents distance from the origin, so it cannot be negative.\nIf negative values of \\(r\\) were allowed, the representation would become less standard because\n\\[\n-r\\operatorname{cis}\\theta=r\\operatorname{cis}(\\theta+\\pi).\n\\]\nThe same point could be represented by changing both the sign of \\(r\\) and the angle.\nUsing \\(r\\ge0\\) keeps \\(r\\) equal to distance and leaves only the expected \\(2\\pi\\)-periodic ambiguity in \\(\\theta\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-12",
+      "prompt": "A student writes \\(-1+\\sqrt3 i=2\\operatorname{cis}(-\\pi/3)\\). Find and correct the error.",
+      "answer": "The modulus is correct:\n\\[\n\\sqrt{(-1)^2+(\\sqrt3)^2}=2.\n\\]\nBut \\(-1+\\sqrt3 i\\) lies in quadrant II, not quadrant IV.\nThe reference angle is \\(\\pi/3\\), so the principal argument is\n\\[\n\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}.\n\\]\nThe angle \\(-\\pi/3\\) would give \\(1-\\sqrt3 i\\), not \\(-1+\\sqrt3 i\\).\nCorrect form:\n\\[\n-1+\\sqrt3 i=2\\operatorname{cis}\\frac{2\\pi}{3}.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-13",
+      "prompt": "Find the polar form of \\(\\dfrac{1+i}{\\sqrt3-i}\\) using moduli and arguments.",
+      "answer": "Write each factor in polar form.\n\\[\n1+i=\\sqrt2\\operatorname{cis}\\frac{\\pi}{4}.\n\\]\nFor \\(\\sqrt3-i\\),\n\\[\n|\\sqrt3-i|=2,\\quad \\operatorname{Arg}(\\sqrt3-i)=-\\frac{\\pi}{6}.\n\\]\nWhen dividing, moduli divide and arguments subtract:\n\\[\n\\frac{1+i}{\\sqrt3-i}=\\frac{\\sqrt2}{2}\\operatorname{cis}\\left(\\frac{\\pi}{4}-\\left(-\\frac{\\pi}{6}\\right)\\right).\n\\]\n\\[\n\\frac{\\pi}{4}+\\frac{\\pi}{6}=\\frac{5\\pi}{12}.\n\\]\nSo the result is\n\\[\n\\frac{\\sqrt2}{2}\\operatorname{cis}\\frac{5\\pi}{12}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-14",
+      "prompt": "A complex number has polar form \\(8\\operatorname{cis}\\theta\\) and Cartesian form \\(a+bi\\). If \\(\\theta=2\\pi/3\\), find \\(a\\) and \\(b\\).",
+      "answer": "Use\n\\[\na=8\\cos\\theta,\\quad b=8\\sin\\theta.\n\\]\nFor \\(\\theta=2\\pi/3\\),\n\\[\n\\cos\\frac{2\\pi}{3}=-\\frac12,\\quad \\sin\\frac{2\\pi}{3}=\\frac{\\sqrt3}{2}.\n\\]\nTherefore\n\\[\na=8\\left(-\\frac12\\right)=-4,\\quad b=8\\left(\\frac{\\sqrt3}{2}\\right)=4\\sqrt3.\n\\]\nSo \\(a=-4\\) and \\(b=4\\sqrt3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-15",
+      "prompt": "For which real \\(t\\) does \\(t+2i\\) have modulus \\(4\\)?",
+      "answer": "Use the modulus condition:\n\\[\n|t+2i|=\\sqrt{t^2+2^2}=4.\n\\]\nSquare both sides:\n\\[\nt^2+4=16.\n\\]\nSo\n\\[\nt^2=12,\\quad t=\\pm 2\\sqrt3.\n\\]\nBoth values are valid because modulus depends on \\(t^2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-16",
+      "prompt": "For which real \\(t\\) does \\(t+i\\sqrt3\\) have principal argument \\(\\pi/3\\)?",
+      "answer": "The point is \\((t,\\sqrt3)\\).\nFor principal argument \\(\\pi/3\\), the point lies in quadrant I and\n\\[\n\\tan\\frac{\\pi}{3}=\\frac{\\sqrt3}{t}.\n\\]\nSince \\(\\tan(\\pi/3)=\\sqrt3\\),\n\\[\n\\sqrt3=\\frac{\\sqrt3}{t}.\n\\]\nDivide by \\(\\sqrt3\\):\n\\[\n1=\\frac1t,\\quad t=1.\n\\]\nThis gives a quadrant I point, so it is valid.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-17",
+      "prompt": "Find all real \\(t\\) such that \\(t-ti\\) has modulus \\(3\\sqrt2\\) and principal argument \\(-\\pi/4\\).",
+      "answer": "The number is \\(t-ti=t(1-i)\\).\nIts modulus is\n\\[\n|t-ti|=\\sqrt{t^2+(-t)^2}=|t|\\sqrt2.\n\\]\nSet this equal to \\(3\\sqrt2\\):\n\\[\n|t|\\sqrt2=3\\sqrt2,\\quad |t|=3.\n\\]\nSo \\(t=3\\) or \\(t=-3\\).\nIf \\(t=3\\), the point is \\((3,-3)\\), with argument \\(-\\pi/4\\).\nIf \\(t=-3\\), the point is \\((-3,3)\\), with argument \\(3\\pi/4\\).\nTherefore\n\\[\nt=3.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-18",
+      "prompt": "Prove from Cartesian coordinates that \\(|z|=r\\) when \\(z=r(\\cos\\theta+i\\sin\\theta)\\) and \\(r\\ge0\\).",
+      "answer": "If\n\\[\nz=r(\\cos\\theta+i\\sin\\theta),\n\\]\nthen the real part is \\(r\\cos\\theta\\) and the imaginary part is \\(r\\sin\\theta\\).\nThe modulus is\n\\[\n|z|=\\sqrt{(r\\cos\\theta)^2+(r\\sin\\theta)^2}.\n\\]\nFactor \\(r^2\\):\n\\[\n|z|=\\sqrt{r^2(\\cos^2\\theta+\\sin^2\\theta)}.\n\\]\nUsing \\(\\cos^2\\theta+\\sin^2\\theta=1\\),\n\\[\n|z|=\\sqrt{r^2}=|r|.\n\\]\nSince \\(r\\ge0\\), \\(|r|=r\\). Thus \\(|z|=r\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-19",
+      "prompt": "Show that \\(r\\operatorname{cis}\\theta=r\\operatorname{cis}\\phi\\) with \\(r>0\\) implies \\(\\theta-\\phi=2k\\pi\\) for some integer \\(k\\).",
+      "answer": "If\n\\[\nr\\operatorname{cis}\\theta=r\\operatorname{cis}\\phi\n\\]\nand \\(r>0\\), divide by \\(r\\):\n\\[\n\\cos\\theta+i\\sin\\theta=\\cos\\phi+i\\sin\\phi.\n\\]\nEqual complex numbers have equal real and imaginary parts, so\n\\[\n\\cos\\theta=\\cos\\phi,\\quad \\sin\\theta=\\sin\\phi.\n\\]\nThe point \\((\\cos\\theta,\\sin\\theta)\\) on the unit circle is the same as \\((\\cos\\phi,\\sin\\phi)\\).\nThe same point on the unit circle is reached only after whole turns, so\n\\[\n\\theta=\\phi+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nTherefore \\(\\theta-\\phi=2k\\pi\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-polar-form-20",
+      "prompt": "A student converts \\(-\\sqrt3-i\\) to polar form as \\(2\\operatorname{cis}(\\pi/6)\\). Give a complete diagnosis and correction.",
+      "answer": "First check the modulus:\n\\[\n|-\\sqrt3-i|=\\sqrt{(-\\sqrt3)^2+(-1)^2}=\\sqrt4=2.\n\\]\nSo the modulus \\(2\\) is correct.\nThe error is the quadrant. The point \\((-\\sqrt3,-1)\\) lies in quadrant III, while \\(\\pi/6\\) points to quadrant I.\nThe reference angle is\n\\[\n\\tan^{-1}\\left(\\frac{1}{\\sqrt3}\\right)=\\frac{\\pi}{6}.\n\\]\nA quadrant III angle is \\(7\\pi/6\\), whose principal representative is\n\\[\n\\frac{7\\pi}{6}-2\\pi=-\\frac{5\\pi}{6}.\n\\]\nCorrect polar form using the principal argument is\n\\[\n-\\sqrt3-i=2\\operatorname{cis}\\left(-\\frac{5\\pi}{6}\\right).\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

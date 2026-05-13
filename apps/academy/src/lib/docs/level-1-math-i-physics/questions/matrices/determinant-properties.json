@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "determinant-properties",
+  "topicTitle": "Determinant Properties",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-determinant-properties-01",
+      "prompt": "Compute the determinant of the upper triangular matrix \\(\\begin{pmatrix}2&1&4\\\\0&3&5\\\\0&0&-1\\end{pmatrix}\\).",
+      "answer": "For an upper triangular matrix, multiply the diagonal entries. Thus \\(\\det=2\\cdot3\\cdot(-1)=-6\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-02",
+      "prompt": "If two rows of a square matrix are swapped, what happens to the determinant?",
+      "answer": "A row swap multiplies the determinant by \\(-1\\). If the old determinant is \\(d\\), the new determinant is \\(-d\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-03",
+      "prompt": "If \\(\\det(A)=8\\) and \\(B\\) is formed by adding \\(5R_1\\) to \\(R_2\\), find \\(\\det(B)\\).",
+      "answer": "Adding a multiple of one row to another does not change the determinant. Therefore \\(\\det(B)=8\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-04",
+      "prompt": "If \\(\\det(A)=-4\\) and one row is multiplied by \\(3\\), what is the new determinant?",
+      "answer": "Scaling one row by \\(3\\) scales the determinant by \\(3\\). The new determinant is \\(3(-4)=-12\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-05",
+      "prompt": "If \\(\\det(A)=6\\) and \\(\\det(B)=\\frac12\\), compute \\(\\det(AB)\\).",
+      "answer": "Use \\(\\det(AB)=\\det(A)\\det(B)\\). Hence \\(\\det(AB)=6\\cdot\\frac12=3\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-06",
+      "prompt": "Verify \\(\\det(A^T)=\\det(A)\\) for \\(A=\\begin{pmatrix}1&2\\\\3&5\\end{pmatrix}\\).",
+      "answer": "First \\(\\det(A)=1\\cdot5-2\\cdot3=-1\\). Also \\(A^T=\\begin{pmatrix}1&3\\\\2&5\\end{pmatrix}\\), so \\(\\det(A^T)=1\\cdot5-3\\cdot2=-1\\). They match.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-07",
+      "prompt": "A matrix has determinant \\(10\\). A row swap is followed by a row replacement. Find the final determinant.",
+      "answer": "The row swap changes \\(10\\) to \\(-10\\). The row replacement does not change the determinant, so the final determinant is \\(-10\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-08",
+      "prompt": "Compute \\(\\det\\begin{pmatrix}4&2&1\\\\0&-2&7\\\\0&0&3\\end{pmatrix}\\) and name the property used.",
+      "answer": "The matrix is upper triangular, so the determinant is the diagonal product: \\(4(-2)3=-24\\). The property is the triangular determinant rule.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-09",
+      "prompt": "Use row replacement to compute \\(\\det\\begin{pmatrix}1&2&0\\\\3&5&1\\\\2&4&3\\end{pmatrix}\\).",
+      "answer": "Use \\(R_2\\leftarrow R_2-3R_1\\) and \\(R_3\\leftarrow R_3-2R_1\\), which preserve determinant. This gives diagonal entries \\(1,-1,3\\) after triangular reduction, so \\(\\det=1(-1)3=-3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-10",
+      "prompt": "A determinant \\(12\\) is transformed by scaling one row by \\(\\frac12\\) and then swapping two rows. Find the transformed determinant.",
+      "answer": "The scaling gives \\(12\\cdot\\frac12=6\\). The row swap multiplies by \\(-1\\), so the transformed determinant is \\(-6\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-11",
+      "prompt": "A triangular matrix reached after one row swap has diagonal product \\(-9\\). What was the original determinant?",
+      "answer": "One row swap changes the sign of the determinant. If the swapped matrix has determinant \\(-9\\), then the original determinant is \\(9\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-12",
+      "prompt": "Give a counterexample to \\(\\det(A+B)=\\det(A)+\\det(B)\\).",
+      "answer": "Let \\(A=B=I_2\\). Then \\(\\det(A)+\\det(B)=1+1=2\\). But \\(A+B=2I_2\\), so \\(\\det(A+B)=4\\). Since \\(4\\ne2\\), the rule is false.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-13",
+      "prompt": "Use determinant properties to compute \\(\\det\\begin{pmatrix}2&4&0\\\\1&3&1\\\\0&2&5\\end{pmatrix}\\).",
+      "answer": "Swap rows \\(1\\) and \\(2\\), then use row replacements to reach diagonal entries \\(1,-2,3\\). The swapped triangular determinant is \\(-6\\). Undoing the one row swap changes the sign, so the original determinant is \\(6\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-14",
+      "prompt": "If \\(A\\) is \\(3\\times3\\) and \\(\\det(A)=5\\), compute \\(\\det(2A)\\).",
+      "answer": "Multiplying \\(A\\) by \\(2\\) scales each of the three rows by \\(2\\). Therefore \\(\\det(2A)=2^3\\det(A)=8\\cdot5=40\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-15",
+      "prompt": "Find all \\(k\\) for which \\(\\begin{pmatrix}k&1&0\\\\0&k-2&4\\\\0&0&k+1\\end{pmatrix}\\) is singular.",
+      "answer": "The determinant is the diagonal product \\(k(k-2)(k+1)\\). The matrix is singular when this is zero, so \\(k=0\\), \\(k=2\\), or \\(k=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-16",
+      "prompt": "Two row swaps and one scaling by \\(-3\\) produce a triangular determinant \\(15\\). Find the original determinant.",
+      "answer": "Two swaps contribute factor \\(1\\). The scaling contributes factor \\(-3\\), so \\(15=-3\\det(A)\\). Hence \\(\\det(A)=-5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-17",
+      "prompt": "If \\(\\det(A)=0\\), explain why \\(AB\\) is singular for every square \\(B\\) of the same size.",
+      "answer": "The product rule gives \\(\\det(AB)=\\det(A)\\det(B)=0\\cdot\\det(B)=0\\). A square matrix with determinant zero is singular, so \\(AB\\) is singular.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-18",
+      "prompt": "A student scales a row by \\(4\\), reaches triangular determinant \\(28\\), and reports \\(\\det(A)=28\\). Correct the result.",
+      "answer": "The row scaling multiplied the determinant by \\(4\\). Thus \\(28=4\\det(A)\\), so \\(\\det(A)=7\\). The student forgot to undo the scaling factor.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-19",
+      "prompt": "Use row-scaling logic to prove that a matrix with a zero row has determinant zero.",
+      "answer": "Scaling the zero row by \\(2\\) leaves the matrix unchanged, but determinant scaling says the determinant is multiplied by \\(2\\). Thus \\(d=2d\\), so \\(d=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-determinant-properties-20",
+      "prompt": "Explain why row replacement is safe in determinant computation but row scaling must be tracked.",
+      "answer": "Row replacement leaves the determinant \\(\\det\\) unchanged, so it can create zeros freely. Row scaling changes the determinant by the scaling factor, so the final triangular product must be corrected by that factor.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

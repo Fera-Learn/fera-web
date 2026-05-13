@@ -4,7 +4,7 @@ The real part function extracts the real component of a complex number.
 
 ### Definition
 
-For $z = a + bi$:
+For \(z = a + bi\):
 
 <Equation label="Definition" tex="\text{Re}(z) = a" />
 
@@ -22,7 +22,7 @@ For $z = a + bi$:
 
 ### In Polar Form
 
-If $z = re^{i\theta}$:
+If \(z = re^{i\theta}\):
 
 <Equation label="PolarRe" tex="\text{Re}(z) = r\cos\theta" />
 

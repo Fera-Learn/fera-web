@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "setId": "set-2",
+  "paperId": "paper-1",
+  "paperTags": ["paper-1"],
+  "description": "Real-number reasoning, trigonometry, limits, calculus, and complex methods for physics support.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show enough working to make the algebra, definitions, and modelling steps clear.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mi-s2-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Real Numbers and Algebra",
+      "stem": "This question uses exact arithmetic, inequalities, binomial coefficients, and summation notation.",
+      "title": "Real-number and algebraic structure",
+      "parts": [
+        {
+          "answer": "Assume for contradiction that \\(\\sqrt{3}+\\sqrt{7}=r\\), where \\(r\\in\\mathbb{Q}\\). Then\n\\[\nr-\\sqrt{3}=\\sqrt{7}.\n\\]\nSquaring both sides gives\n\\[\nr^2-2r\\sqrt{3}+3=7.\n\\]\nHence\n\\[\n2r\\sqrt{3}=r^2-4.\n\\]\nIf \\(r=0\\), then \\(\\sqrt{3}+\\sqrt{7}=0\\), impossible. If \\(r\\ne0\\), then\n\\[\n\\sqrt{3}=\\frac{r^2-4}{2r},\n\\]\nwhich is rational. This contradicts the irrationality of \\(\\sqrt{3}\\). Therefore \\(\\sqrt{3}+\\sqrt{7}\\) is irrational.",
+          "id": "l1mi-s2-p1-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Prove that \\(\\sqrt{3}+\\sqrt{7}\\) is irrational."
+        },
+        {
+          "answer": "Move all terms to one side:\n\\[\n\\frac{2x+1}{x-3}-1\\ge0.\n\\]\nCombine into one fraction:\n\\[\n\\frac{2x+1-(x-3)}{x-3}\\ge0,\n\\]\nso\n\\[\n\\frac{x+4}{x-3}\\ge0.\n\\]\nThe critical values are \\(x=-4\\) and \\(x=3\\). A sign chart gives positive or zero on \\(( -\\infty,-4]\\) and \\((3,\\infty)\\). The point \\(x=3\\) is excluded because it is not in the domain. Therefore\n\\[\nx\\in(-\\infty,-4]\\cup(3,\\infty).\n\\]",
+          "id": "l1mi-s2-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Solve the inequality \\(\\frac{2x+1}{x-3}\\ge1\\)."
+        },
+        {
+          "answer": "The general term in \\((2-x)^7\\) is\n\\[\n\\binom{7}{k}2^{7-k}(-x)^k.\n\\]\nThe term in \\(x^5\\) occurs when \\(k=5\\). Its coefficient is\n\\[\n\\binom{7}{5}2^2(-1)^5=21\\cdot4\\cdot(-1)=-84.\n\\]\nSo the coefficient of \\(x^5\\) is \\(-84\\).",
+          "id": "l1mi-s2-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the coefficient of \\(x^5\\) in the expansion of \\((2-x)^7\\)."
+        },
+        {
+          "answer": "Separate the summation:\n\\[\n\\sum_{r=1}^{10}(2r^2-r)=2\\sum_{r=1}^{10}r^2-\\sum_{r=1}^{10}r.\n\\]\nUse\n\\[\n\\sum_{r=1}^{10}r=\\frac{10\\cdot11}{2}=55\n\\]\nand\n\\[\n\\sum_{r=1}^{10}r^2=\\frac{10\\cdot11\\cdot21}{6}=385.\n\\]\nTherefore\n\\[\n\\sum_{r=1}^{10}(2r^2-r)=2(385)-55=715.\n\\]",
+          "id": "l1mi-s2-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\sum_{r=1}^{10}(2r^2-r)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Trigonometry and Limits",
+      "stem": "Use radians unless degrees are explicitly stated. Exact trigonometric values are preferred.",
+      "title": "Trigonometric identities and limiting values",
+      "parts": [
+        {
+          "answer": "Use \\(\\sin(2x)=2\\sin x\\cos x\\) and \\(1+\\cos(2x)=2\\cos^2x\\). Then\n\\[\n\\frac{\\sin(2x)}{1+\\cos(2x)}=\\frac{2\\sin x\\cos x}{2\\cos^2x}.\n\\]\nWhere the expression is defined, cancel \\(2\\cos x\\):\n\\[\n\\frac{\\sin(2x)}{1+\\cos(2x)}=\\frac{\\sin x}{\\cos x}=\\tan x.\n\\]",
+          "id": "l1mi-s2-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Show that \\(\\frac{\\sin(2x)}{1+\\cos(2x)}=\\tan x\\) wherever both sides are defined."
+        },
+        {
+          "answer": "Let \\(\\theta=\\arctan\\left(\\frac{5}{12}\\right)\\). Then \\(\\tan\\theta=\\frac{5}{12}\\). Use a right triangle with opposite side \\(5\\), adjacent side \\(12\\), and hypotenuse \\(13\\). Hence\n\\[\n\\sin\\theta=\\frac{5}{13}.\n\\]\nTherefore\n\\[\n\\sin\\left(\\arctan\\left(\\frac{5}{12}\\right)\\right)=\\frac{5}{13}.\n\\]",
+          "id": "l1mi-s2-p1-q2-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the exact value of \\(\\sin\\left(\\arctan\\left(\\frac{5}{12}\\right)\\right)\\)."
+        },
+        {
+          "answer": "Let \\(A=\\arctan x\\) and \\(B=\\arctan(2x)\\). Taking tangent of both sides gives\n\\[\n\\tan(A+B)=1.\n\\]\nUsing the addition formula,\n\\[\n\\frac{x+2x}{1-2x^2}=1.\n\\]\nThus\n\\[\n3x=1-2x^2,\n\\]\nso\n\\[\n2x^2+3x-1=0.\n\\]\nSolving,\n\\[\nx=\\frac{-3\\pm\\sqrt{17}}{4}.\n\\]\nThe negative root makes both arctangent terms negative, so their sum cannot be \\(\\frac{\\pi}{4}\\). Therefore\n\\[\nx=\\frac{-3+\\sqrt{17}}{4}.\n\\]",
+          "id": "l1mi-s2-p1-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Solve \\(\\arctan x+\\arctan(2x)=\\frac{\\pi}{4}\\)."
+        },
+        {
+          "answer": "Use \\(1-\\cos u=2\\sin^2\\left(\\frac{u}{2}\\right)\\). With \\(u=4h\\),\n\\[\n1-\\cos(4h)=2\\sin^2(2h).\n\\]\nHence\n\\[\n\\lim_{h\\to0}\\frac{1-\\cos(4h)}{h^2}=2\\lim_{h\\to0}\\left(\\frac{\\sin(2h)}{h}\\right)^2.\n\\]\nNow\n\\[\n\\frac{\\sin(2h)}{h}=2\\frac{\\sin(2h)}{2h},\n\\]\nand \\(\\lim_{h\\to0}\\frac{\\sin(2h)}{2h}=1\\). Therefore the limit is\n\\[\n2(2)^2=8.\n\\]",
+          "id": "l1mi-s2-p1-q2-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\lim_{h\\to0}\\frac{1-\\cos(4h)}{h^2}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Differentiation and Integration",
+      "stem": "A storage vessel contains \\(30\\) litres of liquid at \\(t=0\\). For \\(0\\le t\\le5\\), the signed rate of change of volume is \\(R(t)=2t^2-8t+6\\), measured in litres per minute.",
+      "title": "Reconstructing volume from a rate",
+      "parts": [
+        {
+          "answer": "Factor the rate:\n\\[\nR(t)=2t^2-8t+6=2(t^2-4t+3)=2(t-1)(t-3).\n\\]\nSo \\(R(t)=0\\) at \\(t=1\\) and \\(t=3\\). Since the quadratic opens upwards, \\(R(t)>0\\) on \\(0\\le t<1\\) and \\(3<t\\le5\\), while \\(R(t)<0\\) on \\(1<t<3\\). Therefore the volume increases on \\(0\\le t<1\\) and \\(3<t\\le5\\), and decreases on \\(1<t<3\\).",
+          "id": "l1mi-s2-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Determine when the volume is increasing and when it is decreasing."
+        },
+        {
+          "answer": "Since \\(R(t)=\\frac{dV}{dt}\\), integrate:\n\\[\nV(t)=\\int(2t^2-8t+6)\\,dt=\\frac{2}{3}t^3-4t^2+6t+C.\n\\]\nUse \\(V(0)=30\\), giving \\(C=30\\). Therefore\n\\[\nV(t)=\\frac{2}{3}t^3-4t^2+6t+30.\n\\]",
+          "id": "l1mi-s2-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find an expression for the volume \\(V(t)\\)."
+        },
+        {
+          "answer": "Stationary values occur at \\(t=1\\) and \\(t=3\\). Check these and the endpoints:\n\\[\nV(0)=30,\n\\]\n\\[\nV(1)=\\frac{2}{3}-4+6+30=\\frac{98}{3},\n\\]\n\\[\nV(3)=18-36+18+30=30,\n\\]\n\\[\nV(5)=\\frac{250}{3}-100+30+30=\\frac{130}{3}.\n\\]\nThus the minimum volume is \\(30\\) litres, at \\(t=0\\) and \\(t=3\\). The maximum volume is\n\\[\n\\frac{130}{3}\\text{ litres}\\approx43.3\\text{ litres},\n\\]\nat \\(t=5\\).",
+          "id": "l1mi-s2-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the minimum and maximum volumes during \\(0\\le t\\le5\\)."
+        },
+        {
+          "answer": "The average volume is\n\\[\n\\frac{1}{5}\\int_0^5 V(t)\\,dt.\n\\]\nUsing \\(V(t)=\\frac{2}{3}t^3-4t^2+6t+30\\),\n\\[\n\\int_0^5 V(t)\\,dt=\\left[\\frac{t^4}{6}-\\frac{4t^3}{3}+3t^2+30t\\right]_0^5.\n\\]\nSubstitute \\(t=5\\):\n\\[\n\\frac{625}{6}-\\frac{500}{3}+75+150=\\frac{975}{6}=\\frac{325}{2}.\n\\]\nTherefore the average volume is\n\\[\n\\frac{1}{5}\\cdot\\frac{325}{2}=\\frac{65}{2}=32.5.\n\\]\nThe average volume is \\(32.5\\) litres.",
+          "id": "l1mi-s2-p1-q3-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the average volume over the interval \\(0\\le t\\le5\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Complex Numbers",
+      "stem": "Write complex answers in exact form. Use \\(i^2=-1\\).",
+      "title": "Complex arithmetic and De Moivre's theorem",
+      "parts": [
+        {
+          "answer": "First multiply the numerator:\n\\[\n(2-i)(3+4i)=6+8i-3i-4i^2.\n\\]\nSince \\(i^2=-1\\), this is\n\\[\n10+5i.\n\\]\nNow divide by \\(1+i\\) by multiplying by the conjugate:\n\\[\n\\frac{10+5i}{1+i}\\cdot\\frac{1-i}{1-i}=\\frac{(10+5i)(1-i)}{2}.\n\\]\nThe numerator is\n\\[\n10-10i+5i-5i^2=15-5i.\n\\]\nTherefore\n\\[\n\\frac{(2-i)(3+4i)}{1+i}=\\frac{15}{2}-\\frac{5}{2}i.\n\\]",
+          "id": "l1mi-s2-p1-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Evaluate \\(\\frac{(2-i)(3+4i)}{1+i}\\) in the form \\(a+bi\\)."
+        },
+        {
+          "answer": "Write \\(1+i\\) in polar form. Its modulus is \\(\\sqrt{2}\\) and its argument is \\(\\frac{\\pi}{4}\\), so\n\\[\n1+i=\\sqrt{2}\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right).\n\\]\nBy De Moivre's theorem,\n\\[\n(1+i)^6=(\\sqrt{2})^6\\left(\\cos\\frac{6\\pi}{4}+i\\sin\\frac{6\\pi}{4}\\right).\n\\]\nNow \\((\\sqrt{2})^6=8\\) and \\(\\frac{6\\pi}{4}=\\frac{3\\pi}{2}\\). Therefore\n\\[\n(1+i)^6=8(0-i)=-8i.\n\\]",
+          "id": "l1mi-s2-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use De Moivre's theorem to evaluate \\((1+i)^6\\)."
+        },
+        {
+          "answer": "The right-hand side already has modulus \\(27\\) and argument \\(\\frac{\\pi}{6}\\). The cube roots have modulus\n\\[\n\\sqrt[3]{27}=3.\n\\]\nTheir arguments are\n\\[\n\\frac{\\frac{\\pi}{6}+2k\\pi}{3}=\\frac{\\pi}{18}+\\frac{2k\\pi}{3},\\qquad k=0,1,2.\n\\]\nThus the roots are\n\\[\n3\\left(\\cos\\frac{\\pi}{18}+i\\sin\\frac{\\pi}{18}\\right),\n\\]\n\\[\n3\\left(\\cos\\frac{13\\pi}{18}+i\\sin\\frac{13\\pi}{18}\\right),\n\\]\nand\n\\[\n3\\left(\\cos\\frac{25\\pi}{18}+i\\sin\\frac{25\\pi}{18}\\right).\n\\]",
+          "id": "l1mi-s2-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find all complex solutions of \\(z^3=27\\left(\\cos\\frac{\\pi}{6}+i\\sin\\frac{\\pi}{6}\\right)\\)."
+        },
+        {
+          "answer": "Each root has modulus \\(3\\), so all roots lie on the circle\n\\[\n|z|=3.\n\\]\nThe arguments are\n\\[\n\\frac{\\pi}{18},\\qquad \\frac{13\\pi}{18},\\qquad \\frac{25\\pi}{18}.\n\\]\nThe difference between consecutive arguments is\n\\[\n\\frac{12\\pi}{18}=\\frac{2\\pi}{3}.\n\\]\nThe roots are therefore equally spaced around the circle, forming an equilateral triangle in the complex plane.",
+          "id": "l1mi-s2-p1-q4-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Describe the moduli and arguments of the roots from part (c), and state the geometric shape they form in the complex plane."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours",
+  "title": "Level 1 - Math I (Physics) Paper 1",
+  "totalMarks": 60
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "matrices",
+  "topicId": "inverse-computation",
+  "topicTitle": "Inverse Computation",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-matrices-inverse-computation-01",
+      "prompt": "What augmented matrix is used to compute \\(A^{-1}\\) by row reduction?",
+      "answer": "Use the matrix \\((A\\mid I)\\), where \\(I\\) is the identity matrix of the same size as \\(A\\). The goal is to row-reduce it to \\((I\\mid A^{-1})\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-02",
+      "prompt": "In the cofactor method, what matrix is transposed before dividing by \\(\\det(A)\\)?",
+      "answer": "The cofactor matrix \\(C\\) is transposed. The inverse formula is \\[A^{-1}=\\frac{1}{\\det(A)}C^T,\\] provided \\(\\det(A)\\ne0\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-03",
+      "prompt": "Why must every row operation in \\((A\\mid I)\\) be applied to both halves?",
+      "answer": "The two halves are part of one augmented matrix. Row operations record multiplication by elementary matrices. Applying them to both halves turns \\((A\\mid I)\\) into \\((I\\mid A^{-1})\\); applying them to only one half would break the relationship.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-04",
+      "prompt": "What conclusion should be drawn if the left side of \\((A\\mid I)\\) cannot be reduced to \\(I\\)?",
+      "answer": "If the left side cannot be reduced to \\(I\\), then \\(A\\) is singular. The inverse does not exist, so the right side cannot be interpreted as \\(A^{-1}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-05",
+      "prompt": "Compute the inverse of \\(\\begin{pmatrix}1&1\\\\0&2\\end{pmatrix}\\) using row reduction.",
+      "answer": "Start with \\[\\left(\\begin{array}{cc|cc}1&1&1&0\\\\0&2&0&1\\end{array}\\right).\\] Use \\(R_2\\leftarrow \\frac12R_2\\): \\[\\left(\\begin{array}{cc|cc}1&1&1&0\\\\0&1&0&\\frac12\\end{array}\\right).\\] Use \\(R_1\\leftarrow R_1-R_2\\): \\[\\left(\\begin{array}{cc|cc}1&0&1&-\\frac12\\\\0&1&0&\\frac12\\end{array}\\right).\\] Thus \\[A^{-1}=\\begin{pmatrix}1&-\\frac12\\\\0&\\frac12\\end{pmatrix}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-06",
+      "prompt": "For \\(A=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\), compute the cofactor matrix and hence \\(A^{-1}\\).",
+      "answer": "The determinant is \\(2\\cdot1-1\\cdot1=1\\). The cofactor matrix for a \\(2\\times2\\) matrix is \\[C=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.\\] Since \\(C^T=C\\) here, \\[A^{-1}=\\frac1{1}C^T=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-07",
+      "prompt": "Use \\((A\\mid I)\\) to find the inverse of \\(A=\\begin{pmatrix}1&3\\\\0&1\\end{pmatrix}\\).",
+      "answer": "Start with \\[\\left(\\begin{array}{cc|cc}1&3&1&0\\\\0&1&0&1\\end{array}\\right).\\] Use \\(R_1\\leftarrow R_1-3R_2\\): \\[\\left(\\begin{array}{cc|cc}1&0&1&-3\\\\0&1&0&1\\end{array}\\right).\\] Therefore \\[A^{-1}=\\begin{pmatrix}1&-3\\\\0&1\\end{pmatrix}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-08",
+      "prompt": "Compute \\(A^{-1}\\) for \\(A=\\begin{pmatrix}3&0\\\\2&1\\end{pmatrix}\\) by row reduction.",
+      "answer": "Start with \\[\\left(\\begin{array}{cc|cc}3&0&1&0\\\\2&1&0&1\\end{array}\\right).\\] Use \\(R_1\\leftarrow \\frac13R_1\\): \\[\\left(\\begin{array}{cc|cc}1&0&\\frac13&0\\\\2&1&0&1\\end{array}\\right).\\] Use \\(R_2\\leftarrow R_2-2R_1\\): \\[\\left(\\begin{array}{cc|cc}1&0&\\frac13&0\\\\0&1&-\\frac23&1\\end{array}\\right).\\] Hence \\[A^{-1}=\\begin{pmatrix}\\frac13&0\\\\-\\frac23&1\\end{pmatrix}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-09",
+      "prompt": "Compute \\(\\begin{pmatrix}1&2\\\\3&7\\end{pmatrix}^{-1}\\) by row reduction and verify the result.",
+      "answer": "Start with \\[\\left(\\begin{array}{cc|cc}1&2&1&0\\\\3&7&0&1\\end{array}\\right).\\] Use \\(R_2\\leftarrow R_2-3R_1\\): \\[\\left(\\begin{array}{cc|cc}1&2&1&0\\\\0&1&-3&1\\end{array}\\right).\\] Use \\(R_1\\leftarrow R_1-2R_2\\): \\[\\left(\\begin{array}{cc|cc}1&0&7&-2\\\\0&1&-3&1\\end{array}\\right).\\] Thus \\(A^{-1}=\\begin{pmatrix}7&-2\\\\-3&1\\end{pmatrix}\\). Multiplication gives \\[\\begin{pmatrix}1&2\\\\3&7\\end{pmatrix}\\begin{pmatrix}7&-2\\\\-3&1\\end{pmatrix}=I.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-10",
+      "prompt": "Use the cofactor formula to compute \\(\\begin{pmatrix}4&1\\\\3&1\\end{pmatrix}^{-1}\\).",
+      "answer": "The determinant is \\(4\\cdot1-1\\cdot3=1\\). The cofactor matrix is \\[C=\\begin{pmatrix}1&-3\\\\-1&4\\end{pmatrix}.\\] Transpose it: \\[C^T=\\begin{pmatrix}1&-1\\\\-3&4\\end{pmatrix}.\\] Since \\(\\det(A)=1\\), \\[A^{-1}=\\begin{pmatrix}1&-1\\\\-3&4\\end{pmatrix}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-11",
+      "prompt": "A row-reduction attempt reaches \\(\\left(\\begin{array}{cc|cc}1&2&1&0\\\\0&0&-3&1\\end{array}\\right)\\). What does this show about the inverse?",
+      "answer": "The left side cannot become \\(I\\), because the second row has zeros in both left-side entries. This means the original matrix is singular. The right side is not an inverse; the inverse does not exist.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-12",
+      "prompt": "Explain why the transpose in \\(A^{-1}=\\frac1{\\det(A)}C^T\\) cannot be skipped.",
+      "answer": "The cofactor matrix places each signed minor in the same row and column as the entry used to form it. The inverse formula requires the adjugate, which is the transpose of this cofactor matrix. Skipping the transpose generally puts cofactors in the wrong positions, so multiplying by \\(A\\) will not produce \\(I\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-13",
+      "prompt": "Use row reduction to find the inverse of \\(A=\\begin{pmatrix}1&0&0\\\\2&1&0\\\\3&4&1\\end{pmatrix}\\).",
+      "answer": "Start from \\((A\\mid I)\\). Use \\(R_2\\leftarrow R_2-2R_1\\) and \\(R_3\\leftarrow R_3-3R_1\\), giving left rows \\([1,0,0]\\), \\([0,1,0]\\), \\([0,4,1]\\) and right rows \\([1,0,0]\\), \\([-2,1,0]\\), \\([-3,0,1]\\). Then use \\(R_3\\leftarrow R_3-4R_2\\). The right third row becomes \\([-3,0,1]-4[-2,1,0]=[5,-4,1]\\). Therefore \\[A^{-1}=\\begin{pmatrix}1&0&0\\\\-2&1&0\\\\5&-4&1\\end{pmatrix}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-14",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2&0\\\\0&1&3\\\\0&0&1\\end{pmatrix}\\), compute \\(A^{-1}\\).",
+      "answer": "Use \\((A\\mid I)\\). The last pivot is already \\(1\\). Eliminate above it: \\(R_2\\leftarrow R_2-3R_3\\), so right row \\(2\\) becomes \\([0,1,-3]\\). Then eliminate the \\(2\\) above the second pivot: \\(R_1\\leftarrow R_1-2R_2\\). The right row \\(1\\) becomes \\([1,0,0]-2[0,1,-3]=[1,-2,6]\\). Hence \\[A^{-1}=\\begin{pmatrix}1&-2&6\\\\0&1&-3\\\\0&0&1\\end{pmatrix}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-15",
+      "prompt": "For which values of \\(t\\) will the row-reduction method fail for \\(A=\\begin{pmatrix}t&1\\\\4&2\\end{pmatrix}\\)?",
+      "answer": "The method fails exactly when \\(A\\) is singular. Compute \\[\\det(A)=2t-4.\\] Set this equal to zero: \\(2t-4=0\\), so \\(t=2\\). Therefore row reduction cannot turn \\((A\\mid I)\\) into \\((I\\mid A^{-1})\\) when \\(t=2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-16",
+      "prompt": "A student forms \\((I\\mid A)\\) instead of \\((A\\mid I)\\) and row-reduces the left side. Explain why this does not compute \\(A^{-1}\\).",
+      "answer": "The inverse method applies row operations that turn the original matrix \\(A\\) into \\(I\\). Those same operations, applied to \\(I\\), produce \\(A^{-1}\\). If the augmented matrix starts as \\((I\\mid A)\\), the left side is already \\(I\\), so no operations record how to undo \\(A\\). The right side remains \\(A\\), not \\(A^{-1}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-17",
+      "prompt": "Compute the inverse of \\(A=\\begin{pmatrix}2&1&0\\\\0&1&0\\\\0&3&1\\end{pmatrix}\\) by applying row operations to both halves.",
+      "answer": "Start with \\((A\\mid I)\\). Use \\(R_1\\leftarrow \\frac12R_1\\), so row \\(1\\) right side becomes \\([\\frac12,0,0]\\) and the left row is \\([1,\\frac12,0]\\). Use \\(R_1\\leftarrow R_1-\\frac12R_2\\), making the right row \\([\\frac12,-\\frac12,0]\\). Use \\(R_3\\leftarrow R_3-3R_2\\), making the right row \\([0,-3,1]\\). Thus \\[A^{-1}=\\begin{pmatrix}\\frac12&-\\frac12&0\\\\0&1&0\\\\0&-3&1\\end{pmatrix}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-18",
+      "prompt": "A student computes the cofactor matrix correctly as \\(C=\\begin{pmatrix}2&-1\\\\-5&3\\end{pmatrix}\\) and \\(\\det(A)=1\\), then reports \\(A^{-1}=C\\). What check would reveal the error?",
+      "answer": "The check is to multiply the proposed inverse by \\(A\\) and see whether the product is \\(I\\). The formula requires \\(C^T\\), not \\(C\\). Unless \\(C\\) is symmetric, using \\(C\\) places off-diagonal cofactors incorrectly. Multiplication will show nonzero off-diagonal entries or incorrect diagonal entries, revealing that the reported matrix is not the inverse.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-19",
+      "prompt": "Explain why dividing by \\(\\det(A)\\) in the cofactor formula forces a determinant check before computing an inverse.",
+      "answer": "The formula \\[A^{-1}=\\frac1{\\det(A)}C^T\\] contains division by \\(\\det(A)\\). If \\(\\det(A)=0\\), this division is undefined. A zero determinant also means the matrix is singular, so no inverse exists. Therefore the determinant check is both an arithmetic requirement and an invertibility test.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-matrices-inverse-computation-20",
+      "prompt": "Compare row reduction and cofactors for inverse computation. When is each method likely to be less error-prone?",
+      "answer": "For small \\(2\\times2\\) matrices, the cofactor formula is quick because it reduces to swapping the diagonal entries, changing signs off the diagonal, and dividing by the determinant. For larger matrices, row reduction is often less error-prone because it uses a systematic sequence of row operations on \\((A\\mid I)\\). Cofactors require many minors and signs, so sign and placement errors become more likely. Both methods require \\(A\\) to be square and fail when \\(\\det(A)=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-arithmetic",
+  "topicId": "imaginary-part",
+  "topicTitle": "Imaginary Part",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-01",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(8-3i)\\\\).",
+      "answer": "For \\\\(z=a+bi\\\\), \\\\(\\\\operatorname{Im}(z)=b\\\\).\nHere \\\\(b=-3\\\\), so \\\\(\\\\operatorname{Im}(8-3i)=-3\\\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-02",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(-4+11i)\\\\).",
+      "answer": "The imaginary part is the coefficient of \\\\(i\\\\).\nFor \\\\(-4+11i\\\\), that coefficient is \\\\(11\\\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-03",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(6i)\\\\).",
+      "answer": "Write \\\\(6i\\\\) as \\\\(0+6i\\\\).\nThe imaginary coefficient is \\\\(6\\\\), so \\\\(\\\\operatorname{Im}(6i)=6\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-04",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(9)\\\\), treating \\\\(9\\\\) as a complex number.",
+      "answer": "Write \\\\(9=9+0i\\\\).\nThe imaginary coefficient is \\\\(0\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-05",
+      "prompt": "Find \\\\(\\\\operatorname{Im}((2+3i)+(5-7i))\\\\).",
+      "answer": "Add first: \\\\((2+3i)+(5-7i)=7-4i\\\\).\nThe imaginary coefficient is \\\\(-4\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-06",
+      "prompt": "Find \\\\(\\\\operatorname{Im}((1+i)(4-2i))\\\\).",
+      "answer": "Multiply: \\\\((1+i)(4-2i)=4-2i+4i-2i^2=6+2i\\\\).\nThe imaginary coefficient is \\\\(2\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-07",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(5(2-9i))\\\\).",
+      "answer": "Multiply: \\\\(5(2-9i)=10-45i\\\\).\nThe imaginary coefficient is \\\\(-45\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-08",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(4e^{i\\\\pi/2})\\\\).",
+      "answer": "Use \\\\(\\\\operatorname{Im}(re^{i\\theta})=r\\\\sin\\theta\\\\).\nHere \\\\(r=4\\\\), \\\\(\\theta=\\\\pi/2\\\\).\nSo \\\\(\\\\operatorname{Im}(4e^{i\\\\pi/2})=4\\\\sin(\\\\pi/2)=4\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-09",
+      "prompt": "Find \\\\(\\\\operatorname{Im}(z+w)\\\\) if \\\\(z=7-2i\\\\) and \\\\(w=-10+5i\\\\).",
+      "answer": "Add: \\\\(z+w=-3+3i\\\\).\nThe imaginary coefficient is \\\\(3\\\\), so \\\\(\\\\operatorname{Im}(z+w)=3\\\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-10",
+      "prompt": "Find \\\\(\\\\operatorname{Im}\\\\left(\\frac{1}{1-i}\\right)\\\\).",
+      "answer": "\\\\(\\frac{1}{1-i}=\\frac{1+i}{(1-i)(1+i)}=\\frac{1+i}{2}\\\\).\nThus \\\\(\\frac{1}{1-i}=\\frac12+\\frac12i\\\\).\nThe imaginary coefficient is \\\\(\\frac12\\\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-11",
+      "prompt": "Verify \\\\(\\\\operatorname{Im}(z)=\\frac{z-z^*}{2i}\\\\) for \\\\(z=-6+5i\\\\).",
+      "answer": "The conjugate is \\\\(-6-5i\\\\).\nSubtract: \\\\(z-z^*=(-6+5i)-(-6-5i)=10i\\\\).\nDivide by \\\\(2i\\\\): \\\\(\\frac{10i}{2i}=5\\\\).\nThis equals \\\\(\\\\operatorname{Im}(z)\\\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-12",
+      "prompt": "Explain why \\\\(\\\\operatorname{Im}(z+w)=\\\\operatorname{Im}(z)+\\\\operatorname{Im}(w)\\\\).",
+      "answer": "Let \\\\(z=a+bi\\\\) and \\\\(w=c+di\\\\).\nThen \\\\(z+w=(a+c)+(b+d)i\\\\).\nThe imaginary coefficient is \\\\(b+d\\\\).\nThat equals \\\\(\\\\operatorname{Im}(z)+\\\\operatorname{Im}(w)\\\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-13",
+      "prompt": "Find real \\\\(t\\\\) if \\\\(\\\\operatorname{Im}((t+2)+(3t-1)i)=8\\\\).",
+      "answer": "The imaginary coefficient is \\\\(3t-1\\\\).\nSet \\\\(3t-1=8\\\\).\nThen \\\\(3t=9\\\\), so \\\\(t=3\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-14",
+      "prompt": "Find \\\\(t\\\\) if \\\\(\\\\operatorname{Im}((t+i)(2-i))=5\\\\).",
+      "answer": "Expand: \\\\((t+i)(2-i)=(2t+1)+(2-t)i\\\\).\nThe imaginary coefficient is \\\\(2-t\\\\).\nSet \\\\(2-t=5\\\\), so \\\\(t=-3\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-15",
+      "prompt": "For which real \\\\(t\\\\) is \\\\(\\\\operatorname{Im}((t+2i)^2)=8\\\\)?",
+      "answer": "\\\\((t+2i)^2=(t^2-4)+4ti\\\\).\nThe imaginary coefficient is \\\\(4t\\\\).\nSet \\\\(4t=8\\\\), so \\\\(t=2\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-16",
+      "prompt": "For which real \\\\(t\\\\) does \\\\(\\\\operatorname{Im}\\\\left(\\frac{t+i}{1+i}\\right)=0\\\\)?",
+      "answer": "\\\\(\\frac{t+i}{1+i}=\\frac{(t+i)(1-i)}{2}=\\frac{(t+1)+(1-t)i}{2}\\\\).\nImaginary coefficient is \\\\(\\frac{1-t}{2}\\\\).\nSet it to zero: \\\\(1-t=0\\\\).\nThus \\\\(t=1\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-17",
+      "prompt": "Find all real \\\\(t\\\\) such that \\\\(\\\\operatorname{Im}((t+i)(t-3i))=0\\\\).",
+      "answer": "Expand: \\\\((t+i)(t-3i)=t^2-3ti+ti-3i^2\\\\).\nThis is \\\\((t^2+3)-2ti\\\\).\nThe imaginary coefficient is \\\\(-2t\\\\).\nSet \\\\(-2t=0\\\\), so \\\\(t=0\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-18",
+      "prompt": "A learner says \\\\(\\\\operatorname{Im}(2+5i)=5i\\\\). Diagnose the error.",
+      "answer": "The imaginary part is the real coefficient of \\\\(i\\\\), not the term \\\\(5i\\\\).\nFor \\\\(2+5i\\\\), that coefficient is \\\\(5\\\\).\nSo \\\\(\\\\operatorname{Im}(2+5i)=5\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-19",
+      "prompt": "Prove that \\\\(\\\\operatorname{Im}(cz)=c\\\\operatorname{Im}(z)\\\\) for real \\\\(c\\\\).",
+      "answer": "Let \\\\(z=a+bi\\\\).\nThen \\\\(cz=ca+cbi\\\\) because \\\\(c\\\\) is real.\nThe imaginary coefficient of \\\\(cz\\\\) is \\\\(cb\\\\).\nSince \\\\(\\\\operatorname{Im}(z)=b\\\\), this is \\\\(c\\\\operatorname{Im}(z)\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-imaginary-part-20",
+      "prompt": "Give a counterexample to \\\\(\\\\operatorname{Im}(z_1z_2)=\\\\operatorname{Im}(z_1)\\\\operatorname{Im}(z_2)\\\\).",
+      "answer": "Take \\\\(z_1=1+i\\\\) and \\\\(z_2=1+i\\\\).\nThen \\\\(z_1z_2=(1+i)^2=2i\\\\), so \\\\(\\\\operatorname{Im}(z_1z_2)=2\\\\).\nBut \\\\(\\\\operatorname{Im}(z_1)\\\\operatorname{Im}(z_2)=1\\\\cdot1=1\\\\).\nSince \\\\(2\\neq1\\\\), the rule is false.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

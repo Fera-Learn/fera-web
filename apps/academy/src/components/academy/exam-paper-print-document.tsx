@@ -386,6 +386,8 @@ function CandidateBox() {
 }
 
 function Instructions({ paper }: { paper: Level1PhysicsExamPaper }) {
+  const constants = paper.constants ?? [];
+
   return (
     <section className="exam-instructions">
       <h2>Instructions</h2>
@@ -393,7 +395,9 @@ function Instructions({ paper }: { paper: Level1PhysicsExamPaper }) {
         {paper.instructions.map((instruction) => (
           <li key={instruction}>{instruction}</li>
         ))}
-        <li>Use the constants printed in this paper where relevant.</li>
+        {constants.length > 0 ? (
+          <li>Use the constants printed in this paper where relevant.</li>
+        ) : null}
         <li>Answer spaces are provided after each question part.</li>
       </ul>
     </section>
@@ -497,7 +501,9 @@ function CoverPage({
 }
 
 function ConstantsPage({ paper }: { paper: Level1PhysicsExamPaper }) {
-  if (paper.constants.length === 0) {
+  const constants = paper.constants ?? [];
+
+  if (constants.length === 0) {
     return null;
   }
 
@@ -506,7 +512,7 @@ function ConstantsPage({ paper }: { paper: Level1PhysicsExamPaper }) {
       <h2>Constants</h2>
       <table className="exam-constants-table">
         <tbody>
-          {paper.constants.map((constant) => (
+          {constants.map((constant) => (
             <tr key={constant.label}>
               <td>{constant.label}</td>
               <td>\( {constant.value} \)</td>

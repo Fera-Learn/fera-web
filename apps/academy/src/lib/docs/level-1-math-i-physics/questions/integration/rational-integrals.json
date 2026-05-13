@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "rational-integrals",
   "topicTitle": "Rational Integrals",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "ri-1",
-      "prompt": "Integrate 1/(x^2+1) dx.",
-      "answer": "arctan x + C",
-      "hints": ["Standard integral."],
+      "id": "math-i-integration-rational-integrals-01",
+      "prompt": "Is \\(\\frac{x+1}{x^2+4}\\) a proper rational function?",
+      "answer": "Yes. The numerator has degree \\(1\\), and the denominator has degree \\(2\\). Since \\(1<2\\), the rational function is proper.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-2",
-      "prompt": "Integrate 1/(x-1) dx.",
-      "answer": "ln|x-1| + C",
-      "hints": ["Log integral."],
+      "id": "math-i-integration-rational-integrals-02",
+      "prompt": "What standard antiderivative is used for \\(\\int \\frac{dx}{x^2+9}\\)?",
+      "answer": "Use\n\\[\\int \\frac{dx}{x^2+a^2}=\\frac1a\\arctan\\left(\\frac{x}{a}\\right)+C.\\]\nHere \\(a=3\\), so\n\\[\\int \\frac{dx}{x^2+9}=\\boxed{\\frac13\\arctan\\left(\\frac{x}{3}\\right)+C}.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-3",
-      "prompt": "Integrate (x^2+1)/(x) dx.",
-      "answer": "x^2/2 + ln|x| + C",
-      "hints": ["Divide first: x + 1/x."],
+      "id": "math-i-integration-rational-integrals-03",
+      "prompt": "Evaluate \\(\\int \\frac{2x}{x^2+5}\\,dx\\).",
+      "answer": "Let \\(u=x^2+5\\). Then \\(du=2x\\,dx\\).\nSo\n\\[\\int \\frac{2x}{x^2+5}\\,dx=\\int \\frac1u\\,du=\\ln|u|+C.\\]\nSince \\(x^2+5>0\\),\n\\[\\boxed{\\ln(x^2+5)+C}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-04",
+      "prompt": "Evaluate \\(\\int \\frac{dx}{x-4}\\).",
+      "answer": "This has the form \\(\\int \\frac{dx}{x-a}\\). Therefore\n\\[\\int \\frac{dx}{x-4}=\\boxed{\\ln|x-4|+C}.\\]\nThe absolute value is needed because \\(x-4\\) may be positive or negative on its domain.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-05",
+      "prompt": "Evaluate \\(\\int \\frac{x+1}{x^2+2x+5}\\,dx\\).",
+      "answer": "The denominator derivative is \\(2x+2=2(x+1)\\). Thus\n\\[\\int \\frac{x+1}{x^2+2x+5}\\,dx=\\frac12\\int \\frac{2x+2}{x^2+2x+5}\\,dx.\\]\nSo\n\\[\\boxed{\\frac12\\ln(x^2+2x+5)+C}.\\]\nThe quadratic is \\((x+1)^2+4>0\\).",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-4",
-      "prompt": "Integrate 1/(x^2-x) dx.",
-      "answer": "ln|x| - ln|x-1| + C",
-      "hints": ["Factor: 1/[x(x-1)], partial fractions."],
+      "id": "math-i-integration-rational-integrals-06",
+      "prompt": "Evaluate \\(\\int \\frac{3}{x^2+16}\\,dx\\).",
+      "answer": "Use \\(x^2+16=x^2+4^2\\):\n\\[\\int \\frac{3}{x^2+16}\\,dx=3\\cdot \\frac14\\arctan\\left(\\frac{x}{4}\\right)+C.\\]\nTherefore\n\\[\\boxed{\\frac34\\arctan\\left(\\frac{x}{4}\\right)+C}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-07",
+      "prompt": "Evaluate \\(\\int \\frac{1}{x^2-1}\\,dx\\).",
+      "answer": "Factor the denominator:\n\\[x^2-1=(x-1)(x+1).\\]\nDecompose:\n\\[\\frac1{x^2-1}=\\frac{A}{x-1}+\\frac{B}{x+1}.\\]\nCover-up gives \\(A=\\frac12\\), \\(B=-\\frac12\\).\nThus\n\\[\\boxed{\\frac12\\ln|x-1|-\\frac12\\ln|x+1|+C}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-5",
-      "prompt": "Integrate (2x+1)/(x^2+1) dx.",
-      "answer": "ln(x^2+1) + arctan x + C",
-      "hints": ["Split: 2x/(x^2+1) + 1/(x^2+1)."],
+      "id": "math-i-integration-rational-integrals-08",
+      "prompt": "Evaluate \\(\\int \\frac{x}{x^2-4}\\,dx\\).",
+      "answer": "Let \\(u=x^2-4\\). Then \\(du=2x\\,dx\\), so\n\\[\\int \\frac{x}{x^2-4}\\,dx=\\frac12\\int \\frac1u\\,du.\\]\nTherefore\n\\[\\boxed{\\frac12\\ln|x^2-4|+C}.\\]\nThe absolute value is needed because \\(x^2-4\\) can be negative.",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-6",
-      "prompt": "Integrate 1/(x^2-4) dx.",
-      "answer": "ln|x-2|/4 - ln|x+2|/4 + C",
-      "hints": ["Partial fractions: 1/[(x-2)(x+2)]."],
+      "id": "math-i-integration-rational-integrals-09",
+      "prompt": "Evaluate \\(\\int \\frac{x+3}{(x+1)(x+2)}\\,dx\\).",
+      "answer": "Write\n\\[\\frac{x+3}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}.\\]\nThen \\(x+3=A(x+2)+B(x+1)\\).\nSet \\(x=-1\\): \\(A=2\\). Set \\(x=-2\\): \\(B=-1\\).\nSo\n\\[\\boxed{2\\ln|x+1|-\\ln|x+2|+C}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-7",
-      "prompt": "Integrate (x^3)/(x^2+1) dx.",
-      "answer": "x^2/2 - ln(x^2+1)/2 + C",
-      "hints": ["Divide: x - x/(x^2+1)."],
+      "id": "math-i-integration-rational-integrals-10",
+      "prompt": "Evaluate \\(\\int \\frac{x^2+1}{x+1}\\,dx\\).",
+      "answer": "The rational function is improper, so divide first.\n\\[x^2+1=(x+1)(x-1)+2.\\]\nThus\n\\[\\frac{x^2+1}{x+1}=x-1+\\frac{2}{x+1}.\\]\nIntegrate:\n\\[\\boxed{\\frac{x^2}{2}-x+2\\ln|x+1|+C}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ri-8",
-      "prompt": "Integrate 1/(x(x+1)) dx.",
-      "answer": "ln|x| - ln|x+1| + C",
-      "hints": ["Partial fractions: 1/x - 1/(x+1)."],
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ri-9",
-      "prompt": "Integrate (x^2+2x+3)/(x+1) dx.",
-      "answer": "x^2/2 + x + 2 ln|x+1| + C",
-      "hints": ["Polynomial division: x+1 + 2/(x+1)."],
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ri-10",
-      "prompt": "Integrate x/[(x+1)^2] dx.",
-      "answer": "ln|x+1| + 1/(x+1) + C",
-      "hints": ["Let u=x+1 or partial fractions."],
+      "id": "math-i-integration-rational-integrals-11",
+      "prompt": "Evaluate \\(\\int \\frac{2x+3}{x^2+4x+8}\\,dx\\).",
+      "answer": "The denominator derivative is \\(2x+4\\). Split the numerator:\n\\[2x+3=(2x+4)-1.\\]\nSo\n\\[\\int \\frac{2x+3}{x^2+4x+8}\\,dx=\\int \\frac{2x+4}{x^2+4x+8}\\,dx-\\int \\frac{dx}{x^2+4x+8}.\\]\nComplete the square:\n\\[x^2+4x+8=(x+2)^2+4.\\]\nTherefore\n\\[\\boxed{\\ln(x^2+4x+8)-\\frac12\\arctan\\left(\\frac{x+2}{2}\\right)+C}.\\]",
       "rating": "***+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-12",
+      "prompt": "Evaluate \\(\\int \\frac{1}{x(x-3)}\\,dx\\), and state the domain restriction.",
+      "answer": "The integrand is defined for \\(x\\ne0\\) and \\(x\\ne3\\).\nDecompose:\n\\[\\frac1{x(x-3)}=\\frac{A}{x}+\\frac{B}{x-3}.\\]\nSet \\(x=0\\): \\(1=-3A\\), so \\(A=-\\frac13\\).\nSet \\(x=3\\): \\(1=3B\\), so \\(B=\\frac13\\).\nThus\n\\[\\boxed{-\\frac13\\ln|x|+\\frac13\\ln|x-3|+C,\\quad x\\ne0,3}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-13",
+      "prompt": "Evaluate \\(\\int \\frac{x^3+1}{x^2+1}\\,dx\\).",
+      "answer": "Divide first:\n\\[x^3+1=(x^2+1)x+(-x+1).\\]\nSo\n\\[\\frac{x^3+1}{x^2+1}=x+\\frac{-x+1}{x^2+1}.\\]\nIntegrate term by term:\n\\[\\int x\\,dx-\\int\\frac{x}{x^2+1}\\,dx+\\int\\frac{dx}{x^2+1}.\\]\nTherefore\n\\[\\boxed{\\frac{x^2}{2}-\\frac12\\ln(x^2+1)+\\arctan x+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-14",
+      "prompt": "Evaluate \\(\\int \\frac{x^2+2x+5}{(x+1)(x^2+4)}\\,dx\\).",
+      "answer": "Set\n\\[\\frac{x^2+2x+5}{(x+1)(x^2+4)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2+4}.\\]\nThen\n\\[x^2+2x+5=A(x^2+4)+(Bx+C)(x+1).\\]\nEquating coefficients gives\n\\[A+B=1,\\quad B+C=2,\\quad 4A+C=5.\\]\nSolving gives \\(A=1\\), \\(B=0\\), \\(C=2\\).\nSo\n\\[\\int\\left(\\frac1{x+1}+\\frac2{x^2+4}\\right)dx=\\boxed{\\ln|x+1|+\\arctan\\left(\\frac{x}{2}\\right)+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-15",
+      "prompt": "Find \\(k\\) so \\(\\int \\frac{kx+1}{x^2+1}\\,dx\\) contains no logarithm term, then evaluate it.",
+      "answer": "A logarithm term appears from the \\(kx\\) part because\n\\[\\int \\frac{x}{x^2+1}\\,dx=\\frac12\\ln(x^2+1).\\]\nTo have no logarithm term, require \\(k=0\\).\nThen the integral is\n\\[\\int \\frac1{x^2+1}\\,dx=\\boxed{\\arctan x+C}.\\]\nSo \\(\\boxed{k=0}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-16",
+      "prompt": "For which \\(a\\) does \\(\\int \\frac{x+a}{x^2+2x+5}\\,dx\\) split into a pure logarithm plus no arctangent term?",
+      "answer": "The denominator derivative is \\(2x+2\\). A pure logarithm occurs when the numerator is a constant multiple of \\(2x+2\\).\nWrite\n\\[x+a=\\frac12(2x+2)\\]\nfor the \\(x\\)-coefficient to match. This gives constant term \\(1\\), so \\(a=1\\).\nThen\n\\[\\int \\frac{x+1}{x^2+2x+5}\\,dx=\\frac12\\ln(x^2+2x+5)+C.\\]\nThus\n\\[\\boxed{a=1}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-17",
+      "prompt": "Find \\(a\\) so \\(\\frac{x+a}{(x-1)(x+2)}\\) has no \\(\\ln|x+2|\\) term after integration.",
+      "answer": "The \\(\\ln|x+2|\\) term comes from the coefficient \\(B\\) in\n\\[\\frac{x+a}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2}.\\]\nCover-up at \\(x=-2\\) gives\n\\[B=\\frac{-2+a}{-2-1}=\\frac{a-2}{-3}.\\]\nFor no \\(\\ln|x+2|\\) term, set \\(B=0\\):\n\\[a-2=0\\Rightarrow a=2.\\]\nSo \\(\\boxed{a=2}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-18",
+      "prompt": "A student integrates \\(\\frac{x}{x^2+9}\\) as \\(\\arctan(x/3)+C\\). Diagnose the error and give the correct antiderivative.",
+      "answer": "The arctangent formula applies to \\(\\int \\frac{dx}{x^2+9}\\), where the numerator is a constant. Here the numerator \\(x\\) is proportional to the derivative of \\(x^2+9\\).\nLet \\(u=x^2+9\\). Then \\(du=2x\\,dx\\), so\n\\[\\int \\frac{x}{x^2+9}\\,dx=\\frac12\\int\\frac1u\\,du=\\boxed{\\frac12\\ln(x^2+9)+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-19",
+      "prompt": "Explain why an improper rational integral must be divided before applying partial fractions.",
+      "answer": "Partial fractions are designed for proper rational functions, where the numerator degree is smaller than the denominator degree. If the fraction is improper, the polynomial part is hidden inside the rational expression.\nPolynomial division separates it:\n\\[\\frac{P(x)}{Q(x)}=S(x)+\\frac{R(x)}{Q(x)},\\qquad \\deg R<\\deg Q.\\]\nThen \\(S(x)\\) is integrated as a polynomial, and only the proper fraction \\(\\frac{R(x)}{Q(x)}\\) is decomposed. Without this step, the partial-fraction setup may be missing the polynomial part.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-rational-integrals-20",
+      "prompt": "Evaluate \\(\\int \\frac{x^4+x^2+1}{x^2-1}\\,dx\\), showing division and partial fractions.",
+      "answer": "Divide by \\(x^2-1\\):\n\\[x^4+x^2+1=(x^2-1)(x^2+2)+3.\\]\nSo\n\\[\\frac{x^4+x^2+1}{x^2-1}=x^2+2+\\frac3{x^2-1}.\\]\nFactor \\(x^2-1=(x-1)(x+1)\\), and decompose:\n\\[\\frac3{x^2-1}=\\frac{A}{x-1}+\\frac{B}{x+1}.\\]\nCover-up gives \\(A=\\frac32\\), \\(B=-\\frac32\\).\nIntegrate:\n\\[\\int\\left(x^2+2+\\frac{3}{2(x-1)}-\\frac{3}{2(x+1)}\\right)dx.\\]\nTherefore\n\\[\\boxed{\\frac{x^3}{3}+2x+\\frac32\\ln|x-1|-\\frac32\\ln|x+1|+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

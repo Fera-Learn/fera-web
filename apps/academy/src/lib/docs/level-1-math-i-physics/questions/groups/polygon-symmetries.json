@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "groups",
+  "topicId": "polygon-symmetries",
+  "topicTitle": "Polygon Symmetries",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-groups-polygon-symmetries-01",
+      "prompt": "How many symmetries does a regular \\(n\\)-gon have?",
+      "answer": "A regular \\(n\\)-gon has \\(2n\\) symmetries: \\(n\\) rotations and \\(n\\) reflections.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-02",
+      "prompt": "In \\(D_n\\), what does \\(r\\) usually denote?",
+      "answer": "The symbol \\(r\\) usually denotes rotation by \\(360^\\circ/n\\), the smallest positive rotational step that maps the regular \\(n\\)-gon to itself.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-03",
+      "prompt": "How many symmetries does a square have?",
+      "answer": "A square is a regular \\(4\\)-gon, so it has \\(2\\cdot4=8\\) symmetries. These are four rotations and four reflections.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-04",
+      "prompt": "For a regular pentagon, what is the angle of the basic rotation \\(r\\)?",
+      "answer": "The basic rotation is \\(360^\\circ/5=72^\\circ\\). Thus \\(r\\) is rotation by \\(72^\\circ\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-05",
+      "prompt": "List the rotational symmetries of a regular hexagon using powers of \\(r\\).",
+      "answer": "A regular hexagon has six rotations: \\(e,r,r^2,r^3,r^4,r^5\\). The next power is \\(r^6=e\\), a full turn.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-06",
+      "prompt": "For a regular triangle, list the elements of \\(D_3\\) using \\(r\\) and one reflection \\(s\\).",
+      "answer": "The rotations are \\(e,r,r^2\\). The reflections are \\(s,sr,sr^2\\). Therefore \\(D_3=\\{e,r,r^2,s,sr,sr^2\\}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-07",
+      "prompt": "In \\(D_4\\), simplify \\(r^6\\).",
+      "answer": "For a square, \\(r^4=e\\). Thus \\(r^6=r^4r^2=er^2=r^2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-08",
+      "prompt": "In products such as \\(sr\\), which transformation is applied first?",
+      "answer": "The rightmost transformation is applied first. Thus in \\(sr\\), apply \\(r\\) first and then apply \\(s\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-09",
+      "prompt": "Use \\(srs=r^{-1}\\) and \\(s^2=e\\) to show that \\(sr=r^{-1}s\\).",
+      "answer": "Start with \\(srs=r^{-1}\\). Multiply on the right by \\(s\\): \\(srss=r^{-1}s\\). Since \\(s^2=e\\), this becomes \\(sr=r^{-1}s\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-10",
+      "prompt": "In \\(D_5\\), simplify \\(sr^7\\).",
+      "answer": "Since \\(r^5=e\\), reduce the exponent modulo \\(5\\): \\(r^7=r^2\\). Therefore \\(sr^7=sr^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-11",
+      "prompt": "Explain why \\(D_4\\) is generally not commutative using \\(sr=r^{-1}s\\).",
+      "answer": "In \\(D_4\\), \\(r^{-1}=r^3\\), not \\(r\\). The relation gives \\(sr=r^3s\\). This differs from \\(rs\\) in general, so a reflection and rotation need not commute.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-12",
+      "prompt": "How many rotations and reflections are in \\(D_7\\), and what is the total order?",
+      "answer": "There are \\(7\\) rotations: \\(e,r,\\ldots,r^6\\). There are \\(7\\) reflections: \\(s,sr,\\ldots,sr^6\\). The total order is \\(7+7=14\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-13",
+      "prompt": "In \\(D_6\\), simplify \\((sr^2)^2\\).",
+      "answer": "Compute \\((sr^2)(sr^2)=sr^2sr^2\\). Using \\(r^k s=s r^{-k}\\), we get \\(r^2s=sr^{-2}\\). Then \\(sr^2sr^2=s(sr^{-2})r^2=s^2r^0=e\\). Thus \\((sr^2)^2=e\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-14",
+      "prompt": "For a square, distinguish the four rotations from the four reflections in \\(D_4\\).",
+      "answer": "The rotations are \\(e,r,r^2,r^3\\), corresponding to \\(0^\\circ,90^\\circ,180^\\circ,270^\\circ\\). The reflections are \\(s,sr,sr^2,sr^3\\). They flip the square across different symmetry axes rather than rotating it.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-15",
+      "prompt": "In \\(D_n\\), show that every element can be written as either \\(r^k\\) or \\(sr^k\\).",
+      "answer": "The \\(n\\) rotations are \\(r^0,r^1,\\ldots,r^{n-1}\\). Choose one reflection \\(s\\). Composing \\(s\\) with each rotation gives \\(s,sr,\\ldots,sr^{n-1}\\), the \\(n\\) reflections. Since a regular \\(n\\)-gon has exactly \\(2n\\) symmetries, these forms account for all elements.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-16",
+      "prompt": "For which \\(n\\) does the relation \\(sr=rs\\) hold in \\(D_n\\)?",
+      "answer": "Using \\(sr=r^{-1}s\\), equality \\(sr=rs\\) would require \\(r^{-1}s=rs\\). Multiplying on the right by \\(s\\) gives \\(r^{-1}=r\\), so \\(r^2=e\\). Since \\(r\\) has order \\(n\\), this holds for \\(n=1\\) or \\(n=2\\) in the formal dihedral family. For ordinary polygons with \\(n\\ge3\\), it does not hold.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-17",
+      "prompt": "A regular polygon has \\(18\\) symmetries. How many sides does it have, and how many reflections?",
+      "answer": "For a regular \\(n\\)-gon, \\(|D_n|=2n\\). If \\(2n=18\\), then \\(n=9\\). It has \\(9\\) sides and \\(9\\) reflection symmetries.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-18",
+      "prompt": "A student says all symmetries of a polygon are rotations because the shape ends up occupying the same region. Diagnose the error.",
+      "answer": "Reflections also leave a regular polygon occupying the same region, but they reverse orientation rather than rotate through an angle about the centre. The symmetry group \\(D_n\\) includes all structure-preserving motions, so it contains both rotations and reflections.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-19",
+      "prompt": "Prove from \\(srs=r^{-1}\\) that \\(sr^k=r^{-k}s\\) for positive integers \\(k\\).",
+      "answer": "The relation gives \\(sr=r^{-1}s\\). For \\(k=2\\), \\(sr^2=(sr)r=r^{-1}sr=r^{-1}(sr)=r^{-1}r^{-1}s=r^{-2}s\\). Repeating the same step moves \\(s\\) past one \\(r\\) at a time, adding one negative power each time, so \\(sr^k=r^{-k}s\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-groups-polygon-symmetries-20",
+      "prompt": "Explain why polygon symmetries form a group under composition.",
+      "answer": "The composition of two symmetries still preserves the polygon, so closure holds. Composition of transformations is associative. The identity motion \\(e\\) preserves the polygon. Every symmetry is reversible: rotations are undone by opposite rotations, and reflections undo themselves. Therefore the polygon symmetries form a group.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-equations",
+  "topicId": "roots-of-unity",
+  "topicTitle": "Roots of Unity",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-equations-roots-of-unity-01",
+      "prompt": "What is always one solution of \\(z^n=1\\) for positive integer \\(n\\)?",
+      "answer": "\\(z=1\\) is always a solution because \\(1^n=1\\) for every positive integer \\(n\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-02",
+      "prompt": "How many distinct complex roots does \\(z^7=1\\) have?",
+      "answer": "The equation \\(z^n=1\\) has exactly \\(n\\) distinct complex roots. Therefore \\(z^7=1\\) has \\(7\\) distinct roots.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-03",
+      "prompt": "List the square roots of unity.",
+      "answer": "Solve \\(z^2=1\\). Factoring gives \\((z-1)(z+1)=0\\), so the roots are \\(1\\) and \\(-1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-04",
+      "prompt": "Write the fourth roots of unity in rectangular form.",
+      "answer": "The roots are \\(e^{2\\pi ik/4}\\) for \\(k=0,1,2,3\\). They are \\(1\\), \\(i\\), \\(-1\\), and \\(-i\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-05",
+      "prompt": "Write the cube roots of unity in exponential form.",
+      "answer": "Use \\(z_k=e^{2\\pi ik/3}\\) for \\(k=0,1,2\\). The roots are \\(1\\), \\(e^{2\\pi i/3}\\), and \\(e^{4\\pi i/3}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-06",
+      "prompt": "Find the argument spacing between adjacent sixth roots of unity.",
+      "answer": "Adjacent \\(n\\)-th roots of unity are separated by \\(2\\pi/n\\). For \\(n=6\\), the spacing is \\(2\\pi/6=\\pi/3\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-07",
+      "prompt": "List the sixth roots of unity in exponential form.",
+      "answer": "Use \\(z_k=e^{2\\pi ik/6}=e^{\\pi ik/3}\\) for \\(k=0,1,2,3,4,5\\). The roots are \\(1,e^{\\pi i/3},e^{2\\pi i/3},e^{\\pi i},e^{4\\pi i/3},e^{5\\pi i/3}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-08",
+      "prompt": "Show that \\(e^{4\\pi i/5}\\) is a fifth root of unity.",
+      "answer": "Raise it to the fifth power: \\((e^{4\\pi i/5})^5=e^{4\\pi i}\\). Since \\(4\\pi\\) is an integer multiple of \\(2\\pi\\), \\(e^{4\\pi i}=1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-09",
+      "prompt": "Write the fifth roots of unity using \\(k=0,1,2,3,4\\).",
+      "answer": "The formula gives \\(z_k=e^{2\\pi ik/5}\\). Thus the roots are \\(1,e^{2\\pi i/5},e^{4\\pi i/5},e^{6\\pi i/5},e^{8\\pi i/5}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-10",
+      "prompt": "Convert the primitive cube roots of unity to rectangular form.",
+      "answer": "The non-real cube roots are \\(e^{2\\pi i/3}\\) and \\(e^{4\\pi i/3}\\). Using cosine and sine, they are \\(-1/2+\\sqrt3 i/2\\) and \\(-1/2-\\sqrt3 i/2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-11",
+      "prompt": "Verify that the four fourth roots of unity all have modulus \\(1\\).",
+      "answer": "The roots are \\(1,i,-1,-i\\). Their moduli are \\(|1|=1\\), \\(|i|=1\\), \\(|-1|=1\\), and \\(|-i|=1\\), so all lie on the unit circle.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-12",
+      "prompt": "Explain why using \\(k=0,1,\\ldots,n-1\\) gives all independent roots of \\(z^n=1\\).",
+      "answer": "The formula is \\(z_k=e^{2\\pi ik/n}\\). Replacing \\(k\\) by \\(k+n\\) gives \\(e^{2\\pi i(k+n)/n}=e^{2\\pi ik/n}e^{2\\pi i}=e^{2\\pi ik/n}\\), so values repeat after \\(n\\) steps.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-13",
+      "prompt": "Find the product of all fourth roots of unity.",
+      "answer": "The fourth roots are \\(1,i,-1,-i\\). Their product is \\(1\\cdot i\\cdot(-1)\\cdot(-i)=i\\cdot i=i^2=-1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-14",
+      "prompt": "Find the sum of all cube roots of unity.",
+      "answer": "The cube roots are roots of \\(z^3-1=0\\). Since \\(z^3-1=(z-1)(z^2+z+1)\\), the sum of all three roots is the negative coefficient of \\(z^2\\), which is \\(0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-15",
+      "prompt": "Which sixth roots of unity are also cube roots of unity?",
+      "answer": "Sixth roots have arguments \\(2\\pi k/6\\). Cube roots have arguments \\(2\\pi m/3=4\\pi m/6\\), so they correspond to even \\(k\\): \\(k=0,2,4\\). The common roots are \\(1,e^{2\\pi i/3},e^{4\\pi i/3}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-16",
+      "prompt": "For which integers \\(k\\) with \\(0\\le k\\le7\\) is \\(e^{2\\pi ik/8}\\) a primitive eighth root of unity?",
+      "answer": "A primitive eighth root requires \\(\\gcd(k,8)=1\\). Among \\(0,1,\\ldots,7\\), this gives \\(k=1,3,5,7\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-17",
+      "prompt": "Find all fourth roots of unity that satisfy \\(\\operatorname{Im}(z)\\ge0\\).",
+      "answer": "The fourth roots are \\(1,i,-1,-i\\). Their imaginary parts are \\(0,1,0,-1\\), so the roots with non-negative imaginary part are \\(1\\), \\(i\\), and \\(-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-18",
+      "prompt": "A learner lists \\(e^{2\\pi ik/5}\\) for every integer \\(k\\) as infinitely many fifth roots of unity. Explain the mistake.",
+      "answer": "The list has infinitely many parameter values but only five distinct complex numbers. Since \\(e^{2\\pi i(k+5)/5}=e^{2\\pi ik/5}e^{2\\pi i}=e^{2\\pi ik/5}\\), the roots repeat every five values of \\(k\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-19",
+      "prompt": "Prove that every \\(n\\)-th root of unity has modulus \\(1\\).",
+      "answer": "If \\(z^n=1\\), take moduli to get \\(|z|^n=|1|=1\\). Since \\(|z|\\ge0\\), the only non-negative solution of \\(r^n=1\\) is \\(r=1\\). Therefore \\(|z|=1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-roots-of-unity-20",
+      "prompt": "Show that the product of two \\(n\\)-th roots of unity is again an \\(n\\)-th root of unity.",
+      "answer": "Let \\(u^n=1\\) and \\(v^n=1\\). Then \\((uv)^n=u^nv^n=1\\cdot1=1\\), using commutativity of complex multiplication. Hence \\(uv\\) is also an \\(n\\)-th root of unity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

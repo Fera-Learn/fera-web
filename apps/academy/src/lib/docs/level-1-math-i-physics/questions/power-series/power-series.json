@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "power-series",
+  "topicId": "power-series",
+  "topicTitle": "Power Series",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-power-series-power-series-01",
+      "prompt": "In the power series \\(\\sum_{n=0}^{\\infty} a_n(x-3)^n\\), identify the centre.",
+      "answer": "Compare \\(x-3\\) with the standard shifted factor \\(x-c\\). This gives \\(c=3\\), so the centre of the power series is \\(x=3\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-02",
+      "prompt": "What does \\(a_n\\) represent in \\(\\sum_{n=0}^{\\infty} a_n(x-c)^n\\)?",
+      "answer": "The value \\(a_n\\) is the coefficient multiplying the \\(n\\)th power \\((x-c)^n\\). It controls the size and sign of the term \\(a_n(x-c)^n\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-03",
+      "prompt": "Identify \\(c\\), \\(a_0\\), \\(a_1\\), and \\(a_2\\) in \\(5-2(x+1)+4(x+1)^2\\).",
+      "answer": "Since \\(x+1=x-(-1)\\), the centre is \\(c=-1\\). Matching powers gives \\(a_0=5\\), \\(a_1=-2\\), and \\(a_2=4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-04",
+      "prompt": "For \\(\\sum_{n=0}^{\\infty}(x-2)^n\\), write the numerical series obtained when \\(x=3\\).",
+      "answer": "Substitute \\(x=3\\). Then \\(x-2=1\\), so the series becomes \\(\\sum_{n=0}^{\\infty}1^n=1+1+1+\\cdots\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-05",
+      "prompt": "Write the first four terms of \\(\\sum_{n=0}^{\\infty}(n+2)x^n\\).",
+      "answer": "Use \\(n=0,1,2,3\\). The terms are \\(2\\), \\(3x\\), \\(4x^2\\), and \\(5x^3\\), so the first four terms are \\(2+3x+4x^2+5x^3\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-06",
+      "prompt": "Find \\(S_2(x)\\) for \\(\\sum_{n=0}^{\\infty}\\frac{(x-1)^n}{3^n}\\).",
+      "answer": "The partial sum \\(S_2(x)\\) keeps the terms \\(n=0,1,2\\). Therefore \\(S_2(x)=1+\\frac{x-1}{3}+\\frac{(x-1)^2}{9}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-07",
+      "prompt": "Decide whether \\(\\sum_{n=0}^{\\infty}(x-4)^n\\) converges at \\(x=\\frac{9}{2}\\).",
+      "answer": "At \\(x=\\frac{9}{2}\\), \\(x-4=\\frac{1}{2}\\). The series is geometric with ratio \\(\\frac{1}{2}\\), and \\(\\left|\\frac{1}{2}\\right|<1\\), so it converges.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-08",
+      "prompt": "Rewrite \\(\\sum_{n=0}^{\\infty}4^n(x+2)^n\\) as a geometric series in one ratio and state the convergence condition.",
+      "answer": "Combine the powers: \\(4^n(x+2)^n=[4(x+2)]^n\\). The ratio is \\(4(x+2)\\), so the geometric series converges when \\(|4(x+2)|<1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-09",
+      "prompt": "Find the open interval where \\(\\sum_{n=0}^{\\infty}\\left(\\frac{x-1}{5}\\right)^n\\) converges.",
+      "answer": "The ratio is \\(\\frac{x-1}{5}\\). Require \\(\\left|\\frac{x-1}{5}\\right|<1\\). This gives \\(|x-1|<5\\), so \\(-4<x<6\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-10",
+      "prompt": "A power series converges for \\(|x+3|<2\\). State its centre, radius, and open interval.",
+      "answer": "Since \\(|x+3|=|x-(-3)|\\), the centre is \\(c=-3\\). The radius is \\(R=2\\). Solving \\(|x+3|<2\\) gives \\(-5<x<-1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-11",
+      "prompt": "Explain why fixing \\(x\\) turns a power series into an ordinary numerical series. Use \\(\\sum_{n=1}^{\\infty}\\frac{(x-1)^n}{n}\\) at \\(x=0\\).",
+      "answer": "Once \\(x\\) is fixed, \\(x-c\\) is just a number. At \\(x=0\\), \\(x-1=-1\\), so the series becomes \\(\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n}\\), a numerical series depending only on \\(n\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-12",
+      "prompt": "Correct this statement: A power series is an infinite polynomial, so it works for every \\(x\\).",
+      "answer": "A power series only defines a function where it converges. For example, \\(\\sum_{n=0}^{\\infty}x^n\\) is geometric and converges only for \\(|x|<1\\). Outside that set it does not give a finite value.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-13",
+      "prompt": "Find the convergence set of \\(\\sum_{n=0}^{\\infty}(2x-6)^n\\), including endpoints.",
+      "answer": "The ratio is \\(2x-6=2(x-3)\\). Convergence inside the interval requires \\(|2x-6|<1\\), so \\(|x-3|<\\frac{1}{2}\\) and \\(\\frac{5}{2}<x<\\frac{7}{2}\\). At \\(x=\\frac{5}{2}\\), the ratio is \\(-1\\); at \\(x=\\frac{7}{2}\\), the ratio is \\(1\\). In both cases the terms do not tend to \\(0\\), so the convergence set is \\(\\left(\\frac{5}{2},\\frac{7}{2}\\right)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-14",
+      "prompt": "For \\(S(x)=\\sum_{n=0}^{\\infty}(x+1)^n\\), find \\(S(x)\\) where it converges.",
+      "answer": "This is geometric with ratio \\(r=x+1\\). It converges when \\(|x+1|<1\\), which means \\(-2<x<0\\). Inside that interval, \\(S(x)=\\frac{1}{1-r}=\\frac{1}{1-(x+1)}=-\\frac{1}{x}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-15",
+      "prompt": "A model uses \\(1+u+u^2+\\cdots\\). Explain exactly when this converges and why \"small\" is not precise enough.",
+      "answer": "The series is geometric with ratio \\(u\\), so it converges exactly when \\(|u|<1\\). Saying \\(u\\) is \"small\" is qualitative; convergence needs the quantitative ratio condition \\(|u|<1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-16",
+      "prompt": "Construct a geometric power series centred at \\(4\\) with radius \\(3\\).",
+      "answer": "Use ratio \\(\\frac{x-4}{3}\\). Then \\(\\sum_{n=0}^{\\infty}\\left(\\frac{x-4}{3}\\right)^n\\) is centred at \\(4\\) and converges when \\(\\left|\\frac{x-4}{3}\\right|<1\\), which is \\(|x-4|<3\\). Therefore its radius is \\(3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-17",
+      "prompt": "Compare the open convergence intervals of \\(\\sum_{n=0}^{\\infty}x^n\\) and \\(\\sum_{n=0}^{\\infty}(3x)^n\\).",
+      "answer": "For \\(\\sum_{n=0}^{\\infty}x^n\\), convergence requires \\(|x|<1\\), giving \\((-1,1)\\). For \\(\\sum_{n=0}^{\\infty}(3x)^n\\), convergence requires \\(|3x|<1\\), giving \\(\\left(-\\frac{1}{3},\\frac{1}{3}\\right)\\). The factor \\(3\\) shrinks the radius by a factor of \\(3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-18",
+      "prompt": "Diagnose the error: a student says the centre of \\(\\sum_{n=0}^{\\infty}(x+7)^n\\) is \\(7\\).",
+      "answer": "The standard shifted form is \\(x-c\\). Since \\(x+7=x-(-7)\\), the centre is \\(c=-7\\). The student reversed the sign of the shift.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-19",
+      "prompt": "Why do endpoints require separate tests after finding \\(|x-c|<R\\)?",
+      "answer": "The radius condition guarantees convergence only inside the strict inequality \\(|x-c|<R\\). At an endpoint, \\(|x-c|=R\\), and the ratio test usually gives the inconclusive value \\(1\\). Each endpoint must be substituted into the original series and tested separately.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-power-series-power-series-20",
+      "prompt": "Explain how a power series is both a function definition and a convergence problem.",
+      "answer": "For each fixed \\(x\\), the power series \\(\\sum_{n=0}^{\\infty}a_n(x-c)^n\\) becomes a numerical series. If that numerical series converges, its sum defines the function value \\(S(x)\\). If it diverges, the formula does not define a value there. Thus convergence determines the domain.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

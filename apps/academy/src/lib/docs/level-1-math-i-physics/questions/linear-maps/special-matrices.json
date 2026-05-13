@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "special-matrices",
+  "topicTitle": "Special Matrices",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-linear-maps-special-matrices-01",
+      "prompt": "What does the identity matrix do to a vector \\(\\mathbf v\\)?",
+      "answer": "The identity matrix leaves every vector unchanged:\n\\[\nI\\mathbf v=\\mathbf v.\n\\]\nIt represents the linear map that makes no geometric change.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-02",
+      "prompt": "State the defining condition for a symmetric matrix.",
+      "answer": "A square matrix is symmetric when it equals its transpose:\n\\[\nA^T=A.\n\\]\nThis means entries mirror across the main diagonal.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-03",
+      "prompt": "Compute \\(D(3,-2)\\) for \\(D=\\begin{pmatrix}4&0\\\\0&-1\\end{pmatrix}\\).",
+      "answer": "A diagonal matrix scales coordinates separately:\n\\[\nD(3,-2)=(4\\cdot3,(-1)(-2))=(12,2).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-04",
+      "prompt": "Is \\(A=\\begin{pmatrix}1&5\\\\5&2\\end{pmatrix}\\) symmetric?",
+      "answer": "Yes. The off-diagonal entries match: the \\((1,2)\\) entry is \\(5\\) and the \\((2,1)\\) entry is also \\(5\\). Therefore \\(A^T=A\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-05",
+      "prompt": "Show that \\(P=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\) is a projection matrix.",
+      "answer": "Compute its square:\n\\[\nP^2=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}=P.\n\\]\nSince \\(P^2=P\\), applying it twice has the same effect as applying it once, so it is a projection.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-06",
+      "prompt": "Find the transpose of \\(A=\\begin{pmatrix}1&2&3\\\\4&5&6\\end{pmatrix}\\).",
+      "answer": "Rows become columns:\n\\[\nA^T=\\begin{pmatrix}1&4\\\\2&5\\\\3&6\\end{pmatrix}.\n\\]\nThe original was \\(2\\times3\\), so the transpose is \\(3\\times2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-07",
+      "prompt": "What geometric action does \\(R=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\) perform on \\((x,y)\\)?",
+      "answer": "Multiply:\n\\[\nR(x,y)=(-y,x).\n\\]\nThis sends \\((1,0)\\) to \\((0,1)\\) and \\((0,1)\\) to \\((-1,0)\\), so it is a rotation by \\(90^\\circ\\) anticlockwise.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-08",
+      "prompt": "Check whether \\(Q=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\) is orthogonal.",
+      "answer": "Since \\(Q^T=Q\\), compute\n\\[\nQ^TQ=Q^2=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}=I.\n\\]\nTherefore \\(Q\\) is orthogonal.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-09",
+      "prompt": "For \\(D=\\operatorname{diag}(2,-3,5)\\), compute \\(D(x,y,z)\\) and describe the action.",
+      "answer": "The diagonal entries scale the matching coordinates:\n\\[\nD(x,y,z)=(2x,-3y,5z).\n\\]\nSo the \\(x\\)-direction is stretched by \\(2\\), the \\(y\\)-direction is reversed and stretched by \\(3\\), and the \\(z\\)-direction is stretched by \\(5\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-10",
+      "prompt": "Show that the zero matrix sends every vector to zero.",
+      "answer": "Let \\(0_{m\\times n}\\) be the zero matrix. Multiplying by \\(\\mathbf v=(v_1,\\ldots,v_n)\\) gives each output component as a sum of zeros:\n\\[\n0v_1+0v_2+\\cdots+0v_n=0.\n\\]\nThus \\(0_{m\\times n}\\mathbf v=\\mathbf0\\) for every input vector.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-11",
+      "prompt": "Verify that an orthogonal matrix preserves lengths, using \\(Q^TQ=I\\).",
+      "answer": "The squared length of \\(Q\\mathbf v\\) is\n\\[\n(Q\\mathbf v)\\cdot(Q\\mathbf v)=(Q\\mathbf v)^T(Q\\mathbf v)=\\mathbf v^TQ^TQ\\mathbf v.\n\\]\nSince \\(Q^TQ=I\\), this becomes\n\\[\n\\mathbf v^TI\\mathbf v=\\mathbf v^T\\mathbf v=\\lVert\\mathbf v\\rVert^2.\n\\]\nSo lengths are preserved.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-12",
+      "prompt": "Explain why \\(P^2=P\\) means a projection does not change after being applied once.",
+      "answer": "If \\(P\\) is applied to \\(\\mathbf v\\), the result is \\(P\\mathbf v\\). Applying \\(P\\) again gives\n\\[\nP(P\\mathbf v)=P^2\\mathbf v.\n\\]\nIf \\(P^2=P\\), then this equals \\(P\\mathbf v\\). Thus the second application makes no further change.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-13",
+      "prompt": "For which \\(a\\) is \\(A=\\begin{pmatrix}2&a\\\\3&2\\end{pmatrix}\\) symmetric?",
+      "answer": "For symmetry, the off-diagonal entries must match. Thus the \\((1,2)\\) entry \\(a\\) must equal the \\((2,1)\\) entry \\(3\\). Therefore\n\\[\na=3.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-14",
+      "prompt": "Find all \\(k\\) such that \\(P=\\begin{pmatrix}1&0\\\\0&k\\end{pmatrix}\\) is a projection.",
+      "answer": "A projection satisfies \\(P^2=P\\). Compute\n\\[\nP^2=\\begin{pmatrix}1&0\\\\0&k^2\\end{pmatrix}.\n\\]\nEquating with \\(P\\) gives \\(k^2=k\\). Hence\n\\[\nk(k-1)=0,\n\\]\nso \\(k=0\\) or \\(k=1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-15",
+      "prompt": "For which \\(c\\) is \\(Q=\\begin{pmatrix}c&0\\\\0&c\\end{pmatrix}\\) orthogonal?",
+      "answer": "Orthogonality requires \\(Q^TQ=I\\). Since \\(Q=cI\\),\n\\[\nQ^TQ=(cI)^T(cI)=c^2I.\n\\]\nSet \\(c^2I=I\\), so \\(c^2=1\\). Therefore\n\\[\nc=1\\quad\\text{or}\\quad c=-1.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-16",
+      "prompt": "Classify \\(A=\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}\\) as symmetric, diagonal, orthogonal, or projection where applicable.",
+      "answer": "It is not diagonal because it has non-zero off-diagonal entries. It is not symmetric because \\(A^T=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\ne A\\). Check orthogonal:\n\\[\nA^TA=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}\\begin{pmatrix}0&1\\\\-1&0\\end{pmatrix}=I.\n\\]\nSo it is orthogonal. Also \\(A^2=-I\\), so it is not a projection.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-17",
+      "prompt": "A diagonal matrix \\(D\\) satisfies \\(D(1,0)=(3,0)\\) and \\(D(0,1)=(0,-2)\\). Find \\(D\\) and \\(D(4,5)\\).",
+      "answer": "The basis outputs give the diagonal entries, so\n\\[\nD=\\begin{pmatrix}3&0\\\\0&-2\\end{pmatrix}.\n\\]\nThen\n\\[\nD(4,5)=(12,-10).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-18",
+      "prompt": "A student says every matrix with many zeros is diagonal. Give a counterexample and explain.",
+      "answer": "A diagonal matrix can have non-zero entries only on the main diagonal. The matrix\n\\[\nA=\\begin{pmatrix}0&5\\\\0&0\\end{pmatrix}\n\\]\nhas three zeros, but the non-zero entry \\(5\\) is off the main diagonal. Therefore \\(A\\) is sparse but not diagonal.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-19",
+      "prompt": "Prove that the product of two diagonal \\(2\\times2\\) matrices is diagonal.",
+      "answer": "Let\n\\[\nD_1=\\begin{pmatrix}a&0\\\\0&b\\end{pmatrix},\\qquad D_2=\\begin{pmatrix}c&0\\\\0&d\\end{pmatrix}.\n\\]\nThen\n\\[\nD_1D_2=\\begin{pmatrix}ac&0\\\\0&bd\\end{pmatrix}.\n\\]\nThe off-diagonal entries are still zero, so the product is diagonal.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-linear-maps-special-matrices-20",
+      "prompt": "Explain why the determinant test for invertibility cannot be applied to a \\(2\\times3\\) zero matrix.",
+      "answer": "The determinant is defined only for square matrices. A \\(2\\times3\\) matrix maps \\(\\mathbb R^3\\) to \\(\\mathbb R^2\\), so input and output dimensions differ. Since it is not square, \\(\\det A\\) is not defined, and determinant-based invertibility tests do not apply.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

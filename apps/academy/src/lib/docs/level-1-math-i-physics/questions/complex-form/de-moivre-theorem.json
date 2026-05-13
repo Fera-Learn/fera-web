@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "de-moivre-theorem",
+  "topicTitle": "De Moivre Theorem",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-01",
+      "prompt": "State De Moivre's theorem for a positive integer \\(n\\).",
+      "answer": "For a real angle \\(\\theta\\) and positive integer \\(n\\), De Moivre's theorem says\n\\[\n(\\cos\\theta+i\\sin\\theta)^n=\\cos(n\\theta)+i\\sin(n\\theta).\n\\]\nIn cis notation, this is\n\\[\n(\\operatorname{cis}\\theta)^n=\\operatorname{cis}(n\\theta).\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-02",
+      "prompt": "Complete the formula: if \\(z=r\\operatorname{cis}\\theta\\), then \\(z^n=\\ ?\\).",
+      "answer": "Apply powers to the modulus and the argument:\n\\[\n(r\\operatorname{cis}\\theta)^n=r^n\\operatorname{cis}(n\\theta).\n\\]\nSo\n\\[\nz^n=r^n(\\cos(n\\theta)+i\\sin(n\\theta)).\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-03",
+      "prompt": "Use De Moivre's theorem to simplify \\((\\operatorname{cis}(\\pi/5))^3\\).",
+      "answer": "De Moivre's theorem gives\n\\[\n(\\operatorname{cis}\\theta)^n=\\operatorname{cis}(n\\theta).\n\\]\nWith \\(\\theta=\\pi/5\\) and \\(n=3\\),\n\\[\n(\\operatorname{cis}(\\pi/5))^3=\\operatorname{cis}\\left(\\frac{3\\pi}{5}\\right).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-04",
+      "prompt": "Find \\((2\\operatorname{cis}(\\pi/6))^2\\) in polar form.",
+      "answer": "Use\n\\[\n(r\\operatorname{cis}\\theta)^n=r^n\\operatorname{cis}(n\\theta).\n\\]\nHere \\(r=2\\), \\(\\theta=\\pi/6\\), and \\(n=2\\).\nThus\n\\[\n(2\\operatorname{cis}(\\pi/6))^2=4\\operatorname{cis}\\left(\\frac{\\pi}{3}\\right).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-05",
+      "prompt": "Use De Moivre's theorem to find \\((1+i)^4\\).",
+      "answer": "First write \\(1+i\\) in polar form:\n\\[\n1+i=\\sqrt2\\operatorname{cis}\\frac{\\pi}{4}.\n\\]\nThen\n\\[\n(1+i)^4=(\\sqrt2)^4\\operatorname{cis}\\left(4\\cdot\\frac{\\pi}{4}\\right)=4\\operatorname{cis}\\pi.\n\\]\nSince \\(\\operatorname{cis}\\pi=-1\\),\n\\[\n(1+i)^4=-4.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-06",
+      "prompt": "Use De Moivre's theorem to find \\((\\sqrt3+i)^3\\).",
+      "answer": "Write the number in polar form:\n\\[\n\\sqrt3+i=2\\operatorname{cis}\\frac{\\pi}{6}.\n\\]\nThen\n\\[\n(\\sqrt3+i)^3=2^3\\operatorname{cis}\\left(3\\cdot\\frac{\\pi}{6}\\right)=8\\operatorname{cis}\\frac{\\pi}{2}.\n\\]\nSince \\(\\operatorname{cis}(\\pi/2)=i\\),\n\\[\n(\\sqrt3+i)^3=8i.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-07",
+      "prompt": "Find \\((-1+i)^6\\) using polar form.",
+      "answer": "First\n\\[\n-1+i=\\sqrt2\\operatorname{cis}\\frac{3\\pi}{4}.\n\\]\nApply De Moivre:\n\\[\n(-1+i)^6=(\\sqrt2)^6\\operatorname{cis}\\left(6\\cdot\\frac{3\\pi}{4}\\right)=8\\operatorname{cis}\\frac{18\\pi}{4}.\n\\]\nSimplify the angle:\n\\[\n\\frac{18\\pi}{4}=\\frac{9\\pi}{2}=4\\pi+\\frac{\\pi}{2}.\n\\]\nSo\n\\[\n(-1+i)^6=8i.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-08",
+      "prompt": "Find \\((2-2i)^3\\) using De Moivre's theorem.",
+      "answer": "Write \\(2-2i\\) in polar form:\n\\[\n2-2i=2\\sqrt2\\operatorname{cis}\\left(-\\frac{\\pi}{4}\\right).\n\\]\nThen\n\\[\n(2-2i)^3=(2\\sqrt2)^3\\operatorname{cis}\\left(-\\frac{3\\pi}{4}\\right).\n\\]\nNow \\((2\\sqrt2)^3=16\\sqrt2\\), and\n\\[\n\\operatorname{cis}\\left(-\\frac{3\\pi}{4}\\right)=-\\frac{\\sqrt2}{2}-i\\frac{\\sqrt2}{2}.\n\\]\nTherefore\n\\[\n(2-2i)^3=-16-16i.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-09",
+      "prompt": "Find all square roots of \\(4\\operatorname{cis}(\\pi/3)\\).",
+      "answer": "For square roots, use\n\\[\nz_k=4^{1/2}\\operatorname{cis}\\left(\\frac{\\pi/3+2k\\pi}{2}\\right),\\quad k=0,1.\n\\]\nThe modulus is \\(2\\).\nFor \\(k=0\\):\n\\[\nz_0=2\\operatorname{cis}\\frac{\\pi}{6}.\n\\]\nFor \\(k=1\\):\n\\[\nz_1=2\\operatorname{cis}\\left(\\frac{\\pi/3+2\\pi}{2}\\right)=2\\operatorname{cis}\\frac{7\\pi}{6}.\n\\]\nThese are the two square roots.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-10",
+      "prompt": "Find the cube roots of \\(8\\).",
+      "answer": "Write \\(8=8\\operatorname{cis}0\\).\nThe cube roots are\n\\[\nz_k=8^{1/3}\\operatorname{cis}\\left(\\frac{0+2k\\pi}{3}\\right),\\quad k=0,1,2.\n\\]\nSince \\(8^{1/3}=2\\),\n\\[\nz_0=2,\\quad z_1=2\\operatorname{cis}\\frac{2\\pi}{3},\\quad z_2=2\\operatorname{cis}\\frac{4\\pi}{3}.\n\\]\nIn Cartesian form, these are\n\\[\n2,\\quad -1+\\sqrt3 i,\\quad -1-\\sqrt3 i.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-11",
+      "prompt": "Explain why the \\(n\\)-th roots of a non-zero complex number are evenly spaced around a circle.",
+      "answer": "If \\(z=r\\operatorname{cis}\\theta\\), its \\(n\\)-th roots are\n\\[\nw_k=r^{1/n}\\operatorname{cis}\\left(\\frac{\\theta+2k\\pi}{n}\\right),\\quad k=0,1,\\ldots,n-1.\n\\]\nAll roots have the same modulus \\(r^{1/n}\\), so they lie on one circle centered at the origin.\nSuccessive arguments differ by\n\\[\n\\frac{\\theta+2(k+1)\\pi}{n}-\\frac{\\theta+2k\\pi}{n}=\\frac{2\\pi}{n}.\n\\]\nThus the roots are evenly spaced.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-12",
+      "prompt": "A student finds only one cube root of \\(-8\\), namely \\(-2\\). Explain the missing roots.",
+      "answer": "The number \\(-8\\) is\n\\[\n8\\operatorname{cis}\\pi.\n\\]\nThe cube roots are\n\\[\n2\\operatorname{cis}\\left(\\frac{\\pi+2k\\pi}{3}\\right),\\quad k=0,1,2.\n\\]\nThese are\n\\[\n2\\operatorname{cis}\\frac{\\pi}{3},\\quad 2\\operatorname{cis}\\pi,\\quad 2\\operatorname{cis}\\frac{5\\pi}{3}.\n\\]\nThe root \\(-2\\) is the middle one. The other two roots are non-real because complex roots include all directions produced by adding \\(2k\\pi\\) before dividing by \\(3\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-13",
+      "prompt": "Use De Moivre's theorem to express \\(\\cos 3\\theta\\) in terms of \\(\\cos\\theta\\).",
+      "answer": "De Moivre gives\n\\[\n(\\cos\\theta+i\\sin\\theta)^3=\\cos3\\theta+i\\sin3\\theta.\n\\]\nExpand the left side:\n\\[\n\\cos^3\\theta+3i\\cos^2\\theta\\sin\\theta-3\\cos\\theta\\sin^2\\theta-i\\sin^3\\theta.\n\\]\nThe real part is\n\\[\n\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta.\n\\]\nUse \\(\\sin^2\\theta=1-\\cos^2\\theta\\):\n\\[\n\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta(1-\\cos^2\\theta)=4\\cos^3\\theta-3\\cos\\theta.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-14",
+      "prompt": "Use De Moivre's theorem to express \\(\\sin 3\\theta\\) in terms of \\(\\sin\\theta\\).",
+      "answer": "From\n\\[\n(\\cos\\theta+i\\sin\\theta)^3=\\cos3\\theta+i\\sin3\\theta,\n\\]\nthe imaginary part of the expansion is\n\\[\n3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta.\n\\]\nSo\n\\[\n\\sin3\\theta=3\\cos^2\\theta\\sin\\theta-\\sin^3\\theta.\n\\]\nUse \\(\\cos^2\\theta=1-\\sin^2\\theta\\):\n\\[\n\\sin3\\theta=3(1-\\sin^2\\theta)\\sin\\theta-\\sin^3\\theta=3\\sin\\theta-4\\sin^3\\theta.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-15",
+      "prompt": "Find all fourth roots of \\(16\\operatorname{cis}(2\\pi/3)\\).",
+      "answer": "Use the root formula:\n\\[\nz_k=16^{1/4}\\operatorname{cis}\\left(\\frac{2\\pi/3+2k\\pi}{4}\\right),\\quad k=0,1,2,3.\n\\]\nSince \\(16^{1/4}=2\\), the arguments are\n\\[\n\\frac{\\pi}{6},\\quad \\frac{2\\pi/3+2\\pi}{4}=\\frac{2\\pi}{3},\\quad \\frac{2\\pi/3+4\\pi}{4}=\\frac{7\\pi}{6},\\quad \\frac{2\\pi/3+6\\pi}{4}=\\frac{5\\pi}{3}.\n\\]\nThus the roots are\n\\[\n2\\operatorname{cis}\\frac{\\pi}{6},\\ 2\\operatorname{cis}\\frac{2\\pi}{3},\\ 2\\operatorname{cis}\\frac{7\\pi}{6},\\ 2\\operatorname{cis}\\frac{5\\pi}{3}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-16",
+      "prompt": "Find the possible values of \\(n\\in\\mathbb N\\) with \\(1\\le n\\le 8\\) for which \\((\\operatorname{cis}(\\pi/4))^n=-1\\).",
+      "answer": "By De Moivre,\n\\[\n(\\operatorname{cis}(\\pi/4))^n=\\operatorname{cis}\\left(\\frac{n\\pi}{4}\\right).\n\\]\nThis equals \\(-1\\) when the angle is \\(\\pi\\) modulo \\(2\\pi\\):\n\\[\n\\frac{n\\pi}{4}=\\pi+2k\\pi.\n\\]\nDivide by \\(\\pi\\) and multiply by \\(4\\):\n\\[\nn=4+8k.\n\\]\nWith \\(1\\le n\\le8\\), the only value is\n\\[\nn=4.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-17",
+      "prompt": "For which integers \\(n\\) with \\(1\\le n\\le 12\\) is \\((1+i)^n\\) real?",
+      "answer": "Write\n\\[\n1+i=\\sqrt2\\operatorname{cis}\\frac{\\pi}{4}.\n\\]\nThen\n\\[\n(1+i)^n=(\\sqrt2)^n\\operatorname{cis}\\left(\\frac{n\\pi}{4}\\right).\n\\]\nThis is real when \\(\\sin(n\\pi/4)=0\\), so\n\\[\n\\frac{n\\pi}{4}=k\\pi.\n\\]\nThus \\(n=4k\\).\nFor \\(1\\le n\\le12\\),\n\\[\nn=4,8,12.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-18",
+      "prompt": "Prove De Moivre's theorem for positive integers using exponential form.",
+      "answer": "Euler form gives\n\\[\n\\cos\\theta+i\\sin\\theta=e^{i\\theta}.\n\\]\nRaise both sides to the positive integer power \\(n\\):\n\\[\n(\\cos\\theta+i\\sin\\theta)^n=(e^{i\\theta})^n.\n\\]\nUsing the exponent law,\n\\[\n(e^{i\\theta})^n=e^{in\\theta}.\n\\]\nApply Euler form again:\n\\[\ne^{in\\theta}=\\cos(n\\theta)+i\\sin(n\\theta).\n\\]\nTherefore\n\\[\n(\\cos\\theta+i\\sin\\theta)^n=\\cos(n\\theta)+i\\sin(n\\theta).\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-19",
+      "prompt": "Show that the product of all three cube roots of \\(8\\) is \\(8\\).",
+      "answer": "The cube roots of \\(8\\) are\n\\[\n2\\operatorname{cis}0,\\quad 2\\operatorname{cis}\\frac{2\\pi}{3},\\quad 2\\operatorname{cis}\\frac{4\\pi}{3}.\n\\]\nTheir product has modulus\n\\[\n2\\cdot2\\cdot2=8\n\\]\nand argument\n\\[\n0+\\frac{2\\pi}{3}+\\frac{4\\pi}{3}=2\\pi.\n\\]\nThus the product is\n\\[\n8\\operatorname{cis}(2\\pi)=8.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-de-moivre-theorem-20",
+      "prompt": "A student uses only the principal argument when finding roots and gets one root instead of \\(n\\). Explain why adding \\(2k\\pi\\) before division is necessary.",
+      "answer": "A complex number \\(r\\operatorname{cis}\\theta\\) also has arguments\n\\[\n\\theta+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nWhen finding \\(n\\)-th roots, we divide the argument by \\(n\\):\n\\[\n\\frac{\\theta+2k\\pi}{n}.\n\\]\nDifferent values \\(k=0,1,\\ldots,n-1\\) give angles separated by \\(2\\pi/n\\), which are distinct directions.\nIf only the principal argument \\(\\theta\\) is used, only the \\(k=0\\) root appears.\nAdding \\(2k\\pi\\) before division is what recovers all \\(n\\) roots.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

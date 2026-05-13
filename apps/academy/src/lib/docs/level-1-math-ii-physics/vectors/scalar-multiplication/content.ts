@@ -69,8 +69,8 @@ Derive the magnitude rule from components. If \(\mathbf a=(a_1,a_2,a_3)\), then 
   items={[
     {
       title: "Example 1",
-      question: "A displacement vector \\(\\mathbf d\\) is 10 m east. What is \\(\\frac12\\mathbf d\\)?",
-      answer: "The scalar \\(\\frac12\\) is positive, so the direction stays east. The magnitude is multiplied by \\(|\\frac12|\\), giving a displacement vector of 5 m east.",
+      question: "A displacement vector \\(\\mathbf d\\) is 10 m east. What is \\(\\frac{1}{2}\\mathbf d\\)?",
+      answer: "The scalar \\(\\frac{1}{2}\\) is positive, so the direction stays east. The magnitude is multiplied by \\(|\\frac{1}{2}|\\), giving a displacement vector of 5 m east.",
     },
     {
       title: "Example 2",

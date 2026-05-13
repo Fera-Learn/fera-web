@@ -4,7 +4,7 @@ The complex conjugate reflects a complex number across the real axis in the comp
 
 ### Definition
 
-For $z = a + bi$, the conjugate is:
+For \(z = a + bi\), the conjugate is:
 
 <Equation label="Definition" tex="z^* = a - bi" />
 
@@ -34,7 +34,7 @@ The conjugate is essential for making the denominator real:
 
 ### In Polar Form
 
-If $z = re^{i\theta}$, then:
+If \(z = re^{i\theta}\), then:
 
 <Equation label="PolarConj" tex="z^* = re^{-i\theta}" />
 

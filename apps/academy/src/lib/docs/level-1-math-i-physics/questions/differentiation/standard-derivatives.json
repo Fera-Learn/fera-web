@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "standard-derivatives",
   "topicTitle": "Standard Derivatives",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "sd-1",
-      "prompt": "Find the derivative of f(x) = x^5.",
-      "answer": "5x^4",
-      "hints": ["Apply the power rule: bring the power down as a coefficient.", "Reduce the power by 1."],
+      "id": "math-i-differentiation-standard-derivatives-01",
+      "prompt": "Differentiate \\(e^x\\).",
+      "answer": "The exponential function \\(e^x\\) is its own derivative:\n\\[\\frac{d}{dx}e^x=e^x.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-2",
-      "prompt": "Find the derivative of f(x) = x^{-3}.",
-      "answer": "-3x^{-4}",
-      "hints": ["Use the power rule with a negative exponent.", "Remember to reduce the power by 1."],
+      "id": "math-i-differentiation-standard-derivatives-02",
+      "prompt": "Differentiate \\(\\sin x\\).",
+      "answer": "The standard derivative is\n\\[\\frac{d}{dx}\\sin x=\\cos x.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-3",
-      "prompt": "Differentiate f(x) = sin x.",
-      "answer": "cos x",
-      "hints": ["The derivative of sine is cosine."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-standard-derivatives-03",
+      "prompt": "Differentiate \\(\\cos x\\).",
+      "answer": "The standard derivative is\n\\[\\frac{d}{dx}\\cos x=-\\sin x.\\]\nThe negative sign is part of the standard result.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-4",
-      "prompt": "Differentiate f(x) = cos x.",
-      "answer": "-sin x",
-      "hints": ["The derivative of cosine is negative sine."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-standard-derivatives-04",
+      "prompt": "Differentiate \\(\\ln x\\), stating the domain condition.",
+      "answer": "For \\(x>0\\),\n\\[\\frac{d}{dx}\\ln x=\\frac1x.\\]\nThe real logarithm requires \\(x\\) to be positive.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-5",
-      "prompt": "Find the derivative of f(x) = e^x.",
-      "answer": "e^x",
-      "hints": ["The exponential function is its own derivative."],
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "sd-6",
-      "prompt": "Find the derivative of f(x) = ln x.",
-      "answer": "1/x",
-      "hints": ["The derivative of ln x is 1/x."],
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "sd-7",
-      "prompt": "Find the derivative of f(x) = 2x^3 + 5x^2 - 3x + 7.",
-      "answer": "6x^2 + 10x - 3",
-      "hints": ["Differentiate each term separately.", "Remember the derivative of a constant is 0."],
+      "id": "math-i-differentiation-standard-derivatives-05",
+      "prompt": "Differentiate \\(x^7\\).",
+      "answer": "Use the power rule:\n\\[\\frac{d}{dx}x^7=7x^6.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-8",
-      "prompt": "Differentiate f(x) = tan x.",
-      "answer": "sec^2 x",
-      "hints": ["The derivative of tan x is sec^2 x."],
+      "id": "math-i-differentiation-standard-derivatives-06",
+      "prompt": "Differentiate \\(\\tan x\\).",
+      "answer": "The standard derivative is\n\\[\\frac{d}{dx}\\tan x=\\sec^2x.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-9",
-      "prompt": "Find the derivative of f(x) = 4e^x - 2ln x.",
-      "answer": "4e^x - 2/x",
-      "hints": ["Differentiate each term using the standard rules."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-standard-derivatives-07",
+      "prompt": "Differentiate \\(3e^x-2\\sin x\\).",
+      "answer": "Differentiate term by term:\n\\[\\frac{d}{dx}(3e^x)=3e^x,\\quad \\frac{d}{dx}(-2\\sin x)=-2\\cos x.\\]\nSo the derivative is \\(3e^x-2\\cos x\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "sd-10",
-      "prompt": "Find the derivative of f(x) = x^{1/2}.",
-      "answer": "1/(2 sqrt(x))",
-      "hints": ["Apply the power rule with a fractional exponent."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-standard-derivatives-08",
+      "prompt": "Differentiate \\(4\\ln x+\\cos x\\).",
+      "answer": "For \\(x>0\\),\n\\[\\frac{d}{dx}(4\\ln x)=\\frac4x,\\qquad \\frac{d}{dx}\\cos x=-\\sin x.\\]\nThus the derivative is \\(\\frac4x-\\sin x\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-09",
+      "prompt": "Find \\(f'(x)\\) for \\(f(x)=x^3+e^x-\\cos x\\).",
+      "answer": "Apply standard derivatives term by term:\n\\[\\frac{d}{dx}x^3=3x^2,\\quad \\frac{d}{dx}e^x=e^x,\\quad \\frac{d}{dx}(-\\cos x)=\\sin x.\\]\nSo \\(f'(x)=3x^2+e^x+\\sin x\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-10",
+      "prompt": "Find the derivative of \\(f(x)=\\arctan x+\\arcsin x\\).",
+      "answer": "Use the standard inverse-trig derivatives:\n\\[\\frac{d}{dx}\\arctan x=\\frac1{1+x^2},\\quad \\frac{d}{dx}\\arcsin x=\\frac1{\\sqrt{1-x^2}}.\\]\nThus \\(f'(x)=\\frac1{1+x^2}+\\frac1{\\sqrt{1-x^2}}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-11",
+      "prompt": "Differentiate \\(f(x)=x^{-2}+\\ln x\\).",
+      "answer": "Use the power rule and log rule. For \\(x>0\\),\n\\[\\frac{d}{dx}x^{-2}=-2x^{-3},\\qquad \\frac{d}{dx}\\ln x=\\frac1x.\\]\nSo \\(f'(x)=-2x^{-3}+\\frac1x\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-12",
+      "prompt": "At \\(x=0\\), find the slope of \\(y=\\sin x+e^x\\).",
+      "answer": "Differentiate:\n\\[y'=\\cos x+e^x.\\]\nAt \\(x=0\\), \\(\\cos0=1\\) and \\(e^0=1\\), so the slope is \\(2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-13",
+      "prompt": "Differentiate \\(f(x)=\\sec^2x+\\tan x\\), using \\(\\frac{d}{dx}\\tan x=\\sec^2x\\) and the power rule only where valid.",
+      "answer": "The term \\(\\sec^2x\\) is not a simple power of \\(x\\), so the listed standard derivatives alone do not give its derivative without another rule. The derivative of \\(\\tan x\\) is \\(\\sec^2x\\). More information, such as chain/product rules and \\(d(\\sec x)/dx\\), is needed for the first term.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-14",
+      "prompt": "Find \\(f'(1)\\) for \\(f(x)=x^4+2\\ln x-e^x\\).",
+      "answer": "Differentiate for \\(x>0\\):\n\\[f'(x)=4x^3+\\frac2x-e^x.\\]\nAt \\(x=1\\),\n\\[f'(1)=4+2-e=6-e.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-15",
+      "prompt": "Find \\(a\\) if \\(f(x)=ax^3+\\sin x\\) has \\(f'(0)=5\\).",
+      "answer": "Differentiate:\n\\[f'(x)=3ax^2+\\cos x.\\]\nAt \\(x=0\\), \\(f'(0)=0+1=1\\), independent of \\(a\\). Therefore there is no value of \\(a\\) that makes \\(f'(0)=5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-16",
+      "prompt": "Find \\(a\\) so that \\(f(x)=ae^x+x^2\\) has \\(f'(0)=7\\).",
+      "answer": "Differentiate:\n\\[f'(x)=ae^x+2x.\\]\nAt \\(x=0\\), \\(f'(0)=a\\cdot1+0=a\\). Set \\(a=7\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-17",
+      "prompt": "Find all \\(x>0\\) where the derivative of \\(f(x)=\\ln x-x\\) is zero.",
+      "answer": "Differentiate:\n\\[f'(x)=\\frac1x-1.\\]\nSet \\(f'(x)=0\\):\n\\[\\frac1x-1=0\\Rightarrow\\frac1x=1\\Rightarrow x=1.\\]\nThe domain condition \\(x>0\\) is satisfied.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-18",
+      "prompt": "A student writes \\(\\frac{d}{dx}\\cos x=\\sin x\\). Diagnose the error.",
+      "answer": "The derivative of cosine includes a negative sign:\n\\[\\frac{d}{dx}\\cos x=-\\sin x.\\]\nThe student has confused it with the derivative pattern for sine, where \\(\\frac{d}{dx}\\sin x=\\cos x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-19",
+      "prompt": "Explain why \\(\\frac{d}{dx}\\ln x=1/x\\) should not be used at \\(x=-2\\) in a real-valued Level 1 setting.",
+      "answer": "The real logarithm \\(\\ln x\\) is defined only for \\(x>0\\). Since \\(-2\\) is outside the domain, the real-valued function \\(\\ln x\\) has no derivative there. The formula \\(1/x\\) applies only where \\(\\ln x\\) is defined.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-standard-derivatives-20",
+      "prompt": "Explain why memorising standard derivatives is not enough to differentiate every expression, using \\(\\sin(x^2)\\) as an example.",
+      "answer": "Standard derivatives give derivatives of basic functions such as \\(\\sin x\\), but \\(\\sin(x^2)\\) is a composite function. Differentiating it requires a rule for how an outer function changes when its input is itself changing. Without the chain rule, the standard list alone is incomplete for this expression.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

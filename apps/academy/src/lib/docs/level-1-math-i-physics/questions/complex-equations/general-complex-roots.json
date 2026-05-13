@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-equations",
+  "topicId": "general-complex-roots",
+  "topicTitle": "General Complex Roots",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-equations-general-complex-roots-01",
+      "prompt": "How many distinct complex roots does \\(z^4=3-4i\\) have?",
+      "answer": "The right side is non-zero and the equation has the form \\(z^n=a\\) with \\(n=4\\). Therefore it has \\(4\\) distinct complex roots.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-02",
+      "prompt": "What is the modulus of each solution of \\(z^3=8\\)?",
+      "answer": "Taking moduli gives \\(|z|^3=|8|=8\\). Hence \\(|z|=2\\) for every cube root.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-03",
+      "prompt": "Solve \\(z^2=4\\) over \\(\\mathbb C\\).",
+      "answer": "The solutions satisfy \\(z=\\pm\\sqrt4\\). Therefore \\(z=2\\) or \\(z=-2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-04",
+      "prompt": "Solve \\(z^2=-4\\).",
+      "answer": "Write \\(-4=4e^{i\\pi}\\). The square roots have modulus \\(2\\) and arguments \\(\\pi/2\\) and \\(3\\pi/2\\), so \\(z=2i\\) or \\(z=-2i\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-05",
+      "prompt": "Find the cube roots of \\(8\\) in exponential form.",
+      "answer": "Write \\(8=8e^{2\\pi ik i}\\). The root modulus is \\(2\\), and the arguments are \\(2\\pi k/3\\) for \\(k=0,1,2\\). The roots are \\(2,2e^{2\\pi i/3},2e^{4\\pi i/3}\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-06",
+      "prompt": "Find all square roots of \\(3+4i\\).",
+      "answer": "Let \\(z=x+iy\\). Then \\(x^2-y^2=3\\) and \\(2xy=4\\). The standard roots are \\(2+i\\) and \\(-2-i\\), since \\((2+i)^2=3+4i\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-07",
+      "prompt": "Solve \\(z^3=-1\\) in exponential form.",
+      "answer": "Write \\(-1=e^{i(\\pi+2\\pi k)}\\). Then \\(z=e^{i(\\pi+2\\pi k)/3}\\) for \\(k=0,1,2\\), giving \\(e^{i\\pi/3}\\), \\(e^{i\\pi}\\), and \\(e^{5\\pi i/3}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-08",
+      "prompt": "Find the fourth roots of \\(16\\) in exponential form.",
+      "answer": "Write \\(16=16e^{2\\pi ik i}\\). The root modulus is \\(16^{1/4}=2\\), and the arguments are \\(2\\pi k/4\\) for \\(k=0,1,2,3\\). The roots are \\(2,2i,-2,-2i\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-09",
+      "prompt": "Solve \\(z^3=1+i\\) in polar form.",
+      "answer": "Write \\(1+i=\\sqrt2e^{i\\pi/4}\\). The root modulus is \\((\\sqrt2)^{1/3}=2^{1/6}\\), and the arguments are \\((\\pi/4+2\\pi k)/3\\) for \\(k=0,1,2\\): \\(\\pi/12\\), \\(3\\pi/4\\), and \\(17\\pi/12\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-10",
+      "prompt": "Solve \\(z^2=2-2i\\) in polar form.",
+      "answer": "\\(2-2i=2\\sqrt2e^{-i\\pi/4}\\). The root modulus is \\((2\\sqrt2)^{1/2}=2^{3/4}\\), and the arguments are \\(-\\pi/8\\) and \\(-\\pi/8+\\pi=7\\pi/8\\). Thus \\(z=2^{3/4}e^{-i\\pi/8}\\) or \\(2^{3/4}e^{7\\pi i/8}\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-11",
+      "prompt": "Verify that \\(2^{1/6}e^{3\\pi i/4}\\) is a solution of \\(z^3=1+i\\).",
+      "answer": "Cubing gives \\((2^{1/6})^3e^{9\\pi i/4}=\\sqrt2e^{i(2\\pi+\\pi/4)}=\\sqrt2e^{i\\pi/4}\\). This equals \\(1+i\\), so the value is a solution.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-12",
+      "prompt": "Explain why \\(z^5=0\\) has only one distinct root, not five distinct roots.",
+      "answer": "The general formula with five distinct roots assumes the target \\(a\\ne0\\). If \\(z^5=0\\), then \\(|z|^5=0\\), so \\(|z|=0\\) and \\(z=0\\) is the only distinct root, though it has multiplicity five.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-13",
+      "prompt": "Find all \\(z\\) such that \\(z^4=-16\\).",
+      "answer": "Write \\(-16=16e^{i(\\pi+2\\pi k)}\\). The root modulus is \\(2\\), and the arguments are \\(\\pi/4+k\\pi/2\\) for \\(k=0,1,2,3\\). Thus \\(z=2e^{i\\pi/4},2e^{3\\pi i/4},2e^{5\\pi i/4},2e^{7\\pi i/4}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-14",
+      "prompt": "Find all \\(z\\) such that \\(z^3=-8i\\).",
+      "answer": "Write \\(-8i=8e^{-i\\pi/2}\\). The root modulus is \\(2\\), and the arguments are \\((-\\pi/2+2\\pi k)/3\\). For \\(k=0,1,2\\), these are \\(-\\pi/6\\), \\(\\pi/2\\), and \\(7\\pi/6\\), so the roots are \\(2e^{-\\pi i/6},2i,2e^{7\\pi i/6}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-15",
+      "prompt": "For which positive real \\(r\\) do the roots of \\(z^3=re^{i\\pi/3}\\) have modulus \\(2\\)?",
+      "answer": "The root modulus is \\(r^{1/3}\\). Set \\(r^{1/3}=2\\), so \\(r=8\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-16",
+      "prompt": "For which integers \\(k\\) should be used to list the distinct roots of \\(z^6=5e^{i\\pi/7}\\), and why?",
+      "answer": "Use \\(k=0,1,2,3,4,5\\). Increasing \\(k\\) by \\(6\\) adds \\(2\\pi\\) to the root argument, so the complex number repeats; these six values give all distinct roots.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-17",
+      "prompt": "Find all square roots of \\(-3+4i\\) in rectangular form.",
+      "answer": "Let \\(z=x+iy\\), so \\(x^2-y^2=-3\\) and \\(2xy=4\\). The modulus of \\(-3+4i\\) is \\(5\\), giving \\(x^2+y^2=5\\). Solving gives \\(x^2=1\\), \\(y^2=4\\), and \\(xy=2\\), so the roots are \\(1+2i\\) and \\(-1-2i\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-18",
+      "prompt": "A learner solves \\(z^3=1+i\\) using only \\(\\arg(1+i)=\\pi/4\\) and gives one root. Explain the missing step.",
+      "answer": "Complex arguments are determined up to multiples of \\(2\\pi\\). The equation requires \\(3\\theta=\\pi/4+2\\pi k\\), so \\(\\theta=(\\pi/4+2\\pi k)/3\\). Using \\(k=0,1,2\\) gives three distinct cube roots, not just one.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-19",
+      "prompt": "Prove that the roots of \\(z^n=a\\), with \\(a\\ne0\\), are equally spaced in argument.",
+      "answer": "Write \\(a=\\rho e^{i\\chi}\\). The roots have arguments \\(\\theta_k=\\chi/n+2\\pi k/n\\) for \\(k=0,1,\\ldots,n-1\\). Therefore \\(\\theta_{k+1}-\\theta_k=2\\pi/n\\), a constant spacing.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-equations-general-complex-roots-20",
+      "prompt": "Show that if \\(w\\) is one solution of \\(z^n=a\\), then every solution is \\(w\\omega\\), where \\(\\omega^n=1\\).",
+      "answer": "If \\(w^n=a\\) and \\(z^n=a\\), then \\((z/w)^n=z^n/w^n=a/a=1\\), since \\(w\\ne0\\). Thus \\(z/w=\\omega\\) for an \\(n\\)-th root of unity \\(\\omega\\), so \\(z=w\\omega\\). Conversely, \\((w\\omega)^n=w^n\\omega^n=a\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

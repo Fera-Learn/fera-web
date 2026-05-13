@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "integration",
   "topicId": "partial-fractions",
   "topicTitle": "Partial Fractions",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "pf-1",
-      "prompt": "Decompose 1/[(x-1)(x+2)].",
-      "answer": "1/3/(x-1) - 1/3/(x+2)",
-      "hints": ["Cover-up method: A=1/(1+2)=1/3, B=1/(-2-1)=-1/3."],
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "pf-2",
-      "prompt": "Decompose 1/(x^2-1).",
-      "answer": "1/2/(x-1) - 1/2/(x+1)",
-      "hints": ["Factor: (x-1)(x+1)."],
+      "id": "math-i-integration-partial-fractions-01",
+      "prompt": "Write the correct partial-fraction form for \\(\\frac{5x+1}{(x-2)(x+3)}\\). Do not find the constants.",
+      "answer": "The denominator has two distinct linear factors, so use one constant numerator over each factor:\n\\[\\boxed{\\frac{5x+1}{(x-2)(x+3)}=\\frac{A}{x-2}+\\frac{B}{x+3}}.\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "pf-3",
-      "prompt": "Decompose (2x)/[(x-1)(x+3)].",
-      "answer": "1/2/(x-1) + 3/2/(x+3)",
-      "hints": ["Set up A/(x-1) + B/(x+3), solve."],
+      "id": "math-i-integration-partial-fractions-02",
+      "prompt": "Write the correct partial-fraction form for \\(\\frac{x+4}{(x-1)^2}\\). Do not find the constants.",
+      "answer": "A repeated linear factor needs one term for each power up to the repeated power:\n\\[\\boxed{\\frac{x+4}{(x-1)^2}=\\frac{A}{x-1}+\\frac{B}{(x-1)^2}}.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-03",
+      "prompt": "Decompose \\(\\frac{7}{x(x+1)}\\) into partial fractions.",
+      "answer": "Write\n\\[\\frac{7}{x(x+1)}=\\frac{A}{x}+\\frac{B}{x+1}.\\]\nMultiply by \\(x(x+1)\\):\n\\[7=A(x+1)+Bx.\\]\nSet \\(x=0\\): \\(A=7\\). Set \\(x=-1\\): \\(7=-B\\), so \\(B=-7\\).\nThus\n\\[\\boxed{\\frac{7}{x(x+1)}=\\frac{7}{x}-\\frac{7}{x+1}}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-04",
+      "prompt": "Decompose \\(\\frac{3x+1}{(x-1)(x+2)}\\).",
+      "answer": "Let\n\\[\\frac{3x+1}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2}.\\]\nThen\n\\[3x+1=A(x+2)+B(x-1).\\]\nSet \\(x=1\\): \\(4=3A\\), so \\(A=\\frac43\\).\nSet \\(x=-2\\): \\(-5=-3B\\), so \\(B=\\frac53\\).\nTherefore\n\\[\\boxed{\\frac{4}{3(x-1)}+\\frac{5}{3(x+2)}}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-05",
+      "prompt": "Evaluate \\(\\int \\frac{5}{x(x+5)}\\,dx\\).",
+      "answer": "Decompose:\n\\[\\frac{5}{x(x+5)}=\\frac{A}{x}+\\frac{B}{x+5}.\\]\nThen \\(5=A(x+5)+Bx\\).\nSet \\(x=0\\): \\(A=1\\). Set \\(x=-5\\): \\(5=-5B\\), so \\(B=-1\\).\nThus\n\\[\\int\\left(\\frac1x-\\frac1{x+5}\\right)dx=\\boxed{\\ln|x|-\\ln|x+5|+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "pf-4",
-      "prompt": "Decompose 1/[x(x+1)].",
-      "answer": "1/x - 1/(x+1)",
-      "hints": ["A/x + B/(x+1), solve for A and B."],
+      "id": "math-i-integration-partial-fractions-06",
+      "prompt": "Evaluate \\(\\int \\frac{x+4}{(x+1)(x+3)}\\,dx\\).",
+      "answer": "Write\n\\[\\frac{x+4}{(x+1)(x+3)}=\\frac{A}{x+1}+\\frac{B}{x+3}.\\]\nThen \\(x+4=A(x+3)+B(x+1)\\).\nSet \\(x=-1\\): \\(3=2A\\), so \\(A=\\frac32\\).\nSet \\(x=-3\\): \\(1=-2B\\), so \\(B=-\\frac12\\).\nIntegrate:\n\\[\\boxed{\\frac32\\ln|x+1|-\\frac12\\ln|x+3|+C}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "pf-5",
-      "prompt": "Decompose (x+2)/[(x-1)(x+1)].",
-      "answer": "3/2/(x-1) - 1/2/(x+1)",
-      "hints": ["Solve system: A+B=x+2 when x=1 and x=-1."],
+      "id": "math-i-integration-partial-fractions-07",
+      "prompt": "Decompose \\(\\frac{2x+5}{(x-2)^2}\\).",
+      "answer": "Use the repeated-factor form:\n\\[\\frac{2x+5}{(x-2)^2}=\\frac{A}{x-2}+\\frac{B}{(x-2)^2}.\\]\nMultiply by \\((x-2)^2\\):\n\\[2x+5=A(x-2)+B.\\]\nEquate coefficients: \\(A=2\\). Then the constant term gives \\(-2A+B=5\\), so \\(-4+B=5\\), hence \\(B=9\\).\nThus\n\\[\\boxed{\\frac{2}{x-2}+\\frac{9}{(x-2)^2}}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "pf-6",
-      "prompt": "Decompose 1/[x(x^2+1)].",
-      "answer": "1/x - x/(x^2+1)",
-      "hints": ["Need Ax+B for quadratic: A=1, B=0."],
+      "id": "math-i-integration-partial-fractions-08",
+      "prompt": "Write the correct partial-fraction form for \\(\\frac{4x^2+1}{(x+1)(x^2+4)}\\), then identify the numerator type over \\(x^2+4\\).",
+      "answer": "The factor \\(x+1\\) is linear, so it gets a constant numerator. The irreducible quadratic \\(x^2+4\\) gets a linear numerator.\nTherefore\n\\[\\boxed{\\frac{4x^2+1}{(x+1)(x^2+4)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2+4}}.\\]\nThe numerator over \\(x^2+4\\) must be \\(Bx+C\\), not just a constant.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-09",
+      "prompt": "Evaluate \\(\\int \\frac{3x+7}{(x+1)(x+2)}\\,dx\\).",
+      "answer": "Set\n\\[\\frac{3x+7}{(x+1)(x+2)}=\\frac{A}{x+1}+\\frac{B}{x+2}.\\]\nThen\n\\[3x+7=A(x+2)+B(x+1).\\]\nSet \\(x=-1\\): \\(4=A\\). Set \\(x=-2\\): \\(1=-B\\), so \\(B=-1\\).\nThus\n\\[\\int\\left(\\frac{4}{x+1}-\\frac{1}{x+2}\\right)dx=\\boxed{4\\ln|x+1|-\\ln|x+2|+C}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "pf-7",
-      "prompt": "Decompose 1/[(x-1)^2(x+1)].",
-      "answer": "1/4/(x-1) + 1/2/(x-1)^2 - 1/4/(x+1)",
-      "hints": ["Need A/(x-1) + B/(x-1)^2 + C/(x+1)."],
-      "rating": "***+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "pf-8",
-      "prompt": "Decompose x/[(x+1)(x+2)].",
-      "answer": "-1/(x+1) + 2/(x+2)",
-      "hints": ["Solve: A/(x+1) + B/(x+2)."],
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "pf-9",
-      "prompt": "Decompose (x^2+1)/(x^3+x).",
-      "answer": "2 + 1/x - x/(x^2+1)",
-      "hints": ["Factor denominator: x(x^2+1)."],
-      "rating": "***+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "pf-10",
-      "prompt": "Decompose 1/[x^2(x+1)].",
-      "answer": "1/x - 1/x^2 + 1/(x+1)",
-      "hints": ["A/x + B/x^2 + C/(x+1)."],
+      "id": "math-i-integration-partial-fractions-10",
+      "prompt": "Evaluate \\(\\int \\frac{x}{(x-1)(x+1)}\\,dx\\).",
+      "answer": "Write\n\\[\\frac{x}{(x-1)(x+1)}=\\frac{A}{x-1}+\\frac{B}{x+1}.\\]\nThen\n\\[x=A(x+1)+B(x-1).\\]\nSet \\(x=1\\): \\(1=2A\\), so \\(A=\\frac12\\).\nSet \\(x=-1\\): \\(-1=-2B\\), so \\(B=\\frac12\\).\nTherefore\n\\[\\boxed{\\frac12\\ln|x-1|+\\frac12\\ln|x+1|+C}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-11",
+      "prompt": "Evaluate \\(\\int \\frac{x+3}{x^2(x+1)}\\,dx\\).",
+      "answer": "Use\n\\[\\frac{x+3}{x^2(x+1)}=\\frac{A}{x}+\\frac{B}{x^2}+\\frac{C}{x+1}.\\]\nMultiply by \\(x^2(x+1)\\):\n\\[x+3=Ax(x+1)+B(x+1)+Cx^2.\\]\nSet \\(x=0\\): \\(B=3\\). Set \\(x=-1\\): \\(2=C\\).\nNow compare \\(x^2\\)-coefficients: \\(A+C=0\\), so \\(A=-2\\).\nThus\n\\[\\int\\left(-\\frac2x+\\frac3{x^2}+\\frac2{x+1}\\right)dx.\\]\nSo\n\\[\\boxed{-2\\ln|x|-\\frac{3}{x}+2\\ln|x+1|+C}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-12",
+      "prompt": "Explain why \\(\\frac{2x+1}{(x-1)^2(x+4)}\\) needs three partial-fraction terms, then write the setup.",
+      "answer": "The factor \\((x-1)^2\\) is repeated, so both \\(x-1\\) and \\((x-1)^2\\) must appear. The distinct factor \\(x+4\\) also contributes one term.\nThus the correct setup is\n\\[\\boxed{\\frac{2x+1}{(x-1)^2(x+4)}=\\frac{A}{x-1}+\\frac{B}{(x-1)^2}+\\frac{C}{x+4}}.\\]\nLeaving out \\(\\frac{B}{(x-1)^2}\\) would not give enough freedom to match all possible numerators.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-13",
+      "prompt": "Evaluate \\(\\int \\frac{2x^2+x+5}{(x+1)(x^2+4)}\\,dx\\).",
+      "answer": "Set\n\\[\\frac{2x^2+x+5}{(x+1)(x^2+4)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2+4}.\\]\nMultiply through:\n\\[2x^2+x+5=A(x^2+4)+(Bx+C)(x+1).\\]\nExpand:\n\\[(A+B)x^2+(B+C)x+(4A+C).\\]\nEquate coefficients:\n\\[A+B=2,\\quad B+C=1,\\quad 4A+C=5.\\]\nSolving gives \\(A=1\\), \\(B=1\\), \\(C=0\\).\nSo the integrand is\n\\[\\frac1{x+1}+\\frac{x}{x^2+4}.\\]\nIntegrate:\n\\[\\boxed{\\ln|x+1|+\\frac12\\ln(x^2+4)+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-14",
+      "prompt": "Evaluate \\(\\int \\frac{1}{(x-2)^2(x+1)}\\,dx\\).",
+      "answer": "Write\n\\[\\frac{1}{(x-2)^2(x+1)}=\\frac{A}{x-2}+\\frac{B}{(x-2)^2}+\\frac{C}{x+1}.\\]\nMultiply through:\n\\[1=A(x-2)(x+1)+B(x+1)+C(x-2)^2.\\]\nSet \\(x=2\\): \\(1=3B\\), so \\(B=\\frac13\\).\nSet \\(x=-1\\): \\(1=9C\\), so \\(C=\\frac19\\).\nUse \\(x=0\\): \\(1=-2A+B+4C=-2A+\\frac13+\\frac49\\). Hence \\(-2A=\\frac29\\), so \\(A=-\\frac19\\).\nIntegrate:\n\\[\\boxed{-\\frac19\\ln|x-2|-\\frac{1}{3(x-2)}+\\frac19\\ln|x+1|+C}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-15",
+      "prompt": "Find \\(a\\) so that \\(\\frac{x+a}{(x-1)(x+2)}\\) has equal partial-fraction coefficients, then decompose it.",
+      "answer": "Let\n\\[\\frac{x+a}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2}.\\]\nThen\n\\[x+a=A(x+2)+B(x-1).\\]\nEqual coefficients means \\(A=B\\). Then the right side is\n\\[A(x+2)+A(x-1)=A(2x+1).\\]\nMatch the coefficient of \\(x\\): \\(2A=1\\), so \\(A=B=\\frac12\\).\nThen the constant is \\(a=A=\\frac12\\).\nTherefore\n\\[\\boxed{a=\\frac12,\\quad \\frac{x+1/2}{(x-1)(x+2)}=\\frac{1}{2(x-1)}+\\frac{1}{2(x+2)}}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-16",
+      "prompt": "For which \\(k\\) does \\(\\frac{kx+6}{(x-3)(x+1)}\\) have no \\(\\frac{1}{x+1}\\) term in its partial-fraction decomposition?",
+      "answer": "Write\n\\[\\frac{kx+6}{(x-3)(x+1)}=\\frac{A}{x-3}+\\frac{B}{x+1}.\\]\nThe coefficient \\(B\\) is found by setting \\(x=-1\\):\n\\[B=\\frac{k(-1)+6}{-1-3}=\\frac{6-k}{-4}.\\]\nNo \\(\\frac1{x+1}\\) term means \\(B=0\\). Therefore\n\\[6-k=0\\Rightarrow k=6.\\]\nWith \\(k=6\\), the numerator is \\(6x+6=6(x+1)\\), so the factor \\(x+1\\) cancels, confirming the result.\n\\[\\boxed{k=6}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-17",
+      "prompt": "Find \\(A,B,C\\) if \\(\\frac{4x^2+px+q}{(x-1)(x+2)(x+3)}=\\frac{A}{x-1}+\\frac{B}{x+2}+\\frac{C}{x+3}\\) and \\(A=1\\), \\(B=2\\). Express \\(C,p,q\\).",
+      "answer": "Multiply by the denominator:\n\\[4x^2+px+q=A(x+2)(x+3)+B(x-1)(x+3)+C(x-1)(x+2).\\]\nUse the leading coefficient. Each product has leading term \\(x^2\\), so\n\\[A+B+C=4.\\]\nWith \\(A=1\\), \\(B=2\\), we get \\(C=1\\).\nNow expand:\n\\[(x+2)(x+3)=x^2+5x+6,\\]\n\\[2(x-1)(x+3)=2x^2+4x-6,\\]\n\\[(x-1)(x+2)=x^2+x-2.\\]\nAdding gives\n\\[4x^2+10x-2.\\]\nThus\n\\[\\boxed{C=1,\\quad p=10,\\quad q=-2}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-18",
+      "prompt": "A student decomposes \\(\\frac{x+1}{(x-2)^2}\\) as \\(\\frac{A}{(x-2)^2}\\) only. Explain why this is incomplete and find the correct decomposition.",
+      "answer": "A repeated linear factor \\((x-2)^2\\) requires both\n\\[\\frac{A}{x-2}\\quad\\text{and}\\quad\\frac{B}{(x-2)^2}.\\]\nWrite\n\\[\\frac{x+1}{(x-2)^2}=\\frac{A}{x-2}+\\frac{B}{(x-2)^2}.\\]\nMultiply by \\((x-2)^2\\):\n\\[x+1=A(x-2)+B.\\]\nEquate coefficients: \\(A=1\\). Then \\(-2A+B=1\\), so \\(B=3\\).\nCorrectly,\n\\[\\boxed{\\frac{x+1}{(x-2)^2}=\\frac{1}{x-2}+\\frac{3}{(x-2)^2}}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-19",
+      "prompt": "Prove by coefficient counting why \\(\\frac{Ax+B}{x^2+4}\\) is needed for an irreducible quadratic denominator, not just \\(\\frac{A}{x^2+4}\\).",
+      "answer": "A general numerator over a quadratic denominator may contain both an \\(x\\)-term and a constant term. If only \\(\\frac{A}{x^2+4}\\) is allowed, the numerator has only one adjustable coefficient.\nBut \\(\\frac{mx+n}{x^2+4}\\) requires matching two independent coefficients: the coefficient of \\(x\\) and the constant term.\nThe form\n\\[\\frac{Ax+B}{x^2+4}\\]\nhas exactly those two adjustable constants. Therefore it can represent any linear numerator over the irreducible quadratic factor, while \\(\\frac{A}{x^2+4}\\) cannot represent cases such as \\(\\frac{x}{x^2+4}\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-integration-partial-fractions-20",
+      "prompt": "Evaluate \\(\\int \\frac{3x^2+2x+11}{(x+1)(x^2+9)}\\,dx\\) and show the decomposition.",
+      "answer": "Use\n\\[\\frac{3x^2+2x+11}{(x+1)(x^2+9)}=\\frac{A}{x+1}+\\frac{Bx+C}{x^2+9}.\\]\nMultiply through:\n\\[3x^2+2x+11=A(x^2+9)+(Bx+C)(x+1).\\]\nExpand:\n\\[(A+B)x^2+(B+C)x+(9A+C).\\]\nEquate coefficients:\n\\[A+B=3,\\quad B+C=2,\\quad 9A+C=11.\\]\nSolving gives \\(A=1\\), \\(B=2\\), \\(C=0\\).\nSo\n\\[\\frac{3x^2+2x+11}{(x+1)(x^2+9)}=\\frac1{x+1}+\\frac{2x}{x^2+9}.\\]\nIntegrate:\n\\[\\boxed{\\ln|x+1|+\\ln(x^2+9)+C}.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

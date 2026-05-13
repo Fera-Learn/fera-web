@@ -1,150 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "real-numbers",
   "topicId": "algebraic-manipulation",
   "topicTitle": "Algebraic Manipulation",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-algebraic-manipulation-01",
-      "prompt": "Expand \\((x+3)(x+4)\\).",
-      "answer": "Use distributivity:\n\\[\n(x+3)(x+4)=x^2+4x+3x+12=x^2+7x+12\n\\]",
+      "id": "math-i-real-numbers-algebraic-manipulation-01",
+      "prompt": "Expand \\(5(x+2)\\).",
+      "answer": "Multiply each term inside the bracket by \\(5\\):\n\\[\n5(x+2)=5x+5\\cdot2=5x+10\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-02",
-      "prompt": "Factor \\(x^2-25\\).",
-      "answer": "Use the difference of squares:\n\\[\nx^2-25=x^2-5^2=(x-5)(x+5)\n\\]",
+      "id": "math-i-real-numbers-algebraic-manipulation-02",
+      "prompt": "Factor \\(6x+18\\) by taking out the greatest common factor.",
+      "answer": "The greatest common factor of \\(6x\\) and \\(18\\) is \\(6\\). Therefore\n\\[\n6x+18=6(x+3)\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-03",
-      "prompt": "State the restriction for \\(\\frac{x+2}{x-7}\\).",
-      "answer": "The denominator cannot be zero:\n\\[\nx-7\\ne0\n\\]\nso\n\\[\nx\\ne7\n\\]",
-      "rating": "*",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-04",
-      "prompt": "Simplify \\(\\frac{x^2-16}{x-4}\\), stating the restriction.",
-      "answer": "The original denominator requires \\(x\\ne4\\). Then\n\\[\n\\frac{x^2-16}{x-4}=\\frac{(x-4)(x+4)}{x-4}=x+4\n\\]\nfor \\(x\\ne4\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-05",
-      "prompt": "Combine \\(\\frac{1}{x}+\\frac{1}{y}\\).",
-      "answer": "Use the common denominator \\(xy\\), with \\(x\\ne0\\) and \\(y\\ne0\\):\n\\[\n\\frac{1}{x}+\\frac{1}{y}=\\frac{y+x}{xy}=\\frac{x+y}{xy}\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-06",
-      "prompt": "Expand and collect \\((2x-1)(x+5)\\).",
-      "answer": "\\[\n(2x-1)(x+5)=2x^2+10x-x-5=2x^2+9x-5\n\\]",
+      "id": "math-i-real-numbers-algebraic-manipulation-03",
+      "prompt": "Expand \\((x+4)(x+3)\\).",
+      "answer": "Use each term in the first bracket on each term in the second:\n\\[\n(x+4)(x+3)=x^2+3x+4x+12=x^2+7x+12\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-07",
-      "prompt": "Simplify \\(\\frac{3x}{6x^2}\\), stating the restriction.",
-      "answer": "The denominator requires \\(x\\ne0\\). Then\n\\[\n\\frac{3x}{6x^2}=\\frac{1}{2x}\n\\]\nfor \\(x\\ne0\\).",
+      "id": "math-i-real-numbers-algebraic-manipulation-04",
+      "prompt": "Factor \\(x^2-49\\).",
+      "answer": "This is a difference of squares:\n\\[\nx^2-49=x^2-7^2\n\\]\nSo\n\\[\nx^2-49=(x+7)(x-7)\n\\]",
       "rating": "*+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-08",
-      "prompt": "Find all restrictions for \\(\\frac{x+1}{(x-2)(x+3)}\\).",
-      "answer": "The denominator is zero when \\(x-2=0\\) or \\(x+3=0\\). Therefore\n\\[\nx\\ne2,\\qquad x\\ne-3\n\\]",
-      "rating": "*+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-09",
-      "prompt": "Simplify \\(\\frac{x^2+x}{x}\\), stating the restriction.",
-      "answer": "Factor the numerator and record \\(x\\ne0\\):\n\\[\n\\frac{x^2+x}{x}=\\frac{x(x+1)}{x}=x+1\n\\]\nfor \\(x\\ne0\\).",
+      "id": "math-i-real-numbers-algebraic-manipulation-05",
+      "prompt": "Expand and simplify \\(3(2x-5)-2(x+4)\\).",
+      "answer": "Expand both brackets first:\n\\[\n3(2x-5)=6x-15\n\\]\n\\[\n-2(x+4)=-2x-8\n\\]\nCombine like terms:\n\\[\n6x-15-2x-8=4x-23\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-10",
-      "prompt": "Combine \\(\\frac{2}{x}+\\frac{3}{x+1}\\).",
-      "answer": "The restrictions are \\(x\\ne0\\) and \\(x\\ne-1\\). Then\n\\[\n\\frac{2}{x}+\\frac{3}{x+1}=\\frac{2(x+1)+3x}{x(x+1)}=\\frac{5x+2}{x(x+1)}\n\\]",
+      "id": "math-i-real-numbers-algebraic-manipulation-06",
+      "prompt": "Factor \\(x^2+9x+20\\).",
+      "answer": "Find two numbers that multiply to \\(20\\) and add to \\(9\\). They are \\(4\\) and \\(5\\). Therefore\n\\[\nx^2+9x+20=(x+4)(x+5)\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-11",
-      "prompt": "Simplify \\(\\frac{x^2-1}{x^2+x}\\), stating all restrictions.",
-      "answer": "Factor:\n\\[\nx^2-1=(x-1)(x+1),\\qquad x^2+x=x(x+1)\n\\]\nThe original denominator requires \\(x\\ne0\\) and \\(x\\ne-1\\). Hence\n\\[\n\\frac{x^2-1}{x^2+x}=\\frac{x-1}{x}\n\\]\nfor \\(x\\ne0,-1\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-12",
-      "prompt": "Explain why \\(\\frac{x+1}{x+2}\\) cannot be simplified to \\(\\frac{1}{2}\\).",
-      "answer": "Cancellation applies to common factors, not terms inside sums. The numerator \\(x+1\\) and denominator \\(x+2\\) do not share a common factor, so no cancellation is available.",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-13",
-      "prompt": "Simplify \\(\\frac{1/a+1/b}{1/(a-b)}\\), stating the restrictions.",
-      "answer": "The restrictions are \\(a\\ne0\\), \\(b\\ne0\\), and \\(a\\ne b\\). Then\n\\[\n\\frac{1/a+1/b}{1/(a-b)}=\\frac{(a+b)/(ab)}{1/(a-b)}\n\\]\n\\[\n=\\frac{(a+b)(a-b)}{ab}=\\frac{a^2-b^2}{ab}\n\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-14",
-      "prompt": "Simplify \\(\\frac{x^2-4x+4}{x-2}\\), stating the restriction.",
-      "answer": "The denominator requires \\(x\\ne2\\). Since\n\\[\nx^2-4x+4=(x-2)^2\n\\]\nwe get\n\\[\n\\frac{x^2-4x+4}{x-2}=x-2\n\\]\nfor \\(x\\ne2\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-algebraic-manipulation-15",
-      "prompt": "Expand \\((a+b)^2\\) and compare it with \\(a^2+b^2\\).",
-      "answer": "\\[\n(a+b)^2=(a+b)(a+b)=a^2+2ab+b^2\n\\]\nIt equals \\(a^2+b^2\\) only when \\(2ab=0\\), not in general.",
+      "id": "math-i-real-numbers-algebraic-manipulation-07",
+      "prompt": "Expand \\((2x-3)^2\\).",
+      "answer": "Use \\((a-b)^2=a^2-2ab+b^2\\) with \\(a=2x\\) and \\(b=3\\):\n\\[\n(2x-3)^2=(2x)^2-2(2x)(3)+3^2\n\\]\n\\[\n=4x^2-12x+9\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-16",
-      "prompt": "Solve \\(\\frac{x^2-9}{x-3}=0\\), remembering the original restriction.",
-      "answer": "The expression requires \\(x\\ne3\\). For \\(x\\ne3\\),\n\\[\n\\frac{x^2-9}{x-3}=x+3\n\\]\nSo \\(x+3=0\\), giving\n\\[\nx=-3\n\\]\nThis value is allowed.",
+      "id": "math-i-real-numbers-algebraic-manipulation-08",
+      "prompt": "Factor \\(2x^2+7x+3\\).",
+      "answer": "For \\(2x^2+7x+3\\), find two numbers that multiply to \\(2\\cdot3=6\\) and add to \\(7\\): \\(6\\) and \\(1\\). Split the middle term:\n\\[\n2x^2+6x+x+3\n\\]\nGroup and factor:\n\\[\n2x(x+3)+1(x+3)=(2x+1)(x+3)\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-09",
+      "prompt": "Complete the square for \\(x^2+8x+5\\).",
+      "answer": "Take half of \\(8\\), which is \\(4\\), and square it to get \\(16\\):\n\\[\nx^2+8x+5=(x^2+8x+16)-16+5\n\\]\nSo\n\\[\nx^2+8x+5=(x+4)^2-11\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-17",
-      "prompt": "For which real \\(x\\) is \\(\\frac{x^2-5x+6}{x-2}\\) equal to \\(x-3\\)?",
-      "answer": "Factor the numerator:\n\\[\nx^2-5x+6=(x-2)(x-3)\n\\]\nThe original expression requires \\(x\\ne2\\), so\n\\[\n\\frac{x^2-5x+6}{x-2}=x-3\\quad\\text{for }x\\ne2\n\\]",
+      "id": "math-i-real-numbers-algebraic-manipulation-10",
+      "prompt": "Simplify \\(\\frac{x^2-16}{x-4}\\), stating any restriction on \\(x\\).",
+      "answer": "Factor the numerator as a difference of squares:\n\\[\nx^2-16=(x-4)(x+4)\n\\]\nThen\n\\[\n\\frac{x^2-16}{x-4}=\\frac{(x-4)(x+4)}{x-4}=x+4\n\\]\nThis cancellation is valid only when \\(x-4\\ne0\\), so \\(x\\ne4\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-18",
-      "prompt": "Find the real-number domain of \\(F(x)=\\frac{x^2+1}{x^2-4x}\\).",
-      "answer": "Factor the denominator:\n\\[\nx^2-4x=x(x-4)\n\\]\nTherefore the excluded values are \\(0\\) and \\(4\\). The domain is\n\\[\n\\mathbb R\\setminus\\{0,4\\}\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-algebraic-manipulation-11",
+      "prompt": "Show by expansion that \\((x+2)(x-5)=x^2-3x-10\\).",
+      "answer": "Expand term by term:\n\\[\n(x+2)(x-5)=x\\cdot x+x\\cdot(-5)+2\\cdot x+2\\cdot(-5)\n\\]\n\\[\n=x^2-5x+2x-10\n\\]\nCombine like terms:\n\\[\nx^2-3x-10\n\\]\nSo the identity is verified.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-19",
-      "prompt": "Simplify \\(\\frac{x}{x+1}-\\frac{1}{x+1}\\), stating the restriction.",
-      "answer": "The denominator requires \\(x\\ne-1\\). Combine over the common denominator:\n\\[\n\\frac{x}{x+1}-\\frac{1}{x+1}=\\frac{x-1}{x+1}\n\\]",
-      "rating": "*+",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-algebraic-manipulation-12",
+      "prompt": "A student expands \\((x-6)^2\\) as \\(x^2-36\\). Explain the mistake and give the correct expansion.",
+      "answer": "The mistake is treating a square of a difference as a difference of squares. In fact,\n\\[\n(x-6)^2=(x-6)(x-6)\n\\]\nExpanding gives\n\\[\nx^2-6x-6x+36=x^2-12x+36\n\\]\nThe middle term \\(-12x\\) must be included.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-algebraic-manipulation-20",
-      "prompt": "A student cancels \\(x\\) in \\(\\frac{x+4}{x}\\) and writes \\(1+4\\). Explain the error and give the correct rewrite.",
-      "answer": "The \\(x\\) in the numerator is a term, not a factor of the whole numerator. Split the fraction instead:\n\\[\n\\frac{x+4}{x}=\\frac{x}{x}+\\frac{4}{x}=1+\\frac{4}{x}\n\\]\nwith \\(x\\ne0\\).",
-      "rating": "***",
-      "paperTags": ["term-1"]
+      "id": "math-i-real-numbers-algebraic-manipulation-13",
+      "prompt": "Rewrite \\(2x^2-12x+7\\) in completed-square form.",
+      "answer": "Factor \\(2\\) from the quadratic and linear terms:\n\\[\n2x^2-12x+7=2(x^2-6x)+7\n\\]\nComplete the square inside: half of \\(-6\\) is \\(-3\\), and \\((-3)^2=9\\).\n\\[\n2(x^2-6x+9-9)+7=2((x-3)^2-9)+7\n\\]\n\\[\n=2(x-3)^2-18+7=2(x-3)^2-11\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-14",
+      "prompt": "Factor completely: \\(3x^3-12x\\).",
+      "answer": "First take out the greatest common factor \\(3x\\):\n\\[\n3x^3-12x=3x(x^2-4)\n\\]\nThen factor the difference of squares:\n\\[\nx^2-4=(x+2)(x-2)\n\\]\nSo the complete factorisation is\n\\[\n3x(x+2)(x-2)\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-15",
+      "prompt": "Find values of \\(k\\) for which \\(x^2+kx+16\\) is a perfect-square trinomial.",
+      "answer": "A perfect-square trinomial with constant \\(16\\) can be\n\\[\n(x+4)^2=x^2+8x+16\n\\]\nor\n\\[\n(x-4)^2=x^2-8x+16\n\\]\nTherefore \\(k=8\\) or \\(k=-8\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-16",
+      "prompt": "Simplify \\(\\frac{x^2+5x+6}{x^2+x-6}\\), stating all excluded values of \\(x\\).",
+      "answer": "Factor numerator and denominator:\n\\[\nx^2+5x+6=(x+2)(x+3)\n\\]\n\\[\nx^2+x-6=(x+3)(x-2)\n\\]\nSo\n\\[\n\\frac{x^2+5x+6}{x^2+x-6}=\\frac{(x+2)(x+3)}{(x+3)(x-2)}=\\frac{x+2}{x-2}\n\\]\nThe original denominator cannot be zero, so \\(x\\ne-3\\) and \\(x\\ne2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-17",
+      "prompt": "Choose the most useful form of \\(x^2-10x+21\\) for finding its minimum value, then find that minimum.",
+      "answer": "Completed-square form is most useful for a minimum. Complete the square:\n\\[\nx^2-10x+21=(x^2-10x+25)-25+21\n\\]\n\\[\n=(x-5)^2-4\n\\]\nSince \\((x-5)^2\\ge0\\), the smallest value occurs at \\(x=5\\). The minimum value is\n\\[\n-4\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-18",
+      "prompt": "Prove the identity \\((a+b)^2-(a-b)^2=4ab\\).",
+      "answer": "Expand both squares:\n\\[\n(a+b)^2=a^2+2ab+b^2\n\\]\n\\[\n(a-b)^2=a^2-2ab+b^2\n\\]\nSubtract:\n\\[\n(a+b)^2-(a-b)^2=(a^2+2ab+b^2)-(a^2-2ab+b^2)\n\\]\n\\[\n=a^2+2ab+b^2-a^2+2ab-b^2=4ab\n\\]\nSo the identity is true.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-19",
+      "prompt": "A simplification gives \\(\\frac{x^2-1}{x-1}=x+1\\). Explain why this is not equivalent to the original expression for every real \\(x\\).",
+      "answer": "Factor the numerator:\n\\[\nx^2-1=(x-1)(x+1)\n\\]\nFor \\(x\\ne1\\), cancellation gives\n\\[\n\\frac{x^2-1}{x-1}=x+1\n\\]\nBut the original expression is undefined at \\(x=1\\) because the denominator is zero. The expression \\(x+1\\) is defined at \\(x=1\\), so the simplified form must keep the restriction \\(x\\ne1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-real-numbers-algebraic-manipulation-20",
+      "prompt": "Factor \\(x^4-13x^2+36\\) completely over the real numbers.",
+      "answer": "Treat the expression as a quadratic in \\(x^2\\). Let \\(u=x^2\\). Then\n\\[\nx^4-13x^2+36=u^2-13u+36\n\\]\nFactor:\n\\[\nu^2-13u+36=(u-9)(u-4)\n\\]\nSubstitute back \\(u=x^2\\):\n\\[\n(x^2-9)(x^2-4)\n\\]\nFactor each difference of squares:\n\\[\n(x+3)(x-3)(x+2)(x-2)\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "coordinates",
+  "topicTitle": "Coordinates",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-vector-spaces-coordinates-01",
+      "prompt": "What does \\([\\mathbf v]_B\\) mean?",
+      "answer": "It means the coordinate vector of \\(\\mathbf v\\) relative to the ordered basis \\(B\\). Its entries are the coefficients used to write \\(\\mathbf v\\) as a linear combination of the basis vectors in that order.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-02",
+      "prompt": "Why must a basis be ordered before coordinates are written?",
+      "answer": "Coordinates list coefficients in the same order as the basis vectors. If the basis order changes, the same vector may have the same coefficients in a different order. Therefore \\([\\mathbf v]_B\\) is only definite after the ordered basis \\(B\\) is specified.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-03",
+      "prompt": "Find \\([(3,4)]_B\\) for the standard basis \\(B=((1,0),(0,1))\\).",
+      "answer": "Write \\((3,4)=3(1,0)+4(0,1)\\). The coefficients in the given order are \\(3\\) and \\(4\\). Hence \\([(3,4)]_B=(3,4)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-04",
+      "prompt": "If \\(B=((0,1),(1,0))\\), find \\([(3,4)]_B\\).",
+      "answer": "Solve \\((3,4)=c_1(0,1)+c_2(1,0)=(c_2,c_1)\\). Thus \\(c_2=3\\) and \\(c_1=4\\). In the order of \\(B\\), the coordinates are \\([(3,4)]_B=(4,3)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-05",
+      "prompt": "Find coordinates of \\((5,1)\\) in \\(B=((1,1),(1,-1))\\).",
+      "answer": "Solve \\(c_1(1,1)+c_2(1,-1)=(5,1)\\). Components give \\(c_1+c_2=5\\) and \\(c_1-c_2=1\\). Adding gives \\(2c_1=6\\), so \\(c_1=3\\). Then \\(c_2=2\\). Therefore \\([(5,1)]_B=(3,2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-06",
+      "prompt": "Check that \\([(5,1)]_{((1,1),(1,-1))}=(3,2)\\).",
+      "answer": "Reconstruct the vector: \\(3(1,1)+2(1,-1)=(3,3)+(2,-2)=(5,1)\\). This matches the original vector, so the coordinate vector is correct.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-07",
+      "prompt": "Find \\([(2,3)]_B\\) for \\(B=((1,0),(1,1))\\).",
+      "answer": "Solve \\(c_1(1,0)+c_2(1,1)=(2,3)\\). Components give \\(c_1+c_2=2\\) and \\(c_2=3\\). Hence \\(c_1=-1\\). Therefore \\([(2,3)]_B=(-1,3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-08",
+      "prompt": "Find \\([(1,2,3)]_B\\) for \\(B=((1,0,0),(0,1,0),(1,1,1))\\).",
+      "answer": "Solve \\(c_1(1,0,0)+c_2(0,1,0)+c_3(1,1,1)=(1,2,3)\\). Components give \\(c_1+c_3=1\\), \\(c_2+c_3=2\\), and \\(c_3=3\\). Thus \\(c_1=-2\\), \\(c_2=-1\\), and \\([(1,2,3)]_B=(-2,-1,3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-09",
+      "prompt": "Find the vector with coordinates \\((2,-1)\\) in \\(B=((1,2),(3,1))\\).",
+      "answer": "Use the coordinate definition: \\(\\mathbf v=2(1,2)-1(3,1)\\). Compute \\(2(1,2)=(2,4)\\) and \\(-1(3,1)=(-3,-1)\\). Adding gives \\(\\mathbf v=(-1,3)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-10",
+      "prompt": "For \\(B=((1,1),(2,1))\\), find \\([(4,3)]_B\\).",
+      "answer": "Solve \\(c_1(1,1)+c_2(2,1)=(4,3)\\). Components give \\(c_1+2c_2=4\\) and \\(c_1+c_2=3\\). Subtracting gives \\(c_2=1\\), then \\(c_1=2\\). Therefore \\([(4,3)]_B=(2,1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-11",
+      "prompt": "Explain why coordinates in a fixed basis are unique.",
+      "answer": "If \\(\\mathbf v=\\sum_i a_i\\mathbf b_i=\\sum_i c_i\\mathbf b_i\\), subtract to get \\(\\sum_i(a_i-c_i)\\mathbf b_i=\\mathbf0\\). A basis is independent, so each \\(a_i-c_i=0\\). Thus \\(a_i=c_i\\) for every \\(i\\), making the coordinates unique.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-12",
+      "prompt": "A vector has coordinates \\((1,2)\\) in \\(B=((1,0),(1,1))\\). Find its standard coordinates and explain the basis dependence.",
+      "answer": "The vector is \\(1(1,0)+2(1,1)=(1,0)+(2,2)=(3,2)\\). The coordinate list \\((1,2)\\) is not the same as the standard position \\((3,2)\\) because coordinates depend on the basis used to describe the vector.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-13",
+      "prompt": "Find \\([(x,y)]_B\\) for \\(B=((1,1),(1,-1))\\).",
+      "answer": "Solve \\(c_1(1,1)+c_2(1,-1)=(x,y)\\). Components are \\(c_1+c_2=x\\) and \\(c_1-c_2=y\\). Adding gives \\(2c_1=x+y\\), so \\(c_1=(x+y)/2\\). Subtracting gives \\(2c_2=x-y\\), so \\(c_2=(x-y)/2\\). Therefore \\([(x,y)]_B=((x+y)/2,(x-y)/2)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-14",
+      "prompt": "Find coordinates of \\((a,b,c)\\) in \\(B=((1,0,0),(1,1,0),(1,1,1))\\).",
+      "answer": "Solve \\(x(1,0,0)+y(1,1,0)+z(1,1,1)=(a,b,c)\\). Components give \\(x+y+z=a\\), \\(y+z=b\\), and \\(z=c\\). Thus \\(z=c\\), \\(y=b-c\\), and \\(x=a-b\\). Therefore \\([(a,b,c)]_B=(a-b,b-c,c)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-15",
+      "prompt": "For which \\(k\\) does \\(B_k=((1,1),(1,k))\\) allow unique coordinates for every vector in \\(\\mathbb R^2\\)?",
+      "answer": "Unique coordinates for every vector require \\(B_k\\) to be a basis. The determinant \\(\\begin{vmatrix}1&1\\\\1&k\\end{vmatrix}=k-1\\). This is non-zero when \\(k\\ne1\\). Therefore unique coordinates exist for all vectors exactly when \\(k\\ne1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-16",
+      "prompt": "For which \\(t\\) is \\([(1,2,3)]_{B_t}\\) defined for every target vector when \\(B_t=((1,0,0),(0,1,0),(1,1,t))\\)?",
+      "answer": "The coordinate vector is defined for every target exactly when \\(B_t\\) is a basis of \\(\\mathbb R^3\\). The determinant of the basis matrix is \\(t\\). Hence \\(B_t\\) is a basis for \\(t\\ne0\\), and only then do all vectors have unique coordinates.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-17",
+      "prompt": "For \\(B=((1,0),(1,k))\\), find \\([(x,y)]_B\\) when possible and state the condition on \\(k\\).",
+      "answer": "Solve \\(c_1(1,0)+c_2(1,k)=(x,y)\\). Components give \\(c_1+c_2=x\\) and \\(kc_2=y\\). We need \\(k\\ne0\\) to solve for all \\(y\\). Then \\(c_2=y/k\\) and \\(c_1=x-y/k\\). Thus \\([(x,y)]_B=(x-y/k,y/k)\\) for \\(k\\ne0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-18",
+      "prompt": "A student writes \\([(3,4)]_B=(3,4)\\) for every basis \\(B\\). Give a counterexample.",
+      "answer": "Take \\(B=((1,1),(1,-1))\\). Solving \\(c_1(1,1)+c_2(1,-1)=(3,4)\\) gives \\(c_1+c_2=3\\) and \\(c_1-c_2=4\\). Thus \\(c_1=7/2\\) and \\(c_2=-1/2\\). So \\([(3,4)]_B=(7/2,-1/2)\\), not \\((3,4)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-19",
+      "prompt": "Prove that changing the order of a basis changes the order of coordinates.",
+      "answer": "Let \\(B=(\\mathbf b_1,\\mathbf b_2)\\) and suppose \\(\\mathbf v=c_1\\mathbf b_1+c_2\\mathbf b_2\\). Then \\([\\mathbf v]_B=(c_1,c_2)\\). For the swapped basis \\(B'=(\\mathbf b_2,\\mathbf b_1)\\), the same vector is \\(c_2\\mathbf b_2+c_1\\mathbf b_1\\), so \\([\\mathbf v]_{B'}=(c_2,c_1)\\). The coordinate entries follow the basis order.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-vector-spaces-coordinates-20",
+      "prompt": "Explain why coordinates describe the same vector, not a different physical displacement.",
+      "answer": "A coordinate vector records coefficients in a chosen basis. If \\(\\mathbf v=c_1\\mathbf b_1+\\cdots+c_n\\mathbf b_n\\), then the physical or geometric vector is the sum on the right. Changing basis changes the coefficients and basis vectors together, but the reconstructed vector \\(\\mathbf v\\) remains the same object.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

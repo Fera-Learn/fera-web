@@ -1,52 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "trigonometry",
   "topicId": "angle-addition-formulae",
   "topicTitle": "Angle Addition Formulae",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-angle-addition-formulae-01",
-      "prompt": "Use angle addition to find \\(\\sin75^\\circ\\).",
-      "answer": "Write \\(75^\\circ=45^\\circ+30^\\circ\\). Then\n\\[\n\\sin75^\\circ=\\sin45^\\circ\\cos30^\\circ+\\cos45^\\circ\\sin30^\\circ\n\\]\n\\[\n=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-trigonometry-angle-addition-formulae-01",
+      "prompt": "State the sine addition formula for \\(\\sin(A+B)\\).",
+      "answer": "The formula is\n\\[\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B.\\]\nIt rewrites the sine of a sum using trig functions of the separate angles.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-angle-addition-formulae-02",
-      "prompt": "Use angle addition to find \\(\\cos(\\pi/3+\\pi/6)\\).",
-      "answer": "Use the cosine addition formula:\n\\[\n\\cos\\left(\\frac{\\pi}{3}+\\frac{\\pi}{6}\\right)=\\cos\\frac{\\pi}{3}\\cos\\frac{\\pi}{6}-\\sin\\frac{\\pi}{3}\\sin\\frac{\\pi}{6}\n\\]\n\\[\n=\\frac12\\frac{\\sqrt3}{2}-\\frac{\\sqrt3}{2}\\frac12=0\n\\]\nThis matches \\(\\cos(\\pi/2)=0\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-trigonometry-angle-addition-formulae-02",
+      "prompt": "State the cosine addition formula for \\(\\cos(A+B)\\).",
+      "answer": "The formula is\n\\[\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B.\\]\nThe minus sign is essential.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-angle-addition-formulae-03",
-      "prompt": "Simplify \\(\\sin(x+\\pi)\\).",
-      "answer": "Use the sine addition formula:\n\\[\n\\sin(x+\\pi)=\\sin x\\cos\\pi+\\cos x\\sin\\pi\n\\]\nSince \\(\\cos\\pi=-1\\) and \\(\\sin\\pi=0\\),\n\\[\n\\sin(x+\\pi)=-\\sin x\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-trigonometry-angle-addition-formulae-03",
+      "prompt": "Use an addition formula to expand \\(\\sin(x+\\frac\\pi6)\\).",
+      "answer": "Use \\(\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B\\):\n\\[\\sin\\left(x+\\frac\\pi6\\right)=\\sin x\\cos\\frac\\pi6+\\cos x\\sin\\frac\\pi6.\\]\nSince \\(\\cos\\frac\\pi6=\\frac{\\sqrt3}{2}\\) and \\(\\sin\\frac\\pi6=\\frac12\\),\n\\[\\sin\\left(x+\\frac\\pi6\\right)=\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-angle-addition-formulae-04",
-      "prompt": "Derive \\(\\sin(2x)=2\\sin x\\cos x\\) from the sine addition formula.",
-      "answer": "Set both angles equal to \\(x\\):\n\\[\n\\sin(2x)=\\sin(x+x)=\\sin x\\cos x+\\cos x\\sin x\n\\]\nThe two terms are equal, so\n\\[\n\\sin(2x)=2\\sin x\\cos x\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-trigonometry-angle-addition-formulae-04",
+      "prompt": "Use a difference formula to expand \\(\\cos(x-\\frac\\pi3)\\).",
+      "answer": "Use \\(\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B\\):\n\\[\\cos\\left(x-\\frac\\pi3\\right)=\\cos x\\cos\\frac\\pi3+\\sin x\\sin\\frac\\pi3.\\]\nTherefore\n\\[\\cos\\left(x-\\frac\\pi3\\right)=\\frac12\\cos x+\\frac{\\sqrt3}{2}\\sin x.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-angle-addition-formulae-05",
-      "prompt": "Use \\(\\tan(a+b)=\\frac{\\tan a+\\tan b}{1-\\tan a\\tan b}\\) to find \\(\\tan75^\\circ\\).",
-      "answer": "Use \\(75^\\circ=45^\\circ+30^\\circ\\), with \\(\\tan45^\\circ=1\\) and \\(\\tan30^\\circ=1/\\sqrt3\\):\n\\[\n\\tan75^\\circ=\\frac{1+1/\\sqrt3}{1-1/\\sqrt3}\n\\]\nMultiply top and bottom by \\(\\sqrt3\\):\n\\[\n\\tan75^\\circ=\\frac{\\sqrt3+1}{\\sqrt3-1}=2+\\sqrt3\n\\]",
+      "id": "math-i-trigonometry-angle-addition-formulae-05",
+      "prompt": "Use exact values to find \\(\\sin\\left(\\frac\\pi4+\\frac\\pi6\\right)\\).",
+      "answer": "Use the sine addition formula:\n\\[\\sin\\left(\\frac\\pi4+\\frac\\pi6\\right)=\\sin\\frac\\pi4\\cos\\frac\\pi6+\\cos\\frac\\pi4\\sin\\frac\\pi6.\\]\nSubstitute values:\n\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-06",
+      "prompt": "Use exact values to find \\(\\cos\\left(\\frac\\pi4+\\frac\\pi6\\right)\\).",
+      "answer": "Use the cosine addition formula:\n\\[\\cos\\left(\\frac\\pi4+\\frac\\pi6\\right)=\\cos\\frac\\pi4\\cos\\frac\\pi6-\\sin\\frac\\pi4\\sin\\frac\\pi6.\\]\nSo\n\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}-\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6-\\sqrt2}{4}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-07",
+      "prompt": "Derive the double-angle formula for \\(\\sin(2A)\\) from the sine addition formula.",
+      "answer": "Start with\n\\[\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B.\\]\nSet \\(B=A\\):\n\\[\\sin(A+A)=\\sin A\\cos A+\\cos A\\sin A.\\]\nThus\n\\[\\sin(2A)=2\\sin A\\cos A.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-08",
+      "prompt": "Use a double-angle formula to find \\(\\sin(2x)\\) if \\(\\sin x=\\frac35\\) and \\(\\cos x=\\frac45\\).",
+      "answer": "Use\n\\[\\sin(2x)=2\\sin x\\cos x.\\]\nSubstitute:\n\\[\\sin(2x)=2\\left(\\frac35\\right)\\left(\\frac45\\right)=\\frac{24}{25}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-09",
+      "prompt": "Use the tangent addition formula to simplify \\(\\tan(A+B)\\) when \\(\\tan A=2\\) and \\(\\tan B=\\frac13\\).",
+      "answer": "The tangent addition formula is\n\\[\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}.\\]\nSubstitute:\n\\[\\tan(A+B)=\\frac{2+1/3}{1-2/3}=\\frac{7/3}{1/3}=7.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-angle-addition-formulae-06",
-      "prompt": "If \\(\\sin x=3/5\\), \\(\\cos x=4/5\\), \\(\\sin y=5/13\\), and \\(\\cos y=12/13\\), find \\(\\cos(x-y)\\).",
-      "answer": "Use the cosine difference formula:\n\\[\n\\cos(x-y)=\\cos x\\cos y+\\sin x\\sin y\n\\]\nSubstitute the given values:\n\\[\n\\cos(x-y)=\\frac45\\frac{12}{13}+\\frac35\\frac5{13}=\\frac{48+15}{65}=\\frac{63}{65}\n\\]",
+      "id": "math-i-trigonometry-angle-addition-formulae-10",
+      "prompt": "Use the cosine double-angle formula to find \\(\\cos(2x)\\) if \\(\\cos x=\\frac{5}{13}\\) and \\(\\sin x=\\frac{12}{13}\\).",
+      "answer": "Use\n\\[\\cos(2x)=\\cos^2x-\\sin^2x.\\]\nThen\n\\[\\cos(2x)=\\left(\\frac5{13}\\right)^2-\\left(\\frac{12}{13}\\right)^2=\\frac{25-144}{169}=-\\frac{119}{169}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-11",
+      "prompt": "Show that \\(\\cos(2A)=2\\cos^2A-1\\).",
+      "answer": "Start with\n\\[\\cos(2A)=\\cos^2A-\\sin^2A.\\]\nUse \\(\\sin^2A=1-\\cos^2A\\):\n\\[\\cos(2A)=\\cos^2A-(1-\\cos^2A).\\]\nSo\n\\[\\cos(2A)=2\\cos^2A-1.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-12",
+      "prompt": "Show that \\(\\cos(2A)=1-2\\sin^2A\\).",
+      "answer": "Start with\n\\[\\cos(2A)=\\cos^2A-\\sin^2A.\\]\nUse \\(\\cos^2A=1-\\sin^2A\\):\n\\[\\cos(2A)=(1-\\sin^2A)-\\sin^2A.\\]\nTherefore\n\\[\\cos(2A)=1-2\\sin^2A.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-13",
+      "prompt": "Find \\(\\tan(2x)\\) if \\(\\tan x=\\frac12\\).",
+      "answer": "Use\n\\[\\tan(2x)=\\frac{2\\tan x}{1-\\tanan^2x}.\\]\nSubstitute \\(\\tan x=\\frac12\\):\n\\[\\tan(2x)=\\frac{2(1/2)}{1-(1/2)^2}=\\frac1{1-1/4}=\\frac1{3/4}=\\frac43.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-14",
+      "prompt": "Find \\(\\cos\\left(\\frac\\pi{12}\\right)\\) by writing \\(\\frac\\pi{12}=\\frac\\pi4-\\frac\\pi6\\).",
+      "answer": "Use \\(\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B\\):\n\\[\\cos\\frac\\pi{12}=\\cos\\frac\\pi4\\cos\\frac\\pi6+\\sin\\frac\\pi4\\sin\\frac\\pi6.\\]\nSubstitute exact values:\n\\[=\\frac{\\sqrt2}{2}\\frac{\\sqrt3}{2}+\\frac{\\sqrt2}{2}\\frac12=\\frac{\\sqrt6+\\sqrt2}{4}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-15",
+      "prompt": "Use a half-angle formula to find \\(\\sin\\left(\\frac\\pi8\\right)\\).",
+      "answer": "Use\n\\[\\sin\\frac A2=\\pm\\sqrt{\\frac{1-\\cos A}{2}}.\\]\nLet \\(A=\\frac\\pi4\\). Since \\(\\frac\\pi8\\) is in quadrant I, choose the positive root:\n\\[\\sin\\frac\\pi8=\\sqrt{\\frac{1-\\sqrt2/2}{2}}=\\frac{\\sqrt{2-\\sqrt2}}{2}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-16",
+      "prompt": "For which values of \\(A\\) is the formula \\(\\tan(2A)=\\frac{2\\tan A}{1-\\tanan^2A}\\) undefined because of its denominator?",
+      "answer": "The displayed formula has denominator \\(1-\\tanan^2A\\). It is zero when\n\\[1-\\tanan^2A=0,\\]\nso\n\\[\\tan^2A=1,\\qquad \\tan A=\\pm1.\\]\nThus the formula is undefined at\n\\[A=\\frac\\pi4+\\frac{k\\pi}{2},\\quad k\\in\\mathbb Z,\\]\nwhere \\(2A\\) lands at an angle with undefined tangent.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-17",
+      "prompt": "A student writes \\(\\cos(A+B)=\\cos A\\cos B+\\sin A\\sin B\\). Diagnose the mistake using \\(A=B=\\frac\\pi4\\).",
+      "answer": "The correct formula is\n\\[\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B.\\]\nIf \\(A=B=\\frac\\pi4\\), then \\(A+B=\\frac\\pi2\\), so \\(\\cos(A+B)=0\\).\nThe student's formula gives\n\\[\\frac{\\sqrt2}{2}\\frac{\\sqrt2}{2}+\\frac{\\sqrt2}{2}\\frac{\\sqrt2}{2}=1,\\]\nwhich is false. The sign should be negative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-18",
+      "prompt": "Prove the identity \\(\\sin(A+B)+\\sin(A-B)=2\\sin A\\cos B\\).",
+      "answer": "Use the formulas\n\\[\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B\\]\nand\n\\[\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B.\\]\nAdd them:\n\\[\\sin(A+B)+\\sin(A-B)=2\\sin A\\cos B+0.\\]\nTherefore the identity is true.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-19",
+      "prompt": "Prove the identity \\(\\cos(A-B)-\\cos(A+B)=2\\sin A\\sin B\\).",
+      "answer": "Use\n\\[\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B\\]\nand\n\\[\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B.\\]\nSubtract:\n\\[\\cos(A-B)-\\cos(A+B)=2\\sin A\\sin B.\\]\nThe \\(\\cos A\\cos B\\) terms cancel.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-angle-addition-formulae-20",
+      "prompt": "The displacement of a simple oscillator is \\(x(t)=R\\cos(\\omega t+\\phi)\\). Expand it into a sum involving \\(\\cos(\\omega t)\\) and \\(\\sin(\\omega t)\\), and identify the coefficients.",
+      "answer": "Use\n\\[\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B.\\]\nWith \\(A=\\omega t\\) and \\(B=\\phi\\),\n\\[x(t)=R[\\cos(\\omega t)\\cos\\phi-\\sin(\\omega t)\\sin\\phi].\\]\nSo\n\\[x(t)=(R\\cos\\phi)\\cos(\\omega t)-(R\\sin\\phi)\\sin(\\omega t).\\]\nThe coefficients are \\(R\\cos\\phi\\) for \\(\\cos(\\omega t)\\) and \\(-R\\sin\\phi\\) for \\(\\sin(\\omega t)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

@@ -4,11 +4,11 @@ The exponential function extends naturally to complex arguments, providing power
 
 ### Definition
 
-For any complex number $z = x + iy$:
+For any complex number \(z = x + iy\):
 
 <Equation label="Complex Exponential" tex="e^z = e^{x+iy} = e^x(\cos y + i\sin y)" />
 
-This definition preserves the key property $e^{z_1 + z_2} = e^{z_1} \cdot e^{z_2}$.
+This definition preserves the key property \(e^{z_1 + z_2} = e^{z_1} \cdot e^{z_2}\).
 
 ### Properties
 
@@ -20,7 +20,7 @@ The complex exponential shares fundamental properties with its real counterpart:
 
 <Equation label="Periodicity" tex="e^{z + 2\pi i} = e^z" />
 
-The complex exponential is periodic with period $2\pi i$.
+The complex exponential is periodic with period \(2\pi i\).
 
 ### Relationship to De Moivre's Theorem
 
@@ -35,8 +35,8 @@ This unified view connects:
 
 ### Complex Powers
 
-For any complex base $a$ and exponent $b$:
+For any complex base \(a\) and exponent \(b\):
 
 <Equation label="Complex Power" tex="a^b = e^{b \ln a}" />
 
-where $\ln a$ is the complex logarithm, having infinitely many values due to the periodicity of the exponential.`;
+where \(\ln a\) is the complex logarithm, having infinitely many values due to the periodicity of the exponential.`;

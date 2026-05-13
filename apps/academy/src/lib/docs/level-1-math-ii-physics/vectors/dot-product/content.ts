@@ -28,7 +28,7 @@ Componentwise, when \(\mathbf a\) and \(\mathbf b\) are written in the same Cart
 
 A projection is the part of one vector in the direction of another. The scalar projection of \(\mathbf a\) onto non-zero \(\mathbf b\) is \( |\mathbf a|\cos\theta \), and the dot product equals this scalar projection multiplied by \( |\mathbf b| \).
 
-Orthogonal vectors meet at a right angle. For non-zero vectors, this means \(\theta=\frac\{\pi\}\{2\}\).
+Orthogonal vectors meet at a right angle. For non-zero vectors, this means \(\theta=\frac{\pi}{2}\).
 
 ## Method
 

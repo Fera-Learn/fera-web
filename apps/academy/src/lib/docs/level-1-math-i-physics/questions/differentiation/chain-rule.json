@@ -1,94 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "chain-rule",
   "topicTitle": "Chain Rule",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-chain-rule-01",
-      "prompt": "State the chain rule for differentiation.",
-      "answer": "If \\(y=f(u)\\) and \\(u=g(x)\\), then\n\\[\\frac{dy}{dx}=\\frac{dy}{du}\\cdot\\frac{du}{dx}\\]\nEquivalently: \\((f\\circ g)'(x)=f'(g(x))\\cdot g'(x)\\)",
+      "id": "math-i-differentiation-chain-rule-01",
+      "prompt": "State the chain rule for \\(y=f(u)\\) and \\(u=g(x)\\).",
+      "answer": "Since \\(y\\) depends on \\(u\\), and \\(u\\) depends on \\(x\\), multiply the rates:\n\\[\n\\frac{dy}{dx}=\\frac{dy}{du}\\frac{du}{dx}.\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-02",
-      "prompt": "Identify the outer and inner functions in \\((3x+1)^5\\).",
-      "answer": "The outer function is \\(u^5\\) and the inner function is \\(u=3x+1\\). We apply the power rule to the outer function and multiply by the derivative of the inner function.",
+      "id": "math-i-differentiation-chain-rule-02",
+      "prompt": "For \\(y=(3x+1)^5\\), identify a suitable inner function \\(u\\).",
+      "answer": "The outside function is raising to the fifth power. The expression inside it is \\(3x+1\\), so take\n\\[\nu=3x+1.\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-03",
-      "prompt": "Differentiate \\(F(x)=(2x+1)^4\\).",
-      "answer": "Let \\(u=2x+1\\). Then \\(F=u^4\\), so \\(dF/du=4u^3\\) and \\(du/dx=2\\).\n\\[F'(x)=4(2x+1)^3\\cdot2=8(2x+1)^3\\]",
+      "id": "math-i-differentiation-chain-rule-03",
+      "prompt": "Differentiate \\(y=(2x-7)^4\\).",
+      "answer": "Let \\(u=2x-7\\). Then \\(y=u^4\\), so \\(dy/du=4u^3\\) and \\(du/dx=2\\). Hence\n\\[\n\\frac{dy}{dx}=4(2x-7)^3\\cdot2=8(2x-7)^3.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-04",
+      "prompt": "Differentiate \\(y=\\sin(5x)\\).",
+      "answer": "Let \\(u=5x\\). Then \\(d(\\sin u)/du=\\cos u\\) and \\(du/dx=5\\). Therefore\n\\[\n\\frac{dy}{dx}=5\\cos(5x).\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-05",
+      "prompt": "Differentiate \\(f(x)=\\sqrt{4x+9}\\).",
+      "answer": "Write \\(f(x)=(4x+9)^{1/2}\\). The outer derivative gives \\(\\frac12(4x+9)^{-1/2}\\), then multiply by \\(4\\):\n\\[\nf'(x)=2(4x+9)^{-1/2}=\\frac{2}{\\sqrt{4x+9}}.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-04",
-      "prompt": "Find \\(\\frac{d}{dx}[\\sin(x^2)]\\).",
-      "answer": "The outer function is \\(\\sin u\\) with \\(u=x^2\\). The derivative of \\(\\sin u\\) is \\(\\cos u\\), and \\(du/dx=2x\\).\n\\[\\frac{d}{dx}[\\sin(x^2)]=\\cos(x^2)\\cdot2x=2x\\cos(x^2)\\]",
+      "id": "math-i-differentiation-chain-rule-06",
+      "prompt": "Differentiate \\(y=\\cos(x^2)\\).",
+      "answer": "Let \\(u=x^2\\). Then \\(dy/du=-\\sin u\\) and \\(du/dx=2x\\). Thus\n\\[\n\\frac{dy}{dx}=-\\sin(x^2)\\cdot2x=-2x\\sin(x^2).\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-05",
-      "prompt": "Differentiate \\(f(x)=\\cos(3x)\\).",
-      "answer": "Using the chain rule with outer \\(\\cos u\\) and inner \\(u=3x\\):\n\\[f'(x)=-\\sin(3x)\\cdot3=-3\\sin(3x)\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-chain-rule-06",
-      "prompt": "Find \\(\\frac{d}{dx}[\\sqrt{x^2+1}]\\) for \\(x>-1\\).",
-      "answer": "Write \\(\\sqrt{x^2+1}=(x^2+1)^{1/2}\\). Using the chain rule:\n\\[\\frac{d}{dx}=\\frac{1}{2}(x^2+1)^{-1/2}\\cdot2x=\\frac{x}{\\sqrt{x^2+1}}\\]",
+      "id": "math-i-differentiation-chain-rule-07",
+      "prompt": "Differentiate \\(y=(x^2+3x)^6\\).",
+      "answer": "Let \\(u=x^2+3x\\). Then \\(dy/du=6u^5\\) and \\(du/dx=2x+3\\). Therefore\n\\[\n\\frac{dy}{dx}=6(x^2+3x)^5(2x+3).\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-07",
-      "prompt": "A wave is described by \\(y=\\sin(2t+\\pi/4)\\). Find the velocity \\(dy/dt\\).",
-      "answer": "Using the chain rule with outer \\(\\sin u\\) and inner \\(u=2t+\\pi/4\\):\n\\[\\frac{dy}{dt}=\\cos(2t+\\pi/4)\\cdot2=2\\cos(2t+\\pi/4)\\]",
+      "id": "math-i-differentiation-chain-rule-08",
+      "prompt": "Differentiate \\(y=e^{2x^2-1}\\).",
+      "answer": "The derivative of \\(e^u\\) is \\(e^u\\). With \\(u=2x^2-1\\), \\(du/dx=4x\\). Hence\n\\[\n\\frac{dy}{dx}=4xe^{2x^2-1}.\n\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-08",
-      "prompt": "Differentiate \\(f(x)=\\sin^2(x)\\), i.e. \\([\\sin x]^2\\).",
-      "answer": "Treat as \\(u=\\sin x\\), so \\(f=u^2\\). Then\n\\[f'(x)=2u\\cdot u'=2\\sin x\\cdot\\cos x=\\sin(2x)\\]",
-      "rating": "**+",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-chain-rule-09",
-      "prompt": "Find \\(\\frac{d}{dx}[e^{x^2}]\\).",
-      "answer": "Using the chain rule with outer \\(e^u\\) and inner \\(u=x^2\\):\n\\[\\frac{d}{dx}[e^{x^2}]=e^{x^2}\\cdot2x=2xe^{x^2}\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-chain-rule-10",
-      "prompt": "Differentiate \\(F(x)=\\sin(\\cos x)\\).",
-      "answer": "Apply the chain rule twice. With outer \\(\\sin u\\) and inner \\(u=\\cos x\\):\n\\[F'(x)=\\cos(\\cos x)\\cdot(-\\sin x)=-\\sin x\\cos(\\cos x)\\]",
+      "id": "math-i-differentiation-chain-rule-09",
+      "prompt": "Differentiate \\(y=\\ln(1+3x^2)\\).",
+      "answer": "Let \\(u=1+3x^2\\). Then \\(d(\\ln u)/du=1/u\\) and \\(du/dx=6x\\). So\n\\[\n\\frac{dy}{dx}=\\frac{6x}{1+3x^2}.\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-11",
-      "prompt": "Use the chain rule to verify \\(\\frac{d}{dx}[\\ln(f(x))]=\\frac{f'(x)}{f(x)}\\) for \\(f(x)>0\\).",
-      "answer": "Let \\(u=f(x)\\). Then \\(\\ln(f(x))=\\ln u\\). The derivative of \\(\\ln u\\) is \\(1/u\\), and \\(du/dx=f'(x)\\).\n\\[\\frac{d}{dx}[\\ln(f(x))]=\\frac{1}{u}\\cdot\\frac{du}{dx}=\\frac{1}{f(x)}\\cdot f'(x)=\\frac{f'(x)}{f(x)}\\]",
+      "id": "math-i-differentiation-chain-rule-10",
+      "prompt": "Find \\(d(\\tan(4x-1))/dx\\).",
+      "answer": "Let \\(u=4x-1\\). Since \\(d(\\tan u)/du=\\sec^2u\\) and \\(du/dx=4\\),\n\\[\n\\frac{d}{dx}\\tan(4x-1)=4\\sec^2(4x-1).\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-chain-rule-12",
-      "prompt": "A car's position is \\(s(t)=(2t+1)^3\\). Find its velocity at \\(t=1\\).",
-      "answer": "Using the chain rule:\n\\[v(t)=\\frac{ds}{dt}=3(2t+1)^2\\cdot2=6(2t+1)^2\\]\nAt \\(t=1\\):\n\\[v(1)=6(3)^2=6\\cdot9=54\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-chain-rule-11",
+      "prompt": "Differentiate \\(y=\\sin^3(2x)\\), where \\(\\sin^3(2x)=(\\sin(2x))^3\\).",
+      "answer": "Let \\(u=\\sin(2x)\\), so \\(y=u^3\\). Then \\(dy/du=3u^2\\) and \\(du/dx=2\\cos(2x)\\). Hence\n\\[\n\\frac{dy}{dx}=6\\sin^2(2x)\\cos(2x).\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-12",
+      "prompt": "A position is \\(s(t)=(t^2+1)^4\\). Find the velocity \\(v(t)\\).",
+      "answer": "Velocity is \\(ds/dt\\). Let \\(u=t^2+1\\). Then \\(ds/du=4u^3\\) and \\(du/dt=2t\\). Therefore\n\\[\nv(t)=8t(t^2+1)^3.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-13",
+      "prompt": "Differentiate \\(y=\\sqrt{\\sin x}\\), stating where the derivative formula is defined.",
+      "answer": "Write \\(y=(\\sin x)^{1/2}\\). Then\n\\[\n\\frac{dy}{dx}=\\frac12(\\sin x)^{-1/2}\\cos x=\\frac{\\cos x}{2\\sqrt{\\sin x}}.\n\\]\nThis formula requires \\(\\sin x>0\\) because the denominator contains \\(\\sqrt{\\sin x}\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-14",
+      "prompt": "Differentiate \\(y=\\ln(\\cos x)\\), and state the needed domain condition.",
+      "answer": "Let \\(u=\\cos x\\). Then \\(d(\\ln u)/du=1/u\\) and \\(du/dx=-\\sin x\\), so\n\\[\n\\frac{dy}{dx}=\\frac{-\\sin x}{\\cos x}=-\\tan x.\n\\]\nThe logarithm requires \\(\\cos x>0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-15",
+      "prompt": "Differentiate \\(y=(1+x^2)^{-3}\\) and simplify without negative exponents.",
+      "answer": "Use the power chain rule with inner function \\(1+x^2\\):\n\\[\n\\frac{dy}{dx}=-3(1+x^2)^{-4}(2x)=-6x(1+x^2)^{-4}.\n\\]\nThus\n\\[\n\\frac{dy}{dx}=\\frac{-6x}{(1+x^2)^4}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-16",
+      "prompt": "For \\(y=(a x+b)^n\\), where \\(a,b,n\\) are constants, find \\(dy/dx\\).",
+      "answer": "Let \\(u=ax+b\\). Then \\(dy/du=nu^{n-1}\\) and \\(du/dx=a\\). Therefore\n\\[\n\\frac{dy}{dx}=an(ax+b)^{n-1}.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-17",
+      "prompt": "Differentiate \\(y=\\sin((3x+1)^2)\\).",
+      "answer": "There are two inner layers. Let \\(u=(3x+1)^2\\). Then\n\\[\n\\frac{dy}{dx}=\\cos(u)\\frac{du}{dx}.\n\\]\nNow \\(du/dx=2(3x+1)\\cdot3=6(3x+1)\\). Hence\n\\[\n\\frac{dy}{dx}=6(3x+1)\\cos((3x+1)^2).\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-18",
+      "prompt": "A student writes \\(d(\\sin(x^2))/dx=\\cos x^2\\). Explain the error and give the correct derivative.",
+      "answer": "The student differentiated the outside sine but missed the derivative of the inside \\(x^2\\). By the chain rule,\n\\[\n\\frac{d}{dx}\\sin(x^2)=\\cos(x^2)\\cdot2x=2x\\cos(x^2).\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-19",
+      "prompt": "Find all \\(x\\) where the tangent to \\(y=(x^2-4)^3\\) is horizontal.",
+      "answer": "A horizontal tangent has \\(dy/dx=0\\). By the chain rule,\n\\[\n\\frac{dy}{dx}=3(x^2-4)^2(2x)=6x(x^2-4)^2.\n\\]\nSo \\(6x(x^2-4)^2=0\\), giving\n\\[\nx=0,\\quad x=2,\\quad x=-2.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-chain-rule-20",
+      "prompt": "Show why the derivative of \\(f(g(x))\\) is not usually \\(f'(x)g'(x)\\). Use \\(f(u)=u^2\\), \\(g(x)=3x+1\\).",
+      "answer": "Here \\(f(g(x))=(3x+1)^2\\). The chain rule gives\n\\[\n\\frac{d}{dx}(3x+1)^2=2(3x+1)\\cdot3=6(3x+1).\n\\]\nBut \\(f'(x)g'(x)=2x\\cdot3=6x\\). These differ because \\(f'\\) must be evaluated at the inner value \\(g(x)\\), not at \\(x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

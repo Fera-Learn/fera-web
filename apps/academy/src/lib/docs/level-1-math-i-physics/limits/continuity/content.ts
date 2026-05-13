@@ -10,7 +10,7 @@ A function f is continuous at x = a if:
 
 This requires three conditions:
 1. f(a) is defined
-2. $\lim_{x \to a} f(x)$ exists
+2. \(\lim_{x \to a} f(x)\) exists
 3. The limit equals the function value
 
 ### Types of Discontinuities

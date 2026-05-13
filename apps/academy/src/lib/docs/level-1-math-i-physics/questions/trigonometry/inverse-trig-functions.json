@@ -1,52 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "trigonometry",
   "topicId": "inverse-trig-functions",
   "topicTitle": "Inverse Trig Functions",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-inverse-trig-functions-01",
-      "prompt": "Evaluate \\(\\arcsin(-\\sqrt3/2)\\).",
-      "answer": "The principal range of arcsine is \\([-\\pi/2,\\pi/2]\\). In that interval, the angle with sine \\(-\\sqrt3/2\\) is\n\\[\n-\\frac{\\pi}{3}\n\\]\nTherefore\n\\[\n\\arcsin(-\\sqrt3/2)=-\\frac{\\pi}{3}\n\\]",
+      "id": "math-i-trigonometry-inverse-trig-functions-01",
+      "prompt": "What does \\(\\arcsin x\\) mean?",
+      "answer": "\\(\\arcsin x\\) is the angle \\(\\theta\\) in the principal range such that\n\\[\\sin\\theta=x.\\]\nIts domain is \\([-1,1]\\), and its range is \\(\\left[-\\frac\\pi2,\\frac\\pi2\\right]\\).",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-trig-functions-02",
-      "prompt": "Evaluate \\(\\arccos(0)\\).",
-      "answer": "The principal range of arccosine is \\([0,\\pi]\\). The angle in that interval with cosine \\(0\\) is\n\\[\n\\frac{\\pi}{2}\n\\]\nso \\(\\arccos(0)=\\pi/2\\).",
+      "id": "math-i-trigonometry-inverse-trig-functions-02",
+      "prompt": "State the principal range of \\(\\arccos x\\).",
+      "answer": "The principal range of \\(\\arccos x\\) is\n\\[[0,\\pi].\\]\nThis restriction makes cosine one-to-one for the inverse function.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-trig-functions-03",
-      "prompt": "Evaluate \\(\\arctan(-1)\\).",
-      "answer": "The principal range of arctangent is \\((-\\pi/2,\\pi/2)\\). The angle in that interval with tangent \\(-1\\) is\n\\[\n-\\frac{\\pi}{4}\n\\]",
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-trigonometry-inverse-trig-functions-03",
+      "prompt": "Evaluate \\(\\arcsin\\left(\\frac12\\right)\\).",
+      "answer": "We need the principal angle whose sine is \\(\\frac12\\). Since\n\\[\\sin\\frac\\pi6=\\frac12\\]\nand \\(\\frac\\pi6\\in\\left[-\\frac\\pi2,\\frac\\pi2\\right]\\),\n\\[\\arcsin\\left(\\frac12\\right)=\\frac\\pi6.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-trig-functions-04",
-      "prompt": "Solve \\(\\sin\\theta=1/2\\) for \\(0\\le\\theta<2\\pi\\).",
-      "answer": "The principal angle is \\(\\arcsin(1/2)=\\pi/6\\). Sine is positive in quadrants I and II, so within one full turn\n\\[\n\\theta=\\frac{\\pi}{6},\\qquad \\theta=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}\n\\]",
+      "id": "math-i-trigonometry-inverse-trig-functions-04",
+      "prompt": "Evaluate \\(\\arctan(1)\\).",
+      "answer": "We need the principal angle whose tangent is \\(1\\). Since\n\\[\\tan\\frac\\pi4=1\\]\nand \\(\\frac\\pi4\\in\\left(-\\frac\\pi2,\\frac\\pi2\\right)\\),\n\\[\\arctan(1)=\\frac\\pi4.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-05",
+      "prompt": "Evaluate \\(\\arccos\\left(-\\frac12\\right)\\).",
+      "answer": "The principal range of arccos is \\([0,\\pi]\\). In that interval,\n\\[\\cos\\frac{2\\pi}{3}=-\\frac12.\\]\nTherefore\n\\[\\arccos\\left(-\\frac12\\right)=\\frac{2\\pi}{3}.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-trig-functions-05",
-      "prompt": "Solve \\(\\cos\\theta=-\\sqrt2/2\\) for all real \\(\\theta\\).",
-      "answer": "The principal arccosine value is \\(3\\pi/4\\). Cosine has the same value at the symmetric angle \\(-3\\pi/4\\), then repeats every \\(2\\pi\\). Hence\n\\[\n\\theta=\\pm\\frac{3\\pi}{4}+2\\pi k,\\qquad k\\in\\mathbb Z\n\\]",
+      "id": "math-i-trigonometry-inverse-trig-functions-06",
+      "prompt": "Find \\(\\sin(\\arccos x)\\) for \\(-1\\le x\\le1\\).",
+      "answer": "Let \\(\\theta=\\arccos x\\). Then \\(\\cos\\theta=x\\) and \\(\\theta\\in[0,\\pi]\\).\nUsing \\(\\sin^2\\theta+\\cos^2\\theta=1\\),\n\\[\\sin^2\\theta=1-x^2.\\]\nSince \\(\\theta\\in[0,\\pi]\\), \\(\\sin\\theta\\ge0\\). Thus\n\\[\\sin(\\arccos x)=\\sqrt{1-x^2}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-07",
+      "prompt": "Solve \\(\\sin\\theta=\\frac{\\sqrt2}{2}\\) for the principal value \\(\\theta=\\arcsin\\left(\\frac{\\sqrt2}{2}\\right)\\).",
+      "answer": "The arcsine principal range is \\(\\left[-\\frac\\pi2,\\frac\\pi2\\right]\\). In that range,\n\\[\\sin\\frac\\pi4=\\frac{\\sqrt2}{2}.\\]\nTherefore the principal value is\n\\[\\theta=\\frac\\pi4.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-inverse-trig-functions-06",
-      "prompt": "A vector has components \\(x=-3\\) and \\(y=4\\). Why is \\(\\arctan(y/x)\\) alone not enough to identify its direction from the positive \\(x\\)-axis?",
-      "answer": "Here\n\\[\n\\frac{y}{x}=\\frac{4}{-3}=-\\frac43\n\\]\nThe value \\(\\arctan(-4/3)\\) lies in the principal arctangent range, which is quadrant IV. But the vector \\((-3,4)\\) is in quadrant II. The ratio gives the tangent, but the signs of both components are needed to choose the correct quadrant.",
+      "id": "math-i-trigonometry-inverse-trig-functions-08",
+      "prompt": "Evaluate \\(\\arcsin(\\sin(\\frac{5\\pi}{6}))\\).",
+      "answer": "First compute the sine:\n\\[\\sin\\frac{5\\pi}{6}=\\frac12.\\]\nThen take the principal arcsine:\n\\[\\arcsin\\left(\\frac12\\right)=\\frac\\pi6.\\]\nSo \\(\\arcsin(\\sin(\\frac{5\\pi}{6}))=\\frac\\pi6\\), not \\(\\frac{5\\pi}{6}\\), because arcsine returns a principal value.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-09",
+      "prompt": "Find \\(\\cos(\\arcsin x)\\) for \\(-1\\le x\\le1\\).",
+      "answer": "Let \\(\\theta=\\arcsin x\\). Then \\(\\sin\\theta=x\\) and \\(\\theta\\in\\left[-\\frac\\pi2,\\frac\\pi2\\right]\\).\nUsing \\(\\sin^2\\theta+\\cos^2\\theta=1\\),\n\\[\\cos^2\\theta=1-x^2.\\]\nOn the arcsine range, \\(\\cos\\theta\\ge0\\), so\n\\[\\cos(\\arcsin x)=\\sqrt{1-x^2}.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-10",
+      "prompt": "Find \\(\\tan(\\arcsin x)\\) for \\(-1<x<1\\).",
+      "answer": "Let \\(\\theta=\\arcsin x\\). Then \\(\\sin\\theta=x\\).\nFrom the principal range, \\(\\cos\\theta=\\sqrt{1-x^2}\\).\nTherefore\n\\[\\tan(\\arcsin x)=\\frac{\\sin\\theta}{\\cos\\theta}=\\frac{x}{\\sqrt{1-x^2}}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-11",
+      "prompt": "Explain why \\(\\arcsin(2)\\) is not a real number.",
+      "answer": "The sine of a real angle is always between \\(-1\\) and \\(1\\):\n\\[-1\\le\\sin\\theta\\le1.\\]\nThere is no real angle \\(\\theta\\) with \\(\\sin\\theta=2\\).\nTherefore \\(\\arcsin(2)\\) is outside the real domain of arcsine.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-12",
+      "prompt": "Show that \\(\\arcsin x+\\arccos x=\\frac\\pi2\\) for \\(-1\\le x\\le1\\).",
+      "answer": "Let \\(\\alpha=\\arcsin x\\), so \\(\\sin\\alpha=x\\).\nThe angle \\(\\frac\\pi2-\\alpha\\) has cosine\n\\[\\cos\\left(\\frac\\pi2-\\alpha\\right)=\\sin\\alpha=x.\\]\nThis angle lies in the arccos range \\([0,\\pi]\\). Hence\n\\[\\arccos x=\\frac\\pi2-\\alpha.\\]\nSo \\(\\arcsin x+\\arccos x=\\frac\\pi2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-13",
+      "prompt": "Find the angle \\(\\theta\\) in \\((-\\frac\\pi2,\\frac\\pi2)\\) whose tangent is \\(-\\sqrt3\\).",
+      "answer": "The reference angle with tangent \\(\\sqrt3\\) is \\(\\frac\\pi3\\).\nBecause tangent is negative in the principal arctangent range for negative angles,\n\\[\\theta=-\\frac\\pi3.\\]\nSo\n\\[\\arctan(-\\sqrt3)=-\\frac\\pi3.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-14",
+      "prompt": "Find \\(\\arctan\\left(\\frac{y}{x}\\right)\\) for \\(x=3\\), \\(y=3\\), and state what angle it gives.",
+      "answer": "Compute the ratio:\n\\[\\frac yx=\\frac33=1.\\]\nThen\n\\[\\arctan(1)=\\frac\\pi4.\\]\nThis gives the principal angle whose tangent is the slope \\(y/x\\), which is a \\(45^\\circ\\) direction or \\(\\frac\\pi4\\) radians.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-15",
+      "prompt": "Solve \\(\\arccos x=\\frac{2\\pi}{3}\\).",
+      "answer": "Apply cosine to both sides within the principal range:\n\\[x=\\cos\\frac{2\\pi}{3}.\\]\nSince\n\\[\\cos\\frac{2\\pi}{3}=-\\frac12,\\]\nthe solution is\n\\[x=-\\frac12.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-16",
+      "prompt": "Find all real \\(x\\) for which \\(\\arcsin x\\) and \\(\\arccos x\\) are both defined.",
+      "answer": "Both arcsine and arccosine require their input to be between \\(-1\\) and \\(1\\).\nThus the shared domain is\n\\[-1\\le x\\le1.\\]\nSo both functions are defined exactly for\n\\[x\\in[-1,1].\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-17",
+      "prompt": "A student says \\(\\sin^{-1}x=\\frac1{\\sin x}\\). Explain the notation error in the context of inverse trig functions.",
+      "answer": "In inverse trigonometry, \\(\\sin^{-1}x\\) usually means \\(\\arcsin x\\), not the reciprocal of \\(\\sin x\\).\nSo\n\\[\\sin^{-1}x=\\arcsin x\\]\nmeans the angle whose sine is \\(x\\).\nThe reciprocal of \\(\\sin x\\) is written\n\\[\\csc x=\\frac1{\\sin x}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-18",
+      "prompt": "Prove that \\(\\tan(\\arctan x)=x\\) for every real \\(x\\), and explain why the reverse \\(\\arctan(\\tan\\theta)=\\theta\\) needs a restriction.",
+      "answer": "Let \\(\\alpha=\\arctan x\\). By definition, \\(\\tan\\alpha=x\\), so\n\\[\\tan(\\arctan x)=x.\\]\nFor the reverse, \\(\\arctan\\) only returns angles in\n\\[\\left(-\\frac\\pi2,\\frac\\pi2\\right).\\]\nThus \\(\\arctan(\\tan\\theta)=\\theta\\) only when \\(\\theta\\) lies in that principal range.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-19",
+      "prompt": "Evaluate \\(\\arccos(\\cos(\\frac{5\\pi}{3}))\\) and explain the principal-value issue.",
+      "answer": "First\n\\[\\cos\\frac{5\\pi}{3}=\\frac12.\\]\nThen\n\\[\\arccos\\left(\\frac12\\right)=\\frac\\pi3,\\]\nbecause \\(\\frac\\pi3\\) lies in the arccos principal range \\([0,\\pi]\\).\nThe result is not \\(\\frac{5\\pi}{3}\\), since \\(\\frac{5\\pi}{3}\\) is outside the principal range.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-trigonometry-inverse-trig-functions-20",
+      "prompt": "A vector has components \\((-1,1)\\). Explain why \\(\\arctan(y/x)\\) alone does not identify its quadrant, and find the correct direction angle in \\([0,2\\pi)\\).",
+      "answer": "Here\n\\[\\frac yx=\\frac1{-1}=-1,\\]\nso \\(\\arctan(y/x)=\\arctan(-1)=-\\frac\\pi4\\), a quadrant IV angle.\nBut the vector \\((-1,1)\\) is in quadrant II. The reference angle is \\(\\frac\\pi4\\), so the direction angle is\n\\[\\pi-\\frac\\pi4=\\frac{3\\pi}{4}.\\]\nThe ratio gives the slope, but the signs of \\(x\\) and \\(y\\) are needed for the quadrant.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

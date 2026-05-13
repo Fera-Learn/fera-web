@@ -4,11 +4,11 @@ The Fundamental Theorem of Calculus (FTC) establishes the profound connection be
 
 ### Part 1: The Integral as an Antiderivative
 
-If $f$ is continuous on $[a,b]$, define:
+If \(f\) is continuous on \([a,b]\), define:
 
 <Equation label="FTC Part 1" tex="F(x) = \int_a^x f(t) \, dt" />
 
-Then $F$ is differentiable and $F'(x) = f(x)$.
+Then \(F\) is differentiable and \(F'(x) = f(x)\).
 
 This tells us that **integration can be reversed by differentiation**.
 
@@ -16,7 +16,7 @@ This tells us that **integration can be reversed by differentiation**.
 
 ### Part 2: Evaluation Theorem
 
-If $f$ is continuous on $[a,b]$ and $F$ is any antiderivative of $f$, then:
+If \(f\) is continuous on \([a,b]\) and \(F\) is any antiderivative of \(f\), then:
 
 <Equation label="FTC Part 2" tex="\int_a^b f(x) \, dx = F(b) - F(a)" />
 
@@ -31,7 +31,7 @@ The FTC allows us to:
 
 ### Example Using FTC Part 2
 
-Evaluate $\int_1^4 (2x + 1) \, dx$:
+Evaluate \(\int_1^4 (2x + 1) \, dx\):
 
 <Equation label="Example" tex="\int (2x + 1) \, dx = x^2 + x + C" />
 

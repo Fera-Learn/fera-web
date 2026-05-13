@@ -360,11 +360,13 @@ function PrintPageView({
   sheet: Level1PhysicsEquationSheet;
   totalPages: number;
 }) {
+  const courseTitle = sheet.title.replace(/\s+Equation Sheet$/u, "");
+
   return (
     <section className="equation-sheet-print-page">
       <header className="equation-sheet-print-header">
         <div>
-          <p>Level 1 - Physics</p>
+          <p>{courseTitle}</p>
           <h1>Equation Sheet</h1>
         </div>
         <div>

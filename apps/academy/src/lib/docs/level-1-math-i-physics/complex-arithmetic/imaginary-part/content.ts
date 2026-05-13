@@ -4,11 +4,11 @@ The imaginary part function extracts the imaginary coefficient of a complex numb
 
 ### Definition
 
-For $z = a + bi$:
+For \(z = a + bi\):
 
 <Equation label="Definition" tex="\text{Im}(z) = b" />
 
-Note: $\text{Im}(z)$ is a real number, not $bi$.
+Note: \(\text{Im}(z)\) is a real number, not \(bi\).
 
 ### Properties
 
@@ -24,7 +24,7 @@ Note: $\text{Im}(z)$ is a real number, not $bi$.
 
 ### In Polar Form
 
-If $z = re^{i\theta}$:
+If \(z = re^{i\theta}\):
 
 <Equation label="PolarIm" tex="\text{Im}(z) = r\sin\theta" />
 

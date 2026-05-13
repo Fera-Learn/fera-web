@@ -1,80 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "product-rule",
   "topicTitle": "Product Rule",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "math-i-product-rule-01",
-      "prompt": "State the product rule for differentiation in terms of f and g.",
-      "answer": "The product rule states:\n\\[\\frac{d}{dx}[f(x)g(x)]=f'(x)g(x)+f(x)g'(x)\\]\nor equivalently \\((fg)'=f'g+fg'\\).",
+      "id": "math-i-differentiation-product-rule-01",
+      "prompt": "State the product rule for differentiating \\(f(x)g(x)\\).",
+      "answer": "The product rule is\n\\[\\frac{d}{dx}[f(x)g(x)]=f'(x)g(x)+f(x)g'(x).\\]\nDifferentiate one factor at a time and add the two terms.",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-product-rule-02",
-      "prompt": "Differentiate \\(f(x)=x^2\\sin x\\).",
-      "answer": "Let \\(u=x^2\\) and \\(v=\\sin x\\). Then \\(u'=2x\\) and \\(v'=\\cos x\\).\n\\[f'(x)=u'v+uv'=2x\\sin x+x^2\\cos x\\]",
+      "id": "math-i-differentiation-product-rule-02",
+      "prompt": "In the product rule, what are the two terms for \\(u(x)v(x)\\)?",
+      "answer": "They are \\(u'(x)v(x)\\) and \\(u(x)v'(x)\\). Therefore\n\\[\\frac{d}{dx}[uv]=u'v+uv'.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-03",
+      "prompt": "Differentiate \\(x\\sin x\\).",
+      "answer": "Let \\(u=x\\), \\(v=\\sin x\\). Then \\(u'=1\\), \\(v'=\\cos x\\). Product rule:\n\\[\\frac{d}{dx}(x\\sin x)=1\\cdot\\sin x+x\\cos x.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-04",
+      "prompt": "Differentiate \\(x e^x\\).",
+      "answer": "Let \\(u=x\\), \\(v=e^x\\). Then \\(u'=1\\) and \\(v'=e^x\\). Thus\n\\[\\frac{d}{dx}(xe^x)=e^x+xe^x.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-05",
+      "prompt": "Differentiate \\(x^2\\sin x\\).",
+      "answer": "Let \\(u=x^2\\), \\(v=\\sin x\\). Then \\(u'=2x\\), \\(v'=\\cos x\\).\n\\[\\frac{d}{dx}(x^2\\sin x)=2x\\sin x+x^2\\cos x.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-product-rule-03",
-      "prompt": "Find \\(\\frac{d}{dx}(x\\cos x)\\).",
-      "answer": "Using the product rule with \\(u=x\\) and \\(v=\\cos x\\):\n\\[\\frac{d}{dx}(x\\cos x)=1\\cdot\\cos x+x\\cdot(-\\sin x)=\\cos x-x\\sin x\\]",
+      "id": "math-i-differentiation-product-rule-06",
+      "prompt": "Differentiate \\((x^3)(e^x)\\).",
+      "answer": "Use \\(u=x^3\\), \\(v=e^x\\). Then \\(u'=3x^2\\), \\(v'=e^x\\).\n\\[\\frac{d}{dx}(x^3e^x)=3x^2e^x+x^3e^x.\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-product-rule-04",
-      "prompt": "If \\(y=t^2\\cdot e^t\\), find \\(dy/dt\\).",
-      "answer": "Using the product rule:\n\\[\\frac{dy}{dt}=2t\\cdot e^t+t^2\\cdot e^t=(2t+t^2)e^t\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-product-rule-05",
-      "prompt": "Differentiate \\(f(x)=\\sin x\\cos x\\).",
-      "answer": "Using the product rule:\n\\[f'(x)=\\cos x\\cos x+\\sin x(-\\sin x)=\\cos^2x-\\sin^2x\\]",
+      "id": "math-i-differentiation-product-rule-07",
+      "prompt": "Differentiate \\((x^2+1)\\cos x\\).",
+      "answer": "Let \\(u=x^2+1\\), \\(v=\\cos x\\). Then \\(u'=2x\\), \\(v'=-\\sin x\\).\n\\[\\frac{d}{dx}[(x^2+1)\\cos x]=2x\\cos x-(x^2+1)\\sin x.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-product-rule-06",
-      "prompt": "Find \\(\\frac{d}{dx}(x^3\\ln x)\\) for \\(x>0\\).",
-      "answer": "Using the product rule with \\(u=x^3\\) and \\(v=\\ln x\\):\n\\[\\frac{d}{dx}=3x^2\\ln x+x^3\\cdot\\frac{1}{x}=3x^2\\ln x+x^2=x^2(3\\ln x+1)\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-product-rule-07",
-      "prompt": "A rectangle has sides changing as \\(l(t)=2t+1\\) and \\(w(t)=t^2\\). Find the rate of change of the area.",
-      "answer": "Area \\(A=lw\\). Using the product rule:\n\\[\\frac{dA}{dt}=\\frac{dl}{dt}\\cdot w+l\\cdot\\frac{dw}{dt}=2\\cdot t^2+(2t+1)\\cdot2t=2t^2+4t^2+2t=6t^2+2t\\]",
-      "rating": "***",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-product-rule-08",
-      "prompt": "Why is \\((fg)'\\ne f'\\cdot g'\\) in general? Give an example.",
-      "answer": "Consider \\(f(x)=x\\) and \\(g(x)=x\\). Then \\((fg)'=(x^2)'=2x\\). But \\(f'g'=1\\cdot x=x\\). Since \\(2x\\ne x\\) for most x, the product of derivatives is not generally equal to the derivative of the product.",
+      "id": "math-i-differentiation-product-rule-08",
+      "prompt": "Differentiate \\((3x-1)\\ln x\\) for \\(x>0\\).",
+      "answer": "Let \\(u=3x-1\\), \\(v=\\ln x\\). Then \\(u'=3\\), \\(v'=1/x\\).\n\\[\\frac{d}{dx}[(3x-1)\\ln x]=3\\ln x+\\frac{3x-1}{x}.\\]",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "math-i-product-rule-09",
-      "prompt": "Differentiate \\(f(t)=(t+1)(t^2-2t+1)\\).",
-      "answer": "First note that \\(t^2-2t+1=(t-1)^2\\). Using the product rule:\n\\[f'(t)=1\\cdot(t^2-2t+1)+(t+1)\\cdot(2t-2)\\]\n\\[=t^2-2t+1+2t^2-2t+2t-2=(3t^2-2t-1)\\]\nOr expand first: \\(f(t)=t^3-t^2-t+1\\), so \\(f'(t)=3t^2-2t-1\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "math-i-product-rule-10",
-      "prompt": "Write the product rule for three functions: \\((uvw)'\\).",
-      "answer": "Differentiating one factor at a time while keeping the others unchanged:\n\\[\\frac{d}{dx}(uvw)=\\frac{du}{dx}vw+u\\frac{dv}{dx}w+uv\\frac{dw}{dx}\\]\nor equivalently \\((uvw)'=u'vw+uv'w+uvw'\\).",
+      "id": "math-i-differentiation-product-rule-09",
+      "prompt": "Find \\(f'(1)\\) for \\(f(x)=x^2e^x\\).",
+      "answer": "Differentiate first:\n\\[f'(x)=2xe^x+x^2e^x.\\]\nAt \\(x=1\\),\n\\[f'(1)=2e+e=3e.\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-10",
+      "prompt": "Differentiate \\(x^2(x^3+1)\\) using the product rule, then simplify.",
+      "answer": "Let \\(u=x^2\\), \\(v=x^3+1\\). Then\n\\[y'=2x(x^3+1)+x^2(3x^2).\\]\nExpand:\n\\[y'=2x^4+2x+3x^4=5x^4+2x.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-11",
+      "prompt": "Differentiate \\((x^2+2x)(\\sin x+1)\\).",
+      "answer": "Let \\(u=x^2+2x\\), \\(v=\\sin x+1\\). Then \\(u'=2x+2\\), \\(v'=\\cos x\\).\n\\[y'=(2x+2)(\\sin x+1)+(x^2+2x)\\cos x.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-12",
+      "prompt": "Explain why \\(\\frac{d}{dx}[f(x)g(x)]\\) is not generally \\(f'(x)g'(x)\\).",
+      "answer": "A product changes when either factor changes. The product rule accounts for both effects:\n\\[(fg)'=f'g+fg'.\\]\nFor example, if \\(f=g=x\\), then \\(fg=x^2\\) has derivative \\(2x\\), but \\(f'g'=1\\cdot1=1\\), which is not generally equal to \\(2x\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-13",
+      "prompt": "Differentiate \\(x\\sin x\\cos x\\).",
+      "answer": "For three factors, differentiate one at a time:\n\\[y'=1\\cdot\\sin x\\cos x+x\\cos x\\cos x+x\\sin x(-\\sin x).\\]\nSo\n\\[y'=\\sin x\\cos x+x\\cos^2x-x\\sin^2x.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-14",
+      "prompt": "Differentiate \\((x^2+1)e^x\\sin x\\).",
+      "answer": "Use the three-factor product rule with \\(u=x^2+1\\), \\(v=e^x\\), \\(w=\\sin x\\):\n\\[y'=u'vw+uv'w+uvw'.\\]\nThus\n\\[y'=2xe^x\\sin x+(x^2+1)e^x\\sin x+(x^2+1)e^x\\cos x.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-15",
+      "prompt": "Find \\(a\\) if \\(f(x)=(ax+1)e^x\\) has \\(f'(0)=5\\).",
+      "answer": "Product rule gives\n\\[f'(x)=a e^x+(ax+1)e^x.\\]\nAt \\(x=0\\), \\(f'(0)=a+1\\). Set \\(a+1=5\\), so \\(a=4\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-16",
+      "prompt": "Find all \\(x\\) where \\(f(x)=x e^x\\) has a horizontal tangent.",
+      "answer": "Differentiate:\n\\[f'(x)=e^x+xe^x=e^x(1+x).\\]\nSince \\(e^x\\ne0\\), set \\(1+x=0\\). Thus the horizontal tangent occurs at \\(x=-1\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-17",
+      "prompt": "Find \\(k\\) if \\(f(x)=x^2(kx+1)\\) has \\(f'(1)=10\\).",
+      "answer": "Use product rule:\n\\[f'(x)=2x(kx+1)+x^2k.\\]\nAt \\(x=1\\),\n\\[f'(1)=2(k+1)+k=3k+2.\\]\nSet \\(3k+2=10\\), so \\(k=8/3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-18",
+      "prompt": "A student differentiates \\(x^2\\sin x\\) as \\(2x\\cos x\\). Identify the error and correct derivative.",
+      "answer": "The student multiplied the derivatives of the two factors, which is not the product rule. Correctly,\n\\[\\frac{d}{dx}(x^2\\sin x)=2x\\sin x+x^2\\cos x.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-19",
+      "prompt": "Derive the product rule from the difference quotient in outline form.",
+      "answer": "Start with\n\\[\\frac{f(x+h)g(x+h)-f(x)g(x)}{h}.\\]\nAdd and subtract \\(f(x+h)g(x)\\) in the numerator:\n\\[\\frac{f(x+h)[g(x+h)-g(x)]+g(x)[f(x+h)-f(x)]}{h}.\\]\nSplit the fraction and let \\(h\\to0\\): \\(f(x+h)\\to f(x)\\), so the limit is \\(f(x)g'(x)+g(x)f'(x)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-product-rule-20",
+      "prompt": "When is expanding before differentiating \\(x^2(x^3+1)\\) equivalent to using the product rule? Explain.",
+      "answer": "It is equivalent when the algebraic expansion is valid on the same domain. Here \\(x^2(x^3+1)=x^5+x^2\\) for all real \\(x\\). Differentiating gives \\(5x^4+2x\\), the same as product rule. The product rule is still needed when expansion is awkward or impossible, such as \\(x^2\\sin x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

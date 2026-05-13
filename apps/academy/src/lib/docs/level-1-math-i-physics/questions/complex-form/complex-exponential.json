@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-form",
+  "topicId": "complex-exponential",
+  "topicTitle": "Complex Exponential",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-form-complex-exponential-01",
+      "prompt": "State the definition of \\(e^{x+iy}\\) for real \\(x\\) and \\(y\\).",
+      "answer": "For real \\(x\\) and \\(y\\), the complex exponential is defined by\n\\[\ne^{x+iy}=e^x(\\cos y+i\\sin y).\n\\]\nThe real part \\(x\\) controls the scale \\(e^x\\), and the imaginary part \\(y\\) controls the angle.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-02",
+      "prompt": "What is the period of the complex exponential in the imaginary direction?",
+      "answer": "The complex exponential has period \\(2\\pi i\\):\n\\[\ne^{z+2\\pi i}=e^z.\n\\]\nThis is because\n\\[\ne^{2\\pi i}=\\cos 2\\pi+i\\sin2\\pi=1.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-03",
+      "prompt": "Evaluate \\(e^{i\\pi/2}\\).",
+      "answer": "Use Euler form:\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nWith \\(\\theta=\\pi/2\\),\n\\[\ne^{i\\pi/2}=0+i(1)=i.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-04",
+      "prompt": "Evaluate \\(e^{2+i0}\\).",
+      "answer": "Use\n\\[\ne^{x+iy}=e^x(\\cos y+i\\sin y).\n\\]\nHere \\(x=2\\) and \\(y=0\\), so\n\\[\ne^{2+i0}=e^2(1+0i)=e^2.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-05",
+      "prompt": "Write \\(e^{1+i\\pi}\\) in Cartesian form.",
+      "answer": "Use\n\\[\ne^{1+i\\pi}=e(\\cos\\pi+i\\sin\\pi).\n\\]\nSince \\(\\cos\\pi=-1\\) and \\(\\sin\\pi=0\\),\n\\[\ne^{1+i\\pi}=e(-1+0i)=-e.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-06",
+      "prompt": "Find the modulus of \\(e^{3-2i}\\).",
+      "answer": "Use\n\\[\ne^{3-2i}=e^3(\\cos(-2)+i\\sin(-2)).\n\\]\nThe factor in parentheses has modulus \\(1\\).\nTherefore\n\\[\n|e^{3-2i}|=e^3.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-07",
+      "prompt": "Find the principal argument of \\(e^{-1+i5\\pi/6}\\).",
+      "answer": "The number is\n\\[\ne^{-1}(\\cos(5\\pi/6)+i\\sin(5\\pi/6)).\n\\]\nThe positive factor \\(e^{-1}\\) does not change direction.\nSince \\(5\\pi/6\\in(-\\pi,\\pi]\\),\n\\[\n\\operatorname{Arg}(e^{-1+i5\\pi/6})=\\frac{5\\pi}{6}.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-08",
+      "prompt": "Simplify \\(e^{2+i\\pi/3}e^{-1+i\\pi/6}\\).",
+      "answer": "Use \\(e^a e^b=e^{a+b}\\):\n\\[\ne^{2+i\\pi/3}e^{-1+i\\pi/6}=e^{1+i(\\pi/3+\\pi/6)}=e^{1+i\\pi/2}.\n\\]\nSince \\(e^{i\\pi/2}=i\\), the result is\n\\[\nei.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-09",
+      "prompt": "Solve \\(e^z=1\\) for complex \\(z\\).",
+      "answer": "Let \\(z=x+iy\\). Then\n\\[\ne^z=e^x(\\cos y+i\\sin y).\n\\]\nFor this to equal \\(1\\), the modulus must be \\(1\\), so \\(e^x=1\\) and \\(x=0\\).\nThe direction must be the positive real axis, so\n\\[\ny=2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nThus\n\\[\nz=2k\\pi i,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-10",
+      "prompt": "Solve \\(e^z=-1\\) for complex \\(z\\).",
+      "answer": "Let \\(z=x+iy\\). Since \\(|-1|=1\\), we need \\(e^x=1\\), so \\(x=0\\).\nThe arguments of \\(-1\\) are\n\\[\n\\pi+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nTherefore\n\\[\ny=(2k+1)\\pi.\n\\]\nSo\n\\[\nz=(2k+1)\\pi i,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-11",
+      "prompt": "Explain why \\(e^{z_1+z_2}=e^{z_1}e^{z_2}\\) is consistent with rotation and scaling.",
+      "answer": "Write \\(z_1=x_1+iy_1\\) and \\(z_2=x_2+iy_2\\).\nThen\n\\[\ne^{z_1}=e^{x_1}\\operatorname{cis}y_1,\\quad e^{z_2}=e^{x_2}\\operatorname{cis}y_2.\n\\]\nTheir product has modulus \\(e^{x_1}e^{x_2}=e^{x_1+x_2}\\) and argument \\(y_1+y_2\\).\nThat is exactly\n\\[\ne^{x_1+x_2+i(y_1+y_2)}=e^{z_1+z_2}.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-12",
+      "prompt": "A student says \\(e^{i\\theta}\\) grows as \\(\\theta\\) grows because exponentials grow. Correct the statement.",
+      "answer": "For real growth, \\(e^x\\) grows as \\(x\\) increases.\nBut\n\\[\ne^{i\\theta}=\\cos\\theta+i\\sin\\theta.\n\\]\nIts modulus is\n\\[\n|e^{i\\theta}|=\\sqrt{\\cos^2\\theta+\\sin^2\\theta}=1.\n\\]\nSo \\(e^{i\\theta}\\) does not grow in length; it moves around the unit circle as \\(\\theta\\) changes.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-13",
+      "prompt": "Find all \\(z\\) such that \\(e^z=2i\\).",
+      "answer": "Write \\(2i=2\\operatorname{cis}(\\pi/2+2k\\pi)\\).\nLet \\(z=x+iy\\). Then\n\\[\ne^z=e^x\\operatorname{cis}y.\n\\]\nMatch modulus and argument:\n\\[\ne^x=2\\Rightarrow x=\\ln2,\\quad y=\\frac{\\pi}{2}+2k\\pi.\n\\]\nThus\n\\[\nz=\\ln2+i\\left(\\frac{\\pi}{2}+2k\\pi\\right),\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-14",
+      "prompt": "Find all \\(z\\) such that \\(e^{2z}=1\\).",
+      "answer": "Since \\(e^w=1\\) when \\(w=2k\\pi i\\), set \\(w=2z\\):\n\\[\n2z=2k\\pi i.\n\\]\nDivide by \\(2\\):\n\\[\nz=k\\pi i,\\quad k\\in\\mathbb Z.\n\\]\nThese all work because\n\\[\ne^{2(k\\pi i)}=e^{2k\\pi i}=1.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-15",
+      "prompt": "For which real \\(t\\) is \\(|e^{t+i\\pi/4}|=5\\)?",
+      "answer": "Use\n\\[\n|e^{t+i\\pi/4}|=e^t.\n\\]\nSet this equal to \\(5\\):\n\\[\ne^t=5.\n\\]\nTaking natural logarithms gives\n\\[\nt=\\ln5.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-16",
+      "prompt": "For which real \\(t\\) is \\(e^{1+it}\\) purely imaginary and above the origin?",
+      "answer": "We have\n\\[\ne^{1+it}=e(\\cos t+i\\sin t).\n\\]\nPurely imaginary requires \\(\\cos t=0\\). Above the origin requires \\(\\sin t>0\\).\nThis occurs at\n\\[\nt=\\frac{\\pi}{2}+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-17",
+      "prompt": "For which real \\(t\\) does \\(e^{t+i t}\\) lie on the unit circle?",
+      "answer": "The modulus is controlled by the real part:\n\\[\n|e^{t+it}|=e^t.\n\\]\nThe unit circle requires modulus \\(1\\), so\n\\[\ne^t=1.\n\\]\nTherefore\n\\[\nt=0.\n\\]\nThen \\(e^{0+i0}=1\\), which is on the unit circle.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-18",
+      "prompt": "Prove that \\(e^{z+2\\pi i}=e^z\\) for every complex \\(z\\).",
+      "answer": "Let \\(z=x+iy\\). Then\n\\[\ne^{z+2\\pi i}=e^{x+i(y+2\\pi)}=e^x(\\cos(y+2\\pi)+i\\sin(y+2\\pi)).\n\\]\nSine and cosine are \\(2\\pi\\)-periodic, so\n\\[\n\\cos(y+2\\pi)=\\cos y,\\quad \\sin(y+2\\pi)=\\sin y.\n\\]\nTherefore\n\\[\ne^{z+2\\pi i}=e^x(\\cos y+i\\sin y)=e^z.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-19",
+      "prompt": "Show that \\(e^z\\ne0\\) for every complex \\(z\\).",
+      "answer": "Let \\(z=x+iy\\). Then\n\\[\ne^z=e^x(\\cos y+i\\sin y).\n\\]\nIts modulus is\n\\[\n|e^z|=e^x|\\cos y+i\\sin y|=e^x.\n\\]\nFor every real \\(x\\), \\(e^x>0\\).\nTherefore \\(|e^z|>0\\), so \\(e^z\\) cannot be \\(0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-form-complex-exponential-20",
+      "prompt": "Explain why the equation \\(e^z=w\\) has infinitely many solutions for every non-zero complex number \\(w\\).",
+      "answer": "Write \\(w=R\\operatorname{cis}\\theta\\) with \\(R>0\\).\nTo solve \\(e^z=w\\), let \\(z=x+iy\\). Then\n\\[\ne^x=R\\Rightarrow x=\\ln R.\n\\]\nThe angle condition is\n\\[\ny=\\theta+2k\\pi,\\quad k\\in\\mathbb Z.\n\\]\nSo the solutions are\n\\[\nz=\\ln R+i(\\theta+2k\\pi),\\quad k\\in\\mathbb Z.\n\\]\nThere are infinitely many because the complex exponential is periodic in the imaginary direction.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 export const content = String.raw`## The Fundamental Sine Limit
 
-One of the most important limits in calculus is $\lim_{x \to 0} \frac{\sin x}{x} = 1$. This limit appears frequently in trigonometry and forms the basis for deriving derivatives of trigonometric functions.
+One of the most important limits in calculus is \(\lim_{x \to 0} \frac{\sin x}{x} = 1\). This limit appears frequently in trigonometry and forms the basis for deriving derivatives of trigonometric functions.
 
 ### The Fundamental Limit
 

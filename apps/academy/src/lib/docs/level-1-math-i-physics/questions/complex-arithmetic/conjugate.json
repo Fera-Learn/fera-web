@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-arithmetic",
+  "topicId": "conjugate",
+  "topicTitle": "Conjugate",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-arithmetic-conjugate-01",
+      "prompt": "Find the conjugate of \\\\(3+4i\\\\).",
+      "answer": "The conjugate keeps the real part and changes the sign of the imaginary part.\nSo \\\\((3+4i)^*=3-4i\\\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-02",
+      "prompt": "Find the conjugate of \\\\(-2-7i\\\\).",
+      "answer": "Change the sign of the imaginary part only.\nThe conjugate is \\\\(-2+7i\\\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-03",
+      "prompt": "Find the conjugate of \\\\(5\\\\).",
+      "answer": "Write \\\\(5=5+0i\\\\).\nChanging the sign of \\\\(0\\\\) gives \\\\(5-0i=5\\\\).\nSo the conjugate is \\\\(5\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-04",
+      "prompt": "Find the conjugate of \\\\(-6i\\\\).",
+      "answer": "Write \\\\(-6i=0-6i\\\\).\nThe conjugate is \\\\(0+6i=6i\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-05",
+      "prompt": "Find \\\\((2-3i)+(2-3i)^*\\\\).",
+      "answer": "The conjugate is \\\\(2+3i\\\\).\nAdd: \\\\((2-3i)+(2+3i)=4+0i=4\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-06",
+      "prompt": "Find \\\\((4+i)(4+i)^*\\\\).",
+      "answer": "The conjugate of \\\\(4+i\\\\) is \\\\(4-i\\\\).\n\\\\((4+i)(4-i)=4^2+1^2=17\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-07",
+      "prompt": "Find \\\\((1-5i)^*-(1-5i)\\\\).",
+      "answer": "The conjugate is \\\\(1+5i\\\\).\nSubtract: \\\\((1+5i)-(1-5i)=10i\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-08",
+      "prompt": "If \\\\(z=3e^{i\\theta}\\\\), write \\\\(z^*\\\\) in polar form.",
+      "answer": "In polar form, conjugation keeps the modulus and negates the angle.\nSo if \\\\(z=3e^{i\\theta}\\\\), then \\\\(z^*=3e^{-i\\theta}\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-09",
+      "prompt": "Verify \\\\((z+w)^*=z^*+w^*\\\\) for \\\\(z=1+2i\\\\), \\\\(w=3-5i\\\\).",
+      "answer": "First \\\\(z+w=4-3i\\\\), so \\\\((z+w)^*=4+3i\\\\).\nAlso \\\\(z^*=1-2i\\\\) and \\\\(w^*=3+5i\\\\).\nThen \\\\(z^*+w^*=4+3i\\\\).\nBoth sides match.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-10",
+      "prompt": "Verify \\\\((zw)^*=z^*w^*\\\\) for \\\\(z=1+i\\\\), \\\\(w=2-i\\\\).",
+      "answer": "First \\\\(zw=(1+i)(2-i)=3+i\\\\), so \\\\((zw)^*=3-i\\\\).\nAlso \\\\(z^*=1-i\\\\), \\\\(w^*=2+i\\\\).\n\\\\(z^*w^*=(1-i)(2+i)=3-i\\\\).\nBoth sides match.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-11",
+      "prompt": "Show that \\\\(z+z^*=2\\\\operatorname{Re}(z)\\\\) for \\\\(z=-4+9i\\\\).",
+      "answer": "The conjugate is \\\\(-4-9i\\\\).\nAdd: \\\\((-4+9i)+(-4-9i)=-8\\\\).\nThe real part of \\\\(z\\\\) is \\\\(-4\\\\), so \\\\(2\\\\operatorname{Re}(z)=2(-4)=-8\\\\).\nThey are equal.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-12",
+      "prompt": "Show that \\\\(z-z^*=2i\\\\operatorname{Im}(z)\\\\) for \\\\(z=-4+9i\\\\).",
+      "answer": "The conjugate is \\\\(-4-9i\\\\).\nSubtract: \\\\((-4+9i)-(-4-9i)=18i\\\\).\nThe imaginary part is \\\\(9\\\\), so \\\\(2i\\\\operatorname{Im}(z)=2i(9)=18i\\\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-13",
+      "prompt": "Find real \\\\(t\\\\) if \\\\((t+2i)^*=5-2i\\\\).",
+      "answer": "The conjugate of \\\\(t+2i\\\\) is \\\\(t-2i\\\\).\nCompare \\\\(t-2i\\\\) with \\\\(5-2i\\\\).\nThus \\\\(t=5\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-14",
+      "prompt": "Find \\\\(a\\\\) and \\\\(b\\\\) if \\\\((a+bi)^*=7+3i\\\\).",
+      "answer": "\\\\((a+bi)^*=a-bi\\\\).\nMatch \\\\(a-bi=7+3i\\\\).\nReal parts give \\\\(a=7\\\\).\nImaginary coefficients give \\\\(-b=3\\\\), so \\\\(b=-3\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-15",
+      "prompt": "For which real \\\\(t\\\\) is \\\\((t^2-1+ti)^*=0\\\\)?",
+      "answer": "The conjugate is \\\\((t^2-1)-ti\\\\).\nFor this to be zero, both parts must be zero.\nReal: \\\\(t^2-1=0\\\\), so \\\\(t=\\\\pm1\\\\).\nImaginary coefficient: \\\\(-t=0\\\\), so \\\\(t=0\\\\).\nThere is no common real value.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-16",
+      "prompt": "For which real \\\\(t\\\\) is \\\\((t+3i)^*=t+3i\\\\)?",
+      "answer": "A number equals its conjugate exactly when its imaginary coefficient is zero.\nHere \\\\((t+3i)^*=t-3i\\\\).\nEquality would require \\\\(-3=3\\\\), impossible.\nSo no real \\\\(t\\\\) works.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-17",
+      "prompt": "Find all real \\\\(t\\\\) such that \\\\((t^2-4+ (t-2)i)^*=0\\\\).",
+      "answer": "The conjugate is \\\\((t^2-4)-(t-2)i\\\\).\nBoth components must be zero.\nReal: \\\\(t^2-4=0\\\\), so \\\\(t=\\\\pm2\\\\).\nImaginary coefficient: \\\\(-(t-2)=0\\\\), so \\\\(t=2\\\\).\nThe common solution is \\\\(t=2\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-18",
+      "prompt": "A learner says the conjugate of \\\\(2-5i\\\\) is \\\\(-2+5i\\\\). Diagnose the error.",
+      "answer": "The conjugate changes only the sign of the imaginary part.\nIt does not change the real part.\nSo the conjugate of \\\\(2-5i\\\\) is \\\\(2+5i\\\\), not \\\\(-2+5i\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-19",
+      "prompt": "Prove that \\\\((z^*)^*=z\\\\) for \\\\(z=a+bi\\\\).",
+      "answer": "Start with \\\\(z=a+bi\\\\).\nIts conjugate is \\\\(z^*=a-bi\\\\).\nConjugate again: \\\\((z^*)^*=a-(-b)i=a+bi\\\\).\nTherefore \\\\((z^*)^*=z\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-conjugate-20",
+      "prompt": "Explain why multiplying by a conjugate helps divide complex numbers.",
+      "answer": "A denominator \\\\(a+bi\\\\) is not real when \\\\(b\\neq0\\\\).\nMultiplying by its conjugate gives \\\\((a+bi)(a-bi)=a^2+b^2\\\\).\nThis denominator is real and nonzero when \\\\(a+bi\\neq0\\\\).\nSo the quotient can be rewritten in standard form \\\\(A+Bi\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

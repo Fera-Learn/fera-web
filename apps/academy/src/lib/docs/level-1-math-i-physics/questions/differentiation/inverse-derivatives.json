@@ -1,90 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "differentiation",
   "topicId": "inverse-derivatives",
   "topicTitle": "Inverse Derivatives",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
-      "id": "ind-1",
-      "prompt": "Find the antiderivative of f(x) = x^2.",
-      "answer": "x^3/3 + C",
-      "hints": ["Add 1 to the power: x^(2+1) = x^3.", "Divide by the new power: x^3/3."],
+      "id": "math-i-differentiation-inverse-derivatives-01",
+      "prompt": "State the derivative formula for an inverse function \\(f^{-1}\\).",
+      "answer": "If \\(f'(f^{-1}(x))\\ne0\\), then\n\\[\n\\frac{d}{dx}f^{-1}(x)=\\frac{1}{f'(f^{-1}(x))}.\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-2",
-      "prompt": "Find the antiderivative of f(x) = 5.",
-      "answer": "5x + C",
-      "hints": ["The antiderivative of a constant c is c times x.", "Don't forget + C."],
+      "id": "math-i-differentiation-inverse-derivatives-02",
+      "prompt": "If \\(y=f^{-1}(x)\\), what equation relates \\(x\\), \\(y\\), and \\(f\\)?",
+      "answer": "By the meaning of inverse function, applying \\(f\\) to \\(y\\) returns \\(x\\):\n\\[\nf(y)=x.\n\\]",
       "rating": "*",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-3",
-      "prompt": "Find the antiderivative of f(x) = e^x.",
-      "answer": "e^x + C",
-      "hints": ["e^x is its own antiderivative."],
-      "rating": "*",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-inverse-derivatives-03",
+      "prompt": "Use inverse differentiation to find \\(d(\\arcsin x)/dx\\).",
+      "answer": "Let \\(y=\\arcsin x\\), so \\(\\sin y=x\\). Differentiate:\n\\[\n\\cos y\\frac{dy}{dx}=1.\n\\]\nThus \\(dy/dx=1/\\cos y=1/\\sqrt{1-x^2}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-4",
-      "prompt": "Find the antiderivative of f(x) = 3x^2 + 2x + 1.",
-      "answer": "x^3 + x^2 + x + C",
-      "hints": ["Integrate each term separately.", "3x^2 -> x^3, 2x -> x^2, 1 -> x."],
+      "id": "math-i-differentiation-inverse-derivatives-04",
+      "prompt": "Use inverse differentiation to find \\(d(\\arctan x)/dx\\).",
+      "answer": "Let \\(y=\\arctan x\\), so \\(\\tan y=x\\). Differentiate:\n\\[\n\\sec^2y\\frac{dy}{dx}=1.\n\\]\nSince \\(\\sec^2y=1+\\tan^2y=1+x^2\\),\n\\[\n\\frac{dy}{dx}=\\frac1{1+x^2}.\n\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-05",
+      "prompt": "Find \\(d(\\arccos x)/dx\\).",
+      "answer": "Let \\(y=\\arccos x\\), so \\(\\cos y=x\\). Differentiate:\n\\[\n-\\sin y\\frac{dy}{dx}=1.\n\\]\nFor \\(0<y<\\pi\\), \\(\\sin y=\\sqrt{1-x^2}\\). Hence\n\\[\n\\frac{dy}{dx}=-\\frac1{\\sqrt{1-x^2}}.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-5",
-      "prompt": "Find the antiderivative of f(x) = 1/x.",
-      "answer": "ln|x| + C",
-      "hints": ["The antiderivative of 1/x is the natural logarithm.", "Remember the absolute value."],
+      "id": "math-i-differentiation-inverse-derivatives-06",
+      "prompt": "For \\(f(x)=x^3\\), find \\((f^{-1})'(8)\\).",
+      "answer": "Here \\(f^{-1}(8)=2\\). Since \\(f'(x)=3x^2\\),\n\\[\n(f^{-1})'(8)=\\frac1{f'(2)}=\\frac1{12}.\n\\]",
       "rating": "**",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-6",
-      "prompt": "Find the antiderivative of f(x) = cos x.",
-      "answer": "sin x + C",
-      "hints": ["The antiderivative of cosine is sine."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-inverse-derivatives-07",
+      "prompt": "For \\(f(x)=2x+5\\), find \\((f^{-1})'(x)\\).",
+      "answer": "Since \\(f'(x)=2\\), the inverse derivative formula gives\n\\[\n(f^{-1})'(x)=\\frac1{2}.\n\\]\nThis matches \\(f^{-1}(x)=(x-5)/2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-7",
-      "prompt": "Find the antiderivative of f(x) = sin x.",
-      "answer": "-cos x + C",
-      "hints": ["The antiderivative of sine is negative cosine."],
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "id": "math-i-differentiation-inverse-derivatives-08",
+      "prompt": "For \\(f(x)=x^3+x\\), find \\((f^{-1})'(2)\\).",
+      "answer": "First find \\(y=f^{-1}(2)\\), so \\(y^3+y=2\\). The solution is \\(y=1\\). Since \\(f'(x)=3x^2+1\\),\n\\[\n(f^{-1})'(2)=\\frac1{f'(1)}=\\frac14.\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-8",
-      "prompt": "Find F(x) if F'(x) = 6x^2 and F(0) = 3.",
-      "answer": "2x^3 + 3",
-      "hints": ["First find the general antiderivative: F(x) = 2x^3 + C.", "Use F(0) = 3 to find C."],
-      "rating": "**",
-      "paperTags": ["term-1"]
-    },
-    {
-      "id": "ind-9",
-      "prompt": "Find the antiderivative of f(x) = x^{-2}.",
-      "answer": "-1/x + C",
-      "hints": ["Use the power rule: x^{-2+1}/(-2+1) = x^{-1}/(-1) = -x^{-1}."],
+      "id": "math-i-differentiation-inverse-derivatives-09",
+      "prompt": "Find \\(d(\\arcsin(2x))/dx\\) and state the input restriction.",
+      "answer": "Use the chain rule on \\(\\arcsin u\\) with \\(u=2x\\):\n\\[\n\\frac{d}{dx}\\arcsin(2x)=\\frac{2}{\\sqrt{1-(2x)^2}}=\\frac2{\\sqrt{1-4x^2}}.\n\\]\nThe formula requires \\(|2x|<1\\), so \\(|x|<1/2\\).",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
-      "id": "ind-10",
-      "prompt": "Find the antiderivative of f(x) = (x + 1)^2.",
-      "answer": "(x + 1)^3 / 3 + C",
-      "hints": ["Expand first: x^2 + 2x + 1.", "Or use substitution: let u = x+1."],
+      "id": "math-i-differentiation-inverse-derivatives-10",
+      "prompt": "Find \\(d(\\arctan(x^2))/dx\\).",
+      "answer": "Let \\(u=x^2\\). Since \\(d(\\arctan u)/du=1/(1+u^2)\\),\n\\[\n\\frac{d}{dx}\\arctan(x^2)=\\frac{2x}{1+x^4}.\n\\]",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-11",
+      "prompt": "For \\(f(x)=e^x\\), use the inverse derivative formula to find \\(d(\\ln x)/dx\\).",
+      "answer": "The inverse of \\(e^x\\) is \\(\\ln x\\). Since \\(f'(x)=e^x\\),\n\\[\n(\\ln x)'=\\frac1{f'(\\ln x)}=\\frac1{e^{\\ln x}}=\\frac1x.\n\\]\nThis requires \\(x>0\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-12",
+      "prompt": "For \\(f(x)=x^5+2x\\), find \\((f^{-1})'(3)\\).",
+      "answer": "Find \\(y\\) such that \\(f(y)=3\\):\n\\[\ny^5+2y=3.\n\\]\n\\(y=1\\) works. Since \\(f'(x)=5x^4+2\\),\n\\[\n(f^{-1})'(3)=\\frac1{f'(1)}=\\frac17.\n\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-13",
+      "prompt": "Find \\(d(\\arccos(1-2x))/dx\\).",
+      "answer": "Let \\(u=1-2x\\). For \\(\\arccos u\\), derivative is \\(-u'/\\sqrt{1-u^2}\\). Since \\(u'=-2\\),\n\\[\n\\frac{d}{dx}\\arccos(1-2x)=\\frac2{\\sqrt{1-(1-2x)^2}}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-14",
+      "prompt": "For \\(f(x)=x+\\sin x\\), find \\((f^{-1})'(0)\\).",
+      "answer": "Find \\(y\\) with \\(y+\\sin y=0\\). The solution \\(y=0\\) works. Since \\(f'(x)=1+\\cos x\\),\n\\[\n(f^{-1})'(0)=\\frac1{f'(0)}=\\frac1{2}.\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-15",
+      "prompt": "Show that if \\(f'(a)=0\\), the inverse derivative formula cannot be used at \\(x=f(a)\\).",
+      "answer": "At \\(x=f(a)\\), the inverse value is \\(f^{-1}(x)=a\\). The formula would give\n\\[\n(f^{-1})'(f(a))=\\frac1{f'(a)}.\n\\]\nIf \\(f'(a)=0\\), this requires division by zero, so the formula does not give a finite derivative there.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-16",
+      "prompt": "For \\(f(x)=x^3\\), explain why \\((f^{-1})'(0)\\) is not finite.",
+      "answer": "The inverse is \\(f^{-1}(x)=\\sqrt[3]{x}\\). The formula gives\n\\[\n(f^{-1})'(0)=\\frac1{f'(0)}.\n\\]\nBut \\(f'(x)=3x^2\\), so \\(f'(0)=0\\). Division by zero means the inverse has a vertical tangent at \\(x=0\\), not a finite derivative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-17",
+      "prompt": "Find \\(d(\\ln(\\arctan x))/dx\\), stating a domain condition.",
+      "answer": "Use the chain rule. For \\(\\ln u\\), derivative is \\(u'/u\\), with \\(u=\\arctan x\\). Thus\n\\[\n\\frac{d}{dx}\\ln(\\arctan x)=\\frac{1}{\\arctan x}\\cdot\\frac1{1+x^2}.\n\\]\nThe logarithm requires \\(\\arctan x>0\\), so \\(x>0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-18",
+      "prompt": "A student says \\(d(\\arcsin x)/dx=1/\\cos x\\). Explain the error.",
+      "answer": "If \\(y=\\arcsin x\\), then \\(\\sin y=x\\), not \\(\\sin x=y\\). Differentiating gives\n\\[\n\\cos y\\frac{dy}{dx}=1.\n\\]\nSo \\(dy/dx=1/\\cos y\\). Since \\(\\sin y=x\\), \\(\\cos y=\\sqrt{1-x^2}\\), giving \\(1/\\sqrt{1-x^2}\\), not \\(1/\\cos x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-19",
+      "prompt": "For \\(f(x)=x^3+x\\), prove \\((f^{-1})'(x)>0\\) for every real \\(x\\).",
+      "answer": "The inverse derivative formula gives\n\\[\n(f^{-1})'(x)=\\frac1{f'(f^{-1}(x))}.\n\\]\nHere \\(f'(u)=3u^2+1\\), which is always positive. Therefore the denominator is positive for every inverse value, so \\((f^{-1})'(x)>0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-differentiation-inverse-derivatives-20",
+      "prompt": "Derive the inverse derivative formula from \\(f(y)=x\\).",
+      "answer": "Let \\(y=f^{-1}(x)\\), so \\(f(y)=x\\). Differentiate both sides with respect to \\(x\\):\n\\[\nf'(y)\\frac{dy}{dx}=1.\n\\]\nIf \\(f'(y)\\ne0\\), divide by \\(f'(y)\\):\n\\[\n\\frac{dy}{dx}=\\frac1{f'(y)}=\\frac1{f'(f^{-1}(x))}.\n\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@ The substitution method for limits is analogous to u-substitution in integration
 
 ### The Substitution Theorem
 
-If $\lim_{x \to a} f(x) = L$ and we define a new variable u = g(x), then under appropriate conditions:
+If \(\lim_{x \to a} f(x) = L\) and we define a new variable u = g(x), then under appropriate conditions:
 
 <Equation label="Variable Substitution" tex="\lim_{x \to a} f(g(x)) = \lim_{u \to g(a)} f(u)" />
 
@@ -12,7 +12,7 @@ The key requirement is that the inner function g(x) approaches g(a) as x → a, 
 
 ### Basic Substitution Example
 
-Evaluate: $\lim_{x \to 2} (x^2 + 3)^5$
+Evaluate: \(\lim_{x \to 2} (x^2 + 3)^5\)
 
 Let u = x² + 3. As x → 2, u → 2² + 3 = 7.
 
@@ -22,7 +22,7 @@ Let u = x² + 3. As x → 2, u → 2² + 3 = 7.
 
 When direct substitution gives an indeterminate form, substitution can help:
 
-Evaluate: $\lim_{x \to 0} \frac{\sin(3x)}{x}$
+Evaluate: \(\lim_{x \to 0} \frac{\sin(3x)}{x}\)
 
 Let u = 3x. As x → 0, u → 0.
 
@@ -40,7 +40,7 @@ This requires f to be continuous at b.
 
 Sometimes algebraic manipulation is needed before substituting:
 
-Evaluate: $\lim_{x \to 1} \frac{x^{1/3} - 1}{x - 1}$
+Evaluate: \(\lim_{x \to 1} \frac{x^{1/3} - 1}{x - 1}\)
 
 Let u = x^(1/3), so x = u³. As x → 1, u → 1.
 

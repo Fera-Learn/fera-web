@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "continuity",
   "topicTitle": "Continuity",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-continuity-01",
-      "prompt": "Explain why \\(f(x)=x^2-3x+1\\) is continuous at \\(x=2\\), and find \\(f(2)\\).",
-      "answer": "The function is a polynomial, so it is continuous for every real \\(x\\). Its value at \\(2\\) is\n\\[\nf(2)=2^2-3(2)+1=4-6+1=-1.\n\\]\nTherefore \\(\\lim_{x\\to2}f(x)=f(2)=-1\\).",
-      "rating": "*+",
-      "paperTags": ["term-1"]
+      "prompt": "State the condition for \\(f\\) to be continuous at \\(x=a\\).",
+      "answer": "A function \\(f\\) is continuous at \\(a\\) when\n\\[\\lim_{x\\to a}f(x)=f(a).\\]\nThis includes that \\(f(a)\\) is defined, the limit exists, and the two values are equal.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-continuity-02",
-      "prompt": "Choose \\(c\\) so that \\(f(x)=2x+c\\) for \\(x<1\\), and \\(f(x)=5\\) for \\(x\\ge1\\), is continuous at \\(x=1\\).",
-      "answer": "The left-hand limit at \\(1\\) is\n\\[\n2(1)+c=2+c.\n\\]\nThe value at \\(1\\) is \\(5\\). Continuity requires\n\\[\n2+c=5,\n\\]\nso\n\\[\nc=3.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "Name the discontinuity when the left and right limits exist but are unequal.",
+      "answer": "This is a jump discontinuity. Since \\(\\lim_{x\\to a^-}f(x)\\ne\\lim_{x\\to a^+}f(x)\\), the graph approaches one value from the left and a different value from the right, so the two-sided limit does not exist.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-continuity-03",
-      "prompt": "Let \\(g(x)=\\frac{x^2-9}{x-3}\\) for \\(x\\ne3\\), and \\(g(3)=8\\). Is \\(g\\) continuous at \\(x=3\\)?",
-      "answer": "For \\(x\\ne3\\),\n\\[\n\\frac{x^2-9}{x-3}=x+3.\n\\]\nSo\n\\[\n\\lim_{x\\to3}g(x)=6.\n\\]\nBut \\(g(3)=8\\). Since the limit and the function value are different, \\(g\\) is not continuous at \\(x=3\\).",
+      "prompt": "Is \\(f(x)=x^2+1\\) continuous at \\(x=3\\)?",
+      "answer": "Yes. Polynomials are continuous everywhere. Also\n\\[\\lim_{x\\to3}(x^2+1)=3^2+1=10=f(3).\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-04",
+      "prompt": "Why is \\(f(x)=1/x\\) not continuous at \\(x=0\\)?",
+      "answer": "Continuity requires \\(f(0)\\) to be defined. But \\(1/0\\) is undefined, so \\(f\\) cannot be continuous at \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-05",
+      "prompt": "Determine whether \\(f(x)=\\frac{x^2-4}{x-2}\\) is continuous at \\(x=2\\).",
+      "answer": "At \\(x=2\\), the formula has denominator \\(0\\), so \\(f(2)\\) is undefined. Although the simplified expression is \\(x+2\\) for \\(x\\ne2\\) and the limit is \\(4\\), the function is not continuous at \\(2\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-06",
+      "prompt": "For \\(f(x)=\\sqrt{x-1}\\), state the interval on which \\(f\\) is continuous.",
+      "answer": "The square root requires \\(x-1\\ge0\\), so \\(x\\ge1\\). On its domain, the square-root composition is continuous. Thus \\(f\\) is continuous on \\([1,\\infty)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-07",
+      "prompt": "Let \\(f(x)=x+1\\) for \\(x<0\\) and \\(f(x)=2x+1\\) for \\(x\\ge0\\). Is \\(f\\) continuous at \\(0\\)?",
+      "answer": "The left-hand limit is \\(0+1=1\\). The right-hand limit is \\(2(0)+1=1\\), and \\(f(0)=1\\). Since the limit exists and equals \\(f(0)\\), \\(f\\) is continuous at \\(0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-08",
+      "prompt": "Let \\(f(x)=x\\) for \\(x<1\\) and \\(f(x)=3\\) for \\(x\\ge1\\). Classify the discontinuity at \\(x=1\\).",
+      "answer": "The left-hand limit is \\(1\\), while the right-hand limit and \\(f(1)\\) are \\(3\\). Since the one-sided limits are different, the discontinuity is a jump discontinuity.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-09",
+      "prompt": "Define \\(f(2)\\) so that \\(f(x)=\\frac{x^2-4}{x-2}\\) for \\(x\\ne2\\) becomes continuous at \\(2\\).",
+      "answer": "For \\(x\\ne2\\),\n\\[\\frac{x^2-4}{x-2}=\\frac{(x-2)(x+2)}{x-2}=x+2.\\]\nThus \\(\\lim_{x\\to2}f(x)=4\\). Set \\(f(2)=4\\) to make the function continuous.",
       "rating": "***",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-10",
+      "prompt": "Find \\(c\\) so that \\(f(x)=x^2\\) for \\(x<2\\) and \\(f(x)=cx+1\\) for \\(x\\ge2\\) is continuous at \\(2\\).",
+      "answer": "Continuity at \\(2\\) requires left limit equals value from the right formula. Left limit: \\(2^2=4\\). Right value: \\(2c+1\\). Set \\(2c+1=4\\), so \\(2c=3\\) and \\(c=3/2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-11",
+      "prompt": "Use continuity to evaluate \\(\\lim_{x\\to0}\\cos(x^2+1)\\).",
+      "answer": "The inner function \\(x^2+1\\) is continuous and approaches \\(1\\). Cosine is continuous, so\n\\[\\lim_{x\\to0}\\cos(x^2+1)=\\cos(1).\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-12",
+      "prompt": "Explain why a removable discontinuity has a limit but is not continuous.",
+      "answer": "At a removable discontinuity, \\(\\lim_{x\\to a}f(x)\\) exists, but either \\(f(a)\\) is undefined or \\(f(a)\\) is different from the limit. Continuity fails because the required equality \\(\\lim_{x\\to a}f(x)=f(a)\\) is not satisfied.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-13",
+      "prompt": "Find all discontinuities of \\(f(x)=\\frac{x+1}{x^2-1}\\) and classify them.",
+      "answer": "Factor the denominator:\n\\[x^2-1=(x-1)(x+1).\\]\nFor \\(x\\ne-1\\), \\(f(x)=1/(x-1)\\). At \\(x=-1\\), the cancelled factor gives a removable discontinuity. At \\(x=1\\), the remaining denominator is zero, so there is an infinite discontinuity.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-14",
+      "prompt": "Show that \\(f(x)=\\frac{x^2-9}{x-3}\\) can be redefined to be continuous at \\(x=3\\), and give the value.",
+      "answer": "For \\(x\\ne3\\),\n\\[\\frac{x^2-9}{x-3}=\\frac{(x-3)(x+3)}{x-3}=x+3.\\]\nThe limit at \\(3\\) is \\(6\\). Defining \\(f(3)=6\\) fills the hole and makes the function continuous there.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-15",
+      "prompt": "Find \\(a\\) and \\(b\\) so that \\(f(x)=ax+b\\) for \\(x<1\\), \\(f(x)=x^2\\) for \\(1\\le x<2\\), and \\(f(x)=3x+b\\) for \\(x\\ge2\\) is continuous at \\(1\\) and \\(2\\).",
+      "answer": "At \\(x=1\\): left value \\(a+b\\) must equal \\(1^2=1\\), so \\(a+b=1\\). At \\(x=2\\): middle limit \\(4\\) must equal right value \\(6+b\\), so \\(b=-2\\). Then \\(a+(-2)=1\\), giving \\(a=3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-16",
+      "prompt": "For what values of \\(k\\) is \\(f(x)=\\frac{x^2-k^2}{x-k}\\) removable at \\(x=k\\) rather than undefined everywhere near \\(k\\)?",
+      "answer": "Factor the numerator: \\(x^2-k^2=(x-k)(x+k)\\). For any real \\(k\\), the expression equals \\(x+k\\) when \\(x\\ne k\\), but is undefined at \\(x=k\\). The limit is \\(2k\\), so the discontinuity is removable for every real \\(k\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-17",
+      "prompt": "Find \\(c\\) so that \\(f(x)=\\frac{x^2-cx}{x}\\) for \\(x\\ne0\\) and \\(f(0)=5\\) is continuous at \\(0\\).",
+      "answer": "For \\(x\\ne0\\),\n\\[\\frac{x^2-cx}{x}=x-c.\\]\nThe limit as \\(x\\to0\\) is \\(-c\\). Continuity requires \\(-c=5\\), so \\(c=-5\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-18",
+      "prompt": "A student says every function with \\(f(a)\\) defined is continuous at \\(a\\). Give a counterexample and explain.",
+      "answer": "Let \\(f(x)=0\\) for \\(x\\ne0\\) and \\(f(0)=1\\). The value \\(f(0)\\) is defined, but\n\\[\\lim_{x\\to0}f(x)=0\\ne1=f(0).\\]\nSo being defined at a point is necessary but not sufficient for continuity.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-19",
+      "prompt": "Use the intermediate value theorem to show that \\(x^3+x-1=0\\) has a solution in \\((0,1)\\).",
+      "answer": "Let \\(f(x)=x^3+x-1\\). This polynomial is continuous on \\([0,1]\\). Compute \\(f(0)=-1\\) and \\(f(1)=1\\). Since \\(0\\) lies between \\(-1\\) and \\(1\\), the intermediate value theorem guarantees some \\(c\\in(0,1)\\) with \\(f(c)=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-continuity-20",
+      "prompt": "Explain why \\(f(x)=\\sin(1/x)\\) is not continuous at \\(0\\), even if someone defines \\(f(0)=0\\).",
+      "answer": "Continuity at \\(0\\) would require \\(\\lim_{x\\to0}\\sin(1/x)=f(0)\\). But \\(\\sin(1/x)\\) oscillates between \\(-1\\) and \\(1\\) infinitely often as \\(x\\to0\\), so the limit does not exist. Defining \\(f(0)\\) cannot fix a missing limit.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

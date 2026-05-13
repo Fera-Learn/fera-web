@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-arithmetic",
+  "topicId": "modulus",
+  "topicTitle": "Modulus",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-i-complex-arithmetic-modulus-01",
+      "prompt": "Find \\\\(|3+4i|\\\\).",
+      "answer": "Use \\\\(|a+bi|=\\\\sqrt{a^2+b^2}\\\\).\n\\\\(|3+4i|=\\\\sqrt{3^2+4^2}=\\\\sqrt{25}=5\\\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-02",
+      "prompt": "Find \\\\(|-5+0i|\\\\).",
+      "answer": "\\\\(|-5+0i|=\\\\sqrt{(-5)^2+0^2}=\\\\sqrt{25}=5\\\\).\nThe modulus is non-negative.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-03",
+      "prompt": "Find \\\\(|0-7i|\\\\).",
+      "answer": "\\\\(|0-7i|=\\\\sqrt{0^2+(-7)^2}=\\\\sqrt{49}=7\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-04",
+      "prompt": "Find \\\\(|1+i|\\\\).",
+      "answer": "\\\\(|1+i|=\\\\sqrt{1^2+1^2}=\\\\sqrt2\\\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-05",
+      "prompt": "Find \\\\(|-6+8i|\\\\).",
+      "answer": "Square both components: \\\\((-6)^2=36\\\\), \\\\(8^2=64\\\\).\n\\\\(|-6+8i|=\\\\sqrt{36+64}=\\\\sqrt{100}=10\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-06",
+      "prompt": "Find \\\\(|2-3i|^2\\\\).",
+      "answer": "Use \\\\(|a+bi|^2=a^2+b^2\\\\).\n\\\\(|2-3i|^2=2^2+(-3)^2=4+9=13\\\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-07",
+      "prompt": "Find the distance from the origin to the point represented by \\\\(-12+5i\\\\).",
+      "answer": "In the complex plane, the distance from the origin is the modulus.\n\\\\(|-12+5i|=\\\\sqrt{144+25}=\\\\sqrt{169}=13\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-08",
+      "prompt": "If \\\\(z=2e^{i\\theta}\\\\), what is \\\\(|z|\\\\)?",
+      "answer": "In polar form \\\\(z=re^{i\\theta}\\\\), the modulus is \\\\(r\\\\).\nHere \\\\(r=2\\\\), so \\\\(|z|=2\\\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-09",
+      "prompt": "Find \\\\(|(1+2i)(3-4i)|\\\\) using multiplication first.",
+      "answer": "Multiply: \\\\((1+2i)(3-4i)=3-4i+6i-8i^2=11+2i\\\\).\nThen \\\\(|11+2i|=\\\\sqrt{121+4}=\\\\sqrt{125}=5\\\\sqrt5\\\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-10",
+      "prompt": "Find \\\\(\\\\left|\\frac{3+4i}{1-2i}\\right|\\\\).",
+      "answer": "Use the quotient rule: \\\\(\\\\left|\\frac{z_1}{z_2}\\right|=\\frac{|z_1|}{|z_2|}\\\\).\n\\\\(|3+4i|=5\\\\) and \\\\(|1-2i|=\\\\sqrt5\\\\).\nSo the modulus is \\\\(\\frac5{\\\\sqrt5}=\\\\sqrt5\\\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-11",
+      "prompt": "Verify \\\\(|z|^2=zz^*\\\\) for \\\\(z=2-5i\\\\).",
+      "answer": "\\\\(|z|^2=2^2+(-5)^2=29\\\\).\nThe conjugate is \\\\(z^*=2+5i\\\\).\n\\\\(zz^*=(2-5i)(2+5i)=4+25=29\\\\).\nBoth sides match.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-12",
+      "prompt": "Explain geometrically why \\\\(|a+bi|\\\\) cannot be negative.",
+      "answer": "\\\\(|a+bi|\\\\) is the distance from the origin to the point \\\\((a,b)\\\\).\nDistances are lengths, and lengths cannot be negative.\nAlgebraically, \\\\(|a+bi|=\\\\sqrt{a^2+b^2}\\\\), a principal square root, so it is non-negative.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-13",
+      "prompt": "Find real \\\\(t\\\\) if \\\\(|t+3i|=5\\\\).",
+      "answer": "Square both sides: \\\\(t^2+3^2=5^2\\\\).\nSo \\\\(t^2+9=25\\\\), hence \\\\(t^2=16\\\\).\nThus \\\\(t=4\\\\) or \\\\(t=-4\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-14",
+      "prompt": "Find \\\\(t\\\\ge0\\\\) if \\\\(|(t-1)+2i|=\\\\sqrt{13}\\\\).",
+      "answer": "Square both sides: \\\\((t-1)^2+2^2=13\\\\).\nSo \\\\((t-1)^2=9\\\\), giving \\\\(t-1=\\\\pm3\\\\).\nThus \\\\(t=4\\\\) or \\\\(t=-2\\\\).\nWith \\\\(t\\\\ge0\\\\), the answer is \\\\(t=4\\\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-15",
+      "prompt": "For which real \\\\(t\\\\) does \\\\(|t+(t-2)i|=2\\\\)?",
+      "answer": "Square both sides: \\\\(t^2+(t-2)^2=4\\\\).\nExpand: \\\\(t^2+t^2-4t+4=4\\\\).\nSo \\\\(2t^2-4t=0\\\\), or \\\\(2t(t-2)=0\\\\).\nThus \\\\(t=0\\\\) or \\\\(t=2\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-16",
+      "prompt": "For which real \\\\(t\\\\) is \\\\(|(t+i)^2|=10\\\\)?",
+      "answer": "Use \\\\(|z^2|=|z|^2\\\\).\nHere \\\\(|t+i|^2=t^2+1\\\\).\nSo \\\\(|(t+i)^2|=t^2+1\\\\).\nSet \\\\(t^2+1=10\\\\), giving \\\\(t=\\\\pm3\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-17",
+      "prompt": "Find all real \\\\(t\\\\) such that \\\\(|t+2i|=|3-ti|\\\\).",
+      "answer": "Square both moduli.\nLeft: \\\\(t^2+4\\\\). Right: \\\\(9+t^2\\\\).\nEquation: \\\\(t^2+4=t^2+9\\\\).\nThis simplifies to \\\\(4=9\\\\), impossible.\nSo there is no real \\\\(t\\\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-18",
+      "prompt": "A learner says \\\\(|3-4i|=3-4i\\\\). Diagnose the error and correct it.",
+      "answer": "The modulus is a non-negative real distance, not the complex number itself.\nCompute \\\\(|3-4i|=\\\\sqrt{3^2+(-4)^2}=\\\\sqrt{25}=5\\\\).\nSo the correct value is \\\\(5\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-19",
+      "prompt": "Prove that \\\\(|a+bi|=0\\\\) implies \\\\(a+bi=0\\\\).",
+      "answer": "If \\\\(|a+bi|=0\\\\), then \\\\(\\\\sqrt{a^2+b^2}=0\\\\).\nSquaring gives \\\\(a^2+b^2=0\\\\).\nBoth squares are non-negative, so each must be zero.\nThus \\\\(a=0\\\\) and \\\\(b=0\\\\), so \\\\(a+bi=0\\\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-complex-arithmetic-modulus-20",
+      "prompt": "Explain why \\\\(|z|=|z^*|\\\\) for every complex number \\\\(z\\\\).",
+      "answer": "Let \\\\(z=a+bi\\\\). Then \\\\(z^*=a-bi\\\\).\n\\\\(|z|=\\\\sqrt{a^2+b^2}\\\\).\n\\\\(|z^*|=\\\\sqrt{a^2+(-b)^2}=\\\\sqrt{a^2+b^2}\\\\).\nTherefore the moduli are equal.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

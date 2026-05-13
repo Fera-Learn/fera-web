@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
+  "sectionId": "series",
+  "topicId": "positive-series",
+  "topicTitle": "Positive Series",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-i-series-positive-series-01",
+      "prompt": "What condition on \\(a_n\\) makes \\(\\sum a_n\\) a positive series in this topic?",
+      "answer": "The terms must be non-negative: \\(a_n\\ge0\\) for all relevant indices. Then each new term can only increase or leave unchanged the partial sum.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-02",
+      "prompt": "If \\(a_n\\ge0\\), what inequality relates \\(S_{N+1}\\) and \\(S_N\\)?",
+      "answer": "Since \\(S_{N+1}=S_N+a_{N+1}\\) and \\(a_{N+1}\\ge0\\), we have\n\\[\nS_{N+1}\\ge S_N.\n\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-03",
+      "prompt": "State whether \\(\\sum_{n=1}^{\\infty}1/n^2\\) has non-negative terms.",
+      "answer": "Yes. For every positive integer \\(n\\), \\(n^2>0\\), so \\(1/n^2>0\\). Therefore the terms are non-negative.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-04",
+      "prompt": "Explain why the partial sums of \\(\\sum_{n=1}^{\\infty} e^{-n}\\) are increasing.",
+      "answer": "Each term \\(e^{-n}\\) is positive. Therefore\n\\[\nS_{N+1}=S_N+e^{-(N+1)}>S_N.\n\\]\nSo the partial sums increase.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-05",
+      "prompt": "Find \\(S_3\\) for the positive series \\(\\sum_{n=1}^{\\infty}1/n^2\\).",
+      "answer": "Add the first three terms:\n\\[\nS_3=1+\\frac14+\\frac19=\\frac{36+9+4}{36}=\\frac{49}{36}.\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-06",
+      "prompt": "If \\(0\\le S_N\\le 7\\) for every \\(N\\) and \\(S_N\\) is increasing, what can you conclude?",
+      "answer": "An increasing sequence bounded above converges. Therefore the positive series whose partial sums are \\(S_N\\) converges to some finite value no greater than \\(7\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-07",
+      "prompt": "Explain why \\(\\sum_{n=1}^{\\infty}n^2\\) diverges as a positive series.",
+      "answer": "The terms are positive, and the partial sums grow at least as fast as the last term. Since \\(n^2\\to\\infty\\), the terms do not even tend to \\(0\\). By the term condition, the series diverges.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-08",
+      "prompt": "For \\(a_n=1/(n^2+1)\\), show the partial sums are increasing.",
+      "answer": "For every \\(n\\), \\(n^2+1>0\\), so \\(a_n>0\\). Hence\n\\[\nS_{N+1}=S_N+a_{N+1}>S_N.\n\\]\nThe partial sums are increasing.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-09",
+      "prompt": "Use comparison to show \\(\\sum_{n=1}^{\\infty}1/2^n\\) is bounded above.",
+      "answer": "This is geometric with first term \\(1/2\\) and ratio \\(1/2\\). Its infinite sum is\n\\[\n\\frac{1/2}{1-1/2}=1.\n\\]\nTherefore every partial sum is below \\(1\\), so the positive partial sums are bounded above.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-10",
+      "prompt": "Show that \\(\\sum_{n=1}^{\\infty}1\\) diverges using positive-series partial sums.",
+      "answer": "Here \\(S_N=1+1+\\cdots+1=N\\). The partial sums are increasing and unbounded because \\(N\\to\\infty\\). Therefore the positive series diverges to infinity.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-11",
+      "prompt": "Explain why increasing partial sums do not automatically mean divergence.",
+      "answer": "Positive series always have increasing partial sums, but an increasing sequence can converge if it is bounded above. For example, \\(\\sum_{n=1}^{\\infty}1/2^n\\) has increasing partial sums bounded by \\(1\\), so it converges.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-12",
+      "prompt": "Why does proving \\(S_N\\le M\\) for all \\(N\\) matter for a positive series?",
+      "answer": "For a positive series, the partial sums are increasing. If they are also bounded above by \\(M\\), the monotone convergence idea applies: the partial sums approach a finite limit, so the series converges.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-13",
+      "prompt": "Show that if \\(0\\le a_n\\le 1/2^n\\), then \\(\\sum a_n\\) converges.",
+      "answer": "For every \\(N\\),\n\\[\n0\\le \\sum_{n=1}^{N}a_n\\le \\sum_{n=1}^{N}\\frac1{2^n}<1.\n\\]\nThe partial sums are increasing and bounded above by \\(1\\). Therefore \\(\\sum a_n\\) converges.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-14",
+      "prompt": "Suppose \\(a_n\\ge 1/n\\) for all \\(n\\). What can you conclude about \\(\\sum a_n\\) if all terms are non-negative?",
+      "answer": "The harmonic series \\(\\sum 1/n\\) diverges. Since \\(a_n\\ge1/n\\ge0\\), the partial sums of \\(\\sum a_n\\) are at least as large as divergent harmonic partial sums. Therefore \\(\\sum a_n\\) diverges.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-15",
+      "prompt": "For \\(a_n=p^n\\) with \\(p\\ge0\\), determine for which \\(p\\) the positive series \\(\\sum_{n=1}^{\\infty}a_n\\) converges.",
+      "answer": "This is geometric with ratio \\(p\\). It converges when \\(|p|<1\\). Since \\(p\\ge0\\), this means\n\\[\n0\\le p<1.\n\\]\nFor \\(p\\ge1\\), the terms do not tend to \\(0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-16",
+      "prompt": "If \\(a_n\\ge0\\) and the partial sums satisfy \\(S_{2N}\\le4\\) for every \\(N\\), prove the whole series converges.",
+      "answer": "Because \\(a_n\\ge0\\), all partial sums are increasing. For any index \\(m\\), choose \\(N\\) with \\(m\\le2N\\). Then\n\\[\nS_m\\le S_{2N}\\le4.\n\\]\nThus all partial sums are bounded above by \\(4\\), so the series converges.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-17",
+      "prompt": "A detector adds positive noise energies \\(E_n\\ge0\\). If \\(\\sum_{n=1}^{N}E_n\\le0.05\\) for every \\(N\\), what does this imply?",
+      "answer": "The partial sums are increasing because each \\(E_n\\ge0\\). They are also bounded above by \\(0.05\\). Therefore the total infinite noise energy converges and is at most \\(0.05\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-18",
+      "prompt": "Diagnose the error: positive partial sums increase, so every positive series diverges.",
+      "answer": "Increasing alone is not enough for divergence. A positive series converges when its increasing partial sums are bounded above. For example, \\(\\sum_{n=1}^{\\infty}1/2^n\\) has increasing partial sums but converges to \\(1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-19",
+      "prompt": "Prove that a positive series cannot have decreasing partial sums unless all new terms are zero.",
+      "answer": "For a positive series,\n\\[\nS_{N+1}-S_N=a_{N+1}\\ge0.\n\\]\nSo \\(S_{N+1}\\ge S_N\\). Equality occurs exactly when \\(a_{N+1}=0\\). Therefore partial sums cannot strictly decrease.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-i-series-positive-series-20",
+      "prompt": "A positive series has partial sums \\(S_N=2-1/N\\). Explain why this is consistent with convergence but cannot describe partial sums starting at \\(N=1\\) for strictly positive terms.",
+      "answer": "The limit is \\(2\\), so the sequence is bounded and increasing for \\(N\\ge1\\). However \\(S_1=1\\) and \\(S_2=3/2\\), so the implied first terms include positive differences. It can describe positive terms from differences \\(a_N=S_N-S_{N-1}\\) only after defining a compatible \\(S_0\\); without that, \\(S_N\\) alone is a partial-sum formula, not the original terms.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

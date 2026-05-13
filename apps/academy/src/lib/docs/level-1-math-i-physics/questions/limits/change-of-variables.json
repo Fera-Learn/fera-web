@@ -1,31 +1,192 @@
 {
-  "schemaVersion": 1,
   "courseId": "level-1-math-i-physics",
+  "schemaVersion": 1,
   "sectionId": "limits",
   "topicId": "change-of-variables",
   "topicTitle": "Change of Variables",
-  "paperTags": ["term-1"],
+  "paperTags": [
+    "term-1"
+  ],
   "questions": [
     {
       "id": "math-i-limits-change-of-variables-01",
-      "prompt": "Use \\(u=5x\\) to evaluate \\(\\lim_{x\\to0}\\frac{\\sin(5x)}{x}\\).",
-      "answer": "Let \\(u=5x\\). Then \\(u\\to0\\) and \\(x=u/5\\). Hence\n\\[\n\\frac{\\sin(5x)}{x}=\\frac{\\sin u}{u/5}=5\\frac{\\sin u}{u}.\n\\]\nThe standard sine limit gives the answer \\(5\\).",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "If \\(u=3x\\), what value does \\(u\\) approach as \\(x\\to0\\)?",
+      "answer": "Substitute the approaching value into the change of variable: \\(u=3x\\to3\\cdot0=0\\). So \\(u\\to0\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-change-of-variables-02",
-      "prompt": "Let \\(h=x-4\\). Use this substitution to evaluate \\(\\lim_{x\\to4}\\frac{(x-4)^2+2(x-4)}{x-4}\\).",
-      "answer": "With \\(h=x-4\\), we have \\(h\\to0\\). The expression becomes\n\\[\n\\frac{h^2+2h}{h}=h+2\n\\]\nfor \\(h\\ne0\\). Therefore the limit is\n\\[\n2.\n\\]",
-      "rating": "**",
-      "paperTags": ["term-1"]
+      "prompt": "If \\(u=x^2+1\\), what value does \\(u\\) approach as \\(x\\to2\\)?",
+      "answer": "As \\(x\\to2\\),\n\\[u=x^2+1\\to2^2+1=5.\\]\nSo the new limit is \\(u\\to5\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
     },
     {
       "id": "math-i-limits-change-of-variables-03",
-      "prompt": "Use \\(u=1/x\\) to evaluate \\(\\lim_{x\\to\\infty}\\frac{3x-2}{x+5}\\).",
-      "answer": "Let \\(u=1/x\\). Then \\(u\\to0^+\\). Divide top and bottom by \\(x\\):\n\\[\n\\frac{3x-2}{x+5}=\\frac{3-2u}{1+5u}.\n\\]\nTaking \\(u\\to0^+\\) gives\n\\[\n\\frac{3}{1}=3.\n\\]",
+      "prompt": "Evaluate \\(\\lim_{x\\to2}(x^2+3)^2\\) using \\(u=x^2+3\\).",
+      "answer": "Let \\(u=x^2+3\\). As \\(x\\to2\\), \\(u\\to7\\). Therefore\n\\[\\lim_{x\\to2}(x^2+3)^2=\\lim_{u\\to7}u^2=49.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-04",
+      "prompt": "Rewrite \\(\\lim_{x\\to0}\\frac{\\sin(6x)}{6x}\\) using \\(u=6x\\).",
+      "answer": "With \\(u=6x\\), \\(u\\to0\\) as \\(x\\to0\\). The limit becomes\n\\[\\lim_{u\\to0}\\frac{\\sin u}{u}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-05",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(8x)}{x}\\) using a change of variable.",
+      "answer": "Let \\(u=8x\\). Then \\(x=u/8\\) and \\(u\\to0\\).\n\\[\\frac{\\sin(8x)}{x}=\\frac{\\sin u}{u/8}=8\\frac{\\sin u}{u}.\\]\nThe limit is \\(8\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-06",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}(2x-1)^5\\) using \\(u=2x-1\\).",
+      "answer": "As \\(x\\to1\\), \\(u=2x-1\\to1\\). Hence\n\\[\\lim_{x\\to1}(2x-1)^5=\\lim_{u\\to1}u^5=1.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-07",
+      "prompt": "Evaluate \\(\\lim_{x\\to4}\\frac{\\sqrt{x}-2}{x-4}\\) using \\(u=\\sqrt{x}\\).",
+      "answer": "Let \\(u=\\sqrt{x}\\), so \\(x=u^2\\) and \\(u\\to2\\). Then\n\\[\\frac{\\sqrt{x}-2}{x-4}=\\frac{u-2}{u^2-4}=\\frac{u-2}{(u-2)(u+2)}=\\frac1{u+2}.\\]\nThe limit is \\(1/4\\).",
       "rating": "**+",
-      "paperTags": ["term-1"]
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-08",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{1-\\cos(5x)}{x}\\) using \\(u=5x\\).",
+      "answer": "Let \\(u=5x\\), so \\(x=u/5\\). Then\n\\[\\frac{1-\\cos(5x)}{x}=5\\frac{1-\\cos u}{u}.\\]\nSince \\(\\lim_{u\\to0}\\frac{1-\\cos u}{u}=0\\), the required limit is \\(0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-09",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{x^3-1}{x-1}\\) using \\(u=x-1\\).",
+      "answer": "Let \\(u=x-1\\), so \\(x=u+1\\) and \\(u\\to0\\). Then\n\\[(u+1)^3-1=3u+3u^2+u^3.\\]\nThus\n\\[\\frac{x^3-1}{x-1}=\\frac{3u+3u^2+u^3}{u}=3+3u+u^2\\to3.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-10",
+      "prompt": "Evaluate \\(\\lim_{x\\to8}\\frac{x^{1/3}-2}{x-8}\\) using \\(u=x^{1/3}\\).",
+      "answer": "Let \\(u=x^{1/3}\\), so \\(x=u^3\\) and \\(u\\to2\\). Then\n\\[\\frac{x^{1/3}-2}{x-8}=\\frac{u-2}{u^3-8}=\\frac{u-2}{(u-2)(u^2+2u+4)}.\\]\nThe limit is \\(1/(4+4+4)=1/12\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-11",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\sin(2x)}{\\sin(3x)}\\) by changing variables in each sine factor.",
+      "answer": "Write\n\\[\\frac{\\sin(2x)}{\\sin(3x)}=\\frac{\\sin(2x)}{2x}\\cdot\\frac{2}{3}\\cdot\\frac{3x}{\\sin(3x)}.\\]\nWith \\(u=2x\\) and \\(v=3x\\), both sine-limit factors tend to \\(1\\). The limit is \\(2/3\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-12",
+      "prompt": "Explain the new limit when \\(u=g(x)\\) and \\(x\\to a\\).",
+      "answer": "If \\(g(x)\\to b\\) as \\(x\\to a\\), then the substituted variable approaches \\(b\\). A limit involving \\(F(g(x))\\) becomes a limit in \\(u\\):\n\\[\\lim_{x\\to a}F(g(x))=\\lim_{u\\to b}F(u),\\]\nwhen the substitution preserves the approach and the resulting limit exists.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-13",
+      "prompt": "Evaluate \\(\\lim_{x\\to1}\\frac{\\sqrt{2x+7}-3}{x-1}\\) using \\(u=\\sqrt{2x+7}\\).",
+      "answer": "Let \\(u=\\sqrt{2x+7}\\). Then \\(u\\to3\\) and \\(u^2=2x+7\\), so \\(x=(u^2-7)/2\\). Thus\n\\[x-1=\\frac{u^2-9}{2}=\\frac{(u-3)(u+3)}2.\\]\nThe fraction becomes \\(\\frac{u-3}{(u-3)(u+3)/2}=\\frac2{u+3}\\), so the limit is \\(1/3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-14",
+      "prompt": "Evaluate \\(\\lim_{x\\to0}\\frac{\\tan(4x)}{\\sin(6x)}\\).",
+      "answer": "Use standard substitutions in the trig factors:\n\\[\\frac{\\tan(4x)}{\\sin(6x)}=\\frac{\\sin(4x)}{\\cos(4x)\\sin(6x)}.\\]\nThen\n\\[=\\frac{\\sin(4x)}{4x}\\cdot\\frac{4}{6}\\cdot\\frac{6x}{\\sin(6x)}\\cdot\\frac1{\\cos(4x)}.\\]\nThe limit is \\(1\\cdot\\frac46\\cdot1\\cdot1=\\frac23\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-15",
+      "prompt": "For \\(u=ax\\), find \\(a\\) if \\(\\lim_{x\\to0}\\frac{\\sin(ax)}{x}=7\\).",
+      "answer": "Let \\(u=ax\\). Then\n\\[\\frac{\\sin(ax)}{x}=a\\frac{\\sin(ax)}{ax}.\\]\nThe sine-limit factor tends to \\(1\\), so the limit equals \\(a\\). Therefore \\(a=7\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-16",
+      "prompt": "Find \\(a\\) so that \\(\\lim_{x\\to0}\\frac{\\sin(ax)}{\\sin(5x)}=2\\).",
+      "answer": "Using \\(u=ax\\) and \\(v=5x\\),\n\\[\\frac{\\sin(ax)}{\\sin(5x)}=\\frac{\\sin(ax)}{ax}\\cdot\\frac{a}{5}\\cdot\\frac{5x}{\\sin(5x)}.\\]\nThe limit is \\(a/5\\). Set \\(a/5=2\\), giving \\(a=10\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-17",
+      "prompt": "For \\(u=x-a\\), show that \\(\\lim_{x\\to a}\\frac{(x-a)^2}{x-a}=0\\).",
+      "answer": "Let \\(u=x-a\\). As \\(x\\to a\\), \\(u\\to0\\). For \\(u\\ne0\\),\n\\[\\frac{(x-a)^2}{x-a}=\\frac{u^2}{u}=u.\\]\nThus the limit is \\(\\lim_{u\\to0}u=0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-18",
+      "prompt": "A student sets \\(u=x^2\\) in \\(\\lim_{x\\to-2}F(x^2)\\) but writes \\(u\\to-4\\). Diagnose the error.",
+      "answer": "The new variable must approach the value of \\(x^2\\), not the square of the arrow direction with a sign copied incorrectly. Since \\(x\\to-2\\),\n\\[u=x^2\\to(-2)^2=4.\\]\nThe correct substituted limit is \\(\\lim_{u\\to4}F(u)\\), if that limit exists.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-19",
+      "prompt": "Explain why \\(u=x^2\\) can be a risky substitution for two-sided limits near \\(x=0\\).",
+      "answer": "If \\(u=x^2\\), then \\(u\\to0\\) only through non-negative values. A two-sided limit in \\(x\\) may become a one-sided limit \\(u\\to0^+\\). The substitution is valid only if the rewritten limit uses the correct approach direction and the required one-sided limit exists.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-i-limits-change-of-variables-20",
+      "prompt": "Give a careful change-of-variables solution for \\(\\lim_{x\\to0}\\frac{\\sin(\\sqrt{x})}{\\sqrt{x}}\\), with the domain noted.",
+      "answer": "The expression is real for \\(x\\ge0\\), so the relevant approach is \\(x\\to0^+\\). Let \\(u=\\sqrt{x}\\). Then \\(u\\to0^+\\), and\n\\[\\frac{\\sin(\\sqrt{x})}{\\sqrt{x}}=\\frac{\\sin u}{u}.\\]\nSince the sine limit from the right is \\(1\\), the limit is \\(1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
     }
   ]
 }

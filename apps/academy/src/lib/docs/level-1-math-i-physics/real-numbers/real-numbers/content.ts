@@ -4,11 +4,11 @@ The **real number line** is a visual representation of all real numbers arranged
 
 ### Ordering of Real Numbers
 
-For any two real numbers $a$ and $b$:
-- $a > b$ means $a$ lies to the right of $b$ on the number line
-- $a < b$ means $a$ lies to the left of $b$ on the number line
+For any two real numbers \(a\) and \(b\):
+- \(a > b\) means \(a\) lies to the right of \(b\) on the number line
+- \(a < b\) means \(a\) lies to the left of \(b\) on the number line
 
-The number line extends infinitely in both directions, with $0$ at the center, positive numbers to the right, and negative numbers to the left.
+The number line extends infinitely in both directions, with \(0\) at the center, positive numbers to the right, and negative numbers to the left.
 
 ## Rational vs Irrational Numbers
 
@@ -16,11 +16,11 @@ All real numbers are either **rational** or **irrational**.
 
 ### Rational Numbers
 
-A rational number is any number that can be expressed as a fraction $\frac{p}{q}$ where $p$ and $q$ are integers and $q \neq 0$.
+A rational number is any number that can be expressed as a fraction \(\frac{p}{q}\) where \(p\) and \(q\) are integers and \(q \neq 0\).
 
 <Equation label="Rational Numbers" tex="\mathbb{Q} = \left\{ \frac{p}{q} \mid p, q \in \mathbb{Z}, q \neq 0 \right\}" />
 
-Examples: $3$, $-5$, $\frac{2}{7}$, $4.5$, $-2.\overline{3}$
+Examples: \(3\), \(-5\), \(\frac{2}{7}\), \(4.5\), \(-2.\overline{3}\)
 
 ### Irrational Numbers
 
@@ -28,13 +28,13 @@ An irrational number cannot be expressed as a ratio of two integers. Their decim
 
 <Equation label="Common Irrational Numbers" tex="\sqrt{2}, \pi, e, \sqrt[3]{5}" />
 
-**Key distinction:** $\sqrt{4} = 2$ (rational) but $\sqrt{2}$ is irrational because 2 is not a perfect square.
+**Key distinction:** \(\sqrt{4} = 2\) (rational) but \(\sqrt{2}\) is irrational because 2 is not a perfect square.
 
-## Properties of the Real Numbers ($\mathbb{R}$)
+## Properties of the Real Numbers (\(\mathbb{R}\))
 
 ### Closure Properties
 
-For all $a, b \in \mathbb{R}$:
+For all \(a, b \in \mathbb{R}\):
 
 <Equation label="Addition Closure" tex="a + b \in \mathbb{R}" />
 
@@ -58,13 +58,13 @@ For all $a, b \in \mathbb{R}$:
 
 ### Identity Elements
 
-- Additive identity: $a + 0 = a$
-- Multiplicative identity: $a \times 1 = a$
+- Additive identity: \(a + 0 = a\)
+- Multiplicative identity: \(a \times 1 = a\)
 
 ### Inverse Elements
 
-- Additive inverse: $a + (-a) = 0$
-- Multiplicative inverse: $a \times \frac{1}{a} = 1$ (for $a \neq 0$)
+- Additive inverse: \(a + (-a) = 0\)
+- Multiplicative inverse: \(a \times \frac{1}{a} = 1\) (for \(a \neq 0\))
 
 ### Density Property
 
