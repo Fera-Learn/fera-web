@@ -39,7 +39,7 @@ Angular acceleration is a slope on an angular-velocity graph. It tells how \\(\\
 
 The graph shows the geometric reading: the slope of \\(\omega(t)\\) is \\(\alpha\\). A straight line means constant angular acceleration.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Angular acceleration as slope"
   caption="The slope of an angular-velocity graph is angular acceleration."
   width={460}

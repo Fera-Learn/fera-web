@@ -85,7 +85,7 @@ With light damping, the amplitude is largest near the natural frequency. More da
 
 The graph shows steady-state amplitude against drive frequency. It is not the displacement-time graph.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Resonance curve"
   caption="Small damping gives a taller, narrower response near the natural frequency."
   xRange={{ min: 0, max: 2, step: 0.5, label: "omega / omega0" }}

@@ -37,7 +37,7 @@ Position locates an object on a chosen axis at a stated time. The number only ha
 
 The graph below represents a motion as a sequence of time-position states. Read position from a single point, and read displacement from the change between two points.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Position on an axis"
   caption="A point on the graph gives the object's position at one instant."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

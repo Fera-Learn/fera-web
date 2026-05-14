@@ -21,7 +21,7 @@ An elastic modulus is stiffness for one deformation mode.
 
 Young modulus compares axial stress with axial strain in the linear elastic region.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Modulus as slope"
   caption="A larger modulus gives a steeper elastic stress-strain relation."
   xRange={{ min: 0, max: 0.004, step: 0.001, label: "strain" }}

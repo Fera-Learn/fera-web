@@ -80,7 +80,7 @@ The inside and outside formulas should agree at the surface.
 
 The graph shows the full piecewise behavior for a uniform sphere. The field rises linearly inside, peaks at the surface, then falls as \\(1/r^2\\) outside.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Field of a uniform spherical mass"
   caption="The surface is where the linear interior model meets the inverse-square exterior model."
   width={520}

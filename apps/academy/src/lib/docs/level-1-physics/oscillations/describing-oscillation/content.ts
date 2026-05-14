@@ -89,7 +89,7 @@ A sinusoid is the simplest smooth periodic model. The amplitude scales the displ
 
 The graph below is a time history, not a path through space. Read the period horizontally and the amplitude vertically.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Periodic displacement"
   caption="The pattern repeats after one period; amplitude is measured from equilibrium."
   xRange={{ min: 0, max: 6.3, step: 1, label: "t" }}

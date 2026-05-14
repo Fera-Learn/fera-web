@@ -166,7 +166,10 @@ function toIdentifier(sectionId, topicId) {
     })
     .join("");
 
-  return `${identifier || "topic"}QuestionData`;
+  return `${identifier || "topic"}QuestionData`.replaceAll(
+    "FreeBodyDiagram",
+    "ForceDiagram",
+  );
 }
 
 function toImportPath(filePath, outputPath) {

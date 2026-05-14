@@ -95,7 +95,7 @@ import fluidsFluidFlowQuestionData from "./questions/fluids/fluid-flow.json";
 import fluidsPressureInFluidsQuestionData from "./questions/fluids/pressure-in-fluids.json";
 import fluidsViscosityAndTurbulenceQuestionData from "./questions/fluids/viscosity-and-turbulence.json";
 import forcesNewtonsLawsActionReactionPairsQuestionData from "./questions/forces-newtons-laws/action-reaction-pairs.json";
-import forcesNewtonsLawsDrawingFreeBodyDiagramsQuestionData from "./questions/forces-newtons-laws/drawing-free-body-diagrams.json";
+import forcesNewtonsLawsDrawingForceDiagramsQuestionData from "./questions/forces-newtons-laws/drawing-free-body-diagrams.json";
 import forcesNewtonsLawsEquilibriumAndInertiaQuestionData from "./questions/forces-newtons-laws/equilibrium-and-inertia.json";
 import forcesNewtonsLawsForceMassAndAccelerationQuestionData from "./questions/forces-newtons-laws/force-mass-and-acceleration.json";
 import forcesNewtonsLawsForcesAsInteractionsQuestionData from "./questions/forces-newtons-laws/forces-as-interactions.json";
@@ -394,7 +394,7 @@ export const level1PhysicsQuestionTopics = [
   fluidsPressureInFluidsQuestionData,
   fluidsViscosityAndTurbulenceQuestionData,
   forcesNewtonsLawsActionReactionPairsQuestionData,
-  forcesNewtonsLawsDrawingFreeBodyDiagramsQuestionData,
+  forcesNewtonsLawsDrawingForceDiagramsQuestionData,
   forcesNewtonsLawsEquilibriumAndInertiaQuestionData,
   forcesNewtonsLawsForceMassAndAccelerationQuestionData,
   forcesNewtonsLawsForcesAsInteractionsQuestionData,

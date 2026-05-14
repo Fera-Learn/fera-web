@@ -37,7 +37,7 @@ For a string fixed at both ends, each end must be a node. The allowed shapes are
 
 The first three modes are shown below. Each higher mode inserts one extra interior node.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={200}
   width={360}
   xRange={{

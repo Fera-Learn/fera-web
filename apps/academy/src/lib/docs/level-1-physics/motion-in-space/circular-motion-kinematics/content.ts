@@ -108,7 +108,7 @@ Acceleration has two pieces because both the angular speed and the tangent direc
 
 The sketch below is only an instantaneous direction map. It is not a graph of position against time.
 
-<PolarPhysicsGraph
+<PolarDiagram
   title="Instantaneous circular-motion directions"
   caption="At one point on the circle, the radial and tangent directions are perpendicular."
   maxRadius={4.5}

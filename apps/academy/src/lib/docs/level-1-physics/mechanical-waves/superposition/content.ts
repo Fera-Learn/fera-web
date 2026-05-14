@@ -34,7 +34,7 @@ For a linear wave equation, the sum of two solutions is another solution. That m
 
 The graph shows two sinusoidal waves at the same instant and the displacement produced when they overlap.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={360}
   xRange={{ min: 0, max: 5.5, step: 1.0, label: "x" }}

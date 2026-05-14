@@ -46,7 +46,7 @@ Constant acceleration makes velocity linear in time and position quadratic in ti
 
 The graph below shows the two signatures of the model: a straight velocity-time graph and a curved position-time graph.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Constant acceleration signatures"
   caption="Velocity is linear in time while position curves quadratically."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

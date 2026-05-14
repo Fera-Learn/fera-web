@@ -38,7 +38,7 @@ Freeze the wave at one instant and compare positions along the medium. The ampli
 
 The graph is scaled so the horizontal axis is measured in wavelength units. Adjacent crests are one unit apart on that scale.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={340}
   xRange={{

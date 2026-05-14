@@ -18,7 +18,7 @@ Work transfers energy through the force component along displacement.
 
 The diagram isolates the part of the force that points along the displacement; the perpendicular part does not transfer energy along this path.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Work uses the parallel component"
   caption="Only the force component along displacement contributes to work."
   xRange={{ min: 0, max: 5, step: 1, label: "x" }}

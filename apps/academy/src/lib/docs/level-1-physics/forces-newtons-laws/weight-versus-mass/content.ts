@@ -50,7 +50,7 @@ Weight is a force model. Apparent weight is a contact-force reading found from t
 
 The free-body diagram shows why a scale reading can differ from weight during vertical acceleration.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Apparent weight"
   caption="A scale reads the normal reaction, which changes when vertical acceleration changes."
   bodyLabel="m"

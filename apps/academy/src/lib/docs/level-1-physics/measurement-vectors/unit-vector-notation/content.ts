@@ -19,7 +19,7 @@ Unit-vector notation writes signed components along chosen basis directions.
 
 The basis vectors show direction only; the component coefficients carry the physical units.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Unit-vector basis"
   caption="Basis directions are unit length; components scale those directions."
   xRange={{ min: -1, max: 4, step: 1, label: "x" }}

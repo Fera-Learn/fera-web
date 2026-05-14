@@ -60,7 +60,7 @@ If the required static friction is larger than the maximum available value, the 
 
 The free-body diagram shows a horizontal push and a friction force parallel to the surface. The normal force must be found before either friction model can be evaluated.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Friction force model"
   caption="Friction acts along the contact surface; the normal force sets the friction scale."
   bodyLabel="m"

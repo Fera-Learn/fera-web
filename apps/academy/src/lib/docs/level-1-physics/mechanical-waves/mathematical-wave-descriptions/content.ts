@@ -43,7 +43,7 @@ Start with a shape \\(g(x)\\) at \\(t=0\\). If that exact shape moves right with
 
 The two curves below have the same shape. The later curve is the original profile shifted to the right, which is exactly what the argument \\(x-v_wt\\) means.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={360}
   xRange={{ min: 0, max: 8, step: 2, label: "x" }}

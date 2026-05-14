@@ -65,7 +65,7 @@ For point sources or spherically symmetric sources, the effect spreads across sp
 
 The graph below shows only the distance scaling. Doubling separation leaves one quarter of the force magnitude for any point-source inverse-square model.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Inverse-square scale"
   caption="Relative magnitude falls rapidly as separation increases."
   width={440}

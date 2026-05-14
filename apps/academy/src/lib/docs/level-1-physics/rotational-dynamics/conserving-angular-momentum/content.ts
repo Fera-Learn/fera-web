@@ -60,7 +60,7 @@ For a rigid body about one fixed axis, angular momentum is \\(I\omega\\), so cha
 
 The graph shows the trade-off: if \\(L=I\omega\\) is fixed, reducing \\(I\\) increases \\(\omega\\).
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="I and omega trade off"
   caption="With L fixed, angular speed is inversely proportional to moment of inertia."
   width={460}

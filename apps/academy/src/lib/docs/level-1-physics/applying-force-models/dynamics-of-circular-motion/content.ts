@@ -62,7 +62,7 @@ On a flat curve, the normal force and weight cancel vertically. Static friction 
 
 The free-body diagram below is a flat-curve model: weight and normal balance vertically, while static friction points inward and supplies the radial resultant.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Flat-curve force model"
   caption="Static friction is the inward resultant for a flat curve."
   bodyLabel="car"

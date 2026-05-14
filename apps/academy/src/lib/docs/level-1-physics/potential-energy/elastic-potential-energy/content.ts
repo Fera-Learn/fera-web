@@ -42,7 +42,7 @@ Elastic potential energy is stored when a spring or elastic element is displaced
   ]}
 />
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Spring force and energy"
   caption="Spring force changes sign with displacement; stored energy is quadratic."
   xRange={{ min: -3, max: 3, step: 1, label: "x" }}

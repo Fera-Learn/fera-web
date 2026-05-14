@@ -6,12 +6,18 @@ import remarkGfm from "remark-gfm";
 
 import { Card, CardContent } from "@repo/ui/card";
 import {
-  CartesianPhysicsGraph,
-  FreeBodyDiagram,
-  PolarPhysicsGraph,
+  AreaDiagram,
+  ArgandDiagram,
+  CartesianDiagram,
+  CollisionDiagram,
+  CurveDiagram,
+  ForceDiagram,
+  IntervalAreaDiagram,
+  PolarDiagram,
   RigidBodyDiagram,
-  StressStrainDiagram,
-} from "@repo/ui/physics-diagrams";
+  StateDiagram,
+  VectorFieldDiagram,
+} from "@repo/ui/diagrams";
 
 import type { DocPage } from "../core/types";
 import {
@@ -71,14 +77,20 @@ export async function renderDocBody(
     },
     Equation: DocsEquation,
     Notation: DocsNotation,
-    CartesianPhysicsGraph,
-    FreeBodyDiagram,
+    AreaDiagram,
+    ArgandDiagram,
+    CartesianDiagram,
+    CollisionDiagram,
+    CurveDiagram,
+    ForceDiagram,
+    IntervalAreaDiagram,
     PhysicsAside: DocsPhysicsAside,
     PhysicsDerivation: DocsPhysicsDerivation,
     PhysicsExamples: DocsPhysicsExamples,
-    PolarPhysicsGraph,
+    PolarDiagram,
     RigidBodyDiagram,
-    StressStrainDiagram,
+    StateDiagram,
+    VectorFieldDiagram,
     h2: ({ id, children, ...props }: HTMLAttributes<HTMLHeadingElement>) => {
       if (suppressExamplesSection && id === "examples") {
         return null;

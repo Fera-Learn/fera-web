@@ -41,7 +41,7 @@ For a rolling body, the center of mass translates while the body rotates about t
 
 The free-body diagram shows the forces for a wheel on a horizontal surface. Translation uses the net force; rotation uses torques about the center.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Rolling body forces"
   bodyLabel="wheel"
   bodyShape="circle"

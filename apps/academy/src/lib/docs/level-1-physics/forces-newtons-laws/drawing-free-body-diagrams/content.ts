@@ -42,7 +42,7 @@ A free-body diagram is a force inventory before it is an equation.
 
 The free-body diagram below shows only forces acting on the block, not forces the block exerts.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Typical block free-body diagram"
   caption="Only forces acting on the block appear; acceleration and forces by the block are omitted."
   bodyLabel="m"

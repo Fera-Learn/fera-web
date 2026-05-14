@@ -83,7 +83,7 @@ Relative motion is vector addition, so crossed directions must be handled by com
 
 The vector sketch shows the common boat-current pattern: ground velocity is boat-relative-to-water plus water-relative-to-ground.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Relative velocity addition"
   caption="Ground velocity is the vector sum of velocity relative to the moving frame and the frame velocity."
   width={460}

@@ -42,7 +42,7 @@ Calculus links motion quantities by differentiation and integration. Derivatives
 
 The graph below combines the two views: slope turns a position history into velocity, and area under a velocity history gives displacement.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Area and slope"
   caption="Slope connects position to velocity; area under velocity gives displacement."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

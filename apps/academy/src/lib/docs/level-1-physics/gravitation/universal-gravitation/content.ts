@@ -68,7 +68,7 @@ Once the source mass is fixed, the test mass only scales the force. Dividing by 
 
 The graph shows the distance scaling only. A point twice as far from the same source feels one quarter of the field magnitude.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Inverse-square gravitational field"
   caption="Relative field strength falls rapidly near the source and flattens further out."
   width={440}

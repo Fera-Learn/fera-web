@@ -39,7 +39,7 @@ Choose a positive rotation direction first. Angular displacement is then a signe
 
 The sketch fixes what \\(\\Delta\\theta\\) means: both radius vectors are measured from the same reference direction, and the sign comes from the chosen positive sense.
 
-<PolarPhysicsGraph
+<PolarDiagram
   title="Angular displacement"
   caption="Angular velocity uses signed angular displacement about the axis."
   maxRadius={4}

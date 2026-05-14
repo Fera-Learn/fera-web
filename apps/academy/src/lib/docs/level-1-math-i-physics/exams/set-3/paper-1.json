@@ -3,14 +3,16 @@
   "courseId": "level-1-math-i-physics",
   "setId": "set-3",
   "paperId": "paper-1",
-  "paperTags": ["paper-1"],
-  "description": "Real-number methods, trigonometric modelling, calculus, integration, and complex numbers for physics support.",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "Differentiation, limits, integration, complex numbers, series, Taylor approximation, matrices, linear systems, and eigenvalue methods for Level 1 Math I.",
   "id": "paper-1",
   "instructions": [
     "Attempt all questions.",
     "All main questions carry the same number of marks.",
-    "Show enough working to make the algebra, definitions, and modelling steps clear.",
-    "Begin each main question on a new page when working on paper."
+    "Show sufficient working to justify each answer.",
+    "Begin each main question on a new page."
   ],
   "label": "Paper 1",
   "questions": [
@@ -18,30 +20,30 @@
       "id": "l1mi-s3-p1-q1",
       "marks": 15,
       "number": 1,
-      "section": "Section A: Real Numbers and Algebra",
-      "stem": "A dimensionless calibration setting \\(x\\) is adjusted during a bench test. The same test also uses a small error parameter \\(\\epsilon\\) and a sequence of linearly increasing readings.",
-      "title": "Calibration algebra and finite sums",
+      "section": "Section A: Differentiation and Limits",
+      "stem": "This question concerns variable exponents, the squeeze theorem, and differentiation from first principles.",
+      "title": "Derivatives and limits",
       "parts": [
         {
-          "answer": "First solve the two inequalities separately. For\n\\[\n\\frac{2x-1}{x+2}>0,\n\\]\nthe critical values are \\(x=-2\\) and \\(x=\\frac{1}{2}\\). A sign chart gives \\(x<-2\\) or \\(x>\\frac{1}{2}\\). Next,\n\\[\n\\frac{2x-1}{x+2}<1\n\\]\nis equivalent to\n\\[\n\\frac{2x-1-(x+2)}{x+2}<0,\n\\]\nso\n\\[\n\\frac{x-3}{x+2}<0.\n\\]\nThis holds for \\(-2<x<3\\). Intersecting the two conditions gives\n\\[\n\\frac{1}{2}<x<3.\n\\]",
+          "answer": "Use logarithmic differentiation. Let \\(y=(1+2x)^{x^2}\\), where \\(x>-\\frac{1}{2}\\). Then\n\\[\n\\ln y=x^2\\ln(1+2x).\n\\]\nDifferentiate both sides:\n\\[\n\\frac{y'}{y}=2x\\ln(1+2x)+x^2\\frac{2}{1+2x}.\n\\]\nTherefore\n\\[\ny'=(1+2x)^{x^2}\\left(2x\\ln(1+2x)+\\frac{2x^2}{1+2x}\\right).\n\\]\nAt \\(x=1\\),\n\\[\ny'(1)=3\\left(2\\ln3+\\frac{2}{3}\\right)=6\\ln3+2.\n\\]",
           "id": "l1mi-s3-p1-q1-a",
           "label": "(a)",
           "marks": 5,
-          "prompt": "Solve the inequality \\(0<\\frac{2x-1}{x+2}<1\\)."
+          "prompt": "Differentiate \\(y=(1+2x)^{x^2}\\), where \\(x>-\\frac{1}{2}\\), and evaluate \\(y'(1)\\)."
         },
         {
-          "answer": "Using the binomial theorem,\n\\[\n(1+2\\epsilon)^5=1+5(2\\epsilon)+10(2\\epsilon)^2+10(2\\epsilon)^3+5(2\\epsilon)^4+(2\\epsilon)^5.\n\\]\nKeeping terms up to \\(\\epsilon^3\\),\n\\[\n(1+2\\epsilon)^5\\approx 1+10\\epsilon+40\\epsilon^2+80\\epsilon^3.\n\\]\nFor \\(\\epsilon=0.01\\),\n\\[\n1+10(0.01)+40(0.01)^2+80(0.01)^3=1.10408.\n\\]\nThe cubic approximation is \\(1.10408\\).",
+          "answer": "Both the numerator and denominator tend to \\(0\\) as \\(x\\to0\\). Apply L'Hopital's rule:\n\\[\n\\lim_{x\\to0}\\frac{e^{2x}-1-2x}{x^2}=\\lim_{x\\to0}\\frac{2e^{2x}-2}{2x}.\n\\]\nThis is still a \\(0/0\\) form, so apply L'Hopital's rule again:\n\\[\n\\lim_{x\\to0}\\frac{2e^{2x}-2}{2x}=\\lim_{x\\to0}\\frac{4e^{2x}}{2}=2\\lim_{x\\to0}e^{2x}=2.\n\\]\nTherefore\n\\[\n\\lim_{x\\to0}\\frac{e^{2x}-1-2x}{x^2}=2.\n\\]",
           "id": "l1mi-s3-p1-q1-b",
           "label": "(b)",
-          "marks": 5,
-          "prompt": "Expand \\((1+2\\epsilon)^5\\) up to and including the term in \\(\\epsilon^3\\). Use this to estimate \\((1.02)^5\\)."
+          "marks": 4,
+          "prompt": "Use L'Hopital's rule to evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{e^{2x}-1-2x}{x^2}\\)."
         },
-        {
-          "answer": "Use the standard sums:\n\\[\n\\sum_{r=1}^{n}(4r-1)=4\\sum_{r=1}^{n}r-\\sum_{r=1}^{n}1.\n\\]\nTherefore\n\\[\n\\sum_{r=1}^{n}(4r-1)=4\\cdot\\frac{n(n+1)}{2}-n=2n(n+1)-n.\n\\]\nSo\n\\[\n\\sum_{r=1}^{n}(4r-1)=2n^2+n.\n\\]\nIf the sum is \\(171\\), then\n\\[\n2n^2+n=171.\n\\]\nHence\n\\[\n2n^2+n-171=0=(n-9)(2n+19).\n\\]\nSince \\(n\\) is positive, \\(n=9\\).",
+{
+          "answer": "Differentiate both sides of the equation with respect to \\(x\\). The left-hand side gives \\(d/dx(xy)=y+x\\,y'\\). The right-hand side differentiates to \\(d/dx(x^2+y^2)=2x+2y\\,y'\\). Thus\n\\[\ny+x\\frac{dy}{dx}=2x+2y\\frac{dy}{dx}.\n\\]\nCollect the \\(y'\\) terms on one side:\n\\[\nx\\frac{dy}{dx}-2y\\frac{dy}{dx}=2x-y.\n\\]\nFactor:\n\\[\n(x-2y)\\frac{dy}{dx}=2x-y.\n\\]\nTherefore\n\\[\n\\frac{dy}{dx}=\\frac{2x-y}{x-2y}.\n\\]\nAt the point \\((1,2)\\), substitute \\(x=1\\) and \\(y=2\\):\n\\[\n\\frac{dy}{dx}\\bigg|_{(1,2)}=\\frac{2(1)-2}{1-2(2)}=\\frac{0}{-3}=0.\n\\]",
           "id": "l1mi-s3-p1-q1-c",
           "label": "(c)",
-          "marks": 5,
-          "prompt": "Find \\(\\sum_{r=1}^{n}(4r-1)\\). Hence find \\(n\\) if this sum is \\(171\\)."
+          "marks": 6,
+          "prompt": "Use implicit differentiation to find \\(dy/dx\\) for the curve defined by \\(xy+x^2=y^2\\). Hence evaluate \\(dy/dx\\) at the point \\((1,2)\\)."
         }
       ]
     },
@@ -49,30 +51,30 @@
       "id": "l1mi-s3-p1-q2",
       "marks": 15,
       "number": 2,
-      "section": "Section B: Trigonometry and Limits",
-      "stem": "An oscillatory signal is modelled by \\(s(t)=4\\sin t+3\\cos t\\), where \\(t\\) is measured in radians. A separate small-angle calculation is used to compare two nearby signals.",
-      "title": "Oscillatory signal model",
+      "section": "Section B: Integration",
+      "stem": "This question uses substitution, integration by parts, and a rational integral with an irreducible quadratic denominator.",
+      "title": "Integration methods",
       "parts": [
         {
-          "answer": "Write\n\\[\n4\\sin t+3\\cos t=5\\sin(t+\\alpha).\n\\]\nExpanding the right-hand side gives\n\\[\n5\\sin(t+\\alpha)=5\\sin t\\cos\\alpha+5\\cos t\\sin\\alpha.\n\\]\nComparing coefficients,\n\\[\n5\\cos\\alpha=4,\\qquad 5\\sin\\alpha=3.\n\\]\nThus\n\\[\n\\cos\\alpha=\\frac{4}{5},\\qquad \\sin\\alpha=\\frac{3}{5},\\qquad \\alpha=\\tan^{-1}\\left(\\frac{3}{4}\\right).\n\\]\nTherefore\n\\[\ns(t)=5\\sin\\left(t+\\tan^{-1}\\left(\\frac{3}{4}\\right)\\right).\n\\]",
+          "answer": "Let\n\\[\nu=x^2+4,\\qquad du=2x\\,dx.\n\\]\nThen\n\\[\n\\int \\frac{2x}{(x^2+4)^3}\\,dx=\\int u^{-3}\\,du.\n\\]\nIntegrating gives\n\\[\n\\int u^{-3}\\,du=\\frac{u^{-2}}{-2}+C=-\\frac{1}{2u^2}+C.\n\\]\nSubstitute back \\(u=x^2+4\\):\n\\[\n\\int \\frac{2x}{(x^2+4)^3}\\,dx=-\\frac{1}{2(x^2+4)^2}+C.\n\\]",
           "id": "l1mi-s3-p1-q2-a",
           "label": "(a)",
-          "marks": 5,
-          "prompt": "Write \\(s(t)=4\\sin t+3\\cos t\\) in the form \\(R\\sin(t+\\alpha)\\), where \\(R>0\\) and \\(0<\\alpha<\\frac{\\pi}{2}\\)."
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int \\frac{2x}{(x^2+4)^3}\\,dx\\)."
         },
         {
-          "answer": "From part (a),\n\\[\ns(t)=5\\sin(t+\\alpha),\\qquad \\alpha=\\tan^{-1}\\left(\\frac{3}{4}\\right).\n\\]\nThe maximum value of the sine function is \\(1\\), so the maximum signal value is \\(5\\). This first occurs when\n\\[\nt+\\alpha=\\frac{\\pi}{2}.\n\\]\nTherefore\n\\[\nt=\\frac{\\pi}{2}-\\tan^{-1}\\left(\\frac{3}{4}\\right).\n\\]",
+          "answer": "Use integration by parts with\n\\[\nu=t^2,\\qquad dv=e^{-t}\\,dt.\n\\]\nThen \\(du=2t\\,dt\\) and \\(v=-e^{-t}\\). Hence\n\\[\n\\int_0^1 t^2e^{-t}\\,dt=\\left[-t^2e^{-t}\\right]_0^1+2\\int_0^1 te^{-t}\\,dt.\n\\]\nThe boundary term is \\(-e^{-1}\\). For the remaining integral, use parts again with \\(u=t\\), \\(dv=e^{-t}\\,dt\\):\n\\[\n\\int_0^1 te^{-t}\\,dt=\\left[-te^{-t}\\right]_0^1+\\int_0^1e^{-t}\\,dt=-e^{-1}+\\left[-e^{-t}\\right]_0^1.\n\\]\nSo\n\\[\n\\int_0^1 te^{-t}\\,dt=-e^{-1}+1-e^{-1}=1-2e^{-1}.\n\\]\nTherefore\n\\[\n\\int_0^1 t^2e^{-t}\\,dt=-e^{-1}+2(1-2e^{-1})=2-5e^{-1}.\n\\]",
           "id": "l1mi-s3-p1-q2-b",
           "label": "(b)",
-          "marks": 5,
-          "prompt": "Find the maximum value of \\(s(t)\\), and find the first \\(t\\) in \\([0,2\\pi)\\) at which it occurs."
+          "marks": 6,
+          "prompt": "Use integration by parts to evaluate \\(\\displaystyle \\int_0^1 t^2e^{-t}\\,dt\\)."
         },
         {
-          "answer": "Separate the two sine terms:\n\\[\n\\lim_{u\\to0}\\frac{\\sin(5u)-\\sin(2u)}{u}=\\lim_{u\\to0}\\frac{\\sin(5u)}{u}-\\lim_{u\\to0}\\frac{\\sin(2u)}{u}.\n\\]\nFor the first term,\n\\[\n\\frac{\\sin(5u)}{u}=5\\frac{\\sin(5u)}{5u}\\to5.\n\\]\nFor the second term,\n\\[\n\\frac{\\sin(2u)}{u}=2\\frac{\\sin(2u)}{2u}\\to2.\n\\]\nTherefore the limit is\n\\[\n5-2=3.\n\\]",
+          "answer": "Complete the square in the denominator:\n\\[\nx^2+2x+5=(x+1)^2+4.\n\\]\nWrite the numerator as a derivative part plus a remainder:\n\\[\n2x+5=(2x+2)+3.\n\\]\nThus\n\\[\n\\int\\frac{2x+5}{x^2+2x+5}\\,dx=\\int\\frac{2x+2}{x^2+2x+5}\\,dx+3\\int\\frac{dx}{(x+1)^2+4}.\n\\]\nThe first integral is\n\\[\n\\ln(x^2+2x+5).\n\\]\nFor the second, use\n\\[\n\\int\\frac{dx}{(x+1)^2+2^2}=\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right).\n\\]\nTherefore\n\\[\n\\int\\frac{2x+5}{x^2+2x+5}\\,dx=\\ln(x^2+2x+5)+\\frac{3}{2}\\tan^{-1}\\left(\\frac{x+1}{2}\\right)+C.\n\\]",
           "id": "l1mi-s3-p1-q2-c",
           "label": "(c)",
           "marks": 5,
-          "prompt": "Evaluate \\(\\lim_{u\\to0}\\frac{\\sin(5u)-\\sin(2u)}{u}\\)."
+          "prompt": "Evaluate \\(\\displaystyle \\int\\frac{2x+5}{x^2+2x+5}\\,dx\\)."
         }
       ]
     },
@@ -80,30 +82,30 @@
       "id": "l1mi-s3-p1-q3",
       "marks": 15,
       "number": 3,
-      "section": "Section C: Differentiation and Integration",
-      "stem": "A displacement model for a short pulse is \\(x(t)=t^2e^{-t}\\), where \\(t\\ge0\\). A related accumulated work calculation uses a rational force model.",
-      "title": "Pulse rates and accumulated work",
+      "section": "Section C: Complex Numbers",
+      "stem": "Use principal arguments in \\((-\\pi,\\pi]\\) unless a general argument is requested.",
+      "title": "Complex form, roots, and trigonometric identities",
       "parts": [
         {
-          "answer": "Differentiate using the product rule:\n\\[\nx'(t)=2t e^{-t}+t^2(-e^{-t}).\n\\]\nHence\n\\[\nx'(t)=e^{-t}(2t-t^2)=t(2-t)e^{-t}.\n\\]\nFor \\(t>0\\), the stationary point occurs when\n\\[\nt(2-t)e^{-t}=0.\n\\]\nSince \\(e^{-t}\\ne0\\) and \\(t>0\\), the stationary time is\n\\[\nt=2.\n\\]",
+          "answer": "The modulus is\n\\[\n|z|=\\sqrt{(-2)^2+(2\\sqrt3)^2}=\\sqrt{4+12}=4.\n\\]\nSince \\(z\\) lies in the second quadrant and\n\\[\n\\tan\theta=\\frac{2\\sqrt3}{-2}=-\\sqrt3,\n\\]\nthe principal argument is\n\\[\n\\operatorname{Arg}(z)=\\frac{2\\pi}{3}.\n\\]\nTherefore\n\\[\nz=4e^{i2\\pi/3}.\n\\]",
           "id": "l1mi-s3-p1-q3-a",
           "label": "(a)",
-          "marks": 5,
-          "prompt": "Differentiate \\(x(t)=t^2e^{-t}\\), and find the stationary time for \\(t>0\\)."
+          "marks": 4,
+          "prompt": "Write \\(z=-2+2\\sqrt3\\,i\\) in exponential form."
         },
         {
-          "answer": "Use integration by parts with \\(u=t\\) and \\(dv=e^{-t}\\,dt\\). Then \\(du=dt\\) and \\(v=-e^{-t}\\). Thus\n\\[\n\\int_0^2 t e^{-t}\\,dt=\\left[-t e^{-t}\\right]_0^2+\\int_0^2 e^{-t}\\,dt.\n\\]\nNow\n\\[\n\\left[-t e^{-t}\\right]_0^2=-2e^{-2}\n\\]\nand\n\\[\n\\int_0^2 e^{-t}\\,dt=\\left[-e^{-t}\\right]_0^2=1-e^{-2}.\n\\]\nTherefore\n\\[\n\\int_0^2 t e^{-t}\\,dt=1-3e^{-2}.\n\\]",
+          "answer": "Write\n\\[\n-81=81e^{i(\\pi+2m\\pi)},\\qquad m\\in\\mathbb Z.\n\\]\nThe fourth roots have modulus\n\\[\n81^{1/4}=3.\n\\]\nTheir arguments are\n\\[\n\\frac{\\pi+2m\\pi}{4}=\\frac{\\pi}{4}+\\frac{m\\pi}{2}.\n\\]\nTaking \\(m=0,1,2,3\\), the four roots are\n\\[\nw=3e^{i(\\pi/4+k\\pi/2)},\\qquad k=0,1,2,3.\n\\]\nIn rectangular form, these are\n\\[\n\\frac{3\\sqrt2}{2}(1+i),\\quad \\frac{3\\sqrt2}{2}(-1+i),\\quad \\frac{3\\sqrt2}{2}(-1-i),\\quad \\frac{3\\sqrt2}{2}(1-i).\n\\]",
           "id": "l1mi-s3-p1-q3-b",
           "label": "(b)",
-          "marks": 5,
-          "prompt": "Evaluate \\(\\int_0^2 t e^{-t}\\,dt\\)."
+          "marks": 6,
+          "prompt": "Solve \\(w^4=-81\\), giving all roots in exponential form and rectangular form."
         },
         {
-          "answer": "Factor the denominator:\n\\[\nx^2+3x+2=(x+1)(x+2).\n\\]\nLet\n\\[\n\\frac{3x+5}{x^2+3x+2}=\\frac{A}{x+1}+\\frac{B}{x+2}.\n\\]\nThen\n\\[\n3x+5=A(x+2)+B(x+1).\n\\]\nComparing coefficients gives\n\\[\nA+B=3,\\qquad 2A+B=5.\n\\]\nThus \\(A=2\\) and \\(B=1\\). Hence\n\\[\n\\int_0^1\\frac{3x+5}{x^2+3x+2}\\,dx=\\int_0^1\\left(\\frac{2}{x+1}+\\frac{1}{x+2}\\right)dx.\n\\]\nSo\n\\[\n\\left[2\\ln(x+1)+\\ln(x+2)\\right]_0^1=2\\ln2+\\ln3-\\ln2=\\ln6.\n\\]",
+          "answer": "Use the exponential definition\n\\[\n\\cos z=\\frac{e^{iz}+e^{-iz}}{2}.\n\\]\nFor \\(z=a+ib\\),\n\\[\ne^{iz}=e^{i(a+ib)}=e^{-b}(\\cos a+i\\sin a)\n\\]\nand\n\\[\ne^{-iz}=e^{-i(a+ib)}=e^b(\\cos a-i\\sin a).\n\\]\nAdding gives\n\\[\ne^{iz}+e^{-iz}=(e^{-b}+e^b)\\cos a+i(e^{-b}-e^b)\\sin a.\n\\]\nDivide by \\(2\\):\n\\[\n\\cos(a+ib)=\\cos a\\left(\\frac{e^b+e^{-b}}{2}\\right)-i\\sin a\\left(\\frac{e^b-e^{-b}}{2}\\right).\n\\]\nThus\n\\[\n\\cos(a+ib)=\\cos a\\cosh b-i\\sin a\\sinh b.\n\\]",
           "id": "l1mi-s3-p1-q3-c",
           "label": "(c)",
           "marks": 5,
-          "prompt": "Resolve \\(\\frac{3x+5}{x^2+3x+2}\\) into partial fractions, and evaluate \\(\\int_0^1\\frac{3x+5}{x^2+3x+2}\\,dx\\)."
+          "prompt": "Using \\(\\cos z=\\frac{e^{iz}+e^{-iz}}{2}\\), show that \\(\\cos(a+ib)=\\cos a\\cosh b-i\\sin a\\sinh b\\)."
         }
       ]
     },
@@ -111,35 +113,128 @@
       "id": "l1mi-s3-p1-q4",
       "marks": 15,
       "number": 4,
-      "section": "Section D: Complex Numbers",
-      "stem": "A phasor has complex amplitude \\(z=\\sqrt{3}+i\\). Complex roots are used to describe equally spaced phase choices.",
-      "title": "Phasors and roots",
+      "section": "Section D: Series",
+      "stem": "This question concerns absolute convergence, conditional convergence, and power-series intervals.",
+      "title": "Series convergence",
       "parts": [
         {
-          "answer": "The modulus is\n\\[\n|z|=\\sqrt{(\\sqrt{3})^2+1^2}=2.\n\\]\nThe argument is\n\\[\n\\arg z=\\tan^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{\\pi}{6},\n\\]\nsince \\(z\\) lies in the first quadrant. Therefore\n\\[\nz=2e^{i\\pi/6}.\n\\]\nBy De Moivre's theorem,\n\\[\nz^6=2^6e^{i\\pi}=-64.\n\\]",
+          "answer": "Consider absolute convergence:\n\\[\n\\sum_{n=1}^{\\infty}\\left|(-1)^{n+1}\\frac{1}{n^{3/2}}\\right|=\\sum_{n=1}^{\\infty}\\frac{1}{n^{3/2}}.\n\\]\nThis is a \\(p\\)-series with \\(p=\\frac{3}{2}>1\\), so it converges. Therefore the original alternating series converges absolutely.\n\\[\n\\sum_{n=1}^{\\infty}(-1)^{n+1}\\frac{1}{n^{3/2}}\\quad\\text{is absolutely convergent.}\n\\]",
           "id": "l1mi-s3-p1-q4-a",
           "label": "(a)",
-          "marks": 5,
-          "prompt": "Write \\(z=\\sqrt{3}+i\\) in exponential form, and hence find \\(z^6\\)."
+          "marks": 4,
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}(-1)^{n+1}\\frac{1}{n^{3/2}}\\) is absolutely convergent, conditionally convergent, or divergent."
         },
         {
-          "answer": "Since\n\\[\nz=2e^{i\\pi/6},\n\\]\nthe cube roots have modulus \\(2^{1/3}\\). Their arguments are\n\\[\n\\frac{\\frac{\\pi}{6}+2k\\pi}{3}=\\frac{\\pi}{18}+\\frac{2k\\pi}{3},\\qquad k=0,1,2.\n\\]\nTherefore\n\\[\nw=2^{1/3}e^{i(\\pi/18+2k\\pi/3)},\\qquad k=0,1,2.\n\\]",
+          "answer": "Let \\(a_n=\\frac{\\ln n}{n}\\) for \\(n\\ge2\\). The terms are positive, and\n\\[\n\\lim_{n\\to\\infty}\\frac{\\ln n}{n}=0\n\\]\nbecause logarithmic growth is slower than linear growth. To check decreasing behaviour, differentiate \\(f(x)=\\frac{\\ln x}{x}\\):\n\\[\nf'(x)=\\frac{1-\\ln x}{x^2}.\n\\]\nFor \\(x>e\\), \\(f'(x)<0\\), so \\(a_n\\) is eventually decreasing. The alternating series test therefore shows that\n\\[\n\\sum_{n=2}^{\\infty}(-1)^n\\frac{\\ln n}{n}\n\\]\nconverges. For absolute convergence, consider\n\\[\n\\sum_{n=2}^{\\infty}\\frac{\\ln n}{n}.\n\\]\nUse the integral test. For \\(x\\ge2\\), \\(\\frac{\\ln x}{x}>0\\), and\n\\[\n\\int_2^N\\frac{\\ln x}{x}\\,dx=\\left[\\frac{(\\ln x)^2}{2}\\right]_2^N=\\frac{(\\ln N)^2}{2}-\\frac{(\\ln2)^2}{2}.\n\\]\nThis tends to infinity as \\(N\\to\\infty\\), so \\(\\sum_{n=2}^{\\infty}\\frac{\\ln n}{n}\\) diverges. Hence the original series is conditionally convergent.",
           "id": "l1mi-s3-p1-q4-b",
           "label": "(b)",
           "marks": 5,
-          "prompt": "Find the three cube roots of \\(z\\), giving your answers in exponential form."
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=2}^{\\infty}(-1)^n\\frac{\\ln n}{n}\\) is absolutely convergent, conditionally convergent, or divergent."
         },
         {
-          "answer": "Use Euler form term by term:\n\\[\n2e^{i\\pi/3}=2\\left(\\frac{1}{2}+i\\frac{\\sqrt{3}}{2}\\right)=1+i\\sqrt{3}.\n\\]\nAlso,\n\\[\n3e^{-i\\pi/6}=3\\left(\\frac{\\sqrt{3}}{2}-i\\frac{1}{2}\\right)=\\frac{3\\sqrt{3}}{2}-\\frac{3i}{2}.\n\\]\nAdding gives\n\\[\nA=1+\\frac{3\\sqrt{3}}{2}+i\\left(\\sqrt{3}-\\frac{3}{2}\\right).\n\\]\nThe real part is \\(1+\\frac{3\\sqrt{3}}{2}\\) and the imaginary part is \\(\\sqrt{3}-\\frac{3}{2}\\).",
+          "answer": "Let\n\\[\na_n(x)=\\frac{(x+2)^n}{n^2 3^n}.\n\\]\nUse the ratio test on absolute values:\n\\[\n\\left|\\frac{a_{n+1}(x)}{a_n(x)}\\right|=\\left|\\frac{(x+2)^{n+1}}{(n+1)^2 3^{n+1}}\\cdot\\frac{n^2 3^n}{(x+2)^n}\\right|.\n\\]\nHence\n\\[\n\\left|\\frac{a_{n+1}(x)}{a_n(x)}\\right|=\\frac{n^2}{(n+1)^2}\\cdot\\frac{|x+2|}{3}.\n\\]\nTaking the limit gives\n\\[\nL=\\frac{|x+2|}{3}.\n\\]\nThe series converges absolutely when \\(L<1\\), so\n\\[\n|x+2|<3,\\qquad -5<x<1.\n\\]\nAt \\(x=1\\), the series becomes\n\\[\n\\sum_{n=1}^{\\infty}\\frac{3^n}{n^2 3^n}=\\sum_{n=1}^{\\infty}\\frac{1}{n^2},\n\\]\nwhich converges. At \\(x=-5\\), the series becomes\n\\[\n\\sum_{n=1}^{\\infty}\\frac{(-3)^n}{n^2 3^n}=\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2},\n\\]\nwhich converges absolutely because \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\) converges. Therefore the interval of convergence is\n\\[\n[-5,1].\n\\]\nThe radius of convergence is\n\\[\nR=3.\n\\]",
           "id": "l1mi-s3-p1-q4-c",
           "label": "(c)",
+          "marks": 6,
+          "prompt": "Find the radius and interval of convergence of \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(x+2)^n}{n^2 3^n}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s3-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Taylor Series and Matrices",
+      "stem": "This question combines a third-order Taylor approximation with determinant conditions for invertibility.",
+      "title": "Taylor approximation and determinants",
+      "parts": [
+        {
+          "answer": "For \\(f(x)=e^{-2x}\\), the derivatives are\n\\[\nf'(x)=-2e^{-2x},\\quad f''(x)=4e^{-2x},\\quad f'''(x)=-8e^{-2x}.\n\\]\nAt \\(x=0\\),\n\\[\nf(0)=1,\\quad f'(0)=-2,\\quad f''(0)=4,\\quad f'''(0)=-8.\n\\]\nThe cubic Taylor polynomial about \\(0\\) is\n\\[\nP_3(x)=1-2x+\\frac{4}{2!}x^2+\\frac{-8}{3!}x^3.\n\\]\nThus\n\\[\nP_3(x)=1-2x+2x^2-\\frac{4}{3}x^3.\n\\]\nAt \\(x=0.1\\),\n\\[\nP_3(0.1)=1-0.2+2(0.01)-\\frac{4}{3}(0.001)=0.818666\\ldots.\n\\]\nSo \\(e^{-0.2}\\approx0.818667\\).",
+          "id": "l1mi-s3-p1-q5-a",
+          "label": "(a)",
           "marks": 5,
-          "prompt": "Let \\(A=2e^{i\\pi/3}+3e^{-i\\pi/6}\\). Find the real and imaginary parts of \\(A\\)."
+          "prompt": "Find the third-order Taylor polynomial for \\(f(x)=e^{-2x}\\) about \\(0\\), and use it to approximate \\(e^{-0.2}\\)."
+        },
+        {
+          "answer": "The Lagrange remainder after the cubic term is\n\\[\nR_3(x)=\\frac{f^{(4)}(\\xi)}{4!}x^4\n\\]\nfor some \\(\\xi\\) between \\(0\\) and \\(x\\). Since\n\\[\nf^{(4)}(x)=16e^{-2x},\n\\]\nfor \\(0\\le x\\le0.1\\),\n\\[\n|f^{(4)}(x)|=16e^{-2x}\\le16.\n\\]\nTherefore\n\\[\n|R_3(0.1)|\\le \\frac{16}{4!}(0.1)^4=\\frac{16}{24}(0.0001).\n\\]\nHence\n\\[\n|R_3(0.1)|\\le \\frac{1}{15000}\\approx0.0000667.\n\\]",
+          "id": "l1mi-s3-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use the Lagrange remainder to bound the error in the approximation from part (a)."
+        },
+        {
+          "answer": "Compute the determinant by expanding along the first row:\n\\[\n\\det A=\\det\\begin{pmatrix}1&k&0\\\\2&3&1\\\\0&1&k\\end{pmatrix}.\n\\]\nThus\n\\[\n\\det A=1\\det\\begin{pmatrix}3&1\\\\1&k\\end{pmatrix}-k\\det\\begin{pmatrix}2&1\\\\0&k\\end{pmatrix}.\n\\]\nThe minors are\n\\[\n\\det\\begin{pmatrix}3&1\\\\1&k\\end{pmatrix}=3k-1,\\qquad \\det\\begin{pmatrix}2&1\\\\0&k\\end{pmatrix}=2k.\n\\]\nTherefore\n\\[\n\\det A=(3k-1)-k(2k)=-2k^2+3k-1.\n\\]\nThe matrix is singular when\n\\[\n-2k^2+3k-1=0.\n\\]\nEquivalently,\n\\[\n2k^2-3k+1=0=(2k-1)(k-1).\n\\]\nThus \\(A\\) is singular for\n\\[\nk=\\frac{1}{2}\\quad\\text{or}\\quad k=1.\n\\]\nIt is invertible for every real \\(k\\) except those two values.",
+          "id": "l1mi-s3-p1-q5-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "For \\(A=\\begin{pmatrix}1&k&0\\\\2&3&1\\\\0&1&k\\end{pmatrix}\\), find the real values of \\(k\\) for which \\(A\\) is singular. State when \\(A\\) is invertible."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s3-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Linear Systems",
+      "stem": "Consider the parameter-dependent system\n\\[\n\\begin{aligned}\nx+y+z&=1,\\\\\n2x+3y+az&=4,\\\\\nx+2y+3z&=b.\n\\end{aligned}\n\\]",
+      "title": "Classifying a linear system",
+      "parts": [
+        {
+          "answer": "The coefficient matrix is\n\\[\nA=\\begin{pmatrix}1&1&1\\\\2&3&a\\\\1&2&3\\end{pmatrix}.\n\\]\nCompute its determinant:\n\\[\n\\det A=1\\det\\begin{pmatrix}3&a\\\\2&3\\end{pmatrix}-1\\det\\begin{pmatrix}2&a\\\\1&3\\end{pmatrix}+1\\det\\begin{pmatrix}2&3\\\\1&2\\end{pmatrix}.\n\\]\nThe minors are\n\\[\n9-2a,\\qquad 6-a,\\qquad 1.\n\\]\nTherefore\n\\[\n\\det A=(9-2a)-(6-a)+1=4-a.\n\\]\nThe system has a unique solution exactly when \\(A\\) is invertible, so\n\\[\na\\ne4.\n\\]",
+          "id": "l1mi-s3-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the values of \\(a\\) for which the system has a unique solution."
+        },
+        {
+          "answer": "Use the augmented matrix\n\\[\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\2&3&a&4\\\\1&2&3&b\\end{array}\\right).\n\\]\nApply \\(R_2\\leftarrow R_2-2R_1\\) and \\(R_3\\leftarrow R_3-R_1\\):\n\\[\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&a-2&2\\\\0&1&2&b-1\\end{array}\\right).\n\\]\nThen apply \\(R_3\\leftarrow R_3-R_2\\):\n\\[\n\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&a-2&2\\\\0&0&4-a&b-3\\end{array}\\right).\n\\]\nWhen \\(a=4\\), the last row becomes\n\\[\n\\left(\\begin{array}{ccc|c}0&0&0&b-3\\end{array}\\right).\n\\]\nIf \\(b\\ne3\\), this is inconsistent, so there is no solution. If \\(b=3\\), the last row is \\(0=0\\), so there is one free variable and infinitely many solutions.",
+          "id": "l1mi-s3-p1-q6-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Use row reduction to classify the cases when the system is not unique."
+        },
+        {
+          "answer": "For \\(a=4\\) and \\(b=3\\), the reduced system is\n\\[\n\\begin{aligned}\nx+y+z&=1,\\\\\ny+2z&=2.\n\\end{aligned}\n\\]\nLet \\(z=t\\), where \\(t\\in\\mathbb R\\). Then\n\\[\ny=2-2t.\n\\]\nSubstitute into the first equation:\n\\[\nx+(2-2t)+t=1.\n\\]\nHence\n\\[\nx=t-1.\n\\]\nTherefore the infinitely many solutions are\n\\[\n(x,y,z)=(t-1,2-2t,t),\\qquad t\\in\\mathbb R.\n\\]",
+          "id": "l1mi-s3-p1-q6-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "For the infinitely many solution case, write the solution set in parameter form."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s3-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Eigenvalues and Matrix Structure",
+      "stem": "Let\n\\[\nA=\\begin{pmatrix}3&1&0\\\\1&3&0\\\\0&0&2\\end{pmatrix}.\n\\]",
+      "title": "Eigenbasis and diagonalisation",
+      "parts": [
+        {
+          "answer": "Compute the action of \\(A\\) on the standard candidate eigenvectors. First,\n\\[\nA\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}=\\begin{pmatrix}4\\\\4\\\\0\\end{pmatrix}=4\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix}.\n\\]\nSo \\(\\mathbf v_1=(1,1,0)^T\\) has eigenvalue \\(4\\). Next,\n\\[\nA\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix}=\\begin{pmatrix}2\\\\-2\\\\0\\end{pmatrix}=2\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix}.\n\\]\nAlso,\n\\[\nA\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\\\2\\end{pmatrix}=2\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}.\n\\]\nThus an eigenbasis is\n\\[\n\\left\\{\\begin{pmatrix}1\\\\1\\\\0\\end{pmatrix},\\begin{pmatrix}1\\\\-1\\\\0\\end{pmatrix},\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}\\right\\}.\n\\]",
+          "id": "l1mi-s3-p1-q7-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Construct an eigenbasis for \\(A\\), giving the eigenvalue corresponding to each eigenvector."
+        },
+        {
+          "answer": "Use the eigenvectors as columns of \\(P\\):\n\\[\nP=\\begin{pmatrix}1&1&0\\\\1&-1&0\\\\0&0&1\\end{pmatrix}.\n\\]\nThe corresponding diagonal matrix is\n\\[\nD=\\begin{pmatrix}4&0&0\\\\0&2&0\\\\0&0&2\\end{pmatrix}.\n\\]\nSince the columns of \\(P\\) are eigenvectors in the order matching the diagonal entries of \\(D\\),\n\\[\nAP=PD.\n\\]\nThe columns are linearly independent because\n\\[\n\\det P=-2\\ne0.\n\\]\nTherefore \\(P\\) is invertible and\n\\[\nA=PDP^{-1}.\n\\]",
+          "id": "l1mi-s3-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Construct matrices \\(P\\) and \\(D\\) such that \\(A=PDP^{-1}\\), and justify that the diagonalisation is valid."
+        },
+        {
+          "answer": "Statement (i) is true. If \\(A\\) is diagonalizable, then there are an invertible matrix \\(P\\) and a diagonal matrix \\(D\\) such that\n\\[\nA=PDP^{-1}.\n\\]\nSquaring gives\n\\[\nA^2=(PDP^{-1})(PDP^{-1})=PD(P^{-1}P)DP^{-1}.\n\\]\nSince \\(P^{-1}P=I\\), this simplifies to\n\\[\nA^2=PD^2P^{-1}.\n\\]\nThe matrix \\(D^2\\) is diagonal, so \\(A^2\\) is diagonalizable.\n\nStatement (ii) is false. Let\n\\[\nN=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}.\n\\]\nThen\n\\[\nN^2=\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix},\n\\]\nwhich is diagonal and therefore diagonalizable. However, \\(N\\) is not diagonalizable. Its only eigenvalue is \\(0\\), and the eigenspace is found from\n\\[\nN\\begin{pmatrix}u\\\\v\\end{pmatrix}=\\begin{pmatrix}v\\\\0\\end{pmatrix}=\\begin{pmatrix}0\\\\0\\end{pmatrix}.\n\\]\nThus \\(v=0\\), so the eigenspace is one-dimensional. A \\(2\\times2\\) diagonalizable matrix would need two linearly independent eigenvectors, so \\(N\\) is not diagonalizable.",
+          "id": "l1mi-s3-p1-q7-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "Decide whether each statement is true or false, giving a proof or counterexample. (i) If \\(A\\) is diagonalizable, then \\(A^2\\) is diagonalizable. (ii) If \\(A^2\\) is diagonalizable, then \\(A\\) is diagonalizable."
         }
       ]
     }
   ],
-  "timeAllowed": "2 hours",
+  "timeAllowed": "3 hours",
   "title": "Level 1 - Math I (Physics) Paper 1",
-  "totalMarks": 60
+  "totalMarks": 105
 }

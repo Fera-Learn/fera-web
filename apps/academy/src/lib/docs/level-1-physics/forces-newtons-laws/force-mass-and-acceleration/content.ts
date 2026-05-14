@@ -44,7 +44,7 @@ The force sum is built first; motion equations are used only after acceleration 
 
 The free-body diagram shows vertical forces canceling while horizontal forces leave a nonzero resultant.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Unbalanced horizontal forces"
   caption="The resultant force, and therefore acceleration, points toward the larger horizontal force."
   bodyLabel="m"

@@ -85,7 +85,7 @@ The range formula is not a general projectile formula. It assumes the landing he
 
 The sketch shows the model separation: horizontal motion is uniform, while vertical motion curves because acceleration is downward.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Projectile decomposition"
   caption="The path curves because only the vertical component accelerates."
   width={520}

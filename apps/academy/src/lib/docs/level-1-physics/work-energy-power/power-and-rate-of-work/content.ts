@@ -18,7 +18,7 @@ Power is the rate of work or energy transfer.
 
 A work-time graph turns power into slope: steeper parts transfer energy faster.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Power as slope"
   caption="The slope of a work-time graph is power."
   xRange={{ min: 0, max: 5, step: 1, label: "t / s" }}

@@ -42,7 +42,7 @@ The useful one-dimensional elastic shortcut comes from combining momentum conser
 
 The graph shows the equal-mass limiting case: one cart gives its velocity to the other.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Velocity exchange"
   caption="For equal masses in a 1D elastic collision, the moving cart transfers its velocity to the initially stationary cart."
   width={520}

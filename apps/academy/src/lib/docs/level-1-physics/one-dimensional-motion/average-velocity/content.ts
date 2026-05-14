@@ -35,7 +35,7 @@ Average velocity measures displacement per time interval. It is a rate of net ch
 
 The secant line below connects the initial and final states. Its slope is the average velocity for the interval, even if the actual path between the two states bends.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Average velocity as secant slope"
   caption="Average velocity uses the slope between two positions, not the whole path length."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

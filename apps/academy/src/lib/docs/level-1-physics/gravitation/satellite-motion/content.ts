@@ -71,7 +71,7 @@ One orbit covers the circumference \\(2\\pi r\\). Dividing that distance by the 
 
 The sketch is an instantaneous orbit picture. Velocity is tangent to the orbit while gravity points inward toward the central mass.
 
-<PolarPhysicsGraph
+<PolarDiagram
   title="Circular satellite orbit"
   caption="The orbit persists because gravity keeps turning the velocity inward."
   maxRadius={4.5}

@@ -18,7 +18,7 @@ Components replace one vector with perpendicular signed projections.
 
 The diagram shows components as projections onto fixed perpendicular axes.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Components as projections"
   caption="The horizontal and vertical components reconstruct the original vector."
   xRange={{ min: 0, max: 5, step: 1, label: "x" }}

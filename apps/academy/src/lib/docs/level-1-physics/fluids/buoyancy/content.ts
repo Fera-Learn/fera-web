@@ -42,7 +42,7 @@ Buoyancy comes from the pressure being larger on the lower face than on the uppe
 
 The free-body diagram replaces the detailed pressure forces by one buoyant force acting upward on the body.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Immersed body model"
   caption="The surrounding fluid produces an upward buoyant force that competes with the body's weight."
   bodyLabel="body"

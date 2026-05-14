@@ -36,7 +36,7 @@ import { content as equilibriumAndInertiaContent } from "./forces-newtons-laws/e
 import { content as forceMassAndAccelerationContent } from "./forces-newtons-laws/force-mass-and-acceleration/content";
 import { content as weightVersusMassContent } from "./forces-newtons-laws/weight-versus-mass/content";
 import { content as actionReactionPairsContent } from "./forces-newtons-laws/action-reaction-pairs/content";
-import { content as drawingFreeBodyDiagramsContent } from "./forces-newtons-laws/drawing-free-body-diagrams/content";
+import { content as drawingForceDiagramsContent } from "./forces-newtons-laws/drawing-free-body-diagrams/content";
 import { content as topic35Content } from "./applying-force-models/equilibrium-with-newtons-first-law/content";
 import { content as topic36Content } from "./applying-force-models/particle-dynamics-with-newtons-second-law/content";
 import { content as topic37Content } from "./applying-force-models/static-and-kinetic-friction/content";
@@ -337,7 +337,7 @@ export const level1PhysicsTopicBodies = new Map<string, string>([
   ["Force, Mass, and Acceleration", forceMassAndAccelerationContent],
   ["Weight Versus Mass", weightVersusMassContent],
   ["Action-Reaction Pairs", actionReactionPairsContent],
-  ["Drawing Free-Body Diagrams", drawingFreeBodyDiagramsContent],
+  ["Drawing Free-Body Diagrams", drawingForceDiagramsContent],
   ["Equilibrium with Newton's First Law", topic35Content],
   ["Particle Dynamics with Newton's Second Law", topic36Content],
   ["Static and Kinetic Friction", topic37Content],

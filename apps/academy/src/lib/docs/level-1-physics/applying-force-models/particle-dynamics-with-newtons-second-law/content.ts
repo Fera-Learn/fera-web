@@ -64,7 +64,7 @@ For a block on a frictionless slope, choose one axis parallel to the slope and o
 
 The free-body diagram shows the actual forces only: weight downward and the normal force perpendicular to the surface. The component equations above are built from these forces.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Slope force model"
   caption="Actual forces on a frictionless slope: weight and the normal reaction."
   bodyLabel="m"

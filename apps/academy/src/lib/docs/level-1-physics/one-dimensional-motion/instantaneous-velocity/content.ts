@@ -35,7 +35,7 @@ Instantaneous velocity is the limiting slope of position at one time. It keeps t
 
 The tangent line below is the local linear model of the position graph near one instant. Its slope is the instantaneous velocity at that instant.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Instantaneous velocity as tangent slope"
   caption="Shrinking the time interval turns a secant into a tangent at one instant."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

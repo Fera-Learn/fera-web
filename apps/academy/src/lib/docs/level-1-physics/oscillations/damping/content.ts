@@ -75,7 +75,7 @@ The exponential envelope comes from energy loss. The cosine remains only in the 
 
 The graph is a time history. The oscillation remains periodic-like, but the amplitude envelope shrinks.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Underdamped motion"
   caption="The displacement oscillates inside a decaying envelope."
   xRange={{ min: 0, max: 8, step: 2, label: "t" }}

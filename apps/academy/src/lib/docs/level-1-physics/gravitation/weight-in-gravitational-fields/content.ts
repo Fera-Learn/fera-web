@@ -61,7 +61,7 @@ If the field comes from a spherical source, substitute the inverse-square field 
 
 The graph fixes the object's mass and shows how weight changes when the local field changes.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Weight versus field strength"
   caption="For fixed mass, weight is directly proportional to the local gravitational field."
   width={440}

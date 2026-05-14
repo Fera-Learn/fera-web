@@ -42,7 +42,7 @@ A conservative force points in the direction where potential energy decreases fa
   ]}
 />
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Force from potential slope"
   caption="The force points downhill on the potential-energy curve."
   xRange={{ min: -3, max: 3, step: 1, label: "x" }}

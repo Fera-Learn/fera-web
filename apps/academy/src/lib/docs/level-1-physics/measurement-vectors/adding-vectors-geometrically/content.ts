@@ -17,7 +17,7 @@ Vector addition preserves direction by joining arrows head-to-tail.
 
 The sketch uses the head-to-tail convention: translate the second vector without rotating it, then close the triangle.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Head-to-tail addition"
   caption="The resultant runs from the original tail to the final head."
   xRange={{ min: 0, max: 6, step: 1, label: "x" }}

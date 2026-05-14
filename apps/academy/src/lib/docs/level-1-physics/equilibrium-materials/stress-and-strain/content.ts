@@ -55,9 +55,27 @@ Strain compares the change in shape with the original dimension that is being di
 
 The stress-strain diagram shows material behavior after load and deformation have been normalized.
 
-<StressStrainDiagram
-  title="Stress and strain response"
-  caption="Stress normalizes load by area; strain normalizes extension by original length."
+<CartesianDiagram
+  title="Normalized response curve"
+  caption="The curve compares normalized load with normalized deformation."
+  xRange={{ label: "deformation", min: 0, max: 0.02, step: 0.005 }}
+  yRange={{ label: "load response", min: 0, max: 420, step: 100 }}
+  curves={[
+    {
+      label: "response",
+      points: [
+        { label: "origin", x: 0, y: 0 },
+        { label: "limit", x: 0.002, y: 250 },
+        { label: "transition", x: 0.01, y: 330 },
+        { label: "peak", x: 0.018, y: 380 },
+      ],
+      smooth: true,
+    },
+  ]}
+  points={[
+    { label: "limit", x: 0.002, y: 250 },
+    { label: "peak", x: 0.018, y: 380 },
+  ]}
 />
 
 ## Rules

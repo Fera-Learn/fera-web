@@ -43,7 +43,7 @@ The new axis must be parallel to the center-of-mass axis. Each mass element is f
 
 The sketch shows the only distance allowed in the theorem: the perpendicular separation between two parallel axes.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Parallel-axis shift"
   caption="The shifted axis must be parallel to the center-of-mass axis."
   width={420}

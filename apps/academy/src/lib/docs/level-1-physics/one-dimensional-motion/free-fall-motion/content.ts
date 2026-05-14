@@ -50,7 +50,7 @@ Free fall is the constant-acceleration model with gravity supplying the same dow
 
 The plotted trajectory uses upward as positive. The curve bends downward throughout because the acceleration is negative at every point, including the peak.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Free-fall position"
   caption="With upward positive, the position history is a downward-opening parabola."
   xRange={{ min: 0, max: 4, step: 1, label: "t" }}

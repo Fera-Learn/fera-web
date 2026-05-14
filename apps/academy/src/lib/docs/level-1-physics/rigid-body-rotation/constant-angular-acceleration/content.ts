@@ -43,7 +43,7 @@ The constant-\\(\alpha\\) equations come from the definitions of angular velocit
 
 With constant \\(\alpha\\), the graph of \\(\omega\\) against time is a straight line. The slope is \\(\alpha\\), and the area under the line is angular displacement.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Constant angular acceleration"
   caption="Slope gives alpha; area under omega(t) gives angular displacement."
   width={460}

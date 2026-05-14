@@ -42,7 +42,7 @@ The system boundary decides which impulses are internal and which can change tot
 
 The vector diagram below shows individual momenta adding to one total momentum vector.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Momentum vector balance"
   caption="For an isolated system the individual momenta can change, but the total momentum vector is unchanged."
   xRange={{ min: -5, max: 5, step: 1, label: "p_x" }}

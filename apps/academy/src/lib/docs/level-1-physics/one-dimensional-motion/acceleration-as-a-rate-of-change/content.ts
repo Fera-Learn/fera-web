@@ -45,7 +45,7 @@ Acceleration measures how velocity changes with time. In one dimension, its sign
 
 The graph below is a velocity-time representation. Its slope is acceleration, and the signed area under it would be displacement.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Acceleration as velocity slope"
   caption="A straight velocity-time graph has constant acceleration equal to its slope."
   xRange={{ min: 0, max: 5, step: 1, label: "t" }}

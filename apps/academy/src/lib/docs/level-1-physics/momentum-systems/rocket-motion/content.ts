@@ -43,7 +43,7 @@ With no external impulse, the rocket-exhaust system keeps total momentum while t
 
 The free-body diagram separates thrust from external forces such as weight.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Rocket thrust model"
   bodyLabel="rocket"
   bodyShape="circle"

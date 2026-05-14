@@ -43,7 +43,7 @@ Equilibrium is the zero-acceleration case of the force model, so each component 
 
 The free-body diagram below shows a body at rest with two nonzero forces whose vertical components cancel.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Balanced vertical forces"
   caption="The forces are nonzero, but their resultant is zero."
   bodyLabel="lamp"

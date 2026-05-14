@@ -42,7 +42,7 @@ During a short collision, internal impulses can be large while external impulse 
 
 The diagram compares the total momentum immediately before and after the short interaction.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Before and after collision"
   caption="The momentum equation compares the total signed momentum immediately before and immediately after the short interaction."
   xRange={{ min: -1, max: 5, step: 1, label: "p_x" }}

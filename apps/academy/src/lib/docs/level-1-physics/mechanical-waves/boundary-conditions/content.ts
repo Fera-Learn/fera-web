@@ -41,7 +41,7 @@ At a fixed end, the medium cannot move. The total displacement must therefore be
 
 The fixed-end reflection below shows that the reflected pulse has opposite sign so the total displacement vanishes at the wall.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={360}
   xRange={{ min: 0, max: 10, step: 2, label: "x" }}

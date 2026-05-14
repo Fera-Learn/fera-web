@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "declarationMap": false,
+    "incremental": false,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "outDir": ".diagram-check-dist",
+    "rootDir": ".",
+    "tsBuildInfoFile": ".diagram-check-dist/tsconfig.tsbuildinfo"
+  },
+  "include": ["src/diagrams-core.ts", "scripts/check-diagrams.ts"]
+}

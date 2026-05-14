@@ -18,7 +18,7 @@ Dot and cross products measure parallel alignment and perpendicular oriented are
 
 The angle between the vectors controls both products: cosine keeps the parallel part, sine keeps the perpendicular spread.
 
-<PolarPhysicsGraph
+<PolarDiagram
   title="Angle between vectors"
   caption="Dot uses parallel projection; cross uses perpendicular spread."
   maxRadius={4}

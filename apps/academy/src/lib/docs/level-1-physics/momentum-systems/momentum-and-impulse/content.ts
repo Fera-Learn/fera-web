@@ -43,7 +43,7 @@ For a fixed-mass particle, Newton's second law can be written as a momentum-rate
 
 The force-time graph shows impulse as area under the curve, not as the peak force alone.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Impulse as area"
   caption="The area under a force-time graph gives impulse, so spreading the same area over more time lowers the average force."
   xRange={{ min: 0, max: 5, step: 1, label: "t / s" }}

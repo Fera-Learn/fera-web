@@ -63,7 +63,7 @@ Near Earth, gravity has nearly constant magnitude and points downward. If upward
 
 The graph below shows why only changes in \\(U_g\\) matter. Changing the reference level shifts the line up or down, but the slope and the energy difference between two heights stay the same.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Gravitational potential near Earth"
   caption="Changing the zero level shifts the graph vertically without changing \\(\\Delta U_g\\) between two heights."
   xRange={{ min: 0, max: 5, step: 1, label: "y" }}

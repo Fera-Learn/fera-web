@@ -83,7 +83,7 @@ Because velocity is already the derivative of position, acceleration is the seco
 
 The diagram below compares two velocity vectors placed tail-to-tail. The acceleration direction follows the vector change from initial velocity to final velocity.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Velocity change"
   caption="Acceleration points in the direction of the velocity-change vector."
   width={460}

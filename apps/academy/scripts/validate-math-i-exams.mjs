@@ -15,6 +15,16 @@ const expectedPapers = [
   { setId: "set-4", file: "set-4/paper-1.json", importName: "set4Paper1" },
 ];
 
+const requiredQuestionSections = [
+  "Section A: Differentiation and Limits",
+  "Section B: Integration",
+  "Section C: Complex Numbers",
+  "Section D: Series",
+  "Section E: Taylor Series and Matrices",
+  "Section F: Linear Systems",
+  "Section G: Eigenvalues and Matrix Structure",
+];
+
 function fail(message) {
   throw new Error(message);
 }
@@ -94,8 +104,8 @@ function validatePaper(paper, expected) {
     paperId: "paper-1",
     schemaVersion: 1,
     setId: expected.setId,
-    timeAllowed: "2 hours",
-    totalMarks: 60,
+    timeAllowed: "3 hours",
+    totalMarks: 105,
   };
 
   Object.entries(requiredFields).forEach(([key, value]) => {
@@ -112,8 +122,8 @@ function validatePaper(paper, expected) {
     fail(`${expected.file} must have physics-style instructions`);
   }
 
-  if (!Array.isArray(paper.questions) || paper.questions.length !== 4) {
-    fail(`${expected.file} must contain exactly four main questions`);
+  if (!Array.isArray(paper.questions) || paper.questions.length !== 7) {
+    fail(`${expected.file} must contain exactly seven main questions`);
   }
 
   const ids = new Set();
@@ -128,8 +138,14 @@ function validatePaper(paper, expected) {
       fail(`${expected.file} question ${question.id} must be worth 15 marks`);
     }
 
-    if (!question.section || !question.title) {
-      fail(`${expected.file} question ${question.id} needs a section and title`);
+    if (question.section !== requiredQuestionSections[questionIndex]) {
+      fail(
+        `${expected.file} question ${question.id} expected section ${requiredQuestionSections[questionIndex]}, got ${question.section}`,
+      );
+    }
+
+    if (!question.title) {
+      fail(`${expected.file} question ${question.id} needs a title`);
     }
 
     if (
@@ -167,7 +183,7 @@ function validatePaper(paper, expected) {
     });
   });
 
-  if (totalMarks !== 60) {
+  if (totalMarks !== 105) {
     fail(`${expected.file} question marks sum to ${totalMarks}`);
   }
 

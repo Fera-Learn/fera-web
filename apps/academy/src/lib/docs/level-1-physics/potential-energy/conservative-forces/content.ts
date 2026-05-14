@@ -54,7 +54,7 @@ The work-energy principle says total work changes kinetic energy. Split the work
 
 The graph shows two different paths between the same endpoints. For a conservative force, the endpoints set the potential energy change, so both paths have the same conservative work.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Path independence"
   caption="Conservative work depends on endpoints, not on the path shape."
   xRange={{ min: 0, max: 6, step: 1, label: "x" }}

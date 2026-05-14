@@ -64,7 +64,7 @@ The factor \\(\\sin(kx)\\) controls how large the oscillation is at each positio
 
 The standing-wave snapshot below has fixed nodes at the ends and one antinode in the middle.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={340}
   xRange={{

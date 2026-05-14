@@ -57,7 +57,7 @@ Once those two directions are separated, the wave type is set by geometry.
 
 For the transverse snapshot below, the plotted curve shows the shape of the medium at one instant. The particle displacement is vertical, while the wave pattern advances horizontally.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   height={180}
   width={340}
   xRange={{

@@ -19,13 +19,36 @@ Elastic deformation reverses; plastic deformation leaves permanent strain.
 
 ### Derivation 1: Identify the elastic region
 
-<StressStrainDiagram
-  title="Elastic and plastic regions"
-  caption="Unloading after plastic deformation leaves a nonzero strain intercept."
-  elasticEnd={{ strain: 0.0015, stress: 250 }}
-  plasticPoint={{ strain: 0.008, stress: 300 }}
-  ultimatePoint={{ strain: 0.018, stress: 360 }}
-  fracturePoint={{ strain: 0.024, stress: 300 }}
+<CartesianDiagram
+  title="Reversible and permanent response"
+  caption="A later unloading path can intercept the horizontal axis away from the origin."
+  xRange={{ label: "deformation", min: 0, max: 0.026, step: 0.0065 }}
+  yRange={{ label: "load response", min: 0, max: 420, step: 100 }}
+  curves={[
+    {
+      label: "loading",
+      points: [
+        { label: "origin", x: 0, y: 0 },
+        { label: "limit", x: 0.0015, y: 250 },
+        { label: "transition", x: 0.008, y: 300 },
+        { label: "peak", x: 0.018, y: 360 },
+        { label: "end", x: 0.024, y: 300 },
+      ],
+      smooth: true,
+    },
+    {
+      dashed: true,
+      label: "unloading",
+      points: [
+        { x: 0.018, y: 360 },
+        { label: "offset", x: 0.006, y: 0 },
+      ],
+    },
+  ]}
+  points={[
+    { label: "limit", x: 0.0015, y: 250 },
+    { label: "offset", x: 0.006, y: 0 },
+  ]}
 />
 
 <PhysicsDerivation

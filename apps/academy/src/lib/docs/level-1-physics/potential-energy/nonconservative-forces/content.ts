@@ -40,7 +40,7 @@ Nonconservative forces change mechanical energy rather than storing it in a reco
   ]}
 />
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Friction removes mechanical energy"
   bodyLabel="block"
   surface="horizontal"

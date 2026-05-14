@@ -40,7 +40,7 @@ Linear work uses force times displacement. Rotational work uses torque times ang
 
 The graph shows the interpretation of the integral: area under a torque-angle graph is rotational work.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Rotational work"
   caption="Area under a torque-angle graph gives the work done."
   width={460}

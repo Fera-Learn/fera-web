@@ -42,7 +42,7 @@ An energy diagram compares total mechanical energy with potential energy to show
   ]}
 />
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Allowed motion"
   caption="The particle can move where the total-energy line is above the potential curve."
   xRange={{ min: -4, max: 4, step: 2, label: "x" }}

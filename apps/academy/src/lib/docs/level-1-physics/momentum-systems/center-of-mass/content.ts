@@ -42,7 +42,7 @@ Center of mass is a mass-weighted position, so differentiating it connects geome
 
 The diagram places the center of mass closer to the heavier object on the line.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Center of mass on a line"
   caption="The center of mass lies closer to the larger mass because each position is weighted by mass."
   width={560}

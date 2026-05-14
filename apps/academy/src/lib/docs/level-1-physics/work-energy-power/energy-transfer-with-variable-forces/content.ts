@@ -18,7 +18,7 @@ Variable-force work is the signed accumulation of force along a path.
 
 The force-position graph shows why an integral is needed: each thin slice contributes a small signed work amount.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Work as signed area"
   caption="Area above the axis is positive work; area below is negative work."
   xRange={{ min: 0, max: 5, step: 1, label: "x" }}

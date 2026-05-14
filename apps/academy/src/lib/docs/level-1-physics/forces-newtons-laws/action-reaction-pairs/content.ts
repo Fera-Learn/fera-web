@@ -42,7 +42,7 @@ The third law is about one interaction, but Newton's second law must still be ap
 
 The graph separates the paired forces by object so they are not mistaken for canceling forces on one diagram.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Third-law pair"
   caption="The equal and opposite forces act on different objects, so they do not cancel in either object's force sum."
   xRange={{ min: -5, max: 5, step: 1, label: "F_x / N" }}

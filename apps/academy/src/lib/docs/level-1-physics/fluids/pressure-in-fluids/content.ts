@@ -43,7 +43,7 @@ Pressure is force per area, and in a static fluid the deeper level must support 
 
 The graph shows the linear hydrostatic increase when density is constant.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Pressure increases with depth"
   caption="In a static fluid of constant density, pressure rises linearly with depth below the reference level."
   xRange={{ min: 0, max: 4, step: 1, label: "h / m" }}

@@ -3,14 +3,16 @@
   "courseId": "level-1-math-i-physics",
   "setId": "set-2",
   "paperId": "paper-1",
-  "paperTags": ["paper-1"],
-  "description": "Real-number reasoning, trigonometry, limits, calculus, and complex methods for physics support.",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "Differentiation, limits, integration, complex numbers, series, Taylor approximation, matrices, linear systems, and eigenvalue methods for Level 1 Math I.",
   "id": "paper-1",
   "instructions": [
     "Attempt all questions.",
     "All main questions carry the same number of marks.",
-    "Show enough working to make the algebra, definitions, and modelling steps clear.",
-    "Begin each main question on a new page when working on paper."
+    "Show sufficient working to justify each answer.",
+    "Begin each main question on a new page."
   ],
   "label": "Paper 1",
   "questions": [
@@ -18,37 +20,30 @@
       "id": "l1mi-s2-p1-q1",
       "marks": 15,
       "number": 1,
-      "section": "Section A: Real Numbers and Algebra",
-      "stem": "This question uses exact arithmetic, inequalities, binomial coefficients, and summation notation.",
-      "title": "Real-number and algebraic structure",
+      "section": "Section A: Differentiation and Limits",
+      "stem": "This question concerns inverse hyperbolic differentiation, complex arithmetic, and logarithmic differentiation.",
+      "title": "Differentiation and algebraic form",
       "parts": [
         {
-          "answer": "Assume for contradiction that \\(\\sqrt{3}+\\sqrt{7}=r\\), where \\(r\\in\\mathbb{Q}\\). Then\n\\[\nr-\\sqrt{3}=\\sqrt{7}.\n\\]\nSquaring both sides gives\n\\[\nr^2-2r\\sqrt{3}+3=7.\n\\]\nHence\n\\[\n2r\\sqrt{3}=r^2-4.\n\\]\nIf \\(r=0\\), then \\(\\sqrt{3}+\\sqrt{7}=0\\), impossible. If \\(r\\ne0\\), then\n\\[\n\\sqrt{3}=\\frac{r^2-4}{2r},\n\\]\nwhich is rational. This contradicts the irrationality of \\(\\sqrt{3}\\). Therefore \\(\\sqrt{3}+\\sqrt{7}\\) is irrational.",
+          "answer": "Use the chain rule with \\(u=3x+2\\). Since\n\\[\n\\frac{d}{du}\\operatorname{arcosh}u=\\frac{1}{\\sqrt{u-1}\\sqrt{u+1}},\n\\]\nand \\(du/dx=3\\),\n\\[\nf'(x)=\\frac{3}{\\sqrt{3x+1}\\sqrt{3x+3}}.\n\\]\nThis derivative is valid where \\(3x+2>1\\), so \\(x>-\\frac{1}{3}\\).",
           "id": "l1mi-s2-p1-q1-a",
           "label": "(a)",
-          "marks": 3,
-          "prompt": "Prove that \\(\\sqrt{3}+\\sqrt{7}\\) is irrational."
+          "marks": 4,
+          "prompt": "Differentiate \\(f(x)=\\operatorname{arcosh}(3x+2)\\), stating the interval where the derivative formula applies."
         },
         {
-          "answer": "Move all terms to one side:\n\\[\n\\frac{2x+1}{x-3}-1\\ge0.\n\\]\nCombine into one fraction:\n\\[\n\\frac{2x+1-(x-3)}{x-3}\\ge0,\n\\]\nso\n\\[\n\\frac{x+4}{x-3}\\ge0.\n\\]\nThe critical values are \\(x=-4\\) and \\(x=3\\). A sign chart gives positive or zero on \\(( -\\infty,-4]\\) and \\((3,\\infty)\\). The point \\(x=3\\) is excluded because it is not in the domain. Therefore\n\\[\nx\\in(-\\infty,-4]\\cup(3,\\infty).\n\\]",
+          "answer": "First multiply the numerator:\n\\[\n(4-3i)(2+i)=8+4i-6i-3i^2=11-2i.\n\\]\nDivide by \\(1-2i\\) by multiplying by the conjugate:\n\\[\n\\frac{11-2i}{1-2i}\\cdot\\frac{1+2i}{1+2i}=\\frac{(11-2i)(1+2i)}{1+4}.\n\\]\nThe numerator is\n\\[\n11+22i-2i-4i^2=15+20i.\n\\]\nTherefore\n\\[\n\\frac{(4-3i)(2+i)}{1-2i}=\\frac{15+20i}{5}=3+4i.\n\\]",
           "id": "l1mi-s2-p1-q1-b",
           "label": "(b)",
-          "marks": 4,
-          "prompt": "Solve the inequality \\(\\frac{2x+1}{x-3}\\ge1\\)."
+          "marks": 5,
+          "prompt": "Evaluate \\(\\displaystyle \\frac{(4-3i)(2+i)}{1-2i}\\) in the form \\(a+bi\\)."
         },
         {
-          "answer": "The general term in \\((2-x)^7\\) is\n\\[\n\\binom{7}{k}2^{7-k}(-x)^k.\n\\]\nThe term in \\(x^5\\) occurs when \\(k=5\\). Its coefficient is\n\\[\n\\binom{7}{5}2^2(-1)^5=21\\cdot4\\cdot(-1)=-84.\n\\]\nSo the coefficient of \\(x^5\\) is \\(-84\\).",
+          "answer": "Let\n\\[\ny=(x^2+1)^4\\sqrt{2x-1},\n\\]\nwhere \\(x>\\frac{1}{2}\\). Take logarithms:\n\\[\n\\ln y=4\\ln(x^2+1)+\\frac{1}{2}\\ln(2x-1).\n\\]\nDifferentiate implicitly with respect to \\(x\\):\n\\[\n\\frac{1}{y}\\frac{dy}{dx}=4\\cdot\\frac{2x}{x^2+1}+\\frac{1}{2}\\cdot\\frac{2}{2x-1}.\n\\]\nThus\n\\[\n\\frac{1}{y}\\frac{dy}{dx}=\\frac{8x}{x^2+1}+\\frac{1}{2x-1}.\n\\]\nMultiplying by \\(y\\) gives\n\\[\n\\frac{dy}{dx}=(x^2+1)^4\\sqrt{2x-1}\\left(\\frac{8x}{x^2+1}+\\frac{1}{2x-1}\\right).\n\\]",
           "id": "l1mi-s2-p1-q1-c",
           "label": "(c)",
-          "marks": 4,
-          "prompt": "Find the coefficient of \\(x^5\\) in the expansion of \\((2-x)^7\\)."
-        },
-        {
-          "answer": "Separate the summation:\n\\[\n\\sum_{r=1}^{10}(2r^2-r)=2\\sum_{r=1}^{10}r^2-\\sum_{r=1}^{10}r.\n\\]\nUse\n\\[\n\\sum_{r=1}^{10}r=\\frac{10\\cdot11}{2}=55\n\\]\nand\n\\[\n\\sum_{r=1}^{10}r^2=\\frac{10\\cdot11\\cdot21}{6}=385.\n\\]\nTherefore\n\\[\n\\sum_{r=1}^{10}(2r^2-r)=2(385)-55=715.\n\\]",
-          "id": "l1mi-s2-p1-q1-d",
-          "label": "(d)",
-          "marks": 4,
-          "prompt": "Evaluate \\(\\sum_{r=1}^{10}(2r^2-r)\\)."
+          "marks": 6,
+          "prompt": "Use logarithmic differentiation to find \\(\\displaystyle \\frac{dy}{dx}\\) for \\(y=(x^2+1)^4\\sqrt{2x-1}\\), where \\(x>\\frac{1}{2}\\)."
         }
       ]
     },
@@ -56,37 +51,30 @@
       "id": "l1mi-s2-p1-q2",
       "marks": 15,
       "number": 2,
-      "section": "Section B: Trigonometry and Limits",
-      "stem": "Use radians unless degrees are explicitly stated. Exact trigonometric values are preferred.",
-      "title": "Trigonometric identities and limiting values",
+      "section": "Section B: Integration",
+      "stem": "This question uses definite trigonometric integration, reduction formulae, and rational integration.",
+      "title": "Integration methods",
       "parts": [
         {
-          "answer": "Use \\(\\sin(2x)=2\\sin x\\cos x\\) and \\(1+\\cos(2x)=2\\cos^2x\\). Then\n\\[\n\\frac{\\sin(2x)}{1+\\cos(2x)}=\\frac{2\\sin x\\cos x}{2\\cos^2x}.\n\\]\nWhere the expression is defined, cancel \\(2\\cos x\\):\n\\[\n\\frac{\\sin(2x)}{1+\\cos(2x)}=\\frac{\\sin x}{\\cos x}=\\tan x.\n\\]",
+          "answer": "Use \\(u=\\cos x\\), so \\(du=-\\sin x\\,dx\\). When \\(x=0\\), \\(u=1\\). When \\(x=\\frac{\\pi}{3}\\), \\(u=\\frac{1}{2}\\). Hence\n\\[\n\\int_0^{\\pi/3}\\sin x\\cos^3x\\,dx=-\\int_1^{1/2}u^3\\,du=\\int_{1/2}^{1}u^3\\,du.\n\\]\nTherefore\n\\[\n\\int_{1/2}^{1}u^3\\,du=\\left[\\frac{u^4}{4}\\right]_{1/2}^{1}=\\frac{1}{4}\\left(1-\\frac{1}{16}\\right)=\\frac{15}{64}.\n\\]",
           "id": "l1mi-s2-p1-q2-a",
           "label": "(a)",
-          "marks": 4,
-          "prompt": "Show that \\(\\frac{\\sin(2x)}{1+\\cos(2x)}=\\tan x\\) wherever both sides are defined."
+          "marks": 5,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^{\\pi/3}\\sin x\\cos^3x\\,dx\\)."
         },
         {
-          "answer": "Let \\(\\theta=\\arctan\\left(\\frac{5}{12}\\right)\\). Then \\(\\tan\\theta=\\frac{5}{12}\\). Use a right triangle with opposite side \\(5\\), adjacent side \\(12\\), and hypotenuse \\(13\\). Hence\n\\[\n\\sin\\theta=\\frac{5}{13}.\n\\]\nTherefore\n\\[\n\\sin\\left(\\arctan\\left(\\frac{5}{12}\\right)\\right)=\\frac{5}{13}.\n\\]",
+          "answer": "Let\n\\[\nI_n=\\int_0^{\\pi/2}\\sin^n x\\,dx.\n\\]\nFor \\(n\\ge2\\), write \\(I_n=\\int_0^{\\pi/2}\\sin^{n-1}x\\sin x\\,dx\\). Use integration by parts with \\(u=\\sin^{n-1}x\\) and \\(dv=\\sin x\\,dx\\). Then \\(du=(n-1)\\sin^{n-2}x\\cos x\\,dx\\) and \\(v=-\\cos x\\). The boundary term is zero, so\n\\[\nI_n=(n-1)\\int_0^{\\pi/2}\\sin^{n-2}x\\cos^2x\\,dx.\n\\]\nUse \\(\\cos^2x=1-\\sin^2x\\):\n\\[\nI_n=(n-1)(I_{n-2}-I_n).\n\\]\nHence\n\\[\nnI_n=(n-1)I_{n-2},\\qquad I_n=\\frac{n-1}{n}I_{n-2}.\n\\]\nSince \\(I_0=\\frac{\\pi}{2}\\),\n\\[\nI_6=\\frac{5}{6}I_4=\\frac{5}{6}\\cdot\\frac{3}{4}I_2=\\frac{5}{6}\\cdot\\frac{3}{4}\\cdot\\frac{1}{2}I_0=\\frac{5\\pi}{32}.\n\\]",
           "id": "l1mi-s2-p1-q2-b",
           "label": "(b)",
-          "marks": 3,
-          "prompt": "Find the exact value of \\(\\sin\\left(\\arctan\\left(\\frac{5}{12}\\right)\\right)\\)."
+          "marks": 5,
+          "prompt": "For \\(I_n=\\displaystyle \\int_0^{\\pi/2}\\sin^n x\\,dx\\), derive the recurrence \\(I_n=\\frac{n-1}{n}I_{n-2}\\) for \\(n\\ge2\\), and use it to find \\(I_6\\)."
         },
         {
-          "answer": "Let \\(A=\\arctan x\\) and \\(B=\\arctan(2x)\\). Taking tangent of both sides gives\n\\[\n\\tan(A+B)=1.\n\\]\nUsing the addition formula,\n\\[\n\\frac{x+2x}{1-2x^2}=1.\n\\]\nThus\n\\[\n3x=1-2x^2,\n\\]\nso\n\\[\n2x^2+3x-1=0.\n\\]\nSolving,\n\\[\nx=\\frac{-3\\pm\\sqrt{17}}{4}.\n\\]\nThe negative root makes both arctangent terms negative, so their sum cannot be \\(\\frac{\\pi}{4}\\). Therefore\n\\[\nx=\\frac{-3+\\sqrt{17}}{4}.\n\\]",
+          "answer": "Divide the numerator by the denominator:\n\\[\n\\frac{2x^3+3x^2-5}{x^2+x-2}=2x+1+\\frac{3x-3}{x^2+x-2}.\n\\]\nSince \\(x^2+x-2=(x-1)(x+2)\\), the remainder term is\n\\[\n\\frac{3x-3}{(x-1)(x+2)}=\\frac{3(x-1)}{(x-1)(x+2)}=\\frac{3}{x+2},\n\\]\nwhere the original integrand is defined. Thus\n\\[\n\\int\\frac{2x^3+3x^2-5}{x^2+x-2}\\,dx=\\int\\left(2x+1+\\frac{3}{x+2}\\right)dx.\n\\]\nTherefore\n\\[\n\\int\\frac{2x^3+3x^2-5}{x^2+x-2}\\,dx=x^2+x+3\\ln|x+2|+C.\n\\]",
           "id": "l1mi-s2-p1-q2-c",
           "label": "(c)",
-          "marks": 4,
-          "prompt": "Solve \\(\\arctan x+\\arctan(2x)=\\frac{\\pi}{4}\\)."
-        },
-        {
-          "answer": "Use \\(1-\\cos u=2\\sin^2\\left(\\frac{u}{2}\\right)\\). With \\(u=4h\\),\n\\[\n1-\\cos(4h)=2\\sin^2(2h).\n\\]\nHence\n\\[\n\\lim_{h\\to0}\\frac{1-\\cos(4h)}{h^2}=2\\lim_{h\\to0}\\left(\\frac{\\sin(2h)}{h}\\right)^2.\n\\]\nNow\n\\[\n\\frac{\\sin(2h)}{h}=2\\frac{\\sin(2h)}{2h},\n\\]\nand \\(\\lim_{h\\to0}\\frac{\\sin(2h)}{2h}=1\\). Therefore the limit is\n\\[\n2(2)^2=8.\n\\]",
-          "id": "l1mi-s2-p1-q2-d",
-          "label": "(d)",
-          "marks": 4,
-          "prompt": "Evaluate \\(\\lim_{h\\to0}\\frac{1-\\cos(4h)}{h^2}\\)."
+          "marks": 5,
+          "prompt": "Evaluate \\(\\displaystyle \\int\\frac{2x^3+3x^2-5}{x^2+x-2}\\,dx\\)."
         }
       ]
     },
@@ -94,37 +82,37 @@
       "id": "l1mi-s2-p1-q3",
       "marks": 15,
       "number": 3,
-      "section": "Section C: Differentiation and Integration",
-      "stem": "A storage vessel contains \\(30\\) litres of liquid at \\(t=0\\). For \\(0\\le t\\le5\\), the signed rate of change of volume is \\(R(t)=2t^2-8t+6\\), measured in litres per minute.",
-      "title": "Reconstructing volume from a rate",
+      "section": "Section C: Complex Numbers",
+      "stem": "Evaluate each limit using an appropriate method, then solve the complex exponential equation.",
+      "title": "Limits and a complex exponential equation",
       "parts": [
         {
-          "answer": "Factor the rate:\n\\[\nR(t)=2t^2-8t+6=2(t^2-4t+3)=2(t-1)(t-3).\n\\]\nSo \\(R(t)=0\\) at \\(t=1\\) and \\(t=3\\). Since the quadratic opens upwards, \\(R(t)>0\\) on \\(0\\le t<1\\) and \\(3<t\\le5\\), while \\(R(t)<0\\) on \\(1<t<3\\). Therefore the volume increases on \\(0\\le t<1\\) and \\(3<t\\le5\\), and decreases on \\(1<t<3\\).",
+          "answer": "The expression has the form \\(0/0\\). Rationalise the numerator:\n\\[\n\\frac{\\sqrt{4+x}-2}{x}\\cdot\\frac{\\sqrt{4+x}+2}{\\sqrt{4+x}+2}=\\frac{4+x-4}{x(\\sqrt{4+x}+2)}.\n\\]\nFor \\(x\\ne0\\), this is\n\\[\n\\frac{1}{\\sqrt{4+x}+2}.\n\\]\nTaking the limit gives\n\\[\n\\lim_{x\\to0}\\frac{\\sqrt{4+x}-2}{x}=\\frac{1}{2+2}=\\frac{1}{4}.\n\\]",
           "id": "l1mi-s2-p1-q3-a",
           "label": "(a)",
           "marks": 3,
-          "prompt": "Determine when the volume is increasing and when it is decreasing."
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{4+x}-2}{x}\\)."
         },
         {
-          "answer": "Since \\(R(t)=\\frac{dV}{dt}\\), integrate:\n\\[\nV(t)=\\int(2t^2-8t+6)\\,dt=\\frac{2}{3}t^3-4t^2+6t+C.\n\\]\nUse \\(V(0)=30\\), giving \\(C=30\\). Therefore\n\\[\nV(t)=\\frac{2}{3}t^3-4t^2+6t+30.\n\\]",
+          "answer": "Use the standard expansion near zero,\n\\[\n\\cos u=1-\\frac{u^2}{2}+O(u^4).\n\\]\nWith \\(u=3x\\),\n\\[\n1-\\cos(3x)=\\frac{(3x)^2}{2}+O(x^4)=\\frac{9x^2}{2}+O(x^4).\n\\]\nTherefore\n\\[\n\\lim_{x\\to0}\\frac{1-\\cos(3x)}{x^2}=\\frac{9}{2}.\n\\]",
           "id": "l1mi-s2-p1-q3-b",
           "label": "(b)",
-          "marks": 4,
-          "prompt": "Find an expression for the volume \\(V(t)\\)."
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{1-\\cos(3x)}{x^2}\\)."
         },
         {
-          "answer": "Stationary values occur at \\(t=1\\) and \\(t=3\\). Check these and the endpoints:\n\\[\nV(0)=30,\n\\]\n\\[\nV(1)=\\frac{2}{3}-4+6+30=\\frac{98}{3},\n\\]\n\\[\nV(3)=18-36+18+30=30,\n\\]\n\\[\nV(5)=\\frac{250}{3}-100+30+30=\\frac{130}{3}.\n\\]\nThus the minimum volume is \\(30\\) litres, at \\(t=0\\) and \\(t=3\\). The maximum volume is\n\\[\n\\frac{130}{3}\\text{ litres}\\approx43.3\\text{ litres},\n\\]\nat \\(t=5\\).",
+          "answer": "Let \\(t=1/x\\). As \\(x\\to0^+\\), \\(t\\to\\infty\\). Then\n\\[\n\\lim_{x\\to0^+}\\frac{\\sin(1/x)}{1/x}=\\lim_{t\\to\\infty}\\frac{\\sin t}{t}.\n\\]\nFor any \\(t>0\\), \\(-1\\le\\sin t\\le1\\). Dividing by \\(t\\) gives\n\\[\n-\\frac{1}{t}\\le\\frac{\\sin t}{t}\\le\\frac{1}{t}.\n\\]\nAs \\(t\\to\\infty\\), both bounds tend to \\(0\\). By the squeeze theorem,\n\\[\n\\lim_{t\\to\\infty}\\frac{\\sin t}{t}=0.\n\\]\nTherefore\n\\[\n\\lim_{x\\to0^+}\\frac{\\sin(1/x)}{1/x}=0.\n\\]",
           "id": "l1mi-s2-p1-q3-c",
           "label": "(c)",
-          "marks": 4,
-          "prompt": "Find the minimum and maximum volumes during \\(0\\le t\\le5\\)."
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to0^+}\\frac{\\sin(1/x)}{1/x}\\) using a substitution and the squeeze theorem."
         },
         {
-          "answer": "The average volume is\n\\[\n\\frac{1}{5}\\int_0^5 V(t)\\,dt.\n\\]\nUsing \\(V(t)=\\frac{2}{3}t^3-4t^2+6t+30\\),\n\\[\n\\int_0^5 V(t)\\,dt=\\left[\\frac{t^4}{6}-\\frac{4t^3}{3}+3t^2+30t\\right]_0^5.\n\\]\nSubstitute \\(t=5\\):\n\\[\n\\frac{625}{6}-\\frac{500}{3}+75+150=\\frac{975}{6}=\\frac{325}{2}.\n\\]\nTherefore the average volume is\n\\[\n\\frac{1}{5}\\cdot\\frac{325}{2}=\\frac{65}{2}=32.5.\n\\]\nThe average volume is \\(32.5\\) litres.",
+          "answer": "Let \\(z=x+iy\\), where \\(x,y\\in\\mathbb R\\). Then\n\\[\ne^{2z}=e^{2x}e^{2iy}.\n\\]\nThe right-hand side can be written as\n\\[\n-9=9e^{i((2k+1)\\pi)},\\qquad k\\in\\mathbb Z.\n\\]\nEquating moduli gives\n\\[\ne^{2x}=9,\\qquad 2x=\\ln9,\\qquad x=\\ln3.\n\\]\nEquating arguments gives\n\\[\n2y=(2k+1)\\pi,\\qquad y=\\frac{(2k+1)\\pi}{2}.\n\\]\nTherefore all solutions are\n\\[\nz=\\ln3+i\\frac{(2k+1)\\pi}{2},\\qquad k\\in\\mathbb Z.\n\\]",
           "id": "l1mi-s2-p1-q3-d",
           "label": "(d)",
-          "marks": 4,
-          "prompt": "Find the average volume over the interval \\(0\\le t\\le5\\)."
+          "marks": 6,
+          "prompt": "Find all complex solutions of \\(e^{2z}=-9\\)."
         }
       ]
     },
@@ -132,42 +120,149 @@
       "id": "l1mi-s2-p1-q4",
       "marks": 15,
       "number": 4,
-      "section": "Section D: Complex Numbers",
-      "stem": "Write complex answers in exact form. Use \\(i^2=-1\\).",
-      "title": "Complex arithmetic and De Moivre's theorem",
+      "section": "Section D: Series",
+      "stem": "This question concerns convergence tests for numerical series and a power series.",
+      "title": "Convergence and intervals",
       "parts": [
         {
-          "answer": "First multiply the numerator:\n\\[\n(2-i)(3+4i)=6+8i-3i-4i^2.\n\\]\nSince \\(i^2=-1\\), this is\n\\[\n10+5i.\n\\]\nNow divide by \\(1+i\\) by multiplying by the conjugate:\n\\[\n\\frac{10+5i}{1+i}\\cdot\\frac{1-i}{1-i}=\\frac{(10+5i)(1-i)}{2}.\n\\]\nThe numerator is\n\\[\n10-10i+5i-5i^2=15-5i.\n\\]\nTherefore\n\\[\n\\frac{(2-i)(3+4i)}{1+i}=\\frac{15}{2}-\\frac{5}{2}i.\n\\]",
+          "answer": "For \\(n\\ge1\\), compare with \\(1/n^2\\). Since\n\\[\n0<\\frac{n+2}{n^3+1}\\le\\frac{3n}{n^3}=\\frac{3}{n^2},\n\\]\nand the \\(p\\)-series\n\\[\n\\sum_{n=1}^{\\infty}\\frac{3}{n^2}\n\\]\nconverges, the comparison test shows that\n\\[\n\\sum_{n=1}^{\\infty}\\frac{n+2}{n^3+1}\n\\]\nconverges.",
           "id": "l1mi-s2-p1-q4-a",
           "label": "(a)",
-          "marks": 3,
-          "prompt": "Evaluate \\(\\frac{(2-i)(3+4i)}{1+i}\\) in the form \\(a+bi\\)."
+          "marks": 5,
+          "prompt": "Use a comparison test to determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{n+2}{n^3+1}\\) converges."
         },
         {
-          "answer": "Write \\(1+i\\) in polar form. Its modulus is \\(\\sqrt{2}\\) and its argument is \\(\\frac{\\pi}{4}\\), so\n\\[\n1+i=\\sqrt{2}\\left(\\cos\\frac{\\pi}{4}+i\\sin\\frac{\\pi}{4}\\right).\n\\]\nBy De Moivre's theorem,\n\\[\n(1+i)^6=(\\sqrt{2})^6\\left(\\cos\\frac{6\\pi}{4}+i\\sin\\frac{6\\pi}{4}\\right).\n\\]\nNow \\((\\sqrt{2})^6=8\\) and \\(\\frac{6\\pi}{4}=\\frac{3\\pi}{2}\\). Therefore\n\\[\n(1+i)^6=8(0-i)=-8i.\n\\]",
+          "answer": "Let\n\\[\na_n=\\frac{(-1)^{n+1}}{\\sqrt n+1}.\n\\]\nThe positive magnitudes\n\\[\nb_n=\\frac{1}{\\sqrt n+1}\n\\]\ndecrease to zero, so the alternating series test shows that \\(\\sum a_n\\) converges. For absolute convergence, consider\n\\[\n\\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt n+1}.\n\\]\nFor \\(n\\ge1\\), \\(\\sqrt n+1\\le2\\sqrt n\\), so\n\\[\n\\frac{1}{\\sqrt n+1}\\ge\\frac{1}{2\\sqrt n}.\n\\]\nThe series \\(\\sum 1/(2\\sqrt n)\\) diverges because it is a \\(p\\)-series with \\(p=\\frac{1}{2}\\). Hence the absolute series diverges. Therefore the original series is conditionally convergent.",
           "id": "l1mi-s2-p1-q4-b",
           "label": "(b)",
-          "marks": 4,
-          "prompt": "Use De Moivre's theorem to evaluate \\((1+i)^6\\)."
+          "marks": 5,
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{\\sqrt n+1}\\) converges absolutely, converges conditionally, or diverges."
         },
         {
-          "answer": "The right-hand side already has modulus \\(27\\) and argument \\(\\frac{\\pi}{6}\\). The cube roots have modulus\n\\[\n\\sqrt[3]{27}=3.\n\\]\nTheir arguments are\n\\[\n\\frac{\\frac{\\pi}{6}+2k\\pi}{3}=\\frac{\\pi}{18}+\\frac{2k\\pi}{3},\\qquad k=0,1,2.\n\\]\nThus the roots are\n\\[\n3\\left(\\cos\\frac{\\pi}{18}+i\\sin\\frac{\\pi}{18}\\right),\n\\]\n\\[\n3\\left(\\cos\\frac{13\\pi}{18}+i\\sin\\frac{13\\pi}{18}\\right),\n\\]\nand\n\\[\n3\\left(\\cos\\frac{25\\pi}{18}+i\\sin\\frac{25\\pi}{18}\\right).\n\\]",
+          "answer": "Let\n\\[\na_n(x)=\\frac{(x+1)^n}{3^n\\sqrt{n}}.\n\\]\nUse the root test on absolute values:\n\\[\n\\sqrt[n]{|a_n(x)|}=\\sqrt[n]{\\frac{|x+1|^n}{3^n\\sqrt{n}}}=\\frac{|x+1|}{3}\\,n^{-1/2n}.\n\\]\nAs \\(n\\to\\infty\\), \\(n^{-1/2n}=e^{-\\frac{\\ln n}{2n}}\\to e^0=1\\). Thus\n\\[\nL=\\frac{|x+1|}{3}.\n\\]\nThe series converges absolutely when \\(L<1\\), so \\(|x+1|<3\\) or \\(-4<x<2\\). At \\(x=2\\), the series becomes\n\\[\n\\sum_{n=1}^{\\infty}\\frac{1}{\\sqrt{n}},\n\\]\nwhich is a \\(p\\)-series with \\(p=\\frac{1}{2}\\le1\\), so it diverges. At \\(x=-4\\), the series becomes\n\\[\n\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{\\sqrt{n}},\n\\]\nwhich converges by the alternating series test. Therefore the interval of convergence is\n\\[\n[-4,2).\n\\]",
           "id": "l1mi-s2-p1-q4-c",
           "label": "(c)",
-          "marks": 4,
-          "prompt": "Find all complex solutions of \\(z^3=27\\left(\\cos\\frac{\\pi}{6}+i\\sin\\frac{\\pi}{6}\\right)\\)."
+          "marks": 5,
+          "prompt": "Use the root test to find the interval of convergence of \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(x+1)^n}{3^n\\sqrt{n}}\\), classifying both endpoints."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Taylor Series and Matrices",
+      "stem": "This question combines Taylor approximation with orthogonal and symmetric matrix structure.",
+      "title": "Taylor bounds and orthogonal matrices",
+      "parts": [
+        {
+          "answer": "For \\(f(x)=e^{-x}\\), the derivatives alternate in sign, and\n\\[\nf^{(k)}(0)=(-1)^k.\n\\]\nThe cubic Taylor polynomial about \\(0\\) is\n\\[\nP_3(x)=1-x+\\frac{x^2}{2}-\\frac{x^3}{6}.\n\\]\nAt \\(x=0.4\\),\n\\[\nP_3(0.4)=1-0.4+\\frac{0.4^2}{2}-\\frac{0.4^3}{6}=0.669333\\ldots .\n\\]\nFor a Lagrange remainder bound on \\([0,0.4]\\), \\(|f^{(4)}(x)|=e^{-x}\\le1\\). Thus\n\\[\n|R_3(0.4)|\\le\\frac{1}{4!}(0.4)^4=\\frac{0.0256}{24}=0.001066\\ldots .\n\\]\nBecause the Taylor series for \\(e^{-0.4}\\) is alternating with decreasing term sizes, the alternating-series remainder is bounded by the next term:\n\\[\n|R_3(0.4)|\\le\\frac{0.4^4}{4!}=0.001066\\ldots .\n\\]\nSo \\(e^{-0.4}\\approx0.669333\\), with error at most about \\(0.00107\\) by either bound.",
+          "id": "l1mi-s2-p1-q5-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Find the cubic Taylor polynomial for \\(e^{-x}\\) about \\(0\\), use it to approximate \\(e^{-0.4}\\), and give both a Lagrange remainder bound and an alternating-series remainder bound."
         },
         {
-          "answer": "Each root has modulus \\(3\\), so all roots lie on the circle\n\\[\n|z|=3.\n\\]\nThe arguments are\n\\[\n\\frac{\\pi}{18},\\qquad \\frac{13\\pi}{18},\\qquad \\frac{25\\pi}{18}.\n\\]\nThe difference between consecutive arguments is\n\\[\n\\frac{12\\pi}{18}=\\frac{2\\pi}{3}.\n\\]\nThe roots are therefore equally spaced around the circle, forming an equilateral triangle in the complex plane.",
-          "id": "l1mi-s2-p1-q4-d",
+          "answer": "Let\n\\[\nQ=\\begin{pmatrix}a&b\\\\-b&a\\end{pmatrix}.\n\\]\nThe columns are\n\\[\n\\mathbf q_1=\\begin{pmatrix}a\\\\-b\\end{pmatrix},\\qquad \\mathbf q_2=\\begin{pmatrix}b\\\\a\\end{pmatrix}.\n\\]\nFor \\(Q\\) to be orthogonal, its columns must be orthonormal. Their squared lengths are\n\\[\n\\|\\mathbf q_1\\|^2=a^2+b^2,\\qquad \\|\\mathbf q_2\\|^2=a^2+b^2,\n\\]\nand their dot product is\n\\[\n\\mathbf q_1\\cdot\\mathbf q_2=ab-ba=0.\n\\]\nThus the columns are orthonormal exactly when\n\\[\na^2+b^2=1.\n\\]",
+          "id": "l1mi-s2-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the condition on real numbers \\(a\\) and \\(b\\) for \\(Q=\\begin{pmatrix}a&b\\\\-b&a\\end{pmatrix}\\) to be orthogonal."
+        },
+        {
+          "answer": "For any orthogonal matrix \\(Q\\),\n\\[\nQ^TQ=I.\n\\]\nMultiplying by \\(Q^{-1}\\) is not needed: the equation already says that \\(Q^T\\) is a left inverse for \\(Q\\). For square matrices, a left inverse is the inverse, so\n\\[\nQ^{-1}=Q^T.\n\\]\nFor this matrix,\n\\[\nQ^{-1}=Q^T=\\begin{pmatrix}a&-b\\\\b&a\\end{pmatrix}.\n\\]",
+          "id": "l1mi-s2-p1-q5-c",
+          "label": "(c)",
+          "marks": 2,
+          "prompt": "If \\(Q\\) is orthogonal, state \\(Q^{-1}\\) in terms of \\(Q^T\\), and give the inverse of the matrix in part (b)."
+        },
+        {
+          "answer": "Let \\(A\\) be symmetric and orthogonal, and suppose \\(A\\mathbf v=\\lambda\\mathbf v\\) for a non-zero real vector \\(\\mathbf v\\). Since \\(A\\) is orthogonal, it preserves lengths:\n\\[\n\\|A\\mathbf v\\|=\\|\\mathbf v\\|.\n\\]\nUsing the eigenvalue equation,\n\\[\n\\|A\\mathbf v\\|=\\|\\lambda\\mathbf v\\|=|\\lambda|\\|\\mathbf v\\|.\n\\]\nBecause \\(\\mathbf v\\ne\\mathbf0\\), \\(\\|\\mathbf v\\|\\ne0\\), so\n\\[\n|\\lambda|=1.\n\\]\nA real symmetric matrix has real eigenvalues, hence \\(\\lambda=1\\) or \\(\\lambda=-1\\). Therefore every eigenvalue of a real symmetric orthogonal matrix is restricted to \\(\\pm1\\).",
+          "id": "l1mi-s2-p1-q5-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Prove that every eigenvalue of a real symmetric orthogonal matrix is either \\(1\\) or \\(-1\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Linear Systems",
+      "stem": "Consider the parameter-dependent linear system\n\\[\n\\begin{aligned}\nx+2y-z&=1,\\\\\n3x+5y+z&=4,\\\\\n2x+(a+4)y+az&=b.\n\\end{aligned}\n\\]",
+      "title": "A parameter-dependent linear system",
+      "parts": [
+        {
+          "answer": "Use the augmented matrix\n\\[\n\\left(\\begin{array}{ccc|c}1&2&-1&1\\\\3&5&1&4\\\\2&a+4&a&b\\end{array}\\right).\n\\]\nApply \\(R_2\\leftarrow R_2-3R_1\\) and \\(R_3\\leftarrow R_3-2R_1\\):\n\\[\n\\left(\\begin{array}{ccc|c}1&2&-1&1\\\\0&-1&4&1\\\\0&a&a+2&b-2\\end{array}\\right).\n\\]\nThe lower \\(2\\times2\\) coefficient block has determinant\n\\[\n(-1)(a+2)-4a=-5a-2.\n\\]\nThus the coefficient matrix is invertible exactly when\n\\[\n-5a-2\\ne0,\\qquad a\\ne-\\frac{2}{5}.\n\\]\nSo the system has a unique solution for \\(a\\ne-\\frac{2}{5}\\).",
+          "id": "l1mi-s2-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the values of \\(a\\) for which the system has a unique solution."
+        },
+        {
+          "answer": "When \\(a=-\\frac{2}{5}\\), the reduced augmented matrix from part (a) becomes\n\\[\n\\left(\\begin{array}{ccc|c}1&2&-1&1\\\\0&-1&4&1\\\\0&-\\frac{2}{5}&\\frac{8}{5}&b-2\\end{array}\\right).\n\\]\nThe third coefficient row is \\(\\frac{2}{5}\\) times the second coefficient row, since\n\\[\n\\frac{2}{5}(0,-1,4)=\\left(0,-\\frac{2}{5},\\frac{8}{5}\\right).\n\\]\nFor consistency, the right-hand side must have the same factor:\n\\[\nb-2=\\frac{2}{5}\\cdot1=\\frac{2}{5}.\n\\]\nTherefore\n\\[\nb=\\frac{12}{5}.\n\\]\nIf \\(a=-\\frac{2}{5}\\) and \\(b=\\frac{12}{5}\\), there are infinitely many solutions. If \\(a=-\\frac{2}{5}\\) and \\(b\\ne\\frac{12}{5}\\), the system is inconsistent and has no solution.",
+          "id": "l1mi-s2-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Classify the non-unique cases as no solution or infinitely many solutions."
+        },
+        {
+          "answer": "For the associated homogeneous system in the singular case, take \\(a=-\\frac{2}{5}\\). The reduced coefficient equations are\n\\[\nx+2y-z=0,\\qquad -y+4z=0.\n\\]\nLet \\(z=t\\). Then\n\\[\ny=4t.\n\\]\nSubstitute into the first equation:\n\\[\nx+2(4t)-t=0,\\qquad x=-7t.\n\\]\nHence the non-zero homogeneous solutions are\n\\[\n\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}=t\\begin{pmatrix}-7\\\\4\\\\1\\end{pmatrix},\\qquad t\\in\\mathbb R,\\ t\\ne0.\n\\]",
+          "id": "l1mi-s2-p1-q6-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For the singular value of \\(a\\), solve the associated homogeneous system."
+        },
+        {
+          "answer": "Set \\(a=0\\) and \\(b=3\\). The reduced augmented matrix from part (a) is\n\\[\n\\left(\\begin{array}{ccc|c}1&2&-1&1\\\\0&-1&4&1\\\\0&0&2&1\\end{array}\\right).\n\\]\nThe last row gives\n\\[\n2z=1,\\qquad z=\\frac{1}{2}.\n\\]\nThe second row gives\n\\[\n-y+4z=1,\\qquad y=4\\left(\\frac{1}{2}\\right)-1=1.\n\\]\nThe first row gives\n\\[\nx+2(1)-\\frac{1}{2}=1,\\qquad x=-\\frac{1}{2}.\n\\]\nTherefore, when \\(a=0\\) and \\(b=3\\),\n\\[\n(x,y,z)=\\left(-\\frac{1}{2},1,\\frac{1}{2}\\right).\n\\]",
+          "id": "l1mi-s2-p1-q6-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Solve the system for \\(a=0\\) and \\(b=3\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s2-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Eigenvalues and Matrix Structure",
+      "stem": "Let\n\\[\nA=\\begin{pmatrix}2&0&0\\\\0&3&1\\\\0&1&3\\end{pmatrix},\\qquad B=\\begin{pmatrix}5&0&0\\\\0&1&2\\\\0&2&1\\end{pmatrix}.\n\\]\nUse the vectors\n\\[\n\\mathbf v_1=\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix},\\qquad \\mathbf v_2=\\begin{pmatrix}0\\\\1\\\\1\\end{pmatrix},\\qquad \\mathbf v_3=\\begin{pmatrix}0\\\\1\\\\-1\\end{pmatrix}.\n\\]",
+      "title": "Diagonalisation and commuting matrices",
+      "parts": [
+        {
+          "answer": "Compute the action of \\(A\\) on each vector:\n\\[\nA\\mathbf v_1=\\begin{pmatrix}2\\\\0\\\\0\\end{pmatrix}=2\\mathbf v_1,\n\\]\n\\[\nA\\mathbf v_2=\\begin{pmatrix}0\\\\4\\\\4\\end{pmatrix}=4\\mathbf v_2,\n\\]\n\\[\nA\\mathbf v_3=\\begin{pmatrix}0\\\\2\\\\-2\\end{pmatrix}=2\\mathbf v_3.\n\\]\nThus the eigenvalues corresponding to \\(\\mathbf v_1,\\mathbf v_2,\\mathbf v_3\\) are respectively\n\\[\n2,\\quad 4,\\quad 2.\n\\]",
+          "id": "l1mi-s2-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Verify that the supplied vectors are eigenvectors of \\(A\\), and state the corresponding eigenvalues."
+        },
+        {
+          "answer": "Use the eigenvectors as columns of \\(P\\):\n\\[\nP=\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&1&-1\\end{pmatrix}.\n\\]\nThe matching diagonal matrix is\n\\[\nD_A=\\begin{pmatrix}2&0&0\\\\0&4&0\\\\0&0&2\\end{pmatrix}.\n\\]\nSince the columns of \\(P\\) are eigenvectors of \\(A\\),\n\\[\nAP=PD_A.\n\\]\nThe determinant of \\(P\\) is\n\\[\n\\det P=1\\det\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}=-2\\ne0.\n\\]\nTherefore \\(P\\) is invertible and\n\\[\nA=PD_AP^{-1}.\n\\]",
+          "id": "l1mi-s2-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Construct matrices \\(P\\) and \\(D_A\\) such that \\(A=PD_AP^{-1}\\), and justify that the diagonalisation is valid."
+        },
+        {
+          "answer": "The same vectors are also eigenvectors of \\(B\\):\n\\[\nB\\mathbf v_1=5\\mathbf v_1,\\qquad B\\mathbf v_2=3\\mathbf v_2,\\qquad B\\mathbf v_3=-\\mathbf v_3.\n\\]\nHence\n\\[\nB=PD_BP^{-1},\\qquad D_B=\\begin{pmatrix}5&0&0\\\\0&3&0\\\\0&0&-1\\end{pmatrix}.\n\\]\nNow\n\\[\nAB=(PD_AP^{-1})(PD_BP^{-1})=PD_AD_BP^{-1},\n\\]\nand\n\\[\nBA=(PD_BP^{-1})(PD_AP^{-1})=PD_BD_AP^{-1}.\n\\]\nDiagonal matrices commute, so \\(D_AD_B=D_BD_A\\). Therefore\n\\[\nAB=BA.\n\\]",
+          "id": "l1mi-s2-p1-q7-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Show, using diagonal form, that \\(A\\) and \\(B\\) commute."
+        },
+        {
+          "answer": "Let \\(A\\) and \\(B\\) be square matrices with \\(AB=BA\\). Suppose \\(\\mathbf v\\) lies in the eigenspace of \\(A\\) for eigenvalue \\(\\lambda\\). Then\n\\[\nA\\mathbf v=\\lambda\\mathbf v.\n\\]\nApply \\(A\\) to \\(B\\mathbf v\\):\n\\[\nA(B\\mathbf v)=(AB)\\mathbf v.\n\\]\nSince \\(AB=BA\\),\n\\[\n(AB)\\mathbf v=(BA)\\mathbf v=B(A\\mathbf v).\n\\]\nUsing \\(A\\mathbf v=\\lambda\\mathbf v\\),\n\\[\nB(A\\mathbf v)=B(\\lambda\\mathbf v)=\\lambda B\\mathbf v.\n\\]\nThus\n\\[\nA(B\\mathbf v)=\\lambda B\\mathbf v.\n\\]\nSo \\(B\\mathbf v\\) is either the zero vector or another vector in the same eigenspace of \\(A\\). Therefore commuting maps preserve eigenspaces.",
+          "id": "l1mi-s2-p1-q7-d",
           "label": "(d)",
           "marks": 4,
-          "prompt": "Describe the moduli and arguments of the roots from part (c), and state the geometric shape they form in the complex plane."
+          "prompt": "Prove that if square matrices \\(A\\) and \\(B\\) commute, then \\(B\\) maps each eigenspace of \\(A\\) into itself."
         }
       ]
     }
   ],
-  "timeAllowed": "2 hours",
+  "timeAllowed": "3 hours",
   "title": "Level 1 - Math I (Physics) Paper 1",
-  "totalMarks": 60
+  "totalMarks": 105
 }

@@ -110,7 +110,7 @@ const config = {
   siteUrl: process.env.NEXT_PUBLIC_APP_URL ?? "https://courses.fera.academy",
   sitemapSize: 7000,
   generateRobotsTxt: true,
-  exclude: ["/robots.txt", "/sitemap.xml"],
+  exclude: ["/chart-demos", "/robots.txt", "/sitemap.xml"],
   additionalPaths: async () => indexableDocsPaths,
 };
 

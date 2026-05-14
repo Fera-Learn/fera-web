@@ -85,7 +85,7 @@ Over a short time interval, displacement points along a small chord of the path.
 
 The sketch shows the geometric interpretation: position points from the origin, while velocity is tangent to the path at the particle.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Position and velocity"
   caption="The position vector points from the origin; the velocity vector is tangent to the path."
   width={480}

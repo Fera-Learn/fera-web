@@ -62,7 +62,7 @@ Once axes are chosen, each angled force contributes a signed component to each b
 
 The free-body diagram should contain only forces acting on the particle. The two tensions pull along their strings, and weight acts downward.
 
-<FreeBodyDiagram
+<ForceDiagram
   title="Particle equilibrium"
   caption="The force arrows do not vanish; their vector sum does."
   bodyLabel="P"

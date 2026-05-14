@@ -43,7 +43,7 @@ Force models start by deciding what object or collection is inside the system bo
 
 The graph shows tail-to-tail force vectors on the same object; the diagonal vector is their resultant.
 
-<CartesianPhysicsGraph
+<CartesianDiagram
   title="Adding forces on one object"
   caption="Only forces acting on the chosen object are added to form its resultant."
   xRange={{ min: -4, max: 6, step: 2, label: "F_x / N" }}
