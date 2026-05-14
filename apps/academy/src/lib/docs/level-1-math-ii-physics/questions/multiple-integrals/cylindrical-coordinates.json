@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "cylindrical-coordinates",
+  "topicTitle": "Cylindrical Coordinates",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-01",
+      "prompt": "What is the main purpose of Cylindrical Coordinates?",
+      "answer": "Cylindrical coordinates combine polar coordinates in the \\(xy\\)-plane with height \\(z\\). They are natural for cylinders, pipes, circular symmetry, and fields depending on distance from an axis.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-02",
+      "prompt": "What does \\(r\\) mean in Cylindrical Coordinates?",
+      "answer": "In Cylindrical Coordinates, \\(r\\) means distance from the z-axis.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-03",
+      "prompt": "Identify another important piece of notation used in Cylindrical Coordinates.",
+      "answer": "In Cylindrical Coordinates, \\(\\theta\\) means angle around the z-axis. Its unit is rad.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-04",
+      "prompt": "Before doing a cylindrical coordinates calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Use \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\), keep \\(z\\), and include the Jacobian factor \\(r\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-05",
+      "prompt": "State a central formula or test for Cylindrical Coordinates.",
+      "answer": "The cylindrical volume element is\n\\[dV=r\\,dr\\,d\\theta\\,dz\\]\nUse it only after the symbols in the formula have been identified for the specific cylindrical coordinates problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-06",
+      "prompt": "How is the formula or method in Cylindrical Coordinates interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cylindrical volume element is\n\\[dV=r\\,dr\\,d\\theta\\,dz\\]\nUse it only after the symbols in the formula have been identified for the specific cylindrical coordinates problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-07",
+      "prompt": "Use cylindrical coordinates to find the volume of a cylinder of radius \\(a\\) and height \\(h\\).",
+      "answer": "Use \\(0\\le r\\le a\\), \\(0\\le\\theta\\le2\\pi\\), \\(0\\le z\\le h\\): \\[V=\\int_0^h\\int_0^{2\\pi}\\int_0^a r\\,dr\\,d\\theta\\,dz=h(2\\pi)\\frac{a^2}{2}=\\pi a^2h\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-08",
+      "prompt": "Set up the mass of a cylinder with density \\(\\rho(r)=kr\\).",
+      "answer": "Mass is \\[m=\\int_0^h\\int_0^{2\\pi}\\int_0^a kr\\,r\\,dr\\,d\\theta\\,dz\\] The second \\(r\\) comes from the volume element.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-09",
+      "prompt": "What method choice is usually needed in a standard cylindrical coordinates question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Use \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\), keep \\(z\\), and include the Jacobian factor \\(r\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-10",
+      "prompt": "Use the notation of Cylindrical Coordinates to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(r\\), meaning distance from the z-axis; \\(\\theta\\), meaning angle around the z-axis; \\(z\\), meaning height coordinate.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-11",
+      "prompt": "Why are cylindrical coordinates efficient for a long pipe?",
+      "answer": "The boundary is usually \\(r=\\text{constant}\\), and fields often depend on radius rather than \\(x\\) and \\(y\\) separately. This makes bounds and integrands simpler.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-12",
+      "prompt": "What physical or modelling interpretation can Cylindrical Coordinates have?",
+      "answer": "In a physics model, the idea of cylindrical coordinates helps translate a mathematical expression into a statement about the system. Cylindrical coordinates combine polar coordinates in the \\(xy\\)-plane with height \\(z\\). They are natural for cylinders, pipes, circular symmetry, and fields depending on distance from an axis.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-13",
+      "prompt": "Correct this mistake in Cylindrical Coordinates: Forgetting the volume factor \\(r\\).",
+      "answer": "\\(dV=r\\,dr\\,d\\theta\\,dz\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-14",
+      "prompt": "Why is it important to check assumptions when using Cylindrical Coordinates?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Cylindrical coordinates are polar coordinates plus height. They simplify circular cylinders and require the volume factor \\(r\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-15",
+      "prompt": "Correct this second mistake in Cylindrical Coordinates: Treating \\(r\\) as negative.",
+      "answer": "cylindrical radius satisfies \\(r\\ge0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Cylindrical Coordinates?",
+      "answer": "Track the units in the notation: \\(\\theta\\) has unit rad.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-17",
+      "prompt": "Correct this third mistake in Cylindrical Coordinates: Using cylindrical coordinates when symmetry is not cylindrical.",
+      "answer": "choose coordinates that simplify the region or integrand.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-18",
+      "prompt": "Design an exam solution plan for a multi-step cylindrical coordinates problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Use \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\), keep \\(z\\), and include the Jacobian factor \\(r\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-19",
+      "prompt": "How could an incorrect setup affect a cylindrical coordinates result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Forgetting the volume factor \\(r\\) must be avoided: \\(dV=r\\,dr\\,d\\theta\\,dz\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-cylindrical-coordinates-20",
+      "prompt": "Give an exam-ready summary rule for Cylindrical Coordinates.",
+      "answer": "Cylindrical coordinates are polar coordinates plus height. They simplify circular cylinders and require the volume factor \\(r\\). If a formula is needed, use \\[dV=r\\,dr\\,d\\theta\\,dz\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

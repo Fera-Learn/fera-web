@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "fourier-symmetry",
+  "topicTitle": "Fourier Symmetry",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-01",
+      "prompt": "What is the main purpose of Fourier Symmetry?",
+      "answer": "Fourier symmetry shortcuts use even and odd products to remove whole families of coefficients before integrating. They save work and reduce sign errors in wave and signal calculations.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-02",
+      "prompt": "What does \\(f(x)\\) mean in Fourier Symmetry?",
+      "answer": "In Fourier Symmetry, \\(f(x)\\) means function on negative pi to pi.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-03",
+      "prompt": "Identify another important piece of notation used in Fourier Symmetry.",
+      "answer": "In Fourier Symmetry, \\(a_0,a_n\\) means constant and cosine coefficients.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-04",
+      "prompt": "Before doing a fourier symmetry calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Even functions keep cosine coefficients; odd functions keep sine coefficients.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-05",
+      "prompt": "State a central formula or test for Fourier Symmetry.",
+      "answer": "The even shortcut is\n\\[f(-x)=f(x)\\Rightarrow b_n=0\\]\nUse it only after the symbols in the formula have been identified for the specific fourier symmetry problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-06",
+      "prompt": "How is the formula or method in Fourier Symmetry interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The odd shortcut is\n\\[f(-x)=-f(x)\\Rightarrow a_0=0,\\ a_n=0\\]\nUse it only after the symbols in the formula have been identified for the specific fourier symmetry problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-07",
+      "prompt": "A centred square signal is even. Which coefficient integrals must be computed?",
+      "answer": "For an even function, f(x) sin nx is odd and integrates to zero on negative pi to pi. Therefore b_n=0. Only a_0 and a_n need calculation, with \\[a_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\cos nx\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-08",
+      "prompt": "A wave displacement satisfies f(-x)=-f(x). What is the reduced coefficient formula?",
+      "answer": "The function is odd, so a_0 and all a_n vanish. Only sine coefficients remain, and the symmetric integral doubles the half-interval integral: \\[b_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\sin nx\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-09",
+      "prompt": "What method choice is usually needed in a standard fourier symmetry question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Even functions keep cosine coefficients; odd functions keep sine coefficients.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-10",
+      "prompt": "Use the notation of Fourier Symmetry to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning function on negative pi to pi; \\(a_0,a_n\\), meaning constant and cosine coefficients; \\(b_n\\), meaning sine coefficient.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-11",
+      "prompt": "Explain a common worked step in Fourier Symmetry.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Fourier Symmetry.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-12",
+      "prompt": "What physical or modelling interpretation can Fourier Symmetry have?",
+      "answer": "In a physics model, the idea of fourier symmetry helps translate a mathematical expression into a statement about the system. Fourier symmetry shortcuts use even and odd products to remove whole families of coefficients before integrating. They save work and reduce sign errors in wave and signal calculations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-13",
+      "prompt": "Correct this mistake in Fourier Symmetry: Applying shortcuts before checking the interval is symmetric.",
+      "answer": "the cancellation argument needs negative and positive halves.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-14",
+      "prompt": "Why is it important to check assumptions when using Fourier Symmetry?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Check symmetry first: even signals use cosine coefficients; odd signals use sine coefficients.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-15",
+      "prompt": "Correct this second mistake in Fourier Symmetry: Forgetting that odd times odd is even.",
+      "answer": "this is why odd functions keep sine coefficients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Fourier Symmetry?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Check symmetry first: even signals use cosine coefficients; odd signals use sine coefficients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-17",
+      "prompt": "Correct this third mistake in Fourier Symmetry: Forgetting that odd times odd is even.",
+      "answer": "this is why odd functions keep sine coefficients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-18",
+      "prompt": "Design an exam solution plan for a multi-step fourier symmetry problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Even functions keep cosine coefficients; odd functions keep sine coefficients. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-19",
+      "prompt": "How could an incorrect setup affect a fourier symmetry result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Applying shortcuts before checking the interval is symmetric must be avoided: the cancellation argument needs negative and positive halves.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-symmetry-20",
+      "prompt": "Give an exam-ready summary rule for Fourier Symmetry.",
+      "answer": "Check symmetry first: even signals use cosine coefficients; odd signals use sine coefficients. If a formula is needed, use \\[f(-x)=f(x)\\Rightarrow b_n=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

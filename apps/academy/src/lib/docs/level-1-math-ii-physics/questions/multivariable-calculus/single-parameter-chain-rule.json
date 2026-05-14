@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "single-parameter-chain-rule",
+  "topicTitle": "Single-Parameter Chain Rule",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-01",
+      "prompt": "What is the main purpose of Single-Parameter Chain Rule?",
+      "answer": "The single-parameter chain rule gives the rate of change of a multivariable field along one curve. A moving sensor samples different field values because its coordinates depend on one parameter, usually time.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-02",
+      "prompt": "What does \\(f(x(t),y(t))\\) mean in Single-Parameter Chain Rule?",
+      "answer": "In Single-Parameter Chain Rule, \\(f(x(t),y(t))\\) means field value along a parameterised curve.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-03",
+      "prompt": "Identify another important piece of notation used in Single-Parameter Chain Rule.",
+      "answer": "In Single-Parameter Chain Rule, \\(t\\) means single parameter, often time. Its unit is s.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-04",
+      "prompt": "Before doing a single-parameter chain rule calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Differentiate the field through the moving coordinates. The partial derivatives are evaluated at the current point on the curve, not at a generic point.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-05",
+      "prompt": "State a central formula or test for Single-Parameter Chain Rule.",
+      "answer": "The single-parameter chain rule is\n\\[\\frac{d}{dt}f(x(t),y(t))=f_xx'(t)+f_yy'(t)\\]\nUse it only after the symbols in the formula have been identified for the specific single-parameter chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-06",
+      "prompt": "How is the formula or method in Single-Parameter Chain Rule interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The single-parameter chain rule is\n\\[\\frac{d}{dt}f(x(t),y(t))=f_xx'(t)+f_yy'(t)\\]\nUse it only after the symbols in the formula have been identified for the specific single-parameter chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-07",
+      "prompt": "A thermometer moves through T(x,y)=2x+y^2 with x=t and y=t^2. Find dT/dt at t=1.",
+      "answer": "Compute T_x=2 and T_y=2y. Also x'=1 and y'=2t. At t=1, y=1. Therefore dT/dt=2(1)+2(1)(2)=6 K per s.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-08",
+      "prompt": "For u(x,t)=x^2t with x=s^2 and t=s+1, find du/ds at s=1.",
+      "answer": "Treat u as a function of x and t. We have u_x=2xt and u_t=x^2. Also dx/ds=2s and dt/ds=1. At s=1, x=1 and t=2, so du/ds=(4)(2)+(1)(1)=9.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-09",
+      "prompt": "What method choice is usually needed in a standard single-parameter chain rule question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Differentiate the field through the moving coordinates. The partial derivatives are evaluated at the current point on the curve, not at a generic point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-10",
+      "prompt": "Use the notation of Single-Parameter Chain Rule to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x(t),y(t))\\), meaning field value along a parameterised curve; \\(t\\), meaning single parameter, often time; \\(x'(t),y'(t)\\), meaning rates of the coordinates along the curve.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-11",
+      "prompt": "How can you check a single-parameter chain rule answer?",
+      "answer": "Substitute x(t) and y(t) into f to make a one-variable function, then differentiate directly. The result should match the chain rule expression after simplification.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-12",
+      "prompt": "What physical or modelling interpretation can Single-Parameter Chain Rule have?",
+      "answer": "In a physics model, the idea of single-parameter chain rule helps translate a mathematical expression into a statement about the system. The single-parameter chain rule gives the rate of change of a multivariable field along one curve. A moving sensor samples different field values because its coordinates depend on one parameter, usually time.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-13",
+      "prompt": "Correct this mistake in Single-Parameter Chain Rule: using f_x and f_y before substituting the path.",
+      "answer": "evaluate them at x(t), y(t), and then at the requested parameter value.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-14",
+      "prompt": "Why is it important to check assumptions when using Single-Parameter Chain Rule?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For one parameter, the total rate is a sum of partial derivative times coordinate speed for every moving input.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-15",
+      "prompt": "Correct this second mistake in Single-Parameter Chain Rule: forgetting one coordinate rate.",
+      "answer": "every coordinate depending on t needs its own derivative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Single-Parameter Chain Rule?",
+      "answer": "Track the units in the notation: \\(t\\) has unit s.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-17",
+      "prompt": "Correct this third mistake in Single-Parameter Chain Rule: confusing the path parameter with a field input.",
+      "answer": "identify which variables are direct inputs to f and which parameter controls those inputs.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-18",
+      "prompt": "Design an exam solution plan for a multi-step single-parameter chain rule problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Differentiate the field through the moving coordinates. The partial derivatives are evaluated at the current point on the curve, not at a generic point. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-19",
+      "prompt": "How could an incorrect setup affect a single-parameter chain rule result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, using f_x and f_y before substituting the path must be avoided: evaluate them at x(t), y(t), and then at the requested parameter value.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-single-parameter-chain-rule-20",
+      "prompt": "Give an exam-ready summary rule for Single-Parameter Chain Rule.",
+      "answer": "For one parameter, the total rate is a sum of partial derivative times coordinate speed for every moving input. If a formula is needed, use \\[\\frac{d}{dt}f(x(t),y(t))=f_xx'(t)+f_yy'(t)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

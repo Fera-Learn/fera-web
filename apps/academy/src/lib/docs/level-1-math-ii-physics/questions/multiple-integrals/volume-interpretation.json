@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "volume-interpretation",
+  "topicTitle": "Volume Interpretation",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-01",
+      "prompt": "What is the main purpose of Volume Interpretation?",
+      "answer": "A multiple integral accumulates small pieces over a region. For \\(\\iint_R f(x,y)\\,dA\\), each tiny area element contributes approximately \\(f\\Delta A\\). When \\(f=1\\), the integral gives area; when \\(f\\) is a height, it gives volume.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-02",
+      "prompt": "What does \\(R\\) mean in Volume Interpretation?",
+      "answer": "In Volume Interpretation, \\(R\\) means region of integration in the plane.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-03",
+      "prompt": "Identify another important piece of notation used in Volume Interpretation.",
+      "answer": "In Volume Interpretation, \\(f(x,y)\\) means scalar field or height over R.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-04",
+      "prompt": "Before doing a volume interpretation calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Interpret a double integral as adding many small columns. If \\(f\\) is a density instead of a height, the same integral gives total mass, charge, or probability.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-05",
+      "prompt": "State a central formula or test for Volume Interpretation.",
+      "answer": "The volume under a surface is\n\\[V=\\iint_R f(x,y)\\,dA\\]\nUse it only after the symbols in the formula have been identified for the specific volume interpretation problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-06",
+      "prompt": "How is the formula or method in Volume Interpretation interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The volume under a surface is\n\\[V=\\iint_R f(x,y)\\,dA\\]\nUse it only after the symbols in the formula have been identified for the specific volume interpretation problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-07",
+      "prompt": "Find the volume over a rectangle of area \\(6\\) when \\(f(x,y)=4\\).",
+      "answer": "The height is constant, so \\[V=\\iint_R4\\,dA=4\\iint_R1\\,dA=4(6)=24\\] The volume is \\(24\\) cubic units.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-08",
+      "prompt": "A lamina has density \\(\\rho(x,y)=2x\\) on \\(0\\le x\\le1\\), \\(0\\le y\\le3\\). Find its mass.",
+      "answer": "Integrate density over area: \\[m=\\int_0^3\\int_0^1 2x\\,dx\\,dy=\\int_0^3 [x^2]_0^1\\,dy=\\int_0^3 1\\,dy=3\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-09",
+      "prompt": "What method choice is usually needed in a standard volume interpretation question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Interpret a double integral as adding many small columns. If \\(f\\) is a density instead of a height, the same integral gives total mass, charge, or probability.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-10",
+      "prompt": "Use the notation of Volume Interpretation to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(R\\), meaning region of integration in the plane; \\(f(x,y)\\), meaning scalar field or height over R; \\(dA\\), meaning small area element.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-11",
+      "prompt": "How do you get the area of \\(R\\) using a double integral?",
+      "answer": "Set the integrand equal to \\(1\\): \\[\\text{area}(R)=\\iint_R1\\,dA\\] This adds one unit of area for every tiny piece of the region.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-12",
+      "prompt": "What physical or modelling interpretation can Volume Interpretation have?",
+      "answer": "In a physics model, the idea of volume interpretation helps translate a mathematical expression into a statement about the system. A multiple integral accumulates small pieces over a region. For \\(\\iint_R f(x,y)\\,dA\\), each tiny area element contributes approximately \\(f\\Delta A\\). When \\(f=1\\), the integral gives area; when \\(f\\) is a height, it gives volume.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-13",
+      "prompt": "Correct this mistake in Volume Interpretation: Ignoring units of the integrand.",
+      "answer": "integrand units times area units determine the result.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-14",
+      "prompt": "Why is it important to check assumptions when using Volume Interpretation?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Multiple integrals add local contributions over a region. Height gives volume, density gives total amount, and integrand \\(1\\) gives area or volume of the region itself.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-15",
+      "prompt": "Correct this second mistake in Volume Interpretation: Assuming every double integral is volume.",
+      "answer": "it is volume only when the integrand is a height.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Volume Interpretation?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Multiple integrals add local contributions over a region. Height gives volume, density gives total amount, and integrand \\(1\\) gives area or volume of the region itself.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-17",
+      "prompt": "Correct this third mistake in Volume Interpretation: Forgetting the region.",
+      "answer": "the same integrand gives different totals over different regions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-18",
+      "prompt": "Design an exam solution plan for a multi-step volume interpretation problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Interpret a double integral as adding many small columns. If \\(f\\) is a density instead of a height, the same integral gives total mass, charge, or probability. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-19",
+      "prompt": "How could an incorrect setup affect a volume interpretation result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Ignoring units of the integrand must be avoided: integrand units times area units determine the result.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-volume-interpretation-20",
+      "prompt": "Give an exam-ready summary rule for Volume Interpretation.",
+      "answer": "Multiple integrals add local contributions over a region. Height gives volume, density gives total amount, and integrand \\(1\\) gives area or volume of the region itself. If a formula is needed, use \\[V=\\iint_R f(x,y)\\,dA\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

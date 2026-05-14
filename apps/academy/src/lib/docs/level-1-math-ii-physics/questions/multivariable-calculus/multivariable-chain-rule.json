@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "multivariable-chain-rule",
+  "topicTitle": "Multivariable Chain Rule",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-01",
+      "prompt": "What is the main purpose of Multivariable Chain Rule?",
+      "answer": "The multivariable chain rule differentiates a field whose inputs themselves depend on other variables. Each route from the final variable to the field contributes one product of rates.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-02",
+      "prompt": "What does \\(f(x,y)\\) mean in Multivariable Chain Rule?",
+      "answer": "In Multivariable Chain Rule, \\(f(x,y)\\) means field whose value depends on x and y.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-03",
+      "prompt": "Identify another important piece of notation used in Multivariable Chain Rule.",
+      "answer": "In Multivariable Chain Rule, \\(x(t),y(t)\\) means input coordinates that vary with parameter t.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-04",
+      "prompt": "Before doing a multivariable chain rule calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Differentiate through every input path and add the contributions. The terms mean: sensitivity of f to x times rate of x, plus sensitivity of f to y times rate of y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-05",
+      "prompt": "State a central formula or test for Multivariable Chain Rule.",
+      "answer": "The chain rule along a path is\n\\[\\frac{df}{dt}=f_x\\frac{dx}{dt}+f_y\\frac{dy}{dt}\\]\nUse it only after the symbols in the formula have been identified for the specific multivariable chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-06",
+      "prompt": "How is the formula or method in Multivariable Chain Rule interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The chain rule along a path is\n\\[\\frac{df}{dt}=f_x\\frac{dx}{dt}+f_y\\frac{dy}{dt}\\]\nUse it only after the symbols in the formula have been identified for the specific multivariable chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-07",
+      "prompt": "Let T(x,y)=x^2+y and a probe move by x=t^2, y=3t. Find dT/dt at t=2.",
+      "answer": "Compute T_x=2x and T_y=1. Also dx/dt=2t and dy/dt=3. At t=2, x=4 and y=6, so T_x=8. Therefore dT/dt=8(4)+1(3)=35.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-08",
+      "prompt": "For V(x,y)=xy, x=cos t, and y=sin t, find dV/dt.",
+      "answer": "The partial derivatives are V_x=y and V_y=x. The coordinate rates are dx/dt=-sin t and dy/dt=cos t. Thus dV/dt=y(-sin t)+x(cos t). Substitute x=cos t and y=sin t to get dV/dt=-sin^2 t+cos^2 t.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-09",
+      "prompt": "What method choice is usually needed in a standard multivariable chain rule question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Differentiate through every input path and add the contributions. The terms mean: sensitivity of f to x times rate of x, plus sensitivity of f to y times rate of y.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-10",
+      "prompt": "Use the notation of Multivariable Chain Rule to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x,y)\\), meaning field whose value depends on x and y; \\(x(t),y(t)\\), meaning input coordinates that vary with parameter t; \\(df/dt\\), meaning total rate of change of f along the parameterised path.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-11",
+      "prompt": "How can the path chain rule be written with a dot product?",
+      "answer": "For position r(t)=(x(t),y(t)), the rate is df/dt=grad f dot dr/dt. This is the same formula with the partial derivatives and coordinate rates grouped into vectors.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-12",
+      "prompt": "What physical or modelling interpretation can Multivariable Chain Rule have?",
+      "answer": "In a physics model, the idea of multivariable chain rule helps translate a mathematical expression into a statement about the system. The multivariable chain rule differentiates a field whose inputs themselves depend on other variables. Each route from the final variable to the field contributes one product of rates.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-13",
+      "prompt": "Correct this mistake in Multivariable Chain Rule: evaluating f_x and f_y at fixed symbols instead of the moving point.",
+      "answer": "substitute x(t) and y(t) before evaluating at a t value.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-14",
+      "prompt": "Why is it important to check assumptions when using Multivariable Chain Rule?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The multivariable chain rule adds one contribution per input path: partial sensitivity times intermediate-variable rate.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-15",
+      "prompt": "Correct this second mistake in Multivariable Chain Rule: omitting an input path.",
+      "answer": "include one term for each dependent input variable.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Multivariable Chain Rule?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The multivariable chain rule adds one contribution per input path: partial sensitivity times intermediate-variable rate.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-17",
+      "prompt": "Correct this third mistake in Multivariable Chain Rule: multiplying by x instead of dx/dt.",
+      "answer": "the chain rule uses rates of the intermediate variables.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-18",
+      "prompt": "Design an exam solution plan for a multi-step multivariable chain rule problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Differentiate through every input path and add the contributions. The terms mean: sensitivity of f to x times rate of x, plus sensitivity of f to y times rate of y. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-19",
+      "prompt": "How could an incorrect setup affect a multivariable chain rule result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, evaluating f_x and f_y at fixed symbols instead of the moving point must be avoided: substitute x(t) and y(t) before evaluating at a t value.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-chain-rule-20",
+      "prompt": "Give an exam-ready summary rule for Multivariable Chain Rule.",
+      "answer": "The multivariable chain rule adds one contribution per input path: partial sensitivity times intermediate-variable rate. If a formula is needed, use \\[\\frac{df}{dt}=f_x\\frac{dx}{dt}+f_y\\frac{dy}{dt}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

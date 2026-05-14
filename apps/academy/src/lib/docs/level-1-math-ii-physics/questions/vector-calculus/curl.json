@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "curl",
+  "topicTitle": "Curl",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-curl-01",
+      "prompt": "What is the main purpose of Curl?",
+      "answer": "Curl measures the local rotation or circulation tendency of a vector field. It returns a vector whose direction gives the rotation axis and whose magnitude measures the local twisting strength.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-02",
+      "prompt": "What does \\(\\nabla\\times\\mathbf F\\) mean in Curl?",
+      "answer": "In Curl, \\(\\nabla\\times\\mathbf F\\) means curl of the vector field F.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-03",
+      "prompt": "Identify another important piece of notation used in Curl.",
+      "answer": "In Curl, \\(F_x,F_y,F_z\\) means components of the vector field.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-04",
+      "prompt": "Before doing a curl calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: In Cartesian coordinates, curl is the cross product of \\(\\nabla\\) with the field. For a two-dimensional field \\(\\mathbf F=(F_x,F_y,0)\\), only the z-component may be nonzero.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-05",
+      "prompt": "State a central formula or test for Curl.",
+      "answer": "The curl is\n\\[ \\nabla\\times\\mathbf F=\\left(\\frac{\\partial F_z}{\\partial y}-\\frac{\\partial F_y}{\\partial z},\\frac{\\partial F_x}{\\partial z}-\\frac{\\partial F_z}{\\partial x},\\frac{\\partial F_y}{\\partial x}-\\frac{\\partial F_x}{\\partial y}\\right)\\]\nUse it only after the symbols in the formula have been identified for the specific curl problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-06",
+      "prompt": "How is the formula or method in Curl interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The curl is\n\\[ \\nabla\\times\\mathbf F=\\left(\\frac{\\partial F_z}{\\partial y}-\\frac{\\partial F_y}{\\partial z},\\frac{\\partial F_x}{\\partial z}-\\frac{\\partial F_z}{\\partial x},\\frac{\\partial F_y}{\\partial x}-\\frac{\\partial F_x}{\\partial y}\\right)\\]\nUse it only after the symbols in the formula have been identified for the specific curl problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-07",
+      "prompt": "Find the curl of \\(\\mathbf F=(-y,x,0)\\).",
+      "answer": "Only the z-component is nonzero: \\[(\\nabla\\times\\mathbf F)_z=\\frac{\\partial F_y}{\\partial x}-\\frac{\\partial F_x}{\\partial y}=1-(-1)=2\\] Therefore \\[ \\nabla\\times\\mathbf F=(0,0,2)\\] The positive z-direction matches anticlockwise rotation in the xy-plane.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-08",
+      "prompt": "Let \\(\\phi=x^2+y^2+z^2\\). Compute \\(\\nabla\\times(\\nabla\\phi)\\).",
+      "answer": "The gradient is \\(\\nabla\\phi=(2x,2y,2z)\\). The cross-derivative differences are all zero, so \\[ \\nabla\\times(\\nabla\\phi)=\\mathbf0\\] This is the standard curl-of-gradient identity for smooth fields.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-09",
+      "prompt": "What method choice is usually needed in a standard curl question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: In Cartesian coordinates, curl is the cross product of \\(\\nabla\\) with the field. For a two-dimensional field \\(\\mathbf F=(F_x,F_y,0)\\), only the z-component may be nonzero.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-10",
+      "prompt": "Use the notation of Curl to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\nabla\\times\\mathbf F\\), meaning curl of the vector field F; \\(F_x,F_y,F_z\\), meaning components of the vector field; \\(\\hat{\\mathbf i},\\hat{\\mathbf j},\\hat{\\mathbf k}\\), meaning Cartesian unit vectors.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-11",
+      "prompt": "What does nonzero curl mean in a velocity field?",
+      "answer": "It means a tiny paddle wheel placed in the flow would tend to rotate. The curl direction gives the rotation axis by the right-hand rule.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-12",
+      "prompt": "What physical or modelling interpretation can Curl have?",
+      "answer": "In a physics model, the idea of curl helps translate a mathematical expression into a statement about the system. Curl measures the local rotation or circulation tendency of a vector field. It returns a vector whose direction gives the rotation axis and whose magnitude measures the local twisting strength.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-13",
+      "prompt": "Correct this mistake in Curl: Treating curl as scalar in three dimensions.",
+      "answer": "curl is a vector in 3D.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-14",
+      "prompt": "Why is it important to check assumptions when using Curl?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Curl is the vector measure of local rotation. In two-dimensional fields, its z-component captures the local anticlockwise or clockwise tendency.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-15",
+      "prompt": "Correct this second mistake in Curl: Reversing derivative order in the z-component.",
+      "answer": "use \\(\\partial F_y/\\partial x-\\partial F_x/\\partial y\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Curl?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Curl is the vector measure of local rotation. In two-dimensional fields, its z-component captures the local anticlockwise or clockwise tendency.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-17",
+      "prompt": "Correct this third mistake in Curl: Assuming nonzero curl means circular field lines everywhere.",
+      "answer": "curl is local rotation tendency, not necessarily global circles.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-18",
+      "prompt": "Design an exam solution plan for a multi-step curl problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: In Cartesian coordinates, curl is the cross product of \\(\\nabla\\) with the field. For a two-dimensional field \\(\\mathbf F=(F_x,F_y,0)\\), only the z-component may be nonzero. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-19",
+      "prompt": "How could an incorrect setup affect a curl result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating curl as scalar in three dimensions must be avoided: curl is a vector in 3D.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-curl-20",
+      "prompt": "Give an exam-ready summary rule for Curl.",
+      "answer": "Curl is the vector measure of local rotation. In two-dimensional fields, its z-component captures the local anticlockwise or clockwise tendency. If a formula is needed, use \\[ \\nabla\\times\\mathbf F=\\left(\\frac{\\partial F_z}{\\partial y}-\\frac{\\partial F_y}{\\partial z},\\frac{\\partial F_x}{\\partial z}-\\frac{\\partial F_z}{\\partial x},\\frac{\\partial F_y}{\\partial x}-\\frac{\\partial F_x}{\\partial y}\\right)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

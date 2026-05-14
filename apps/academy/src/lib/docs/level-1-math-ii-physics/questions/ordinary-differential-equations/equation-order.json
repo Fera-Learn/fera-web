@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "equation-order",
+  "topicTitle": "Equation Order",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-01",
+      "prompt": "What is the main purpose of Equation Order?",
+      "answer": "The order of an ODE is the highest derivative order that appears. Order tells you how many independent conditions are normally needed to select one physical solution.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-02",
+      "prompt": "What does \\(y'\\) mean in Equation Order?",
+      "answer": "In Equation Order, \\(y'\\) means first derivative of y.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-03",
+      "prompt": "Identify another important piece of notation used in Equation Order.",
+      "answer": "In Equation Order, \\(y''\\) means second derivative of y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-04",
+      "prompt": "Before doing a equation order calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Scan all terms and choose the largest derivative index. A first-order cooling law usually needs one initial temperature. A second-order oscillator usually needs initial position and initial velocity.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-05",
+      "prompt": "State a central formula or test for Equation Order.",
+      "answer": "The order n form is\n\\[F(t,y,y',\\ldots,y^{(n)})=0\\]\nUse it only after the symbols in the formula have been identified for the specific equation order problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-06",
+      "prompt": "How is the formula or method in Equation Order interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The order n form is\n\\[F(t,y,y',\\ldots,y^{(n)})=0\\]\nUse it only after the symbols in the formula have been identified for the specific equation order problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-07",
+      "prompt": "What is the order of dT/dt equals negative k times T minus T_s?",
+      "answer": "The only derivative is dT/dt, a first derivative. The highest derivative order is one, so the cooling model is first order: \\[\\frac{dT}{dt}=-k(T-T_s)\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-08",
+      "prompt": "What is the order of m x double prime plus c x prime plus kx equals F of t?",
+      "answer": "The terms include x, x prime, and x double prime. The highest derivative is x double prime, so the equation is second order: \\[m x''+c x'+kx=F(t)\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-09",
+      "prompt": "What method choice is usually needed in a standard equation order question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Scan all terms and choose the largest derivative index. A first-order cooling law usually needs one initial temperature. A second-order oscillator usually needs initial position and initial velocity.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-10",
+      "prompt": "Use the notation of Equation Order to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(y'\\), meaning first derivative of y; \\(y''\\), meaning second derivative of y; \\(y^{(n)}\\), meaning nth derivative of y.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-11",
+      "prompt": "Explain a common worked step in Equation Order.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Equation Order.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-12",
+      "prompt": "What physical or modelling interpretation can Equation Order have?",
+      "answer": "In a physics model, the idea of equation order helps translate a mathematical expression into a statement about the system. The order of an ODE is the highest derivative order that appears. Order tells you how many independent conditions are normally needed to select one physical solution.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-13",
+      "prompt": "Correct this mistake in Equation Order: Counting the number of terms.",
+      "answer": "order depends only on the highest derivative.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-14",
+      "prompt": "Why is it important to check assumptions when using Equation Order?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Order equals the highest derivative present and usually matches the number of conditions needed for one solution.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-15",
+      "prompt": "Correct this second mistake in Equation Order: Counting powers as order.",
+      "answer": "y prime squared still contains a first derivative, not a second derivative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Equation Order?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Order equals the highest derivative present and usually matches the number of conditions needed for one solution.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-17",
+      "prompt": "Correct this third mistake in Equation Order: Counting powers as order.",
+      "answer": "y prime squared still contains a first derivative, not a second derivative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-18",
+      "prompt": "Design an exam solution plan for a multi-step equation order problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Scan all terms and choose the largest derivative index. A first-order cooling law usually needs one initial temperature. A second-order oscillator usually needs initial position and initial velocity. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-19",
+      "prompt": "How could an incorrect setup affect a equation order result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Counting the number of terms must be avoided: order depends only on the highest derivative.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-equation-order-20",
+      "prompt": "Give an exam-ready summary rule for Equation Order.",
+      "answer": "Order equals the highest derivative present and usually matches the number of conditions needed for one solution. If a formula is needed, use \\[F(t,y,y',\\ldots,y^{(n)})=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

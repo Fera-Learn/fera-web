@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "vector-analogy",
+  "topicTitle": "Vector Analogy",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-01",
+      "prompt": "What is the main purpose of Vector Analogy?",
+      "answer": "Fourier analysis works like resolving a vector into perpendicular components. Sine and cosine functions act like basis directions, and coefficients measure how far the function points along each direction.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-02",
+      "prompt": "What does \\(\\mathbf v\\) mean in Vector Analogy?",
+      "answer": "In Vector Analogy, \\(\\mathbf v\\) means ordinary vector.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-03",
+      "prompt": "Identify another important piece of notation used in Vector Analogy.",
+      "answer": "In Vector Analogy, \\(\\mathbf e_i\\) means unit basis vector.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-04",
+      "prompt": "Before doing a vector analogy calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Vector components come from dot products; Fourier coefficients come from function inner products.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-05",
+      "prompt": "State a central formula or test for Vector Analogy.",
+      "answer": "The vector projection is\n\\[v_i=\\mathbf v\\cdot\\mathbf e_i\\]\nUse it only after the symbols in the formula have been identified for the specific vector analogy problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-06",
+      "prompt": "How is the formula or method in Vector Analogy interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The function projection is\n\\[a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific vector analogy problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-07",
+      "prompt": "Explain why a vibration signal can be described by mode amplitudes.",
+      "answer": "A vector is described by components along perpendicular axes. A vibration signal is described by components along perpendicular sine and cosine modes. The coefficient a_n is found by projecting the signal onto cos nx: \\[a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-08",
+      "prompt": "Why does cos x not contribute to the cos 2x coefficient?",
+      "answer": "The modes are orthogonal over a full period: \\[\\int_{-\\pi}^{\\pi}\\cos x\\cos2x\\,dx=0\\] The projection onto cos 2x is therefore zero, just as a vector perpendicular to an axis has zero component along that axis.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-09",
+      "prompt": "What method choice is usually needed in a standard vector analogy question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Vector components come from dot products; Fourier coefficients come from function inner products.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-10",
+      "prompt": "Use the notation of Vector Analogy to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf v\\), meaning ordinary vector; \\(\\mathbf e_i\\), meaning unit basis vector; \\(f(x)\\), meaning function treated like a vector.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-11",
+      "prompt": "Explain a common worked step in Vector Analogy.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Vector Analogy.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-12",
+      "prompt": "What physical or modelling interpretation can Vector Analogy have?",
+      "answer": "In a physics model, the idea of vector analogy helps translate a mathematical expression into a statement about the system. Fourier analysis works like resolving a vector into perpendicular components. Sine and cosine functions act like basis directions, and coefficients measure how far the function points along each direction.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-13",
+      "prompt": "Correct this mistake in Vector Analogy: Thinking the analogy is only visual.",
+      "answer": "the same projection idea is used algebraically through integrals.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-14",
+      "prompt": "Why is it important to check assumptions when using Vector Analogy?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Fourier coefficients are function components, found by projecting a signal onto orthogonal sine and cosine directions.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-15",
+      "prompt": "Correct this second mistake in Vector Analogy: Projecting over a partial period.",
+      "answer": "orthogonality requires the stated full interval.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Vector Analogy?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Fourier coefficients are function components, found by projecting a signal onto orthogonal sine and cosine directions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-17",
+      "prompt": "Correct this third mistake in Vector Analogy: Projecting over a partial period.",
+      "answer": "orthogonality requires the stated full interval.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-18",
+      "prompt": "Design an exam solution plan for a multi-step vector analogy problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Vector components come from dot products; Fourier coefficients come from function inner products. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-19",
+      "prompt": "How could an incorrect setup affect a vector analogy result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Thinking the analogy is only visual must be avoided: the same projection idea is used algebraically through integrals.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-vector-analogy-20",
+      "prompt": "Give an exam-ready summary rule for Vector Analogy.",
+      "answer": "Fourier coefficients are function components, found by projecting a signal onto orthogonal sine and cosine directions. If a formula is needed, use \\[v_i=\\mathbf v\\cdot\\mathbf e_i\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

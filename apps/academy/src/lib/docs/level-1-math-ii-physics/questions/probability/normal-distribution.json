@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "normal-distribution",
+  "topicTitle": "Normal Distribution",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-normal-distribution-01",
+      "prompt": "A measurement is modelled by \\(X\\sim N(100,15^2)\\). State the mean and standard deviation, and interpret them in context.",
+      "answer": "The mean is \\(100\\), so measurements are centred at \\(100\\). The standard deviation is \\(15\\), so a typical measurement differs from the mean by about \\(15\\) units.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-02",
+      "prompt": "For a normal density curve, explain why \\(P(X=70)=0\\) but \\(P(65<X<75)\\) can be positive.",
+      "answer": "A continuous normal variable assigns probability to intervals, not individual points. A single point has zero area under the density curve, so \\(P(X=70)=0\\). The interval \\((65,75)\\) has positive width and therefore positive area.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-03",
+      "prompt": "A normally distributed score has mean \\(50\\) and standard deviation \\(5\\). Approximately what proportion of scores lie between \\(45\\) and \\(55\\)?",
+      "answer": "The interval \\(45\\) to \\(55\\) is \\(\\mu\\pm\\sigma\\). For a normal distribution, about \\(68\\%\\) of observations lie within one standard deviation of the mean, so the proportion is approximately \\(0.68\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-04",
+      "prompt": "A normally distributed lifetime has mean \\(200\\) hours and standard deviation \\(20\\) hours. Approximately what proportion of lifetimes lie between \\(160\\) and \\(240\\) hours?",
+      "answer": "The endpoints are \\(200\\pm2(20)\\), so this is the interval within two standard deviations of the mean. By the empirical rule, the probability is approximately \\(0.95\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-05",
+      "prompt": "For \\(X\\sim N(30,4^2)\\), identify which is larger: \\(P(26<X<30)\\) or \\(P(30<X<34)\\).",
+      "answer": "The normal density is symmetric about its mean \\(30\\). The intervals \\((26,30)\\) and \\((30,34)\\) are mirror images of equal width, so the probabilities are equal.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-06",
+      "prompt": "A normal model has mean \\(10\\) and standard deviation \\(2\\). Approximately what proportion of observations are above \\(14\\)?",
+      "answer": "The value \\(14\\) is \\(2\\) standard deviations above the mean. About \\(95\\%\\) lie within \\(\\mu\\pm2\\sigma\\), leaving \\(5\\%\\) outside, split equally between two tails. Thus the upper-tail probability is about \\(0.025\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-07",
+      "prompt": "A reading follows \\(N(80,10^2)\\). Without standardising numerically, decide whether \\(P(X<70)\\) equals \\(P(X>90)\\).",
+      "answer": "The points \\(70\\) and \\(90\\) are equally far from the mean \\(80\\). By symmetry of the normal curve, the left tail below \\(70\\) equals the right tail above \\(90\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-08",
+      "prompt": "A normal curve is centred at \\(0\\). What is \\(P(X>0)\\)?",
+      "answer": "A normal density is symmetric about its mean. Since \\(0\\) is the centre, half the area is to the right, so \\[P(X>0)=0.5.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-09",
+      "prompt": "A factory uses \\(X\\sim N(500,20^2)\\) for fill mass. Interpret \\(P(480<X<520)\\) as an area under the density curve.",
+      "answer": "The probability is the area under the normal density between raw masses \\(480\\) and \\(520\\). This interval is \\(500\\pm20\\), so it covers about one standard deviation on either side of the mean and has area about \\(0.68\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-10",
+      "prompt": "A model \\(X\\sim N(12,3^2)\\) is used for daily demand. Which probability is represented by the area to the left of \\(9\\)?",
+      "answer": "Area to the left of \\(9\\) represents the event that demand is below \\(9\\). The probability statement is \\(P(X<9)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-11",
+      "prompt": "A normal distribution has mean \\(60\\) and standard deviation \\(8\\). Estimate the central interval containing about \\(95\\%\\) of observations.",
+      "answer": "About \\(95\\%\\) of a normal distribution lies within two standard deviations of the mean. The interval is \\[60\\pm2(8)=60\\pm16,\\] so it is approximately \\([44,76]\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-12",
+      "prompt": "A normal distribution has mean \\(5\\) and standard deviation \\(1\\). Estimate the probability that an observation lies outside \\([3,7]\\).",
+      "answer": "The interval \\([3,7]\\) is \\(5\\pm2(1)\\), which contains about \\(95\\%\\) of observations. Therefore the outside probability is about \\(1-0.95=0.05\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-13",
+      "prompt": "A normal measurement model has \\(P(X<40)=0.5\\). What does this say about the mean?",
+      "answer": "For a normal distribution, the mean, median, and centre of symmetry coincide. If half the area is below \\(40\\), then \\(40\\) is the centre, so the mean is \\(40\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-14",
+      "prompt": "A normal density curve has standard deviation \\(6\\). Two values are \\(18\\) units apart. How many standard deviations apart are they?",
+      "answer": "Divide the raw distance by the standard deviation: \\[18/6=3.\\] The two values are \\(3\\) standard deviations apart.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-15",
+      "prompt": "A variable is modelled as \\(N(100,10^2)\\). Use the empirical rule to estimate \\(P(70<X<130)\\).",
+      "answer": "The endpoints are \\(100\\pm3(10)\\), so the interval is within three standard deviations of the mean. The empirical rule gives approximately \\(0.997\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-16",
+      "prompt": "A normal model for errors has mean \\(0\\). Compare \\(P(-2<X<0)\\) and \\(P(0<X<2)\\).",
+      "answer": "The normal curve is symmetric about \\(0\\). These intervals are mirror images with equal width, so \\[P(-2<X<0)=P(0<X<2).\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-17",
+      "prompt": "A normally distributed variable has mean \\(30\\) and standard deviation \\(5\\). Estimate the probability of being less than \\(20\\) using the empirical rule.",
+      "answer": "The value \\(20\\) is \\(2\\) standard deviations below the mean. About \\(2.5\\%\\) of observations lie below \\(\\mu-2\\sigma\\), so the probability is approximately \\(0.025\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-18",
+      "prompt": "A normal quality-control variable has mean \\(100\\) and standard deviation \\(4\\). Specification limits are \\(92\\) and \\(108\\). Estimate the proportion inside the limits.",
+      "answer": "The limits are \\(100\\pm2(4)\\), so they are two standard deviations from the mean. By the empirical rule, about \\(95\\%\\), or \\(0.95\\), are inside.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-19",
+      "prompt": "A normal random variable has mean \\(0\\). Explain why \\(P(X<-1)+P(X>1)=1-P(-1<X<1)\\).",
+      "answer": "The three events \\(X<-1\\), \\(-1<X<1\\), and \\(X>1\\) split the continuous sample space apart from endpoints of probability zero. Their probabilities add to \\(1\\), so the two tails sum to the complement of the central interval.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-distribution-20",
+      "prompt": "A normal model gives \\(P(90<X<110)\\approx0.68\\) and has mean \\(100\\). Estimate the standard deviation.",
+      "answer": "For a normal distribution, about \\(68\\%\\) lies within one standard deviation of the mean. The interval \\((90,110)\\) is \\(100\\pm10\\), so the standard deviation is approximately \\(10\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

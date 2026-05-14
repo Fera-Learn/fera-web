@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "counting-principles",
+  "topicTitle": "Counting Principles",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-counting-principles-01",
+      "prompt": "A cafe offers \\(3\\) mains and \\(4\\) drinks. How many meal-and-drink choices are possible?",
+      "answer": "Use the multiplication principle: each main can be paired with each drink, giving \\(3\\times4=12\\) choices.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-02",
+      "prompt": "A code has one letter followed by one digit. How many codes are possible using \\(26\\) letters and \\(10\\) digits?",
+      "answer": "There are \\(26\\) choices for the letter and \\(10\\) for the digit, so \\(26\\times10=260\\) codes are possible.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-03",
+      "prompt": "How many ways can \\(5\\) students be arranged in a line?",
+      "answer": "There are \\(5\\) choices for the first position, then \\(4\\), then \\(3\\), \\(2\\), and \\(1\\). Thus the number is \\(5!=120\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-04",
+      "prompt": "From \\(8\\) runners, how many ordered gold-silver-bronze results are possible?",
+      "answer": "Order matters. There are \\(8\\) choices for gold, \\(7\\) for silver, and \\(6\\) for bronze, giving \\(8\\times7\\times6=336\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-05",
+      "prompt": "How many \\(3\\)-person committees can be chosen from \\(10\\) people?",
+      "answer": "Order does not matter, so use combinations: \\[\\binom{10}{3}=\\frac{10\\times9\\times8}{3\\times2\\times1}=120.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-06",
+      "prompt": "A password has \\(2\\) different letters followed by \\(2\\) digits, where digits may repeat. How many passwords are possible?",
+      "answer": "The letters have \\(26\\times25\\) choices because they are different. The digits have \\(10\\times10\\) choices. Total: \\(26\\times25\\times10^2=65000\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-07",
+      "prompt": "How many subsets of size \\(4\\) can be chosen from a set of \\(12\\) objects?",
+      "answer": "A subset is unordered, so \\[\\binom{12}{4}=495.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-08",
+      "prompt": "How many distinct arrangements are there of the letters in LEVEL?",
+      "answer": "There are \\(5\\) letters with two Ls and two Es repeated. The count is \\[\\frac{5!}{2!2!}=30.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-09",
+      "prompt": "A route from A to C goes through B. There are \\(4\\) routes from A to B and \\(6\\) routes from B to C. How many A-to-C routes are possible?",
+      "answer": "Choose one route for each leg. By the multiplication principle, the total is \\(4\\times6=24\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-10",
+      "prompt": "A quiz has \\(6\\) true-false questions. How many answer strings are possible?",
+      "answer": "Each question has \\(2\\) possible answers, so the total is \\(2^6=64\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-11",
+      "prompt": "How many ways can \\(4\\) books be selected from \\(9\\) and then arranged on a shelf?",
+      "answer": "This is an ordered selection of \\(4\\) from \\(9\\): \\[{}^9P_4=9\\times8\\times7\\times6=3024.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-12",
+      "prompt": "A hand of \\(5\\) cards is drawn from a \\(52\\)-card deck. How many possible hands are there?",
+      "answer": "A hand is unordered, so the number is \\[\\binom{52}{5}=2598960.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-13",
+      "prompt": "How many \\(4\\)-digit numbers can be formed from digits \\(0\\) to \\(9\\) if repetition is allowed and the first digit cannot be \\(0\\)?",
+      "answer": "The first digit has \\(9\\) choices. Each remaining digit has \\(10\\) choices. Hence \\(9\\times10^3=9000\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-14",
+      "prompt": "How many \\(4\\)-digit numbers can be formed from digits \\(0\\) to \\(9\\) if no digit repeats and the first digit cannot be \\(0\\)?",
+      "answer": "Choose the first digit in \\(9\\) ways, then the remaining digits in \\(9\\), \\(8\\), and \\(7\\) ways. Total: \\(9\\times9\\times8\\times7=4536\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-15",
+      "prompt": "A team needs \\(2\\) physicists from \\(5\\) and \\(3\\) mathematicians from \\(7\\). How many teams are possible?",
+      "answer": "Choose independently from each group: \\[\\binom{5}{2}\\binom{7}{3}=10\\times35=350.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-16",
+      "prompt": "How many ways can \\(8\\) people be seated around a circular table, counting rotations as the same?",
+      "answer": "For circular arrangements, fix one person and arrange the other \\(7\\). This gives \\((8-1)!=7!=5040\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-17",
+      "prompt": "A box contains \\(6\\) red and \\(5\\) blue balls. How many unordered selections of \\(4\\) balls contain exactly \\(2\\) red and \\(2\\) blue?",
+      "answer": "Choose \\(2\\) of the \\(6\\) red and \\(2\\) of the \\(5\\) blue: \\[\\binom{6}{2}\\binom{5}{2}=15\\times10=150.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-18",
+      "prompt": "How many paths from \\((0,0)\\) to \\((4,3)\\) use only right and up steps?",
+      "answer": "Every path has \\(4\\) right steps and \\(3\\) up steps, \\(7\\) steps total. Choose positions for the \\(3\\) up steps: \\[\\binom{7}{3}=35.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-19",
+      "prompt": "A licence plate has \\(3\\) letters followed by \\(3\\) digits. Letters may repeat, but the digits must be all different. How many plates are possible?",
+      "answer": "The letters give \\(26^3\\) possibilities. The digits give \\(10\\times9\\times8\\). Total: \\[26^3\\times10\\times9\\times8=12654720.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-counting-principles-20",
+      "prompt": "A committee of \\(5\\) is chosen from \\(6\\) engineers and \\(5\\) physicists. How many committees contain at least \\(3\\) engineers?",
+      "answer": "Split into cases: \\(3\\), \\(4\\), or \\(5\\) engineers. The count is \\[\\binom{6}{3}\\binom{5}{2}+\\binom{6}{4}\\binom{5}{1}+\\binom{6}{5}\\binom{5}{0}=20\\cdot10+15\\cdot5+6=281.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

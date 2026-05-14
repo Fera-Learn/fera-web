@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "directional-derivatives",
+  "topicTitle": "Directional Derivatives",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-01",
+      "prompt": "What is the main purpose of Directional Derivatives?",
+      "answer": "A directional derivative measures the rate of change of a scalar field as you move from a point in a chosen direction. It combines the field gradient with a unit direction vector.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-02",
+      "prompt": "What does \\(D_{\\mathbf u}f\\) mean in Directional Derivatives?",
+      "answer": "In Directional Derivatives, \\(D_{\\mathbf u}f\\) means directional derivative of f in the unit direction u.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-03",
+      "prompt": "Identify another important piece of notation used in Directional Derivatives.",
+      "answer": "In Directional Derivatives, \\(\\nabla f\\) means gradient vector of f.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-04",
+      "prompt": "Before doing a directional derivatives calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Normalise the direction first, then dot it with the gradient at the point. The dot product selects the component of the gradient in the chosen direction.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-05",
+      "prompt": "State a central formula or test for Directional Derivatives.",
+      "answer": "The directional derivative is\n\\[D_{\\mathbf u}f=\\nabla f\\cdot\\mathbf u,\\qquad \\mathbf u=\\frac{\\mathbf v}{\\lVert \\mathbf v\\rVert}\\]\nUse it only after the symbols in the formula have been identified for the specific directional derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-06",
+      "prompt": "How is the formula or method in Directional Derivatives interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The directional derivative is\n\\[D_{\\mathbf u}f=\\nabla f\\cdot\\mathbf u,\\qquad \\mathbf u=\\frac{\\mathbf v}{\\lVert \\mathbf v\\rVert}\\]\nUse it only after the symbols in the formula have been identified for the specific directional derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-07",
+      "prompt": "At a point, grad T=(4,-2). Find the rate of temperature change in direction v=(3,4).",
+      "answer": "First normalise v: its length is 5, so u=(3/5,4/5). Then D_u T=(4,-2) dot (3/5,4/5)=12/5-8/5=4/5. Temperature increases at 0.8 K per m in that direction.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-08",
+      "prompt": "If grad V=(6,0), what is the directional derivative in direction u=(0,1)?",
+      "answer": "Compute the dot product: D_u V=(6,0) dot (0,1)=0. Moving in that direction gives no first-order change in V at the point.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-09",
+      "prompt": "What method choice is usually needed in a standard directional derivatives question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Normalise the direction first, then dot it with the gradient at the point. The dot product selects the component of the gradient in the chosen direction.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-10",
+      "prompt": "Use the notation of Directional Derivatives to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(D_{\\mathbf u}f\\), meaning directional derivative of f in the unit direction u; \\(\\nabla f\\), meaning gradient vector of f; \\(\\mathbf u\\), meaning unit vector giving the direction of motion.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-11",
+      "prompt": "Which direction gives the largest directional derivative?",
+      "answer": "The largest value occurs when u points in the same direction as grad f. Then D_u f equals the magnitude of grad f.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-12",
+      "prompt": "What physical or modelling interpretation can Directional Derivatives have?",
+      "answer": "In a physics model, the idea of directional derivatives helps translate a mathematical expression into a statement about the system. A directional derivative measures the rate of change of a scalar field as you move from a point in a chosen direction. It combines the field gradient with a unit direction vector.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-13",
+      "prompt": "Correct this mistake in Directional Derivatives: using a non-unit direction vector.",
+      "answer": "divide the vector by its length before applying the formula.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-14",
+      "prompt": "Why is it important to check assumptions when using Directional Derivatives?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Directional derivatives are gradient components in chosen unit directions: D_u f=grad f dot u. Normalise, evaluate, then dot.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-15",
+      "prompt": "Correct this second mistake in Directional Derivatives: computing the gradient at the wrong point.",
+      "answer": "evaluate all partial derivatives at the specified point first.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Directional Derivatives?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Directional derivatives are gradient components in chosen unit directions: D_u f=grad f dot u. Normalise, evaluate, then dot.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-17",
+      "prompt": "Correct this third mistake in Directional Derivatives: treating a zero directional derivative as a global constant.",
+      "answer": "it only gives local first-order behaviour in that direction.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-18",
+      "prompt": "Design an exam solution plan for a multi-step directional derivatives problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Normalise the direction first, then dot it with the gradient at the point. The dot product selects the component of the gradient in the chosen direction. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-19",
+      "prompt": "How could an incorrect setup affect a directional derivatives result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, using a non-unit direction vector must be avoided: divide the vector by its length before applying the formula.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-directional-derivatives-20",
+      "prompt": "Give an exam-ready summary rule for Directional Derivatives.",
+      "answer": "Directional derivatives are gradient components in chosen unit directions: D_u f=grad f dot u. Normalise, evaluate, then dot. If a formula is needed, use \\[D_{\\mathbf u}f=\\nabla f\\cdot\\mathbf u,\\qquad \\mathbf u=\\frac{\\mathbf v}{\\lVert \\mathbf v\\rVert}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "expectation",
+  "topicTitle": "Expectation",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-expectation-01",
+      "prompt": "A discrete random variable \\(X\\) takes values \\(0,1,2\\) with probabilities \\(0.2,0.5,0.3\\). Find \\(E(X)\\).",
+      "answer": "Use \\(E(X)=\\sum xp(x)\\): \\[E(X)=0(0.2)+1(0.5)+2(0.3)=1.1.\\] The long-run average value of \\(X\\) is \\(1.1\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-02",
+      "prompt": "A fair die is rolled once. Let \\(X\\) be the score. Find \\(E(X)\\).",
+      "answer": "Each face has probability \\(1/6\\), so \\[E(X)=\\frac{1+2+3+4+5+6}{6}=\\frac{21}{6}=3.5.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-03",
+      "prompt": "A game pays \\(£10\\) for heads and loses \\(£4\\) for tails on a fair coin toss. Find the expected gain.",
+      "answer": "Let gain be positive and loss be negative. Then \\[E(G)=10(0.5)+(-4)(0.5)=3.\\] The expected gain is \\(£3\\), so the game is favourable to the player.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-04",
+      "prompt": "A ticket wins \\(£50\\) with probability \\(0.02\\) and otherwise wins nothing. What is the fair price of the ticket?",
+      "answer": "The expected payout is \\[50(0.02)+0(0.98)=1.\\] A fair price is therefore \\(£1\\), because this makes expected gain zero.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-05",
+      "prompt": "A measurement device reads \\(0.3\\) units too high on average. If \\(Y\\) is the reading and \\(T\\) is the true value, what is \\(E(Y-T)\\)?",
+      "answer": "The bias is the expected error \\(E(Y-T)\\). Reading \\(0.3\\) units too high on average means \\[E(Y-T)=0.3.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-06",
+      "prompt": "Let \\(I\\) be an indicator for a component failing, where \\(P(I=1)=0.04\\). Find \\(E(I)\\).",
+      "answer": "An indicator has values \\(1\\) for success of the event and \\(0\\) otherwise. Hence \\[E(I)=1(0.04)+0(0.96)=0.04.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-07",
+      "prompt": "In \\(200\\) independent trials, each has success probability \\(0.03\\). Find the expected number of successes.",
+      "answer": "Let \\(X\\sim\\operatorname{Bin}(200,0.03)\\). For a binomial variable, \\(E(X)=np\\), so \\[E(X)=200(0.03)=6.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-08",
+      "prompt": "A shop sells \\(120\\) items. Each item is returned with probability \\(0.08\\). Find the expected number of returns.",
+      "answer": "Use indicator variables, one for each item. The expected total is the sum of expectations: \\[E(R)=120(0.08)=9.6.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-09",
+      "prompt": "A random variable has \\(E(X)=4\\). Find \\(E(3X-2)\\).",
+      "answer": "Expectation is linear: \\[E(3X-2)=3E(X)-2=3(4)-2=10.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-10",
+      "prompt": "Random variables \\(X\\) and \\(Y\\) have \\(E(X)=5\\) and \\(E(Y)=7\\). Find \\(E(2X+Y)\\).",
+      "answer": "Linearity of expectation does not require independence. Thus \\[E(2X+Y)=2E(X)+E(Y)=2(5)+7=17.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-11",
+      "prompt": "A draw from a box gives \\(X=2\\) with probability \\(0.4\\), \\(X=5\\) with probability \\(0.4\\), and \\(X=10\\) with probability \\(0.2\\). Find \\(E(X)\\).",
+      "answer": "Compute the weighted average: \\[E(X)=2(0.4)+5(0.4)+10(0.2)=0.8+2+2=4.8.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-12",
+      "prompt": "An insurance policy pays \\(£1000\\) with probability \\(0.01\\). Ignoring costs, find the expected payout per policy.",
+      "answer": "The payout is \\(1000\\) with probability \\(0.01\\) and \\(0\\) otherwise. Therefore \\[E=1000(0.01)+0(0.99)=10.\\] The expected payout is \\(£10\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-13",
+      "prompt": "A policy has expected payout \\(£10\\) and is sold for \\(£14\\). Find the insurer's expected profit per policy.",
+      "answer": "Profit equals premium minus payout. By linearity, \\[E(\\text{profit})=14-10=4.\\] The insurer expects \\(£4\\) profit per policy.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-14",
+      "prompt": "A biased coin lands heads with probability \\(0.7\\). You receive \\(£3\\) for heads and lose \\(£5\\) for tails. Find and interpret the expected gain.",
+      "answer": "The expected gain is \\[E(G)=3(0.7)+(-5)(0.3)=2.1-1.5=0.6.\\] Since it is positive, the game is favourable to the player by \\(£0.60\\) per play on average.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-15",
+      "prompt": "A random variable has probability mass function \\(P(X=x)=kx\\) for \\(x=1,2,3\\). Find \\(k\\) and \\(E(X)\\).",
+      "answer": "First normalise: \\(k(1+2+3)=1\\), so \\(k=1/6\\). Then \\[E(X)=1\\cdot\\frac16+2\\cdot\\frac26+3\\cdot\\frac36=\\frac{14}{6}=\\frac{7}{3}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-16",
+      "prompt": "A laboratory reading has true value \\(\\theta\\). An estimator \\(T\\) has \\(E(T)=\\theta-0.2\\). State the bias and interpret it.",
+      "answer": "The bias is \\(E(T)-\\theta\\). Here \\[\\operatorname{bias}(T)=\\theta-0.2-\\theta=-0.2.\\] The estimator is low by \\(0.2\\) units on average.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-17",
+      "prompt": "A multiple-choice test has \\(20\\) questions, each guessed randomly from \\(4\\) options. Find the expected number correct.",
+      "answer": "Each question has probability \\(1/4\\) of being correct. If \\(X\\) is the number correct, \\[E(X)=20\\cdot\\frac14=5.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-18",
+      "prompt": "A machine produces daily defects with \\(E(X)=3.2\\). A repair rule costs \\(£15\\) per defect plus a fixed \\(£40\\) call-out charge. Find the expected repair cost.",
+      "answer": "Cost is \\(C=15X+40\\). By linearity, \\[E(C)=15E(X)+40=15(3.2)+40=88.\\] The expected repair cost is \\(£88\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-19",
+      "prompt": "A game costs \\(£2\\) to play. It pays \\(£12\\) with probability \\(0.1\\), \\(£3\\) with probability \\(0.4\\), and nothing otherwise. Find the expected net gain.",
+      "answer": "Expected payout is \\(12(0.1)+3(0.4)+0(0.5)=2.4\\). Net gain subtracts the cost: \\[E(G)=2.4-2=0.4.\\] The game is favourable by \\(£0.40\\) per play on average.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-expectation-20",
+      "prompt": "A project has profit \\(£500\\) with probability \\(0.3\\), profit \\(£100\\) with probability \\(0.5\\), and loss \\(£200\\) with probability \\(0.2\\). Find the expected profit and interpret it.",
+      "answer": "Treat the loss as \\(-200\\). Then \\[E=500(0.3)+100(0.5)+(-200)(0.2)=150+50-40=160.\\] The expected profit is \\(£160\\), meaning the long-run average profit per similar project would be \\(£160\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

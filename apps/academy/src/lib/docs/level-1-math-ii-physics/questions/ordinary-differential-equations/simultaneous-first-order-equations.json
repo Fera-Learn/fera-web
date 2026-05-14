@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "simultaneous-first-order-equations",
+  "topicTitle": "Simultaneous First-Order Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-01",
+      "prompt": "What is the main purpose of Simultaneous First-Order Equations?",
+      "answer": "Simultaneous first-order ODEs describe several dependent variables changing together. They are used for coupled populations, two connected tanks, electrical networks, and rewriting second-order motion as a first-order system.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-02",
+      "prompt": "What does \\(t\\) mean in Simultaneous First-Order Equations?",
+      "answer": "In Simultaneous First-Order Equations, \\(t\\) means independent time variable. Its unit is s.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-03",
+      "prompt": "Identify another important piece of notation used in Simultaneous First-Order Equations.",
+      "answer": "In Simultaneous First-Order Equations, \\(x(t),v(t)\\) means coupled dependent variables.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-04",
+      "prompt": "Before doing a simultaneous first-order equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Collect variables into a state vector and write one first-order equation for the vector.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-05",
+      "prompt": "State a central formula or test for Simultaneous First-Order Equations.",
+      "answer": "The linear system form is\n\\[\\mathbf u'=A\\mathbf u\\]\nUse it only after the symbols in the formula have been identified for the specific simultaneous first-order equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-06",
+      "prompt": "How is the formula or method in Simultaneous First-Order Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The oscillator state is\n\\[x'=v,\\quad v'=-\\omega^2x\\]\nUse it only after the symbols in the formula have been identified for the specific simultaneous first-order equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-07",
+      "prompt": "Rewrite x double prime plus omega squared x equals zero as simultaneous first-order equations.",
+      "answer": "Define v=x prime. Then the first equation is \\[x'=v\\] Differentiate v=x prime to get v prime equals x double prime. The original ODE gives x double prime equals negative omega squared x, so \\[v'=-\\omega^2x\\] Together these two first-order equations represent the oscillator.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-08",
+      "prompt": "For u prime equals 2u plus v and v prime equals u minus v, write the matrix form.",
+      "answer": "Put the dependent variables in the vector \\[\\mathbf u=\\begin{pmatrix}u\\v\\end{pmatrix}\\] The coefficient matrix reads from the equations: \\[\\mathbf u'=\\begin{pmatrix}2&1\\1&-1\\end{pmatrix}\\mathbf u\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-09",
+      "prompt": "What method choice is usually needed in a standard simultaneous first-order equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Collect variables into a state vector and write one first-order equation for the vector.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-10",
+      "prompt": "Use the notation of Simultaneous First-Order Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(t\\), meaning independent time variable; \\(x(t),v(t)\\), meaning coupled dependent variables; \\(\\mathbf u\\), meaning column vector of dependent variables.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-11",
+      "prompt": "Explain a common worked step in Simultaneous First-Order Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Simultaneous First-Order Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-12",
+      "prompt": "What physical or modelling interpretation can Simultaneous First-Order Equations have?",
+      "answer": "In a physics model, the idea of simultaneous first-order equations helps translate a mathematical expression into a statement about the system. Simultaneous first-order ODEs describe several dependent variables changing together. They are used for coupled populations, two connected tanks, electrical networks, and rewriting second-order motion as a first-order system.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-13",
+      "prompt": "Correct this mistake in Simultaneous First-Order Equations: Treating coupled variables one at a time when each derivative depends on the other variable.",
+      "answer": "solve or analyse the system together.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-14",
+      "prompt": "Why is it important to check assumptions when using Simultaneous First-Order Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Coupled first-order equations track a state vector; even a single second-order oscillator can be rewritten as a two-variable first-order system.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-15",
+      "prompt": "Correct this second mistake in Simultaneous First-Order Equations: Losing the definition of the state variables.",
+      "answer": "state each component of the vector before writing matrix form.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Simultaneous First-Order Equations?",
+      "answer": "Track the units in the notation: \\(t\\) has unit s.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-17",
+      "prompt": "Correct this third mistake in Simultaneous First-Order Equations: Losing the definition of the state variables.",
+      "answer": "state each component of the vector before writing matrix form.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step simultaneous first-order equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Collect variables into a state vector and write one first-order equation for the vector. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-19",
+      "prompt": "How could an incorrect setup affect a simultaneous first-order equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating coupled variables one at a time when each derivative depends on the other variable must be avoided: solve or analyse the system together.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-simultaneous-first-order-equations-20",
+      "prompt": "Give an exam-ready summary rule for Simultaneous First-Order Equations.",
+      "answer": "Coupled first-order equations track a state vector; even a single second-order oscillator can be rewritten as a two-variable first-order system. If a formula is needed, use \\[\\mathbf u'=A\\mathbf u\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

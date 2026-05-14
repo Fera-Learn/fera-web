@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "boundary-conditions",
+  "topicTitle": "Boundary Conditions",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-01",
+      "prompt": "What is the main purpose of Boundary Conditions?",
+      "answer": "Boundary conditions give values at the edges of an interval rather than at one starting input. They are common for strings, rods, beams, standing waves, and steady-state fields.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-02",
+      "prompt": "What does \\(x\\) mean in Boundary Conditions?",
+      "answer": "In Boundary Conditions, \\(x\\) means position along the interval. Its unit is m.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-03",
+      "prompt": "Identify another important piece of notation used in Boundary Conditions.",
+      "answer": "In Boundary Conditions, \\(0,L\\) means left and right boundaries. Its unit is m.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-04",
+      "prompt": "Before doing a boundary conditions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Solve with arbitrary constants, then apply each boundary value at its own input. Boundary conditions can involve the function, its slope, or a combination, depending on what is fixed physically.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-05",
+      "prompt": "State a central formula or test for Boundary Conditions.",
+      "answer": "The endpoint values is\n\\[y(0)=A,\\quad y(L)=B\\]\nUse it only after the symbols in the formula have been identified for the specific boundary conditions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-06",
+      "prompt": "How is the formula or method in Boundary Conditions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The endpoint values is\n\\[y(0)=A,\\quad y(L)=B\\]\nUse it only after the symbols in the formula have been identified for the specific boundary conditions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-07",
+      "prompt": "A string mode y(x)=C sin kx plus D cos kx has y(0)=0 and y(L)=0. What restrictions follow?",
+      "answer": "Apply y(0)=0: \\[y(0)=C\\sin0+D\\cos0=D=0\\] Then y(L)=0 gives \\[C\\sin kL=0\\] For a nonzero mode C is not zero, so \\[\\sin kL=0\\] Therefore \\[kL=n\\pi\\] and the allowed modes are set by the boundaries.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-08",
+      "prompt": "A steady rod has T(x)=C_1x+C_2 with T(0)=T_a and T(L)=T_b. Find C_1 and C_2.",
+      "answer": "Apply the left boundary: \\[T(0)=C_2=T_a\\] Apply the right boundary: \\[T(L)=C_1L+T_a=T_b\\] so \\[C_1=\\frac{T_b-T_a}{L}\\] The temperature profile is \\[T(x)=T_a+\\frac{T_b-T_a}{L}x\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-09",
+      "prompt": "What method choice is usually needed in a standard boundary conditions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Solve with arbitrary constants, then apply each boundary value at its own input. Boundary conditions can involve the function, its slope, or a combination, depending on what is fixed physically.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-10",
+      "prompt": "Use the notation of Boundary Conditions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning position along the interval; \\(0,L\\), meaning left and right boundaries; \\(y(0),y(L)\\), meaning boundary values of the dependent variable.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-11",
+      "prompt": "Explain a common worked step in Boundary Conditions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Boundary Conditions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-12",
+      "prompt": "What physical or modelling interpretation can Boundary Conditions have?",
+      "answer": "In a physics model, the idea of boundary conditions helps translate a mathematical expression into a statement about the system. Boundary conditions give values at the edges of an interval rather than at one starting input. They are common for strings, rods, beams, standing waves, and steady-state fields.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-13",
+      "prompt": "Correct this mistake in Boundary Conditions: Treating boundary conditions like initial conditions.",
+      "answer": "boundary values may be placed at different inputs.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-14",
+      "prompt": "Why is it important to check assumptions when using Boundary Conditions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Boundary conditions fix a solution by values or slopes at edges; in wave problems they determine the allowed modes.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-15",
+      "prompt": "Correct this second mistake in Boundary Conditions: Dropping the nonzero-mode condition.",
+      "answer": "for waves, zero amplitude is mathematically valid but physically uninteresting when finding modes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Boundary Conditions?",
+      "answer": "Track the units in the notation: \\(x\\) has unit m; \\(0,L\\) has unit m.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-17",
+      "prompt": "Correct this third mistake in Boundary Conditions: Dropping the nonzero-mode condition.",
+      "answer": "for waves, zero amplitude is mathematically valid but physically uninteresting when finding modes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-18",
+      "prompt": "Design an exam solution plan for a multi-step boundary conditions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Solve with arbitrary constants, then apply each boundary value at its own input. Boundary conditions can involve the function, its slope, or a combination, depending on what is fixed physically. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-19",
+      "prompt": "How could an incorrect setup affect a boundary conditions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating boundary conditions like initial conditions must be avoided: boundary values may be placed at different inputs.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-boundary-conditions-20",
+      "prompt": "Give an exam-ready summary rule for Boundary Conditions.",
+      "answer": "Boundary conditions fix a solution by values or slopes at edges; in wave problems they determine the allowed modes. If a formula is needed, use \\[y(0)=A,\\quad y(L)=B\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

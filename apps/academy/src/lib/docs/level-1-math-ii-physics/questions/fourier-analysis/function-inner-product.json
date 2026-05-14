@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "function-inner-product",
+  "topicTitle": "Function Inner Product",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-01",
+      "prompt": "What is the main purpose of Function Inner Product?",
+      "answer": "A function inner product multiplies two functions and integrates the result over an interval. It measures alignment between functions, just as a dot product measures alignment between vectors.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-02",
+      "prompt": "What does \\(f(x),g(x)\\) mean in Function Inner Product?",
+      "answer": "In Function Inner Product, \\(f(x),g(x)\\) means functions on the same interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-03",
+      "prompt": "Identify another important piece of notation used in Function Inner Product.",
+      "answer": "In Function Inner Product, \\(a,b\\) means interval endpoints.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-04",
+      "prompt": "Before doing a function inner product calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For real functions with no extra weight, multiply and integrate over the interval. Orthogonal functions have inner product zero.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-05",
+      "prompt": "State a central formula or test for Function Inner Product.",
+      "answer": "The function inner product is\n\\[\\langle f,g\\rangle=\\int_a^b f(x)g(x)\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific function inner product problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-06",
+      "prompt": "How is the formula or method in Function Inner Product interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The orthogonality is\n\\[\\langle f,g\\rangle=0\\]\nUse it only after the symbols in the formula have been identified for the specific function inner product problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-07",
+      "prompt": "Compute the inner product of sin x and cos x over negative pi to pi.",
+      "answer": "Use the definition: \\[\\langle\\sin x,\\cos x\\rangle=\\int_{-\\pi}^{\\pi}\\sin x\\cos x\\,dx\\] Since sin x cos x is an odd function, equal positive and negative areas cancel. Therefore \\[\\langle\\sin x,\\cos x\\rangle=0\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-08",
+      "prompt": "What does a large positive inner product between two signals mean?",
+      "answer": "It means the signals tend to have the same sign and large magnitude at the same inputs. In wave language, they are strongly aligned over the interval: \\[\\langle f,g\\rangle=\\int_a^b f(x)g(x)\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-09",
+      "prompt": "What method choice is usually needed in a standard function inner product question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For real functions with no extra weight, multiply and integrate over the interval. Orthogonal functions have inner product zero.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-10",
+      "prompt": "Use the notation of Function Inner Product to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x),g(x)\\), meaning functions on the same interval; \\(a,b\\), meaning interval endpoints; \\(\\langle f,g\\rangle\\), meaning inner product of f and g.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-11",
+      "prompt": "Explain a common worked step in Function Inner Product.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Function Inner Product.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-12",
+      "prompt": "What physical or modelling interpretation can Function Inner Product have?",
+      "answer": "In a physics model, the idea of function inner product helps translate a mathematical expression into a statement about the system. A function inner product multiplies two functions and integrates the result over an interval. It measures alignment between functions, just as a dot product measures alignment between vectors.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-13",
+      "prompt": "Correct this mistake in Function Inner Product: Multiplying values at one point only.",
+      "answer": "an inner product combines the whole interval through integration.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-14",
+      "prompt": "Why is it important to check assumptions when using Function Inner Product?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The function inner product is an integral version of a dot product and is the foundation of Fourier coefficients.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-15",
+      "prompt": "Correct this second mistake in Function Inner Product: Forgetting the interval.",
+      "answer": "the same two functions can have different inner products on different intervals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Function Inner Product?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The function inner product is an integral version of a dot product and is the foundation of Fourier coefficients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-17",
+      "prompt": "Correct this third mistake in Function Inner Product: Forgetting the interval.",
+      "answer": "the same two functions can have different inner products on different intervals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-18",
+      "prompt": "Design an exam solution plan for a multi-step function inner product problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For real functions with no extra weight, multiply and integrate over the interval. Orthogonal functions have inner product zero. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-19",
+      "prompt": "How could an incorrect setup affect a function inner product result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Multiplying values at one point only must be avoided: an inner product combines the whole interval through integration.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-inner-product-20",
+      "prompt": "Give an exam-ready summary rule for Function Inner Product.",
+      "answer": "The function inner product is an integral version of a dot product and is the foundation of Fourier coefficients. If a formula is needed, use \\[\\langle f,g\\rangle=\\int_a^b f(x)g(x)\\,dx\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

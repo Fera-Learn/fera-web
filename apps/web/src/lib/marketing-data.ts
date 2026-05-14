@@ -10,6 +10,7 @@ export type MarketingCourse = {
   questionHref: string;
   shortTitle: string;
   slug: string;
+  topicCount?: number;
   topics: string[];
   title: string;
 };
@@ -40,8 +41,8 @@ export type StudentUseCase = {
 export type SampleQuestionPreview = {
   answer: string;
   course: string;
-  marks: number;
   prompt: string;
+  rating: string;
   topic: string;
 };
 
@@ -106,6 +107,8 @@ export const marketingCourses: MarketingCourse[] = [
     questionHref: academyUrl("/level-1-physics/questions"),
     shortTitle: "Physics",
     slug: "level-1-physics",
+    // Matches the generated Academy topic-page count; `topics` below are broad marketing areas.
+    topicCount: 313,
     topics: [
       "Mechanics",
       "Waves",
@@ -147,32 +150,32 @@ export const productLinks: ProductLinks = {
 
 export const studyWorkflow: StudyWorkflowStep[] = [
   {
-    body: "Start from a course sequence so each topic has context before you practise it.",
-    label: "Learn the topic",
+    body: "Start with a course sequence so each idea has prerequisites, notation, and context before problem solving begins.",
+    label: "Learn from structure",
   },
   {
-    body: "Move into course-linked questions to test whether the method is usable without notes.",
-    label: "Practise deliberately",
+    body: "Move into topic-linked questions to test whether the method works without notes and reveal where fluency is still weak.",
+    label: "Practise by topic",
   },
   {
-    body: "Use full papers once the underlying topics are familiar enough to test timing and judgement.",
-    label: "Prepare for exams",
+    body: "Use full papers once the topic foundations are familiar enough to practise timing, judgement, and mixed-topic recall.",
+    label: "Test with papers",
   },
 ];
 
 export const platformProofPoints: string[] = [
-  "Live course, question, and paper counts pulled from the learning app",
-  "Courses, questions, and exam papers are connected by subject context",
-  "Built for university-level physics and maths rather than generic revision",
+  "313 Level 1 Physics topic pages linked to the course sequence",
+  "Live question and paper counts pulled from the learning app",
+  "Topic practice and exam papers share the same course context",
 ];
 
 export const sampleQuestionPreview: SampleQuestionPreview = {
   answer:
-    "Use F = ma to find the acceleration, then apply constant-acceleration equations for speed and displacement.",
+    "Compare the hanging weight with the downslope component plus kinetic friction on the incline block. The hanging mass wins by 4.71 N, so it moves downward. The system acceleration is 0.673 m s^-2, and the string tension is 27.4 N.",
   course: "Level 1 - Physics",
-  marks: 6,
   prompt:
-    "A 2.0 kg object accelerates from rest under a constant resultant force of 5.0 N for 3.0 s. Calculate its final speed and displacement.",
+    "A 4.0 kg block on a 30 degree incline with kinetic friction is connected over a pulley to a hanging 3.0 kg mass. Decide which way the system moves, then find the acceleration and tension.",
+  rating: "****+",
   topic: "Mechanics",
 };
 
@@ -190,15 +193,15 @@ export const examPaperPreview: ExamPaperPreview = {
 
 export const studentUseCases: StudentUseCase[] = [
   {
-    body: "Use the course order to identify what to study before attempting mixed questions.",
-    title: "When a module feels fragmented",
+    body: "Use the course order to turn scattered lecture material into a sequence of concepts, notation, and prerequisites.",
+    title: "When lecture notes feel fragmented",
   },
   {
-    body: "Use topic-linked questions to check whether a method is understood or only recognised.",
-    title: "When lecture notes are not enough",
+    body: "Use topic-linked questions to find whether a method is genuinely usable or only familiar from worked examples.",
+    title: "When problem-solving fluency is weak",
   },
   {
-    body: "Use full papers after topic practice to test exam timing and coverage.",
-    title: "When exams are approaching",
+    body: "Use papers after topic practice to diagnose timing, mixed-topic judgement, and exam readiness without losing the course context.",
+    title: "When exam preparation lacks diagnosis",
   },
 ];

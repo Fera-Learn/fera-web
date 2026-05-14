@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "bernoulli-equations",
+  "topicTitle": "Bernoulli Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-01",
+      "prompt": "What is the main purpose of Bernoulli Equations?",
+      "answer": "A Bernoulli equation is almost linear, except for one power of the dependent variable. Dividing by that power and substituting a new variable reduces it to a linear first-order ODE.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-02",
+      "prompt": "What does \\(x\\) mean in Bernoulli Equations?",
+      "answer": "In Bernoulli Equations, \\(x\\) means independent variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-03",
+      "prompt": "Identify another important piece of notation used in Bernoulli Equations.",
+      "answer": "In Bernoulli Equations, \\(y(x)\\) means dependent variable.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-04",
+      "prompt": "Before doing a bernoulli equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For n not equal to zero or one, divide by y to the n and set u equal to y to the power one minus n.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-05",
+      "prompt": "State a central formula or test for Bernoulli Equations.",
+      "answer": "The bernoulli form is\n\\[y'+p(x)y=q(x)y^n\\]\nUse it only after the symbols in the formula have been identified for the specific bernoulli equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-06",
+      "prompt": "How is the formula or method in Bernoulli Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The bernoulli substitution is\n\\[u=y^{1-n}\\]\nUse it only after the symbols in the formula have been identified for the specific bernoulli equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-07",
+      "prompt": "Reduce y prime plus y equals x y squared to a linear equation.",
+      "answer": "Here n=2. Divide by y squared: \\[y^{-2}y'+y^{-1}=x\\] Set u=y^{-1}. Differentiate: \\[u'=-y^{-2}y'\\] so y^{-2}y'=-u'. Substitute: \\[-u'+u=x\\] Multiply by negative one: \\[u'-u=-x\\] This is linear in u.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-08",
+      "prompt": "For y prime minus 3y equals 2xy cubed, name n and the substitution.",
+      "answer": "The nonlinear term is y cubed, so n=3. Use \\[u=y^{1-3}=y^{-2}\\] After dividing by y cubed, the equation becomes linear in u.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-09",
+      "prompt": "What method choice is usually needed in a standard bernoulli equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For n not equal to zero or one, divide by y to the n and set u equal to y to the power one minus n.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-10",
+      "prompt": "Use the notation of Bernoulli Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning independent variable; \\(y(x)\\), meaning dependent variable; \\(p(x)\\), meaning linear coefficient of y.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-11",
+      "prompt": "Explain a common worked step in Bernoulli Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Bernoulli Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-12",
+      "prompt": "What physical or modelling interpretation can Bernoulli Equations have?",
+      "answer": "In a physics model, the idea of bernoulli equations helps translate a mathematical expression into a statement about the system. A Bernoulli equation is almost linear, except for one power of the dependent variable. Dividing by that power and substituting a new variable reduces it to a linear first-order ODE.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-13",
+      "prompt": "Correct this mistake in Bernoulli Equations: Using the Bernoulli substitution when n is one.",
+      "answer": "n equals one is already linear.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-14",
+      "prompt": "Why is it important to check assumptions when using Bernoulli Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Bernoulli equations become linear after dividing by the nonlinear power and substituting u equal to y to the power one minus n.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-15",
+      "prompt": "Correct this second mistake in Bernoulli Equations: Missing the derivative factor.",
+      "answer": "if u equals y to the power one minus n, then u prime equals one minus n times y to the negative n times y prime.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Bernoulli Equations?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Bernoulli equations become linear after dividing by the nonlinear power and substituting u equal to y to the power one minus n.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-17",
+      "prompt": "Correct this third mistake in Bernoulli Equations: Missing the derivative factor.",
+      "answer": "if u equals y to the power one minus n, then u prime equals one minus n times y to the negative n times y prime.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step bernoulli equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For n not equal to zero or one, divide by y to the n and set u equal to y to the power one minus n. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-19",
+      "prompt": "How could an incorrect setup affect a bernoulli equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using the Bernoulli substitution when n is one must be avoided: n equals one is already linear.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-bernoulli-equations-20",
+      "prompt": "Give an exam-ready summary rule for Bernoulli Equations.",
+      "answer": "Bernoulli equations become linear after dividing by the nonlinear power and substituting u equal to y to the power one minus n. If a formula is needed, use \\[y'+p(x)y=q(x)y^n\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

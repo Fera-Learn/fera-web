@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "partial-differential-equations",
+  "topicId": "linear-pdes",
+  "topicTitle": "Linear PDEs",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-01",
+      "prompt": "What is the main purpose of Linear PDEs?",
+      "answer": "A PDE is linear when the unknown field and its derivatives appear only to the first power and are not multiplied together. Linearity is powerful because it allows superposition for homogeneous equations.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-02",
+      "prompt": "What does \\(L\\) mean in Linear PDEs?",
+      "answer": "In Linear PDEs, \\(L\\) means linear differential operator applied to a field.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-03",
+      "prompt": "Identify another important piece of notation used in Linear PDEs.",
+      "answer": "In Linear PDEs, \\(u,v\\) means candidate field solutions.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-04",
+      "prompt": "Before doing a linear pdes calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: An operator is linear if it respects addition and constant multiplication. For a homogeneous linear PDE L[u]=0, if u and v are solutions, then au+bv is also a solution.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-05",
+      "prompt": "State a central formula or test for Linear PDEs.",
+      "answer": "The linearity test is\n\\[L[au+bv]=aL[u]+bL[v]\\]\nUse it only after the symbols in the formula have been identified for the specific linear pdes problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-06",
+      "prompt": "How is the formula or method in Linear PDEs interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The linearity test is\n\\[L[au+bv]=aL[u]+bL[v]\\]\nUse it only after the symbols in the formula have been identified for the specific linear pdes problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-07",
+      "prompt": "Show that L[u]=u_t-kappa u_{xx} is linear.",
+      "answer": "Apply L to au+bv: L[au+bv]=(au+bv)_t-kappa(au+bv)_{xx}. Derivatives distribute, giving a u_t+b v_t-kappa(a u_{xx}+b v_{xx}). Group terms to get a(u_t-kappa u_{xx})+b(v_t-kappa v_{xx})=aL[u]+bL[v].",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-08",
+      "prompt": "Why is u_t+u u_x=0 nonlinear?",
+      "answer": "The term u u_x multiplies the unknown field by one of its derivatives. That product breaks the linearity test, so superposition does not generally apply.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-09",
+      "prompt": "What method choice is usually needed in a standard linear pdes question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: An operator is linear if it respects addition and constant multiplication. For a homogeneous linear PDE L[u]=0, if u and v are solutions, then au+bv is also a solution.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-10",
+      "prompt": "Use the notation of Linear PDEs to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(L\\), meaning linear differential operator applied to a field; \\(u,v\\), meaning candidate field solutions; \\(a,b\\), meaning constant coefficients in a linear combination.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-11",
+      "prompt": "If u and v solve the homogeneous wave equation, what can be said about 3u-2v?",
+      "answer": "Because the homogeneous wave equation is linear, any constant linear combination of solutions is also a solution. Therefore 3u-2v also solves the same homogeneous equation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-12",
+      "prompt": "What physical or modelling interpretation can Linear PDEs have?",
+      "answer": "In a physics model, the idea of linear pdes helps translate a mathematical expression into a statement about the system. A PDE is linear when the unknown field and its derivatives appear only to the first power and are not multiplied together. Linearity is powerful because it allows superposition for homogeneous equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-13",
+      "prompt": "Correct this mistake in Linear PDEs: calling a PDE linear just because derivatives are present.",
+      "answer": "inspect powers and products of the unknown field and its derivatives.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-14",
+      "prompt": "Why is it important to check assumptions when using Linear PDEs?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Linear PDEs pass L[au+bv]=aL[u]+bL[v]. Homogeneous linear PDEs allow superposition; nonlinear products or powers of u break it.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-15",
+      "prompt": "Correct this second mistake in Linear PDEs: applying homogeneous superposition to a nonzero source equation.",
+      "answer": "account for the source term separately.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Linear PDEs?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Linear PDEs pass L[au+bv]=aL[u]+bL[v]. Homogeneous linear PDEs allow superposition; nonlinear products or powers of u break it.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-17",
+      "prompt": "Correct this third mistake in Linear PDEs: treating variable coefficients as automatically nonlinear.",
+      "answer": "coefficients may depend on independent variables and the PDE can still be linear if they do not depend on u.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-18",
+      "prompt": "Design an exam solution plan for a multi-step linear pdes problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: An operator is linear if it respects addition and constant multiplication. For a homogeneous linear PDE L[u]=0, if u and v are solutions, then au+bv is also a solution. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-19",
+      "prompt": "How could an incorrect setup affect a linear pdes result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, calling a PDE linear just because derivatives are present must be avoided: inspect powers and products of the unknown field and its derivatives.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-linear-pdes-20",
+      "prompt": "Give an exam-ready summary rule for Linear PDEs.",
+      "answer": "Linear PDEs pass L[au+bv]=aL[u]+bL[v]. Homogeneous linear PDEs allow superposition; nonlinear products or powers of u break it. If a formula is needed, use \\[L[au+bv]=aL[u]+bL[v]\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "orthogonal-functions",
+  "topicTitle": "Orthogonal Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-01",
+      "prompt": "What is the main purpose of Orthogonal Functions?",
+      "answer": "Orthogonal functions have zero inner product over a chosen interval. Fourier sine and cosine modes are orthogonal, which lets each coefficient be measured independently.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-02",
+      "prompt": "What does \\(f(x),g(x)\\) mean in Orthogonal Functions?",
+      "answer": "In Orthogonal Functions, \\(f(x),g(x)\\) means functions on the same interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-03",
+      "prompt": "Identify another important piece of notation used in Orthogonal Functions.",
+      "answer": "In Orthogonal Functions, \\(\\langle f,g\\rangle\\) means function inner product.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-04",
+      "prompt": "Before doing a orthogonal functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Functions are orthogonal when their product integrates to zero over the interval.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-05",
+      "prompt": "State a central formula or test for Orthogonal Functions.",
+      "answer": "The orthogonality test is\n\\[\\int_a^b f(x)g(x)\\,dx=0\\]\nUse it only after the symbols in the formula have been identified for the specific orthogonal functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-06",
+      "prompt": "How is the formula or method in Orthogonal Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cosine modes for positive indices is\n\\[\\int_{-\\pi}^{\\pi}\\cos mx\\cos nx\\,dx=\\pi\\delta_{mn},\\quad m,n\\ge1\\]\nUse it only after the symbols in the formula have been identified for the specific orthogonal functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-07",
+      "prompt": "Explain why sin x and sin 2x are orthogonal over negative pi to pi.",
+      "answer": "Use the product-to-sum identity: \\[\\sin x\\sin2x=\\frac{1}{2}(\\cos x-\\cos3x)\\] Integrate over negative pi to pi: \\[\\int_{-\\pi}^{\\pi}\\sin x\\sin2x\\,dx=\\frac{1}{2}\\int_{-\\pi}^{\\pi}(\\cos x-\\cos3x)\\,dx=0\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-08",
+      "prompt": "Why can a vibrating string mode be measured without contamination from other modes?",
+      "answer": "The mode shapes are orthogonal over the string interval. Projecting the displacement onto one mode gives zero contribution from different modes, just as perpendicular vector components do not mix.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-09",
+      "prompt": "What method choice is usually needed in a standard orthogonal functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Functions are orthogonal when their product integrates to zero over the interval.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-10",
+      "prompt": "Use the notation of Orthogonal Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x),g(x)\\), meaning functions on the same interval; \\(\\langle f,g\\rangle\\), meaning function inner product; \\(m,n\\), meaning positive integer harmonic indices unless stated otherwise.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-11",
+      "prompt": "Explain a common worked step in Orthogonal Functions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Orthogonal Functions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-12",
+      "prompt": "What physical or modelling interpretation can Orthogonal Functions have?",
+      "answer": "In a physics model, the idea of orthogonal functions helps translate a mathematical expression into a statement about the system. Orthogonal functions have zero inner product over a chosen interval. Fourier sine and cosine modes are orthogonal, which lets each coefficient be measured independently.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-13",
+      "prompt": "Correct this mistake in Orthogonal Functions: Assuming orthogonality without naming the interval.",
+      "answer": "orthogonality is always tied to the integration interval.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-14",
+      "prompt": "Why is it important to check assumptions when using Orthogonal Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Orthogonal functions have zero inner product, allowing Fourier modes to be separated cleanly by integration.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-15",
+      "prompt": "Correct this second mistake in Orthogonal Functions: Confusing orthogonal with never crossing.",
+      "answer": "orthogonal means zero inner product, not a graphical crossing rule.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Orthogonal Functions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Orthogonal functions have zero inner product, allowing Fourier modes to be separated cleanly by integration.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-17",
+      "prompt": "Correct this third mistake in Orthogonal Functions: Applying the positive-index cosine norm to the constant mode.",
+      "answer": "cos zero x equals one, so its squared integral over negative pi to pi is two pi.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step orthogonal functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Functions are orthogonal when their product integrates to zero over the interval. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-19",
+      "prompt": "How could an incorrect setup affect a orthogonal functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Assuming orthogonality without naming the interval must be avoided: orthogonality is always tied to the integration interval.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-orthogonal-functions-20",
+      "prompt": "Give an exam-ready summary rule for Orthogonal Functions.",
+      "answer": "Orthogonal functions have zero inner product, allowing Fourier modes to be separated cleanly by integration. If a formula is needed, use \\[\\int_a^b f(x)g(x)\\,dx=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "differentials",
+  "topicTitle": "Differentials",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-differentials-01",
+      "prompt": "What is the main purpose of Differentials?",
+      "answer": "A differential gives the local linear change in a multivariable function caused by small input changes. It replaces a curved field by its tangent-plane approximation near one point.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-02",
+      "prompt": "What does \\(df\\) mean in Differentials?",
+      "answer": "In Differentials, \\(df\\) means linear approximation to the change in f.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-03",
+      "prompt": "Identify another important piece of notation used in Differentials.",
+      "answer": "In Differentials, \\(dx,dy\\) means small changes in the independent variables.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-04",
+      "prompt": "Before doing a differentials calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For a two-variable field, multiply each input change by the matching partial derivative and add the contributions. This comes from the first-order change: change in f from x plus change in f from y, both measured at the same starting point.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-05",
+      "prompt": "State a central formula or test for Differentials.",
+      "answer": "The total differential is\n\\[df=f_x\\,dx+f_y\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-06",
+      "prompt": "How is the formula or method in Differentials interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The total differential is\n\\[df=f_x\\,dx+f_y\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-07",
+      "prompt": "At a point, T_x=3 K per m and T_y=-2 K per m. Estimate dT for dx=0.10 m and dy=0.20 m.",
+      "answer": "Use dT=T_x dx+T_y dy. Substitute the values: dT=3(0.10)+(-2)(0.20)=0.30-0.40=-0.10 K. The local estimate is a temperature decrease of 0.10 K.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-08",
+      "prompt": "For f(x,y)=x^2+y^2 at (1,2), estimate the change when dx=0.01 and dy=-0.02.",
+      "answer": "First find f_x=2x and f_y=2y. At (1,2), f_x=2 and f_y=4. Then df=2(0.01)+4(-0.02)=0.02-0.08=-0.06.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-09",
+      "prompt": "What method choice is usually needed in a standard differentials question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For a two-variable field, multiply each input change by the matching partial derivative and add the contributions. This comes from the first-order change: change in f from x plus change in f from y, both measured at the same starting point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-10",
+      "prompt": "Use the notation of Differentials to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(df\\), meaning linear approximation to the change in f; \\(dx,dy\\), meaning small changes in the independent variables; \\(f_x,f_y\\), meaning partial derivatives evaluated at the starting point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-11",
+      "prompt": "Why are differentials useful in measurement estimates?",
+      "answer": "If measured inputs have small errors dx and dy, the differential estimates the resulting output error. Each partial derivative weights how sensitive the output is to that input.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-12",
+      "prompt": "What physical or modelling interpretation can Differentials have?",
+      "answer": "In a physics model, the idea of differentials helps translate a mathematical expression into a statement about the system. A differential gives the local linear change in a multivariable function caused by small input changes. It replaces a curved field by its tangent-plane approximation near one point.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-13",
+      "prompt": "Correct this mistake in Differentials: using partial derivatives from the endpoint.",
+      "answer": "evaluate f_x and f_y at the starting point unless a problem states otherwise.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-14",
+      "prompt": "Why is it important to check assumptions when using Differentials?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The total differential adds local changes from each input: df=f_x dx+f_y dy. It is a tangent-plane estimate for small moves.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-15",
+      "prompt": "Correct this second mistake in Differentials: confusing df with the exact finite change.",
+      "answer": "df is a linear approximation to Delta f.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Differentials?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The total differential adds local changes from each input: df=f_x dx+f_y dy. It is a tangent-plane estimate for small moves.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-17",
+      "prompt": "Correct this third mistake in Differentials: dropping a variable contribution.",
+      "answer": "include one term for every independent input that changes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-18",
+      "prompt": "Design an exam solution plan for a multi-step differentials problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For a two-variable field, multiply each input change by the matching partial derivative and add the contributions. This comes from the first-order change: change in f from x plus change in f from y, both measured at the same starting point. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-19",
+      "prompt": "How could an incorrect setup affect a differentials result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, using partial derivatives from the endpoint must be avoided: evaluate f_x and f_y at the starting point unless a problem states otherwise.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-differentials-20",
+      "prompt": "Give an exam-ready summary rule for Differentials.",
+      "answer": "The total differential adds local changes from each input: df=f_x dx+f_y dy. It is a tangent-plane estimate for small moves. If a formula is needed, use \\[df=f_x\\,dx+f_y\\,dy\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

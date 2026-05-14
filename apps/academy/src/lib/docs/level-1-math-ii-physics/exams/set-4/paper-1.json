@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-4",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering vector motion, second-order ODEs, Fourier and Parseval methods, gradients, conservative fields, Jacobians, and statistics.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s4-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "A particle moves along the space curve \\(\\mathbf r(t)=(2\\cos t,2\\sin t,3t)\\), where \\(t\\ge0\\). Its mass is \\(m\\).",
+      "title": "Helical Motion and Force",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the velocity, acceleration, and speed of the particle.",
+          "answer": "Differentiating the position vector gives \\[\\mathbf v(t)=\\mathbf r'(t)=(-2\\sin t,2\\cos t,3).\\] Differentiating again gives \\[\\mathbf a(t)=\\mathbf r''(t)=(-2\\cos t,-2\\sin t,0).\\] The speed is \\[|\\mathbf v|=\\sqrt{4\\sin^2t+4\\cos^2t+9}=\\sqrt{13}.\\] Thus the particle has constant speed \\(\\sqrt{13}\\) while moving around a helix of radius \\(2\\)."
+        },
+        {
+          "id": "l1mii-s4-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the curvature of the trajectory and interpret its constancy.",
+          "answer": "For a space curve, \\(\\kappa=|\\mathbf v\\times\\mathbf a|/|\\mathbf v|^3\\). Here \\[\\mathbf v\\times\\mathbf a=(6\\sin t,-6\\cos t,4),\\] so \\[|\\mathbf v\\times\\mathbf a|=\\sqrt{36\\sin^2t+36\\cos^2t+16}=\\sqrt{52}=2\\sqrt{13}.\\] Since \\(|\\mathbf v|=\\sqrt{13}\\), \\[\\kappa=\\frac{2\\sqrt{13}}{(\\sqrt{13})^3}=\\frac{2}{13}.\\] The curvature is constant, reflecting that the path bends at the same rate all along the uniform helix."
+        },
+        {
+          "id": "l1mii-s4-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the force acting on the particle and show that it is perpendicular to the velocity.",
+          "answer": "Newton's second law gives \\[\\mathbf F=m\\mathbf a=(-2m\\cos t,-2m\\sin t,0).\\] The dot product with velocity is \\[\\mathbf F\\cdot\\mathbf v=(-2m\\cos t)(-2\\sin t)+(-2m\\sin t)(2\\cos t)+0=0.\\] Hence the force is always perpendicular to the velocity, so it changes the direction of motion but not the speed."
+        },
+        {
+          "id": "l1mii-s4-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Calculate the work done by this force from \\(t=0\\) to \\(t=2\\pi\\).",
+          "answer": "The work is \\[W=\\int_0^{2\\pi}\\mathbf F\\cdot\\mathbf v\\,dt.\\] From part (c), \\(\\mathbf F\\cdot\\mathbf v=0\\) for all \\(t\\). Therefore \\[W=\\int_0^{2\\pi}0\\,dt=0.\\] This agrees with the work-energy theorem because the speed, and hence the kinetic energy, is constant."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Answer the following independent questions on second-order linear differential equations.",
+      "title": "Repeated Roots and Resonance",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q2-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Solve \\(y''-4y'+4y=0\\), subject to \\(y(0)=1\\) and \\(y'(0)=3\\).",
+          "answer": "The auxiliary equation is \\(r^2-4r+4=0\\), so \\((r-2)^2=0\\). The repeated root is \\(r=2\\), and therefore \\[y(t)=(C_1+C_2t)e^{2t}.\\] The condition \\(y(0)=1\\) gives \\(C_1=1\\). Differentiating, \\[y'(t)=e^{2t}\\{C_2+2(C_1+C_2t)\\}.\\] Hence \\(y'(0)=C_2+2C_1=3\\), so \\(C_2=1\\). Therefore \\[y(t)=(1+t)e^{2t}.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Solve \\(x''+4x=8\\cos 2t\\), subject to \\(x(0)=0\\) and \\(x'(0)=0\\).",
+          "answer": "The complementary solution is \\(x_c=A\\cos2t+B\\sin2t\\). Since the forcing term \\(8\\cos2t\\) has the same frequency as the complementary solution, use a resonant trial solution \\(x_p=Ct\\sin2t\\). Then \\[x_p''+4x_p=4C\\cos2t.\\] Matching \\(8\\cos2t\\) gives \\(C=2\\). Thus \\[x=A\\cos2t+B\\sin2t+2t\\sin2t.\\] The condition \\(x(0)=0\\) gives \\(A=0\\). Also \\(x'(0)=2B=0\\), so \\(B=0\\). Hence \\[x(t)=2t\\sin2t.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Briefly explain the physical meaning of the factor \\(t\\) in the answer to part (b).",
+          "answer": "The factor \\(t\\) appears because the applied force oscillates at the natural frequency of the system. In the undamped model this is resonance: energy is added in phase with the motion, so the oscillation amplitude grows linearly with time. The solution \\(2t\\sin2t\\) therefore represents bounded-frequency oscillation with an unbounded envelope."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f(x)=x^2\\) for \\(-\\pi<x<\\pi\\), extended periodically with period \\(2\\pi\\).",
+      "title": "Even Fourier Series and Parseval",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q3-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Find the Fourier coefficients of \\(f\\).",
+          "answer": "The function is even, so \\(b_n=0\\) for all \\(n\\). The constant coefficient is \\[a_0=\\frac{2}{\\pi}\\int_0^{\\pi}x^2\\,dx=\\frac{2}{\\pi}\\cdot\\frac{\\pi^3}{3}=\\frac{2\\pi^2}{3}.\\] For \\(n\\ge1\\), \\[a_n=\\frac{2}{\\pi}\\int_0^{\\pi}x^2\\cos nx\\,dx.\\] Integrating by parts twice gives \\[\\int_0^{\\pi}x^2\\cos nx\\,dx=\\frac{2\\pi(-1)^n}{n^2},\\] and hence \\[a_n=\\frac{4(-1)^n}{n^2}.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Write the Fourier series and give the first four non-constant terms.",
+          "answer": "Since \\(a_0/2=\\pi^2/3\\), the Fourier series is \\[x^2\\sim\\frac{\\pi^2}{3}+\\sum_{n=1}^{\\infty}\\frac{4(-1)^n}{n^2}\\cos nx.\\] The first four non-constant terms are therefore \\[-4\\cos x+\\cos2x-\\frac{4}{9}\\cos3x+\\frac14\\cos4x.\\] The absence of sine terms follows from the even symmetry of \\(x^2\\)."
+        },
+        {
+          "id": "l1mii-s4-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use Parseval's theorem to evaluate \\(\\sum_{n=1}^{\\infty}1/n^4\\).",
+          "answer": "Parseval's theorem gives \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}x^4\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}a_n^2.\\] The left side is \\[\\frac{2}{\\pi}\\int_0^{\\pi}x^4\\,dx=\\frac{2\\pi^4}{5}.\\] Also \\(a_0^2/2=2\\pi^4/9\\) and \\(a_n^2=16/n^4\\). Therefore \\[\\frac{2\\pi^4}{5}=\\frac{2\\pi^4}{9}+16\\sum_{n=1}^{\\infty}\\frac{1}{n^4}.\\] Rearranging gives \\[16\\sum_{n=1}^{\\infty}\\frac{1}{n^4}=\\frac{8\\pi^4}{45},\\] so \\[\\sum_{n=1}^{\\infty}\\frac{1}{n^4}=\\frac{\\pi^4}{90}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "The temperature in a laboratory chamber is modelled by \\(T(x,y,z)=40+2x^2-y^2+3z\\). Distances are measured in metres and temperature in degrees Celsius.",
+      "title": "Gradient and Directional Derivatives",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find \\(\\nabla T\\) and evaluate it at \\(P=(1,2,-1)\\).",
+          "answer": "The gradient is the vector of first partial derivatives: \\[\\nabla T=(T_x,T_y,T_z)=(4x,-2y,3).\\] At \\(P=(1,2,-1)\\), this becomes \\[\\nabla T(P)=(4,-4,3).\\] This vector points in the direction of greatest local temperature increase at \\(P\\)."
+        },
+        {
+          "id": "l1mii-s4-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the directional derivative at \\(P\\) in the direction of the vector \\((2,-1,2)\\).",
+          "answer": "First convert the direction vector into a unit vector. Since \\(|(2,-1,2)|=\\sqrt{4+1+4}=3\\), the unit vector is \\[\\mathbf u=\\left(\\frac23,-\\frac13,\\frac23\\right).\\] The directional derivative is \\[D_{\\mathbf u}T(P)=\\nabla T(P)\\cdot\\mathbf u=(4,-4,3)\\cdot\\left(\\frac23,-\\frac13,\\frac23\\right).\\] Therefore \\[D_{\\mathbf u}T(P)=\\frac{8}{3}+\\frac{4}{3}+2=6.\\] The temperature increases at \\(6\\) degrees Celsius per metre in this direction."
+        },
+        {
+          "id": "l1mii-s4-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the unit direction of greatest increase at \\(P\\) and the corresponding maximum rate of increase.",
+          "answer": "The greatest increase occurs in the gradient direction. The magnitude of \\(\\nabla T(P)=(4,-4,3)\\) is \\[|\\nabla T(P)|=\\sqrt{16+16+9}=\\sqrt{41}.\\] Hence the unit direction of greatest increase is \\[\\frac{\\nabla T(P)}{|\\nabla T(P)|}=\\left(\\frac{4}{\\sqrt{41}},-\\frac{4}{\\sqrt{41}},\\frac{3}{\\sqrt{41}}\\right).\\] The corresponding maximum rate of increase is \\(\\sqrt{41}\\) degrees Celsius per metre."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider the vector field \\(\\mathbf F(x,y)=(2xy+3, x^2+4y)\\) in the plane.",
+      "title": "Conservative Fields and Line Integrals",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Show that \\(\\mathbf F\\) is conservative on \\(\\mathbb R^2\\).",
+          "answer": "Write \\(\\mathbf F=(P,Q)\\), where \\(P=2xy+3\\) and \\(Q=x^2+4y\\). For a field on the simply connected plane, equality of the cross partial derivatives is sufficient for conservativeness. Here \\[P_y=2x,\\qquad Q_x=2x.\\] Since \\(P_y=Q_x\\) everywhere in \\(\\mathbb R^2\\), the field is conservative on \\(\\mathbb R^2\\)."
+        },
+        {
+          "id": "l1mii-s4-p1-q5-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find a potential function \\(\\phi\\) such that \\(\\nabla\\phi=\\mathbf F\\).",
+          "answer": "We need \\(\\phi_x=2xy+3\\) and \\(\\phi_y=x^2+4y\\). Integrating \\(\\phi_x\\) with respect to \\(x\\) gives \\[\\phi(x,y)=x^2y+3x+g(y).\\] Differentiating this expression with respect to \\(y\\) gives \\[\\phi_y=x^2+g'(y).\\] Comparing with \\(x^2+4y\\), we get \\(g'(y)=4y\\), so \\(g(y)=2y^2+C\\). Thus one potential function is \\[\\phi(x,y)=x^2y+3x+2y^2.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\int_C\\mathbf F\\cdot d\\mathbf r\\), where \\(C\\) is any smooth path from \\((0,1)\\) to \\((2,3)\\).",
+          "answer": "Because \\(\\mathbf F\\) is conservative, the line integral depends only on the endpoints. Using the potential from part (b), \\[\\int_C\\mathbf F\\cdot d\\mathbf r=\\phi(2,3)-\\phi(0,1).\\] Now \\[\\phi(2,3)=2^2\\cdot3+3\\cdot2+2\\cdot3^2=12+6+18=36,\\] while \\[\\phi(0,1)=0+0+2=2.\\] Therefore \\[\\int_C\\mathbf F\\cdot d\\mathbf r=36-2=34.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(R\\) be the region in the first quadrant bounded by the curves \\(y=x^2\\) and \\(y=2x\\).",
+      "title": "Changing Order in Double Integrals",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Describe \\(R\\) using bounds with \\(x\\) first and then by switching the order of integration.",
+          "answer": "The curves meet where \\(x^2=2x\\), so \\(x=0\\) or \\(x=2\\). With vertical slices, \\(0\\le x\\le2\\) and \\(x^2\\le y\\le2x\\). Thus \\[R=\\{(x,y):0\\le x\\le2,\\ x^2\\le y\\le2x\\}.\\] To switch the order, note that \\(0\\le y\\le4\\). From \\(y\\le2x\\) we get \\(x\\ge y/2\\), and from \\(y\\ge x^2\\) in the first quadrant we get \\(x\\le\\sqrt y\\). Hence \\[R=\\{(x,y):0\\le y\\le4,\\ y/2\\le x\\le\\sqrt y\\}.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q6-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\iint_R y\\,dA\\) using the switched order from part (a).",
+          "answer": "Using the switched bounds, \\[\\iint_R y\\,dA=\\int_0^4\\int_{y/2}^{\\sqrt y}y\\,dx\\,dy.\\] The inner integral is \\[\\int_{y/2}^{\\sqrt y}y\\,dx=y\\left(\\sqrt y-\\frac y2\\right)=y^{3/2}-\\frac{y^2}{2}.\\] Therefore \\[\\iint_R y\\,dA=\\int_0^4\\left(y^{3/2}-\\frac{y^2}{2}\\right)dy=\\left[\\frac{2}{5}y^{5/2}-\\frac{y^3}{6}\\right]_0^4.\\] Since \\(4^{5/2}=32\\), this gives \\[\\frac{64}{5}-\\frac{64}{6}=\\frac{32}{15}.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q6-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the area of \\(R\\) and hence the \\(y\\)-coordinate of its centroid.",
+          "answer": "Using vertical slices, the area is \\[A=\\int_0^2(2x-x^2)\\,dx=\\left[x^2-\\frac{x^3}{3}\\right]_0^2=4-\\frac83=\\frac43.\\] The \\(y\\)-coordinate of the centroid is \\[\\bar y=\\frac{1}{A}\\iint_R y\\,dA.\\] From part (b), \\(\\iint_R y\\,dA=32/15\\), so \\[\\bar y=\\frac{32/15}{4/3}=\\frac{32}{15}\\cdot\\frac34=\\frac85.\\] Thus the centroid has \\(y\\)-coordinate \\(8/5\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s4-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A detector is tested using independent trials and repeated batch measurements.",
+      "title": "Binomial, Normal Approximation, and CLT",
+      "parts": [
+        {
+          "id": "l1mii-s4-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "In \\(10\\) independent tests the detector succeeds with probability \\(0.3\\) on each test. Find the probability of at least two successes.",
+          "answer": "Let \\(X\\sim\\operatorname{Bin}(10,0.3)\\). Then \\[P(X\\ge2)=1-P(X=0)-P(X=1).\\] Now \\[P(X=0)=0.7^{10}\\] and \\[P(X=1)=\\binom{10}{1}(0.3)(0.7)^9=3(0.7)^9.\\] Therefore \\[P(X\\ge2)=1-0.7^{10}-3(0.7)^9\\approx1-0.02825-0.12106=0.85069.\\]"
+        },
+        {
+          "id": "l1mii-s4-p1-q7-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "In a larger run, \\(Y\\sim\\operatorname{Bin}(100,0.64)\\). Use a normal approximation with continuity correction to estimate \\(P(60\\le Y\\le72)\\).",
+          "answer": "For \\(Y\\sim\\operatorname{Bin}(100,0.64)\\), the mean is \\(np=64\\) and the variance is \\(np(1-p)=100(0.64)(0.36)=23.04\\), so the standard deviation is \\(4.8\\). With a continuity correction, \\[P(60\\le Y\\le72)\\approx P(59.5<Y_N<72.5),\\] where \\(Y_N\\sim N(64,4.8^2)\\). Standardising gives \\[P\\left(\\frac{59.5-64}{4.8}<Z<\\frac{72.5-64}{4.8}\\right)=P(-0.94<Z<1.77).\\] From normal tables this is approximately \\(0.9616-0.1736=0.788\\)."
+        },
+        {
+          "id": "l1mii-s4-p1-q7-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "A batch measurement has mean \\(50\\) and standard deviation \\(12\\). For \\(36\\) independent batches, use the central limit theorem to estimate \\(P(\\bar X>53)\\).",
+          "answer": "By the central limit theorem, the sample mean \\(\\bar X\\) is approximately normal for \\(n=36\\), with mean \\[E[\\bar X]=50\\] and standard deviation \\[\\frac{12}{\\sqrt{36}}=2.\\] Therefore \\[P(\\bar X>53)\\approx P\\left(Z>\\frac{53-50}{2}\\right)=P(Z>1.50).\\] From standard normal tables, \\(P(Z<1.50)\\approx0.9332\\), so \\[P(Z>1.50)\\approx1-0.9332=0.0668.\\] Thus the required probability is about \\(0.067\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "ode-introduction",
+  "topicTitle": "ODE Introduction",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-01",
+      "prompt": "What is the main purpose of ODE Introduction?",
+      "answer": "An ordinary differential equation, or ODE, relates one or more unknown functions to derivatives taken with respect to one independent variable. In physics this turns local rate laws into models for cooling, growth, motion, current, displacement, or coupled measurable quantities.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-02",
+      "prompt": "What does \\(t\\) mean in ODE Introduction?",
+      "answer": "In ODE Introduction, \\(t\\) means independent variable, usually time. Its unit is s.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-03",
+      "prompt": "Identify another important piece of notation used in ODE Introduction.",
+      "answer": "In ODE Introduction, \\(y(t)\\) means dependent variable whose value is determined by the model.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-04",
+      "prompt": "Before doing a ode introduction calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: An equation or system is an ODE model when all derivatives are taken with respect to one independent variable. A single ODE may involve one unknown function; a simultaneous ODE system may involve several unknown functions of that same independent variable.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-05",
+      "prompt": "State a central formula or test for ODE Introduction.",
+      "answer": "The general ode form is\n\\[F(t,y,y',\\ldots,y^{(n)})=0\\]\nUse it only after the symbols in the formula have been identified for the specific ode introduction problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-06",
+      "prompt": "How is the formula or method in ODE Introduction interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cooling model is\n\\[\\frac{dT}{dt}=-k(T-T_s)\\]\nUse it only after the symbols in the formula have been identified for the specific ode introduction problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-07",
+      "prompt": "A drink temperature T changes with time t according to dT/dt equals negative k times T minus room temperature T_s. Decide whether this is an ODE.",
+      "answer": "The independent variable is t. The dependent variable is T(t). The derivative is dT/dt, which is taken only with respect to t. The quantities k and T_s are parameters. Therefore the equation is an ordinary differential equation: \\[\\frac{dT}{dt}=-k(T-T_s)\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-08",
+      "prompt": "A displacement x(t) satisfies m x double prime plus c x prime plus kx equals zero. Identify the unknown function and the independent variable.",
+      "answer": "The independent variable is time t. The unknown function is displacement x(t). The terms x prime and x double prime are derivatives with respect to t, so the model is an ODE for oscillator motion: \\[m x''+c x'+kx=0\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-09",
+      "prompt": "What method choice is usually needed in a standard ode introduction question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: An equation or system is an ODE model when all derivatives are taken with respect to one independent variable. A single ODE may involve one unknown function; a simultaneous ODE system may involve several unknown functions of that same independent variable.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-10",
+      "prompt": "Use the notation of ODE Introduction to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(t\\), meaning independent variable, usually time; \\(y(t)\\), meaning dependent variable whose value is determined by the model; \\(u(t),v(t)\\), meaning dependent variables in a coupled ODE system.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-11",
+      "prompt": "Explain a common worked step in ODE Introduction.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of ODE Introduction.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-12",
+      "prompt": "What physical or modelling interpretation can ODE Introduction have?",
+      "answer": "In a physics model, the idea of ode introduction helps translate a mathematical expression into a statement about the system. An ordinary differential equation, or ODE, relates one or more unknown functions to derivatives taken with respect to one independent variable. In physics this turns local rate laws into models for cooling, growth, motion, current, displacement, or coupled measurable quantities.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-13",
+      "prompt": "Correct this mistake in ODE Introduction: Treating every differential equation as ordinary.",
+      "answer": "an ODE has one independent variable; equations with several independent variables are partial differential equations.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-14",
+      "prompt": "Why is it important to check assumptions when using ODE Introduction?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. An ODE model is a rate or curvature statement for one or more unknown functions of one independent variable. Identify the shared independent variable and every derivative before choosing a solution method.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-15",
+      "prompt": "Correct this second mistake in ODE Introduction: Solving before naming variables.",
+      "answer": "first identify the input, unknown function, parameters, and units.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in ODE Introduction?",
+      "answer": "Track the units in the notation: \\(t\\) has unit s.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-17",
+      "prompt": "Correct this third mistake in ODE Introduction: Solving before naming variables.",
+      "answer": "first identify the input, unknown function, parameters, and units.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-18",
+      "prompt": "Design an exam solution plan for a multi-step ode introduction problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: An equation or system is an ODE model when all derivatives are taken with respect to one independent variable. A single ODE may involve one unknown function; a simultaneous ODE system may involve several unknown functions of that same independent variable. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-19",
+      "prompt": "How could an incorrect setup affect a ode introduction result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating every differential equation as ordinary must be avoided: an ODE has one independent variable; equations with several independent variables are partial differential equations.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-ode-introduction-20",
+      "prompt": "Give an exam-ready summary rule for ODE Introduction.",
+      "answer": "An ODE model is a rate or curvature statement for one or more unknown functions of one independent variable. Identify the shared independent variable and every derivative before choosing a solution method. If a formula is needed, use \\[F(t,y,y',\\ldots,y^{(n)})=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

@@ -12,6 +12,10 @@ import {
   getLevel1MathIPhysicsExamPaper,
   level1MathIPhysicsExamSets,
 } from "@/lib/docs/level-1-math-i-physics/exams";
+import {
+  getLevel1MathIIPhysicsExamPaper,
+  level1MathIIPhysicsExamSets,
+} from "@/lib/docs/level-1-math-ii-physics/exams";
 
 type ExamPrintPageData = {
   backHref: string;
@@ -30,6 +34,11 @@ const examCourseConfigs = {
     getPaper: getLevel1MathIPhysicsExamPaper,
     label: "Level 1 - Math I (Physics)",
     sets: level1MathIPhysicsExamSets,
+  },
+  "level-1-math-ii-physics": {
+    getPaper: getLevel1MathIIPhysicsExamPaper,
+    label: "Level 1 - Math II (Physics)",
+    sets: level1MathIIPhysicsExamSets,
   },
   "level-1-physics": {
     getPaper: getLevel1PhysicsExamPaper,

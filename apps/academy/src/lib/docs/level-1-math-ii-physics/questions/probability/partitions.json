@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "partitions",
+  "topicTitle": "Partitions",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-partitions-01",
+      "prompt": "A population is split into \\(E\\) and \\(E^c\\). Given \\(P(E)=0.3\\), \\(P(A|E)=0.8\\), and \\(P(A|E^c)=0.2\\), find \\(P(A)\\).",
+      "answer": "Use total probability: \\[P(A)=P(A|E)P(E)+P(A|E^c)P(E^c)=0.8(0.3)+0.2(0.7)=0.38.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-02",
+      "prompt": "A factory uses machines \\(M_1\\) and \\(M_2\\), making \\(40\\%\\) and \\(60\\%\\) of items. Defect rates are \\(2\\%\\) and \\(5\\%\\). Find the overall defect probability.",
+      "answer": "The machines form a partition. Thus \\[P(D)=0.02(0.4)+0.05(0.6)=0.008+0.030=0.038.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-03",
+      "prompt": "A test group is \\(70\\%\\) vaccinated and \\(30\\%\\) unvaccinated. The infection probabilities are \\(0.04\\) and \\(0.12\\). Find the infection probability for a randomly chosen person.",
+      "answer": "Partition by vaccination status: \\[P(I)=0.04(0.7)+0.12(0.3)=0.028+0.036=0.064.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-04",
+      "prompt": "A signal can come from source \\(S_1\\), \\(S_2\\), or \\(S_3\\) with probabilities \\(0.2\\), \\(0.5\\), and \\(0.3\\). Detection probabilities are \\(0.9\\), \\(0.6\\), and \\(0.4\\). Find \\(P(D)\\).",
+      "answer": "Use total probability across the three sources: \\[P(D)=0.9(0.2)+0.6(0.5)+0.4(0.3)=0.18+0.30+0.12=0.60.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-05",
+      "prompt": "Students are partitioned into first years \\((0.45)\\), second years \\((0.35)\\), and third years \\((0.20)\\). The probabilities of taking statistics are \\(0.5\\), \\(0.6\\), and \\(0.8\\). Find the overall probability of taking statistics.",
+      "answer": "The year groups are exhaustive and disjoint. Thus \\[P(S)=0.5(0.45)+0.6(0.35)+0.8(0.20)=0.225+0.210+0.160=0.595.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-06",
+      "prompt": "A medical condition has prevalence \\(0.02\\). A test is positive with probability \\(0.95\\) if the condition is present and \\(0.08\\) otherwise. Find \\(P(\\text{positive})\\).",
+      "answer": "Partition by condition status: \\[P(+)=0.95(0.02)+0.08(0.98)=0.019+0.0784=0.0974.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-07",
+      "prompt": "A delivery is local with probability \\(0.65\\) and long-distance otherwise. Late probabilities are \\(0.1\\) and \\(0.25\\). Find the probability of a late delivery.",
+      "answer": "The complement of local has probability \\(0.35\\). Hence \\[P(L)=0.1(0.65)+0.25(0.35)=0.065+0.0875=0.1525.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-08",
+      "prompt": "Three boxes are chosen with probabilities \\(0.2\\), \\(0.3\\), and \\(0.5\\). Their red-ball probabilities are \\(0.4\\), \\(0.7\\), and \\(0.1\\). Find the probability of drawing a red ball.",
+      "answer": "Partition by selected box: \\[P(R)=0.4(0.2)+0.7(0.3)+0.1(0.5)=0.08+0.21+0.05=0.34.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-09",
+      "prompt": "A component is from supplier A, B, or C with probabilities \\(0.5\\), \\(0.3\\), and \\(0.2\\). Failure rates are \\(0.01\\), \\(0.03\\), and \\(0.04\\). Find the probability that a component fails.",
+      "answer": "The suppliers partition the source of the component, so \\[P(F)=0.01(0.5)+0.03(0.3)+0.04(0.2)=0.005+0.009+0.008=0.022.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-10",
+      "prompt": "A population has groups \\(G_1\\) and \\(G_2\\). Given \\(P(G_1)=0.55\\), \\(P(A)=0.43\\), and \\(P(A|G_1)=0.6\\), find \\(P(A|G_2)\\).",
+      "answer": "Since \\(P(G_2)=0.45\\), total probability gives \\(0.43=0.6(0.55)+P(A|G_2)(0.45)\\). Thus \\(P(A|G_2)=(0.43-0.33)/0.45=0.2222\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-11",
+      "prompt": "A day is sunny with probability \\(0.7\\). A sensor alarm probability is \\(0.05\\) on sunny days and \\(0.30\\) on non-sunny days. Find the alarm probability.",
+      "answer": "Partition into sunny and non-sunny days: \\[P(A)=0.05(0.7)+0.30(0.3)=0.035+0.090=0.125.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-12",
+      "prompt": "A candidate answers a question by knowing it with probability \\(0.6\\), eliminating two options with probability \\(0.25\\), or guessing among four options otherwise. Find the probability of a correct answer.",
+      "answer": "Partition by strategy. The correct probabilities are \\(1\\), \\(1/2\\), and \\(1/4\\). Thus \\[P(C)=1(0.6)+\\frac12(0.25)+\\frac14(0.15)=0.6+0.125+0.0375=0.7625.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-13",
+      "prompt": "Two production lines make \\(30\\%\\) and \\(70\\%\\) of parts. The overall defect probability is \\(0.041\\), and line 1's defect rate is \\(0.02\\). Find line 2's defect rate.",
+      "answer": "Let line 2's defect rate be \\(x\\). Total probability gives \\(0.041=0.02(0.3)+x(0.7)\\). Hence \\(x=(0.041-0.006)/0.7=0.05\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-14",
+      "prompt": "A randomly selected email is work, personal, or spam with probabilities \\(0.5\\), \\(0.3\\), and \\(0.2\\). Flagging probabilities are \\(0.1\\), \\(0.05\\), and \\(0.9\\). Find the probability it is flagged.",
+      "answer": "The categories partition emails, so \\[P(F)=0.1(0.5)+0.05(0.3)+0.9(0.2)=0.05+0.015+0.18=0.245.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-15",
+      "prompt": "A machine is in state \\(S_1\\), \\(S_2\\), or \\(S_3\\) with probabilities \\(0.6\\), \\(0.25\\), and \\(0.15\\). Error probabilities are \\(0.02\\), \\(0.08\\), and \\(0.20\\). Find the probability of no error.",
+      "answer": "First find the error probability: \\(0.02(0.6)+0.08(0.25)+0.20(0.15)=0.012+0.020+0.030=0.062\\). Therefore \\(P(\\text{no error})=1-0.062=0.938\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-16",
+      "prompt": "A patient is high-risk with probability \\(0.1\\), medium-risk with \\(0.3\\), and low-risk with \\(0.6\\). Admission probabilities are \\(0.7\\), \\(0.25\\), and \\(0.05\\). Find the admission probability.",
+      "answer": "Use total probability: \\[P(A)=0.7(0.1)+0.25(0.3)+0.05(0.6)=0.070+0.075+0.030=0.175.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-17",
+      "prompt": "A two-stage experiment first chooses one of boxes A and B with probabilities \\(0.4\\) and \\(0.6\\). A red ball has overall probability \\(0.52\\). Box A has red probability \\(0.7\\). Find box B's red probability.",
+      "answer": "Let \\(x=P(R|B)\\). Then \\(0.52=0.7(0.4)+x(0.6)\\). So \\(x=(0.52-0.28)/0.6=0.4\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-18",
+      "prompt": "A detector is used in environments A, B, and C with probabilities \\(0.2\\), \\(0.5\\), and \\(0.3\\). False-alarm probabilities are \\(0.01\\), \\(0.04\\), and \\(0.10\\). Find the false-alarm probability.",
+      "answer": "The environments partition operation, so \\[P(F)=0.01(0.2)+0.04(0.5)+0.10(0.3)=0.002+0.020+0.030=0.052.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-19",
+      "prompt": "A population is partitioned into four groups with probabilities \\(0.1\\), \\(0.2\\), \\(0.3\\), and \\(0.4\\). Event \\(A\\) has conditional probabilities \\(0.9\\), \\(0.7\\), \\(0.4\\), and \\(0.2\\) in these groups. Find \\(P(A)\\).",
+      "answer": "Apply total probability over all four groups: \\[P(A)=0.9(0.1)+0.7(0.2)+0.4(0.3)+0.2(0.4)=0.09+0.14+0.12+0.08=0.43.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-partitions-20",
+      "prompt": "A partition has events \\(E_1,E_2,E_3\\). Given \\(P(E_1)=0.25\\), \\(P(E_2)=0.35\\), \\(P(A|E_1)=0.2\\), \\(P(A|E_2)=0.5\\), \\(P(A|E_3)=0.8\\), find \\(P(A)\\).",
+      "answer": "First \\(P(E_3)=1-0.25-0.35=0.40\\). Then \\[P(A)=0.2(0.25)+0.5(0.35)+0.8(0.40)=0.05+0.175+0.320=0.545.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

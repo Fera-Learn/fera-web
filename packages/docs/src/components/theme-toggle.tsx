@@ -16,7 +16,8 @@ export function ThemeToggle() {
       size="icon-sm"
       variant="outline"
     >
-      {isDark ? <SunMediumIcon /> : <MoonIcon />}
+      <SunMediumIcon className="hidden dark:block" />
+      <MoonIcon className="dark:hidden" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );

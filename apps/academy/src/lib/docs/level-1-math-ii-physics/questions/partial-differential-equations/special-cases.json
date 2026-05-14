@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "partial-differential-equations",
+  "topicId": "special-cases",
+  "topicTitle": "Special Cases",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-01",
+      "prompt": "What is the main purpose of Special Cases?",
+      "answer": "Special cases reduce PDEs when physical assumptions remove variables or derivative terms. The assumption must be stated before terms are dropped, because each dropped derivative means a specific kind of dependence is absent.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-02",
+      "prompt": "What does \\(u(x,t)\\) mean in Special Cases?",
+      "answer": "In Special Cases, \\(u(x,t)\\) means field depending on position and time.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-03",
+      "prompt": "Identify another important piece of notation used in Special Cases.",
+      "answer": "In Special Cases, \\(u_t=0\\) means steady-state condition with no time variation.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-04",
+      "prompt": "Before doing a special cases calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Replace derivatives that vanish under the stated assumption, then simplify the PDE. The reduced equation is usually easier, but it only applies while the assumption remains valid.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-05",
+      "prompt": "State a central formula or test for Special Cases.",
+      "answer": "The steady heat reduction is\n\\[u_t=\\kappa u_{xx},\\quad u_t=0\\quad\\Longrightarrow\\quad u_{xx}=0\\]\nUse it only after the symbols in the formula have been identified for the specific special cases problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-06",
+      "prompt": "How is the formula or method in Special Cases interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The steady heat reduction is\n\\[u_t=\\kappa u_{xx},\\quad u_t=0\\quad\\Longrightarrow\\quad u_{xx}=0\\]\nUse it only after the symbols in the formula have been identified for the specific special cases problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-07",
+      "prompt": "Reduce u_t=kappa u_{xx} for steady temperature in a rod.",
+      "answer": "Steady temperature means u does not change with time, so u_t=0. Substitute into the heat equation: 0=kappa u_{xx}. If kappa is nonzero, divide by kappa to get u_{xx}=0.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-08",
+      "prompt": "Reduce phi_{xx}+phi_{yy}=0 when phi is independent of y.",
+      "answer": "Independence of y means phi_y=0 and therefore phi_{yy}=0. Substitute into the PDE: phi_{xx}+0=0, so phi_{xx}=0.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-09",
+      "prompt": "What method choice is usually needed in a standard special cases question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Replace derivatives that vanish under the stated assumption, then simplify the PDE. The reduced equation is usually easier, but it only applies while the assumption remains valid.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-10",
+      "prompt": "Use the notation of Special Cases to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,t)\\), meaning field depending on position and time; \\(u_t=0\\), meaning steady-state condition with no time variation; \\(u_y=0\\), meaning symmetry or uniformity in the y direction.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-11",
+      "prompt": "What does angular symmetry allow in a potential problem?",
+      "answer": "If the potential does not depend on the angular coordinate, angular derivative terms vanish. The PDE reduces to an equation in the remaining coordinates.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-12",
+      "prompt": "What physical or modelling interpretation can Special Cases have?",
+      "answer": "In a physics model, the idea of special cases helps translate a mathematical expression into a statement about the system. Special cases reduce PDEs when physical assumptions remove variables or derivative terms. The assumption must be stated before terms are dropped, because each dropped derivative means a specific kind of dependence is absent.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-13",
+      "prompt": "Correct this mistake in Special Cases: dropping terms because they look inconvenient.",
+      "answer": "remove only terms justified by a stated physical or mathematical assumption.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-14",
+      "prompt": "Why is it important to check assumptions when using Special Cases?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. PDE special cases are assumption-driven reductions. State the assumption, set the matching derivatives to zero, simplify, and remember the reduced model has a limited scope.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-15",
+      "prompt": "Correct this second mistake in Special Cases: setting the field itself to zero instead of a derivative.",
+      "answer": "steady-state means u_t=0, not u=0.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Special Cases?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. PDE special cases are assumption-driven reductions. State the assumption, set the matching derivatives to zero, simplify, and remember the reduced model has a limited scope.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-17",
+      "prompt": "Correct this third mistake in Special Cases: using a reduced PDE outside its assumptions.",
+      "answer": "return to the full PDE if time dependence, spatial dependence, or sources reappear.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-18",
+      "prompt": "Design an exam solution plan for a multi-step special cases problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Replace derivatives that vanish under the stated assumption, then simplify the PDE. The reduced equation is usually easier, but it only applies while the assumption remains valid. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-19",
+      "prompt": "How could an incorrect setup affect a special cases result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, dropping terms because they look inconvenient must be avoided: remove only terms justified by a stated physical or mathematical assumption.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-special-cases-20",
+      "prompt": "Give an exam-ready summary rule for Special Cases.",
+      "answer": "PDE special cases are assumption-driven reductions. State the assumption, set the matching derivatives to zero, simplify, and remember the reduced model has a limited scope. If a formula is needed, use \\[u_t=\\kappa u_{xx},\\quad u_t=0\\quad\\Longrightarrow\\quad u_{xx}=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,10 +1,21 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type ReactNode,
+} from "react";
 import Link from "next/link";
 import { ArrowLeftIcon, PrinterIcon } from "lucide-react";
 
 import { Button } from "@repo/ui/button";
+
+import {
+  PrintZoomControls,
+  usePrintZoom,
+} from "@/components/academy/print-zoom-controls";
 
 type PrintDocumentShellProps = {
   backHref: string;
@@ -143,6 +154,7 @@ export function PrintDocumentShell({
 }: PrintDocumentShellProps) {
   const ref = usePrintMathJax(dependency);
   const [isPreparingPrint, setIsPreparingPrint] = useState(false);
+  const printZoom = usePrintZoom();
 
   useDocumentTitle(filename);
 
@@ -160,7 +172,7 @@ export function PrintDocumentShell({
   };
 
   return (
-    <div className="exam-print-shell h-svh overflow-y-auto bg-neutral-200 text-neutral-950 print:h-auto print:overflow-visible print:bg-white">
+    <div className="exam-print-shell h-svh overflow-auto bg-neutral-200 text-neutral-950 print:h-auto print:overflow-visible print:bg-white">
       <style>{styles}</style>
       <div className="exam-print-toolbar sticky top-0 z-30 border-b border-neutral-300 bg-white/95 px-4 py-3 shadow-sm backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3">
@@ -172,6 +184,16 @@ export function PrintDocumentShell({
           </Button>
           <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
             <span className="font-mono text-xs">{filename}</span>
+            <PrintZoomControls
+              canZoomIn={printZoom.canZoomIn}
+              canZoomOut={printZoom.canZoomOut}
+              onReset={printZoom.resetZoom}
+              onZoomChange={printZoom.setZoom}
+              onZoomIn={printZoom.zoomIn}
+              onZoomOut={printZoom.zoomOut}
+              zoom={printZoom.zoom}
+              zoomLevels={printZoom.zoomLevels}
+            />
             <Button
               disabled={isPreparingPrint}
               onClick={() => {
@@ -186,7 +208,15 @@ export function PrintDocumentShell({
           </div>
         </div>
       </div>
-      <div className={documentClassName} ref={ref}>
+      <div
+        className={documentClassName}
+        ref={ref}
+        style={
+          {
+            "--print-preview-zoom": printZoom.zoomScale,
+          } as CSSProperties
+        }
+      >
         {children}
       </div>
     </div>

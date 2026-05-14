@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vectors",
+  "topicId": "vector-spaces",
+  "topicTitle": "Vector Spaces",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vectors-vector-spaces-01",
+      "prompt": "Test whether \\((1,2)+(3,-5)\\) stays in \\(\\mathbb R^2\\).",
+      "answer": "The sum is \\((4,-3)\\), which has two real components, so it is in \\(\\mathbb R^2\\). This demonstrates closure under addition for this example.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-02",
+      "prompt": "Test whether \\(4(2,-1,0)\\) stays in \\(\\mathbb R^3\\).",
+      "answer": "The scalar multiple is \\((8,-4,0)\\), which has three real components, so it is in \\(\\mathbb R^3\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-03",
+      "prompt": "Decide whether \\(S=\\{(x,y):y=2x\\}\\) is closed under addition.",
+      "answer": "Take \\((x,2x)\\) and \\((u,2u)\\). Their sum is \\((x+u,2x+2u)=(x+u,2(x+u))\\), so it stays in \\(S\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-04",
+      "prompt": "Decide whether \\(S=\\{(x,y):y=2x+1\\}\\) contains the zero vector.",
+      "answer": "The zero vector is \\((0,0)\\). It would need \\(0=2(0)+1\\), which is false, so \\(S\\) is not a subspace.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-05",
+      "prompt": "Is \\(\\{(x,y,z):x+y+z=0\\}\\) a subspace of \\(\\mathbb R^3\\)?",
+      "answer": "It contains \\(\\mathbf0\\), sums preserve the equation because totals add to \\(0+0\\), and scalar multiples preserve it because \\(k0=0\\). Hence it is a subspace.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-06",
+      "prompt": "Is \\(\\{(x,y):x\\ge0\\}\\) a vector subspace of \\(\\mathbb R^2\\)?",
+      "answer": "No. It is not closed under scalar multiplication: \\((1,0)\\) is in the set, but \\(-1(1,0)=(-1,0)\\) is not.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-07",
+      "prompt": "Determine whether \\((5,1)\\) lies in \\(\\operatorname{span}\\{(2,1),(1,-1)\\}\\).",
+      "answer": "Solve \\(a(2,1)+b(1,-1)=(5,1)\\). Then \\(2a+b=5\\) and \\(a-b=1\\), giving \\(a=2\\), \\(b=1\\). So it lies in the span.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-08",
+      "prompt": "Express \\((4,7)\\) as a linear combination of \\((1,1)\\) and \\((1,2)\\).",
+      "answer": "Let \\(a(1,1)+b(1,2)=(4,7)\\). Then \\(a+b=4\\) and \\(a+2b=7\\). Subtract to get \\(b=3\\), so \\(a=1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-09",
+      "prompt": "Check whether \\(\\{(x,y,z):z=0\\}\\) is closed under scalar multiplication.",
+      "answer": "If \\(z=0\\), then \\(k(x,y,0)=(kx,ky,0)\\), whose third component is still zero. It is closed under scalar multiplication.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-10",
+      "prompt": "Decide whether \\((1,1,1)\\) is in \\(\\operatorname{span}\\{(1,0,1),(0,1,1)\\}\\).",
+      "answer": "Solve \\(a(1,0,1)+b(0,1,1)=(1,1,1)\\). The first two components give \\(a=1\\), \\(b=1\\), but then the third is \\(2\\), not \\(1\\). So it is not in the span.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-11",
+      "prompt": "Test whether \\(S=\\{(x,y):xy=0\\}\\) is closed under addition.",
+      "answer": "Both \\((1,0)\\) and \\((0,1)\\) are in \\(S\\), but their sum \\((1,1)\\) has product \\(1\\). Thus \\(S\\) is not closed under addition.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-12",
+      "prompt": "Find a basis for \\(\\operatorname{span}\\{(1,2),(2,4),(0,1)\\}\\).",
+      "answer": "The vector \\((2,4)=2(1,2)\\), so it is dependent. The vectors \\((1,2)\\) and \\((0,1)\\) are not scalar multiples, so they form a basis for the span.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-13",
+      "prompt": "Determine whether \\(\\{(x,y,z):x=0, y=0\\}\\) is a subspace and identify it geometrically.",
+      "answer": "The set is \\(\\{(0,0,z):z\\in\\mathbb R\\}\\), the \\(z\\)-axis. Sums and scalar multiples keep the first two components zero, so it is a subspace.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-14",
+      "prompt": "Find \\(a,b,c\\) if \\(a(1,0,0)+b(0,1,0)+c(0,0,1)=(3,-2,5)\\).",
+      "answer": "Equating components gives \\(a=3\\), \\(b=-2\\), and \\(c=5\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-15",
+      "prompt": "Is \\(\\{(x,y):x+y=1\\}\\) a subspace of \\(\\mathbb R^2\\)?",
+      "answer": "No. The zero vector gives \\(0+0=0\\), not \\(1\\), so the set does not contain \\(\\mathbf0\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-16",
+      "prompt": "Show that the span of \\((1,2,3)\\) is closed under addition.",
+      "answer": "Vectors in the span have form \\(a(1,2,3)\\). Adding \\(a(1,2,3)+b(1,2,3)=(a+b)(1,2,3)\\), which is still in the span.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-17",
+      "prompt": "Find all \\(t\\) such that \\((2,t,6)\\) lies in \\(\\operatorname{span}\\{(1,2,3)\\}\\).",
+      "answer": "If \\((2,t,6)=a(1,2,3)\\), then \\(a=2\\) from the first component and \\(3a=6\\) agrees. Thus \\(t=2a=4\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-18",
+      "prompt": "Determine whether \\(S=\\{(x,y,z):x-y+2z=0\\}\\) is a subspace of \\(\\mathbb R^3\\), and give two independent vectors that span it.",
+      "answer": "The equation is homogeneous, so \\(\\mathbf0\\in S\\), and linear combinations preserve \\(x-y+2z=0\\). To span it, write \\(x=y-2z\\). Let \\(y=s\\) and \\(z=t\\), giving \\((x,y,z)=(s-2t,s,t)=s(1,1,0)+t(-2,0,1)\\). The two spanning vectors are independent, so \\(S=\\operatorname{span}\\{(1,1,0),(-2,0,1)\\}\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-19",
+      "prompt": "Decide whether \\((1,0,0),(0,1,0),(1,1,0)\\) spans \\(\\mathbb R^3\\). If not, identify the subspace they do span and give a redundant vector.",
+      "answer": "Every listed vector has third component \\(0\\), so no linear combination can produce a vector with non-zero third component, such as \\((0,0,1)\\). They do not span \\(\\mathbb R^3\\); they span the \\(xy\\)-plane \\(\\{(x,y,0):x,y\\in\\mathbb R\\}\\). The vector \\((1,1,0)\\) is redundant because \\((1,1,0)=(1,0,0)+(0,1,0)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-vector-spaces-20",
+      "prompt": "Find the dimension of \\(\\operatorname{span}\\{(1,0,1),(0,1,1),(1,1,2)\\}\\), and determine whether \\((2,3,5)\\) lies in this span.",
+      "answer": "The third vector is the sum of the first two, so it is redundant. The first two are independent, so the span has dimension \\(2\\). To test \\((2,3,5)\\), solve \\(a(1,0,1)+b(0,1,1)=(2,3,5)\\). The first two components give \\(a=2\\), \\(b=3\\), and the third gives \\(a+b=5\\), which holds. Therefore \\((2,3,5)\\) lies in the span.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

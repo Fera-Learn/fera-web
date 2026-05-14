@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-analysis",
+  "topicId": "harmonic-functions",
+  "topicTitle": "Harmonic Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-01",
+      "prompt": "What is the main purpose of Harmonic Functions?",
+      "answer": "A harmonic function is a twice-differentiable scalar function satisfying Laplace's equation. In complex analysis, the real and imaginary parts of an analytic function are harmonic.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-02",
+      "prompt": "What does \\(u(x,y)\\) mean in Harmonic Functions?",
+      "answer": "In Harmonic Functions, \\(u(x,y)\\) means real-valued scalar function.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-03",
+      "prompt": "Identify another important piece of notation used in Harmonic Functions.",
+      "answer": "In Harmonic Functions, \\(\\nabla^2u\\) means Laplacian of u.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-04",
+      "prompt": "Before doing a harmonic functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: A two-variable function is harmonic when \\(\\nabla^2u=u_{xx}+u_{yy}=0\\). If \\(f=u+iv\\) is analytic, then both \\(u\\) and \\(v\\) satisfy this equation.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-05",
+      "prompt": "State a central formula or test for Harmonic Functions.",
+      "answer": "The harmonic condition is\n\\[ \\nabla^2u=u_{xx}+u_{yy}=0\\]\nUse it only after the symbols in the formula have been identified for the specific harmonic functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-06",
+      "prompt": "How is the formula or method in Harmonic Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The harmonic condition is\n\\[ \\nabla^2u=u_{xx}+u_{yy}=0\\]\nUse it only after the symbols in the formula have been identified for the specific harmonic functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-07",
+      "prompt": "For \\(f(z)=z^2\\), identify \\(u\\) and check it is harmonic.",
+      "answer": "Since \\(z^2=(x^2-y^2)+i(2xy)\\), the real part is \\(u=x^2-y^2\\). Then \\(u_{xx}=2\\) and \\(u_{yy}=-2\\), so \\[u_{xx}+u_{yy}=0\\] Thus \\(u\\) is harmonic.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-08",
+      "prompt": "For \\(u=x^2-y^2\\), find a harmonic conjugate \\(v\\).",
+      "answer": "Use Cauchy-Riemann equations: \\(u_x=2x=v_y\\). Integrating with respect to \\(y\\) gives \\(v=2xy+g(x)\\). Also \\(u_y=-2y=-v_x\\), so \\(v_x=2y\\). This forces \\(g'(x)=0\\). A conjugate is \\(v=2xy\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-09",
+      "prompt": "What method choice is usually needed in a standard harmonic functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: A two-variable function is harmonic when \\(\\nabla^2u=u_{xx}+u_{yy}=0\\). If \\(f=u+iv\\) is analytic, then both \\(u\\) and \\(v\\) satisfy this equation.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-10",
+      "prompt": "Use the notation of Harmonic Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,y)\\), meaning real-valued scalar function; \\(\\nabla^2u\\), meaning Laplacian of u; \\(v(x,y)\\), meaning harmonic conjugate candidate.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-11",
+      "prompt": "Why are harmonic functions common in potential theory?",
+      "answer": "Source-free steady potentials satisfy Laplace's equation. Harmonic functions provide local models for such potentials in electrostatics, gravity, heat, and fluid flow.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-12",
+      "prompt": "What physical or modelling interpretation can Harmonic Functions have?",
+      "answer": "In a physics model, the idea of harmonic functions helps translate a mathematical expression into a statement about the system. A harmonic function is a twice-differentiable scalar function satisfying Laplace's equation. In complex analysis, the real and imaginary parts of an analytic function are harmonic.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-13",
+      "prompt": "Correct this mistake in Harmonic Functions: Calling every solution of \\(u_{xx}=0\\) harmonic.",
+      "answer": "check the full sum \\(u_{xx}+u_{yy}=0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-14",
+      "prompt": "Why is it important to check assumptions when using Harmonic Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Harmonic functions satisfy \\(\\nabla^2u=0\\). They appear as source-free potentials and as real or imaginary parts of analytic functions.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-15",
+      "prompt": "Correct this second mistake in Harmonic Functions: Assuming a harmonic conjugate is always global.",
+      "answer": "domain topology matters.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Harmonic Functions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Harmonic functions satisfy \\(\\nabla^2u=0\\). They appear as source-free potentials and as real or imaginary parts of analytic functions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-17",
+      "prompt": "Correct this third mistake in Harmonic Functions: Forgetting that analytic functions produce two harmonic functions.",
+      "answer": "both real and imaginary parts satisfy Laplace's equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step harmonic functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: A two-variable function is harmonic when \\(\\nabla^2u=u_{xx}+u_{yy}=0\\). If \\(f=u+iv\\) is analytic, then both \\(u\\) and \\(v\\) satisfy this equation. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-19",
+      "prompt": "How could an incorrect setup affect a harmonic functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Calling every solution of \\(u_{xx}=0\\) harmonic must be avoided: check the full sum \\(u_{xx}+u_{yy}=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-harmonic-functions-20",
+      "prompt": "Give an exam-ready summary rule for Harmonic Functions.",
+      "answer": "Harmonic functions satisfy \\(\\nabla^2u=0\\). They appear as source-free potentials and as real or imaginary parts of analytic functions. If a formula is needed, use \\[ \\nabla^2u=u_{xx}+u_{yy}=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

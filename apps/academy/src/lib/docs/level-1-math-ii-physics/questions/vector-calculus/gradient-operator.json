@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "gradient-operator",
+  "topicTitle": "Gradient Operator",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-01",
+      "prompt": "What is the main purpose of Gradient Operator?",
+      "answer": "The gradient operator \\(\\nabla\\) packages spatial derivatives into a vector-like differential operator. Applied to a scalar field it gives a gradient, dotted with a vector field it gives divergence, and crossed with a vector field it gives curl.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-02",
+      "prompt": "What does \\(\\nabla\\) mean in Gradient Operator?",
+      "answer": "In Gradient Operator, \\(\\nabla\\) means del operator: vector of partial derivative operators.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-03",
+      "prompt": "Identify another important piece of notation used in Gradient Operator.",
+      "answer": "In Gradient Operator, \\(\\nabla f\\) means gradient of scalar field f.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-04",
+      "prompt": "Before doing a gradient operator calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: In Cartesian coordinates, The operator must act on something; by itself it is not a physical vector field.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-05",
+      "prompt": "State a central formula or test for Gradient Operator.",
+      "answer": "The del operator is\n\\[ \\nabla=\\hat{\\mathbf i}\\frac{\\partial}{\\partial x}+\\hat{\\mathbf j}\\frac{\\partial}{\\partial y}+\\hat{\\mathbf k}\\frac{\\partial}{\\partial z}\\]\nUse it only after the symbols in the formula have been identified for the specific gradient operator problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-06",
+      "prompt": "How is the formula or method in Gradient Operator interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The del operator is\n\\[ \\nabla=\\hat{\\mathbf i}\\frac{\\partial}{\\partial x}+\\hat{\\mathbf j}\\frac{\\partial}{\\partial y}+\\hat{\\mathbf k}\\frac{\\partial}{\\partial z}\\]\nUse it only after the symbols in the formula have been identified for the specific gradient operator problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-07",
+      "prompt": "Use \\(\\nabla\\) on \\(f=x^2y+z\\).",
+      "answer": "Differentiate with respect to each coordinate: \\[ \\nabla f=\\left(\\frac{\\partial f}{\\partial x},\\frac{\\partial f}{\\partial y},\\frac{\\partial f}{\\partial z}\\right)=(2xy,x^2,1)\\] The result is a vector field.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-08",
+      "prompt": "Use \\(\\nabla\\cdot\\) on \\(\\mathbf F=(x^2,y^2,z^2)\\).",
+      "answer": "Take the matching derivatives and add: \\[ \\nabla\\cdot\\mathbf F=2x+2y+2z\\] The result is a scalar field.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-09",
+      "prompt": "What method choice is usually needed in a standard gradient operator question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: In Cartesian coordinates, The operator must act on something; by itself it is not a physical vector field.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-10",
+      "prompt": "Use the notation of Gradient Operator to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\nabla\\), meaning del operator: vector of partial derivative operators; \\(\\nabla f\\), meaning gradient of scalar field f; \\(\\nabla\\cdot\\mathbf F\\), meaning divergence of vector field F.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-11",
+      "prompt": "If \\(V\\) is electric potential, why does \\(-\\nabla V\\) have vector units?",
+      "answer": "The operator differentiates potential with respect to distance. Each component has units of potential per length, and the minus sign points from high potential toward decreasing potential.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-12",
+      "prompt": "What physical or modelling interpretation can Gradient Operator have?",
+      "answer": "In a physics model, the idea of gradient operator helps translate a mathematical expression into a statement about the system. The gradient operator \\(\\nabla\\) packages spatial derivatives into a vector-like differential operator. Applied to a scalar field it gives a gradient, dotted with a vector field it gives divergence, and crossed with a vector field it gives curl.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-13",
+      "prompt": "Correct this mistake in Gradient Operator: Treating \\(\\nabla\\) as an ordinary vector.",
+      "answer": "its components are derivative operators.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-14",
+      "prompt": "Why is it important to check assumptions when using Gradient Operator?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The del operator organizes spatial differentiation. Gradient, divergence, and curl are different ways of applying \\(\\nabla\\) to scalar or vector fields.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-15",
+      "prompt": "Correct this second mistake in Gradient Operator: Applying curl to a scalar field.",
+      "answer": "scalars use gradient; vector fields use divergence or curl.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Gradient Operator?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The del operator organizes spatial differentiation. Gradient, divergence, and curl are different ways of applying \\(\\nabla\\) to scalar or vector fields.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-17",
+      "prompt": "Correct this third mistake in Gradient Operator: Losing units.",
+      "answer": "every derivative divides by the unit of the coordinate.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-18",
+      "prompt": "Design an exam solution plan for a multi-step gradient operator problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: In Cartesian coordinates, The operator must act on something; by itself it is not a physical vector field. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-19",
+      "prompt": "How could an incorrect setup affect a gradient operator result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating \\(\\nabla\\) as an ordinary vector must be avoided: its components are derivative operators.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-gradient-operator-20",
+      "prompt": "Give an exam-ready summary rule for Gradient Operator.",
+      "answer": "The del operator organizes spatial differentiation. Gradient, divergence, and curl are different ways of applying \\(\\nabla\\) to scalar or vector fields. If a formula is needed, use \\[ \\nabla=\\hat{\\mathbf i}\\frac{\\partial}{\\partial x}+\\hat{\\mathbf j}\\frac{\\partial}{\\partial y}+\\hat{\\mathbf k}\\frac{\\partial}{\\partial z}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

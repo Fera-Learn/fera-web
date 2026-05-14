@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vectors",
+  "topicId": "dot-product",
+  "topicTitle": "Dot Product",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vectors-dot-product-01",
+      "prompt": "Compute \\((2,3)\\cdot(4,-1)\\).",
+      "answer": "Multiply matching components and add: \\(2\\cdot4+3(-1)=8-3=5\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-02",
+      "prompt": "Find \\((1,-2,5)\\cdot(3,0,-1)\\).",
+      "answer": "Compute \\(1\\cdot3+(-2)\\cdot0+5(-1)=3+0-5=-2\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-03",
+      "prompt": "Given \\(|\\mathbf a|=6\\), \\(|\\mathbf b|=5\\), and angle \\(60^\\circ\\), find \\(\\mathbf a\\cdot\\mathbf b\\).",
+      "answer": "Use \\(|\\mathbf a||\\mathbf b|\\cos\\theta\\): \\(6\\cdot5\\cdot\\cos60^\\circ=30\\cdot1/2=15\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-04",
+      "prompt": "Test whether \\((2,1)\\) and \\((3,-6)\\) are perpendicular.",
+      "answer": "Their dot product is \\(2\\cdot3+1(-6)=0\\). Since both are non-zero, they are perpendicular.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-05",
+      "prompt": "Find \\(|(2,-3,6)|\\) using a dot product.",
+      "answer": "Compute \\(\\mathbf v\\cdot\\mathbf v=4+9+36=49\\). Thus \\(|\\mathbf v|=\\sqrt{49}=7\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-06",
+      "prompt": "A force \\(\\mathbf F=(6,2)\\) N moves a particle by \\(\\mathbf s=(3,0)\\) m. Find the work done.",
+      "answer": "Work is \\(\\mathbf F\\cdot\\mathbf s=6\\cdot3+2\\cdot0=18\\) J.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-07",
+      "prompt": "Find the angle between \\((1,0)\\) and \\((1,1)\\).",
+      "answer": "The dot product is \\(1\\). The magnitudes are \\(1\\) and \\(\\sqrt2\\). Thus \\(\\cos\\theta=1/\\sqrt2\\), so \\(\\theta=45^\\circ\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-08",
+      "prompt": "Find the scalar projection of \\(\\mathbf a=(3,4)\\) onto \\(\\mathbf b=(1,0)\\).",
+      "answer": "Scalar projection is \\(\\mathbf a\\cdot\\mathbf b/|\\mathbf b|=(3)/1=3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-09",
+      "prompt": "Find the vector projection of \\(\\mathbf a=(2,3)\\) onto \\(\\mathbf b=(1,1)\\).",
+      "answer": "Use \\((\\mathbf a\\cdot\\mathbf b/|\\mathbf b|^2)\\mathbf b\\). The factor is \\((5)/(2)\\), so the projection is \\((5/2,5/2)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-10",
+      "prompt": "Find \\(k\\) if \\((k,2)\\cdot(3,-6)=0\\).",
+      "answer": "The dot product is \\(3k-12\\). Set it to zero: \\(3k=12\\), so \\(k=4\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-11",
+      "prompt": "Compute \\((\\mathbf i+2\\mathbf j-\\mathbf k)\\cdot(3\\mathbf i-\\mathbf j+4\\mathbf k)\\).",
+      "answer": "Use components: \\(1\\cdot3+2(-1)+(-1)4=3-2-4=-3\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-12",
+      "prompt": "Use dot products to decide whether the triangle with sides \\((3,4)\\) and \\((-4,3)\\) at one vertex is right-angled.",
+      "answer": "Their dot product is \\(3(-4)+4(3)=0\\), so the sides are perpendicular and the angle is right.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-13",
+      "prompt": "Find \\(\\mathbf a\\cdot(2\\mathbf b-\\mathbf c)\\) for \\(\\mathbf a=(1,2)\\), \\(\\mathbf b=(3,0)\\), \\(\\mathbf c=(1,-1)\\).",
+      "answer": "First \\(2\\mathbf b-\\mathbf c=(6,0)-(1,-1)=(5,1)\\). Then \\(\\mathbf a\\cdot(5,1)=5+2=7\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-14",
+      "prompt": "Find the component of \\((4,4)\\) in the direction of unit vector \\((1/\\sqrt2,1/\\sqrt2)\\).",
+      "answer": "Dot with the unit vector: \\(4/\\sqrt2+4/\\sqrt2=8/\\sqrt2=4\\sqrt2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-15",
+      "prompt": "Find the angle between \\((1,2,2)\\) and \\((2,0,1)\\).",
+      "answer": "The dot product is \\(4\\). The magnitudes are \\(3\\) and \\(\\sqrt5\\), so \\(\\cos\\theta=4/(3\\sqrt5)\\). Hence \\(\\theta=\\cos^{-1}(4/(3\\sqrt5))\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-16",
+      "prompt": "Find \\(x\\) if \\((x,1,2)\\) is orthogonal to \\((3,-1,4)\\).",
+      "answer": "The dot product is \\(3x-1+8=3x+7\\). Set it to zero, giving \\(x=-7/3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-17",
+      "prompt": "A force of magnitude \\(10\\) N acts at \\(30^\\circ\\) to a displacement of \\(4\\) m. Find the work.",
+      "answer": "Work is \\(10\\cdot4\\cos30^\\circ=40(\\sqrt3/2)=20\\sqrt3\\) J.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-18",
+      "prompt": "Show that \\((\\mathbf a+\\mathbf b)\\cdot(\\mathbf a-\\mathbf b)=|\\mathbf a|^2-|\\mathbf b|^2\\), then explain what happens when \\(|\\mathbf a|=|\\mathbf b|\\).",
+      "answer": "Expand: \\(\\mathbf a\\cdot\\mathbf a-\\mathbf a\\cdot\\mathbf b+\\mathbf b\\cdot\\mathbf a-\\mathbf b\\cdot\\mathbf b\\). Since \\(\\mathbf b\\cdot\\mathbf a=\\mathbf a\\cdot\\mathbf b\\), the middle terms cancel, leaving \\(|\\mathbf a|^2-|\\mathbf b|^2\\). If \\(|\\mathbf a|=|\\mathbf b|\\), this value is \\(0\\), so \\(\\mathbf a+\\mathbf b\\) and \\(\\mathbf a-\\mathbf b\\) are perpendicular when they are non-zero.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-19",
+      "prompt": "Find the work done by \\(\\mathbf F=(2,-1,3)\\) along displacement \\(\\mathbf s=(4,5,-2)\\), then find the component of the force in the direction of the displacement.",
+      "answer": "Work is \\(\\mathbf F\\cdot\\mathbf s=2\\cdot4+(-1)5+3(-2)=8-5-6=-3\\) J, so the force opposes the displacement overall. The component of force in the displacement direction is \\(\\mathbf F\\cdot\\mathbf s/|\\mathbf s|=-3/\\sqrt{4^2+5^2+(-2)^2}=-3/(3\\sqrt5)=-1/\\sqrt5\\) N.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-dot-product-20",
+      "prompt": "Find \\(\\lambda\\) so that \\((1,\\lambda,2)\\) makes a \\(60^\\circ\\) angle with \\((1,0,0)\\), with \\(\\lambda\\ge0\\).",
+      "answer": "The dot product is \\(1\\), and the magnitudes are \\(\\sqrt{1+\\lambda^2+4}\\) and \\(1\\). So \\(1/\\sqrt{\\lambda^2+5}=1/2\\). Hence \\(\\lambda^2+5=4\\), impossible, so no such \\(\\lambda\\) exists.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

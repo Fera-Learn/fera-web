@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "general-periods",
+  "topicTitle": "General Periods",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-general-periods-01",
+      "prompt": "What is the main purpose of General Periods?",
+      "answer": "Fourier series can represent functions with period 2L rather than just 2 pi. The harmonics change from nx to n pi x divided by L so that each mode fits the interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-02",
+      "prompt": "What does \\(L\\) mean in General Periods?",
+      "answer": "In General Periods, \\(L\\) means positive half-period. Its unit is same unit as x.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-03",
+      "prompt": "Identify another important piece of notation used in General Periods.",
+      "answer": "In General Periods, \\(2L\\) means full period. Its unit is same unit as x.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-04",
+      "prompt": "Before doing a general periods calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Replace x in the standard modes by pi x over L.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-05",
+      "prompt": "State a central formula or test for General Periods.",
+      "answer": "The fourier series on negative l to l is\n\\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}\\left(a_n\\cos\\frac{n\\pi x}{L}+b_n\\sin\\frac{n\\pi x}{L}\\right)\\]\nUse it only after the symbols in the formula have been identified for the specific general periods problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-06",
+      "prompt": "How is the formula or method in General Periods interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The general-period coefficients is\n\\[a_n=\\frac{1}{L}\\int_{-L}^{L}f(x)\\cos\\frac{n\\pi x}{L}\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific general periods problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-07",
+      "prompt": "Why do fixed-string boundary modes on the interval from 0 to L use sin n pi x over L?",
+      "answer": "This is a boundary-mode example on the interval from 0 to L, not the same setup as a periodic Fourier series on negative L to L. A fixed string has zero displacement at x=0 and x=L. The sine mode satisfies \\[\\sin\\frac{n\\pi 0}{L}=0\\] and \\[\\sin\\frac{n\\pi L}{L}=\\sin n\\pi=0\\] Thus each positive integer n gives a mode that fits the fixed-end boundary conditions.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-08",
+      "prompt": "What changes in the coefficient formula when the interval is negative L to L?",
+      "answer": "The interval length changes, so the normalization changes from one over pi to one over L, and the mode argument changes from nx to n pi x over L: \\[b_n=\\frac{1}{L}\\int_{-L}^{L}f(x)\\sin\\frac{n\\pi x}{L}\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-09",
+      "prompt": "What method choice is usually needed in a standard general periods question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Replace x in the standard modes by pi x over L.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-10",
+      "prompt": "Use the notation of General Periods to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(L\\), meaning positive half-period; \\(2L\\), meaning full period; \\(f(x)\\), meaning periodic function on negative L to L.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-11",
+      "prompt": "Explain a common worked step in General Periods.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of General Periods.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-12",
+      "prompt": "What physical or modelling interpretation can General Periods have?",
+      "answer": "In a physics model, the idea of general periods helps translate a mathematical expression into a statement about the system. Fourier series can represent functions with period 2L rather than just 2 pi. The harmonics change from nx to n pi x divided by L so that each mode fits the interval.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-13",
+      "prompt": "Correct this mistake in General Periods: Using cos nx on an interval with period 2L.",
+      "answer": "use cos n pi x over L and sin n pi x over L.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-14",
+      "prompt": "Why is it important to check assumptions when using General Periods?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For period 2L, Fourier modes are sin and cos of n pi x over L, with coefficient normalization one over L.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-15",
+      "prompt": "Correct this second mistake in General Periods: Keeping the one over pi normalization.",
+      "answer": "for negative L to L the factor is one over L.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in General Periods?",
+      "answer": "Track the units in the notation: \\(L\\) has unit same unit as x; \\(2L\\) has unit same unit as x.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-17",
+      "prompt": "Correct this third mistake in General Periods: Treating fixed-string modes on zero to L as the same as periodic Fourier modes on negative L to L.",
+      "answer": "they use related sine functions but come from boundary conditions rather than periodic extension on a symmetric interval.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-18",
+      "prompt": "Design an exam solution plan for a multi-step general periods problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Replace x in the standard modes by pi x over L. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-19",
+      "prompt": "How could an incorrect setup affect a general periods result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using cos nx on an interval with period 2L must be avoided: use cos n pi x over L and sin n pi x over L.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-general-periods-20",
+      "prompt": "Give an exam-ready summary rule for General Periods.",
+      "answer": "For period 2L, Fourier modes are sin and cos of n pi x over L, with coefficient normalization one over L. If a formula is needed, use \\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}\\left(a_n\\cos\\frac{n\\pi x}{L}+b_n\\sin\\frac{n\\pi x}{L}\\right)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

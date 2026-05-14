@@ -1,6 +1,8 @@
 import { level1PhysicsExamSets } from "@/lib/docs/level-1-physics/exams";
 import { level1MathIPhysicsExamSets } from "@/lib/docs/level-1-math-i-physics/exams";
+import { level1MathIIPhysicsExamSets } from "@/lib/docs/level-1-math-ii-physics/exams";
 import { level1MathIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-i-physics/questions.generated";
+import { level1MathIIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-ii-physics/questions.generated";
 import { level1PhysicsQuestionTopics } from "@/lib/docs/level-1-physics/questions.generated";
 import type { Level1PhysicsExamSet } from "@/lib/docs/level-1-physics/exams/types";
 
@@ -219,6 +221,13 @@ function getLevel1MathIPhysicsTopicQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel1MathIIPhysicsTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_1_MATH_II_PHYSICS_COURSE_ID,
+    questionTopics: level1MathIIPhysicsQuestionTopics,
+  });
+}
+
 function getExamQuestionEntries({
   courseId,
   examSets,
@@ -271,6 +280,13 @@ function getLevel1MathIPhysicsExamQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel1MathIIPhysicsExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_1_MATH_II_PHYSICS_COURSE_ID,
+    examSets: level1MathIIPhysicsExamSets,
+  });
+}
+
 function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
   return getExamQuestionEntries({
     courseId: LEVEL_1_PHYSICS_COURSE_ID,
@@ -308,6 +324,13 @@ function getLevel1MathIPhysicsPapers(): QuestionBankPaper[] {
   });
 }
 
+function getLevel1MathIIPhysicsPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_1_MATH_II_PHYSICS_COURSE_ID,
+    examSets: level1MathIIPhysicsExamSets,
+  });
+}
+
 function getLevel1PhysicsPapers(): QuestionBankPaper[] {
   return getExamPapers({
     courseId: LEVEL_1_PHYSICS_COURSE_ID,
@@ -327,9 +350,9 @@ const COURSE_PROVIDERS: CourseQuestionProvider[] = [
   {
     aliases: [],
     courseId: LEVEL_1_MATH_II_PHYSICS_COURSE_ID,
-    getExamQuestions: () => [],
-    getPapers: () => [],
-    getTopicQuestions: () => [],
+    getExamQuestions: getLevel1MathIIPhysicsExamQuestionEntries,
+    getPapers: getLevel1MathIIPhysicsPapers,
+    getTopicQuestions: getLevel1MathIIPhysicsTopicQuestionEntries,
     label: "Level 1 - Math II (Physics)",
   },
   {

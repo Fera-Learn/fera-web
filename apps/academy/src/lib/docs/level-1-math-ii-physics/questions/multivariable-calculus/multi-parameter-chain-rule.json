@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "multi-parameter-chain-rule",
+  "topicTitle": "Multi-Parameter Chain Rule",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-01",
+      "prompt": "What is the main purpose of Multi-Parameter Chain Rule?",
+      "answer": "The multi-parameter chain rule differentiates a composite field when its inputs depend on several new parameters. Each output partial derivative gets one chain-rule sum for the parameter being changed.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-02",
+      "prompt": "What does \\(f(x,y)\\) mean in Multi-Parameter Chain Rule?",
+      "answer": "In Multi-Parameter Chain Rule, \\(f(x,y)\\) means field written in intermediate variables x and y.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-03",
+      "prompt": "Identify another important piece of notation used in Multi-Parameter Chain Rule.",
+      "answer": "In Multi-Parameter Chain Rule, \\(x(u,v),y(u,v)\\) means intermediate variables depending on parameters u and v.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-04",
+      "prompt": "Before doing a multi-parameter chain rule calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Hold the other parameter fixed and add every route through the intermediate variables. The same pattern gives the v derivative by replacing u with v in the coordinate partials.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-05",
+      "prompt": "State a central formula or test for Multi-Parameter Chain Rule.",
+      "answer": "The chain rule for one parameter is\n\\[\\frac{\\partial f}{\\partial u}=f_x\\frac{\\partial x}{\\partial u}+f_y\\frac{\\partial y}{\\partial u}\\]\nUse it only after the symbols in the formula have been identified for the specific multi-parameter chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-06",
+      "prompt": "How is the formula or method in Multi-Parameter Chain Rule interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The chain rule for one parameter is\n\\[\\frac{\\partial f}{\\partial u}=f_x\\frac{\\partial x}{\\partial u}+f_y\\frac{\\partial y}{\\partial u}\\]\nUse it only after the symbols in the formula have been identified for the specific multi-parameter chain rule problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-07",
+      "prompt": "Let f(x,y)=x^2+y, x=u+v, and y=uv. Find partial f over partial u.",
+      "answer": "Compute f_x=2x and f_y=1. Also x_u=1 and y_u=v. Therefore f_u=f_x x_u+f_y y_u=2x(1)+1(v)=2x+v. Substituting x=u+v gives f_u=2u+3v.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-08",
+      "prompt": "For V(x,y)=xy, x=r cos theta, y=r sin theta, find V_r.",
+      "answer": "The partial derivatives are V_x=y and V_y=x. The coordinate derivatives are x_r=cos theta and y_r=sin theta. Thus V_r=y cos theta+x sin theta. Substitute x and y to get V_r=2r sin theta cos theta.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-09",
+      "prompt": "What method choice is usually needed in a standard multi-parameter chain rule question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Hold the other parameter fixed and add every route through the intermediate variables. The same pattern gives the v derivative by replacing u with v in the coordinate partials.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-10",
+      "prompt": "Use the notation of Multi-Parameter Chain Rule to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x,y)\\), meaning field written in intermediate variables x and y; \\(x(u,v),y(u,v)\\), meaning intermediate variables depending on parameters u and v; \\(\\partial f/\\partial u\\), meaning rate of f as u changes while v is fixed.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-11",
+      "prompt": "What is held fixed when computing partial f over partial u?",
+      "answer": "The parameter v is held fixed, but x and y may still change because they depend on u. The chain rule tracks those induced changes.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-12",
+      "prompt": "What physical or modelling interpretation can Multi-Parameter Chain Rule have?",
+      "answer": "In a physics model, the idea of multi-parameter chain rule helps translate a mathematical expression into a statement about the system. The multi-parameter chain rule differentiates a composite field when its inputs depend on several new parameters. Each output partial derivative gets one chain-rule sum for the parameter being changed.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-13",
+      "prompt": "Correct this mistake in Multi-Parameter Chain Rule: treating x and y as fixed when u changes.",
+      "answer": "x and y are intermediate variables and may change with u.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-14",
+      "prompt": "Why is it important to check assumptions when using Multi-Parameter Chain Rule?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For each parameter, add partial sensitivity through every intermediate variable. Hold the other parameters fixed while differentiating.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-15",
+      "prompt": "Correct this second mistake in Multi-Parameter Chain Rule: mixing u and v derivatives in one term.",
+      "answer": "use only coordinate derivatives with respect to the parameter currently being differentiated.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Multi-Parameter Chain Rule?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. For each parameter, add partial sensitivity through every intermediate variable. Hold the other parameters fixed while differentiating.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-17",
+      "prompt": "Correct this third mistake in Multi-Parameter Chain Rule: forgetting to substitute x(u,v) and y(u,v).",
+      "answer": "give the final answer in the requested variables.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-18",
+      "prompt": "Design an exam solution plan for a multi-step multi-parameter chain rule problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Hold the other parameter fixed and add every route through the intermediate variables. The same pattern gives the v derivative by replacing u with v in the coordinate partials. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-19",
+      "prompt": "How could an incorrect setup affect a multi-parameter chain rule result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, treating x and y as fixed when u changes must be avoided: x and y are intermediate variables and may change with u.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multi-parameter-chain-rule-20",
+      "prompt": "Give an exam-ready summary rule for Multi-Parameter Chain Rule.",
+      "answer": "For each parameter, add partial sensitivity through every intermediate variable. Hold the other parameters fixed while differentiating. If a formula is needed, use \\[\\frac{\\partial f}{\\partial u}=f_x\\frac{\\partial x}{\\partial u}+f_y\\frac{\\partial y}{\\partial u}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

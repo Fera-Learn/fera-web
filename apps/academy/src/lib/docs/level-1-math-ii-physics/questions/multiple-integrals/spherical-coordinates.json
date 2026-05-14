@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "spherical-coordinates",
+  "topicTitle": "Spherical Coordinates",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-01",
+      "prompt": "What is the main purpose of Spherical Coordinates?",
+      "answer": "Spherical coordinates describe position by radius and two angles. They are natural for balls, shells, inverse-square fields, and any problem with symmetry around a point.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-02",
+      "prompt": "What does \\(\\rho\\) mean in Spherical Coordinates?",
+      "answer": "In Spherical Coordinates, \\(\\rho\\) means distance from the origin.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-03",
+      "prompt": "Identify another important piece of notation used in Spherical Coordinates.",
+      "answer": "In Spherical Coordinates, \\(\\theta\\) means azimuthal angle in the xy-plane. Its unit is rad.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-04",
+      "prompt": "Before doing a spherical coordinates calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Use spherical coordinates when radius from the origin is the simplest boundary or variable.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-05",
+      "prompt": "State a central formula or test for Spherical Coordinates.",
+      "answer": "The spherical conversion is\n\\[x=\\rho\\sin\\phi\\cos\\theta,\\quad y=\\rho\\sin\\phi\\sin\\theta,\\quad z=\\rho\\cos\\phi\\]\nUse it only after the symbols in the formula have been identified for the specific spherical coordinates problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-06",
+      "prompt": "How is the formula or method in Spherical Coordinates interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The spherical volume element is\n\\[dV=\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta\\]\nUse it only after the symbols in the formula have been identified for the specific spherical coordinates problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-07",
+      "prompt": "Use spherical coordinates to find the volume of a ball of radius \\(a\\).",
+      "answer": "Use \\(0\\le\\rho\\le a\\), \\(0\\le\\phi\\le\\pi\\), \\(0\\le\\theta\\le2\\pi\\): \\[V=\\int_0^{2\\pi}\\int_0^\\pi\\int_0^a \\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta=2\\pi\\cdot2\\cdot\\frac{a^3}{3}=\\frac{4\\pi a^3}{3}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-08",
+      "prompt": "Set up \\(\\iiint_D e^{-\\rho}\\,dV\\) over a ball of radius \\(R\\).",
+      "answer": "The integrand depends only on radius. The integral is \\[\\int_0^{2\\pi}\\int_0^\\pi\\int_0^R e^{-\\rho}\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-09",
+      "prompt": "What method choice is usually needed in a standard spherical coordinates question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Use spherical coordinates when radius from the origin is the simplest boundary or variable.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-10",
+      "prompt": "Use the notation of Spherical Coordinates to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\rho\\), meaning distance from the origin; \\(\\theta\\), meaning azimuthal angle in the xy-plane; \\(\\phi\\), meaning polar angle down from the positive z-axis.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-11",
+      "prompt": "What bounds describe the shell \\(a\\le\\rho\\le b\\)?",
+      "answer": "For a full spherical shell, use \\(a\\le\\rho\\le b\\), \\(0\\le\\phi\\le\\pi\\), and \\(0\\le\\theta\\le2\\pi\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-12",
+      "prompt": "What physical or modelling interpretation can Spherical Coordinates have?",
+      "answer": "In a physics model, the idea of spherical coordinates helps translate a mathematical expression into a statement about the system. Spherical coordinates describe position by radius and two angles. They are natural for balls, shells, inverse-square fields, and any problem with symmetry around a point.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-13",
+      "prompt": "Correct this mistake in Spherical Coordinates: Forgetting \\(\\rho^2\\sin\\phi\\).",
+      "answer": "this is the spherical Jacobian factor.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-14",
+      "prompt": "Why is it important to check assumptions when using Spherical Coordinates?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Spherical coordinates are best for point-centred symmetry. Use the conversion formulas and include \\(\\rho^2\\sin\\phi\\) in the volume element.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-15",
+      "prompt": "Correct this second mistake in Spherical Coordinates: Confusing \\(\\rho\\) with cylindrical \\(r\\).",
+      "answer": "\\(\\rho\\) is distance from the origin; cylindrical \\(r\\) is distance from the z-axis.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Spherical Coordinates?",
+      "answer": "Track the units in the notation: \\(\\theta\\) has unit rad; \\(\\phi\\) has unit rad.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-17",
+      "prompt": "Correct this third mistake in Spherical Coordinates: Mixing angle conventions.",
+      "answer": "define \\(\\theta\\) and \\(\\phi\\) before writing bounds.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-18",
+      "prompt": "Design an exam solution plan for a multi-step spherical coordinates problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Use spherical coordinates when radius from the origin is the simplest boundary or variable. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-19",
+      "prompt": "How could an incorrect setup affect a spherical coordinates result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Forgetting \\(\\rho^2\\sin\\phi\\) must be avoided: this is the spherical Jacobian factor.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-spherical-coordinates-20",
+      "prompt": "Give an exam-ready summary rule for Spherical Coordinates.",
+      "answer": "Spherical coordinates are best for point-centred symmetry. Use the conversion formulas and include \\(\\rho^2\\sin\\phi\\) in the volume element. If a formula is needed, use \\[x=\\rho\\sin\\phi\\cos\\theta,\\quad y=\\rho\\sin\\phi\\sin\\theta,\\quad z=\\rho\\cos\\phi\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "fourier-series",
+  "topicTitle": "Fourier Series",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-01",
+      "prompt": "What is the main purpose of Fourier Series?",
+      "answer": "A Fourier series represents a periodic signal as a constant term plus sine and cosine harmonics. Each harmonic is a simple wave mode with an integer multiple of the fundamental frequency.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-02",
+      "prompt": "What does \\(x\\) mean in Fourier Series?",
+      "answer": "In Fourier Series, \\(x\\) means dimensionless input on an interval of length 2 pi.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-03",
+      "prompt": "Identify another important piece of notation used in Fourier Series.",
+      "answer": "In Fourier Series, \\(f(x)\\) means periodic function being represented.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-04",
+      "prompt": "Before doing a fourier series calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The standard real Fourier series on a two-pi interval is a sum of orthogonal modes. The constant term is written as a0 over two so the coefficient formula for a0 matches the other cosine coefficients.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-05",
+      "prompt": "State a central formula or test for Fourier Series.",
+      "answer": "The fourier series is\n\\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\]\nUse it only after the symbols in the formula have been identified for the specific fourier series problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-06",
+      "prompt": "How is the formula or method in Fourier Series interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The fourier series is\n\\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\]\nUse it only after the symbols in the formula have been identified for the specific fourier series problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-07",
+      "prompt": "Write the Fourier series for f(x)=3 cos 2x.",
+      "answer": "The function already is one Fourier mode. The constant coefficient is zero, every sine coefficient is zero, and every cosine coefficient is zero except a_2=3. Therefore \\[f(x)=3\\cos2x\\] is its own Fourier series.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-08",
+      "prompt": "What does a large b_3 mean in a measured periodic signal?",
+      "answer": "The coefficient b_3 multiplies sin 3x. A large value means the signal contains a strong third sine harmonic. In a vibration measurement, that mode oscillates three times during one fundamental cycle.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-09",
+      "prompt": "What method choice is usually needed in a standard fourier series question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The standard real Fourier series on a two-pi interval is a sum of orthogonal modes. The constant term is written as a0 over two so the coefficient formula for a0 matches the other cosine coefficients.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-10",
+      "prompt": "Use the notation of Fourier Series to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning dimensionless input on an interval of length 2 pi; \\(f(x)\\), meaning periodic function being represented; \\(a_0,a_n,b_n\\), meaning Fourier coefficients.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-11",
+      "prompt": "Explain a common worked step in Fourier Series.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Fourier Series.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-12",
+      "prompt": "What physical or modelling interpretation can Fourier Series have?",
+      "answer": "In a physics model, the idea of fourier series helps translate a mathematical expression into a statement about the system. A Fourier series represents a periodic signal as a constant term plus sine and cosine harmonics. Each harmonic is a simple wave mode with an integer multiple of the fundamental frequency.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-13",
+      "prompt": "Correct this mistake in Fourier Series: Expecting a finite sum for every signal.",
+      "answer": "many periodic signals require infinitely many harmonics.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-14",
+      "prompt": "Why is it important to check assumptions when using Fourier Series?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A Fourier series decomposes a periodic function into a constant part plus sine and cosine harmonics.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-15",
+      "prompt": "Correct this second mistake in Fourier Series: Ignoring jumps.",
+      "answer": "at a jump, the Fourier series converges to the midpoint of the left and right limits when standard convergence conditions hold.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Fourier Series?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. A Fourier series decomposes a periodic function into a constant part plus sine and cosine harmonics.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-17",
+      "prompt": "Correct this third mistake in Fourier Series: Ignoring jumps.",
+      "answer": "at a jump, the Fourier series converges to the midpoint of the left and right limits when standard convergence conditions hold.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-18",
+      "prompt": "Design an exam solution plan for a multi-step fourier series problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The standard real Fourier series on a two-pi interval is a sum of orthogonal modes. The constant term is written as a0 over two so the coefficient formula for a0 matches the other cosine coefficients. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-19",
+      "prompt": "How could an incorrect setup affect a fourier series result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Expecting a finite sum for every signal must be avoided: many periodic signals require infinitely many harmonics.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-series-20",
+      "prompt": "Give an exam-ready summary rule for Fourier Series.",
+      "answer": "A Fourier series decomposes a periodic function into a constant part plus sine and cosine harmonics. If a formula is needed, use \\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "general-normal",
+  "topicTitle": "General Normal",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-general-normal-01",
+      "prompt": "Let \\(X\\sim N(50,5^2)\\). Convert \\(X=60\\) to a standard normal \\(z\\)-score.",
+      "answer": "Standardise with \\(z=(x-\\mu)/\\sigma\\). Here \\[z=\\frac{60-50}{5}=2.\\] So \\(X=60\\) is \\(2\\) standard deviations above the mean.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-02",
+      "prompt": "Let \\(X\\sim N(10,2^2)\\). Estimate \\(P(X<7)\\).",
+      "answer": "Standardise first: \\[z=\\frac{7-10}{2}=-1.5.\\] Therefore \\(P(X<7)=\\Phi(-1.5)\\approx0.0668\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-03",
+      "prompt": "Let \\(X\\sim N(80,10^2)\\). Estimate \\(P(X>65)\\).",
+      "answer": "The standardised value is \\[z=\\frac{65-80}{10}=-1.5.\\] Hence \\(P(X>65)=P(Z>-1.5)=1-0.0668=0.9332\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-04",
+      "prompt": "Let \\(X\\sim N(20,4^2)\\). Estimate \\(P(20<X<24)\\).",
+      "answer": "The endpoints give \\(z=0\\) and \\(z=(24-20)/4=1\\). Thus \\[P(20<X<24)=\\Phi(1)-\\Phi(0)=0.8413-0.5=0.3413.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-05",
+      "prompt": "Let \\(X\\sim N(30,6^2)\\). Estimate \\(P(X<18)\\).",
+      "answer": "Standardise: \\[z=\\frac{18-30}{6}=-2.\\] Hence \\(P(X<18)=\\Phi(-2)\\approx0.0228\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-06",
+      "prompt": "Let \\(X\\sim N(5,1^2)\\). Estimate \\(P(X>6.5)\\).",
+      "answer": "Standardise: \\[z=\\frac{6.5-5}{1}=1.5.\\] Therefore \\(P(X>6.5)=1-\\Phi(1.5)\\approx1-0.9332=0.0668\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-07",
+      "prompt": "Let \\(X\\sim N(60,8^2)\\). Find the \\(z\\)-score for \\(X=68\\), then estimate \\(P(X<68)\\).",
+      "answer": "The z-score is \\[z=\\frac{68-60}{8}=1.\\] Therefore \\(P(X<68)=\\Phi(1)\\approx0.8413\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-08",
+      "prompt": "Let \\(X\\sim N(40,4^2)\\). Estimate \\(P(X>36)\\).",
+      "answer": "The boundary has \\[z=\\frac{36-40}{4}=-1.\\] Thus \\(P(X>36)=P(Z>-1)=1-\\Phi(-1)=1-0.1587=0.8413\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-09",
+      "prompt": "Let \\(X\\sim N(100,15^2)\\). Estimate \\(P(85<X<130)\\).",
+      "answer": "The z-scores are \\((85-100)/15=-1\\) and \\((130-100)/15=2\\). Hence \\[P(85<X<130)=\\Phi(2)-\\Phi(-1)\\approx0.9772-0.1587=0.8185.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-10",
+      "prompt": "Let \\(X\\sim N(12,3^2)\\). Estimate \\(P(X>15)\\).",
+      "answer": "Standardise: \\(z=(15-12)/3=1\\). Therefore \\[P(X>15)=1-\\Phi(1)=1-0.8413=0.1587.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-11",
+      "prompt": "Let \\(X\\sim N(25,5^2)\\). Find \\(a\\) such that \\(a\\) is one standard deviation below the mean, then find \\(P(X<a)\\).",
+      "answer": "One standard deviation below the mean is \\(a=25-5=20\\). This corresponds to \\(z=-1\\), so \\[P(X<20)=\\Phi(-1)=0.1587.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-12",
+      "prompt": "Let \\(X\\sim N(90,12^2)\\). Estimate \\(P(78<X<102)\\).",
+      "answer": "The z-scores are \\(-1\\) and \\(1\\). Thus \\[P(78<X<102)=\\Phi(1)-\\Phi(-1)=0.8413-0.1587=0.6826.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-13",
+      "prompt": "Let \\(X\\sim N(300,30^2)\\). Estimate \\(P(X<270\\text{ or }X>360)\\).",
+      "answer": "The z-scores are \\((270-300)/30=-1\\) and \\((360-300)/30=2\\). The probability is \\[P(Z<-1)+P(Z>2)=0.1587+(1-0.9772)=0.1815.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-14",
+      "prompt": "Let \\(X\\sim N(0,2^2)\\). Estimate \\(P(|X|<3.92)\\).",
+      "answer": "The bounds correspond to \\(z=\\pm3.92/2=\\pm1.96\\). Hence \\[P(|X|<3.92)=P(-1.96<Z<1.96)=0.9750-0.0250=0.9500.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-15",
+      "prompt": "Let \\(X\\sim N(75,5^2)\\). Find the raw value with \\(z=1.64\\), then estimate \\(P(X\\le x)\\).",
+      "answer": "The raw value is \\(x=\\mu+z\\sigma=75+1.64(5)=83.2\\). Since \\(z=1.64\\), \\[P(X\\le83.2)=\\Phi(1.64)\\approx0.9495.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-16",
+      "prompt": "Let \\(X\\sim N(45,6^2)\\). Find \\(P(X>57.3)\\) using a z-score.",
+      "answer": "Standardise: \\[z=\\frac{57.3-45}{6}=2.05.\\] Therefore \\(P(X>57.3)=1-\\Phi(2.05)\\approx1-0.9798=0.0202\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-17",
+      "prompt": "Let \\(X\\sim N(1000,100^2)\\). Estimate \\(P(900<X<1164)\\).",
+      "answer": "The z-scores are \\(-1\\) and \\(1.64\\). Therefore \\[P(900<X<1164)=\\Phi(1.64)-\\Phi(-1)=0.9495-0.1587=0.7908.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-18",
+      "prompt": "Let \\(X\\sim N(15,2^2)\\). Estimate \\(P(X<18.28)\\) and identify the z-score used.",
+      "answer": "The z-score is \\(z=(18.28-15)/2=1.64\\). Thus \\[P(X<18.28)=\\Phi(1.64)\\approx0.9495.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-19",
+      "prompt": "Let \\(X\\sim N(200,20^2)\\). Find \\(b\\) such that \\(P(X<b)\\approx0.9750\\).",
+      "answer": "The table value \\(0.9750\\) corresponds to \\(z=1.96\\). Convert back: \\[b=\\mu+z\\sigma=200+1.96(20)=239.2.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-general-normal-20",
+      "prompt": "Let \\(X\\sim N(4,2^2)\\). Estimate \\(P(X>7.28\\mid X>4)\\).",
+      "answer": "The event \\(X>7.28\\) has \\(z=(7.28-4)/2=1.64\\), so \\(P(X>7.28)=1-0.9495=0.0505\\). Also \\(P(X>4)=0.5\\). Hence \\[P(X>7.28\\mid X>4)=\\frac{0.0505}{0.5}=0.101.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

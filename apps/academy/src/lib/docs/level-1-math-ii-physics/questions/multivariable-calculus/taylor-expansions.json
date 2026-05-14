@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "taylor-expansions",
+  "topicTitle": "Taylor Expansions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-01",
+      "prompt": "What is the main purpose of Taylor Expansions?",
+      "answer": "A multivariable Taylor expansion approximates a smooth field near a chosen point using derivatives at that point. First order gives a tangent plane, and second order adds local curvature.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-02",
+      "prompt": "What does \\(\\mathbf a\\) mean in Taylor Expansions?",
+      "answer": "In Taylor Expansions, \\(\\mathbf a\\) means base point where derivatives are evaluated.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-03",
+      "prompt": "Identify another important piece of notation used in Taylor Expansions.",
+      "answer": "In Taylor Expansions, \\(\\mathbf h\\) means small displacement from the base point.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-04",
+      "prompt": "Before doing a taylor expansions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: First order uses value plus linear change; second order adds the quadratic curvature correction. For two variables with \\(\\mathbf h=(dx,dy)\\), the second-order term expands to one half times \\(f_{xx}dx^2+2f_{xy}dx\\,dy+f_{yy}dy^2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-05",
+      "prompt": "State a central formula or test for Taylor Expansions.",
+      "answer": "The taylor expansion to second order is\n\\[f(\\mathbf a+\\mathbf h)\\approx f(\\mathbf a)+\\nabla f(\\mathbf a)\\cdot\\mathbf h+\\frac12\\mathbf h^T H(\\mathbf a)\\mathbf h\\]\nUse it only after the symbols in the formula have been identified for the specific taylor expansions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-06",
+      "prompt": "How is the formula or method in Taylor Expansions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The taylor expansion to second order is\n\\[f(\\mathbf a+\\mathbf h)\\approx f(\\mathbf a)+\\nabla f(\\mathbf a)\\cdot\\mathbf h+\\frac12\\mathbf h^T H(\\mathbf a)\\mathbf h\\]\nUse it only after the symbols in the formula have been identified for the specific taylor expansions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-07",
+      "prompt": "At a point, T=300 K and grad T=(4,-1) K per m. Estimate T after displacement h=(0.2,0.5) m.",
+      "answer": "Use first order: T(a+h) is approximately T(a)+grad T dot h. The dot product is 4(0.2)+(-1)(0.5)=0.8-0.5=0.3 K. The estimate is 300.3 K.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-08",
+      "prompt": "For f(x,y)=x^2+xy at a=(1,2), use second order for h=(0.1,-0.2).",
+      "answer": "First f(a)=1+2=3. The gradient is (2x+y,x), so grad f(a)=(4,1). The Hessian is [[2,1],[1,0]]. Linear change is 4(0.1)+1(-0.2)=0.2. Quadratic part is one half times [0.1,-0.2] H [0.1,-0.2]^T. Hh=(0,-0.1), so h dot Hh=0.02. Half gives 0.01. The estimate is 3.21.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-09",
+      "prompt": "What method choice is usually needed in a standard taylor expansions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: First order uses value plus linear change; second order adds the quadratic curvature correction. For two variables with \\(\\mathbf h=(dx,dy)\\), the second-order term expands to one half times \\(f_{xx}dx^2+2f_{xy}dx\\,dy+f_{yy}dy^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-10",
+      "prompt": "Use the notation of Taylor Expansions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf a\\), meaning base point where derivatives are evaluated; \\(\\mathbf h\\), meaning small displacement from the base point; \\(\\nabla f(\\mathbf a)\\), meaning gradient at the base point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-11",
+      "prompt": "Why does a Taylor expansion usually fail far from the base point?",
+      "answer": "The formula uses derivatives at one point. Far away, the field may curve in ways not captured by the kept terms, so omitted higher-order terms can become significant.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-12",
+      "prompt": "What physical or modelling interpretation can Taylor Expansions have?",
+      "answer": "In a physics model, the idea of taylor expansions helps translate a mathematical expression into a statement about the system. A multivariable Taylor expansion approximates a smooth field near a chosen point using derivatives at that point. First order gives a tangent plane, and second order adds local curvature.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-13",
+      "prompt": "Correct this mistake in Taylor Expansions: evaluating derivatives at the displaced point.",
+      "answer": "Taylor coefficients are evaluated at the base point.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-14",
+      "prompt": "Why is it important to check assumptions when using Taylor Expansions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Taylor expansion is local modelling by value, slope, and curvature at a base point. First order is linear; second order adds the Hessian quadratic term.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-15",
+      "prompt": "Correct this second mistake in Taylor Expansions: omitting the factor one half in the second-order term.",
+      "answer": "include one half before the Hessian quadratic form.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Taylor Expansions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Taylor expansion is local modelling by value, slope, and curvature at a base point. First order is linear; second order adds the Hessian quadratic term.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-17",
+      "prompt": "Correct this third mistake in Taylor Expansions: using large displacements without caution.",
+      "answer": "Taylor approximations are local unless error bounds justify a wider range.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-18",
+      "prompt": "Design an exam solution plan for a multi-step taylor expansions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: First order uses value plus linear change; second order adds the quadratic curvature correction. For two variables with \\(\\mathbf h=(dx,dy)\\), the second-order term expands to one half times \\(f_{xx}dx^2+2f_{xy}dx\\,dy+f_{yy}dy^2\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-19",
+      "prompt": "How could an incorrect setup affect a taylor expansions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, evaluating derivatives at the displaced point must be avoided: Taylor coefficients are evaluated at the base point.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-taylor-expansions-20",
+      "prompt": "Give an exam-ready summary rule for Taylor Expansions.",
+      "answer": "Taylor expansion is local modelling by value, slope, and curvature at a base point. First order is linear; second order adds the Hessian quadratic term. If a formula is needed, use \\[f(\\mathbf a+\\mathbf h)\\approx f(\\mathbf a)+\\nabla f(\\mathbf a)\\cdot\\mathbf h+\\frac12\\mathbf h^T H(\\mathbf a)\\mathbf h\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

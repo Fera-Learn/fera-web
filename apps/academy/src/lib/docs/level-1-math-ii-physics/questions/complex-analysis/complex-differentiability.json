@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-analysis",
+  "topicId": "complex-differentiability",
+  "topicTitle": "Complex Differentiability",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-01",
+      "prompt": "What is the main purpose of Complex Differentiability?",
+      "answer": "Complex differentiability requires one derivative limit that is independent of the direction used to approach the point. This is much stricter than differentiability of a real two-variable function.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-02",
+      "prompt": "What does \\(z=x+iy\\) mean in Complex Differentiability?",
+      "answer": "In Complex Differentiability, \\(z=x+iy\\) means complex input.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-03",
+      "prompt": "Identify another important piece of notation used in Complex Differentiability.",
+      "answer": "In Complex Differentiability, \\(f(z)\\) means complex-valued function.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-04",
+      "prompt": "Before doing a complex differentiability calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The derivative is the limit of the complex difference quotient. The same value must be obtained no matter how \\(h\\) approaches \\(0\\) in the complex plane.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-05",
+      "prompt": "State a central formula or test for Complex Differentiability.",
+      "answer": "The complex derivative is\n\\[f'(z_0)=\\lim_{h\\to0}\\frac{f(z_0+h)-f(z_0)}{h}\\]\nUse it only after the symbols in the formula have been identified for the specific complex differentiability problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-06",
+      "prompt": "How is the formula or method in Complex Differentiability interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The complex derivative is\n\\[f'(z_0)=\\lim_{h\\to0}\\frac{f(z_0+h)-f(z_0)}{h}\\]\nUse it only after the symbols in the formula have been identified for the specific complex differentiability problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-07",
+      "prompt": "Use the definition idea to identify the derivative of \\(f(z)=z^2\\).",
+      "answer": "Compute the quotient: \\[\\frac{(z+h)^2-z^2}{h}=\\frac{2zh+h^2}{h}=2z+h\\] As \\(h\\to0\\), this tends to \\(2z\\), independent of direction. Thus \\(f'(z)=2z\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-08",
+      "prompt": "Why is \\(f(z)=\\overline z\\) not complex differentiable?",
+      "answer": "At \\(0\\), the quotient is \\(\\overline h/h\\). Along the real axis this equals \\(1\\). Along the imaginary axis, with \\(h=it\\), it equals \\(-1\\). The limit depends on direction, so the derivative does not exist.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-09",
+      "prompt": "What method choice is usually needed in a standard complex differentiability question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The derivative is the limit of the complex difference quotient. The same value must be obtained no matter how \\(h\\) approaches \\(0\\) in the complex plane.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-10",
+      "prompt": "Use the notation of Complex Differentiability to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(z=x+iy\\), meaning complex input; \\(f(z)\\), meaning complex-valued function; \\(z_0\\), meaning point where differentiability is tested.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-11",
+      "prompt": "What should be suspected if two approach directions give different quotient limits?",
+      "answer": "The complex derivative does not exist at that point. Complex differentiability requires one direction-independent limit.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-12",
+      "prompt": "What physical or modelling interpretation can Complex Differentiability have?",
+      "answer": "In a physics model, the idea of complex differentiability helps translate a mathematical expression into a statement about the system. Complex differentiability requires one derivative limit that is independent of the direction used to approach the point. This is much stricter than differentiability of a real two-variable function.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-13",
+      "prompt": "Correct this mistake in Complex Differentiability: Checking only a real-axis approach.",
+      "answer": "complex increments can approach from every direction.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-14",
+      "prompt": "Why is it important to check assumptions when using Complex Differentiability?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Complex differentiability means the complex difference quotient has one direction-independent limit. This requirement is much stronger than ordinary two-variable differentiability.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-15",
+      "prompt": "Correct this second mistake in Complex Differentiability: Assuming real partial derivatives are enough.",
+      "answer": "complex differentiability requires the Cauchy-Riemann compatibility conditions plus regularity assumptions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Complex Differentiability?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Complex differentiability means the complex difference quotient has one direction-independent limit. This requirement is much stronger than ordinary two-variable differentiability.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-17",
+      "prompt": "Correct this third mistake in Complex Differentiability: Treating \\(z\\) and \\(\\overline z\\) as equally differentiable.",
+      "answer": "conjugation reverses orientation and fails the complex derivative test.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-18",
+      "prompt": "Design an exam solution plan for a multi-step complex differentiability problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The derivative is the limit of the complex difference quotient. The same value must be obtained no matter how \\(h\\) approaches \\(0\\) in the complex plane. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-19",
+      "prompt": "How could an incorrect setup affect a complex differentiability result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Checking only a real-axis approach must be avoided: complex increments can approach from every direction.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-complex-differentiability-20",
+      "prompt": "Give an exam-ready summary rule for Complex Differentiability.",
+      "answer": "Complex differentiability means the complex difference quotient has one direction-independent limit. This requirement is much stronger than ordinary two-variable differentiability. If a formula is needed, use \\[f'(z_0)=\\lim_{h\\to0}\\frac{f(z_0+h)-f(z_0)}{h}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

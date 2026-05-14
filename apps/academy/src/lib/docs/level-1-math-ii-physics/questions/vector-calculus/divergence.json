@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "divergence",
+  "topicTitle": "Divergence",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-divergence-01",
+      "prompt": "What is the main purpose of Divergence?",
+      "answer": "Divergence measures the local source strength of a vector field. Positive divergence means field lines locally spread out, negative divergence means they locally converge, and zero divergence means no local source or sink at that point.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-02",
+      "prompt": "What does \\(\\nabla\\cdot\\mathbf F\\) mean in Divergence?",
+      "answer": "In Divergence, \\(\\nabla\\cdot\\mathbf F\\) means divergence of the vector field F.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-03",
+      "prompt": "Identify another important piece of notation used in Divergence.",
+      "answer": "In Divergence, \\(F_x,F_y,F_z\\) means Cartesian components of F.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-04",
+      "prompt": "Before doing a divergence calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: In Cartesian coordinates, divergence adds the matching component derivatives. This is a scalar field: each point receives one number.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-05",
+      "prompt": "State a central formula or test for Divergence.",
+      "answer": "The divergence is\n\\[ \\nabla\\cdot\\mathbf F=\\frac{\\partial F_x}{\\partial x}+\\frac{\\partial F_y}{\\partial y}+\\frac{\\partial F_z}{\\partial z}\\]\nUse it only after the symbols in the formula have been identified for the specific divergence problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-06",
+      "prompt": "How is the formula or method in Divergence interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The divergence is\n\\[ \\nabla\\cdot\\mathbf F=\\frac{\\partial F_x}{\\partial x}+\\frac{\\partial F_y}{\\partial y}+\\frac{\\partial F_z}{\\partial z}\\]\nUse it only after the symbols in the formula have been identified for the specific divergence problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-07",
+      "prompt": "Find \\(\\nabla\\cdot\\mathbf F\\) for \\(\\mathbf F=(x,y,z)\\).",
+      "answer": "Differentiate matching components: \\[\\frac{\\partial x}{\\partial x}=1,\\quad \\frac{\\partial y}{\\partial y}=1,\\quad \\frac{\\partial z}{\\partial z}=1\\] Therefore \\[ \\nabla\\cdot\\mathbf F=1+1+1=3\\] The field has positive local spreading everywhere.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-08",
+      "prompt": "Find the divergence of \\(\\mathbf v=(ay,0,0)\\), where \\(a\\) is constant.",
+      "answer": "The x-component depends on \\(y\\), not \\(x\\), so \\(\\partial(ay)/\\partial x=0\\). The other two components are zero. Thus \\[ \\nabla\\cdot\\mathbf v=0\\] This shear field has no local source or sink.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-09",
+      "prompt": "What method choice is usually needed in a standard divergence question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: In Cartesian coordinates, divergence adds the matching component derivatives. This is a scalar field: each point receives one number.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-10",
+      "prompt": "Use the notation of Divergence to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\nabla\\cdot\\mathbf F\\), meaning divergence of the vector field F; \\(F_x,F_y,F_z\\), meaning Cartesian components of F; \\(\\partial F_x/\\partial x\\), meaning rate of change of the x-component in the x-direction.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-11",
+      "prompt": "What does \\(\\nabla\\cdot\\mathbf v=0\\) mean for a fluid velocity field?",
+      "answer": "It means the model has no local volume creation or loss. Fluid may still move and shear, but a small material volume is not locally expanding or compressing.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-12",
+      "prompt": "What physical or modelling interpretation can Divergence have?",
+      "answer": "In a physics model, the idea of divergence helps translate a mathematical expression into a statement about the system. Divergence measures the local source strength of a vector field. Positive divergence means field lines locally spread out, negative divergence means they locally converge, and zero divergence means no local source or sink at that point.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-13",
+      "prompt": "Correct this mistake in Divergence: Differentiating every component with respect to every variable.",
+      "answer": "divergence uses only matching pairs: x with x, y with y, z with z.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-14",
+      "prompt": "Why is it important to check assumptions when using Divergence?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Divergence is the scalar source-strength measure of a vector field. Compute it by adding matching component derivatives.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-15",
+      "prompt": "Correct this second mistake in Divergence: Calling divergence a vector.",
+      "answer": "divergence is scalar.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Divergence?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Divergence is the scalar source-strength measure of a vector field. Compute it by adding matching component derivatives.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-17",
+      "prompt": "Correct this third mistake in Divergence: Assuming zero divergence means zero field.",
+      "answer": "it means no local source; the field can still be nonzero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-18",
+      "prompt": "Design an exam solution plan for a multi-step divergence problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: In Cartesian coordinates, divergence adds the matching component derivatives. This is a scalar field: each point receives one number. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-19",
+      "prompt": "How could an incorrect setup affect a divergence result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Differentiating every component with respect to every variable must be avoided: divergence uses only matching pairs: x with x, y with y, z with z.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-divergence-20",
+      "prompt": "Give an exam-ready summary rule for Divergence.",
+      "answer": "Divergence is the scalar source-strength measure of a vector field. Compute it by adding matching component derivatives. If a formula is needed, use \\[ \\nabla\\cdot\\mathbf F=\\frac{\\partial F_x}{\\partial x}+\\frac{\\partial F_y}{\\partial y}+\\frac{\\partial F_z}{\\partial z}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

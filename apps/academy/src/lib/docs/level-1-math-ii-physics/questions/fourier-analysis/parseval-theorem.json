@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "parseval-theorem",
+  "topicTitle": "Parseval Theorem",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-01",
+      "prompt": "What is the main purpose of Parseval Theorem?",
+      "answer": "Parseval theorem says the total squared size of a periodic function equals the total squared size of its Fourier coefficients. In physics this connects signal energy or wave power to harmonic amplitudes.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-02",
+      "prompt": "What does \\(f(x)\\) mean in Parseval Theorem?",
+      "answer": "In Parseval Theorem, \\(f(x)\\) means periodic function on negative pi to pi.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-03",
+      "prompt": "Identify another important piece of notation used in Parseval Theorem.",
+      "answer": "In Parseval Theorem, \\(a_0,a_n,b_n\\) means real Fourier coefficients.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-04",
+      "prompt": "Before doing a parseval theorem calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For the standard real Fourier series, Parseval equates mean square value with coefficient squares. The factor a0 squared over two appears because the constant term in the series is a0 over two.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-05",
+      "prompt": "State a central formula or test for Parseval Theorem.",
+      "answer": "The parseval theorem is\n\\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\]\nUse it only after the symbols in the formula have been identified for the specific parseval theorem problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-06",
+      "prompt": "How is the formula or method in Parseval Theorem interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The parseval theorem is\n\\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\]\nUse it only after the symbols in the formula have been identified for the specific parseval theorem problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-07",
+      "prompt": "Check Parseval for f(x)=A sin x.",
+      "answer": "The only nonzero Fourier coefficient is b_1=A. The right side is A squared. The left side is \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}A^2\\sin^2x\\,dx=\\frac{A^2}{\\pi}\\pi=A^2\\] Both sides agree, so the squared amplitude is carried by the first sine harmonic.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-08",
+      "prompt": "How does Parseval help interpret a spectrum?",
+      "answer": "Each squared coefficient contributes to the total mean square signal. A vibration with large a_2 and b_2 stores much of its squared amplitude in the second harmonic, because Parseval adds coefficient squares: \\[\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-09",
+      "prompt": "What method choice is usually needed in a standard parseval theorem question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For the standard real Fourier series, Parseval equates mean square value with coefficient squares. The factor a0 squared over two appears because the constant term in the series is a0 over two.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-10",
+      "prompt": "Use the notation of Parseval Theorem to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning periodic function on negative pi to pi; \\(a_0,a_n,b_n\\), meaning real Fourier coefficients; \\(\\int |f|^2 dx\\), meaning total squared amplitude over one period.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-11",
+      "prompt": "Explain a common worked step in Parseval Theorem.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Parseval Theorem.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-12",
+      "prompt": "What physical or modelling interpretation can Parseval Theorem have?",
+      "answer": "In a physics model, the idea of parseval theorem helps translate a mathematical expression into a statement about the system. Parseval theorem says the total squared size of a periodic function equals the total squared size of its Fourier coefficients. In physics this connects signal energy or wave power to harmonic amplitudes.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-13",
+      "prompt": "Correct this mistake in Parseval Theorem: Adding coefficients instead of squared coefficients.",
+      "answer": "Parseval is an energy-like square relation.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-14",
+      "prompt": "Why is it important to check assumptions when using Parseval Theorem?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Parseval theorem converts total squared amplitude in the function into total squared amplitude in its Fourier coefficients.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-15",
+      "prompt": "Correct this second mistake in Parseval Theorem: Forgetting the a0 squared over two term.",
+      "answer": "the constant mode has a different normalization in the real series.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Parseval Theorem?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Parseval theorem converts total squared amplitude in the function into total squared amplitude in its Fourier coefficients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-17",
+      "prompt": "Correct this third mistake in Parseval Theorem: Forgetting the a0 squared over two term.",
+      "answer": "the constant mode has a different normalization in the real series.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-18",
+      "prompt": "Design an exam solution plan for a multi-step parseval theorem problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For the standard real Fourier series, Parseval equates mean square value with coefficient squares. The factor a0 squared over two appears because the constant term in the series is a0 over two. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-19",
+      "prompt": "How could an incorrect setup affect a parseval theorem result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Adding coefficients instead of squared coefficients must be avoided: Parseval is an energy-like square relation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-parseval-theorem-20",
+      "prompt": "Give an exam-ready summary rule for Parseval Theorem.",
+      "answer": "Parseval theorem converts total squared amplitude in the function into total squared amplitude in its Fourier coefficients. If a formula is needed, use \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

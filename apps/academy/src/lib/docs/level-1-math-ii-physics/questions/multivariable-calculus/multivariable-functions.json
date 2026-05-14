@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "multivariable-functions",
+  "topicTitle": "Multivariable Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-01",
+      "prompt": "What is the main purpose of Multivariable Functions?",
+      "answer": "A multivariable function assigns one output to each allowed combination of inputs. In physics this is how a temperature, potential, density, or pressure can depend on position and time rather than on a single variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-02",
+      "prompt": "What does \\(x,y,z\\) mean in Multivariable Functions?",
+      "answer": "In Multivariable Functions, \\(x,y,z\\) means independent spatial coordinates. Its unit is m.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-03",
+      "prompt": "Identify another important piece of notation used in Multivariable Functions.",
+      "answer": "In Multivariable Functions, \\(t\\) means time coordinate when the field changes with time. Its unit is s.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-04",
+      "prompt": "Before doing a multivariable functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: A scalar field takes an ordered input point and returns one scalar output. To use the model, first state the inputs, then state the domain, then evaluate the formula. For example, if temperature is T(x,y)=20-0.3x+0.1y, then x and y locate the point and T is the predicted temperature at that point.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-05",
+      "prompt": "State a central formula or test for Multivariable Functions.",
+      "answer": "The scalar field is\n\\[f:D\\to \\mathbb R,\\qquad (x,y,z)\\mapsto f(x,y,z)\\]\nUse it only after the symbols in the formula have been identified for the specific multivariable functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-06",
+      "prompt": "How is the formula or method in Multivariable Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The scalar field is\n\\[f:D\\to \\mathbb R,\\qquad (x,y,z)\\mapsto f(x,y,z)\\]\nUse it only after the symbols in the formula have been identified for the specific multivariable functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-07",
+      "prompt": "A plate has temperature T(x,y)=20+2x-y. Find T(3,4) and interpret it.",
+      "answer": "Substitute the input point: T(3,4)=20+2(3)-4=22. The output is a scalar temperature value at the point with coordinates x=3 and y=4.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-08",
+      "prompt": "For V(x,y,z)=5-x^2-y^2-z^2, decide whether (1,1,3) lies in the region where V is positive.",
+      "answer": "Evaluate the field: V(1,1,3)=5-1-1-9=-6. Since the result is negative, that point is not in the positive-potential region.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-09",
+      "prompt": "What method choice is usually needed in a standard multivariable functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: A scalar field takes an ordered input point and returns one scalar output. To use the model, first state the inputs, then state the domain, then evaluate the formula. For example, if temperature is T(x,y)=20-0.3x+0.1y, then x and y locate the point and T is the predicted temperature at that point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-10",
+      "prompt": "Use the notation of Multivariable Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x,y,z\\), meaning independent spatial coordinates; \\(t\\), meaning time coordinate when the field changes with time; \\(f(x,y,z)\\), meaning scalar field with one value at each allowed point.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-11",
+      "prompt": "What are the inputs and output in rho(x,y,z)=1000+0.2z for a fluid tank?",
+      "answer": "The inputs are the spatial coordinates x, y, and z. The output rho is the density predicted at that position. The formula says density changes with height z only, even though the field is defined in three-dimensional space.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-12",
+      "prompt": "What physical or modelling interpretation can Multivariable Functions have?",
+      "answer": "In a physics model, the idea of multivariable functions helps translate a mathematical expression into a statement about the system. A multivariable function assigns one output to each allowed combination of inputs. In physics this is how a temperature, potential, density, or pressure can depend on position and time rather than on a single variable.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-13",
+      "prompt": "Correct this mistake in Multivariable Functions: treating a parameter as another input.",
+      "answer": "decide which symbols are varied in the problem and which are fixed constants.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-14",
+      "prompt": "Why is it important to check assumptions when using Multivariable Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A multivariable function is a rule from input points to output values. Name the inputs, state the domain, evaluate carefully, and interpret the output as a field value.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-15",
+      "prompt": "Correct this second mistake in Multivariable Functions: evaluating outside the domain.",
+      "answer": "check restrictions such as square roots, logarithms, denominators, and physical boundaries.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Multivariable Functions?",
+      "answer": "Track the units in the notation: \\(x,y,z\\) has unit m; \\(t\\) has unit s.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-17",
+      "prompt": "Correct this third mistake in Multivariable Functions: forgetting units.",
+      "answer": "attach units to inputs and verify the output unit matches the physical field.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step multivariable functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: A scalar field takes an ordered input point and returns one scalar output. To use the model, first state the inputs, then state the domain, then evaluate the formula. For example, if temperature is T(x,y)=20-0.3x+0.1y, then x and y locate the point and T is the predicted temperature at that point. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-19",
+      "prompt": "How could an incorrect setup affect a multivariable functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, treating a parameter as another input must be avoided: decide which symbols are varied in the problem and which are fixed constants.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-multivariable-functions-20",
+      "prompt": "Give an exam-ready summary rule for Multivariable Functions.",
+      "answer": "A multivariable function is a rule from input points to output values. Name the inputs, state the domain, evaluate carefully, and interpret the output as a field value. If a formula is needed, use \\[f:D\\to \\mathbb R,\\qquad (x,y,z)\\mapsto f(x,y,z)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

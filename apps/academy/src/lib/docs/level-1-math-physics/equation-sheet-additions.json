@@ -1,0 +1,568 @@
+{
+  "sections": [
+    {
+      "sectionId": "probability",
+      "sectionTitle": "Probability",
+      "equations": [
+        {
+          "topicId": "probability-axioms",
+          "topicTitle": "Probability Axioms",
+          "label": "Complement rule",
+          "tex": "P(A^c)=1-P(A)"
+        },
+        {
+          "topicId": "events",
+          "topicTitle": "Events",
+          "label": "Addition rule",
+          "tex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)"
+        },
+        {
+          "topicId": "conditional-probability",
+          "topicTitle": "Conditional Probability",
+          "label": "Conditional probability",
+          "tex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}"
+        },
+        {
+          "topicId": "bayes-theorem",
+          "topicTitle": "Bayes Theorem",
+          "label": "Bayes theorem",
+          "tex": "P(A_i\\mid B)=\\frac{P(B\\mid A_i)P(A_i)}{\\sum_j P(B\\mid A_j)P(A_j)}"
+        },
+        {
+          "topicId": "expectation",
+          "topicTitle": "Expectation",
+          "label": "Discrete expectation",
+          "tex": "\\operatorname E[X]=\\sum_x xP(X=x)"
+        },
+        {
+          "topicId": "variance",
+          "topicTitle": "Variance",
+          "label": "Variance identity",
+          "tex": "\\operatorname{Var}(X)=\\operatorname E[X^2]-(\\operatorname E[X])^2"
+        },
+        {
+          "topicId": "binomial-distribution",
+          "topicTitle": "Binomial Distribution",
+          "label": "Binomial probability",
+          "tex": "P(X=k)=\\binom nk p^k(1-p)^{n-k}"
+        },
+        {
+          "topicId": "poisson-distribution",
+          "topicTitle": "Poisson Distribution",
+          "label": "Poisson probability",
+          "tex": "P(X=k)=e^{-\\lambda}\\frac{\\lambda^k}{k!}"
+        },
+        {
+          "topicId": "normal-distribution",
+          "topicTitle": "Normal Distribution",
+          "label": "Normal density",
+          "tex": "f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}e^{-(x-\\mu)^2/(2\\sigma^2)}"
+        },
+        {
+          "topicId": "standard-normal",
+          "topicTitle": "Standard Normal",
+          "label": "Standardisation",
+          "tex": "Z=\\frac{X-\\mu}{\\sigma}"
+        },
+        {
+          "topicId": "sample-mean",
+          "topicTitle": "Sample Mean",
+          "label": "Sample mean spread",
+          "tex": "\\operatorname E[\\bar X]=\\mu,\\qquad \\operatorname{Var}(\\bar X)=\\frac{\\sigma^2}{n}"
+        }
+      ]
+    },
+    {
+      "sectionId": "vectors",
+      "sectionTitle": "Vectors",
+      "equations": [
+        {
+          "topicId": "vectors",
+          "topicTitle": "Vectors",
+          "label": "Component vector",
+          "tex": "\\mathbf a=(a_1,a_2,a_3)"
+        },
+        {
+          "topicId": "vector-addition",
+          "topicTitle": "Vector Addition",
+          "label": "Vector addition",
+          "tex": "\\mathbf a+\\mathbf b=(a_1+b_1,a_2+b_2,a_3+b_3)"
+        },
+        {
+          "topicId": "scalar-multiplication",
+          "topicTitle": "Scalar Multiplication",
+          "label": "Scalar multiplication",
+          "tex": "\\lambda\\mathbf a=(\\lambda a_1,\\lambda a_2,\\lambda a_3)"
+        },
+        {
+          "topicId": "dot-product",
+          "topicTitle": "Dot Product",
+          "label": "Dot product",
+          "tex": "\\mathbf a\\cdot\\mathbf b=|\\mathbf a||\\mathbf b|\\cos\\theta"
+        },
+        {
+          "topicId": "dot-product",
+          "topicTitle": "Dot Product",
+          "label": "Vector norm",
+          "tex": "|\\mathbf a|=\\sqrt{\\mathbf a\\cdot\\mathbf a}"
+        },
+        {
+          "topicId": "cross-product",
+          "topicTitle": "Cross Product",
+          "label": "Cross product magnitude",
+          "tex": "|\\mathbf a\\times\\mathbf b|=|\\mathbf a||\\mathbf b|\\sin\\theta"
+        },
+        {
+          "topicId": "scalar-triple-product",
+          "topicTitle": "Scalar Triple Product",
+          "label": "Scalar triple product",
+          "tex": "[\\mathbf a,\\mathbf b,\\mathbf c]=\\mathbf a\\cdot(\\mathbf b\\times\\mathbf c)"
+        },
+        {
+          "topicId": "lines",
+          "topicTitle": "Lines",
+          "label": "Vector line",
+          "tex": "\\mathbf r=\\mathbf a+t\\mathbf v"
+        },
+        {
+          "topicId": "planes",
+          "topicTitle": "Planes",
+          "label": "Vector plane",
+          "tex": "\\mathbf n\\cdot(\\mathbf r-\\mathbf a)=0"
+        }
+      ]
+    },
+    {
+      "sectionId": "kinematics",
+      "sectionTitle": "Kinematics",
+      "equations": [
+        {
+          "topicId": "position",
+          "topicTitle": "Position",
+          "label": "Position vector",
+          "tex": "\\mathbf r(t)=x(t)\\mathbf i+y(t)\\mathbf j+z(t)\\mathbf k"
+        },
+        {
+          "topicId": "velocity",
+          "topicTitle": "Velocity",
+          "label": "Velocity",
+          "tex": "\\mathbf v=\\frac{d\\mathbf r}{dt}"
+        },
+        {
+          "topicId": "acceleration",
+          "topicTitle": "Acceleration",
+          "label": "Acceleration",
+          "tex": "\\mathbf a=\\frac{d\\mathbf v}{dt}=\\frac{d^2\\mathbf r}{dt^2}"
+        },
+        {
+          "topicId": "forces",
+          "topicTitle": "Forces",
+          "label": "Newton second law",
+          "tex": "\\mathbf F=m\\mathbf a"
+        },
+        {
+          "topicId": "energy",
+          "topicTitle": "Energy",
+          "label": "Kinetic energy",
+          "tex": "T=\\frac12 m|\\mathbf v|^2"
+        },
+        {
+          "topicId": "work-done",
+          "topicTitle": "Work Done",
+          "label": "Work line integral",
+          "tex": "W=\\int_C\\mathbf F\\cdot d\\mathbf r"
+        },
+        {
+          "topicId": "angular-momentum",
+          "topicTitle": "Angular Momentum",
+          "label": "Angular momentum",
+          "tex": "\\mathbf L=\\mathbf r\\times\\mathbf p"
+        },
+        {
+          "topicId": "polar-coordinates",
+          "topicTitle": "Polar Coordinates",
+          "label": "Polar velocity",
+          "tex": "\\mathbf v=\\dot r\\,\\mathbf e_r+r\\dot\\theta\\,\\mathbf e_\\theta"
+        },
+        {
+          "topicId": "cylindrical-polars",
+          "topicTitle": "Cylindrical Polars",
+          "label": "Cylindrical position",
+          "tex": "\\mathbf r=\\rho\\mathbf e_\\rho+z\\mathbf k"
+        }
+      ]
+    },
+    {
+      "sectionId": "ordinary-differential-equations",
+      "sectionTitle": "Ordinary Differential Equations",
+      "equations": [
+        {
+          "topicId": "ode-introduction",
+          "topicTitle": "ODE Introduction",
+          "label": "First-order ODE",
+          "tex": "\\frac{dy}{dx}=f(x,y)"
+        },
+        {
+          "topicId": "equation-order",
+          "topicTitle": "Equation Order",
+          "label": "nth-order ODE",
+          "tex": "F(x,y,y',\\ldots,y^{(n)})=0"
+        },
+        {
+          "topicId": "initial-conditions",
+          "topicTitle": "Initial Conditions",
+          "label": "Initial condition",
+          "tex": "y(x_0)=y_0"
+        },
+        {
+          "topicId": "separable-equations",
+          "topicTitle": "Separable Equations",
+          "label": "Separable equation",
+          "tex": "\\frac{dy}{dx}=g(x)h(y)\\quad\\Rightarrow\\quad \\int\\frac{dy}{h(y)}=\\int g(x)\\,dx"
+        },
+        {
+          "topicId": "linear-first-order-equations",
+          "topicTitle": "Linear First-Order Equations",
+          "label": "First-order linear solution",
+          "tex": "y\\mu=\\int Q(x)\\mu(x)\\,dx+C,\\qquad \\mu=e^{\\int P(x)\\,dx}"
+        },
+        {
+          "topicId": "second-order-equations",
+          "topicTitle": "Second-Order Equations",
+          "label": "Second-order linear equation",
+          "tex": "ay''+by'+cy=f(x)"
+        },
+        {
+          "topicId": "homogeneous-constant-coefficient-equations",
+          "topicTitle": "Homogeneous Constant-Coefficient Equations",
+          "label": "Characteristic equation",
+          "tex": "ar^2+br+c=0"
+        },
+        {
+          "topicId": "inhomogeneous-constant-coefficient-equations",
+          "topicTitle": "Inhomogeneous Constant-Coefficient Equations",
+          "label": "Complementary plus particular",
+          "tex": "y=y_c+y_p"
+        },
+        {
+          "topicId": "operator-methods",
+          "topicTitle": "Operator Methods",
+          "label": "Differential operator",
+          "tex": "D=\\frac{d}{dx}"
+        }
+      ]
+    },
+    {
+      "sectionId": "fourier-analysis",
+      "sectionTitle": "Fourier Analysis",
+      "equations": [
+        {
+          "topicId": "periodic-functions",
+          "topicTitle": "Periodic Functions",
+          "label": "Periodicity",
+          "tex": "f(x+T)=f(x)"
+        },
+        {
+          "topicId": "function-inner-product",
+          "topicTitle": "Function Inner Product",
+          "label": "Function inner product",
+          "tex": "\\langle f,g\\rangle=\\int_a^b f(x)g(x)\\,dx"
+        },
+        {
+          "topicId": "function-norm",
+          "topicTitle": "Function Norm",
+          "label": "Function norm",
+          "tex": "\\|f\\|=\\sqrt{\\langle f,f\\rangle}"
+        },
+        {
+          "topicId": "fourier-series",
+          "topicTitle": "Fourier Series",
+          "label": "Fourier series",
+          "tex": "f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)"
+        },
+        {
+          "topicId": "fourier-coefficients",
+          "topicTitle": "Fourier Coefficients",
+          "label": "Cosine coefficient",
+          "tex": "a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx"
+        },
+        {
+          "topicId": "fourier-coefficients",
+          "topicTitle": "Fourier Coefficients",
+          "label": "Sine coefficient",
+          "tex": "b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nx\\,dx"
+        },
+        {
+          "topicId": "complex-fourier-form",
+          "topicTitle": "Complex Fourier Form",
+          "label": "Complex Fourier series",
+          "tex": "f(x)\\sim\\sum_{n=-\\infty}^{\\infty}c_ne^{inx}"
+        },
+        {
+          "topicId": "complex-fourier-form",
+          "topicTitle": "Complex Fourier Form",
+          "label": "Complex coefficient",
+          "tex": "c_n=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)e^{-inx}\\,dx"
+        },
+        {
+          "topicId": "parseval-theorem",
+          "topicTitle": "Parseval Theorem",
+          "label": "Parseval theorem",
+          "tex": "\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2)"
+        }
+      ]
+    },
+    {
+      "sectionId": "multivariable-calculus",
+      "sectionTitle": "Multivariable Calculus",
+      "equations": [
+        {
+          "topicId": "partial-derivatives",
+          "topicTitle": "Partial Derivatives",
+          "label": "Partial derivative",
+          "tex": "f_x=\\frac{\\partial f}{\\partial x}"
+        },
+        {
+          "topicId": "higher-partial-derivatives",
+          "topicTitle": "Higher Partial Derivatives",
+          "label": "Second partial derivative",
+          "tex": "f_{xy}=\\frac{\\partial^2 f}{\\partial y\\partial x}"
+        },
+        {
+          "topicId": "clairaut-theorem",
+          "topicTitle": "Clairaut Theorem",
+          "label": "Clairaut theorem",
+          "tex": "f_{xy}=f_{yx}"
+        },
+        {
+          "topicId": "differentials",
+          "topicTitle": "Differentials",
+          "label": "Total differential",
+          "tex": "df=f_x\\,dx+f_y\\,dy"
+        },
+        {
+          "topicId": "gradient",
+          "topicTitle": "Gradient",
+          "label": "Gradient",
+          "tex": "\\nabla f=\\left(\\frac{\\partial f}{\\partial x},\\frac{\\partial f}{\\partial y},\\frac{\\partial f}{\\partial z}\\right)"
+        },
+        {
+          "topicId": "directional-derivatives",
+          "topicTitle": "Directional Derivatives",
+          "label": "Directional derivative",
+          "tex": "D_{\\mathbf u}f=\\nabla f\\cdot\\mathbf u"
+        },
+        {
+          "topicId": "multivariable-chain-rule",
+          "topicTitle": "Multivariable Chain Rule",
+          "label": "Multivariable chain rule",
+          "tex": "\\frac{df}{dt}=\\frac{\\partial f}{\\partial x}\\frac{dx}{dt}+\\frac{\\partial f}{\\partial y}\\frac{dy}{dt}"
+        },
+        {
+          "topicId": "taylor-expansions",
+          "topicTitle": "Taylor Expansions",
+          "label": "Two-variable Taylor expansion",
+          "tex": "f(\\mathbf a+\\mathbf h)\\approx f(\\mathbf a)+\\nabla f(\\mathbf a)\\cdot\\mathbf h+\\frac12\\mathbf h^TH(\\mathbf a)\\mathbf h"
+        },
+        {
+          "topicId": "critical-points",
+          "topicTitle": "Critical Points",
+          "label": "Critical point condition",
+          "tex": "\\nabla f(\\mathbf a)=\\mathbf0"
+        }
+      ]
+    },
+    {
+      "sectionId": "partial-differential-equations",
+      "sectionTitle": "Partial Differential Equations",
+      "equations": [
+        {
+          "topicId": "pde-introduction",
+          "topicTitle": "PDE Introduction",
+          "label": "PDE notation",
+          "tex": "F(x,y,u,u_x,u_y,u_{xx},u_{xy},u_{yy})=0"
+        },
+        {
+          "topicId": "important-pdes",
+          "topicTitle": "Important PDEs",
+          "label": "Heat equation",
+          "tex": "u_t=\\alpha u_{xx}"
+        },
+        {
+          "topicId": "important-pdes",
+          "topicTitle": "Important PDEs",
+          "label": "Wave equation",
+          "tex": "u_{tt}=c^2u_{xx}"
+        },
+        {
+          "topicId": "important-pdes",
+          "topicTitle": "Important PDEs",
+          "label": "Laplace equation",
+          "tex": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "topicId": "separation-of-variables",
+          "topicTitle": "Separation of Variables",
+          "label": "Separated form",
+          "tex": "u(x,t)=X(x)T(t)"
+        },
+        {
+          "topicId": "linear-pdes",
+          "topicTitle": "Linear PDEs",
+          "label": "Linear PDE operator form",
+          "tex": "L[u]=f"
+        }
+      ]
+    },
+    {
+      "sectionId": "vector-calculus",
+      "sectionTitle": "Vector Calculus",
+      "equations": [
+        {
+          "topicId": "vector-fields",
+          "topicTitle": "Vector Fields",
+          "label": "Vector field",
+          "tex": "\\mathbf F(x,y,z)=P\\mathbf i+Q\\mathbf j+R\\mathbf k"
+        },
+        {
+          "topicId": "gradient-operator",
+          "topicTitle": "Gradient Operator",
+          "label": "Del operator",
+          "tex": "\\nabla=\\mathbf i\\frac{\\partial}{\\partial x}+\\mathbf j\\frac{\\partial}{\\partial y}+\\mathbf k\\frac{\\partial}{\\partial z}"
+        },
+        {
+          "topicId": "divergence",
+          "topicTitle": "Divergence",
+          "label": "Divergence",
+          "tex": "\\nabla\\cdot\\mathbf F=\\frac{\\partial P}{\\partial x}+\\frac{\\partial Q}{\\partial y}+\\frac{\\partial R}{\\partial z}"
+        },
+        {
+          "topicId": "curl",
+          "topicTitle": "Curl",
+          "label": "Curl",
+          "tex": "\\nabla\\times\\mathbf F"
+        },
+        {
+          "topicId": "div-grad-curl-identities",
+          "topicTitle": "Div Grad Curl Identities",
+          "label": "Curl of gradient",
+          "tex": "\\nabla\\times(\\nabla f)=\\mathbf0"
+        },
+        {
+          "topicId": "div-grad-curl-identities",
+          "topicTitle": "Div Grad Curl Identities",
+          "label": "Divergence of curl",
+          "tex": "\\nabla\\cdot(\\nabla\\times\\mathbf F)=0"
+        },
+        {
+          "topicId": "maxwell-equations",
+          "topicTitle": "Maxwell Equations",
+          "label": "Gauss law electric",
+          "tex": "\\nabla\\cdot\\mathbf E=\\frac{\\rho}{\\varepsilon_0}"
+        },
+        {
+          "topicId": "maxwell-equations",
+          "topicTitle": "Maxwell Equations",
+          "label": "Faraday law",
+          "tex": "\\nabla\\times\\mathbf E=-\\frac{\\partial\\mathbf B}{\\partial t}"
+        }
+      ]
+    },
+    {
+      "sectionId": "multiple-integrals",
+      "sectionTitle": "Multiple Integrals",
+      "equations": [
+        {
+          "topicId": "double-integrals",
+          "topicTitle": "Double Integrals",
+          "label": "Double integral",
+          "tex": "\\iint_R f(x,y)\\,dA"
+        },
+        {
+          "topicId": "triple-integrals",
+          "topicTitle": "Triple Integrals",
+          "label": "Triple integral",
+          "tex": "\\iiint_D f(x,y,z)\\,dV"
+        },
+        {
+          "topicId": "polar-integration",
+          "topicTitle": "Polar Integration",
+          "label": "Polar area element",
+          "tex": "dA=r\\,dr\\,d\\theta"
+        },
+        {
+          "topicId": "cylindrical-coordinates",
+          "topicTitle": "Cylindrical Coordinates",
+          "label": "Cylindrical volume element",
+          "tex": "dV=r\\,dr\\,d\\theta\\,dz"
+        },
+        {
+          "topicId": "spherical-coordinates",
+          "topicTitle": "Spherical Coordinates",
+          "label": "Spherical volume element",
+          "tex": "dV=\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta"
+        },
+        {
+          "topicId": "jacobian",
+          "topicTitle": "Jacobian",
+          "label": "Jacobian change of variables",
+          "tex": "dA=\\left|\\frac{\\partial(x,y)}{\\partial(u,v)}\\right|du\\,dv"
+        },
+        {
+          "topicId": "volume-interpretation",
+          "topicTitle": "Volume Interpretation",
+          "label": "Volume by double integral",
+          "tex": "V=\\iint_R f(x,y)\\,dA"
+        },
+        {
+          "topicId": "order-switching",
+          "topicTitle": "Order Switching",
+          "label": "Iterated integral region",
+          "tex": "\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx"
+        }
+      ]
+    },
+    {
+      "sectionId": "complex-analysis",
+      "sectionTitle": "Complex Analysis",
+      "equations": [
+        {
+          "topicId": "complex-differentiability",
+          "topicTitle": "Complex Differentiability",
+          "label": "Complex derivative",
+          "tex": "f'(z_0)=\\lim_{h\\to0}\\frac{f(z_0+h)-f(z_0)}{h}"
+        },
+        {
+          "topicId": "cauchy-riemann-equations",
+          "topicTitle": "Cauchy Riemann Equations",
+          "label": "Cauchy-Riemann equations",
+          "tex": "u_x=v_y,\\qquad u_y=-v_x"
+        },
+        {
+          "topicId": "complex-derivative-examples",
+          "topicTitle": "Complex Derivative Examples",
+          "label": "Power derivative",
+          "tex": "\\frac{d}{dz}z^n=nz^{n-1}"
+        },
+        {
+          "topicId": "laplace-equation",
+          "topicTitle": "Laplace Equation",
+          "label": "Two-dimensional Laplace equation",
+          "tex": "u_{xx}+u_{yy}=0"
+        },
+        {
+          "topicId": "harmonic-functions",
+          "topicTitle": "Harmonic Functions",
+          "label": "Harmonic condition",
+          "tex": "\\nabla^2u=0"
+        },
+        {
+          "topicId": "complex-differentiability",
+          "topicTitle": "Complex Differentiability",
+          "label": "Analytic function",
+          "tex": "f\\text{ analytic on }D\\Rightarrow f'\\text{ exists throughout }D"
+        }
+      ]
+    }
+  ]
+}

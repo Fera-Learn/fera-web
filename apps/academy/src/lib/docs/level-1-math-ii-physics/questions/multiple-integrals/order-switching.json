@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "order-switching",
+  "topicTitle": "Order Switching",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-order-switching-01",
+      "prompt": "What is the main purpose of Order Switching?",
+      "answer": "Order switching rewrites the same double integral with the variables integrated in the opposite order. It is useful when the original order is hard but the switched order has simpler bounds or integrand.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-02",
+      "prompt": "What does \\(R\\) mean in Order Switching?",
+      "answer": "In Order Switching, \\(R\\) means same region before and after switching.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-03",
+      "prompt": "Identify another important piece of notation used in Order Switching.",
+      "answer": "In Order Switching, \\(dx\\,dy\\) means x integrated first, then y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-04",
+      "prompt": "Before doing a order switching calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Keep the region fixed and rewrite its inequalities for the new slice direction.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-05",
+      "prompt": "State a central formula or test for Order Switching.",
+      "answer": "The same region, different order is\n\\[\\int_c^d\\int_{h_1(y)}^{h_2(y)}f(x,y)\\,dx\\,dy=\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific order switching problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-06",
+      "prompt": "How is the formula or method in Order Switching interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The same region, different order is\n\\[\\int_c^d\\int_{h_1(y)}^{h_2(y)}f(x,y)\\,dx\\,dy=\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific order switching problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-07",
+      "prompt": "Switch \\(\\int_0^1\\int_0^y f(x,y)\\,dx\\,dy\\).",
+      "answer": "The original bounds say \\(0\\le y\\le1\\) and \\(0\\le x\\le y\\). This is the triangle \\(0\\le x\\le y\\le1\\). For fixed \\(x\\), \\(y\\) runs from \\(x\\) to \\(1\\). Therefore \\[\\int_0^1\\int_x^1 f(x,y)\\,dy\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-08",
+      "prompt": "Why might switching help \\(\\int_0^1\\int_y^1 e^{x^2}\\,dx\\,dy\\)?",
+      "answer": "The inner integral with respect to \\(x\\) has no elementary antiderivative. The region is \\(0\\le y\\le x\\le1\\). Switching gives \\[\\int_0^1\\int_0^x e^{x^2}\\,dy\\,dx=\\int_0^1 x e^{x^2}\\,dx\\] which is elementary.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-09",
+      "prompt": "What method choice is usually needed in a standard order switching question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Keep the region fixed and rewrite its inequalities for the new slice direction.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-10",
+      "prompt": "Use the notation of Order Switching to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(R\\), meaning same region before and after switching; \\(dx\\,dy\\), meaning x integrated first, then y; \\(dy\\,dx\\), meaning y integrated first, then x.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-11",
+      "prompt": "What must remain the same after switching order?",
+      "answer": "The set of points \\(R\\) must be identical. Only the slice description changes. If the switched bounds describe a different region, the integral is not equivalent.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-12",
+      "prompt": "What physical or modelling interpretation can Order Switching have?",
+      "answer": "In a physics model, the idea of order switching helps translate a mathematical expression into a statement about the system. Order switching rewrites the same double integral with the variables integrated in the opposite order. It is useful when the original order is hard but the switched order has simpler bounds or integrand.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-13",
+      "prompt": "Correct this mistake in Order Switching: Swapping differentials without changing bounds.",
+      "answer": "rewrite the region for the new order.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-14",
+      "prompt": "Why is it important to check assumptions when using Order Switching?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Order switching keeps the same region but changes the slice direction. Rewrite the inequalities carefully before changing the integral.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-15",
+      "prompt": "Correct this second mistake in Order Switching: Changing the region.",
+      "answer": "compare inequalities before and after switching.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Order Switching?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Order switching keeps the same region but changes the slice direction. Rewrite the inequalities carefully before changing the integral.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-17",
+      "prompt": "Correct this third mistake in Order Switching: Forcing one integral when the switched region needs splitting.",
+      "answer": "split at boundary intersections.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-18",
+      "prompt": "Design an exam solution plan for a multi-step order switching problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Keep the region fixed and rewrite its inequalities for the new slice direction. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-19",
+      "prompt": "How could an incorrect setup affect a order switching result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Swapping differentials without changing bounds must be avoided: rewrite the region for the new order.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-order-switching-20",
+      "prompt": "Give an exam-ready summary rule for Order Switching.",
+      "answer": "Order switching keeps the same region but changes the slice direction. Rewrite the inequalities carefully before changing the integral. If a formula is needed, use \\[\\int_c^d\\int_{h_1(y)}^{h_2(y)}f(x,y)\\,dx\\,dy=\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

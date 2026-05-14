@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "partial-derivatives",
+  "topicTitle": "Partial Derivatives",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-01",
+      "prompt": "What is the main purpose of Partial Derivatives?",
+      "answer": "A partial derivative measures how a multivariable function changes when one input changes and the other independent inputs are held fixed. It is the local rate of change in one coordinate direction.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-02",
+      "prompt": "What does \\(f(x,y)\\) mean in Partial Derivatives?",
+      "answer": "In Partial Derivatives, \\(f(x,y)\\) means scalar field depending on x and y.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-03",
+      "prompt": "Identify another important piece of notation used in Partial Derivatives.",
+      "answer": "In Partial Derivatives, \\(f_x\\) means partial derivative of f with respect to x while y is fixed.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-04",
+      "prompt": "Before doing a partial derivatives calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Differentiate with respect to the chosen variable and treat the other independent variables as constants. For f(x,y)=x^2y+3y, the x derivative is f_x=2xy because y and 3y are constant with respect to x. The y derivative is f_y=x^2+3 because x is fixed.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-05",
+      "prompt": "State a central formula or test for Partial Derivatives.",
+      "answer": "The partial derivative in x is\n\\[f_x(x,y)=\\frac{\\partial f}{\\partial x}=\\lim_{h\\to0}\\frac{f(x+h,y)-f(x,y)}{h}\\]\nUse it only after the symbols in the formula have been identified for the specific partial derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-06",
+      "prompt": "How is the formula or method in Partial Derivatives interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The partial derivative in x is\n\\[f_x(x,y)=\\frac{\\partial f}{\\partial x}=\\lim_{h\\to0}\\frac{f(x+h,y)-f(x,y)}{h}\\]\nUse it only after the symbols in the formula have been identified for the specific partial derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-07",
+      "prompt": "For T(x,y)=x^2y+4y, find T_x and T_y.",
+      "answer": "For T_x, hold y fixed: the derivative of x^2y is 2xy and the derivative of 4y is 0, so T_x=2xy. For T_y, hold x fixed: the derivative of x^2y is x^2 and the derivative of 4y is 4, so T_y=x^2+4.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-08",
+      "prompt": "For V(x,y,z)=xy+z^2, find V_z at (2,3,1).",
+      "answer": "Hold x and y fixed. The term xy has z derivative 0, and z^2 has z derivative 2z. Thus V_z=2z. At z=1, V_z=2.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-09",
+      "prompt": "What method choice is usually needed in a standard partial derivatives question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Differentiate with respect to the chosen variable and treat the other independent variables as constants. For f(x,y)=x^2y+3y, the x derivative is f_x=2xy because y and 3y are constant with respect to x. The y derivative is f_y=x^2+3 because x is fixed.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-10",
+      "prompt": "Use the notation of Partial Derivatives to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x,y)\\), meaning scalar field depending on x and y; \\(f_x\\), meaning partial derivative of f with respect to x while y is fixed; \\(f_y\\), meaning partial derivative of f with respect to y while x is fixed.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-11",
+      "prompt": "If P(x,y)=5+3x, what is P_y and what does it mean?",
+      "answer": "Holding x fixed, P has no y term, so P_y=0. The pressure model does not change in the y direction at any point in this simplified field.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-12",
+      "prompt": "What physical or modelling interpretation can Partial Derivatives have?",
+      "answer": "In a physics model, the idea of partial derivatives helps translate a mathematical expression into a statement about the system. A partial derivative measures how a multivariable function changes when one input changes and the other independent inputs are held fixed. It is the local rate of change in one coordinate direction.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-13",
+      "prompt": "Correct this mistake in Partial Derivatives: differentiating every variable at once.",
+      "answer": "pick one variable and hold the others fixed.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-14",
+      "prompt": "Why is it important to check assumptions when using Partial Derivatives?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A partial derivative is a one-variable derivative taken inside a multivariable function. State what is held fixed, differentiate, then evaluate or interpret the directional rate.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-15",
+      "prompt": "Correct this second mistake in Partial Derivatives: treating fixed variables as zero.",
+      "answer": "fixed variables behave like constants, not necessarily the number zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Partial Derivatives?",
+      "answer": "Track the units in the notation: \\(\\Delta x\\) has unit m.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-17",
+      "prompt": "Correct this third mistake in Partial Derivatives: evaluating before differentiating when a formula is requested.",
+      "answer": "take the partial derivative first, then substitute the point.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-18",
+      "prompt": "Design an exam solution plan for a multi-step partial derivatives problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Differentiate with respect to the chosen variable and treat the other independent variables as constants. For f(x,y)=x^2y+3y, the x derivative is f_x=2xy because y and 3y are constant with respect to x. The y derivative is f_y=x^2+3 because x is fixed. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-19",
+      "prompt": "How could an incorrect setup affect a partial derivatives result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, differentiating every variable at once must be avoided: pick one variable and hold the others fixed.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-partial-derivatives-20",
+      "prompt": "Give an exam-ready summary rule for Partial Derivatives.",
+      "answer": "A partial derivative is a one-variable derivative taken inside a multivariable function. State what is held fixed, differentiate, then evaluate or interpret the directional rate. If a formula is needed, use \\[f_x(x,y)=\\frac{\\partial f}{\\partial x}=\\lim_{h\\to0}\\frac{f(x+h,y)-f(x,y)}{h}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

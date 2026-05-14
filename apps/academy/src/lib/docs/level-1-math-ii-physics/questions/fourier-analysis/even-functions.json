@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "even-functions",
+  "topicTitle": "Even Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-even-functions-01",
+      "prompt": "What is the main purpose of Even Functions?",
+      "answer": "An even function is symmetric about the vertical axis. In Fourier series on a symmetric interval, even functions have only cosine terms and a constant term.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-02",
+      "prompt": "What does \\(f(x)\\) mean in Even Functions?",
+      "answer": "In Even Functions, \\(f(x)\\) means function on a symmetric interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-03",
+      "prompt": "Identify another important piece of notation used in Even Functions.",
+      "answer": "In Even Functions, \\(f(-x)\\) means value at the opposite input.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-04",
+      "prompt": "Before doing a even functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Even symmetry means the function is unchanged when x is replaced by negative x.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-05",
+      "prompt": "State a central formula or test for Even Functions.",
+      "answer": "The even function test is\n\\[f(-x)=f(x)\\]\nUse it only after the symbols in the formula have been identified for the specific even functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-06",
+      "prompt": "How is the formula or method in Even Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The even fourier shortcut is\n\\[b_n=0\\]\nUse it only after the symbols in the formula have been identified for the specific even functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-07",
+      "prompt": "Show that f(x)=cos x is even and state the sine coefficients.",
+      "answer": "Evaluate at negative x: \\[f(-x)=\\cos(-x)=\\cos x=f(x)\\] Thus f is even. Since sin nx is odd, the product f(x) sin nx is odd, so \\[b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nx\\,dx=0\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-08",
+      "prompt": "A centred detector pulse has left-right symmetry. Which Fourier terms can appear?",
+      "answer": "Left-right symmetry means the pulse is even, so the sine coefficients vanish. Its Fourier series uses a constant term and cosine terms only: \\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}a_n\\cos nx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-09",
+      "prompt": "What method choice is usually needed in a standard even functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Even symmetry means the function is unchanged when x is replaced by negative x.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-10",
+      "prompt": "Use the notation of Even Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning function on a symmetric interval; \\(f(-x)\\), meaning value at the opposite input; \\(a_n\\), meaning cosine coefficient.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-11",
+      "prompt": "Explain a common worked step in Even Functions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Even Functions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-12",
+      "prompt": "What physical or modelling interpretation can Even Functions have?",
+      "answer": "In a physics model, the idea of even functions helps translate a mathematical expression into a statement about the system. An even function is symmetric about the vertical axis. In Fourier series on a symmetric interval, even functions have only cosine terms and a constant term.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-13",
+      "prompt": "Correct this mistake in Even Functions: Thinking even means positive.",
+      "answer": "even means f of negative x equals f of x.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-14",
+      "prompt": "Why is it important to check assumptions when using Even Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Even functions are unchanged by x to negative x and have cosine-only Fourier series on symmetric intervals.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-15",
+      "prompt": "Correct this second mistake in Even Functions: Keeping sine terms for an even signal on a symmetric interval.",
+      "answer": "sine terms vanish by odd-product cancellation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Even Functions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Even functions are unchanged by x to negative x and have cosine-only Fourier series on symmetric intervals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-17",
+      "prompt": "Correct this third mistake in Even Functions: Keeping sine terms for an even signal on a symmetric interval.",
+      "answer": "sine terms vanish by odd-product cancellation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step even functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Even symmetry means the function is unchanged when x is replaced by negative x. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-19",
+      "prompt": "How could an incorrect setup affect a even functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Thinking even means positive must be avoided: even means f of negative x equals f of x.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-even-functions-20",
+      "prompt": "Give an exam-ready summary rule for Even Functions.",
+      "answer": "Even functions are unchanged by x to negative x and have cosine-only Fourier series on symmetric intervals. If a formula is needed, use \\[f(-x)=f(x)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

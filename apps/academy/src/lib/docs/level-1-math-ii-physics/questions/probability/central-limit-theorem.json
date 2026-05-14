@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "central-limit-theorem",
+  "topicTitle": "Central Limit Theorem",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-central-limit-theorem-01",
+      "prompt": "A population has mean \\(50\\) and standard deviation \\(12\\). For \\(n=64\\) independent observations, approximate the distribution of the sample mean.",
+      "answer": "By the central limit theorem, \\(\\bar X\\) is approximately normal for a large independent sample. Its mean is \\(50\\), and its standard error is \\(12/\\sqrt{64}=1.5\\), so \\(\\bar X\\approx N(50,1.5^2)\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-02",
+      "prompt": "A skewed population has mean \\(20\\) and standard deviation \\(5\\). Let \\(S_{100}\\) be the sum of \\(100\\) independent observations. Use the central limit theorem to estimate \\(P(S_{100}>2100)\\).",
+      "answer": "For a sum, the CLT gives \\(S_{100}\\approx N(100\\cdot20,100\\cdot5^2)\\), so the mean is \\(2000\\) and the standard deviation is \\(5\\sqrt{100}=50\\). The z-score is \\((2100-2000)/50=2\\), hence \\[P(S_{100}>2100)\\approx1-\\Phi(2)=1-0.9772=0.0228.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-03",
+      "prompt": "A non-normal population has mean \\(10\\) and standard deviation \\(3\\). For a total of \\(36\\) independent observations, approximate \\(P(S_{36}<324)\\).",
+      "answer": "The CLT gives \\(S_{36}\\approx N(36\\cdot10,36\\cdot3^2)\\). Thus \\(E(S_{36})=360\\) and \\(\\operatorname{sd}(S_{36})=3\\sqrt{36}=18\\). The z-score is \\((324-360)/18=-2\\), so \\[P(S_{36}<324)\\approx\\Phi(-2)=0.0228.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-04",
+      "prompt": "A machine output has mean \\(8\\) and standard deviation \\(2\\). For \\(49\\) independent outputs, approximate \\(P(\\bar X>8.4)\\).",
+      "answer": "The standard error is \\(2/\\sqrt{49}=0.2857\\). The z-score is \\((8.4-8)/0.2857=1.40\\), so \\[P(\\bar X>8.4)\\approx1-\\Phi(1.40)\\approx1-0.9192=0.0808.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-05",
+      "prompt": "A population has mean \\(4\\) and standard deviation \\(6\\). For \\(n=225\\), approximate the distribution of the total \\(S_n\\).",
+      "answer": "For totals, the CLT gives \\(S_n\\approx N(n\\mu,n\\sigma^2)\\). Here \\(E(S_n)=225(4)=900\\) and \\(\\operatorname{sd}(S_n)=\\sqrt{225}(6)=90\\), so \\(S_n\\approx N(900,90^2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-06",
+      "prompt": "A population has mean \\(30\\) and standard deviation \\(6\\). For \\(n=144\\), estimate \\(P(S_n<3720)\\), where \\(S_n\\) is the sample total.",
+      "answer": "The total has approximate mean \\(144(30)=4320\\) and standard deviation \\(\\sqrt{144}(6)=72\\). The z-score is \\((3720-4320)/72=-8.33\\). A standard normal table has essentially no mass this far into the left tail; for example it is far below \\(z=-3.99\\), where \\(\\Phi(z)<0.0001\\). Thus \\(P(S_n<3720)\\approx0.0000\\) to four decimal places.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-07",
+      "prompt": "A waiting time distribution is strongly skewed with mean \\(5\\) minutes and standard deviation \\(4\\) minutes. Explain why \\(\\bar X\\) for \\(n=100\\) can still be approximated by a normal distribution.",
+      "answer": "The individual observations need not be normal. The CLT says that, for a large independent sample with finite variance, the sampling distribution of \\(\\bar X\\) is approximately normal. Here \\(n=100\\) is large, so the approximation is reasonable.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-08",
+      "prompt": "A population has mean \\(75\\) and standard deviation \\(15\\). For \\(n=900\\), estimate \\(P(\\bar X>76)\\).",
+      "answer": "The standard error is \\(15/\\sqrt{900}=0.5\\). The z-score is \\((76-75)/0.5=2\\). Thus \\[P(\\bar X>76)\\approx1-\\Phi(2)=0.0228.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-09",
+      "prompt": "A population has mean \\(100\\) and standard deviation \\(30\\). For \\(n=400\\), estimate \\(P(99<\\bar X<101)\\).",
+      "answer": "The standard error is \\(30/20=1.5\\). The z-scores are \\((99-100)/1.5=-0.67\\) and \\((101-100)/1.5=0.67\\). Hence \\[P(99<\\bar X<101)\\approx0.7486-0.2514=0.4972.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-10",
+      "prompt": "A total \\(S_{64}\\) is formed from independent observations with mean \\(12\\) and standard deviation \\(4\\). Approximate \\(P(S_{64}>800)\\).",
+      "answer": "The approximate mean is \\(64(12)=768\\) and standard deviation is \\(\\sqrt{64}(4)=32\\). The z-score is \\((800-768)/32=1\\), so \\[P(S_{64}>800)\\approx1-\\Phi(1)=0.1587.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-11",
+      "prompt": "A population has finite mean \\(0\\) and finite standard deviation \\(10\\). What happens to the standard error of \\(\\bar X\\) when \\(n\\) changes from \\(25\\) to \\(100\\)?",
+      "answer": "The standard error is \\(\\sigma/\\sqrt n\\). It changes from \\(10/5=2\\) to \\(10/10=1\\). Quadrupling the sample size halves the standard error.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-12",
+      "prompt": "A non-normal population has mean \\(200\\) and standard deviation \\(24\\). A sample of \\(36\\) observations is taken. Estimate the probability that the total is below \\(7056\\).",
+      "answer": "The total has approximate mean \\(36(200)=7200\\) and standard deviation \\(24\\sqrt{36}=144\\). The z-score is \\((7056-7200)/144=-1\\), so \\[P(S_{36}<7056)\\approx\\Phi(-1)=0.1587.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-13",
+      "prompt": "A sample total from \\(n=100\\) independent claims has individual mean \\(40\\) and standard deviation \\(25\\). Estimate \\(P(S_{100}>4250)\\).",
+      "answer": "The CLT gives \\(S_{100}\\approx N(4000,250^2)\\). The z-score is \\((4250-4000)/250=1\\), so \\[P(S_{100}>4250)\\approx0.1587.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-14",
+      "prompt": "A population has mean \\(6\\), standard deviation \\(9\\), and a very skewed distribution. Which sample size, \\(n=4\\) or \\(n=100\\), gives a more reliable CLT approximation for \\(\\bar X\\), and why?",
+      "answer": "The sample size \\(n=100\\) gives the more reliable approximation. The CLT is an asymptotic result: as \\(n\\) grows, the sampling distribution of \\(\\bar X\\) becomes closer to normal, especially when the original population is skewed.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-15",
+      "prompt": "Independent service times have mean \\(3\\) minutes and standard deviation \\(2\\) minutes. Approximate the probability that \\(50\\) services take less than \\(140\\) minutes in total.",
+      "answer": "For the total, \\(E(S)=50(3)=150\\) and \\(\\operatorname{sd}(S)=\\sqrt{50}(2)=14.142\\). The z-score is \\((140-150)/14.142=-0.71\\), so \\[P(S<140)\\approx\\Phi(-0.71)\\approx0.2389.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-16",
+      "prompt": "A highly skewed delivery-time distribution has mean \\(18\\) minutes and standard deviation \\(12\\) minutes. For \\(64\\) deliveries, estimate \\(P(1024<S_{64}<1280)\\), where \\(S_{64}\\) is the total time.",
+      "answer": "The CLT gives \\(S_{64}\\approx N(64\\cdot18,(12\\sqrt{64})^2)\\), so the mean is \\(1152\\) and the standard deviation is \\(96\\). The z-scores are \\((1024-1152)/96=-1.33\\) and \\((1280-1152)/96=1.33\\). Therefore \\[P(1024<S_{64}<1280)\\approx0.9082-0.0918=0.8164.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-17",
+      "prompt": "A sample total \\(S_n\\) has \\(n=400\\), individual mean \\(2.5\\), and individual standard deviation \\(1.2\\). Estimate \\(P(S_n>1024)\\).",
+      "answer": "The total has mean \\(400(2.5)=1000\\) and standard deviation \\(\\sqrt{400}(1.2)=24\\). The z-score is \\((1024-1000)/24=1\\), so \\[P(S_n>1024)\\approx0.1587.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-18",
+      "prompt": "A batch total \\(S_{900}\\) is formed from independent observations with mean \\(120\\) and standard deviation \\(60\\). Use the CLT to estimate \\(P(S_{900}>109800)\\).",
+      "answer": "The total has approximate mean \\(900(120)=108000\\) and standard deviation \\(60\\sqrt{900}=1800\\). The z-score is \\((109800-108000)/1800=1\\), so \\[P(S_{900}>109800)\\approx1-\\Phi(1)=0.1587.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-19",
+      "prompt": "A heavy-tailed population has finite variance. State two assumptions needed before using the CLT for an average.",
+      "answer": "The observations should be independent and identically distributed, or close enough for the model, and the variance should be finite. A sufficiently large \\(n\\) is also needed so that the normal approximation is accurate.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-central-limit-theorem-20",
+      "prompt": "A population has mean \\(10\\) and standard deviation \\(5\\). Find the sample size needed so that the CLT approximation for the total \\(S_n\\) has standard deviation \\(50\\).",
+      "answer": "For a total, \\(\\operatorname{sd}(S_n)=\\sigma\\sqrt n\\). Set \\(5\\sqrt n=50\\). Then \\(\\sqrt n=10\\), so \\(n=100\\). This is a CLT total calculation, not a standard-error calculation for \\(\\bar X\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

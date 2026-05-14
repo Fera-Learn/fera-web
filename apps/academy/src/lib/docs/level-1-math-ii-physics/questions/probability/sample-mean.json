@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "sample-mean",
+  "topicTitle": "Sample Mean",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-sample-mean-01",
+      "prompt": "A population has mean \\(50\\) and variance \\(144\\). For samples of size \\(64\\), find \\(E(\\bar X)\\) and \\(\\operatorname{Var}(\\bar X)\\).",
+      "answer": "For a sample mean, \\(E(\\bar X)=\\mu=50\\). Also \\[\\operatorname{Var}(\\bar X)=\\frac{\\sigma^2}{n}=\\frac{144}{64}=2.25.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-02",
+      "prompt": "A population has standard deviation \\(5\\). What is the standard error of \\(\\bar X\\) for \\(n=100\\)?",
+      "answer": "The standard error is \\(\\sigma/\\sqrt n\\). Hence \\[\\operatorname{se}(\\bar X)=\\frac{5}{\\sqrt{100}}=0.5.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-03",
+      "prompt": "A population has mean \\(20\\) and standard deviation \\(5\\). For \\(n=100\\), estimate \\(P(\\bar X>21)\\).",
+      "answer": "The standard error is \\(5/\\sqrt{100}=0.5\\). Thus \\(z=(21-20)/0.5=2\\), so \\[P(\\bar X>21)\\approx1-\\Phi(2)=0.0228.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-04",
+      "prompt": "A population has mean \\(10\\) and standard deviation \\(3\\). For \\(n=36\\), estimate \\(P(\\bar X<9)\\).",
+      "answer": "The standard error is \\(3/6=0.5\\). The z-score is \\((9-10)/0.5=-2\\), so \\[P(\\bar X<9)\\approx0.0228.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-05",
+      "prompt": "A sample of size \\(49\\) is drawn from a population with variance \\(196\\). Find \\(\\operatorname{sd}(\\bar X)\\).",
+      "answer": "The population standard deviation is \\(\\sqrt{196}=14\\). Therefore \\[\\operatorname{sd}(\\bar X)=\\frac{14}{\\sqrt{49}}=2.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-06",
+      "prompt": "A population has mean \\(80\\) and standard deviation \\(14\\). For \\(n=49\\), estimate \\(P(\\bar X>83)\\).",
+      "answer": "The standard error is \\(14/7=2\\). The z-score is \\((83-80)/2=1.5\\), so \\[P(\\bar X>83)\\approx1-\\Phi(1.5)=0.0668.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-07",
+      "prompt": "A population has mean \\(100\\) and variance \\(400\\). For \\(n=25\\), find the approximate distribution of \\(\\bar X\\).",
+      "answer": "The standard deviation is \\(20\\), so the standard error is \\(20/5=4\\). Thus \\(\\bar X\\) is approximately \\(N(100,4^2)\\), assuming the sample mean is approximately normal.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-08",
+      "prompt": "A population has mean \\(5\\) and standard deviation \\(2\\). For \\(n=81\\), estimate \\(P(\\bar X>5.4)\\).",
+      "answer": "The standard error is \\(2/9=0.2222\\). The z-score is \\((5.4-5)/0.2222=1.8\\), so \\[P(\\bar X>5.4)\\approx1-\\Phi(1.8)=0.0359.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-09",
+      "prompt": "For a sample mean, explain why increasing \\(n\\) from \\(25\\) to \\(100\\) changes the standard error by a factor of \\(1/2\\).",
+      "answer": "The standard error is \\(\\sigma/\\sqrt n\\). Changing \\(n\\) from \\(25\\) to \\(100\\) changes \\(\\sqrt n\\) from \\(5\\) to \\(10\\), so the standard error is halved.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-10",
+      "prompt": "A population has mean \\(30\\) and standard deviation \\(6\\). For \\(n=144\\), estimate \\(P(29<\\bar X<31)\\).",
+      "answer": "The standard error is \\(6/12=0.5\\). The z-scores are \\(-2\\) and \\(2\\), so \\[P(29<\\bar X<31)\\approx0.9772-0.0228=0.9544.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-11",
+      "prompt": "A sample mean has standard error \\(1.5\\) from a population with standard deviation \\(12\\). Find the sample size.",
+      "answer": "Use \\(\\sigma/\\sqrt n=1.5\\). Then \\(12/\\sqrt n=1.5\\), so \\(\\sqrt n=8\\) and \\(n=64\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-12",
+      "prompt": "A population has \\(E(X)=0\\) and \\(\\operatorname{Var}(X)=25\\). For \\(n=100\\), find \\(E(\\bar X)\\) and \\(\\operatorname{sd}(\\bar X)\\).",
+      "answer": "The sample mean has \\(E(\\bar X)=0\\). Its variance is \\(25/100=0.25\\), so \\(\\operatorname{sd}(\\bar X)=\\sqrt{0.25}=0.5\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-13",
+      "prompt": "A population has mean \\(200\\) and standard deviation \\(24\\). For \\(n=36\\), estimate \\(P(\\bar X<196)\\).",
+      "answer": "The standard error is \\(24/6=4\\). The z-score is \\((196-200)/4=-1\\), so \\[P(\\bar X<196)\\approx\\Phi(-1)=0.1587.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-14",
+      "prompt": "A population has mean \\(75\\) and standard deviation \\(10\\). For \\(n=100\\), find an interval centred on \\(75\\) that is approximately \\(95\\%\\) likely to contain \\(\\bar X\\).",
+      "answer": "The standard error is \\(10/10=1\\). A central \\(95\\%\\) normal interval is about \\(\\pm1.96\\) standard errors, so the interval is \\[75\\pm1.96(1)=[73.04,76.96].\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-15",
+      "prompt": "A population has standard deviation \\(30\\). What sample size gives \\(\\operatorname{sd}(\\bar X)=3\\)?",
+      "answer": "Solve \\(30/\\sqrt n=3\\). Then \\(\\sqrt n=10\\), so \\(n=100\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-16",
+      "prompt": "A population has mean \\(18\\) and standard deviation \\(12\\). For \\(n=64\\), estimate \\(P(16<\\bar X<20)\\).",
+      "answer": "The standard error is \\(12/8=1.5\\). The z-scores are \\(-1.33\\) and \\(1.33\\), so \\[P(16<\\bar X<20)\\approx0.9082-0.0918=0.8164.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-17",
+      "prompt": "A sample of size \\(16\\) has standard error \\(2\\). What is the population standard deviation?",
+      "answer": "Since \\(\\operatorname{se}=\\sigma/\\sqrt n\\), we have \\(2=\\sigma/4\\). Therefore \\(\\sigma=8\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-18",
+      "prompt": "A population has mean \\(120\\) and standard deviation \\(60\\). For \\(n=900\\), estimate \\(P(\\bar X>122)\\).",
+      "answer": "The standard error is \\(60/30=2\\). The z-score is \\((122-120)/2=1\\), so \\[P(\\bar X>122)\\approx1-\\Phi(1)=0.1587.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-19",
+      "prompt": "A sample mean has approximate distribution \\(N(40,0.25^2)\\) and the population standard deviation is \\(5\\). Find the sample size.",
+      "answer": "The standard error is \\(0.25\\), so \\(5/\\sqrt n=0.25\\). Hence \\(\\sqrt n=20\\) and \\(n=400\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-sample-mean-20",
+      "prompt": "A population has mean \\(10\\) and standard deviation \\(5\\). Find \\(P(9<\\bar X<11)\\) for \\(n=100\\), using a normal approximation.",
+      "answer": "The standard error is \\(5/10=0.5\\). The z-scores are \\(-2\\) and \\(2\\), so \\[P(9<\\bar X<11)\\approx0.9772-0.0228=0.9544.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

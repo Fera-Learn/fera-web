@@ -409,7 +409,8 @@ const equationSheetPrintStyles = `
   }
 
   .exam-print-toolbar a,
-  .exam-print-toolbar button {
+  .exam-print-toolbar button,
+  .exam-print-toolbar select {
     background: #ffffff !important;
     border-color: #d4d4d8 !important;
   }
@@ -421,6 +422,14 @@ const equationSheetPrintStyles = `
     margin: 32px auto !important;
     max-width: 210mm !important;
     width: min(210mm, calc(100vw - 32px)) !important;
+  }
+
+  @media screen {
+    .equation-sheet-print-document {
+      max-width: none !important;
+      width: 210mm !important;
+      zoom: var(--print-preview-zoom, 1);
+    }
   }
 
   .equation-sheet-print-document,
@@ -602,6 +611,7 @@ const equationSheetPrintStyles = `
       display: block;
       margin: 0 !important;
       max-width: none !important;
+      zoom: 1 !important;
       width: auto !important;
     }
 

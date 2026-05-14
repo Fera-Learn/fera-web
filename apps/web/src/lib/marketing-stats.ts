@@ -11,6 +11,7 @@ export type CourseMarketingStats = MarketingCourse & {
   paperCountSource: "fallback" | "live";
   questionCount: number;
   questionCountSource: "fallback" | "live";
+  topicCount: number;
 };
 
 export type MarketingStats = {
@@ -60,6 +61,7 @@ async function getStatsForCourse(course: MarketingCourse) {
     shortTitle: course.shortTitle,
     slug: course.slug,
     title: course.title,
+    topicCount: course.topicCount ?? course.topics.length,
     topics: course.topics,
   } satisfies CourseMarketingStats;
 }

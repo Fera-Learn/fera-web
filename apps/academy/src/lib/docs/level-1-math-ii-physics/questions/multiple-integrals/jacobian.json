@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "jacobian",
+  "topicTitle": "Jacobian",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-jacobian-01",
+      "prompt": "What is the main purpose of Jacobian?",
+      "answer": "A Jacobian measures how a coordinate change stretches small area or volume elements. It is the factor that makes integrals preserve the actual size of regions after changing variables.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-02",
+      "prompt": "What does \\(u,v\\) mean in Jacobian?",
+      "answer": "In Jacobian, \\(u,v\\) means new variables.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-03",
+      "prompt": "Identify another important piece of notation used in Jacobian.",
+      "answer": "In Jacobian, \\(x(u,v),y(u,v)\\) means coordinate transformation into x and y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-04",
+      "prompt": "Before doing a jacobian calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For a two-variable transformation, The area element changes by the absolute value:",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-05",
+      "prompt": "State a central formula or test for Jacobian.",
+      "answer": "The jacobian determinant is\n\\[J=\\frac{\\partial(x,y)}{\\partial(u,v)}=\\begin{vmatrix}x_u&x_v\\\\y_u&y_v\\end{vmatrix}\\]\nUse it only after the symbols in the formula have been identified for the specific jacobian problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-06",
+      "prompt": "How is the formula or method in Jacobian interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The area scaling is\n\\[dA=|J|\\,du\\,dv\\]\nUse it only after the symbols in the formula have been identified for the specific jacobian problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-07",
+      "prompt": "Compute the Jacobian for \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\).",
+      "answer": "The derivative matrix is \\[\\begin{pmatrix}\\cos\\theta&-r\\sin\\theta\\\\sin\\theta&r\\cos\\theta\\end{pmatrix}\\] Its determinant is \\[r\\cos^2\\theta+r\\sin^2\\theta=r\\] Therefore \\(dA=r\\,dr\\,d\\theta\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-08",
+      "prompt": "If \\(x=2u\\) and \\(y=3v\\), what is the area scale factor?",
+      "answer": "The Jacobian matrix is diagonal: \\[\\begin{pmatrix}2&0\\0&3\\end{pmatrix}\\] Its determinant is \\(6\\), so \\(dA=6\\,du\\,dv\\). Areas are stretched by a factor of \\(6\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-09",
+      "prompt": "What method choice is usually needed in a standard jacobian question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For a two-variable transformation, The area element changes by the absolute value:",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-10",
+      "prompt": "Use the notation of Jacobian to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u,v\\), meaning new variables; \\(x(u,v),y(u,v)\\), meaning coordinate transformation into x and y; \\(J\\), meaning Jacobian determinant.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-11",
+      "prompt": "Why does the integral use \\(|J|\\) instead of \\(J\\)?",
+      "answer": "A negative determinant means the coordinate orientation is reversed. Area and volume scale factors must be non-negative, so the absolute value is used in the integral.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-12",
+      "prompt": "What physical or modelling interpretation can Jacobian have?",
+      "answer": "In a physics model, the idea of jacobian helps translate a mathematical expression into a statement about the system. A Jacobian measures how a coordinate change stretches small area or volume elements. It is the factor that makes integrals preserve the actual size of regions after changing variables.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-13",
+      "prompt": "Correct this mistake in Jacobian: Using the Jacobian matrix instead of its determinant.",
+      "answer": "the scale factor is the determinant's absolute value.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-14",
+      "prompt": "Why is it important to check assumptions when using Jacobian?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The Jacobian determinant is the local scale factor for a coordinate change. Use \\(|J|\\) to transform area or volume elements correctly.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-15",
+      "prompt": "Correct this second mistake in Jacobian: Forgetting absolute value.",
+      "answer": "integrals need positive area or volume scaling.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Jacobian?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The Jacobian determinant is the local scale factor for a coordinate change. Use \\(|J|\\) to transform area or volume elements correctly.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-17",
+      "prompt": "Correct this third mistake in Jacobian: Omitting the Jacobian after changing variables.",
+      "answer": "every nontrivial coordinate change needs its scale factor.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-18",
+      "prompt": "Design an exam solution plan for a multi-step jacobian problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For a two-variable transformation, The area element changes by the absolute value: Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-19",
+      "prompt": "How could an incorrect setup affect a jacobian result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using the Jacobian matrix instead of its determinant must be avoided: the scale factor is the determinant's absolute value.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-jacobian-20",
+      "prompt": "Give an exam-ready summary rule for Jacobian.",
+      "answer": "The Jacobian determinant is the local scale factor for a coordinate change. Use \\(|J|\\) to transform area or volume elements correctly. If a formula is needed, use \\[J=\\frac{\\partial(x,y)}{\\partial(u,v)}=\\begin{vmatrix}x_u&x_v\\\\y_u&y_v\\end{vmatrix}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

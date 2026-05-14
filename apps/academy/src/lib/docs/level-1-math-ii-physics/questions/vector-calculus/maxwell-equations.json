@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "maxwell-equations",
+  "topicTitle": "Maxwell Equations",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-01",
+      "prompt": "What is the main purpose of Maxwell Equations?",
+      "answer": "Maxwell's equations are four vector-calculus statements relating electric and magnetic fields to charge, current, and time variation. At this level, the key skill is reading which operator measures sources and which operator measures circulation.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-02",
+      "prompt": "What does \\(\\mathbf E\\) mean in Maxwell Equations?",
+      "answer": "In Maxwell Equations, \\(\\mathbf E\\) means electric field. Its unit is V m^{-1}.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-03",
+      "prompt": "Identify another important piece of notation used in Maxwell Equations.",
+      "answer": "In Maxwell Equations, \\(\\mathbf B\\) means magnetic field. Its unit is T.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-04",
+      "prompt": "Before doing a maxwell equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: In vacuum notation with sources, Maxwell's equations are",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-05",
+      "prompt": "State a central formula or test for Maxwell Equations.",
+      "answer": "The gauss electric is\n\\[ \\nabla\\cdot\\mathbf E=\\frac{\\rho}{\\epsilon_0}\\]\nUse it only after the symbols in the formula have been identified for the specific maxwell equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-06",
+      "prompt": "How is the formula or method in Maxwell Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The gauss magnetic is\n\\[ \\nabla\\cdot\\mathbf B=0\\]\nUse it only after the symbols in the formula have been identified for the specific maxwell equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-07",
+      "prompt": "Which Maxwell equation says electric charge is a source of electric field?",
+      "answer": "Gauss's electric law: \\[ \\nabla\\cdot\\mathbf E=\\frac{\\rho}{\\epsilon_0}\\] The divergence of \\(\\mathbf E\\) is proportional to charge density.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-08",
+      "prompt": "Which equation says magnetic field has no local source density?",
+      "answer": "Gauss's magnetic law: \\[ \\nabla\\cdot\\mathbf B=0\\] Magnetic field lines do not start or end at isolated magnetic charges in this model.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-09",
+      "prompt": "What method choice is usually needed in a standard maxwell equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: In vacuum notation with sources, Maxwell's equations are",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-10",
+      "prompt": "Use the notation of Maxwell Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf E\\), meaning electric field; \\(\\mathbf B\\), meaning magnetic field; \\(\\rho\\), meaning charge density.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-11",
+      "prompt": "What does \\(\\nabla\\times\\mathbf E=-\\partial\\mathbf B/\\partial t\\) mean physically?",
+      "answer": "A time-changing magnetic field creates circulating electric field. The minus sign encodes Lenz's-law direction convention.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-12",
+      "prompt": "What physical or modelling interpretation can Maxwell Equations have?",
+      "answer": "In a physics model, the idea of maxwell equations helps translate a mathematical expression into a statement about the system. Maxwell's equations are four vector-calculus statements relating electric and magnetic fields to charge, current, and time variation. At this level, the key skill is reading which operator measures sources and which operator measures circulation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-13",
+      "prompt": "Correct this mistake in Maxwell Equations: Confusing divergence equations with curl equations.",
+      "answer": "divergence describes sources; curl describes circulation.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-14",
+      "prompt": "Why is it important to check assumptions when using Maxwell Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Maxwell's equations use divergence for field sources and curl for field circulation. Electric charge sources \\(\\mathbf E\\), magnetic sources are absent, and changing fields generate circulating partner fields.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-15",
+      "prompt": "Correct this second mistake in Maxwell Equations: Treating \\(\\nabla\\cdot\\mathbf B=0\\) as \\(\\mathbf B=0\\).",
+      "answer": "it means no magnetic source density, not no magnetic field.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Maxwell Equations?",
+      "answer": "Track the units in the notation: \\(\\mathbf E\\) has unit V m^{-1}; \\(\\mathbf B\\) has unit T; \\(\\rho\\) has unit C m^{-3}; \\(\\mathbf J\\) has unit A m^{-2}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-17",
+      "prompt": "Correct this third mistake in Maxwell Equations: Dropping time-derivative terms in changing fields.",
+      "answer": "static simplifications only apply when fields are time independent.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step maxwell equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: In vacuum notation with sources, Maxwell's equations are Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-19",
+      "prompt": "How could an incorrect setup affect a maxwell equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Confusing divergence equations with curl equations must be avoided: divergence describes sources; curl describes circulation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-maxwell-equations-20",
+      "prompt": "Give an exam-ready summary rule for Maxwell Equations.",
+      "answer": "Maxwell's equations use divergence for field sources and curl for field circulation. Electric charge sources \\(\\mathbf E\\), magnetic sources are absent, and changing fields generate circulating partner fields. If a formula is needed, use \\[ \\nabla\\cdot\\mathbf E=\\frac{\\rho}{\\epsilon_0}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

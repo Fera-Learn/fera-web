@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "kinematics",
+  "topicId": "cylindrical-polars",
+  "topicTitle": "Cylindrical Polars",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-01",
+      "prompt": "What is the main purpose of Cylindrical Polars?",
+      "answer": "Cylindrical polar coordinates extend plane polar coordinates by adding a vertical coordinate \\(z\\). They are useful when a physical system has an axis of symmetry, such as rotation about a shaft, flow in a pipe, or fields around a long straight wire.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-02",
+      "prompt": "What does \\(r\\) mean in Cylindrical Polars?",
+      "answer": "In Cylindrical Polars, \\(r\\) means distance from the z-axis. Its unit is m.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-03",
+      "prompt": "Identify another important piece of notation used in Cylindrical Polars.",
+      "answer": "In Cylindrical Polars, \\(\\theta\\) means angle around the z-axis measured in radians.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-04",
+      "prompt": "Before doing a cylindrical polars calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Step 1: Write the position vector The position has a horizontal radial part and a vertical part: Step 2: Differentiate to get velocity The polar part changes exactly as in plane polar coordinates, and the vertical part contributes \\(\\dot z\\mathbf e_z\\): Step 3: Differentiate again to get acceleration The vertical acceleration adds independently to the polar...",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-05",
+      "prompt": "State a central formula or test for Cylindrical Polars.",
+      "answer": "The cylindrical position is\n\\[\\mathbf r=r\\mathbf e_r+z\\mathbf e_z\\]\nUse it only after the symbols in the formula have been identified for the specific cylindrical polars problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-06",
+      "prompt": "How is the formula or method in Cylindrical Polars interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cylindrical velocity is\n\\[\\mathbf v=\\dot r\\mathbf e_r+r\\dot\\theta\\mathbf e_\\theta+\\dot z\\mathbf e_z\\]\nUse it only after the symbols in the formula have been identified for the specific cylindrical polars problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-07",
+      "prompt": "A particle has constant \\(r=2\\) m, \\(\\dot\\theta=3\\) \\(rad s^{-1}\\), and \\(\\dot z=4\\) \\(m s^{-1}\\). Find its velocity.",
+      "answer": "Use \\(\\mathbf v=\\dot r\\mathbf e_r+r\\dot\\theta\\mathbf e_\\theta+\\dot z\\mathbf e_z\\). Since \\(r\\) is constant, \\(\\dot r=0\\). Therefore \\(\\mathbf v=0\\mathbf e_r+2\\cdot3\\mathbf e_\\theta+4\\mathbf e_z=6\\mathbf e_\\theta+4\\mathbf e_z\\) \\(m s^{-1}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-08",
+      "prompt": "A point has cylindrical coordinates \\(r=2\\), \\(\\theta=\\pi/2\\), and \\(z=5\\). What are its Cartesian coordinates?",
+      "answer": "Use \\(x=r\\cos\\theta\\) and \\(y=r\\sin\\theta\\). Then \\(x=2\\cos(\\pi/2)=0\\), \\(y=2\\sin(\\pi/2)=2\\), and \\(z=5\\). The Cartesian coordinates are \\((0,2,5)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-09",
+      "prompt": "What method choice is usually needed in a standard cylindrical polars question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Step 1: Write the position vector The position has a horizontal radial part and a vertical part: Step 2: Differentiate to get velocity The polar part changes exactly as in plane polar coordinates, and the vertical part contributes \\(\\dot z\\mathbf e_z\\): Step 3: Differentiate again to get acceleration The vertical acceleration adds independently to the polar...",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-10",
+      "prompt": "Use the notation of Cylindrical Polars to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(r\\), meaning distance from the z-axis; \\(\\theta\\), meaning angle around the z-axis measured in radians; \\(z\\), meaning height along the z-axis.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-11",
+      "prompt": "If \\(r=R\\), \\(\\dot\\theta=\\omega\\), and \\(\\dot z=u\\) are constant, find velocity.",
+      "answer": "Because \\(\\dot r=0\\), the velocity is \\(\\mathbf v=R\\omega\\mathbf e_\\theta+u\\mathbf e_z\\). It has azimuthal and vertical components.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-12",
+      "prompt": "What physical or modelling interpretation can Cylindrical Polars have?",
+      "answer": "In a physics model, the idea of cylindrical polars helps translate a mathematical expression into a statement about the system. Cylindrical polar coordinates extend plane polar coordinates by adding a vertical coordinate \\(z\\). They are useful when a physical system has an axis of symmetry, such as rotation about a shaft, flow in a pipe, or fields around a long straight wire.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-13",
+      "prompt": "Correct this mistake in Cylindrical Polars: Do not confuse radial distance \\(r\\) with the full position vector \\(\\mathbf r\\).",
+      "answer": "Do not confuse radial distance \\(r\\) with the full position vector \\(\\mathbf r\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-14",
+      "prompt": "Why is it important to check assumptions when using Cylindrical Polars?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Cylindrical polars add vertical motion to polar motion. The \\(\\mathbf e_r\\) and \\(\\mathbf e_\\theta\\) basis vectors rotate, while \\(\\mathbf e_z\\) stays fixed.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-15",
+      "prompt": "Correct this second mistake in Cylindrical Polars: Include the \\(\\dot z\\mathbf e_z\\) and \\(\\ddot z\\mathbf e_z\\) terms when vertical motion is present.",
+      "answer": "Include the \\(\\dot z\\mathbf e_z\\) and \\(\\ddot z\\mathbf e_z\\) terms when vertical motion is present.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Cylindrical Polars?",
+      "answer": "Track the units in the notation: \\(r\\) has unit m; \\(z\\) has unit m.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-17",
+      "prompt": "Correct this third mistake in Cylindrical Polars: Do not treat \\(\\mathbf e_r\\) and \\(\\mathbf e_\\theta\\) as fixed vectors when \\(\\theta\\) changes.",
+      "answer": "Do not treat \\(\\mathbf e_r\\) and \\(\\mathbf e_\\theta\\) as fixed vectors when \\(\\theta\\) changes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-18",
+      "prompt": "Design an exam solution plan for a multi-step cylindrical polars problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Step 1: Write the position vector The position has a horizontal radial part and a vertical part: Step 2: Differentiate to get velocity The polar part changes exactly as in plane polar coordinates, and the vertical part contributes \\(\\dot z\\mathbf e_z\\): Step 3: Differentiate again to get acceleration The vertical acceleration adds independently to the polar... Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-19",
+      "prompt": "How could an incorrect setup affect a cylindrical polars result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Do not confuse radial distance \\(r\\) with the full position vector \\(\\mathbf r\\) must be avoided: Do not confuse radial distance \\(r\\) with the full position vector \\(\\mathbf r\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-cylindrical-polars-20",
+      "prompt": "Give an exam-ready summary rule for Cylindrical Polars.",
+      "answer": "Cylindrical polars add vertical motion to polar motion. The \\(\\mathbf e_r\\) and \\(\\mathbf e_\\theta\\) basis vectors rotate, while \\(\\mathbf e_z\\) stays fixed. If a formula is needed, use \\[\\mathbf r=r\\mathbf e_r+z\\mathbf e_z\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

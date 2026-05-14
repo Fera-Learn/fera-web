@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "partial-differential-equations",
+  "topicId": "important-pdes",
+  "topicTitle": "Important PDEs",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-01",
+      "prompt": "What is the main purpose of Important PDEs?",
+      "answer": "Several PDEs appear repeatedly in physics because they encode common field balances: waves propagate, heat diffuses, source-free potentials smooth out, and sourced potentials respond to charge or mass density.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-02",
+      "prompt": "What does \\(u(x,t)\\) mean in Important PDEs?",
+      "answer": "In Important PDEs, \\(u(x,t)\\) means one-dimensional field depending on position and time.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-03",
+      "prompt": "Identify another important piece of notation used in Important PDEs.",
+      "answer": "In Important PDEs, \\(c\\) means wave speed. Its unit is m s^{-1}.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-04",
+      "prompt": "Before doing a important pdes calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Recognise the standard forms and the physical balance each one represents. The wave equation is second order in time; the heat equation is first order in time; Laplace and Poisson equations describe spatial potential fields.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-05",
+      "prompt": "State a central formula or test for Important PDEs.",
+      "answer": "The wave, heat, laplace, and poisson is\n\\[u_{tt}=c^2u_{xx},\\qquad u_t=\\kappa u_{xx},\\qquad \\nabla^2\\phi=0,\\qquad \\nabla^2\\phi=s\\]\nUse it only after the symbols in the formula have been identified for the specific important pdes problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-06",
+      "prompt": "How is the formula or method in Important PDEs interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The wave, heat, laplace, and poisson is\n\\[u_{tt}=c^2u_{xx},\\qquad u_t=\\kappa u_{xx},\\qquad \\nabla^2\\phi=0,\\qquad \\nabla^2\\phi=s\\]\nUse it only after the symbols in the formula have been identified for the specific important pdes problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-07",
+      "prompt": "Identify u_{tt}=9u_{xx} for a vibrating string.",
+      "answer": "This matches u_{tt}=c^2u_{xx}. Since c^2=9, the wave speed is c=3. It is the one-dimensional wave equation.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-08",
+      "prompt": "A potential phi(x,y) satisfies phi_{xx}+phi_{yy}=0. Name the PDE.",
+      "answer": "The left side is the two-dimensional Laplacian of phi. With zero source, the equation is Laplace equation, used for source-free potential fields.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-09",
+      "prompt": "What method choice is usually needed in a standard important pdes question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Recognise the standard forms and the physical balance each one represents. The wave equation is second order in time; the heat equation is first order in time; Laplace and Poisson equations describe spatial potential fields.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-10",
+      "prompt": "Use the notation of Important PDEs to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,t)\\), meaning one-dimensional field depending on position and time; \\(c\\), meaning wave speed; \\(\\kappa\\), meaning diffusivity.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-11",
+      "prompt": "Which standard PDE models temperature smoothing in a rod?",
+      "answer": "The heat equation u_t=kappa u_{xx} models diffusion. The time rate of temperature is proportional to spatial curvature, so hot peaks smooth out over time.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-12",
+      "prompt": "What physical or modelling interpretation can Important PDEs have?",
+      "answer": "In a physics model, the idea of important pdes helps translate a mathematical expression into a statement about the system. Several PDEs appear repeatedly in physics because they encode common field balances: waves propagate, heat diffuses, source-free potentials smooth out, and sourced potentials respond to charge or mass density.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-13",
+      "prompt": "Correct this mistake in Important PDEs: confusing wave and heat equations because both use \\(u_{xx}\\).",
+      "answer": "wave has \\(u_{tt}\\); heat has \\(u_t\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-14",
+      "prompt": "Why is it important to check assumptions when using Important PDEs?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Know the signatures: wave has second time derivative, heat has first time derivative, Laplace has zero Laplacian, Poisson has a sourced Laplacian.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-15",
+      "prompt": "Correct this second mistake in Important PDEs: ignoring constants.",
+      "answer": "constants such as \\(c\\) and \\(\\kappa\\) carry physical units and affect speeds or rates.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Important PDEs?",
+      "answer": "Track the units in the notation: \\(c\\) has unit m s^{-1}; \\(\\kappa\\) has unit m^2 s^{-1}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-17",
+      "prompt": "Correct this third mistake in Important PDEs: treating Poisson equation as source-free.",
+      "answer": "zero source gives Laplace equation; nonzero source gives Poisson equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-18",
+      "prompt": "Design an exam solution plan for a multi-step important pdes problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Recognise the standard forms and the physical balance each one represents. The wave equation is second order in time; the heat equation is first order in time; Laplace and Poisson equations describe spatial potential fields. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-19",
+      "prompt": "How could an incorrect setup affect a important pdes result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, confusing wave and heat equations because both use \\(u_{xx}\\) must be avoided: wave has \\(u_{tt}\\); heat has \\(u_t\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-important-pdes-20",
+      "prompt": "Give an exam-ready summary rule for Important PDEs.",
+      "answer": "Know the signatures: wave has second time derivative, heat has first time derivative, Laplace has zero Laplacian, Poisson has a sourced Laplacian. If a formula is needed, use \\[u_{tt}=c^2u_{xx},\\qquad u_t=\\kappa u_{xx},\\qquad \\nabla^2\\phi=0,\\qquad \\nabla^2\\phi=s\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "integration-limits",
+  "topicTitle": "Integration Limits",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-01",
+      "prompt": "What is the main purpose of Integration Limits?",
+      "answer": "Integration limits translate a geometric region into inequalities. In multiple integrals, correct limits are as important as the integrand because the bounds decide which points are included.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-02",
+      "prompt": "What does \\(a\\le x\\le b\\) mean in Integration Limits?",
+      "answer": "In Integration Limits, \\(a\\le x\\le b\\) means constant x-range.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-03",
+      "prompt": "Identify another important piece of notation used in Integration Limits.",
+      "answer": "In Integration Limits, \\(g_1(x)\\le y\\le g_2(x)\\) means y-range depending on x.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-04",
+      "prompt": "Before doing a integration limits calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Pick a slice direction and describe the lower and upper bounds seen by that slice.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-05",
+      "prompt": "State a central formula or test for Integration Limits.",
+      "answer": "The type i region is\n\\[\\iint_R f\\,dA=\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific integration limits problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-06",
+      "prompt": "How is the formula or method in Integration Limits interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The type ii region is\n\\[\\iint_R f\\,dA=\\int_c^d\\int_{h_1(y)}^{h_2(y)}f(x,y)\\,dx\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific integration limits problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-07",
+      "prompt": "Write limits for the triangle bounded by \\(y=0\\), \\(x=0\\), and \\(x+y=1\\).",
+      "answer": "Using vertical slices, \\(x\\) runs from \\(0\\) to \\(1\\). For each \\(x\\), \\(y\\) runs from \\(0\\) to \\(1-x\\). Thus \\[\\int_0^1\\int_0^{1-x} f(x,y)\\,dy\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-08",
+      "prompt": "Describe the same triangle using \\(dx\\,dy\\).",
+      "answer": "Now \\(y\\) runs from \\(0\\) to \\(1\\). For each \\(y\\), \\(x\\) runs from \\(0\\) to \\(1-y\\): \\[\\int_0^1\\int_0^{1-y} f(x,y)\\,dx\\,dy\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-09",
+      "prompt": "What method choice is usually needed in a standard integration limits question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Pick a slice direction and describe the lower and upper bounds seen by that slice.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-10",
+      "prompt": "Use the notation of Integration Limits to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(a\\le x\\le b\\), meaning constant x-range; \\(g_1(x)\\le y\\le g_2(x)\\), meaning y-range depending on x; \\(R\\), meaning region described by the limits.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-11",
+      "prompt": "For the region \\(0\\le y\\le x^2\\), \\(0\\le x\\le2\\), which variable is integrated first in \\(\\int_0^2\\int_0^{x^2}f\\,dy\\,dx\\)?",
+      "answer": "The inner differential is \\(dy\\), so \\(y\\) is integrated first. For each fixed \\(x\\), the vertical slice runs from \\(y=0\\) to \\(y=x^2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-12",
+      "prompt": "What physical or modelling interpretation can Integration Limits have?",
+      "answer": "In a physics model, the idea of integration limits helps translate a mathematical expression into a statement about the system. Integration limits translate a geometric region into inequalities. In multiple integrals, correct limits are as important as the integrand because the bounds decide which points are included.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-13",
+      "prompt": "Correct this mistake in Integration Limits: Matching bounds to the wrong differential.",
+      "answer": "inner bounds belong to the inner differential.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-14",
+      "prompt": "Why is it important to check assumptions when using Integration Limits?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Limits are the algebraic description of the integration region. Choose a slice direction, write the outer range, then write the inner lower and upper boundary functions.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-15",
+      "prompt": "Correct this second mistake in Integration Limits: Using one set of bounds for a region that changes shape.",
+      "answer": "split the region if one slice description is not enough.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Integration Limits?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Limits are the algebraic description of the integration region. Choose a slice direction, write the outer range, then write the inner lower and upper boundary functions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-17",
+      "prompt": "Correct this third mistake in Integration Limits: Skipping a sketch or inequality description.",
+      "answer": "state the region before writing integrals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-18",
+      "prompt": "Design an exam solution plan for a multi-step integration limits problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Pick a slice direction and describe the lower and upper bounds seen by that slice. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-19",
+      "prompt": "How could an incorrect setup affect a integration limits result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Matching bounds to the wrong differential must be avoided: inner bounds belong to the inner differential.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-integration-limits-20",
+      "prompt": "Give an exam-ready summary rule for Integration Limits.",
+      "answer": "Limits are the algebraic description of the integration region. Choose a slice direction, write the outer range, then write the inner lower and upper boundary functions. If a formula is needed, use \\[\\iint_R f\\,dA=\\int_a^b\\int_{g_1(x)}^{g_2(x)}f(x,y)\\,dy\\,dx\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "exact-differentials",
+  "topicTitle": "Exact Differentials",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-01",
+      "prompt": "What is the main purpose of Exact Differentials?",
+      "answer": "An exact differential comes from a scalar potential function. Its accumulated change depends only on the starting and ending points, not on the path taken between them.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-02",
+      "prompt": "What does \\(dF\\) mean in Exact Differentials?",
+      "answer": "In Exact Differentials, \\(dF\\) means exact differential of the potential F.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-03",
+      "prompt": "Identify another important piece of notation used in Exact Differentials.",
+      "answer": "In Exact Differentials, \\(M(x,y)\\) means coefficient of dx in the differential.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-04",
+      "prompt": "Before doing a exact differentials calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: If dF=M dx+N dy on a simply connected smooth region, exactness requires matching cross partials. To construct F, integrate M with respect to x, add an unknown function of y, then match its y derivative to N.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-05",
+      "prompt": "State a central formula or test for Exact Differentials.",
+      "answer": "The exactness condition is\n\\[M=F_x,\\quad N=F_y,\\quad M_y=N_x\\]\nUse it only after the symbols in the formula have been identified for the specific exact differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-06",
+      "prompt": "How is the formula or method in Exact Differentials interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The exactness condition is\n\\[M=F_x,\\quad N=F_y,\\quad M_y=N_x\\]\nUse it only after the symbols in the formula have been identified for the specific exact differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-07",
+      "prompt": "Show that (2xy) dx+(x^2+3y^2) dy is exact and find F.",
+      "answer": "Here M=2xy and N=x^2+3y^2. Compute M_y=2x and N_x=2x, so the test passes. Integrate M with respect to x: F=x^2y+g(y). Then F_y=x^2+g'(y). Match N, so g'(y)=3y^2 and g(y)=y^3. Thus F=x^2y+y^3 plus a constant.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-08",
+      "prompt": "If dU=4x dx+2y dy, find the change from (0,0) to (1,3).",
+      "answer": "Integrate the coefficients to get U=2x^2+y^2 plus a constant. The change is U(1,3)-U(0,0)=2(1)^2+3^2-0=11. No path information is needed because dU is exact.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-09",
+      "prompt": "What method choice is usually needed in a standard exact differentials question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: If dF=M dx+N dy on a simply connected smooth region, exactness requires matching cross partials. To construct F, integrate M with respect to x, add an unknown function of y, then match its y derivative to N.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-10",
+      "prompt": "Use the notation of Exact Differentials to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(dF\\), meaning exact differential of the potential F; \\(M(x,y)\\), meaning coefficient of dx in the differential; \\(N(x,y)\\), meaning coefficient of dy in the differential.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-11",
+      "prompt": "How is exactness related to potential energy?",
+      "answer": "For a conservative force, work can be represented by changes in a potential energy function. The differential of that potential is exact, so the energy change depends on endpoints.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-12",
+      "prompt": "What physical or modelling interpretation can Exact Differentials have?",
+      "answer": "In a physics model, the idea of exact differentials helps translate a mathematical expression into a statement about the system. An exact differential comes from a scalar potential function. Its accumulated change depends only on the starting and ending points, not on the path taken between them.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-13",
+      "prompt": "Correct this mistake in Exact Differentials: checking M_x against N_y.",
+      "answer": "compare M_y with N_x.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-14",
+      "prompt": "Why is it important to check assumptions when using Exact Differentials?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Exact differentials are potential-function differentials. Test M_y=N_x, then recover the potential by partial integration and coefficient matching.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-15",
+      "prompt": "Correct this second mistake in Exact Differentials: forgetting the extra function after integration.",
+      "answer": "add g(y) or h(x) because partial integration leaves an unknown function.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Exact Differentials?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Exact differentials are potential-function differentials. Test M_y=N_x, then recover the potential by partial integration and coefficient matching.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-17",
+      "prompt": "Correct this third mistake in Exact Differentials: assuming exactness makes the differential zero.",
+      "answer": "exact means it comes from a potential, not that its value vanishes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-18",
+      "prompt": "Design an exam solution plan for a multi-step exact differentials problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: If dF=M dx+N dy on a simply connected smooth region, exactness requires matching cross partials. To construct F, integrate M with respect to x, add an unknown function of y, then match its y derivative to N. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-19",
+      "prompt": "How could an incorrect setup affect a exact differentials result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, checking M_x against N_y must be avoided: compare M_y with N_x.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-exact-differentials-20",
+      "prompt": "Give an exam-ready summary rule for Exact Differentials.",
+      "answer": "Exact differentials are potential-function differentials. Test M_y=N_x, then recover the potential by partial integration and coefficient matching. If a formula is needed, use \\[M=F_x,\\quad N=F_y,\\quad M_y=N_x\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

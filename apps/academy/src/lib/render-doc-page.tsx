@@ -21,9 +21,9 @@ import {
   level1PhysicsEquationSheetPrintHref,
 } from "@/lib/docs/level-1-physics/equation-sheet";
 import {
-  level1MathIPhysicsEquationSheet,
-  level1MathIPhysicsEquationSheetPrintHref,
-} from "@/lib/docs/level-1-math-i-physics/equation-sheet";
+  level1MathPhysicsEquationSheet,
+  level1MathPhysicsEquationSheetPrintHref,
+} from "@/lib/docs/level-1-math-physics/equation-sheet";
 import {
   level1PhysicsExamSets,
   getLevel1PhysicsExamPaper,
@@ -32,6 +32,10 @@ import {
   getLevel1MathIPhysicsExamPaper,
   level1MathIPhysicsExamSets,
 } from "@/lib/docs/level-1-math-i-physics/exams";
+import {
+  getLevel1MathIIPhysicsExamPaper,
+  level1MathIIPhysicsExamSets,
+} from "@/lib/docs/level-1-math-ii-physics/exams";
 import {
   getCourseBySlug,
   getCourseExamPapersHref,
@@ -82,11 +86,26 @@ const level1MathIPhysicsPaperTopics = [
   },
 ];
 
+const level1MathIIPhysicsPaperTopics = [
+  {
+    label: "Paper 1",
+    description:
+      "Vectors, ODEs, Fourier analysis, multivariable calculus, vector calculus, multiple integrals, and probability for physics support.",
+    timeAllowed: "3 hours",
+    totalMarks: 100,
+  },
+];
+
 const examCourseConfigs = {
   "level-1-math-i-physics": {
     getPaper: getLevel1MathIPhysicsExamPaper,
     paperTopics: level1MathIPhysicsPaperTopics,
     sets: level1MathIPhysicsExamSets,
+  },
+  "level-1-math-ii-physics": {
+    getPaper: getLevel1MathIIPhysicsExamPaper,
+    paperTopics: level1MathIIPhysicsPaperTopics,
+    sets: level1MathIIPhysicsExamSets,
   },
   "level-1-physics": {
     getPaper: getLevel1PhysicsExamPaper,
@@ -97,8 +116,16 @@ const examCourseConfigs = {
 
 const equationSheetCourseConfigs = {
   "level-1-math-i-physics": {
-    printHref: level1MathIPhysicsEquationSheetPrintHref,
-    sheet: level1MathIPhysicsEquationSheet,
+    printHref: level1MathPhysicsEquationSheetPrintHref,
+    sheet: level1MathPhysicsEquationSheet,
+  },
+  "level-1-math-ii-physics": {
+    printHref: level1MathPhysicsEquationSheetPrintHref,
+    sheet: level1MathPhysicsEquationSheet,
+  },
+  "level-1-math-physics": {
+    printHref: level1MathPhysicsEquationSheetPrintHref,
+    sheet: level1MathPhysicsEquationSheet,
   },
   "level-1-physics": {
     printHref: level1PhysicsEquationSheetPrintHref,
@@ -196,9 +223,7 @@ export async function RenderDocsPage({
   const isEquationSheetPage = isCourseEquationSheetPage(page);
 
   if (isEquationSheetPage) {
-    const equationSheetConfig = course?.scope
-      ? getEquationSheetCourseConfig(course.scope)
-      : null;
+    const equationSheetConfig = getEquationSheetCourseConfig(page.slug[0]);
 
     if (!equationSheetConfig) {
       notFound();

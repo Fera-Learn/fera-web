@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-2",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering polar motion, ODEs, Fourier series, coordinate transforms, critical points, vector identities, and probability distributions.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s2-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "A particle moves in the plane with polar coordinates \\(\\theta=t\\) and \\(r=2\\sec\\theta\\), for \\(-\\pi/2<t<\\pi/2\\).",
+      "title": "Polar Motion",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the Cartesian equation of the trajectory and describe its sketch.",
+          "answer": "Using \\(x=r\\cos\\theta\\) and \\(y=r\\sin\\theta\\), we get \\(x=2\\sec\\theta\\cos\\theta=2\\). Also \\(y=2\\sec\\theta\\sin\\theta=2\\tan t\\). Hence the particle moves on the vertical line \\(x=2\\). As \\(t\\) increases from \\(-\\pi/2\\) to \\(\\pi/2\\), \\(y=2\\tan t\\) increases from \\(-\\infty\\) to \\(\\infty\\), so the sketch is the whole vertical line traversed upward."
+        },
+        {
+          "id": "l1mii-s2-p1-q1-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Compute the velocity and acceleration in Cartesian components.",
+          "answer": "The Cartesian position is \\(\\mathbf r(t)=(2,2\\tan t)\\). Differentiating gives the velocity \\[\\mathbf v(t)=(0,2\\sec^2t).\\] Differentiating once more gives the acceleration \\[\\mathbf a(t)=(0,4\\sec^2t\\tan t).\\] The horizontal component of both velocity and acceleration is zero, as expected for motion along a vertical line."
+        },
+        {
+          "id": "l1mii-s2-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "If the particle has constant mass \\(m\\), express the force in terms of the Cartesian coordinate \\(y\\).",
+          "answer": "Since \\(y=2\\tan t\\), we have \\(\\tan t=y/2\\) and \\(\\sec^2t=1+\\tan^2t=1+y^2/4\\). The acceleration is vertical with component \\[4\\sec^2t\\tan t=4\\left(1+\\frac{y^2}{4}\\right)\\frac{y}{2}=2y+\\frac{y^3}{2}.\\] Therefore \\[\\mathbf F=m\\mathbf a=\\left(0,m\\left(2y+\\frac{y^3}{2}\\right)\\right).\\] This is a nonlinear vertical force depending only on displacement along the line."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Solve the following differential equations.",
+      "title": "Second-Order and Bernoulli Equations",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q2-a",
+          "label": "(a)",
+          "marks": 7,
+          "prompt": "Solve \\(x''+2x'+x=e^{-t}\\), subject to \\(x(0)=0\\) and \\(x'(0)=1\\).",
+          "answer": "The operator is \\((D+1)^2\\). Put \\(x=e^{-t}u(t)\\). Then \\((D+1)^2x=e^{-t}u''\\), so the equation becomes \\(u''=1\\). Hence \\(u=t^2/2+C_1t+C_0\\), and \\[x=e^{-t}\\left(\\frac{t^2}{2}+C_1t+C_0\\right).\\] The condition \\(x(0)=0\\) gives \\(C_0=0\\). Since \\(x'=e^{-t}(u'-u)\\), the condition \\(x'(0)=1\\) gives \\(C_1=1\\). Thus \\[x(t)=e^{-t}\\left(t+\\frac{t^2}{2}\\right).\\]"
+        },
+        {
+          "id": "l1mii-s2-p1-q2-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Solve the Bernoulli equation \\(\\frac{dy}{dx}+y=xy^2\\), subject to \\(y(0)=1\\).",
+          "answer": "Let \\(z=y^{-1}\\). Then \\(z'=-y^{-2}y'\\). From the equation, \\(y'=xy^2-y\\), so \\[z'=-(x-y^{-1})=-x+z.\\] Hence \\(z'-z=-x\\). The integrating factor is \\(e^{-x}\\), giving \\[(ze^{-x})'=-xe^{-x}.\\] Integrating, \\(ze^{-x}=(x+1)e^{-x}+C\\), so \\(z=x+1+Ce^x\\). Since \\(y(0)=1\\), \\(z(0)=1\\), hence \\(C=0\\). Therefore \\[y(x)=\\frac{1}{x+1}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(g(x)=x\\) on \\((-\\pi,\\pi]\\), extended periodically with period \\(2\\pi\\).",
+      "title": "Fourier Series of an Odd Function",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q3-a",
+          "label": "(a)",
+          "marks": 7,
+          "prompt": "Find the Fourier series of \\(g\\).",
+          "answer": "The function is odd, so \\(a_0=a_n=0\\). The sine coefficients are \\[b_n=\\frac{2}{\\pi}\\int_0^{\\pi}x\\sin nx\\,dx.\\] Integrating by parts with \\(u=x\\) and \\(dv=\\sin nx\\,dx\\), \\[\\int_0^{\\pi}x\\sin nx\\,dx=\\left[-\\frac{x\\cos nx}{n}\\right]_0^{\\pi}+\\frac{1}{n}\\int_0^{\\pi}\\cos nx\\,dx=-\\frac{\\pi(-1)^n}{n}.\\] Thus \\(b_n=2(-1)^{n+1}/n\\), and \\[x\\sim2\\left(\\sin x-\\frac{\\sin2x}{2}+\\frac{\\sin3x}{3}-\\frac{\\sin4x}{4}+\\cdots\\right).\\]"
+        },
+        {
+          "id": "l1mii-s2-p1-q3-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Use Parseval's theorem to prove that \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}=\\frac{\\pi^2}{6}\\).",
+          "answer": "Parseval's theorem gives \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}x^2\\,dx=\\sum_{n=1}^{\\infty}b_n^2.\\] The left side is \\[\\frac{2}{\\pi}\\int_0^{\\pi}x^2\\,dx=\\frac{2\\pi^2}{3}.\\] Since \\(b_n=2(-1)^{n+1}/n\\), the right side is \\[\\sum_{n=1}^{\\infty}\\frac{4}{n^2}=4\\sum_{n=1}^{\\infty}\\frac{1}{n^2}.\\] Therefore \\[\\frac{2\\pi^2}{3}=4\\sum_{n=1}^{\\infty}\\frac{1}{n^2},\\] and so \\(\\sum_{n=1}^{\\infty}1/n^2=\\pi^2/6\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Use polar coordinates \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\).",
+      "title": "Polar Derivatives and Integrals",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Show that \\(\\frac{\\partial r}{\\partial x}=\\cos\\theta\\), \\(\\frac{\\partial r}{\\partial y}=\\sin\\theta\\), \\(\\frac{\\partial\\theta}{\\partial x}=-\\frac{\\sin\\theta}{r}\\), and \\(\\frac{\\partial\\theta}{\\partial y}=\\frac{\\cos\\theta}{r}\\).",
+          "answer": "Since \\(r=(x^2+y^2)^{1/2}\\), \\(r_x=x/r=\\cos\\theta\\) and \\(r_y=y/r=\\sin\\theta\\). Also \\(\\theta=\\tan^{-1}(y/x)\\). Differentiating gives \\[\\theta_x=\\frac{1}{1+(y/x)^2}\\left(-\\frac{y}{x^2}\\right)=-\\frac{y}{x^2+y^2}=-\\frac{\\sin\\theta}{r},\\] and \\[\\theta_y=\\frac{1}{1+(y/x)^2}\\frac{1}{x}=\\frac{x}{x^2+y^2}=\\frac{\\cos\\theta}{r}.\\]"
+        },
+        {
+          "id": "l1mii-s2-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "If \\(F(r,\\theta)=e^{r^2\\cos2\\theta}\\), find \\(F_\\theta\\).",
+          "answer": "Treat \\(r\\) as constant when differentiating with respect to \\(\\theta\\). Since \\(\\frac{d}{d\\theta}(r^2\\cos2\\theta)=-2r^2\\sin2\\theta\\), the chain rule gives \\[F_\\theta=-2r^2\\sin2\\theta\\,e^{r^2\\cos2\\theta}.\\] This is the angular rate of change of the transformed scalar field at fixed radius."
+        },
+        {
+          "id": "l1mii-s2-p1-q4-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\iint_R(1+x^2+y^2)\\,dA\\), where \\(R\\) is the quarter-disc \\(0\\le r\\le2\\), \\(0\\le\\theta\\le\\pi/2\\).",
+          "answer": "In polar coordinates, \\(x^2+y^2=r^2\\) and \\(dA=r\\,dr\\,d\\theta\\). Therefore \\[\\iint_R(1+x^2+y^2)\\,dA=\\int_0^{\\pi/2}\\int_0^2(1+r^2)r\\,dr\\,d\\theta.\\] The radial integral is \\[\\int_0^2(r+r^3)\\,dr=\\left[\\frac{r^2}{2}+\\frac{r^4}{4}\\right]_0^2=2+4=6.\\] Multiplying by \\(\\pi/2\\), the value is \\(3\\pi\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider \\(f(x,y)=x^2+by^2-4xy\\).",
+      "title": "Critical Points with a Parameter",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q5-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Find and classify the critical point when \\(b=5\\).",
+          "answer": "The first derivatives are \\(f_x=2x-4y\\) and \\(f_y=2by-4x\\). When \\(b=5\\), the equations are \\(2x-4y=0\\) and \\(10y-4x=0\\). The first gives \\(x=2y\\), and substituting into the second gives \\(10y-8y=0\\), so \\(y=0\\) and \\(x=0\\). The Hessian is \\[H=\\begin{pmatrix}2&-4\\\\-4&10\\end{pmatrix},\\] with determinant \\(20-16=4>0\\) and \\(f_{xx}=2>0\\). Thus \\((0,0)\\) is a local minimum."
+        },
+        {
+          "id": "l1mii-s2-p1-q5-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the critical set when \\(b=4\\), and explain why the usual Hessian test is inconclusive.",
+          "answer": "When \\(b=4\\), the equations are \\(2x-4y=0\\) and \\(8y-4x=0\\). Both are equivalent to \\(x=2y\\), so every point on the line \\(x=2y\\) is critical. The Hessian is \\[H=\\begin{pmatrix}2&-4\\\\-4&8\\end{pmatrix},\\] whose determinant is \\(16-16=0\\). Since the determinant is zero, the second-derivative criterion is inconclusive."
+        },
+        {
+          "id": "l1mii-s2-p1-q5-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Describe the surface when \\(b=4\\).",
+          "answer": "For \\(b=4\\), \\[f(x,y)=x^2+4y^2-4xy=(x-2y)^2.\\] Hence \\(f\\ge0\\), and \\(f=0\\) exactly on the line \\(x=2y\\). The critical set is therefore a flat valley of global minima rather than an isolated critical point."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(\\mathbf V=(-y/2,x/2,z^2)\\).",
+      "title": "Divergence, Curl, and Identities",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Describe the vector field in the plane \\(z=0\\).",
+          "answer": "In the plane \\(z=0\\), the field is \\(\\mathbf V=(-y/2,x/2,0)\\). At each point the vector is perpendicular to the radial vector \\((x,y,0)\\), since \\((-y/2,x/2,0)\\cdot(x,y,0)=0\\). Its magnitude is \\(\\frac12\\sqrt{x^2+y^2}\\), so the field represents anticlockwise rotation about the \\(z\\)-axis, growing linearly with distance from the origin."
+        },
+        {
+          "id": "l1mii-s2-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Compute \\(\\nabla\\cdot\\mathbf V\\) and \\(\\nabla\\times\\mathbf V\\).",
+          "answer": "The divergence is \\[\\nabla\\cdot\\mathbf V=\\frac{\\partial}{\\partial x}\\left(-\\frac y2\\right)+\\frac{\\partial}{\\partial y}\\left(\\frac x2\\right)+\\frac{\\partial}{\\partial z}(z^2)=2z.\\] For the curl, \\[\\nabla\\times\\mathbf V=(0-0,0-0,\\partial_x(x/2)-\\partial_y(-y/2))=(0,0,1).\\] The curl confirms a constant positive rotational tendency about the \\(z\\)-axis."
+        },
+        {
+          "id": "l1mii-s2-p1-q6-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "Show that \\(\\nabla\\times(\\nabla f)=\\mathbf0\\) for a smooth scalar function \\(f(x,y,z)\\).",
+          "answer": "We have \\(\\nabla f=(f_x,f_y,f_z)\\). Therefore \\[\\nabla\\times(\\nabla f)=(f_{zy}-f_{yz}, f_{xz}-f_{zx}, f_{yx}-f_{xy}).\\] If \\(f\\) is smooth, mixed partial derivatives are equal: \\(f_{zy}=f_{yz}\\), \\(f_{xz}=f_{zx}\\), and \\(f_{yx}=f_{xy}\\). Each component is therefore zero, so \\[\\nabla\\times(\\nabla f)=\\mathbf0.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s2-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A research visit uses three minibuses and a continuous model for equipment weights.",
+      "title": "Counting and Continuous Distributions",
+      "parts": [
+        {
+          "id": "l1mii-s2-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Twelve labelled students are assigned to minibuses with \\(3\\), \\(4\\), and \\(5\\) seats. How many assignments fill all seats?",
+          "answer": "Choose the \\(3\\) students for the first bus, then the \\(4\\) students for the second, and the remaining \\(5\\) go on the third. The number of assignments is \\[\\binom{12}{3}\\binom{9}{4}=\\frac{12!}{3!4!5!}.\\] The buses have different capacities, so the bus labels matter and no additional division is needed."
+        },
+        {
+          "id": "l1mii-s2-p1-q7-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Four of the students are physicists. If all assignments are equally likely, find the probability that all four physicists are on the largest bus.",
+          "answer": "The largest bus has \\(5\\) seats. If all four physicists are on it, choose its remaining passenger from the \\(8\\) non-physicists, then distribute the remaining \\(7\\) students between the buses of sizes \\(3\\) and \\(4\\). The favourable count is \\(8\\cdot\\frac{7!}{3!4!}\\). Dividing by the total \\(\\frac{12!}{3!4!5!}\\), the probability is \\[\\frac{8\\cdot7!/(3!4!)}{12!/(3!4!5!)}=\\frac{8\\cdot5!7!}{12!}.\\]"
+        },
+        {
+          "id": "l1mii-s2-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "A positive random variable has density \\(f_X(x)=\\alpha x^{-3}\\) for \\(x\\ge1\\), and \\(0\\) otherwise. Find \\(\\alpha\\) and \\(E[X]\\).",
+          "answer": "For a valid density, \\[1=\\int_1^{\\infty}\\alpha x^{-3}\\,dx=\\alpha\\left[-\\frac{1}{2x^2}\\right]_1^{\\infty}=\\frac{\\alpha}{2}.\\] Hence \\(\\alpha=2\\). The expectation is \\[E[X]=\\int_1^{\\infty}x\\cdot2x^{-3}\\,dx=2\\int_1^{\\infty}x^{-2}\\,dx=2.\\] Thus the density has finite mean equal to \\(2\\)."
+        },
+        {
+          "id": "l1mii-s2-p1-q7-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the cumulative distribution function and the probability \\(P(X>3)\\).",
+          "answer": "For \\(x<1\\), \\(F_X(x)=0\\). For \\(x\\ge1\\), \\[F_X(x)=\\int_1^x2t^{-3}\\,dt=\\left[-t^{-2}\\right]_1^x=1-\\frac{1}{x^2}.\\] Therefore \\[F_X(x)=\\begin{cases}0,&x<1,\\\\1-x^{-2},&x\\ge1.\\end{cases}\\] The tail probability is \\[P(X>3)=1-F_X(3)=\\frac{1}{9}.\\]"
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

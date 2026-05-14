@@ -8,10 +8,10 @@ import {
 } from "@/lib/docs/level-1-physics/equation-sheet";
 import type { Level1PhysicsEquationSheet } from "@/lib/docs/level-1-physics/equation-sheet";
 import {
-  level1MathIPhysicsEquationSheet,
-  level1MathIPhysicsEquationSheetFilename,
-  level1MathIPhysicsEquationSheetHref,
-} from "@/lib/docs/level-1-math-i-physics/equation-sheet";
+  level1MathPhysicsEquationSheet,
+  level1MathPhysicsEquationSheetFilename,
+  level1MathPhysicsEquationSheetHref,
+} from "@/lib/docs/level-1-math-physics/equation-sheet";
 
 type EquationSheetPrintPageData = {
   backHref: string;
@@ -21,10 +21,10 @@ type EquationSheetPrintPageData = {
 };
 
 const equationSheetPrintConfigs = {
-  "level-1-math-i-physics": {
-    backHref: level1MathIPhysicsEquationSheetHref,
-    filename: level1MathIPhysicsEquationSheetFilename,
-    sheet: level1MathIPhysicsEquationSheet,
+  "level-1-math-physics": {
+    backHref: level1MathPhysicsEquationSheetHref,
+    filename: level1MathPhysicsEquationSheetFilename,
+    sheet: level1MathPhysicsEquationSheet,
   },
   "level-1-physics": {
     backHref: level1PhysicsEquationSheetHref,

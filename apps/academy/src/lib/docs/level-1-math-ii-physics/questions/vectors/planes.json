@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vectors",
+  "topicId": "planes",
+  "topicTitle": "Planes",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vectors-planes-01",
+      "prompt": "Write the plane through \\((1,2,3)\\) with normal \\((2,-1,1)\\).",
+      "answer": "Use \\(\\mathbf n\\cdot((x,y,z)-(1,2,3))=0\\): \\(2(x-1)-(y-2)+(z-3)=0\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-02",
+      "prompt": "Simplify \\(2(x-1)-(y-2)+(z-3)=0\\).",
+      "answer": "Expanding gives \\(2x-2-y+2+z-3=0\\), so \\(2x-y+z=3\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-03",
+      "prompt": "Does \\((1,2,3)\\) lie on \\(2x-y+z=3\\)?",
+      "answer": "Substitute: \\(2(1)-2+3=3\\). Since the equation is satisfied, the point lies on the plane.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-04",
+      "prompt": "Does \\((0,0,0)\\) lie on \\(2x-y+z=3\\)?",
+      "answer": "Substitute: \\(0\\), which is not \\(3\\). So the origin is not on the plane.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-05",
+      "prompt": "Find a normal vector to \\(3x+4y-5z=7\\).",
+      "answer": "The coefficients of \\(x,y,z\\) give a normal vector: \\((3,4,-5)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-06",
+      "prompt": "Find a plane through the origin with normal \\((1,1,1)\\).",
+      "answer": "Use \\((1,1,1)\\cdot(x,y,z)=0\\), so \\(x+y+z=0\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-07",
+      "prompt": "Find the plane through \\(A=(1,0,0)\\), \\(B=(0,1,0)\\), and \\(C=(0,0,1)\\).",
+      "answer": "Vectors \\(B-A=(-1,1,0)\\) and \\(C-A=(-1,0,1)\\) have cross product \\((1,1,1)\\). Thus \\(x+y+z=1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-08",
+      "prompt": "Find the intersection point of line \\(\\mathbf r=(0,0,0)+t(1,2,3)\\) with plane \\(x+y+z=6\\).",
+      "answer": "Substitute: \\(t+2t+3t=6\\), so \\(6t=6\\) and \\(t=1\\). The point is \\((1,2,3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-09",
+      "prompt": "Find the distance from \\((1,1,1)\\) to plane \\(2x-y+2z=4\\).",
+      "answer": "Use \\(|2(1)-1+2(1)-4|/\\sqrt{2^2+(-1)^2+2^2}=| -1 |/3=1/3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-10",
+      "prompt": "Are planes \\(x+2y+3z=4\\) and \\(2x+4y+6z=9\\) parallel?",
+      "answer": "Their normals \\((1,2,3)\\) and \\((2,4,6)\\) are scalar multiples, so the planes are parallel. They are distinct because doubling the first constant gives \\(8\\), not \\(9\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-11",
+      "prompt": "Find the angle between planes with normals \\((1,0,1)\\) and \\((0,1,1)\\).",
+      "answer": "The angle between planes equals the angle between normals. Dot product is \\(1\\), magnitudes are \\(\\sqrt2\\) and \\(\\sqrt2\\), so the angle is \\(60^\\circ\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-12",
+      "prompt": "Find a parametric equation for plane \\(x+y+z=1\\).",
+      "answer": "Let \\(y=s\\), \\(z=t\\), so \\(x=1-s-t\\). Thus \\(\\mathbf r=(1,0,0)+s(-1,1,0)+t(-1,0,1)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-13",
+      "prompt": "Find the normal to the plane spanned by \\((1,2,0)\\) and \\((0,1,3)\\).",
+      "answer": "Compute the cross product: \\((1,2,0)\\times(0,1,3)=(6,-3,1)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-14",
+      "prompt": "Find the plane through \\((2,0,1)\\) parallel to \\(x-y+z=5\\).",
+      "answer": "Parallel planes have the same normal \\((1,-1,1)\\). Use \\((x-2)-y+(z-1)=0\\), so \\(x-y+z=3\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-15",
+      "prompt": "A line is given by \\(\\mathbf r=(1,-1,0)+t(1,2,1)\\). Find where it meets the plane \\(2x+3y+z=5\\).",
+      "answer": "Substitute \\(x=1+t\\), \\(y=-1+2t\\), and \\(z=t\\) into the plane: \\(2(1+t)+3(-1+2t)+t=5\\). This simplifies to \\(-1+9t=5\\), so \\(t=2/3\\). The intersection point is \\((1+2/3,-1+4/3,2/3)=(5/3,1/3,2/3)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-16",
+      "prompt": "The line \\(\\mathbf r=(2,0,1)+t(1,-1,0)\\) has direction parallel to the plane \\(x+y+z=2\\). Decide whether the whole line lies in the plane or is parallel but separate.",
+      "answer": "The plane normal is \\((1,1,1)\\), and \\((1,-1,0)\\cdot(1,1,1)=0\\), so the direction is parallel to the plane. Test the reference point: \\(2+0+1=3\\), not \\(2\\). Since the direction is parallel but the point is not on the plane, the line is parallel to the plane but separate from it.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-17",
+      "prompt": "Find the line of intersection of planes \\(x+y=1\\) and \\(z=2\\), then verify that its direction is perpendicular to both plane normals.",
+      "answer": "Let \\(x=t\\). Then \\(y=1-t\\) and \\(z=2\\), so \\(\\mathbf r=(0,1,2)+t(1,-1,0)\\). The plane normals are \\((1,1,0)\\) and \\((0,0,1)\\). The direction \\((1,-1,0)\\) has dot products \\(1-1+0=0\\) and \\(0\\), so it is perpendicular to both normals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-18",
+      "prompt": "Find the plane through \\(A=(1,0,2)\\), \\(B=(3,1,0)\\), and \\(C=(0,2,1)\\), then test whether \\(P=(2,1,1)\\) lies on it.",
+      "answer": "Use \\(\\overrightarrow{AB}=(2,1,-2)\\) and \\(\\overrightarrow{AC}=(-1,2,-1)\\). A normal is \\(\\overrightarrow{AB}\\times\\overrightarrow{AC}=(3,4,5)\\). The plane is \\(3(x-1)+4y+5(z-2)=0\\), or \\(3x+4y+5z=13\\). For \\(P=(2,1,1)\\), the left side is \\(6+4+5=15\\), not \\(13\\), so \\(P\\) is not on the plane.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-19",
+      "prompt": "Find the foot of the perpendicular from \\(P=(1,2,3)\\) to the plane \\(2x-2y+z=6\\), and give the distance from \\(P\\) to the plane.",
+      "answer": "The normal is \\(\\mathbf n=(2,-2,1)\\). Points on the perpendicular have form \\(P-\\lambda\\mathbf n=(1-2\\lambda,2+2\\lambda,3-\\lambda)\\). Substitute into the plane: \\(2(1-2\\lambda)-2(2+2\\lambda)+(3-\\lambda)=6\\), so \\(1-9\\lambda=6\\) and \\(\\lambda=-5/9\\). The foot is \\(P-(-5/9)\\mathbf n=(19/9,8/9,32/9)\\). The distance is \\(|2(1)-2(2)+3-6|/|\\mathbf n|=5/3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-planes-20",
+      "prompt": "A slab is bounded by the parallel planes \\(2x-y+2z=4\\) and \\(2x-y+2z=10\\). Find its thickness and a point on the second plane reached by moving normally from \\((2,0,0)\\) on the first plane.",
+      "answer": "The normal is \\(\\mathbf n=(2,-1,2)\\), with magnitude \\(3\\). The thickness is \\(|10-4|/3=2\\). Moving from the first plane to the second in the normal direction requires \\(\\lambda\\mathbf n\\) with \\(\\mathbf n\\cdot((2,0,0)+\\lambda\\mathbf n)=10\\). Since \\(\\mathbf n\\cdot(2,0,0)=4\\) and \\(\\mathbf n\\cdot\\mathbf n=9\\), \\(4+9\\lambda=10\\), so \\(\\lambda=2/3\\). The point is \\((2,0,0)+(2/3)(2,-1,2)=(10/3,-2/3,4/3)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

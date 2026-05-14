@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "polar-integration",
+  "topicTitle": "Polar Integration",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-01",
+      "prompt": "What is the main purpose of Polar Integration?",
+      "answer": "Polar integration uses radius and angle instead of Cartesian coordinates. It is best for circles, disks, sectors, and radial symmetry, but the area element must include the Jacobian factor \\(r\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-02",
+      "prompt": "What does \\(r\\) mean in Polar Integration?",
+      "answer": "In Polar Integration, \\(r\\) means distance from the origin.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-03",
+      "prompt": "Identify another important piece of notation used in Polar Integration.",
+      "answer": "In Polar Integration, \\(\\theta\\) means angle from the positive x-axis. Its unit is rad.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-04",
+      "prompt": "Before doing a polar integration calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Convert the region and integrand, then include the area factor \\(r\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-05",
+      "prompt": "State a central formula or test for Polar Integration.",
+      "answer": "The polar double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_{\\theta=\\alpha}^{\\beta}\\int_{r=a(\\theta)}^{b(\\theta)} f(r\\cos\\theta,r\\sin\\theta)\\,r\\,dr\\,d\\theta\\]\nUse it only after the symbols in the formula have been identified for the specific polar integration problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-06",
+      "prompt": "How is the formula or method in Polar Integration interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The polar double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_{\\theta=\\alpha}^{\\beta}\\int_{r=a(\\theta)}^{b(\\theta)} f(r\\cos\\theta,r\\sin\\theta)\\,r\\,dr\\,d\\theta\\]\nUse it only after the symbols in the formula have been identified for the specific polar integration problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-07",
+      "prompt": "Use polar coordinates to find the area of a disk of radius \\(a\\).",
+      "answer": "Set \\(f=1\\), with \\(0\\le r\\le a\\) and \\(0\\le\\theta\\le2\\pi\\): \\[A=\\int_0^{2\\pi}\\int_0^a r\\,dr\\,d\\theta=\\int_0^{2\\pi}\\frac{a^2}{2}\\,d\\theta=\\pi a^2\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-08",
+      "prompt": "Convert \\(\\iint_R e^{-(x^2+y^2)}\\,dA\\) over the unit disk to polar form.",
+      "answer": "Use \\(x^2+y^2=r^2\\) and \\(dA=r\\,dr\\,d\\theta\\). The disk is \\(0\\le r\\le1\\), \\(0\\le\\theta\\le2\\pi\\), so \\[\\int_0^{2\\pi}\\int_0^1 e^{-r^2}r\\,dr\\,d\\theta\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-09",
+      "prompt": "What method choice is usually needed in a standard polar integration question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Convert the region and integrand, then include the area factor \\(r\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-10",
+      "prompt": "Use the notation of Polar Integration to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(r\\), meaning distance from the origin; \\(\\theta\\), meaning angle from the positive x-axis; \\(x=r\\cos\\theta\\), meaning Cartesian x-coordinate in polar form.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-11",
+      "prompt": "What are polar bounds for a sector with \\(0\\le r\\le3\\) and \\(0\\le\\theta\\le\\pi/4\\)?",
+      "answer": "The bounds are already polar. A double integral over the sector is \\[\\int_0^{\\pi/4}\\int_0^3 f(r\\cos\\theta,r\\sin\\theta)r\\,dr\\,d\\theta\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-12",
+      "prompt": "What physical or modelling interpretation can Polar Integration have?",
+      "answer": "In a physics model, the idea of polar integration helps translate a mathematical expression into a statement about the system. Polar integration uses radius and angle instead of Cartesian coordinates. It is best for circles, disks, sectors, and radial symmetry, but the area element must include the Jacobian factor \\(r\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-13",
+      "prompt": "Correct this mistake in Polar Integration: Forgetting the factor \\(r\\).",
+      "answer": "polar area is \\(r\\,dr\\,d\\theta\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-14",
+      "prompt": "Why is it important to check assumptions when using Polar Integration?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Polar integration replaces \\(x,y\\) by \\(r,\\theta\\) and \\(dA\\) by \\(r\\,dr\\,d\\theta\\). It is strongest for circular symmetry.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-15",
+      "prompt": "Correct this second mistake in Polar Integration: Keeping \\(x^2+y^2\\) in the integrand.",
+      "answer": "replace it by \\(r^2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Polar Integration?",
+      "answer": "Track the units in the notation: \\(\\theta\\) has unit rad.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-17",
+      "prompt": "Correct this third mistake in Polar Integration: Using degrees in calculus bounds.",
+      "answer": "angles in integrals are in radians.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-18",
+      "prompt": "Design an exam solution plan for a multi-step polar integration problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Convert the region and integrand, then include the area factor \\(r\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-19",
+      "prompt": "How could an incorrect setup affect a polar integration result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Forgetting the factor \\(r\\) must be avoided: polar area is \\(r\\,dr\\,d\\theta\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-polar-integration-20",
+      "prompt": "Give an exam-ready summary rule for Polar Integration.",
+      "answer": "Polar integration replaces \\(x,y\\) by \\(r,\\theta\\) and \\(dA\\) by \\(r\\,dr\\,d\\theta\\). It is strongest for circular symmetry. If a formula is needed, use \\[\\iint_R f(x,y)\\,dA=\\int_{\\theta=\\alpha}^{\\beta}\\int_{r=a(\\theta)}^{b(\\theta)} f(r\\cos\\theta,r\\sin\\theta)\\,r\\,dr\\,d\\theta\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

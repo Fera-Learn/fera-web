@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "separable-equations",
+  "topicTitle": "Separable Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-01",
+      "prompt": "What is the main purpose of Separable Equations?",
+      "answer": "A separable first-order ODE can be rearranged so all dependent-variable factors are on one side and all independent-variable factors are on the other. It is the standard method for cooling, exponential growth, decay, and simple drag models.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-02",
+      "prompt": "What does \\(x\\) mean in Separable Equations?",
+      "answer": "In Separable Equations, \\(x\\) means independent variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-03",
+      "prompt": "Identify another important piece of notation used in Separable Equations.",
+      "answer": "In Separable Equations, \\(y(x)\\) means dependent variable.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-04",
+      "prompt": "Before doing a separable equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Separate, integrate both sides, then apply any condition.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-05",
+      "prompt": "State a central formula or test for Separable Equations.",
+      "answer": "The separable form is\n\\[\\frac{dy}{dx}=g(y)h(x)\\]\nUse it only after the symbols in the formula have been identified for the specific separable equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-06",
+      "prompt": "How is the formula or method in Separable Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The separated integrals is\n\\[\\int\\frac{1}{g(y)}\\,dy=\\int h(x)\\,dx+C\\]\nUse it only after the symbols in the formula have been identified for the specific separable equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-07",
+      "prompt": "Solve dT/dt equals negative k times T minus T_s, where T_s is constant.",
+      "answer": "Move the temperature factor to the left: \\[\\frac{dT}{T-T_s}=-k\\,dt\\] Integrate both sides: \\[\\int\\frac{1}{T-T_s}\\,dT=\\int-k\\,dt\\] so \\[\\ln|T-T_s|=-kt+C\\] Exponentiate: \\[T-T_s=Ae^{-kt}\\] Therefore \\[T(t)=T_s+Ae^{-kt}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-08",
+      "prompt": "Solve dP/dt equals rP with P(0)=P_0.",
+      "answer": "Separate variables: \\[\\frac{dP}{P}=r\\,dt\\] Integrate: \\[\\ln P=rt+C\\] Exponentiate: \\[P=Ae^{rt}\\] Apply P(0)=P_0: \\[P_0=A\\] Thus \\[P(t)=P_0e^{rt}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-09",
+      "prompt": "What method choice is usually needed in a standard separable equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Separate, integrate both sides, then apply any condition.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-10",
+      "prompt": "Use the notation of Separable Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning independent variable; \\(y(x)\\), meaning dependent variable; \\(g(y)\\), meaning factor depending only on y.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-11",
+      "prompt": "Explain a common worked step in Separable Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Separable Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-12",
+      "prompt": "What physical or modelling interpretation can Separable Equations have?",
+      "answer": "In a physics model, the idea of separable equations helps translate a mathematical expression into a statement about the system. A separable first-order ODE can be rearranged so all dependent-variable factors are on one side and all independent-variable factors are on the other. It is the standard method for cooling, exponential growth, decay, and simple drag models.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-13",
+      "prompt": "Correct this mistake in Separable Equations: Separating terms that still mix x and y.",
+      "answer": "each side must contain only its own variable and its differential.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-14",
+      "prompt": "Why is it important to check assumptions when using Separable Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Separable equations turn a differential equation into two ordinary integrals, one in the dependent variable and one in the independent variable.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-15",
+      "prompt": "Correct this second mistake in Separable Equations: Forgetting the integration constant.",
+      "answer": "add one constant after integrating both sides.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Separable Equations?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Separable equations turn a differential equation into two ordinary integrals, one in the dependent variable and one in the independent variable.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-17",
+      "prompt": "Correct this third mistake in Separable Equations: Forgetting the integration constant.",
+      "answer": "add one constant after integrating both sides.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step separable equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Separate, integrate both sides, then apply any condition. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-19",
+      "prompt": "How could an incorrect setup affect a separable equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Separating terms that still mix x and y must be avoided: each side must contain only its own variable and its differential.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-separable-equations-20",
+      "prompt": "Give an exam-ready summary rule for Separable Equations.",
+      "answer": "Separable equations turn a differential equation into two ordinary integrals, one in the dependent variable and one in the independent variable. If a formula is needed, use \\[\\frac{dy}{dx}=g(y)h(x)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

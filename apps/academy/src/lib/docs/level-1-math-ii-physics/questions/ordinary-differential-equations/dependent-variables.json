@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "dependent-variables",
+  "topicTitle": "Dependent Variables",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-01",
+      "prompt": "What is the main purpose of Dependent Variables?",
+      "answer": "The dependent variable is the quantity the differential equation predicts. In a physical ODE it may be temperature, population, displacement, charge, velocity, or any measurable response that changes with one input.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-02",
+      "prompt": "What does \\(t\\) mean in Dependent Variables?",
+      "answer": "In Dependent Variables, \\(t\\) means independent variable, often time. Its unit is s.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-03",
+      "prompt": "Identify another important piece of notation used in Dependent Variables.",
+      "answer": "In Dependent Variables, \\(y(t)\\) means dependent variable determined by the ODE.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-04",
+      "prompt": "Before doing a dependent variables calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Find the symbol whose derivative appears; that symbol is the dependent variable. The equation predicts y, not t. The independent variable labels where or when the dependent variable is measured.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-05",
+      "prompt": "State a central formula or test for Dependent Variables.",
+      "answer": "The dependent variable test is\n\\[\\frac{dy}{dt}=f(t,y)\\]\nUse it only after the symbols in the formula have been identified for the specific dependent variables problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-06",
+      "prompt": "How is the formula or method in Dependent Variables interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The dependent variable test is\n\\[\\frac{dy}{dt}=f(t,y)\\]\nUse it only after the symbols in the formula have been identified for the specific dependent variables problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-07",
+      "prompt": "In dN/dt equals negative lambda N, identify the dependent variable.",
+      "answer": "The derivative is dN/dt, so N is changing and t is the input. The dependent variable is N(t), the number of undecayed nuclei. The model is \\[\\frac{dN}{dt}=-\\lambda N\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-08",
+      "prompt": "For m d squared x over dt squared equals negative mg, what is the dependent variable?",
+      "answer": "The differentiated quantity is x, so x(t) is the dependent variable. The second derivative describes acceleration, while t is the independent variable: \\[m\\frac{d^2x}{dt^2}=-mg\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-09",
+      "prompt": "What method choice is usually needed in a standard dependent variables question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Find the symbol whose derivative appears; that symbol is the dependent variable. The equation predicts y, not t. The independent variable labels where or when the dependent variable is measured.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-10",
+      "prompt": "Use the notation of Dependent Variables to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(t\\), meaning independent variable, often time; \\(y(t)\\), meaning dependent variable determined by the ODE; \\(T(t)\\), meaning temperature as a dependent variable.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-11",
+      "prompt": "Explain a common worked step in Dependent Variables.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Dependent Variables.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-12",
+      "prompt": "What physical or modelling interpretation can Dependent Variables have?",
+      "answer": "In a physics model, the idea of dependent variables helps translate a mathematical expression into a statement about the system. The dependent variable is the quantity the differential equation predicts. In a physical ODE it may be temperature, population, displacement, charge, velocity, or any measurable response that changes with one input.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-13",
+      "prompt": "Correct this mistake in Dependent Variables: Calling the derivative the dependent variable.",
+      "answer": "the dependent variable is the original quantity, such as x(t), while the derivative is its rate or curvature.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-14",
+      "prompt": "Why is it important to check assumptions when using Dependent Variables?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The dependent variable is the unknown physical quantity the ODE solves for; its derivatives show how that quantity changes.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-15",
+      "prompt": "Correct this second mistake in Dependent Variables: Assuming the dependent variable must be named y.",
+      "answer": "physics often uses T, N, x, v, or q.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Dependent Variables?",
+      "answer": "Track the units in the notation: \\(t\\) has unit s; \\(T(t)\\) has unit K; \\(x(t)\\) has unit m.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-17",
+      "prompt": "Correct this third mistake in Dependent Variables: Assuming the dependent variable must be named y.",
+      "answer": "physics often uses T, N, x, v, or q.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-18",
+      "prompt": "Design an exam solution plan for a multi-step dependent variables problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Find the symbol whose derivative appears; that symbol is the dependent variable. The equation predicts y, not t. The independent variable labels where or when the dependent variable is measured. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-19",
+      "prompt": "How could an incorrect setup affect a dependent variables result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Calling the derivative the dependent variable must be avoided: the dependent variable is the original quantity, such as x(t), while the derivative is its rate or curvature.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-dependent-variables-20",
+      "prompt": "Give an exam-ready summary rule for Dependent Variables.",
+      "answer": "The dependent variable is the unknown physical quantity the ODE solves for; its derivatives show how that quantity changes. If a formula is needed, use \\[\\frac{dy}{dt}=f(t,y)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

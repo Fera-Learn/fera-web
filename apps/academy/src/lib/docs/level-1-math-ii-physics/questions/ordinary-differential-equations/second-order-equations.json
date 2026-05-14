@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "second-order-equations",
+  "topicTitle": "Second-Order Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-01",
+      "prompt": "What is the main purpose of Second-Order Equations?",
+      "answer": "A second-order ODE contains a second derivative of the dependent variable. In mechanics it naturally represents Newton's second law because acceleration is the second derivative of position.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-02",
+      "prompt": "What does \\(t\\) mean in Second-Order Equations?",
+      "answer": "In Second-Order Equations, \\(t\\) means time. Its unit is s.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-03",
+      "prompt": "Identify another important piece of notation used in Second-Order Equations.",
+      "answer": "In Second-Order Equations, \\(x(t)\\) means position or displacement. Its unit is m.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-04",
+      "prompt": "Before doing a second-order equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The model is second order when the highest derivative is the second derivative. For motion, the force balance often becomes a second-order ODE for displacement.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-05",
+      "prompt": "State a central formula or test for Second-Order Equations.",
+      "answer": "The second-order form is\n\\[F(t,y,y',y'')=0\\]\nUse it only after the symbols in the formula have been identified for the specific second-order equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-06",
+      "prompt": "How is the formula or method in Second-Order Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The newton form is\n\\[m x''=F(t,x,x')\\]\nUse it only after the symbols in the formula have been identified for the specific second-order equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-07",
+      "prompt": "Use Newton's law to write the ODE for vertical height x(t) under gravity only.",
+      "answer": "The force is negative mg if upward is positive. Newton's law gives \\[m x''=-mg\\] Divide by m: \\[x''=-g\\] The highest derivative is x double prime, so this is second order.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-08",
+      "prompt": "Why is m x double prime plus kx equals zero second order?",
+      "answer": "The equation includes displacement x and acceleration x double prime. The highest derivative is x double prime, so the order is two: \\[m x''+kx=0\\] A unique motion normally needs x(0) and x prime(0).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-09",
+      "prompt": "What method choice is usually needed in a standard second-order equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The model is second order when the highest derivative is the second derivative. For motion, the force balance often becomes a second-order ODE for displacement.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-10",
+      "prompt": "Use the notation of Second-Order Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(t\\), meaning time; \\(x(t)\\), meaning position or displacement; \\(x'\\), meaning velocity.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-11",
+      "prompt": "Explain a common worked step in Second-Order Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Second-Order Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-12",
+      "prompt": "What physical or modelling interpretation can Second-Order Equations have?",
+      "answer": "In a physics model, the idea of second-order equations helps translate a mathematical expression into a statement about the system. A second-order ODE contains a second derivative of the dependent variable. In mechanics it naturally represents Newton's second law because acceleration is the second derivative of position.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-13",
+      "prompt": "Correct this mistake in Second-Order Equations: Thinking a second-order equation must contain x prime.",
+      "answer": "x double prime alone is enough to make it second order.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-14",
+      "prompt": "Why is it important to check assumptions when using Second-Order Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Second-order ODEs contain acceleration or curvature and usually require two independent conditions for one physical solution.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-15",
+      "prompt": "Correct this second mistake in Second-Order Equations: Supplying only one initial condition.",
+      "answer": "a second-order solution family normally has two constants.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Second-Order Equations?",
+      "answer": "Track the units in the notation: \\(t\\) has unit s; \\(x(t)\\) has unit m; \\(x'\\) has unit m s^{-1}; \\(x''\\) has unit m s^{-2}; \\(m\\) has unit kg.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-17",
+      "prompt": "Correct this third mistake in Second-Order Equations: Supplying only one initial condition.",
+      "answer": "a second-order solution family normally has two constants.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step second-order equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The model is second order when the highest derivative is the second derivative. For motion, the force balance often becomes a second-order ODE for displacement. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-19",
+      "prompt": "How could an incorrect setup affect a second-order equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Thinking a second-order equation must contain x prime must be avoided: x double prime alone is enough to make it second order.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-second-order-equations-20",
+      "prompt": "Give an exam-ready summary rule for Second-Order Equations.",
+      "answer": "Second-order ODEs contain acceleration or curvature and usually require two independent conditions for one physical solution. If a formula is needed, use \\[F(t,y,y',y'')=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

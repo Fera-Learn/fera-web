@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "euler-formulae",
+  "topicTitle": "Euler Formulae",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-01",
+      "prompt": "What is the main purpose of Euler Formulae?",
+      "answer": "Euler formula links complex exponentials with sine and cosine. It lets Fourier series be written in a compact complex form used for waves, AC circuits, and signal analysis.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-02",
+      "prompt": "What does \\(i\\) mean in Euler Formulae?",
+      "answer": "In Euler Formulae, \\(i\\) means imaginary unit with i squared equal to negative one.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-03",
+      "prompt": "Identify another important piece of notation used in Euler Formulae.",
+      "answer": "In Euler Formulae, \\(x\\) means real angle in radians.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-04",
+      "prompt": "Before doing a euler formulae calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Euler formula and its rearrangements convert between trigonometric and exponential forms.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-05",
+      "prompt": "State a central formula or test for Euler Formulae.",
+      "answer": "The euler formula is\n\\[e^{ix}=\\cos x+i\\sin x\\]\nUse it only after the symbols in the formula have been identified for the specific euler formulae problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-06",
+      "prompt": "How is the formula or method in Euler Formulae interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cosine exponential form is\n\\[\\cos x=\\frac{e^{ix}+e^{-ix}}{2}\\]\nUse it only after the symbols in the formula have been identified for the specific euler formulae problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-07",
+      "prompt": "Derive the exponential formula for cos x from Euler formula.",
+      "answer": "Write Euler formula for x and negative x: \\[e^{ix}=\\cos x+i\\sin x\\] and \\[e^{-ix}=\\cos x-i\\sin x\\] Add them: \\[e^{ix}+e^{-ix}=2\\cos x\\] Divide by two: \\[\\cos x=\\frac{e^{ix}+e^{-ix}}{2}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-08",
+      "prompt": "Why do physicists often write a sinusoidal wave as the real part of a complex exponential?",
+      "answer": "Euler formula says the real part of e^{i(kx-\\omega t)} is cos(kx-omega t). Algebra with exponentials is often simpler, and the real physical wave is recovered by taking the real part.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-09",
+      "prompt": "What method choice is usually needed in a standard euler formulae question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Euler formula and its rearrangements convert between trigonometric and exponential forms.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-10",
+      "prompt": "Use the notation of Euler Formulae to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(i\\), meaning imaginary unit with i squared equal to negative one; \\(x\\), meaning real angle in radians; \\(e^{ix}\\), meaning complex exponential on the unit circle.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-11",
+      "prompt": "Explain a common worked step in Euler Formulae.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Euler Formulae.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-12",
+      "prompt": "What physical or modelling interpretation can Euler Formulae have?",
+      "answer": "In a physics model, the idea of euler formulae helps translate a mathematical expression into a statement about the system. Euler formula links complex exponentials with sine and cosine. It lets Fourier series be written in a compact complex form used for waves, AC circuits, and signal analysis.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-13",
+      "prompt": "Correct this mistake in Euler Formulae: Treating the complex exponential itself as the measured real signal.",
+      "answer": "the measured quantity is usually the real part or imaginary part.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-14",
+      "prompt": "Why is it important to check assumptions when using Euler Formulae?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Euler formula packages sine and cosine into complex exponentials, enabling compact Fourier and wave calculations.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-15",
+      "prompt": "Correct this second mistake in Euler Formulae: Using degrees inside Euler formula.",
+      "answer": "the angle must be in radians.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Euler Formulae?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Euler formula packages sine and cosine into complex exponentials, enabling compact Fourier and wave calculations.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-17",
+      "prompt": "Correct this third mistake in Euler Formulae: Using degrees inside Euler formula.",
+      "answer": "the angle must be in radians.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-18",
+      "prompt": "Design an exam solution plan for a multi-step euler formulae problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Euler formula and its rearrangements convert between trigonometric and exponential forms. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-19",
+      "prompt": "How could an incorrect setup affect a euler formulae result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating the complex exponential itself as the measured real signal must be avoided: the measured quantity is usually the real part or imaginary part.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-euler-formulae-20",
+      "prompt": "Give an exam-ready summary rule for Euler Formulae.",
+      "answer": "Euler formula packages sine and cosine into complex exponentials, enabling compact Fourier and wave calculations. If a formula is needed, use \\[e^{ix}=\\cos x+i\\sin x\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "higher-partial-derivatives",
+  "topicTitle": "Higher Partial Derivatives",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-01",
+      "prompt": "What is the main purpose of Higher Partial Derivatives?",
+      "answer": "Higher partial derivatives are found by applying partial differentiation repeatedly. They describe how first rates of change themselves vary, which is useful for curvature, diffusion, and stability.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-02",
+      "prompt": "What does \\(f_{xx}\\) mean in Higher Partial Derivatives?",
+      "answer": "In Higher Partial Derivatives, \\(f_{xx}\\) means differentiate f with respect to x twice.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-03",
+      "prompt": "Identify another important piece of notation used in Higher Partial Derivatives.",
+      "answer": "In Higher Partial Derivatives, \\(f_{xy}\\) means differentiate first with respect to x, then with respect to y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-04",
+      "prompt": "Before doing a higher partial derivatives calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Repeat the partial derivative one step at a time, keeping non-selected variables fixed at each step. For \\(f(x,y)=x^2y^3\\), first \\(f_x=2xy^3\\). Then \\(f_{xx}=2y^3\\) and \\(f_{xy}=6xy^2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-05",
+      "prompt": "State a central formula or test for Higher Partial Derivatives.",
+      "answer": "The second and mixed partials is\n\\[f_{xx}=\\frac{\\partial}{\\partial x}(f_x),\\qquad f_{xy}=\\frac{\\partial}{\\partial y}(f_x)\\]\nUse it only after the symbols in the formula have been identified for the specific higher partial derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-06",
+      "prompt": "How is the formula or method in Higher Partial Derivatives interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The second and mixed partials is\n\\[f_{xx}=\\frac{\\partial}{\\partial x}(f_x),\\qquad f_{xy}=\\frac{\\partial}{\\partial y}(f_x)\\]\nUse it only after the symbols in the formula have been identified for the specific higher partial derivatives problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-07",
+      "prompt": "For T(x,y)=3x^2y+y^2, find T_x, T_{xx}, and T_{xy}.",
+      "answer": "First T_x=6xy because y is fixed. Differentiate T_x with respect to x: T_{xx}=6y. Differentiate T_x with respect to y: T_{xy}=6x.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-08",
+      "prompt": "For V(x,y)=x^3y^2, compute V_{yx} by differentiating in the stated order.",
+      "answer": "First differentiate with respect to y: V_y=2x^3y. Then differentiate that result with respect to x: V_{yx}=6x^2y.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-09",
+      "prompt": "What method choice is usually needed in a standard higher partial derivatives question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Repeat the partial derivative one step at a time, keeping non-selected variables fixed at each step. For \\(f(x,y)=x^2y^3\\), first \\(f_x=2xy^3\\). Then \\(f_{xx}=2y^3\\) and \\(f_{xy}=6xy^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-10",
+      "prompt": "Use the notation of Higher Partial Derivatives to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f_{xx}\\), meaning differentiate f with respect to x twice; \\(f_{xy}\\), meaning differentiate first with respect to x, then with respect to y; \\(f_{yx}\\), meaning differentiate first with respect to y, then with respect to x.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-11",
+      "prompt": "Why does T_{xx} appear in one-dimensional heat diffusion?",
+      "answer": "T_x measures spatial temperature slope. T_{xx} measures how that slope changes with x, so it detects local curvature that drives smoothing by diffusion.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-12",
+      "prompt": "What physical or modelling interpretation can Higher Partial Derivatives have?",
+      "answer": "In a physics model, the idea of higher partial derivatives helps translate a mathematical expression into a statement about the system. Higher partial derivatives are found by applying partial differentiation repeatedly. They describe how first rates of change themselves vary, which is useful for curvature, diffusion, and stability.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-13",
+      "prompt": "Correct this mistake in Higher Partial Derivatives: skipping the intermediate derivative.",
+      "answer": "write each first derivative before the next partial derivative.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-14",
+      "prompt": "Why is it important to check assumptions when using Higher Partial Derivatives?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Higher partial derivatives are repeated partial derivatives. Track the order, write intermediate steps, and interpret second partials as curvature or changing rates.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-15",
+      "prompt": "Correct this second mistake in Higher Partial Derivatives: assuming mixed partials are always equal.",
+      "answer": "equality needs smoothness conditions near the point.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Higher Partial Derivatives?",
+      "answer": "Track the units in the notation: \\(T(x,y)\\) has unit K.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-17",
+      "prompt": "Correct this third mistake in Higher Partial Derivatives: losing constant factors.",
+      "answer": "treat fixed variables as constants and carry their factors through.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-18",
+      "prompt": "Design an exam solution plan for a multi-step higher partial derivatives problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Repeat the partial derivative one step at a time, keeping non-selected variables fixed at each step. For \\(f(x,y)=x^2y^3\\), first \\(f_x=2xy^3\\). Then \\(f_{xx}=2y^3\\) and \\(f_{xy}=6xy^2\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-19",
+      "prompt": "How could an incorrect setup affect a higher partial derivatives result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, skipping the intermediate derivative must be avoided: write each first derivative before the next partial derivative.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-higher-partial-derivatives-20",
+      "prompt": "Give an exam-ready summary rule for Higher Partial Derivatives.",
+      "answer": "Higher partial derivatives are repeated partial derivatives. Track the order, write intermediate steps, and interpret second partials as curvature or changing rates. If a formula is needed, use \\[f_{xx}=\\frac{\\partial}{\\partial x}(f_x),\\qquad f_{xy}=\\frac{\\partial}{\\partial y}(f_x)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

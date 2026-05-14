@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "periodic-functions",
+  "topicTitle": "Periodic Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-01",
+      "prompt": "What is the main purpose of Periodic Functions?",
+      "answer": "A periodic function repeats exactly after a fixed positive input length called the period. Periodic functions model waves, alternating signals, repeating motion, and steady oscillations.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-02",
+      "prompt": "What does \\(x\\) mean in Periodic Functions?",
+      "answer": "In Periodic Functions, \\(x\\) means independent variable such as position or time.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-03",
+      "prompt": "Identify another important piece of notation used in Periodic Functions.",
+      "answer": "In Periodic Functions, \\(f(x)\\) means periodic function or signal.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-04",
+      "prompt": "Before doing a periodic functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The same output must occur when the input is shifted by one period. For sinusoidal time signals, the period uses the magnitude of angular frequency, because the period is a positive time.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-05",
+      "prompt": "State a central formula or test for Periodic Functions.",
+      "answer": "The periodicity condition is\n\\[f(x+T)=f(x)\\]\nUse it only after the symbols in the formula have been identified for the specific periodic functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-06",
+      "prompt": "How is the formula or method in Periodic Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The angular frequency relation is\n\\[|\\omega|T=2\\pi\\]\nUse it only after the symbols in the formula have been identified for the specific periodic functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-07",
+      "prompt": "Find the period of f(t)=cos omega t.",
+      "answer": "A cosine repeats when its argument changes by 2 pi in magnitude. Require \\[|\\omega|T=2\\pi\\] because T is positive. Hence \\[T=\\frac{2\\pi}{|\\omega|}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-08",
+      "prompt": "A string shape is y(x)=A sin kx. What spatial period does it have?",
+      "answer": "The sine function repeats when its argument changes by 2 pi in magnitude. Set \\[|k|\\lambda=2\\pi\\] because wavelength lambda is positive. Therefore \\[\\lambda=\\frac{2\\pi}{|k|}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-09",
+      "prompt": "What method choice is usually needed in a standard periodic functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The same output must occur when the input is shifted by one period. For sinusoidal time signals, the period uses the magnitude of angular frequency, because the period is a positive time.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-10",
+      "prompt": "Use the notation of Periodic Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning independent variable such as position or time; \\(f(x)\\), meaning periodic function or signal; \\(T\\), meaning period.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-11",
+      "prompt": "Explain a common worked step in Periodic Functions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Periodic Functions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-12",
+      "prompt": "What physical or modelling interpretation can Periodic Functions have?",
+      "answer": "In a physics model, the idea of periodic functions helps translate a mathematical expression into a statement about the system. A periodic function repeats exactly after a fixed positive input length called the period. Periodic functions model waves, alternating signals, repeating motion, and steady oscillations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-13",
+      "prompt": "Correct this mistake in Periodic Functions: Checking only one point.",
+      "answer": "f(x plus T) must equal f(x) for every allowed x.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-14",
+      "prompt": "Why is it important to check assumptions when using Periodic Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A periodic function repeats after a fixed positive shift T, and sinusoids connect period to angular frequency through absolute omega times T equals two pi.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-15",
+      "prompt": "Correct this second mistake in Periodic Functions: Mixing period and frequency.",
+      "answer": "period is input length per cycle; frequency is cycles per unit input.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Periodic Functions?",
+      "answer": "Track the units in the notation: \\(T\\) has unit same unit as x; \\(\\omega\\) has unit rad s^{-1}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-17",
+      "prompt": "Correct this third mistake in Periodic Functions: Mixing period and frequency.",
+      "answer": "period is input length per cycle; frequency is cycles per unit input.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step periodic functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The same output must occur when the input is shifted by one period. For sinusoidal time signals, the period uses the magnitude of angular frequency, because the period is a positive time. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-19",
+      "prompt": "How could an incorrect setup affect a periodic functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Checking only one point must be avoided: f(x plus T) must equal f(x) for every allowed x.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-periodic-functions-20",
+      "prompt": "Give an exam-ready summary rule for Periodic Functions.",
+      "answer": "A periodic function repeats after a fixed positive shift T, and sinusoids connect period to angular frequency through absolute omega times T equals two pi. If a formula is needed, use \\[f(x+T)=f(x)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "vector-fields",
+  "topicTitle": "Vector Fields",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-vector-fields-01",
+      "prompt": "What is the main purpose of Vector Fields?",
+      "answer": "A vector field assigns a vector to each point in space. In physics, velocity fields, force fields, electric fields, and magnetic fields are all vector fields: the input is position and the output has direction and magnitude.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-02",
+      "prompt": "What does \\(\\mathbf F(x,y,z)\\) mean in Vector Fields?",
+      "answer": "In Vector Fields, \\(\\mathbf F(x,y,z)\\) means vector field at the point (x,y,z).",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-03",
+      "prompt": "Identify another important piece of notation used in Vector Fields.",
+      "answer": "In Vector Fields, \\(F_x,F_y,F_z\\) means component functions of the vector field.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-04",
+      "prompt": "Before doing a vector fields calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Write the field component by component and evaluate it by substituting the point into each component. A vector field is not one vector. It is a rule that produces a vector at every point in its domain.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-05",
+      "prompt": "State a central formula or test for Vector Fields.",
+      "answer": "The cartesian vector field is\n\\[\\mathbf F(x,y,z)=F_x(x,y,z)\\hat{\\mathbf i}+F_y(x,y,z)\\hat{\\mathbf j}+F_z(x,y,z)\\hat{\\mathbf k}\\]\nUse it only after the symbols in the formula have been identified for the specific vector fields problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-06",
+      "prompt": "How is the formula or method in Vector Fields interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cartesian vector field is\n\\[\\mathbf F(x,y,z)=F_x(x,y,z)\\hat{\\mathbf i}+F_y(x,y,z)\\hat{\\mathbf j}+F_z(x,y,z)\\hat{\\mathbf k}\\]\nUse it only after the symbols in the formula have been identified for the specific vector fields problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-07",
+      "prompt": "For \\(\\mathbf F(x,y)=(2x,-y)\\), find the vector at \\((3,-4)\\).",
+      "answer": "Substitute the point into each component: \\[F_x=2(3)=6,\\qquad F_y=-(-4)=4\\] Therefore \\(\\mathbf F(3,-4)=(6,4)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-08",
+      "prompt": "Describe the direction of \\(\\mathbf F(x,y)=x\\hat{\\mathbf i}+y\\hat{\\mathbf j}\\).",
+      "answer": "At \\((x,y)\\), the vector is \\((x,y)\\), so it points directly away from the origin. Its magnitude is \\[\\lVert\\mathbf F\\rVert=\\sqrt{x^2+y^2}\\] which grows with distance from the origin.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-09",
+      "prompt": "What method choice is usually needed in a standard vector fields question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Write the field component by component and evaluate it by substituting the point into each component. A vector field is not one vector. It is a rule that produces a vector at every point in its domain.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-10",
+      "prompt": "Use the notation of Vector Fields to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf F(x,y,z)\\), meaning vector field at the point (x,y,z); \\(F_x,F_y,F_z\\), meaning component functions of the vector field; \\(\\mathbf r\\), meaning position vector.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-11",
+      "prompt": "What vector field represents a fluid moving everywhere to the right at speed \\(5\\)?",
+      "answer": "The same vector is attached to every point: \\[\\mathbf v(x,y)=5\\hat{\\mathbf i}=(5,0)\\] This is a constant vector field.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-12",
+      "prompt": "What physical or modelling interpretation can Vector Fields have?",
+      "answer": "In a physics model, the idea of vector fields helps translate a mathematical expression into a statement about the system. A vector field assigns a vector to each point in space. In physics, velocity fields, force fields, electric fields, and magnetic fields are all vector fields: the input is position and the output has direction and magnitude.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-13",
+      "prompt": "Correct this mistake in Vector Fields: Treating a vector field as a single arrow.",
+      "answer": "it is a rule assigning one arrow to every point.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-14",
+      "prompt": "Why is it important to check assumptions when using Vector Fields?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A vector field is a position-dependent vector rule. Evaluate it component by component, then interpret the resulting vector as a local direction and magnitude.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-15",
+      "prompt": "Correct this second mistake in Vector Fields: Mixing scalar and vector outputs.",
+      "answer": "a vector field has components; a scalar field has one value.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Vector Fields?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. A vector field is a position-dependent vector rule. Evaluate it component by component, then interpret the resulting vector as a local direction and magnitude.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-17",
+      "prompt": "Correct this third mistake in Vector Fields: Ignoring the domain.",
+      "answer": "singularities and boundaries can remove points where the field is not defined.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-18",
+      "prompt": "Design an exam solution plan for a multi-step vector fields problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Write the field component by component and evaluate it by substituting the point into each component. A vector field is not one vector. It is a rule that produces a vector at every point in its domain. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-19",
+      "prompt": "How could an incorrect setup affect a vector fields result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Treating a vector field as a single arrow must be avoided: it is a rule assigning one arrow to every point.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-vector-fields-20",
+      "prompt": "Give an exam-ready summary rule for Vector Fields.",
+      "answer": "A vector field is a position-dependent vector rule. Evaluate it component by component, then interpret the resulting vector as a local direction and magnitude. If a formula is needed, use \\[\\mathbf F(x,y,z)=F_x(x,y,z)\\hat{\\mathbf i}+F_y(x,y,z)\\hat{\\mathbf j}+F_z(x,y,z)\\hat{\\mathbf k}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

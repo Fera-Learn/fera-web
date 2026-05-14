@@ -126,12 +126,6 @@ function useMathJaxTypeset(dependency: unknown) {
   return ref;
 }
 
-function isSingleVariableMath(value: string) {
-  return /^\\?[A-Za-z]+(?:_\{?[A-Za-z0-9]+\}?)?(?:\^\{?[A-Za-z0-9]+\}?)?$/.test(
-    value.trim(),
-  );
-}
-
 function isPhysicalUnit(value: string) {
   const unit = normalizePhysicalUnit(value);
   const unitToken =
@@ -169,34 +163,29 @@ function renderExampleText(value: string) {
     .split(/(\\\(.+?\\\)|\\\[.+?\\\]|\(.+?\)|\[[^\]]+\])/g)
     .filter(Boolean)
     .map((part, index) => {
-      const inlineMath =
-        part.match(/^\\\((.+)\\\)$/) ?? part.match(/^\((.+)\)$/);
-      const displayMath =
-        part.match(/^\\\[(.+)\\\]$/) ?? part.match(/^\[(.+)\]$/);
+      const escapedInlineMath = part.match(/^\\\((.+)\\\)$/);
+      const escapedDisplayMath = part.match(/^\\\[(.+)\\\]$/);
+      const shorthandInlineMath = part.match(/^\((.+)\)$/);
+      const shorthandDisplayMath = part.match(/^\[([^\]]+)\]$/);
+      const inlineMath = escapedInlineMath ?? shorthandInlineMath;
+      const displayMath = escapedDisplayMath ?? shorthandDisplayMath;
 
-      if (inlineMath || displayMath) {
-        let tex;
-        if (inlineMath) {
-          tex = inlineMath[1] ?? "";
-        } else if (displayMath) {
-          tex = displayMath[1] ?? "";
-        } else {
-          tex = part;
-        }
+      if (inlineMath) {
+        const tex = inlineMath[1] ?? "";
+        previousWasDisplayEquation = false;
 
-        if (inlineMath && isSingleVariableMath(tex)) {
-          previousWasDisplayEquation = false;
+        return (
+          <span
+            className="docs-physics-example-inline-equation"
+            key={`${part}-${index}`}
+          >
+            {escapedInlineMath ? part : `\\(${tex}\\)`}
+          </span>
+        );
+      }
 
-          return (
-            <span
-              className="docs-physics-example-inline-equation"
-              key={`${part}-${index}`}
-            >
-              {part}
-            </span>
-          );
-        }
-
+      if (displayMath) {
+        const tex = displayMath[1] ?? "";
         previousWasDisplayEquation = true;
 
         return (

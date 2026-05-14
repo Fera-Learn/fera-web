@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "independence",
+  "topicTitle": "Independence",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-independence-01",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A)=0.4\\), \\(P(B)=0.3\\), and \\(P(A\\cap B)=0.12\\). Are they independent?",
+      "answer": "Check whether \\(P(A\\cap B)=P(A)P(B)\\). Since \\(0.4\\times0.3=0.12\\), the equality holds, so the events are independent.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-02",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A)=0.5\\), \\(P(B)=0.2\\), and \\(P(A\\cap B)=0.08\\). Are they independent?",
+      "answer": "If independent, the intersection would be \\(0.5\\times0.2=0.10\\). The actual value is \\(0.08\\), so the events are not independent.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-03",
+      "prompt": "A fair die is rolled. Let \\(A\\) be rolling an even number and \\(B\\) be rolling a number greater than \\(4\\). Are \\(A\\) and \\(B\\) independent?",
+      "answer": "Here \\(P(A)=3/6=1/2\\), \\(P(B)=2/6=1/3\\), and \\(P(A\\cap B)=P(\\{6\\})=1/6\\). Since \\((1/2)(1/3)=1/6\\), they are independent.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-04",
+      "prompt": "A fair die is rolled. Let \\(A\\) be rolling a prime and \\(B\\) be rolling an odd number. Are \\(A\\) and \\(B\\) independent?",
+      "answer": "We have \\(P(A)=3/6\\), \\(P(B)=3/6\\), and \\(A\\cap B=\\{3,5\\}\\), so \\(P(A\\cap B)=2/6\\). Since \\((3/6)(3/6)=1/4\\ne1/3\\), they are not independent.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-05",
+      "prompt": "Two fair coins are tossed. Let \\(A\\) be first coin heads and \\(B\\) be second coin heads. Are \\(A\\) and \\(B\\) independent?",
+      "answer": "The four outcomes are equally likely. \\(P(A)=1/2\\), \\(P(B)=1/2\\), and \\(P(A\\cap B)=P(HH)=1/4\\). Since \\(1/2\\cdot1/2=1/4\\), the events are independent.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-06",
+      "prompt": "A card is drawn from a deck. Let \\(A\\) be drawing a heart and \\(B\\) be drawing an ace. Are \\(A\\) and \\(B\\) independent?",
+      "answer": "\\(P(A)=13/52=1/4\\), \\(P(B)=4/52=1/13\\), and \\(P(A\\cap B)=1/52\\). Since \\((1/4)(1/13)=1/52\\), the events are independent.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-07",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A|B)=0.7\\) and \\(P(A)=0.7\\), with \\(P(B)>0\\). What can you conclude?",
+      "answer": "Since conditioning on \\(B\\) does not change the probability of \\(A\\), \\(A\\) and \\(B\\) are independent, provided the probabilities are otherwise valid.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-08",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A|B)=0.6\\) and \\(P(A)=0.4\\). Are they independent?",
+      "answer": "No. If they were independent, \\(P(A|B)\\) would equal \\(P(A)\\). Since \\(0.6\\ne0.4\\), the events are not independent.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-09",
+      "prompt": "In a survey, \\(P(A)=0.45\\), \\(P(B)=0.5\\), and \\(P(A\\cap B)=0.225\\). Find \\(P(A|B)\\) and decide independence.",
+      "answer": "\\[P(A|B)=\\frac{0.225}{0.5}=0.45.\\] This equals \\(P(A)\\), so \\(A\\) and \\(B\\) are independent.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-10",
+      "prompt": "A diagnostic alarm triggers with probability \\(0.1\\), a fault occurs with probability \\(0.04\\), and both occur with probability \\(0.01\\). Are alarm and fault independent?",
+      "answer": "If independent, the joint probability would be \\(0.1\\times0.04=0.004\\). The actual joint probability is \\(0.01\\), so the events are not independent.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-11",
+      "prompt": "Suppose \\(P(A)=0.8\\), \\(P(B)=0.25\\), and \\(A\\) and \\(B\\) are independent. Find \\(P(A\\cap B)\\).",
+      "answer": "For independent events, multiply the probabilities: \\[P(A\\cap B)=P(A)P(B)=0.8(0.25)=0.20.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-12",
+      "prompt": "Suppose \\(A\\) and \\(B\\) are independent with \\(P(A)=0.3\\) and \\(P(B)=0.6\\). Find \\(P(A\\cup B)\\).",
+      "answer": "First \\(P(A\\cap B)=0.3(0.6)=0.18\\). Then \\[P(A\\cup B)=0.3+0.6-0.18=0.72.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-13",
+      "prompt": "If \\(A\\) and \\(B\\) are independent, with \\(P(A)=0.4\\), find \\(P(A|B^c)\\), assuming \\(0<P(B)<1\\).",
+      "answer": "If \\(A\\) is independent of \\(B\\), it is also independent of \\(B^c\\). Therefore \\(P(A|B^c)=P(A)=0.4\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-14",
+      "prompt": "Two components fail independently with probabilities \\(0.02\\) and \\(0.03\\). Find the probability that both fail.",
+      "answer": "Independence allows multiplication: \\[P(\\text{both fail})=0.02\\times0.03=0.0006.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-15",
+      "prompt": "Two components fail independently with probabilities \\(0.02\\) and \\(0.03\\). Find the probability that at least one fails.",
+      "answer": "Use the complement: neither fails with probability \\((0.98)(0.97)=0.9506\\). Therefore \\[P(\\text{at least one fails})=1-0.9506=0.0494.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-16",
+      "prompt": "Three independent sensors each detect a signal with probability \\(0.9\\). Find the probability that all three detect it.",
+      "answer": "For independent sensors, multiply: \\[P(\\text{all three})=0.9^3=0.729.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-17",
+      "prompt": "Three independent sensors each detect a signal with probability \\(0.9\\). Find the probability that at least one misses it.",
+      "answer": "The complement is that all three detect it. Thus \\[P(\\text{at least one misses})=1-0.9^3=1-0.729=0.271.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-18",
+      "prompt": "Events \\(A\\) and \\(B\\) are independent with \\(P(A\\cup B)=0.76\\) and \\(P(A)=0.4\\). Find \\(P(B)\\).",
+      "answer": "Let \\(P(B)=x\\). Independence gives \\(P(A\\cap B)=0.4x\\). Then \\(0.76=0.4+x-0.4x=0.4+0.6x\\), so \\(x=0.6\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-19",
+      "prompt": "A box has \\(5\\) red and \\(5\\) blue balls. Two balls are drawn without replacement. Are the events \"first is red\" and \"second is red\" independent?",
+      "answer": "\\(P(\\text{second red})=5/10=1/2\\). But \\(P(\\text{second red}\\mid\\text{first red})=4/9\\), which is not \\(1/2\\). Therefore the events are not independent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-independence-20",
+      "prompt": "Two cards are drawn with replacement from a deck. Are the events \"first card is an ace\" and \"second card is an ace\" independent?",
+      "answer": "With replacement, the second draw has the same deck composition regardless of the first card. \\(P(A_2|A_1)=4/52=P(A_2)\\), so the events are independent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

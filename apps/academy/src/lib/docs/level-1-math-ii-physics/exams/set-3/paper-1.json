@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-3",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering 3D geometry, ODE systems, Fourier coefficients, coordinate transformations, degenerate critical points, cylindrical integrals, and probability approximations.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s3-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "Points in space are given by \\(A=(1,2,-1)\\), \\(B=(3,0,2)\\), \\(C=(0,1,4)\\), and \\(P=(2,3,1)\\).",
+      "title": "Distance, Planes, and Volume",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the perpendicular distance from \\(P\\) to the line through \\(A\\) and \\(B\\).",
+          "answer": "The line has direction \\(\\mathbf d=B-A=(2,-2,3)\\). Also \\(P-A=(1,1,2)\\). The distance from a point to a line is \\[\\frac{|(P-A)\\times\\mathbf d|}{|\\mathbf d|}.\\] Now \\((1,1,2)\\times(2,-2,3)=(7,1,-4)\\), so its magnitude is \\(\\sqrt{49+1+16}=\\sqrt{66}\\). Since \\(|\\mathbf d|=\\sqrt{4+4+9}=\\sqrt{17}\\), the required distance is \\[\\frac{\\sqrt{66}}{\\sqrt{17}}=\\sqrt{\\frac{66}{17}}.\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find a Cartesian equation of the plane through \\(A\\), \\(B\\), and \\(C\\).",
+          "answer": "Use two direction vectors in the plane: \\(B-A=(2,-2,3)\\) and \\(C-A=(-1,-1,5)\\). A normal vector is \\[(B-A)\\times(C-A)=(-7,-13,-4),\\] so we may use \\((7,13,4)\\) as a normal. The plane through \\(A=(1,2,-1)\\) is therefore \\[7(x-1)+13(y-2)+4(z+1)=0.\\] Simplifying gives \\[7x+13y+4z=29.\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "State a normal vector to this plane and find the acute angle between the plane and the \\(z\\)-axis direction.",
+          "answer": "A normal vector is \\(\\mathbf n=(7,13,4)\\). The angle \\(\\alpha\\) between the normal and the \\(z\\)-axis direction \\(\\mathbf k=(0,0,1)\\) satisfies \\[\\cos\\alpha=\\frac{|\\mathbf n\\cdot\\mathbf k|}{|\\mathbf n|}=\\frac{4}{\\sqrt{7^2+13^2+4^2}}=\\frac{4}{\\sqrt{234}}.\\] The acute angle \\(\\theta\\) between the plane and the \\(z\\)-axis is complementary to \\(\\alpha\\), so \\[\\sin\\theta=\\frac{4}{\\sqrt{234}}.\\] Hence \\(\\theta=\\sin^{-1}(4/\\sqrt{234})\\)."
+        },
+        {
+          "id": "l1mii-s3-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the volume of the tetrahedron with vertices \\(A\\), \\(B\\), \\(C\\), and \\(P\\), and hence the corresponding parallelepiped volume.",
+          "answer": "The parallelepiped volume is the absolute scalar triple product based at \\(A\\): \\[|(B-A)\\cdot((C-A)\\times(P-A))|.\\] We have \\((C-A)\\times(P-A)=(-7,7,0)\\), so \\[(B-A)\\cdot((C-A)\\times(P-A))=(2,-2,3)\\cdot(-7,7,0)=-28.\\] Thus the parallelepiped volume is \\(28\\), and the tetrahedron volume is one sixth of this value: \\[\\frac{28}{6}=\\frac{14}{3}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Solve the following independent differential-equation problems.",
+      "title": "Bernoulli Equation and Coupled System",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q2-a",
+          "label": "(a)",
+          "marks": 7,
+          "prompt": "Solve the Bernoulli equation \\(\\frac{dy}{dx}+\\frac{2}{x}y=x^2y^2\\), for \\(x>0\\), subject to \\(y(1)=1\\).",
+          "answer": "Let \\(z=y^{-1}\\). Then \\(z'=-y^{-2}y'\\). From the differential equation, \\(y'=x^2y^2-2y/x\\), so \\[z'=-x^2+\\frac{2}{x}z.\\] Therefore \\[z'-\\frac{2}{x}z=-x^2.\\] The integrating factor is \\(\\exp\\int -2/x\\,dx=x^{-2}\\). Multiplying through gives \\[(zx^{-2})'=-1.\\] Hence \\(zx^{-2}=-x+C\\), so \\(z=Cx^2-x^3\\). Since \\(y(1)=1\\), \\(z(1)=1\\), and \\(1=C-1\\), giving \\(C=2\\). Thus \\[y(x)=\\frac{1}{2x^2-x^3}=\\frac{1}{x^2(2-x)}\\] on intervals where the denominator is non-zero."
+        },
+        {
+          "id": "l1mii-s3-p1-q2-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Solve the system \\(x'=4x+y\\), \\(y'=2x+3y\\), subject to \\(x(0)=1\\) and \\(y(0)=0\\).",
+          "answer": "In matrix form, \\(\\mathbf X'=A\\mathbf X\\), where \\(A=\\begin{pmatrix}4&1\\\\2&3\\end{pmatrix}\\). The characteristic equation is \\[(4-\\lambda)(3-\\lambda)-2=\\lambda^2-7\\lambda+10=(\\lambda-5)(\\lambda-2).\\] For \\(\\lambda=5\\), an eigenvector is \\((1,1)\\). For \\(\\lambda=2\\), an eigenvector is \\((1,-2)\\). Therefore \\[\\binom{x}{y}=c_1e^{5t}\\binom{1}{1}+c_2e^{2t}\\binom{1}{-2}.\\] The initial condition gives \\(c_1+c_2=1\\) and \\(c_1-2c_2=0\\). Hence \\(c_1=2/3\\) and \\(c_2=1/3\\). Thus \\[x(t)=\\frac23e^{5t}+\\frac13e^{2t},\\qquad y(t)=\\frac23e^{5t}-\\frac23e^{2t}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f\\) be the \\(2\\pi\\)-periodic function with \\(f(x)=0\\) for \\(-\\pi<x<0\\) and \\(f(x)=x\\) for \\(0<x<\\pi\\).",
+      "title": "Fourier Coefficients and Parseval",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Describe the graph of \\(f\\) on two consecutive periods.",
+          "answer": "On each interval of length \\(2\\pi\\), the graph is horizontal at height \\(0\\) for the first half-period and then rises linearly with slope \\(1\\) for the second half-period. For example, on \\((-\\pi,\\pi)\\) it is \\(0\\) on \\((-\\pi,0)\\) and the line segment \\(y=x\\) on \\((0,\\pi)\\). Periodicity repeats this pattern on \\((\\pi,3\\pi)\\): it is \\(0\\) on \\((\\pi,2\\pi)\\) and then rises as \\(y=x-2\\pi\\) on \\((2\\pi,3\\pi)\\). Jump values at endpoints do not affect the Fourier coefficients."
+        },
+        {
+          "id": "l1mii-s3-p1-q3-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Find the Fourier coefficients of \\(f\\) and write the first non-zero terms of the series.",
+          "answer": "The coefficients are \\[a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx=\\frac{1}{\\pi}\\int_0^{\\pi}x\\,dx=\\frac{\\pi}{2},\\] so the constant term is \\(a_0/2=\\pi/4\\). For \\(n\\ge1\\), \\[a_n=\\frac{1}{\\pi}\\int_0^{\\pi}x\\cos nx\\,dx=\\frac{(-1)^n-1}{\\pi n^2},\\] using integration by parts. Similarly, \\[b_n=\\frac{1}{\\pi}\\int_0^{\\pi}x\\sin nx\\,dx=\\frac{(-1)^{n+1}}{n}.\\] Hence \\[f(x)\\sim\\frac{\\pi}{4}-\\frac{2}{\\pi}\\cos x+\\sin x-\\frac12\\sin2x-\\frac{2}{9\\pi}\\cos3x+\\frac13\\sin3x-\\frac14\\sin4x+\\cdots.\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use Parseval's theorem to state a consequence involving the coefficients found in part (b).",
+          "answer": "Parseval's theorem gives \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}(a_n^2+b_n^2).\\] Here the left side is \\(\\frac{1}{\\pi}\\int_0^{\\pi}x^2\\,dx=\\pi^2/3\\), while \\(a_0^2/2=\\pi^2/8\\). Substituting the coefficients gives the identity \\[\\frac{\\pi^2}{3}=\\frac{\\pi^2}{8}+\\sum_{n=1}^{\\infty}\\left(\\frac{((-1)^n-1)^2}{\\pi^2n^4}+\\frac{1}{n^2}\\right).\\] This is a direct Parseval consequence of the Fourier expansion."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Let \\(F(u,v)=f(x,y)\\), where \\(x=u^2-v^2\\) and \\(y=2uv\\). Assume \\(f\\) has continuous second partial derivatives.",
+      "title": "Coordinate Transformation Identity",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find \\(F_u\\), \\(F_v\\), and the Jacobian \\(\\frac{\\partial(x,y)}{\\partial(u,v)}\\).",
+          "answer": "The first derivatives of the transformation are \\(x_u=2u\\), \\(x_v=-2v\\), \\(y_u=2v\\), and \\(y_v=2u\\). Therefore the chain rule gives \\[F_u=2uf_x+2vf_y,\\qquad F_v=-2vf_x+2uf_y,\\] with \\(f_x\\) and \\(f_y\\) evaluated at \\((u^2-v^2,2uv)\\). The Jacobian is \\[\\frac{\\partial(x,y)}{\\partial(u,v)}=\\begin{vmatrix}2u&-2v\\\\2v&2u\\end{vmatrix}=4u^2+4v^2=4(u^2+v^2).\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q4-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Show that \\(F_{uu}+F_{vv}=4(u^2+v^2)(f_{xx}+f_{yy})\\).",
+          "answer": "Differentiate \\(F_u=2uf_x+2vf_y\\) with respect to \\(u\\). Since \\(x_u=2u\\) and \\(y_u=2v\\), \\[F_{uu}=2f_x+2u(2uf_{xx}+2vf_{xy})+2v(2uf_{yx}+2vf_{yy}).\\] Thus \\[F_{uu}=2f_x+4u^2f_{xx}+8uvf_{xy}+4v^2f_{yy}.\\] Next differentiate \\(F_v=-2vf_x+2uf_y\\) with respect to \\(v\\). Since \\(x_v=-2v\\) and \\(y_v=2u\\), \\[F_{vv}=-2f_x-2v(-2vf_{xx}+2uf_{xy})+2u(-2vf_{yx}+2uf_{yy}).\\] Hence \\[F_{vv}=-2f_x+4v^2f_{xx}-8uvf_{xy}+4u^2f_{yy}.\\] Adding and using \\(f_{xy}=f_{yx}\\), the \\(f_x\\) and mixed-derivative terms cancel, leaving \\[F_{uu}+F_{vv}=4(u^2+v^2)f_{xx}+4(u^2+v^2)f_{yy}=4(u^2+v^2)(f_{xx}+f_{yy}).\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q4-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Deduce what happens to \\(F_{uu}+F_{vv}\\) if \\(f\\) satisfies \\(f_{xx}+f_{yy}=0\\).",
+          "answer": "If \\(f_{xx}+f_{yy}=0\\), the identity from part (b) gives \\[F_{uu}+F_{vv}=4(u^2+v^2)\\cdot0=0.\\] Therefore this transformation preserves the zero-Laplacian property away from any point where the transformation degenerates. In particular, a harmonic \\(f\\) gives a harmonic transformed function \\(F\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider the function \\(f(x,y)=(x^2-y)^2\\).",
+      "title": "Degenerate Valley of Critical Points",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the critical set of \\(f\\).",
+          "answer": "Differentiate to get \\[f_x=4x(x^2-y),\\qquad f_y=-2(x^2-y).\\] A critical point must satisfy both derivatives equal to zero. The equation \\(f_y=0\\) gives \\(x^2-y=0\\), so \\(y=x^2\\). This condition also makes \\(f_x=0\\). Therefore the critical set is the whole parabola \\[\\{(x,y):y=x^2\\}.\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the value of \\(f\\) on the critical set and describe the surface near it.",
+          "answer": "On the critical set \\(y=x^2\\), the factor \\(x^2-y\\) is zero, so \\[f(x,x^2)=0.\\] Since \\(f=(x^2-y)^2\\ge0\\) everywhere, every point of this parabola is a global minimum. The surface is a flat valley whose floor follows the curve \\(y=x^2\\), rather than having a single isolated minimum point."
+        },
+        {
+          "id": "l1mii-s3-p1-q5-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Show why the usual second-derivative test fails at every point of the critical set.",
+          "answer": "The second derivatives are \\[f_{xx}=12x^2-4y,\\qquad f_{xy}=-4x,\\qquad f_{yy}=2.\\] On the critical set \\(y=x^2\\), these become \\[f_{xx}=8x^2,\\qquad f_{xy}=-4x,\\qquad f_{yy}=2.\\] The Hessian determinant is \\[D=f_{xx}f_{yy}-f_{xy}^2=(8x^2)(2)-(-4x)^2=16x^2-16x^2=0.\\] Since the determinant is zero at every critical point, the standard second-derivative test is inconclusive. The direct square form of \\(f\\), not the Hessian test, identifies the valley of minima."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(\\mathbf V=(xy,-y^2,z)\\), and let \\(E\\) be the solid inside \\(x^2+y^2\\le9\\) between \\(z=0\\) and \\(z=9-x^2-y^2\\).",
+      "title": "Divergence, Curl, and Cylindrical Integration",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Compute \\(\\nabla\\cdot\\mathbf V\\) and interpret its sign briefly.",
+          "answer": "The divergence is \\[\\nabla\\cdot\\mathbf V=\\frac{\\partial}{\\partial x}(xy)+\\frac{\\partial}{\\partial y}(-y^2)+\\frac{\\partial}{\\partial z}(z)=y-2y+1=1-y.\\] Positive divergence means local expansion or source-like behaviour, while negative divergence means local contraction or sink-like behaviour. Thus this field is locally expanding where \\(y<1\\), locally contracting where \\(y>1\\), and has zero divergence on the plane \\(y=1\\)."
+        },
+        {
+          "id": "l1mii-s3-p1-q6-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Compute \\(\\nabla\\times\\mathbf V\\) and interpret the result on the plane \\(x=0\\).",
+          "answer": "With \\(P=xy\\), \\(Q=-y^2\\), and \\(R=z\\), \\[\\nabla\\times\\mathbf V=(R_y-Q_z, P_z-R_x, Q_x-P_y)=(0,0,-x).\\] The curl is vertical and has magnitude \\(|x|\\). On the plane \\(x=0\\), the curl is zero, so the field has no infinitesimal rotational tendency there according to the curl vector."
+        },
+        {
+          "id": "l1mii-s3-p1-q6-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\iiint_E (x^2+y^2)\\,dV\\) using cylindrical coordinates.",
+          "answer": "In cylindrical coordinates, \\(x^2+y^2=r^2\\) and \\(dV=r\\,dz\\,dr\\,d\\theta\\). The solid is described by \\(0\\le\\theta\\le2\\pi\\), \\(0\\le r\\le3\\), and \\(0\\le z\\le9-r^2\\). Hence \\[\\iiint_E(x^2+y^2)\\,dV=\\int_0^{2\\pi}\\int_0^3\\int_0^{9-r^2}r^2\\,r\\,dz\\,dr\\,d\\theta.\\] This becomes \\[2\\pi\\int_0^3r^3(9-r^2)\\,dr=2\\pi\\left[\\frac{9r^4}{4}-\\frac{r^6}{6}\\right]_0^3.\\] Evaluating gives \\[2\\pi\\left(\\frac{729}{4}-\\frac{729}{6}\\right)=2\\pi\\cdot\\frac{729}{12}=\\frac{243\\pi}{2}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s3-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A monitoring programme studies a rare fault in independent devices and records daily batches of observations.",
+      "title": "Conditional Probability and Approximations",
+      "parts": [
+        {
+          "id": "l1mii-s3-p1-q7-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "A device is from supplier \\(S\\) with probability \\(0.35\\). The probability of a fault is \\(0.04\\) for supplier \\(S\\) and \\(0.01\\) otherwise. If a tested device is faulty, find the probability that it came from supplier \\(S\\).",
+          "answer": "Let \\(F\\) be the event that the device is faulty. By the law of total probability, \\[P(F)=P(F\\mid S)P(S)+P(F\\mid S^c)P(S^c)=0.04(0.35)+0.01(0.65)=0.0205.\\] Bayes' theorem gives \\[P(S\\mid F)=\\frac{P(F\\mid S)P(S)}{P(F)}=\\frac{0.04\\cdot0.35}{0.0205}=\\frac{0.014}{0.0205}=\\frac{28}{41}.\\] Thus the conditional probability is approximately \\(0.683\\)."
+        },
+        {
+          "id": "l1mii-s3-p1-q7-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "In a separate batch, \\(600\\) independent devices each have fault probability \\(0.003\\). Use a Poisson approximation to estimate the probability that at least three devices are faulty.",
+          "answer": "Let \\(X\\sim\\operatorname{Bin}(600,0.003)\\). Since \\(n\\) is large and \\(p\\) is small, use \\(X\\approx\\operatorname{Poisson}(\\lambda)\\) with \\(\\lambda=np=1.8\\). Therefore \\[P(X\\ge3)=1-P(X\\le2)\\approx1-e^{-1.8}\\left(1+1.8+\\frac{1.8^2}{2}\\right).\\] Since \\(1+1.8+1.62=4.42\\), the estimate is \\[1-4.42e^{-1.8}\\approx1-0.7306=0.269.\\]"
+        },
+        {
+          "id": "l1mii-s3-p1-q7-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Over \\(50\\) days, the daily number of flagged devices has mean \\(4.2\\) and variance \\(4.2\\). Use a normal approximation to estimate the probability that the total number flagged is between \\(190\\) and \\(230\\) inclusive.",
+          "answer": "Let \\(T\\) be the total over \\(50\\) days. Then \\(E[T]=50(4.2)=210\\) and \\(\\operatorname{Var}(T)=50(4.2)=210\\). By the normal approximation, \\(T\\) is approximately \\(N(210,210)\\). Using a continuity correction, \\[P(190\\le T\\le230)\\approx P(189.5<T<230.5).\\] Standardising gives \\[P\\left(\\frac{189.5-210}{\\sqrt{210}}<Z<\\frac{230.5-210}{\\sqrt{210}}\\right)=P(-1.41<Z<1.41).\\] From standard normal tables this is approximately \\(0.9207-0.0793=0.841\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

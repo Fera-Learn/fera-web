@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-calculus",
+  "topicId": "div-grad-curl-identities",
+  "topicTitle": "Div Grad Curl Identities",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-01",
+      "prompt": "What is the main purpose of Div Grad Curl Identities?",
+      "answer": "Div-grad-curl identities are operator relationships that hold for sufficiently smooth fields. They reduce complicated expressions and encode facts such as gradients having no curl and curls having no divergence.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-02",
+      "prompt": "What does \\(f\\) mean in Div Grad Curl Identities?",
+      "answer": "In Div Grad Curl Identities, \\(f\\) means smooth scalar field.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-03",
+      "prompt": "Identify another important piece of notation used in Div Grad Curl Identities.",
+      "answer": "In Div Grad Curl Identities, \\(\\mathbf F\\) means smooth vector field.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-04",
+      "prompt": "Before doing a div grad curl identities calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The two most important identities are A third common identity defines the scalar Laplacian.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-05",
+      "prompt": "State a central formula or test for Div Grad Curl Identities.",
+      "answer": "The curl of a gradient is\n\\[ \\nabla\\times(\\nabla f)=\\mathbf0\\]\nUse it only after the symbols in the formula have been identified for the specific div grad curl identities problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-06",
+      "prompt": "How is the formula or method in Div Grad Curl Identities interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The divergence of a curl is\n\\[ \\nabla\\cdot(\\nabla\\times\\mathbf F)=0\\]\nUse it only after the symbols in the formula have been identified for the specific div grad curl identities problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-07",
+      "prompt": "If \\(\\mathbf E=-\\nabla V\\), what is \\(\\nabla\\times\\mathbf E\\) for smooth \\(V\\)?",
+      "answer": "Use the curl-of-gradient identity: \\[ \\nabla\\times\\mathbf E=\\nabla\\times(-\\nabla V)=-\\nabla\\times(\\nabla V)=\\mathbf0\\] This matches electrostatics, where the electric field is irrotational.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-08",
+      "prompt": "If \\(\\mathbf B=\\nabla\\times\\mathbf A\\), what is \\(\\nabla\\cdot\\mathbf B\\)?",
+      "answer": "Apply divergence of a curl: \\[ \\nabla\\cdot\\mathbf B=\\nabla\\cdot(\\nabla\\times\\mathbf A)=0\\] This resembles the magnetic field condition \\(\\nabla\\cdot\\mathbf B=0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-09",
+      "prompt": "What method choice is usually needed in a standard div grad curl identities question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The two most important identities are A third common identity defines the scalar Laplacian.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-10",
+      "prompt": "Use the notation of Div Grad Curl Identities to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f\\), meaning smooth scalar field; \\(\\mathbf F\\), meaning smooth vector field; \\(\\nabla^2 f\\), meaning Laplacian of f, equal to div grad f.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-11",
+      "prompt": "For \\(f=x^2+y^2+z^2\\), compute \\(\\nabla^2 f\\).",
+      "answer": "The second derivatives are \\(f_{xx}=2\\), \\(f_{yy}=2\\), and \\(f_{zz}=2\\). Therefore \\[ \\nabla^2 f=f_{xx}+f_{yy}+f_{zz}=6\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-12",
+      "prompt": "What physical or modelling interpretation can Div Grad Curl Identities have?",
+      "answer": "In a physics model, the idea of div grad curl identities helps translate a mathematical expression into a statement about the system. Div-grad-curl identities are operator relationships that hold for sufficiently smooth fields. They reduce complicated expressions and encode facts such as gradients having no curl and curls having no divergence.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-13",
+      "prompt": "Correct this mistake in Div Grad Curl Identities: Using identities at singular points without checking assumptions.",
+      "answer": "require enough smoothness near the point.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-14",
+      "prompt": "Why is it important to check assumptions when using Div Grad Curl Identities?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For smooth fields, curl grad is zero, div curl is zero, and div grad is the Laplacian. These identities simplify field calculations and expose physical structure.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-15",
+      "prompt": "Correct this second mistake in Div Grad Curl Identities: Thinking \\(\\nabla\\times(\\nabla f)=0\\) means \\(f=0\\).",
+      "answer": "many nonzero scalar fields have curl-free gradients.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Div Grad Curl Identities?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. For smooth fields, curl grad is zero, div curl is zero, and div grad is the Laplacian. These identities simplify field calculations and expose physical structure.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-17",
+      "prompt": "Correct this third mistake in Div Grad Curl Identities: Confusing \\(\\nabla^2 f\\) with squaring \\(\\nabla f\\).",
+      "answer": "the Laplacian is divergence of gradient.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-18",
+      "prompt": "Design an exam solution plan for a multi-step div grad curl identities problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The two most important identities are A third common identity defines the scalar Laplacian. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-19",
+      "prompt": "How could an incorrect setup affect a div grad curl identities result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using identities at singular points without checking assumptions must be avoided: require enough smoothness near the point.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-vector-calculus-div-grad-curl-identities-20",
+      "prompt": "Give an exam-ready summary rule for Div Grad Curl Identities.",
+      "answer": "For smooth fields, curl grad is zero, div curl is zero, and div grad is the Laplacian. These identities simplify field calculations and expose physical structure. If a formula is needed, use \\[ \\nabla\\times(\\nabla f)=\\mathbf0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "node scripts/generate-question-registry.mjs --check && next build",
     "check:questions": "node scripts/generate-question-registry.mjs --check",
+    "check:math-physics-equation-sheet": "node scripts/validate-math-physics-equation-sheet.mjs",
     "generate:questions": "node scripts/generate-question-registry.mjs",
     "start": "next start",
     "lint": "node scripts/generate-question-registry.mjs --check && eslint",

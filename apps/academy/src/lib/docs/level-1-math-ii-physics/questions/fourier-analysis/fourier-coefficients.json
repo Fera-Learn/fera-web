@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "fourier-coefficients",
+  "topicTitle": "Fourier Coefficients",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-01",
+      "prompt": "What is the main purpose of Fourier Coefficients?",
+      "answer": "Fourier coefficients measure how much of each sine or cosine harmonic is present in a periodic function. They are found by multiplying by a matching mode and integrating over one full period.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-02",
+      "prompt": "What does \\(f(x)\\) mean in Fourier Coefficients?",
+      "answer": "In Fourier Coefficients, \\(f(x)\\) means periodic function on negative pi to pi.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-03",
+      "prompt": "Identify another important piece of notation used in Fourier Coefficients.",
+      "answer": "In Fourier Coefficients, \\(a_0\\) means constant coefficient.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-04",
+      "prompt": "Before doing a fourier coefficients calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Orthogonality leaves only the matching harmonic after integration.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-05",
+      "prompt": "State a central formula or test for Fourier Coefficients.",
+      "answer": "The constant coefficient is\n\\[a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific fourier coefficients problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-06",
+      "prompt": "How is the formula or method in Fourier Coefficients interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cosine coefficient is\n\\[a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific fourier coefficients problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-07",
+      "prompt": "Find the nonzero coefficient for f(x)=5 sin 3x.",
+      "answer": "Use the sine coefficient formula. For n=3, \\[b_3=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}5\\sin3x\\sin3x\\,dx\\] Since the integral of sin squared over this interval is pi, \\[b_3=\\frac{1}{\\pi}5\\pi=5\\] Orthogonality makes all other coefficients zero.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-08",
+      "prompt": "If a periodic voltage has average value V_bar over negative pi to pi, what is a_0?",
+      "answer": "The average value is \\[\\bar V=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx\\] The coefficient formula gives \\[a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx=2\\bar V\\] so the constant term a_0/2 equals the average voltage.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-09",
+      "prompt": "What method choice is usually needed in a standard fourier coefficients question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Orthogonality leaves only the matching harmonic after integration.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-10",
+      "prompt": "Use the notation of Fourier Coefficients to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning periodic function on negative pi to pi; \\(a_0\\), meaning constant coefficient; \\(a_n\\), meaning cosine coefficient for harmonic n.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-11",
+      "prompt": "Explain a common worked step in Fourier Coefficients.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Fourier Coefficients.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-12",
+      "prompt": "What physical or modelling interpretation can Fourier Coefficients have?",
+      "answer": "In a physics model, the idea of fourier coefficients helps translate a mathematical expression into a statement about the system. Fourier coefficients measure how much of each sine or cosine harmonic is present in a periodic function. They are found by multiplying by a matching mode and integrating over one full period.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-13",
+      "prompt": "Correct this mistake in Fourier Coefficients: Forgetting the one over pi factor.",
+      "answer": "it comes from the norm of each sine or cosine over negative pi to pi.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-14",
+      "prompt": "Why is it important to check assumptions when using Fourier Coefficients?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Fourier coefficients are projections of the function onto constant, cosine, and sine modes over one full period.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-15",
+      "prompt": "Correct this second mistake in Fourier Coefficients: Integrating over less than one period.",
+      "answer": "use a complete period for the coefficient formula.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Fourier Coefficients?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Fourier coefficients are projections of the function onto constant, cosine, and sine modes over one full period.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-17",
+      "prompt": "Correct this third mistake in Fourier Coefficients: Integrating over less than one period.",
+      "answer": "use a complete period for the coefficient formula.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-18",
+      "prompt": "Design an exam solution plan for a multi-step fourier coefficients problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Orthogonality leaves only the matching harmonic after integration. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-19",
+      "prompt": "How could an incorrect setup affect a fourier coefficients result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Forgetting the one over pi factor must be avoided: it comes from the norm of each sine or cosine over negative pi to pi.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-fourier-coefficients-20",
+      "prompt": "Give an exam-ready summary rule for Fourier Coefficients.",
+      "answer": "Fourier coefficients are projections of the function onto constant, cosine, and sine modes over one full period. If a formula is needed, use \\[a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "n-dimensional-critical-points",
+  "topicTitle": "n-Dimensional Critical Points",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-01",
+      "prompt": "What is the main purpose of n-Dimensional Critical Points?",
+      "answer": "In many variables, critical points are classified using the Hessian matrix. Its definiteness describes the local quadratic shape of the field near a point where the gradient is zero.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-02",
+      "prompt": "What does \\(\\mathbf x\\) mean in n-Dimensional Critical Points?",
+      "answer": "In n-Dimensional Critical Points, \\(\\mathbf x\\) means vector of input variables.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-03",
+      "prompt": "Identify another important piece of notation used in n-Dimensional Critical Points.",
+      "answer": "In n-Dimensional Critical Points, \\(\\mathbf a\\) means critical point being classified.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-04",
+      "prompt": "Before doing a n-dimensional critical points calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: At a critical point, examine the Hessian eigenvalues or an equivalent definiteness test. All positive eigenvalues give a local minimum. All negative eigenvalues give a local maximum. Mixed signs give a saddle. Zero eigenvalues make the test inconclusive.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-05",
+      "prompt": "State a central formula or test for n-Dimensional Critical Points.",
+      "answer": "The hessian entries is\n\\[H_{ij}(\\mathbf a)=\\frac{\\partial^2 f}{\\partial x_i\\partial x_j}(\\mathbf a)\\]\nUse it only after the symbols in the formula have been identified for the specific n-dimensional critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-06",
+      "prompt": "How is the formula or method in n-Dimensional Critical Points interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The hessian entries is\n\\[H_{ij}(\\mathbf a)=\\frac{\\partial^2 f}{\\partial x_i\\partial x_j}(\\mathbf a)\\]\nUse it only after the symbols in the formula have been identified for the specific n-dimensional critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-07",
+      "prompt": "Classify f(x,y,z)=x^2+2y^2+3z^2 at the origin.",
+      "answer": "The gradient is zero at the origin. The Hessian is diagonal with entries 2, 4, and 6. All eigenvalues are positive, so the origin is a local minimum.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-08",
+      "prompt": "Classify g(x,y,z)=x^2+y^2-z^2 at the origin.",
+      "answer": "The Hessian is diagonal with entries 2, 2, and -2. The eigenvalues have mixed signs, so the origin is a saddle point.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-09",
+      "prompt": "What method choice is usually needed in a standard n-dimensional critical points question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: At a critical point, examine the Hessian eigenvalues or an equivalent definiteness test. All positive eigenvalues give a local minimum. All negative eigenvalues give a local maximum. Mixed signs give a saddle. Zero eigenvalues make the test inconclusive.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-10",
+      "prompt": "Use the notation of n-Dimensional Critical Points to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf x\\), meaning vector of input variables; \\(\\mathbf a\\), meaning critical point being classified; \\(H\\), meaning Hessian matrix of second partial derivatives.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-11",
+      "prompt": "Why do Hessian eigenvalues matter near an equilibrium?",
+      "answer": "Eigenvectors give independent local directions of curvature. In a potential energy model, positive curvature directions resist small displacement, while negative curvature directions indicate instability.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-12",
+      "prompt": "What physical or modelling interpretation can n-Dimensional Critical Points have?",
+      "answer": "In a physics model, the idea of n-dimensional critical points helps translate a mathematical expression into a statement about the system. In many variables, critical points are classified using the Hessian matrix. Its definiteness describes the local quadratic shape of the field near a point where the gradient is zero.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-13",
+      "prompt": "Correct this mistake in n-Dimensional Critical Points: using the Hessian without checking grad f=0.",
+      "answer": "classify only critical points with the Hessian test.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-14",
+      "prompt": "Why is it important to check assumptions when using n-Dimensional Critical Points?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. In n variables, classify critical points by Hessian definiteness: positive definite minimum, negative definite maximum, indefinite saddle, semidefinite inconclusive.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-15",
+      "prompt": "Correct this second mistake in n-Dimensional Critical Points: reading diagonal entries as eigenvalues for every matrix.",
+      "answer": "diagonal entries are eigenvalues only for diagonal matrices; otherwise compute or test definiteness properly.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in n-Dimensional Critical Points?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. In n variables, classify critical points by Hessian definiteness: positive definite minimum, negative definite maximum, indefinite saddle, semidefinite inconclusive.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-17",
+      "prompt": "Correct this third mistake in n-Dimensional Critical Points: treating a zero eigenvalue as stable.",
+      "answer": "zero makes the second-order test inconclusive.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-18",
+      "prompt": "Design an exam solution plan for a multi-step n-dimensional critical points problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: At a critical point, examine the Hessian eigenvalues or an equivalent definiteness test. All positive eigenvalues give a local minimum. All negative eigenvalues give a local maximum. Mixed signs give a saddle. Zero eigenvalues make the test inconclusive. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-19",
+      "prompt": "How could an incorrect setup affect a n-dimensional critical points result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, using the Hessian without checking grad f=0 must be avoided: classify only critical points with the Hessian test.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-n-dimensional-critical-points-20",
+      "prompt": "Give an exam-ready summary rule for n-Dimensional Critical Points.",
+      "answer": "In n variables, classify critical points by Hessian definiteness: positive definite minimum, negative definite maximum, indefinite saddle, semidefinite inconclusive. If a formula is needed, use \\[H_{ij}(\\mathbf a)=\\frac{\\partial^2 f}{\\partial x_i\\partial x_j}(\\mathbf a)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

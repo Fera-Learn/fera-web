@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-1",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering 3D vectors, ODE models, Fourier series, multivariable calculus, vector calculus, multiple integrals, and probability.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s1-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "Four points in \\(\\mathbb R^3\\) are given by \\(A=(1,0,2)\\), \\(B=(3,1,0)\\), \\(C=(0,2,1)\\), and \\(D=(2,0,3)\\).",
+      "title": "Lines, Angles, and Volume",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find vector equations for the line \\(\\ell_1\\) through \\(A\\) and \\(B\\), and the line \\(\\ell_2\\) through \\(C\\) and \\(D\\).",
+          "answer": "The direction vector for \\(\\ell_1\\) is \\(B-A=(2,1,-2)\\), so \\[\\ell_1:\\ \\mathbf r=(1,0,2)+s(2,1,-2),\\qquad s\\in\\mathbb R.\\] The direction vector for \\(\\ell_2\\) is \\(D-C=(2,-2,2)\\), so \\[\\ell_2:\\ \\mathbf r=(0,2,1)+t(2,-2,2),\\qquad t\\in\\mathbb R.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Determine the shortest distance between \\(\\ell_1\\) and \\(\\ell_2\\).",
+          "answer": "Let \\(\\mathbf u=(2,1,-2)\\) and \\(\\mathbf v=(2,-2,2)\\). Then \\(\\mathbf u\\times\\mathbf v=(-2,-8,-6)\\), with magnitude \\(2\\sqrt{26}\\). Also \\(C-A=(-1,2,-1)\\). The distance between the skew lines is \\[\\frac{|(C-A)\\cdot(\\mathbf u\\times\\mathbf v)|}{|\\mathbf u\\times\\mathbf v|}=\\frac{|(-1,2,-1)\\cdot(-2,-8,-6)|}{2\\sqrt{26}}=\\frac{8}{2\\sqrt{26}}=\\frac{4}{\\sqrt{26}}.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the cosine of the angle between \\(\\overrightarrow{BA}\\) and \\(\\overrightarrow{AC}\\).",
+          "answer": "We have \\(\\overrightarrow{BA}=A-B=(-2,-1,2)\\) and \\(\\overrightarrow{AC}=C-A=(-1,2,-1)\\). Their dot product is \\(2-2-2=-2\\). The magnitudes are \\(|\\overrightarrow{BA}|=3\\) and \\(|\\overrightarrow{AC}|=\\sqrt6\\). Therefore \\[\\cos\\theta=\\frac{\\overrightarrow{BA}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{BA}|\\,|\\overrightarrow{AC}|}=-\\frac{2}{3\\sqrt6}.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Compute the volume of the tetrahedron with vertices \\(A\\), \\(B\\), \\(C\\), and \\(D\\).",
+          "answer": "The tetrahedron volume is one sixth of the scalar triple product based at \\(A\\). Here \\(B-A=(2,1,-2)\\), \\(C-A=(-1,2,-1)\\), and \\(D-A=(1,0,1)\\). Since \\((C-A)\\times(D-A)=(2,0,-2)\\), \\[(B-A)\\cdot((C-A)\\times(D-A))=(2,1,-2)\\cdot(2,0,-2)=8.\\] Hence the volume is \\(8/6=4/3\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Answer both independent modelling questions.",
+      "title": "Linear ODEs and Coupled Populations",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q2-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Solve \\(\\frac{dy}{dx}+2xy=4x\\), subject to \\(y(0)=3\\).",
+          "answer": "The integrating factor is \\(\\exp\\int 2x\\,dx=e^{x^2}\\). Multiplying the equation by this factor gives \\[\\frac{d}{dx}(ye^{x^2})=4xe^{x^2}.\\] Integrating, \\[ye^{x^2}=2e^{x^2}+C,\\] so \\(y=2+Ce^{-x^2}\\). The condition \\(y(0)=3\\) gives \\(3=2+C\\), hence \\(C=1\\). Therefore \\[y(x)=2+e^{-x^2}.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Two populations satisfy \\(S'=3S-2W\\) and \\(W'=S-W\\). Deduce a second-order differential equation for \\(S(t)\\).",
+          "answer": "From \\(S'=3S-2W\\), rearrange to \\(W=(3S-S')/2\\). Differentiate the first equation: \\[S''=3S'-2W'.\\] Using \\(W'=S-W\\), this becomes \\[S''=3S'-2S+2W.\\] Substitute \\(2W=3S-S'\\), giving \\[S''=3S'-2S+3S-S'=2S'+S.\\] Therefore \\[S''-2S'-S=0.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Solve the second-order equation from part (b) and describe the long-term behaviour of a non-zero solution with a positive coefficient of the growing mode.",
+          "answer": "The auxiliary equation is \\(r^2-2r-1=0\\), so \\(r=1\\pm\\sqrt2\\). Thus \\[S(t)=Ae^{(1+\\sqrt2)t}+Be^{(1-\\sqrt2)t}.\\] Since \\(1+\\sqrt2>0\\) and \\(1-\\sqrt2<0\\), the second mode decays while the first mode grows. If \\(A>0\\), the population grows like \\(Ae^{(1+\\sqrt2)t}\\) for large \\(t\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(h\\) be the \\(2\\pi\\)-periodic function with \\(h(x)=1\\) for \\(0<x<\\pi\\), \\(h(x)=-1\\) for \\(-\\pi<x<0\\), and \\(h(0)=h(\\pi)=0\\).",
+      "title": "Fourier Series and Parseval",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Describe the graph of \\(h\\) on \\((-2\\pi,2\\pi)\\).",
+          "answer": "The function is an odd square wave with jumps at integer multiples of \\(\\pi\\). On \\((-2\\pi,2\\pi)\\), periodicity gives \\(h=1\\) on \\((-2\\pi,-\\pi)\\) and \\((0,\\pi)\\), while \\(h=-1\\) on \\((-\\pi,0)\\) and \\((\\pi,2\\pi)\\). At the jump points the assigned values do not affect the Fourier coefficients."
+        },
+        {
+          "id": "l1mii-s1-p1-q3-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Find the Fourier series of \\(h\\), giving the first six non-zero terms explicitly.",
+          "answer": "Since \\(h\\) is odd, only sine terms occur. The coefficients are \\[b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}h(x)\\sin nx\\,dx=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin nx\\,dx=\\frac{2}{\\pi}\\frac{1-(-1)^n}{n}.\\] Hence \\(b_n=0\\) for even \\(n\\), and \\(b_n=4/(\\pi n)\\) for odd \\(n\\). Therefore \\[h(x)\\sim\\frac{4}{\\pi}\\left(\\sin x+\\frac{\\sin 3x}{3}+\\frac{\\sin 5x}{5}+\\frac{\\sin 7x}{7}+\\frac{\\sin 9x}{9}+\\frac{\\sin 11x}{11}+\\cdots\\right).\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q3-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Use Parseval's theorem to evaluate \\(\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}\\).",
+          "answer": "Parseval's theorem gives \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|h(x)|^2\\,dx=\\sum_{n=1}^{\\infty}b_n^2.\\] Since \\(|h(x)|=1\\) except at jump points, the left side is \\(2\\). The right side is \\[\\sum_{k=0}^{\\infty}\\left(\\frac{4}{\\pi(2k+1)}\\right)^2=\\frac{16}{\\pi^2}\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}.\\] Thus \\[2=\\frac{16}{\\pi^2}\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2},\\] and the required sum is \\(\\pi^2/8\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Let \\(F(u,v)=f(x,y)\\), where \\(x=u+v\\) and \\(y=uv\\). Assume the mixed partial derivatives of \\(f\\) are equal.",
+      "title": "Chain Rule and Directional Derivatives",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find \\(F_u\\) and \\(F_v\\) in terms of partial derivatives of \\(f\\).",
+          "answer": "Using the chain rule, \\(x_u=1\\), \\(x_v=1\\), \\(y_u=v\\), and \\(y_v=u\\). Therefore \\[F_u=f_xx_u+f_yy_u=f_x+vf_y,\\] and similarly \\[F_v=f_xx_v+f_yy_v=f_x+uf_y.\\] The derivatives \\(f_x\\) and \\(f_y\\) are evaluated at \\((x,y)=(u+v,uv)\\)."
+        },
+        {
+          "id": "l1mii-s1-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Show that \\(F_{uv}=f_{xx}+(u+v)f_{xy}+uvf_{yy}+f_y\\).",
+          "answer": "Differentiate \\(F_u=f_x+vf_y\\) with respect to \\(v\\). For the first term, \\[\\frac{\\partial}{\\partial v}f_x=f_{xx}x_v+f_{xy}y_v=f_{xx}+uf_{xy}.\\] For the second term, use the product rule: \\[\\frac{\\partial}{\\partial v}(vf_y)=f_y+v(f_{yx}x_v+f_{yy}y_v)=f_y+v(f_{xy}+uf_{yy}).\\] Adding these terms gives \\[F_{uv}=f_{xx}+(u+v)f_{xy}+uvf_{yy}+f_y.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "The temperature in a tank is \\(T(x,y,z)=20-x^2-2y^2-z^2\\). At \\((1,-1,2)\\), find the unit direction of greatest increase and the corresponding rate of increase.",
+          "answer": "The direction of greatest increase is the gradient direction. Here \\[\\nabla T=(-2x,-4y,-2z),\\] so at \\((1,-1,2)\\) we have \\(\\nabla T=(-2,4,-4)\\). Its magnitude is \\(\\sqrt{4+16+16}=6\\). Hence the required unit vector is \\[\\frac{\\nabla T}{|\\nabla T|}=\\left(-\\frac13,\\frac23,-\\frac23\\right),\\] and the maximum rate of increase is \\(|\\nabla T|=6\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Answer both parts.",
+      "title": "Exact Differentials, Divergence, and Curl",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q5-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Determine all constants \\(a\\) and \\(b\\) for which \\(df=(2x+ay)\\,dx+(bx+6y)\\,dy\\) is exact. For those values, find a potential function.",
+          "answer": "Write \\(M=2x+ay\\) and \\(N=bx+6y\\). Exactness requires \\(M_y=N_x\\). Since \\(M_y=a\\) and \\(N_x=b\\), the differential is exact exactly when \\(a=b\\). When this holds, integrate \\(M\\) with respect to \\(x\\): \\[f(x,y)=x^2+axy+g(y).\\] Differentiating with respect to \\(y\\) gives \\(f_y=ax+g'(y)\\), and this must equal \\(ax+6y\\). Hence \\(g'(y)=6y\\), so \\(g(y)=3y^2+C\\). Thus \\[f(x,y)=x^2+axy+3y^2+C.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q5-b",
+          "label": "(b)",
+          "marks": 8,
+          "prompt": "For \\(\\mathbf V=(x^2y,xz,yz^2)\\), compute \\(\\nabla\\cdot\\mathbf V\\) and \\(\\nabla\\times\\mathbf V\\).",
+          "answer": "The divergence is \\[\\nabla\\cdot\\mathbf V=\\frac{\\partial}{\\partial x}(x^2y)+\\frac{\\partial}{\\partial y}(xz)+\\frac{\\partial}{\\partial z}(yz^2)=2xy+0+2yz.\\] For the curl, use \\(\\nabla\\times\\mathbf V=(R_y-Q_z, P_z-R_x, Q_x-P_y)\\) with \\(P=x^2y\\), \\(Q=xz\\), and \\(R=yz^2\\). This gives \\[\\nabla\\times\\mathbf V=(z^2-x,0,z-x^2).\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Evaluate the following integrals and state the geometry used.",
+      "title": "Double Integrals and Volumes",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q6-a",
+          "label": "(a)",
+          "marks": 7,
+          "prompt": "Evaluate \\(\\iint_R (x+y)\\,dA\\), where \\(R\\) is the triangle bounded by \\(x=0\\), \\(y=0\\), and \\(x+y=2\\).",
+          "answer": "The region may be written as \\(0\\le x\\le2\\), \\(0\\le y\\le2-x\\). Hence \\[\\iint_R(x+y)\\,dA=\\int_0^2\\int_0^{2-x}(x+y)\\,dy\\,dx.\\] The inner integral is \\[x(2-x)+\\frac{(2-x)^2}{2}.\\] Integrating from \\(0\\) to \\(2\\) gives \\[\\int_0^2\\left(x(2-x)+\\frac{(2-x)^2}{2}\\right)dx=\\frac{8}{3}.\\] This agrees with symmetry, since \\(\\int_Rx\\,dA=\\int_Ry\\,dA=4/3\\)."
+        },
+        {
+          "id": "l1mii-s1-p1-q6-b",
+          "label": "(b)",
+          "marks": 8,
+          "prompt": "Find the volume enclosed by the ellipsoid \\(\\frac{x^2}{4}+\\frac{y^2}{9}+z^2=1\\).",
+          "answer": "Use the scaling \\(x=2u\\), \\(y=3v\\), and \\(z=w\\). The ellipsoid becomes the unit sphere \\(u^2+v^2+w^2\\le1\\). The Jacobian determinant of the scaling is \\(2\\cdot3\\cdot1=6\\). Therefore the ellipsoid volume is \\[6\\times\\frac{4\\pi}{3}=8\\pi.\\] Equivalently, this is the standard ellipsoid formula \\(\\frac{4\\pi}{3}abc\\) with semi-axes \\(2\\), \\(3\\), and \\(1\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s1-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A field laboratory monitors three independent warning systems during a week of observations.",
+      "title": "Conditional Probability and Approximations",
+      "parts": [
+        {
+          "id": "l1mii-s1-p1-q7-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Let \\(A\\), \\(B\\), and \\(C\\) be independent events with probabilities \\(p_A\\), \\(p_B\\), and \\(p_C\\). An alert is triggered if \\(A\\) occurs or if both \\(B\\) and \\(C\\) occur. Show that the alert probability is \\(p_A+p_Bp_C-p_Ap_Bp_C\\).",
+          "answer": "The alert event is \\(A\\cup(B\\cap C)\\). Therefore \\[P(A\\cup(B\\cap C))=P(A)+P(B\\cap C)-P(A\\cap B\\cap C).\\] Independence gives \\(P(B\\cap C)=p_Bp_C\\) and \\(P(A\\cap B\\cap C)=p_Ap_Bp_C\\). Hence the alert probability is \\[p_A+p_Bp_C-p_Ap_Bp_C.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find \\(P(A\\mid\\hbox{alert})\\) in terms of \\(p_A\\), \\(p_B\\), and \\(p_C\\).",
+          "answer": "Since \\(A\\) always triggers an alert, \\(A\\cap\\hbox{alert}=A\\). Therefore \\[P(A\\mid\\hbox{alert})=\\frac{P(A)}{P(\\hbox{alert})}=\\frac{p_A}{p_A+p_Bp_C-p_Ap_Bp_C}.\\] This is a conditional probability: the denominator is the total chance that an alert occurs, while the numerator is the part of those alerts caused by event \\(A\\)."
+        },
+        {
+          "id": "l1mii-s1-p1-q7-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "A rare marker appears independently in each of \\(800\\) samples with probability \\(0.005\\). Use a Poisson approximation to estimate the probability of at most two appearances.",
+          "answer": "Let \\(X\\sim\\operatorname{Bin}(800,0.005)\\). Since \\(n\\) is large and \\(p\\) is small, use \\(X\\approx\\operatorname{Poisson}(\\lambda)\\) with \\(\\lambda=np=4\\). Thus \\[P(X\\le2)\\approx e^{-4}\\left(1+4+\\frac{4^2}{2}\\right)=13e^{-4}\\approx0.238.\\]"
+        },
+        {
+          "id": "l1mii-s1-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Over \\(40\\) independent weeks the weekly count is approximated by \\(\\operatorname{Poisson}(4)\\). Approximate the probability that the sample mean is less than \\(3.5\\).",
+          "answer": "For one week, the mean and variance are both \\(4\\). For \\(40\\) weeks, the sample mean \\(\\bar X\\) is approximately normal with mean \\(4\\) and variance \\(4/40=0.1\\). Therefore \\[P(\\bar X<3.5)\\approx P\\left(Z<\\frac{3.5-4}{\\sqrt{0.1}}\\right)=P(Z<-1.58).\\] From standard normal tables this is about \\(0.057\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

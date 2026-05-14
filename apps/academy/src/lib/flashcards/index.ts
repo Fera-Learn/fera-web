@@ -1,4 +1,4 @@
-import { level1MathIPhysicsEquationSheet } from "@/lib/docs/level-1-math-i-physics/equation-sheet";
+import { level1MathPhysicsEquationSheet } from "@/lib/docs/level-1-math-physics/equation-sheet";
 import { level1PhysicsEquationSheet } from "@/lib/docs/level-1-physics/equation-sheet";
 import { getCanonicalCourseId, getQuestions } from "@/lib/question-bank";
 
@@ -32,7 +32,9 @@ export type FlashcardEntry = {
 };
 
 const EQUATION_SHEETS_BY_COURSE = new Map([
-  [level1MathIPhysicsEquationSheet.courseId, level1MathIPhysicsEquationSheet],
+  ["level-1-math-i-physics", level1MathPhysicsEquationSheet],
+  ["level-1-math-ii-physics", level1MathPhysicsEquationSheet],
+  [level1MathPhysicsEquationSheet.courseId, level1MathPhysicsEquationSheet],
   [level1PhysicsEquationSheet.courseId, level1PhysicsEquationSheet],
 ]);
 

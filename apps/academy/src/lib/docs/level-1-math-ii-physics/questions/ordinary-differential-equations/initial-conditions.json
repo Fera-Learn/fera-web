@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "initial-conditions",
+  "topicTitle": "Initial Conditions",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-01",
+      "prompt": "What is the main purpose of Initial Conditions?",
+      "answer": "Initial conditions give values of the unknown function and sometimes its derivatives at one input value. They select the one member of a family of ODE solutions that matches the physical start of an experiment.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-02",
+      "prompt": "What does \\(t_0\\) mean in Initial Conditions?",
+      "answer": "In Initial Conditions, \\(t_0\\) means starting value of the independent variable. Its unit is s.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-03",
+      "prompt": "Identify another important piece of notation used in Initial Conditions.",
+      "answer": "In Initial Conditions, \\(y(t_0)\\) means initial value of y.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-04",
+      "prompt": "Before doing a initial conditions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: First solve the ODE with constants, then substitute the initial data to find those constants.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-05",
+      "prompt": "State a central formula or test for Initial Conditions.",
+      "answer": "The first-order initial condition is\n\\[y(t_0)=y_0\\]\nUse it only after the symbols in the formula have been identified for the specific initial conditions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-06",
+      "prompt": "How is the formula or method in Initial Conditions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The second-order initial conditions is\n\\[y(t_0)=y_0,\\quad y'(t_0)=v_0\\]\nUse it only after the symbols in the formula have been identified for the specific initial conditions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-07",
+      "prompt": "Solve dN/dt equals negative lambda N with N(0) equals N_0.",
+      "answer": "Separate variables: dN/N=-\\lambda dt. Integrate both sides: \\[\\int\\frac{1}{N}\\,dN=\\int-\\lambda\\,dt\\] so \\[\\ln N=-\\lambda t+C\\] Exponentiate: \\[N=Ae^{-\\lambda t}\\] Apply N(0)=N_0: \\[N_0=Ae^0=A\\] Therefore \\[N(t)=N_0e^{-\\lambda t}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-08",
+      "prompt": "For x equals C cos omega t plus D sin omega t, use x(0)=A and x prime(0)=0.",
+      "answer": "Substitute t=0 into x: \\[x(0)=C\\cos0+D\\sin0=C=A\\] Differentiate: \\[x'(t)=-C\\omega\\sin\\omega t+D\\omega\\cos\\omega t\\] Substitute t=0: \\[x'(0)=D\\omega=0\\] so D=0. The motion is \\[x(t)=A\\cos\\omega t\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-09",
+      "prompt": "What method choice is usually needed in a standard initial conditions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: First solve the ODE with constants, then substitute the initial data to find those constants.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-10",
+      "prompt": "Use the notation of Initial Conditions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(t_0\\), meaning starting value of the independent variable; \\(y(t_0)\\), meaning initial value of y; \\(y'(t_0)\\), meaning initial rate of change of y.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-11",
+      "prompt": "Explain a common worked step in Initial Conditions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Initial Conditions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-12",
+      "prompt": "What physical or modelling interpretation can Initial Conditions have?",
+      "answer": "In a physics model, the idea of initial conditions helps translate a mathematical expression into a statement about the system. Initial conditions give values of the unknown function and sometimes its derivatives at one input value. They select the one member of a family of ODE solutions that matches the physical start of an experiment.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-13",
+      "prompt": "Correct this mistake in Initial Conditions: Applying conditions before finding the general solution.",
+      "answer": "keep constants until the solution form is available.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-14",
+      "prompt": "Why is it important to check assumptions when using Initial Conditions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Initial conditions pin a solution to its starting value and starting rate, turning a family of solutions into one physical prediction.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-15",
+      "prompt": "Correct this second mistake in Initial Conditions: Using too few conditions.",
+      "answer": "a second-order ODE normally needs two independent initial conditions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Initial Conditions?",
+      "answer": "Track the units in the notation: \\(t_0\\) has unit s.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-17",
+      "prompt": "Correct this third mistake in Initial Conditions: Using too few conditions.",
+      "answer": "a second-order ODE normally needs two independent initial conditions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-18",
+      "prompt": "Design an exam solution plan for a multi-step initial conditions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: First solve the ODE with constants, then substitute the initial data to find those constants. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-19",
+      "prompt": "How could an incorrect setup affect a initial conditions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Applying conditions before finding the general solution must be avoided: keep constants until the solution form is available.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-initial-conditions-20",
+      "prompt": "Give an exam-ready summary rule for Initial Conditions.",
+      "answer": "Initial conditions pin a solution to its starting value and starting rate, turning a family of solutions into one physical prediction. If a formula is needed, use \\[y(t_0)=y_0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

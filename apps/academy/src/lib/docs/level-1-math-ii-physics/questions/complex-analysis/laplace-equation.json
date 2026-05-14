@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-analysis",
+  "topicId": "laplace-equation",
+  "topicTitle": "Laplace Equation",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-01",
+      "prompt": "What is the main purpose of Laplace Equation?",
+      "answer": "Laplace's equation says that the sum of second spatial partial derivatives is zero. It appears in steady-state heat flow, electrostatic potential in charge-free regions, gravitational potential away from masses, and incompressible potential flow.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-02",
+      "prompt": "What does \\(u(x,y)\\) mean in Laplace Equation?",
+      "answer": "In Laplace Equation, \\(u(x,y)\\) means scalar potential or steady field.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-03",
+      "prompt": "Identify another important piece of notation used in Laplace Equation.",
+      "answer": "In Laplace Equation, \\(u_{xx},u_{yy}\\) means second partial derivatives.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-04",
+      "prompt": "Before doing a laplace equation calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: In two variables, Laplace's equation is A function satisfying this equation is harmonic on the region.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-05",
+      "prompt": "State a central formula or test for Laplace Equation.",
+      "answer": "The laplace equation is\n\\[ \\nabla^2u=u_{xx}+u_{yy}=0\\]\nUse it only after the symbols in the formula have been identified for the specific laplace equation problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-06",
+      "prompt": "How is the formula or method in Laplace Equation interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The laplace equation is\n\\[ \\nabla^2u=u_{xx}+u_{yy}=0\\]\nUse it only after the symbols in the formula have been identified for the specific laplace equation problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-07",
+      "prompt": "Show that \\(u=x^2-y^2\\) satisfies Laplace's equation.",
+      "answer": "Compute second partials: \\[u_{xx}=2,\\qquad u_{yy}=-2\\] Therefore \\[u_{xx}+u_{yy}=2-2=0\\] so \\(u\\) satisfies Laplace's equation.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-08",
+      "prompt": "Does \\(u=x^2+y^2\\) satisfy Laplace's equation?",
+      "answer": "Here \\(u_{xx}=2\\) and \\(u_{yy}=2\\). Their sum is \\(4\\), not \\(0\\), so \\(u\\) does not satisfy Laplace's equation.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-09",
+      "prompt": "What method choice is usually needed in a standard laplace equation question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: In two variables, Laplace's equation is A function satisfying this equation is harmonic on the region.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-10",
+      "prompt": "Use the notation of Laplace Equation to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,y)\\), meaning scalar potential or steady field; \\(u_{xx},u_{yy}\\), meaning second partial derivatives; \\(\\nabla^2u\\), meaning Laplacian of u.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-11",
+      "prompt": "What does \\(\\nabla^2V=0\\) mean in a charge-free electrostatic region?",
+      "answer": "It means the potential has no local charge source inside the region. Boundary values determine the interior potential in the ideal electrostatic model.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-12",
+      "prompt": "What physical or modelling interpretation can Laplace Equation have?",
+      "answer": "In a physics model, the idea of laplace equation helps translate a mathematical expression into a statement about the system. Laplace's equation says that the sum of second spatial partial derivatives is zero. It appears in steady-state heat flow, electrostatic potential in charge-free regions, gravitational potential away from masses, and incompressible potential flow.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-13",
+      "prompt": "Correct this mistake in Laplace Equation: Using first partial derivatives in Laplace's equation.",
+      "answer": "it uses second partial derivatives.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-14",
+      "prompt": "Why is it important to check assumptions when using Laplace Equation?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Laplace's equation is \\(\\nabla^2u=0\\). It models source-free steady fields and identifies harmonic functions.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-15",
+      "prompt": "Correct this second mistake in Laplace Equation: Forgetting source terms.",
+      "answer": "with sources, the equation is often Poisson's equation, not Laplace's equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Laplace Equation?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Laplace's equation is \\(\\nabla^2u=0\\). It models source-free steady fields and identifies harmonic functions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-17",
+      "prompt": "Correct this third mistake in Laplace Equation: Checking only one point when the equation is required on a region.",
+      "answer": "verify the relation throughout the domain.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-18",
+      "prompt": "Design an exam solution plan for a multi-step laplace equation problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: In two variables, Laplace's equation is A function satisfying this equation is harmonic on the region. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-19",
+      "prompt": "How could an incorrect setup affect a laplace equation result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using first partial derivatives in Laplace's equation must be avoided: it uses second partial derivatives.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-laplace-equation-20",
+      "prompt": "Give an exam-ready summary rule for Laplace Equation.",
+      "answer": "Laplace's equation is \\(\\nabla^2u=0\\). It models source-free steady fields and identifies harmonic functions. If a formula is needed, use \\[ \\nabla^2u=u_{xx}+u_{yy}=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

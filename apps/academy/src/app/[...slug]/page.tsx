@@ -18,6 +18,27 @@ function getPageTitle(title: string) {
   return `${title} | ${siteName}`;
 }
 
+function getMathPhysicsEquationSheetRedirect(slug: string[]) {
+  const [courseSlug, equationSheetSlug, printSlug] = slug;
+  const isLegacyMathCourse =
+    courseSlug === "level-1-math-i-physics" ||
+    courseSlug === "level-1-math-ii-physics";
+
+  if (!isLegacyMathCourse || equationSheetSlug !== "equation-sheet") {
+    return null;
+  }
+
+  if (slug.length === 2) {
+    return "/level-1-math-physics/equation-sheet";
+  }
+
+  if (slug.length === 3 && printSlug === "print") {
+    return "/level-1-math-physics/equation-sheet/print";
+  }
+
+  return null;
+}
+
 type DocsRouteProps = {
   params: Promise<{ slug: string[] }>;
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -109,6 +130,13 @@ export default async function DocsSlugPage({
     const query = params.toString();
 
     redirect(`/${redirectPath}${query ? `?${query}` : ""}`);
+  }
+
+  const mathPhysicsEquationSheetRedirect =
+    getMathPhysicsEquationSheetRedirect(slug);
+
+  if (mathPhysicsEquationSheetRedirect) {
+    redirect(mathPhysicsEquationSheetRedirect);
   }
 
   const questionsParam = resolvedSearchParams.questions;

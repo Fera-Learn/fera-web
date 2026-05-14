@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "bayes-theorem",
+  "topicTitle": "Bayes Theorem",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-bayes-theorem-01",
+      "prompt": "A disease has prevalence \\(0.01\\). A test is positive with probability \\(0.99\\) for a diseased person and \\(0.05\\) for a non-diseased person. Find \\(P(\\text{disease}\\mid\\text{positive})\\).",
+      "answer": "Let \\(D\\) be disease and \\(+\\) be a positive test. The evidence probability is \\(P(+)=0.99(0.01)+0.05(0.99)=0.0594\\). Thus \\[P(D|+)=\\frac{0.99(0.01)}{0.0594}=0.1667.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-02",
+      "prompt": "A signal comes from source A with probability \\(0.4\\) and source B with probability \\(0.6\\). A click occurs with probabilities \\(0.8\\) and \\(0.3\\) respectively. Given a click, find the probability it came from source A.",
+      "answer": "The click probability is \\(0.8(0.4)+0.3(0.6)=0.50\\). Bayes' theorem gives \\[P(A|\\text{click})=\\frac{0.8(0.4)}{0.50}=0.64.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-03",
+      "prompt": "Machine 1 makes \\(20\\%\\) of parts and has defect rate \\(7\\%\\). Machine 2 makes the rest and has defect rate \\(1\\%\\). Given a defective part, find the probability it came from machine 1.",
+      "answer": "Let \\(M_1\\) be machine 1 and \\(D\\) be defective. The defect probability is \\(0.07(0.2)+0.01(0.8)=0.022\\). Therefore \\[P(M_1|D)=\\frac{0.07(0.2)}{0.022}=0.6364.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-04",
+      "prompt": "Rain has prior probability \\(0.15\\). Pavement is wet with probability \\(0.9\\) if it rained and \\(0.2\\) if it did not. Given wet pavement, find the probability that it rained.",
+      "answer": "Let \\(R\\) be rain and \\(W\\) be wet pavement. \\(P(W)=0.9(0.15)+0.2(0.85)=0.305\\). Hence \\[P(R|W)=\\frac{0.9(0.15)}{0.305}=0.4426.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-05",
+      "prompt": "A coin is chosen from a drawer. With probability \\(0.6\\) it is a biased coin with \\(P(H)=0.4\\); otherwise it is a coin with \\(P(H)=0.8\\). Given heads, find the probability the first coin was chosen.",
+      "answer": "Let \\(B\\) be the first coin and \\(H\\) be heads. The evidence probability is \\(P(H)=0.4(0.6)+0.8(0.4)=0.56\\). Bayes' theorem gives \\[P(B|H)=\\frac{0.4(0.6)}{0.56}=0.4286.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-06",
+      "prompt": "A fault occurs with probability \\(0.05\\). An alarm sounds with probability \\(0.95\\) if there is a fault and \\(0.02\\) otherwise. Given an alarm, find the probability of a fault.",
+      "answer": "The alarm probability is \\(0.95(0.05)+0.02(0.95)=0.0665\\). Thus \\[P(\\text{fault}|\\text{alarm})=\\frac{0.95(0.05)}{0.0665}=0.7143.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-07",
+      "prompt": "In an assessment, \\(30\\%\\) of candidates are well prepared. A well-prepared candidate passes with probability \\(0.6\\), while another candidate passes with probability \\(0.25\\). Given a pass, find the probability the candidate was well prepared.",
+      "answer": "Let \\(W\\) be well prepared and \\(P\\) be passing. \\(P(P)=0.6(0.3)+0.25(0.7)=0.355\\). Hence \\[P(W|P)=\\frac{0.6(0.3)}{0.355}=0.5070.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-08",
+      "prompt": "A batch is contaminated with probability \\(0.12\\). A quality test fails with probability \\(0.85\\) if contaminated and \\(0.15\\) otherwise. Given a failed test, find the probability of contamination.",
+      "answer": "The failed-test probability is \\(0.85(0.12)+0.15(0.88)=0.234\\). Bayes gives \\[P(\\text{contaminated}|\\text{fail})=\\frac{0.85(0.12)}{0.234}=0.4359.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-09",
+      "prompt": "A component is old with probability \\(0.7\\). Failure probability is \\(0.2\\) if old and \\(0.6\\) if new. Given a failure, find the probability the component was old.",
+      "answer": "Here \\(P(F)=0.2(0.7)+0.6(0.3)=0.32\\). Therefore \\[P(\\text{old}|F)=\\frac{0.2(0.7)}{0.32}=0.4375.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-10",
+      "prompt": "Team A has prior chance \\(0.25\\) of being the stronger team. If stronger, it wins with probability \\(0.75\\); otherwise it wins with probability \\(0.35\\). Given that Team A wins, find the probability it was stronger.",
+      "answer": "Let \\(S\\) be stronger and \\(W\\) be win. \\(P(W)=0.75(0.25)+0.35(0.75)=0.45\\). Thus \\[P(S|W)=\\frac{0.75(0.25)}{0.45}=0.4167.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-11",
+      "prompt": "An email is spam with probability \\(0.08\\). A filter flags spam with probability \\(0.9\\) and flags non-spam with probability \\(0.1\\). Given that an email is flagged, find the probability it is spam.",
+      "answer": "The flag probability is \\(0.9(0.08)+0.1(0.92)=0.164\\). Hence \\[P(\\text{spam}|\\text{flag})=\\frac{0.9(0.08)}{0.164}=0.4390.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-12",
+      "prompt": "An operator is trained with probability \\(0.55\\). A trained operator succeeds with probability \\(0.65\\), and an untrained operator succeeds with probability \\(0.3\\). Given success, find the probability the operator was trained.",
+      "answer": "The success probability is \\(0.65(0.55)+0.3(0.45)=0.4925\\). Therefore \\[P(\\text{trained}|\\text{success})=\\frac{0.65(0.55)}{0.4925}=0.7259.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-13",
+      "prompt": "A rare isotope is present with probability \\(0.18\\). A detector triggers with probability \\(0.5\\) when it is present and \\(0.05\\) otherwise. Given a trigger, find the posterior probability that the isotope is present.",
+      "answer": "The trigger probability is \\(0.5(0.18)+0.05(0.82)=0.131\\). Bayes' theorem gives \\[P(\\text{isotope}|\\text{trigger})=\\frac{0.5(0.18)}{0.131}=0.6870.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-14",
+      "prompt": "A rejected item may be from batch X with prior probability \\(0.33\\). Rejection probability is \\(0.4\\) for batch X and \\(0.7\\) otherwise. Given rejection, find \\(P(\\text{batch X}|\\text{rejected})\\).",
+      "answer": "The rejection probability is \\(0.4(0.33)+0.7(0.67)=0.601\\). Therefore \\[P(X|R)=\\frac{0.4(0.33)}{0.601}=0.2196.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-15",
+      "prompt": "An infection has prevalence \\(0.04\\). A screen is positive with probability \\(0.99\\) if infected and \\(0.01\\) if not infected. Given a positive screen, find the probability of infection.",
+      "answer": "The positive-screen probability is \\(0.99(0.04)+0.01(0.96)=0.0492\\). Thus \\[P(I|+)=\\frac{0.99(0.04)}{0.0492}=0.8049.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-16",
+      "prompt": "A device is in mode 1 with probability \\(0.45\\). A low reading occurs with probability \\(0.3\\) in mode 1 and \\(0.8\\) otherwise. Given a low reading, find the posterior probability of mode 1.",
+      "answer": "The low-reading probability is \\(0.3(0.45)+0.8(0.55)=0.575\\). Hence \\[P(\\text{mode 1}|\\text{low})=\\frac{0.3(0.45)}{0.575}=0.2348.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-17",
+      "prompt": "A signal is present with probability \\(0.22\\). A trigger occurs with probability \\(0.88\\) if the signal is present and \\(0.18\\) if absent. Given a trigger, find the posterior odds in favour of a signal.",
+      "answer": "First compute posterior probabilities up to a common denominator. Signal weight: \\(0.88(0.22)=0.1936\\). No-signal weight: \\(0.18(0.78)=0.1404\\). The posterior odds are \\[0.1936:0.1404=1.38:1\\] approximately in favour of a signal.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-18",
+      "prompt": "An outage is reported. Sites are rural with probability \\(0.65\\). Outage probability is \\(0.55\\) for rural sites and \\(0.25\\) for non-rural sites. Given an outage, find the probability the site is rural.",
+      "answer": "The outage probability is \\(0.55(0.65)+0.25(0.35)=0.445\\). Therefore \\[P(\\text{rural}|\\text{outage})=\\frac{0.55(0.65)}{0.445}=0.8034.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-19",
+      "prompt": "A pressure drop is observed. A leak has prior probability \\(0.1\\). The pressure drop occurs with probability \\(0.6\\) if there is a leak and \\(0.04\\) otherwise. Find the probability of a leak.",
+      "answer": "The evidence probability is \\(0.6(0.1)+0.04(0.9)=0.096\\). Bayes' theorem gives \\[P(\\text{leak}|\\text{drop})=\\frac{0.6(0.1)}{0.096}=0.625.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-bayes-theorem-20",
+      "prompt": "A mark can come from class I, II, or III with prior probabilities \\(0.5,0.3,0.2\\). A blue mark occurs with probabilities \\(0.2,0.6,0.9\\) in the three classes. Given a blue mark, find the probability it came from class III.",
+      "answer": "Use the multi-hypothesis denominator: \\[P(B)=0.2(0.5)+0.6(0.3)+0.9(0.2)=0.46.\\] The class III posterior is \\[P(III|B)=\\frac{0.9(0.2)}{0.46}=0.3913.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

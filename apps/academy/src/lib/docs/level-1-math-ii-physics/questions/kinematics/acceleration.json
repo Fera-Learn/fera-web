@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "kinematics",
+  "topicId": "acceleration",
+  "topicTitle": "Acceleration",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-kinematics-acceleration-01",
+      "prompt": "What is the main purpose of Acceleration?",
+      "answer": "Acceleration measures how velocity changes with time. It can change the speed of a particle, the direction of its velocity, or both. Instantaneous acceleration is the derivative of velocity. Since velocity is the derivative of position, acceleration is also the second derivative of position.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-02",
+      "prompt": "What does \\(\\mathbf v(t)\\) mean in Acceleration?",
+      "answer": "In Acceleration, \\(\\mathbf v(t)\\) means instantaneous velocity. Its unit is m s^{-1}.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-03",
+      "prompt": "Identify another important piece of notation used in Acceleration.",
+      "answer": "In Acceleration, \\(\\mathbf a(t)\\) means instantaneous acceleration. Its unit is m s^{-2}.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-04",
+      "prompt": "Before doing a acceleration calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Step 1: Average over a time interval Average acceleration is change in velocity divided by elapsed time: Step 2: Differentiate for instantaneous acceleration Take the time derivative of velocity: Step 3: Work component by component In a fixed Cartesian basis, each acceleration component is the derivative of the corresponding velocity component.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-05",
+      "prompt": "State a central formula or test for Acceleration.",
+      "answer": "The average acceleration is\n\\[\\mathbf a_{\\text{avg}}=\\frac{\\Delta\\mathbf v}{\\Delta t}\\]\nUse it only after the symbols in the formula have been identified for the specific acceleration problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-06",
+      "prompt": "How is the formula or method in Acceleration interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The instantaneous acceleration is\n\\[\\mathbf a=\\frac{d\\mathbf v}{dt}=\\frac{d^2\\mathbf r}{dt^2}\\]\nUse it only after the symbols in the formula have been identified for the specific acceleration problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-07",
+      "prompt": "A particle has \\(\\mathbf v(t)=6t\\mathbf i+(3-t^2)\\mathbf j\\) \\(m s^{-1}\\). Find \\(\\mathbf a(t)\\).",
+      "answer": "Acceleration is \\(d\\mathbf v/dt\\). Differentiate each component: \\(d(6t)/dt=6\\) and \\(d(3-t^2)/dt=-2t\\). Thus \\(\\mathbf a(t)=6\\mathbf i-2t\\mathbf j\\) \\(m s^{-2}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-08",
+      "prompt": "Velocity changes from \\(2\\mathbf i\\) \\(m s^{-1}\\) to \\(8\\mathbf i\\) \\(m s^{-1}\\) in \\(3\\) s. Find average acceleration.",
+      "answer": "The velocity change is \\(6\\mathbf i\\) \\(m s^{-1}\\). Divide by \\(3\\) s to get \\(\\mathbf a_{\\text{avg}}=2\\mathbf i\\) \\(m s^{-2}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-09",
+      "prompt": "What method choice is usually needed in a standard acceleration question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Step 1: Average over a time interval Average acceleration is change in velocity divided by elapsed time: Step 2: Differentiate for instantaneous acceleration Take the time derivative of velocity: Step 3: Work component by component In a fixed Cartesian basis, each acceleration component is the derivative of the corresponding velocity component.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-10",
+      "prompt": "Use the notation of Acceleration to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf v(t)\\), meaning instantaneous velocity; \\(\\mathbf a(t)\\), meaning instantaneous acceleration; \\(\\Delta\\mathbf v\\), meaning change in velocity.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-11",
+      "prompt": "For \\(\\mathbf r(t)=t^3\\mathbf i-2t^2\\mathbf j\\) m, find \\(\\mathbf a(t)\\).",
+      "answer": "First differentiate to get \\(\\mathbf v=3t^2\\mathbf i-4t\\mathbf j\\). Differentiate again: \\(\\mathbf a=6t\\mathbf i-4\\mathbf j\\) \\(m s^{-2}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-12",
+      "prompt": "What physical or modelling interpretation can Acceleration have?",
+      "answer": "In a physics model, the idea of acceleration helps translate a mathematical expression into a statement about the system. Acceleration measures how velocity changes with time. It can change the speed of a particle, the direction of its velocity, or both. Instantaneous acceleration is the derivative of velocity. Since velocity is the derivative of position, acceleration is also the second derivative of position.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-13",
+      "prompt": "Correct this mistake in Acceleration: Acceleration can be non-zero even when speed is constant, because direction may be changing.",
+      "answer": "Acceleration can be non-zero even when speed is constant, because direction may be changing.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-14",
+      "prompt": "Why is it important to check assumptions when using Acceleration?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Acceleration is the vector rate of change of velocity and the second time derivative of position. It can change speed, direction, or both.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-15",
+      "prompt": "Correct this second mistake in Acceleration: Use vector notation when acceleration has more than one component.",
+      "answer": "Use vector notation when acceleration has more than one component.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Acceleration?",
+      "answer": "Track the units in the notation: \\(\\mathbf v(t)\\) has unit m s^{-1}; \\(\\mathbf a(t)\\) has unit m s^{-2}; \\(\\Delta\\mathbf v\\) has unit m s^{-1}; \\(\\Delta t\\) has unit s; \\(\\ddot x, \\ddot y, \\ddot z\\) has unit m s^{-2}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-17",
+      "prompt": "Correct this third mistake in Acceleration: Constant-acceleration equations are not valid for arbitrary acceleration functions.",
+      "answer": "Constant-acceleration equations are not valid for arbitrary acceleration functions.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-18",
+      "prompt": "Design an exam solution plan for a multi-step acceleration problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Step 1: Average over a time interval Average acceleration is change in velocity divided by elapsed time: Step 2: Differentiate for instantaneous acceleration Take the time derivative of velocity: Step 3: Work component by component In a fixed Cartesian basis, each acceleration component is the derivative of the corresponding velocity component. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-19",
+      "prompt": "How could an incorrect setup affect a acceleration result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Acceleration can be non-zero even when speed is constant, because direction may be changing must be avoided: Acceleration can be non-zero even when speed is constant, because direction may be changing.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-acceleration-20",
+      "prompt": "Give an exam-ready summary rule for Acceleration.",
+      "answer": "Acceleration is the vector rate of change of velocity and the second time derivative of position. It can change speed, direction, or both. If a formula is needed, use \\[\\mathbf a_{\\text{avg}}=\\frac{\\Delta\\mathbf v}{\\Delta t}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

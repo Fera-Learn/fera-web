@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "critical-points",
+  "topicTitle": "Critical Points",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-01",
+      "prompt": "What is the main purpose of Critical Points?",
+      "answer": "A critical point of a smooth multivariable function is a point where all first partial derivatives vanish. The field has no first-order increase or decrease in any direction there.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-02",
+      "prompt": "What does \\(\\nabla f\\) mean in Critical Points?",
+      "answer": "In Critical Points, \\(\\nabla f\\) means gradient vector of first partial derivatives.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-03",
+      "prompt": "Identify another important piece of notation used in Critical Points.",
+      "answer": "In Critical Points, \\(\\mathbf 0\\) means zero vector with all components equal to zero.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-04",
+      "prompt": "Before doing a critical points calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Solve the system formed by setting every first partial derivative equal to zero. After finding candidates, use second derivative information or direct comparison to classify them.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-05",
+      "prompt": "State a central formula or test for Critical Points.",
+      "answer": "The critical point condition is\n\\[ \\nabla f(a,b)=\\mathbf 0\\quad\\Longleftrightarrow\\quad f_x(a,b)=0\\text{ and }f_y(a,b)=0\\]\nUse it only after the symbols in the formula have been identified for the specific critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-06",
+      "prompt": "How is the formula or method in Critical Points interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The critical point condition is\n\\[ \\nabla f(a,b)=\\mathbf 0\\quad\\Longleftrightarrow\\quad f_x(a,b)=0\\text{ and }f_y(a,b)=0\\]\nUse it only after the symbols in the formula have been identified for the specific critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-07",
+      "prompt": "Find the critical point of U(x,y)=x^2+y^2-4x+2y.",
+      "answer": "Compute U_x=2x-4 and U_y=2y+2. Set both to zero: 2x-4=0 gives x=2, and 2y+2=0 gives y=-1. The critical point is (2,-1).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-08",
+      "prompt": "Find the critical point of f(x,y)=x^2-y^2.",
+      "answer": "The partial derivatives are f_x=2x and f_y=-2y. Setting both to zero gives x=0 and y=0. The candidate is (0,0); its type needs second derivative information or a sign check.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-09",
+      "prompt": "What method choice is usually needed in a standard critical points question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Solve the system formed by setting every first partial derivative equal to zero. After finding candidates, use second derivative information or direct comparison to classify them.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-10",
+      "prompt": "Use the notation of Critical Points to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\nabla f\\), meaning gradient vector of first partial derivatives; \\(\\mathbf 0\\), meaning zero vector with all components equal to zero; \\((a,b)\\), meaning candidate critical point in two variables.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-11",
+      "prompt": "Why are critical points useful for potential energy?",
+      "answer": "For many conservative systems, force is negative gradient of potential energy. When grad U=0, the force is zero, so the point is an equilibrium candidate.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-12",
+      "prompt": "What physical or modelling interpretation can Critical Points have?",
+      "answer": "In a physics model, the idea of critical points helps translate a mathematical expression into a statement about the system. A critical point of a smooth multivariable function is a point where all first partial derivatives vanish. The field has no first-order increase or decrease in any direction there.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-13",
+      "prompt": "Correct this mistake in Critical Points: solving only one partial derivative equation.",
+      "answer": "all components of the gradient must be zero for an interior critical point.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-14",
+      "prompt": "Why is it important to check assumptions when using Critical Points?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Critical points occur where the gradient is zero. Solve all first-partial equations, then classify candidates using curvature or boundary analysis.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-15",
+      "prompt": "Correct this second mistake in Critical Points: classifying immediately from grad f=0.",
+      "answer": "the condition locates candidates; classification needs more information.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Critical Points?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Critical points occur where the gradient is zero. Solve all first-partial equations, then classify candidates using curvature or boundary analysis.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-17",
+      "prompt": "Correct this third mistake in Critical Points: ignoring domain boundaries.",
+      "answer": "check boundary points separately when the domain is restricted.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-18",
+      "prompt": "Design an exam solution plan for a multi-step critical points problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Solve the system formed by setting every first partial derivative equal to zero. After finding candidates, use second derivative information or direct comparison to classify them. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-19",
+      "prompt": "How could an incorrect setup affect a critical points result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, solving only one partial derivative equation must be avoided: all components of the gradient must be zero for an interior critical point.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-critical-points-20",
+      "prompt": "Give an exam-ready summary rule for Critical Points.",
+      "answer": "Critical points occur where the gradient is zero. Solve all first-partial equations, then classify candidates using curvature or boundary analysis. If a formula is needed, use \\[ \\nabla f(a,b)=\\mathbf 0\\quad\\Longleftrightarrow\\quad f_x(a,b)=0\\text{ and }f_y(a,b)=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

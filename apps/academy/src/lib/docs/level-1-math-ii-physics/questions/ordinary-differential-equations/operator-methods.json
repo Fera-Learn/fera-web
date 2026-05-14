@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "operator-methods",
+  "topicTitle": "Operator Methods",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-01",
+      "prompt": "What is the main purpose of Operator Methods?",
+      "answer": "Operator methods treat differentiation as an algebraic operator. For constant-coefficient linear ODEs this compresses repeated differentiation and clarifies complementary and particular parts.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-02",
+      "prompt": "What does \\(D\\) mean in Operator Methods?",
+      "answer": "In Operator Methods, \\(D\\) means differentiation operator d divided by dx.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-03",
+      "prompt": "Identify another important piece of notation used in Operator Methods.",
+      "answer": "In Operator Methods, \\(P(D)\\) means polynomial in the differentiation operator.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-04",
+      "prompt": "Before doing a operator methods calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Rewrite the ODE as P(D)y equals f, solve P(r) equals zero for the complementary part, then handle the forcing.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-05",
+      "prompt": "State a central formula or test for Operator Methods.",
+      "answer": "The operator form is\n\\[P(D)y=f(x),\\quad D=\\frac{d}{dx}\\]\nUse it only after the symbols in the formula have been identified for the specific operator methods problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-06",
+      "prompt": "How is the formula or method in Operator Methods interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The characteristic polynomial is\n\\[P(r)=0\\]\nUse it only after the symbols in the formula have been identified for the specific operator methods problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-07",
+      "prompt": "Write y double prime plus 9y equals zero in operator form and find the characteristic equation.",
+      "answer": "Since D squared y means y double prime, the equation is \\[(D^2+9)y=0\\] Replace D by r for the characteristic equation: \\[r^2+9=0\\] so r=plus or minus 3i. The real solution is \\[y=C_1\\cos3x+C_2\\sin3x\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-08",
+      "prompt": "Represent y double prime minus y equals sin x using D notation.",
+      "answer": "The term y double prime is D squared y and the term minus y is negative one times y. Therefore the operator form is \\[(D^2-1)y=\\sin x\\] The complementary roots come from \\[r^2-1=0\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-09",
+      "prompt": "What method choice is usually needed in a standard operator methods question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Rewrite the ODE as P(D)y equals f, solve P(r) equals zero for the complementary part, then handle the forcing.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-10",
+      "prompt": "Use the notation of Operator Methods to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(D\\), meaning differentiation operator d divided by dx; \\(P(D)\\), meaning polynomial in the differentiation operator; \\(y\\), meaning dependent variable.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-11",
+      "prompt": "Explain a common worked step in Operator Methods.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Operator Methods.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-12",
+      "prompt": "What physical or modelling interpretation can Operator Methods have?",
+      "answer": "In a physics model, the idea of operator methods helps translate a mathematical expression into a statement about the system. Operator methods treat differentiation as an algebraic operator. For constant-coefficient linear ODEs this compresses repeated differentiation and clarifies complementary and particular parts.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-13",
+      "prompt": "Correct this mistake in Operator Methods: Using operator algebra with variable coefficients as if coefficients commute with D.",
+      "answer": "the simple polynomial method is for constant coefficients.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-14",
+      "prompt": "Why is it important to check assumptions when using Operator Methods?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Operator notation packages constant-coefficient ODEs as P(D)y equals f and converts the natural part into P(r) equals zero.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-15",
+      "prompt": "Correct this second mistake in Operator Methods: Confusing D with a number too early.",
+      "answer": "replace D by r only when forming the characteristic equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Operator Methods?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Operator notation packages constant-coefficient ODEs as P(D)y equals f and converts the natural part into P(r) equals zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-17",
+      "prompt": "Correct this third mistake in Operator Methods: Confusing D with a number too early.",
+      "answer": "replace D by r only when forming the characteristic equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-18",
+      "prompt": "Design an exam solution plan for a multi-step operator methods problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Rewrite the ODE as P(D)y equals f, solve P(r) equals zero for the complementary part, then handle the forcing. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-19",
+      "prompt": "How could an incorrect setup affect a operator methods result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using operator algebra with variable coefficients as if coefficients commute with D must be avoided: the simple polynomial method is for constant coefficients.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-operator-methods-20",
+      "prompt": "Give an exam-ready summary rule for Operator Methods.",
+      "answer": "Operator notation packages constant-coefficient ODEs as P(D)y equals f and converts the natural part into P(r) equals zero. If a formula is needed, use \\[P(D)y=f(x),\\quad D=\\frac{d}{dx}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

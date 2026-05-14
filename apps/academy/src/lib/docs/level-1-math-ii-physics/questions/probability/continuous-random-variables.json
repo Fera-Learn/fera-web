@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "continuous-random-variables",
+  "topicTitle": "Continuous Random Variables",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-continuous-random-variables-01",
+      "prompt": "Let \\(X\\) be uniformly distributed on \\([0,2]\\). Find \\(P(0.5<X<1.5)\\).",
+      "answer": "For a uniform continuous variable, probability is interval length divided by total length: \\[P(0.5<X<1.5)=\\frac{1.5-0.5}{2-0}=\\frac{1}{2}.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-02",
+      "prompt": "Let \\(X\\sim U(1,5)\\). Find \\(P(2<X<4)\\).",
+      "answer": "The interval length is \\(4-2=2\\), and the total length is \\(5-1=4\\). Hence \\[P(2<X<4)=\\frac{2}{4}=0.5.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-03",
+      "prompt": "Let \\(X\\sim U(0,10)\\). Find \\(P(X>7)\\).",
+      "answer": "The favourable interval is \\((7,10)\\), with length \\(3\\). The total length is \\(10\\), so \\[P(X>7)=\\frac{3}{10}=0.3.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-04",
+      "prompt": "Let \\(X\\sim U(-1,1)\\). Find \\(P(-0.5<X<0.5)\\).",
+      "answer": "The favourable length is \\(0.5-(-0.5)=1\\). The total length is \\(1-(-1)=2\\). Therefore \\[P(-0.5<X<0.5)=\\frac{1}{2}.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-05",
+      "prompt": "A continuous random variable has density \\(f(x)=2x\\) for \\(0<x<1\\). Find \\(P(0<X<0.5)\\).",
+      "answer": "Integrate the density: \\[P(0<X<0.5)=\\int_0^{0.5}2x\\,dx=x^2\\big|_0^{0.5}=0.25.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-06",
+      "prompt": "A continuous random variable has density \\(f(x)=\\frac{1}{4}\\) for \\(2<x<6\\). Find \\(P(3<X<5)\\).",
+      "answer": "This is uniform on \\([2,6]\\). The interval length is \\(2\\), and the total length is \\(4\\), so \\[P(3<X<5)=\\frac{2}{4}=0.5.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-07",
+      "prompt": "Let \\(X\\sim U(0,1)\\). Find \\(P(X=0.4)\\).",
+      "answer": "For a continuous random variable, a single point has zero width and zero area. Therefore \\[P(X=0.4)=0.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-08",
+      "prompt": "Let \\(X\\sim U(5,9)\\). Find \\(P(X<6.5)\\).",
+      "answer": "The favourable interval is \\([5,6.5)\\), with length \\(6.5-5=1.5\\). The total length is \\(9-5=4\\), so \\[P(X<6.5)=\\frac{1.5}{4}=0.375.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-09",
+      "prompt": "A density is \\(f(x)=c\\) on \\([3,12]\\). Find \\(c\\).",
+      "answer": "The total area under a density must be \\(1\\). Thus \\(c(12-3)=1\\), so \\(c=1/9\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-10",
+      "prompt": "Let \\(X\\sim U(0,6)\\). Find \\(P(X<2\\text{ or }X>5)\\).",
+      "answer": "The intervals have total length \\((2-0)+(6-5)=3\\). The total length is \\(6\\), so \\[P(X<2\\text{ or }X>5)=\\frac{3}{6}=0.5.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-11",
+      "prompt": "A continuous random variable has density \\(f(x)=3x^2\\) for \\(0<x<1\\). Find \\(P(X>0.5)\\).",
+      "answer": "Integrate from \\(0.5\\) to \\(1\\): \\[P(X>0.5)=\\int_{0.5}^1 3x^2\\,dx=x^3\\big|_{0.5}^1=1-0.125=0.875.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-12",
+      "prompt": "Let \\(X\\sim U(2,10)\\). Find \\(P(4<X<7\\mid X>4)\\).",
+      "answer": "Since \\((4,7)\\subset(4,10)\\), \\[P(4<X<7\\mid X>4)=\\frac{P(4<X<7)}{P(X>4)}=\\frac{3/8}{6/8}=\\frac{1}{2}.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-13",
+      "prompt": "A continuous random variable has density \\(f(x)=kx\\) on \\(0<x<2\\). Find \\(k\\).",
+      "answer": "The total area must be \\(1\\): \\[\\int_0^2 kx\\,dx=k\\frac{x^2}{2}\\bigg|_0^2=2k=1.\\] Hence \\(k=1/2\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-14",
+      "prompt": "Using \\(f(x)=\\frac{x}{2}\\) on \\(0<x<2\\), find \\(P(1<X<2)\\).",
+      "answer": "Integrate the density: \\[P(1<X<2)=\\int_1^2\\frac{x}{2}\\,dx=\\frac{x^2}{4}\\bigg|_1^2=1-\\frac14=\\frac34.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-15",
+      "prompt": "Let \\(X\\sim U(20,30)\\). Find \\(a\\) such that \\(P(X<a)=0.7\\).",
+      "answer": "For a uniform distribution, \\((a-20)/(30-20)=0.7\\). Thus \\(a-20=7\\), so \\(a=27\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-16",
+      "prompt": "Let \\(X\\sim U(-5,5)\\). Find \\(P(-2<X<3)\\).",
+      "answer": "The favourable length is \\(3-(-2)=5\\). The total length is \\(5-(-5)=10\\). Hence \\[P(-2<X<3)=\\frac{5}{10}=0.5.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-17",
+      "prompt": "A random variable has density \\(f(x)=\\frac{1}{8}\\) for \\(4<x<12\\). Find \\(P(X>10)\\).",
+      "answer": "The favourable interval has length \\(12-10=2\\). Multiplying by the density gives \\[P(X>10)=2\\cdot\\frac18=\\frac14.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-18",
+      "prompt": "A continuous random variable has cumulative distribution function \\(F(x)=x^2\\) for \\(0\\le x\\le1\\). Find \\(P(0.3<X<0.8)\\).",
+      "answer": "Use the CDF difference: \\[P(0.3<X<0.8)=F(0.8)-F(0.3)=0.8^2-0.3^2=0.64-0.09=0.55.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-19",
+      "prompt": "Let \\(X\\sim U(0,100)\\). Given \\(X>25\\), find \\(P(X<40\\mid X>25)\\).",
+      "answer": "The condition restricts the interval to \\((25,100)\\), length \\(75\\). The favourable part is \\((25,40)\\), length \\(15\\). Therefore \\[P(X<40\\mid X>25)=\\frac{15}{75}=0.2.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-continuous-random-variables-20",
+      "prompt": "A density is triangular: \\(f(x)=x\\) on \\(0<x<1\\) and \\(f(x)=2-x\\) on \\(1\\le x<2\\). Find \\(P(0.5<X<1.5)\\).",
+      "answer": "Integrate in two pieces: \\[\\int_{0.5}^1 x\\,dx+\\int_1^{1.5}(2-x)\\,dx=(0.5-0.125)+(1.125-0.5)=0.375+0.375=0.75.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

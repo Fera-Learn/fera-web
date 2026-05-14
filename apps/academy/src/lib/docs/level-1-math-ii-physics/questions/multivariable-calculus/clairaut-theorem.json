@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "clairaut-theorem",
+  "topicTitle": "Clairaut Theorem",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-01",
+      "prompt": "What is the main purpose of Clairaut Theorem?",
+      "answer": "Clairaut theorem gives a condition under which mixed partial derivatives can be swapped. If the relevant second partial derivatives are continuous near a point, the two mixed derivatives agree at that point.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-02",
+      "prompt": "What does \\(f_{xy}\\) mean in Clairaut Theorem?",
+      "answer": "In Clairaut Theorem, \\(f_{xy}\\) means partial derivative obtained by differentiating f_x with respect to y.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-03",
+      "prompt": "Identify another important piece of notation used in Clairaut Theorem.",
+      "answer": "In Clairaut Theorem, \\(f_{yx}\\) means partial derivative obtained by differentiating f_y with respect to x.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-04",
+      "prompt": "Before doing a clairaut theorem calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: When the second partial derivatives are continuous near the point, the order of mixed differentiation does not matter. The assumption matters: compute the mixed partials directly if smoothness is not known.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-05",
+      "prompt": "State a central formula or test for Clairaut Theorem.",
+      "answer": "The clairaut theorem is\n\\[f_{xy}(a,b)=f_{yx}(a,b)\\]\nUse it only after the symbols in the formula have been identified for the specific clairaut theorem problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-06",
+      "prompt": "How is the formula or method in Clairaut Theorem interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The clairaut theorem is\n\\[f_{xy}(a,b)=f_{yx}(a,b)\\]\nUse it only after the symbols in the formula have been identified for the specific clairaut theorem problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-07",
+      "prompt": "For V(x,y)=x^2y^3+xy, show that V_{xy}=V_{yx}.",
+      "answer": "Compute V_x=2xy^3+y, then V_{xy}=6xy^2+1. Compute V_y=3x^2y^2+x, then V_{yx}=6xy^2+1. The polynomial is smooth, and the mixed partials match.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-08",
+      "prompt": "A smooth energy surface E has E_{xy}(1,2)=7. What is E_{yx}(1,2)?",
+      "answer": "Because the second partial derivatives are continuous near the point, Clairaut theorem applies. Therefore E_{yx}(1,2)=E_{xy}(1,2)=7.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-09",
+      "prompt": "What method choice is usually needed in a standard clairaut theorem question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: When the second partial derivatives are continuous near the point, the order of mixed differentiation does not matter. The assumption matters: compute the mixed partials directly if smoothness is not known.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-10",
+      "prompt": "Use the notation of Clairaut Theorem to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f_{xy}\\), meaning partial derivative obtained by differentiating f_x with respect to y; \\(f_{yx}\\), meaning partial derivative obtained by differentiating f_y with respect to x; \\((a,b)\\), meaning point where the mixed partials are compared.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-11",
+      "prompt": "Why is continuity of second partials mentioned in the theorem?",
+      "answer": "The equality is not just a notation rule. Continuity prevents sharp or singular behaviour near the point that can make the two limiting processes give different values.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-12",
+      "prompt": "What physical or modelling interpretation can Clairaut Theorem have?",
+      "answer": "In a physics model, the idea of clairaut theorem helps translate a mathematical expression into a statement about the system. Clairaut theorem gives a condition under which mixed partial derivatives can be swapped. If the relevant second partial derivatives are continuous near a point, the two mixed derivatives agree at that point.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-13",
+      "prompt": "Correct this mistake in Clairaut Theorem: swapping derivatives without conditions.",
+      "answer": "require continuous second partials or compute both orders.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-14",
+      "prompt": "Why is it important to check assumptions when using Clairaut Theorem?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Clairaut theorem says smooth mixed partials are equal: \\(f_{xy}=f_{yx}\\). Use it only when the required smoothness near the point is justified.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-15",
+      "prompt": "Correct this second mistake in Clairaut Theorem: comparing derivatives at different points.",
+      "answer": "evaluate both mixed partials at the same point.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Clairaut Theorem?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Clairaut theorem says smooth mixed partials are equal: \\(f_{xy}=f_{yx}\\). Use it only when the required smoothness near the point is justified.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-17",
+      "prompt": "Correct this third mistake in Clairaut Theorem: confusing \\(f_{xy}\\) with multiplication.",
+      "answer": "it names a repeated derivative, not f times x times y.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-18",
+      "prompt": "Design an exam solution plan for a multi-step clairaut theorem problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: When the second partial derivatives are continuous near the point, the order of mixed differentiation does not matter. The assumption matters: compute the mixed partials directly if smoothness is not known. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-19",
+      "prompt": "How could an incorrect setup affect a clairaut theorem result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, swapping derivatives without conditions must be avoided: require continuous second partials or compute both orders.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-clairaut-theorem-20",
+      "prompt": "Give an exam-ready summary rule for Clairaut Theorem.",
+      "answer": "Clairaut theorem says smooth mixed partials are equal: \\(f_{xy}=f_{yx}\\). Use it only when the required smoothness near the point is justified. If a formula is needed, use \\[f_{xy}(a,b)=f_{yx}(a,b)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

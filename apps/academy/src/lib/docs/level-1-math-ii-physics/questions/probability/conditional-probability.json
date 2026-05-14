@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "conditional-probability",
+  "topicTitle": "Conditional Probability",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-conditional-probability-01",
+      "prompt": "A class has \\(40\\) students. \\(18\\) study physics, and \\(7\\) study both maths and physics. If a student is chosen at random from those who study physics, find the probability that the student also studies maths.",
+      "answer": "Let \\(M\\) be the event that the student studies maths and \\(P\\) the event that the student studies physics. Conditioning on physics restricts the sample space to \\(18\\) students, of whom \\(7\\) also study maths. Hence \\[P(M|P)=\\frac{P(M\\cap P)}{P(P)}=\\frac{7}{18}=0.3889.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-02",
+      "prompt": "One card is drawn from a standard \\(52\\)-card deck. Given that the card is an ace, find the probability that it is a heart.",
+      "answer": "Let \\(H\\) be the event that the card is a heart and \\(A\\) the event that it is an ace. There are \\(4\\) aces, and exactly \\(1\\) of them is the ace of hearts. Therefore \\[P(H|A)=\\frac{P(H\\cap A)}{P(A)}=\\frac{1}{4}.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-03",
+      "prompt": "In an exam group of \\(30\\) students, \\(12\\) attended a revision session and \\(5\\) both attended revision and passed. Given that a randomly chosen student attended revision, find the probability that the student passed.",
+      "answer": "Let \\(R\\) mean attended revision and \\(S\\) mean passed. The conditional sample space has \\(12\\) students in \\(R\\), and \\(5\\) of these are also in \\(S\\). Thus \\[P(S|R)=\\frac{P(S\\cap R)}{P(R)}=\\frac{5}{12}=0.4167.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-04",
+      "prompt": "A website has \\(100\\) users in a trial. \\(35\\) users subscribe, and \\(21\\) users both use the app and subscribe. Given that a user subscribes, find the probability that the user uses the app.",
+      "answer": "Let \\(A\\) be app use and \\(S\\) be subscription. Among the \\(35\\) subscribers, \\(21\\) use the app. Therefore \\[P(A|S)=\\frac{P(A\\cap S)}{P(S)}=\\frac{21}{35}=\\frac{3}{5}=0.6.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-05",
+      "prompt": "A bag contains \\(9\\) large marbles and \\(15\\) small marbles. Of the large marbles, \\(3\\) are red. If a marble is known to be large, find the probability that it is red.",
+      "answer": "Let \\(R\\) be red and \\(L\\) be large. The condition \\(L\\) leaves \\(9\\) possible large marbles. Of these, \\(3\\) are red, so \\[P(R|L)=\\frac{P(R\\cap L)}{P(L)}=\\frac{3}{9}=\\frac{1}{3}.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-06",
+      "prompt": "In a commuter survey of \\(60\\) people, \\(28\\) arrived late and \\(16\\) both arrived by train and arrived late. Given that a commuter arrived late, find the probability that the commuter arrived by train.",
+      "answer": "Let \\(T\\) be arrival by train and \\(L\\) be late arrival. Conditioning on \\(L\\) leaves \\(28\\) late commuters. Of these, \\(16\\) arrived by train, so \\[P(T|L)=\\frac{P(T\\cap L)}{P(L)}=\\frac{16}{28}=\\frac{4}{7}=0.5714.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-07",
+      "prompt": "Two fair dice are rolled. Given that the sum is \\(7\\), find the probability that at least one die shows \\(6\\).",
+      "answer": "Let \\(A\\) be the event that at least one die shows \\(6\\), and let \\(B\\) be the event that the sum is \\(7\\). The six outcomes in \\(B\\) are \\((1,6),(2,5),(3,4),(4,3),(5,2),(6,1)\\). Two of these are also in \\(A\\), so \\[P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{2}{6}=\\frac{1}{3}.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-08",
+      "prompt": "A college records \\(80\\) students. \\(30\\) are left-handed, and \\(12\\) are both female and left-handed. Given that a student is left-handed, find the probability that the student is female.",
+      "answer": "Let \\(F\\) be female and \\(L\\) be left-handed. The condition \\(L\\) gives \\(30\\) students, and \\(12\\) of them are in \\(F\\cap L\\). Therefore \\[P(F|L)=\\frac{P(F\\cap L)}{P(L)}=\\frac{12}{30}=0.4.\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-09",
+      "prompt": "A shop has \\(45\\) orders. \\(20\\) were paid by card, and \\(8\\) were both online orders and paid by card. Given that an order was paid by card, find the probability that it was placed online.",
+      "answer": "Let \\(O\\) be an online order and \\(C\\) be card payment. Conditioning on \\(C\\) leaves \\(20\\) card-paid orders. The intersection \\(O\\cap C\\) has \\(8\\) orders, so \\[P(O|C)=\\frac{P(O\\cap C)}{P(C)}=\\frac{8}{20}=0.4.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-10",
+      "prompt": "A box contains \\(4\\) red balls and \\(6\\) blue balls. Two balls are drawn without replacement. Given that the first ball is red, find the probability that the second ball is blue.",
+      "answer": "Let \\(R_1\\) be red on the first draw and \\(B_2\\) be blue on the second draw. After a red ball is removed, \\(9\\) balls remain, of which \\(6\\) are blue. Thus \\[P(B_2|R_1)=\\frac{6}{9}=\\frac{2}{3}.\\]",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-11",
+      "prompt": "A detector log has \\(90\\) time windows. Sensor B triggered in \\(44\\) windows, and both sensors A and B triggered in \\(18\\) windows. Given that sensor B triggered, find the probability that sensor A also triggered.",
+      "answer": "Let \\(A\\) and \\(B\\) denote triggers from sensors A and B. The condition \\(B\\) restricts attention to \\(44\\) windows, and \\(18\\) of those also have \\(A\\). Hence \\[P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{18}{44}=\\frac{9}{22}=0.4091.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-12",
+      "prompt": "A factory inspects \\(28\\) components. \\(10\\) came from line 2, and \\(6\\) were both from line 2 and defective. Given that a component came from line 2, find the probability that it was defective.",
+      "answer": "Let \\(D\\) be defective and \\(L\\) be from line 2. There are \\(10\\) line-2 components, and \\(6\\) of them are defective. Therefore \\[P(D|L)=\\frac{P(D\\cap L)}{P(L)}=\\frac{6}{10}=0.6.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-13",
+      "prompt": "In a diagnostic trial, \\(120\\) patients are tested. \\(50\\) test positive, and \\(30\\) both have the condition and test positive. Given that a patient tested positive, find the probability that the patient has the condition.",
+      "answer": "Let \\(C\\) be having the condition and \\(T\\) be testing positive. Conditional probability gives \\[P(C|T)=\\frac{P(C\\cap T)}{P(T)}=\\frac{30/120}{50/120}=\\frac{30}{50}=0.6.\\] The total \\(120\\) cancels because the condition fixes the denominator group.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-14",
+      "prompt": "A binary string of length \\(5\\) is chosen uniformly from the \\(32\\) possible strings. Given that the string ends in \\(1\\), find the probability that it also starts in \\(1\\).",
+      "answer": "Let \\(S\\) be starts in \\(1\\) and \\(E\\) be ends in \\(1\\). There are \\(16\\) strings in \\(E\\), since the first four positions are free. Of these, \\(8\\) also start in \\(1\\), since the middle three positions are free. Thus \\[P(S|E)=\\frac{8}{16}=\\frac{1}{2}.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-15",
+      "prompt": "A sensor system records \\(64\\) readings. The alarm sounded on \\(22\\) readings, and \\(9\\) readings had both a high value and an alarm. Given that the alarm sounded, find the probability that the reading was high.",
+      "answer": "Let \\(H\\) be a high reading and \\(A\\) be an alarm. The conditional group has \\(22\\) alarm readings. Since \\(9\\) of these are high, \\[P(H|A)=\\frac{P(H\\cap A)}{P(A)}=\\frac{9}{22}=0.4091.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-16",
+      "prompt": "A continuous random variable \\(X\\) is uniformly distributed on \\([0,10]\\). Given that \\(X>4\\), find \\(P(X>7\\mid X>4)\\).",
+      "answer": "Let \\(A=\\{X>7\\}\\) and \\(B=\\{X>4\\}\\). Since \\(A\\subset B\\), \\(A\\cap B=A\\). For a uniform distribution, probabilities are interval lengths, so \\[P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{P(X>7)}{P(X>4)}=\\frac{3/10}{6/10}=\\frac{1}{2}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-17",
+      "prompt": "A machine is monitored for \\(48\\) hours. It is idle for \\(18\\) hours, and \\(6\\) of the idle hours occur during the morning shift. Given that the machine is idle, find the probability that the hour is in the morning shift.",
+      "answer": "Let \\(M\\) be morning shift and \\(I\\) be idle. Conditioning on idle hours leaves \\(18\\) hours. Of these, \\(6\\) are morning-shift hours, so \\[P(M|I)=\\frac{P(M\\cap I)}{P(I)}=\\frac{6}{18}=\\frac{1}{3}.\\]",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-18",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A)=0.3\\), \\(P(B)=0.5\\), and \\(P(A\\cap B)=0.15\\). Use conditional probability to decide whether \\(A\\) and \\(B\\) are independent.",
+      "answer": "Compute the conditional probability: \\[P(A|B)=\\frac{P(A\\cap B)}{P(B)}=\\frac{0.15}{0.5}=0.3.\\] Since \\(P(A|B)=P(A)=0.3\\), knowing that \\(B\\) occurred does not change the probability of \\(A\\). Therefore \\(A\\) and \\(B\\) are independent.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-19",
+      "prompt": "A bag contains \\(10\\) striped marbles, \\(15\\) plain marbles, and \\(4\\) marbles that are both green and striped. Given that a marble is striped, find the probability that it is green.",
+      "answer": "Let \\(G\\) be green and \\(S\\) be striped. The condition \\(S\\) gives \\(10\\) striped marbles. Among these, \\(4\\) are green, so \\[P(G|S)=\\frac{P(G\\cap S)}{P(S)}=\\frac{4}{10}=0.4.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-conditional-probability-20",
+      "prompt": "In an online course, \\(96\\) students are tracked. \\(40\\) attempted the quiz, and \\(25\\) both downloaded the notes and attempted the quiz. Given that a student attempted the quiz, find the probability that the student downloaded the notes.",
+      "answer": "Let \\(N\\) be downloading the notes and \\(Q\\) be attempting the quiz. The conditional sample space has \\(40\\) students in \\(Q\\), and \\(25\\) of these are in \\(N\\cap Q\\). Thus \\[P(N|Q)=\\frac{P(N\\cap Q)}{P(Q)}=\\frac{25}{40}=\\frac{5}{8}=0.625.\\]",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

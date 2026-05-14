@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "probability-axioms",
+  "topicTitle": "Probability Axioms",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-probability-axioms-01",
+      "prompt": "An event \\(A\\) has \\(P(A)=0.32\\). Find \\(P(A^c)\\).",
+      "answer": "The complement rule gives \\[P(A^c)=1-P(A)=1-0.32=0.68.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-02",
+      "prompt": "Events \\(A\\) and \\(B\\) are disjoint with \\(P(A)=0.25\\) and \\(P(B)=0.4\\). Find \\(P(A\\cup B)\\).",
+      "answer": "For disjoint events, probabilities add directly: \\[P(A\\cup B)=P(A)+P(B)=0.25+0.4=0.65.\\]",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-03",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A)=0.5\\), \\(P(B)=0.35\\), and \\(P(A\\cap B)=0.1\\). Find \\(P(A\\cup B)\\).",
+      "answer": "Use inclusion-exclusion: \\[P(A\\cup B)=0.5+0.35-0.1=0.75.\\]",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-04",
+      "prompt": "Check whether \\(P(A)=1.1\\) can be a valid probability.",
+      "answer": "No. The probability axioms require \\(0\\le P(A)\\le1\\) for every event. Since \\(1.1>1\\), it is invalid.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-05",
+      "prompt": "A sample space is split into three disjoint events with probabilities \\(0.2\\), \\(0.5\\), and \\(x\\). Find \\(x\\).",
+      "answer": "The probabilities of disjoint exhaustive events sum to \\(1\\). Thus \\(0.2+0.5+x=1\\), so \\(x=0.3\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-06",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A\\cup B)=0.7\\), \\(P(A)=0.45\\), and \\(P(B)=0.4\\). Find \\(P(A\\cap B)\\).",
+      "answer": "Rearrange inclusion-exclusion: \\[P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0.45+0.4-0.7=0.15.\\]",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-07",
+      "prompt": "A survey has \\(P(A)=0.6\\) and \\(P(A\\cap B)=0.7\\). Explain why this is impossible.",
+      "answer": "The intersection \\(A\\cap B\\) is a subset of \\(A\\), so \\(P(A\\cap B)\\le P(A)\\). The values would require \\(0.7\\le0.6\\), which is impossible.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-08",
+      "prompt": "If \\(P(A^c)=0.18\\) and \\(P(B)=0.5\\), with \\(A\\) and \\(B\\) disjoint, can these probabilities be valid?",
+      "answer": "Since \\(P(A)=1-0.18=0.82\\), disjointness would require \\(P(A\\cup B)=0.82+0.5=1.32\\). This exceeds \\(1\\), so the values cannot all be valid.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-09",
+      "prompt": "Events \\(A\\), \\(B\\), and \\(C\\) are disjoint with probabilities \\(0.2\\), \\(0.15\\), and \\(0.25\\). Find the probability that none of them occurs.",
+      "answer": "The probability that at least one occurs is \\(0.2+0.15+0.25=0.6\\). Therefore the probability that none occurs is \\(1-0.6=0.4\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-10",
+      "prompt": "Given \\(P(A)=0.7\\), \\(P(B)=0.6\\), find the smallest possible value of \\(P(A\\cap B)\\).",
+      "answer": "Since \\(P(A\\cup B)\\le1\\), inclusion-exclusion gives \\(0.7+0.6-P(A\\cap B)\\le1\\). Hence \\(P(A\\cap B)\\ge0.3\\), so the smallest possible value is \\(0.3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-11",
+      "prompt": "Given \\(P(A)=0.4\\), \\(P(B)=0.55\\), and \\(P(A\\cup B)=0.8\\), find \\(P(A^c\\cap B)\\).",
+      "answer": "First \\(P(A\\cap B)=0.4+0.55-0.8=0.15\\). The part of \\(B\\) outside \\(A\\) is \\(P(A^c\\cap B)=P(B)-P(A\\cap B)=0.55-0.15=0.4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-12",
+      "prompt": "A and B are events with \\(P(A)=0.3\\), \\(P(B)=0.25\\), and \\(P(A\\cap B)=0\\). Find \\(P(A^c\\cap B^c)\\).",
+      "answer": "Since \\(A\\cap B=\\varnothing\\), \\(P(A\\cup B)=0.3+0.25=0.55\\). The complement is \\(A^c\\cap B^c\\), so \\[P(A^c\\cap B^c)=1-0.55=0.45.\\]",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-13",
+      "prompt": "A probability model assigns \\(P(1)=0.1\\), \\(P(2)=0.2\\), \\(P(3)=0.25\\), and \\(P(4)=0.5\\) to four outcomes. Is it valid?",
+      "answer": "The probabilities must sum to \\(1\\). Here \\(0.1+0.2+0.25+0.5=1.05\\), so the model is not valid.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-14",
+      "prompt": "For events \\(A\\) and \\(B\\), \\(P(A\\setminus B)=0.2\\), \\(P(A\\cap B)=0.15\\), and \\(P(B\\setminus A)=0.25\\). Find \\(P(A\\cup B)\\).",
+      "answer": "The three listed regions are disjoint and together form \\(A\\cup B\\). Therefore \\[P(A\\cup B)=0.2+0.15+0.25=0.6.\\]",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-15",
+      "prompt": "If \\(A\\subseteq B\\), \\(P(A)=0.35\\), and \\(P(B)=0.8\\), find \\(P(B\\cap A^c)\\).",
+      "answer": "Since \\(A\\subseteq B\\), the part of \\(B\\) outside \\(A\\) has probability \\(P(B)-P(A)=0.8-0.35=0.45\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-16",
+      "prompt": "Events \\(A\\) and \\(B\\) have \\(P(A)=0.62\\), \\(P(B)=0.48\\), and \\(P(A\\cap B)=0.20\\). Find \\(P(A^c\\cap B^c)\\).",
+      "answer": "First \\(P(A\\cup B)=0.62+0.48-0.20=0.90\\). The complement of \\(A\\cup B\\) is \\(A^c\\cap B^c\\), so the probability is \\(1-0.90=0.10\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-17",
+      "prompt": "A Venn diagram has regions \\(A\\) only \\(0.18\\), \\(B\\) only \\(0.22\\), both \\(0.31\\), and neither \\(x\\). Find \\(x\\).",
+      "answer": "All four disjoint regions must sum to \\(1\\). Thus \\(x=1-(0.18+0.22+0.31)=0.29\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-18",
+      "prompt": "Can two events with \\(P(A)=0.8\\) and \\(P(B)=0.75\\) be disjoint? Explain.",
+      "answer": "If they were disjoint, \\(P(A\\cup B)=0.8+0.75=1.55\\), which violates \\(P(A\\cup B)\\le1\\). Therefore they cannot be disjoint.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-19",
+      "prompt": "Events \\(A\\), \\(B\\), and \\(C\\) are pairwise disjoint and exhaustive. Given \\(P(A)=2P(B)\\) and \\(P(C)=0.25\\), find \\(P(A)\\) and \\(P(B)\\).",
+      "answer": "Since the events are exhaustive, \\(P(A)+P(B)+P(C)=1\\). Let \\(P(B)=x\\), so \\(P(A)=2x\\). Then \\(2x+x+0.25=1\\), giving \\(3x=0.75\\) and \\(x=0.25\\). Thus \\(P(B)=0.25\\) and \\(P(A)=0.50\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-probability-axioms-20",
+      "prompt": "A proposed model has \\(P(A)=0.55\\), \\(P(B)=0.65\\), and \\(P(A^c\\cap B^c)=0.05\\). Find \\(P(A\\cap B)\\) and decide if the model is valid.",
+      "answer": "Since \\(P(A\\cup B)=1-P(A^c\\cap B^c)=0.95\\), inclusion-exclusion gives \\(P(A\\cap B)=0.55+0.65-0.95=0.25\\). This is non-negative and no larger than either \\(P(A)\\) or \\(P(B)\\), so these values pass the basic axiom checks.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

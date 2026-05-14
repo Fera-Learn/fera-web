@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "inexact-differentials",
+  "topicTitle": "Inexact Differentials",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-01",
+      "prompt": "What is the main purpose of Inexact Differentials?",
+      "answer": "An inexact differential is a differential expression that does not come from a single potential function on the region being used. Its accumulated value can depend on the path, as heat and work often do in thermodynamics.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-02",
+      "prompt": "What does \\(\\delta Q\\) mean in Inexact Differentials?",
+      "answer": "In Inexact Differentials, \\(\\delta Q\\) means small transfer of heat, written with delta to mark path dependence. Its unit is J.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-03",
+      "prompt": "Identify another important piece of notation used in Inexact Differentials.",
+      "answer": "In Inexact Differentials, \\(\\delta W\\) means small transfer of work, often path dependent. Its unit is J.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-04",
+      "prompt": "Before doing a inexact differentials calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For M dx+N dy, failure of the exactness condition means no potential F has F_x=M and F_y=N on that region. The symbol delta is often used for path-dependent transfers, while d is reserved for exact state-function differentials.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-05",
+      "prompt": "State a central formula or test for Inexact Differentials.",
+      "answer": "The inexact condition is\n\\[M_y\\ne N_x\\quad\\Longrightarrow\\quad M\\,dx+N\\,dy\\text{ is not exact}\\]\nUse it only after the symbols in the formula have been identified for the specific inexact differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-06",
+      "prompt": "How is the formula or method in Inexact Differentials interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The inexact condition is\n\\[M_y\\ne N_x\\quad\\Longrightarrow\\quad M\\,dx+N\\,dy\\text{ is not exact}\\]\nUse it only after the symbols in the formula have been identified for the specific inexact differentials problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-07",
+      "prompt": "Decide whether y dx+2x dy is exact.",
+      "answer": "Here M=y and N=2x. Compute M_y=1 and N_x=2. Since M_y and N_x are not equal, the expression is inexact on a smooth simply connected region.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-08",
+      "prompt": "For omega=y dx+2x dy, compare paths from (0,0) to (1,1): path A goes along x then y, path B goes along y then x.",
+      "answer": "Path A: along y=0, omega=0; then x=1 and dx=0, so omega=2 dy and the integral is 2. Path B: along x=0, omega=0; then y=1 and dy=0, so omega=dx and the integral is 1. Different values show path dependence.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-09",
+      "prompt": "What method choice is usually needed in a standard inexact differentials question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For M dx+N dy, failure of the exactness condition means no potential F has F_x=M and F_y=N on that region. The symbol delta is often used for path-dependent transfers, while d is reserved for exact state-function differentials.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-10",
+      "prompt": "Use the notation of Inexact Differentials to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\delta Q\\), meaning small transfer of heat, written with delta to mark path dependence; \\(\\delta W\\), meaning small transfer of work, often path dependent; \\(M dx+N dy\\), meaning general differential expression in two variables.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-11",
+      "prompt": "Why write delta Q instead of dQ in thermodynamics?",
+      "answer": "Heat transferred is not generally a state function. The heat added during a process can depend on the route between states, so delta Q marks an inexact differential.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-12",
+      "prompt": "What physical or modelling interpretation can Inexact Differentials have?",
+      "answer": "In a physics model, the idea of inexact differentials helps translate a mathematical expression into a statement about the system. An inexact differential is a differential expression that does not come from a single potential function on the region being used. Its accumulated value can depend on the path, as heat and work often do in thermodynamics.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-13",
+      "prompt": "Correct this mistake in Inexact Differentials: assuming every small quantity is a total differential.",
+      "answer": "test whether a potential function exists.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-14",
+      "prompt": "Why is it important to check assumptions when using Inexact Differentials?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Inexact differentials fail to come from a single potential on the region. Their integrals can depend on the path, so process information matters.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-15",
+      "prompt": "Correct this second mistake in Inexact Differentials: reading delta Q as a tiny change in a heat state function.",
+      "answer": "heat is a transfer, not generally a stored state variable.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Inexact Differentials?",
+      "answer": "Track the units in the notation: \\(\\delta Q\\) has unit J; \\(\\delta W\\) has unit J.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-17",
+      "prompt": "Correct this third mistake in Inexact Differentials: using endpoint subtraction for an inexact differential.",
+      "answer": "integrate along the specified path.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-18",
+      "prompt": "Design an exam solution plan for a multi-step inexact differentials problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For M dx+N dy, failure of the exactness condition means no potential F has F_x=M and F_y=N on that region. The symbol delta is often used for path-dependent transfers, while d is reserved for exact state-function differentials. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-19",
+      "prompt": "How could an incorrect setup affect a inexact differentials result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, assuming every small quantity is a total differential must be avoided: test whether a potential function exists.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-inexact-differentials-20",
+      "prompt": "Give an exam-ready summary rule for Inexact Differentials.",
+      "answer": "Inexact differentials fail to come from a single potential on the region. Their integrals can depend on the path, so process information matters. If a formula is needed, use \\[M_y\\ne N_x\\quad\\Longrightarrow\\quad M\\,dx+N\\,dy\\text{ is not exact}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vectors",
+  "topicId": "scalar-triple-product",
+  "topicTitle": "Scalar Triple Product",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vectors-scalar-triple-product-01",
+      "prompt": "Compute \\((1,0,0)\\cdot((0,1,0)\\times(0,0,1))\\).",
+      "answer": "The cross product is \\((1,0,0)\\). Dotting with \\((1,0,0)\\) gives \\(1\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-02",
+      "prompt": "Find the volume of the parallelepiped with edges \\((2,0,0),(0,3,0),(0,0,4)\\).",
+      "answer": "The scalar triple product is \\(2\\cdot3\\cdot4=24\\), so the volume is \\(24\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-03",
+      "prompt": "Compute \\([\\mathbf a,\\mathbf b,\\mathbf c]\\) for \\(\\mathbf a=(1,2,3)\\), \\(\\mathbf b=(0,1,0)\\), \\(\\mathbf c=(2,0,1)\\).",
+      "answer": "First \\(\\mathbf b\\times\\mathbf c=(1,0,-2)\\). Dot with \\(\\mathbf a\\): \\(1+0-6=-5\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-04",
+      "prompt": "Find the volume determined by \\((1,1,0),(1,0,1),(0,1,1)\\).",
+      "answer": "The triple product is \\((1,1,0)\\cdot((-1,-1,1))=-2\\). Volume is its absolute value, \\(2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-05",
+      "prompt": "Use a scalar triple product to test whether \\((1,0,0),(0,1,0),(1,1,0)\\) are coplanar.",
+      "answer": "All vectors lie in \\(z=0\\). Also \\((0,1,0)\\times(1,1,0)=(0,0,-1)\\), dot with \\((1,0,0)\\) gives \\(0\\), so they are coplanar.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-06",
+      "prompt": "Compute \\((2,1,0)\\cdot((1,0,3)\\times(0,2,1))\\).",
+      "answer": "The cross product is \\((-6,-1,2)\\). Dotting gives \\(2(-6)+1(-1)+0(2)=-13\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-07",
+      "prompt": "Find the oriented volume sign for \\(\\mathbf i,\\mathbf j,\\mathbf k\\).",
+      "answer": "\\(\\mathbf j\\times\\mathbf k=\\mathbf i\\), and \\(\\mathbf i\\cdot\\mathbf i=1\\). The orientation is positive.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-08",
+      "prompt": "Find \\(k\\) if \\((1,2,3),(2,1,0),(1,0,k)\\) are coplanar.",
+      "answer": "Compute \\((2,1,0)\\times(1,0,k)=(k,-2k,-1)\\). Dot with \\((1,2,3)\\) gives \\(k-4k-3=-3k-3\\). Set to zero: \\(k=-1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-09",
+      "prompt": "Find the volume of the tetrahedron with edge vectors \\((1,0,0),(0,2,0),(0,0,3)\\) from one vertex.",
+      "answer": "The parallelepiped volume is \\(1\\cdot2\\cdot3=6\\). A tetrahedron has one sixth of this volume, so its volume is \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-10",
+      "prompt": "Compute the determinant form of the scalar triple product for rows \\((1,2,0),(3,1,1),(0,2,4)\\).",
+      "answer": "Expand: \\(1(1\\cdot4-1\\cdot2)-2(3\\cdot4-1\\cdot0)+0=2-24=-22\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-11",
+      "prompt": "Show that swapping two vectors changes the sign for \\((\\mathbf i,\\mathbf j,\\mathbf k)\\).",
+      "answer": "The product \\(\\mathbf i\\cdot(\\mathbf j\\times\\mathbf k)=1\\). Swapping the first two gives \\(\\mathbf j\\cdot(\\mathbf i\\times\\mathbf k)=\\mathbf j\\cdot(-\\mathbf j)=-1\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-12",
+      "prompt": "Find the volume spanned by \\((2,0,1),(1,3,0),(0,1,4)\\).",
+      "answer": "Compute \\((1,3,0)\\times(0,1,4)=(12,-4,1)\\). Dot with \\((2,0,1)\\) gives \\(25\\), so the volume is \\(25\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-13",
+      "prompt": "Test whether \\((1,2,3),(2,4,6),(0,1,1)\\) are linearly independent.",
+      "answer": "Because \\((2,4,6)=2(1,2,3)\\), the triple product is zero. The vectors are linearly dependent.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-14",
+      "prompt": "Find the scalar triple product \\(\\mathbf a\\cdot(\\mathbf b\\times\\mathbf c)\\) for \\(\\mathbf a=(0,2,1)\\), \\(\\mathbf b=(1,-1,0)\\), \\(\\mathbf c=(3,0,2)\\).",
+      "answer": "\\(\\mathbf b\\times\\mathbf c=(-2,-2,3)\\). Dot with \\(\\mathbf a\\) gives \\(0-4+3=-1\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-15",
+      "prompt": "Find the area-times-height interpretation for triple product value \\(-18\\).",
+      "answer": "The sign gives orientation. The volume is the absolute value, so the parallelepiped volume is \\(18\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-16",
+      "prompt": "For \\(\\mathbf a=(1,1,1)\\), \\(\\mathbf b=(1,0,2)\\), \\(\\mathbf c=(0,1,t)\\), find \\(t\\) for volume \\(3\\).",
+      "answer": "\\(\\mathbf b\\times\\mathbf c=(-2,t,-1)\\). Dot with \\(\\mathbf a\\) gives \\(t-3\\). Volume is \\(|t-3|=3\\), so \\(t=0\\) or \\(t=6\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-17",
+      "prompt": "Find the oriented volume of the parallelepiped with edges \\((1,2,3),(4,5,6),(7,8,9)\\), and explain what the result says about the three edges.",
+      "answer": "Use the determinant \\(\\begin{vmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{vmatrix}\\). Expanding gives \\(1(45-48)-2(36-42)+3(32-35)=-3+12-9=0\\). Equivalently, \\((7,8,9)-2(4,5,6)+(1,2,3)=(0,0,0)\\), so the third edge is linearly dependent on the first two. The oriented volume is \\(0\\), meaning the edges are coplanar.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-18",
+      "prompt": "A box has edge vectors \\((2,0,0),(1,3,0),(0,1,4)\\). Find its volume.",
+      "answer": "Use \\((2,0,0)\\cdot((1,3,0)\\times(0,1,4))\\). The cross product is \\((12,-4,1)\\), so the triple product is \\(24\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-19",
+      "prompt": "For \\(\\mathbf a=(a_1,a_2,a_3)\\) and \\(\\mathbf b=(b_1,b_2,b_3)\\), show by component calculation that \\(\\mathbf a\\cdot(\\mathbf b\\times\\mathbf a)=0\\).",
+      "answer": "First \\(\\mathbf b\\times\\mathbf a=(b_2a_3-b_3a_2,b_3a_1-b_1a_3,b_1a_2-b_2a_1)\\). Dot with \\(\\mathbf a\\): \\(a_1(b_2a_3-b_3a_2)+a_2(b_3a_1-b_1a_3)+a_3(b_1a_2-b_2a_1)\\). Expanding gives \\(a_1b_2a_3-a_1b_3a_2+a_2b_3a_1-a_2b_1a_3+a_3b_1a_2-a_3b_2a_1\\). The terms cancel in pairs, so the result is \\(0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-scalar-triple-product-20",
+      "prompt": "Find \\(x\\) if the parallelepiped volume from \\((x,0,0),(0,2,0),(0,0,5)\\) is \\(30\\).",
+      "answer": "The volume is \\(|x\\cdot2\\cdot5|=10|x|\\). Set \\(10|x|=30\\), so \\(x=3\\) or \\(x=-3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

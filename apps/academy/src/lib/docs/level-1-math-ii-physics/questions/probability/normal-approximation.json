@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "probability",
+  "topicId": "normal-approximation",
+  "topicTitle": "Normal Approximation",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-probability-normal-approximation-01",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(100,0.5)\\) to estimate \\(P(X\\le60)\\).",
+      "answer": "The mean is \\(np=50\\), and the standard deviation is \\(\\sqrt{np(1-p)}=5\\). The continuity-corrected boundary is \\(60.5\\), so \\(z=(60.5-50)/5=2.1\\). Therefore \\(P(X\\le60)\\approx \\Phi(2.1)=0.9821\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-02",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(200,0.3)\\) to estimate \\(P(X\\ge70)\\).",
+      "answer": "The mean is \\(np=60\\), and the standard deviation is \\(\\sqrt{np(1-p)}=6.481\\). The continuity-corrected boundary is \\(69.5\\), so \\(z=(69.5-60)/6.481=1.47\\). Therefore \\(P(X\\ge70)\\approx 1-\\Phi(1.47)=0.0713\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-03",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(80,0.25)\\) to estimate \\(P(X\\le15)\\).",
+      "answer": "The mean is \\(np=20\\), and the standard deviation is \\(\\sqrt{np(1-p)}=3.873\\). The continuity-corrected boundary is \\(15.5\\), so \\(z=(15.5-20)/3.873=-1.16\\). Therefore \\(P(X\\le15)\\approx \\Phi(-1.16)=0.1226\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-04",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(400,0.1)\\) to estimate \\(P(X\\ge50)\\).",
+      "answer": "The mean is \\(np=40\\), and the standard deviation is \\(\\sqrt{np(1-p)}=6\\). The continuity-corrected boundary is \\(49.5\\), so \\(z=(49.5-40)/6=1.58\\). Therefore \\(P(X\\ge50)\\approx 1-\\Phi(1.58)=0.0567\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-05",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(150,0.4)\\) to estimate \\(P(X\\le55)\\).",
+      "answer": "The mean is \\(np=60\\), and the standard deviation is \\(\\sqrt{np(1-p)}=6\\). The continuity-corrected boundary is \\(55.5\\), so \\(z=(55.5-60)/6=-0.75\\). Therefore \\(P(X\\le55)\\approx \\Phi(-0.75)=0.2266\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-06",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(300,0.2)\\) to estimate \\(P(X\\ge75)\\).",
+      "answer": "The mean is \\(np=60\\), and the standard deviation is \\(\\sqrt{np(1-p)}=6.928\\). The continuity-corrected boundary is \\(74.5\\), so \\(z=(74.5-60)/6.928=2.09\\). Therefore \\(P(X\\ge75)\\approx 1-\\Phi(2.09)=0.0182\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-07",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(120,0.6)\\) to estimate \\(P(X\\ge80)\\).",
+      "answer": "The mean is \\(np=72\\), and the standard deviation is \\(\\sqrt{np(1-p)}=5.367\\). The continuity-corrected boundary is \\(79.5\\), so \\(z=(79.5-72)/5.367=1.4\\). Therefore \\(P(X\\ge80)\\approx 1-\\Phi(1.4)=0.0811\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-08",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(250,0.5)\\) to estimate \\(P(X\\le130)\\).",
+      "answer": "The mean is \\(np=125\\), and the standard deviation is \\(\\sqrt{np(1-p)}=7.906\\). The continuity-corrected boundary is \\(130.5\\), so \\(z=(130.5-125)/7.906=0.7\\). Therefore \\(P(X\\le130)\\approx \\Phi(0.7)=0.7567\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-09",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(500,0.05)\\) to estimate \\(P(X\\ge35)\\).",
+      "answer": "The mean is \\(np=25\\), and the standard deviation is \\(\\sqrt{np(1-p)}=4.873\\). The continuity-corrected boundary is \\(34.5\\), so \\(z=(34.5-25)/4.873=1.95\\). Therefore \\(P(X\\ge35)\\approx 1-\\Phi(1.95)=0.0256\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-10",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(90,0.7)\\) to estimate \\(P(X\\le60)\\).",
+      "answer": "The mean is \\(np=63\\), and the standard deviation is \\(\\sqrt{np(1-p)}=4.347\\). The continuity-corrected boundary is \\(60.5\\), so \\(z=(60.5-63)/4.347=-0.58\\). Therefore \\(P(X\\le60)\\approx \\Phi(-0.58)=0.2826\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-11",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(1000,0.02)\\) to estimate \\(P(X\\ge25)\\).",
+      "answer": "The mean is \\(np=20\\), and the standard deviation is \\(\\sqrt{np(1-p)}=4.427\\). The continuity-corrected boundary is \\(24.5\\), so \\(z=(24.5-20)/4.427=1.02\\). Therefore \\(P(X\\ge25)\\approx 1-\\Phi(1.02)=0.1547\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-12",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(60,0.5)\\) to estimate \\(P(X\\le24)\\).",
+      "answer": "The mean is \\(np=30\\), and the standard deviation is \\(\\sqrt{np(1-p)}=3.873\\). The continuity-corrected boundary is \\(24.5\\), so \\(z=(24.5-30)/3.873=-1.42\\). Therefore \\(P(X\\le24)\\approx \\Phi(-1.42)=0.0778\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-13",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(180,0.25)\\) to estimate \\(P(X\\ge50)\\).",
+      "answer": "The mean is \\(np=45\\), and the standard deviation is \\(\\sqrt{np(1-p)}=5.809\\). The continuity-corrected boundary is \\(49.5\\), so \\(z=(49.5-45)/5.809=0.77\\). Therefore \\(P(X\\ge50)\\approx 1-\\Phi(0.77)=0.2193\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-14",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(220,0.4)\\) to estimate \\(P(X\\ge95)\\).",
+      "answer": "The mean is \\(np=88\\), and the standard deviation is \\(\\sqrt{np(1-p)}=7.266\\). The continuity-corrected boundary is \\(94.5\\), so \\(z=(94.5-88)/7.266=0.89\\). Therefore \\(P(X\\ge95)\\approx 1-\\Phi(0.89)=0.1855\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-15",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(75,0.2)\\) to estimate \\(P(X\\le10)\\).",
+      "answer": "The mean is \\(np=15\\), and the standard deviation is \\(\\sqrt{np(1-p)}=3.464\\). The continuity-corrected boundary is \\(10.5\\), so \\(z=(10.5-15)/3.464=-1.3\\). Therefore \\(P(X\\le10)\\approx \\Phi(-1.3)=0.097\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-16",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(360,0.15)\\) to estimate \\(P(X\\ge65)\\).",
+      "answer": "The mean is \\(np=54\\), and the standard deviation is \\(\\sqrt{np(1-p)}=6.775\\). The continuity-corrected boundary is \\(64.5\\), so \\(z=(64.5-54)/6.775=1.55\\). Therefore \\(P(X\\ge65)\\approx 1-\\Phi(1.55)=0.0606\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-17",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(140,0.3)\\) to estimate \\(P(X\\le35)\\).",
+      "answer": "The mean is \\(np=42\\), and the standard deviation is \\(\\sqrt{np(1-p)}=5.422\\). The continuity-corrected boundary is \\(35.5\\), so \\(z=(35.5-42)/5.422=-1.2\\). Therefore \\(P(X\\le35)\\approx \\Phi(-1.2)=0.1153\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-18",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(640,0.5)\\) to estimate \\(P(X\\ge330)\\).",
+      "answer": "The mean is \\(np=320\\), and the standard deviation is \\(\\sqrt{np(1-p)}=12.649\\). The continuity-corrected boundary is \\(329.5\\), so \\(z=(329.5-320)/12.649=0.75\\). Therefore \\(P(X\\ge330)\\approx 1-\\Phi(0.75)=0.2263\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-19",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(500,0.8)\\) to estimate \\(P(X\\le380)\\).",
+      "answer": "The mean is \\(np=400\\), and the standard deviation is \\(\\sqrt{np(1-p)}=8.944\\). The continuity-corrected boundary is \\(380.5\\), so \\(z=(380.5-400)/8.944=-2.18\\). Therefore \\(P(X\\le380)\\approx \\Phi(-2.18)=0.0146\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-probability-normal-approximation-20",
+      "prompt": "Use a normal approximation with continuity correction for \\(X\\sim\\operatorname{Bin}(100,0.1)\\) to estimate \\(P(X\\ge15)\\).",
+      "answer": "The mean is \\(np=10\\), and the standard deviation is \\(\\sqrt{np(1-p)}=3\\). The continuity-corrected boundary is \\(14.5\\), so \\(z=(14.5-10)/3=1.5\\). Therefore \\(P(X\\ge15)\\approx 1-\\Phi(1.5)=0.0668\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

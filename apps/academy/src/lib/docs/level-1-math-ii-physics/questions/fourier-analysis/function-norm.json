@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "function-norm",
+  "topicTitle": "Function Norm",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-function-norm-01",
+      "prompt": "What is the main purpose of Function Norm?",
+      "answer": "A function norm measures the size of a function over an interval. In signal and wave problems it corresponds to total squared amplitude before taking the square root.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-02",
+      "prompt": "What does \\(f(x)\\) mean in Function Norm?",
+      "answer": "In Function Norm, \\(f(x)\\) means function on an interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-03",
+      "prompt": "Identify another important piece of notation used in Function Norm.",
+      "answer": "In Function Norm, \\(\\langle f,f\\rangle\\) means inner product of f with itself.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-04",
+      "prompt": "Before doing a function norm calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Square the function through the inner product, then take the square root.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-05",
+      "prompt": "State a central formula or test for Function Norm.",
+      "answer": "The function norm is\n\\[\\|f\\|=\\sqrt{\\langle f,f\\rangle}\\]\nUse it only after the symbols in the formula have been identified for the specific function norm problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-06",
+      "prompt": "How is the formula or method in Function Norm interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The real-function norm is\n\\[\\|f\\|=\\sqrt{\\int_a^b f(x)^2\\,dx}\\]\nUse it only after the symbols in the formula have been identified for the specific function norm problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-07",
+      "prompt": "Find the norm of sin x over negative pi to pi.",
+      "answer": "Compute the squared norm: \\[\\|\\sin x\\|^2=\\int_{-\\pi}^{\\pi}\\sin^2x\\,dx=\\pi\\] Take the square root: \\[\\|\\sin x\\|=\\sqrt{\\pi}\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-08",
+      "prompt": "Why does doubling a signal double its norm?",
+      "answer": "For a real signal f, \\[\\|2f\\|=\\sqrt{\\int_a^b(2f)^2\\,dx}=\\sqrt{4\\int_a^b f^2\\,dx}=2\\|f\\|\\] The squared energy-like quantity increases by a factor of four.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-09",
+      "prompt": "What method choice is usually needed in a standard function norm question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Square the function through the inner product, then take the square root.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-10",
+      "prompt": "Use the notation of Function Norm to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning function on an interval; \\(\\langle f,f\\rangle\\), meaning inner product of f with itself; \\(\\|f\\|\\), meaning norm of f.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-11",
+      "prompt": "Explain a common worked step in Function Norm.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Function Norm.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-12",
+      "prompt": "What physical or modelling interpretation can Function Norm have?",
+      "answer": "In a physics model, the idea of function norm helps translate a mathematical expression into a statement about the system. A function norm measures the size of a function over an interval. In signal and wave problems it corresponds to total squared amplitude before taking the square root.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-13",
+      "prompt": "Correct this mistake in Function Norm: Integrating f instead of f squared.",
+      "answer": "norm is based on the inner product of f with itself.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-14",
+      "prompt": "Why is it important to check assumptions when using Function Norm?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The function norm is the square root of total squared amplitude over an interval.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-15",
+      "prompt": "Correct this second mistake in Function Norm: Allowing a negative norm.",
+      "answer": "a norm is never negative because it is a square root of a squared quantity.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Function Norm?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The function norm is the square root of total squared amplitude over an interval.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-17",
+      "prompt": "Correct this third mistake in Function Norm: Allowing a negative norm.",
+      "answer": "a norm is never negative because it is a square root of a squared quantity.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-18",
+      "prompt": "Design an exam solution plan for a multi-step function norm problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Square the function through the inner product, then take the square root. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-19",
+      "prompt": "How could an incorrect setup affect a function norm result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Integrating f instead of f squared must be avoided: norm is based on the inner product of f with itself.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-function-norm-20",
+      "prompt": "Give an exam-ready summary rule for Function Norm.",
+      "answer": "The function norm is the square root of total squared amplitude over an interval. If a formula is needed, use \\[\\|f\\|=\\sqrt{\\langle f,f\\rangle}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -35,23 +35,26 @@ export default async function Home() {
       <SiteHeader />
       <MarketingShell>
         <Section className="pt-12 lg:pt-20">
-          <div className="grid items-center gap-12 lg:grid-cols-[0.86fr_1.14fr]">
+          <div className="grid items-center gap-12 lg:grid-cols-[0.82fr_1.18fr]">
             <div className="max-w-2xl">
               <Badge variant="secondary">Fera Academy</Badge>
               <h1 className="mt-6 text-4xl font-semibold tracking-[-0.055em] sm:text-6xl sm:tracking-[-0.065em] lg:text-7xl">
-                Technical study, connected from course to exam paper.
+                University physics and maths, structured from first principles to
+                exam practice.
               </h1>
               <p className="mt-6 text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-                Fera gives physics and maths students one serious workspace for
-                structured course study, targeted question practice, and full
-                exam preparation.
+                Fera connects course explanations, topic practice, and exam
+                papers so students can study technical subjects without jumping
+                between disconnected resources.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button asChild size="lg">
-                  <Link href={productLinks.root}>Start learning</Link>
+                  <Link href={productLinks.level1Physics}>
+                    Start Level 1 Physics
+                  </Link>
                 </Button>
                 <Button asChild size="lg" variant="outline">
-                  <Link href="/courses">Browse courses</Link>
+                  <Link href="/courses">Browse course structure</Link>
                 </Button>
               </div>
             </div>
@@ -66,11 +69,11 @@ export default async function Home() {
 
         <Section className="fera-section-rule">
           <SectionHeading
-            eyebrow="Study workflow"
-            title="One course context across the whole study loop."
+            eyebrow="Study method"
+            title="A course-led route from explanation to exam judgement."
           >
-            Learn the topic, practise the method, then test exam readiness
-            without moving between disconnected resources.
+            Technical subjects are easier to revise when the topic sequence,
+            practice questions, and papers all refer back to the same structure.
           </SectionHeading>
           <div className="mt-10">
             <WorkflowRows steps={studyWorkflow} />
@@ -79,11 +82,11 @@ export default async function Home() {
 
         <Section className="fera-section-rule">
           <SectionHeading
-            eyebrow="Courses"
-            title="Structured courses for university-level technical subjects."
+            eyebrow="Course coverage"
+            title="Curricula built around topic progression, not isolated resources."
           >
-            Start with a course path that keeps explanations, topics, questions,
-            and papers connected around the same subject context.
+            Each course keeps topic areas, practice questions, and exam
+            preparation tied to the same subject map.
           </SectionHeading>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
             {stats.courses.map((course) => (
@@ -94,12 +97,12 @@ export default async function Home() {
 
         <Section className="fera-section-rule">
           <SectionHeading
-            eyebrow="Product evidence"
-            title="Practice and papers are part of the same learning system."
+            eyebrow="Evidence"
+            title="Coverage students can use while they study."
           >
-            Question practice and exam preparation sit alongside the course
-            material, so students can move from explanation to evidence of
-            understanding.
+            Fera uses live learning-app counts and course-linked resources so
+            the public site reflects the material available inside the study
+            workspace.
           </SectionHeading>
           <div className="mt-10 grid gap-5 lg:grid-cols-2">
             <SampleQuestionCard preview={sampleQuestionPreview} />
@@ -111,11 +114,11 @@ export default async function Home() {
           <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
             <SectionHeading
               eyebrow="For students"
-              title="Use Fera when technical study needs structure."
+              title="Use Fera when technical study needs a route through the material."
             >
-              The platform is built for students who need more than generic
-              revision: clear course sequence, deliberate practice, and exam
-              preparation in one place.
+              The platform is designed for students who need structure before
+              revision: topic order, deliberate practice, and exam preparation
+              in one place.
             </SectionHeading>
 
             <div>
@@ -149,7 +152,10 @@ export default async function Home() {
           </div>
         </Section>
 
-        <ClosingCta href={productLinks.root} />
+        <ClosingCta
+          ctaLabel="Start Level 1 Physics"
+          href={productLinks.level1Physics}
+        />
       </MarketingShell>
       <SiteFooter />
     </>

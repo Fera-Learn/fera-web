@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "partial-differential-equations",
+  "topicId": "pde-introduction",
+  "topicTitle": "PDE Introduction",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-01",
+      "prompt": "What is the main purpose of PDE Introduction?",
+      "answer": "A partial differential equation relates partial derivatives of an unknown field with respect to two or more independent variables. PDEs model how fields such as temperature, displacement, and electric potential vary across space and time.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-02",
+      "prompt": "What does \\(u(x,t)\\) mean in PDE Introduction?",
+      "answer": "In PDE Introduction, \\(u(x,t)\\) means unknown field depending on position x and time t.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-03",
+      "prompt": "Identify another important piece of notation used in PDE Introduction.",
+      "answer": "In PDE Introduction, \\(u_x,u_t\\) means first partial derivatives of u.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-04",
+      "prompt": "Before doing a pde introduction calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: An equation is a PDE when it contains partial derivatives of an unknown function of several independent variables. Classify the variables, the unknown field, derivative order, and whether the equation is linear before attempting a solution.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-05",
+      "prompt": "State a central formula or test for PDE Introduction.",
+      "answer": "The general pde form is\n\\[F(x,t,u,u_x,u_t,u_{xx},u_{xt},u_{tt},\\ldots)=0\\]\nUse it only after the symbols in the formula have been identified for the specific pde introduction problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-06",
+      "prompt": "How is the formula or method in PDE Introduction interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The general pde form is\n\\[F(x,t,u,u_x,u_t,u_{xx},u_{xt},u_{tt},\\ldots)=0\\]\nUse it only after the symbols in the formula have been identified for the specific pde introduction problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-07",
+      "prompt": "Explain why u_t=k u_{xx} is a PDE and state its order.",
+      "answer": "The unknown field u depends on x and t. The equation contains partial derivatives u_t and u_{xx}, so it is a PDE. The highest derivative is second order because u_{xx} is second order.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-08",
+      "prompt": "Is dy/dt=-ky a PDE?",
+      "answer": "No. The unknown y depends on only one independent variable t, and the derivative is an ordinary derivative. This is an ODE, not a PDE.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-09",
+      "prompt": "What method choice is usually needed in a standard pde introduction question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: An equation is a PDE when it contains partial derivatives of an unknown function of several independent variables. Classify the variables, the unknown field, derivative order, and whether the equation is linear before attempting a solution.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-10",
+      "prompt": "Use the notation of PDE Introduction to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,t)\\), meaning unknown field depending on position x and time t; \\(u_x,u_t\\), meaning first partial derivatives of u; \\(u_{xx},u_{tt}\\), meaning second partial derivatives of u.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-11",
+      "prompt": "What field can u(x,t) represent in a string vibration model?",
+      "answer": "It can represent transverse displacement of the string at position x and time t. A PDE relates time curvature of displacement to spatial curvature along the string.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-12",
+      "prompt": "What physical or modelling interpretation can PDE Introduction have?",
+      "answer": "In a physics model, the idea of pde introduction helps translate a mathematical expression into a statement about the system. A partial differential equation relates partial derivatives of an unknown field with respect to two or more independent variables. PDEs model how fields such as temperature, displacement, and electric potential vary across space and time.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-13",
+      "prompt": "Correct this mistake in PDE Introduction: calling every equation with derivatives a PDE.",
+      "answer": "the unknown must depend on at least two independent variables and the derivatives must be partial derivatives.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-14",
+      "prompt": "Why is it important to check assumptions when using PDE Introduction?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. A PDE is an equation for a multivariable unknown field involving partial derivatives. Identify variables, field, order, and conditions before solving.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-15",
+      "prompt": "Correct this second mistake in PDE Introduction: ignoring derivative order.",
+      "answer": "identify the highest-order partial derivative present.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in PDE Introduction?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. A PDE is an equation for a multivariable unknown field involving partial derivatives. Identify variables, field, order, and conditions before solving.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-17",
+      "prompt": "Correct this third mistake in PDE Introduction: solving before naming conditions.",
+      "answer": "PDE models usually need boundary and initial data to determine a specific solution.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-18",
+      "prompt": "Design an exam solution plan for a multi-step pde introduction problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: An equation is a PDE when it contains partial derivatives of an unknown function of several independent variables. Classify the variables, the unknown field, derivative order, and whether the equation is linear before attempting a solution. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-19",
+      "prompt": "How could an incorrect setup affect a pde introduction result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, calling every equation with derivatives a PDE must be avoided: the unknown must depend on at least two independent variables and the derivatives must be partial derivatives.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-pde-introduction-20",
+      "prompt": "Give an exam-ready summary rule for PDE Introduction.",
+      "answer": "A PDE is an equation for a multivariable unknown field involving partial derivatives. Identify variables, field, order, and conditions before solving. If a formula is needed, use \\[F(x,t,u,u_x,u_t,u_{xx},u_{xt},u_{tt},\\ldots)=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "partial-differential-equations",
+  "topicId": "separation-of-variables",
+  "topicTitle": "Separation of Variables",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-01",
+      "prompt": "What is the main purpose of Separation of Variables?",
+      "answer": "Separation of variables looks for product solutions that split a PDE into ordinary differential equations. It works best for linear homogeneous PDEs with boundary conditions compatible with separated modes.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-02",
+      "prompt": "What does \\(u(x,t)\\) mean in Separation of Variables?",
+      "answer": "In Separation of Variables, \\(u(x,t)\\) means field to be solved for.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-03",
+      "prompt": "Identify another important piece of notation used in Separation of Variables.",
+      "answer": "In Separation of Variables, \\(X(x)\\) means spatial factor in a separated solution.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-04",
+      "prompt": "Before doing a separation of variables calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Assume a product form, substitute into the PDE, divide by the product, and set each one-variable side equal to a constant. For the heat equation, substitution gives X T'=kappa X'' T. Dividing by kappa X T gives T'/(kappa T)=X''/X. The left side depends only on t and the right side only on x, so both equal the same constant.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-05",
+      "prompt": "State a central formula or test for Separation of Variables.",
+      "answer": "The product ansatz is\n\\[u(x,t)=X(x)T(t)\\]\nUse it only after the symbols in the formula have been identified for the specific separation of variables problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-06",
+      "prompt": "How is the formula or method in Separation of Variables interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The product ansatz is\n\\[u(x,t)=X(x)T(t)\\]\nUse it only after the symbols in the formula have been identified for the specific separation of variables problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-07",
+      "prompt": "Separate u_t=kappa u_{xx} using u=X(x)T(t).",
+      "answer": "Compute u_t=X T' and u_{xx}=X'' T. Substitute: X T'=kappa X'' T. Divide by kappa X T, assuming nonzero factors, to get T'/(kappa T)=X''/X. Since one side depends only on t and the other only on x, set both equal to -lambda.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-08",
+      "prompt": "Separate u_{tt}=c^2u_{xx} using u=X(x)T(t).",
+      "answer": "Compute u_{tt}=X T'' and u_{xx}=X'' T. Substitute: X T''=c^2 X'' T. Divide by c^2 X T to get T''/(c^2 T)=X''/X. Set both sides equal to a separation constant, commonly -lambda.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-09",
+      "prompt": "What method choice is usually needed in a standard separation of variables question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Assume a product form, substitute into the PDE, divide by the product, and set each one-variable side equal to a constant. For the heat equation, substitution gives X T'=kappa X'' T. Dividing by kappa X T gives T'/(kappa T)=X''/X. The left side depends only on t and the right side only on x, so both equal the same constant.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-10",
+      "prompt": "Use the notation of Separation of Variables to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(u(x,t)\\), meaning field to be solved for; \\(X(x)\\), meaning spatial factor in a separated solution; \\(T(t)\\), meaning time factor in a separated solution.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-11",
+      "prompt": "Why do boundary conditions matter after separation?",
+      "answer": "The separated spatial ODE has many possible solutions, but boundary conditions allow only certain modes and separation constants. Those modes are then combined to fit the initial field.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-12",
+      "prompt": "What physical or modelling interpretation can Separation of Variables have?",
+      "answer": "In a physics model, the idea of separation of variables helps translate a mathematical expression into a statement about the system. Separation of variables looks for product solutions that split a PDE into ordinary differential equations. It works best for linear homogeneous PDEs with boundary conditions compatible with separated modes.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-13",
+      "prompt": "Correct this mistake in Separation of Variables: dividing by X or T without noting the nonzero separated mode assumption.",
+      "answer": "state that nontrivial separated solutions have nonzero factors on the region being divided.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-14",
+      "prompt": "Why is it important to check assumptions when using Separation of Variables?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Separation assumes u=XT, substitutes, divides into one-variable sides, and sets both sides equal to a constant to obtain ODEs.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-15",
+      "prompt": "Correct this second mistake in Separation of Variables: setting the two sides equal to different constants.",
+      "answer": "once separated, both sides must equal the same constant.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Separation of Variables?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Separation assumes u=XT, substitutes, divides into one-variable sides, and sets both sides equal to a constant to obtain ODEs.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-17",
+      "prompt": "Correct this third mistake in Separation of Variables: ignoring boundary conditions.",
+      "answer": "use them to choose allowed eigenvalues and modes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-18",
+      "prompt": "Design an exam solution plan for a multi-step separation of variables problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Assume a product form, substitute into the PDE, divide by the product, and set each one-variable side equal to a constant. For the heat equation, substitution gives X T'=kappa X'' T. Dividing by kappa X T gives T'/(kappa T)=X''/X. The left side depends only on t and the right side only on x, so both equal the same constant. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-19",
+      "prompt": "How could an incorrect setup affect a separation of variables result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, dividing by X or T without noting the nonzero separated mode assumption must be avoided: state that nontrivial separated solutions have nonzero factors on the region being divided.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-partial-differential-equations-separation-of-variables-20",
+      "prompt": "Give an exam-ready summary rule for Separation of Variables.",
+      "answer": "Separation assumes u=XT, substitutes, divides into one-variable sides, and sets both sides equal to a constant to obtain ODEs. If a formula is needed, use \\[u(x,t)=X(x)T(t)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

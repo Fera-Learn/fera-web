@@ -1,10 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import Link from "next/link";
 import { ArrowLeftIcon, PrinterIcon } from "lucide-react";
 
 import { Button } from "@repo/ui/button";
+
+import {
+  PrintZoomControls,
+  usePrintZoom,
+} from "@/components/academy/print-zoom-controls";
 
 import type {
   Level1PhysicsExamPaper,
@@ -771,6 +776,7 @@ export function ExamPaperPrintDocument({
   const ref = usePrintMathJax({ mode, paper });
   const isAnswers = mode === "answers";
   const [isPreparingPrint, setIsPreparingPrint] = useState(false);
+  const printZoom = usePrintZoom();
 
   useDocumentTitle(filename);
 
@@ -788,7 +794,7 @@ export function ExamPaperPrintDocument({
   };
 
   return (
-    <div className="exam-print-shell h-svh overflow-y-auto bg-neutral-200 text-neutral-950 print:h-auto print:overflow-visible print:bg-white">
+    <div className="exam-print-shell h-svh overflow-auto bg-neutral-200 text-neutral-950 print:h-auto print:overflow-visible print:bg-white">
       <style>{`
         .exam-print-shell {
           background: #e5e7eb !important;
@@ -806,7 +812,8 @@ export function ExamPaperPrintDocument({
         }
 
         .exam-print-toolbar a,
-        .exam-print-toolbar button {
+        .exam-print-toolbar button,
+        .exam-print-toolbar select {
           background: #ffffff !important;
           border-color: #d4d4d8 !important;
         }
@@ -1171,6 +1178,12 @@ export function ExamPaperPrintDocument({
         }
 
         @media screen {
+          .exam-print-document {
+            max-width: none !important;
+            width: 210mm !important;
+            zoom: var(--print-preview-zoom, 1);
+          }
+
           .exam-print-page {
             box-shadow:
               0 16px 35px rgba(15, 23, 42, 0.14),
@@ -1206,6 +1219,7 @@ export function ExamPaperPrintDocument({
             display: block;
             margin: 0 !important;
             max-width: none !important;
+            zoom: 1 !important;
             width: auto !important;
           }
 
@@ -1235,6 +1249,16 @@ export function ExamPaperPrintDocument({
           </Button>
           <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
             <span className="font-mono text-xs">{filename}</span>
+            <PrintZoomControls
+              canZoomIn={printZoom.canZoomIn}
+              canZoomOut={printZoom.canZoomOut}
+              onReset={printZoom.resetZoom}
+              onZoomChange={printZoom.setZoom}
+              onZoomIn={printZoom.zoomIn}
+              onZoomOut={printZoom.zoomOut}
+              zoom={printZoom.zoom}
+              zoomLevels={printZoom.zoomLevels}
+            />
             <Button
               disabled={isPreparingPrint}
               onClick={() => {
@@ -1250,7 +1274,15 @@ export function ExamPaperPrintDocument({
         </div>
       </div>
 
-      <div className="exam-print-document" ref={ref}>
+      <div
+        className="exam-print-document"
+        ref={ref}
+        style={
+          {
+            "--print-preview-zoom": printZoom.zoomScale,
+          } as CSSProperties
+        }
+      >
         <CoverPage
           courseLabel={courseLabel}
           isAnswers={isAnswers}

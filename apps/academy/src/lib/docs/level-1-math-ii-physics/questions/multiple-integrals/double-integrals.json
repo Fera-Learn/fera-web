@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "double-integrals",
+  "topicTitle": "Double Integrals",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-01",
+      "prompt": "What is the main purpose of Double Integrals?",
+      "answer": "A double integral accumulates a scalar field over a plane region. It adds contributions \\(f(x,y)dA\\) from many tiny area elements and is used for area, volume, mass, charge, and probability.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-02",
+      "prompt": "What does \\(\\iint_R f(x,y)\\,dA\\) mean in Double Integrals?",
+      "answer": "In Double Integrals, \\(\\iint_R f(x,y)\\,dA\\) means double integral of f over region R.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-03",
+      "prompt": "Identify another important piece of notation used in Double Integrals.",
+      "answer": "In Double Integrals, \\(R\\) means plane region.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-04",
+      "prompt": "Before doing a double integrals calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Choose bounds describing the region, then integrate from the inside out. The bounds must describe exactly the same region as \\(R\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-05",
+      "prompt": "State a central formula or test for Double Integrals.",
+      "answer": "The iterated double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_{y=c}^{d}\\int_{x=a(y)}^{b(y)} f(x,y)\\,dx\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific double integrals problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-06",
+      "prompt": "How is the formula or method in Double Integrals interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The iterated double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_{y=c}^{d}\\int_{x=a(y)}^{b(y)} f(x,y)\\,dx\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific double integrals problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-07",
+      "prompt": "Compute \\(\\iint_R x\\,dA\\) over \\(0\\le y\\le1\\), \\(0\\le x\\le y\\).",
+      "answer": "Write the iterated integral: \\[\\int_0^1\\int_0^y x\\,dx\\,dy\\] The inner integral is \\[\\int_0^y x\\,dx=\\frac{y^2}{2}\\] Then \\[\\int_0^1\\frac{y^2}{2}\\,dy=\\frac16\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-08",
+      "prompt": "A surface density is \\(\\rho=x+y\\). What integral gives mass over a region \\(R\\)?",
+      "answer": "Mass is density accumulated over area: \\[m=\\iint_R (x+y)\\,dA\\] Numerical bounds depend on the shape of \\(R\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-09",
+      "prompt": "What method choice is usually needed in a standard double integrals question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Choose bounds describing the region, then integrate from the inside out. The bounds must describe exactly the same region as \\(R\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-10",
+      "prompt": "Use the notation of Double Integrals to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\iint_R f(x,y)\\,dA\\), meaning double integral of f over region R; \\(R\\), meaning plane region; \\(dA\\), meaning small area element.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-11",
+      "prompt": "What double integral gives the area of \\(R\\)?",
+      "answer": "Use integrand \\(1\\): \\[A=\\iint_R1\\,dA\\] This counts each tiny area element once.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-12",
+      "prompt": "What physical or modelling interpretation can Double Integrals have?",
+      "answer": "In a physics model, the idea of double integrals helps translate a mathematical expression into a statement about the system. A double integral accumulates a scalar field over a plane region. It adds contributions \\(f(x,y)dA\\) from many tiny area elements and is used for area, volume, mass, charge, and probability.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-13",
+      "prompt": "Correct this mistake in Double Integrals: Writing bounds that describe a different region.",
+      "answer": "sketch or state the inequalities before integrating.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-14",
+      "prompt": "Why is it important to check assumptions when using Double Integrals?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Double integrals add scalar-field contributions over plane regions. The main work is choosing bounds that describe the region correctly.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-15",
+      "prompt": "Correct this second mistake in Double Integrals: Forgetting that the inner bounds may depend on the outer variable.",
+      "answer": "match the slice direction.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Double Integrals?",
+      "answer": "Track the units in the notation: \\(\\rho(x,y)\\) has unit kg m^{-2}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-17",
+      "prompt": "Correct this third mistake in Double Integrals: Treating \\(dA\\) as optional.",
+      "answer": "it carries the area unit and integration variables.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-18",
+      "prompt": "Design an exam solution plan for a multi-step double integrals problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Choose bounds describing the region, then integrate from the inside out. The bounds must describe exactly the same region as \\(R\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-19",
+      "prompt": "How could an incorrect setup affect a double integrals result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Writing bounds that describe a different region must be avoided: sketch or state the inequalities before integrating.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-double-integrals-20",
+      "prompt": "Give an exam-ready summary rule for Double Integrals.",
+      "answer": "Double integrals add scalar-field contributions over plane regions. The main work is choosing bounds that describe the region correctly. If a formula is needed, use \\[\\iint_R f(x,y)\\,dA=\\int_{y=c}^{d}\\int_{x=a(y)}^{b(y)} f(x,y)\\,dx\\,dy\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

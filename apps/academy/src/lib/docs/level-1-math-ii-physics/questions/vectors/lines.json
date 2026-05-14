@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "vectors",
+  "topicId": "lines",
+  "topicTitle": "Lines",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-vectors-lines-01",
+      "prompt": "Write a vector equation for the line through \\((1,2)\\) with direction \\((3,-1)\\).",
+      "answer": "Use point plus parameter times direction: \\(\\mathbf r=(1,2)+\\lambda(3,-1)\\), \\(\\lambda\\in\\mathbb R\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-02",
+      "prompt": "Find the point on \\(\\mathbf r=(1,2)+\\lambda(3,-1)\\) when \\(\\lambda=2\\).",
+      "answer": "Substitute: \\((1,2)+2(3,-1)=(7,0)\\).",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-03",
+      "prompt": "Does \\((7,0)\\) lie on \\(\\mathbf r=(1,2)+\\lambda(3,-1)\\)?",
+      "answer": "Solve \\((1+3\\lambda,2-\\lambda)=(7,0)\\). The first gives \\(\\lambda=2\\), and the second also gives \\(2\\), so yes.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-04",
+      "prompt": "Find a direction vector for the line through \\(A=(1,4,0)\\) and \\(B=(3,1,5)\\).",
+      "answer": "Use \\(B-A=(3-1,1-4,5-0)=(2,-3,5)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-05",
+      "prompt": "Write a line through \\(A=(1,4,0)\\) and \\(B=(3,1,5)\\).",
+      "answer": "A direction is \\((2,-3,5)\\). Thus \\(\\mathbf r=(1,4,0)+\\lambda(2,-3,5)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-06",
+      "prompt": "Find where \\(\\mathbf r=(2,1)+t(1,3)\\) meets the \\(y\\)-axis.",
+      "answer": "On the \\(y\\)-axis \\(x=0\\), so \\(2+t=0\\) and \\(t=-2\\). Then \\(y=1+3(-2)=-5\\), so the point is \\((0,-5)\\).",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-07",
+      "prompt": "Find where \\(\\mathbf r=(2,1)+t(1,3)\\) meets the line \\(y=7\\).",
+      "answer": "Set \\(1+3t=7\\), giving \\(t=2\\). Then \\(x=2+2=4\\), so the point is \\((4,7)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-08",
+      "prompt": "Are lines \\(\\mathbf r=(0,1)+s(2,4)\\) and \\(\\mathbf r=(3,-1)+t(1,2)\\) parallel?",
+      "answer": "The directions \\((2,4)\\) and \\((1,2)\\) are scalar multiples, so the lines are parallel.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-09",
+      "prompt": "Find the intersection of \\((0,0)+s(1,2)\\) and \\((3,0)+t(-1,1)\\).",
+      "answer": "Equate components: \\(s=3-t\\) and \\(2s=t\\). Substitute to get \\(s=3-2s\\), so \\(s=1\\), \\(t=2\\). The point is \\((1,2)\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-10",
+      "prompt": "Find the distance from \\(C=(1,2,3)\\) to the line \\(\\mathbf r=(0,0,0)+\\lambda(2,0,1)\\).",
+      "answer": "Use \\(d=|(-C)\\times b|/|b|\\). \\((-1,-2,-3)\\times(2,0,1)=(-2,-5,4)\\), magnitude \\(3\\sqrt5\\); \\(|b|=\\sqrt5\\), so \\(d=3\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-11",
+      "prompt": "Find a line through \\((1,1,1)\\) parallel to \\((2,-1,0)\\).",
+      "answer": "The line is \\(\\mathbf r=(1,1,1)+t(2,-1,0)\\), with \\(t\\in\\mathbb R\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-12",
+      "prompt": "Find \\(t\\) if \\((5,-1,1)\\) lies on \\(\\mathbf r=(1,1,1)+t(2,-1,0)\\).",
+      "answer": "Compare components: \\(1+2t=5\\) gives \\(t=2\\), and \\(1-t=-1\\) also gives \\(2\\). The third component is unchanged, so \\(t=2\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-13",
+      "prompt": "Find the closest point on \\(\\mathbf r=(0,0)+t(1,0)\\) to \\(C=(3,4)\\).",
+      "answer": "This line is the \\(x\\)-axis. The perpendicular from \\(C\\) drops to \\((3,0)\\), so the closest point is \\((3,0)\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-14",
+      "prompt": "Write symmetric equations for \\(\\mathbf r=(1,2,3)+t(2,-1,4)\\).",
+      "answer": "From components, \\(x=1+2t\\), \\(y=2-t\\), \\(z=3+4t\\). Thus \\((x-1)/2=(y-2)/(-1)=(z-3)/4\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-15",
+      "prompt": "Find the angle between lines with directions \\((1,0,1)\\) and \\((0,1,1)\\).",
+      "answer": "Use dot product: \\(1\\). Magnitudes are both \\(\\sqrt2\\), so \\(\\cos\\theta=1/2\\) and \\(\\theta=60^\\circ\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-16",
+      "prompt": "Do \\(\\mathbf r=(1,0,0)+s(1,1,0)\\) and \\(\\mathbf r=(0,1,1)+t(1,1,0)\\) represent the same line?",
+      "answer": "They have the same direction. The difference between reference points is \\((-1,1,1)\\), not a multiple of \\((1,1,0)\\), so they are distinct parallel lines.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-17",
+      "prompt": "Find a parameter value where \\(\\mathbf r=(2,3,4)+t(1,-1,2)\\) has \\(z=10\\).",
+      "answer": "Set \\(4+2t=10\\), so \\(t=3\\). The point is \\((5,0,10)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-18",
+      "prompt": "Find the line through \\((2,0,-1)\\) parallel to \\((1,-1,2)\\), and show that this line is parallel to the plane with normal \\((1,1,0)\\).",
+      "answer": "The line is \\(\\mathbf r=(2,0,-1)+t(1,-1,2)\\). To be parallel to the plane, its direction must be perpendicular to the plane normal. The dot product is \\((1,-1,2)\\cdot(1,1,0)=1-1+0=0\\), so the line direction is parallel to that plane.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-19",
+      "prompt": "Decide whether \\((4,6)\\) lies on the segment from \\((1,0)\\) to \\((5,8)\\), then find the ratio in which it divides the segment.",
+      "answer": "Parametrize the segment by \\((1,0)+t(4,8)\\), with \\(0\\le t\\le1\\). From the \\(x\\)-coordinate, \\(1+4t=4\\), so \\(t=3/4\\); the \\(y\\)-coordinate gives \\(8t=6\\), also \\(t=3/4\\). It lies on the segment. The distance fraction from the first endpoint is \\(3/4\\), so the ratio is \\(3:1\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-vectors-lines-20",
+      "prompt": "Find the shortest distance between the parallel lines \\(\\ell_1:(0,0)+s(1,0)\\) and \\(\\ell_2:(0,3)+t(1,0)\\), and identify one pair of closest points.",
+      "answer": "The lines are \\(y=0\\) and \\(y=3\\), both with direction \\((1,0)\\). A perpendicular direction is \\((0,1)\\). Taking \\((0,0)\\) on \\(\\ell_1\\) and \\((0,3)\\) on \\(\\ell_2\\), their difference is \\((0,3)\\), which is perpendicular to \\((1,0)\\). Its length is \\(3\\), so the shortest distance is \\(3\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

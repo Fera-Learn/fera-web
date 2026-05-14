@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "two-dimensional-critical-points",
+  "topicTitle": "Two-Dimensional Critical Points",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-01",
+      "prompt": "What is the main purpose of Two-Dimensional Critical Points?",
+      "answer": "For a smooth two-variable function, the Hessian determinant classifies many interior critical points. It tells whether the local quadratic shape bends the same way in all directions or bends up in one direction and down in another.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-02",
+      "prompt": "What does \\(D\\) mean in Two-Dimensional Critical Points?",
+      "answer": "In Two-Dimensional Critical Points, \\(D\\) means two-variable Hessian determinant.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-03",
+      "prompt": "Identify another important piece of notation used in Two-Dimensional Critical Points.",
+      "answer": "In Two-Dimensional Critical Points, \\(f_{xx},f_{yy}\\) means pure second partial derivatives.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-04",
+      "prompt": "Before doing a two-dimensional critical points calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: At a critical point, compute \\(D\\) and then inspect \\(f_{xx}\\). If \\(D\\) is positive and \\(f_{xx}\\) is positive, the point is a local minimum. If \\(D\\) is positive and \\(f_{xx}\\) is negative, it is a local maximum. If \\(D\\) is negative, it is a saddle. If \\(D\\) is zero, this test is inconclusive.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-05",
+      "prompt": "State a central formula or test for Two-Dimensional Critical Points.",
+      "answer": "The two-variable second derivative test is\n\\[D=f_{xx}f_{yy}-f_{xy}^2\\]\nUse it only after the symbols in the formula have been identified for the specific two-dimensional critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-06",
+      "prompt": "How is the formula or method in Two-Dimensional Critical Points interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The two-variable second derivative test is\n\\[D=f_{xx}f_{yy}-f_{xy}^2\\]\nUse it only after the symbols in the formula have been identified for the specific two-dimensional critical points problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-07",
+      "prompt": "Classify the critical point of U(x,y)=x^2+4y^2 at (0,0).",
+      "answer": "The second partials are U_{xx}=2, U_{yy}=8, and U_{xy}=0. Thus D=2(8)-0^2=16. Since D is positive and U_{xx} is positive, (0,0) is a local minimum.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-08",
+      "prompt": "Classify the critical point of f(x,y)=x^2-y^2 at (0,0).",
+      "answer": "The second partials are f_{xx}=2, f_{yy}=-2, and f_{xy}=0. Thus D=2(-2)-0^2=-4. Since D is negative, (0,0) is a saddle point.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-09",
+      "prompt": "What method choice is usually needed in a standard two-dimensional critical points question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: At a critical point, compute \\(D\\) and then inspect \\(f_{xx}\\). If \\(D\\) is positive and \\(f_{xx}\\) is positive, the point is a local minimum. If \\(D\\) is positive and \\(f_{xx}\\) is negative, it is a local maximum. If \\(D\\) is negative, it is a saddle. If \\(D\\) is zero, this test is inconclusive.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-10",
+      "prompt": "Use the notation of Two-Dimensional Critical Points to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(D\\), meaning two-variable Hessian determinant; \\(f_{xx},f_{yy}\\), meaning pure second partial derivatives; \\(f_{xy}\\), meaning mixed second partial derivative.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-11",
+      "prompt": "What does D=0 tell you?",
+      "answer": "It tells you this second derivative test cannot classify the point. You need another method, such as checking the function directly along selected paths or using higher-order terms.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-12",
+      "prompt": "What physical or modelling interpretation can Two-Dimensional Critical Points have?",
+      "answer": "In a physics model, the idea of two-dimensional critical points helps translate a mathematical expression into a statement about the system. For a smooth two-variable function, the Hessian determinant classifies many interior critical points. It tells whether the local quadratic shape bends the same way in all directions or bends up in one direction and down in another.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-13",
+      "prompt": "Correct this mistake in Two-Dimensional Critical Points: applying the test before proving the point is critical.",
+      "answer": "first solve \\(f_x=0\\) and \\(f_y=0\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-14",
+      "prompt": "Why is it important to check assumptions when using Two-Dimensional Critical Points?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. At a two-variable critical point, \\(D\\) positive gives max or min depending on \\(f_{xx}\\); \\(D\\) negative gives saddle; \\(D\\) zero gives no decision.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-15",
+      "prompt": "Correct this second mistake in Two-Dimensional Critical Points: using \\(f_{xy}\\) instead of \\(f_{xy}\\) squared in \\(D\\).",
+      "answer": "compute \\(D=f_{xx}f_{yy}-f_{xy}^2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Two-Dimensional Critical Points?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. At a two-variable critical point, \\(D\\) positive gives max or min depending on \\(f_{xx}\\); \\(D\\) negative gives saddle; \\(D\\) zero gives no decision.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-17",
+      "prompt": "Correct this third mistake in Two-Dimensional Critical Points: classifying \\(D=0\\) as a saddle.",
+      "answer": "\\(D=0\\) is inconclusive, not a classification.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-18",
+      "prompt": "Design an exam solution plan for a multi-step two-dimensional critical points problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: At a critical point, compute \\(D\\) and then inspect \\(f_{xx}\\). If \\(D\\) is positive and \\(f_{xx}\\) is positive, the point is a local minimum. If \\(D\\) is positive and \\(f_{xx}\\) is negative, it is a local maximum. If \\(D\\) is negative, it is a saddle. If \\(D\\) is zero, this test is inconclusive. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-19",
+      "prompt": "How could an incorrect setup affect a two-dimensional critical points result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, applying the test before proving the point is critical must be avoided: first solve \\(f_x=0\\) and \\(f_y=0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-two-dimensional-critical-points-20",
+      "prompt": "Give an exam-ready summary rule for Two-Dimensional Critical Points.",
+      "answer": "At a two-variable critical point, \\(D\\) positive gives max or min depending on \\(f_{xx}\\); \\(D\\) negative gives saddle; \\(D\\) zero gives no decision. If a formula is needed, use \\[D=f_{xx}f_{yy}-f_{xy}^2\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

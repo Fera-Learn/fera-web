@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "complex-fourier-form",
+  "topicTitle": "Complex Fourier Form",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-01",
+      "prompt": "What is the main purpose of Complex Fourier Form?",
+      "answer": "The complex Fourier form uses exponentials instead of separate sine and cosine terms. It is compact, symmetric in positive and negative harmonics, and natural for waves and signal spectra.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-02",
+      "prompt": "What does \\(f(x)\\) mean in Complex Fourier Form?",
+      "answer": "In Complex Fourier Form, \\(f(x)\\) means periodic function on negative pi to pi.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-03",
+      "prompt": "Identify another important piece of notation used in Complex Fourier Form.",
+      "answer": "In Complex Fourier Form, \\(c_n\\) means complex Fourier coefficient for integer n.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-04",
+      "prompt": "Before doing a complex fourier form calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: The real sine-cosine series can be rewritten as a two-sided exponential series.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-05",
+      "prompt": "State a central formula or test for Complex Fourier Form.",
+      "answer": "The complex fourier series is\n\\[f(x)\\sim\\sum_{n=-\\infty}^{\\infty}c_ne^{inx}\\]\nUse it only after the symbols in the formula have been identified for the specific complex fourier form problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-06",
+      "prompt": "How is the formula or method in Complex Fourier Form interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The complex coefficient is\n\\[c_n=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)e^{-inx}\\,dx\\]\nUse it only after the symbols in the formula have been identified for the specific complex fourier form problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-07",
+      "prompt": "Show why c_n is found by multiplying by e to the negative i n x and integrating.",
+      "answer": "Start with \\[f(x)=\\sum_{m=-\\infty}^{\\infty}c_me^{imx}\\] Multiply by e^{-inx}: \\[f(x)e^{-inx}=\\sum_{m=-\\infty}^{\\infty}c_me^{i(m-n)x}\\] Integrate over negative pi to pi. Orthogonality gives \\[\\int_{-\\pi}^{\\pi}e^{i(m-n)x}\\,dx=2\\pi\\] when m=n and zero otherwise. Therefore \\[\\int_{-\\pi}^{\\pi}f(x)e^{-inx}\\,dx=2\\pi c_n\\] so \\[c_n=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}f(x)e^{-inx}\\,dx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-08",
+      "prompt": "Why are positive and negative n useful for wave signals?",
+      "answer": "The terms e^{inx} and e^{-inx} represent opposite phase directions in complex notation. A real signal combines conjugate coefficients so the imaginary parts cancel in the final real function. This makes wave and signal spectra easier to organise.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-09",
+      "prompt": "What method choice is usually needed in a standard complex fourier form question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: The real sine-cosine series can be rewritten as a two-sided exponential series.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-10",
+      "prompt": "Use the notation of Complex Fourier Form to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning periodic function on negative pi to pi; \\(c_n\\), meaning complex Fourier coefficient for integer n; \\(n\\), meaning integer harmonic index, positive, negative, or zero.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-11",
+      "prompt": "Explain a common worked step in Complex Fourier Form.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Complex Fourier Form.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-12",
+      "prompt": "What physical or modelling interpretation can Complex Fourier Form have?",
+      "answer": "In a physics model, the idea of complex fourier form helps translate a mathematical expression into a statement about the system. The complex Fourier form uses exponentials instead of separate sine and cosine terms. It is compact, symmetric in positive and negative harmonics, and natural for waves and signal spectra.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-13",
+      "prompt": "Correct this mistake in Complex Fourier Form: Summing only positive n.",
+      "answer": "complex Fourier form uses all integer n, including negative indices and zero.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-14",
+      "prompt": "Why is it important to check assumptions when using Complex Fourier Form?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Complex Fourier form writes a periodic function as a two-sided sum of exponential harmonics with coefficients found by complex projection.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-15",
+      "prompt": "Correct this second mistake in Complex Fourier Form: Forgetting the negative sign in the coefficient exponential.",
+      "answer": "the projection uses e to the negative i n x to isolate c_n.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Complex Fourier Form?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Complex Fourier form writes a periodic function as a two-sided sum of exponential harmonics with coefficients found by complex projection.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-17",
+      "prompt": "Correct this third mistake in Complex Fourier Form: Forgetting the negative sign in the coefficient exponential.",
+      "answer": "the projection uses e to the negative i n x to isolate c_n.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-18",
+      "prompt": "Design an exam solution plan for a multi-step complex fourier form problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: The real sine-cosine series can be rewritten as a two-sided exponential series. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-19",
+      "prompt": "How could an incorrect setup affect a complex fourier form result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Summing only positive n must be avoided: complex Fourier form uses all integer n, including negative indices and zero.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-complex-fourier-form-20",
+      "prompt": "Give an exam-ready summary rule for Complex Fourier Form.",
+      "answer": "Complex Fourier form writes a periodic function as a two-sided sum of exponential harmonics with coefficients found by complex projection. If a formula is needed, use \\[f(x)\\sim\\sum_{n=-\\infty}^{\\infty}c_ne^{inx}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

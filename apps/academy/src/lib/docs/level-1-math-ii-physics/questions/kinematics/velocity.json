@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "kinematics",
+  "topicId": "velocity",
+  "topicTitle": "Velocity",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-kinematics-velocity-01",
+      "prompt": "What is the main purpose of Velocity?",
+      "answer": "Velocity measures how fast position changes and in which direction that change occurs. Average velocity compares two positions over a finite time interval. Instantaneous velocity is the derivative of position with respect to time. Speed is the magnitude of velocity. Speed is a scalar, while velocity is a vector.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-02",
+      "prompt": "What does \\(\\mathbf r(t)\\) mean in Velocity?",
+      "answer": "In Velocity, \\(\\mathbf r(t)\\) means position vector. Its unit is m.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-03",
+      "prompt": "Identify another important piece of notation used in Velocity.",
+      "answer": "In Velocity, \\(\\Delta t\\) means elapsed time. Its unit is s.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-04",
+      "prompt": "Before doing a velocity calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Step 1: Compute average velocity over an interval Subtract positions and divide by elapsed time: Step 2: Take the instantaneous limit When the time interval shrinks to zero, the average velocity becomes the derivative: Step 3: Differentiate components If \\(\\mathbf r(t)=x(t)\\mathbf i+y(t)\\mathbf j+z(t)\\mathbf k\\), differentiate each component with respect to...",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-05",
+      "prompt": "State a central formula or test for Velocity.",
+      "answer": "The average velocity is\n\\[\\mathbf v_{\\text{avg}}=\\frac{\\Delta\\mathbf r}{\\Delta t}\\]\nUse it only after the symbols in the formula have been identified for the specific velocity problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-06",
+      "prompt": "How is the formula or method in Velocity interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The instantaneous velocity is\n\\[\\mathbf v=\\frac{d\\mathbf r}{dt}\\]\nUse it only after the symbols in the formula have been identified for the specific velocity problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-07",
+      "prompt": "For \\(\\mathbf r(t)=4t\\mathbf i-t^2\\mathbf j\\) m, find \\(\\mathbf v(t)\\).",
+      "answer": "Velocity is \\(d\\mathbf r/dt\\). Differentiate each component: \\(d(4t)/dt=4\\) and \\(d(-t^2)/dt=-2t\\). Therefore \\(\\mathbf v(t)=4\\mathbf i-2t\\mathbf j\\) \\(m s^{-1}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-08",
+      "prompt": "A particle moves from \\(\\mathbf r_1=2\\mathbf i\\) m to \\(\\mathbf r_2=8\\mathbf i\\) m in \\(3\\) s. Find the average velocity.",
+      "answer": "The displacement is \\(\\Delta\\mathbf r=6\\mathbf i\\) m. Divide by \\(\\Delta t=3\\) s to get \\(\\mathbf v_{\\text{avg}}=2\\mathbf i\\,m s^{-1}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-09",
+      "prompt": "What method choice is usually needed in a standard velocity question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Step 1: Compute average velocity over an interval Subtract positions and divide by elapsed time: Step 2: Take the instantaneous limit When the time interval shrinks to zero, the average velocity becomes the derivative: Step 3: Differentiate components If \\(\\mathbf r(t)=x(t)\\mathbf i+y(t)\\mathbf j+z(t)\\mathbf k\\), differentiate each component with respect to...",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-10",
+      "prompt": "Use the notation of Velocity to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\mathbf r(t)\\), meaning position vector; \\(\\Delta t\\), meaning elapsed time; \\(\\mathbf v_{\\text{avg}}\\), meaning average velocity over a time interval.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-11",
+      "prompt": "For \\(\\mathbf r(t)=t^2\\mathbf i+3t\\mathbf j\\) m, find \\(\\mathbf v(t)\\).",
+      "answer": "Differentiate each component: \\(d(t^2)/dt=2t\\) and \\(d(3t)/dt=3\\). Therefore \\(\\mathbf v(t)=2t\\mathbf i+3\\mathbf j\\) \\(m s^{-1}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-12",
+      "prompt": "What physical or modelling interpretation can Velocity have?",
+      "answer": "In a physics model, the idea of velocity helps translate a mathematical expression into a statement about the system. Velocity measures how fast position changes and in which direction that change occurs. Average velocity compares two positions over a finite time interval. Instantaneous velocity is the derivative of position with respect to time. Speed is the magnitude of velocity. Speed is a scalar, while velocity is a vector.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-13",
+      "prompt": "Correct this mistake in Velocity: Do not use distance travelled when calculating average velocity; use displacement.",
+      "answer": "Do not use distance travelled when calculating average velocity; use displacement.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-14",
+      "prompt": "Why is it important to check assumptions when using Velocity?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Velocity is the vector rate of change of position. Average velocity uses displacement over time, while instantaneous velocity is \\(d\\mathbf r/dt\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-15",
+      "prompt": "Correct this second mistake in Velocity: Do not call a negative one-dimensional velocity a negative speed. Speed is non-negative.",
+      "answer": "Do not call a negative one-dimensional velocity a negative speed. Speed is non-negative.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Velocity?",
+      "answer": "Track the units in the notation: \\(\\mathbf r(t)\\) has unit m; \\(\\Delta t\\) has unit s; \\(\\mathbf v_{\\text{avg}}\\) has unit m s^{-1}; \\(\\mathbf v(t)\\) has unit m s^{-1}; \\(|\\mathbf v|\\) has unit m s^{-1}; \\(\\dot x, \\dot y, \\dot z\\) has unit m s^{-1}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-17",
+      "prompt": "Correct this third mistake in Velocity: Include direction or components when reporting velocity.",
+      "answer": "Include direction or components when reporting velocity.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-18",
+      "prompt": "Design an exam solution plan for a multi-step velocity problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Step 1: Compute average velocity over an interval Subtract positions and divide by elapsed time: Step 2: Take the instantaneous limit When the time interval shrinks to zero, the average velocity becomes the derivative: Step 3: Differentiate components If \\(\\mathbf r(t)=x(t)\\mathbf i+y(t)\\mathbf j+z(t)\\mathbf k\\), differentiate each component with respect to... Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-19",
+      "prompt": "How could an incorrect setup affect a velocity result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Do not use distance travelled when calculating average velocity; use displacement must be avoided: Do not use distance travelled when calculating average velocity; use displacement.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-kinematics-velocity-20",
+      "prompt": "Give an exam-ready summary rule for Velocity.",
+      "answer": "Velocity is the vector rate of change of position. Average velocity uses displacement over time, while instantaneous velocity is \\(d\\mathbf r/dt\\). If a formula is needed, use \\[\\mathbf v_{\\text{avg}}=\\frac{\\Delta\\mathbf r}{\\Delta t}\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

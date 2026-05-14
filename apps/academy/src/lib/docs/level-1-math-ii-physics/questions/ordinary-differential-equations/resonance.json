@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "resonance",
+  "topicTitle": "Resonance",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-01",
+      "prompt": "What is the main purpose of Resonance?",
+      "answer": "Resonance occurs when periodic forcing drives an oscillator near its natural frequency, producing a large steady response. Damping limits the amplitude and shifts the peak slightly.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-02",
+      "prompt": "What does \\(x(t)\\) mean in Resonance?",
+      "answer": "In Resonance, \\(x(t)\\) means oscillator displacement. Its unit is m.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-03",
+      "prompt": "Identify another important piece of notation used in Resonance.",
+      "answer": "In Resonance, \\(m\\) means mass. Its unit is kg.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-04",
+      "prompt": "Before doing a resonance calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Use a driven damped oscillator and compare the driving frequency with the natural frequency.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-05",
+      "prompt": "State a central formula or test for Resonance.",
+      "answer": "The driven oscillator is\n\\[m x''+c x'+kx=F_0\\cos\\omega t\\]\nUse it only after the symbols in the formula have been identified for the specific resonance problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-06",
+      "prompt": "How is the formula or method in Resonance interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The undamped natural frequency is\n\\[\\omega_0=\\sqrt{\\frac{k}{m}}\\]\nUse it only after the symbols in the formula have been identified for the specific resonance problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-07",
+      "prompt": "For m x double prime plus c x prime plus kx equals F_0 cos omega t, state why the response is largest near omega_0.",
+      "answer": "Try a steady response of the form x_p=A cos omega t plus B sin omega t. Substitution creates two linear equations for A and B. Their denominator contains \\[(k-m\\omega^2)^2+c^2\\omega^2\\] The amplitude is largest when this denominator is smallest, which occurs near the natural frequency \\[\\omega_0=\\sqrt{\\frac{k}{m}}\\] when damping is small.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-08",
+      "prompt": "Why can repeated road bumps make a car body vibrate strongly?",
+      "answer": "If bumps arrive with a frequency close to the suspension's natural frequency, each push adds energy in phase with the motion. The model \\[m x''+c x'+kx=F_0\\cos\\omega t\\] predicts a large amplitude near resonance, while damping c reduces the peak.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-09",
+      "prompt": "What method choice is usually needed in a standard resonance question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Use a driven damped oscillator and compare the driving frequency with the natural frequency.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-10",
+      "prompt": "Use the notation of Resonance to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x(t)\\), meaning oscillator displacement; \\(m\\), meaning mass; \\(c\\), meaning damping coefficient.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-11",
+      "prompt": "Explain a common worked step in Resonance.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Resonance.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-12",
+      "prompt": "What physical or modelling interpretation can Resonance have?",
+      "answer": "In a physics model, the idea of resonance helps translate a mathematical expression into a statement about the system. Resonance occurs when periodic forcing drives an oscillator near its natural frequency, producing a large steady response. Damping limits the amplitude and shifts the peak slightly.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-13",
+      "prompt": "Correct this mistake in Resonance: Saying resonance requires zero damping.",
+      "answer": "damping reduces and broadens resonance but does not remove the idea of a peak response.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-14",
+      "prompt": "Why is it important to check assumptions when using Resonance?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Resonance is the large driven response of an oscillator when the forcing frequency is near the system's natural frequency.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-15",
+      "prompt": "Correct this second mistake in Resonance: Comparing ordinary frequency directly with angular frequency.",
+      "answer": "convert cycles per second to angular frequency before comparing with omega values.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Resonance?",
+      "answer": "Track the units in the notation: \\(x(t)\\) has unit m; \\(m\\) has unit kg; \\(c\\) has unit N s m^{-1}; \\(k\\) has unit N m^{-1}; \\(F_0\\) has unit N; \\(\\omega\\) has unit rad s^{-1}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-17",
+      "prompt": "Correct this third mistake in Resonance: Comparing ordinary frequency directly with angular frequency.",
+      "answer": "convert cycles per second to angular frequency before comparing with omega values.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-18",
+      "prompt": "Design an exam solution plan for a multi-step resonance problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Use a driven damped oscillator and compare the driving frequency with the natural frequency. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-19",
+      "prompt": "How could an incorrect setup affect a resonance result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Saying resonance requires zero damping must be avoided: damping reduces and broadens resonance but does not remove the idea of a peak response.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-resonance-20",
+      "prompt": "Give an exam-ready summary rule for Resonance.",
+      "answer": "Resonance is the large driven response of an oscillator when the forcing frequency is near the system's natural frequency. If a formula is needed, use \\[m x''+c x'+kx=F_0\\cos\\omega t\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

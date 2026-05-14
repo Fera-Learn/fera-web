@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "fourier-analysis",
+  "topicId": "odd-functions",
+  "topicTitle": "Odd Functions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-01",
+      "prompt": "What is the main purpose of Odd Functions?",
+      "answer": "An odd function changes sign when the input changes sign. In Fourier series on a symmetric interval, odd functions have only sine terms.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-02",
+      "prompt": "What does \\(f(x)\\) mean in Odd Functions?",
+      "answer": "In Odd Functions, \\(f(x)\\) means function on a symmetric interval.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-03",
+      "prompt": "Identify another important piece of notation used in Odd Functions.",
+      "answer": "In Odd Functions, \\(f(-x)\\) means value at the opposite input.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-04",
+      "prompt": "Before doing a odd functions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Odd symmetry means the output reverses sign under x to negative x.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-05",
+      "prompt": "State a central formula or test for Odd Functions.",
+      "answer": "The odd function test is\n\\[f(-x)=-f(x)\\]\nUse it only after the symbols in the formula have been identified for the specific odd functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-06",
+      "prompt": "How is the formula or method in Odd Functions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The odd fourier shortcut is\n\\[a_0=0,\\quad a_n=0\\]\nUse it only after the symbols in the formula have been identified for the specific odd functions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-07",
+      "prompt": "Show that f(x)=sin x is odd and state the cosine coefficients.",
+      "answer": "Evaluate at negative x: \\[f(-x)=\\sin(-x)=-\\sin x=-f(x)\\] Thus f is odd. Since cos nx is even, the product f(x) cos nx is odd, so \\[a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx=0\\] Also a_0=0.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-08",
+      "prompt": "A signal has f(-x)=-f(x). Which Fourier terms remain?",
+      "answer": "The signal is odd. The constant term and cosine terms vanish, leaving only sine terms: \\[f(x)\\sim\\sum_{n=1}^{\\infty}b_n\\sin nx\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-09",
+      "prompt": "What method choice is usually needed in a standard odd functions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Odd symmetry means the output reverses sign under x to negative x.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-10",
+      "prompt": "Use the notation of Odd Functions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(x)\\), meaning function on a symmetric interval; \\(f(-x)\\), meaning value at the opposite input; \\(a_0\\), meaning constant coefficient.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-11",
+      "prompt": "Explain a common worked step in Odd Functions.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Odd Functions.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-12",
+      "prompt": "What physical or modelling interpretation can Odd Functions have?",
+      "answer": "In a physics model, the idea of odd functions helps translate a mathematical expression into a statement about the system. An odd function changes sign when the input changes sign. In Fourier series on a symmetric interval, odd functions have only sine terms.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-13",
+      "prompt": "Correct this mistake in Odd Functions: Thinking odd means negative.",
+      "answer": "odd means f of negative x equals negative f of x.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-14",
+      "prompt": "Why is it important to check assumptions when using Odd Functions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Odd functions reverse sign under x to negative x and have sine-only Fourier series on symmetric intervals.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-15",
+      "prompt": "Correct this second mistake in Odd Functions: Testing symmetry on a non-centred interval.",
+      "answer": "even and odd shortcuts require a symmetric interval around zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Odd Functions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Odd functions reverse sign under x to negative x and have sine-only Fourier series on symmetric intervals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-17",
+      "prompt": "Correct this third mistake in Odd Functions: Testing symmetry on a non-centred interval.",
+      "answer": "even and odd shortcuts require a symmetric interval around zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-18",
+      "prompt": "Design an exam solution plan for a multi-step odd functions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Odd symmetry means the output reverses sign under x to negative x. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-19",
+      "prompt": "How could an incorrect setup affect a odd functions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Thinking odd means negative must be avoided: odd means f of negative x equals negative f of x.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-fourier-analysis-odd-functions-20",
+      "prompt": "Give an exam-ready summary rule for Odd Functions.",
+      "answer": "Odd functions reverse sign under x to negative x and have sine-only Fourier series on symmetric intervals. If a formula is needed, use \\[f(-x)=-f(x)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

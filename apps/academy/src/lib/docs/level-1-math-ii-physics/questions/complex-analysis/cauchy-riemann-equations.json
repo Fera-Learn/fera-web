@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "complex-analysis",
+  "topicId": "cauchy-riemann-equations",
+  "topicTitle": "Cauchy Riemann Equations",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-01",
+      "prompt": "What is the main purpose of Cauchy Riemann Equations?",
+      "answer": "The Cauchy-Riemann equations connect complex differentiability to partial derivatives of the real and imaginary parts. They are the main local test for whether \\(f(z)=u(x,y)+iv(x,y)\\) can be complex differentiable.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-02",
+      "prompt": "What does \\(f(z)=u+iv\\) mean in Cauchy Riemann Equations?",
+      "answer": "In Cauchy Riemann Equations, \\(f(z)=u+iv\\) means complex function split into real part u and imaginary part v.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-03",
+      "prompt": "Identify another important piece of notation used in Cauchy Riemann Equations.",
+      "answer": "In Cauchy Riemann Equations, \\(u_x,u_y\\) means partial derivatives of the real part.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-04",
+      "prompt": "Before doing a cauchy riemann equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For a differentiable complex function, the real and imaginary parts satisfy With suitable continuity of partial derivatives, these equations are also enough for complex differentiability.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-05",
+      "prompt": "State a central formula or test for Cauchy Riemann Equations.",
+      "answer": "The cauchy riemann equations is\n\\[u_x=v_y,\\qquad u_y=-v_x\\]\nUse it only after the symbols in the formula have been identified for the specific cauchy riemann equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-06",
+      "prompt": "How is the formula or method in Cauchy Riemann Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The cauchy riemann equations is\n\\[u_x=v_y,\\qquad u_y=-v_x\\]\nUse it only after the symbols in the formula have been identified for the specific cauchy riemann equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-07",
+      "prompt": "Check the Cauchy-Riemann equations for \\(f(z)=z^2\\).",
+      "answer": "Write \\(z=x+iy\\). Then \\[z^2=(x^2-y^2)+i(2xy)\\] so \\(u=x^2-y^2\\) and \\(v=2xy\\). Compute \\(u_x=2x\\), \\(u_y=-2y\\), \\(v_x=2y\\), and \\(v_y=2x\\). Thus \\(u_x=v_y\\) and \\(u_y=-v_x\\), so the equations hold.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-08",
+      "prompt": "Check \\(f(z)=\\overline z\\).",
+      "answer": "Here \\(u=x\\) and \\(v=-y\\). Then \\(u_x=1\\) but \\(v_y=-1\\). Since \\(u_x\\ne v_y\\), the Cauchy-Riemann equations fail, so \\(\\overline z\\) is not complex differentiable.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-09",
+      "prompt": "What method choice is usually needed in a standard cauchy riemann equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For a differentiable complex function, the real and imaginary parts satisfy With suitable continuity of partial derivatives, these equations are also enough for complex differentiability.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-10",
+      "prompt": "Use the notation of Cauchy Riemann Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(f(z)=u+iv\\), meaning complex function split into real part u and imaginary part v; \\(u_x,u_y\\), meaning partial derivatives of the real part; \\(v_x,v_y\\), meaning partial derivatives of the imaginary part.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-11",
+      "prompt": "When the Cauchy-Riemann equations hold, how can \\(f'(z)\\) be written using \\(u\\) and \\(v\\)?",
+      "answer": "One common form is \\[f'(z)=u_x+iv_x\\] Equivalently, using the Cauchy-Riemann equations, \\(f'(z)=v_y-iu_y\\).",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-12",
+      "prompt": "What physical or modelling interpretation can Cauchy Riemann Equations have?",
+      "answer": "In a physics model, the idea of cauchy riemann equations helps translate a mathematical expression into a statement about the system. The Cauchy-Riemann equations connect complex differentiability to partial derivatives of the real and imaginary parts. They are the main local test for whether \\(f(z)=u(x,y)+iv(x,y)\\) can be complex differentiable.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-13",
+      "prompt": "Correct this mistake in Cauchy Riemann Equations: Using \\(u_x=v_x\\).",
+      "answer": "the equations pair \\(u_x\\) with \\(v_y\\), and \\(u_y\\) with \\(-v_x\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-14",
+      "prompt": "Why is it important to check assumptions when using Cauchy Riemann Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The Cauchy-Riemann equations are \\(u_x=v_y\\) and \\(u_y=-v_x\\). They express the compatibility needed for a real two-component function to behave like a complex differentiable function.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-15",
+      "prompt": "Correct this second mistake in Cauchy Riemann Equations: Forgetting the minus sign.",
+      "answer": "the second equation is \\(u_y=-v_x\\).",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Cauchy Riemann Equations?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. The Cauchy-Riemann equations are \\(u_x=v_y\\) and \\(u_y=-v_x\\). They express the compatibility needed for a real two-component function to behave like a complex differentiable function.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-17",
+      "prompt": "Correct this third mistake in Cauchy Riemann Equations: Ignoring regularity assumptions.",
+      "answer": "use continuity of partial derivatives near the point when applying the test as a sufficient condition.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step cauchy riemann equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For a differentiable complex function, the real and imaginary parts satisfy With suitable continuity of partial derivatives, these equations are also enough for complex differentiability. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-19",
+      "prompt": "How could an incorrect setup affect a cauchy riemann equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using \\(u_x=v_x\\) must be avoided: the equations pair \\(u_x\\) with \\(v_y\\), and \\(u_y\\) with \\(-v_x\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-complex-analysis-cauchy-riemann-equations-20",
+      "prompt": "Give an exam-ready summary rule for Cauchy Riemann Equations.",
+      "answer": "The Cauchy-Riemann equations are \\(u_x=v_y\\) and \\(u_y=-v_x\\). They express the compatibility needed for a real two-component function to behave like a complex differentiable function. If a formula is needed, use \\[u_x=v_y,\\qquad u_y=-v_x\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

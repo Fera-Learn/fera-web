@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "triple-integrals",
+  "topicTitle": "Triple Integrals",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-01",
+      "prompt": "What is the main purpose of Triple Integrals?",
+      "answer": "A triple integral accumulates a scalar field over a three-dimensional region. It is used for volume, mass, charge, probability, and any quantity distributed through space.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-02",
+      "prompt": "What does \\(D\\) mean in Triple Integrals?",
+      "answer": "In Triple Integrals, \\(D\\) means three-dimensional region.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-03",
+      "prompt": "Identify another important piece of notation used in Triple Integrals.",
+      "answer": "In Triple Integrals, \\(f(x,y,z)\\) means scalar field over D.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-04",
+      "prompt": "Before doing a triple integrals calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Describe the solid region with three nested bounds, then integrate from the inside out. When \\(f=1\\), the triple integral gives the volume of \\(D\\).",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-05",
+      "prompt": "State a central formula or test for Triple Integrals.",
+      "answer": "The triple integral is\n\\[\\iiint_D f(x,y,z)\\,dV\\]\nUse it only after the symbols in the formula have been identified for the specific triple integrals problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-06",
+      "prompt": "How is the formula or method in Triple Integrals interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The triple integral is\n\\[\\iiint_D f(x,y,z)\\,dV\\]\nUse it only after the symbols in the formula have been identified for the specific triple integrals problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-07",
+      "prompt": "Find the volume of the box \\(0\\le x\\le2\\), \\(0\\le y\\le3\\), \\(0\\le z\\le4\\) using a triple integral.",
+      "answer": "Use integrand \\(1\\): \\[V=\\int_0^4\\int_0^3\\int_0^2 1\\,dx\\,dy\\,dz=2\\cdot3\\cdot4=24\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-08",
+      "prompt": "A block has density \\(\\rho=z\\) on the unit cube. Find its mass.",
+      "answer": "Integrate density over volume: \\[m=\\int_0^1\\int_0^1\\int_0^1 z\\,dx\\,dy\\,dz\\] The inner two integrals multiply by \\(1\\), so \\[m=\\int_0^1 z\\,dz=\\frac12\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-09",
+      "prompt": "What method choice is usually needed in a standard triple integrals question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Describe the solid region with three nested bounds, then integrate from the inside out. When \\(f=1\\), the triple integral gives the volume of \\(D\\).",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-10",
+      "prompt": "Use the notation of Triple Integrals to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(D\\), meaning three-dimensional region; \\(f(x,y,z)\\), meaning scalar field over D; \\(dV\\), meaning small volume element.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-11",
+      "prompt": "If \\(dV\\) has units \\(\\mathrm{m^3}\\) and density has units \\(\\mathrm{C\\,m^{-3}}\\), what does the integral give?",
+      "answer": "The product has units of coulombs, so \\(\\iiint_D\\rho\\,dV\\) gives total charge.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-12",
+      "prompt": "What physical or modelling interpretation can Triple Integrals have?",
+      "answer": "In a physics model, the idea of triple integrals helps translate a mathematical expression into a statement about the system. A triple integral accumulates a scalar field over a three-dimensional region. It is used for volume, mass, charge, probability, and any quantity distributed through space.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-13",
+      "prompt": "Correct this mistake in Triple Integrals: Using \\(dA\\) for a three-dimensional region.",
+      "answer": "triple integrals use \\(dV\\).",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-14",
+      "prompt": "Why is it important to check assumptions when using Triple Integrals?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Triple integrals add scalar-field contributions over solids. Use \\(f=1\\) for volume and density fields for total mass, charge, or probability.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-15",
+      "prompt": "Correct this second mistake in Triple Integrals: Treating all bounds as constants when surfaces vary.",
+      "answer": "let inner bounds depend on outer variables when needed.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Triple Integrals?",
+      "answer": "Track the units in the notation: \\(\\rho(x,y,z)\\) has unit kg m^{-3}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-17",
+      "prompt": "Correct this third mistake in Triple Integrals: Forgetting density units.",
+      "answer": "density times volume gives the accumulated physical quantity.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-18",
+      "prompt": "Design an exam solution plan for a multi-step triple integrals problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Describe the solid region with three nested bounds, then integrate from the inside out. When \\(f=1\\), the triple integral gives the volume of \\(D\\). Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-19",
+      "prompt": "How could an incorrect setup affect a triple integrals result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Using \\(dA\\) for a three-dimensional region must be avoided: triple integrals use \\(dV\\).",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-triple-integrals-20",
+      "prompt": "Give an exam-ready summary rule for Triple Integrals.",
+      "answer": "Triple integrals add scalar-field contributions over solids. Use \\(f=1\\) for volume and density fields for total mass, charge, or probability. If a formula is needed, use \\[\\iiint_D f(x,y,z)\\,dV\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

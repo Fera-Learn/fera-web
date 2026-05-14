@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multiple-integrals",
+  "topicId": "rectangular-regions",
+  "topicTitle": "Rectangular Regions",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-01",
+      "prompt": "What is the main purpose of Rectangular Regions?",
+      "answer": "Rectangular regions have independent constant bounds. They are the simplest domains for double integrals because each variable runs over a fixed interval that does not depend on the other variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-02",
+      "prompt": "What does \\(R=[a,b]\\times[c,d]\\) mean in Rectangular Regions?",
+      "answer": "In Rectangular Regions, \\(R=[a,b]\\times[c,d]\\) means rectangle in the xy-plane.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-03",
+      "prompt": "Identify another important piece of notation used in Rectangular Regions.",
+      "answer": "In Rectangular Regions, \\(a,b\\) means lower and upper x-bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-04",
+      "prompt": "Before doing a rectangular regions calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: For a rectangle, either integration order is usually straightforward. The inner integral treats the outer variable as constant.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-05",
+      "prompt": "State a central formula or test for Rectangular Regions.",
+      "answer": "The rectangular double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_c^d\\int_a^b f(x,y)\\,dx\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific rectangular regions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-06",
+      "prompt": "How is the formula or method in Rectangular Regions interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The rectangular double integral is\n\\[\\iint_R f(x,y)\\,dA=\\int_c^d\\int_a^b f(x,y)\\,dx\\,dy\\]\nUse it only after the symbols in the formula have been identified for the specific rectangular regions problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-07",
+      "prompt": "Compute \\(\\int_0^2\\int_0^3 (x+y)\\,dx\\,dy\\).",
+      "answer": "Integrate with respect to \\(x\\) first: \\[\\int_0^3(x+y)\\,dx=\\left[\\frac{x^2}{2}+yx\\right]_0^3=\\frac92+3y\\] Then integrate over \\(y\\): \\[\\int_0^2\\left(\\frac92+3y\\right)dy=9+6=15\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-08",
+      "prompt": "A rectangle has sides \\(4\\) and \\(5\\) with density \\(2\\). Find its mass.",
+      "answer": "Mass is density times area: \\[m=\\iint_R2\\,dA=2(4)(5)=40\\] The double integral gives the same result as direct area multiplication.",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-09",
+      "prompt": "What method choice is usually needed in a standard rectangular regions question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: For a rectangle, either integration order is usually straightforward. The inner integral treats the outer variable as constant.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-10",
+      "prompt": "Use the notation of Rectangular Regions to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(R=[a,b]\\times[c,d]\\), meaning rectangle in the xy-plane; \\(a,b\\), meaning lower and upper x-bounds; \\(c,d\\), meaning lower and upper y-bounds.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-11",
+      "prompt": "Why can \\(\\int_c^d\\int_a^b f(x,y)\\,dx\\,dy\\) also be written with \\(dy\\,dx\\)?",
+      "answer": "The bounds are independent: \\(a\\le x\\le b\\) and \\(c\\le y\\le d\\). The same rectangle is described by either order, so \\[\\int_c^d\\int_a^b f\\,dx\\,dy=\\int_a^b\\int_c^d f\\,dy\\,dx\\] when the integrals exist.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-12",
+      "prompt": "What physical or modelling interpretation can Rectangular Regions have?",
+      "answer": "In a physics model, the idea of rectangular regions helps translate a mathematical expression into a statement about the system. Rectangular regions have independent constant bounds. They are the simplest domains for double integrals because each variable runs over a fixed interval that does not depend on the other variable.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-13",
+      "prompt": "Correct this mistake in Rectangular Regions: Making rectangular bounds depend on the other variable.",
+      "answer": "rectangular bounds are constant intervals.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-14",
+      "prompt": "Why is it important to check assumptions when using Rectangular Regions?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. Rectangular regions use constant bounds. Integrate one variable at a time, holding the other fixed, and swap order by swapping the two independent intervals.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-15",
+      "prompt": "Correct this second mistake in Rectangular Regions: Changing order but not the differentials.",
+      "answer": "the inner differential must match the inner bounds.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Rectangular Regions?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. Rectangular regions use constant bounds. Integrate one variable at a time, holding the other fixed, and swap order by swapping the two independent intervals.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-17",
+      "prompt": "Correct this third mistake in Rectangular Regions: Treating the outer variable as zero.",
+      "answer": "it is constant during the inner integration, not zero.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-18",
+      "prompt": "Design an exam solution plan for a multi-step rectangular regions problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: For a rectangle, either integration order is usually straightforward. The inner integral treats the outer variable as constant. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-19",
+      "prompt": "How could an incorrect setup affect a rectangular regions result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Making rectangular bounds depend on the other variable must be avoided: rectangular bounds are constant intervals.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multiple-integrals-rectangular-regions-20",
+      "prompt": "Give an exam-ready summary rule for Rectangular Regions.",
+      "answer": "Rectangular regions use constant bounds. Integrate one variable at a time, holding the other fixed, and swap order by swapping the two independent intervals. If a formula is needed, use \\[\\iint_R f(x,y)\\,dA=\\int_c^d\\int_a^b f(x,y)\\,dx\\,dy\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

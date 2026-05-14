@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "homogeneous-constant-coefficient-equations",
+  "topicTitle": "Homogeneous Constant-Coefficient Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-01",
+      "prompt": "What is the main purpose of Homogeneous Constant-Coefficient Equations?",
+      "answer": "A homogeneous constant-coefficient ODE has no forcing term and fixed coefficients. Trying an exponential solution turns the differential equation into an algebraic characteristic equation.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-02",
+      "prompt": "What does \\(y(x)\\) mean in Homogeneous Constant-Coefficient Equations?",
+      "answer": "In Homogeneous Constant-Coefficient Equations, \\(y(x)\\) means dependent variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-03",
+      "prompt": "Identify another important piece of notation used in Homogeneous Constant-Coefficient Equations.",
+      "answer": "In Homogeneous Constant-Coefficient Equations, \\(a,b,c\\) means constant coefficients.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-04",
+      "prompt": "Before doing a homogeneous constant-coefficient equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Use y equals e to the rx, substitute derivatives, and solve the characteristic equation.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-05",
+      "prompt": "State a central formula or test for Homogeneous Constant-Coefficient Equations.",
+      "answer": "The homogeneous constant-coefficient form is\n\\[ay''+by'+cy=0\\]\nUse it only after the symbols in the formula have been identified for the specific homogeneous constant-coefficient equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-06",
+      "prompt": "How is the formula or method in Homogeneous Constant-Coefficient Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The characteristic equation is\n\\[ar^2+br+c=0\\]\nUse it only after the symbols in the formula have been identified for the specific homogeneous constant-coefficient equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-07",
+      "prompt": "Solve x double prime plus omega squared x equals zero.",
+      "answer": "Try x=e^{rt}. Then x prime is r e^{rt} and x double prime is r squared e^{rt}. Substitute: \\[r^2e^{rt}+\\omega^2e^{rt}=0\\] Factor e^{rt}: \\[(r^2+\\omega^2)e^{rt}=0\\] Since e^{rt} is not zero, \\[r^2+\\omega^2=0\\] so r=plus or minus i omega. The real solution is \\[x(t)=C_1\\cos\\omega t+C_2\\sin\\omega t\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-08",
+      "prompt": "Write the characteristic equation for m x double prime plus c x prime plus kx equals zero.",
+      "answer": "Try x=e^{rt}. Then x prime is r e^{rt} and x double prime is r squared e^{rt}. Substitution gives \\[(mr^2+cr+k)e^{rt}=0\\] The characteristic equation is \\[mr^2+cr+k=0\\] Its roots determine decay and oscillation.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-09",
+      "prompt": "What method choice is usually needed in a standard homogeneous constant-coefficient equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Use y equals e to the rx, substitute derivatives, and solve the characteristic equation.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-10",
+      "prompt": "Use the notation of Homogeneous Constant-Coefficient Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(y(x)\\), meaning dependent variable; \\(a,b,c\\), meaning constant coefficients; \\(r\\), meaning trial exponent.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-11",
+      "prompt": "Explain a common worked step in Homogeneous Constant-Coefficient Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Homogeneous Constant-Coefficient Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-12",
+      "prompt": "What physical or modelling interpretation can Homogeneous Constant-Coefficient Equations have?",
+      "answer": "In a physics model, the idea of homogeneous constant-coefficient equations helps translate a mathematical expression into a statement about the system. A homogeneous constant-coefficient ODE has no forcing term and fixed coefficients. Trying an exponential solution turns the differential equation into an algebraic characteristic equation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-13",
+      "prompt": "Correct this mistake in Homogeneous Constant-Coefficient Equations: Keeping the exponential after substitution.",
+      "answer": "divide by the nonzero exponential to get the characteristic equation.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-14",
+      "prompt": "Why is it important to check assumptions when using Homogeneous Constant-Coefficient Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For homogeneous constant coefficients, substitute an exponential and solve the resulting polynomial in the exponent.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-15",
+      "prompt": "Correct this second mistake in Homogeneous Constant-Coefficient Equations: Ignoring complex roots.",
+      "answer": "complex roots give sine and cosine oscillations with exponential envelopes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Homogeneous Constant-Coefficient Equations?",
+      "answer": "Track the units in the notation: \\(\\omega\\) has unit rad s^{-1}.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-17",
+      "prompt": "Correct this third mistake in Homogeneous Constant-Coefficient Equations: Ignoring complex roots.",
+      "answer": "complex roots give sine and cosine oscillations with exponential envelopes.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step homogeneous constant-coefficient equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Use y equals e to the rx, substitute derivatives, and solve the characteristic equation. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-19",
+      "prompt": "How could an incorrect setup affect a homogeneous constant-coefficient equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Keeping the exponential after substitution must be avoided: divide by the nonzero exponential to get the characteristic equation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-constant-coefficient-equations-20",
+      "prompt": "Give an exam-ready summary rule for Homogeneous Constant-Coefficient Equations.",
+      "answer": "For homogeneous constant coefficients, substitute an exponential and solve the resulting polynomial in the exponent. If a formula is needed, use \\[ay''+by'+cy=0\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}

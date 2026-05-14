@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "multivariable-calculus",
+  "topicId": "gradient",
+  "topicTitle": "Gradient",
+  "paperTags": [
+    "term-2"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-multivariable-calculus-gradient-01",
+      "prompt": "What is the main purpose of Gradient?",
+      "answer": "The gradient collects all first partial derivatives of a scalar field into one vector. It points in the direction of fastest local increase and is perpendicular to level curves or level surfaces.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-02",
+      "prompt": "What does \\(\\nabla f\\) mean in Gradient?",
+      "answer": "In Gradient, \\(\\nabla f\\) means gradient of the scalar field f.",
+      "rating": "*",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-03",
+      "prompt": "Identify another important piece of notation used in Gradient.",
+      "answer": "In Gradient, \\(f_x,f_y,f_z\\) means partial derivative components of the gradient.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-04",
+      "prompt": "Before doing a gradient calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Form the gradient by placing the partial derivatives in coordinate order. For a temperature field, the gradient tells both the direction and strength of fastest local warming per metre.",
+      "rating": "*+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-05",
+      "prompt": "State a central formula or test for Gradient.",
+      "answer": "The gradient in three variables is\n\\[ \\nabla f=(f_x,f_y,f_z)\\]\nUse it only after the symbols in the formula have been identified for the specific gradient problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-06",
+      "prompt": "How is the formula or method in Gradient interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The gradient in three variables is\n\\[ \\nabla f=(f_x,f_y,f_z)\\]\nUse it only after the symbols in the formula have been identified for the specific gradient problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-07",
+      "prompt": "Find grad T for T(x,y)=x^2+3xy at (2,1).",
+      "answer": "Compute T_x=2x+3y and T_y=3x. At (2,1), T_x=4+3=7 and T_y=6. Therefore grad T=(7,6).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-08",
+      "prompt": "For V(x,y,z)=x^2+y^2+z^2, find grad V at (1,-2,2).",
+      "answer": "The partial derivatives are V_x=2x, V_y=2y, and V_z=2z. At the point, grad V=(2,-4,4). A force of the form F=-grad V points in direction (-2,4,-4).",
+      "rating": "**+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-09",
+      "prompt": "What method choice is usually needed in a standard gradient question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Form the gradient by placing the partial derivatives in coordinate order. For a temperature field, the gradient tells both the direction and strength of fastest local warming per metre.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-10",
+      "prompt": "Use the notation of Gradient to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(\\nabla f\\), meaning gradient of the scalar field f; \\(f_x,f_y,f_z\\), meaning partial derivative components of the gradient; \\(\\lVert \\nabla f\\rVert\\), meaning magnitude of the steepest local rate of increase.",
+      "rating": "***",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-11",
+      "prompt": "What is the relation between grad f and the curve f(x,y)=c?",
+      "answer": "At a smooth point, grad f is perpendicular to the level curve. Motion along the curve keeps f constant, so the directional derivative along the tangent is zero.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-12",
+      "prompt": "What physical or modelling interpretation can Gradient have?",
+      "answer": "In a physics model, the idea of gradient helps translate a mathematical expression into a statement about the system. The gradient collects all first partial derivatives of a scalar field into one vector. It points in the direction of fastest local increase and is perpendicular to level curves or level surfaces.",
+      "rating": "***+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-13",
+      "prompt": "Correct this mistake in Gradient: adding partial derivatives into one scalar.",
+      "answer": "the gradient is a vector of components.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-14",
+      "prompt": "Why is it important to check assumptions when using Gradient?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. The gradient is the vector of first partial derivatives. It points toward fastest local increase, and its magnitude is that maximum rate.",
+      "rating": "****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-15",
+      "prompt": "Correct this second mistake in Gradient: reversing component order.",
+      "answer": "match the coordinate order used for the inputs.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Gradient?",
+      "answer": "Track the units in the notation: \\(T(x,y,z)\\) has unit K.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-17",
+      "prompt": "Correct this third mistake in Gradient: assuming the gradient points downhill.",
+      "answer": "grad f points toward fastest increase; downhill for a potential is often -grad f.",
+      "rating": "****+",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-18",
+      "prompt": "Design an exam solution plan for a multi-step gradient problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Form the gradient by placing the partial derivatives in coordinate order. For a temperature field, the gradient tells both the direction and strength of fastest local warming per metre. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-19",
+      "prompt": "How could an incorrect setup affect a gradient result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, adding partial derivatives into one scalar must be avoided: the gradient is a vector of components.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    },
+    {
+      "id": "math-ii-multivariable-calculus-gradient-20",
+      "prompt": "Give an exam-ready summary rule for Gradient.",
+      "answer": "The gradient is the vector of first partial derivatives. It points toward fastest local increase, and its magnitude is that maximum rate. If a formula is needed, use \\[ \\nabla f=(f_x,f_y,f_z)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-2"
+      ]
+    }
+  ]
+}

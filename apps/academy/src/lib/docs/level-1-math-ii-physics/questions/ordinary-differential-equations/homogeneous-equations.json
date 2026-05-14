@@ -1,0 +1,192 @@
+{
+  "courseId": "level-1-math-ii-physics",
+  "schemaVersion": 1,
+  "sectionId": "ordinary-differential-equations",
+  "topicId": "homogeneous-equations",
+  "topicTitle": "Homogeneous Equations",
+  "paperTags": [
+    "term-1"
+  ],
+  "questions": [
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-01",
+      "prompt": "What is the main purpose of Homogeneous Equations?",
+      "answer": "A first-order homogeneous ODE has a right-hand side that depends only on the ratio y over x. The substitution v equals y over x turns it into a separable equation.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-02",
+      "prompt": "What does \\(x\\) mean in Homogeneous Equations?",
+      "answer": "In Homogeneous Equations, \\(x\\) means independent variable.",
+      "rating": "*",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-03",
+      "prompt": "Identify another important piece of notation used in Homogeneous Equations.",
+      "answer": "In Homogeneous Equations, \\(y(x)\\) means dependent variable.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-04",
+      "prompt": "Before doing a homogeneous equations calculation, what setup information should be written down?",
+      "answer": "Write the variables, their meanings, and any units or assumptions. For this topic, the core setup is: Use y equals vx, then differentiate with the product rule.",
+      "rating": "*+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-05",
+      "prompt": "State a central formula or test for Homogeneous Equations.",
+      "answer": "The homogeneous first-order form is\n\\[\\frac{dy}{dx}=F\\left(\\frac{y}{x}\\right)\\]\nUse it only after the symbols in the formula have been identified for the specific homogeneous equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-06",
+      "prompt": "How is the formula or method in Homogeneous Equations interpreted rather than just memorised?",
+      "answer": "Interpret the symbols and the condition being tested. The substitution derivative is\n\\[y=vx,\\quad \\frac{dy}{dx}=v+x\\frac{dv}{dx}\\]\nUse it only after the symbols in the formula have been identified for the specific homogeneous equations problem.",
+      "rating": "**",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-07",
+      "prompt": "Solve dy/dx equals y/x plus 1 for a path y(x).",
+      "answer": "Put y=vx. Then dy/dx=v+x dv/dx. Substitute: \\[v+x\\frac{dv}{dx}=v+1\\] Subtract v from both sides: \\[x\\frac{dv}{dx}=1\\] Separate and integrate: \\[dv=\\frac{dx}{x}\\] so \\[v=\\ln|x|+C\\] Since y=vx, \\[y=x(\\ln|x|+C)\\]",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-08",
+      "prompt": "For dy/dx equals (x+y)/x, show the homogeneous substitution.",
+      "answer": "Rewrite the right side as \\[\\frac{x+y}{x}=1+\\frac{y}{x}\\] It depends only on y divided by x. Set y=vx and dy/dx=v+x dv/dx, then solve the resulting separable equation.",
+      "rating": "**+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-09",
+      "prompt": "What method choice is usually needed in a standard homogeneous equations question?",
+      "answer": "Choose the method from the structure of the problem, not from the symbols alone. In this topic, the relevant core idea is: Use y equals vx, then differentiate with the product rule.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-10",
+      "prompt": "Use the notation of Homogeneous Equations to explain what is being calculated or tested.",
+      "answer": "The calculation uses \\(x\\), meaning independent variable; \\(y(x)\\), meaning dependent variable; \\(v\\), meaning ratio y divided by x.",
+      "rating": "***",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-11",
+      "prompt": "Explain a common worked step in Homogeneous Equations.",
+      "answer": "A worked step should identify the relevant expression, substitute known quantities, and explain why the result matches the interpretation of Homogeneous Equations.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-12",
+      "prompt": "What physical or modelling interpretation can Homogeneous Equations have?",
+      "answer": "In a physics model, the idea of homogeneous equations helps translate a mathematical expression into a statement about the system. A first-order homogeneous ODE has a right-hand side that depends only on the ratio y over x. The substitution v equals y over x turns it into a separable equation.",
+      "rating": "***+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-13",
+      "prompt": "Correct this mistake in Homogeneous Equations: Calling every zero-right-side equation homogeneous.",
+      "answer": "in this first-order method, homogeneous means dependence on y divided by x.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-14",
+      "prompt": "Why is it important to check assumptions when using Homogeneous Equations?",
+      "answer": "The result is only meaningful when the definitions and assumptions match the problem. For first-order homogeneous equations, set v equal to y over x; the product-rule derivative creates a separable equation.",
+      "rating": "****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-15",
+      "prompt": "Correct this second mistake in Homogeneous Equations: Replacing dy/dx by v only.",
+      "answer": "because y equals vx, the derivative is v plus x dv/dx.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-16",
+      "prompt": "What units, dimensions, or variable-dependence check is useful in Homogeneous Equations?",
+      "answer": "Check that each variable depends on the intended inputs and that scalar or vector quantities are not mixed. For first-order homogeneous equations, set v equal to y over x; the product-rule derivative creates a separable equation.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-17",
+      "prompt": "Correct this third mistake in Homogeneous Equations: Replacing dy/dx by v only.",
+      "answer": "because y equals vx, the derivative is v plus x dv/dx.",
+      "rating": "****+",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-18",
+      "prompt": "Design an exam solution plan for a multi-step homogeneous equations problem.",
+      "answer": "First define the variables and notation. Next choose the core formula or method: Use y equals vx, then differentiate with the product rule. Then carry out the algebra or calculation, and finish by checking the result against the physical or mathematical interpretation.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-19",
+      "prompt": "How could an incorrect setup affect a homogeneous equations result?",
+      "answer": "An incorrect setup can make the calculation answer the wrong question even if the algebra is correct. For example, Calling every zero-right-side equation homogeneous must be avoided: in this first-order method, homogeneous means dependence on y divided by x.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    },
+    {
+      "id": "math-ii-ordinary-differential-equations-homogeneous-equations-20",
+      "prompt": "Give an exam-ready summary rule for Homogeneous Equations.",
+      "answer": "For first-order homogeneous equations, set v equal to y over x; the product-rule derivative creates a separable equation. If a formula is needed, use \\[\\frac{dy}{dx}=F\\left(\\frac{y}{x}\\right)\\] after checking that the notation and assumptions match the problem.",
+      "rating": "*****",
+      "paperTags": [
+        "term-1"
+      ]
+    }
+  ]
+}
