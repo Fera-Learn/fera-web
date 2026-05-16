@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "setId": "set-5",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A fifth Level 1 - Math I (Physics) exam set covering differentiation, limits, integration, complex numbers, series, vector spaces, linear systems, and diagonalisation.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show sufficient working to justify each answer.",
+    "Begin each main question on a new page."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mi-s5-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Differentiation and Limits",
+      "stem": "This question concerns product rules, algebraic limits, implicit differentiation, and first-principles differentiation.",
+      "title": "Derivatives and limiting behaviour",
+      "parts": [
+        {
+          "answer": "Use the product rule with \\(u=e^{2x}\\) and \\(v=\\cos x\\). Then \\(u'=2e^{2x}\\) and \\(v'=-\\sin x\\), so \\(h'(x)=2e^{2x}\\cos x-e^{2x}\\sin x=e^{2x}(2\\cos x-\\sin x)\\). At \\(x=0\\), \\(h'(0)=1(2-0)=2\\).",
+          "id": "l1mi-s5-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Differentiate \\(h(x)=e^{2x}\\cos x\\), and evaluate \\(h'(0)\\)."
+        },
+        {
+          "answer": "Direct substitution gives \\(0/0\\), so rationalise the numerator: \\(\\frac{\\sqrt{1+5x}-1}{x}\\cdot\\frac{\\sqrt{1+5x}+1}{\\sqrt{1+5x}+1}=\\frac{5x}{x(\\sqrt{1+5x}+1)}\\). For \\(x\\ne0\\), this is \\(\\frac{5}{\\sqrt{1+5x}+1}\\). Taking \\(x\\to0\\) gives \\(5/(1+1)=5/2\\).",
+          "id": "l1mi-s5-p1-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{\\sqrt{1+5x}-1}{x}\\)."
+        },
+        {
+          "answer": "Differentiate \\(x^2+2xy+3y^2=12\\) with respect to \\(x\\). This gives \\(2x+2(xy'+y)+6yy'=0\\). Collecting \\(y'\\) terms gives \\((2x+6y)y'=-(2x+2y)\\), so \\(y'=-(2x+2y)/(2x+6y)\\). At \\((0,2)\\), the slope is \\(-4/12=-1/3\\).",
+          "id": "l1mi-s5-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For the curve \\(x^2+2xy+3y^2=12\\), find \\(dy/dx\\) and evaluate the slope at \\((0,2)\\)."
+        },
+        {
+          "answer": "From first principles, \\(q'(x)=\\lim_{h\\to0}\\frac{q(x+h)-q(x)}{h}\\). For \\(q(x)=1/(x+2)\\), the difference quotient is \\(\\frac{1}{h}\\left(\\frac{1}{x+h+2}-\\frac{1}{x+2}\\right)\\). Combining fractions gives \\(\\frac{1}{h}\\cdot\\frac{(x+2)-(x+h+2)}{(x+h+2)(x+2)}=\\frac{-1}{(x+h+2)(x+2)}\\). Taking \\(h\\to0\\) gives \\(q'(x)=-1/(x+2)^2\\), for \\(x\\ne-2\\).",
+          "id": "l1mi-s5-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Using first principles, find the derivative of \\(q(x)=\\frac{1}{x+2}\\), where \\(x\\ne-2\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Integration",
+      "stem": "This question uses substitution, integration by parts, and rational integration.",
+      "title": "Integration methods",
+      "parts": [
+        {
+          "answer": "Let \\(u=1+x^2\\), so \\(du=2x\\,dx\\). The bounds become \\(u=1\\) when \\(x=0\\), and \\(u=2\\) when \\(x=1\\). Hence \\(\\int_0^1 x\\sqrt{1+x^2}\\,dx=\\frac12\\int_1^2 u^{1/2}\\,du=\\frac12\\left[\\frac{2}{3}u^{3/2}\\right]_1^2=\\frac13(2\\sqrt2-1)\\).",
+          "id": "l1mi-s5-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^1 x\\sqrt{1+x^2}\\,dx\\)."
+        },
+        {
+          "answer": "Use integration by parts with \\(u=\\ln x\\) and \\(dv=x^2\\,dx\\). Then \\(du=dx/x\\) and \\(v=x^3/3\\). Thus \\(\\int_0^1 x^2\\ln x\\,dx=\\left[\\frac{x^3}{3}\\ln x\\right]_0^1-\\frac13\\int_0^1x^2\\,dx\\). The boundary term is \\(0\\), because \\(x^3\\ln x\\to0\\) as \\(x\\to0^+\\). Therefore the integral is \\(-\\frac13\\cdot\\frac13=-\\frac19\\).",
+          "id": "l1mi-s5-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^1 x^2\\ln x\\,dx\\)."
+        },
+        {
+          "answer": "Divide first: \\(\\frac{4x^2+3x+5}{x^2+1}=4+\\frac{3x+1}{x^2+1}\\). Hence \\(\\int\\frac{4x^2+3x+5}{x^2+1}\\,dx=\\int4\\,dx+3\\int\\frac{x}{x^2+1}\\,dx+\\int\\frac{dx}{x^2+1}\\). These terms give \\(4x+\\frac32\\ln(x^2+1)+\\tan^{-1}x+C\\).",
+          "id": "l1mi-s5-p1-q2-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\displaystyle \\int\\frac{4x^2+3x+5}{x^2+1}\\,dx\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Complex Numbers",
+      "stem": "Use principal arguments in \\((-\\pi,\\pi]\\) unless all arguments are requested.",
+      "title": "Complex form, roots, and exponential equations",
+      "parts": [
+        {
+          "answer": "The modulus is \\(|z|=\\sqrt{(-3)^2+(3\\sqrt3)^2}=\\sqrt{9+27}=6\\). The point is in the second quadrant and has reference angle \\(\\pi/3\\), so \\(\\operatorname{Arg}(z)=2\\pi/3\\). Therefore \\(z=6e^{2\\pi i/3}\\).",
+          "id": "l1mi-s5-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Write \\(z=-3+3\\sqrt3\\,i\\) in exponential form."
+        },
+        {
+          "answer": "Write the right-hand side as \\(27e^{-i\\pi/2}\\). The cube roots have modulus \\(27^{1/3}=3\\) and arguments \\((-\\pi/2+2k\\pi)/3=-\\pi/6+2k\\pi/3\\), for \\(k=0,1,2\\). Thus the roots are \\(3e^{-i\\pi/6}\\), \\(3e^{i\\pi/2}\\), and \\(3e^{i7\\pi/6}\\). In rectangular form these are \\(\\frac{3\\sqrt3}{2}-\\frac32 i\\), \\(3i\\), and \\(-\\frac{3\\sqrt3}{2}-\\frac32 i\\).",
+          "id": "l1mi-s5-p1-q3-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Solve \\(w^3=-27i\\), giving all roots in exponential and rectangular form."
+        },
+        {
+          "answer": "By De Moivre's theorem, \\((\\cos\\theta+i\\sin\\theta)^3=\\cos3\\theta+i\\sin3\\theta\\). Expanding the left side gives real part \\(\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta\\). Equating real parts, \\(\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta\\sin^2\\theta\\). Since \\(\\sin^2\\theta=1-\\cos^2\\theta\\), this becomes \\(\\cos3\\theta=\\cos^3\\theta-3\\cos\\theta(1-\\cos^2\\theta)=4\\cos^3\\theta-3\\cos\\theta\\).",
+          "id": "l1mi-s5-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use De Moivre's theorem to express \\(\\cos3\\theta\\) as a polynomial in \\(\\cos\\theta\\)."
+        },
+        {
+          "answer": "Let \\(z=x+iy\\). The equation is \\(e^x e^{iy}=-2i=2e^{i(-\\pi/2+2k\\pi)}\\). Matching moduli gives \\(e^x=2\\), so \\(x=\\ln2\\). Matching arguments gives \\(y=-\\pi/2+2k\\pi\\). Hence \\(z=\\ln2+i(-\\pi/2+2k\\pi)\\), where \\(k\\in\\mathbb Z\\).",
+          "id": "l1mi-s5-p1-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find all complex solutions of \\(e^z=-2i\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Series",
+      "stem": "This question concerns positive-series tests, alternating series, and power-series endpoints.",
+      "title": "Series convergence and endpoint tests",
+      "parts": [
+        {
+          "answer": "Use limit comparison with \\(b_n=1/n^2\\). Then \\(\\frac{(4n^2+1)/(n^4+3)}{1/n^2}=\\frac{n^2(4n^2+1)}{n^4+3}\\to4\\). This limit is positive and finite, and \\(\\sum1/n^2\\) converges. Therefore the given series converges.",
+          "id": "l1mi-s5-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Use limit comparison to determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{4n^2+1}{n^4+3}\\) converges."
+        },
+        {
+          "answer": "Let \\(a_n=n^3/3^n\\). The ratio is \\(\\frac{a_{n+1}}{a_n}=\\frac{(n+1)^3}{3^{n+1}}\\frac{3^n}{n^3}=\\frac13(1+1/n)^3\\). The limit is \\(1/3\\), which is less than \\(1\\). By the ratio test, the series converges.",
+          "id": "l1mi-s5-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use the ratio test to determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{n^3}{3^n}\\) converges."
+        },
+        {
+          "answer": "The magnitudes are \\(b_n=n/(n^2+1)\\), and \\(b_n\\to0\\). For large \\(n\\), \\(b_n\\) decreases because the denominator grows quadratically while the numerator grows linearly. The alternating series test gives convergence. For absolute convergence, compare \\(n/(n^2+1)\\) with \\(1/n\\): \\(\\frac{n/(n^2+1)}{1/n}=\\frac{n^2}{n^2+1}\\to1\\). Since \\(\\sum1/n\\) diverges, the absolute-value series diverges. The original series is conditionally convergent.",
+          "id": "l1mi-s5-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}(-1)^{n+1}\\frac{n}{n^2+1}\\) is absolutely convergent, conditionally convergent, or divergent."
+        },
+        {
+          "answer": "Use the ratio test on absolute values. The ratio limit is \\(|x+2|/5\\), so the series converges absolutely when \\(|x+2|<5\\), giving \\(-7<x<3\\). At \\(x=3\\), the series is \\(\\sum1/n\\), which diverges. At \\(x=-7\\), the series is \\(\\sum(-1)^n/n\\), which converges by the alternating series test. The interval is \\([-7,3)\\).",
+          "id": "l1mi-s5-p1-q4-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the interval of convergence of \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(x+2)^n}{n5^n}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Vector Spaces and Subspaces",
+      "stem": "This question concerns closure properties, subspaces of \\(\\mathbb R^3\\), affine solution sets, and bases.",
+      "title": "Subspaces and affine planes",
+      "parts": [
+        {
+          "answer": "A non-empty subset \\(W\\) must be closed under vector addition and scalar multiplication using the operations from the parent vector space. Thus, if \\(\\mathbf u,\\mathbf v\\in W\\), then \\(\\mathbf u+\\mathbf v\\in W\\). If \\(\\lambda\\in\\mathbb R\\) and \\(\\mathbf u\\in W\\), then \\(\\lambda\\mathbf u\\in W\\). Equivalently, every linear combination \\(\\lambda\\mathbf u+\\mu\\mathbf v\\) stays in \\(W\\).",
+          "id": "l1mi-s5-p1-q5-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "State the closure properties that a non-empty subset \\(W\\) of a vector space must satisfy to be a subspace."
+        },
+        {
+          "answer": "The zero vector is in \\(W\\) because \\(0-2\\cdot0+0=0\\). Let \\(\\mathbf u=(x_1,y_1,z_1)\\) and \\(\\mathbf v=(x_2,y_2,z_2)\\) be in \\(W\\), so \\(x_1-2y_1+z_1=0\\) and \\(x_2-2y_2+z_2=0\\). Then \\((x_1+x_2)-2(y_1+y_2)+(z_1+z_2)=(x_1-2y_1+z_1)+(x_2-2y_2+z_2)=0\\), so \\(\\mathbf u+\\mathbf v\\in W\\). For \\(\\lambda\\in\\mathbb R\\), \\(\\lambda x_1-2\\lambda y_1+\\lambda z_1=\\lambda(x_1-2y_1+z_1)=0\\), so \\(\\lambda\\mathbf u\\in W\\). Hence \\(W\\) is a subspace of \\(\\mathbb R^3\\).",
+          "id": "l1mi-s5-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Prove that \\(W=\\{(x,y,z)\\in\\mathbb R^3:x-2y+z=0\\}\\) is a subspace of \\(\\mathbb R^3\\)."
+        },
+        {
+          "answer": "The set \\(A_c\\) is a subspace exactly when \\(c=0\\). If \\(c=0\\), then \\(A_c=W\\), and part (b) proves this is a subspace. If \\(c\\ne0\\), the zero vector is not in \\(A_c\\) because \\(0-2\\cdot0+0=0\\ne c\\). Since every subspace must contain the zero vector, \\(A_c\\) is not a subspace when \\(c\\ne0\\).",
+          "id": "l1mi-s5-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For \\(A_c=\\{(x,y,z)\\in\\mathbb R^3:x-2y+z=c\\}\\), classify for which real values of \\(c\\) the set \\(A_c\\) is a subspace, and explain your classification."
+        },
+        {
+          "answer": "From the defining equation \\(x-2y+z=0\\), we have \\(x=2y-z\\). Let \\(y=s\\) and \\(z=t\\). Then \\((x,y,z)=(2s-t,s,t)=s(2,1,0)+t(-1,0,1)\\). The vectors \\((2,1,0)\\) and \\((-1,0,1)\\) are independent because \\(a(2,1,0)+b(-1,0,1)=\\mathbf0\\) gives \\(a=0\\) from the second component and then \\(b=0\\) from the third component. A basis is \\(\\{(2,1,0),(-1,0,1)\\}\\), so \\(\\dim W=2\\).",
+          "id": "l1mi-s5-p1-q5-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find a basis and the dimension of \\(W\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Linear Systems",
+      "stem": "Consider the parameter-dependent system\n\\[\n\\begin{aligned}\nx+y+z&=3,\\\\\n2x+3y+z&=7,\\\\\nx+2y+az&=b.\n\\end{aligned}\n\\]",
+      "title": "Classifying a parameter-dependent system",
+      "parts": [
+        {
+          "answer": "The coefficient matrix is \\(A=\\begin{pmatrix}1&1&1\\\\2&3&1\\\\1&2&a\\end{pmatrix}\\). Its determinant is \\(1(3a-2)-1(2a-1)+1(4-3)=a\\). Therefore the system has a unique solution exactly when \\(a\\ne0\\).",
+          "id": "l1mi-s5-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the values of \\(a\\) for which the system has a unique solution."
+        },
+        {
+          "answer": "Use row reduction on the augmented matrix. Apply \\(R_2\\leftarrow R_2-2R_1\\) and \\(R_3\\leftarrow R_3-R_1\\), giving rows \\((0,1,-1|1)\\) and \\((0,1,a-1|b-3)\\). Then \\(R_3\\leftarrow R_3-R_2\\) gives \\((0,0,a|b-4)\\). When \\(a=0\\), this row is \\((0,0,0|b-4)\\). If \\(b\\ne4\\), the system is inconsistent. If \\(b=4\\), the row is \\(0=0\\), leaving a free variable and infinitely many solutions.",
+          "id": "l1mi-s5-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Classify the non-unique cases as no solution or infinitely many solutions."
+        },
+        {
+          "answer": "For \\(a=0\\) and \\(b=4\\), the reduced equations are \\(x+y+z=3\\) and \\(y-z=1\\). Let \\(z=t\\). Then \\(y=1+t\\), and \\(x=3-y-z=3-(1+t)-t=2-2t\\). Therefore the solutions are \\((x,y,z)=(2-2t,1+t,t)\\), where \\(t\\in\\mathbb R\\).",
+          "id": "l1mi-s5-p1-q6-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For the infinitely many solution case, write the solution set in parameter form."
+        },
+        {
+          "answer": "For \\(a=1\\), \\(b=5\\), the final reduced row gives \\(z=1\\). The row \\(y-z=1\\) gives \\(y=2\\). The first equation gives \\(x+2+1=3\\), so \\(x=0\\). The solution is \\((x,y,z)=(0,2,1)\\).",
+          "id": "l1mi-s5-p1-q6-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Solve the system for \\(a=1\\) and \\(b=5\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s5-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Eigenvalues and Matrix Structure",
+      "stem": "Let\n\\[\nA=\\begin{pmatrix}3&1&0\\\\1&3&0\\\\0&0&5\\end{pmatrix}.\n\\]",
+      "title": "Eigenvectors, diagonalisation, and powers",
+      "parts": [
+        {
+          "answer": "Compute \\(A(1,1,0)^T=(4,4,0)^T=4(1,1,0)^T\\), so the eigenvalue is \\(4\\). Next, \\(A(1,-1,0)^T=(2,-2,0)^T=2(1,-1,0)^T\\), so the eigenvalue is \\(2\\). Finally, \\(A(0,0,1)^T=(0,0,5)^T=5(0,0,1)^T\\), so the eigenvalue is \\(5\\).",
+          "id": "l1mi-s5-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Verify that \\(\\mathbf v_1=(1,1,0)^T\\), \\(\\mathbf v_2=(1,-1,0)^T\\), and \\(\\mathbf v_3=(0,0,1)^T\\) are eigenvectors of \\(A\\), and state the corresponding eigenvalues."
+        },
+        {
+          "answer": "Use the eigenvectors as columns: \\(P=\\begin{pmatrix}1&1&0\\\\1&-1&0\\\\0&0&1\\end{pmatrix}\\). The matching diagonal matrix is \\(D=\\begin{pmatrix}4&0&0\\\\0&2&0\\\\0&0&5\\end{pmatrix}\\). Since \\(\\det P=-2\\ne0\\), \\(P\\) is invertible, so \\(A=PDP^{-1}\\).",
+          "id": "l1mi-s5-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Construct matrices \\(P\\) and \\(D\\) such that \\(A=PDP^{-1}\\), and justify that this is a valid diagonalisation."
+        },
+        {
+          "answer": "From \\(A=PDP^{-1}\\), \\(A^n=PD^nP^{-1}\\). Here \\(D^n=\\operatorname{diag}(4^n,2^n,5^n)\\). Multiplying the \\(2\\times2\\) block gives \\(A^n=\\begin{pmatrix}(4^n+2^n)/2&(4^n-2^n)/2&0\\\\(4^n-2^n)/2&(4^n+2^n)/2&0\\\\0&0&5^n\\end{pmatrix}\\).",
+          "id": "l1mi-s5-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use the diagonalisation to find a formula for \\(A^n\\), where \\(n\\) is a positive integer."
+        },
+        {
+          "answer": "The statement is true. If \\(A=PDP^{-1}\\) and \\(A\\) is invertible, then none of the diagonal entries of \\(D\\) is zero. Hence \\(D^{-1}\\) exists, and \\(A^{-1}=PD^{-1}P^{-1}\\). Since \\(D^{-1}\\) is diagonal, this is a diagonalisation of \\(A^{-1}\\).",
+          "id": "l1mi-s5-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Decide whether the statement is true or false, with justification: if \\(A\\) is invertible and diagonalizable, then \\(A^{-1}\\) is diagonalizable."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math I (Physics) Paper 1",
+  "totalMarks": 105
+}

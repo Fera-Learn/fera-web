@@ -6,7 +6,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "check:diagrams": "node scripts/validate-diagrams-package.mjs && node apps/academy/scripts/validate-chart-demos-diagrams.mjs",
+    "check-types": "turbo run check-types && pnpm check:diagrams"
   },
   "devDependencies": {
     "prettier": "^3.7.4",

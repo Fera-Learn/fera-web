@@ -8,9 +8,9 @@ The modulus of a complex number is its distance from the origin in the complex p
 
 <Equation label="Modulus" tex="r = |z| = \sqrt{a^2 + b^2}" />
 
-The argument is the angle measured from the positive real axis:
+The argument is the angle measured from the positive real axis. Use a quadrant-aware inverse tangent so the signs of both coordinates are respected:
 
-<Equation label="Argument" tex="\theta = \arg(z) = \arctan\left(\frac{b}{a}\right)" />
+<Equation label="Argument" tex="\theta = \arg(z) = \operatorname{atan2}(b,a)" />
 
 ### Polar (Modulus-Argument) Form
 
@@ -25,8 +25,8 @@ This is known as the **modulus-argument form** or **polar form** of a complex nu
 To convert from Cartesian form \(z = a + bi\) to polar form:
 
 1. Calculate the modulus: \(r = \sqrt{a^2 + b^2}\)
-2. Calculate the argument: \(\theta = \arctan\left(\frac{b}{a}\right)\)
-3. Adjust quadrant based on signs of \(a\) and \(b\)
+2. Calculate the argument: \(\theta = \operatorname{atan2}(b,a)\), which also covers \(a=0\)
+3. If using ordinary \(\arctan(b/a)\), adjust the quadrant based on signs of \(a\) and \(b\)
 
 For example, for \(z = 1 + i\):
 - \(r = \sqrt{1^2 + 1^2} = \sqrt{2}\)

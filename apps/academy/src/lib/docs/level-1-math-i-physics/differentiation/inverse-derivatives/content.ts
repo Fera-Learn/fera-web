@@ -15,6 +15,8 @@ If \(y = \arcsin(x)\), then \(\sin(y) = x\)
 
 <Equation label="Example" tex="\cos(y) \cdot \frac{dy}{dx} = 1" />
 
+Since \(y=\arcsin x\) lies in the principal range \([-\pi/2,\pi/2]\), we have \(\cos y\ge0\). This justifies using the positive square root.
+
 <Equation label="Result" tex="\frac{dy}{dx} = \frac{1}{\cos(y)} = \frac{1}{\sqrt{1 - \sin^2(y)}} = \frac{1}{\sqrt{1 - x^2}}" />
 
 ## General Formula

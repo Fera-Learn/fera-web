@@ -36,7 +36,7 @@ To test absolute convergence, convert the problem into a non-negative series.
 
 ## Examples
 
-The series \\(\sum_{n=1}^{\infty}(-1)^n/n^2\\) is absolutely convergent because its absolute-value series is a convergent \\(p\\)-series.
+The series \\(\sum_{n=1}^{\infty}(-1)^n/n^2\\) is absolutely convergent because its absolute-value series is a convergent p-series. The p-series rule says \\(\sum 1/n^p\\) converges when \\(p>1\\).
 
 <Equation label="Alternating square example" tex="\sum_{n=1}^{\infty}\left|\frac{(-1)^n}{n^2}\right|=\sum_{n=1}^{\infty}\frac{1}{n^2}" />
 

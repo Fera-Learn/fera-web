@@ -14,8 +14,9 @@ Adding complex numbers corresponds to **vector addition** in the complex plane:
 - Each complex number is a vector from the origin
 - Adding \(z_1 + z_2\) means placing the vectors tip-to-tail
 - The resulting vector goes from the origin to the sum
+- The translated copy of \(z_2\) runs from the tip of \(z_1\) to the final tip, but the resultant sum starts at the origin
 
-<Equation label="VectorSum" tex="\vec{z_1} + \vec{z_2} = \overrightarrow{\text{tip of } z_1 \text{ to tip of combined}}" />
+<Equation label="VectorSum" tex="\overrightarrow{0z_1}+\overrightarrow{0z_2}=\overrightarrow{0(z_1+z_2)}" />
 
 ### Properties
 

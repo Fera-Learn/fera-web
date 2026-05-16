@@ -20,6 +20,8 @@ If \(z = r(\cos\theta + i\sin\theta)\), then:
 
 <Equation label="Power" tex="z^n = r^n(\cos(n\theta) + i\sin(n\theta))" />
 
+Here \(\text{cis}\theta\) is shorthand, where \(\text{cis}\theta\) means \(\cos\theta+i\sin\theta\).
+
 For example, to find \((1 + i)^4\):
 - Write in polar form: \(1 + i = \sqrt{2} \text{cis} \frac{\pi}{4}\)
 - Apply De Moivre: \((\sqrt{2})^4 \text{cis} \pi = 4 \text{cis} \pi = -4\)

@@ -12,11 +12,13 @@ This limit is remarkable because both the numerator and denominator approach 0, 
 
 We can prove this using geometry. Consider the unit circle and compare areas of triangles and sectors:
 
-<Equation label="Geometric Bounds" tex="\cos x \leq \frac{\sin x}{x} \leq 1 \quad \text{for } 0 < x < \frac{\pi}{2}" />
+<Equation label="Geometric Bounds" tex="\cos x \leq \frac{\sin x}{x} \leq 1 \quad \text{for } 0 \lt x \lt \frac{\pi}{2}" />
 
 As x → 0, cos x → 1, so by the squeeze theorem:
 
 <Equation label="Squeeze Result" tex="\lim_{x \to 0} \frac{\sin x}{x} = 1" />
+
+For negative \(x\), the ratio \(\sin x/x\) is even because \(\sin(-x)/(-x)=\sin x/x\). Therefore the left-hand limit equals the right-hand limit, giving the full two-sided limit.
 
 ### Related Limits
 

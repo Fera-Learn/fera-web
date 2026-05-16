@@ -34,7 +34,9 @@ Derived from the double angle formulas:
 
 <Equation label="Cosine half" tex="\cos\left(\frac{A}{2}\right) = \pm\sqrt{\frac{1 + \cos A}{2}}" />
 
-<Equation label="Tangent half" tex="\tan\left(\frac{A}{2}\right) = \pm\sqrt{\frac{1 - \cos A}{1 + \cos A}} = \frac{\sin A}{1 + \cos A}" />
+<Equation label="Tangent half radical" tex="\tan\left(\frac{A}{2}\right) = \pm\sqrt{\frac{1 - \cos A}{1 + \cos A}}" />
 
-The \(\pm\) sign depends on the quadrant in which the angle lies.
+<Equation label="Tangent half rational" tex="\tan\left(\frac{A}{2}\right) = \frac{\sin A}{1 + \cos A}" />
+
+The \(\pm\) sign depends on the quadrant in which the angle lies. Use the rational form when it is defined; use the radical form only where the square-root sign is chosen from the quadrant of \(A/2\).
 `;

@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-i-physics",
+  "setId": "set-8",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "An eighth Level 1 - Math I (Physics) exam set covering inverse differentiation, integration, complex equations, convergence, Taylor methods, systems, and cyclic group structure.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry the same number of marks.",
+    "Show sufficient working to justify each answer.",
+    "Begin each main question on a new page."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mi-s8-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Differentiation and Limits",
+      "stem": "This question concerns inverse-function derivatives, trigonometric limits, first principles, and tangent lines.",
+      "title": "Inverse derivatives and tangents",
+      "parts": [
+        {
+          "answer": "Use the chain rule. If \\(f(x)=\\tan^{-1}(x^2)\\), then \\(f'(x)=\\frac{2x}{1+x^4}\\). At \\(x=1\\), \\(f'(1)=2/(1+1)=1\\).",
+          "id": "l1mi-s8-p1-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Differentiate \\(f(x)=\\tan^{-1}(x^2)\\), and evaluate \\(f'(1)\\)."
+        },
+        {
+          "answer": "Use the small-angle limits \\(1-\\cos(5x)\\sim(5x)^2/2\\) and \\(\\sin(2x)\\sim2x\\). Therefore \\(\\frac{1-\\cos(5x)}{x\\sin(2x)}\\sim\\frac{25x^2/2}{2x^2}=25/4\\).",
+          "id": "l1mi-s8-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{1-\\cos(5x)}{x\\sin(2x)}\\)."
+        },
+        {
+          "answer": "From first principles, \\(f'(x)=\\lim_{h\\to0}\\frac{(x+h)^3-x^3}{h}\\). Expanding gives \\(\\frac{x^3+3x^2h+3xh^2+h^3-x^3}{h}=3x^2+3xh+h^2\\). Taking \\(h\\to0\\), \\(f'(x)=3x^2\\).",
+          "id": "l1mi-s8-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Using first principles, find the derivative of \\(f(x)=x^3\\)."
+        },
+        {
+          "answer": "Differentiate \\(x^2+4y^2=8\\) implicitly: \\(2x+8yy'=0\\), so \\(y'=-x/(4y)\\). At \\((2,1)\\), the slope is \\(-1/2\\). The tangent line is \\(y-1=-\\frac12(x-2)\\), or \\(y=2-x/2\\).",
+          "id": "l1mi-s8-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the tangent line to \\(x^2+4y^2=8\\) at \\((2,1)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Integration",
+      "stem": "This question uses trigonometric substitution, repeated integration by parts, and rational integration.",
+      "title": "Trigonometric and rational integration",
+      "parts": [
+        {
+          "answer": "Let \\(u=\\cos x\\), so \\(du=-\\sin x\\,dx\\). The bounds are \\(u=1\\) at \\(x=0\\), and \\(u=0\\) at \\(x=\\pi/2\\). Hence \\(\\int_0^{\\pi/2}\\sin x\\cos^4x\\,dx=-\\int_1^0u^4\\,du=\\int_0^1u^4\\,du=1/5\\).",
+          "id": "l1mi-s8-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^{\\pi/2}\\sin x\\cos^4x\\,dx\\)."
+        },
+        {
+          "answer": "Integrate by parts with \\(u=x^2\\), \\(dv=\\sin x\\,dx\\). Then \\(du=2x\\,dx\\), \\(v=-\\cos x\\), so \\(I=-x^2\\cos x+2\\int x\\cos x\\,dx\\). For the remaining integral, use parts again: \\(\\int x\\cos x\\,dx=x\\sin x+\\cos x\\). Hence \\(I=-x^2\\cos x+2x\\sin x+2\\cos x+C\\).",
+          "id": "l1mi-s8-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\displaystyle \\int x^2\\sin x\\,dx\\)."
+        },
+        {
+          "answer": "Divide first: \\(\\frac{x^3+2x^2+2x+3}{x^2+1}=x+2+\\frac{x+1}{x^2+1}\\). Therefore the integral is \\(\\int(x+2)\\,dx+\\int\\frac{x}{x^2+1}\\,dx+\\int\\frac{dx}{x^2+1}\\). This gives \\(x^2/2+2x+\\frac12\\ln(x^2+1)+\\tan^{-1}x+C\\).",
+          "id": "l1mi-s8-p1-q2-c",
+          "label": "(c)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\displaystyle \\int\\frac{x^3+2x^2+2x+3}{x^2+1}\\,dx\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Complex Numbers",
+      "stem": "This question uses exponential form, De Moivre's theorem, roots, and hyperbolic equations.",
+      "title": "Complex exponential and root methods",
+      "parts": [
+        {
+          "answer": "The number is already in exponential form: \\(e^{-1+i3\\pi/4}=e^{-1}e^{i3\\pi/4}\\). Its modulus is \\(e^{-1}\\) and its argument is \\(3\\pi/4\\). In rectangular form it is \\(e^{-1}(\\cos(3\\pi/4)+i\\sin(3\\pi/4))=\\frac{e^{-1}\\sqrt2}{2}(-1+i)\\).",
+          "id": "l1mi-s8-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the modulus, argument, and rectangular form of \\(e^{-1+i3\\pi/4}\\)."
+        },
+        {
+          "answer": "By De Moivre, \\((\\cos\\theta+i\\sin\\theta)^2=\\cos2\\theta+i\\sin2\\theta\\). Expanding the left side gives \\(\\cos^2\\theta-\\sin^2\\theta+2i\\sin\\theta\\cos\\theta\\). Equating imaginary parts gives \\(\\sin2\\theta=2\\sin\\theta\\cos\\theta\\).",
+          "id": "l1mi-s8-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use De Moivre's theorem to derive \\(\\sin2\\theta=2\\sin\\theta\\cos\\theta\\)."
+        },
+        {
+          "answer": "Write \\(16i=16e^{i(\\pi/2+2k\\pi)}\\). The fourth roots have modulus \\(2\\) and arguments \\((\\pi/2+2k\\pi)/4=\\pi/8+k\\pi/2\\), for \\(k=0,1,2,3\\). Therefore the roots are \\(2e^{i(\\pi/8+k\\pi/2)}\\), \\(k=0,1,2,3\\).",
+          "id": "l1mi-s8-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find all fourth roots of \\(16i\\), giving the roots in exponential form."
+        },
+        {
+          "answer": "Use \\(\\sinh z=(e^z-e^{-z})/2\\). The equation \\(\\sinh z=0\\) gives \\(e^z-e^{-z}=0\\). Multiplying by \\(e^z\\), which is never zero, gives \\(e^{2z}=1\\). Hence \\(2z=2\\pi i k\\), so \\(z=\\pi i k\\), where \\(k\\in\\mathbb Z\\).",
+          "id": "l1mi-s8-p1-q3-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Solve \\(\\sinh z=0\\) for complex \\(z\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Series",
+      "stem": "This question concerns p-series, limit comparison, conditional convergence, and a shifted power series.",
+      "title": "Series tests and convergence interval",
+      "parts": [
+        {
+          "answer": "This is a \\(p\\)-series with exponent \\(4/3\\). Since \\(4/3>1\\), the series \\(\\sum_{n=1}^{\\infty}1/n^{4/3}\\) converges.",
+          "id": "l1mi-s8-p1-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Classify \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{1}{n^{4/3}}\\)."
+        },
+        {
+          "answer": "Use limit comparison with \\(1/n^2\\). Then \\(\\frac{(5n^3+1)/(n^5+2n)}{1/n^2}=\\frac{n^2(5n^3+1)}{n^5+2n}\\to5\\). Since this limit is positive and finite and \\(\\sum1/n^2\\) converges, the given series converges.",
+          "id": "l1mi-s8-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use limit comparison to classify \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{5n^3+1}{n^5+2n}\\)."
+        },
+        {
+          "answer": "The magnitudes \\(1/(n+\\sqrt n)\\) tend to \\(0\\) and decrease, so the alternating series test gives convergence. For absolute convergence, \\(\\frac{1/(n+\\sqrt n)}{1/n}=\\frac{n}{n+\\sqrt n}\\to1\\). Since the harmonic series diverges, the absolute-value series diverges. Thus the original series is conditionally convergent.",
+          "id": "l1mi-s8-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n+\\sqrt n}\\) is absolutely convergent, conditionally convergent, or divergent."
+        },
+        {
+          "answer": "Let \\(u=2x-1\\). The series is \\(\\sum u^n/n\\), which converges for \\(|u|<1\\). Thus \\(|2x-1|<1\\), so \\(0<x<1\\). At \\(x=0\\), \\(u=-1\\), giving the alternating harmonic series, which converges. At \\(x=1\\), \\(u=1\\), giving the harmonic series, which diverges. The interval is \\([0,1)\\).",
+          "id": "l1mi-s8-p1-q4-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the interval of convergence of \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(2x-1)^n}{n}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Taylor Series and Matrices",
+      "stem": "This question combines a binomial Taylor approximation with determinant and orthogonal-matrix checks.",
+      "title": "Taylor approximation and matrix tests",
+      "parts": [
+        {
+          "answer": "For \\(f(x)=(1+x)^{1/2}\\), the derivatives at \\(0\\) give coefficients \\(1\\), \\(1/2\\), \\(-1/8\\), and \\(1/16\\). Thus \\(P_3(x)=1+x/2-x^2/8+x^3/16\\). At \\(x=0.1\\), \\(P_3(0.1)=1+0.05-0.00125+0.0000625=1.0488125\\).",
+          "id": "l1mi-s8-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the cubic Taylor polynomial for \\(\\sqrt{1+x}\\) about \\(0\\), and use it to approximate \\(\\sqrt{1.1}\\)."
+        },
+        {
+          "answer": "For \\(f(x)=\\sqrt{1+x}\\), \\(f^{(4)}(x)=-\\frac{15}{16}(1+x)^{-7/2}\\). On \\(0\\le x\\le0.1\\), \\(|f^{(4)}(x)|\\le15/16\\). Hence \\(|R_3(0.1)|\\le\\frac{15/16}{4!}(0.1)^4=\\frac{15}{384}10^{-4}\\approx0.00000391\\).",
+          "id": "l1mi-s8-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Use a Lagrange remainder bound for the approximation in part (a)."
+        },
+        {
+          "answer": "Expand along the first row: \\(\\det\\begin{pmatrix}1&0&k\\\\2&1&3\\\\0&1&k\\end{pmatrix}=1(k-3)+k(2)=3k-3\\). The matrix is singular when \\(3k-3=0\\), so \\(k=1\\).",
+          "id": "l1mi-s8-p1-q5-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find \\(k\\) such that \\(\\begin{pmatrix}1&0&k\\\\2&1&3\\\\0&1&k\\end{pmatrix}\\) is singular."
+        },
+        {
+          "answer": "Let \\(Q=\\frac15\\begin{pmatrix}3&4\\\\-4&3\\end{pmatrix}\\). Its columns are \\((3/5,-4/5)^T\\) and \\((4/5,3/5)^T\\). Each has squared length \\(9/25+16/25=1\\), and their dot product is \\(12/25-12/25=0\\). Therefore the columns are orthonormal and \\(Q\\) is orthogonal.",
+          "id": "l1mi-s8-p1-q5-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Show that \\(Q=\\frac15\\begin{pmatrix}3&4\\\\-4&3\\end{pmatrix}\\) is orthogonal."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Linear Systems",
+      "stem": "Consider the parameter-dependent system\n\\[\n\\begin{aligned}\nx+y+z&=1,\\\\\n3x+4y+2z&=6,\\\\\n2x+3y+az&=b.\n\\end{aligned}\n\\]",
+      "title": "Consistency and solution sets",
+      "parts": [
+        {
+          "answer": "Apply \\(R_2\\leftarrow R_2-3R_1\\) and \\(R_3\\leftarrow R_3-2R_1\\). This gives rows \\((0,1,-1|3)\\) and \\((0,1,a-2|b-2)\\). Subtracting gives the final row \\((0,0,a-1|b-5)\\). Thus the system has a unique solution when \\(a\\ne1\\).",
+          "id": "l1mi-s8-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the values of \\(a\\) for which the system has a unique solution."
+        },
+        {
+          "answer": "When \\(a=1\\), the final row is \\((0,0,0|b-5)\\). If \\(b\\ne5\\), this is inconsistent, so there is no solution. If \\(b=5\\), the row is \\(0=0\\), so there is a free variable and infinitely many solutions.",
+          "id": "l1mi-s8-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Classify the non-unique cases."
+        },
+        {
+          "answer": "For \\(a=1\\), \\(b=5\\), the reduced equations are \\(x+y+z=1\\) and \\(y-z=3\\). Let \\(z=t\\). Then \\(y=3+t\\), and \\(x=1-(3+t)-t=-2-2t\\). Thus \\((x,y,z)=(-2-2t,3+t,t)\\), where \\(t\\in\\mathbb R\\).",
+          "id": "l1mi-s8-p1-q6-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For the infinitely many solution case, write the solution set in parameter form."
+        },
+        {
+          "answer": "For \\(a=2\\), \\(b=7\\), the final row gives \\(z=2\\). Then \\(y-z=3\\) gives \\(y=5\\). The first equation gives \\(x+5+2=1\\), so \\(x=-6\\). The solution is \\((-6,5,2)\\).",
+          "id": "l1mi-s8-p1-q6-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Solve the system for \\(a=2\\) and \\(b=7\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mi-s8-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Cyclic Groups and Group Structure",
+      "stem": "This question uses \\(\\mathbb Z_6=\\{0,1,2,3,4,5\\}\\) under addition modulo \\(6\\).",
+      "title": "Cyclic groups, order, and subgroups",
+      "parts": [
+        {
+          "answer": "Closure holds because the sum of any two residues, reduced modulo \\(6\\), is again one of \\(0,1,2,3,4,5\\). Associativity is inherited from integer addition before reducing modulo \\(6\\). The identity is \\(0\\), since \\(a+0\\equiv a\\pmod 6\\). Each element has an inverse in the set: \\(0^{-1}=0\\), \\(1^{-1}=5\\), \\(2^{-1}=4\\), \\(3^{-1}=3\\), \\(4^{-1}=2\\), and \\(5^{-1}=1\\) under addition modulo \\(6\\). Therefore \\(\\mathbb Z_6\\) is a group.",
+          "id": "l1mi-s8-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Verify that \\(\\mathbb Z_6\\) under addition modulo \\(6\\) is a group."
+        },
+        {
+          "answer": "Repeatedly adding \\(2\\) modulo \\(6\\) gives \\(0\\), then \\(2\\), then \\(4\\), then \\(6\\equiv0\\pmod 6\\). Thus \\(\\langle2\\rangle=\\{0,2,4\\}\\). The first positive multiple of \\(2\\) that returns to \\(0\\) is \\(3\\cdot2=6\\), so the order of \\(2\\) in \\(\\mathbb Z_6\\) is \\(3\\).",
+          "id": "l1mi-s8-p1-q7-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Compute \\(\\langle2\\rangle\\) and the order of \\(2\\) in \\(\\mathbb Z_6\\)."
+        },
+        {
+          "answer": "An element \\(k\\) generates \\(\\mathbb Z_6\\) under addition exactly when repeated addition of \\(k\\) reaches all six residues, equivalently when \\(\\gcd(k,6)=1\\). The residues with this property are \\(1\\) and \\(5\\). Explicitly, \\(\\langle1\\rangle=\\{0,1,2,3,4,5\\}\\) and \\(\\langle5\\rangle=\\{0,5,4,3,2,1\\}\\). The other elements generate proper subsets: \\(\\langle0\\rangle=\\{0\\}\\), \\(\\langle2\\rangle=\\{0,2,4\\}\\), \\(\\langle3\\rangle=\\{0,3\\}\\), and \\(\\langle4\\rangle=\\{0,4,2\\}\\).",
+          "id": "l1mi-s8-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find all generators of \\(\\mathbb Z_6\\)."
+        },
+        {
+          "answer": "Let \\(H=\\{0,3\\}\\). The identity \\(0\\) lies in \\(H\\). Closure holds under addition modulo \\(6\\) because \\(0+0\\equiv0\\), \\(0+3\\equiv3\\), \\(3+0\\equiv3\\), and \\(3+3\\equiv0\\pmod6\\). The inverse of \\(0\\) is \\(0\\), and the inverse of \\(3\\) is \\(3\\), so inverses stay in \\(H\\). Therefore \\(H\\) is a subgroup of \\(\\mathbb Z_6\\). Also \\(H=\\langle3\\rangle\\), so \\(H\\) is cyclic.",
+          "id": "l1mi-s8-p1-q7-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Show that \\(H=\\{0,3\\}\\) is a subgroup of \\(\\mathbb Z_6\\) and is cyclic."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math I (Physics) Paper 1",
+  "totalMarks": 105
+}

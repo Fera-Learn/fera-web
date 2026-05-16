@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-8",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering force along curves, coupled ODE modes, Parseval methods, harmonic functions, vector fields, ellipsoid scaling, and experimental errors.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s8-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "A particle has position \\(\\mathbf r(t)=(t,t^2,2-t)\\), for \\(0\\le t\\le1\\). A force field is given by \\(\\mathbf F(x,y,z)=(2x,y-z,x+z)\\).",
+      "title": "Variable Force Along a Curve",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the velocity and the speed at \\(t=1\\).",
+          "answer": "Differentiate the position vector component by component: \\[\\mathbf v(t)=\\mathbf r'(t)=(1,2t,-1).\\] At \\(t=1\\), \\[\\mathbf v(1)=(1,2,-1).\\] Therefore the speed is \\[|\\mathbf v(1)|=\\sqrt{1^2+2^2+(-1)^2}=\\sqrt6.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the acceleration and the net force if the particle has mass \\(m\\).",
+          "answer": "Differentiate velocity to get acceleration: \\[\\mathbf a(t)=\\mathbf v'(t)=(0,2,0).\\] For constant mass, Newton's second law gives \\[\\mathbf F_{\\text{net}}=m\\mathbf a=(0,2m,0).\\] Thus the acceleration and net force are constant over the interval."
+        },
+        {
+          "id": "l1mii-s8-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find \\(\\mathbf F(\\mathbf r(t))\\cdot\\mathbf v(t)\\).",
+          "answer": "Along the path, \\(x=t\\), \\(y=t^2\\), and \\(z=2-t\\). Hence \\[\\mathbf F(\\mathbf r(t))=(2t,t^2-(2-t),t+2-t)=(2t,t^2+t-2,2).\\] Dotting with \\(\\mathbf v(t)=(1,2t,-1)\\), \\[\\mathbf F(\\mathbf r(t))\\cdot\\mathbf v(t)=2t+2t(t^2+t-2)-2=2t^3+2t^2-2t-2.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the work done by \\(\\mathbf F\\) along the path from \\(t=0\\) to \\(t=1\\).",
+          "answer": "The work along a parametrised path is \\[W=\\int_0^1\\mathbf F(\\mathbf r(t))\\cdot\\mathbf v(t)\\,dt.\\] Using part (c), \\[W=\\int_0^1(2t^3+2t^2-2t-2)\\,dt.\\] Therefore \\[W=\\left[\\frac{t^4}{2}+\\frac{2t^3}{3}-t^2-2t\\right]_0^1=\\frac12+\\frac23-1-2=-\\frac{11}{6}.\\] The negative sign means the force removes energy along this path."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Two coupled displacements \\(x(t)\\) and \\(y(t)\\) satisfy \\(x''=-5x+4y\\) and \\(y''=4x-5y\\).",
+      "title": "Coupled Oscillator Modes",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q2-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Let \\(p=x+y\\) and \\(q=x-y\\). Show that the equations decouple into equations for \\(p\\) and \\(q\\).",
+          "answer": "Differentiate the definitions twice: \\(p''=x''+y''\\) and \\(q''=x''-y''\\). Using the coupled equations, \\[p''=(-5x+4y)+(4x-5y)=-(x+y)=-p.\\] Also \\[q''=(-5x+4y)-(4x-5y)=-9x+9y=-9(x-y)=-9q.\\] Hence the decoupled equations are \\[p''+p=0,\\qquad q''+9q=0.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q2-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Solve for \\(x(t)\\) and \\(y(t)\\) when \\(x(0)=1\\), \\(y(0)=0\\), \\(x'(0)=0\\), and \\(y'(0)=0\\).",
+          "answer": "The initial conditions give \\[p(0)=x(0)+y(0)=1,\\qquad q(0)=x(0)-y(0)=1,\\] and \\[p'(0)=x'(0)+y'(0)=0,\\qquad q'(0)=x'(0)-y'(0)=0.\\] Solving \\(p''+p=0\\) gives \\(p=A\\cos t+B\\sin t\\). The initial conditions give \\(p=\\cos t\\). Solving \\(q''+9q=0\\) gives \\(q=C\\cos3t+D\\sin3t\\), and the initial conditions give \\(q=\\cos3t\\). Since \\(x=(p+q)/2\\) and \\(y=(p-q)/2\\), \\[x(t)=\\frac{\\cos t+\\cos3t}{2},\\qquad y(t)=\\frac{\\cos t-\\cos3t}{2}.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Interpret the two normal modes represented by \\(p\\) and \\(q\\).",
+          "answer": "The variable \\(p=x+y\\) measures the in-phase combination of the two displacements and oscillates with angular frequency \\(1\\). The variable \\(q=x-y\\) measures the out-of-phase combination and oscillates with angular frequency \\(3\\). The original motion is a superposition of these two normal modes."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f(x)=x^2\\) for \\(-2<x<2\\), extended periodically with period \\(4\\).",
+      "title": "Even Quadratic On a Short Interval",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q3-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the Fourier coefficients of \\(f\\).",
+          "answer": "Here \\(L=2\\). The function is even, so \\(b_n=0\\) for all \\(n\\). The constant coefficient is \\[a_0=\\frac{2}{L}\\int_0^Lx^2\\,dx=\\int_0^2x^2\\,dx=\\frac83.\\] For \\(n\\ge1\\), \\[a_n=\\frac{2}{L}\\int_0^Lx^2\\cos\\frac{n\\pi x}{L}\\,dx=\\int_0^2x^2\\cos\\frac{n\\pi x}{2}\\,dx.\\] With \\(k=n\\pi/2\\), integration by parts twice gives \\[\\int_0^2x^2\\cos kx\\,dx=\\frac{4(-1)^n}{k^2}.\\] Since \\(k^2=n^2\\pi^2/4\\), \\[a_n=\\frac{16(-1)^n}{n^2\\pi^2}.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q3-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Write the Fourier series and give the first four non-constant terms.",
+          "answer": "Since \\(a_0/2=4/3\\), the Fourier series is \\[x^2\\sim\\frac43+\\sum_{n=1}^{\\infty}\\frac{16(-1)^n}{n^2\\pi^2}\\cos\\frac{n\\pi x}{2}.\\] The first four non-constant terms are \\[-\\frac{16}{\\pi^2}\\cos\\frac{\\pi x}{2}+\\frac{4}{\\pi^2}\\cos(\\pi x)-\\frac{16}{9\\pi^2}\\cos\\frac{3\\pi x}{2}+\\frac{1}{\\pi^2}\\cos(2\\pi x).\\] The alternating signs come from \\((-1)^n\\)."
+        },
+        {
+          "id": "l1mii-s8-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use Parseval's theorem to evaluate \\(\\sum_{n=1}^{\\infty}1/n^4\\).",
+          "answer": "Parseval's theorem on \\((-2,2)\\) gives \\[\\frac{1}{2}\\int_{-2}^{2}x^4\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}a_n^2.\\] The left side is \\[\\frac12\\cdot2\\int_0^2x^4\\,dx=\\frac{32}{5}.\\] Also \\(a_0^2/2=(8/3)^2/2=32/9\\), and \\(a_n^2=256/(n^4\\pi^4)\\). Therefore \\[\\frac{32}{5}=\\frac{32}{9}+\\frac{256}{\\pi^4}\\sum_{n=1}^{\\infty}\\frac{1}{n^4}.\\] Rearranging gives \\[\\sum_{n=1}^{\\infty}\\frac{1}{n^4}=\\frac{\\pi^4}{90}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Let \\(u(x,y)=x^2-y^2\\), and define \\(G(s,t)=u(s+t,s-t)\\).",
+      "title": "Laplace Equation Under A Change",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Show that \\(u\\) satisfies Laplace's equation \\(u_{xx}+u_{yy}=0\\).",
+          "answer": "Differentiate \\(u=x^2-y^2\\) with respect to each variable. We have \\[u_x=2x,\\qquad u_{xx}=2,\\] and \\[u_y=-2y,\\qquad u_{yy}=-2.\\] Therefore \\[u_{xx}+u_{yy}=2-2=0.\\] Thus \\(u\\) is harmonic in the \\((x,y)\\)-plane."
+        },
+        {
+          "id": "l1mii-s8-p1-q4-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Find \\(G(s,t)\\), \\(G_{ss}\\), and \\(G_{tt}\\).",
+          "answer": "Substitute \\(x=s+t\\) and \\(y=s-t\\): \\[G(s,t)=(s+t)^2-(s-t)^2.\\] Expanding, \\[(s+t)^2=s^2+2st+t^2,\\qquad (s-t)^2=s^2-2st+t^2,\\] so \\[G(s,t)=4st.\\] Therefore \\[G_s=4t,\\qquad G_{ss}=0,\\] and \\[G_t=4s,\\qquad G_{tt}=0.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Does \\(G\\) satisfy \\(G_{ss}+G_{tt}=0\\)? Interpret the result for this example.",
+          "answer": "From part (b), \\(G_{ss}=0\\) and \\(G_{tt}=0\\). Hence \\[G_{ss}+G_{tt}=0.\\] In this example, the transformed function remains harmonic in the new variables. This conclusion follows directly from the transformed expression \\(G=4st\\), not from assuming that every coordinate change preserves the ordinary Laplacian."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Let \\(f(x,y)=x^2+2y^2-4x+8y\\), and let \\(\\mathbf W=(x^2y,yz,zx^2)\\).",
+      "title": "Divergence, Curl, and Critical Surface",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find and classify the critical point of \\(f\\).",
+          "answer": "The first derivatives are \\[f_x=2x-4,\\qquad f_y=4y+8.\\] Setting these equal to zero gives \\(x=2\\) and \\(y=-2\\). The Hessian is \\[H=\\begin{pmatrix}2&0\\\\0&4\\end{pmatrix}.\\] Since both diagonal entries are positive and the determinant is \\(8>0\\), the Hessian is positive definite. Therefore \\((2,-2)\\) is a strict local minimum."
+        },
+        {
+          "id": "l1mii-s8-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Compute \\(\\nabla\\cdot\\mathbf W\\) and \\(\\nabla\\times\\mathbf W\\).",
+          "answer": "Write \\(\\mathbf W=(P,Q,R)=(x^2y,yz,zx^2)\\). The divergence is \\[\\nabla\\cdot\\mathbf W=P_x+Q_y+R_z=2xy+z+x^2.\\] The curl is \\[\\nabla\\times\\mathbf W=(R_y-Q_z,\\ P_z-R_x,\\ Q_x-P_y).\\] Since \\(R_y=0\\), \\(Q_z=y\\), \\(P_z=0\\), \\(R_x=2xz\\), \\(Q_x=0\\), and \\(P_y=x^2\\), \\[\\nabla\\times\\mathbf W=(-y,-2xz,-x^2).\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q5-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate the divergence and curl at \\((1,1,1)\\), and interpret the signs briefly.",
+          "answer": "At \\((1,1,1)\\), the divergence is \\[2xy+z+x^2=2(1)(1)+1+1=4.\\] This positive value indicates local source-like or net-outflow behaviour. The curl is \\[(-y,-2xz,-x^2)=(-1,-2,-1).\\] The non-zero curl indicates local rotational tendency, with direction given by \\((-1,-2,-1)\\) according to the right-hand-rule convention."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(E\\) be the ellipsoid \\(\\frac{x^2}{4}+\\frac{y^2}{9}+\\frac{z^2}{16}\\le1\\). Use the scaling \\(x=2u\\), \\(y=3v\\), and \\(z=4w\\).",
+      "title": "Ellipsoid Scaling",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Describe the image of \\(E\\) in \\((u,v,w)\\)-coordinates and find the Jacobian scale factor.",
+          "answer": "Substituting \\(x=2u\\), \\(y=3v\\), and \\(z=4w\\) into the ellipsoid gives \\[\\frac{(2u)^2}{4}+\\frac{(3v)^2}{9}+\\frac{(4w)^2}{16}=u^2+v^2+w^2\\le1.\\] Thus \\(E\\) maps to the unit ball \\(B:u^2+v^2+w^2\\le1\\). The Jacobian determinant of the scaling is \\[\\left|\\frac{\\partial(x,y,z)}{\\partial(u,v,w)}\\right|=2\\cdot3\\cdot4=24.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the volume of \\(E\\).",
+          "answer": "The unit ball has volume \\(4\\pi/3\\). Since the scaling multiplies volumes by \\(24\\), \\[\\operatorname{Vol}(E)=24\\cdot\\frac{4\\pi}{3}=32\\pi.\\] This agrees with the ellipsoid formula \\((4\\pi/3)abc\\), where \\(a=2\\), \\(b=3\\), and \\(c=4\\)."
+        },
+        {
+          "id": "l1mii-s8-p1-q6-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\iiint_E x^2\\,dV\\).",
+          "answer": "Under the scaling, \\(x^2=(2u)^2=4u^2\\) and \\(dV=24\\,du\\,dv\\,dw\\). Therefore \\[\\iiint_E x^2\\,dV=96\\iiint_Bu^2\\,du\\,dv\\,dw.\\] By symmetry in the unit ball, \\[\\iiint_Bu^2\\,dV=\\frac13\\iiint_B(u^2+v^2+w^2)\\,dV.\\] In spherical coordinates on the unit ball, \\[\\iiint_B(u^2+v^2+w^2)\\,dV=\\int_0^{2\\pi}\\int_0^\\pi\\int_0^1\\rho^2\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta=\\frac{4\\pi}{5}.\\] Hence \\(\\iiint_Bu^2\\,dV=4\\pi/15\\), and so \\[\\iiint_E x^2\\,dV=96\\cdot\\frac{4\\pi}{15}=\\frac{128\\pi}{5}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s8-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "Two independent zero-mean measurement errors are modelled by \\(E_1\\sim N(0,0.04)\\) and \\(E_2\\sim N(0,0.09)\\). The combined error is \\(E=E_1-E_2\\).",
+      "title": "Experimental Error Audit",
+      "parts": [
+        {
+          "id": "l1mii-s8-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the mean and variance of \\(E\\).",
+          "answer": "Using linearity of expectation, \\[E[E]=E[E_1]-E[E_2]=0-0=0.\\] Since the errors are independent, variances add under subtraction as well as addition: \\[\\operatorname{Var}(E)=\\operatorname{Var}(E_1)+\\operatorname{Var}(E_2)=0.04+0.09=0.13.\\] Therefore \\(E\\sim N(0,0.13)\\)."
+        },
+        {
+          "id": "l1mii-s8-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Estimate \\(P(|E|<0.5)\\).",
+          "answer": "The standard deviation of \\(E\\) is \\(\\sqrt{0.13}\\approx0.361\\). Standardising, \\[P(|E|<0.5)=P\\left(\\left|Z\\right|<\\frac{0.5}{\\sqrt{0.13}}\\right)\\approx P(|Z|<1.39).\\] From standard normal tables, \\(\\Phi(1.39)\\approx0.9177\\). Therefore \\[P(|E|<0.5)\\approx2(0.9177)-1=0.8354.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For \\(25\\) independent repetitions of the combined error, estimate \\(P(|\\bar E|<0.1)\\).",
+          "answer": "The sample mean has mean \\(0\\) and variance \\[\\frac{0.13}{25}=0.0052.\\] Its standard deviation is \\(\\sqrt{0.13}/5\\approx0.0721\\). Therefore \\[P(|\\bar E|<0.1)\\approx P\\left(|Z|<\\frac{0.1}{0.0721}\\right)=P(|Z|<1.39).\\] Using the same table value as in part (b), this is approximately \\[2(0.9177)-1=0.8354.\\]"
+        },
+        {
+          "id": "l1mii-s8-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Explain why independence matters in part (a), and describe the effect of adding a systematic offset \\(b\\).",
+          "answer": "Independence matters because it justifies adding the variances without a covariance term. If the errors were dependent, \\(\\operatorname{Var}(E_1-E_2)\\) would also involve \\(-2\\operatorname{Cov}(E_1,E_2)\\). A systematic offset \\(b\\) would shift the model to \\(E+b\\), changing the mean from \\(0\\) to \\(b\\), but it would not change the variance."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

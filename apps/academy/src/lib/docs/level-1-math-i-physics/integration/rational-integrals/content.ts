@@ -50,7 +50,7 @@ Integrate \(\int \frac{2x^3 - x^2 - 4x + 3}{x^2 - 1} \, dx\)
 
 **Step 3:** Partial fractions: \(\frac{-2x+2}{(x-1)(x+1)} = \frac{A}{x-1} + \frac{B}{x+1}\)
 
-Solving: \(A = 2\), \(B = -4\)
+Equating coefficients gives \(A+B=-2\) and \(A-B=2\). Solving: \(A = 0\), \(B = -2\)
 
-<Equation label="Final" tex="\int (2x-1) \, dx + \int \frac{2}{x-1} \, dx - \int \frac{4}{x+1} \, dx = x^2 - x + 2\ln|x-1| - 4\ln|x+1| + C" />
+<Equation label="Final" tex="\int (2x-1) \, dx - 2\int \frac{1}{x+1} \, dx = x^2 - x - 2\ln|x+1| + C" />
 `;

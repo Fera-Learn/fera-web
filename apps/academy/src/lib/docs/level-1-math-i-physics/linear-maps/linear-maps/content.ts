@@ -57,7 +57,7 @@ Linearity is equivalent to additivity and homogeneity together.
     {
       title: "Example 1",
       question: "Show that \\(T(x,y)=(2x-y,x+y)\\) is linear.",
-      answer: "Each output component is a linear expression in \\(x\\) and \\(y\\) with no constant term. Substituting \\(a\\mathbf u+b\\mathbf v\\) gives \\(aT(\\mathbf u)+bT(\\mathbf v)\\).",
+      answer: "Let \\(\\mathbf u=(u_1,u_2)\\) and \\(\\mathbf v=(v_1,v_2)\\). Then \\(a\\mathbf u+b\\mathbf v=(au_1+bv_1,au_2+bv_2)\\). Applying \\(T\\) gives \\((2(au_1+bv_1)-(au_2+bv_2),(au_1+bv_1)+(au_2+bv_2))\\), which rearranges to \\(a(2u_1-u_2,u_1+u_2)+b(2v_1-v_2,v_1+v_2)=aT(\\mathbf u)+bT(\\mathbf v)\\).",
     },
     {
       title: "Example 2",

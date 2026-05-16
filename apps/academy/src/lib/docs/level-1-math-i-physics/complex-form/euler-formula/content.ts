@@ -18,7 +18,11 @@ Using the Taylor series expansions:
 
 <Equation label="Sine Series" tex="\sin\theta = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots" />
 
-Substituting and grouping real and imaginary terms yields \(e^{i\theta} = \cos\theta + i\sin\theta\).
+Substitute \(i\theta\) into the exponential series and use \(i^2=-1\), \(i^3=-i\), and \(i^4=1\):
+
+<Equation label="Grouped series" tex="e^{i\theta} = \left(1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\cdots\right)+i\left(\theta-\frac{\theta^3}{3!}+\frac{\theta^5}{5!}-\cdots\right)" />
+
+The first bracket is \(\cos\theta\), and the second bracket is \(\sin\theta\), so \(e^{i\theta} = \cos\theta + i\sin\theta\).
 
 ### Special Cases
 

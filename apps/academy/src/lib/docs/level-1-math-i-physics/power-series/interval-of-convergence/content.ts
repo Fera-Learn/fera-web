@@ -69,7 +69,7 @@ If \(R=\infty\), the interval of convergence is all real numbers. If \(R=0\), on
     {
       title: "Example 1",
       question: "Find the interval of convergence of \\(\\sum_{n=0}^{\\infty}x^n\\).",
-      answer: "The radius condition is \\(|x|\\lt1\\), so the open interval is \\((-1,1)\\). At \\(x=1\\), the series is \\(1+1+1+\\cdots\\), which diverges. At \\(x=-1\\), the terms alternate \\(1,-1,1,-1,\\ldots\\) and do not approach zero in partial sums. The interval is \\((-1,1)\\).",
+      answer: "The radius condition is \\(|x|\\lt1\\), so the open interval is \\((-1,1)\\). At \\(x=1\\), the series is \\(1+1+1+\\cdots\\), whose terms do not approach zero. At \\(x=-1\\), the terms alternate \\(1,-1,1,-1,\\ldots\\), so the terms do not approach zero and the partial sums oscillate. The interval is \\((-1,1)\\).",
     },
     {
       title: "Example 2",

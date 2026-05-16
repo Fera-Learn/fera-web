@@ -42,7 +42,11 @@ The series \\(\sum_{n=1}^{\infty}1/n^2\\) has positive terms because \\(1/n^2\gt
 
 <Equation label="Positive square partial sums" tex="S_N=1+\frac14+\frac19+\cdots+\frac{1}{N^2}" />
 
-The exact sum is not needed to discuss convergence. A comparison test can show that these increasing partial sums stay bounded, so the series converges even before its value is known.
+The exact sum is not needed to discuss convergence. For \\(n\\ge2\\), compare with a telescoping series:
+
+<Equation label="Positive square comparison" tex="\frac{1}{n^2}\le \frac{1}{n(n-1)}=\frac{1}{n-1}-\frac{1}{n}" />
+
+Therefore \\(S_N\\le 1+\\bigl(1-1/N\\bigr)\\lt2\\), so the increasing partial sums stay bounded. The series converges even before its exact value is known.
 
 This is the typical positive-series pattern: increasing is automatic, and boundedness is the real issue.
 

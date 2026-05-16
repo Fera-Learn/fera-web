@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/generate-question-registry.mjs --check && next build",
+    "check:math-i-content": "node scripts/validate-math-i-content-quality.mjs",
     "check:questions": "node scripts/generate-question-registry.mjs --check",
     "check:math-physics-equation-sheet": "node scripts/validate-math-physics-equation-sheet.mjs",
     "generate:questions": "node scripts/generate-question-registry.mjs",
@@ -13,6 +14,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@repo/diagrams": "workspace:*",
     "@repo/docs": "workspace:*",
     "@repo/ui": "workspace:*",
     "@vercel/analytics": "^2.0.1",

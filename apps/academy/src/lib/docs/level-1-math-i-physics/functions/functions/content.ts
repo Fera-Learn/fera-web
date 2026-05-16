@@ -1,6 +1,6 @@
 ﻿export const content = String.raw`## Functions
 
-A **function** \(f: A \to B\) maps each element of set \(A\) (domain) to exactly one element of set \(B\) (codomain/range).
+A **function** \(f: A \to B\) maps each element of set \(A\), the domain, to exactly one element of set \(B\), the codomain. The **range** is the set of values actually produced by \(f\), so it may be smaller than the codomain.
 
 ## Key Properties
 

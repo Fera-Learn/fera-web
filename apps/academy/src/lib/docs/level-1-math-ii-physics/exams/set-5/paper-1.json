@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-5",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper covering vector geometry, ODE models, Fourier coefficients, multivariable calculus, vector calculus, multiple integrals, and probability.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s5-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "Three beacons are fixed at \\(A=(1,0,1)\\), \\(B=(3,1,2)\\), and \\(C=(2,-1,4)\\). A probe moves on the line through \\(P=(0,2,1)\\) with direction vector \\(\\mathbf d=(1,-1,2)\\).",
+      "title": "Probe Path and Observation Plane",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Write a vector equation for the probe line.",
+          "answer": "A line is determined by one point on the line and a non-zero direction vector. The probe passes through \\(P=(0,2,1)\\) and has direction \\(\\mathbf d=(1,-1,2)\\). Therefore \\[\\mathbf r=(0,2,1)+s(1,-1,2),\\qquad s\\in\\mathbb R.\\] The parameter \\(s\\) selects the position of the probe along the path."
+        },
+        {
+          "id": "l1mii-s5-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find a Cartesian equation of the plane through the three beacons.",
+          "answer": "Use two direction vectors in the beacon plane: \\[\\overrightarrow{AB}=B-A=(2,1,1),\\qquad \\overrightarrow{AC}=C-A=(1,-1,3).\\] A normal vector is \\[\\overrightarrow{AB}\\times\\overrightarrow{AC}=(4,-5,-3).\\] Hence the plane has equation \\((4,-5,-3)\\cdot(x,y,z)=d\\). Substituting \\(A=(1,0,1)\\) gives \\[d=4\\cdot1-5\\cdot0-3\\cdot1=1.\\] Therefore the Cartesian equation is \\[4x-5y-3z=1.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the acute angle between the probe line and the beacon plane.",
+          "answer": "Let \\(\\theta\\) be the acute angle between the line and the plane, and let \\(\\mathbf n=(4,-5,-3)\\) be a normal to the plane. The angle between a line and a plane satisfies \\[\\sin\\theta=\\frac{|\\mathbf d\\cdot\\mathbf n|}{|\\mathbf d|\\,|\\mathbf n|}.\\] Here \\[\\mathbf d\\cdot\\mathbf n=(1,-1,2)\\cdot(4,-5,-3)=4+5-6=3,\\] while \\(|\\mathbf d|=\\sqrt6\\) and \\(|\\mathbf n|=\\sqrt{50}\\). Thus \\[\\sin\\theta=\\frac{3}{\\sqrt6\\sqrt{50}}=\\frac{\\sqrt3}{10},\\] so \\[\\theta=\\sin^{-1}\\left(\\frac{\\sqrt3}{10}\\right).\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the volume of the tetrahedron with vertices \\(A\\), \\(B\\), \\(C\\), and \\(P\\).",
+          "answer": "Use the three edge vectors from \\(A\\): \\[B-A=(2,1,1),\\qquad C-A=(1,-1,3),\\qquad P-A=(-1,2,0).\\] The scalar triple product is \\[(B-A)\\cdot((C-A)\\times(P-A)).\\] Now \\[(C-A)\\times(P-A)=(-6,-3,1),\\] and hence \\[(2,1,1)\\cdot(-6,-3,1)=-12-3+1=-14.\\] The parallelepiped volume is \\(14\\), so the tetrahedron volume is \\[\\frac{14}{6}=\\frac{7}{3}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Answer the following independent questions on first-order and coupled differential equations.",
+      "title": "Cooling Model and Coupled Modes",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q2-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Solve \\(\\frac{dT}{dt}+\\frac12T=10\\), subject to \\(T(0)=30\\).",
+          "answer": "This is linear in standard form \\(T'+\\frac12T=10\\). The integrating factor is \\[\\exp\\int\\frac12\\,dt=e^{t/2}.\\] Multiplying the equation by this factor gives \\[\\frac{d}{dt}\\left(Te^{t/2}\\right)=10e^{t/2}.\\] Integrating, \\[Te^{t/2}=20e^{t/2}+C,\\] so \\[T=20+Ce^{-t/2}.\\] The initial condition gives \\(30=20+C\\), so \\(C=10\\). Therefore \\[T(t)=20+10e^{-t/2}.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "The coupled quantities \\(u(t)\\) and \\(v(t)\\) satisfy \\(u'=2u-v\\) and \\(v'=u\\). Deduce a second-order differential equation for \\(u(t)\\).",
+          "answer": "Differentiate \\(u'=2u-v\\) with respect to \\(t\\): \\[u''=2u'-v'.\\] Since \\(v'=u\\), this becomes \\[u''=2u'-u.\\] Moving all terms to the left gives the second-order equation \\[u''-2u'+u=0.\\] This equation contains only \\(u\\) and its derivatives."
+        },
+        {
+          "id": "l1mii-s5-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Solve the equation from part (b), and describe the long-term behaviour when the coefficient of \\(te^t\\) is positive.",
+          "answer": "The auxiliary equation is \\[r^2-2r+1=0,\\] so \\((r-1)^2=0\\). The repeated root is \\(r=1\\), giving \\[u(t)=(A+Bt)e^t.\\] If \\(B>0\\), then the \\(Bte^t\\) term dominates for large \\(t\\). Thus \\(u(t)\\) grows without bound like \\(Bte^t\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f\\) be the even \\(2\\pi\\)-periodic function such that \\(f(x)=2\\) for \\(0<x<\\pi/2\\) and \\(f(x)=-1\\) for \\(\\pi/2<x<\\pi\\). Values at jump points do not affect the Fourier coefficients.",
+      "title": "Shifted Pulse Fourier Series",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Describe the symmetry of \\(f\\) and state which Fourier coefficients are zero.",
+          "answer": "The function is defined to be even, so \\(f(-x)=f(x)\\). Its Fourier series therefore contains only a constant term and cosine terms. All sine coefficients are zero: \\[b_n=0\\qquad(n\\ge1).\\] The graph is a repeated even pulse with height \\(2\\) near each multiple of \\(2\\pi\\) and height \\(-1\\) near \\(\\pm\\pi\\)."
+        },
+        {
+          "id": "l1mii-s5-p1-q3-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Find the Fourier series of \\(f\\), giving the first four non-constant terms explicitly.",
+          "answer": "Because \\(f\\) is even, \\[a_0=\\frac{2}{\\pi}\\int_0^\\pi f(x)\\,dx=\\frac{2}{\\pi}\\left(\\int_0^{\\pi/2}2\\,dx+\\int_{\\pi/2}^{\\pi}(-1)\\,dx\\right)=1.\\] For \\(n\\ge1\\), \\[a_n=\\frac{2}{\\pi}\\left(\\int_0^{\\pi/2}2\\cos nx\\,dx+\\int_{\\pi/2}^{\\pi}(-1)\\cos nx\\,dx\\right).\\] Thus \\[a_n=\\frac{2}{\\pi}\\left(\\frac{2\\sin(n\\pi/2)}{n}-\\frac{\\sin(n\\pi)-\\sin(n\\pi/2)}{n}\\right)=\\frac{6}{\\pi n}\\sin\\frac{n\\pi}{2}.\\] Hence \\[f(x)\\sim\\frac12+\\sum_{n=1}^{\\infty}\\frac{6}{\\pi n}\\sin\\frac{n\\pi}{2}\\cos nx.\\] The first four non-constant terms are \\[\\frac{6}{\\pi}\\cos x-\\frac{2}{\\pi}\\cos3x+\\frac{6}{5\\pi}\\cos5x-\\frac{6}{7\\pi}\\cos7x.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use Parseval's theorem to evaluate \\(\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}\\).",
+          "answer": "Parseval's theorem gives \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{a_0^2}{2}+\\sum_{n=1}^{\\infty}a_n^2.\\] Since \\(f\\) is even, \\[\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}|f(x)|^2\\,dx=\\frac{2}{\\pi}\\left(\\int_0^{\\pi/2}4\\,dx+\\int_{\\pi/2}^{\\pi}1\\,dx\\right)=5.\\] Also \\(a_0=1\\), and only odd \\(n\\) contribute. Therefore \\[5=\\frac12+\\frac{36}{\\pi^2}\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}.\\] Rearranging gives \\[\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}=\\frac{\\pi^2}{8}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Let \\(F(u,v)=f(x,y)\\), where \\(x=ue^v\\) and \\(y=ue^{-v}\\). Assume \\(f\\) has continuous first partial derivatives.",
+      "title": "Coordinate Map and Directional Change",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find \\(F_u\\) and \\(F_v\\) in terms of partial derivatives of \\(f\\).",
+          "answer": "The partial derivatives of the coordinate map are \\[x_u=e^v,\\qquad y_u=e^{-v},\\qquad x_v=ue^v,\\qquad y_v=-ue^{-v}.\\] The chain rule gives \\[F_u=f_xx_u+f_yy_u=e^vf_x+e^{-v}f_y,\\] and \\[F_v=f_xx_v+f_yy_v=ue^vf_x-ue^{-v}f_y.\\] The derivatives \\(f_x\\) and \\(f_y\\) are evaluated at \\((x,y)=(ue^v,ue^{-v})\\)."
+        },
+        {
+          "id": "l1mii-s5-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the Jacobian \\(\\frac{\\partial(x,y)}{\\partial(u,v)}\\) and state the local area scale at \\((u,v)=(2,0)\\).",
+          "answer": "The Jacobian is \\[\\frac{\\partial(x,y)}{\\partial(u,v)}=\\begin{vmatrix}x_u&x_v\\\\y_u&y_v\\end{vmatrix}=\\begin{vmatrix}e^v&ue^v\\\\e^{-v}&-ue^{-v}\\end{vmatrix}.\\] Thus \\[\\frac{\\partial(x,y)}{\\partial(u,v)}=e^v(-ue^{-v})-(ue^v)(e^{-v})=-u-u=-2u.\\] At \\((u,v)=(2,0)\\), the Jacobian is \\(-4\\). The local area scale is the absolute value, so small areas are scaled by a factor of \\(4\\)."
+        },
+        {
+          "id": "l1mii-s5-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Let \\(T(x,y)=x^2+3xy-y^2\\) and \\(G(u,v)=T(ue^v,ue^{-v})\\). Find the directional derivative of \\(G\\) at \\((1,0)\\) in the direction \\((3,4)\\).",
+          "answer": "At \\((u,v)=(1,0)\\), the corresponding point is \\((x,y)=(1,1)\\). For \\(T\\), \\[T_x=2x+3y,\\qquad T_y=3x-2y.\\] At \\((1,1)\\), \\(T_x=5\\) and \\(T_y=1\\). Using part (a) with \\(u=1\\), \\(v=0\\), \\[G_u=5+1=6,\\qquad G_v=5-1=4.\\] The unit vector in the direction \\((3,4)\\) is \\((3/5,4/5)\\). Therefore \\[D_{(3/5,4/5)}G(1,0)=(6,4)\\cdot\\left(\\frac35,\\frac45\\right)=\\frac{18}{5}+\\frac{16}{5}=\\frac{34}{5}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider the function \\(f(x,y)=x^2+axy+4y^2\\), where \\(a\\) is a real parameter, and the vector field \\(\\mathbf V=(x^2z,xy^2,yz^2)\\).",
+      "title": "Parameter Surface and Curl",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q5-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "For \\(a=2\\), find and classify the critical point of \\(f\\).",
+          "answer": "When \\(a=2\\), \\[f_x=2x+2y,\\qquad f_y=2x+8y.\\] Setting both first derivatives equal to zero gives \\(2x+2y=0\\), so \\(x=-y\\). Substituting into \\(2x+8y=0\\) gives \\(-2y+8y=6y=0\\), so \\(y=0\\) and \\(x=0\\). The Hessian is \\[H=\\begin{pmatrix}2&2\\\\2&8\\end{pmatrix}.\\] Its determinant is \\(16-4=12>0\\), and \\(f_{xx}=2>0\\). Therefore \\((0,0)\\) is a local minimum."
+        },
+        {
+          "id": "l1mii-s5-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the values of \\(a\\) for which \\((0,0)\\) is a strict local minimum of \\(f\\).",
+          "answer": "The Hessian matrix is \\[H=\\begin{pmatrix}2&a\\\\a&8\\end{pmatrix}.\\] For a strict local minimum of a quadratic form, this matrix must be positive definite. Since \\(2>0\\), the condition is that the determinant is positive: \\[\\det H=16-a^2>0.\\] Therefore \\[a^2<16,\\qquad -4<a<4.\\] Thus \\((0,0)\\) is a strict local minimum exactly for \\(-4<a<4\\)."
+        },
+        {
+          "id": "l1mii-s5-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Compute \\(\\nabla\\cdot\\mathbf V\\) and \\(\\nabla\\times\\mathbf V\\).",
+          "answer": "For \\(\\mathbf V=(P,Q,R)=(x^2z,xy^2,yz^2)\\), the divergence is \\[\\nabla\\cdot\\mathbf V=P_x+Q_y+R_z=2xz+2xy+2yz.\\] The curl is \\[\\nabla\\times\\mathbf V=(R_y-Q_z,\\ P_z-R_x,\\ Q_x-P_y).\\] Since \\(R_y=z^2\\), \\(Q_z=0\\), \\(P_z=x^2\\), \\(R_x=0\\), \\(Q_x=y^2\\), and \\(P_y=0\\), we get \\[\\nabla\\times\\mathbf V=(z^2,x^2,y^2).\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(R\\) be the region in the first quadrant bounded by \\(y=x^2\\) and \\(y=3x\\).",
+      "title": "Parabolic Region and Volume Moment",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Describe \\(R\\) using vertical slices and then by switching the order of integration.",
+          "answer": "The curves meet where \\(x^2=3x\\), so \\(x=0\\) or \\(x=3\\). With vertical slices, \\[0\\le x\\le3,\\qquad x^2\\le y\\le3x.\\] To switch the order, note that \\(y\\) ranges from \\(0\\) to \\(9\\). The line \\(y=3x\\) gives \\(x=y/3\\), and the parabola \\(y=x^2\\) gives \\(x=\\sqrt y\\) in the first quadrant. Hence \\[0\\le y\\le9,\\qquad \\frac y3\\le x\\le\\sqrt y.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q6-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\iint_R y\\,dA\\) using the switched order from part (a).",
+          "answer": "Using the switched bounds, \\[\\iint_R y\\,dA=\\int_0^9\\int_{y/3}^{\\sqrt y}y\\,dx\\,dy.\\] The inner integral is \\[\\int_{y/3}^{\\sqrt y}y\\,dx=y\\left(\\sqrt y-\\frac y3\\right)=y^{3/2}-\\frac{y^2}{3}.\\] Therefore \\[\\iint_R y\\,dA=\\int_0^9\\left(y^{3/2}-\\frac{y^2}{3}\\right)dy=\\left[\\frac{2}{5}y^{5/2}-\\frac{y^3}{9}\\right]_0^9.\\] Since \\(9^{5/2}=243\\), the value is \\[\\frac{486}{5}-81=\\frac{81}{5}.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q6-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the area of \\(R\\), and hence the \\(y\\)-coordinate of its centroid.",
+          "answer": "The area is \\[A=\\int_0^3(3x-x^2)\\,dx=\\left[\\frac{3x^2}{2}-\\frac{x^3}{3}\\right]_0^3=\\frac{27}{2}-9=\\frac92.\\] The \\(y\\)-coordinate of the centroid is \\[\\bar y=\\frac{1}{A}\\iint_R y\\,dA.\\] Using part (b), \\[\\bar y=\\frac{81/5}{9/2}=\\frac{81}{5}\\cdot\\frac{2}{9}=\\frac{18}{5}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s5-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A laboratory tests detector modules from two suppliers and records rare warning events during repeated trials.",
+      "title": "Reliability Testing",
+      "parts": [
+        {
+          "id": "l1mii-s5-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "A module comes from supplier \\(A\\) with probability \\(0.30\\). The probability of failure is \\(0.02\\) for supplier \\(A\\) and \\(0.05\\) otherwise. If a module fails, find the probability that it came from supplier \\(A\\).",
+          "answer": "Let \\(F\\) be the failure event. The total probability of failure is \\[P(F)=P(F\\mid A)P(A)+P(F\\mid A^c)P(A^c)=0.02(0.30)+0.05(0.70)=0.041.\\] Bayes' theorem gives \\[P(A\\mid F)=\\frac{P(F\\mid A)P(A)}{P(F)}=\\frac{0.02\\cdot0.30}{0.041}=\\frac{0.006}{0.041}=\\frac{6}{41}.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "A failed module is caught by an automatic screen with probability \\(0.70\\) and by an independent manual audit with probability \\(0.20\\). Find the probability that a failed module is released by both checks.",
+          "answer": "A failed module is released only if it is not caught by the screen and not caught by the audit. The two checks are independent, so \\[P(\\hbox{released}\\mid F)=(1-0.70)(1-0.20)=0.30\\cdot0.80=0.24.\\] Thus \\(24\\%\\) of failed modules are expected to pass both checks under this model."
+        },
+        {
+          "id": "l1mii-s5-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "In a separate run, \\(900\\) independent modules each produce a rare warning with probability \\(0.004\\). Use a Poisson approximation to estimate the probability of at most two warnings.",
+          "answer": "Let \\(X\\sim\\operatorname{Bin}(900,0.004)\\). Since \\(n\\) is large and \\(p\\) is small, use a Poisson approximation with \\[\\lambda=np=900(0.004)=3.6.\\] Therefore \\[P(X\\le2)\\approx e^{-3.6}\\left(1+3.6+\\frac{3.6^2}{2}\\right).\\] Since \\(3.6^2/2=6.48\\), this is \\[11.08e^{-3.6}\\approx0.303.\\]"
+        },
+        {
+          "id": "l1mii-s5-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Weekly warning counts have mean \\(3.6\\) and variance \\(3.6\\). For \\(50\\) independent weeks, estimate \\(P(\\bar X>4.0)\\).",
+          "answer": "For the sample mean, \\[E[\\bar X]=3.6,\\qquad \\operatorname{Var}(\\bar X)=\\frac{3.6}{50}=0.072.\\] Hence the standard deviation of \\(\\bar X\\) is \\(\\sqrt{0.072}\\approx0.268\\). Using a normal approximation, \\[P(\\bar X>4.0)\\approx P\\left(Z>\\frac{4.0-3.6}{0.268}\\right)=P(Z>1.49).\\] From standard normal tables this is approximately \\(0.068\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

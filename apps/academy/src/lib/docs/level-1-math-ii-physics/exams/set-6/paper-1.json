@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-6",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper emphasizing cylindrical motion, oscillations, Fourier expansions, gradients, exact differentials, spherical integrals, and continuous distributions.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s6-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "A particle has cylindrical polar coordinates \\(r=2+t\\), \\(\\theta=t/2\\), and \\(z=t^2\\), where \\(t\\ge0\\). Its mass is \\(m\\).",
+      "title": "Cylindrical Motion and Work",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Write the Cartesian position of the particle and find its position at \\(t=0\\).",
+          "answer": "Use \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\), and \\(z=z\\). Since \\(r=2+t\\) and \\(\\theta=t/2\\), \\[\\mathbf r(t)=((2+t)\\cos(t/2),(2+t)\\sin(t/2),t^2).\\] At \\(t=0\\), this gives \\[\\mathbf r(0)=(2\\cos0,2\\sin0,0)=(2,0,0).\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the velocity in cylindrical components, and find the speed at \\(t=2\\).",
+          "answer": "In cylindrical coordinates, \\[\\mathbf v=\\dot r\\mathbf e_r+r\\dot\\theta\\mathbf e_\\theta+\\dot z\\mathbf e_z.\\] Here \\(\\dot r=1\\), \\(\\dot\\theta=1/2\\), and \\(\\dot z=2t\\), so \\[\\mathbf v=\\mathbf e_r+\\frac{2+t}{2}\\mathbf e_\\theta+2t\\mathbf e_z.\\] The speed is \\[|\\mathbf v|=\\sqrt{1^2+\\left(\\frac{2+t}{2}\\right)^2+(2t)^2}.\\] At \\(t=2\\), \\[|\\mathbf v(2)|=\\sqrt{1+2^2+4^2}=\\sqrt{21}.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the acceleration in cylindrical components and hence the force at \\(t=2\\).",
+          "answer": "The cylindrical acceleration is \\[\\mathbf a=(\\ddot r-r\\dot\\theta^2)\\mathbf e_r+(r\\ddot\\theta+2\\dot r\\dot\\theta)\\mathbf e_\\theta+\\ddot z\\mathbf e_z.\\] Here \\(\\ddot r=0\\), \\(\\dot\\theta=1/2\\), \\(\\ddot\\theta=0\\), and \\(\\ddot z=2\\). Therefore \\[\\mathbf a=-\\frac{2+t}{4}\\mathbf e_r+\\mathbf e_\\theta+2\\mathbf e_z.\\] At \\(t=2\\), \\[\\mathbf a(2)=-\\mathbf e_r+\\mathbf e_\\theta+2\\mathbf e_z,\\] so \\[\\mathbf F(2)=m(-\\mathbf e_r+\\mathbf e_\\theta+2\\mathbf e_z).\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Using the work-energy theorem, find the work done by the net force from \\(t=0\\) to \\(t=2\\).",
+          "answer": "The work-energy theorem gives \\(W=\\Delta K\\). From part (b), \\[|\\mathbf v|^2=1+\\frac{(2+t)^2}{4}+4t^2.\\] At \\(t=0\\), \\(|\\mathbf v(0)|^2=1+1=2\\). At \\(t=2\\), \\(|\\mathbf v(2)|^2=21\\). Therefore \\[W=\\frac12m(21)-\\frac12m(2)=\\frac{19m}{2}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Answer the following questions on homogeneous and forced second-order equations.",
+      "title": "Damped and Driven Oscillations",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q2-a",
+          "label": "(a)",
+          "marks": 6,
+          "prompt": "Solve \\(y''+4y'+5y=0\\), subject to \\(y(0)=1\\) and \\(y'(0)=-1\\).",
+          "answer": "The auxiliary equation is \\[r^2+4r+5=0.\\] Its roots are \\(r=-2\\pm i\\). Hence \\[y(t)=e^{-2t}(A\\cos t+B\\sin t).\\] The condition \\(y(0)=1\\) gives \\(A=1\\). Differentiating, \\[y'(t)=e^{-2t}\\{(-A\\sin t+B\\cos t)-2(A\\cos t+B\\sin t)\\}.\\] At \\(t=0\\), this gives \\(y'(0)=B-2A\\). Since \\(y'(0)=-1\\) and \\(A=1\\), \\(B-2=-1\\), so \\(B=1\\). Therefore \\[y(t)=e^{-2t}(\\cos t+\\sin t).\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q2-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Solve \\(x''+x=3\\cos2t\\), subject to \\(x(0)=0\\) and \\(x'(0)=0\\).",
+          "answer": "The complementary solution is \\(x_c=A\\cos t+B\\sin t\\). Since the forcing frequency \\(2\\) is not the natural frequency \\(1\\), try \\(x_p=C\\cos2t\\). Then \\[x_p''+x_p=-4C\\cos2t+C\\cos2t=-3C\\cos2t.\\] Matching \\(3\\cos2t\\) gives \\(C=-1\\), so \\[x=A\\cos t+B\\sin t-\\cos2t.\\] The condition \\(x(0)=0\\) gives \\(A-1=0\\), so \\(A=1\\). Also \\[x'=-A\\sin t+B\\cos t+2\\sin2t,\\] and \\(x'(0)=B=0\\). Therefore \\[x(t)=\\cos t-\\cos2t.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Explain why the solution in part (b) does not contain a factor of \\(t\\).",
+          "answer": "A factor of \\(t\\) appears in the undamped method of undetermined coefficients when the forcing duplicates a complementary solution. Here the complementary frequency is \\(1\\), but the forcing term is \\(3\\cos2t\\), with frequency \\(2\\). Since the forcing is not resonant with the natural mode, a bounded trial \\(C\\cos2t\\) is sufficient and no factor of \\(t\\) is needed."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f(x)=x\\) for \\(0<x<2\\), extended evenly to \\((-2,2)\\) and then periodically with period \\(4\\).",
+      "title": "Half-Range Cosine Expansion",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q3-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Describe the extension and state the form of the Fourier series.",
+          "answer": "The even extension satisfies \\(f(-x)=f(x)\\), so it is \\(|x|\\) on \\((-2,2)\\). It is then repeated with period \\(4\\). Since the function is even, all sine coefficients are zero. With \\(L=2\\), the series has the form \\[f(x)\\sim\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}a_n\\cos\\frac{n\\pi x}{2}.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q3-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Find the cosine coefficients and write the first three non-constant terms.",
+          "answer": "For a half-range cosine series on \\((0,2)\\), \\[a_0=\\frac{2}{2}\\int_0^2x\\,dx=2,\\] so the constant term is \\(a_0/2=1\\). For \\(n\\ge1\\), \\[a_n=\\frac{2}{2}\\int_0^2x\\cos\\frac{n\\pi x}{2}\\,dx.\\] Put \\(k=n\\pi/2\\). Then \\[\\int_0^2x\\cos kx\\,dx=\\left[\\frac{x\\sin kx}{k}+\\frac{\\cos kx}{k^2}\\right]_0^2=\\frac{(-1)^n-1}{k^2}.\\] Hence \\[a_n=\\frac{4(((-1)^n)-1)}{n^2\\pi^2}.\\] Thus \\(a_n=0\\) for even \\(n\\), and \\(a_n=-8/(n^2\\pi^2)\\) for odd \\(n\\). The first three non-constant terms are \\[-\\frac{8}{\\pi^2}\\cos\\frac{\\pi x}{2}-\\frac{8}{9\\pi^2}\\cos\\frac{3\\pi x}{2}-\\frac{8}{25\\pi^2}\\cos\\frac{5\\pi x}{2}.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use the value of the series at \\(x=2\\) to recover \\(\\sum_{k=0}^{\\infty}1/(2k+1)^2\\).",
+          "answer": "The even periodic extension is continuous at \\(x=2\\), so the Fourier series converges to \\(f(2)=2\\). Substituting \\(x=2\\) gives \\[2=1+\\sum_{k=0}^{\\infty}\\left(-\\frac{8}{(2k+1)^2\\pi^2}\\right)\\cos((2k+1)\\pi).\\] For odd \\(n\\), \\(\\cos(n\\pi)=-1\\), so \\[2=1+\\frac{8}{\\pi^2}\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}.\\] Therefore \\[\\sum_{k=0}^{\\infty}\\frac{1}{(2k+1)^2}=\\frac{\\pi^2}{8}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "The scalar field \\(S(x,y)=30+x^2+xy-2y^2\\) models a local calibration surface.",
+      "title": "Gradient Linearisation",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q4-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find \\(\\nabla S\\) and the Hessian matrix, and evaluate both at \\((1,1)\\).",
+          "answer": "The first partial derivatives are \\[S_x=2x+y,\\qquad S_y=x-4y.\\] Thus \\[\\nabla S=(2x+y,x-4y),\\] and at \\((1,1)\\), \\[\\nabla S(1,1)=(3,-3).\\] The second partial derivatives are \\(S_{xx}=2\\), \\(S_{xy}=1\\), and \\(S_{yy}=-4\\), so the Hessian is \\[H=\\begin{pmatrix}2&1\\\\1&-4\\end{pmatrix}.\\] This Hessian is constant, so it has the same value at \\((1,1)\\)."
+        },
+        {
+          "id": "l1mii-s6-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find the first-order linear approximation near \\((1,1)\\), and use it to estimate \\(S(1.1,0.9)\\).",
+          "answer": "First compute \\[S(1,1)=30+1+1-2=30.\\] The first-order linear approximation is \\[L(x,y)=30+3(x-1)-3(y-1).\\] At \\((1.1,0.9)\\), this gives \\[L(1.1,0.9)=30+3(0.1)-3(-0.1)=30.6.\\] Therefore the first-order estimate is \\(30.6\\)."
+        },
+        {
+          "id": "l1mii-s6-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use the second-order Taylor correction to improve the estimate in part (b).",
+          "answer": "The displacement from \\((1,1)\\) to \\((1.1,0.9)\\) is \\(\\mathbf h=(0.1,-0.1)\\). The second-order correction is \\[\\frac12\\mathbf h^TH\\mathbf h.\\] Since \\[H\\mathbf h=\\begin{pmatrix}2&1\\\\1&-4\\end{pmatrix}\\binom{0.1}{-0.1}=\\binom{0.1}{0.5},\\] we have \\[\\mathbf h^TH\\mathbf h=(0.1,-0.1)\\cdot(0.1,0.5)=0.01-0.05=-0.04.\\] The correction is \\(-0.02\\). Therefore the improved estimate is \\[30.6-0.02=30.58.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider the differential \\(d\\Phi=(3x^2+2ay)\\,dx+(bx+4y)\\,dy\\) and the vector fields \\(\\mathbf F=(xz,-yz,x^2+y^2)\\) and \\(\\mathbf A=(xy,yz,zx)\\).",
+      "title": "Exact Differential and Solenoidal Field",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the condition on \\(a\\) and \\(b\\) for \\(d\\Phi\\) to be exact, and find \\(\\Phi\\) when this condition holds.",
+          "answer": "Write \\(M=3x^2+2ay\\) and \\(N=bx+4y\\). Exactness requires \\(M_y=N_x\\). Here \\[M_y=2a,\\qquad N_x=b.\\] Therefore the condition is \\(b=2a\\). When this holds, integrate \\(M\\) with respect to \\(x\\): \\[\\Phi=x^3+2axy+g(y).\\] Differentiating with respect to \\(y\\), \\[\\Phi_y=2ax+g'(y).\\] Since \\(N=2ax+4y\\), we need \\(g'(y)=4y\\), so \\(g(y)=2y^2+C\\). Thus \\[\\Phi=x^3+2axy+2y^2+C.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Show that \\(\\mathbf F\\) is solenoidal by computing its divergence.",
+          "answer": "A vector field is solenoidal when its divergence is zero. For \\(\\mathbf F=(xz,-yz,x^2+y^2)\\), \\[\\nabla\\cdot\\mathbf F=\\frac{\\partial}{\\partial x}(xz)+\\frac{\\partial}{\\partial y}(-yz)+\\frac{\\partial}{\\partial z}(x^2+y^2).\\] This gives \\[\\nabla\\cdot\\mathbf F=z-z+0=0.\\] Therefore \\(\\mathbf F\\) is solenoidal."
+        },
+        {
+          "id": "l1mii-s6-p1-q5-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Compute \\(\\nabla\\times\\mathbf A\\), and verify directly that \\(\\nabla\\cdot(\\nabla\\times\\mathbf A)=0\\).",
+          "answer": "With \\(\\mathbf A=(P,Q,R)=(xy,yz,zx)\\), \\[\\nabla\\times\\mathbf A=(R_y-Q_z,\\ P_z-R_x,\\ Q_x-P_y).\\] Since \\(R_y=0\\), \\(Q_z=y\\), \\(P_z=0\\), \\(R_x=z\\), \\(Q_x=0\\), and \\(P_y=x\\), \\[\\nabla\\times\\mathbf A=(-y,-z,-x).\\] Now take the divergence: \\[\\nabla\\cdot(-y,-z,-x)=\\frac{\\partial(-y)}{\\partial x}+\\frac{\\partial(-z)}{\\partial y}+\\frac{\\partial(-x)}{\\partial z}=0+0+0=0.\\] This directly verifies the identity for this field."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Let \\(E\\) be the solid inside the sphere \\(\\rho\\le3\\) and inside the cone \\(0\\le\\phi\\le\\pi/4\\), using spherical coordinates with volume element \\(dV=\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta\\).",
+      "title": "Cone Integral in Spherical Coordinates",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Write bounds for \\(E\\) in spherical coordinates and state the volume element.",
+          "answer": "The solid is rotationally symmetric about the \\(z\\)-axis, so \\(\\theta\\) runs through a full turn. The sphere gives \\(0\\le\\rho\\le3\\), and the cone gives \\(0\\le\\phi\\le\\pi/4\\). Thus \\[0\\le\\theta\\le2\\pi,\\qquad 0\\le\\phi\\le\\frac{\\pi}{4},\\qquad 0\\le\\rho\\le3.\\] The spherical volume element is \\[dV=\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Evaluate the volume of \\(E\\).",
+          "answer": "The volume is \\[V=\\int_0^{2\\pi}\\int_0^{\\pi/4}\\int_0^3\\rho^2\\sin\\phi\\,d\\rho\\,d\\phi\\,d\\theta.\\] Evaluate each factor: \\[\\int_0^3\\rho^2\\,d\\rho=9,\\qquad \\int_0^{\\pi/4}\\sin\\phi\\,d\\phi=1-\\frac{\\sqrt2}{2},\\qquad \\int_0^{2\\pi}d\\theta=2\\pi.\\] Hence \\[V=18\\pi\\left(1-\\frac{\\sqrt2}{2}\\right)=9\\pi(2-\\sqrt2).\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q6-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Evaluate \\(\\iiint_E \\rho^2\\,dV\\) and explain why the factor \\(\\rho^2\\sin\\phi\\) is needed.",
+          "answer": "Using the same bounds, \\[\\iiint_E\\rho^2\\,dV=\\int_0^{2\\pi}\\int_0^{\\pi/4}\\int_0^3\\rho^2(\\rho^2\\sin\\phi)\\,d\\rho\\,d\\phi\\,d\\theta.\\] Thus \\[\\iiint_E\\rho^2\\,dV=2\\pi\\left(1-\\frac{\\sqrt2}{2}\\right)\\left[\\frac{\\rho^5}{5}\\right]_0^3=\\frac{486\\pi}{5}\\left(1-\\frac{\\sqrt2}{2}\\right).\\] Equivalently this is \\[\\frac{243\\pi}{5}(2-\\sqrt2).\\] The factor \\(\\rho^2\\sin\\phi\\) is the spherical Jacobian: it converts coordinate increments into physical volume."
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s6-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A sensor output \\(X\\) is modelled by the density \\(f_X(x)=c x(2-x)\\) for \\(0\\le x\\le2\\), and \\(0\\) otherwise.",
+      "title": "Measurement Distribution",
+      "parts": [
+        {
+          "id": "l1mii-s6-p1-q7-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find the constant \\(c\\).",
+          "answer": "A density must integrate to \\(1\\). Therefore \\[1=\\int_0^2c x(2-x)\\,dx=c\\int_0^2(2x-x^2)\\,dx.\\] The integral is \\[\\left[x^2-\\frac{x^3}{3}\\right]_0^2=4-\\frac83=\\frac43.\\] Hence \\(c\\cdot4/3=1\\), so \\[c=\\frac34.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find \\(E[X]\\) and \\(\\operatorname{Var}(X)\\).",
+          "answer": "Using \\(c=3/4\\), \\[E[X]=\\int_0^2x\\cdot\\frac34x(2-x)\\,dx=\\frac34\\int_0^2(2x^2-x^3)\\,dx.\\] This gives \\[E[X]=\\frac34\\left(\\frac{16}{3}-4\\right)=1.\\] Also \\[E[X^2]=\\frac34\\int_0^2(2x^3-x^4)\\,dx=\\frac34\\left(8-\\frac{32}{5}\\right)=\\frac65.\\] Therefore \\[\\operatorname{Var}(X)=E[X^2]-(E[X])^2=\\frac65-1=\\frac15.\\]"
+        },
+        {
+          "id": "l1mii-s6-p1-q7-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For \\(45\\) independent sensor readings, use a normal approximation to estimate \\(P(\\bar X>1.1)\\).",
+          "answer": "The sample mean has mean \\(1\\) and variance \\[(1/5)/45=\\frac{1}{225}.\\] Therefore its standard deviation is \\(1/15\\). By a normal approximation, \\[P(\\bar X>1.1)\\approx P\\left(Z>\\frac{1.1-1}{1/15}\\right)=P(Z>1.5).\\] From standard normal tables this is approximately \\(0.0668\\)."
+        },
+        {
+          "id": "l1mii-s6-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find \\(P(X>1.5)\\), and explain why \\(P(X=1.5)=0\\).",
+          "answer": "For a continuous random variable, an exact single value has zero probability, so \\(P(X=1.5)=0\\). The tail probability is an area: \\[P(X>1.5)=\\int_{1.5}^{2}\\frac34x(2-x)\\,dx.\\] Since \\[\\int x(2-x)\\,dx=x^2-\\frac{x^3}{3},\\] we get \\[P(X>1.5)=\\frac34\\left(\\frac43-\\frac98\\right)=\\frac34\\cdot\\frac{5}{24}=\\frac{5}{32}.\\]"
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

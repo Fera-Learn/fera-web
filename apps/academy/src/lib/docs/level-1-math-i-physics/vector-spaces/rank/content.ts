@@ -33,7 +33,7 @@ The rank is a dimension, so it is a number. It is not the same thing as the matr
 
 <Equation label="Rank bound" tex="\operatorname{rank}A\le \min(m,n)\quad\text{for }A\in\mathbb R^{m\times n}" />
 
-<Equation label="Example row relation" tex="R_3\leftarrow R_3-R_1=(0,1,1)" />
+<Equation label="Example row reduction" tex="\begin{pmatrix}1&2&3\\0&1&1\\1&3&4\end{pmatrix}\sim\begin{pmatrix}1&2&3\\0&1&1\\0&0&0\end{pmatrix}" />
 
 - Rank equals the number of independent columns.
 - Rank is at most the number of rows and at most the number of columns.

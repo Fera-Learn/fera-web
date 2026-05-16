@@ -40,5 +40,5 @@ where for any real \(n\):
 
 <Equation label="Series for (1+x)^{-1}" tex="(1 + x)^{-1} = 1 - x + x^2 - x^3 + \cdots" />
 
-<Equation label="Series for (1+x)^{1/2}" tex="(1 + x)^{1/2} = 1 + \frac{1}{2}x - \frac{1}{8}x^2 + \frac{1}{16}x^3 - \cdots"</ />
+<Equation label="Series for (1+x)^{1/2}" tex="(1 + x)^{1/2} = 1 + \frac{1}{2}x - \frac{1}{8}x^2 + \frac{1}{16}x^3 - \cdots" />
 `;

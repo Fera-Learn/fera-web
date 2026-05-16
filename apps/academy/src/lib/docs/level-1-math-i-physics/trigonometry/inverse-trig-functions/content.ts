@@ -38,6 +38,6 @@ The last property shows why domain restrictions are necessary - \(\arcsin(\sin\t
 
 Inverse trigonometric functions often appear when solving for angles in right triangles:
 
-<Equation label="Arctan formula" tex="\theta = \arctan\left(\frac{y}{x}\right)" />
+<Equation label="Quadrant-aware arctangent" tex="\theta = \operatorname{atan2}(y,x)" />
 
-This gives the angle whose tangent is \(y/x\), useful for converting between Cartesian and polar coordinates.`;
+This gives the angle whose tangent is \(y/x\) while preserving the quadrant and handling \(x=0\). If only ordinary \(\arctan(y/x)\) is available, adjust the result using the signs of \(x\) and \(y\).`;

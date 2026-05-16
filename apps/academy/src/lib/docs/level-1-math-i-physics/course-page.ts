@@ -45,9 +45,9 @@ The course is written as a physics support course rather than as a pure mathemat
 
 <h2 id="how-the-course-works">How The Course Works</h2>
 
-Each topic page will follow the same learning pattern as Level 1 - Physics: a compact model, the notation needed to use it, the main methods, worked examples, and checks that prevent common mistakes.
+Topic pages combine compact explanations, the notation needed to use each idea, the main methods, worked examples, and checks that prevent common mistakes.
 
-Topic pages have been created from the source course notes, but the detailed lesson content, questions, worked answers, and exam papers have not been added yet.
+Use the topic pages for lesson content, question mode for practice, worked answers for feedback, and exam papers for timed revision.
 
 <h2 id="recommended-starting-points">Recommended Starting Points</h2>
 

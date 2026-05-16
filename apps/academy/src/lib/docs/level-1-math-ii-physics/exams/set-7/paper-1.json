@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-math-ii-physics",
+  "setId": "set-7",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1"
+  ],
+  "description": "A Single Mathematics B-style paper with original questions on skew-line geometry, Bernoulli equations, general-period Fourier series, transformations, Jacobians, and probability approximations.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "Show sufficient working to justify each answer.",
+    "Answers should be exact unless a numerical approximation is requested.",
+    "Begin each main question on a new page when working on paper."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1mii-s7-p1-q1",
+      "marks": 14,
+      "number": 1,
+      "section": "Section A: Vectors and Kinematics",
+      "stem": "Two straight rails are modelled by \\(\\ell_1\\), passing through \\(A=(1,0,0)\\) with direction \\(\\mathbf u=(1,2,1)\\), and \\(\\ell_2\\), passing through \\(B=(0,1,3)\\) with direction \\(\\mathbf v=(2,1,-1)\\).",
+      "title": "Skew Rails and Nearest Separation",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Write vector equations for \\(\\ell_1\\) and \\(\\ell_2\\).",
+          "answer": "A line is written as a point plus a scalar multiple of a direction vector. Therefore \\[\\ell_1:\\ \\mathbf r=(1,0,0)+s(1,2,1),\\qquad s\\in\\mathbb R,\\] and \\[\\ell_2:\\ \\mathbf r=(0,1,3)+t(2,1,-1),\\qquad t\\in\\mathbb R.\\] The parameters \\(s\\) and \\(t\\) are independent."
+        },
+        {
+          "id": "l1mii-s7-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the shortest distance between the two rails.",
+          "answer": "For skew lines, the shortest distance is \\[d=\\frac{|(B-A)\\cdot(\\mathbf u\\times\\mathbf v)|}{|\\mathbf u\\times\\mathbf v|}.\\] Here \\[\\mathbf u\\times\\mathbf v=(1,2,1)\\times(2,1,-1)=(-3,3,-3),\\] so \\(|\\mathbf u\\times\\mathbf v|=3\\sqrt3\\). Also \\(B-A=(-1,1,3)\\), and \\[(B-A)\\cdot(\\mathbf u\\times\\mathbf v)=(-1,1,3)\\cdot(-3,3,-3)=3+3-9=-3.\\] Hence \\[d=\\frac{3}{3\\sqrt3}=\\frac{1}{\\sqrt3}.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find a unit vector perpendicular to both rails, and explain its role in part (b).",
+          "answer": "A vector perpendicular to both rails is \\(\\mathbf u\\times\\mathbf v=(-3,3,-3)\\). Its magnitude is \\(3\\sqrt3\\), so a unit perpendicular vector is \\[\\frac{\\mathbf u\\times\\mathbf v}{|\\mathbf u\\times\\mathbf v|}=\\left(-\\frac{1}{\\sqrt3},\\frac{1}{\\sqrt3},-\\frac{1}{\\sqrt3}\\right).\\] In part (b), the displacement between the two lines is projected onto this common perpendicular direction to get the shortest separation."
+        },
+        {
+          "id": "l1mii-s7-p1-q1-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the volume of the tetrahedron with vertices \\(A\\), \\(A+\\mathbf u\\), \\(B\\), and \\(B+\\mathbf v\\).",
+          "answer": "Use edge vectors from \\(A\\): \\[\\mathbf u=(1,2,1),\\qquad B-A=(-1,1,3),\\qquad B+\\mathbf v-A=(1,2,2).\\] The scalar triple product is \\[\\mathbf u\\cdot((B-A)\\times(B+\\mathbf v-A)).\\] Since \\[(B-A)\\times(B+\\mathbf v-A)=(-4,5,-3),\\] we get \\[(1,2,1)\\cdot(-4,5,-3)=-4+10-3=3.\\] The tetrahedron volume is one sixth of the parallelepiped volume, so \\[V=\\frac{|3|}{6}=\\frac12.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q2",
+      "marks": 14,
+      "number": 2,
+      "section": "Section B: Ordinary Differential Equations",
+      "stem": "Answer the following independent differential-equation questions.",
+      "title": "Bernoulli Equation and Matrix System",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q2-a",
+          "label": "(a)",
+          "marks": 7,
+          "prompt": "Solve the Bernoulli equation \\(\\frac{dy}{dx}+\\frac{1}{x}y=xy^2\\), for \\(x>0\\), subject to \\(y(1)=1\\).",
+          "answer": "Let \\(z=y^{-1}\\). Then \\(z'=-y^{-2}y'\\). From the differential equation, \\(y'=xy^2-y/x\\), so \\[z'=-x+\\frac{1}{x}z.\\] Therefore \\[z'-\\frac{1}{x}z=-x.\\] The integrating factor is \\(\\exp\\int -1/x\\,dx=x^{-1}\\). Multiplying by \\(x^{-1}\\), \\[\\left(\\frac{z}{x}\\right)'=-1.\\] Hence \\(z/x=-x+C\\), so \\[z=Cx-x^2.\\] Since \\(y(1)=1\\), \\(z(1)=1\\), and therefore \\(C-1=1\\), so \\(C=2\\). Thus \\[y(x)=\\frac{1}{2x-x^2}.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q2-b",
+          "label": "(b)",
+          "marks": 7,
+          "prompt": "Solve \\(\\mathbf X'=A\\mathbf X\\), where \\(A=\\begin{pmatrix}3&2\\\\2&3\\end{pmatrix}\\) and \\(\\mathbf X(0)=\\binom{1}{0}\\).",
+          "answer": "The characteristic equation is \\[(3-\\lambda)^2-4=0,\\] so \\(3-\\lambda=\\pm2\\). The eigenvalues are \\(5\\) and \\(1\\). For \\(\\lambda=5\\), an eigenvector is \\((1,1)\\). For \\(\\lambda=1\\), an eigenvector is \\((1,-1)\\). Therefore \\[\\binom{x}{y}=c_1e^{5t}\\binom{1}{1}+c_2e^t\\binom{1}{-1}.\\] The initial condition gives \\(c_1+c_2=1\\) and \\(c_1-c_2=0\\), so \\(c_1=c_2=1/2\\). Hence \\[x(t)=\\frac12e^{5t}+\\frac12e^t,\\qquad y(t)=\\frac12e^{5t}-\\frac12e^t.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q3",
+      "marks": 14,
+      "number": 3,
+      "section": "Section C: Fourier Analysis",
+      "stem": "Let \\(f(x)=x\\) on \\((-3,3)\\), extended periodically with period \\(6\\).",
+      "title": "General-Period Sine Series",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q3-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "State the value of \\(L\\), the period, and which Fourier coefficients vanish by symmetry.",
+          "answer": "The interval is \\((-L,L)=(-3,3)\\), so \\(L=3\\). The period is \\(2L=6\\). Since \\(f(x)=x\\) is odd, \\(f(-x)=-f(x)\\). Therefore the constant and cosine coefficients vanish: \\[a_0=0,\\qquad a_n=0\\quad(n\\ge1).\\] Only sine terms remain."
+        },
+        {
+          "id": "l1mii-s7-p1-q3-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Find the Fourier series of \\(f\\).",
+          "answer": "For an odd function on \\((-L,L)\\), \\[b_n=\\frac{2}{L}\\int_0^L f(x)\\sin\\frac{n\\pi x}{L}\\,dx.\\] With \\(L=3\\), \\[b_n=\\frac23\\int_0^3x\\sin\\frac{n\\pi x}{3}\\,dx.\\] Put \\(k=n\\pi/3\\). Then \\[\\int_0^3x\\sin kx\\,dx=\\left[-\\frac{x\\cos kx}{k}+\\frac{\\sin kx}{k^2}\\right]_0^3=-\\frac{3(-1)^n}{n\\pi/3}.\\] Hence \\[b_n=\\frac23\\left(-\\frac{9(-1)^n}{n\\pi}\\right)=\\frac{6(-1)^{n+1}}{n\\pi}.\\] Therefore \\[f(x)\\sim\\sum_{n=1}^{\\infty}\\frac{6(-1)^{n+1}}{n\\pi}\\sin\\frac{n\\pi x}{3}.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use Parseval's theorem to evaluate \\(\\sum_{n=1}^{\\infty}1/n^2\\).",
+          "answer": "For this sine series, Parseval's theorem gives \\[\\frac{1}{3}\\int_{-3}^{3}x^2\\,dx=\\sum_{n=1}^{\\infty}b_n^2.\\] The left side is \\[\\frac{1}{3}\\cdot2\\int_0^3x^2\\,dx=\\frac{2}{3}\\cdot9=6.\\] Since \\(b_n=6(-1)^{n+1}/(n\\pi)\\), \\[6=\\sum_{n=1}^{\\infty}\\frac{36}{n^2\\pi^2}=\\frac{36}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}.\\] Therefore \\[\\sum_{n=1}^{\\infty}\\frac{1}{n^2}=\\frac{\\pi^2}{6}.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q4",
+      "marks": 14,
+      "number": 4,
+      "section": "Section D: Multivariable Calculus",
+      "stem": "Let \\(F(s,t)=f(x,y)\\), where \\(x=s+t\\) and \\(y=s^2-t^2\\). Assume \\(f\\) has continuous second partial derivatives.",
+      "title": "Mixed Partials and Chain Rule",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find \\(F_s\\) and \\(F_t\\).",
+          "answer": "The coordinate derivatives are \\[x_s=1,\\qquad x_t=1,\\qquad y_s=2s,\\qquad y_t=-2t.\\] By the chain rule, \\[F_s=f_xx_s+f_yy_s=f_x+2sf_y,\\] and \\[F_t=f_xx_t+f_yy_t=f_x-2tf_y.\\] The derivatives of \\(f\\) are evaluated at \\((x,y)=(s+t,s^2-t^2)\\)."
+        },
+        {
+          "id": "l1mii-s7-p1-q4-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Show that \\(F_{st}=f_{xx}+2(s-t)f_{xy}-4stf_{yy}\\).",
+          "answer": "Differentiate \\(F_s=f_x+2sf_y\\) with respect to \\(t\\). For the first term, \\[\\frac{\\partial}{\\partial t}f_x=f_{xx}x_t+f_{xy}y_t=f_{xx}-2tf_{xy}.\\] For the second term, \\(s\\) is constant with respect to \\(t\\), so \\[\\frac{\\partial}{\\partial t}(2sf_y)=2s(f_{yx}x_t+f_{yy}y_t)=2s(f_{xy}-2tf_{yy}).\\] Adding these terms and using \\(f_{xy}=f_{yx}\\), \\[F_{st}=f_{xx}-2tf_{xy}+2sf_{xy}-4stf_{yy}=f_{xx}+2(s-t)f_{xy}-4stf_{yy}.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Apply part (b) to \\(f(x,y)=x^2+y^2\\) at \\((s,t)=(1,0)\\).",
+          "answer": "For \\(f(x,y)=x^2+y^2\\), \\[f_{xx}=2,\\qquad f_{xy}=0,\\qquad f_{yy}=2.\\] Substituting into the formula from part (b) gives \\[F_{st}=2+2(s-t)\\cdot0-4st\\cdot2=2-8st.\\] At \\((s,t)=(1,0)\\), \\[F_{st}=2-8(1)(0)=2.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q5",
+      "marks": 14,
+      "number": 5,
+      "section": "Section E: Critical Points and Vector Calculus",
+      "stem": "Consider the plane vector field \\(\\mathbf F=(2xy+y, x^2+x+2y)\\).",
+      "title": "Conservative Work Field",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Show that \\(\\mathbf F\\) is conservative on \\(\\mathbb R^2\\).",
+          "answer": "Write \\(\\mathbf F=(P,Q)\\), where \\(P=2xy+y\\) and \\(Q=x^2+x+2y\\). On the simply connected plane, equality of the cross partials is sufficient for a conservative field. Here \\[P_y=2x+1,\\qquad Q_x=2x+1.\\] Since \\(P_y=Q_x\\) everywhere, \\(\\mathbf F\\) is conservative on \\(\\mathbb R^2\\)."
+        },
+        {
+          "id": "l1mii-s7-p1-q5-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find a potential function \\(\\phi\\) such that \\(\\nabla\\phi=\\mathbf F\\).",
+          "answer": "We need \\(\\phi_x=2xy+y\\) and \\(\\phi_y=x^2+x+2y\\). Integrating \\(\\phi_x\\) with respect to \\(x\\), \\[\\phi=x^2y+xy+g(y).\\] Differentiating with respect to \\(y\\), \\[\\phi_y=x^2+x+g'(y).\\] Comparing with \\(x^2+x+2y\\), we get \\(g'(y)=2y\\), so \\(g(y)=y^2+C\\). Thus one potential is \\[\\phi(x,y)=x^2y+xy+y^2.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\int_C\\mathbf F\\cdot d\\mathbf r\\), where \\(C\\) is any smooth path from \\((1,0)\\) to \\((2,1)\\).",
+          "answer": "Because \\(\\mathbf F\\) is conservative, the integral depends only on the endpoints. Using the potential from part (b), \\[\\int_C\\mathbf F\\cdot d\\mathbf r=\\phi(2,1)-\\phi(1,0).\\] Now \\[\\phi(2,1)=2^2\\cdot1+2\\cdot1+1^2=7,\\] and \\[\\phi(1,0)=0+0+0=0.\\] Therefore \\[\\int_C\\mathbf F\\cdot d\\mathbf r=7.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multiple Integrals and Vector Identities",
+      "stem": "Use the linear change of variables \\(u=x+y\\), \\(v=x-y\\). Let \\(R\\) be the region corresponding to \\(0\\le u\\le2\\), \\(1\\le v\\le3\\).",
+      "title": "Jacobian Transformation",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q6-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Find \\(x\\) and \\(y\\) in terms of \\(u\\) and \\(v\\), and compute \\(\\left|\\frac{\\partial(x,y)}{\\partial(u,v)}\\right|\\).",
+          "answer": "Adding and subtracting \\(u=x+y\\) and \\(v=x-y\\) gives \\[x=\\frac{u+v}{2},\\qquad y=\\frac{u-v}{2}.\\] The Jacobian is \\[\\frac{\\partial(x,y)}{\\partial(u,v)}=\\begin{vmatrix}1/2&1/2\\\\1/2&-1/2\\end{vmatrix}=-\\frac14-\\frac14=-\\frac12.\\] Therefore the area scale factor is \\[\\left|\\frac{\\partial(x,y)}{\\partial(u,v)}\\right|=\\frac12.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q6-b",
+          "label": "(b)",
+          "marks": 6,
+          "prompt": "Evaluate \\(\\iint_R (x^2-y^2)\\,dA\\).",
+          "answer": "Since \\(x^2-y^2=(x+y)(x-y)=uv\\) and \\(dA=\\frac12\\,du\\,dv\\), \\[\\iint_R(x^2-y^2)\\,dA=\\int_0^2\\int_1^3 uv\\cdot\\frac12\\,dv\\,du.\\] This separates as \\[\\frac12\\left(\\int_0^2u\\,du\\right)\\left(\\int_1^3v\\,dv\\right).\\] Now \\(\\int_0^2u\\,du=2\\), and \\(\\int_1^3v\\,dv=4\\). Therefore the value is \\[\\frac12\\cdot2\\cdot4=4.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q6-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the area of \\(R\\).",
+          "answer": "The rectangle in the \\((u,v)\\)-plane has area \\[(2-0)(3-1)=4.\\] Since the area scale factor is \\(1/2\\), the area of \\(R\\) in the \\((x,y)\\)-plane is \\[4\\cdot\\frac12=2.\\] Equivalently, \\[\\iint_R1\\,dA=\\int_0^2\\int_1^3\\frac12\\,dv\\,du=2.\\]"
+        }
+      ]
+    },
+    {
+      "id": "l1mii-s7-p1-q7",
+      "marks": 15,
+      "number": 7,
+      "section": "Section G: Probability and Statistics",
+      "stem": "A laboratory assigns participants to labelled experiment stations and then monitors defect counts in repeated runs.",
+      "title": "Experiment Assignment and Defects",
+      "parts": [
+        {
+          "id": "l1mii-s7-p1-q7-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Fourteen labelled participants are assigned to three labelled stations with capacities \\(4\\), \\(4\\), and \\(6\\). How many assignments fill all stations?",
+          "answer": "Choose \\(4\\) participants for the first station, then \\(4\\) of the remaining \\(10\\) for the second station, and put the remaining \\(6\\) at the third station. The count is \\[\\binom{14}{4}\\binom{10}{4}=\\frac{14!}{4!4!6!}.\\] The stations are labelled, so no further division is needed."
+        },
+        {
+          "id": "l1mii-s7-p1-q7-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Three of the participants are specialists. If all assignments are equally likely, find the probability that all three specialists are assigned to the station with capacity \\(6\\).",
+          "answer": "If all three specialists are assigned to the largest station, choose the remaining \\(3\\) people at that station from the \\(11\\) non-specialists. Then distribute the remaining \\(8\\) people between the two labelled stations of capacity \\(4\\) each. The favourable count is \\[\\binom{11}{3}\\frac{8!}{4!4!}.\\] Dividing by the total count from part (a), the probability is \\[\\frac{\\binom{11}{3}8!/(4!4!)}{14!/(4!4!6!)}=\\frac{\\binom{11}{3}8!6!}{14!}.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q7-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "A run has \\(Y\\sim\\operatorname{Bin}(80,0.08)\\). Use a normal approximation with continuity correction to estimate \\(P(Y\\le5)\\).",
+          "answer": "For \\(Y\\sim\\operatorname{Bin}(80,0.08)\\), the mean is \\[np=80(0.08)=6.4,\\] and the variance is \\[np(1-p)=80(0.08)(0.92)=5.888.\\] The standard deviation is \\(\\sqrt{5.888}\\approx2.426\\). With a continuity correction, \\[P(Y\\le5)\\approx P(Y_N<5.5),\\] where \\(Y_N\\sim N(6.4,5.888)\\). Therefore \\[P(Y\\le5)\\approx P\\left(Z<\\frac{5.5-6.4}{2.426}\\right)=P(Z<-0.37)\\approx0.356.\\]"
+        },
+        {
+          "id": "l1mii-s7-p1-q7-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "In \\(40\\) independent runs, the output per run has mean \\(12\\) and variance \\(9\\). Use the central limit theorem to estimate the probability that the total output exceeds \\(500\\).",
+          "answer": "Let \\(T\\) be the total output over \\(40\\) runs. Then \\[E[T]=40(12)=480,\\qquad \\operatorname{Var}(T)=40(9)=360.\\] Thus the standard deviation is \\(\\sqrt{360}\\approx18.97\\). Using a continuity-style threshold of \\(500.5\\), \\[P(T>500)\\approx P\\left(Z>\\frac{500.5-480}{18.97}\\right)=P(Z>1.08).\\] From standard normal tables this is approximately \\(0.140\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "3 hours",
+  "title": "Level 1 - Math II (Physics) Paper 1",
+  "totalMarks": 100
+}

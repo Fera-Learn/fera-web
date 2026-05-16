@@ -22,7 +22,7 @@ If needed, apply repeatedly:
 
 ## Example
 
-\(\lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1} = 1\)
+\(\lim_{x \to 0} \frac{\ln(1+x)}{x} = \lim_{x \to 0} \frac{1/(1+x)}{1} = 1\)
 
 ## Conditions
 

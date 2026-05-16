@@ -5,19 +5,7 @@ import * as runtime from "react/jsx-runtime";
 import remarkGfm from "remark-gfm";
 
 import { Card, CardContent } from "@repo/ui/card";
-import {
-  AreaDiagram,
-  ArgandDiagram,
-  CartesianDiagram,
-  CollisionDiagram,
-  CurveDiagram,
-  ForceDiagram,
-  IntervalAreaDiagram,
-  PolarDiagram,
-  RigidBodyDiagram,
-  StateDiagram,
-  VectorFieldDiagram,
-} from "@repo/ui/diagrams";
+import { CartesianGrid, Curve, Annotation, DashedLine, Point } from "@repo/ui/diagrams";
 
 import type { DocPage } from "../core/types";
 import {
@@ -77,20 +65,14 @@ export async function renderDocBody(
     },
     Equation: DocsEquation,
     Notation: DocsNotation,
-    AreaDiagram,
-    ArgandDiagram,
-    CartesianDiagram,
-    CollisionDiagram,
-    CurveDiagram,
-    ForceDiagram,
-    IntervalAreaDiagram,
+    CartesianGrid,
+    Curve,
+    Annotation,
+    DashedLine,
+    Point,
     PhysicsAside: DocsPhysicsAside,
     PhysicsDerivation: DocsPhysicsDerivation,
     PhysicsExamples: DocsPhysicsExamples,
-    PolarDiagram,
-    RigidBodyDiagram,
-    StateDiagram,
-    VectorFieldDiagram,
     h2: ({ id, children, ...props }: HTMLAttributes<HTMLHeadingElement>) => {
       if (suppressExamplesSection && id === "examples") {
         return null;

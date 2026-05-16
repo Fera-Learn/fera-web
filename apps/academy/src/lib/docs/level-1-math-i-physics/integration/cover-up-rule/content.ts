@@ -41,8 +41,8 @@ Decompose \(\frac{2x^2 + x - 1}{(x-2)(x+1)(x-1)}\):
 ### Limitations
 
 The cover-up rule only works for:
-- Linear factors in the denominator
-- Numerators that are constants (not polynomials with \(x\))
+- distinct linear factors in the denominator
+- Proper rational functions, possibly after polynomial division
 
 For repeated factors or quadratic factors, use the standard method of multiplying and equating coefficients.
 `;

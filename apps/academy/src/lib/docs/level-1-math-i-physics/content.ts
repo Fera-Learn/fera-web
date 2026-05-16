@@ -243,6 +243,7 @@ export const level1MathIPhysicsTopicBodies = new Map<string, string>([
   ["Proof by Induction", proofByInductionContent],
   ["Summation Notation", summationNotationContent],
   ["Trig Functions", trigFunctionsContent],
+  ["Pythagoras Theorem", pythagorasTheoremContent],
   ["Pythagoras' Theorem", pythagorasTheoremContent],
   ["Inverse Trig Functions", inverseTrigFunctionsContent],
   ["Angle Addition Formulae", angleAdditionFormulaeContent],

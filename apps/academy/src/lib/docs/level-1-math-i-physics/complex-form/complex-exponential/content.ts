@@ -35,8 +35,8 @@ This unified view connects:
 
 ### Complex Powers
 
-For any complex base \(a\) and exponent \(b\):
+For any non-zero complex base \(a\) and exponent \(b\):
 
 <Equation label="Complex Power" tex="a^b = e^{b \ln a}" />
 
-where \(\ln a\) is the complex logarithm, having infinitely many values due to the periodicity of the exponential.`;
+where \(\ln a\) is the complex logarithm, having infinitely many values due to the periodicity of the exponential. Therefore \(a^b\) is generally multi-valued unless a branch of \(\ln\) is chosen.`;

@@ -38,7 +38,7 @@ These are the fundamental integrals that form the building blocks for solving mo
 
 <Equation label="Arctan" tex="\int \frac{1}{1+x^2} \, dx = \arctan x + C" />
 
-<Equation label="Arcsec" tex="\int \frac{1}{|x|\sqrt{x^2-1}} \, dx = \operatorname{arcsec}|x| + C" />
+<Equation label="Arcsec" tex="\int \frac{1}{|x|\sqrt{x^2-1}} \, dx = \operatorname{arcsec} x + C,\quad |x|\gt1" />
 
 ### Trigonometric Substitutions
 
