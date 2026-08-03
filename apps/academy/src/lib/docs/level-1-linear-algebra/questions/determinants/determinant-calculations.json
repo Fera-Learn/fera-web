@@ -1,0 +1,112 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "determinant-calculations",
+  "topicTitle": "Determinant Calculations",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-01",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}3&1\\\\2&5\\end{pmatrix}\\right)\\).",
+      "answer": "Use ad - bc. The determinant is \\(3\\cdot5\\) - \\(1\\cdot2\\) = 15 - 2 = 13. Therefore \\(\\\\det=13\\).",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "calculation"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-02",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&2&0\\\\0&3&4\\\\0&0&5\\end{pmatrix}\\right)\\).",
+      "answer": "The matrix is upper triangular, so the determinant is the product of the diagonal entries. Therefore \\(\\\\det=1\\)*\\(3\\cdot5\\) = 15.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "triangular-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-03",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&1&0\\\\4&3&0\\\\1&5&6\\end{pmatrix}\\right)\\) by expanding along column 3.",
+      "answer": "Column 3 is \\((0,0,6)\\), so only the entry 6 contributes. Its sign in position \\((3,3)\\) is positive. The minor is \\(\\begin{pmatrix}2&1\\\\4&3\\end{pmatrix}\\), whose determinant is \\(2\\cdot3\\) - \\(1\\cdot4\\) = 2. Therefore \\(\\\\det=6\\)*2 = 12.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-04",
+      "prompt": "Use a row operation to compute \\(\\det\\left(\\begin{pmatrix}1&2\\\\3&8\\end{pmatrix}\\right)\\).",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 3R1, which does not change the determinant. The matrix becomes \\(\\begin{pmatrix}1&2\\\\0&2\\end{pmatrix}\\). This triangular matrix has determinant \\(1\\cdot2\\) = 2. Therefore the original determinant is 2.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "row-operations"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-05",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&4\\\\1&2\\end{pmatrix}\\right)\\) and interpret the result.",
+      "answer": "Use ad - bc: \\(\\\\det=2\\)*2 - \\(4\\cdot1\\) = 4 - 4 = 0. A zero determinant means the rows and columns are linearly dependent, and the matrix is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-06",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&1&1\\\\2&3&4\\\\0&1&2\\end{pmatrix}\\right)\\).",
+      "answer": "Expand along row 1: \\(\\\\det=1\\)*\\(\\det\\left(\\begin{pmatrix}3&4\\\\1&2\\end{pmatrix}\\right)\\) - \\(1\\cdot \\det\\left(\\begin{pmatrix}2&4\\\\0&2\\end{pmatrix}\\right)\\) + \\(1\\cdot \\det\\left(\\begin{pmatrix}2&3\\\\0&1\\end{pmatrix}\\right)\\). The minors are \\(3\\cdot2\\) - \\(4\\cdot1\\) = 2, \\(2\\cdot2\\) - \\(4\\cdot0\\) = 4, and \\(2\\cdot1\\) - \\(3\\cdot0\\) = 2. Therefore \\(\\\\det=2\\) - 4 + 2 = 0.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-07",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}0&2&0\\\\1&3&4\\\\5&6&7\\end{pmatrix}\\right)\\) by expanding along row 1.",
+      "answer": "Row 1 is \\((0,2,0)\\), so only the middle entry contributes. Its sign is negative in position \\((1,2)\\). The minor is \\(\\begin{pmatrix}1&4\\\\5&7\\end{pmatrix}\\), with determinant \\(1\\cdot7\\) - \\(4\\cdot5\\) = 7 - 20 = -13. Therefore \\(\\\\det=-2\\)*(-13) = 26.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-08",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&1&3\\\\0&4&5\\\\0&2&1\\end{pmatrix}\\right)\\) by first expanding along column 1.",
+      "answer": "Column 1 is \\((2,0,0)\\), so only the first entry contributes. Its sign is positive. The minor is \\(\\begin{pmatrix}4&5\\\\2&1\\end{pmatrix}\\), whose determinant is \\(4\\cdot1\\) - \\(5\\cdot2\\) = 4 - 10 = -6. Therefore \\(\\\\det=2\\)*(-6) = -12.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-09",
+      "prompt": "Use row reduction to compute \\(\\det\\left(\\begin{pmatrix}2&1&0\\\\4&5&1\\\\0&3&2\\end{pmatrix}\\right)\\).",
+      "answer": "Use determinant-preserving operations. Apply \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1 to get \\(\\begin{pmatrix}2&1&0\\\\0&3&1\\\\0&3&2\\end{pmatrix}\\). Then apply \\(\\mathbb R^3\\) <- \\(\\mathbb R^3\\) - \\(\\mathbb R^2\\) to get \\(\\begin{pmatrix}2&1&0\\\\0&3&1\\\\0&0&1\\end{pmatrix}\\). The matrix is triangular, so the determinant is \\(2\\cdot3\\)*1 = 6. The row replacement operations did not change the determinant, so the original determinant is 6.",
+      "rating": "****",
+      "paperTags": [
+        "determinants",
+        "row-reduction"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-calculations-10",
+      "prompt": "Find all real t such that \\(\\det\\left(\\begin{pmatrix}t&2\\\\8&t\\end{pmatrix}\\right)\\) = 0.",
+      "answer": "Compute the determinant: t*t - \\(2\\cdot8\\) = \\(t^2\\) - 16. Set it equal to zero: \\(t^2\\) - 16 = 0. Factor: (t - 4)(t + 4) = 0. Therefore \\(t=4\\) or \\(t=-4\\).",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "parameters"
+      ]
+    }
+  ]
+}

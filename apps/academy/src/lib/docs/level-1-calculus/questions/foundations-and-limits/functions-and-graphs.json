@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "foundations-and-limits",
+  "topicId": "functions-and-graphs",
+  "topicTitle": "Functions And Graphs",
+  "paperTags": [
+    "foundations-and-limits"
+  ],
+  "questions": [
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-01",
+      "prompt": "For the function \\(f(x)=2x^2-3\\), find \\(f(-2)\\) and state the corresponding point on the graph.",
+      "answer": "We are finding the output when the input is \\(x=-2\\). Substitute into the formula: \\(f(-2)=2(-2)^2-3\\). Since \\((-2)^2=4\\), this gives \\(f(-2)=2\\cdot4-3=8-3=5\\). The graph contains the point whose coordinates are input and output, so the point is \\((-2,5)\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "function-values"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-02",
+      "prompt": "Find the domain of \\(g(x)=\\frac{5}{x-4}\\).",
+      "answer": "We need the real inputs for which the formula is defined. The only restriction comes from the denominator, because division by zero is not allowed. Set \\(x-4=0\\), giving \\(x=4\\). Therefore \\(x=4\\) is excluded, and the domain is all real numbers except \\(4\\), written \\(( -\\infty,4)\\cup(4,\\infty)\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-03",
+      "prompt": "Find the \\(x\\)-intercepts and \\(y\\)-intercept of \\(f(x)=x^2-9\\).",
+      "answer": "The \\(y\\)-intercept is found by setting \\(x=0\\): \\(f(0)=0^2-9=-9\\), so it is \\((0,-9)\\). The \\(x\\)-intercepts are found by solving \\(f(x)=0\\): \\(x^2-9=0\\). Factor: \\((x-3)(x+3)=0\\), so \\(x=3\\) or \\(x=-3\\). The \\(x\\)-intercepts are \\((3,0)\\) and \\((-3,0)\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "intercepts"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-04",
+      "prompt": "For \\(h(x)=\\sqrt{x+1}\\), find the domain and evaluate \\(h(8)\\).",
+      "answer": "The square root requires the expression inside it to be non-negative. Thus \\(x+1\\ge0\\), so \\(x\\ge-1\\). The domain is \\([-1,\\infty)\\). To evaluate \\(h(8)\\), substitute \\(x=8\\): \\(h(8)=\\sqrt{8+1}=\\sqrt9=3\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "domain",
+        "square-roots"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-05",
+      "prompt": "Let \\(f(x)=3x-1\\) and \\(g(x)=x^2\\). Find \\((f\\circ g)(2)\\) and \\((g\\circ f)(2)\\).",
+      "answer": "Composition means applying one function after the other. First, \\((f\\circ g)(2)=f(g(2))\\). Since \\(g(2)=2^2=4\\), we get \\(f(4)=3\\cdot4-1=11\\). Next, \\((g\\circ f)(2)=g(f(2))\\). Since \\(f(2)=3\\cdot2-1=5\\), we get \\(g(5)=5^2=25\\). Therefore \\((f\\circ g)(2)=11\\) and \\((g\\circ f)(2)=25\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "composition"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-06",
+      "prompt": "For the piecewise function \\(p(x)=x+2\\) for \\(x<1\\), and \\(p(x)=x^2\\) for \\(x\\ge1\\), find \\(p(0)\\), \\(p(1)\\), and \\(p(3)\\).",
+      "answer": "We choose the formula according to the input value. For \\(x=0\\), since \\(0<1\\), use \\(p(x)=x+2\\), so \\(p(0)=2\\). For \\(x=1\\), the condition \\(x\\ge1\\) applies, so \\(p(1)=1^2=1\\). For \\(x=3\\), again \\(x\\ge1\\), so \\(p(3)=3^2=9\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "piecewise-functions"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-07",
+      "prompt": "Find the domain of \\(q(x)=\\frac{\\sqrt{x-2}}{x+5}\\).",
+      "answer": "There are two restrictions. The square root requires \\(x-2\\ge0\\), so \\(x\\ge2\\). The denominator requires \\(x+5\\ne0\\), so \\(x\\ne-5\\). But \\(-5\\) is already outside \\(x\\ge2\\), so it does not remove any additional allowed input. Therefore the domain is \\([2,\\infty)\\).",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-08",
+      "prompt": "For \\(f(x)=|x-2|\\), write the function as a piecewise formula and state the vertex of its graph.",
+      "answer": "The absolute value \\(|x-2|\\) measures distance from \\(2\\). If \\(x\\ge2\\), then \\(x-2\\ge0\\), so \\(|x-2|=x-2\\). If \\(x<2\\), then \\(x-2<0\\), so \\(|x-2|=-(x-2)=2-x\\). Thus \\(f(x)=2-x\\) for \\(x<2\\), and \\(f(x)=x-2\\) for \\(x\\ge2\\). The minimum value occurs when \\(x-2=0\\), so the vertex is \\((2,0)\\).",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "absolute-value"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-09",
+      "prompt": "A line passes through \\((1,2)\\) and \\((5,10)\\). Find its equation in the form \\(y=mx+b\\).",
+      "answer": "First find the slope: \\(m=\\frac{10-2}{5-1}=\\frac8 4=2\\). Use \\(y=mx+b\\), so \\(y=2x+b\\). Substitute the point \\((1,2)\\): \\(2=2(1)+b\\), hence \\(b=0\\). Therefore the equation is \\(y=2x\\). Checking with \\((5,10)\\), \\(2\\cdot5=10\\), so the equation fits both points.",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-functions-and-graphs-10",
+      "prompt": "For \\(f(x)=\\frac{x^2-4}{x-2}\\), explain why the graph has a hole and find the coordinates of the hole.",
+      "answer": "Factor the numerator: \\(x^2-4=(x-2)(x+2)\\). For \\(x\\ne2\\), the expression simplifies to \\(f(x)=x+2\\). However, the original formula is undefined at \\(x=2\\) because the denominator is zero. Therefore the graph follows the line \\(y=x+2\\) except at \\(x=2\\). The missing output would be \\(2+2=4\\), so the hole is at \\((2,4)\\).",
+      "rating": "****",
+      "paperTags": [
+        "foundations-and-limits",
+        "functions-and-graphs",
+        "removable-discontinuity"
+      ]
+    }
+  ]
+}

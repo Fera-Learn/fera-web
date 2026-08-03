@@ -1,0 +1,119 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-systems",
+  "topicId": "echelon-form",
+  "topicTitle": "Echelon Form",
+  "paperTags": [
+    "linear-systems"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-01",
+      "prompt": "Decide whether \\(\\begin{pmatrix}1&2&3\\\\0&4&5\\\\0&0&6\\end{pmatrix}\\) is in echelon form.",
+      "answer": "A matrix is in echelon form when non-zero rows are above zero rows and each leading entry is to the right of the leading entry above it. The leading entries are in columns 1, 2, and 3. They move strictly to the right down the rows. Therefore the matrix is in echelon form.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-02",
+      "prompt": "Decide whether \\(\\begin{pmatrix}0&1&2\\\\1&0&3\\end{pmatrix}\\) is in echelon form.",
+      "answer": "The leading entry of the first row is in column 2. The leading entry of the second row is in column 1. Since the second leading entry is to the left of the one above it, the leading entries do not move right as we go down. Therefore the matrix is not in echelon form.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-03",
+      "prompt": "Identify the pivot columns in \\(\\begin{pmatrix}2&1&0&5\\\\0&3&-1&4\\\\0&0&0&1\\end{pmatrix}\\).",
+      "answer": "A pivot column is a column containing a leading entry of a non-zero row. Row 1 has leading entry in column 1. Row 2 has leading entry in column 2. Row 3 has leading entry in column 4. Therefore the pivot columns are columns 1, 2, and 4.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "pivot-columns"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-04",
+      "prompt": "Use back substitution to solve the echelon system represented by \\(\\begin{pmatrix}1&2&1&6\\\\0&1&-1&1\\\\0&0&2&4\\end{pmatrix}\\).",
+      "answer": "The last row gives 2z = 4, so \\(z=2\\). The second row gives y - \\(z=1\\), so y - 2 = 1 and \\(y=3\\). The first row gives x + 2y + \\(z=6\\). Substitute \\(y=3\\) and \\(z=2\\): x + 6 + 2 = 6, so \\(x=-2\\). Therefore the solution is \\((x, y, z)\\) = \\((-2, 3, 2)\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "back-substitution"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-05",
+      "prompt": "Row reduce the first column of \\(\\begin{pmatrix}2&1&5\\\\4&3&11\\end{pmatrix}\\) to get an echelon form.",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1 to eliminate the entry below the first pivot. Compute \\(\\mathbb R^2\\) - 2R1 = \\((4,3,11)\\) - 2\\((2,1,5)\\) = \\((0,1,1)\\). Keep \\(\\mathbb R^1\\) unchanged. An echelon form is \\(\\begin{pmatrix}2&1&5\\\\0&1&1\\end{pmatrix}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "row-reduction"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-06",
+      "prompt": "Solve the echelon system \\(\\begin{pmatrix}1&-1&0\\\\0&2&6\\end{pmatrix}\\) in variables x and y.",
+      "answer": "The second row gives 2y = 6, so \\(y=3\\). The first row gives x - \\(y=0\\). Substitute \\(y=3\\) to get x - 3 = 0, so \\(x=3\\). Therefore the solution is \\((3, 3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "back-substitution"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-07",
+      "prompt": "Explain why \\(\\begin{pmatrix}1&0&2\\\\0&0&0\\\\0&1&3\\end{pmatrix}\\) is not in echelon form.",
+      "answer": "In echelon form, all zero rows must be below all non-zero rows. Here the second row is a zero row, but the third row \\((0,1,3)\\) is non-zero and appears below it. Therefore the matrix is not in echelon form.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-08",
+      "prompt": "For echelon matrix \\(\\begin{pmatrix}1&2&0&3\\\\0&0&1&4\\end{pmatrix}\\), identify pivot variables and free variables using variables x, y, z.",
+      "answer": "Pivot columns are columns containing leading entries. Row 1 leads in column 1, so x is a pivot variable. Row 2 leads in column 3, so z is a pivot variable. Column 2 has no pivot, so y is free. Therefore x and z are pivot variables, and y is free.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "free-variables"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-09",
+      "prompt": "Determine whether the echelon matrix \\(\\begin{pmatrix}1&2&3\\\\0&0&1\\end{pmatrix}\\) represents an inconsistent system in variables x and y.",
+      "answer": "The last column is the constants column, so the second row represents 0x + 0y = 1. This is the contradiction 0 = 1. Therefore the system is inconsistent and has no solution.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "consistency"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-echelon-form-10",
+      "prompt": "Find an echelon form of \\(\\begin{pmatrix}1&1&2\\\\2&3&5\\\\3&4&7\\end{pmatrix}\\).",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1 and \\(\\mathbb R^3\\) <- \\(\\mathbb R^3\\) - 3R1. This gives rows \\(\\mathbb R^2\\) = \\((0,1,1)\\) and \\(\\mathbb R^3\\) = \\((0,1,1)\\), with \\(\\mathbb R^1\\) = \\((1,1,2)\\). Now use \\(\\mathbb R^3\\) <- \\(\\mathbb R^3\\) - \\(\\mathbb R^2\\) to get \\(\\mathbb R^3\\) = \\((0,0,0)\\). An echelon form is \\(\\begin{pmatrix}1&1&2\\\\0&1&1\\\\0&0&0\\end{pmatrix}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "linear-systems",
+        "echelon-form",
+        "row-reduction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-equations",
+  "topicId": "first-order-differential-equations",
+  "topicTitle": "First-Order Differential Equations",
+  "paperTags": [
+    "differential-equations",
+    "first-order-differential-equations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-01",
+      "prompt": "Verify that \\(y=Ce^{2x}\\) solves \\(dy/dx=2y\\), where \\(C\\) is a constant.",
+      "answer": "Differentiate the proposed solution: \\(dy/dx=2Ce^{2x}\\). Since \\(y=Ce^{2x}\\), the right-hand side of the equation is \\(2y=2Ce^{2x}\\). The derivative equals the right-hand side, so \\(y=Ce^{2x}\\) solves \\(dy/dx=2y\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "verification"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-02",
+      "prompt": "Solve \\(dy/dx=3x^2\\).",
+      "answer": "The differential equation gives the derivative of \\(y\\). Integrate both sides with respect to \\(x\\): \\(y=\\int 3x^2\\,dx\\). This gives \\(y=x^3+C\\), where \\(C\\) is an arbitrary constant. Therefore the general solution is \\(y=x^3+C\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "direct-integration"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-03",
+      "prompt": "Solve the initial value problem \\(dy/dx=2x\\), \\(y(0)=5\\).",
+      "answer": "Integrate the differential equation: \\(y=\\int 2x\\,dx=x^2+C\\). Use the initial condition \\(y(0)=5\\): \\(5=0^2+C\\), so \\(C=5\\). Therefore the solution is \\(y=x^2+5\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "initial-value-problem"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-04",
+      "prompt": "Solve \\(dy/dx=xy\\) by separation of variables.",
+      "answer": "Separate the variables: \\(\\frac{1}{y}\\,dy=x\\,dx\\), assuming \\(y\\ne0\\). Integrate both sides: \\(\\ln|y|=x^2/2+C\\). Exponentiating gives \\(|y|=e^C e^{x^2/2}\\), so \\(y=Ae^{x^2/2}\\). The zero solution is included by \\(A=0\\), so the general solution is \\(y=Ae^{x^2/2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "separation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-05",
+      "prompt": "Solve \\(dy/dx+y=0\\).",
+      "answer": "Rewrite the equation as \\(dy/dx=-y\\). Separate variables: \\(\\frac{1}{y}\\,dy=-dx\\). Integrate to get \\(\\ln|y|=-x+C\\). Exponentiating gives \\(y=Ce^{-x}\\), including the zero solution when \\(C=0\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "separation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-06",
+      "prompt": "Solve the linear differential equation \\(dy/dx+2y=6\\).",
+      "answer": "This is linear with integrating factor \\(\\mu(x)=e^{\\int2\\,dx}=e^{2x}\\). Multiplying by \\(e^{2x}\\) gives \\(e^{2x}y'+2e^{2x}y=6e^{2x}\\), so \\((e^{2x}y)'=6e^{2x}\\). Integrate: \\(e^{2x}y=3e^{2x}+C\\). Divide by \\(e^{2x}\\) to get \\(y=3+Ce^{-2x}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "linear-equations"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-07",
+      "prompt": "Solve \\(dy/dx=x+y\\) is not separable by simple algebra. State whether it is linear and identify \\(P(x)\\) and \\(Q(x)\\) in \\(y'+P(x)y=Q(x)\\).",
+      "answer": "Move the \\(y\\) term to the left: \\(y'-y=x\\). This matches \\(y'+P(x)y=Q(x)\\). Comparing terms gives \\(P(x)=-1\\) and \\(Q(x)=x\\). Therefore the equation is first-order linear, even though it is not directly separable in the form \\(g(y)y'=h(x)\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "linear-equations"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-08",
+      "prompt": "Solve the initial value problem \\(dy/dx=4y\\), \\(y(0)=2\\).",
+      "answer": "Separate variables: \\(\\frac{1}{y}\\,dy=4\\,dx\\). Integrate: \\(\\ln|y|=4x+C\\), so \\(y=Ae^{4x}\\). Apply \\(y(0)=2\\): \\(2=Ae^0=A\\). Therefore \\(y=2e^{4x}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "initial-value-problem"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-09",
+      "prompt": "Find the equilibrium solutions of \\(dy/dt=y(3-y)\\).",
+      "answer": "Equilibrium solutions occur when \\(dy/dt=0\\). Set \\(y(3-y)=0\\). This gives \\(y=0\\) or \\(3-y=0\\), so \\(y=3\\). Therefore the equilibrium solutions are the constant solutions \\(y(t)=0\\) and \\(y(t)=3\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "equilibrium-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-first-order-differential-equations-10",
+      "prompt": "Use Euler's method with step size \\(h=0.5\\) for \\(y'=x+y\\), starting from \\((x_0,y_0)=(0,1)\\), to estimate \\(y(1)\\).",
+      "answer": "Euler's method uses \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Step 1: \\(f(0,1)=1\\), so \\(y_1=1+0.5(1)=1.5\\) at \\(x_1=0.5\\). Step 2: \\(f(0.5,1.5)=2\\), so \\(y_2=1.5+0.5(2)=2.5\\) at \\(x_2=1\\). Therefore \\(y(1)\\approx2.5\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "first-order-differential-equations",
+        "eulers-method"
+      ]
+    }
+  ]
+}

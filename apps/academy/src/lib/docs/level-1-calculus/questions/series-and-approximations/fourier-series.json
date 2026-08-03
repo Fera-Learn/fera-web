@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "series-and-approximations",
+  "topicId": "fourier-series",
+  "topicTitle": "Fourier Series",
+  "paperTags": [
+    "series-and-approximations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-series-and-approximations-fourier-series-01",
+      "prompt": "Find the period of \\(f(x)=\\sin(3x)\\).",
+      "answer": "The basic sine function \\(\\sin x\\) has period \\(2\\pi\\). For \\(\\sin(kx)\\), the period is \\(2\\pi/|k|\\). Here \\(k=3\\), so the period is \\(2\\pi/3\\). Therefore \\(f(x)=\\sin(3x)\\) has period \\(\\frac{2\\pi}{3}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "periodicity"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-02",
+      "prompt": "A function has period \\(4\\pi\\). Find its fundamental angular frequency \\(\\omega_0\\).",
+      "answer": "The fundamental angular frequency is related to the period by \\(\\omega_0=2\\pi/T\\). Here \\(T=4\\pi\\). Therefore \\(\\omega_0=\\frac{2\\pi}{4\\pi}=\\frac{1}{2}\\). The fundamental angular frequency is \\(\\frac{1}{2}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "fundamental-frequency"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-03",
+      "prompt": "Using the convention \\(f(x)\\sim \\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\) on \\([-\\pi,\\pi]\\), find \\(a_0\\) for \\(f(x)=1\\).",
+      "answer": "For a \\(2\\pi\\)-periodic Fourier series, \\(a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\,dx\\). Here \\(f(x)=1\\), so \\(a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}1\\,dx\\). The integral is \\(2\\pi\\), so \\(a_0=2\\). Therefore the constant term in the series is \\(a_0/2=1\\), as expected.",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "fourier-coefficients"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-04",
+      "prompt": "Using the same Fourier convention on \\([-\\pi,\\pi]\\), find \\(a_2\\) for \\(f(x)=\\cos(2x)\\).",
+      "answer": "The coefficient is \\(a_2=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\cos(2x)\\cos(2x)\\,dx\\). This is \\(\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\cos^2(2x)\\,dx\\). Over \\([-\\pi,\\pi]\\), the average value of \\(\\cos^2(2x)\\) is \\(1/2\\), so the integral is \\(\\pi\\). Hence \\(a_2=1\\). Therefore the \\(\\cos(2x)\\) coefficient is \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "orthogonality"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-05",
+      "prompt": "Using the same Fourier convention on \\([-\\pi,\\pi]\\), find \\(b_3\\) for \\(f(x)=\\sin(3x)\\).",
+      "answer": "The sine coefficient is \\(b_3=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\sin(3x)\\sin(3x)\\,dx\\). This equals \\(\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}\\sin^2(3x)\\,dx\\). The average value of \\(\\sin^2(3x)\\) over whole periods is \\(1/2\\), so the integral over length \\(2\\pi\\) is \\(\\pi\\). Therefore \\(b_3=1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "orthogonality"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-06",
+      "prompt": "For \\(f(x)=x^2\\) on \\([-\\pi,\\pi]\\), explain which Fourier sine coefficients \\(b_n\\) are zero.",
+      "answer": "The function \\(f(x)=x^2\\) is even because \\(f(-x)=(-x)^2=x^2=f(x)\\). The sine function \\(\\sin(nx)\\) is odd, so the product \\(x^2\\sin(nx)\\) is odd. The integral of an odd function over \\([-\\pi,\\pi]\\) is \\(0\\). Therefore every sine coefficient satisfies \\(b_n=0\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "even-functions"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-07",
+      "prompt": "For \\(f(x)=x\\) on \\([-\\pi,\\pi]\\), explain which Fourier cosine coefficients are zero.",
+      "answer": "The function \\(f(x)=x\\) is odd because \\(f(-x)=-f(x)\\). The function \\(\\cos(nx)\\) is even, so the product \\(x\\cos(nx)\\) is odd. The integral of an odd function over \\([-\\pi,\\pi]\\) is \\(0\\), so every \\(a_n\\) for \\(n\\ge 1\\) is zero. Also \\(a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}x\\,dx=0\\). Therefore all cosine coefficients, including \\(a_0\\), are zero.",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "odd-functions"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-08",
+      "prompt": "Let \\(f(x)=1\\) for \\(0<x<\\pi\\) and \\(f(x)=-1\\) for \\(-\\pi<x<0\\), extended with period \\(2\\pi\\). Find the sine coefficients \\(b_n\\).",
+      "answer": "The function is odd, so only sine coefficients can be nonzero. For an odd function, \\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\sin(nx)\\,dx\\). On \\((0,\\pi)\\), \\(f(x)=1\\), so \\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin(nx)\\,dx\\). The integral is \\([ -\\cos(nx)/n ]_0^{\\pi}=\\frac{1-(-1)^n}{n}\\). Therefore \\(b_n=\\frac{2(1-(-1)^n)}{n\\pi}\\), which is \\(0\\) for even \\(n\\) and \\(\\frac{4}{n\\pi}\\) for odd \\(n\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "square-waves"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-09",
+      "prompt": "Find the half-range cosine series coefficients for \\(f(x)=1\\) on \\(0<x<L\\), using \\(f(x)\\sim \\frac{A_0}{2}+\\sum_{n=1}^{\\infty}A_n\\cos\\left(\\frac{n\\pi x}{L}\\right)\\).",
+      "answer": "For a half-range cosine series, \\(A_0=\\frac{2}{L}\\int_0^L f(x)\\,dx\\) and \\(A_n=\\frac{2}{L}\\int_0^L f(x)\\cos\\left(\\frac{n\\pi x}{L}\\right)\\,dx\\). Since \\(f(x)=1\\), \\(A_0=\\frac{2}{L}\\int_0^L1\\,dx=2\\). For \\(n\\ge 1\\), \\(A_n=\\frac{2}{L}\\left[\\frac{L}{n\\pi}\\sin\\left(\\frac{n\\pi x}{L}\\right)\\right]_0^L=0\\). Therefore \\(A_0=2\\) and \\(A_n=0\\) for all \\(n\\ge 1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "half-range-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-fourier-series-10",
+      "prompt": "For the square wave with \\(f(x)=1\\) on \\(0<x<\\pi\\) and \\(f(x)=-1\\) on \\(-\\pi<x<0\\), a learner says the Fourier series must equal \\(1\\) at \\(x=0\\). Explain the error and give the Fourier series value at \\(x=0\\).",
+      "answer": "The error is ignoring the convergence rule at a jump discontinuity. A Fourier series converges to the average of the left-hand and right-hand limits at a jump. At \\(x=0\\), the left-hand limit is \\(-1\\) and the right-hand limit is \\(1\\). The Fourier series value is therefore \\(\\frac{-1+1}{2}=0\\). Thus the Fourier series converges to \\(0\\) at \\(x=0\\), not to \\(1\\).",
+      "rating": "****",
+      "paperTags": [
+        "series-and-approximations",
+        "fourier-series",
+        "error-diagnosis",
+        "jump-discontinuities"
+      ]
+    }
+  ]
+}

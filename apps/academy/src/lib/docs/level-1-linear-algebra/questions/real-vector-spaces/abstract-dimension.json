@@ -1,0 +1,124 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "real-vector-spaces",
+  "topicId": "abstract-dimension",
+  "topicTitle": "Abstract Dimension",
+  "paperTags": [
+    "real-vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-01",
+      "prompt": "Find \\(\\dim(P_3)\\), where \\(P_3\\) is the space of polynomials of degree at most 3.",
+      "answer": "A standard basis for \\(P_3\\) is \\(\\{1,x,x^2,x^3\\}\\). This basis has four vectors. Therefore \\(\\dim(P_3)\\) = 4.",
+      "rating": "*+",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-02",
+      "prompt": "Find \\(\\dim(V)\\).",
+      "answer": "A \\(2\\times 2\\) matrix has four independent entries: top-left, top-right, bottom-left, and bottom-right. A standard basis has four matrices E11, E12, E21, and E22. Therefore \\(\\dim(V)\\) = 4.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-03",
+      "prompt": "Find the dimension of the subspace of \\(P_3\\) consisting of polynomials p with \\(p(0)\\) = 0.",
+      "answer": "A polynomial in \\(P_3\\) has form \\(a+bx+cx^2+dx^3\\). The condition \\(p(0)=0\\) gives \\(a=0\\). Therefore \\(p(x)=bx+cx^2+dx^3\\). A basis is \\(\\{x,x^2,x^3\\}\\), which has three vectors. Hence the dimension is 3.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "polynomials",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-04",
+      "prompt": "Find the dimension of the vector space of \\(2\\times 3\\) real matrices.",
+      "answer": "A \\(2\\times 3\\) matrix has \\(2\\cdot3\\) = 6 independent entries. A standard basis contains one matrix for each entry position. Therefore the dimension of \\(M_{2,3}(\\mathbb R)\\) is 6.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-05",
+      "prompt": "Find the dimension of the subspace of \\(2\\times 2\\) matrices with trace 0.",
+      "answer": "A general \\(2\\times 2\\) matrix with trace 0 has form \\(\\begin{pmatrix}a&b\\\\c&-a\\end{pmatrix}\\), because the diagonal entries must sum to 0. This is a\\(\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\\) + b\\(\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}\\) + c\\(\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}\\). These three matrices are independent and span the subspace. Therefore the dimension is 3.",
+      "rating": "***+",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "matrices",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-06",
+      "prompt": "Find the dimension of the subspace of \\(P_2\\) consisting of constant polynomials.",
+      "answer": "A constant polynomial has form \\(p(x)=a\\). The set is spanned by the single polynomial 1, because every constant polynomial is \\(a\\cdot1\\). Since 1 is non-zero, {1} is a basis. Therefore the dimension is 1.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-07",
+      "prompt": "A vector space has a basis with 6 vectors. What is its dimension?",
+      "answer": "The dimension of a vector space is the number of vectors in any basis. If a basis has 6 vectors, then the dimension is 6.",
+      "rating": "*",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-08",
+      "prompt": "Can \\(P_2\\) have a basis with four vectors? Explain.",
+      "answer": "No. \\(P_2\\) has standard basis \\(\\{1,x,x^2\\}\\), so \\(\\dim(P_2)\\) = 3. All bases of a finite-dimensional vector space have the same number of vectors. Therefore every basis for \\(P_2\\) has exactly three vectors, not four.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-09",
+      "prompt": "Find the dimension of the subspace of \\(P_3\\) spanned by {1 + x, x + \\(x^2\\), \\(x^2\\) + \\(x^3\\)}. Assume these three polynomials are independent, and explain the result.",
+      "answer": "If the three listed polynomials are independent, then they form a basis for their span. The dimension of a span is the number of vectors in a basis for that span. Since this independent spanning set has three vectors, the dimension is 3.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "spans"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-dimension-10",
+      "prompt": "A learner says \\(\\dim(V)\\) = n because the highest power is x^n. Diagnose the error.",
+      "answer": "The space \\(P_n\\) contains polynomials of degree at most n, so a standard basis is {1, x, \\(x^2\\), ..., x^n}. This list has n + 1 vectors because it includes the constant term 1 = x^0. Therefore \\(\\dim(P_n)\\) = n + 1, not n.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

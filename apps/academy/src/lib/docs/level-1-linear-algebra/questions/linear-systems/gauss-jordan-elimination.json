@@ -1,0 +1,117 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-systems",
+  "topicId": "gauss-jordan-elimination",
+  "topicTitle": "Gauss-Jordan Elimination",
+  "paperTags": [
+    "linear-systems"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-01",
+      "prompt": "Use Gauss-Jordan elimination to solve \\(\\begin{pmatrix}1&1&5\\\\1&-1&1\\end{pmatrix}\\).",
+      "answer": "Start with \\(\\begin{pmatrix}1&1&5\\\\1&-1&1\\end{pmatrix}\\). Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - \\(\\mathbb R^1\\) to get \\(\\begin{pmatrix}1&1&5\\\\0&-2&-4\\end{pmatrix}\\). Scale \\(\\mathbb R^2\\) by -1/2 to get \\(\\begin{pmatrix}1&1&5\\\\0&1&2\\end{pmatrix}\\). Eliminate above the second pivot using \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - \\(\\mathbb R^2\\), giving \\(\\begin{pmatrix}1&0&3\\\\0&1&2\\end{pmatrix}\\). Therefore \\(x=3\\) and \\(y=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-02",
+      "prompt": "Use Gauss-Jordan elimination to solve \\(\\begin{pmatrix}2&0&6\\\\0&5&10\\end{pmatrix}\\).",
+      "answer": "Scale \\(\\mathbb R^1\\) by 1/2 to get \\((1,0,3)\\). Scale \\(\\mathbb R^2\\) by 1/5 to get \\((0,1,2)\\). The matrix is then \\(\\begin{pmatrix}1&0&3\\\\0&1&2\\end{pmatrix}\\), which is already reduced. Therefore \\(x=3\\) and \\(y=2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-03",
+      "prompt": "Use Gauss-Jordan elimination to solve \\(\\begin{pmatrix}1&2&7\\\\3&4&17\\end{pmatrix}\\).",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 3R1 to get \\(\\begin{pmatrix}1&2&7\\\\0&-2&-4\\end{pmatrix}\\). Scale \\(\\mathbb R^2\\) by -1/2 to get \\(\\begin{pmatrix}1&2&7\\\\0&1&2\\end{pmatrix}\\). Use \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - 2R2 to get \\(\\begin{pmatrix}1&0&3\\\\0&1&2\\end{pmatrix}\\). Therefore \\(x=3\\) and \\(y=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-04",
+      "prompt": "Use Gauss-Jordan elimination to solve \\(\\begin{pmatrix}1&1&1&6\\\\0&1&-1&0\\\\0&0&1&2\\end{pmatrix}\\).",
+      "answer": "Start from the bottom pivot. Row 3 gives \\(z=2\\). Eliminate z from row 2 using \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) + \\(\\mathbb R^3\\), giving \\((0,1,0,2)\\). Eliminate z from row 1 using \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - \\(\\mathbb R^3\\), giving \\((1,1,0,4)\\). Eliminate y from row 1 using \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - \\(\\mathbb R^2\\), giving \\((1,0,0,2)\\). The RREF is \\(\\begin{pmatrix}1&0&0&2\\\\0&1&0&2\\\\0&0&1&2\\end{pmatrix}\\), so \\((x, y, z)\\) = \\((2, 2, 2)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-05",
+      "prompt": "Use Gauss-Jordan elimination to determine whether \\(\\begin{pmatrix}1&2&3\\\\2&4&7\\end{pmatrix}\\) is consistent.",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1. The second row becomes \\((2,4,7)\\) - 2\\((1,2,3)\\) = \\((0,0,1)\\). This row represents 0x + 0y = 1, which is impossible. Therefore the system is inconsistent and has no solution.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan",
+        "consistency"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-06",
+      "prompt": "Use Gauss-Jordan elimination on \\(\\begin{pmatrix}1&2&0\\\\2&4&0\\end{pmatrix}\\) and describe the solutions.",
+      "answer": "Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1. The second row becomes \\((0,0,0)\\), so the matrix is \\(\\begin{pmatrix}1&2&0\\\\0&0&0\\end{pmatrix}\\). The first row says x + 2y = 0. Let \\(y=t\\). Then x = -2t. Therefore the solutions are \\((x, y)\\) = \\((-2t, t)\\), where t is any real number.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan",
+        "free-variables"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-07",
+      "prompt": "Perform the first pivot step for \\(\\begin{pmatrix}0&1&2\\\\3&4&5\\end{pmatrix}\\) using Gauss-Jordan elimination.",
+      "answer": "A convenient first pivot should be non-zero in the first column. The first row has first entry 0, while the second row has first entry 3. Swap rows using \\(\\mathbb R^1\\) <-> \\(\\mathbb R^2\\). The matrix becomes \\(\\begin{pmatrix}3&4&5\\\\0&1&2\\end{pmatrix}\\). If desired, scale \\(\\mathbb R^1\\) by 1/3 next to make the pivot equal to 1.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan",
+        "row-swaps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-08",
+      "prompt": "Continue from \\(\\begin{pmatrix}1&2&5\\\\0&1&3\\end{pmatrix}\\) to RREF using Gauss-Jordan elimination.",
+      "answer": "The second pivot is already 1. To make the entry above it zero, use \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - 2R2. Compute \\((1,2,5)\\) - 2\\((0,1,3)\\) = \\((1,0,-1)\\). The RREF is \\(\\begin{pmatrix}1&0&-1\\\\0&1&3\\end{pmatrix}\\). Therefore \\(x=-1\\) and \\(y=3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan",
+        "rref"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-09",
+      "prompt": "Use Gauss-Jordan elimination to solve \\(\\begin{pmatrix}1&-1&2&3\\\\2&1&-1&0\\\\1&1&1&6\\end{pmatrix}\\).",
+      "answer": "Start with rows \\(\\mathbb R^1\\) = \\((1,-1,2,3)\\), \\(\\mathbb R^2\\) = \\((2,1,-1,0)\\), \\(\\mathbb R^3\\) = \\((1,1,1,6)\\). Use \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) - 2R1 to get \\((0,3,-5,-6)\\), and \\(\\mathbb R^3\\) <- \\(\\mathbb R^3\\) - \\(\\mathbb R^1\\) to get \\((0,2,-1,3)\\). A shorter way is to solve the equations after elimination. From the original equations, subtract equation 1 from equation 3 to get 2y - \\(z=3\\). Subtract twice equation 1 from equation 2 to get 3y - 5z = -6. Solve these: multiply 2y - z = \\(3\\times 3\\) to get 6y - 3z = 9, and multiply 3y - 5z = -\\(6\\times 2\\) to get 6y - 10z = -12. Subtract to get 7z = 21, so \\(z=3\\). Then 2y - 3 = 3, so \\(y=3\\). Use x - y + 2z = 3: x - 3 + 6 = 3, so \\(x=0\\). The solution is \\((0, 3, 3)\\).",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-gauss-jordan-elimination-10",
+      "prompt": "A learner stops Gauss-Jordan elimination at \\(\\begin{pmatrix}1&2&5\\\\0&1&3\\end{pmatrix}\\) and reads \\(x=5\\), \\(y=3\\). Diagnose the error.",
+      "answer": "The matrix is in echelon form but not reduced row echelon form because there is a 2 above the pivot in column 2. The second row gives \\(y=3\\). The first row gives x + 2y = 5, not \\(x=5\\). Substituting \\(y=3\\) gives x + 6 = 5, so \\(x=-1\\). The learner read an echelon matrix as if it were already RREF.",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "gauss-jordan",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

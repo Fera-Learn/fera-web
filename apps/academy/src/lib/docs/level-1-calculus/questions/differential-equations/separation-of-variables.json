@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-equations",
+  "topicId": "separation-of-variables",
+  "topicTitle": "Separation Of Variables",
+  "paperTags": [
+    "differential-equations",
+    "separation-of-variables"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-equations-separation-of-variables-01",
+      "prompt": "Solve \\(dy/dx=2x\\).",
+      "answer": "This equation is already separated because the right-hand side depends only on \\(x\\). Integrate both sides with respect to \\(x\\): \\(y=\\int2x\\,dx\\). This gives \\(y=x^2+C\\). Therefore the general solution is \\(y=x^2+C\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "direct-integration"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-02",
+      "prompt": "Solve \\(dy/dx=xy\\).",
+      "answer": "Separate the variables: \\(\\frac{1}{y}\\,dy=x\\,dx\\), assuming \\(y\\ne0\\). Integrate both sides to get \\(\\ln|y|=x^2/2+C\\). Exponentiating gives \\(y=Ae^{x^2/2}\\). The constant \\(A=0\\) includes the zero solution, so this is the general solution.",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "exponential-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-03",
+      "prompt": "Solve \\(dy/dx=y^2\\).",
+      "answer": "Separate variables: \\(y^{-2}\\,dy=dx\\), for \\(y\\ne0\\). Integrate to get \\(-y^{-1}=x+C\\). Rearranging gives \\(1/y=C_1-x\\), so \\(y=1/(C_1-x)\\). The constant solution \\(y=0\\) is also a solution and should be included separately.",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "reciprocal-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-04",
+      "prompt": "Solve the initial value problem \\(dy/dx=3y\\), \\(y(0)=4\\).",
+      "answer": "Separate variables: \\(\\frac{1}{y}\\,dy=3\\,dx\\). Integrate to get \\(\\ln|y|=3x+C\\), so \\(y=Ae^{3x}\\). Apply \\(y(0)=4\\): \\(4=Ae^0=A\\). Therefore \\(y=4e^{3x}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "initial-value-problem"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-05",
+      "prompt": "Solve \\(dy/dx=x(1+y^2)\\).",
+      "answer": "Separate variables: \\(\\frac{1}{1+y^2}\\,dy=x\\,dx\\). Integrate both sides: \\(\\arctan y=x^2/2+C\\). Apply tangent to both sides to solve for \\(y\\): \\(y=\\tan(x^2/2+C)\\). Therefore the general solution is \\(y=\\tan(x^2/2+C)\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "trigonometric-integrals"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-06",
+      "prompt": "Solve \\(dy/dx=(x^2)/(y)\\), assuming \\(y\\ne0\\).",
+      "answer": "Separate variables by multiplying by \\(y\\): \\(y\\,dy=x^2\\,dx\\). Integrate both sides: \\(y^2/2=x^3/3+C\\). Multiply by \\(2\\): \\(y^2=2x^3/3+C_1\\). Thus \\(y=\\pm\\sqrt{2x^3/3+C_1}\\), on intervals where the square root is defined.",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "implicit-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-07",
+      "prompt": "Solve \\(dy/dx=e^x e^{-y}\\).",
+      "answer": "Multiply both sides by \\(e^y\\) to separate variables: \\(e^y\\,dy=e^x\\,dx\\). Integrate: \\(e^y=e^x+C\\). Taking natural logarithms gives \\(y=\\ln(e^x+C)\\), where the logarithm requires \\(e^x+C>0\\) on the interval considered.",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "exponential-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-08",
+      "prompt": "Solve the logistic equation \\(dy/dt=y(1-y)\\) for \\(0<y<1\\).",
+      "answer": "Separate variables: \\(\\frac{1}{y(1-y)}\\,dy=dt\\). Use partial fractions \\(\\frac{1}{y(1-y)}=\\frac{1}{y}+\\frac{1}{1-y}\\). Integrate to get \\(\\ln|y|-\\ln|1-y|=t+C\\), so \\(\\ln\\left|\\frac{y}{1-y}\\right|=t+C\\). For \\(0<y<1\\), \\(\\frac{y}{1-y}=Ae^t\\), hence \\(y=\\frac{Ae^t}{1+Ae^t}\\).",
+      "rating": "****",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "logistic-equation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-09",
+      "prompt": "Solve \\(dy/dx=\\frac{x+1}{y+2}\\), assuming \\(y\\ne-2\\).",
+      "answer": "Separate variables by multiplying by \\(y+2\\): \\((y+2)\\,dy=(x+1)\\,dx\\). Integrate both sides: \\(y^2/2+2y=x^2/2+x+C\\). This implicit equation is the general solution. Multiplying by \\(2\\) gives the equivalent form \\(y^2+4y=x^2+2x+C_1\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "implicit-solutions"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-separation-of-variables-10",
+      "prompt": "Solve the initial value problem \\(dy/dx=x/y\\), \\(y(0)=2\\), assuming \\(y>0\\).",
+      "answer": "Separate variables: \\(y\\,dy=x\\,dx\\). Integrate: \\(y^2/2=x^2/2+C\\), so \\(y^2=x^2+C_1\\). Use \\(y(0)=2\\): \\(4=0+C_1\\), so \\(C_1=4\\). Since \\(y>0\\), take the positive root: \\(y=\\sqrt{x^2+4}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "separation-of-variables",
+        "initial-value-problem"
+      ]
+    }
+  ]
+}

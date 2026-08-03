@@ -1,0 +1,52 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "vectors-in-rn",
+  "topicId": "vector-operations",
+  "topicTitle": "Vector Operations",
+  "paperTags": [
+    "vectors-in-rn"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-vectors-in-rn-vector-operations-01",
+      "prompt": "Given \\(\\mathbf u=(2,-1,4)\\) and \\(\\mathbf v=(5,3,-2)\\), compute \\(\\mathbf u+\\mathbf v\\).",
+      "answer": "Vector addition is componentwise. Add corresponding components:\n\\[\n\\mathbf u+\\mathbf v=(2+5,-1+3,4+(-2)).\n\\]\nTherefore\n\\[\n\\mathbf u+\\mathbf v=(7,2,2).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "vector-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vector-operations-02",
+      "prompt": "Given \\(\\mathbf a=(1,-3,2)\\), compute \\(-4\\mathbf a\\).",
+      "answer": "Scalar multiplication multiplies every component by the scalar:\n\\[\n-4\\mathbf a=-4(1,-3,2)=(-4,12,-8).\n\\]\nSo the result is \\((-4,12,-8)\\).",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "scalar-multiplication"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vector-operations-03",
+      "prompt": "For \\(\\mathbf u=(3,1,-2)\\) and \\(\\mathbf v=(-1,4,5)\\), compute \\(2\\mathbf u-3\\mathbf v\\).",
+      "answer": "First compute each scalar multiple:\n\\[\n2\\mathbf u=2(3,1,-2)=(6,2,-4),\\qquad 3\\mathbf v=3(-1,4,5)=(-3,12,15).\n\\]\nNow subtract componentwise:\n\\[\n2\\mathbf u-3\\mathbf v=(6,2,-4)-(-3,12,15).\n\\]\nThus\n\\[\n2\\mathbf u-3\\mathbf v=(9,-10,-19).\n\\]",
+      "rating": "**+",
+      "paperTags": [
+        "vectors-in-rn",
+        "linear-combinations"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vector-operations-04",
+      "prompt": "Find \\(x\\) and \\(y\\) if \\((x,2,y)+3(1,-1,4)=(5,-1,14)\\).",
+      "answer": "First expand the scalar multiple:\n\\[\n3(1,-1,4)=(3,-3,12).\n\\]\nThen add componentwise:\n\\[\n(x,2,y)+(3,-3,12)=(x+3,-1,y+12).\n\\]\nSet this equal to \\((5,-1,14)\\). Corresponding components give\n\\[\nx+3=5,\\qquad y+12=14.\n\\]\nSolving gives \\(x=2\\) and \\(y=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "vectors-in-rn",
+        "vector-equations"
+      ]
+    }
+  ]
+}

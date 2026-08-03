@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-calculus",
+  "topicId": "higher-derivatives",
+  "topicTitle": "Higher Derivatives",
+  "paperTags": [
+    "differential-calculus"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-01",
+      "prompt": "Find \\(f''(x)\\) for \\(f(x)=x^3\\).",
+      "answer": "Differentiate once: \\(f'(x)=3x^2\\). Differentiate again: \\(f''(x)=6x\\). Therefore the second derivative is \\(6x\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "second-derivatives"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-02",
+      "prompt": "Find \\(f''(x)\\) for \\(f(x)=4x^4-2x^2+5\\).",
+      "answer": "First differentiate term by term: \\(f'(x)=16x^3-4x\\). Differentiate the result: \\(f''(x)=48x^2-4\\). Therefore \\(f''(x)=48x^2-4\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-03",
+      "prompt": "Find \\(f^{(3)}(x)\\) for \\(f(x)=x^5\\).",
+      "answer": "Differentiate repeatedly. First, \\(f'(x)=5x^4\\). Second, \\(f''(x)=20x^3\\). Third, \\(f^{(3)}(x)=60x^2\\). Therefore the third derivative is \\(60x^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "third-derivatives"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-04",
+      "prompt": "If \\(s(t)=t^3-6t^2+4t\\), find the acceleration \\(s''(t)\\).",
+      "answer": "Velocity is the first derivative of position: \\(s'(t)=3t^2-12t+4\\). Acceleration is the second derivative: \\(s''(t)=6t-12\\). Therefore the acceleration function is \\(6t-12\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "acceleration"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-05",
+      "prompt": "Find \\(f''(1)\\) for \\(f(x)=x^4-3x\\).",
+      "answer": "First differentiate: \\(f'(x)=4x^3-3\\). Differentiate again: \\(f''(x)=12x^2\\). Evaluate at \\(x=1\\): \\(f''(1)=12(1)^2=12\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "derivative-values"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-06",
+      "prompt": "Find \\(f''(x)\\) for \\(f(x)=\\sin x\\).",
+      "answer": "Differentiate once: \\(f'(x)=\\cos x\\). Differentiate again: the derivative of \\(\\cos x\\) is \\(-\\sin x\\). Therefore \\(f''(x)=-\\sin x\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "trigonometric-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-07",
+      "prompt": "Find \\(f^{(4)}(x)\\) for \\(f(x)=e^x\\).",
+      "answer": "The derivative of \\(e^x\\) is always \\(e^x\\). Therefore \\(f'(x)=e^x\\), \\(f''(x)=e^x\\), \\(f^{(3)}(x)=e^x\\), and \\(f^{(4)}(x)=e^x\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "exponential-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-08",
+      "prompt": "Find \\(f''(x)\\) for \\(f(x)=(x^2+1)^3\\).",
+      "answer": "First differentiate using the chain rule: \\(f'(x)=3(x^2+1)^2\\cdot2x=6x(x^2+1)^2\\). Differentiate this product: \\(f''(x)=6(x^2+1)^2+6x\\cdot2(x^2+1)\\cdot2x\\). Simplify: \\(f''(x)=6(x^2+1)^2+24x^2(x^2+1)=6(x^2+1)(5x^2+1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-09",
+      "prompt": "For \\(f(x)=x^4-4x^3\\), use \\(f''(x)\\) to determine where the graph is concave up.",
+      "answer": "First differentiate: \\(f'(x)=4x^3-12x^2\\). Differentiate again: \\(f''(x)=12x^2-24x=12x(x-2)\\). The graph is concave up where \\(f''(x)>0\\). The product \\(12x(x-2)\\) is positive when \\(x<0\\) or \\(x>2\\). Therefore the graph is concave up on \\(( -\\infty,0)\\cup(2,\\infty)\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "concavity"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-higher-derivatives-10",
+      "prompt": "Find a formula for \\(f^{(n)}(x)\\) when \\(f(x)=x^5\\) for \\(n=1,2,3,4,5\\).",
+      "answer": "Differentiate repeatedly and track the pattern. First: \\(f'(x)=5x^4\\). Second: \\(f''(x)=20x^3\\). Third: \\(f^{(3)}(x)=60x^2\\). Fourth: \\(f^{(4)}(x)=120x\\). Fifth: \\(f^{(5)}(x)=120\\). Each step lowers the power by \\(1\\) and multiplies by the previous power.",
+      "rating": "****",
+      "paperTags": [
+        "differential-calculus",
+        "higher-derivatives",
+        "nth-derivatives"
+      ]
+    }
+  ]
+}

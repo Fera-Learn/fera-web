@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "integral-calculus",
+  "topicId": "fundamental-theorem-of-calculus",
+  "topicTitle": "Fundamental Theorem Of Calculus",
+  "paperTags": [
+    "level-1-calculus",
+    "integral-calculus",
+    "fundamental-theorem-of-calculus"
+  ],
+  "questions": [
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-01",
+      "prompt": "Find \\(\\frac{d}{dx}\\int_1^x (t^2+3)\\,dt\\).",
+      "answer": "We need the derivative of an accumulation function with upper limit \\(x\\). By the Fundamental Theorem of Calculus, \\(\\frac{d}{dx}\\int_a^x f(t)\\,dt=f(x)\\) when \\(f\\) is continuous. Here \\(f(t)=t^2+3\\). Therefore the derivative is \\(x^2+3\\).",
+      "rating": "*",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-02",
+      "prompt": "Find \\(\\frac{d}{dx}\\int_0^{x^2}\\cos t\\,dt\\).",
+      "answer": "We need the derivative of an accumulation function whose upper limit is \\(x^2\\). Let \\(u=x^2\\). By the Fundamental Theorem of Calculus, \\(\\frac{d}{du}\\int_0^u\\cos t\\,dt=\\cos u\\). Then multiply by \\(\\frac{du}{dx}=2x\\). Therefore \\(\\frac{d}{dx}\\int_0^{x^2}\\cos t\\,dt=2x\\cos(x^2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-03",
+      "prompt": "Compute \\(\\int_2^5 4x^3\\,dx\\) using the Fundamental Theorem of Calculus.",
+      "answer": "We need to evaluate the definite integral using an antiderivative. An antiderivative of \\(4x^3\\) is \\(F(x)=x^4\\). By the Fundamental Theorem of Calculus, \\(\\int_2^5 4x^3\\,dx=F(5)-F(2)=5^4-2^4=625-16=609\\). Therefore the integral equals \\(609\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-04",
+      "prompt": "Let \\(G(x)=\\int_x^4 e^t\\,dt\\). Find \\(G'(x)\\).",
+      "answer": "We need the derivative when the variable is the lower limit. Rewrite \\(G(x)=-\\int_4^x e^t\\,dt\\) by reversing the limits. By the Fundamental Theorem of Calculus, \\(\\frac{d}{dx}\\int_4^x e^t\\,dt=e^x\\). Therefore \\(G'(x)=-e^x\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-05",
+      "prompt": "Let \\(H(x)=\\int_{x}^{x^2}(1+t^3)\\,dt\\). Find \\(H'(x)\\).",
+      "answer": "We need to differentiate an integral with two variable limits. Use the rule \\(\\frac{d}{dx}\\int_{a(x)}^{b(x)}f(t)\\,dt=f(b(x))b'(x)-f(a(x))a'(x)\\). Here \\(f(t)=1+t^3\\), \\(b(x)=x^2\\), and \\(a(x)=x\\). Thus \\(H'(x)=(1+(x^2)^3)(2x)-(1+x^3)(1)\\). Simplifying gives \\(H'(x)=2x(1+x^6)-1-x^3\\).",
+      "rating": "****",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-06",
+      "prompt": "Find \\(\\frac{d}{dx}\\int_3^{\\sin x}\\sqrt{1+t^2}\\,dt\\).",
+      "answer": "We need the derivative of an accumulation function with upper limit \\(\\sin x\\). Let \\(u=\\sin x\\). The Fundamental Theorem gives derivative \\(\\sqrt{1+u^2}\\) with respect to \\(u\\). The chain rule gives \\(\\frac{du}{dx}=\\cos x\\). Therefore the derivative is \\(\\sqrt{1+\\sin^2 x}\\cos x\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-07",
+      "prompt": "If \\(F(x)=\\int_0^x f(t)\\,dt\\) and \\(f(2)=7\\), find \\(F'(2)\\).",
+      "answer": "We need the derivative of \\(F\\) at \\(x=2\\). By the Fundamental Theorem of Calculus, \\(F'(x)=f(x)\\) for a continuous integrand. Therefore \\(F'(2)=f(2)=7\\).",
+      "rating": "*",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-08",
+      "prompt": "Compute \\(\\int_0^1 (6x^2-2x)\\,dx\\) using an antiderivative.",
+      "answer": "We need to use the evaluation part of the Fundamental Theorem. An antiderivative is \\(F(x)=2x^3-x^2\\). Evaluate from \\(0\\) to \\(1\\): \\(F(1)-F(0)=(2-1)-0=1\\). Therefore the definite integral equals \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-09",
+      "prompt": "Let \\(A(x)=\\int_2^x \\frac{1}{1+t^2}\\,dt\\). Find the equation of the tangent line to \\(A\\) at \\(x=2\\).",
+      "answer": "We need the point and slope of \\(A\\) at \\(x=2\\). First \\(A(2)=\\int_2^2\\frac{1}{1+t^2}\\,dt=0\\). By the Fundamental Theorem, \\(A'(x)=\\frac{1}{1+x^2}\\), so \\(A'(2)=\\frac{1}{5}\\). The tangent line at \\((2,0)\\) is \\(y-0=\\frac{1}{5}(x-2)\\). Therefore the tangent line is \\(y=\\frac{x-2}{5}\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-fundamental-theorem-of-calculus-10",
+      "prompt": "Find \\(\\frac{d}{dx}\\int_{1}^{3x+1}\\ln t\\,dt\\), for \\(x>0\\).",
+      "answer": "We need the derivative with a linear upper limit. Let \\(u=3x+1\\). By the Fundamental Theorem, the derivative with respect to \\(u\\) is \\(\\ln u\\). The chain rule gives \\(\\frac{du}{dx}=3\\). Therefore \\(\\frac{d}{dx}\\int_1^{3x+1}\\ln t\\,dt=3\\ln(3x+1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "fundamental-theorem-of-calculus"
+      ]
+    }
+  ]
+}

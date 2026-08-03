@@ -1,0 +1,54 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "vectors-in-rn",
+  "topicId": "lines-in-r3",
+  "topicTitle": "Lines In R3",
+  "paperTags": [
+    "vectors-in-rn"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-vectors-in-rn-lines-in-r3-01",
+      "prompt": "Write a vector equation for the line through \\((1,2,3)\\) with direction vector \\((4,-1,0)\\).",
+      "answer": "A line through point \\(\\mathbf p\\) with direction \\(\\mathbf d\\) has equation\n\\[\n\\mathbf r=\\mathbf p+t\\mathbf d,\\qquad t\\in\\mathbb \\(\\mathbb R\\).\n\\]\nHere \\(\\mathbf p=(1,2,3)\\) and \\(\\mathbf d=(4,-1,0)\\), so\n\\[\n\\mathbf r=(1,2,3)+t(4,-1,0),\\qquad t\\in\\mathbb \\(\\mathbb R\\).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "lines"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-lines-in-r3-02",
+      "prompt": "Does the point \\((9,0,3)\\) lie on the line \\((x,y,z)=(1,2,3)+t(4,-1,0)\\)?",
+      "answer": "Set components equal. From the \\(x\\)-component:\n\\[\n1+4t=9\\quad\\Rightarrow\\quad 4t=8\\quad\\Rightarrow\\quad t=2.\n\\]\nCheck the \\(y\\)-component with \\(t=2\\):\n\\[\n2-t=2-2=0.\n\\]\nCheck the \\(z\\)-component:\n\\[\n3+0t=3.\n\\]\nAll components match, so \\((9,0,3)\\) lies on the line.",
+      "rating": "**+",
+      "paperTags": [
+        "vectors-in-rn",
+        "lines"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-lines-in-r3-03",
+      "prompt": "Find a direction vector for the line through \\(A=(2,-1,4)\\) and \\(B=(5,3,0)\\).",
+      "answer": "A direction vector is the difference between two points on the line. Compute\n\\[\nB-A=(5-2,3-(-1),0-4)=(3,4,-4).\n\\]\nSo a direction vector is \\((3,4,-4)\\). The opposite vector \\((-3,-4,4)\\) would also be valid.",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "lines",
+        "direction-vectors"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-lines-in-r3-04",
+      "prompt": "Find the intersection point of the line \\((x,y,z)=(1,0,2)+t(2,1,-1)\\) with the plane \\(x+y+z=6\\).",
+      "answer": "Substitute the line components into the plane. From the line,\n\\[\nx=1+2t,\\qquad y=t,\\qquad z=2-t.\n\\]\nThe plane equation becomes\n\\[\n(1+2t)+t+(2-t)=6.\n\\]\nSimplify:\n\\[\n3+2t=6.\n\\]\nSo\n\\[\n2t=3,\\qquad t=\\frac32.\n\\]\nSubstitute back into the line:\n\\[\n(x,y,z)=\\left(1+2\\cdot\\frac32,\\frac32,2-\\frac32\\right)=\\left(4,\\frac32,\\frac12\\right).\n\\]\nThe intersection point is \\(\\left(4,\\frac32,\\frac12\\right)\\).",
+      "rating": "****",
+      "paperTags": [
+        "vectors-in-rn",
+        "lines",
+        "planes"
+      ]
+    }
+  ]
+}

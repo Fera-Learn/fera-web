@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-equations",
+  "topicId": "second-order-differential-equations",
+  "topicTitle": "Second-Order Differential Equations",
+  "paperTags": [
+    "differential-equations",
+    "second-order-differential-equations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-01",
+      "prompt": "Verify that \\(y=\\cos x\\) solves \\(y''+y=0\\).",
+      "answer": "Differentiate \\(y=\\cos x\\) once to get \\(y'=-\\sin x\\). Differentiate again to get \\(y''=-\\cos x\\). Substitute into the equation: \\(y''+y=-\\cos x+\\cos x=0\\). Therefore \\(y=\\cos x\\) solves the differential equation.",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "verification"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-02",
+      "prompt": "Solve \\(y''=6x\\).",
+      "answer": "Integrate once: \\(y'=\\int 6x\\,dx=3x^2+C_1\\). Integrate again: \\(y=\\int(3x^2+C_1)\\,dx=x^3+C_1x+C_2\\). Therefore the general solution is \\(y=x^3+C_1x+C_2\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "direct-integration"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-03",
+      "prompt": "Solve \\(y''-5y'+6y=0\\).",
+      "answer": "Assume \\(y=e^{rx}\\), giving the characteristic equation \\(r^2-5r+6=0\\). Factor: \\((r-2)(r-3)=0\\), so \\(r=2\\) or \\(r=3\\). With two distinct real roots, the general solution is \\(y=C_1e^{2x}+C_2e^{3x}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "characteristic-equation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-04",
+      "prompt": "Solve \\(y''+4y=0\\).",
+      "answer": "Use the trial solution \\(y=e^{rx}\\), giving \\(r^2+4=0\\). Thus \\(r^2=-4\\), so \\(r=\\pm2i\\). For complex roots \\(\\pm bi\\), the real solution is \\(y=C_1\\cos bx+C_2\\sin bx\\). Therefore \\(y=C_1\\cos 2x+C_2\\sin 2x\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "complex-roots"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-05",
+      "prompt": "Solve \\(y''-4y'+4y=0\\).",
+      "answer": "The characteristic equation is \\(r^2-4r+4=0\\). Factoring gives \\((r-2)^2=0\\), so \\(r=2\\) is a repeated root. For a repeated root, the general solution is \\(y=(C_1+C_2x)e^{2x}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "repeated-roots"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-06",
+      "prompt": "Solve the initial value problem \\(y''+y=0\\), \\(y(0)=2\\), \\(y'(0)=3\\).",
+      "answer": "The general solution of \\(y''+y=0\\) is \\(y=C_1\\cos x+C_2\\sin x\\). Then \\(y'= -C_1\\sin x+C_2\\cos x\\). Applying \\(y(0)=2\\) gives \\(C_1=2\\). Applying \\(y'(0)=3\\) gives \\(C_2=3\\). Therefore \\(y=2\\cos x+3\\sin x\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "initial-value-problem"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-07",
+      "prompt": "Find the characteristic equation for \\(2y''+3y'-5y=0\\).",
+      "answer": "Assume a solution of the form \\(y=e^{rx}\\). Then \\(y'=re^{rx}\\) and \\(y''=r^2e^{rx}\\). Substituting gives \\(2r^2e^{rx}+3re^{rx}-5e^{rx}=0\\). Since \\(e^{rx}\\ne0\\), the characteristic equation is \\(2r^2+3r-5=0\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "characteristic-equation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-08",
+      "prompt": "Solve \\(y''+2y'+5y=0\\).",
+      "answer": "The characteristic equation is \\(r^2+2r+5=0\\). Using the quadratic formula, \\(r=(-2\\pm\\sqrt{4-20})/2=-1\\pm2i\\). For roots \\(\\alpha\\pm\\beta i\\), the solution is \\(e^{\\alpha x}(C_1\\cos\\beta x+C_2\\sin\\beta x)\\). Therefore \\(y=e^{-x}(C_1\\cos2x+C_2\\sin2x)\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "complex-roots"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-09",
+      "prompt": "Find a particular solution to \\(y''-y=e^x\\) using the trial form \\(y_p=Ax e^x\\).",
+      "answer": "Because \\(e^x\\) solves the homogeneous equation, use \\(y_p=Ax e^x\\). Then \\(y_p'=A(e^x+xe^x)=A(1+x)e^x\\), and \\(y_p''=A(2+x)e^x\\). Substitute: \\(y_p''-y_p=A(2+x)e^x-Axe^x=2Ae^x\\). Set \\(2Ae^x=e^x\\), so \\(A=1/2\\). Thus \\(y_p=\\frac{x}{2}e^x\\).",
+      "rating": "****",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "particular-solution"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-second-order-differential-equations-10",
+      "prompt": "For \\(y''+9y=0\\), state the general solution and identify the oscillation frequency in the argument of sine and cosine.",
+      "answer": "The characteristic equation is \\(r^2+9=0\\), so \\(r=\\pm3i\\). Therefore the general solution is \\(y=C_1\\cos3x+C_2\\sin3x\\). The number multiplying \\(x\\) inside sine and cosine is \\(3\\), so the angular frequency in the argument is \\(3\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "second-order-differential-equations",
+        "oscillation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "series-and-approximations",
+  "topicId": "sequences",
+  "topicTitle": "Sequences",
+  "paperTags": [
+    "series-and-approximations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-series-and-approximations-sequences-01",
+      "prompt": "For the sequence defined by \\(a_n=\\frac{3n}{n+1}\\) for integers \\(n\\ge 1\\), find \\(a_1\\), \\(a_2\\), \\(a_3\\), and \\(\\lim_{n\\to\\infty}a_n\\).",
+      "answer": "We are finding three terms and the limiting value. Substitute \\(n=1\\), \\(n=2\\), and \\(n=3\\): \\(a_1=3/2\\), \\(a_2=6/3=2\\), and \\(a_3=9/4\\). For the limit, divide numerator and denominator by \\(n\\): \\(a_n=\\frac{3}{1+1/n}\\). As \\(n\\to\\infty\\), \\(1/n\\to 0\\), so \\(a_n\\to 3\\). Therefore \\(a_1=\\frac{3}{2}\\), \\(a_2=2\\), \\(a_3=\\frac{9}{4}\\), and the limit is \\(3\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "limits"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-02",
+      "prompt": "For the geometric sequence \\(a_n=5\\left(\\frac{1}{2}\\right)^{n-1}\\) for integers \\(n\\ge 1\\), find the first four terms and the limit as \\(n\\to\\infty\\).",
+      "answer": "We substitute \\(n=1,2,3,4\\). The first four terms are \\(a_1=5\\), \\(a_2=5/2\\), \\(a_3=5/4\\), and \\(a_4=5/8\\). Since \\(|1/2|<1\\), the factor \\((1/2)^{n-1}\\) tends to \\(0\\). Therefore \\(\\lim_{n\\to\\infty}a_n=0\\). The sequence starts \\(5,\\frac{5}{2},\\frac{5}{4},\\frac{5}{8}\\) and converges to \\(0\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "geometric-sequences"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-03",
+      "prompt": "A sequence satisfies \\(a_1=2\\) and \\(a_{n+1}=a_n+3\\) for integers \\(n\\ge 1\\). Find the first four terms and an explicit formula for \\(a_n\\).",
+      "answer": "We use the recurrence to build the sequence. Starting with \\(a_1=2\\), we get \\(a_2=2+3=5\\), \\(a_3=5+3=8\\), and \\(a_4=8+3=11\\). The sequence is arithmetic with first term \\(2\\) and common difference \\(3\\). The explicit formula is \\(a_n=2+3(n-1)=3n-1\\). Therefore the first four terms are \\(2,5,8,11\\), and \\(a_n=3n-1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "recursive-sequences"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-04",
+      "prompt": "Show that the sequence \\(a_n=1-\\frac{1}{n}\\), defined for integers \\(n\\ge 1\\), is increasing and bounded above by \\(1\\).",
+      "answer": "We need to prove both monotonicity and boundedness. For increasing behavior, compute \\(a_{n+1}-a_n=\\left(1-\\frac{1}{n+1}\\right)-\\left(1-\\frac{1}{n}\\right)=\\frac{1}{n}-\\frac{1}{n+1}=\\frac{1}{n(n+1)}>0\\). Hence \\(a_{n+1}>a_n\\), so the sequence is increasing. Also \\(a_n=1-1/n<1\\) for every \\(n\\ge 1\\). Therefore the sequence is increasing and bounded above by \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "monotonicity",
+        "boundedness"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-05",
+      "prompt": "Find \\(\\lim_{n\\to\\infty}\\frac{2n^2+1}{5n^2-3}\\).",
+      "answer": "We are finding the limit of a rational expression in \\(n\\). Divide the numerator and denominator by \\(n^2\\), the highest power of \\(n\\): \\(\\frac{2n^2+1}{5n^2-3}=\\frac{2+1/n^2}{5-3/n^2}\\). As \\(n\\to\\infty\\), both \\(1/n^2\\) and \\(3/n^2\\) tend to \\(0\\). Therefore the limit is \\(\\frac{2}{5}\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "rational-limits"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-06",
+      "prompt": "Find \\(\\lim_{n\\to\\infty}(\\sqrt{n^2+n}-n)\\).",
+      "answer": "We rationalize because direct comparison gives an indeterminate difference. Multiply by the conjugate: \\(\\sqrt{n^2+n}-n=\\frac{(n^2+n)-n^2}{\\sqrt{n^2+n}+n}=\\frac{n}{\\sqrt{n^2+n}+n}\\). Divide numerator and denominator by \\(n\\): \\(\\frac{1}{\\sqrt{1+1/n}+1}\\). As \\(n\\to\\infty\\), this tends to \\(\\frac{1}{1+1}=\\frac{1}{2}\\). Therefore the limit is \\(\\frac{1}{2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "rationalizing"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-07",
+      "prompt": "Determine whether the sequence \\(a_n=\\frac{(-1)^n}{n}\\), defined for integers \\(n\\ge 1\\), converges. If the sequence converges, find the limit.",
+      "answer": "We compare the absolute value with a known sequence. Since \\(|a_n|=1/n\\) and \\(1/n\\to 0\\), the squeeze theorem gives \\(a_n\\to 0\\). The alternating sign does not prevent convergence because the magnitude tends to \\(0\\). Therefore the sequence converges, and its limit is \\(0\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "alternating-sequences"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-08",
+      "prompt": "Determine whether the sequence \\(a_n=(-1)^n\\), defined for integers \\(n\\ge 1\\), converges.",
+      "answer": "We inspect the values of the sequence. The terms alternate between \\(-1\\) and \\(1\\): \\(a_1=-1\\), \\(a_2=1\\), \\(a_3=-1\\), and so on. A convergent sequence must approach one fixed number, but this sequence keeps jumping between two values. Therefore \\(a_n=(-1)^n\\) diverges.",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "divergence"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-09",
+      "prompt": "Find the smallest integer \\(N\\) such that \\(\\left|\\frac{1}{n}\\right|<0.01\\) for every integer \\(n\\ge N\\).",
+      "answer": "We need \\(1/n<0.01\\) for all \\(n\\ge N\\). Since \\(0.01=1/100\\), the inequality becomes \\(1/n<1/100\\). For positive \\(n\\), this is equivalent to \\(n>100\\). The smallest integer with \\(n>100\\) is \\(101\\). Therefore \\(N=101\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "epsilon-ideas"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-sequences-10",
+      "prompt": "A learner claims \\(a_n=\\frac{n+1}{n}\\) diverges because the numerator and denominator both grow without bound. Explain the error and find the limit.",
+      "answer": "The error is judging the quotient only by the separate sizes of the numerator and denominator. A ratio can converge even when both parts grow without bound. Rewrite \\(a_n=\\frac{n+1}{n}=1+\\frac{1}{n}\\). Since \\(1/n\\to 0\\), we get \\(a_n\\to 1+0=1\\). Therefore the sequence converges, and its limit is \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "sequences",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

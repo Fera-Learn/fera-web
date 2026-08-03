@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "applications-of-derivatives",
+  "topicId": "optimisation",
+  "topicTitle": "Optimisation",
+  "paperTags": [
+    "level-1-calculus",
+    "applications-of-derivatives",
+    "optimisation"
+  ],
+  "questions": [
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-01",
+      "prompt": "Find the maximum value of \\(A(x)=12x-x^2\\) for \\(0\\le x\\le12\\).",
+      "answer": "We need the maximum on a closed interval. Differentiate: \\(A'(x)=12-2x\\). Set \\(A'(x)=0\\): \\(12-2x=0\\), so \\(x=6\\). Check endpoint and critical values: \\(A(0)=0\\), \\(A(6)=72-36=36\\), and \\(A(12)=144-144=0\\). Therefore the maximum value is \\(36\\), occurring at \\(x=6\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-02",
+      "prompt": "A rectangle has perimeter \\(40\\) cm. Find the side lengths that maximise its area.",
+      "answer": "We need to maximise the area of a rectangle with fixed perimeter. Let the side lengths be \\(x\\) cm and \\(y\\) cm. The perimeter condition is \\(2x+2y=40\\), so \\(y=20-x\\). The area is \\(A(x)=x(20-x)=20x-x^2\\), with \\(0<x<20\\). Differentiate: \\(A'(x)=20-2x\\). Set \\(A'(x)=0\\): \\(x=10\\). Then \\(y=20-10=10\\). Since \\(A(x)\\) is a downward-opening quadratic, this gives the maximum. The dimensions are \\(10\\) cm by \\(10\\) cm.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-03",
+      "prompt": "Find the minimum value of \\(f(x)=x^2+6x+11\\) on the real line.",
+      "answer": "We need the global minimum of a quadratic. Differentiate: \\(f'(x)=2x+6\\). Set \\(f'(x)=0\\): \\(2x+6=0\\), so \\(x=-3\\). Since \\(f''(x)=2>0\\), the critical point is a minimum. Evaluate \\(f(-3)=9-18+11=2\\). Therefore the minimum value is \\(2\\), occurring at \\(x=-3\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-04",
+      "prompt": "A right triangle has legs \\(x\\) cm and \\(y\\) cm with \\(x+y=18\\). Find the maximum possible area.",
+      "answer": "We need to maximise the triangle area. The constraint gives \\(y=18-x\\), where \\(0<x<18\\). The area is \\(A(x)=\\frac{1}{2}xy=\\frac{1}{2}x(18-x)=9x-\\frac{1}{2}x^2\\). Differentiate: \\(A'(x)=9-x\\). Set \\(A'(x)=0\\): \\(x=9\\), so \\(y=9\\). The second derivative is \\(A''(x)=-1<0\\), so this is a maximum. The maximum area is \\(\\frac{1}{2}(9)(9)=\\frac{81}{2}\\) cm\\(^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-05",
+      "prompt": "Find the point on the line \\(y=2x+1\\) closest to the origin.",
+      "answer": "We need the point on the line with minimum distance to \\((0,0)\\). Minimise the squared distance \\(D(x)=x^2+y^2=x^2+(2x+1)^2\\), which avoids the square root. Expand: \\(D(x)=x^2+4x^2+4x+1=5x^2+4x+1\\). Differentiate: \\(D'(x)=10x+4\\). Set \\(D'(x)=0\\): \\(x=-\\frac{2}{5}\\). Then \\(y=2(-\\frac{2}{5})+1=\\frac{1}{5}\\). Since \\(D''(x)=10>0\\), this is the closest point. The point is \\((-\\frac{2}{5},\\frac{1}{5})\\).",
+      "rating": "****",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-06",
+      "prompt": "An open-top box is made by cutting squares of side length \\(x\\) cm from the corners of a \\(20\\) cm by \\(12\\) cm sheet and folding up the sides. Find the value of \\(x\\) that maximises volume, with \\(0<x<6\\).",
+      "answer": "We need to maximise box volume. After cutting, the base dimensions are \\(20-2x\\) and \\(12-2x\\), and the height is \\(x\\). Thus \\(V(x)=x(20-2x)(12-2x)=240x-64x^2+4x^3\\). Differentiate: \\(V'(x)=240-128x+12x^2\\). Set \\(V'(x)=0\\): \\(12x^2-128x+240=0\\), or \\(3x^2-32x+60=0\\). The solutions are \\(x=\\frac{32\\pm\\sqrt{1024-720}}{6}=\\frac{32\\pm4\\sqrt{19}}{6}=\\frac{16\\pm2\\sqrt{19}}{3}\\). Only \\(\\frac{16-2\\sqrt{19}}{3}\\) lies in \\((0,6)\\). Therefore the volume is maximised at \\(x=\\frac{16-2\\sqrt{19}}{3}\\) cm, approximately \\(2.43\\) cm.",
+      "rating": "****",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-07",
+      "prompt": "Find the positive number \\(x\\) that minimises \\(C(x)=x+\\frac{16}{x}\\).",
+      "answer": "We need the minimum for \\(x>0\\). Differentiate: \\(C'(x)=1-\\frac{16}{x^2}\\). Set \\(C'(x)=0\\): \\(1=\\frac{16}{x^2}\\), so \\(x^2=16\\). Since \\(x>0\\), \\(x=4\\). The second derivative is \\(C''(x)=\\frac{32}{x^3}\\), which is positive for \\(x>0\\), so \\(x=4\\) gives a minimum. Therefore the minimizing value is \\(x=4\\).",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-08",
+      "prompt": "A cylindrical can has fixed volume \\(500\\pi\\) cm\\(^3\\). If the radius is \\(r\\) cm and height is \\(h\\) cm, find the radius that minimises surface area \\(S=2\\pi r^2+2\\pi rh\\).",
+      "answer": "We need to minimise surface area with fixed volume. The volume condition is \\(\\pi r^2h=500\\pi\\), so \\(h=\\frac{500}{r^2}\\). Substitute into surface area: \\(S(r)=2\\pi r^2+2\\pi r\\frac{500}{r^2}=2\\pi r^2+\\frac{1000\\pi}{r}\\), with \\(r>0\\). Differentiate: \\(S'(r)=4\\pi r-\\frac{1000\\pi}{r^2}\\). Set \\(S'(r)=0\\): \\(4\\pi r=\\frac{1000\\pi}{r^2}\\), so \\(4r^3=1000\\), and \\(r^3=250\\). Therefore \\(r=\\sqrt[3]{250}\\) cm. Since \\(S''(r)=4\\pi+\\frac{2000\\pi}{r^3}>0\\), this radius gives the minimum.",
+      "rating": "****",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-09",
+      "prompt": "Find the maximum value of \\(f(x)=x(10-x)^2\\) for \\(0\\le x\\le10\\).",
+      "answer": "We need the maximum on \\([0,10]\\). Expand or use the product rule: \\(f'(x)=(10-x)^2+x\\cdot2(10-x)(-1)\\). Factor: \\(f'(x)=(10-x)[(10-x)-2x]=(10-x)(10-3x)\\). Critical points in the interval are \\(x=10\\) and \\(x=\\frac{10}{3}\\). Check values: \\(f(0)=0\\), \\(f(10)=0\\), and \\(f(\\frac{10}{3})=\\frac{10}{3}(\\frac{20}{3})^2=\\frac{4000}{27}\\). Therefore the maximum value is \\(\\frac{4000}{27}\\), occurring at \\(x=\\frac{10}{3}\\).",
+      "rating": "****",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-optimisation-10",
+      "prompt": "A farmer has \\(60\\) m of fencing for three sides of a rectangular pen, with the fourth side along a wall. Find the dimensions that maximise the enclosed area.",
+      "answer": "We need to maximise the rectangular area using fencing on only three sides. Let \\(x\\) be each side perpendicular to the wall and \\(y\\) be the side parallel to the wall that needs fencing. The constraint is \\(2x+y=60\\), so \\(y=60-2x\\). The area is \\(A(x)=xy=x(60-2x)=60x-2x^2\\). Differentiate: \\(A'(x)=60-4x\\). Set \\(A'(x)=0\\): \\(x=15\\). Then \\(y=60-2(15)=30\\). Since \\(A\\) is a downward-opening quadratic, these dimensions maximise the area. The pen should be \\(15\\) m by \\(30\\) m, with the \\(30\\) m side parallel to the wall.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "optimisation"
+      ]
+    }
+  ]
+}

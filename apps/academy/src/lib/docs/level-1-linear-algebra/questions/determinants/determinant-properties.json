@@ -1,0 +1,113 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "determinant-properties",
+  "topicTitle": "Determinant Properties",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-determinant-properties-01",
+      "prompt": "If \\(\\det(A)\\) = 5 for a \\(3\\times 3\\) matrix A, what is \\(\\det()\\)?",
+      "answer": "The determinant of a transpose equals the determinant of the original matrix. Therefore \\(\\det()\\) = \\(\\det(A)\\) = 5.",
+      "rating": "*+",
+      "paperTags": [
+        "determinants",
+        "transpose"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-02",
+      "prompt": "If \\(\\det(A)\\) = -2 and \\(\\det(B)\\) = 7 for square matrices of the same size, find \\(\\det(\\(AB\\))\\).",
+      "answer": "The determinant of a product is the product of the determinants. Therefore \\(\\det(\\(AB\\))\\) = \\(\\det(A)\\)\\(\\det(B)\\) = (-2)*7 = -14.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "products"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-03",
+      "prompt": "If A is \\(4\\times 4\\) and \\(\\det(A)\\) = 3, find \\(\\det(2A)\\).",
+      "answer": "For an n by n matrix, \\(\\det(cA)\\) = c^n \\(\\det(A)\\). Here \\(n=4\\) and \\(c=2\\). Therefore \\(\\det(2A)\\) = 2^4 \\(\\det(A)\\) = 1\\(6\\cdot3\\) = 48.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "scaling"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-04",
+      "prompt": "If a matrix has two equal rows, what is its determinant?",
+      "answer": "If a matrix has two equal rows, swapping those two rows leaves the matrix unchanged. But a row swap changes the sign of the determinant. The only number equal to its own negative is 0. Therefore the determinant is 0.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "row-properties"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-05",
+      "prompt": "A row operation swaps two rows of A to produce B. If \\(\\det(A)\\) = 9, find \\(\\det(B)\\).",
+      "answer": "Swapping two rows multiplies the determinant by -1. Therefore \\(\\det(B)\\) = -\\(\\det(A)\\) = -9.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "row-operations"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-06",
+      "prompt": "A row operation multiplies one row of A by 4 to produce B. If \\(\\det(A)\\) = -3, find \\(\\det(B)\\).",
+      "answer": "Multiplying one row by 4 multiplies the determinant by 4. Therefore \\(\\det(B)\\) = 4 \\(\\det(A)\\) = 4*(-3) = -12.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "row-operations",
+        "scaling"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-07",
+      "prompt": "A row operation replaces \\(\\mathbb R^2\\) by \\(\\mathbb R^2\\) + 5R1. How does the determinant change?",
+      "answer": "Adding a multiple of one row to another row does not change the determinant. Therefore the determinant after \\(\\mathbb R^2\\) <- \\(\\mathbb R^2\\) + 5R1 is the same as before.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "row-operations"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-08",
+      "prompt": "If \\(\\det(A)\\) = 6 and A is invertible, find \\(\\det()\\).",
+      "answer": "Since AA^{-1} = I, taking determinants gives \\(\\det(A)\\)\\(\\det()\\) = \\(\\det(I)\\) = 1. Therefore \\(\\det()\\) = 1/\\(\\det(A)\\) = 1/6.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "inverse-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-09",
+      "prompt": "If A is a \\(3\\times 3\\) matrix with \\(\\det(A)\\) = 4, find \\(\\det(-A)\\).",
+      "answer": "Use \\(\\det(cA)\\) = c^n \\(\\det(A)\\) for n by n matrices. Here \\(c=-1\\) and \\(n=3\\). Therefore \\(\\det(-A)\\) = (-1)^3 \\(\\det(A)\\) = -4.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "scaling"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinant-properties-10",
+      "prompt": "A learner claims \\(\\det(A + B)\\) = \\(\\det(A)\\) + \\(\\det(B)\\). Disprove this using \\(A=I_2\\) and \\(B=I_2\\).",
+      "answer": "Let \\(A=I_2\\) and \\(B=I_2\\). Then \\(\\det(A)\\) = 1 and \\(\\det(B)\\) = 1, so \\(\\det(A)\\) + \\(\\det(B)\\) = 2. But A + \\(B=2I_2 = \\(\\begin{pmatrix}2&0\\\\0&2\\end{pmatrix}\\), whose determinant is \\(2\\cdot2\\) = 4. Since 4 is not equal to 2, \\(\\det(A + B)\\) is not generally \\(\\det(A)\\) + \\(\\det(B)\\).",
+      "rating": "****",
+      "paperTags": [
+        "determinants",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

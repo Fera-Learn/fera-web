@@ -1,0 +1,121 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-systems",
+  "topicId": "invertible-matrix-theorem",
+  "topicTitle": "Invertible Matrix Theorem",
+  "paperTags": [
+    "linear-systems"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-01",
+      "prompt": "For a \\(2\\times 2\\) matrix A, what does A being invertible imply about the equation \\(Ax=b\\) for every b in \\(\\mathbb R^2\\)?",
+      "answer": "If A is invertible, then \\(Ax=b\\) has the unique solution x = \\(A^{-1}\\)b for every b in \\(\\mathbb R^2\\). Existence follows because \\(A^{-1}\\)b gives a solution. Uniqueness follows because an inverse cannot send two different inputs to the same output.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-02",
+      "prompt": "If the RREF of a \\(3\\times 3\\) matrix A is \\(I_3\\), what can you conclude about A?",
+      "answer": "If the RREF of A is \\(I_3\\), then A has a pivot in every column and every row. By the invertible matrix theorem, A is invertible. Therefore \\(Ax=b\\) has a unique solution for every b in \\(\\mathbb R^3\\), and \\(Ax=0\\) has only the trivial solution.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "rref"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-03",
+      "prompt": "If a \\(4\\times 4\\) matrix A has a zero row in echelon form, what can you conclude about invertibility?",
+      "answer": "A zero row in echelon form means there is not a pivot in every row. For a square \\(4\\times 4\\) matrix, this also means there is not a pivot in every column. By the invertible matrix theorem, A is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "echelon-form"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-04",
+      "prompt": "Use the invertible matrix theorem to decide whether A is invertible if \\(Ax=0\\) has a non-zero solution.",
+      "answer": "If \\(Ax=0\\) has a non-zero solution, then the homogeneous system has more than the trivial solution. By the invertible matrix theorem, a square matrix is invertible exactly when \\(Ax=0\\) has only the trivial solution. Therefore A is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "homogeneous-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-05",
+      "prompt": "A \\(3\\times 3\\) matrix has pivot columns 1, 2, and 3. What does the invertible matrix theorem imply?",
+      "answer": "A \\(3\\times 3\\) matrix with pivot columns 1, 2, and 3 has a pivot in every column. Since it is square, it also has a pivot in every row. By the invertible matrix theorem, the matrix is invertible, its columns span \\(\\mathbb R^3\\), and \\(Ax=b\\) has a unique solution for every b in \\(\\mathbb R^3\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "pivot-columns"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-06",
+      "prompt": "Can a \\(3\\times 3\\) matrix be invertible if its columns do not span \\(\\mathbb R^3\\)? Explain.",
+      "answer": "No. By the invertible matrix theorem, a \\(3\\times 3\\) matrix is invertible exactly when its columns span \\(\\mathbb R^3\\). If the columns do not span \\(\\mathbb R^3\\), then some vector b in \\(\\mathbb R^3\\) is not reachable as Ax. Therefore \\(Ax=b\\) fails for that b, and A is not invertible.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "spanning"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-07",
+      "prompt": "If \\(A\\) is an invertible \\(n\\times n\\) matrix and \\(AB=AC\\), prove that \\(B=C\\).",
+      "answer": "Since \\(A\\) is invertible, multiply both sides of \\(AB=AC\\) on the left by \\(A^{-1}\\). This gives \\(A^{-1}AB=A^{-1}AC\\). By associativity, \\((A^{-1}A)B=(A^{-1}A)C\\). Since \\(A^{-1}A=I\\), we get \\(IB=IC\\). Therefore \\(B=C\\).",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "matrix-equations"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-08",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\), use the homogeneous equation \\(Ax=0\\) to decide invertibility.",
+      "answer": "The equation \\(Ax=0\\) is x + 2y = 0 and 2x + 4y = 0. The second equation is twice the first, so there are non-zero solutions. Let \\(y=1\\), then \\(x=-2\\), giving the non-zero solution \\((-2, 1)\\). Since \\(Ax=0\\) has a non-zero solution, A is not invertible.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "homogeneous-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-09",
+      "prompt": "A square matrix A has RREF \\(\\begin{pmatrix}1&0&2\\\\0&1&-1\\\\0&0&0\\end{pmatrix}\\). Use the invertible matrix theorem to classify A.",
+      "answer": "The RREF has a zero row and no pivot in column 3. Therefore A does not have a pivot in every column. By the invertible matrix theorem, A is not invertible. Also, \\(Ax=0\\) has a free variable and hence has non-zero solutions.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "rref"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-invertible-matrix-theorem-10",
+      "prompt": "A learner says a matrix is invertible if \\(Ax=b\\) has at least one solution for one particular b. Diagnose the error.",
+      "answer": "Having a solution for one particular b is not enough. The invertible matrix theorem requires \\(Ax=b\\) to have a unique solution for every b in the codomain. For example, a non-invertible matrix can still satisfy \\(Ax=0\\) because every homogeneous system has at least the zero solution. Therefore one solvable right side does not prove invertibility.",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "invertible-matrix-theorem",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

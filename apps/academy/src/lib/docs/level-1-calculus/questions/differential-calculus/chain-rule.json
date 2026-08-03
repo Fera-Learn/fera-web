@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-calculus",
+  "topicId": "chain-rule",
+  "topicTitle": "Chain Rule",
+  "paperTags": [
+    "differential-calculus"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-calculus-chain-rule-01",
+      "prompt": "Differentiate \\(f(x)=(2x+1)^5\\).",
+      "answer": "Let \\(u=2x+1\\). Then \\(f=u^5\\), so \\(df/du=5u^4\\), and \\(du/dx=2\\). By the chain rule, \\(f'(x)=5(2x+1)^4\\cdot2=10(2x+1)^4\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "powers"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-02",
+      "prompt": "Differentiate \\(y=\\sin(3x)\\).",
+      "answer": "The outside function is \\(\\sin u\\), whose derivative is \\(\\cos u\\). The inside function is \\(u=3x\\), with derivative \\(3\\). Therefore \\(\\frac{dy}{dx}=\\cos(3x)\\cdot3=3\\cos(3x)\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "trigonometric-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-03",
+      "prompt": "Differentiate \\(f(x)=\\sqrt{5x-2}\\).",
+      "answer": "Rewrite \\(f(x)=(5x-2)^{1/2}\\). Let \\(u=5x-2\\). Then \\(d(u^{1/2})/du=\\frac12u^{-1/2}\\), and \\(du/dx=5\\). Hence \\(f'(x)=\\frac12(5x-2)^{-1/2}\\cdot5=\\frac{5}{2\\sqrt{5x-2}}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "square-roots"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-04",
+      "prompt": "Differentiate \\(f(x)=e^{x^2+1}\\).",
+      "answer": "Let \\(u=x^2+1\\). The derivative of \\(e^u\\) with respect to \\(u\\) is \\(e^u\\), and \\(du/dx=2x\\). By the chain rule, \\(f'(x)=e^{x^2+1}\\cdot2x=2xe^{x^2+1}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "exponential-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-05",
+      "prompt": "Differentiate \\(f(x)=\\ln(x^2+4)\\).",
+      "answer": "Let \\(u=x^2+4\\). The derivative of \\(\\ln u\\) is \\(1/u\\), and \\(du/dx=2x\\). Therefore \\(f'(x)=\\frac{1}{x^2+4}\\cdot2x=\\frac{2x}{x^2+4}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "logarithms"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-06",
+      "prompt": "Differentiate \\(y=(x^3-2x)^4\\).",
+      "answer": "Let \\(u=x^3-2x\\). The outside function is \\(u^4\\), whose derivative is \\(4u^3\\). The inside derivative is \\(du/dx=3x^2-2\\). Thus \\(\\frac{dy}{dx}=4(x^3-2x)^3(3x^2-2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "polynomial-composites"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-07",
+      "prompt": "Differentiate \\(f(x)=\\cos^2 x\\), meaning \\(f(x)=(\\cos x)^2\\).",
+      "answer": "Rewrite the function as \\((\\cos x)^2\\). Let \\(u=\\cos x\\). Then the outside derivative is \\(2u\\), and \\(du/dx=-\\sin x\\). Therefore \\(f'(x)=2\\cos x(-\\sin x)=-2\\sin x\\cos x\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "trigonometric-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-08",
+      "prompt": "Differentiate \\(f(x)=\\sin((x^2+1)^3)\\).",
+      "answer": "This is a nested composition. Let \\(u=(x^2+1)^3\\). Then \\(d(\\sin u)/dx=\\cos(u)u'\\). Now differentiate \\(u\\): \\(u'=3(x^2+1)^2\\cdot2x=6x(x^2+1)^2\\). Therefore \\(f'(x)=6x(x^2+1)^2\\cos((x^2+1)^3)\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "nested-compositions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-09",
+      "prompt": "Differentiate \\(f(x)=\\frac{1}{(1+x^2)^3}\\).",
+      "answer": "Rewrite as \\(f(x)=(1+x^2)^{-3}\\). Let \\(u=1+x^2\\). The outside derivative is \\(-3u^{-4}\\), and \\(du/dx=2x\\). Therefore \\(f'(x)=-3(1+x^2)^{-4}(2x)=-6x(1+x^2)^{-4}\\). Equivalently, \\(f'(x)=-\\frac{6x}{(1+x^2)^4}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "negative-powers"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-chain-rule-10",
+      "prompt": "Find \\(f'(1)\\) for \\(f(x)=(3x^2-1)^4\\).",
+      "answer": "First differentiate using the chain rule. Let \\(u=3x^2-1\\). Then \\(f'(x)=4(3x^2-1)^3\\cdot6x=24x(3x^2-1)^3\\). Now evaluate at \\(x=1\\): \\(f'(1)=24(1)(3-1)^3=24\\cdot8=192\\).",
+      "rating": "****",
+      "paperTags": [
+        "differential-calculus",
+        "chain-rule",
+        "derivative-values"
+      ]
+    }
+  ]
+}

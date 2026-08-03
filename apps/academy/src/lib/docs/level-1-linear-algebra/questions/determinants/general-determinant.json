@@ -1,0 +1,115 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "general-determinant",
+  "topicTitle": "General Determinant",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-general-determinant-01",
+      "prompt": "State the cofactor expansion formula along row 1 for a \\(3\\times 3\\) matrix \\(A=\\begin{pmatrix}a&b&c\\\\d&e&f\\\\g&h&i\\end{pmatrix}\\).",
+      "answer": "Expanding along row 1 gives \\(\\det(A)\\) = \\(a\\cdot \\det\\left(\\begin{pmatrix}e&f\\\\h&i\\end{pmatrix}\\right)\\) - \\(b\\cdot \\det\\left(\\begin{pmatrix}d&f\\\\g&i\\end{pmatrix}\\right)\\) + \\(c\\cdot \\det\\left(\\begin{pmatrix}d&e\\\\g&h\\end{pmatrix}\\right)\\). The signs alternate plus, minus, plus across the first row.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-02",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2&0\\\\3&4&5\\\\6&7&8\\end{pmatrix}\\), find the minor M_13.",
+      "answer": "The minor M_13 is found by deleting row 1 and column 3. The remaining \\(2\\times 2\\) matrix is \\(\\begin{pmatrix}3&4\\\\6&7\\end{pmatrix}\\). Its determinant is \\(3\\cdot7\\) - \\(4\\cdot6\\) = 21 - 24 = -3. Therefore \\(M_13=-3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "minors"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-03",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2&0\\\\3&4&5\\\\6&7&8\\end{pmatrix}\\), find the cofactor C_13.",
+      "answer": "The cofactor is C_ij = (-1)^(i+j) M_ij. From the previous minor calculation, \\(M_13=-3\\). Since (-1)^(1+3) = (-1)^4 = 1, \\(C_13=1\\)*(-3) = -3.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactors"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-04",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&0&2\\\\3&1&4\\\\5&0&6\\end{pmatrix}\\right)\\) by expanding along column 2.",
+      "answer": "Column 2 is \\((0,1,0)\\), so only the middle entry contributes. The sign at row 2 column 2 is positive. Delete row 2 and column 2 to get \\(\\begin{pmatrix}1&2\\\\5&6\\end{pmatrix}\\). Its determinant is \\(1\\cdot6\\) - \\(2\\cdot5\\) = 6 - 10 = -4. Therefore the determinant is -4.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-05",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}0&2&1\\\\3&0&4\\\\5&6&0\\end{pmatrix}\\right)\\) by expanding along row 1.",
+      "answer": "Expand along row 1. The first term is zero. The second term has a minus sign: -\\(2\\cdot \\det\\left(\\begin{pmatrix}3&4\\\\5&0\\end{pmatrix}\\right)\\) = -2*(\\(3\\cdot0\\) - \\(4\\cdot5\\)) = -2*(-20) = 40. The third term is +\\(1\\cdot \\det\\left(\\begin{pmatrix}3&0\\\\5&6\\end{pmatrix}\\right)\\) = 1*(18 - 0) = 18. Therefore \\(\\\\det=40\\) + 18 = 58.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-06",
+      "prompt": "Choose the best row or column for cofactor expansion of \\(\\begin{pmatrix}4&0&0\\\\1&2&3\\\\5&0&6\\end{pmatrix}\\), and compute the determinant.",
+      "answer": "Column 2 is best because it has two zeros: \\((0,2,0)\\). Only the entry 2 in row 2 contributes. Its sign is positive because row 2 plus column 2 is even. Delete row 2 and column 2 to get \\(\\begin{pmatrix}4&0\\\\5&6\\end{pmatrix}\\). The minor determinant is \\(4\\cdot6\\) - \\(0\\cdot5\\) = 24. Therefore \\(\\\\det=2\\)*24 = 48.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion",
+        "strategy"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-07",
+      "prompt": "For a \\(4\\times 4\\) matrix, what size is the minor matrix obtained by deleting one row and one column?",
+      "answer": "Deleting one row from a \\(4\\times 4\\) matrix leaves 3 rows. Deleting one column leaves 3 columns. Therefore each minor matrix is \\(3\\times 3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "determinants",
+        "minors"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-08",
+      "prompt": "Explain the sign pattern for cofactors in a \\(3\\times 3\\) determinant.",
+      "answer": "The cofactor sign at position \\((i, j)\\) is (-1)^(i+j). For a \\(3\\times 3\\) matrix this gives the checkerboard pattern \\(\\begin{pmatrix}+&-&+\\\\-&+&-\\\\+&-&+\\end{pmatrix}\\). Adjacent signs alternate across rows and down columns.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "cofactors",
+        "sign-pattern"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-09",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{pmatrix}\\right)\\) by expanding along row 1.",
+      "answer": "Expand along row 1: \\(\\\\det=1\\)*\\(\\det\\left(\\begin{pmatrix}5&6\\\\8&9\\end{pmatrix}\\right)\\) - \\(2\\cdot \\det\\left(\\begin{pmatrix}4&6\\\\7&9\\end{pmatrix}\\right)\\) + \\(3\\cdot \\det\\left(\\begin{pmatrix}4&5\\\\7&8\\end{pmatrix}\\right)\\). The minors are \\(5\\cdot9\\) - \\(6\\cdot8\\) = -3, \\(4\\cdot9\\) - \\(6\\cdot7\\) = -6, and \\(4\\cdot8\\) - \\(5\\cdot7\\) = -3. Therefore \\(\\\\det=1\\)*(-3) - 2*(-6) + 3*(-3) = -3 + 12 - 9 = 0.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-general-determinant-10",
+      "prompt": "A learner expands along row 1 but uses all plus signs. Explain why this is wrong for a \\(3\\times 3\\) determinant.",
+      "answer": "Cofactor expansion includes signs determined by (-1)^(i+j). Along row 1, the signs are plus, minus, plus. The middle term must be subtracted. Using all plus signs ignores the cofactor sign pattern and can give the wrong determinant.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

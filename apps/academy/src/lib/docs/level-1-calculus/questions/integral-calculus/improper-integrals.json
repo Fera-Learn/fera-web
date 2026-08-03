@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "integral-calculus",
+  "topicId": "improper-integrals",
+  "topicTitle": "Improper Integrals",
+  "paperTags": [
+    "level-1-calculus",
+    "integral-calculus",
+    "improper-integrals"
+  ],
+  "questions": [
+    {
+      "id": "calculus-integral-calculus-improper-integrals-01",
+      "prompt": "Evaluate \\(\\int_1^\\infty \\frac{1}{x^2}\\,dx\\), or state that it diverges.",
+      "answer": "We need to replace the infinite endpoint with a limit. Write \\(\\int_1^\\infty x^{-2}\\,dx=\\lim_{b\\to\\infty}\\int_1^b x^{-2}\\,dx\\). An antiderivative is \\(-x^{-1}\\). Thus the integral equals \\(\\lim_{b\\to\\infty}[-\\frac{1}{x}]_1^b=\\lim_{b\\to\\infty}(-\\frac{1}{b}+1)=1\\). Therefore the improper integral converges to \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-02",
+      "prompt": "Determine whether \\(\\int_1^\\infty \\frac{1}{x}\\,dx\\) converges or diverges.",
+      "answer": "We need to test the infinite endpoint with a limit. Write \\(\\int_1^\\infty\\frac{1}{x}\\,dx=\\lim_{b\\to\\infty}\\int_1^b\\frac{1}{x}\\,dx\\). The antiderivative is \\(\\ln x\\). Thus the expression is \\(\\lim_{b\\to\\infty}(\\ln b-\\ln1)=\\lim_{b\\to\\infty}\\ln b\\). Since \\(\\ln b\\to\\infty\\), the integral diverges.",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-03",
+      "prompt": "Evaluate \\(\\int_0^1 \\frac{1}{\\sqrt{x}}\\,dx\\), or state that it diverges.",
+      "answer": "We need to handle the infinite value at \\(x=0\\). Write \\(\\int_0^1 x^{-1/2}\\,dx=\\lim_{a\\to0^+}\\int_a^1 x^{-1/2}\\,dx\\). An antiderivative is \\(2x^{1/2}\\). The value is \\(\\lim_{a\\to0^+}[2\\sqrt{x}]_a^1=\\lim_{a\\to0^+}(2-2\\sqrt{a})=2\\). Therefore the improper integral converges to \\(2\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-04",
+      "prompt": "Determine whether \\(\\int_0^1 \\frac{1}{x^2}\\,dx\\) converges or diverges.",
+      "answer": "We need to test the singularity at \\(x=0\\). Write \\(\\int_0^1 x^{-2}\\,dx=\\lim_{a\\to0^+}\\int_a^1 x^{-2}\\,dx\\). An antiderivative is \\(-x^{-1}\\). Evaluate: \\(\\lim_{a\\to0^+}[-\\frac{1}{x}]_a^1=\\lim_{a\\to0^+}(-1+\\frac{1}{a})\\). Since \\(\\frac{1}{a}\\to\\infty\\), the integral diverges.",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-05",
+      "prompt": "Evaluate \\(\\int_0^\\infty e^{-x}\\,dx\\), or state that it diverges.",
+      "answer": "We need to use a limit for the infinite interval. Write \\(\\int_0^\\infty e^{-x}\\,dx=\\lim_{b\\to\\infty}\\int_0^b e^{-x}\\,dx\\). An antiderivative is \\(-e^{-x}\\). Therefore the value is \\(\\lim_{b\\to\\infty}[-e^{-x}]_0^b=\\lim_{b\\to\\infty}(-e^{-b}+1)\\). Since \\(e^{-b}\\to0\\), the integral converges to \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-06",
+      "prompt": "Determine whether \\(\\int_2^\\infty \\frac{1}{x^3}\\,dx\\) converges, and find its value if it converges.",
+      "answer": "We need to evaluate an infinite-interval integral. Write \\(\\int_2^\\infty x^{-3}\\,dx=\\lim_{b\\to\\infty}\\int_2^b x^{-3}\\,dx\\). An antiderivative is \\(-\\frac{1}{2x^2}\\). Evaluate: \\(\\lim_{b\\to\\infty}[-\\frac{1}{2x^2}]_2^b=\\lim_{b\\to\\infty}(-\\frac{1}{2b^2}+\\frac{1}{8})=\\frac{1}{8}\\). Therefore the integral converges to \\(\\frac{1}{8}\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-07",
+      "prompt": "Evaluate \\(\\int_{-\\infty}^{0} e^x\\,dx\\), or state that it diverges.",
+      "answer": "We need to replace the lower infinite endpoint with a limit. Write \\(\\int_{-\\infty}^{0}e^x\\,dx=\\lim_{a\\to-\\infty}\\int_a^0 e^x\\,dx\\). An antiderivative is \\(e^x\\). Thus the value is \\(\\lim_{a\\to-\\infty}[e^x]_a^0=\\lim_{a\\to-\\infty}(1-e^a)\\). Since \\(e^a\\to0\\) as \\(a\\to-\\infty\\), the integral converges to \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-08",
+      "prompt": "Determine whether \\(\\int_{-\\infty}^{\\infty}\\frac{1}{1+x^2}\\,dx\\) converges, and find its value if it converges.",
+      "answer": "We need to split the integral at a finite point because both endpoints are infinite. Use \\(0\\): \\(\\int_{-\\infty}^{\\infty}\\frac{1}{1+x^2}\\,dx=\\int_{-\\infty}^0\\frac{1}{1+x^2}\\,dx+\\int_0^{\\infty}\\frac{1}{1+x^2}\\,dx\\). An antiderivative is \\(\\arctan x\\). The first part is \\(\\lim_{a\\to-\\infty}(\\arctan0-\\arctan a)=0-(-\\frac{\\pi}{2})=\\frac{\\pi}{2}\\). The second part is \\(\\lim_{b\\to\\infty}(\\arctan b-\\arctan0)=\\frac{\\pi}{2}\\). The total is \\(\\pi\\), so the integral converges to \\(\\pi\\).",
+      "rating": "****",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-09",
+      "prompt": "For which values of \\(p\\) does \\(\\int_1^\\infty \\frac{1}{x^p}\\,dx\\) converge?",
+      "answer": "We need the convergence condition for a \\(p\\)-integral. For \\(p\\ne1\\), \\(\\int_1^b x^{-p}\\,dx=\\frac{b^{1-p}-1}{1-p}\\). If \\(p>1\\), then \\(1-p<0\\), so \\(b^{1-p}\\to0\\), giving a finite limit. If \\(p<1\\), then \\(b^{1-p}\\to\\infty\\), so the integral diverges. For \\(p=1\\), the integral is \\(\\int_1^\\infty\\frac{1}{x}\\,dx\\), which diverges like \\(\\ln b\\). Therefore the integral converges exactly when \\(p>1\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-improper-integrals-10",
+      "prompt": "Evaluate \\(\\int_0^4 \\frac{1}{\\sqrt{4-x}}\\,dx\\), or state that it diverges.",
+      "answer": "We need to handle the singularity at \\(x=4\\). Write \\(\\int_0^4(4-x)^{-1/2}\\,dx=\\lim_{b\\to4^-}\\int_0^b(4-x)^{-1/2}\\,dx\\). An antiderivative is \\(-2\\sqrt{4-x}\\), because differentiating gives \\((4-x)^{-1/2}\\). Evaluate: \\(\\lim_{b\\to4^-}[-2\\sqrt{4-x}]_0^b=\\lim_{b\\to4^-}(-2\\sqrt{4-b}+4)\\). As \\(b\\to4^-\\), \\(\\sqrt{4-b}\\to0\\), so the value is \\(4\\). Therefore the improper integral converges to \\(4\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "improper-integrals"
+      ]
+    }
+  ]
+}

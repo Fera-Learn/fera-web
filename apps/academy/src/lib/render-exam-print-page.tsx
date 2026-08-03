@@ -16,6 +16,14 @@ import {
   getLevel1MathIIPhysicsExamPaper,
   level1MathIIPhysicsExamSets,
 } from "@/lib/docs/level-1-math-ii-physics/exams";
+import {
+  getLevel1CalculusExamPaper,
+  level1CalculusExamSets,
+} from "@/lib/docs/level-1-calculus/exams";
+import {
+  getLevel1LinearAlgebraExamPaper,
+  level1LinearAlgebraExamSets,
+} from "@/lib/docs/level-1-linear-algebra/exams";
 
 type ExamPrintPageData = {
   backHref: string;
@@ -39,6 +47,16 @@ const examCourseConfigs = {
     getPaper: getLevel1MathIIPhysicsExamPaper,
     label: "Level 1 - Math II (Physics)",
     sets: level1MathIIPhysicsExamSets,
+  },
+  "level-1-calculus": {
+    getPaper: getLevel1CalculusExamPaper,
+    label: "Level 1 - Calculus",
+    sets: level1CalculusExamSets,
+  },
+  "level-1-linear-algebra": {
+    getPaper: getLevel1LinearAlgebraExamPaper,
+    label: "Level 1 - Linear Algebra",
+    sets: level1LinearAlgebraExamSets,
   },
   "level-1-physics": {
     getPaper: getLevel1PhysicsExamPaper,

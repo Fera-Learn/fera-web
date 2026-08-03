@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-calculus",
+  "topicId": "derivative-from-first-principles",
+  "topicTitle": "Derivative From First Principles",
+  "paperTags": [
+    "differential-calculus"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-01",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=3x+2\\).",
+      "answer": "Use \\(f'(x)=\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}\\). Here \\(f(x+h)=3(x+h)+2=3x+3h+2\\). Thus \\(\\frac{f(x+h)-f(x)}{h}=\\frac{3x+3h+2-(3x+2)}{h}=\\frac{3h}{h}=3\\). Taking \\(h\\to0\\), the derivative is \\(f'(x)=3\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-02",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=x^2\\).",
+      "answer": "Start with \\(f'(x)=\\lim_{h\\to0}\\frac{(x+h)^2-x^2}{h}\\). Expand: \\((x+h)^2=x^2+2xh+h^2\\). The quotient becomes \\(\\frac{x^2+2xh+h^2-x^2}{h}=\\frac{2xh+h^2}{h}=2x+h\\). Taking the limit as \\(h\\to0\\) gives \\(f'(x)=2x\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "quadratics"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-03",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=x^2+4x\\).",
+      "answer": "Use the difference quotient. We have \\(f(x+h)=(x+h)^2+4(x+h)=x^2+2xh+h^2+4x+4h\\). Subtract \\(f(x)=x^2+4x\\): the numerator is \\(2xh+h^2+4h\\). Divide by \\(h\\): \\(2x+h+4\\). Taking \\(h\\to0\\) gives \\(f'(x)=2x+4\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "difference-quotient"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-04",
+      "prompt": "Use first principles to find \\(f'(1)\\) for \\(f(x)=x^2+1\\).",
+      "answer": "We can use the point form \\(f'(1)=\\lim_{h\\to0}\\frac{f(1+h)-f(1)}{h}\\). Now \\(f(1+h)=(1+h)^2+1=2+2h+h^2\\), and \\(f(1)=2\\). The quotient is \\(\\frac{2+2h+h^2-2}{h}=\\frac{2h+h^2}{h}=2+h\\). Taking \\(h\\to0\\) gives \\(f'(1)=2\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "derivative-at-a-point"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-05",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=5-x\\).",
+      "answer": "Compute \\(f(x+h)=5-(x+h)=5-x-h\\). The difference quotient is \\(\\frac{f(x+h)-f(x)}{h}=\\frac{5-x-h-(5-x)}{h}=\\frac{-h}{h}=-1\\). The expression is constant in \\(h\\), so the limit as \\(h\\to0\\) is \\(-1\\). Therefore \\(f'(x)=-1\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "linear-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-06",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=x^3\\).",
+      "answer": "Use \\(f'(x)=\\lim_{h\\to0}\\frac{(x+h)^3-x^3}{h}\\). Expand: \\((x+h)^3=x^3+3x^2h+3xh^2+h^3\\). Subtract \\(x^3\\) and divide by \\(h\\): \\(\\frac{3x^2h+3xh^2+h^3}{h}=3x^2+3xh+h^2\\). Taking \\(h\\to0\\) gives \\(f'(x)=3x^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "cubics"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-07",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=\\frac{1}{x}\\), for \\(x\\ne0\\).",
+      "answer": "Start with \\(\\frac{f(x+h)-f(x)}{h}=\\frac{\\frac{1}{x+h}-\\frac{1}{x}}{h}\\). Combine the fractions in the numerator: \\(\\frac{x-(x+h)}{x(x+h)}=\\frac{-h}{x(x+h)}\\). Dividing by \\(h\\) gives \\(-\\frac{1}{x(x+h)}\\). Taking \\(h\\to0\\), we get \\(f'(x)=-\\frac{1}{x^2}\\), valid for \\(x\\ne0\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "reciprocal"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-08",
+      "prompt": "Use first principles to find \\(f'(2)\\) for \\(f(x)=\\sqrt{x}\\).",
+      "answer": "Use \\(f'(2)=\\lim_{h\\to0}\\frac{\\sqrt{2+h}-\\sqrt2}{h}\\). Rationalise by multiplying by \\(\\frac{\\sqrt{2+h}+\\sqrt2}{\\sqrt{2+h}+\\sqrt2}\\). The quotient becomes \\(\\frac{(2+h)-2}{h(\\sqrt{2+h}+\\sqrt2)}=\\frac{h}{h(\\sqrt{2+h}+\\sqrt2)}\\). Cancel \\(h\\), then take the limit: \\(f'(2)=\\frac{1}{2\\sqrt2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "square-roots"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-09",
+      "prompt": "Using first principles, find the slope of the tangent to \\(f(x)=x^2-3x\\) at \\(x=4\\).",
+      "answer": "The tangent slope is \\(f'(4)\\). Use \\(f'(4)=\\lim_{h\\to0}\\frac{f(4+h)-f(4)}{h}\\). Now \\(f(4)=16-12=4\\), and \\(f(4+h)=(4+h)^2-3(4+h)=16+8h+h^2-12-3h=4+5h+h^2\\). The quotient is \\(\\frac{5h+h^2}{h}=5+h\\). Taking \\(h\\to0\\) gives slope \\(5\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "tangent-slope"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-derivative-from-first-principles-10",
+      "prompt": "Use first principles to find the derivative of \\(f(x)=ax+b\\), where \\(a\\) and \\(b\\) are constants.",
+      "answer": "Compute \\(f(x+h)=a(x+h)+b=ax+ah+b\\). The difference quotient is \\(\\frac{ax+ah+b-(ax+b)}{h}=\\frac{ah}{h}=a\\). Since this expression does not depend on \\(h\\), its limit as \\(h\\to0\\) is \\(a\\). Therefore \\(f'(x)=a\\), the slope of the line.",
+      "rating": "****",
+      "paperTags": [
+        "differential-calculus",
+        "derivative-from-first-principles",
+        "general-linear-functions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "matrix-algebra",
+  "topicId": "matrix-notation",
+  "topicTitle": "Matrix Notation",
+  "paperTags": [
+    "matrix-algebra"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-01",
+      "prompt": "For \\(A=\\begin{pmatrix}2&-1&0\\\\5&3&4\\end{pmatrix}\\), state the size of A.",
+      "answer": "We need the number of rows and columns. The matrix A has 2 rows: \\((2,-1,0)\\) and \\((5,3,4)\\). Each row has 3 entries, so A has 3 columns. Therefore A is a \\(2\\times 3\\) matrix.",
+      "rating": "*",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-size"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-02",
+      "prompt": "For \\(A=\\begin{pmatrix}2&-1&0\\\\5&3&4\\end{pmatrix}\\), find the entry a_23.",
+      "answer": "The notation a_ij means the entry in row i and column j. The entry a_23 is in row 2 and column 3. Row 2 is \\((5,3,4)\\), and its third entry is 4. Therefore \\(a_23=4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-entries"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-03",
+      "prompt": "For \\(B=\\begin{pmatrix}1&7\\\\0&-2\\\\4&5\\end{pmatrix}\\), write down the second row and the first column.",
+      "answer": "The second row is the full row with row index 2, so it is \\((0,-2)\\). The first column is formed from the first entry of each row: 1, 0, and 4. Therefore the first column is \\(\\begin{pmatrix}1\\\\0\\\\4\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "rows-and-columns"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-04",
+      "prompt": "Decide whether C = \\(\\begin{pmatrix}3&1\\\\2&0\\end{pmatrix}\\) is square. If it is square, state its order.",
+      "answer": "A square matrix has the same number of rows and columns. The matrix C has 2 rows and 2 columns, so it is square. Its order is 2, meaning C is a \\(2\\times 2\\) square matrix.",
+      "rating": "*+",
+      "paperTags": [
+        "matrix-algebra",
+        "square-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-05",
+      "prompt": "For D = \\(\\begin{pmatrix}6\\\\-1\\\\8\\end{pmatrix}\\), state whether D is a row vector, a column vector, or neither, and give its size.",
+      "answer": "The matrix D has 3 rows and 1 column. A matrix with one column is a column vector. Therefore D is a column vector of size \\(3\\times 1\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "column-vectors"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-06",
+      "prompt": "Let A be a \\(4\\times 5\\) matrix. Which entries exist: a_45, a_54, a_11, and a_06?",
+      "answer": "A \\(4\\times 5\\) matrix has row indices 1 to 4 and column indices 1 to 5. The entry a_45 exists because row 4 and column 5 are valid. The entry a_54 does not exist because row 5 is not valid. The entry a_11 exists. The entry a_06 does not exist because column 6 is not valid, and matrix indices here start at 1. Therefore a_45 and a_11 exist; a_54 and a_06 do not.",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-entries"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-07",
+      "prompt": "Construct the \\(2\\times 3\\) matrix A whose entries are given by \\(a_ij=i\\) + j.",
+      "answer": "A \\(2\\times 3\\) matrix has rows \\(i=1\\), 2 and columns \\(j=1\\), 2, 3. Compute each entry: \\(a_11=2\\), \\(a_12=3\\), \\(a_13=4\\), \\(a_21=3\\), \\(a_22=4\\), and \\(a_23=5\\). Therefore \\(A=\\begin{pmatrix}2&3&4\\\\3&4&5\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-entries",
+        "constructing-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-08",
+      "prompt": "Construct the \\(3\\times 2\\) matrix B whose entries are b_ij = 2i - j.",
+      "answer": "Use row indices \\(i=1\\), 2, 3 and column indices \\(j=1\\), 2. The entries are \\(b_11=1\\), \\(b_12=0\\), \\(b_21=3\\), \\(b_22=2\\), \\(b_31=5\\), and \\(b_32=4\\). Therefore \\(B=\\begin{pmatrix}1&0\\\\3&2\\\\5&4\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "constructing-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-09",
+      "prompt": "Find x and y if \\(\\begin{pmatrix}x&2\\\\3&y\\end{pmatrix}\\) = \\(\\begin{pmatrix}5&2\\\\3&-1\\end{pmatrix}\\).",
+      "answer": "Two matrices are equal exactly when they have the same size and corresponding entries are equal. Comparing the top-left entries gives \\(x=5\\). Comparing the bottom-right entries gives \\(y=-1\\). The other corresponding entries already match. Therefore \\(x=5\\) and \\(y=-1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-equality"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-notation-10",
+      "prompt": "A matrix A has entries \\(a_ij=0\\) whenever i != j and \\(a_ii=1\\) for every valid i. If A is \\(3\\times 3\\), write A explicitly.",
+      "answer": "The rule says every diagonal entry is 1 and every off-diagonal entry is 0. For a \\(3\\times 3\\) matrix, the diagonal positions are \\((1,1)\\), \\((2,2)\\), and \\((3,3)\\). Therefore \\(A=\\begin{pmatrix}1&0&0\\\\0&1&0\\\\0&0&1\\end{pmatrix}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "matrix-algebra",
+        "identity-matrices",
+        "matrix-entries"
+      ]
+    }
+  ]
+}

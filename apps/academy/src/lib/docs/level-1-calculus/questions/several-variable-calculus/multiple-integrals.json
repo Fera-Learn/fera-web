@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "multiple-integrals",
+  "topicTitle": "Multiple Integrals",
+  "paperTags": [
+    "several-variable-calculus",
+    "multiple-integrals"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-01",
+      "prompt": "Evaluate \\(\\int_0^2\\int_0^3 1\\,dy\\,dx\\).",
+      "answer": "Integrate with respect to \\(y\\) first. The inner integral is \\(\\int_0^3 1\\,dy=3\\). Then integrate with respect to \\(x\\): \\(\\int_0^2 3\\,dx=6\\). Therefore the value of the double integral is \\(6\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "rectangular-regions"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-02",
+      "prompt": "Evaluate \\(\\int_0^1\\int_0^2 x\\,dy\\,dx\\).",
+      "answer": "Treat \\(x\\) as constant in the inner integral. Then \\(\\int_0^2 x\\,dy=2x\\). Now integrate with respect to \\(x\\): \\(\\int_0^1 2x\\,dx=[x^2]_0^1=1\\). Therefore the integral equals \\(1\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "iterated-integrals"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-03",
+      "prompt": "Evaluate \\(\\int_0^1\\int_0^x y\\,dy\\,dx\\).",
+      "answer": "The inner integral is \\(\\int_0^x y\\,dy=[y^2/2]_0^x=x^2/2\\). Now integrate this over \\(x\\): \\(\\int_0^1 x^2/2\\,dx=(1/2)[x^3/3]_0^1=1/6\\). Therefore the value is \\(1/6\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "triangular-regions"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-04",
+      "prompt": "Set up, but do not evaluate, a double integral for the area of the region \\(0\\le y\\le x\\le 1\\).",
+      "answer": "Area is found by integrating \\(1\\) over the region. The inequalities mean \\(x\\) runs from \\(0\\) to \\(1\\), and for each fixed \\(x\\), \\(y\\) runs from \\(0\\) to \\(x\\). Therefore the area is \\(\\int_0^1\\int_0^x 1\\,dy\\,dx\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "setup"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-05",
+      "prompt": "Reverse the order of integration for \\(\\int_0^1\\int_0^x f(x,y)\\,dy\\,dx\\).",
+      "answer": "The original bounds describe \\(0\\le x\\le1\\) and \\(0\\le y\\le x\\). This is the triangular region where \\(0\\le y\\le1\\) and, for fixed \\(y\\), \\(x\\) runs from \\(y\\) to \\(1\\). Therefore the reversed integral is \\(\\int_0^1\\int_y^1 f(x,y)\\,dx\\,dy\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "change-order"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-06",
+      "prompt": "Evaluate \\(\\int_0^1\\int_0^1 (x+y)\\,dy\\,dx\\).",
+      "answer": "First integrate with respect to \\(y\\): \\(\\int_0^1(x+y)\\,dy=[xy+y^2/2]_0^1=x+1/2\\). Then integrate with respect to \\(x\\): \\(\\int_0^1(x+1/2)\\,dx=[x^2/2+x/2]_0^1=1\\). Therefore the integral equals \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "rectangular-regions"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-07",
+      "prompt": "Use a double integral to find the area inside the circle \\(x^2+y^2\\le 4\\).",
+      "answer": "In polar coordinates, the disk is \\(0\\le r\\le2\\), \\(0\\le\\theta\\le2\\pi\\). Area uses the integrand \\(1\\) and the Jacobian factor \\(r\\), so \\(A=\\int_0^{2\\pi}\\int_0^2 r\\,dr\\,d\\theta\\). The inner integral is \\([r^2/2]_0^2=2\\), so \\(A=\\int_0^{2\\pi}2\\,d\\theta=4\\pi\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "polar-coordinates"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-08",
+      "prompt": "Evaluate \\(\\int_0^2\\int_0^{4-y} 1\\,dx\\,dy\\).",
+      "answer": "The inner integral gives \\(\\int_0^{4-y}1\\,dx=4-y\\). Now integrate with respect to \\(y\\): \\(\\int_0^2(4-y)\\,dy=[4y-y^2/2]_0^2=8-2=6\\). Therefore the integral equals \\(6\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "area"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-09",
+      "prompt": "Evaluate \\(\\int_0^1\\int_0^1 xy\\,dx\\,dy\\).",
+      "answer": "Integrate with respect to \\(x\\) first, treating \\(y\\) as constant: \\(\\int_0^1 xy\\,dx=y[x^2/2]_0^1=y/2\\). Then integrate with respect to \\(y\\): \\(\\int_0^1 y/2\\,dy=[y^2/4]_0^1=1/4\\). Therefore the value is \\(1/4\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "iterated-integrals"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multiple-integrals-10",
+      "prompt": "Set up a double integral in polar coordinates for \\(\\iint_R (x^2+y^2)\\,dA\\), where \\(R\\) is the disk \\(x^2+y^2\\le 9\\).",
+      "answer": "In polar coordinates, \\(x^2+y^2=r^2\\) and \\(dA=r\\,dr\\,d\\theta\\). The disk \\(x^2+y^2\\le9\\) has bounds \\(0\\le r\\le3\\) and \\(0\\le\\theta\\le2\\pi\\). Therefore the integral is \\(\\int_0^{2\\pi}\\int_0^3 r^2\\cdot r\\,dr\\,d\\theta=\\int_0^{2\\pi}\\int_0^3 r^3\\,dr\\,d\\theta\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "multiple-integrals",
+        "polar-coordinates"
+      ]
+    }
+  ]
+}

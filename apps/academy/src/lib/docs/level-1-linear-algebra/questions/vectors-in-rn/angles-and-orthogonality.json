@@ -1,0 +1,54 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "vectors-in-rn",
+  "topicId": "angles-and-orthogonality",
+  "topicTitle": "Angles And Orthogonality",
+  "paperTags": [
+    "vectors-in-rn"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-vectors-in-rn-angles-and-orthogonality-01",
+      "prompt": "Decide whether \\((1,2,2)\\) and \\((2,-1,0)\\) are orthogonal.",
+      "answer": "Vectors are orthogonal when their dot product is zero. Compute\n\\[\n(1,2,2)\\cdot(2,-1,0)=1\\cdot2+2(-1)+2\\cdot0.\n\\]\nThis simplifies to\n\\[\n2-2+0=0.\n\\]\nSince the dot product is zero, the vectors are orthogonal.",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "orthogonality"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-angles-and-orthogonality-02",
+      "prompt": "Find \\(\\cos\\theta\\), where \\(\\theta\\) is the angle between \\(\\mathbf u=(1,0,1)\\) and \\(\\mathbf v=(2,1,0)\\).",
+      "answer": "Use the formula\n\\[\n\\cos\\theta=\\frac{\\mathbf u\\cdot\\mathbf v}{\\|\\mathbf u\\|\\|\\mathbf v\\|}.\n\\]\nCompute the dot product:\n\\[\n\\mathbf u\\cdot\\mathbf v=1\\cdot2+0\\cdot1+1\\cdot0=2.\n\\]\nCompute the norms:\n\\[\n\\|\\mathbf u\\|=\\sqrt{1^2+0^2+1^2}=\\sqrt2,\\qquad \\|\\mathbf v\\|=\\sqrt{2^2+1^2+0^2}=\\sqrt5.\n\\]\nTherefore\n\\[\n\\cos\\theta=\\frac{2}{\\sqrt2\\sqrt5}=\\frac{2}{\\sqrt{10}}.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "vectors-in-rn",
+        "angles"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-angles-and-orthogonality-03",
+      "prompt": "Find all real \\(t\\) such that \\((t,1,2)\\) is orthogonal to \\((3,-4,1)\\).",
+      "answer": "Orthogonality means the dot product is zero. Compute\n\\[\n(t,1,2)\\cdot(3,-4,1)=3t+1(-4)+2(1).\n\\]\nSimplify:\n\\[\n3t-4+2=3t-2.\n\\]\nSet equal to zero:\n\\[\n3t-2=0.\n\\]\nSo\n\\[\n3t=2,\\qquad t=\\frac23.\n\\]",
+      "rating": "***",
+      "paperTags": [
+        "vectors-in-rn",
+        "orthogonality",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-angles-and-orthogonality-04",
+      "prompt": "Show that \\(\\mathbf u=(1,1,0)\\) and \\(\\mathbf v=(1,-1,0)\\) meet at a right angle, then find the angle between them.",
+      "answer": "First compute the dot product:\n\\[\n\\mathbf u\\cdot\\mathbf v=1\\cdot1+1(-1)+0\\cdot0=0.\n\\]\nA zero dot product means the vectors are orthogonal. For non-zero vectors, orthogonal vectors meet at a right angle. Therefore\n\\[\n\\theta=\\frac{\\pi}{2}\\text{ radians}\n\\]\nor \\(90^\\circ\\).",
+      "rating": "***+",
+      "paperTags": [
+        "vectors-in-rn",
+        "orthogonality",
+        "angles"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-systems",
+  "topicId": "inverse-computation",
+  "topicTitle": "Inverse Computation",
+  "paperTags": [
+    "linear-systems"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-01",
+      "prompt": "Find the inverse of \\(\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\).",
+      "answer": "This is a diagonal matrix with non-zero diagonal entries. The inverse has reciprocal diagonal entries. Therefore the inverse is \\(\\begin{pmatrix}1/2&0\\\\0&1/5\\end{pmatrix}\\). Multiplying the original matrix by this inverse gives \\(\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-02",
+      "prompt": "Use the \\(2\\times 2\\) formula to find the inverse of \\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\).",
+      "answer": "For \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), the inverse is (1/(ad - bc))\\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\) if ad - bc is non-zero. Here ad - \\(bc=1\\)*4 - \\(2\\cdot3\\) = -2. Therefore the inverse is (-1/2)\\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}-2&1\\\\3/2&-1/2\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-03",
+      "prompt": "Use the \\(2\\times 2\\) formula to decide whether \\(\\begin{pmatrix}2&6\\\\1&3\\end{pmatrix}\\) has an inverse.",
+      "answer": "Compute ad - \\(bc=2\\)*3 - \\(6\\cdot1\\) = 6 - 6 = 0. The determinant-like denominator in the inverse formula is zero, so the inverse formula is not defined. Therefore the matrix has no inverse.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-04",
+      "prompt": "Set up the augmented matrix used to find the inverse of \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\) by row reduction.",
+      "answer": "To compute an inverse by row reduction, augment A with the identity matrix of the same size. Since A is \\(2\\times 2\\), use \\(I_2\\). The augmented matrix is \\(\\begin{pmatrix}1&2&1&0\\\\3&4&0&1\\end{pmatrix}\\). Row reducing the left block to \\(I_2\\) will turn the right block into \\(A^{-1}\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "augmented-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-05",
+      "prompt": "Complete the inverse computation: \\(\\begin{pmatrix}1&2&1&0\\\\0&-2&-3&1\\end{pmatrix}\\) is obtained while reducing [A | I]. Continue to find \\(A^{-1}\\).",
+      "answer": "Scale \\(\\mathbb R^2\\) by -1/2 to get \\((0,1,3/2,-1/2)\\). Now eliminate the 2 above the pivot using \\(\\mathbb R^1\\) <- \\(\\mathbb R^1\\) - 2R2. This gives \\(\\mathbb R^1\\) = [1, 0, 1 - 3, 0 - (-1)] = \\((1,0,-2,1)\\). The final matrix is \\(\\begin{pmatrix}1&0&-2&1\\\\0&1&3/2&-1/2\\end{pmatrix}\\). Therefore \\(A^{-1}\\) = \\(\\begin{pmatrix}-2&1\\\\3/2&-1/2\\end{pmatrix}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "row-reduction"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-06",
+      "prompt": "Verify that \\(\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\) is its own inverse.",
+      "answer": "Let \\(A=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\). Compute \\(A^2\\) = \\(\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\)\\(\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\). The top-left entry is 1, top-right is 0, bottom-left is 0, and bottom-right is 1. Thus \\(A^2\\) = \\(\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\). Since \\(AA=I\\), \\(A^{-1}\\) = A.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "verification"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-07",
+      "prompt": "Find all real t such that \\(\\begin{pmatrix}t&1\\\\2&1\\end{pmatrix}\\) has an inverse.",
+      "answer": "The matrix has an inverse when ad - bc is non-zero. Here ad - \\(bc=t\\)*1 - \\(1\\cdot2\\) = t - 2. This is non-zero exactly when t != 2. Therefore the matrix is invertible for all real t except \\(t=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-08",
+      "prompt": "Use \\(A^{-1}\\) = \\(\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}\\) to solve Ax = \\(\\begin{pmatrix}3\\\\5\\end{pmatrix}\\).",
+      "answer": "If \\(Ax=b\\), then x = \\(A^{-1}\\)b. Multiply \\(A^{-1}\\) by b: \\(\\begin{pmatrix}1&-2\\\\0&1\\end{pmatrix}\\)\\(\\begin{pmatrix}3\\\\5\\end{pmatrix}\\) = \\(\\begin{pmatrix}1\\cdot 3 + (-2)\\cdot 5\\\\0\\cdot 3 + 1\\cdot 5\\end{pmatrix}\\) = \\(\\begin{pmatrix}-7\\\\5\\end{pmatrix}\\). Therefore x = \\(\\begin{pmatrix}-7\\\\5\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "linear-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-09",
+      "prompt": "A row reduction of [A | I] produces \\(\\begin{pmatrix}1&0&2&-1\\\\0&0&3&4\\end{pmatrix}\\). Explain why A has no inverse.",
+      "answer": "To find \\(A^{-1}\\) by row reduction, the left block must reduce to the identity matrix. Here the left block is \\(\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\), which has a zero row and is not \\(I_2\\). This means A cannot be row reduced to the identity. Therefore A is not invertible and has no inverse.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-inverse-computation-10",
+      "prompt": "A learner tries to find the inverse of a \\(2\\times 3\\) matrix by augmenting it with \\(I_2\\). Diagnose the error.",
+      "answer": "Only square matrices can have two-sided inverses. A \\(2\\times 3\\) matrix is not square, so it cannot have an inverse in the usual sense. The row-reduction method [A | I] for computing \\(A^{-1}\\) requires A to be n by n and uses \\(I_n\\). Therefore augmenting a \\(2\\times 3\\) matrix with \\(I_2\\) is not a valid inverse computation.",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "inverse-computation",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

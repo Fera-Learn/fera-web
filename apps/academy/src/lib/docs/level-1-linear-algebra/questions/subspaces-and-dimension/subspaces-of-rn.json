@@ -1,0 +1,116 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "subspaces-and-dimension",
+  "topicId": "subspaces-of-rn",
+  "topicTitle": "Subspaces Of Rn",
+  "paperTags": [
+    "subspaces-and-dimension"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-01",
+      "prompt": "Decide whether S = {\\((x, y)\\) in \\(\\mathbb R^2\\) : y = 2x} is a subspace of \\(\\mathbb R^2\\).",
+      "answer": "We check the subspace conditions. The zero vector \\((0, 0)\\) is in S because 0 = \\(2\\cdot0\\). If u = \\((a, 2a)\\) and v = \\((b, 2b)\\) are in S, then u + v = \\((a + b, 2a + 2b)\\) = (a + b, 2(a + b)), so u + v is in S. If c is a scalar, then cu = \\((ca, 2ca)\\) = (ca, 2(ca)), so cu is in S. Therefore S is a subspace of \\(\\mathbb R^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-02",
+      "prompt": "Decide whether S = {\\((x, y)\\) in \\(\\mathbb R^2\\) : \\(y=x\\) + 1} is a subspace of \\(\\mathbb R^2\\).",
+      "answer": "A subspace must contain the zero vector. Test \\((0, 0)\\): the condition would require 0 = 0 + 1, which is false. Therefore \\((0, 0)\\) is not in S. Since the zero vector is missing, S is not a subspace of \\(\\mathbb R^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-03",
+      "prompt": "Decide whether S = {\\((x, y, z)\\) in \\(\\mathbb R^3\\) : x + y + \\(z=0\\)} is a subspace of \\(\\mathbb R^3\\).",
+      "answer": "The zero vector satisfies 0 + 0 + 0 = 0, so it is in S. If u and v are in S, then the component sum of u is 0 and the component sum of v is 0. The component sum of u + v is 0 + 0 = 0, so u + v is in S. For a scalar c, the component sum of cu is c times 0, which is 0. Therefore cu is in S. Hence S is a subspace of \\(\\mathbb R^3\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-04",
+      "prompt": "Decide whether S = {\\((x, y)\\) in \\(\\mathbb R^2\\) : x >= 0} is a subspace of \\(\\mathbb R^2\\).",
+      "answer": "A subspace must be closed under scalar multiplication. The vector \\((1, 0)\\) is in S because its first component is non-negative. But multiplying by -1 gives \\((-1, 0)\\), whose first component is negative, so \\((-1, 0)\\) is not in S. Scalar closure fails. Therefore S is not a subspace.",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-05",
+      "prompt": "Decide whether the xy-plane, S = {\\((x, y, z)\\) in \\(\\mathbb R^3\\) : \\(z=0\\)}, is a subspace of \\(\\mathbb R^3\\).",
+      "answer": "The zero vector has \\(z=0\\), so it is in S. If u = \\((a, b, 0)\\) and v = \\((c, d, 0)\\), then u + v = \\((a + c, b + d, 0)\\), which is still in S. For scalar k, ku = \\((ka, kb, 0)\\), which is also in S. Therefore S is a subspace of \\(\\mathbb R^3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-06",
+      "prompt": "Decide whether S = {\\((x, y, z)\\) in \\(\\mathbb R^3\\) : \\(z=1\\)} is a subspace of \\(\\mathbb R^3\\).",
+      "answer": "A subspace must contain the zero vector. The zero vector is \\((0, 0, 0)\\), but it does not satisfy \\(z=1\\). Since the zero vector is not in S, S is not a subspace of \\(\\mathbb R^3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-07",
+      "prompt": "Let \\(S=span\\)(\\((1, 2, 0)\\), \\((0, 1, 3)\\)). Explain why S is a subspace of \\(\\mathbb R^3\\).",
+      "answer": "A span is the set of all linear combinations of its listed vectors. The zero vector is included by using coefficients 0 and 0. The sum of two linear combinations is another linear combination, and a scalar multiple of a linear combination is another linear combination. Therefore S is closed under addition and scalar multiplication. Hence S is a subspace of \\(\\mathbb R^3\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces",
+        "spans"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-08",
+      "prompt": "Show that S = {\\((x, y, z)\\) in \\(\\mathbb R^3\\) : \\(x=0\\) and \\(y=0\\)} is a subspace and describe it geometrically.",
+      "answer": "The set consists of vectors \\((0, 0, z)\\). It contains \\((0, 0, 0)\\). Adding two such vectors gives \\((0, 0, z1 + z2)\\), which is still in the set. Multiplying by a scalar gives \\((0, 0, cz)\\), which is still in the set. Therefore it is a subspace. Geometrically, it is the z-axis in \\(\\mathbb R^3\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces",
+        "geometry"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-09",
+      "prompt": "Decide whether S = {\\((x, y)\\) in \\(\\mathbb R^2\\) : \\(xy=0\\)} is a subspace of \\(\\mathbb R^2\\).",
+      "answer": "The set is the union of the coordinate axes. It contains \\((1, 0)\\) because \\(1\\cdot0\\) = 0, and it contains \\((0, 1)\\) because \\(0\\cdot1\\) = 0. But their sum is \\((1, 1)\\), and \\(1\\cdot1\\) is not 0. Therefore S is not closed under addition. So S is not a subspace.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces",
+        "closure"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-subspaces-of-rn-10",
+      "prompt": "A learner says any line in \\(\\mathbb R^2\\) is a subspace. Diagnose the error.",
+      "answer": "Only lines through the origin are subspaces of \\(\\mathbb R^2\\). A line such as \\(y=x\\) + 1 does not contain the zero vector because \\((0, 0)\\) does not satisfy 0 = 1. Since every subspace must contain the zero vector, not every line is a subspace. The learner forgot the through-the-origin requirement.",
+      "rating": "***+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "subspaces",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "matrix-algebra",
+  "topicId": "inverse-matrices",
+  "topicTitle": "Inverse Matrices",
+  "paperTags": [
+    "matrix-algebra"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-01",
+      "prompt": "State what it means for a square matrix A to have inverse \\(A^{-1}\\).",
+      "answer": "A square matrix A has inverse \\(A^{-1}\\) when multiplying them in either order gives the identity matrix. That means AA^{-1} = I and \\(A^{-1}\\)\\(A=I\\). The inverse reverses the linear effect of A.",
+      "rating": "*",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-02",
+      "prompt": "Verify that \\(B=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\) is the inverse of \\(A=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\).",
+      "answer": "Here A is the \\(2\\times 2\\) identity matrix and B is also the \\(2\\times 2\\) identity matrix. Multiplying identity matrices gives the identity matrix: \\(AB\\) = \\(I_2\\) and \\(BA\\) = \\(I_2\\). Therefore B is the inverse of A. In fact, the identity matrix is its own inverse.",
+      "rating": "*+",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "identity-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-03",
+      "prompt": "Use the \\(2\\times 2\\) inverse formula to find the inverse of \\(A=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\).",
+      "answer": "For a diagonal matrix, the inverse has reciprocal diagonal entries when the diagonal entries are non-zero. Since A scales the first coordinate by 2 and the second by 3, the inverse scales by 1/2 and 1/3. Therefore \\(A^{-1}\\) = \\(\\begin{pmatrix}1/2&0\\\\0&1/3\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "diagonal-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-04",
+      "prompt": "Find the inverse of \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\).",
+      "answer": "For \\(A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), the inverse is (1/(ad - bc))\\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\) when ad - bc is non-zero. Here ad - \\(bc=1\\)*4 - \\(2\\cdot3\\) = 4 - 6 = -2. Therefore \\(A^{-1}\\) = (-1/2)\\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}-2&1\\\\3/2&-1/2\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-05",
+      "prompt": "Decide whether \\(A=\\begin{pmatrix}2&4\\\\1&2\\end{pmatrix}\\) is invertible.",
+      "answer": "For a \\(2\\times 2\\) matrix \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), invertibility requires ad - bc not equal to 0. Here ad - \\(bc=2\\)*2 - \\(4\\cdot1\\) = 4 - 4 = 0. Since the determinant is 0, A is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-06",
+      "prompt": "Verify that \\(\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\) and \\(\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\) are inverses.",
+      "answer": "Multiply the matrices. First product: \\(\\begin{pmatrix}2\\cdot 1 + 1\\cdot (-1)&2\\cdot (-1) + 1\\cdot 2\\\\1\\cdot 1 + 1\\cdot (-1)&1\\cdot (-1) + 1\\cdot 2\\end{pmatrix}\\) = \\(\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\). Since both matrices are square and this product is \\(I_2\\), checking the reverse product also gives \\(I_2\\): \\(\\begin{pmatrix}1\\cdot 2 + (-1)\\cdot 1&1\\cdot 1 + (-1)\\cdot 1\\\\(-1)\\cdot 2 + 2\\cdot 1&(-1)\\cdot 1 + 2\\cdot 1\\end{pmatrix}\\) = \\(\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\\). Therefore the matrices are inverses.",
+      "rating": "***+",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "verification"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-07",
+      "prompt": "Solve \\(Ax=b\\) using \\(A^{-1}\\), where \\(A^{-1}\\) = \\(\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\) and b = \\(\\begin{pmatrix}3\\\\1\\end{pmatrix}\\).",
+      "answer": "If \\(Ax=b\\) and A is invertible, then x = \\(A^{-1}\\)b. Multiply \\(A^{-1}\\) by b: \\(\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\)\\(\\begin{pmatrix}3\\\\1\\end{pmatrix}\\) = \\(\\begin{pmatrix}1\\cdot 3 + (-1)\\cdot 1\\\\(-1)\\cdot 3 + 2\\cdot 1\\end{pmatrix}\\) = \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\). Therefore x = \\(\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "linear-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-08",
+      "prompt": "Find all real t such that \\(A=\\begin{pmatrix}t&1\\\\4&2\\end{pmatrix}\\) is not invertible.",
+      "answer": "A \\(2\\times 2\\) matrix is not invertible when ad - \\(bc=0\\). Here ad - \\(bc=t\\)*2 - \\(1\\cdot4\\) = 2t - 4. Set this equal to 0: 2t - 4 = 0. Then 2t = 4, so \\(t=2\\). Therefore A is not invertible only when \\(t=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-09",
+      "prompt": "A student says every non-zero matrix has an inverse. Disprove this using \\(A=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\).",
+      "answer": "The matrix A is not the zero matrix because it has non-zero entries. However, its determinant is \\(1\\cdot4\\) - \\(2\\cdot2\\) = 4 - 4 = 0. A \\(2\\times 2\\) matrix with determinant 0 is not invertible. Therefore this non-zero matrix does not have an inverse, so the student's claim is false.",
+      "rating": "****",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "error-diagnosis"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-inverse-matrices-10",
+      "prompt": "If A and B are invertible square matrices of the same size, explain why (\\(AB\\))^{-1} = \\(B^{-1}\\)\\(A^{-1}\\) rather than \\(A^{-1}\\)\\(B^{-1}\\).",
+      "answer": "To undo the product \\(AB\\), operations must be reversed. Check \\(B^{-1}\\)\\(A^{-1}\\): (\\(AB\\))(\\(B^{-1}\\)\\(A^{-1}\\)) = A(BB^{-1})\\(A^{-1}\\) = AIA^{-1} = AA^{-1} = I. Also (\\(B^{-1}\\)\\(A^{-1}\\))(\\(AB\\)) = \\(B^{-1}\\)(\\(A^{-1}\\)A)\\(B=B^{-1}\\)IB = \\(B^{-1}\\)\\(B=I\\). Therefore \\(B^{-1}\\)\\(A^{-1}\\) is the inverse of \\(AB\\). The order must reverse because matrix multiplication is not commutative.",
+      "rating": "*****",
+      "paperTags": [
+        "matrix-algebra",
+        "inverse-matrices",
+        "matrix-products"
+      ]
+    }
+  ]
+}

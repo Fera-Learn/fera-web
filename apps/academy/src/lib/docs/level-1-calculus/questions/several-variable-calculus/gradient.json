@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "gradient",
+  "topicTitle": "Gradient",
+  "paperTags": [
+    "several-variable-calculus",
+    "gradient"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-gradient-01",
+      "prompt": "Find \\(\\nabla f\\) for \\(f(x,y)=x^2+3y^2\\).",
+      "answer": "The gradient is the vector of first partial derivatives: \\(\\nabla f=(f_x,f_y)\\). Differentiate with respect to \\(x\\): \\(f_x=2x\\). Differentiate with respect to \\(y\\): \\(f_y=6y\\). Therefore \\(\\nabla f=(2x,6y)\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "partial-derivatives"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-02",
+      "prompt": "Evaluate \\(\\nabla f(1,2)\\) for \\(f(x,y)=x^2y+y\\).",
+      "answer": "First find the gradient. We have \\(f_x=2xy\\) and \\(f_y=x^2+1\\). Substitute \\((1,2)\\): \\(f_x(1,2)=2(1)(2)=4\\) and \\(f_y(1,2)=1^2+1=2\\). Therefore \\(\\nabla f(1,2)=(4,2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-03",
+      "prompt": "Find the directional derivative of \\(f(x,y)=x^2+y^2\\) at \\((1,2)\\) in the unit direction \\(\\mathbf{u}=(3/5,4/5)\\).",
+      "answer": "The directional derivative is \\(D_{\\mathbf{u}}f=\\nabla f\\cdot \\mathbf{u}\\). Since \\(\\nabla f=(2x,2y)\\), at \\((1,2)\\) we have \\(\\nabla f(1,2)=(2,4)\\). Dotting with \\((3/5,4/5)\\) gives \\(2(3/5)+4(4/5)=6/5+16/5=22/5\\). Therefore the directional derivative is \\(22/5\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "directional-derivative"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-04",
+      "prompt": "For \\(f(x,y)=xy\\), find the direction of greatest increase at \\((2,3)\\).",
+      "answer": "The direction of greatest increase is the direction of the gradient. For \\(f(x,y)=xy\\), \\(\\nabla f=(y,x)\\). At \\((2,3)\\), \\(\\nabla f=(3,2)\\). Therefore the direction of greatest increase is along \\((3,2)\\), or as a unit vector \\((3/\\sqrt{13},2/\\sqrt{13})\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "greatest-increase"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-05",
+      "prompt": "Find the maximum rate of change of \\(f(x,y)=x^2-y^2\\) at \\((3,4)\\).",
+      "answer": "The maximum rate of change is the magnitude of the gradient. We have \\(\\nabla f=(2x,-2y)\\). At \\((3,4)\\), \\(\\nabla f=(6,-8)\\). Its magnitude is \\(\\sqrt{6^2+(-8)^2}=\\sqrt{36+64}=10\\). Therefore the maximum rate of change is \\(10\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "maximum-rate-of-change"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-06",
+      "prompt": "For \\(f(x,y)=x^2+y^2\\), find a normal vector to the level curve through \\((1,1)\\).",
+      "answer": "The gradient is perpendicular to level curves. Since \\(\\nabla f=(2x,2y)\\), at \\((1,1)\\) we get \\(\\nabla f(1,1)=(2,2)\\). Therefore a normal vector to the level curve through \\((1,1)\\) is \\((2,2)\\), equivalently \\((1,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "level-curves"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-07",
+      "prompt": "Find a tangent line to the level curve \\(x^2+y^2=5\\) at \\((1,2)\\).",
+      "answer": "Use \\(f(x,y)=x^2+y^2\\). The gradient \\(\\nabla f=(2x,2y)\\) is normal to the level curve, so at \\((1,2)\\) a normal vector is \\((2,4)\\). The tangent line satisfies \\((2,4)\\cdot (x-1,y-2)=0\\). Hence \\(2(x-1)+4(y-2)=0\\), or \\(x+2y=5\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "tangent-line"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-08",
+      "prompt": "For \\(f(x,y,z)=x^2+yz\\), find \\(\\nabla f\\).",
+      "answer": "For three variables, the gradient is \\((f_x,f_y,f_z)\\). Treating the other variables as constants, \\(f_x=2x\\), \\(f_y=z\\), and \\(f_z=y\\). Therefore \\(\\nabla f=(2x,z,y)\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "three-variables"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-09",
+      "prompt": "Find the directional derivative of \\(f(x,y)=e^x\\cos y\\) at \\((0,0)\\) in the direction of \\(\\mathbf{v}=(1,1)\\).",
+      "answer": "First convert \\(\\mathbf{v}\\) to a unit vector: \\(\\mathbf{u}=(1/\\sqrt{2},1/\\sqrt{2})\\). The gradient is \\(\\nabla f=(e^x\\cos y,-e^x\\sin y)\\). At \\((0,0)\\), this is \\((1,0)\\). The directional derivative is \\((1,0)\\cdot(1/\\sqrt{2},1/\\sqrt{2})=1/\\sqrt{2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "directional-derivative"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-gradient-10",
+      "prompt": "At a point \\((a,b)\\), \\(\\nabla f(a,b)=(0,0)\\). What is the directional derivative of \\(f\\) at \\((a,b)\\) in any unit direction \\(\\mathbf{u}\\)?",
+      "answer": "The directional derivative in a unit direction \\(\\mathbf{u}\\) is \\(D_{\\mathbf{u}}f=\\nabla f(a,b)\\cdot \\mathbf{u}\\). Since \\(\\nabla f(a,b)=(0,0)\\), the dot product with any unit vector is \\((0,0)\\cdot \\mathbf{u}=0\\). Therefore every directional derivative at that point is \\(0\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "gradient",
+        "directional-derivative"
+      ]
+    }
+  ]
+}

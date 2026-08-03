@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "change-of-coordinates",
+  "topicTitle": "Change Of Coordinates",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-01",
+      "prompt": "State the similarity formula for changing the matrix of a linear map from basis B to basis C.",
+      "answer": "If A is the matrix of T in basis B and P converts C-coordinates to B-coordinates, then the matrix in basis C is \\(P^{-1}\\)AP. The rightmost P converts the input to B-coordinates, A applies the map, and \\(P^{-1}\\) converts the output back to C-coordinates.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-02",
+      "prompt": "Let \\(A=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\) and \\(P=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\). Given \\(P^{-1}\\) = \\(\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}\\), compute \\(P^{-1}\\)AP.",
+      "answer": "First compute AP = \\(\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\)\\(\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}2&2\\\\0&3\\end{pmatrix}\\). Now multiply by \\(P^{-1}\\): \\(\\begin{pmatrix}1&-1\\\\0&1\\end{pmatrix}\\)\\(\\begin{pmatrix}2&2\\\\0&3\\end{pmatrix}\\) = \\(\\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix}\\). Therefore \\(P^{-1}\\)AP = \\(\\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-03",
+      "prompt": "Why does \\(P^{-1}\\)AP have P on the right and \\(P^{-1}\\) on the left?",
+      "answer": "Matrix products act on coordinate columns from right to left. The rightmost P first converts the input coordinates from the new basis to the old basis. Then A applies the old-basis matrix. Finally \\(P^{-1}\\) converts the output back to the new basis. Therefore the correct order is \\(P^{-1}\\)AP.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-04",
+      "prompt": "Let \\(A=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\\) and \\(P=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\\). Given \\(P^{-1}\\) = \\(\\begin{pmatrix}1&0\\\\-1&1\\end{pmatrix}\\), compute \\(P^{-1}\\)AP.",
+      "answer": "First compute AP = \\(\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix}\\)\\(\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}3&2\\\\1&1\\end{pmatrix}\\). Now compute \\(P^{-1}\\)AP = \\(\\begin{pmatrix}1&0\\\\-1&1\\end{pmatrix}\\)\\(\\begin{pmatrix}3&2\\\\1&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}3&2\\\\-2&-1\\end{pmatrix}\\). Therefore the changed-coordinate matrix is \\(\\begin{pmatrix}3&2\\\\-2&-1\\end{pmatrix}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-05",
+      "prompt": "If two matrices are similar, what do they represent geometrically or algebraically?",
+      "answer": "Similar matrices represent the same linear map written in different bases. The underlying transformation is unchanged; only the coordinate system used to describe inputs and outputs has changed.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-06",
+      "prompt": "Show that similar matrices A and \\(P^{-1}\\)AP have the same determinant.",
+      "answer": "Use the product rule for determinants. \\(\\det(AP)\\) = \\(\\det()\\)\\(\\det(A)\\)\\(\\det(P)\\). Since \\(\\det()\\) = 1/\\(\\det(P)\\), this becomes (1/\\(\\det(P)\\))\\(\\det(A)\\)\\(\\det(P)\\) = \\(\\det(A)\\). Therefore similar matrices have the same determinant.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "determinants"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-07",
+      "prompt": "If [v]_C = \\((2,1)\\) and \\(P_{B\\leftarrowC}\\) = \\(\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\), find [v]_B.",
+      "answer": "The matrix \\(P_{B\\leftarrowC}\\) converts C-coordinates to B-coordinates. Compute [v]_B = \\(P_{B\\leftarrowC}\\)[v]_C = \\(\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\)\\((2,1)\\). The result is \\((1\\cdot 2 + 1\\cdot 1, 0\\cdot 2 + 1\\cdot 1)\\) = \\((3,1)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-08",
+      "prompt": "If [T]_B = \\(\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\) and \\(P_{B\\leftarrowC}\\) = \\(I_2\\), find [T]_C.",
+      "answer": "If \\(P_{B\\leftarrowC}\\) = \\(I_2\\), then the two bases are the same for coordinate conversion. The similarity formula gives [T]_C = \\(I_2\\)^{-1}[T]_B \\(I_2\\) = [T]_B. Therefore [T]_C = \\(\\begin{pmatrix}2&0\\\\0&5\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "identity-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-09",
+      "prompt": "A matrix A has trace 4. If \\(B=P^{-1}\\)AP, what is the trace of B?",
+      "answer": "Similar matrices have the same trace. Since \\(B=P^{-1}\\)AP is similar to A and \\(\\operatorname{tr}(A)\\) = 4, \\(\\operatorname{tr}(B)\\) = 4.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "similarity",
+        "trace"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-coordinates-10",
+      "prompt": "A learner writes the changed-coordinate matrix as PAP^{-1}. Diagnose the error.",
+      "answer": "The order depends on what P converts. If P converts new-basis coordinates to old-basis coordinates, then the correct formula is \\(P^{-1}\\)AP. The rightmost matrix must first convert the input into the coordinate system where A applies, and the leftmost matrix converts the output back. Writing PAP^{-1} reverses the conversion path and generally gives a different matrix.",
+      "rating": "****",
+      "paperTags": [
+        "linear-maps",
+        "change-of-coordinates",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

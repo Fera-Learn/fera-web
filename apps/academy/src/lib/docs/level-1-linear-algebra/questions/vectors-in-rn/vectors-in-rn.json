@@ -1,0 +1,48 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "vectors-in-rn",
+  "topicId": "vectors-in-rn",
+  "topicTitle": "Vectors In Rn",
+  "paperTags": [
+    "vectors-in-rn"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-vectors-in-rn-vectors-in-rn-01",
+      "prompt": "Write the vector with components \\(3\\), \\(-2\\), and \\(5\\) as a column vector in \\(\\mathbb R^3\\).",
+      "answer": "We are writing the listed components in order as a vector in \\(\\mathbb R^3\\). A column vector places each component in its own row:\n\\[\n\\mathbf v=\\begin{pmatrix}3\\\\-2\\\\5\\end{pmatrix}.\n\\]\nThe vector has three real components, so \\(\\mathbf v\\in\\mathbb R^3\\).",
+      "rating": "*",
+      "paperTags": [
+        "vectors-in-rn"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vectors-in-rn-02",
+      "prompt": "For \\(\\mathbf u=(4,-1,7)\\in\\mathbb R^3\\), identify the second component and state the dimension of the ambient space.",
+      "answer": "The vector is ordered as \\((u_1,u_2,u_3)=(4,-1,7)\\). Therefore the second component is\n\\[\nu_2=-1.\n\\]\nThere are three components, so the ambient space is \\(\\mathbb R^3\\), which has dimension \\(3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "vectors-in-rn"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vectors-in-rn-03",
+      "prompt": "Let \\(\\mathbf a=(2,0,-3,1)\\). Decide whether \\(\\mathbf a\\) belongs to \\(\\mathbb R^3\\), \\(\\mathbb R^4\\), or both.",
+      "answer": "We count the number of components. The vector \\(\\mathbf a=(2,0,-3,1)\\) has four real components. Therefore\n\\[\n\\mathbf a\\in\\mathbb R^4.\n\\]\nIt is not an element of \\(\\mathbb R^3\\), because vectors in \\(\\mathbb R^3\\) have exactly three components. So \\(\\mathbf a\\) belongs to \\(\\mathbb R^4\\) only.",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-vectors-in-rn-04",
+      "prompt": "Find all real \\(t\\) such that \\((t,2t-1,5)=(3,s,5)\\) for some real \\(s\\), and then find \\(s\\).",
+      "answer": "Two vectors in \\(\\mathbb R^3\\) are equal exactly when corresponding components are equal. Compare the first components:\n\\[\nt=3.\n\\]\nNow compare the second components using \\(t=3\\):\n\\[\ns=2t-1=2(3)-1=5.\n\\]\nThe third components are both \\(5\\), so they already match. Therefore \\(t=3\\) and \\(s=5\\).",
+      "rating": "**+",
+      "paperTags": [
+        "vectors-in-rn"
+      ]
+    }
+  ]
+}

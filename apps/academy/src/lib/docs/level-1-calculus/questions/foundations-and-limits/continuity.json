@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "foundations-and-limits",
+  "topicId": "continuity",
+  "topicTitle": "Continuity",
+  "paperTags": [
+    "foundations-and-limits"
+  ],
+  "questions": [
+    {
+      "id": "calculus-foundations-and-limits-continuity-01",
+      "prompt": "Is \\(f(x)=x^2+1\\) continuous at \\(x=2\\)?",
+      "answer": "A polynomial is continuous at every real number. Directly, \\(f(2)=2^2+1=5\\), and \\(\\lim_{x\\to2}(x^2+1)=5\\) by substitution. Since the limit exists and equals the function value, \\(f\\) is continuous at \\(x=2\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-02",
+      "prompt": "Is \\(g(x)=\\frac{1}{x-3}\\) continuous at \\(x=3\\)?",
+      "answer": "Continuity at \\(x=3\\) requires \\(g(3)\\) to exist. But \\(g(3)=\\frac{1}{3-3}\\), which would require division by zero. Therefore \\(g(3)\\) is undefined, so \\(g\\) is not continuous at \\(x=3\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "undefined-values"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-03",
+      "prompt": "Determine whether \\(f(x)=\\frac{x^2-1}{x-1}\\) is continuous at \\(x=1\\).",
+      "answer": "The original formula has denominator \\(x-1\\), so at \\(x=1\\) the function is undefined. Although \\(x^2-1=(x-1)(x+1)\\) and the expression equals \\(x+1\\) when \\(x\\ne1\\), continuity also requires the actual value \\(f(1)\\) to exist. Since \\(f(1)\\) does not exist, \\(f\\) is not continuous at \\(x=1\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "removable-discontinuity"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-04",
+      "prompt": "Let \\(f(x)=x+2\\) for \\(x<1\\), and \\(f(x)=4\\) for \\(x\\ge1\\). Is \\(f\\) continuous at \\(x=1\\)?",
+      "answer": "Check the left-hand limit, right-hand limit, and value. From the left, \\(x+2\\to1+2=3\\). From the right, the function is constantly \\(4\\), so the right-hand limit is \\(4\\). Also \\(f(1)=4\\). Since the one-sided limits are not equal, the two-sided limit does not exist. Therefore \\(f\\) is not continuous at \\(x=1\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "piecewise-functions"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-05",
+      "prompt": "Find \\(k\\) so that \\(f(x)=kx+1\\) for \\(x<2\\), and \\(f(x)=7\\) for \\(x\\ge2\\), is continuous at \\(x=2\\).",
+      "answer": "Continuity at \\(x=2\\) requires the left-hand limit to equal the value from the right-hand branch. The left-hand limit is \\(2k+1\\). Since \\(x=2\\) uses the second branch, \\(f(2)=7\\). Set \\(2k+1=7\\), so \\(2k=6\\) and \\(k=3\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "parameters"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-06",
+      "prompt": "Define \\(f(x)=\\frac{x^2-4}{x-2}\\) for \\(x\\ne2\\). What value should be assigned to \\(f(2)\\) to make \\(f\\) continuous at \\(x=2\\)?",
+      "answer": "To make the function continuous, the assigned value must equal the limit as \\(x\\to2\\). Factor \\(x^2-4=(x-2)(x+2)\\). For \\(x\\ne2\\), the function equals \\(x+2\\). Therefore \\(\\lim_{x\\to2}f(x)=2+2=4\\). Assigning \\(f(2)=4\\) makes the limit and function value agree.",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "removable-discontinuity"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-07",
+      "prompt": "For \\(f(x)=\\sqrt{x-5}\\), state where \\(f\\) is continuous.",
+      "answer": "The square root is defined when \\(x-5\\ge0\\), so the domain is \\([5,\\infty)\\). The square root function is continuous on its domain, and \\(x-5\\) is a continuous inside function. Therefore \\(f(x)=\\sqrt{x-5}\\) is continuous for every \\(x\\ge5\\), that is on \\([5,\\infty)\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-08",
+      "prompt": "Let \\(f(x)=x^2\\) for \\(x\\le0\\), and \\(f(x)=ax+b\\) for \\(x>0\\). If \\(f\\) is continuous at \\(0\\) and \\(f(1)=3\\), find \\(a\\) and \\(b\\).",
+      "answer": "Continuity at \\(0\\) requires the right-hand limit to equal \\(f(0)\\). Since \\(f(0)=0^2=0\\), the right-hand formula must approach \\(b\\) at \\(0\\), so \\(b=0\\). The condition \\(f(1)=3\\) uses the second branch: \\(a(1)+b=3\\). With \\(b=0\\), this gives \\(a=3\\). Therefore \\(a=3\\) and \\(b=0\\).",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "parameters"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-09",
+      "prompt": "Classify the discontinuity of \\(f(x)=\\frac{x+1}{x^2-1}\\) at \\(x=1\\) and at \\(x=-1\\).",
+      "answer": "Factor the denominator: \\(x^2-1=(x-1)(x+1)\\). For \\(x\\ne-1\\), the factor \\(x+1\\) can cancel, leaving \\(\\frac{1}{x-1}\\). At \\(x=-1\\), the cancelled factor creates a removable discontinuity because the simplified expression has finite value \\(\\frac{1}{-2}\\). At \\(x=1\\), the remaining denominator \\(x-1\\) is zero and the numerator does not cancel it, so there is an infinite discontinuity, or vertical asymptote.",
+      "rating": "****",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "classification"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-continuity-10",
+      "prompt": "Let \\(f(x)=\\frac{x^2-ax}{x-a}\\) for \\(x\\ne a\\), where \\(a\\ne0\\). What value of \\(f(a)\\) makes \\(f\\) continuous at \\(x=a\\)?",
+      "answer": "Factor the numerator: \\(x^2-ax=x(x-a)\\). For \\(x\\ne a\\), the function simplifies to \\(f(x)=x\\). Therefore \\(\\lim_{x\\to a}f(x)=\\lim_{x\\to a}x=a\\). To make the function continuous at \\(x=a\\), the defined value must equal this limit. Hence assign \\(f(a)=a\\).",
+      "rating": "****",
+      "paperTags": [
+        "foundations-and-limits",
+        "continuity",
+        "parameters"
+      ]
+    }
+  ]
+}

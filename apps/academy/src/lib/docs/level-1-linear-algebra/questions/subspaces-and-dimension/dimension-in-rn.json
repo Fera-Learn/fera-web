@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "subspaces-and-dimension",
+  "topicId": "dimension-in-rn",
+  "topicTitle": "Dimension In Rn",
+  "paperTags": [
+    "subspaces-and-dimension"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-01",
+      "prompt": "What is the dimension of \\(\\mathbb R^4\\)?",
+      "answer": "The standard basis of \\(\\mathbb R^4\\) has four vectors: \\((1,0,0,0)\\), \\((0,1,0,0)\\), \\((0,0,1,0)\\), and \\((0,0,0,1)\\). The dimension is the number of vectors in a basis. Therefore \\(\\dim(V)\\) = 4.",
+      "rating": "*",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-02",
+      "prompt": "What is the dimension of the line span(\\((2, 4, 6)\\)) in \\(\\mathbb R^3\\)?",
+      "answer": "The vector \\((2, 4, 6)\\) is non-zero, so it forms a basis for its span. A basis with one vector means the dimension is 1. Therefore the line has dimension 1.",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-03",
+      "prompt": "What is the dimension of the xy-plane in \\(\\mathbb R^3\\)?",
+      "answer": "The xy-plane consists of all vectors \\((x, y, 0)\\). A basis is {\\((1, 0, 0)\\), \\((0, 1, 0)\\)}. This basis has two vectors, so the dimension of the xy-plane is 2.",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "planes"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-04",
+      "prompt": "Find the dimension of the subspace S = {\\((x, y, z)\\) in \\(\\mathbb R^3\\) : x + y + \\(z=0\\)}.",
+      "answer": "Solve x = -y - z. Let \\(y=s\\) and \\(z=t\\). Then every vector in S has the form s(-1, 1, 0) + t(-1, 0, 1). These two spanning vectors are independent, so they form a basis. Therefore \\(\\dim(S)\\) = 2.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-05",
+      "prompt": "Find the dimension of span(\\((1, 0, 0)\\), \\((0, 1, 0)\\), \\((1, 1, 0)\\)).",
+      "answer": "The third vector is \\((1, 1, 0)\\) = \\((1, 0, 0)\\) + \\((0, 1, 0)\\), so it is redundant. The first two vectors are independent and span the same subspace. Therefore a basis has two vectors, and the dimension is 2.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "spans"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-06",
+      "prompt": "Find the dimension of span(\\((1, 2)\\), \\((2, 4)\\), \\((3, 6)\\)) in \\(\\mathbb R^2\\).",
+      "answer": "All three vectors are multiples of \\((1, 2)\\): \\((2, 4)\\) = 2\\((1, 2)\\) and \\((3, 6)\\) = 3\\((1, 2)\\). Therefore the span is the line through \\((1, 2)\\). A line through the origin has dimension 1. So the dimension is 1.",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "dependent-vectors"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-07",
+      "prompt": "A subspace of \\(\\mathbb R^5\\) has a basis with three vectors. What is its dimension?",
+      "answer": "The dimension of a subspace is the number of vectors in any basis for that subspace. Since the given basis has three vectors, the dimension is 3.",
+      "rating": "*+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-08",
+      "prompt": "Can a subspace of \\(\\mathbb R^3\\) have dimension 4? Explain.",
+      "answer": "No. A subspace of \\(\\mathbb R^3\\) cannot have dimension greater than \\(\\mathbb R^3\\) itself. Since \\(\\dim(V)\\) = 3, every subspace of \\(\\mathbb R^3\\) has dimension 0, 1, 2, or 3. Therefore dimension 4 is impossible.",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "subspaces"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-09",
+      "prompt": "Find the dimension of the zero subspace {0} in \\(\\mathbb R^n\\).",
+      "answer": "The zero subspace contains only the zero vector. A basis cannot include the zero vector, so the basis of the zero subspace is the empty set. The empty basis has 0 vectors. Therefore \\(\\dim({0})\\) = 0.",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "zero-subspace"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-dimension-in-rn-10",
+      "prompt": "A learner says the dimension of a subspace is the number of vectors used to describe it. Diagnose the error using span(\\((1,0)\\), \\((0,1)\\), \\((1,1)\\)).",
+      "answer": "The description span(\\((1,0)\\), \\((0,1)\\), \\((1,1)\\)) uses three vectors, but the third vector is redundant because \\((1,1)\\) = \\((1,0)\\) + \\((0,1)\\). The span is all of \\(\\mathbb R^2\\), whose dimension is 2. Dimension counts vectors in a basis, not necessarily vectors in a spanning description.",
+      "rating": "****",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "dimension",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

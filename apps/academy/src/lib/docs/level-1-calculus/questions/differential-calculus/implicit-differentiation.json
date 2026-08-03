@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-calculus",
+  "topicId": "implicit-differentiation",
+  "topicTitle": "Implicit Differentiation",
+  "paperTags": [
+    "differential-calculus"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-01",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(x^2+y^2=25\\).",
+      "answer": "Differentiate both sides with respect to \\(x\\), treating \\(y\\) as a function of \\(x\\). The derivative of \\(x^2\\) is \\(2x\\), and the derivative of \\(y^2\\) is \\(2y\\frac{dy}{dx}\\). Thus \\(2x+2y\\frac{dy}{dx}=0\\). Solving gives \\(2y\\frac{dy}{dx}=-2x\\), so \\(\\frac{dy}{dx}=-\\frac{x}{y}\\), where \\(y\\ne0\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "circles"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-02",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(xy=6\\).",
+      "answer": "Differentiate both sides with respect to \\(x\\). Use the product rule on \\(xy\\): \\(\\frac{d}{dx}(xy)=x\\frac{dy}{dx}+y\\). The derivative of \\(6\\) is \\(0\\). Therefore \\(x\\frac{dy}{dx}+y=0\\). Solving gives \\(x\\frac{dy}{dx}=-y\\), so \\(\\frac{dy}{dx}=-\\frac{y}{x}\\), with \\(x\\ne0\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "product-rule"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-03",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(x^2+xy+y^2=7\\).",
+      "answer": "Differentiate term by term. The derivative of \\(x^2\\) is \\(2x\\). For \\(xy\\), use the product rule: \\(x\\frac{dy}{dx}+y\\). For \\(y^2\\), use the chain rule: \\(2y\\frac{dy}{dx}\\). Thus \\(2x+x\\frac{dy}{dx}+y+2y\\frac{dy}{dx}=0\\). Collect derivative terms: \\((x+2y)\\frac{dy}{dx}=-(2x+y)\\). Therefore \\(\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "collecting-terms"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-04",
+      "prompt": "Find the slope of the tangent to \\(x^2+y^2=10\\) at the point \\((1,3)\\).",
+      "answer": "First differentiate implicitly: \\(2x+2y\\frac{dy}{dx}=0\\). Solve for the derivative: \\(\\frac{dy}{dx}=-\\frac{x}{y}\\). At \\((1,3)\\), substitute \\(x=1\\) and \\(y=3\\): \\(\\frac{dy}{dx}=-\\frac13\\). Therefore the tangent slope is \\(-\\frac13\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "tangent-slope"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-05",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(y^3+x=4\\).",
+      "answer": "Differentiate both sides. The derivative of \\(y^3\\) is \\(3y^2\\frac{dy}{dx}\\), and the derivative of \\(x\\) is \\(1\\). The derivative of \\(4\\) is \\(0\\). Thus \\(3y^2\\frac{dy}{dx}+1=0\\). Solving gives \\(3y^2\\frac{dy}{dx}=-1\\), so \\(\\frac{dy}{dx}=-\\frac{1}{3y^2}\\), where \\(y\\ne0\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-06",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(\\sin y=x\\).",
+      "answer": "Differentiate both sides with respect to \\(x\\). The derivative of \\(\\sin y\\) is \\(\\cos y\\frac{dy}{dx}\\) by the chain rule. The derivative of \\(x\\) is \\(1\\). Therefore \\(\\cos y\\frac{dy}{dx}=1\\). Solving gives \\(\\frac{dy}{dx}=\\frac{1}{\\cos y}\\), where \\(\\cos y\\ne0\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "trigonometric-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-07",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(x^3+y^3=3xy\\).",
+      "answer": "Differentiate both sides. The left side gives \\(3x^2+3y^2\\frac{dy}{dx}\\). For the right side, use the product rule on \\(3xy\\): \\(3(x\\frac{dy}{dx}+y)\\). Thus \\(3x^2+3y^2\\frac{dy}{dx}=3x\\frac{dy}{dx}+3y\\). Divide by \\(3\\): \\(x^2+y^2\\frac{dy}{dx}=x\\frac{dy}{dx}+y\\). Collect terms: \\((y^2-x)\\frac{dy}{dx}=y-x^2\\). Hence \\(\\frac{dy}{dx}=\\frac{y-x^2}{y^2-x}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "product-rule"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-08",
+      "prompt": "Find the equation of the tangent line to \\(x^2+y^2=5\\) at \\((1,2)\\).",
+      "answer": "Differentiate implicitly: \\(2x+2y\\frac{dy}{dx}=0\\), so \\(\\frac{dy}{dx}=-\\frac{x}{y}\\). At \\((1,2)\\), the slope is \\(-\\frac12\\). Use point-slope form with point \\((1,2)\\): \\(y-2=-\\frac12(x-1)\\). This is the tangent line equation.",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "tangent-lines"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-09",
+      "prompt": "Find \\(\\frac{dy}{dx}\\) if \\(e^y+x^2=5\\).",
+      "answer": "Differentiate both sides. The derivative of \\(e^y\\) is \\(e^y\\frac{dy}{dx}\\), and the derivative of \\(x^2\\) is \\(2x\\). The derivative of \\(5\\) is \\(0\\). Thus \\(e^y\\frac{dy}{dx}+2x=0\\). Solving gives \\(\\frac{dy}{dx}=-\\frac{2x}{e^y}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "exponential-functions"
+      ]
+    },
+    {
+      "id": "calculus-differential-calculus-implicit-differentiation-10",
+      "prompt": "For \\(x^2+xy+y^2=3\\), find \\(\\frac{dy}{dx}\\) at \\((1,1)\\).",
+      "answer": "Differentiate implicitly: \\(2x+(x\\frac{dy}{dx}+y)+2y\\frac{dy}{dx}=0\\). Collect derivative terms: \\((x+2y)\\frac{dy}{dx}=-(2x+y)\\). Thus \\(\\frac{dy}{dx}=-\\frac{2x+y}{x+2y}\\). At \\((1,1)\\), this becomes \\(-\\frac{2(1)+1}{1+2(1)}=-\\frac33=-1\\).",
+      "rating": "****",
+      "paperTags": [
+        "differential-calculus",
+        "implicit-differentiation",
+        "derivative-values"
+      ]
+    }
+  ]
+}

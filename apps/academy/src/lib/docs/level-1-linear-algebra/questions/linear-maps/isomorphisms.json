@@ -1,0 +1,121 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "isomorphisms",
+  "topicTitle": "Isomorphisms",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-01",
+      "prompt": "Define an isomorphism between real vector spaces.",
+      "answer": "An isomorphism is a linear map that is both one-to-one and onto. Equivalently, it is a linear map with a linear inverse. If there is an isomorphism from V to W, then V and W have the same linear structure.",
+      "rating": "*",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-02",
+      "prompt": "Are \\(\\mathbb R^3\\) and \\(P_2\\) isomorphic as real vector spaces? Explain.",
+      "answer": "Yes. \\(\\mathbb R^3\\) has dimension 3, and \\(P_2\\) has basis \\(\\{1,x,x^2\\}\\), so \\(\\dim(P_2)=3\\). Finite-dimensional real vector spaces with the same dimension are isomorphic. One isomorphism is \\((a,b,c)\\mapsto a+bx+cx^2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-03",
+      "prompt": "Are \\(\\mathbb R^2\\) and \\(P_2\\) isomorphic as real vector spaces? Explain.",
+      "answer": "No. \\(\\mathbb R^2\\) has dimension 2, while \\(P_2\\) has dimension 3. Finite-dimensional real vector spaces are isomorphic only if they have the same dimension. Therefore \\(\\mathbb R^2\\) and \\(P_2\\) are not isomorphic.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-04",
+      "prompt": "Show that \\(T:P_2 \\to \\mathbb R^3\\) defined by \\(T(a+bx+cx^2)=(a,b,c)\\) is an isomorphism.",
+      "answer": "The map is linear because coefficients of sums and scalar multiples behave componentwise. It is one-to-one because \\(T(a+bx+cx^2)=(0,0,0)\\) implies \\(a=b=c=0\\), so the polynomial is zero. It is onto because every \\((a,b,c)\\) in \\(\\mathbb R^3\\) is the image of \\(a+bx+cx^2\\). Therefore \\(T\\) is an isomorphism.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-05",
+      "prompt": "When is a matrix map \\(T(x)\\) = Ax from \\(\\mathbb R^n\\) to \\(\\mathbb R^n\\) an isomorphism?",
+      "answer": "The map is an isomorphism exactly when A is invertible. If A is invertible, then T has inverse \\(y\\mapsto A^{-1}y\\), so T is one-to-one and onto. If A is not invertible, then the map fails to be one-to-one or onto.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-06",
+      "prompt": "Is \\(D:P_3 \\to P_2\\), \\(D(p)=p'\\), an isomorphism? Explain.",
+      "answer": "No. Although \\(D\\) maps onto \\(P_2\\), it is not one-to-one because every constant polynomial has derivative zero. The kernel is \\(\\operatorname{span}(1)\\), not just \\(\\{0\\}\\). Since an isomorphism must be one-to-one and onto, \\(D\\) is not an isomorphism.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-07",
+      "prompt": "Is \\(D:P_2 \\to P_1\\), \\(D(p)=p'\\), an isomorphism? Explain.",
+      "answer": "No. The domain \\(P_2\\) has dimension 3, while the codomain \\(P_1\\) has dimension 2. Vector spaces of different finite dimensions cannot be isomorphic. Also, \\(D\\) has non-zero constants in its kernel, so it is not one-to-one.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-08",
+      "prompt": "Give an isomorphism from \\(M_{2,2}(\\mathbb R)\\) to \\(\\mathbb R^4\\).",
+      "answer": "One isomorphism sends a matrix to its entries in order: \\(T(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix})=(a,b,c,d)\\). This map is linear because matrix addition and scalar multiplication act entry by entry. It is one-to-one and onto because each 4-tuple corresponds to exactly one \\(2\\times 2\\) matrix.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-09",
+      "prompt": "If \\(T:V\\to W\\) is an isomorphism and \\(\\dim(V)=5\\), what is \\(\\dim(W)\\)?",
+      "answer": "An isomorphism preserves dimension. Since \\(T\\) is an isomorphism from \\(V\\) to \\(W\\) and \\(\\dim(V)=5\\), it follows that \\(\\dim(W)=5\\).",
+      "rating": "*+",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-isomorphisms-10",
+      "prompt": "A learner says two spaces are isomorphic only if their elements look the same. Diagnose the error.",
+      "answer": "Isomorphism means the spaces have the same linear structure, not that their elements look identical. For example, \\(P_2\\) and \\(\\mathbb R^3\\) are isomorphic because both have dimension 3, even though one contains polynomials and the other contains coordinate triples. The learner is confusing representation with structure.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "isomorphisms",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

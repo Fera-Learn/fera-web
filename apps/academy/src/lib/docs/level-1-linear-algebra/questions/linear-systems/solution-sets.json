@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-systems",
+  "topicId": "solution-sets",
+  "topicTitle": "Solution Sets",
+  "paperTags": [
+    "linear-systems"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-01",
+      "prompt": "Describe the solution set of x + \\(y=3\\) in \\(\\mathbb R^2\\) using parameter \\(t=y\\).",
+      "answer": "Let \\(y=t\\), where t is any real number. The equation x + \\(y=3\\) becomes x + \\(t=3\\), so \\(x=3\\) - t. Therefore the solution set is \\((x, y)\\) = \\((3 - t, t)\\), where t is any real number.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-02",
+      "prompt": "Describe the solution set represented by RREF \\(\\begin{pmatrix}1&0&2&4\\\\0&1&-1&5\\end{pmatrix}\\) using \\(z=t\\).",
+      "answer": "The rows mean x + 2z = 4 and y - \\(z=5\\). Let \\(z=t\\). Then \\(x=4\\) - 2t and \\(y=5\\) + t. Therefore the solution set is \\((x, y, z)\\) = \\((4 - 2t, 5 + t, t)\\), where t is any real number.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "free-variables"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-03",
+      "prompt": "Classify the system represented by \\(\\begin{pmatrix}1&0&2\\\\0&1&-3\\end{pmatrix}\\) as having no solution, one solution, or infinitely many solutions.",
+      "answer": "The matrix has a pivot in every variable column and no contradictory row. It represents \\(x=2\\) and \\(y=-3\\). Therefore the system has exactly one solution.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-04",
+      "prompt": "Classify the system represented by \\(\\begin{pmatrix}1&2&0\\\\0&0&1\\end{pmatrix}\\) in variables x and y.",
+      "answer": "The second row represents 0x + 0y = 1, which is impossible. A contradictory row means the system is inconsistent. Therefore the system has no solution.",
+      "rating": "**",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "consistency"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-05",
+      "prompt": "Classify the system represented by \\(\\begin{pmatrix}1&2&0\\\\0&0&0\\end{pmatrix}\\) in variables x and y.",
+      "answer": "The row x + 2y = 0 gives one equation in two variables. There is no contradiction, and y is free. Let \\(y=t\\), so x = -2t. Therefore the system has infinitely many solutions: \\((x, y)\\) = \\((-2t, t)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "free-variables"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-06",
+      "prompt": "Write the solution set of x - 2y + \\(z=0\\) in \\(\\mathbb R^3\\) using \\(y=s\\) and \\(z=t\\).",
+      "answer": "Let \\(y=s\\) and \\(z=t\\), where s and t are real numbers. The equation x - 2y + \\(z=0\\) becomes x - 2s + \\(t=0\\). Solve for x: x = 2s - t. Therefore the solution set is \\((x, y, z)\\) = \\((2s - t, s, t)\\), with s and t real.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-07",
+      "prompt": "Find the solution set of the homogeneous system represented by \\(\\begin{pmatrix}1&0&-3&0\\\\0&1&2&0\\end{pmatrix}\\), using \\(z=t\\).",
+      "answer": "The equations are x - 3z = 0 and y + 2z = 0. Let \\(z=t\\). Then x = 3t and y = -2t. Therefore the solution set is \\((x, y, z)\\) = \\((3t, -2t, t)\\) = t(3, -2, 1), where t is any real number.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "homogeneous-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-08",
+      "prompt": "Explain why a homogeneous linear system always has at least one solution.",
+      "answer": "A homogeneous system has all right sides equal to zero. Setting every variable equal to zero makes every left side equal to zero because each left side is a linear combination of the variables. Therefore the zero vector always solves the system. This is called the trivial solution.",
+      "rating": "***",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "homogeneous-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-09",
+      "prompt": "For the solution set \\((x, y, z)\\) = \\((1, 2, 0)\\) + t(3, -1, 4), find the point corresponding to \\(t=-2\\).",
+      "answer": "Substitute \\(t=-2\\) into the parametrisation: \\((x, y, z)\\) = \\((1, 2, 0)\\) + (-2)\\((3, -1, 4)\\). Compute (-2)\\((3, -1, 4)\\) = \\((-6, 2, -8)\\). Add: \\((1, 2, 0)\\) + \\((-6, 2, -8)\\) = \\((-5, 4, -8)\\). Therefore the point is \\((-5, 4, -8)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "parametric-form"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-systems-solution-sets-10",
+      "prompt": "A learner says a system with a free variable has no solution because one variable is unknown. Diagnose the error.",
+      "answer": "A free variable does not mean there is no solution. It means there are many possible values for that variable, and each choice gives a solution if the system is consistent. For example, x + \\(y=3\\) has y free if we let \\(y=t\\), and then \\(x=3\\) - t. This gives infinitely many solutions, not no solutions.",
+      "rating": "****",
+      "paperTags": [
+        "linear-systems",
+        "solution-sets",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

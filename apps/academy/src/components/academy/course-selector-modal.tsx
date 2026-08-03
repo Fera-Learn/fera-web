@@ -27,6 +27,8 @@ type CourseScope = Exclude<AcademySidebarScope, "academy">;
 const COURSE_ICONS = {
   "level-1-math-i-physics": CalculatorIcon,
   "level-1-math-ii-physics": SigmaIcon,
+  "level-1-calculus": SigmaIcon,
+  "level-1-linear-algebra": SigmaIcon,
   "level-1-physics": AtomIcon,
 } satisfies Record<CourseScope, typeof BookOpenIcon>;
 

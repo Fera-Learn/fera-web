@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "integral-calculus",
+  "topicId": "integration-by-parts",
+  "topicTitle": "Integration By Parts",
+  "paperTags": [
+    "level-1-calculus",
+    "integral-calculus",
+    "integration-by-parts"
+  ],
+  "questions": [
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-01",
+      "prompt": "Find \\(\\int x e^x\\,dx\\).",
+      "answer": "We need to integrate a product. Use integration by parts: \\(\\int u\\,dv=uv-\\int v\\,du\\). Choose \\(u=x\\), so \\(du=dx\\), and \\(dv=e^x\\,dx\\), so \\(v=e^x\\). Then \\(\\int x e^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-02",
+      "prompt": "Find \\(\\int x\\cos x\\,dx\\).",
+      "answer": "We need integration by parts because the integrand is a product. Choose \\(u=x\\), so \\(du=dx\\), and \\(dv=\\cos x\\,dx\\), so \\(v=\\sin x\\). Then \\(\\int x\\cos x\\,dx=x\\sin x-\\int\\sin x\\,dx\\). Since \\(\\int\\sin x\\,dx=-\\cos x\\), the result is \\(x\\sin x+\\cos x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-03",
+      "prompt": "Find \\(\\int \\ln x\\,dx\\) for \\(x>0\\).",
+      "answer": "We need to treat \\(\\ln x\\) as \\(\\ln x\\cdot1\\). Choose \\(u=\\ln x\\), so \\(du=\\frac{1}{x}\\,dx\\), and \\(dv=dx\\), so \\(v=x\\). Integration by parts gives \\(\\int\\ln x\\,dx=x\\ln x-\\int x\\cdot\\frac{1}{x}\\,dx\\). The remaining integral is \\(\\int1\\,dx=x\\). Therefore \\(\\int\\ln x\\,dx=x\\ln x-x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-04",
+      "prompt": "Find \\(\\int x^2 e^x\\,dx\\).",
+      "answer": "We need integration by parts twice. Choose \\(u=x^2\\), \\(du=2x\\,dx\\), and \\(dv=e^x\\,dx\\), \\(v=e^x\\). Then \\(\\int x^2e^x\\,dx=x^2e^x-\\int2xe^x\\,dx\\). For \\(\\int xe^x\\,dx\\), integration by parts gives \\(xe^x-e^x\\). Therefore \\(\\int x^2e^x\\,dx=x^2e^x-2(xe^x-e^x)+C=e^x(x^2-2x+2)+C\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-05",
+      "prompt": "Evaluate \\(\\int_0^1 x e^x\\,dx\\).",
+      "answer": "We need a definite integral of a product. Use the antiderivative from integration by parts: with \\(u=x\\) and \\(dv=e^x\\,dx\\), \\(\\int xe^x\\,dx=xe^x-e^x\\). Evaluate from \\(0\\) to \\(1\\): \\([xe^x-e^x]_0^1=(e-e)-((0)e^0-e^0)=0-(-1)=1\\). Therefore the integral equals \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-06",
+      "prompt": "Find \\(\\int x\\sin x\\,dx\\).",
+      "answer": "We need to integrate a product of \\(x\\) and \\(\\sin x\\). Choose \\(u=x\\), so \\(du=dx\\), and \\(dv=\\sin x\\,dx\\), so \\(v=-\\cos x\\). Then \\(\\int x\\sin x\\,dx=uv-\\int v\\,du=-x\\cos x-\\int(-\\cos x)\\,dx\\). This is \\(-x\\cos x+\\sin x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-07",
+      "prompt": "Find \\(\\int x\\ln x\\,dx\\) for \\(x>0\\).",
+      "answer": "We need integration by parts with the logarithm differentiated. Choose \\(u=\\ln x\\), so \\(du=\\frac{1}{x}\\,dx\\), and \\(dv=x\\,dx\\), so \\(v=\\frac{x^2}{2}\\). Then \\(\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\int\\frac{x^2}{2}\\cdot\\frac{1}{x}\\,dx\\). The remaining integral is \\(\\frac{1}{2}\\int x\\,dx=\\frac{x^2}{4}\\). Therefore \\(\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-08",
+      "prompt": "Evaluate \\(\\int_1^e \\ln x\\,dx\\).",
+      "answer": "We need a definite integral of \\(\\ln x\\). From integration by parts, \\(\\int\\ln x\\,dx=x\\ln x-x\\). Evaluate from \\(1\\) to \\(e\\): \\([x\\ln x-x]_1^e=(e\\ln e-e)-(1\\ln1-1)\\). Since \\(\\ln e=1\\) and \\(\\ln1=0\\), this is \\((e-e)-(0-1)=1\\). Therefore the integral equals \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-09",
+      "prompt": "Find \\(\\int e^x\\sin x\\,dx\\).",
+      "answer": "We need integration by parts twice and then solve for the original integral. Let \\(I=\\int e^x\\sin x\\,dx\\). Choose \\(u=\\sin x\\), \\(dv=e^x\\,dx\\), so \\(I=e^x\\sin x-\\int e^x\\cos x\\,dx\\). For \\(J=\\int e^x\\cos x\\,dx\\), choose \\(u=\\cos x\\), \\(dv=e^x\\,dx\\), giving \\(J=e^x\\cos x+\\int e^x\\sin x\\,dx=e^x\\cos x+I\\). Substitute into the first equation: \\(I=e^x\\sin x-(e^x\\cos x+I)\\). Hence \\(2I=e^x(\\sin x-\\cos x)\\), so \\(I=\\frac{e^x}{2}(\\sin x-\\cos x)+C\\).",
+      "rating": "****",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-integration-by-parts-10",
+      "prompt": "Find \\(\\int x^2\\cos x\\,dx\\).",
+      "answer": "We need integration by parts twice. Choose \\(u=x^2\\), \\(du=2x\\,dx\\), and \\(dv=\\cos x\\,dx\\), \\(v=\\sin x\\). Then \\(\\int x^2\\cos x\\,dx=x^2\\sin x-\\int2x\\sin x\\,dx\\). For \\(\\int x\\sin x\\,dx\\), choose \\(u=x\\), \\(dv=\\sin x\\,dx\\), giving \\(-x\\cos x+\\sin x\\). Therefore the original integral is \\(x^2\\sin x-2(-x\\cos x+\\sin x)+C=x^2\\sin x+2x\\cos x-2\\sin x+C\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "integration-by-parts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "critical-points",
+  "topicTitle": "Critical Points",
+  "paperTags": [
+    "several-variable-calculus",
+    "critical-points"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-critical-points-01",
+      "prompt": "Find the critical point of \\(f(x,y)=x^2+y^2\\).",
+      "answer": "Critical points occur where \\(f_x=0\\) and \\(f_y=0\\). Here \\(f_x=2x\\) and \\(f_y=2y\\). Setting these equal to zero gives \\(x=0\\) and \\(y=0\\). Therefore the critical point is \\((0,0)\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "stationary-points"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-02",
+      "prompt": "Find all critical points of \\(f(x,y)=x^2+y^2-4x+6y\\).",
+      "answer": "Compute the first partial derivatives: \\(f_x=2x-4\\) and \\(f_y=2y+6\\). Set them equal to zero: \\(2x-4=0\\) gives \\(x=2\\), and \\(2y+6=0\\) gives \\(y=-3\\). Therefore the only critical point is \\((2,-3)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "stationary-points"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-03",
+      "prompt": "Classify the critical point \\((0,0)\\) of \\(f(x,y)=x^2+y^2\\).",
+      "answer": "Use the second derivative test. We have \\(f_{xx}=2\\), \\(f_{yy}=2\\), and \\(f_{xy}=0\\). The discriminant is \\(D=f_{xx}f_{yy}-f_{xy}^2=2\\cdot2-0=4>0\\). Since \\(f_{xx}>0\\), the critical point is a local minimum.",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "second-derivative-test"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-04",
+      "prompt": "Classify the critical point \\((0,0)\\) of \\(f(x,y)=x^2-y^2\\).",
+      "answer": "Compute the second derivatives: \\(f_{xx}=2\\), \\(f_{yy}=-2\\), and \\(f_{xy}=0\\). The discriminant is \\(D=2(-2)-0^2=-4<0\\). A negative discriminant means the point is a saddle point. Therefore \\((0,0)\\) is a saddle point.",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "saddle-point"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-05",
+      "prompt": "Find and classify the critical point of \\(f(x,y)=x^2+4y^2-2x+8y\\).",
+      "answer": "First find the critical point. \\(f_x=2x-2\\), so \\(x=1\\), and \\(f_y=8y+8\\), so \\(y=-1\\). For classification, \\(f_{xx}=2\\), \\(f_{yy}=8\\), and \\(f_{xy}=0\\), so \\(D=2\\cdot8-0=16>0\\). Since \\(f_{xx}>0\\), \\((1,-1)\\) is a local minimum.",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "second-derivative-test"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-06",
+      "prompt": "Find the critical points of \\(f(x,y)=xy-x-y\\).",
+      "answer": "Compute the first partial derivatives: \\(f_x=y-1\\) and \\(f_y=x-1\\). Set both equal to zero. From \\(y-1=0\\), \\(y=1\\); from \\(x-1=0\\), \\(x=1\\). Therefore the only critical point is \\((1,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "stationary-points"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-07",
+      "prompt": "Classify the critical point of \\(f(x,y)=xy-x-y\\).",
+      "answer": "From the first derivative equations, the critical point is \\((1,1)\\). The second derivatives are \\(f_{xx}=0\\), \\(f_{yy}=0\\), and \\(f_{xy}=1\\). The discriminant is \\(D=0\\cdot0-1^2=-1<0\\). Therefore \\((1,1)\\) is a saddle point.",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "second-derivative-test"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-08",
+      "prompt": "Find the critical points of \\(f(x,y)=x^3-3x+y^2\\).",
+      "answer": "First compute \\(f_x=3x^2-3\\) and \\(f_y=2y\\). Setting \\(f_y=0\\) gives \\(y=0\\). Setting \\(f_x=0\\) gives \\(3x^2-3=0\\), so \\(x^2=1\\) and \\(x=\\pm1\\). Therefore the critical points are \\((1,0)\\) and \\((-1,0)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "stationary-points"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-09",
+      "prompt": "Classify the critical points of \\(f(x,y)=x^3-3x+y^2\\).",
+      "answer": "The critical points are \\((1,0)\\) and \\((-1,0)\\). Second derivatives are \\(f_{xx}=6x\\), \\(f_{yy}=2\\), and \\(f_{xy}=0\\), so \\(D=12x\\). At \\((1,0)\\), \\(D=12>0\\) and \\(f_{xx}=6>0\\), so it is a local minimum. At \\((-1,0)\\), \\(D=-12<0\\), so it is a saddle point.",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "classification"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-critical-points-10",
+      "prompt": "For \\(f(x,y)=x^4+y^4\\), explain why \\((0,0)\\) is a local minimum even though the second derivative test is inconclusive.",
+      "answer": "The first derivatives are \\(f_x=4x^3\\) and \\(f_y=4y^3\\), so \\((0,0)\\) is critical. The second derivatives at \\((0,0)\\) are all zero, so \\(D=0\\) and the second derivative test is inconclusive. However \\(x^4\\ge0\\) and \\(y^4\\ge0\\) for all real \\(x,y\\), so \\(f(x,y)=x^4+y^4\\ge0=f(0,0)\\). Therefore \\((0,0)\\) is a local minimum.",
+      "rating": "****",
+      "paperTags": [
+        "several-variable-calculus",
+        "critical-points",
+        "inconclusive-test"
+      ]
+    }
+  ]
+}

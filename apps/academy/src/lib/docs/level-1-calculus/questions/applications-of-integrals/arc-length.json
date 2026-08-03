@@ -1,0 +1,121 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "applications-of-integrals",
+  "topicId": "arc-length",
+  "topicTitle": "Arc Length",
+  "paperTags": [
+    "applications-of-integrals"
+  ],
+  "questions": [
+    {
+      "id": "calculus-applications-of-integrals-arc-length-01",
+      "prompt": "Find the arc length of \\(y=3x+1\\) from \\(x=0\\) to \\(x=2\\).",
+      "answer": "We use the arc length formula \\(L=\\int_a^b\\sqrt{1+(dy/dx)^2}\\,dx\\). For \\(y=3x+1\\), \\(dy/dx=3\\). Thus \\(L=\\int_0^2\\sqrt{1+3^2}\\,dx=\\int_0^2\\sqrt{10}\\,dx\\). This equals \\(2\\sqrt{10}\\). Therefore the arc length is \\(2\\sqrt{10}\\) units.",
+      "rating": "*",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-02",
+      "prompt": "Find the arc length of \\(y=\\frac{2}{3}x^{3/2}\\) from \\(x=0\\) to \\(x=3\\).",
+      "answer": "We use \\(L=\\int_a^b\\sqrt{1+(dy/dx)^2}\\,dx\\). Since \\(y=\\frac{2}{3}x^{3/2}\\), \\(dy/dx=\\sqrt{x}\\). Therefore \\(L=\\int_0^3\\sqrt{1+x}\\,dx\\). Integrating gives \\([\\frac{2}{3}(1+x)^{3/2}]_0^3=\\frac{2}{3}(8-1)=14/3\\). Therefore the arc length is \\(\\frac{14}{3}\\) units.",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "power-functions"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-03",
+      "prompt": "Find the arc length of \\(x=y^2/2\\) from \\(y=0\\) to \\(y=2\\).",
+      "answer": "Because \\(x\\) is given as a function of \\(y\\), use \\(L=\\int_c^d\\sqrt{1+(dx/dy)^2}\\,dy\\). Here \\(dx/dy=y\\), so \\(L=\\int_0^2\\sqrt{1+y^2}\\,dy\\). An antiderivative is \\(\\frac{1}{2}(y\\sqrt{1+y^2}+\\ln(y+\\sqrt{1+y^2}))\\). Evaluating from \\(0\\) to \\(2\\) gives \\(\\sqrt{5}+\\frac{1}{2}\\ln(2+\\sqrt{5})\\). Therefore the arc length is \\(\\sqrt{5}+\\frac{1}{2}\\ln(2+\\sqrt{5})\\) units.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "functions-of-y"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-04",
+      "prompt": "Find the arc length of \\(y=\\ln(\\cos x)\\) from \\(x=0\\) to \\(x=\\pi/4\\).",
+      "answer": "We use \\(L=\\int_a^b\\sqrt{1+(dy/dx)^2}\\,dx\\). For \\(y=\\ln(\\cos x)\\), \\(dy/dx=-\\tan x\\). Then \\(\\sqrt{1+\\tan^2 x}=\\sec x\\) on the given interval. Thus \\(L=\\int_0^{\\pi/4}\\sec x\\,dx\\). Since \\(\\int\\sec x\\,dx=\\ln|\\sec x+\\tan x|\\), the length is \\([\\ln(\\sec x+\\tan x)]_0^{\\pi/4}=\\ln(\\sqrt{2}+1)\\). Therefore the arc length is \\(\\ln(1+\\sqrt{2})\\) units.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "trigonometric-functions"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-05",
+      "prompt": "Find the arc length of \\(y=\\cosh x\\) from \\(x=0\\) to \\(x=1\\).",
+      "answer": "We use the arc length formula. Since \\(d(\\cosh x)/dx=\\sinh x\\), the integrand is \\(\\sqrt{1+\\sinh^2 x}\\). The identity \\(\\cosh^2 x-\\sinh^2 x=1\\) gives \\(\\sqrt{1+\\sinh^2 x}=\\cosh x\\). Hence \\(L=\\int_0^1\\cosh x\\,dx=[\\sinh x]_0^1=\\sinh 1\\). Therefore the arc length is \\(\\sinh 1\\) units.",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "hyperbolic-functions"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-06",
+      "prompt": "Find the arc length of the upper semicircle \\(y=\\sqrt{9-x^2}\\) from \\(x=-3\\) to \\(x=3\\).",
+      "answer": "The graph is the upper half of the circle \\(x^2+y^2=9\\), so the radius is \\(3\\). The full circumference of a circle is \\(2\\pi r\\), and the upper semicircle has half that length. Therefore \\(L=\\frac{1}{2}(2\\pi\\cdot 3)=3\\pi\\). The arc length is \\(3\\pi\\) units.",
+      "rating": "*",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "circles"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-07",
+      "prompt": "Find the exact arc length of \\(y=x^2\\) from \\(x=0\\) to \\(x=1\\).",
+      "answer": "We use \\(L=\\int_0^1\\sqrt{1+(dy/dx)^2}\\,dx\\). Since \\(dy/dx=2x\\), \\(L=\\int_0^1\\sqrt{1+4x^2}\\,dx\\). An antiderivative is \\(\\frac{x}{2}\\sqrt{1+4x^2}+\\frac{1}{4}\\ln(2x+\\sqrt{1+4x^2})\\). Evaluating from \\(0\\) to \\(1\\) gives \\(\\frac{\\sqrt{5}}{2}+\\frac{1}{4}\\ln(2+\\sqrt{5})\\). Therefore the exact arc length is \\(\\frac{\\sqrt{5}}{2}+\\frac{1}{4}\\ln(2+\\sqrt{5})\\) units.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "exact-values"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-08",
+      "prompt": "A parametric curve is defined by \\(x=t^2\\) and \\(y=t^3\\) for \\(0 \\le t \\le 1\\). Find its arc length.",
+      "answer": "For a parametric curve, \\(L=\\int_a^b\\sqrt{(dx/dt)^2+(dy/dt)^2}\\,dt\\). Here \\(dx/dt=2t\\) and \\(dy/dt=3t^2\\). Thus \\(L=\\int_0^1\\sqrt{4t^2+9t^4}\\,dt=\\int_0^1 t\\sqrt{4+9t^2}\\,dt\\), since \\(t\\ge 0\\). Let \\(u=4+9t^2\\), so \\(du=18t\\,dt\\). Then \\(L=\\frac{1}{18}\\int_4^{13}u^{1/2}\\,du=\\frac{1}{27}(13^{3/2}-8)\\). Therefore the arc length is \\(\\frac{13\\sqrt{13}-8}{27}\\) units.",
+      "rating": "****",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "parametric-curves"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-09",
+      "prompt": "Set up, but do not evaluate, the integral for the arc length of \\(y=e^{-x^2}\\) from \\(x=0\\) to \\(x=2\\).",
+      "answer": "We are asked only to set up the arc length integral. The formula is \\(L=\\int_a^b\\sqrt{1+(dy/dx)^2}\\,dx\\). For \\(y=e^{-x^2}\\), the chain rule gives \\(dy/dx=-2xe^{-x^2}\\). Therefore \\((dy/dx)^2=4x^2e^{-2x^2}\\). The required setup is \\(L=\\int_0^2\\sqrt{1+4x^2e^{-2x^2}}\\,dx\\). This is the complete arc length integral for the stated curve and interval.",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "setup"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-integrals-arc-length-10",
+      "prompt": "A learner finds the arc length of \\(y=2x\\) from \\(x=0\\) to \\(x=5\\) by computing \\(\\int_0^5(1+2^2)\\,dx=25\\). Explain the error and find the correct arc length.",
+      "answer": "The error is omitting the square root in the arc length formula. The correct formula is \\(L=\\int_a^b\\sqrt{1+(dy/dx)^2}\\,dx\\). For \\(y=2x\\), \\(dy/dx=2\\), so \\(L=\\int_0^5\\sqrt{1+2^2}\\,dx=\\int_0^5\\sqrt{5}\\,dx\\). Therefore \\(L=5\\sqrt{5}\\). The correct arc length is \\(5\\sqrt{5}\\) units.",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-integrals",
+        "arc-length",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

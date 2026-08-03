@@ -1,0 +1,115 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "subspaces-and-dimension",
+  "topicId": "spanning-sets",
+  "topicTitle": "Spanning Sets",
+  "paperTags": [
+    "subspaces-and-dimension"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-01",
+      "prompt": "Does the set {\\((1, 0)\\), \\((0, 1)\\)} span \\(\\mathbb R^2\\)? Explain.",
+      "answer": "Any vector \\((x, y)\\) in \\(\\mathbb R^2\\) can be written as x(1, 0) + y(0, 1). Since every vector in \\(\\mathbb R^2\\) is a linear combination of the two given vectors, the set spans \\(\\mathbb R^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-02",
+      "prompt": "Does the set {\\((1, 2)\\)} span \\(\\mathbb R^2\\)? Explain.",
+      "answer": "The span of a single vector \\((1, 2)\\) consists of all multiples t(1, 2) = \\((t, 2t)\\). These vectors lie on one line through the origin. \\(\\mathbb R^2\\) contains vectors not on this line, such as \\((0, 1)\\). Therefore {\\((1, 2)\\)} does not span \\(\\mathbb R^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-03",
+      "prompt": "Determine whether \\((3, 7)\\) lies in span(\\((1, 2)\\), \\((0, 1)\\)).",
+      "answer": "We need scalars a and b such that a(1, 2) + b(0, 1) = \\((3, 7)\\). This gives \\((a, 2a + b)\\) = \\((3, 7)\\). From the first component, \\(a=3\\). Then 2a + \\(b=7\\) gives 6 + \\(b=7\\), so \\(b=1\\). Therefore \\((3, 7)\\) lies in the span.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-04",
+      "prompt": "Determine whether \\((1, 1, 1)\\) lies in span(\\((1, 0, 1)\\), \\((0, 1, 1)\\)).",
+      "answer": "We need a(1, 0, 1) + b(0, 1, 1) = \\((1, 1, 1)\\). This gives \\((a, b, a + b)\\) = \\((1, 1, 1)\\). The first two components require \\(a=1\\) and \\(b=1\\). Then the third component would be a + \\(b=2\\), not 1. Therefore \\((1, 1, 1)\\) is not in the span.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-05",
+      "prompt": "Find span(\\((2, 0)\\), \\((0, 3)\\)) as a subset of \\(\\mathbb R^2\\).",
+      "answer": "A general linear combination is a(2, 0) + b(0, 3) = \\((2a, 3b)\\). Since a and b can be any real numbers, 2a can be any real x and 3b can be any real y. Therefore the span is all of \\(\\mathbb R^2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-06",
+      "prompt": "Find a spanning set for the plane x + y + \\(z=0\\) in \\(\\mathbb R^3\\).",
+      "answer": "Solve for x: x = -y - z. Let \\(y=s\\) and \\(z=t\\). Then \\((x, y, z)\\) = \\((-s - t, s, t)\\) = s(-1, 1, 0) + t(-1, 0, 1). Therefore a spanning set is {\\((-1, 1, 0)\\), \\((-1, 0, 1)\\)}.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets",
+        "planes"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-07",
+      "prompt": "Does {\\((1, 0, 0)\\), \\((0, 1, 0)\\)} span \\(\\mathbb R^3\\)? If not, what does it span?",
+      "answer": "A general linear combination is a(1, 0, 0) + b(0, 1, 0) = \\((a, b, 0)\\). The third component is always 0, so vectors such as \\((0, 0, 1)\\) cannot be produced. Therefore the set does not span \\(\\mathbb R^3\\). It spans the xy-plane in \\(\\mathbb R^3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-08",
+      "prompt": "Show that {\\((1, 0)\\), \\((1, 1)\\)} spans \\(\\mathbb R^2\\).",
+      "answer": "Take any vector \\((x, y)\\) in \\(\\mathbb R^2\\). We want a(1, 0) + b(1, 1) = \\((x, y)\\). This gives \\((a + b, b)\\) = \\((x, y)\\). Choose \\(b=y\\) and \\(a=x\\) - y. Then the combination equals \\((x, y)\\). Since every vector in \\(\\mathbb R^2\\) can be produced, the set spans \\(\\mathbb R^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-09",
+      "prompt": "Find the span of {\\((1, 2, 3)\\), \\((2, 4, 6)\\)}.",
+      "answer": "The second vector is 2 times the first: \\((2, 4, 6)\\) = 2\\((1, 2, 3)\\). Therefore adding it does not create a new direction. The span is all multiples of \\((1, 2, 3)\\), namely {t(1, 2, 3) : t is real}.",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets",
+        "dependent-vectors"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-spanning-sets-10",
+      "prompt": "A learner says three vectors always span \\(\\mathbb R^3\\). Diagnose the error.",
+      "answer": "Three vectors span \\(\\mathbb R^3\\) only if they provide three independent directions. For example, \\((1, 0, 0)\\), \\((2, 0, 0)\\), and \\((3, 0, 0)\\) are three vectors, but every linear combination lies on the x-axis. They do not span \\(\\mathbb R^3\\). The learner counted vectors without checking whether they supply enough independent directions.",
+      "rating": "****",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "spanning-sets",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

@@ -34,6 +34,28 @@ const registryConfigs = [
       "level-1-math-ii-physics",
     ),
   },
+  {
+    courseId: "level-1-calculus",
+    exportName: "level1CalculusQuestionTopics",
+    sourceRoot: path.join(
+      appRoot,
+      "src",
+      "lib",
+      "docs",
+      "level-1-calculus",
+    ),
+  },
+  {
+    courseId: "level-1-linear-algebra",
+    exportName: "level1LinearAlgebraQuestionTopics",
+    sourceRoot: path.join(
+      appRoot,
+      "src",
+      "lib",
+      "docs",
+      "level-1-linear-algebra",
+    ),
+  },
 ];
 
 async function walkJsonFiles(directory) {

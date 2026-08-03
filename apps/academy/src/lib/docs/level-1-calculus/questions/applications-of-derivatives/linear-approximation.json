@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "applications-of-derivatives",
+  "topicId": "linear-approximation",
+  "topicTitle": "Linear Approximation",
+  "paperTags": [
+    "level-1-calculus",
+    "applications-of-derivatives",
+    "linear-approximation"
+  ],
+  "questions": [
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-01",
+      "prompt": "Use a linear approximation to estimate \\(\\sqrt{9.2}\\). Define the function and base point used.",
+      "answer": "We need an estimate for \\(\\sqrt{9.2}\\). Use \\(f(x)=\\sqrt{x}\\) near the convenient base point \\(a=9\\). Then \\(f(9)=3\\), and \\(f'(x)=\\frac{1}{2\\sqrt{x}}\\), so \\(f'(9)=\\frac{1}{6}\\). The linear approximation is \\(L(x)=f(a)+f'(a)(x-a)=3+\\frac{1}{6}(x-9)\\). Substituting \\(x=9.2\\) gives \\(L(9.2)=3+\\frac{0.2}{6}=3+\\frac{1}{30}=3.0333\\ldots\\). Therefore \\(\\sqrt{9.2}\\approx 3.033\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-02",
+      "prompt": "For \\(f(x)=x^3\\), find the linear approximation at \\(a=2\\), then use it to estimate \\((1.98)^3\\).",
+      "answer": "We need the tangent-line approximation to \\(f(x)=x^3\\) at \\(a=2\\). First \\(f(2)=8\\). Since \\(f'(x)=3x^2\\), \\(f'(2)=12\\). Thus \\(L(x)=8+12(x-2)\\). For \\(x=1.98\\), \\(x-2=-0.02\\), so \\(L(1.98)=8+12(-0.02)=8-0.24=7.76\\). Therefore \\((1.98)^3\\approx 7.76\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-03",
+      "prompt": "Find the linear approximation \\(L(x)\\) for \\(f(x)=\\frac{1}{x}\\) at \\(a=4\\), then estimate \\(\\frac{1}{4.1}\\).",
+      "answer": "We need a tangent line for \\(f(x)=\\frac{1}{x}\\) at \\(a=4\\). The function value is \\(f(4)=\\frac{1}{4}\\). The derivative is \\(f'(x)=-\\frac{1}{x^2}\\), so \\(f'(4)=-\\frac{1}{16}\\). Hence \\(L(x)=\\frac{1}{4}-\\frac{1}{16}(x-4)\\). At \\(x=4.1\\), \\(L(4.1)=\\frac{1}{4}-\\frac{0.1}{16}=0.25-0.00625=0.24375\\). Therefore \\(\\frac{1}{4.1}\\approx 0.24375\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-04",
+      "prompt": "Use linear approximation with \\(f(x)=\\ln x\\) at \\(a=1\\) to estimate \\(\\ln(1.05)\\).",
+      "answer": "We need an estimate for \\(\\ln(1.05)\\). Use \\(f(x)=\\ln x\\) at \\(a=1\\), where \\(f(1)=\\ln 1=0\\). Since \\(f'(x)=\\frac{1}{x}\\), \\(f'(1)=1\\). The linear approximation is \\(L(x)=0+1(x-1)=x-1\\). Substituting \\(x=1.05\\) gives \\(L(1.05)=0.05\\). Therefore \\(\\ln(1.05)\\approx 0.05\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-05",
+      "prompt": "Approximate \\(\\sin(0.08)\\) using a linear approximation at \\(a=0\\), where angles are measured in radians.",
+      "answer": "We need an estimate for \\(\\sin(0.08)\\) in radians. Let \\(f(x)=\\sin x\\) and choose \\(a=0\\). Then \\(f(0)=0\\), and \\(f'(x)=\\cos x\\), so \\(f'(0)=1\\). The tangent-line approximation is \\(L(x)=0+1(x-0)=x\\). Therefore \\(\\sin(0.08)\\approx L(0.08)=0.08\\).",
+      "rating": "*",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-06",
+      "prompt": "For \\(f(x)=\\sqrt[3]{x}\\), use a linear approximation at \\(a=8\\) to estimate \\(\\sqrt[3]{8.3}\\).",
+      "answer": "We need an estimate for \\(\\sqrt[3]{8.3}\\). Let \\(f(x)=x^{1/3}\\) and use \\(a=8\\), since \\(\\sqrt[3]{8}=2\\). The derivative is \\(f'(x)=\\frac{1}{3}x^{-2/3}\\). At \\(x=8\\), \\(8^{2/3}=4\\), so \\(f'(8)=\\frac{1}{12}\\). Therefore \\(L(x)=2+\\frac{1}{12}(x-8)\\). Substituting \\(x=8.3\\) gives \\(L(8.3)=2+\\frac{0.3}{12}=2.025\\). Hence \\(\\sqrt[3]{8.3}\\approx 2.025\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-07",
+      "prompt": "Find \\(dy\\) for \\(y=x^4\\) when \\(x=2\\) and \\(dx=0.03\\), and use \\(dy\\) to approximate the change in \\(y\\).",
+      "answer": "We need the differential approximation to the change in \\(y=x^4\\). Since \\(dy=f'(x)\\,dx\\), first compute \\(f'(x)=4x^3\\). At \\(x=2\\), \\(f'(2)=4(2^3)=32\\). With \\(dx=0.03\\), \\(dy=32(0.03)=0.96\\). Therefore the change in \\(y\\) is approximately \\(0.96\\).",
+      "rating": "**",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-08",
+      "prompt": "The radius \\(r\\) of a sphere is measured as \\(5\\) cm with possible error \\(dr=0.02\\) cm. Use differentials to approximate the resulting error in volume \\(V=\\frac{4}{3}\\pi r^3\\).",
+      "answer": "We need the approximate volume error \\(dV\\). For \\(V=\\frac{4}{3}\\pi r^3\\), the derivative is \\(\\frac{dV}{dr}=4\\pi r^2\\). The differential is \\(dV=4\\pi r^2\\,dr\\). Substituting \\(r=5\\) cm and \\(dr=0.02\\) cm gives \\(dV=4\\pi(25)(0.02)=2\\pi\\). Therefore the approximate volume error is \\(2\\pi\\) cm\\(^3\\).",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-09",
+      "prompt": "Use the tangent line to \\(f(x)=e^x\\) at \\(a=0\\) to estimate \\(e^{-0.04}\\).",
+      "answer": "We need an estimate for \\(e^{-0.04}\\). Let \\(f(x)=e^x\\) and choose \\(a=0\\). Then \\(f(0)=1\\), and \\(f'(x)=e^x\\), so \\(f'(0)=1\\). The tangent line is \\(L(x)=1+x\\). At \\(x=-0.04\\), \\(L(-0.04)=1-0.04=0.96\\). Therefore \\(e^{-0.04}\\approx 0.96\\).",
+      "rating": "*",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-applications-of-derivatives-linear-approximation-10",
+      "prompt": "For \\(f(x)=\\frac{1}{\\sqrt{x}}\\), use a linear approximation at \\(a=4\\) to estimate \\(\\frac{1}{\\sqrt{3.9}}\\).",
+      "answer": "We need an estimate for \\(\\frac{1}{\\sqrt{3.9}}\\). Write \\(f(x)=x^{-1/2}\\) and choose \\(a=4\\). Then \\(f(4)=\\frac{1}{2}\\). The derivative is \\(f'(x)=-\\frac{1}{2}x^{-3/2}\\), and \\(4^{3/2}=8\\), so \\(f'(4)=-\\frac{1}{16}\\). Thus \\(L(x)=\\frac{1}{2}-\\frac{1}{16}(x-4)\\). At \\(x=3.9\\), \\(L(3.9)=\\frac{1}{2}-\\frac{1}{16}(-0.1)=0.5+0.00625=0.50625\\). Therefore \\(\\frac{1}{\\sqrt{3.9}}\\approx 0.50625\\).",
+      "rating": "***",
+      "paperTags": [
+        "applications-of-derivatives",
+        "linear-approximation"
+      ]
+    }
+  ]
+}

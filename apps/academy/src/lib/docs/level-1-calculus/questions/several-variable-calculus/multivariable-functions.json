@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "multivariable-functions",
+  "topicTitle": "Multivariable Functions",
+  "paperTags": [
+    "several-variable-calculus",
+    "multivariable-functions"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-01",
+      "prompt": "For the function \\(f(x,y)=x^2+3xy-y^2\\), find \\(f(2,-1)\\).",
+      "answer": "We need the value of \\(f\\) when \\(x=2\\) and \\(y=-1\\). Substitute these values into the formula: \\(f(2,-1)=2^2+3(2)(-1)-(-1)^2\\). This gives \\(4-6-1=-3\\). Therefore \\(f(2,-1)=-3\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "substitution"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-02",
+      "prompt": "State the domain of \\(f(x,y)=\\sqrt{9-x^2-y^2}\\) as a set of ordered pairs.",
+      "answer": "The square root is defined when its argument is non-negative. So we require \\(9-x^2-y^2\\ge 0\\), which rearranges to \\(x^2+y^2\\le 9\\). Therefore the domain is \\(\\{(x,y):x^2+y^2\\le 9\\}\\), the closed disk of radius \\(3\\) centred at the origin.",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-03",
+      "prompt": "Find the range of \\(f(x,y)=x^2+y^2\\) for all real \\(x\\) and \\(y\\).",
+      "answer": "We are finding all possible output values. Since squares are non-negative, \\(x^2\\ge 0\\) and \\(y^2\\ge 0\\), so \\(f(x,y)=x^2+y^2\\ge 0\\). The value \\(0\\) is achieved at \\((0,0)\\), and every \\(a\\ge 0\\) is achieved by choosing \\((\\sqrt{a},0)\\). Therefore the range is \\([0,\\infty)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "range"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-04",
+      "prompt": "Describe the level curve \\(f(x,y)=4\\) for \\(f(x,y)=x^2+y^2\\).",
+      "answer": "A level curve fixes the output of the function. Setting \\(f(x,y)=4\\) gives \\(x^2+y^2=4\\). This is the equation of a circle centred at \\((0,0)\\) with radius \\(2\\). Therefore the level curve is the circle \\(x^2+y^2=4\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "level-curves"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-05",
+      "prompt": "For \\(f(x,y)=\\ln(x-y)\\), state the domain in terms of \\(x\\) and \\(y\\).",
+      "answer": "The natural logarithm is defined only for positive inputs. Therefore we need \\(x-y>0\\). Rearranging gives \\(x>y\\). Hence the domain is \\(\\{(x,y):x>y\\}\\), the open half-plane above the line condition \\(x=y\\) in the sense \\(x\\) is greater than \\(y\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-06",
+      "prompt": "Let \\(f(x,y)=2x-y\\). Find the equation of the level curve through the point \\((3,1)\\).",
+      "answer": "First find the function value at the given point: \\(f(3,1)=2(3)-1=5\\). The level curve through \\((3,1)\\) is the set of points where \\(f(x,y)=5\\). Thus \\(2x-y=5\\), or equivalently \\(y=2x-5\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "level-curves"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-07",
+      "prompt": "Evaluate \\(g(r,\\theta)=r\\cos\\theta\\) at \\(r=4\\) and \\(\\theta=\\pi/3\\).",
+      "answer": "We substitute \\(r=4\\) and \\(\\theta=\\pi/3\\) into the function. Since \\(\\cos(\\pi/3)=1/2\\), we get \\(g(4,\\pi/3)=4\\cos(\\pi/3)=4(1/2)=2\\). Therefore the value is \\(2\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "polar-coordinates"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-08",
+      "prompt": "For \\(f(x,y)=\\frac{1}{x^2+y^2-1}\\), state the domain.",
+      "answer": "A rational function is undefined when its denominator is zero. Here the denominator is \\(x^2+y^2-1\\), so we exclude points satisfying \\(x^2+y^2-1=0\\). That is \\(x^2+y^2=1\\). Therefore the domain is \\(\\{(x,y):x^2+y^2\\ne 1\\}\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "domain"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-09",
+      "prompt": "For \\(f(x,y)=xy\\), compare the paths \\(y=x\\) and \\(y=2x\\) as \\((x,y)\\) approaches \\((0,0)\\). What limit value do both path expressions approach?",
+      "answer": "Along \\(y=x\\), the function becomes \\(f(x,x)=x^2\\), and \\(x^2\\to 0\\) as \\(x\\to 0\\). Along \\(y=2x\\), the function becomes \\(f(x,2x)=2x^2\\), and \\(2x^2\\to 0\\) as \\(x\\to 0\\). Therefore both tested paths approach \\(0\\). This does not by itself prove the full two-variable limit, but it shows both path expressions have value \\(0\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "limits"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-functions-10",
+      "prompt": "Find a formula for the cross-section of \\(z=f(x,y)=x^2+y^2\\) in the plane \\(y=3\\).",
+      "answer": "A cross-section in the plane \\(y=3\\) means we hold \\(y\\) fixed at \\(3\\). Substitute \\(y=3\\) into \\(z=x^2+y^2\\): \\(z=x^2+3^2\\). Therefore the cross-section is \\(z=x^2+9\\), a parabola in the \\(xz\\)-plane at \\(y=3\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-functions",
+        "cross-sections"
+      ]
+    }
+  ]
+}

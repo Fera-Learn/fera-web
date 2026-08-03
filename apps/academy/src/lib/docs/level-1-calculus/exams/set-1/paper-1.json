@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "setId": "set-1",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1",
+    "limits",
+    "differentiation",
+    "integration",
+    "series",
+    "multivariable-calculus",
+    "differential-equations"
+  ],
+  "description": "A full Level 1 - Calculus exam covering limits, differentiation, applications of derivatives, integral methods, series, multivariable calculus, and differential equations.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry 15 marks.",
+    "Show sufficient working to justify each answer.",
+    "Exact answers are preferred unless a decimal approximation is requested."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1c-s1-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Limits and Continuity",
+      "stem": "This question concerns limiting behaviour, continuity, and asymptotes of single-variable functions.",
+      "title": "Limits, continuity, and graph behaviour",
+      "parts": [
+        {
+          "answer": "Direct substitution gives \\(0/0\\), so simplify before taking the limit. Rationalise the numerator:\n\\[\n\\frac{\\sqrt{x+5}-3}{x-4}\\cdot\\frac{\\sqrt{x+5}+3}{\\sqrt{x+5}+3}=\\frac{x+5-9}{(x-4)(\\sqrt{x+5}+3)}.\n\\]\nSince \\(x+5-9=x-4\\), for \\(x\\ne4\\) the expression becomes\n\\[\n\\frac{1}{\\sqrt{x+5}+3}.\n\\]\nNow substitute \\(x=4\\):\n\\[\n\\lim_{x\\to4}\\frac{\\sqrt{x+5}-3}{x-4}=\\frac{1}{3+3}=\\frac16.\n\\]\nTherefore the limit is \\(\\frac16\\).",
+          "id": "l1c-s1-p1-q1-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to4}\\frac{\\sqrt{x+5}-3}{x-4}\\)."
+        },
+        {
+          "answer": "Continuity at \\(x=1\\) requires the left-hand limit, right-hand value, and function value to agree. From the left,\n\\[\n\\lim_{x\\to1^-}(ax+2)=a+2.\n\\]\nFrom the right branch and from the definition at \\(x=1\\),\n\\[\nf(1)=1^2+b=b+1.\n\\]\nThus continuity gives\n\\[\na+2=b+1,\n\\]\nso\n\\[\nb=a+1.\n\\]\nTherefore all parameter pairs satisfying \\(b=a+1\\) make \\(f\\) continuous at \\(x=1\\).",
+          "id": "l1c-s1-p1-q1-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Let \\(f(x)=ax+2\\) for \\(x<1\\), and \\(f(x)=x^2+b\\) for \\(x\\ge1\\). Find the relationship between the constants \\(a\\) and \\(b\\) required for \\(f\\) to be continuous at \\(x=1\\)."
+        },
+        {
+          "answer": "The denominator is zero when \\(x-2=0\\), so \\(x=2\\). The numerator at \\(x=2\\) is \\(2(2)+1=5\\ne0\\), so \\(x=2\\) is a vertical asymptote. For the horizontal asymptote, compare leading terms:\n\\[\n\\frac{2x+1}{x-2}=\\frac{2+1/x}{1-2/x}.\n\\]\nAs \\(x\\to\\pm\\infty\\), the fractions \\(1/x\\) and \\(2/x\\) approach \\(0\\), so the limit is \\(2\\). Therefore the horizontal asymptote is \\(y=2\\). The asymptotes are \\(x=2\\) and \\(y=2\\).",
+          "id": "l1c-s1-p1-q1-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the vertical and horizontal asymptotes of \\(g(x)=\\frac{2x+1}{x-2}\\)."
+        },
+        {
+          "answer": "Use the derivative definition:\n\\[\nf'(x)=\\lim_{h\\to0}\\frac{(x+h)^2-3(x+h)-(x^2-3x)}{h}.\n\\]\nExpand the numerator:\n\\[\nx^2+2xh+h^2-3x-3h-x^2+3x=2xh+h^2-3h.\n\\]\nFactor \\(h\\):\n\\[\n2xh+h^2-3h=h(2x+h-3).\n\\]\nFor \\(h\\ne0\\), the difference quotient is \\(2x+h-3\\). Taking \\(h\\to0\\) gives\n\\[\nf'(x)=2x-3.\n\\]\nTherefore the derivative from first principles is \\(2x-3\\).",
+          "id": "l1c-s1-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Using first principles, find the derivative of \\(f(x)=x^2-3x\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s1-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Differential Calculus",
+      "stem": "This question uses differentiation rules, implicit differentiation, and local approximation.",
+      "title": "Derivative methods",
+      "parts": [
+        {
+          "answer": "Use the product rule with \\(u=x^2+1\\) and \\(v=e^{-x}\\). Then \\(u'=2x\\) and \\(v'=-e^{-x}\\). Hence\n\\[\nf'(x)=2xe^{-x}+(x^2+1)(-e^{-x}).\n\\]\nFactor \\(e^{-x}\\):\n\\[\nf'(x)=e^{-x}(2x-x^2-1).\n\\]\nTherefore \\(f'(x)=e^{-x}(2x-x^2-1)\\).",
+          "id": "l1c-s1-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Differentiate \\(f(x)=(x^2+1)e^{-x}\\)."
+        },
+        {
+          "answer": "Differentiate both sides with respect to \\(x\\), treating \\(y\\) as a function of \\(x\\). For \\(xy^2\\), use the product rule:\n\\[\n\\frac{d}{dx}(xy^2)=y^2+x\\cdot2y\\frac{dy}{dx}.\n\\]\nThe derivative of \\(x^2\\) is \\(2x\\), and the derivative of \\(5\\) is \\(0\\). Thus\n\\[\ny^2+2xy\\frac{dy}{dx}+2x=0.\n\\]\nSolve for \\(dy/dx\\):\n\\[\n2xy\\frac{dy}{dx}=-(y^2+2x),\n\\]\nso\n\\[\n\\frac{dy}{dx}=-\\frac{y^2+2x}{2xy},\n\\]\nwhere \\(xy\\ne0\\).",
+          "id": "l1c-s1-p1-q2-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "For the implicit curve \\(xy^2+x^2=5\\), find \\(\\frac{dy}{dx}\\)."
+        },
+        {
+          "answer": "First differentiate:\n\\[\nf'(x)=4x^3-12x.\n\\]\nDifferentiate again:\n\\[\nf''(x)=12x^2-12.\n\\]\nEvaluate at \\(x=2\\):\n\\[\nf''(2)=12(2)^2-12=48-12=36.\n\\]\nTherefore \\(f''(2)=36\\).",
+          "id": "l1c-s1-p1-q2-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For \\(f(x)=x^4-6x^2+3\\), find \\(f''(2)\\)."
+        },
+        {
+          "answer": "Let \\(f(x)=\\sqrt{x}\\) and choose the nearby base point \\(a=9\\). Then\n\\[\nf(9)=3,\\qquad f'(x)=\\frac{1}{2\\sqrt{x}},\\qquad f'(9)=\\frac16.\n\\]\nThe linear approximation is\n\\[\nL(x)=f(9)+f'(9)(x-9)=3+\\frac16(x-9).\n\\]\nAt \\(x=9.3\\),\n\\[\nL(9.3)=3+\\frac{0.3}{6}=3+0.05=3.05.\n\\]\nTherefore \\(\\sqrt{9.3}\\approx3.05\\).",
+          "id": "l1c-s1-p1-q2-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Use linear approximation about \\(x=9\\) to estimate \\(\\sqrt{9.3}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s1-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Applications of Derivatives",
+      "stem": "This question concerns optimisation, related rates, curve information, and indeterminate limits.",
+      "title": "Using derivatives to answer applied questions",
+      "parts": [
+        {
+          "answer": "The area is\n\\[\nA(x)=x(12-x)=12x-x^2,\n\\]\nwhere \\(0<x<12\\). Differentiate:\n\\[\nA'(x)=12-2x.\n\\]\nSet \\(A'(x)=0\\):\n\\[\n12-2x=0,\\qquad x=6.\n\\]\nThen \\(y=12-6=6\\). Since \\(A(x)\\) is a downward-opening quadratic, this critical point gives the maximum. Therefore the maximum area is obtained by a \\(6\\) by \\(6\\) rectangle.",
+          "id": "l1c-s1-p1-q3-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "A rectangle has side lengths \\(x\\) and \\(y\\), with \\(x+y=12\\). Find the side lengths that maximise its area."
+        },
+        {
+          "answer": "The volume of a sphere is\n\\[\nV=\\frac43\\pi r^3.\n\\]\nDifferentiate with respect to time:\n\\[\n\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\n\\]\nSubstitute \\(r=2\\) and \\(dr/dt=0.5\\):\n\\[\n\\frac{dV}{dt}=4\\pi(2)^2(0.5)=8\\pi.\n\\]\nTherefore the volume is increasing at \\(8\\pi\\) cubic units per second.",
+          "id": "l1c-s1-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "A sphere has radius \\(r\\) increasing at \\(0.5\\) units per second. How fast is the volume increasing when \\(r=2\\)?"
+        },
+        {
+          "answer": "Differentiate:\n\\[\nf'(x)=3x^2-12x=3x(x-4).\n\\]\nCritical points occur at \\(x=0\\) and \\(x=4\\). The second derivative is\n\\[\nf''(x)=6x-12.\n\\]\nAt \\(x=0\\), \\(f''(0)=-12<0\\), so there is a local maximum. At \\(x=4\\), \\(f''(4)=12>0\\), so there is a local minimum. The point values are \\(f(0)=1\\) and \\(f(4)=64-96+1=-31\\). Therefore the local maximum is \\((0,1)\\), and the local minimum is \\((4,-31)\\).",
+          "id": "l1c-s1-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For \\(f(x)=x^3-6x^2+1\\), find and classify the local stationary points."
+        },
+        {
+          "answer": "Substitution gives \\((e^0-1)/0=0/0\\), so L'Hopital's rule applies. Differentiate numerator and denominator:\n\\[\n\\lim_{x\\to0}\\frac{e^{2x}-1}{x}=\\lim_{x\\to0}\\frac{2e^{2x}}{1}.\n\\]\nNow substitute \\(x=0\\):\n\\[\n2e^0=2.\n\\]\nTherefore the limit is \\(2\\).",
+          "id": "l1c-s1-p1-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Use L'Hopital's rule to evaluate \\(\\displaystyle \\lim_{x\\to0}\\frac{e^{2x}-1}{x}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s1-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Integral Calculus",
+      "stem": "This question uses antiderivatives, substitution, integration by parts, partial fractions, and the fundamental theorem of calculus.",
+      "title": "Integral methods",
+      "parts": [
+        {
+          "answer": "Let \\(u=x^2+4\\). Then\n\\[\ndu=2x\\,dx.\n\\]\nThe integral becomes\n\\[\n\\int 2x(x^2+4)^5\\,dx=\\int u^5\\,du.\n\\]\nIntegrate:\n\\[\n\\int u^5\\,du=\\frac{u^6}{6}+C.\n\\]\nSubstitute back \\(u=x^2+4\\):\n\\[\n\\int 2x(x^2+4)^5\\,dx=\\frac{(x^2+4)^6}{6}+C.\n\\]",
+          "id": "l1c-s1-p1-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\int 2x(x^2+4)^5\\,dx\\)."
+        },
+        {
+          "answer": "Choose \\(u=x\\), so \\(du=dx\\), and choose \\(dv=\\cos x\\,dx\\), so \\(v=\\sin x\\). By integration by parts,\n\\[\n\\int x\\cos x\\,dx=x\\sin x-\\int \\sin x\\,dx.\n\\]\nSince \\(\\int\\sin x\\,dx=-\\cos x\\),\n\\[\n\\int x\\cos x\\,dx=x\\sin x+\\cos x+C.\n\\]\nTherefore the integral is \\(x\\sin x+\\cos x+C\\).",
+          "id": "l1c-s1-p1-q4-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int x\\cos x\\,dx\\)."
+        },
+        {
+          "answer": "Factor the denominator:\n\\[\nx^2-4=(x-2)(x+2).\n\\]\nWrite\n\\[\n\\frac{5x+6}{x^2-4}=\\frac{A}{x-2}+\\frac{B}{x+2}.\n\\]\nMultiplying by \\((x-2)(x+2)\\) gives\n\\[\n5x+6=A(x+2)+B(x-2).\n\\]\nSet \\(x=2\\): \\(16=4A\\), so \\(A=4\\). Set \\(x=-2\\): \\(-4=-4B\\), so \\(B=1\\). Therefore\n\\[\n\\int\\frac{5x+6}{x^2-4}\\,dx=4\\ln|x-2|+\\ln|x+2|+C.\n\\]",
+          "id": "l1c-s1-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int\\frac{5x+6}{x^2-4}\\,dx\\), for \\(x\\ne\\pm2\\)."
+        },
+        {
+          "answer": "Let\n\\[\nA(x)=\\int_1^{x^2}\\ln(1+t^2)\\,dt.\n\\]\nBy the fundamental theorem of calculus, the derivative with respect to the upper limit \\(u\\) is \\(\\ln(1+u^2)\\). Here \\(u=x^2\\), so use the chain rule:\n\\[\nA'(x)=\\ln(1+(x^2)^2)\\cdot2x.\n\\]\nThus\n\\[\nA'(x)=2x\\ln(1+x^4).\n\\]\nTherefore the derivative is \\(2x\\ln(1+x^4)\\).",
+          "id": "l1c-s1-p1-q4-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Differentiate \\(\\displaystyle A(x)=\\int_1^{x^2}\\ln(1+t^2)\\,dt\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s1-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Applications of Integrals and Series",
+      "stem": "This question combines accumulated area, volumes, improper integrals, and series convergence.",
+      "title": "Integral applications and infinite processes",
+      "parts": [
+        {
+          "answer": "Find intersections first:\n\\[\nx=x^2 \\quad\\Longrightarrow\\quad x^2-x=0 \\quad\\Longrightarrow\\quad x(x-1)=0.\n\\]\nThus the curves meet at \\(x=0\\) and \\(x=1\\). On \\([0,1]\\), \\(x\\ge x^2\\), so the area is\n\\[\nA=\\int_0^1(x-x^2)\\,dx.\n\\]\nIntegrate:\n\\[\nA=\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1=\\frac12-\\frac13=\\frac16.\n\\]\nTherefore the enclosed area is \\(\\frac16\\).",
+          "id": "l1c-s1-p1-q5-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the area enclosed by \\(y=x\\) and \\(y=x^2\\)."
+        },
+        {
+          "answer": "Rotating about the \\(x\\)-axis gives disks of radius \\(R(x)=\\sqrt{x}\\). The cross-sectional area is\n\\[\nA(x)=\\pi R(x)^2=\\pi x.\n\\]\nThus the volume is\n\\[\nV=\\pi\\int_0^4 x\\,dx.\n\\]\nEvaluate:\n\\[\nV=\\pi\\left[\\frac{x^2}{2}\\right]_0^4=\\pi\\cdot\\frac{16}{2}=8\\pi.\n\\]\nTherefore the volume is \\(8\\pi\\).",
+          "id": "l1c-s1-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the volume formed by rotating the region under \\(y=\\sqrt{x}\\) from \\(x=0\\) to \\(x=4\\) about the \\(x\\)-axis."
+        },
+        {
+          "answer": "Write the improper integral as a limit:\n\\[\n\\int_2^\\infty \\frac{1}{(x-1)^2}\\,dx=\\lim_{b\\to\\infty}\\int_2^b (x-1)^{-2}\\,dx.\n\\]\nAn antiderivative is\n\\[\n-(x-1)^{-1}=-\\frac{1}{x-1}.\n\\]\nEvaluate from \\(2\\) to \\(b\\):\n\\[\n-\\frac{1}{b-1}-\\left(-\\frac{1}{1}\\right)=1-\\frac{1}{b-1}.\n\\]\nTaking \\(b\\to\\infty\\) gives \\(1\\). Therefore the improper integral converges and equals \\(1\\).",
+          "id": "l1c-s1-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Determine whether \\(\\displaystyle \\int_2^\\infty \\frac{1}{(x-1)^2}\\,dx\\) converges, and evaluate it if it does."
+        },
+        {
+          "answer": "Use the ratio test with\n\\[\na_n=\\frac{3^n}{n^2}.\n\\]\nThen\n\\[\n\\left|\\frac{a_{n+1}}{a_n}\\right|=\\frac{3^{n+1}}{(n+1)^2}\\cdot\\frac{n^2}{3^n}=3\\left(\\frac{n}{n+1}\\right)^2.\n\\]\nTaking the limit gives\n\\[\n\\lim_{n\\to\\infty}3\\left(\\frac{n}{n+1}\\right)^2=3.\n\\]\nSince \\(3>1\\), the ratio test shows that the series diverges.",
+          "id": "l1c-s1-p1-q5-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Use the ratio test to determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{3^n}{n^2}\\) converges."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s1-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Multivariable Calculus and Differential Equations",
+      "stem": "This question concerns functions of several variables and elementary differential equations.",
+      "title": "Several variables and differential equations",
+      "parts": [
+        {
+          "answer": "Compute the first partial derivatives by holding the other variable constant. With respect to \\(x\\),\n\\[\nf_x=2xy+3y^2.\n\\]\nWith respect to \\(y\\),\n\\[\nf_y=x^2+6xy.\n\\]\nAt \\((1,2)\\),\n\\[\nf_x(1,2)=2(1)(2)+3(2)^2=4+12=16,\n\\]\nand\n\\[\nf_y(1,2)=1^2+6(1)(2)=1+12=13.\n\\]\nTherefore \\(\\nabla f(1,2)=(16,13)\\).",
+          "id": "l1c-s1-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "For \\(f(x,y)=x^2y+3xy^2\\), find \\(\\nabla f(1,2)\\)."
+        },
+        {
+          "answer": "The directional derivative in a unit direction \\(\\mathbf u\\) is\n\\[\nD_{\\mathbf u}f=\\nabla f\\cdot\\mathbf u.\n\\]\nUsing \\(\\nabla f(1,2)=(16,13)\\) and \\(\\mathbf u=(3/5,4/5)\\),\n\\[\nD_{\\mathbf u}f=16\\cdot\\frac35+13\\cdot\\frac45=\\frac{48}{5}+\\frac{52}{5}=\\frac{100}{5}=20.\n\\]\nTherefore the directional derivative is \\(20\\).",
+          "id": "l1c-s1-p1-q6-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Using the function from part (a), find the directional derivative at \\((1,2)\\) in the unit direction \\(\\mathbf u=(3/5,4/5)\\)."
+        },
+        {
+          "answer": "For \\(z=f(x,y)\\), the chain rule gives\n\\[\n\\frac{dz}{dt}=f_x\\frac{dx}{dt}+f_y\\frac{dy}{dt}.\n\\]\nHere \\(f_x=2xy+3y^2\\) and \\(f_y=x^2+6xy\\). Since \\(x=t\\), \\(dx/dt=1\\). Since \\(y=t^2\\), \\(dy/dt=2t\\). At \\(t=1\\), \\(x=1\\) and \\(y=1\\), so\n\\[\nf_x(1,1)=2(1)(1)+3(1)^2=5,\n\\]\nand\n\\[\nf_y(1,1)=1^2+6(1)(1)=7.\n\\]\nThus\n\\[\n\\frac{dz}{dt}\\bigg|_{t=1}=5(1)+7(2)=19.\n\\]\nTherefore \\(dz/dt=19\\) at \\(t=1\\).",
+          "id": "l1c-s1-p1-q6-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Let \\(z=f(x,y)=x^2y+3xy^2\\), where \\(x=t\\) and \\(y=t^2\\). Find \\(\\frac{dz}{dt}\\) at \\(t=1\\)."
+        },
+        {
+          "answer": "Separate variables:\n\\[\n\\frac{1}{y}\\,dy=2x\\,dx,\n\\]\nassuming \\(y\\ne0\\). Integrate both sides:\n\\[\n\\ln|y|=x^2+C.\n\\]\nExponentiating gives\n\\[\ny=Ae^{x^2}.\n\\]\nUse \\(y(0)=3\\):\n\\[\n3=Ae^0=A.\n\\]\nTherefore the solution is\n\\[\ny=3e^{x^2}.\n\\]",
+          "id": "l1c-s1-p1-q6-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Solve \\(\\frac{dy}{dx}=2xy\\) with initial condition \\(y(0)=3\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours 30 minutes",
+  "title": "Level 1 - Calculus Paper 1",
+  "totalMarks": 90
+}

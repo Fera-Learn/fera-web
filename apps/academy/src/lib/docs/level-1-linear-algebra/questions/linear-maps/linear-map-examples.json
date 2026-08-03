@@ -1,0 +1,119 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "linear-map-examples",
+  "topicTitle": "Linear Map Examples",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-01",
+      "prompt": "Is the derivative map \\(D:P_3 \\to P_2\\), \\(D(p)=p'\\), linear? Explain.",
+      "answer": "Yes. For polynomials \\(p\\) and \\(q\\) and scalar \\(c\\), \\(D(p+q)=(p+q)'=p'+q'=D(p)+D(q)\\), and \\(D(cp)=(cp)'=cp'=cD(p)\\). Therefore differentiation is linear.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "derivative-map",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-02",
+      "prompt": "Is the map \\(E:P_2 \\to \\mathbb R\\) defined by \\(E(p)=p(0)\\) linear? Explain.",
+      "answer": "Yes. Evaluation at 0 preserves addition and scalar multiplication. \\(E(p+q)=(p+q)(0)=p(0)+q(0)=E(p)+E(q)\\), and \\(E(cp)=(cp)(0)=cp(0)=cE(p)\\). Therefore \\(E\\) is linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "evaluation-map",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-03",
+      "prompt": "Is \\(T:P_2 \\to P_4\\) defined by \\(T(p)=p^2\\) linear? Explain.",
+      "answer": "No. Additivity fails. Let \\(p=1\\) and \\(q=x\\). Then \\(T(p+q)=(1+x)^2=1+2x+x^2\\), but \\(T(p)+T(q)=1^2+x^2=1+x^2\\). These are not equal, so \\(T\\) is not linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "nonlinear-maps",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-04",
+      "prompt": "Is the trace map \\(\\operatorname{tr}:M_{2,2}(\\mathbb R)\\to\\mathbb R\\) linear? Explain.",
+      "answer": "Yes. The trace is the sum of diagonal entries. For matrices \\(A\\) and \\(B\\), \\(\\operatorname{tr}(A+B)=\\operatorname{tr}(A)+\\operatorname{tr}(B)\\) because diagonal entries add. For scalar \\(c\\), \\(\\operatorname{tr}(cA)=c\\operatorname{tr}(A)\\) because diagonal entries scale by \\(c\\). Therefore the trace map is linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "trace",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-05",
+      "prompt": "Is \\(\\det:M_{2,2}(\\mathbb R)\\to\\mathbb R\\) linear? Explain.",
+      "answer": "No. A linear map must preserve scalar multiplication. For \\(A=I_2\\), \\(\\det(A)=1\\). But \\(\\det(2A)=\\det(2I_2)=4\\), while \\(2\\det(A)=2\\). Since \\(\\det(2A)\\) is not \\(2\\det(A)\\), the determinant map is not linear.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "determinants",
+        "nonlinear-maps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-06",
+      "prompt": "Is \\(T:\\mathbb R^3 \\to \\mathbb R\\) defined by \\(T(x,y,z)=x+y+z\\) linear? Explain.",
+      "answer": "Yes. The output is a fixed linear combination of the input coordinates. For u and v, the sum of coordinates of u + v equals the sum of coordinates of u plus the sum of coordinates of v. For scalar c, the coordinate sum of cu is c times the coordinate sum of u. Therefore T is linear.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "coordinate-functionals"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-07",
+      "prompt": "Is \\(T:\\mathbb R\\to\\mathbb R\\) defined by \\(T(x)=|x|\\) linear? Explain.",
+      "answer": "No. Homogeneity fails for negative scalars. Take \\(x=1\\) and scalar \\(c=-1\\). Then \\(T(cx)=T(-1)=1\\), but \\(cT(x)=-1\\cdot T(1)=-1\\). Since 1 is not equal to -1, \\(T\\) is not linear.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "nonlinear-maps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-08",
+      "prompt": "Is \\(T:\\mathbb R^2 \\to \\mathbb R^2\\) defined by \\(T(x,y)=(x,0)\\) linear? Explain.",
+      "answer": "Yes. This is projection onto the x-axis. For \\(u=(x_1,y_1)\\) and \\(v=(x_2,y_2)\\), \\(T(u+v)=(x_1+x_2,0)=(x_1,0)+(x_2,0)=T(u)+T(v)\\). For scalar \\(c\\), \\(T(cu)=(cx_1,0)=c(x_1,0)=cT(u)\\). Therefore \\(T\\) is linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "projections"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-09",
+      "prompt": "Is \\(T:P_2 \\to P_2\\) defined by \\(T(p)=p+1\\) linear? Explain.",
+      "answer": "No. A linear map must send the zero vector to zero. The zero vector in \\(P_2\\) is the zero polynomial. But \\(T(0)=0+1=1\\), which is not the zero polynomial. Therefore \\(T\\) is not linear.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "nonlinear-maps",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-map-examples-10",
+      "prompt": "Give one example of a linear map from \\(M_{2,2}(\\mathbb R)\\) to \\(\\mathbb R\\) and one example of a non-linear map from \\(M_{2,2}(\\mathbb R)\\) to \\(\\mathbb R\\).",
+      "answer": "A linear example is the trace map \\(T(A)=\\operatorname{tr}(A)\\), because trace preserves addition and scalar multiplication. A non-linear example is the determinant map \\(S(A)=\\det(A)\\), because \\(S(2I_2)=\\det(2I_2)=4\\) but \\(2S(I_2)=2\\). Therefore trace is linear and determinant is not linear.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "examples",
+        "matrices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "foundations-and-limits",
+  "topicId": "asymptotic-behaviour",
+  "topicTitle": "Asymptotic Behaviour",
+  "paperTags": [
+    "foundations-and-limits"
+  ],
+  "questions": [
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-01",
+      "prompt": "Find the vertical asymptote of \\(f(x)=\\frac{1}{x-5}\\).",
+      "answer": "A vertical asymptote can occur where the denominator is zero and the numerator is non-zero. Set \\(x-5=0\\), giving \\(x=5\\). The numerator is \\(1\\), so it does not cancel. Therefore the vertical asymptote is \\(x=5\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "vertical-asymptotes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-02",
+      "prompt": "Find the horizontal asymptote of \\(f(x)=\\frac{3x+1}{x-2}\\).",
+      "answer": "For a rational function with numerator and denominator of the same degree, the horizontal asymptote is the ratio of leading coefficients. The leading coefficient of the numerator is \\(3\\), and the leading coefficient of the denominator is \\(1\\). Therefore the horizontal asymptote is \\(y=3\\).",
+      "rating": "*",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "horizontal-asymptotes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-03",
+      "prompt": "Find the horizontal asymptote of \\(f(x)=\\frac{2x^2-1}{5x^2+x}\\).",
+      "answer": "The highest power in both numerator and denominator is \\(x^2\\). Divide top and bottom by \\(x^2\\): \\(f(x)=\\frac{2-1/x^2}{5+1/x}\\). As \\(x\\to\\pm\\infty\\), the terms \\(1/x^2\\) and \\(1/x\\) approach \\(0\\). The limiting value is \\(2/5\\), so the horizontal asymptote is \\(y=\\frac25\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "horizontal-asymptotes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-04",
+      "prompt": "Find the vertical asymptotes of \\(f(x)=\\frac{x+1}{x^2-9}\\).",
+      "answer": "Vertical asymptotes occur at uncancelled zeros of the denominator. Factor \\(x^2-9=(x-3)(x+3)\\). The numerator \\(x+1\\) does not cancel either factor. Therefore the vertical asymptotes are \\(x=3\\) and \\(x=-3\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "vertical-asymptotes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-05",
+      "prompt": "For \\(f(x)=\\frac{x^2+1}{x^3+1}\\), find the horizontal asymptote.",
+      "answer": "The denominator has higher degree than the numerator. Divide numerator and denominator by \\(x^3\\): \\(f(x)=\\frac{1/x+1/x^3}{1+1/x^3}\\). As \\(x\\to\\pm\\infty\\), all terms with \\(1/x\\) or \\(1/x^3\\) go to \\(0\\), so the limit is \\(0\\). Therefore the horizontal asymptote is \\(y=0\\).",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "end-behaviour"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-06",
+      "prompt": "For \\(f(x)=\\frac{x^2-4}{x-2}\\), explain whether \\(x=2\\) is a vertical asymptote.",
+      "answer": "Factor the numerator: \\(x^2-4=(x-2)(x+2)\\). For \\(x\\ne2\\), the function simplifies to \\(x+2\\). The factor causing the denominator to be zero cancels, so the function approaches the finite value \\(4\\) as \\(x\\to2\\). Therefore \\(x=2\\) is not a vertical asymptote; it is a removable hole.",
+      "rating": "**",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "holes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-07",
+      "prompt": "Find the slant asymptote of \\(f(x)=\\frac{x^2+3x+1}{x+1}\\).",
+      "answer": "Since the numerator degree is one more than the denominator degree, use polynomial division. Divide \\(x^2+3x+1\\) by \\(x+1\\): the quotient is \\(x+2\\), because \\((x+1)(x+2)=x^2+3x+2\\). The remainder is \\(-1\\), so \\(f(x)=x+2-\\frac{1}{x+1}\\). As \\(x\\to\\pm\\infty\\), the remainder term approaches \\(0\\). Therefore the slant asymptote is \\(y=x+2\\).",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "slant-asymptotes"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-08",
+      "prompt": "Find all vertical and horizontal asymptotes of \\(f(x)=\\frac{2x^2}{x^2-1}\\).",
+      "answer": "For vertical asymptotes, set the denominator to zero: \\(x^2-1=(x-1)(x+1)=0\\), so \\(x=1\\) or \\(x=-1\\). The numerator \\(2x^2\\) is non-zero at both values, so both are vertical asymptotes. For the horizontal asymptote, the degrees are equal, so use the ratio of leading coefficients \\(2/1=2\\). Thus the horizontal asymptote is \\(y=2\\).",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "rational-functions"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-09",
+      "prompt": "Compare the end behaviour of \\(f(x)=\\frac{4x^3-x}{2x^3+5}\\) as \\(x\\to\\infty\\) and as \\(x\\to-\\infty\\).",
+      "answer": "The numerator and denominator have the same highest power, \\(x^3\\). Divide by \\(x^3\\): \\(f(x)=\\frac{4-1/x^2}{2+5/x^3}\\). As \\(x\\to\\infty\\) or \\(x\\to-\\infty\\), the fractional terms approach \\(0\\). In both directions the limit is \\(4/2=2\\). Therefore the graph approaches the same horizontal asymptote \\(y=2\\) at both ends.",
+      "rating": "***",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "end-behaviour"
+      ]
+    },
+    {
+      "id": "calculus-foundations-and-limits-asymptotic-behaviour-10",
+      "prompt": "For \\(f(x)=\\frac{x^2-1}{x^2-3x+2}\\), identify any holes and vertical asymptotes.",
+      "answer": "Factor numerator and denominator: \\(x^2-1=(x-1)(x+1)\\), and \\(x^2-3x+2=(x-1)(x-2)\\). The factor \\(x-1\\) cancels, so \\(x=1\\) gives a hole, not a vertical asymptote. The simplified function is \\(\\frac{x+1}{x-2}\\), so the hole's \\(y\\)-value is \\(\\frac{1+1}{1-2}=-2\\). The remaining denominator zero \\(x=2\\) is a vertical asymptote. Thus there is a hole at \\((1,-2)\\) and a vertical asymptote at \\(x=2\\).",
+      "rating": "****",
+      "paperTags": [
+        "foundations-and-limits",
+        "asymptotic-behaviour",
+        "holes",
+        "vertical-asymptotes"
+      ]
+    }
+  ]
+}

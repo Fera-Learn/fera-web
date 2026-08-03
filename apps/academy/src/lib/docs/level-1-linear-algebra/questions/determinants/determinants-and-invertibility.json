@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "determinants-and-invertibility",
+  "topicTitle": "Determinants And Invertibility",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-01",
+      "prompt": "Decide whether \\(\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}\\) is invertible using its determinant.",
+      "answer": "Compute the determinant: \\(2\\cdot4\\) - \\(1\\cdot3\\) = 8 - 3 = 5. Since the determinant is non-zero, the matrix is invertible.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-02",
+      "prompt": "Decide whether \\(\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\) is invertible using its determinant.",
+      "answer": "Compute the determinant: \\(1\\cdot4\\) - \\(2\\cdot2\\) = 4 - 4 = 0. A square matrix with determinant 0 is not invertible. Therefore the matrix is not invertible.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-03",
+      "prompt": "If A is \\(3\\times 3\\) and \\(\\det(A)\\) = -7, what can you conclude about \\(Ax=b\\) for every b in \\(\\mathbb R^3\\)?",
+      "answer": "Since \\(\\det(A)\\) is non-zero, A is invertible. Therefore for every b in \\(\\mathbb R^3\\), the system \\(Ax=b\\) has exactly one solution, namely x = \\(A^{-1}\\)b.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "linear-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-04",
+      "prompt": "If \\(\\det(A)\\) = 0 for a square matrix A, what can you conclude about \\(Ax=0\\)?",
+      "answer": "If \\(\\det(A)\\) = 0, then A is not invertible. By the invertible matrix theorem, the homogeneous system \\(Ax=0\\) has a non-trivial solution. It also has the trivial solution \\(x=0\\), so it has infinitely many solutions when A is square.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "homogeneous-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-05",
+      "prompt": "Find all real t such that \\(A=\\begin{pmatrix}t&2\\\\8&t\\end{pmatrix}\\) is invertible.",
+      "answer": "A is invertible exactly when its determinant is non-zero. Compute \\(\\det(A)\\) = \\(t^2\\) - 16. This is non-zero when \\(t^2\\) != 16, so t != 4 and t != -4. Therefore A is invertible for all real t except \\(t=4\\) and \\(t=-4\\).",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-06",
+      "prompt": "A triangular \\(4\\times 4\\) matrix has diagonal entries 1, -2, 3, and 0. Is it invertible?",
+      "answer": "The determinant of a triangular matrix is the product of its diagonal entries. Here the product is 1*(-2)*\\(3\\cdot0\\) = 0. Since the determinant is zero, the matrix is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "triangular-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-07",
+      "prompt": "If A and B are invertible square matrices, explain why \\(AB\\) is invertible using determinants.",
+      "answer": "If A and B are invertible, then \\(\\det(A)\\) and \\(\\det(B)\\) are both non-zero. The product rule gives \\(\\det(\\(AB\\))\\) = \\(\\det(A)\\)\\(\\det(B)\\). A product of two non-zero numbers is non-zero, so \\(\\det(\\(AB\\))\\) != 0. Therefore \\(AB\\) is invertible.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "matrix-products"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-08",
+      "prompt": "Suppose \\(\\det(A)\\) = 5 and \\(\\det(B)\\) = 0 for square matrices of the same size. Is \\(AB\\) invertible?",
+      "answer": "Use the product rule: \\(\\det(\\(AB\\))\\) = \\(\\det(A)\\)\\(\\det(B)\\) = \\(5\\cdot0\\) = 0. Since \\(\\det(\\(AB\\))\\) = 0, the product \\(AB\\) is not invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "matrix-products"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-09",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2&3\\\\0&1&4\\\\0&0&5\\end{pmatrix}\\), decide invertibility without row reducing.",
+      "answer": "A is upper triangular, so \\(\\det(A)\\) is the product of its diagonal entries: \\(1\\cdot1\\)*5 = 5. Since the determinant is non-zero, A is invertible.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "triangular-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-determinants-and-invertibility-10",
+      "prompt": "A learner says a matrix with a negative determinant is not invertible. Diagnose the error.",
+      "answer": "Invertibility depends on whether the determinant is zero, not whether it is positive. Any non-zero determinant, positive or negative, means the matrix is invertible. For example, \\(\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\\) has determinant -1 and is invertible. The learner confused negative with zero.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "invertibility",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

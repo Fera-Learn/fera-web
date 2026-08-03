@@ -1,0 +1,113 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "linear-maps",
+  "topicTitle": "Linear Maps",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-01",
+      "prompt": "State the two properties that define a linear map \\(T:V\\to W\\).",
+      "answer": "A map \\(T:V\\to W\\) is linear when it preserves addition and scalar multiplication. Preservation of addition means \\(T(u+v)=T(u)+T(v)\\) for all \\(u\\) and \\(v\\) in \\(V\\). Preservation of scalar multiplication means \\(T(cu)=cT(u)\\) for every real scalar \\(c\\) and every \\(u\\) in \\(V\\).",
+      "rating": "*",
+      "paperTags": [
+        "linear-maps",
+        "definition"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-02",
+      "prompt": "Show that \\(T:\\mathbb R^2 \\to \\mathbb R^2\\) defined by \\(T(x,y)=(2x,-y)\\) is linear.",
+      "answer": "Let u = \\((x1, y1)\\), v = \\((x2, y2)\\), and c be real. For addition, \\(T(u + v)\\) = \\(T(x1 + x2, y1 + y2)\\) = \\((2x1 + 2x2, -y1 - y2)\\) = \\((2x1, -y1)\\) + \\((2x2, -y2)\\) = \\(T(u)\\) + \\(T(v)\\). For scalar multiplication, \\(T(cu)\\) = \\(T(cx1, cy1)\\) = \\((2cx1, -cy1)\\) = c(2x1, -y1) = cT(u). Therefore T is linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "linearity-test"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-03",
+      "prompt": "Show that \\(T:\\mathbb R^2 \\to \\mathbb R^2\\) defined by \\(T(x,y)=(x+1,y)\\) is not linear.",
+      "answer": "A linear map must send the zero vector to the zero vector. Here \\(T(0, 0)\\) = \\((1, 0)\\), which is not \\((0, 0)\\). Therefore T is not linear.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "nonlinear-maps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-04",
+      "prompt": "Show that \\(T:\\mathbb R^2 \\to \\mathbb R\\) defined by \\(T(x,y)=x-3y\\) is linear.",
+      "answer": "Let u = \\((x1, y1)\\), v = \\((x2, y2)\\), and c be real. \\(T(u + v)\\) = \\(T(x1 + x2, y1 + y2)\\) = (x1 + x2) - 3(y1 + y2) = (x1 - 3y1) + (x2 - 3y2) = \\(T(u)\\) + \\(T(v)\\). Also \\(T(cu)\\) = \\(T(cx1, cy1)\\) = cx1 - 3cy1 = c(x1 - 3y1) = cT(u). Therefore T is linear.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "linearity-test"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-05",
+      "prompt": "Is \\(T:\\mathbb R\\to\\mathbb R\\) defined by \\(T(x)=x^2\\) linear? Explain.",
+      "answer": "No. Additivity fails. For example, \\(T(1 + 1)\\) = \\(T(2)\\) = 4, while \\(T(1)\\) + \\(T(1)\\) = 1 + 1 = 2. Since \\(T(1 + 1)\\) is not equal to \\(T(1)\\) + \\(T(1)\\), T is not linear.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "nonlinear-maps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-06",
+      "prompt": "Is \\(T:\\mathbb R^3 \\to \\mathbb R^3\\) defined by \\(T(x,y,z)=(x,y,0)\\) linear? Explain.",
+      "answer": "Yes. This map keeps the first two coordinates and sets the third coordinate to zero. For u and v, \\(T(u + v)\\) keeps the first two coordinates of u + v and gives third coordinate zero, which is the same as \\(T(u)\\) + \\(T(v)\\). For a scalar c, \\(T(cu)\\) = cT(u) because the first two coordinates scale and the third remains zero. Therefore T is linear.",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "projections"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-07",
+      "prompt": "Show that every linear map T satisfies \\(T(0)\\) = 0.",
+      "answer": "Use scalar multiplication preservation. Since 0v = 0 for any vector v, linearity gives \\(T(0)\\) = \\(T(0v)\\) = 0T(v). The vector 0T(v) is the zero vector in the codomain. Therefore \\(T(0)\\) = 0.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "zero-vector",
+        "proof"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-08",
+      "prompt": "If T is linear and \\(T(1, 0)\\) = \\((2, 1)\\), \\(T(0, 1)\\) = \\((-1, 3)\\), find \\(T(4, 5)\\).",
+      "answer": "Write \\((4, 5)\\) = 4\\((1, 0)\\) + 5\\((0, 1)\\). By linearity, \\(T(4, 5)\\) = 4T(1, 0) + 5T(0, 1). Substitute: 4\\((2, 1)\\) + 5\\((-1, 3)\\) = \\((8, 4)\\) + \\((-5, 15)\\) = \\((3, 19)\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "basis-values"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-09",
+      "prompt": "Suppose T is linear and \\(T(2, 1)\\) = \\((5, -1)\\). Find \\(T(6, 3)\\).",
+      "answer": "Notice that \\((6, 3)\\) = 3\\((2, 1)\\). Since T is linear, \\(T(6, 3)\\) = T(3\\((2, 1)\\)) = 3T(2, 1). Therefore \\(T(6, 3)\\) = 3\\((5, -1)\\) = \\((15, -3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "homogeneity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-linear-maps-10",
+      "prompt": "A learner says a map is linear if its graph is a straight line. Diagnose the error in the context of linear algebra.",
+      "answer": "In linear algebra, a map is linear if it preserves addition and scalar multiplication. A straight-line function such as f(x) = x + 1 has a straight graph, but it is not linear as a linear map because \\(f(0)\\) = 1, not 0. Linear maps must send zero to zero. The learner is confusing affine straight-line graphs with linear maps.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

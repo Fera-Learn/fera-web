@@ -4,8 +4,14 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "dev:local": "pnpm db:start && pnpm --parallel --filter auth --filter app dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:start": "pnpm dlx supabase start",
+    "db:reset": "pnpm dlx supabase db reset",
+    "db:types": "pnpm run db:types:local",
+    "db:types:local": "SUPABASE_ACCESS_TOKEN=local pnpm dlx supabase gen types typescript --local --schema public > packages/supabase/src/database.types.ts",
+    "db:types:project": "pnpm dlx supabase gen types typescript --project-id $SUPABASE_PROJECT_ID --schema public > packages/supabase/src/database.types.ts",
     "check:diagrams": "node scripts/validate-diagrams-package.mjs && node apps/academy/scripts/validate-chart-demos-diagrams.mjs",
     "check-types": "turbo run check-types && pnpm check:diagrams"
   },

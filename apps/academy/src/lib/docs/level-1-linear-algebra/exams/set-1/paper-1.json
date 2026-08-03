@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-linear-algebra",
+  "setId": "set-1",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1",
+    "vectors",
+    "matrices",
+    "linear-systems",
+    "determinants",
+    "subspaces",
+    "linear-maps",
+    "eigenvalues"
+  ],
+  "description": "A full Level 1 - Linear Algebra exam covering vector geometry, matrix algebra, systems, determinants, subspaces, linear maps, and eigenvalue methods.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry 15 marks.",
+    "Show sufficient working to justify each answer.",
+    "Exact answers are preferred unless a decimal approximation is requested."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1la-s1-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Vectors In Rn",
+      "stem": "This question concerns vector operations, scalar products, vector products, and planes in \\(\\mathbb R^3\\).",
+      "title": "Vector geometry and planes",
+      "parts": [
+        {
+          "answer": "Compute the scalar multiple first: \\(2\\mathbf u=(4,-2,6)\\). Then subtract component by component: \\(2\\mathbf u-\\mathbf v=(4,-2,6)-(-1,4,2)=(5,-6,4)\\). Therefore \\(2\\mathbf u-\\mathbf v=(5,-6,4)\\).",
+          "id": "l1la-s1-p1-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Let \\(\\mathbf u=(2,-1,3)\\) and \\(\\mathbf v=(-1,4,2)\\). Compute \\(2\\mathbf u-\\mathbf v\\)."
+        },
+        {
+          "answer": "Use the scalar product: \\(\\mathbf u\\cdot\\mathbf v=2(-1)+(-1)4+3(2)=-2-4+6=0\\). Since both vectors are non-zero and their scalar product is zero, \\(\\mathbf u\\) and \\(\\mathbf v\\) are orthogonal. The angle between them is \\(\\pi/2\\).",
+          "id": "l1la-s1-p1-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Use a scalar product to decide whether \\(\\mathbf u\\) and \\(\\mathbf v\\) from part (a) are orthogonal."
+        },
+        {
+          "answer": "Use the component formula for the vector product. For \\(\\mathbf u=(2,-1,3)\\) and \\(\\mathbf v=(-1,4,2)\\), \\(\\mathbf u\\times\\mathbf v=(( -1)2-3(4),\\,3(-1)-2(2),\\,2(4)-(-1)(-1))=(-14,-7,7)\\). Check with \\(\\mathbf u\\): \\((-14,-7,7)\\cdot(2,-1,3)=-28+7+21=0\\). Check with \\(\\mathbf v\\): \\((-14,-7,7)\\cdot(-1,4,2)=14-28+14=0\\). Therefore \\(\\mathbf u\\times\\mathbf v=(-14,-7,7)\\), perpendicular to both input vectors.",
+          "id": "l1la-s1-p1-q1-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Compute \\(\\mathbf u\\times\\mathbf v\\) for the vectors from part (a), and verify that the result is perpendicular to both \\(\\mathbf u\\) and \\(\\mathbf v\\)."
+        },
+        {
+          "answer": "A plane with normal vector \\(\\mathbf n=(-14,-7,7)\\) through \\(P=(1,0,-2)\\) satisfies \\(\\mathbf n\\cdot((x,y,z)-P)=0\\). Thus \\(-14(x-1)-7(y-0)+7(z+2)=0\\). Expanding gives \\(-14x+14-7y+7z+14=0\\), so \\(-14x-7y+7z+28=0\\). Dividing by \\(7\\) gives \\(-2x-y+z+4=0\\), equivalently \\(2x+y-z=4\\).",
+          "id": "l1la-s1-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Use your vector product from part (c) as a normal vector to find an equation of the plane through \\(P=(1,0,-2)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s1-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Matrix Algebra",
+      "stem": "This question concerns matrix multiplication, transpose rules, inverse matrices, and non-commutativity.",
+      "title": "Matrix products and inverses",
+      "parts": [
+        {
+          "answer": "The product is defined because \\(A\\) is \\(2\\) by \\(3\\) and \\(B\\) is \\(3\\) by \\(2\\). The result is \\(2\\) by \\(2\\). Compute row-column products: entry \\((1,1)\\) is \\(1(2)+0(1)+(-1)(0)=2\\); entry \\((1,2)\\) is \\(1(3)+0(-2)+(-1)(4)=-1\\); entry \\((2,1)\\) is \\(2(2)+1(1)+3(0)=5\\); entry \\((2,2)\\) is \\(2(3)+1(-2)+3(4)=16\\). Therefore \\(AB=\\begin{pmatrix}2&-1\\\\5&16\\end{pmatrix}\\).",
+          "id": "l1la-s1-p1-q2-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Let \\(A=\\begin{pmatrix}1&0&-1\\\\2&1&3\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}2&3\\\\1&-2\\\\0&4\\end{pmatrix}\\). Compute \\(AB\\)."
+        },
+        {
+          "answer": "First compute \\(B^T\\), which is \\(\\begin{pmatrix}2&1&0\\\\3&-2&4\\end{pmatrix}\\). Also \\(A^T=\\begin{pmatrix}1&2\\\\0&1\\\\-1&3\\end{pmatrix}\\). The transpose rule gives \\((AB)^T=B^TA^T\\). Since \\(AB=\\begin{pmatrix}2&-1\\\\5&16\\end{pmatrix}\\), \\((AB)^T=\\begin{pmatrix}2&5\\\\-1&16\\end{pmatrix}\\). This matches \\(B^TA^T\\), confirming the reversed order in the transpose rule.",
+          "id": "l1la-s1-p1-q2-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "State the transpose rule for a product and use part (a) to find \\((AB)^T\\)."
+        },
+        {
+          "answer": "Let \\(C=\\begin{pmatrix}3&1\\\\2&1\\end{pmatrix}\\). Its determinant is \\(3(1)-1(2)=1\\), so \\(C\\) is invertible. The inverse is \\(C^{-1}=\\begin{pmatrix}1&-1\\\\-2&3\\end{pmatrix}\\). For \\(C\\mathbf x=\\begin{pmatrix}4\\\\3\\end{pmatrix}\\), multiply by \\(C^{-1}\\): \\(\\mathbf x=C^{-1}\\begin{pmatrix}4\\\\3\\end{pmatrix}=\\begin{pmatrix}1(4)-1(3)\\\\-2(4)+3(3)\\end{pmatrix}=\\begin{pmatrix}1\\\\1\\end{pmatrix}\\). Therefore \\(x=1\\) and \\(y=1\\).",
+          "id": "l1la-s1-p1-q2-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Use an inverse matrix to solve \\(\\begin{pmatrix}3&1\\\\2&1\\end{pmatrix}\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}4\\\\3\\end{pmatrix}\\)."
+        },
+        {
+          "answer": "Matrix multiplication is not generally commutative. For example, with \\(D=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) and \\(E=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}\\), \\(DE=\\begin{pmatrix}3&1\\\\2&1\\end{pmatrix}\\), while \\(ED=\\begin{pmatrix}1&1\\\\2&3\\end{pmatrix}\\). Since these products are different, \\(DE\\ne ED\\).",
+          "id": "l1la-s1-p1-q2-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Give a concrete example showing that matrix multiplication is not commutative."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s1-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Linear Systems",
+      "stem": "This question uses augmented matrices, row reduction, and solution-set interpretation.",
+      "title": "Solving and classifying systems",
+      "parts": [
+        {
+          "answer": "The coefficient matrix is \\(A=\\begin{pmatrix}1&1&1\\\\2&3&5\\\\1&2&4\\end{pmatrix}\\), the unknown vector is \\(\\mathbf x=\\begin{pmatrix}x\\\\y\\\\z\\end{pmatrix}\\), and the right-hand side is \\(\\mathbf b=\\begin{pmatrix}3\\\\8\\\\6\\end{pmatrix}\\). The augmented matrix is \\(\\left(\\begin{array}{ccc|c}1&1&1&3\\\\2&3&5&8\\\\1&2&4&6\\end{array}\\right)\\).",
+          "id": "l1la-s1-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Write the augmented matrix for the system \\(x+y+z=3\\), \\(2x+3y+5z=8\\), \\(x+2y+4z=6\\)."
+        },
+        {
+          "answer": "Start from \\(\\left(\\begin{array}{ccc|c}1&1&1&3\\\\2&3&5&8\\\\1&2&4&6\\end{array}\\right)\\). Use \\(R_2\\leftarrow R_2-2R_1\\) and \\(R_3\\leftarrow R_3-R_1\\) to get \\(\\left(\\begin{array}{ccc|c}1&1&1&3\\\\0&1&3&2\\\\0&1&3&3\\end{array}\\right)\\). Then \\(R_3\\leftarrow R_3-R_2\\) gives \\(\\left(\\begin{array}{ccc|c}1&1&1&3\\\\0&1&3&2\\\\0&0&0&1\\end{array}\\right)\\). The last row means \\(0=1\\), a contradiction. Therefore the system is inconsistent and has no solution.",
+          "id": "l1la-s1-p1-q3-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Row-reduce the augmented matrix from part (a) enough to classify the system."
+        },
+        {
+          "answer": "For the new system, row reduction gives \\(\\left(\\begin{array}{ccc|c}1&1&1&3\\\\0&1&3&2\\\\0&0&0&0\\end{array}\\right)\\). The variables \\(x\\) and \\(y\\) are pivot variables, and \\(z\\) is free. Let \\(z=t\\). The second row gives \\(y+3t=2\\), so \\(y=2-3t\\). The first row gives \\(x+y+t=3\\), so \\(x=3-(2-3t)-t=1+2t\\). Therefore the solution set is \\((x,y,z)=(1,2,0)+t(2,-3,1)\\), where \\(t\\in\\mathbb R\\).",
+          "id": "l1la-s1-p1-q3-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Replace the third equation by \\(x+2y+4z=5\\). Find the solution set of the new system."
+        },
+        {
+          "answer": "A pivot column is a column containing a leading entry in echelon or reduced echelon form. A variable whose column is a pivot column is a pivot variable. Any non-pivot variable is free, meaning it can be chosen as a parameter. In part (c), the column for \\(z\\) has no pivot, so \\(z\\) is free.",
+          "id": "l1la-s1-p1-q3-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Explain the difference between a pivot variable and a free variable."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s1-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Determinants",
+      "stem": "This question concerns determinant calculation, determinant properties, geometry, and invertibility.",
+      "title": "Determinants and their consequences",
+      "parts": [
+        {
+          "answer": "Expand along the first row: \\(\\det A=2\\det\\begin{pmatrix}3&1\\\\2&4\\end{pmatrix}-1\\det\\begin{pmatrix}0&1\\\\1&4\\end{pmatrix}+0\\). The first minor is \\(3(4)-1(2)=10\\). The second minor is \\(0(4)-1(1)=-1\\). Therefore \\(\\det A=2(10)-1(-1)=21\\).",
+          "id": "l1la-s1-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Compute \\(\\det A\\) for \\(A=\\begin{pmatrix}2&1&0\\\\0&3&1\\\\1&2&4\\end{pmatrix}\\)."
+        },
+        {
+          "answer": "A square matrix is invertible exactly when its determinant is non-zero. Since \\(\\det A=21\\ne0\\), the matrix \\(A\\) is invertible. The columns of \\(A\\) are also linearly independent because a non-zero determinant means the column vectors span non-zero three-dimensional volume.",
+          "id": "l1la-s1-p1-q4-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Use your determinant from part (a) to decide whether \\(A\\) is invertible and whether its columns are linearly independent."
+        },
+        {
+          "answer": "If \\(B\\) is obtained by swapping two rows of \\(A\\), then \\(\\det B=-\\det A\\). Since \\(\\det A=21\\), \\(\\det B=-21\\). If \\(C\\) is obtained by multiplying one row of \\(A\\) by \\(5\\), then \\(\\det C=5\\det A=105\\).",
+          "id": "l1la-s1-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Let \\(B\\) be obtained from \\(A\\) by swapping two rows, and let \\(C\\) be obtained from \\(A\\) by multiplying one row by \\(5\\). Find \\(\\det B\\) and \\(\\det C\\)."
+        },
+        {
+          "answer": "The parallelogram area is the absolute value of the determinant with the vectors as columns: \\(\\left|\\det\\begin{pmatrix}3&1\\\\-1&4\\end{pmatrix}\\right|\\). The determinant is \\(3(4)-1(-1)=12+1=13\\). Therefore the area is \\(13\\) square units.",
+          "id": "l1la-s1-p1-q4-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the area of the parallelogram spanned by \\(\\mathbf p=(3,-1)\\) and \\(\\mathbf q=(1,4)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s1-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Subspaces and Dimension",
+      "stem": "This question concerns subspaces, spans, independence, bases, and coordinates.",
+      "title": "Subspaces, bases, and coordinates",
+      "parts": [
+        {
+          "answer": "The zero vector satisfies \\(0-2(0)+0=0\\), so \\(\\mathbf0\\in W\\). If \\(\\mathbf u=(x_1,y_1,z_1)\\in W\\) and \\(\\mathbf v=(x_2,y_2,z_2)\\in W\\), then \\(x_1-2y_1+z_1=0\\) and \\(x_2-2y_2+z_2=0\\). For scalars \\(\\lambda,\\mu\\), the defining expression for \\(\\lambda\\mathbf u+\\mu\\mathbf v\\) is \\(\\lambda(x_1-2y_1+z_1)+\\mu(x_2-2y_2+z_2)=0\\). Therefore every linear combination stays in \\(W\\), so \\(W\\) is a subspace of \\(\\mathbb R^3\\).",
+          "id": "l1la-s1-p1-q5-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "Show that \\(W=\\{(x,y,z)\\in\\mathbb R^3:x-2y+z=0\\}\\) is a subspace of \\(\\mathbb R^3\\)."
+        },
+        {
+          "answer": "Solve the defining equation for \\(x\\): \\(x=2y-z\\). Let \\(y=s\\) and \\(z=t\\). Then \\((x,y,z)=(2s-t,s,t)=s(2,1,0)+t(-1,0,1)\\). Thus \\(W=\\operatorname{span}((2,1,0),(-1,0,1))\\). These two vectors are not scalar multiples, so they are linearly independent. Therefore they form a basis for \\(W\\), and \\(\\dim W=2\\).",
+          "id": "l1la-s1-p1-q5-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find a basis for \\(W\\) and state \\(\\dim W\\)."
+        },
+        {
+          "answer": "A vector lies in the span exactly when it can be written as \\(a(2,1,0)+b(-1,0,1)\\). This gives \\((2a-b,a,b)=(3,2,-1)\\). From the second component, \\(a=2\\). From the third component, \\(b=-1\\). The first component then gives \\(2(2)-(-1)=5\\), not \\(3\\). The equations are inconsistent, so \\((3,2,-1)\notin W\\). Equivalently, \\(3-2(2)+(-1)=-2\\ne0\\).",
+          "id": "l1la-s1-p1-q5-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Decide whether \\((3,2,-1)\\) lies in the span of your basis from part (b)."
+        },
+        {
+          "answer": "The set \\(S\\) is not a subspace because a subspace must contain the zero vector. For \\(\\mathbf0=(0,0,0)\\), the defining expression gives \\(0-2(0)+0=0\\), not \\(1\\). Therefore \\(\\mathbf0\notin S\\), so \\(S\\) is not a subspace.",
+          "id": "l1la-s1-p1-q5-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Explain why \\(S=\\{(x,y,z):x-2y+z=1\\}\\) is not a subspace of \\(\\mathbb R^3\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s1-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Linear Maps and Eigenvalues",
+      "stem": "This question concerns matrix representations, kernels, images, rank-nullity, and diagonalisation.",
+      "title": "Linear maps and eigenvalue structure",
+      "parts": [
+        {
+          "answer": "The standard matrix has columns \\(T(1,0)\\) and \\(T(0,1)\\). We have \\(T(1,0)=(2,1)\\) and \\(T(0,1)=(-1,3)\\). Therefore the matrix representation is \\(A=\\begin{pmatrix}2&-1\\\\1&3\\end{pmatrix}\\).",
+          "id": "l1la-s1-p1-q6-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Let \\(T:\\mathbb R^2\\to\\mathbb R^2\\) be defined by \\(T(x,y)=(2x-y,x+3y)\\). Find the standard matrix of \\(T\\)."
+        },
+        {
+          "answer": "The kernel solves \\(A\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\mathbf0\\), so \\(2x-y=0\\) and \\(x+3y=0\\). From the first equation, \\(y=2x\\). Substitute into the second: \\(x+6x=7x=0\\), so \\(x=0\\) and \\(y=0\\). Thus \\(\\ker T=\\{\\mathbf0\\}\\). The determinant of \\(A\\) is \\(2(3)-(-1)(1)=7\\ne0\\), so \\(A\\) is invertible and \\(\\operatorname{im}T=\\mathbb R^2\\). Therefore rank is \\(2\\) and nullity is \\(0\\).",
+          "id": "l1la-s1-p1-q6-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find \\(\\ker T\\), \\(\\operatorname{im}T\\), the rank, and the nullity."
+        },
+        {
+          "answer": "For \\(M=\\begin{pmatrix}4&1\\\\0&2\\end{pmatrix}\\), the characteristic polynomial is \\(\\det(M-\\lambda I)=(4-\\lambda)(2-\\lambda)\\). Therefore the eigenvalues are \\(\\lambda=4\\) and \\(\\lambda=2\\). For \\(\\lambda=4\\), \\(M-4I=\\begin{pmatrix}0&1\\\\0&-2\\end{pmatrix}\\), so \\(y=0\\); one eigenvector is \\((1,0)\\). For \\(\\lambda=2\\), \\(M-2I=\\begin{pmatrix}2&1\\\\0&0\\end{pmatrix}\\), so \\(2x+y=0\\); one eigenvector is \\((1,-2)\\).",
+          "id": "l1la-s1-p1-q6-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Find the eigenvalues of \\(M=\\begin{pmatrix}4&1\\\\0&2\\end{pmatrix}\\) and one eigenvector for each eigenvalue."
+        },
+        {
+          "answer": "The two eigenvalues are distinct, so their eigenvectors are linearly independent. A \\(2\\) by \\(2\\) matrix with two linearly independent eigenvectors is diagonalizable. With \\(P=\\begin{pmatrix}1&1\\\\0&-2\\end{pmatrix}\\) and \\(D=\\begin{pmatrix}4&0\\\\0&2\\end{pmatrix}\\), using the eigenvectors in matching order, \\(M=PDP^{-1}\\).",
+          "id": "l1la-s1-p1-q6-d",
+          "label": "(d)",
+          "marks": 2,
+          "prompt": "Decide whether \\(M\\) from part (c) is diagonalizable, and give suitable matrices \\(P\\) and \\(D\\) if it is."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours 30 minutes",
+  "title": "Level 1 - Linear Algebra Paper 1",
+  "totalMarks": 90
+}

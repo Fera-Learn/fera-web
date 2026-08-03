@@ -1,0 +1,121 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "real-vector-spaces",
+  "topicId": "sums-and-intersections",
+  "topicTitle": "Sums And Intersections",
+  "paperTags": [
+    "real-vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-01",
+      "prompt": "Let \\(U=span\\)(\\((1,0)\\)) and \\(W=span\\)(\\((0,1)\\)) in \\(\\mathbb R^2\\). Find U + W.",
+      "answer": "The sum U + W consists of all vectors u + w with u in U and w in W. A vector in U has form \\((a,0)\\), and a vector in W has form \\((0,b)\\). Their sum is \\((a,b)\\). Since a and b can be any real numbers, U + W = \\(\\mathbb R^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "sums",
+        "spans"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-02",
+      "prompt": "Let \\(U=span\\)(\\((1,0)\\)) and \\(W=span\\)(\\((0,1)\\)) in \\(\\mathbb R^2\\). Find U intersection W.",
+      "answer": "A vector in U has form \\((a,0)\\), and a vector in W has form \\((0,b)\\). If a vector is in both, then \\((a,0)\\) = \\((0,b)\\). Comparing components gives \\(a=0\\) and \\(b=0\\). Therefore U intersection W = {\\((0,0)\\)}.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "intersections"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-03",
+      "prompt": "Let U be the xy-plane in \\(\\mathbb R^3\\) and W be the z-axis. Find U + W.",
+      "answer": "A vector in U has form \\((a,b,0)\\), and a vector in W has form \\((0,0,c)\\). Their sum is \\((a,b,c)\\). Since a, b, and c are arbitrary real numbers, every vector in \\(\\mathbb R^3\\) can be written this way. Therefore U + W = \\(\\mathbb R^3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "sums",
+        "geometry"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-04",
+      "prompt": "Let U be the xy-plane in \\(\\mathbb R^3\\) and W be the z-axis. Find U intersection W.",
+      "answer": "Vectors in the xy-plane have form \\((a,b,0)\\). Vectors on the z-axis have form \\((0,0,c)\\). A vector in both must satisfy \\((a,b,0)\\) = \\((0,0,c)\\), so \\(a=0\\), \\(b=0\\), and \\(c=0\\). Therefore the intersection is {\\((0,0,0)\\)}.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "intersections",
+        "geometry"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-05",
+      "prompt": "Let \\(U=span\\)(\\((1,0,0)\\), \\((0,1,0)\\)) and \\(W=span\\)(\\((0,1,0)\\), \\((0,0,1)\\)). Find a basis for U intersection W.",
+      "answer": "U is the xy-plane, and W is the yz-plane. A vector in U has form \\((a,b,0)\\). A vector in W has form \\((0,c,d)\\). For a vector to be in both, its x-component and z-component must be 0, so it has form \\((0,t,0)\\). Therefore U intersection W is span(\\((0,1,0)\\)), and a basis is {\\((0,1,0)\\)}.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "intersections",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-06",
+      "prompt": "Use \\(\\dim(U + W)\\) = \\(\\dim(U)\\) + \\(\\dim(W)\\) - \\(\\dim(U intersection W)\\). If \\(\\dim(U)\\)=3, \\(\\dim(W)\\)=2, and \\(\\dim(U intersection W)\\)=1, find \\(\\dim(U + W)\\).",
+      "answer": "Substitute into the dimension formula: \\(\\dim(U + W)\\) = 3 + 2 - 1 = 4. Therefore \\(\\dim(U + W)\\) = 4.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "dimension",
+        "sums",
+        "intersections"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-07",
+      "prompt": "Let \\(U=span\\)(\\((1,0)\\)) and \\(W=span\\)(\\((1,1)\\)) in \\(\\mathbb R^2\\). Find U intersection W.",
+      "answer": "A vector in U has form \\((a,0)\\). A vector in W has form b(1,1) = \\((b,b)\\). If \\((a,0)\\) = \\((b,b)\\), then the second component gives 0 = b, so \\(b=0\\). Then \\(a=b\\) = 0. Therefore the intersection is {\\((0,0)\\)}.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "intersections"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-08",
+      "prompt": "Let U = \\(\\operatorname{span}(1)\\) and W = \\(\\operatorname{span}(x)\\) as subspaces of \\(P_1\\). Find U + W.",
+      "answer": "A vector in U has form a, and a vector in W has form bx. Their sum is \\(a+bx\\). Since every polynomial in \\(P_1\\) has form \\(a+bx\\), U + W = \\(P_1\\).",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "sums",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-09",
+      "prompt": "Let U = \\(\\operatorname{span}(1)\\) and W = \\(\\operatorname{span}(1+x)\\) as subspaces of \\(P_1\\). Find U intersection W.",
+      "answer": "A polynomial in U has form a. A polynomial in W has form b\\((1+x)\\) = b + bx. If \\(a=b\\) + bx as polynomials, then the x coefficient on the left is 0 and on the right is b, so \\(b=0\\). Then \\(a=0\\). Therefore U intersection W = {0}.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "intersections",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-sums-and-intersections-10",
+      "prompt": "A learner says U + W means union of U and W. Diagnose the error.",
+      "answer": "The sum U + W is not the union. It is the set of all sums u + w with u in U and w in W. For example, if U is the x-axis and W is the y-axis in \\(\\mathbb R^2\\), then U union W is just the two axes, but U + W is all of \\(\\mathbb R^2\\). The learner confused set union with subspace sum.",
+      "rating": "****",
+      "paperTags": [
+        "real-vector-spaces",
+        "sums",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

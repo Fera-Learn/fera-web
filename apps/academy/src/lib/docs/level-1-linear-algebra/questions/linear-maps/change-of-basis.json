@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "change-of-basis",
+  "topicTitle": "Change Of Basis",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-01",
+      "prompt": "Let \\(B=\\big((1,1),(1,-1)\\big)\\). Find the matrix \\(P\\) from B-coordinates to standard coordinates.",
+      "answer": "The columns of \\(P\\) are the basis vectors of \\(B\\) written in standard coordinates. Therefore \\(P=\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}\\). This matrix sends \\([v]_B\\) to the standard coordinate vector \\(v\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-02",
+      "prompt": "Using \\(B=\\big((1,1),(1,-1)\\big)\\), convert B-coordinates \\((2,1)\\) to standard coordinates.",
+      "answer": "The coordinate vector \\((2,1)\\) means \\(v=2(1,1)+1(1,-1)\\). Compute \\(2(1,1)=(2,2)\\), then add \\((1,-1)\\) to get \\((3,1)\\). Therefore the standard coordinates are \\((3,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-03",
+      "prompt": "Using \\(B=\\big((1,1),(1,-1)\\big)\\), find the B-coordinates of \\(v=(3,1)\\).",
+      "answer": "Solve \\(a(1,1)+b(1,-1)=(3,1)\\). This gives \\(a+b=3\\) and \\(a-b=1\\). Adding equations gives \\(2a=4\\), so \\(a=2\\). Then \\(b=1\\). Therefore \\([v]_B=(2,1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-04",
+      "prompt": "Let \\(B=\\big((2,0),(0,3)\\big)\\). Find \\(P\\) from B-coordinates to standard coordinates and \\(P^{-1}\\).",
+      "answer": "The basis matrix is \\(P=\\begin{pmatrix}2&0\\\\0&3\\end{pmatrix}\\). It sends \\((a,b)\\) to \\((2a,3b)\\). The inverse sends \\((x,y)\\) to \\((x/2, y/3)\\), so \\(P^{-1}\\) = \\(\\begin{pmatrix}1/2&0\\\\0&1/3\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-05",
+      "prompt": "Convert standard coordinates \\((10,12)\\) to B-coordinates for \\(B=\\big((2,0),(0,3)\\big)\\).",
+      "answer": "We need \\(a(2,0)+b(0,3)=(10,12)\\). This gives \\(2a=10\\) and \\(3b=12\\). Hence \\(a=5\\) and \\(b=4\\). Therefore the B-coordinates are \\((5,4)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-06",
+      "prompt": "For \\(B=\\big((1,0),(1,1)\\big)\\), find the standard vector represented by B-coordinate vector \\((3,-2)\\).",
+      "answer": "The B-coordinate vector \\((3,-2)\\) means \\(v=3(1,0)-2(1,1)\\). Compute \\(3(1,0)=(3,0)\\) and \\(-2(1,1)=(-2,-2)\\). Add to get \\(v=(1,-2)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-07",
+      "prompt": "For \\(B=\\big((1,0),(1,1)\\big)\\), find the B-coordinates of \\(v=(1,-2)\\).",
+      "answer": "Solve \\(a(1,0)+b(1,1)=(1,-2)\\). This gives \\((a+b,b)=(1,-2)\\). From the second component, \\(b=-2\\). Then \\(a+b=1\\) gives \\(a-2=1\\), so \\(a=3\\). Therefore \\([v]_B=(3,-2)\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-08",
+      "prompt": "Explain why a change-of-basis matrix must be invertible.",
+      "answer": "A change-of-basis matrix has basis vectors as columns. Basis vectors are linearly independent and span the space. Therefore the matrix has independent columns and a pivot in every column, so it is invertible. Invertibility is necessary because changing coordinates must be reversible.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-09",
+      "prompt": "Let \\(B=\\big(1+x,1-x\\big)\\). Convert B-coordinates \\((2,1)\\) to a polynomial in \\(P_1\\).",
+      "answer": "The coordinate vector \\((2,1)\\) means \\(p=2(1+x)+1(1-x)\\). Expanding gives \\(2+2x+1-x=3+x\\). Therefore the polynomial is \\(3+x\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-change-of-basis-10",
+      "prompt": "A learner says changing basis changes the vector itself. Diagnose the error.",
+      "answer": "Changing basis changes the coordinate description of a vector, not the vector itself. For example, the vector \\((3,1)\\) has standard coordinates \\((3,1)\\), but in the basis \\(\\big((1,1),(1,-1)\\big)\\) it has coordinates \\((2,1)\\). Both coordinate lists describe the same vector. The learner confused the vector with its coordinates.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "change-of-basis",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

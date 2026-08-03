@@ -1,0 +1,119 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "image-and-kernel",
+  "topicTitle": "Image And Kernel",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-01",
+      "prompt": "For \\(T:\\mathbb R^2 \\to \\mathbb R^2\\) defined by \\(T(x,y)=(x,0)\\), find \\(\\ker(T)\\).",
+      "answer": "The kernel is the set of inputs sent to zero. Solve \\(T(x,y)=(0,0)\\). This gives \\((x,0)=(0,0)\\), so \\(x=0\\) while y is free. Therefore \\(\\ker(T)=\\{(0,t):t\\in\\mathbb R\\}=\\operatorname{span}((0,1))\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "kernel"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-02",
+      "prompt": "For \\(T:\\mathbb R^2 \\to \\mathbb R^2\\) defined by \\(T(x,y)=(x,0)\\), find \\(\\operatorname{im}(T)\\).",
+      "answer": "The image is the set of outputs \\(T(x,y)\\). Since \\(T(x,y)=(x,0)\\), every output lies on the x-axis. Every vector \\((a,0)\\) occurs by taking \\(x=a\\). Therefore \\(\\operatorname{im}(T)=\\{(a,0):a\\in\\mathbb R\\}=\\operatorname{span}((1,0))\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "image"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-03",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\), find the kernel of \\(T(x)=Ax\\).",
+      "answer": "Solve \\(Ax=0\\). The equations are \\(x+2y=0\\) and \\(2x+4y=0\\). The second equation is twice the first, so use \\(x=-2y\\). Let \\(y=t\\). Then \\(x=-2t\\). Therefore \\(\\ker(T)=\\{(-2t,t):t\\in\\mathbb R\\}=\\operatorname{span}((-2,1))\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "kernel",
+        "matrix-maps"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-04",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\), find the image of \\(T(x)=Ax\\).",
+      "answer": "The image of a matrix map is the span of the columns of A. The columns are \\((1,2)\\) and \\((2,4)\\). Since \\((2,4)=2(1,2)\\), the column span is \\(\\operatorname{span}((1,2))\\). Therefore \\(\\operatorname{im}(T)=\\operatorname{span}((1,2))\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "image",
+        "column-space"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-05",
+      "prompt": "For \\(D:P_2 \\to P_1\\), \\(D(p)=p'\\), find \\(\\ker(D)\\).",
+      "answer": "The kernel consists of polynomials whose derivative is zero. These are exactly the constant polynomials. Therefore \\(\\ker(D)=\\operatorname{span}(1)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "kernel",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-06",
+      "prompt": "For \\(D:P_2 \\to P_1\\), \\(D(p)=p'\\), find \\(\\operatorname{im}(D)\\).",
+      "answer": "Every polynomial in \\(P_1\\) has form \\(a+bx\\). It is the derivative of \\(ax+\\frac b2x^2\\), which lies in \\(P_2\\). Therefore every element of \\(P_1\\) is hit by \\(D\\), so \\(\\operatorname{im}(D)=P_1\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "image",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-07",
+      "prompt": "For \\(T:\\mathbb R^3 \\to \\mathbb R\\) defined by \\(T(x,y,z)=x+y+z\\), find \\(\\ker(T)\\).",
+      "answer": "The kernel is all \\((x,y,z)\\) such that \\(x+y+z=0\\). Solve \\(x=-y-z\\). Let \\(y=s\\) and \\(z=t\\). Then \\((x,y,z)=(-s-t,s,t)=s(-1,1,0)+t(-1,0,1)\\). Therefore \\(\\ker(T)=\\operatorname{span}((-1,1,0),(-1,0,1))\\).",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "kernel"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-08",
+      "prompt": "For \\(T:\\mathbb R^3 \\to \\mathbb R\\) defined by \\(T(x,y,z)=x+y+z\\), find \\(\\operatorname{im}(T)\\).",
+      "answer": "The outputs are real numbers of the form \\(x+y+z\\). Every real number r can be produced by taking \\((x,y,z)=(r,0,0)\\). Therefore \\(\\operatorname{im}(T)=\\mathbb R\\).",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "image"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-09",
+      "prompt": "If \\(\\ker(T)=\\{0\\}\\), what does this say about a linear map T?",
+      "answer": "For a linear map, \\(\\ker(T)=\\{0\\}\\) means only the zero vector is sent to zero. This is equivalent to \\(T\\) being one-to-one. Therefore \\(T\\) is injective.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "kernel",
+        "injectivity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-image-and-kernel-10",
+      "prompt": "A learner says the kernel is the set of all outputs of a linear map. Diagnose the error.",
+      "answer": "The set of all outputs is the image, not the kernel. The kernel is the set of inputs that are sent to the zero vector. For example, for \\(T(x,y)\\) = \\((x,0)\\), the image is the x-axis, while the kernel is the y-axis. The learner confused input-side and output-side sets.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "kernel",
+        "image",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

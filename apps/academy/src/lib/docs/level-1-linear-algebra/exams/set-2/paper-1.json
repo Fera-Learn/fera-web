@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-linear-algebra",
+  "setId": "set-2",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1",
+    "vectors",
+    "matrices",
+    "linear-systems",
+    "vector-spaces",
+    "linear-maps",
+    "orthogonality",
+    "eigenvalues"
+  ],
+  "description": "A second full Level 1 - Linear Algebra exam with original questions on lines and planes, row operations, parameter systems, abstract vector spaces, change of basis, orthogonality, and eigenvalues.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry 15 marks.",
+    "Show sufficient working to justify each answer.",
+    "Exact answers are preferred unless a decimal approximation is requested."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1la-s2-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Lines, Planes, and Products In R3",
+      "stem": "This question concerns lines, planes, scalar triple products, and geometric interpretation in \\(\\mathbb R^3\\).",
+      "title": "Geometry in three dimensions",
+      "parts": [
+        {
+          "answer": "A direction vector from \\(P\\) to \\(Q\\) is \\(\\overrightarrow{PQ}=Q-P=(4-1,1-(-1),0-2)=(3,2,-2)\\). A vector equation is therefore \\(\\mathbf r=(1,-1,2)+t(3,2,-2)\\), where \\(t\\in\\mathbb R\\).",
+          "id": "l1la-s2-p1-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find a vector equation of the line through \\(P=(1,-1,2)\\) and \\(Q=(4,1,0)\\)."
+        },
+        {
+          "answer": "Compare coordinates with \\((1,-1,2)+t(3,2,-2)\\). From the \\(x\\)-coordinate, \\(7=1+3t\\), so \\(t=2\\). From the \\(y\\)-coordinate, \\(3=-1+2t\\), so \\(t=2\\). From the \\(z\\)-coordinate, \\(-2=2-2t\\), so \\(t=2\\). The same parameter value works in every coordinate, so \\((7,3,-2)\\) lies on the line.",
+          "id": "l1la-s2-p1-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Decide whether \\((7,3,-2)\\) lies on the line from part (a)."
+        },
+        {
+          "answer": "Use the scalar triple product. First compute \\(\\mathbf v\\times\\mathbf w=(0,1,2)\\times(3,-1,1)=(1(1)-2(-1),2(3)-0(1),0(-1)-1(3))=(3,6,-3)\\). Then \\(\\mathbf u\\cdot(\\mathbf v\\times\\mathbf w)=(1,2,-1)\\cdot(3,6,-3)=3+12+3=18\\). The volume is the absolute value, so the volume is \\(18\\).",
+          "id": "l1la-s2-p1-q1-c",
+          "label": "(c)",
+          "marks": 5,
+          "prompt": "Find the volume of the parallelepiped spanned by \\(\\mathbf u=(1,2,-1)\\), \\(\\mathbf v=(0,1,2)\\), and \\(\\mathbf w=(3,-1,1)\\)."
+        },
+        {
+          "answer": "A plane with normal vector \\((2,-1,3)\\) through \\((1,0,2)\\) satisfies \\(2(x-1)-1(y-0)+3(z-2)=0\\). Expanding gives \\(2x-2-y+3z-6=0\\), so \\(2x-y+3z=8\\). Therefore the plane equation is \\(2x-y+3z=8\\).",
+          "id": "l1la-s2-p1-q1-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Find the equation of the plane through \\((1,0,2)\\) with normal vector \\((2,-1,3)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s2-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Matrix Algebra and Inverses",
+      "stem": "This question concerns matrix operations, inverse tests, and adjugate-style calculations.",
+      "title": "Matrix structure and invertibility",
+      "parts": [
+        {
+          "answer": "Compute \\(2A=\\begin{pmatrix}2&-4\\\\6&0\\end{pmatrix}\\). Then \\(2A-B=\\begin{pmatrix}2&-4\\\\6&0\\end{pmatrix}-\\begin{pmatrix}4&1\\\\-2&5\\end{pmatrix}=\\begin{pmatrix}-2&-5\\\\8&-5\\end{pmatrix}\\).",
+          "id": "l1la-s2-p1-q2-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Let \\(A=\\begin{pmatrix}1&-2\\\\3&0\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}4&1\\\\-2&5\\end{pmatrix}\\). Compute \\(2A-B\\)."
+        },
+        {
+          "answer": "The determinant is \\(2(7)-3(5)=14-15=-1\\), which is non-zero. Therefore \\(C\\) is invertible. The inverse of a \\(2\\) by \\(2\\) matrix is \\(C^{-1}=\\frac{1}{ad-bc}\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\). Hence \\(C^{-1}=-1\\begin{pmatrix}7&-3\\\\-5&2\\end{pmatrix}=\\begin{pmatrix}-7&3\\\\5&-2\\end{pmatrix}\\).",
+          "id": "l1la-s2-p1-q2-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "For \\(C=\\begin{pmatrix}2&3\\\\5&7\\end{pmatrix}\\), determine whether \\(C\\) is invertible and find \\(C^{-1}\\) if it exists."
+        },
+        {
+          "answer": "Use the inverse from part (b): \\(\\mathbf x=C^{-1}\\begin{pmatrix}1\\\\3\\end{pmatrix}=\\begin{pmatrix}-7&3\\\\5&-2\\end{pmatrix}\\begin{pmatrix}1\\\\3\\end{pmatrix}\\). The first component is \\(-7(1)+3(3)=2\\). The second component is \\(5(1)-2(3)=-1\\). Therefore \\(\\mathbf x=\\begin{pmatrix}2\\\\-1\\end{pmatrix}\\).",
+          "id": "l1la-s2-p1-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Use your inverse from part (b) to solve \\(C\\mathbf x=\\begin{pmatrix}1\\\\3\\end{pmatrix}\\)."
+        },
+        {
+          "answer": "The product \\(FG\\) is defined only if the number of columns of \\(F\\) equals the number of rows of \\(G\\). Here \\(F\\) is \\(3\\) by \\(2\\), so it has \\(2\\) columns, and \\(G\\) is \\(2\\) by \\(4\\), so it has \\(2\\) rows. The product is defined and has size \\(3\\) by \\(4\\). The reverse product \\(GF\\) would be \\((2\\times4)(3\\times2)\\), which is not defined because \\(4\\ne3\\).",
+          "id": "l1la-s2-p1-q2-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "If \\(F\\) is \\(3\\) by \\(2\\) and \\(G\\) is \\(2\\) by \\(4\\), state whether \\(FG\\) and \\(GF\\) are defined, and give the size of each defined product."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s2-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Parameter-Dependent Systems",
+      "stem": "This question concerns determinants, parameter values, and consistency of linear systems.",
+      "title": "A parameter system",
+      "parts": [
+        {
+          "answer": "The coefficient matrix is \\(A=\\begin{pmatrix}1&1&1\\\\2&3&4\\\\1&2&a\\end{pmatrix}\\). Compute the determinant by expanding along the first row: \\(\\det A=1\\det\\begin{pmatrix}3&4\\\\2&a\\end{pmatrix}-1\\det\\begin{pmatrix}2&4\\\\1&a\\end{pmatrix}+1\\det\\begin{pmatrix}2&3\\\\1&2\\end{pmatrix}\\). This is \\((3a-8)-(2a-4)+(4-3)=a-3\\). The system has a unique solution exactly when \\(a-3\\ne0\\), so \\(a\\ne3\\).",
+          "id": "l1la-s2-p1-q3-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "For the system \\(x+y+z=1\\), \\(2x+3y+4z=5\\), \\(x+2y+az=b\\), find the values of \\(a\\) for which the system has a unique solution."
+        },
+        {
+          "answer": "Row-reduce the augmented matrix. Starting with \\(\\left(\\begin{array}{ccc|c}1&1&1&1\\\\2&3&4&5\\\\1&2&a&b\\end{array}\\right)\\), apply \\(R_2\\leftarrow R_2-2R_1\\) and \\(R_3\\leftarrow R_3-R_1\\) to get \\(\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&2&3\\\\0&1&a-1&b-1\\end{array}\\right)\\). Then \\(R_3\\leftarrow R_3-R_2\\) gives \\(\\left(\\begin{array}{ccc|c}1&1&1&1\\\\0&1&2&3\\\\0&0&a-3&b-4\\end{array}\\right)\\). When \\(a=3\\), the last row is \\(0=b-4\\).",
+          "id": "l1la-s2-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Reduce the augmented matrix far enough to classify the non-unique case."
+        },
+        {
+          "answer": "From part (b), when \\(a=3\\), the final row is \\(0=b-4\\). If \\(b\\ne4\\), this is a contradiction, so there is no solution. If \\(b=4\\), the row is \\(0=0\\), so one variable is free and there are infinitely many solutions. Therefore no solution occurs for \\(a=3\\), \\(b\\ne4\\); infinitely many solutions occur for \\(a=3\\), \\(b=4\\).",
+          "id": "l1la-s2-p1-q3-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "For \\(a=3\\), state when the system has no solution and when it has infinitely many solutions."
+        },
+        {
+          "answer": "Set \\(a=4\\) and \\(b=2\\). The reduced equations from part (b) become \\(y+2z=3\\), \\(z=b-4=-2\\), and \\(x+y+z=1\\). From \\(z=-2\\), \\(y+2(-2)=3\\), so \\(y=7\\). Then \\(x+7-2=1\\), so \\(x=-4\\). Therefore the solution is \\((x,y,z)=(-4,7,-2)\\).",
+          "id": "l1la-s2-p1-q3-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Find the solution when \\(a=4\\) and \\(b=2\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s2-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Real Vector Spaces",
+      "stem": "This question concerns vector spaces of polynomials, subspaces, bases, coordinates, sums, and intersections.",
+      "title": "Polynomial vector spaces and subspaces",
+      "parts": [
+        {
+          "answer": "Let \\(U=\\{p\\in P_2:p(1)=0\\}\\). The zero polynomial satisfies \\(0(1)=0\\), so it lies in \\(U\\). If \\(p,q\\in U\\), then \\(p(1)=0\\) and \\(q(1)=0\\). For scalars \\(\\lambda,\\mu\\), \\((\\lambda p+\\mu q)(1)=\\lambda p(1)+\\mu q(1)=0\\). Therefore every linear combination stays in \\(U\\), so \\(U\\) is a subspace of \\(P_2\\).",
+          "id": "l1la-s2-p1-q4-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Let \\(P_2\\) be the vector space of real polynomials of degree at most \\(2\\). Show that \\(U=\\{p\\in P_2:p(1)=0\\}\\) is a subspace."
+        },
+        {
+          "answer": "A polynomial \\(p(x)=a+bx+cx^2\\) lies in \\(U\\) when \\(a+b+c=0\\), so \\(a=-b-c\\). Thus \\(p(x)=b(x-1)+c(x^2-1)\\). Therefore \\((x-1,x^2-1)\\) spans \\(U\\). These two polynomials are independent because \\(\\alpha(x-1)+\\beta(x^2-1)=0\\) gives coefficient equations \\(\\beta=0\\), \\(\\alpha=0\\), and then the constant equation is satisfied. Hence a basis is \\((x-1,x^2-1)\\), and \\(\\dim U=2\\).",
+          "id": "l1la-s2-p1-q4-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find a basis for \\(U\\) and state \\(\\dim U\\)."
+        },
+        {
+          "answer": "Using the basis \\((x-1,x^2-1)\\), write \\(x^2+x-2=\\alpha(x-1)+\\beta(x^2-1)\\). Matching the \\(x^2\\) coefficient gives \\(\\beta=1\\). Matching the \\(x\\) coefficient gives \\(\\alpha=1\\). The constant term is then \\(-\\alpha-\\beta=-2\\), which matches. Therefore the coordinate vector is \\(\\begin{pmatrix}1\\\\1\\end{pmatrix}\\) in this basis.",
+          "id": "l1la-s2-p1-q4-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the coordinate vector of \\(x^2+x-2\\) relative to the basis from part (b)."
+        },
+        {
+          "answer": "Let \\(V=\\operatorname{span}(1+x)\\). Since \\(U\\) has dimension \\(2\\) and \\(V\\) has dimension \\(1\\), the sum can have dimension at most \\(3\\). The vector \\(1+x\\) is not in \\(U\\), because \\((1+x)(1)=2\\ne0\\). Therefore adding \\(V\\) contributes a new independent direction, so \\(\\dim(U+V)=3\\). Since \\(P_2\\) also has dimension \\(3\\), \\(U+V=P_2\\).",
+          "id": "l1la-s2-p1-q4-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Let \\(V=\\operatorname{span}(1+x)\\). Determine \\(\\dim(U+V)\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s2-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Linear Maps and Change of Basis",
+      "stem": "This question concerns kernels, images, coordinate vectors, and change-of-basis matrices.",
+      "title": "Linear maps and coordinates",
+      "parts": [
+        {
+          "answer": "Linearity follows from matrix multiplication: \\(T(\\lambda\\mathbf u+\\mu\\mathbf v)=A(\\lambda\\mathbf u+\\mu\\mathbf v)=\\lambda A\\mathbf u+\\mu A\\mathbf v=\\lambda T(\\mathbf u)+\\mu T(\\mathbf v)\\). Here \\(A=\\begin{pmatrix}1&2&0\\\\0&1&1\\end{pmatrix}\\), so \\(T\\) is linear.",
+          "id": "l1la-s2-p1-q5-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Let \\(T:\\mathbb R^3\\to\\mathbb R^2\\) be defined by \\(T(x,y,z)=(x+2y,y+z)\\). Explain why \\(T\\) is linear."
+        },
+        {
+          "answer": "The kernel solves \\(x+2y=0\\) and \\(y+z=0\\). Let \\(y=t\\). Then \\(x=-2t\\) and \\(z=-t\\), so \\((x,y,z)=t(-2,1,-1)\\). Therefore \\(\\ker T=\\operatorname{span}((-2,1,-1))\\), and the nullity is \\(1\\). Since the domain has dimension \\(3\\), rank-nullity gives \\(\\operatorname{rank}T=3-1=2\\). Thus \\(\\operatorname{im}T=\\mathbb R^2\\).",
+          "id": "l1la-s2-p1-q5-b",
+          "label": "(b)",
+          "marks": 5,
+          "prompt": "Find \\(\\ker T\\), the nullity, the rank, and \\(\\operatorname{im}T\\)."
+        },
+        {
+          "answer": "Let \\(B=((1,1),(1,-1))\\). To find \\([\\mathbf v]_B\\) for \\(\\mathbf v=(5,1)\\), solve \\(c_1(1,1)+c_2(1,-1)=(5,1)\\). This gives \\(c_1+c_2=5\\) and \\(c_1-c_2=1\\). Adding gives \\(2c_1=6\\), so \\(c_1=3\\). Then \\(c_2=2\\). Therefore \\([\\mathbf v]_B=\\begin{pmatrix}3\\\\2\\end{pmatrix}\\).",
+          "id": "l1la-s2-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For the basis \\(B=((1,1),(1,-1))\\) of \\(\\mathbb R^2\\), find \\([\\mathbf v]_B\\) when \\(\\mathbf v=(5,1)\\)."
+        },
+        {
+          "answer": "The change-of-basis matrix from \\(B\\)-coordinates to standard coordinates has the basis vectors as columns: \\(P_B=\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}\\). It satisfies \\(\\mathbf v=P_B[\\mathbf v]_B\\). Indeed, \\(P_B\\begin{pmatrix}3\\\\2\\end{pmatrix}=3(1,1)+2(1,-1)=(5,1)\\).",
+          "id": "l1la-s2-p1-q5-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Write the change-of-basis matrix from \\(B\\)-coordinates to standard coordinates, and check it using part (c)."
+        }
+      ]
+    },
+    {
+      "id": "l1la-s2-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Orthogonality and Eigenvalues",
+      "stem": "This question concerns orthogonal projection, eigenvalues, eigenspaces, and diagonalisation.",
+      "title": "Orthogonal and eigenvalue methods",
+      "parts": [
+        {
+          "answer": "The projection of \\(\\mathbf v\\) onto \\(\\mathbf u\\) is \\(\\operatorname{proj}_{\\mathbf u}\\mathbf v=\\frac{\\mathbf v\\cdot\\mathbf u}{\\mathbf u\\cdot\\mathbf u}\\mathbf u\\). Here \\(\\mathbf v\\cdot\\mathbf u=(3,1)\\cdot(1,2)=5\\), and \\(\\mathbf u\\cdot\\mathbf u=1^2+2^2=5\\). Therefore the projection is \\(\\frac55(1,2)=(1,2)\\).",
+          "id": "l1la-s2-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Find the projection of \\(\\mathbf v=(3,1)\\) onto \\(\\mathbf u=(1,2)\\)."
+        },
+        {
+          "answer": "The component orthogonal to \\(\\mathbf u\\) is \\(\\mathbf v-\\operatorname{proj}_{\\mathbf u}\\mathbf v=(3,1)-(1,2)=(2,-1)\\). Check orthogonality: \\((2,-1)\\cdot(1,2)=2-2=0\\). Therefore the orthogonal component is \\((2,-1)\\).",
+          "id": "l1la-s2-p1-q6-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the component of \\(\\mathbf v\\) orthogonal to \\(\\mathbf u\\), using part (a)."
+        },
+        {
+          "answer": "For \\(A=\\begin{pmatrix}2&0&0\\\\0&3&1\\\\0&0&3\\end{pmatrix}\\), the characteristic polynomial is \\((2-\\lambda)(3-\\lambda)^2\\), because \\(A\\) is upper triangular. Therefore the eigenvalues are \\(2\\) and \\(3\\), with algebraic multiplicities \\(1\\) and \\(2\\) respectively.",
+          "id": "l1la-s2-p1-q6-c",
+          "label": "(c)",
+          "marks": 3,
+          "prompt": "Find the eigenvalues and algebraic multiplicities of \\(A=\\begin{pmatrix}2&0&0\\\\0&3&1\\\\0&0&3\\end{pmatrix}\\)."
+        },
+        {
+          "answer": "For \\(\\lambda=3\\), compute \\(A-3I=\\begin{pmatrix}-1&0&0\\\\0&0&1\\\\0&0&0\\end{pmatrix}\\). The equation \\((A-3I)\\mathbf x=\\mathbf0\\) gives \\(-x=0\\) and \\(z=0\\), with \\(y\\) free. Thus the eigenspace for \\(\\lambda=3\\) is \\(\\operatorname{span}((0,1,0))\\), which has dimension \\(1\\). Since the algebraic multiplicity of \\(3\\) is \\(2\\) but its eigenspace dimension is \\(1\\), the matrix does not have enough eigenvectors to be diagonalizable.",
+          "id": "l1la-s2-p1-q6-d",
+          "label": "(d)",
+          "marks": 5,
+          "prompt": "Find the eigenspace for \\(\\lambda=3\\), and decide whether \\(A\\) is diagonalizable."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours 30 minutes",
+  "title": "Level 1 - Linear Algebra Paper 1",
+  "totalMarks": 90
+}

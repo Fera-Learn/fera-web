@@ -1,0 +1,117 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "real-vector-spaces",
+  "topicId": "real-vector-spaces",
+  "topicTitle": "Real Vector Spaces",
+  "paperTags": [
+    "real-vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-01",
+      "prompt": "State the two closure properties required for a real vector space.",
+      "answer": "A real vector space must be closed under vector addition and scalar multiplication. Closure under addition means that if u and v are in the space, then u + v is also in the space. Closure under scalar multiplication means that if c is a real scalar and v is in the space, then cv is also in the space.",
+      "rating": "*",
+      "paperTags": [
+        "real-vector-spaces",
+        "axioms"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-02",
+      "prompt": "Explain why the set of all real polynomials P is a real vector space under usual addition and scalar multiplication.",
+      "answer": "The sum of two real polynomials is again a real polynomial, so addition closure holds. A real scalar times a real polynomial is again a real polynomial, so scalar closure holds. The zero polynomial acts as the additive identity, and additive inverses are obtained by negating coefficients. The usual algebraic laws come from real-number arithmetic. Therefore P is a real vector space.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-03",
+      "prompt": "Decide whether the set of polynomials of degree exactly 2 is a vector space.",
+      "answer": "It is not a vector space. For example, \\(p(x)=x^2\\) and \\(q(x)=-x^2\\) both have degree exactly 2, but \\(p(x)+q(x)=0\\). The zero polynomial does not have degree exactly 2. Addition closure fails, so the set is not a vector space.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "polynomials",
+        "closure"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-04",
+      "prompt": "Explain why the set \\(M_{2,2}(\\mathbb R)\\) of all \\(2\\times 2\\) real matrices is a real vector space.",
+      "answer": "Adding two \\(2\\times 2\\) real matrices produces another \\(2\\times 2\\) real matrix, and multiplying a \\(2\\times 2\\) real matrix by a real scalar produces another \\(2\\times 2\\) real matrix. The zero matrix is the additive identity, and each matrix has an additive inverse obtained by negating all entries. The vector-space laws hold entry by entry from real arithmetic. Therefore \\(M_{2,2}(\\mathbb R)\\) is a real vector space.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-05",
+      "prompt": "Decide whether the set of positive real numbers is a vector space under usual addition and scalar multiplication.",
+      "answer": "It is not a vector space. The zero vector would have to be 0, but 0 is not positive. Also scalar closure fails: 1 is positive, but (-1)*1 = -1 is not positive. Therefore the positive real numbers are not a real vector space under usual operations.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "closure"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-06",
+      "prompt": "Show that the set C\\((0,1)\\) of continuous real-valued functions on \\((0,1)\\) is a real vector space.",
+      "answer": "The sum of two continuous functions on \\((0,1)\\) is continuous, so addition closure holds. A real scalar multiple of a continuous function is continuous, so scalar closure holds. The zero function is continuous and acts as the additive identity. Additive inverses are continuous because -f is continuous whenever f is continuous. The usual function operations satisfy the vector-space laws pointwise. Therefore C\\((0,1)\\) is a real vector space.",
+      "rating": "***+",
+      "paperTags": [
+        "real-vector-spaces",
+        "functions"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-07",
+      "prompt": "Decide whether the set of functions f with \\(f(0)\\) = 1 is a vector space under usual function operations.",
+      "answer": "It is not a vector space. A vector space must contain the zero function, but the zero function has value 0 at \\(x=0\\), not 1. Also, if \\(f(0)\\) = 1, then 2f has value 2 at \\(x=0\\), so scalar closure fails. Therefore the set is not a vector space.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "functions",
+        "closure"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-08",
+      "prompt": "Give the zero vector in the vector space \\(P_3\\) of polynomials of degree at most 3.",
+      "answer": "The zero vector is the additive identity for polynomial addition. In \\(P_3\\), this is the zero polynomial 0, whose value is 0 for every input. It has coefficients all equal to zero, so \\(p(x)=0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "real-vector-spaces",
+        "polynomials",
+        "zero-vector"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-09",
+      "prompt": "Find the additive inverse of \\(p(x)=2-3x+x^2\\) in \\(P_2\\).",
+      "answer": "The additive inverse is the polynomial q(x) such that p(x) + q(x) = 0. Negate every coefficient of p. Therefore q(x) = -2 + 3x - \\(x^2\\). Indeed, (2 - 3x + \\(x^2\\)) + (-2 + 3x - \\(x^2\\)) = 0.",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "polynomials",
+        "additive-inverses"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-real-vector-spaces-10",
+      "prompt": "A learner says vector spaces must contain arrows or coordinate tuples. Diagnose the error.",
+      "answer": "A vector space is defined by operations and axioms, not by what its elements look like. Polynomials, matrices, and functions can be vectors if they can be added and scaled in a way that satisfies the vector-space laws. Coordinate tuples are only one important example. The learner is confusing geometric vectors with the more general algebraic idea of vectors.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "conceptual",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

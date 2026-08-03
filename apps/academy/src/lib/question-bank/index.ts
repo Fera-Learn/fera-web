@@ -1,6 +1,10 @@
 import { level1PhysicsExamSets } from "@/lib/docs/level-1-physics/exams";
+import { level1CalculusExamSets } from "@/lib/docs/level-1-calculus/exams";
+import { level1LinearAlgebraExamSets } from "@/lib/docs/level-1-linear-algebra/exams";
 import { level1MathIPhysicsExamSets } from "@/lib/docs/level-1-math-i-physics/exams";
 import { level1MathIIPhysicsExamSets } from "@/lib/docs/level-1-math-ii-physics/exams";
+import { level1CalculusQuestionTopics } from "@/lib/docs/level-1-calculus/questions.generated";
+import { level1LinearAlgebraQuestionTopics } from "@/lib/docs/level-1-linear-algebra/questions.generated";
 import { level1MathIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-i-physics/questions.generated";
 import { level1MathIIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-ii-physics/questions.generated";
 import { level1PhysicsQuestionTopics } from "@/lib/docs/level-1-physics/questions.generated";
@@ -64,6 +68,8 @@ export type QuestionBankPaper = {
 const LEVEL_1_PHYSICS_COURSE_ID = "level-1-physics";
 const LEVEL_1_MATH_I_PHYSICS_COURSE_ID = "level-1-math-i-physics";
 const LEVEL_1_MATH_II_PHYSICS_COURSE_ID = "level-1-math-ii-physics";
+const LEVEL_1_CALCULUS_COURSE_ID = "level-1-calculus";
+const LEVEL_1_LINEAR_ALGEBRA_COURSE_ID = "level-1-linear-algebra";
 
 type TopicQuestionData = {
   courseId: string;
@@ -228,6 +234,20 @@ function getLevel1MathIIPhysicsTopicQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel1CalculusTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_1_CALCULUS_COURSE_ID,
+    questionTopics: level1CalculusQuestionTopics,
+  });
+}
+
+function getLevel1LinearAlgebraTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_1_LINEAR_ALGEBRA_COURSE_ID,
+    questionTopics: level1LinearAlgebraQuestionTopics,
+  });
+}
+
 function getExamQuestionEntries({
   courseId,
   examSets,
@@ -287,6 +307,20 @@ function getLevel1MathIIPhysicsExamQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel1CalculusExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_1_CALCULUS_COURSE_ID,
+    examSets: level1CalculusExamSets,
+  });
+}
+
+function getLevel1LinearAlgebraExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_1_LINEAR_ALGEBRA_COURSE_ID,
+    examSets: level1LinearAlgebraExamSets,
+  });
+}
+
 function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
   return getExamQuestionEntries({
     courseId: LEVEL_1_PHYSICS_COURSE_ID,
@@ -331,6 +365,20 @@ function getLevel1MathIIPhysicsPapers(): QuestionBankPaper[] {
   });
 }
 
+function getLevel1CalculusPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_1_CALCULUS_COURSE_ID,
+    examSets: level1CalculusExamSets,
+  });
+}
+
+function getLevel1LinearAlgebraPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_1_LINEAR_ALGEBRA_COURSE_ID,
+    examSets: level1LinearAlgebraExamSets,
+  });
+}
+
 function getLevel1PhysicsPapers(): QuestionBankPaper[] {
   return getExamPapers({
     courseId: LEVEL_1_PHYSICS_COURSE_ID,
@@ -354,6 +402,22 @@ const COURSE_PROVIDERS: CourseQuestionProvider[] = [
     getPapers: getLevel1MathIIPhysicsPapers,
     getTopicQuestions: getLevel1MathIIPhysicsTopicQuestionEntries,
     label: "Level 1 - Math II (Physics)",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_1_CALCULUS_COURSE_ID,
+    getExamQuestions: getLevel1CalculusExamQuestionEntries,
+    getPapers: getLevel1CalculusPapers,
+    getTopicQuestions: getLevel1CalculusTopicQuestionEntries,
+    label: "Level 1 - Calculus",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_1_LINEAR_ALGEBRA_COURSE_ID,
+    getExamQuestions: getLevel1LinearAlgebraExamQuestionEntries,
+    getPapers: getLevel1LinearAlgebraPapers,
+    getTopicQuestions: getLevel1LinearAlgebraTopicQuestionEntries,
+    label: "Level 1 - Linear Algebra",
   },
   {
     aliases: ["advanced-physics"],

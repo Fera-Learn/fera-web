@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "series-and-approximations",
+  "topicId": "series",
+  "topicTitle": "Series",
+  "paperTags": [
+    "series-and-approximations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-series-and-approximations-series-01",
+      "prompt": "Compute the finite sum \\(\\sum_{n=1}^{4} n\\).",
+      "answer": "We expand the summation from \\(n=1\\) to \\(n=4\\). This gives \\(1+2+3+4\\). Adding the terms gives \\(10\\). Therefore \\(\\sum_{n=1}^{4}n=10\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "finite-sums"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-02",
+      "prompt": "Find the sum of the infinite geometric series \\(\\sum_{n=1}^{\\infty}3\\left(\\frac{1}{4}\\right)^{n-1}\\).",
+      "answer": "We identify the first term and common ratio. The first term is \\(a=3\\), and the common ratio is \\(r=1/4\\). Since \\(|r|<1\\), the infinite geometric series converges to \\(a/(1-r)\\). Thus the sum is \\(\\frac{3}{1-1/4}=\\frac{3}{3/4}=4\\). Therefore the series sums to \\(4\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "geometric-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-03",
+      "prompt": "Find the sum of the telescoping series \\(\\sum_{n=1}^{\\infty}\\frac{1}{n(n+1)}\\).",
+      "answer": "We use partial fractions to reveal cancellation. Since \\(\\frac{1}{n(n+1)}=\\frac{1}{n}-\\frac{1}{n+1}\\), the \\(N\\)th partial sum is \\(S_N=(1-1/2)+(1/2-1/3)+\\cdots+(1/N-1/(N+1))\\). All middle terms cancel, so \\(S_N=1-1/(N+1)\\). Taking \\(N\\to\\infty\\) gives \\(S=1\\). Therefore the series sums to \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "telescoping-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-04",
+      "prompt": "Compute the fourth partial sum \\(S_4\\) of the harmonic series \\(\\sum_{n=1}^{\\infty}\\frac{1}{n}\\).",
+      "answer": "The fourth partial sum uses the first four terms. Thus \\(S_4=1+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}\\). Using denominator \\(12\\), this is \\(12/12+6/12+4/12+3/12=25/12\\). Therefore \\(S_4=\\frac{25}{12}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "partial-sums"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-05",
+      "prompt": "Find the sum of \\(\\sum_{n=0}^{\\infty}\\left(-\\frac{1}{2}\\right)^n\\).",
+      "answer": "This is a geometric series with first term \\(a=1\\) and common ratio \\(r=-1/2\\). Since \\(|r|=1/2<1\\), the series converges. The sum is \\(a/(1-r)=\\frac{1}{1-(-1/2)}=\\frac{1}{3/2}=2/3\\). Therefore the series sums to \\(\\frac{2}{3}\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "geometric-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-06",
+      "prompt": "For the series with terms \\(a_n=n\\), find a formula for the \\(N\\)th partial sum \\(S_N=\\sum_{n=1}^{N}a_n\\).",
+      "answer": "We are summing the first \\(N\\) positive integers. Since \\(a_n=n\\), \\(S_N=1+2+\\cdots+N\\). Pairing terms from the beginning and end gives \\((1+N)+(2+(N-1))+\\cdots\\), so the standard formula is \\(S_N=N(N+1)/2\\). Therefore \\(S_N=\\frac{N(N+1)}{2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "partial-sums"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-07",
+      "prompt": "Find a formula for \\(\\sum_{n=1}^{N}2^n\\), where \\(N\\) is a positive integer.",
+      "answer": "This is a finite geometric series. The first term is \\(2\\), the common ratio is \\(2\\), and there are \\(N\\) terms. Using \\(a(r^N-1)/(r-1)\\), the sum is \\(2(2^N-1)/(2-1)=2^{N+1}-2\\). Therefore \\(\\sum_{n=1}^{N}2^n=2^{N+1}-2\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "finite-geometric-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-08",
+      "prompt": "Find the \\(N\\)th partial sum of \\(\\sum_{n=1}^{\\infty}\\ln\\left(\\frac{n+1}{n}\\right)\\), and decide whether the series converges.",
+      "answer": "We use logarithm rules to reveal cancellation. The \\(N\\)th partial sum is \\(S_N=\\sum_{n=1}^{N}\\ln\\left(\\frac{n+1}{n}\\right)=\\ln\\left(\\prod_{n=1}^{N}\\frac{n+1}{n}\\right)\\). The product telescopes to \\(N+1\\), so \\(S_N=\\ln(N+1)\\). Since \\(\\ln(N+1)\\to\\infty\\), the series diverges. Therefore the partial sum is \\(\\ln(N+1)\\), and the series does not converge.",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "telescoping-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-09",
+      "prompt": "Find the sum of \\(\\sum_{n=1}^{\\infty}\\left(\\frac{1}{2n-1}-\\frac{1}{2n+1}\\right)\\).",
+      "answer": "We examine the partial sums. The first terms are \\((1-1/3)+(1/3-1/5)+(1/5-1/7)+\\cdots\\). Consecutive terms cancel, so the \\(N\\)th partial sum is \\(S_N=1-\\frac{1}{2N+1}\\). Taking \\(N\\to\\infty\\) gives \\(S=1\\). Therefore the series sums to \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "telescoping-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-series-10",
+      "prompt": "A learner uses the infinite geometric formula on \\(\\sum_{n=0}^{\\infty}2^n\\) and gets \\(\\frac{1}{1-2}=-1\\). Explain the error and state what the series does.",
+      "answer": "The error is applying the infinite geometric formula outside its condition. The formula \\(a/(1-r)\\) is valid only when \\(|r|<1\\). Here the common ratio is \\(r=2\\), so \\(|r|>1\\). The terms \\(2^n\\) do not tend to \\(0\\), and the partial sums grow without bound. Therefore the series diverges, and \\(-1\\) is not a valid sum.",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "series",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

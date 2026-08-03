@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "setId": "set-2",
+  "paperId": "paper-1",
+  "paperTags": [
+    "paper-1",
+    "limits",
+    "differentiation",
+    "integration",
+    "series",
+    "fourier-series",
+    "differential-equations"
+  ],
+  "description": "A second full Level 1 - Calculus exam with original questions on limits, derivative applications, integral applications, approximation, Fourier ideas, multivariable calculus, and differential equations.",
+  "id": "paper-1",
+  "instructions": [
+    "Attempt all questions.",
+    "All main questions carry 15 marks.",
+    "Show sufficient working to justify each answer.",
+    "Give exact answers unless a decimal approximation is requested."
+  ],
+  "label": "Paper 1",
+  "questions": [
+    {
+      "id": "l1c-s2-p1-q1",
+      "marks": 15,
+      "number": 1,
+      "section": "Section A: Foundations and Differential Calculus",
+      "stem": "This question concerns functions, limits, and derivatives from definitions and rules.",
+      "title": "Function behaviour and derivatives",
+      "parts": [
+        {
+          "answer": "The square root requires\n\\[\n10-x\\ge0,\n\\]\nso \\(x\\le10\\). The denominator requires\n\\[\nx+1\\ne0,\n\\]\nso \\(x\\ne-1\\). Combining these conditions, the domain is\n\\[\n(-\\infty,-1)\\cup(-1,10].\n\\]\nTherefore all real inputs at most \\(10\\), except \\(-1\\), are allowed.",
+          "id": "l1c-s2-p1-q1-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the domain of \\(f(x)=\\frac{\\sqrt{10-x}}{x+1}\\)."
+        },
+        {
+          "answer": "Substitution gives \\(0/0\\), so factor the numerator:\n\\[\nx^3-8=(x-2)(x^2+2x+4).\n\\]\nFor \\(x\\ne2\\),\n\\[\n\\frac{x^3-8}{x-2}=x^2+2x+4.\n\\]\nNow substitute \\(x=2\\):\n\\[\n2^2+2(2)+4=4+4+4=12.\n\\]\nTherefore the limit is \\(12\\).",
+          "id": "l1c-s2-p1-q1-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\lim_{x\\to2}\\frac{x^3-8}{x-2}\\)."
+        },
+        {
+          "answer": "Use the quotient rule with numerator \\(u=\\ln x\\) and denominator \\(v=x^2\\). Then \\(u'=1/x\\) and \\(v'=2x\\). Hence\n\\[\nf'(x)=\\frac{x^2(1/x)-\\ln x(2x)}{x^4}.\n\\]\nSimplify the numerator:\n\\[\nx^2(1/x)-2x\\ln x=x-2x\\ln x=x(1-2\\ln x).\n\\]\nThus\n\\[\nf'(x)=\\frac{x(1-2\\ln x)}{x^4}=\\frac{1-2\\ln x}{x^3}.\n\\]\nTherefore \\(f'(x)=\\frac{1-2\\ln x}{x^3}\\), for \\(x>0\\).",
+          "id": "l1c-s2-p1-q1-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Differentiate \\(f(x)=\\frac{\\ln x}{x^2}\\), for \\(x>0\\)."
+        },
+        {
+          "answer": "Differentiate both sides with respect to \\(x\\). The derivative of \\(x^2y\\) is\n\\[\n2xy+x^2\\frac{dy}{dx}\n\\]\nby the product rule. The derivative of \\(y^3\\) is\n\\[\n3y^2\\frac{dy}{dx}.\n\\]\nThe derivative of \\(9\\) is \\(0\\). Thus\n\\[\n2xy+x^2\\frac{dy}{dx}+3y^2\\frac{dy}{dx}=0.\n\\]\nCollect \\(dy/dx\\) terms:\n\\[\n(x^2+3y^2)\\frac{dy}{dx}=-2xy.\n\\]\nTherefore\n\\[\n\\frac{dy}{dx}=-\\frac{2xy}{x^2+3y^2}.\n\\]",
+          "id": "l1c-s2-p1-q1-d",
+          "label": "(d)",
+          "marks": 5,
+          "prompt": "For the implicit relation \\(x^2y+y^3=9\\), find \\(\\frac{dy}{dx}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s2-p1-q2",
+      "marks": 15,
+      "number": 2,
+      "section": "Section B: Derivative Applications",
+      "stem": "This question uses derivatives to analyse changing quantities and graph shape.",
+      "title": "Rates, shape, and optimisation",
+      "parts": [
+        {
+          "answer": "Differentiate:\n\\[\nf'(x)=4x^3-4x=4x(x^2-1)=4x(x-1)(x+1).\n\\]\nCritical points occur at \\(x=-1,0,1\\). The second derivative is\n\\[\nf''(x)=12x^2-4.\n\\]\nAt \\(x=-1\\), \\(f''(-1)=8>0\\), so there is a local minimum. At \\(x=0\\), \\(f''(0)=-4<0\\), so there is a local maximum. At \\(x=1\\), \\(f''(1)=8>0\\), so there is a local minimum. The point values are \\(f(-1)=-1\\), \\(f(0)=0\\), and \\(f(1)=-1\\).",
+          "id": "l1c-s2-p1-q2-a",
+          "label": "(a)",
+          "marks": 5,
+          "prompt": "For \\(f(x)=x^4-2x^2\\), find and classify the stationary points."
+        },
+        {
+          "answer": "The surface area of the square is\n\\[\nA=s^2.\n\\]\nDifferentiate with respect to time:\n\\[\n\\frac{dA}{dt}=2s\\frac{ds}{dt}.\n\\]\nSubstitute \\(s=5\\) and \\(ds/dt=0.2\\):\n\\[\n\\frac{dA}{dt}=2(5)(0.2)=2.\n\\]\nTherefore the area is increasing at \\(2\\) square units per second.",
+          "id": "l1c-s2-p1-q2-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "A square has side length \\(s\\) increasing at \\(0.2\\) units per second. How fast is its area increasing when \\(s=5\\)?"
+        },
+        {
+          "answer": "Let \\(x\\) be the base radius. The cost is proportional to\n\\[\nC(x)=x^2+\\frac{16}{x},\n\\]\nwith \\(x>0\\). Differentiate:\n\\[\nC'(x)=2x-16x^{-2}=2x-\\frac{16}{x^2}.\n\\]\nSet \\(C'(x)=0\\):\n\\[\n2x=\\frac{16}{x^2}.\n\\]\nMultiplying by \\(x^2\\) gives\n\\[\n2x^3=16,\n\\]\nso\n\\[\nx^3=8,\\qquad x=2.\n\\]\nSince \\(C''(x)=2+32/x^3>0\\) for \\(x>0\\), this critical point gives a minimum. Therefore the cost is minimised when \\(x=2\\).",
+          "id": "l1c-s2-p1-q2-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "A design has cost model \\(C(x)=x^2+\\frac{16}{x}\\) for \\(x>0\\). Find the value of \\(x\\) that minimises the cost."
+        },
+        {
+          "answer": "Substitution gives \\((\\ln 1)/(1-1)=0/0\\), so L'Hopital's rule applies. Differentiate numerator and denominator:\n\\[\n\\lim_{x\\to1}\\frac{\\ln x}{x-1}=\\lim_{x\\to1}\\frac{1/x}{1}.\n\\]\nSubstitute \\(x=1\\):\n\\[\n\\frac{1}{1}=1.\n\\]\nTherefore the limit is \\(1\\).",
+          "id": "l1c-s2-p1-q2-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Use L'Hopital's rule to evaluate \\(\\displaystyle \\lim_{x\\to1}\\frac{\\ln x}{x-1}\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s2-p1-q3",
+      "marks": 15,
+      "number": 3,
+      "section": "Section C: Integral Techniques and Applications",
+      "stem": "This question concerns exact integration and applications of definite integrals.",
+      "title": "Integration techniques and geometric quantities",
+      "parts": [
+        {
+          "answer": "Use substitution. Let\n\\[\nu=1+3x,\\qquad du=3\\,dx,\\qquad dx=\\frac{du}{3}.\n\\]\nThen\n\\[\n\\int_0^1 e^{1+3x}\\,dx=\\frac13\\int_{u=1}^{4}e^u\\,du.\n\\]\nIntegrate and evaluate:\n\\[\n\\frac13[e^u]_1^4=\\frac13(e^4-e).\n\\]\nTherefore the definite integral is \\(\\frac{e^4-e}{3}\\).",
+          "id": "l1c-s2-p1-q3-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^1 e^{1+3x}\\,dx\\)."
+        },
+        {
+          "answer": "Use integration by parts with \\(u=\\ln x\\) and \\(dv=x\\,dx\\). Then\n\\[\ndu=\\frac{1}{x}\\,dx,\\qquad v=\\frac{x^2}{2}.\n\\]\nSo\n\\[\n\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\int\\frac{x^2}{2}\\cdot\\frac{1}{x}\\,dx.\n\\]\nThis becomes\n\\[\n\\frac{x^2}{2}\\ln x-\\frac12\\int x\\,dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C.\n\\]\nTherefore \\(\\int x\\ln x\\,dx=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C\\), for \\(x>0\\).",
+          "id": "l1c-s2-p1-q3-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int x\\ln x\\,dx\\), for \\(x>0\\)."
+        },
+        {
+          "answer": "Find the intersections:\n\\[\n4-x^2=0 \\quad\\Longrightarrow\\quad x=\\pm2.\n\\]\nOn \\([-2,2]\\), the curve \\(y=4-x^2\\) lies above the \\(x\\)-axis. The area is\n\\[\nA=\\int_{-2}^{2}(4-x^2)\\,dx.\n\\]\nThe integrand is even, so\n\\[\nA=2\\int_0^2(4-x^2)\\,dx.\n\\]\nEvaluate:\n\\[\nA=2\\left[4x-\\frac{x^3}{3}\\right]_0^2=2\\left(8-\\frac83\\right)=2\\cdot\\frac{16}{3}=\\frac{32}{3}.\n\\]\nTherefore the area is \\(\\frac{32}{3}\\).",
+          "id": "l1c-s2-p1-q3-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the area between \\(y=4-x^2\\) and the \\(x\\)-axis."
+        },
+        {
+          "answer": "For \\(y=x^2\\), the derivative is\n\\[\ny'=2x.\n\\]\nThe arc length from \\(x=0\\) to \\(x=2\\) is\n\\[\ns=\\int_0^2\\sqrt{1+(y')^2}\\,dx.\n\\]\nSubstitute \\(y'=2x\\):\n\\[\ns=\\int_0^2\\sqrt{1+4x^2}\\,dx.\n\\]\nThis is the required setup for the arc length.",
+          "id": "l1c-s2-p1-q3-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Set up, but do not evaluate, the arc length integral for \\(y=x^2\\) from \\(x=0\\) to \\(x=2\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s2-p1-q4",
+      "marks": 15,
+      "number": 4,
+      "section": "Section D: Sequences, Series, and Approximation",
+      "stem": "This question concerns convergence, power series, Taylor approximation, and Fourier symmetry.",
+      "title": "Infinite series and approximations",
+      "parts": [
+        {
+          "answer": "Divide numerator and denominator by \\(n^2\\):\n\\[\na_n=\\frac{5+1/n}{2-3/n^2}.\n\\]\nAs \\(n\\to\\infty\\), both \\(1/n\\) and \\(3/n^2\\) approach \\(0\\). Therefore\n\\[\n\\lim_{n\\to\\infty}a_n=\\frac{5}{2}.\n\\]\nSince the sequence approaches a finite limit, it converges to \\(\\frac52\\).",
+          "id": "l1c-s2-p1-q4-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Determine whether the sequence \\(a_n=\\frac{5n^2+n}{2n^2-3}\\) converges, and find its limit if it exists."
+        },
+        {
+          "answer": "This is a \\(p\\)-series:\n\\[\n\\sum_{n=1}^{\\infty}\\frac{1}{n^{5/4}}.\n\\]\nFor a \\(p\\)-series, \\(\\sum 1/n^p\\) converges exactly when \\(p>1\\). Here \\(p=5/4>1\\). Therefore the series converges.",
+          "id": "l1c-s2-p1-q4-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Determine whether \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{1}{n^{5/4}}\\) converges."
+        },
+        {
+          "answer": "For the power series\n\\[\n\\sum_{n=1}^{\\infty}\\frac{(x+1)^n}{n3^n},\n\\]\nuse the ratio test on absolute values. Let \\(a_n=\\frac{(x+1)^n}{n3^n}\\). Then\n\\[\n\\left|\\frac{a_{n+1}}{a_n}\\right|=\\left|\\frac{(x+1)^{n+1}}{(n+1)3^{n+1}}\\cdot\\frac{n3^n}{(x+1)^n}\\right|=\\frac{n}{n+1}\\cdot\\frac{|x+1|}{3}.\n\\]\nTaking \\(n\\to\\infty\\) gives\n\\[\nL=\\frac{|x+1|}{3}.\n\\]\nConvergence is guaranteed when \\(L<1\\), so \\(|x+1|<3\\). Thus the radius of convergence is \\(R=3\\), centred at \\(x=-1\\).",
+          "id": "l1c-s2-p1-q4-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Find the radius of convergence of \\(\\displaystyle \\sum_{n=1}^{\\infty}\\frac{(x+1)^n}{n3^n}\\)."
+        },
+        {
+          "answer": "The Maclaurin series for \\(\\cos x\\) begins\n\\[\n\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots.\n\\]\nThe degree \\(4\\) Maclaurin polynomial is\n\\[\nP_4(x)=1-\\frac{x^2}{2}+\\frac{x^4}{24}.\n\\]\nAt \\(x=0.2\\),\n\\[\nP_4(0.2)=1-\\frac{0.2^2}{2}+\\frac{0.2^4}{24}.\n\\]\nCompute the terms:\n\\[\n\\frac{0.2^2}{2}=0.02,\\qquad \\frac{0.2^4}{24}=\\frac{0.0016}{24}=0.000066\\overline{6}.\n\\]\nThus\n\\[\n\\cos(0.2)\\approx0.980066\\overline{6}.\n\\]",
+          "id": "l1c-s2-p1-q4-d",
+          "label": "(d)",
+          "marks": 3,
+          "prompt": "Use the degree \\(4\\) Maclaurin polynomial for \\(\\cos x\\) to approximate \\(\\cos(0.2)\\)."
+        },
+        {
+          "answer": "On a symmetric interval, an even function has a Fourier series containing only cosine terms and the constant term. The sine coefficients vanish because the product of an even function and \\(\\sin(n\\pi x/L)\\), which is odd, is odd; the integral of an odd function over \\([-L,L]\\) is zero. Therefore \\(b_n=0\\) for every \\(n\\ge1\\).",
+          "id": "l1c-s2-p1-q4-e",
+          "label": "(e)",
+          "marks": 2,
+          "prompt": "If \\(f\\) is even on \\([-L,L]\\), which Fourier coefficients must be zero, and why?"
+        }
+      ]
+    },
+    {
+      "id": "l1c-s2-p1-q5",
+      "marks": 15,
+      "number": 5,
+      "section": "Section E: Several-Variable Calculus",
+      "stem": "This question uses domains, partial derivatives, critical points, and double integrals.",
+      "title": "Functions of several variables",
+      "parts": [
+        {
+          "answer": "The logarithm requires its input to be positive:\n\\[\n9-x^2-y^2>0.\n\\]\nRearranging gives\n\\[\nx^2+y^2<9.\n\\]\nTherefore the domain is the open disk of radius \\(3\\) centred at the origin:\n\\[\n\\{(x,y):x^2+y^2<9\\}.\n\\]",
+          "id": "l1c-s2-p1-q5-a",
+          "label": "(a)",
+          "marks": 3,
+          "prompt": "Find the domain of \\(f(x,y)=\\ln(9-x^2-y^2)\\)."
+        },
+        {
+          "answer": "Compute the first partial derivatives:\n\\[\nf_x=2x+y,\\qquad f_y=x+2y.\n\\]\nCritical points satisfy\n\\[\n2x+y=0,\\qquad x+2y=0.\n\\]\nFrom the first equation, \\(y=-2x\\). Substitute into the second:\n\\[\nx+2(-2x)=x-4x=-3x=0.\n\\]\nThus \\(x=0\\), and then \\(y=0\\). Therefore the only critical point is \\((0,0)\\).",
+          "id": "l1c-s2-p1-q5-b",
+          "label": "(b)",
+          "marks": 4,
+          "prompt": "Find the critical point of \\(g(x,y)=x^2+xy+y^2\\)."
+        },
+        {
+          "answer": "The Hessian entries are\n\\[\ng_{xx}=2,\\qquad g_{yy}=2,\\qquad g_{xy}=1.\n\\]\nThe determinant for the second-derivative test is\n\\[\nD=g_{xx}g_{yy}-(g_{xy})^2=2\\cdot2-1^2=3.\n\\]\nSince \\(D>0\\) and \\(g_{xx}=2>0\\), the critical point is a local minimum. Therefore \\((0,0)\\) is a local minimum.",
+          "id": "l1c-s2-p1-q5-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "Classify the critical point of \\(g(x,y)=x^2+xy+y^2\\)."
+        },
+        {
+          "answer": "Integrate with respect to \\(y\\) first:\n\\[\n\\int_0^2\\int_0^1(x+2y)\\,dy\\,dx=\\int_0^2\\left[xy+y^2\\right]_{0}^{1}\\,dx.\n\\]\nThe inner integral gives\n\\[\nx(1)+1^2=x+1.\n\\]\nNow integrate with respect to \\(x\\):\n\\[\n\\int_0^2(x+1)\\,dx=\\left[\\frac{x^2}{2}+x\\right]_0^2=2+2=4.\n\\]\nTherefore the double integral equals \\(4\\).",
+          "id": "l1c-s2-p1-q5-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Evaluate \\(\\displaystyle \\int_0^2\\int_0^1(x+2y)\\,dy\\,dx\\)."
+        }
+      ]
+    },
+    {
+      "id": "l1c-s2-p1-q6",
+      "marks": 15,
+      "number": 6,
+      "section": "Section F: Differential Equations",
+      "stem": "This question concerns first-order equations, second-order linear equations, and power-series solutions.",
+      "title": "Differential equations and series solutions",
+      "parts": [
+        {
+          "answer": "Separate variables:\n\\[\n\\frac{1}{1+y^2}\\,dy=dx.\n\\]\nIntegrate both sides:\n\\[\n\\arctan y=x+C.\n\\]\nUse \\(y(0)=1\\):\n\\[\n\\arctan(1)=0+C,\n\\]\nso\n\\[\nC=\\frac{\\pi}{4}.\n\\]\nThus\n\\[\n\\arctan y=x+\\frac{\\pi}{4}.\n\\]\nSolving for \\(y\\) gives\n\\[\ny=\\tan\\left(x+\\frac{\\pi}{4}\\right).\n\\]",
+          "id": "l1c-s2-p1-q6-a",
+          "label": "(a)",
+          "marks": 4,
+          "prompt": "Solve \\(\\frac{dy}{dx}=1+y^2\\) with \\(y(0)=1\\)."
+        },
+        {
+          "answer": "Use the characteristic equation. For\n\\[\ny''-3y'+2y=0,\n\\]\ntry \\(y=e^{rx}\\). This gives\n\\[\nr^2-3r+2=0.\n\\]\nFactor:\n\\[\n(r-1)(r-2)=0.\n\\]\nThus \\(r=1\\) or \\(r=2\\). Therefore the general solution is\n\\[\ny=C_1e^x+C_2e^{2x}.\n\\]",
+          "id": "l1c-s2-p1-q6-b",
+          "label": "(b)",
+          "marks": 3,
+          "prompt": "Find the general solution of \\(y''-3y'+2y=0\\)."
+        },
+        {
+          "answer": "For \\(y=C_1e^x+C_2e^{2x}\\), the initial condition \\(y(0)=0\\) gives\n\\[\nC_1+C_2=0.\n\\]\nDifferentiate:\n\\[\ny'=C_1e^x+2C_2e^{2x}.\n\\]\nThe condition \\(y'(0)=1\\) gives\n\\[\nC_1+2C_2=1.\n\\]\nSubtract the first equation from the second:\n\\[\nC_2=1.\n\\]\nThen \\(C_1=-1\\). Therefore\n\\[\ny=-e^x+e^{2x}.\n\\]",
+          "id": "l1c-s2-p1-q6-c",
+          "label": "(c)",
+          "marks": 4,
+          "prompt": "For the equation in part (b), find the solution satisfying \\(y(0)=0\\) and \\(y'(0)=1\\)."
+        },
+        {
+          "answer": "Assume a power series\n\\[\ny=\\sum_{n=0}^{\\infty}a_nx^n.\n\\]\nThen\n\\[\ny'=\\sum_{n=1}^{\\infty}na_nx^{n-1}.\n\\]\nThe equation \\(y'=y\\) becomes\n\\[\n\\sum_{n=1}^{\\infty}na_nx^{n-1}=\\sum_{n=0}^{\\infty}a_nx^n.\n\\]\nRe-index the left side using \\(m=n-1\\):\n\\[\n\\sum_{m=0}^{\\infty}(m+1)a_{m+1}x^m=\\sum_{m=0}^{\\infty}a_mx^m.\n\\]\nEquating coefficients gives\n\\[\n(m+1)a_{m+1}=a_m,\n\\]\nso\n\\[\na_{m+1}=\\frac{a_m}{m+1}.\n\\]\nThus \\(a_1=a_0\\), \\(a_2=a_0/2!\\), and \\(a_3=a_0/3!\\). Hence\n\\[\ny=a_0\\left(1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}+\\cdots\\right).\n\\]",
+          "id": "l1c-s2-p1-q6-d",
+          "label": "(d)",
+          "marks": 4,
+          "prompt": "Assume \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\). Use \\(y'=y\\) to find the recurrence relation for the coefficients and write the first four non-zero terms in terms of \\(a_0\\)."
+        }
+      ]
+    }
+  ],
+  "timeAllowed": "2 hours 30 minutes",
+  "title": "Level 1 - Calculus Paper 1",
+  "totalMarks": 90
+}

@@ -1,0 +1,122 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "series-and-approximations",
+  "topicId": "taylor-series",
+  "topicTitle": "Taylor Series",
+  "paperTags": [
+    "series-and-approximations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-series-and-approximations-taylor-series-01",
+      "prompt": "Find the Maclaurin polynomial of degree \\(3\\) for \\(e^x\\).",
+      "answer": "The Maclaurin series for \\(e^x\\) is \\(\\sum_{n=0}^{\\infty}x^n/n!\\). Keeping terms through degree \\(3\\) gives \\(1+x+x^2/2!+x^3/3!\\). Since \\(2!=2\\) and \\(3!=6\\), the polynomial is \\(P_3(x)=1+x+\\frac{x^2}{2}+\\frac{x^3}{6}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "maclaurin-polynomials"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-02",
+      "prompt": "Find the Maclaurin polynomial of degree \\(5\\) for \\(\\sin x\\).",
+      "answer": "The Maclaurin series for \\(\\sin x\\) is \\(x-x^3/3!+x^5/5!-\\cdots\\). Keeping terms through degree \\(5\\) gives \\(P_5(x)=x-x^3/6+x^5/120\\). Therefore the degree \\(5\\) Maclaurin polynomial is \\(x-\\frac{x^3}{6}+\\frac{x^5}{120}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "sine-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-03",
+      "prompt": "Find the Maclaurin polynomial of degree \\(4\\) for \\(\\cos x\\).",
+      "answer": "The Maclaurin series for \\(\\cos x\\) is \\(1-x^2/2!+x^4/4!-\\cdots\\). Keeping terms through degree \\(4\\) gives \\(P_4(x)=1-x^2/2+x^4/24\\). Therefore the degree \\(4\\) Maclaurin polynomial is \\(1-\\frac{x^2}{2}+\\frac{x^4}{24}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "cosine-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-04",
+      "prompt": "Find the Maclaurin polynomial of degree \\(3\\) for \\(\\ln(1+x)\\).",
+      "answer": "The Maclaurin series for \\(\\ln(1+x)\\) is \\(x-x^2/2+x^3/3-x^4/4+\\cdots\\), valid initially for \\(|x|<1\\). Keeping terms through degree \\(3\\) gives \\(P_3(x)=x-x^2/2+x^3/3\\). Therefore the polynomial is \\(x-\\frac{x^2}{2}+\\frac{x^3}{3}\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "logarithm-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-05",
+      "prompt": "Find the Taylor polynomial of degree \\(2\\) for \\(f(x)=\\sqrt{x}\\) about \\(a=4\\).",
+      "answer": "We use \\(P_2(x)=f(4)+f'(4)(x-4)+\\frac{f''(4)}{2}(x-4)^2\\). For \\(f(x)=\\sqrt{x}\\), \\(f(4)=2\\), \\(f'(x)=1/(2\\sqrt{x})\\), so \\(f'(4)=1/4\\). Also \\(f''(x)=-1/(4x^{3/2})\\), so \\(f''(4)=-1/32\\). Therefore \\(P_2(x)=2+\\frac{x-4}{4}-\\frac{(x-4)^2}{64}\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "taylor-polynomials"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-06",
+      "prompt": "Use the degree \\(3\\) Maclaurin polynomial for \\(e^x\\) to approximate \\(e^{0.1}\\).",
+      "answer": "The degree \\(3\\) Maclaurin polynomial for \\(e^x\\) is \\(P_3(x)=1+x+x^2/2+x^3/6\\). Substitute \\(x=0.1\\): \\(P_3(0.1)=1+0.1+0.01/2+0.001/6\\). This is \\(1+0.1+0.005+0.000166\\ldots=1.105166\\ldots\\). Therefore \\(e^{0.1}\\approx 1.10517\\) using this polynomial.",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "approximations"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-07",
+      "prompt": "Use Taylor's remainder bound to bound the error when approximating \\(e^{0.2}\\) by \\(1+x+x^2/2\\) at \\(x=0.2\\).",
+      "answer": "We are using the degree \\(2\\) Maclaurin polynomial for \\(e^x\\). Taylor's remainder bound gives \\(|R_2(x)|\\le M|x|^3/3!\\), where \\(M\\) bounds \\(|e^t|\\) between \\(0\\) and \\(0.2\\). We may take \\(M=e^{0.2}\\). Thus \\(|R_2(0.2)|\\le e^{0.2}(0.2)^3/6\\). Since \\((0.2)^3=0.008\\), the bound is \\(e^{0.2}\\cdot 0.008/6<0.0017\\). Therefore the approximation error is less than \\(0.0017\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "remainder-bounds"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-08",
+      "prompt": "Find the Taylor series about \\(0\\) for \\(\\frac{1}{1-x}\\), and state its interval of convergence.",
+      "answer": "This is the geometric series with first term \\(1\\) and ratio \\(x\\). The geometric formula gives \\(1+x+x^2+x^3+\\cdots=\\sum_{n=0}^{\\infty}x^n\\). It converges when \\(|x|<1\\). At \\(x=1\\), the series \\(\\sum 1\\) diverges; at \\(x=-1\\), the terms \\((-1)^n\\) do not tend to \\(0\\). Therefore \\(\\frac{1}{1-x}=\\sum_{n=0}^{\\infty}x^n\\) on \\((-1,1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "geometric-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-09",
+      "prompt": "Find the Taylor polynomial for \\(f(x)=x^2\\) about \\(a=1\\).",
+      "answer": "We use powers of \\((x-1)\\). Since \\(x=(x-1)+1\\), we have \\(x^2=((x-1)+1)^2\\). Expanding gives \\(x^2=(x-1)^2+2(x-1)+1\\). Therefore the Taylor polynomial about \\(a=1\\) is \\(1+2(x-1)+(x-1)^2\\), and this expression is exact for all \\(x\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "expansion-about-a-point"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-taylor-series-10",
+      "prompt": "A learner writes the degree \\(2\\) Maclaurin polynomial for \\(\\cos x\\) as \\(1-x^2\\). Explain the error and give the correct polynomial.",
+      "answer": "The error is forgetting the factorial in the Taylor coefficient. The degree \\(2\\) Maclaurin polynomial is \\(f(0)+f'(0)x+f''(0)x^2/2!\\). For \\(f(x)=\\cos x\\), \\(f(0)=1\\), \\(f'(0)=0\\), and \\(f''(0)=-1\\). Therefore the quadratic term is \\(-x^2/2\\), not \\(-x^2\\). The correct polynomial is \\(1-\\frac{x^2}{2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "taylor-series",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "matrix-algebra",
+  "topicId": "scalar-multiplication",
+  "topicTitle": "Scalar Multiplication",
+  "paperTags": [
+    "matrix-algebra"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-01",
+      "prompt": "Compute 3\\(\\begin{pmatrix}1&-2\\\\0&4\\end{pmatrix}\\).",
+      "answer": "Scalar multiplication multiplies every entry by the scalar. Thus 3\\(\\begin{pmatrix}1&-2\\\\0&4\\end{pmatrix}\\) = \\(\\begin{pmatrix}3&-6\\\\0&12\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-02",
+      "prompt": "Compute -2\\(\\begin{pmatrix}5&0&-1\\end{pmatrix}\\).",
+      "answer": "Multiply each entry by -2: -2 times 5 is -10, -2 times 0 is 0, and -2 times -1 is 2. Therefore -2\\(\\begin{pmatrix}5&0&-1\\end{pmatrix}\\) = \\(\\begin{pmatrix}-10&0&2\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-03",
+      "prompt": "For \\(A=\\begin{pmatrix}2&-3\\\\1&0\\end{pmatrix}\\), compute 0A.",
+      "answer": "Multiplying a matrix by 0 makes every entry 0. Therefore 0A = \\(\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}\\), the \\(2\\times 2\\) zero matrix.",
+      "rating": "*+",
+      "paperTags": [
+        "matrix-algebra",
+        "zero-matrices",
+        "scalar-multiplication"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-04",
+      "prompt": "Compute (1/2)\\(\\begin{pmatrix}6&-4\\\\10&8\\end{pmatrix}\\).",
+      "answer": "Multiply every entry by 1/2. Half of 6 is 3, half of -4 is -2, half of 10 is 5, and half of 8 is 4. Therefore (1/2)\\(\\begin{pmatrix}6&-4\\\\10&8\\end{pmatrix}\\) = \\(\\begin{pmatrix}3&-2\\\\5&4\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-05",
+      "prompt": "Find x if 4\\(\\begin{pmatrix}x&2\\\\1&-1\\end{pmatrix}\\) has top-left entry 12.",
+      "answer": "The top-left entry of 4\\(\\begin{pmatrix}x&2\\\\1&-1\\end{pmatrix}\\) is 4x. We need 4x = 12. Dividing by 4 gives \\(x=3\\). Therefore \\(x=3\\).",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-06",
+      "prompt": "For \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\), compute 2A + 3A.",
+      "answer": "First use scalar distributivity: 2A + 3A = 5A. Now multiply every entry of A by 5. This gives 5A = \\(\\begin{pmatrix}5&10\\\\15&20\\end{pmatrix}\\). Therefore 2A + 3A = \\(\\begin{pmatrix}5&10\\\\15&20\\end{pmatrix}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-07",
+      "prompt": "For \\(A=\\begin{pmatrix}2&-1\\\\0&3\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}1&4\\\\-2&5\\end{pmatrix}\\), compute 2A - B.",
+      "answer": "First compute 2A = \\(\\begin{pmatrix}4&-2\\\\0&6\\end{pmatrix}\\). Now subtract B entry by entry: 2A - \\(B=\\begin{pmatrix}4 - 1&-2 - 4\\\\0 - (-2)&6 - 5\\end{pmatrix}\\) = \\(\\begin{pmatrix}3&-6\\\\2&1\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-08",
+      "prompt": "Find A if 3A = \\(\\begin{pmatrix}6&-9\\\\0&12\\end{pmatrix}\\).",
+      "answer": "To solve 3A = \\(\\begin{pmatrix}6&-9\\\\0&12\\end{pmatrix}\\), divide every entry by 3. This gives \\(A=\\begin{pmatrix}6/3&-9/3\\\\0/3&12/3\\end{pmatrix}\\) = \\(\\begin{pmatrix}2&-3\\\\0&4\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "matrix-equations"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-09",
+      "prompt": "Verify that 2(A + B) = 2A + 2B for \\(A=\\begin{pmatrix}1&0\\\\2&-1\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}3&4\\\\-2&5\\end{pmatrix}\\).",
+      "answer": "First compute A + \\(B=\\begin{pmatrix}4&4\\\\0&4\\end{pmatrix}\\), so 2(A + B) = \\(\\begin{pmatrix}8&8\\\\0&8\\end{pmatrix}\\). Next compute 2A = \\(\\begin{pmatrix}2&0\\\\4&-2\\end{pmatrix}\\) and 2B = \\(\\begin{pmatrix}6&8\\\\-4&10\\end{pmatrix}\\). Adding gives 2A + 2B = \\(\\begin{pmatrix}8&8\\\\0&8\\end{pmatrix}\\). Both sides match, so the distributive law holds in this example.",
+      "rating": "***+",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "distributivity"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-scalar-multiplication-10",
+      "prompt": "A student says -A means take the reciprocal of every entry of A. Diagnose this using \\(A=\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}\\).",
+      "answer": "The statement is incorrect. The matrix -A is the additive inverse of A, so it is obtained by multiplying every entry by -1. For \\(A=\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}\\), we get -\\(A=\\begin{pmatrix}-2&1\\\\0&-4\\end{pmatrix}\\). Reciprocals would give entries such as 1/2 and 1/4, and the zero entry would not even have a reciprocal. Therefore -A means entrywise negation, not entrywise reciprocal.",
+      "rating": "****",
+      "paperTags": [
+        "matrix-algebra",
+        "scalar-multiplication",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

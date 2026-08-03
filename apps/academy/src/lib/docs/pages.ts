@@ -7,6 +7,18 @@ import {
   level1PhysicsCourseIntroHeadings,
 } from "./level-1-physics/course-page";
 import { level1PhysicsExamSets } from "./level-1-physics/exams";
+import { level1CalculusTopicBodies } from "./level-1-calculus/content";
+import { level1CalculusExamSets } from "./level-1-calculus/exams";
+import {
+  level1CalculusCourseIntroBody,
+  level1CalculusCourseIntroHeadings,
+} from "./level-1-calculus/course-page";
+import { level1LinearAlgebraTopicBodies } from "./level-1-linear-algebra/content";
+import { level1LinearAlgebraExamSets } from "./level-1-linear-algebra/exams";
+import {
+  level1LinearAlgebraCourseIntroBody,
+  level1LinearAlgebraCourseIntroHeadings,
+} from "./level-1-linear-algebra/course-page";
 import { getLevel1MathIPhysicsTopicBody } from "./level-1-math-i-physics/content";
 import { level1MathIPhysicsExamSets } from "./level-1-math-i-physics/exams";
 import { level1MathIIPhysicsTopicBodies } from "./level-1-math-ii-physics/content";
@@ -23,6 +35,8 @@ import {
 export type CourseScope =
   | "level-1-math-i-physics"
   | "level-1-math-ii-physics"
+  | "level-1-calculus"
+  | "level-1-linear-algebra"
   | "level-1-physics";
 
 export type CourseMeta = {
@@ -64,6 +78,22 @@ export const academyCourses: CourseMeta[] = [
     slug: ["level-1-math-ii-physics"],
     description:
       "Extended mathematical methods for physics modelling, including integration, differential equations, complex numbers, matrices, and vector calculus.",
+  },
+  {
+    label: "Level 1 - Calculus",
+    scope: "level-1-calculus",
+    href: "/level-1-calculus",
+    slug: ["level-1-calculus"],
+    description:
+      "A coherent first calculus course covering limits, derivatives, integrals, series, multivariable calculus, and introductory differential equations.",
+  },
+  {
+    label: "Level 1 - Linear Algebra",
+    scope: "level-1-linear-algebra",
+    href: "/level-1-linear-algebra",
+    slug: ["level-1-linear-algebra"],
+    description:
+      "A first linear algebra course covering vectors, matrices, systems, determinants, vector spaces, dimension, and linear maps.",
   },
   {
     label: "Level 1 - Physics",
@@ -481,6 +511,210 @@ const level1MathIIPhysicsSections: CourseSection[] = [
       { title: "Complex Derivative Examples" },
       { title: "Laplace Equation" },
       { title: "Harmonic Functions" },
+    ],
+  },
+];
+
+const level1CalculusSections: CourseSection[] = [
+  {
+    id: "foundations-and-limits",
+    title: "Foundations And Limits",
+    navLabel: "Limits",
+    topics: [
+      { title: "Functions And Graphs" },
+      { title: "Limit Laws" },
+      { title: "Continuity" },
+      { title: "Infinite Limits" },
+      { title: "Asymptotic Behaviour" },
+    ],
+  },
+  {
+    id: "differential-calculus",
+    title: "Differential Calculus",
+    navLabel: "Derivatives",
+    topics: [
+      { title: "Derivative From First Principles" },
+      { title: "Differentiation Rules" },
+      { title: "Chain Rule" },
+      { title: "Implicit Differentiation" },
+      { title: "Higher Derivatives" },
+    ],
+  },
+  {
+    id: "applications-of-derivatives",
+    title: "Applications Of Derivatives",
+    navLabel: "Applications",
+    topics: [
+      { title: "Linear Approximation" },
+      { title: "Curve Sketching" },
+      { title: "Optimisation" },
+      { title: "Related Rates" },
+      { title: "L'Hopital's Rule" },
+    ],
+  },
+  {
+    id: "integral-calculus",
+    title: "Integral Calculus",
+    navLabel: "Integrals",
+    topics: [
+      { title: "Antiderivatives" },
+      { title: "Definite Integrals" },
+      { title: "Fundamental Theorem Of Calculus" },
+      { title: "Substitution" },
+      { title: "Integration By Parts" },
+      { title: "Partial Fractions" },
+      { title: "Improper Integrals" },
+    ],
+  },
+  {
+    id: "applications-of-integrals",
+    title: "Applications Of Integrals",
+    navLabel: "Applications",
+    topics: [
+      { title: "Areas Between Curves" },
+      { title: "Volumes" },
+      { title: "Arc Length" },
+    ],
+  },
+  {
+    id: "series-and-approximations",
+    title: "Series And Approximations",
+    navLabel: "Series",
+    topics: [
+      { title: "Sequences" },
+      { title: "Series" },
+      { title: "Convergence Tests" },
+      { title: "Power Series" },
+      { title: "Taylor Series" },
+      { title: "Fourier Series" },
+    ],
+  },
+  {
+    id: "several-variable-calculus",
+    title: "Several-Variable Calculus",
+    navLabel: "Several Variables",
+    topics: [
+      { title: "Multivariable Functions" },
+      { title: "Partial Derivatives" },
+      { title: "Gradient" },
+      { title: "Multivariable Chain Rule" },
+      { title: "Critical Points" },
+      { title: "Multiple Integrals" },
+      { title: "Coordinate Changes" },
+    ],
+  },
+  {
+    id: "differential-equations",
+    title: "Differential Equations",
+    navLabel: "Differential Equations",
+    topics: [
+      { title: "First-Order Differential Equations" },
+      { title: "Second-Order Differential Equations" },
+      { title: "Series Solutions" },
+      { title: "Separation Of Variables" },
+    ],
+  },
+];
+
+const level1LinearAlgebraSections: CourseSection[] = [
+  {
+    id: "vectors-in-rn",
+    title: "Vectors In Rn",
+    navLabel: "Vectors",
+    topics: [
+      { title: "Vectors In Rn" },
+      { title: "Vector Operations" },
+      { title: "Scalar Product" },
+      { title: "Norms And Distances" },
+      { title: "Angles And Orthogonality" },
+      { title: "Vector Product" },
+      { title: "Planes In R3" },
+      { title: "Lines In R3" },
+      { title: "Scalar Triple Product" },
+      { title: "Three By Three Systems" },
+    ],
+  },
+  {
+    id: "matrix-algebra",
+    title: "Matrix Algebra",
+    navLabel: "Matrices",
+    topics: [
+      { title: "Matrix Notation" },
+      { title: "Matrix Addition" },
+      { title: "Scalar Multiplication" },
+      { title: "Matrix Multiplication" },
+      { title: "Identity And Zero Matrices" },
+      { title: "Transpose" },
+      { title: "Inverse Matrices" },
+    ],
+  },
+  {
+    id: "linear-systems",
+    title: "Linear Systems",
+    navLabel: "Systems",
+    topics: [
+      { title: "Augmented Matrices" },
+      { title: "Elementary Row Operations" },
+      { title: "Echelon Form" },
+      { title: "Reduced Row Echelon Form" },
+      { title: "Gauss-Jordan Elimination" },
+      { title: "Solution Sets" },
+      { title: "Inverse Computation" },
+      { title: "Invertible Matrix Theorem" },
+    ],
+  },
+  {
+    id: "determinants",
+    title: "Determinants",
+    topics: [
+      { title: "Small Determinants" },
+      { title: "General Determinant" },
+      { title: "Determinant Properties" },
+      { title: "Determinant Calculations" },
+      { title: "Determinants And Invertibility" },
+      { title: "Adjugate Matrix" },
+      { title: "Cramer's Rule" },
+      { title: "Determinants And Geometry" },
+    ],
+  },
+  {
+    id: "subspaces-and-dimension",
+    title: "Subspaces And Dimension",
+    navLabel: "Dimension",
+    topics: [
+      { title: "Subspaces Of Rn" },
+      { title: "Spanning Sets" },
+      { title: "Linear Independence" },
+      { title: "Bases In Rn" },
+      { title: "Dimension In Rn" },
+    ],
+  },
+  {
+    id: "real-vector-spaces",
+    title: "Real Vector Spaces",
+    navLabel: "Vector Spaces",
+    topics: [
+      { title: "Real Vector Spaces" },
+      { title: "Vector Subspaces" },
+      { title: "Abstract Bases" },
+      { title: "Abstract Dimension" },
+      { title: "Sums And Intersections" },
+      { title: "Coordinates" },
+    ],
+  },
+  {
+    id: "linear-maps",
+    title: "Linear Maps",
+    navLabel: "Linear Maps",
+    topics: [
+      { title: "Linear Maps" },
+      { title: "Linear Map Examples" },
+      { title: "Matrix Representations" },
+      { title: "Image And Kernel" },
+      { title: "Rank And Nullity" },
+      { title: "Isomorphisms" },
+      { title: "Change Of Basis" },
+      { title: "Change Of Coordinates" },
     ],
   },
 ];
@@ -1312,6 +1546,28 @@ function getLevel1MathIIPhysicsEquationSheetSlug() {
   return ["level-1-math-ii-physics", "equation-sheet"];
 }
 
+function getLevel1CalculusTopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-1-calculus", section.id, slugify(topic.title)];
+}
+
+function getLevel1CalculusQuestionsSlug() {
+  return ["level-1-calculus", "questions"];
+}
+
+function getLevel1LinearAlgebraTopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-1-linear-algebra", section.id, slugify(topic.title)];
+}
+
+function getLevel1LinearAlgebraQuestionsSlug() {
+  return ["level-1-linear-algebra", "questions"];
+}
+
 function getLevel1PhysicsQuestionsSlug() {
   return ["level-1-physics", "questions"];
 }
@@ -1330,6 +1586,14 @@ function getLevel1MathIPhysicsExamPaperSlug(setId: string, paperId: string) {
 
 function getLevel1MathIIPhysicsExamPaperSlug(setId: string, paperId: string) {
   return ["level-1-math-ii-physics", "exam-papers", setId, paperId];
+}
+
+function getLevel1CalculusExamPaperSlug(setId: string, paperId: string) {
+  return ["level-1-calculus", "exam-papers", setId, paperId];
+}
+
+function getLevel1LinearAlgebraExamPaperSlug(setId: string, paperId: string) {
+  return ["level-1-linear-algebra", "exam-papers", setId, paperId];
 }
 
 export function getCourseExamPapersHref(course: CourseMeta) {
@@ -1355,6 +1619,8 @@ export type Level1PhysicsQuestionTopicOption = {
 const sectionsByCourseScope = new Map<CourseScope, CourseSection[]>([
   ["level-1-math-i-physics", level1MathIPhysicsSections],
   ["level-1-math-ii-physics", level1MathIIPhysicsSections],
+  ["level-1-calculus", level1CalculusSections],
+  ["level-1-linear-algebra", level1LinearAlgebraSections],
   ["level-1-physics", level1PhysicsSections],
 ]);
 
@@ -1405,6 +1671,20 @@ const courseIntroContent = new Map<
     {
       body: level1MathIIPhysicsCourseIntroBody,
       headings: level1MathIIPhysicsCourseIntroHeadings,
+    },
+  ],
+  [
+    "level-1-calculus",
+    {
+      body: level1CalculusCourseIntroBody,
+      headings: level1CalculusCourseIntroHeadings,
+    },
+  ],
+  [
+    "level-1-linear-algebra",
+    {
+      body: level1LinearAlgebraCourseIntroBody,
+      headings: level1LinearAlgebraCourseIntroHeadings,
     },
   ],
   [
@@ -1501,6 +1781,24 @@ const level1MathIIPhysicsEquationSheetPage = createEditorialPage({
   badges: ["Equation Sheet"],
 });
 
+const level1CalculusQuestionsPage = createEditorialPage({
+  slug: getLevel1CalculusQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 1 - Calculus questions with filters.",
+  category: "Level 1 - Calculus",
+  order: 65,
+  badges: ["Questions"],
+});
+
+const level1LinearAlgebraQuestionsPage = createEditorialPage({
+  slug: getLevel1LinearAlgebraQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 1 - Linear Algebra questions with filters.",
+  category: "Level 1 - Linear Algebra",
+  order: 75,
+  badges: ["Questions"],
+});
+
 const level1PhysicsQuestionsPage = createEditorialPage({
   slug: getLevel1PhysicsQuestionsSlug(),
   title: "Questions",
@@ -1565,6 +1863,36 @@ const level1MathIIPhysicsExamPaperPages = level1MathIIPhysicsExamSets.flatMap(
     ),
 );
 
+const level1CalculusExamPaperPages = level1CalculusExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel1CalculusExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 1 - Calculus",
+        order: 4700 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
+
+const level1LinearAlgebraExamPaperPages = level1LinearAlgebraExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel1LinearAlgebraExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 1 - Linear Algebra",
+        order: 4800 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
+
 const level1MathIPhysicsTopicPages = level1MathIPhysicsSections.flatMap(
   (section, sectionIndex) =>
     section.topics.map((topic, topicIndex) =>
@@ -1593,6 +1921,38 @@ const level1MathIIPhysicsTopicPages = level1MathIIPhysicsSections.flatMap(
         order: 2000 + sectionIndex * 100 + topicIndex,
         badges: [section.title],
         body: level1MathIIPhysicsTopicBodies.get(topic.title),
+      }),
+    ),
+);
+
+const level1CalculusTopicPages = level1CalculusSections.flatMap(
+  (section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel1CalculusTopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 1 - Calculus topic page in ${section.title}.`,
+        category: "Level 1 - Calculus",
+        order: 3000 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level1CalculusTopicBodies.get(topic.title),
+      }),
+    ),
+);
+
+const level1LinearAlgebraTopicPages = level1LinearAlgebraSections.flatMap(
+  (section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel1LinearAlgebraTopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 1 - Linear Algebra topic page in ${section.title}.`,
+        category: "Level 1 - Linear Algebra",
+        order: 3500 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level1LinearAlgebraTopicBodies.get(topic.title),
       }),
     ),
 );
@@ -1629,6 +1989,8 @@ export const docsPages: DocPage[] = [
   ...courseIntroPages,
   level1MathIPhysicsQuestionsPage,
   level1MathIIPhysicsQuestionsPage,
+  level1CalculusQuestionsPage,
+  level1LinearAlgebraQuestionsPage,
   level1PhysicsQuestionsPage,
   ...courseFlashcardsPages,
   level1MathPhysicsEquationSheetPage,
@@ -1638,9 +2000,13 @@ export const docsPages: DocPage[] = [
   ...courseExamPaperPages,
   ...level1MathIPhysicsExamPaperPages,
   ...level1MathIIPhysicsExamPaperPages,
+  ...level1CalculusExamPaperPages,
+  ...level1LinearAlgebraExamPaperPages,
   ...level1PhysicsExamPaperPages,
   ...level1MathIPhysicsTopicPages,
   ...level1MathIIPhysicsTopicPages,
+  ...level1CalculusTopicPages,
+  ...level1LinearAlgebraTopicPages,
   ...level1PhysicsTopicPages,
 ];
 
@@ -1717,6 +2083,58 @@ const level1MathIIPhysicsSidebarSections: DocSectionMeta[] = [
   },
 ];
 
+const level1CalculusSidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-1-calculus-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-1-calculus"],
+      getCourseExamPapersSlug(getCourseByScope("level-1-calculus")),
+      getLevel1CalculusQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-1-calculus")),
+    ],
+  },
+  {
+    id: "level-1-calculus-sections",
+    title: "Course Sections",
+    defaultOpen: true,
+    children: level1CalculusSections.map((section) => ({
+      id: `level-1-calculus-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel1CalculusTopicSlug(section, topic),
+      ),
+    })),
+  },
+];
+
+const level1LinearAlgebraSidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-1-linear-algebra-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-1-linear-algebra"],
+      getCourseExamPapersSlug(getCourseByScope("level-1-linear-algebra")),
+      getLevel1LinearAlgebraQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-1-linear-algebra")),
+    ],
+  },
+  {
+    id: "level-1-linear-algebra-sections",
+    title: "Course Sections",
+    defaultOpen: true,
+    children: level1LinearAlgebraSections.map((section) => ({
+      id: `level-1-linear-algebra-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel1LinearAlgebraTopicSlug(section, topic),
+      ),
+    })),
+  },
+];
+
 function createCourseSidebarPages(scope: CourseScope) {
   return docsPages.map((page) => {
     if (page.slug.length === 1 && page.slug[0] === scope) {
@@ -1768,6 +2186,10 @@ const level1MathIPhysicsSidebarPages = createCourseSidebarPages(
 const level1MathIIPhysicsSidebarPages = createCourseSidebarPages(
   "level-1-math-ii-physics",
 );
+const level1CalculusSidebarPages = createCourseSidebarPages("level-1-calculus");
+const level1LinearAlgebraSidebarPages = createCourseSidebarPages(
+  "level-1-linear-algebra",
+);
 const level1PhysicsSidebarPages = createCourseSidebarPages("level-1-physics");
 
 const docsTreesByScope: Record<
@@ -1782,6 +2204,14 @@ const docsTreesByScope: Record<
   "level-1-math-ii-physics": createDocsTree(
     level1MathIIPhysicsSidebarSections,
     level1MathIIPhysicsSidebarPages,
+  ),
+  "level-1-calculus": createDocsTree(
+    level1CalculusSidebarSections,
+    level1CalculusSidebarPages,
+  ),
+  "level-1-linear-algebra": createDocsTree(
+    level1LinearAlgebraSidebarSections,
+    level1LinearAlgebraSidebarPages,
   ),
   "level-1-physics": createDocsTree(
     level1PhysicsSidebarSections,

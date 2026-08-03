@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-1-calculus",
+  "sectionId": "integral-calculus",
+  "topicId": "antiderivatives",
+  "topicTitle": "Antiderivatives",
+  "paperTags": [
+    "level-1-calculus",
+    "integral-calculus",
+    "antiderivatives"
+  ],
+  "questions": [
+    {
+      "id": "calculus-integral-calculus-antiderivatives-01",
+      "prompt": "Find \\(\\int 5x^4\\,dx\\).",
+      "answer": "We need an antiderivative of \\(5x^4\\). Use the power rule for antiderivatives: \\(\\int x^n\\,dx=\\frac{x^{n+1}}{n+1}+C\\) for \\(n\\ne-1\\). Thus \\(\\int 5x^4\\,dx=5\\cdot\\frac{x^5}{5}+C=x^5+C\\). Differentiating \\(x^5+C\\) gives \\(5x^4\\), so the final answer is \\(x^5+C\\).",
+      "rating": "*",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-02",
+      "prompt": "Find \\(\\int(6x^2-4x+9)\\,dx\\).",
+      "answer": "We need the general antiderivative. Integrate term by term using linearity. \\(\\int6x^2\\,dx=6\\cdot\\frac{x^3}{3}=2x^3\\), \\(\\int(-4x)\\,dx=-4\\cdot\\frac{x^2}{2}=-2x^2\\), and \\(\\int9\\,dx=9x\\). Include the constant of integration. Therefore \\(\\int(6x^2-4x+9)\\,dx=2x^3-2x^2+9x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-03",
+      "prompt": "Find \\(\\int\\left(\\frac{3}{x^2}+2\\sqrt{x}\\right)\\,dx\\) for \\(x>0\\).",
+      "answer": "We need to rewrite powers before integrating. Since \\(\\frac{3}{x^2}=3x^{-2}\\) and \\(2\\sqrt{x}=2x^{1/2}\\), the integral is \\(\\int(3x^{-2}+2x^{1/2})\\,dx\\). Apply the power rule: \\(\\int3x^{-2}\\,dx=3\\cdot\\frac{x^{-1}}{-1}=-3x^{-1}\\), and \\(\\int2x^{1/2}\\,dx=2\\cdot\\frac{x^{3/2}}{3/2}=\\frac{4}{3}x^{3/2}\\). Therefore the antiderivative is \\(-\\frac{3}{x}+\\frac{4}{3}x^{3/2}+C\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-04",
+      "prompt": "Find \\(\\int\\left(e^x+\\cos x\\right)\\,dx\\).",
+      "answer": "We need an antiderivative of each term. The antiderivative of \\(e^x\\) is \\(e^x\\), because \\(\\frac{d}{dx}e^x=e^x\\). The antiderivative of \\(\\cos x\\) is \\(\\sin x\\), because \\(\\frac{d}{dx}\\sin x=\\cos x\\). Therefore \\(\\int(e^x+\\cos x)\\,dx=e^x+\\sin x+C\\).",
+      "rating": "*",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-05",
+      "prompt": "Find \\(\\int\\left(\\sec^2 x+\\frac{1}{x}\\right)\\,dx\\) for \\(x>0\\).",
+      "answer": "We need standard antiderivatives. Since \\(\\frac{d}{dx}\\tan x=\\sec^2 x\\), \\(\\int\\sec^2 x\\,dx=\\tan x\\). For \\(x>0\\), \\(\\int\\frac{1}{x}\\,dx=\\ln x\\). Combining the terms and adding the constant gives \\(\\tan x+\\ln x+C\\).",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-06",
+      "prompt": "Find \\(f(x)\\) if \\(f'(x)=4x^3-6x\\) and \\(f(1)=5\\).",
+      "answer": "We need the specific antiderivative satisfying the initial condition. Integrate \\(f'(x)\\): \\(f(x)=\\int(4x^3-6x)\\,dx=x^4-3x^2+C\\). Use \\(f(1)=5\\): \\(1^4-3(1)^2+C=5\\), so \\(1-3+C=5\\), giving \\(C=7\\). Therefore \\(f(x)=x^4-3x^2+7\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-07",
+      "prompt": "Find \\(y\\) if \\(\\frac{dy}{dx}=3\\sqrt{x}\\) and \\(y=10\\) when \\(x=4\\).",
+      "answer": "We need the function \\(y(x)\\). Rewrite \\(3\\sqrt{x}\\) as \\(3x^{1/2}\\). Integrate: \\(y=\\int3x^{1/2}\\,dx=3\\cdot\\frac{x^{3/2}}{3/2}+C=2x^{3/2}+C\\). Use the condition \\(y=10\\) when \\(x=4\\): \\(10=2(4^{3/2})+C\\). Since \\(4^{3/2}=8\\), \\(10=16+C\\), so \\(C=-6\\). Therefore \\(y=2x^{3/2}-6\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-08",
+      "prompt": "Find \\(\\int\\left(2x^{-3}-7x^{-1}\\right)\\,dx\\) for \\(x>0\\).",
+      "answer": "We need to handle the special \\(x^{-1}\\) term separately. For \\(2x^{-3}\\), the power rule gives \\(2\\cdot\\frac{x^{-2}}{-2}=-x^{-2}\\). For \\(-7x^{-1}\\), use \\(\\int x^{-1}\\,dx=\\ln x\\) because \\(x>0\\). Thus the antiderivative is \\(-x^{-2}-7\\ln x+C\\), or \\(-\\frac{1}{x^2}-7\\ln x+C\\).",
+      "rating": "***",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-09",
+      "prompt": "Verify that \\(F(x)=\\frac{x^5}{5}-2x^2+8\\) is an antiderivative of \\(f(x)=x^4-4x\\).",
+      "answer": "We need to check whether \\(F'(x)=f(x)\\). Differentiate term by term: \\(\\frac{d}{dx}\\frac{x^5}{5}=x^4\\), \\(\\frac{d}{dx}(-2x^2)=-4x\\), and \\(\\frac{d}{dx}8=0\\). Therefore \\(F'(x)=x^4-4x\\), which equals \\(f(x)\\). Hence \\(F\\) is an antiderivative of \\(f\\).",
+      "rating": "*",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    },
+    {
+      "id": "calculus-integral-calculus-antiderivatives-10",
+      "prompt": "Find the position function \\(s(t)\\) if velocity \\(v(t)=6t-4\\) m/s and \\(s(0)=3\\) m.",
+      "answer": "We need position from velocity, so integrate \\(v(t)\\). Since \\(s'(t)=v(t)=6t-4\\), \\(s(t)=\\int(6t-4)\\,dt=3t^2-4t+C\\). Use \\(s(0)=3\\): \\(3(0)^2-4(0)+C=3\\), so \\(C=3\\). Therefore \\(s(t)=3t^2-4t+3\\) m.",
+      "rating": "**",
+      "paperTags": [
+        "integral-calculus",
+        "antiderivatives"
+      ]
+    }
+  ]
+}

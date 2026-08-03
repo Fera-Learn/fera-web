@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "partial-derivatives",
+  "topicTitle": "Partial Derivatives",
+  "paperTags": [
+    "several-variable-calculus",
+    "partial-derivatives"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-01",
+      "prompt": "Find \\(f_x\\) for \\(f(x,y)=x^3+2xy+y^2\\).",
+      "answer": "To find \\(f_x\\), treat \\(y\\) as a constant and differentiate with respect to \\(x\\). We have \\(\\frac{\\partial}{\\partial x}(x^3)=3x^2\\), \\(\\frac{\\partial}{\\partial x}(2xy)=2y\\), and \\(\\frac{\\partial}{\\partial x}(y^2)=0\\). Therefore \\(f_x=3x^2+2y\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "first-partials"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-02",
+      "prompt": "Find \\(f_y\\) for \\(f(x,y)=x^3+2xy+y^2\\).",
+      "answer": "To find \\(f_y\\), treat \\(x\\) as a constant and differentiate with respect to \\(y\\). The term \\(x^3\\) becomes \\(0\\), \\(2xy\\) becomes \\(2x\\), and \\(y^2\\) becomes \\(2y\\). Hence \\(f_y=2x+2y\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "first-partials"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-03",
+      "prompt": "For \\(f(x,y)=e^{xy}\\), find \\(f_x\\).",
+      "answer": "When differentiating with respect to \\(x\\), \\(y\\) is constant. Use the chain rule with inner function \\(xy\\), whose \\(x\\)-derivative is \\(y\\). Thus \\(f_x=e^{xy}\\cdot y\\). Therefore \\(f_x=ye^{xy}\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-04",
+      "prompt": "For \\(f(x,y)=\\sin(xy)\\), find \\(f_y\\).",
+      "answer": "Treat \\(x\\) as a constant and apply the chain rule. The derivative of \\(\\sin(xy)\\) is \\(\\cos(xy)\\) times the \\(y\\)-derivative of \\(xy\\), which is \\(x\\). Therefore \\(f_y=x\\cos(xy)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-05",
+      "prompt": "Find \\(f_{xx}\\) for \\(f(x,y)=x^4y+3xy^2\\).",
+      "answer": "First differentiate with respect to \\(x\\): \\(f_x=4x^3y+3y^2\\), treating \\(y\\) as constant. Differentiate \\(f_x\\) again with respect to \\(x\\): \\(f_{xx}=12x^2y+0\\). Therefore \\(f_{xx}=12x^2y\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "second-partials"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-06",
+      "prompt": "Find \\(f_{xy}\\) for \\(f(x,y)=x^2y^3+5x\\).",
+      "answer": "The notation \\(f_{xy}\\) means differentiate first with respect to \\(x\\), then with respect to \\(y\\). First \\(f_x=2xy^3+5\\). Now differentiate this with respect to \\(y\\): \\(f_{xy}=2x\\cdot 3y^2+0=6xy^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "mixed-partials"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-07",
+      "prompt": "Evaluate \\(f_x(1,2)\\) for \\(f(x,y)=x^2y+\\ln y\\), where \\(y>0\\).",
+      "answer": "First find the partial derivative with respect to \\(x\\), treating \\(y\\) as constant. We get \\(f_x=2xy+0=2xy\\). Substitute \\((x,y)=(1,2)\\): \\(f_x(1,2)=2(1)(2)=4\\). Therefore \\(f_x(1,2)=4\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-08",
+      "prompt": "For \\(f(x,y)=x^2+xy+y^2\\), find the linear approximation to \\(f\\) at \\((1,1)\\).",
+      "answer": "The linear approximation is \\(L(x,y)=f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)\\). Here \\(f(1,1)=3\\), \\(f_x=2x+y\\), so \\(f_x(1,1)=3\\), and \\(f_y=x+2y\\), so \\(f_y(1,1)=3\\). Therefore \\(L(x,y)=3+3(x-1)+3(y-1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "linear-approximation"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-09",
+      "prompt": "Show that \\(f_{xy}=f_{yx}\\) for \\(f(x,y)=x^3y^2\\).",
+      "answer": "Compute both mixed partials. First \\(f_x=3x^2y^2\\), so \\(f_{xy}=6x^2y\\). Next \\(f_y=2x^3y\\), so \\(f_{yx}=6x^2y\\). Since both expressions are equal, \\(f_{xy}=f_{yx}=6x^2y\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "mixed-partials"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-partial-derivatives-10",
+      "prompt": "For \\(z=x^2y+y^3\\), estimate the change in \\(z\\) near \\((2,1)\\) when \\(dx=0.1\\) and \\(dy=-0.2\\).",
+      "answer": "Use the differential \\(dz\\approx z_xdx+z_ydy\\). We have \\(z_x=2xy\\) and \\(z_y=x^2+3y^2\\). At \\((2,1)\\), \\(z_x=4\\) and \\(z_y=7\\). Thus \\(dz\\approx 4(0.1)+7(-0.2)=0.4-1.4=-1.0\\). The estimated change is \\(-1\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "partial-derivatives",
+        "differentials"
+      ]
+    }
+  ]
+}

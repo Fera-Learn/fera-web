@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "series-and-approximations",
+  "topicId": "power-series",
+  "topicTitle": "Power Series",
+  "paperTags": [
+    "series-and-approximations"
+  ],
+  "questions": [
+    {
+      "id": "calculus-series-and-approximations-power-series-01",
+      "prompt": "Find the radius and interval of convergence of \\(\\sum_{n=0}^{\\infty}x^n\\).",
+      "answer": "This is a geometric power series with common ratio \\(x\\). A geometric series converges when \\(|x|<1\\), so the radius of convergence is \\(R=1\\). At \\(x=1\\), the series is \\(\\sum 1\\), which diverges. At \\(x=-1\\), the terms are \\((-1)^n\\), which do not tend to \\(0\\), so the series diverges. Therefore the interval of convergence is \\((-1,1)\\), and the radius is \\(1\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "geometric-series"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-02",
+      "prompt": "Find the radius and interval of convergence of \\(\\sum_{n=1}^{\\infty}\\frac{x^n}{n}\\).",
+      "answer": "Use the ratio test for the radius. With \\(a_n=x^n/n\\), \\(\\left|a_{n+1}/a_n\\right|=|x|\\frac{n}{n+1}\\to |x|\\). The series converges when \\(|x|<1\\), so \\(R=1\\). Check endpoints: at \\(x=1\\), the series is \\(\\sum 1/n\\), which diverges; at \\(x=-1\\), the series is \\(\\sum (-1)^n/n\\), which converges by the alternating series test. Therefore the interval is \\([-1,1)\\), and the radius is \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "endpoints"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-03",
+      "prompt": "Find the radius and interval of convergence of \\(\\sum_{n=1}^{\\infty}n x^n\\).",
+      "answer": "Use the ratio test. Let \\(a_n=nx^n\\). Then \\(\\left|a_{n+1}/a_n\\right|=\\frac{n+1}{n}|x|\\to |x|\\). Thus the series converges for \\(|x|<1\\), so \\(R=1\\). At \\(x=1\\), the terms are \\(n\\), which do not tend to \\(0\\). At \\(x=-1\\), the terms are \\(n(-1)^n\\), which also do not tend to \\(0\\). Both endpoints diverge. Therefore the interval is \\((-1,1)\\), and the radius is \\(1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "ratio-test"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-04",
+      "prompt": "Find the radius and interval of convergence of \\(\\sum_{n=0}^{\\infty}\\left(\\frac{x-2}{3}\\right)^n\\).",
+      "answer": "This is a geometric series with common ratio \\((x-2)/3\\). It converges when \\(\\left|\\frac{x-2}{3}\\right|<1\\), which means \\(|x-2|<3\\). Therefore \\(-1<x<5\\), and the radius is \\(R=3\\). At \\(x=-1\\), the ratio is \\(-1\\), so the terms do not tend to \\(0\\). At \\(x=5\\), the ratio is \\(1\\), so the series \\(\\sum 1\\) diverges. Therefore the interval of convergence is \\((-1,5)\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "center-radius"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-05",
+      "prompt": "Find the radius of convergence of \\(\\sum_{n=0}^{\\infty} n!x^n\\).",
+      "answer": "Use the ratio test. Let \\(a_n=n!x^n\\). Then \\(\\left|a_{n+1}/a_n\\right|=\\left|\\frac{(n+1)!x^{n+1}}{n!x^n}\\right|=(n+1)|x|\\). If \\(x\\ne 0\\), this ratio tends to \\(\\infty\\), so the series diverges. If \\(x=0\\), every term after \\(n=0\\) is \\(0\\), so the series converges. Therefore the radius of convergence is \\(R=0\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "ratio-test"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-06",
+      "prompt": "Find the radius of convergence of \\(\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\).",
+      "answer": "Use the ratio test. Let \\(a_n=x^n/n!\\). Then \\(\\left|a_{n+1}/a_n\\right|=\\left|\\frac{x^{n+1}}{(n+1)!}\\cdot\\frac{n!}{x^n}\\right|=\\frac{|x|}{n+1}\\). For every fixed real \\(x\\), this ratio tends to \\(0\\), which is less than \\(1\\). Therefore the series converges for every real \\(x\\), and the radius of convergence is \\(R=\\infty\\).",
+      "rating": "**",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "infinite-radius"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-07",
+      "prompt": "Use the geometric series to find a power series for \\(\\frac{1}{(1-x)^2}\\), and state where the series is valid.",
+      "answer": "Start with the geometric series \\(\\frac{1}{1-x}=\\sum_{n=0}^{\\infty}x^n\\), valid for \\(|x|<1\\). Differentiate both sides term by term within the interval of convergence. The left side becomes \\(\\frac{1}{(1-x)^2}\\), and the right side becomes \\(\\sum_{n=1}^{\\infty}n x^{n-1}\\). Therefore \\(\\frac{1}{(1-x)^2}=\\sum_{n=1}^{\\infty}n x^{n-1}\\) for \\(|x|<1\\).",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "differentiation"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-08",
+      "prompt": "Use the geometric series to find a power series for \\(-\\ln(1-x)\\), and state where the series is valid before endpoint checks.",
+      "answer": "Start with \\(\\frac{1}{1-x}=\\sum_{n=0}^{\\infty}x^n\\), valid for \\(|x|<1\\). Integrate both sides from \\(0\\) to \\(x\\): \\(\\int_0^x\\frac{1}{1-t}\\,dt=\\int_0^x\\sum_{n=0}^{\\infty}t^n\\,dt\\). The left side is \\(-\\ln(1-x)\\), and the right side is \\(\\sum_{n=0}^{\\infty}\\frac{x^{n+1}}{n+1}\\). Reindexing gives \\(-\\ln(1-x)=\\sum_{n=1}^{\\infty}\\frac{x^n}{n}\\), valid for \\(|x|<1\\) before endpoint checks.",
+      "rating": "***",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "integration"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-09",
+      "prompt": "Find the coefficient of \\(x^4\\) in the power series \\(e^x=\\sum_{n=0}^{\\infty}\\frac{x^n}{n!}\\).",
+      "answer": "We identify the term with power \\(x^4\\). In the series \\(e^x=\\sum_{n=0}^{\\infty}x^n/n!\\), the \\(x^4\\) term occurs when \\(n=4\\). That term is \\(x^4/4!\\). Since \\(4!=24\\), the coefficient of \\(x^4\\) is \\(1/24\\). Therefore the coefficient is \\(\\frac{1}{24}\\).",
+      "rating": "*",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "coefficients"
+      ]
+    },
+    {
+      "id": "calculus-series-and-approximations-power-series-10",
+      "prompt": "A learner says \\(\\sum_{n=1}^{\\infty}\\frac{(x-1)^n}{n^2}\\) has interval of convergence \\((0,2)\\) because the radius is \\(1\\). Explain the missing step and find the correct interval.",
+      "answer": "The missing step is checking the endpoints after finding the radius. The series has center \\(1\\), and the radius is \\(1\\), so the open interval is \\(0<x<2\\). At \\(x=0\\), the series becomes \\(\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{n^2}\\), which converges absolutely because \\(\\sum 1/n^2\\) converges. At \\(x=2\\), the series becomes \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\), which converges. Therefore both endpoints are included, and the correct interval is \\([0,2]\\).",
+      "rating": "****",
+      "paperTags": [
+        "series-and-approximations",
+        "power-series",
+        "error-diagnosis",
+        "endpoints"
+      ]
+    }
+  ]
+}

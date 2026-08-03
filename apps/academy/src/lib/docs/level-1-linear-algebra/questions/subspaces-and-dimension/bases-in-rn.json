@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "subspaces-and-dimension",
+  "topicId": "bases-in-rn",
+  "topicTitle": "Bases In Rn",
+  "paperTags": [
+    "subspaces-and-dimension"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-01",
+      "prompt": "Explain why {\\((1, 0)\\), \\((0, 1)\\)} is a basis for \\(\\mathbb R^2\\).",
+      "answer": "A basis must span the space and be linearly independent. The vectors \\((1, 0)\\) and \\((0, 1)\\) span \\(\\mathbb R^2\\) because any \\((x, y)\\) can be written as x(1, 0) + y(0, 1). They are linearly independent because a(1, 0) + b(0, 1) = \\((0, 0)\\) forces \\(a=0\\) and \\(b=0\\). Therefore they form a basis for \\(\\mathbb R^2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-02",
+      "prompt": "Is {\\((1, 2)\\)} a basis for \\(\\mathbb R^2\\)? Explain.",
+      "answer": "A basis for \\(\\mathbb R^2\\) must span \\(\\mathbb R^2\\). The set {\\((1, 2)\\)} spans only the line of multiples of \\((1, 2)\\), not all of \\(\\mathbb R^2\\). For example, \\((0, 1)\\) is not a multiple of \\((1, 2)\\). Therefore {\\((1, 2)\\)} is not a basis for \\(\\mathbb R^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-03",
+      "prompt": "Is {\\((1, 0)\\), \\((0, 1)\\), \\((1, 1)\\)} a basis for \\(\\mathbb R^2\\)? Explain.",
+      "answer": "The set spans \\(\\mathbb R^2\\), but it is not linearly independent because \\((1, 1)\\) = \\((1, 0)\\) + \\((0, 1)\\). A basis must be both spanning and linearly independent. Therefore this set is not a basis for \\(\\mathbb R^2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "linear-independence"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-04",
+      "prompt": "Use a determinant to decide whether {\\((1, 2)\\), \\((3, 5)\\)} is a basis for \\(\\mathbb R^2\\).",
+      "answer": "Place the vectors as columns: \\(\\begin{pmatrix}1&3\\\\2&5\\end{pmatrix}\\). The determinant is \\(1\\cdot5\\) - \\(3\\cdot2\\) = 5 - 6 = -1. Since the determinant is non-zero, the columns are linearly independent and span \\(\\mathbb R^2\\). Therefore the two vectors form a basis for \\(\\mathbb R^2\\).",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "determinants"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-05",
+      "prompt": "Find a basis for the line \\(L=span\\)(\\((2, 4, 6)\\)).",
+      "answer": "The line L consists of all multiples of \\((2, 4, 6)\\). A basis for a line is any one non-zero vector that spans it. Since \\((2, 4, 6)\\) is non-zero and spans L by definition, {\\((2, 4, 6)\\)} is a basis for L. The simplified vector {\\((1, 2, 3)\\)} is also a valid basis because it spans the same line.",
+      "rating": "**+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "spans"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-06",
+      "prompt": "Find a basis for the plane x + y + \\(z=0\\) in \\(\\mathbb R^3\\).",
+      "answer": "Solve x + y + \\(z=0\\) by writing x = -y - z. Let \\(y=s\\) and \\(z=t\\). Then \\((x, y, z)\\) = \\((-s - t, s, t)\\) = s(-1, 1, 0) + t(-1, 0, 1). The two vectors are not scalar multiples of each other, so they are linearly independent. Therefore a basis is {\\((-1, 1, 0)\\), \\((-1, 0, 1)\\)}.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "planes"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-07",
+      "prompt": "Is {\\((1, 0, 0)\\), \\((0, 1, 0)\\)} a basis for the xy-plane in \\(\\mathbb R^3\\)?",
+      "answer": "The xy-plane consists of all vectors \\((x, y, 0)\\). Any such vector can be written as x(1, 0, 0) + y(0, 1, 0), so the set spans the xy-plane. The two vectors are linearly independent because a(1, 0, 0) + b(0, 1, 0) = \\((0, 0, 0)\\) forces \\(a=b\\) = 0. Therefore the set is a basis for the xy-plane.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "planes"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-08",
+      "prompt": "Find a basis from the spanning set {\\((1, 0, 0)\\), \\((0, 1, 0)\\), \\((1, 1, 0)\\)} for the xy-plane.",
+      "answer": "The third vector is the sum of the first two: \\((1, 1, 0)\\) = \\((1, 0, 0)\\) + \\((0, 1, 0)\\). It is redundant. The first two vectors span the xy-plane and are linearly independent. Therefore a basis extracted from the set is {\\((1, 0, 0)\\), \\((0, 1, 0)\\)}.",
+      "rating": "***",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "spanning-sets"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-09",
+      "prompt": "Can two vectors be a basis for \\(\\mathbb R^3\\)? Explain.",
+      "answer": "No. A basis for \\(\\mathbb R^3\\) must span all of \\(\\mathbb R^3\\), and \\(\\mathbb R^3\\) has dimension 3. Two vectors can span at most a plane through the origin, not all of \\(\\mathbb R^3\\). Therefore two vectors cannot be a basis for \\(\\mathbb R^3\\).",
+      "rating": "**",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "dimension"
+      ]
+    },
+    {
+      "id": "linear-algebra-subspaces-and-dimension-bases-in-rn-10",
+      "prompt": "A learner says a basis is any spanning set. Diagnose the error.",
+      "answer": "A basis must be a spanning set, but it must also be linearly independent. For example, {\\((1, 0)\\), \\((0, 1)\\), \\((1, 1)\\)} spans \\(\\mathbb R^2\\), but it is not a basis because \\((1, 1)\\) is a combination of the first two vectors. The learner omitted the linear independence requirement.",
+      "rating": "***+",
+      "paperTags": [
+        "subspaces-and-dimension",
+        "bases",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

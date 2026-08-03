@@ -1,0 +1,117 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "matrix-algebra",
+  "topicId": "matrix-addition",
+  "topicTitle": "Matrix Addition",
+  "paperTags": [
+    "matrix-algebra"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-01",
+      "prompt": "Compute \\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\) + \\(\\begin{pmatrix}5&-1\\\\0&7\\end{pmatrix}\\).",
+      "answer": "Matrix addition is entry by entry. Add corresponding entries: first row [1 + 5, 2 + (-1)] = \\((6,1)\\), and second row [3 + 0, 4 + 7] = \\((3,11)\\). Therefore the sum is \\(\\begin{pmatrix}6&1\\\\3&11\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-02",
+      "prompt": "Can a \\(2\\times 3\\) matrix be added to a \\(3\\times 2\\) matrix? Explain.",
+      "answer": "Matrix addition is defined only for matrices of the same size. A \\(2\\times 3\\) matrix and a \\(3\\times 2\\) matrix have different row and column counts. Therefore their sum is not defined.",
+      "rating": "*+",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-size",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-03",
+      "prompt": "Compute \\(\\begin{pmatrix}2&-3&1\\end{pmatrix}\\) + \\(\\begin{pmatrix}4&0&-5\\end{pmatrix}\\).",
+      "answer": "Both matrices are \\(1\\times 3\\) row matrices, so addition is defined. Add corresponding entries: 2 + 4 = 6, -3 + 0 = -3, and 1 + (-5) = -4. Therefore the sum is \\(\\begin{pmatrix}6&-3&-4\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-04",
+      "prompt": "Find A + 0 for \\(A=\\begin{pmatrix}-2&5\\\\1&3\\end{pmatrix}\\), where 0 is the \\(2\\times 2\\) zero matrix.",
+      "answer": "The \\(2\\times 2\\) zero matrix is \\(\\begin{pmatrix}0&0\\\\0&0\\end{pmatrix}\\). Adding it entry by entry gives \\(\\begin{pmatrix}-2 + 0&5 + 0\\\\1 + 0&3 + 0\\end{pmatrix}\\) = \\(\\begin{pmatrix}-2&5\\\\1&3\\end{pmatrix}\\). Therefore A + 0 = A.",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "zero-matrices",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-05",
+      "prompt": "Find the additive inverse of \\(A=\\begin{pmatrix}3&-2\\\\0&6\\end{pmatrix}\\).",
+      "answer": "The additive inverse of A is the matrix -A such that A + (-A) is the zero matrix. Negate every entry of A. Therefore -\\(A=\\begin{pmatrix}-3&2\\\\0&-6\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "matrix-algebra",
+        "additive-inverses"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-06",
+      "prompt": "Find x and y if \\(\\begin{pmatrix}x&1\\\\2&y\\end{pmatrix}\\) + \\(\\begin{pmatrix}3&4\\\\-2&5\\end{pmatrix}\\) = \\(\\begin{pmatrix}7&5\\\\0&1\\end{pmatrix}\\).",
+      "answer": "Add the left side entry by entry: \\(\\begin{pmatrix}x + 3&1 + 4\\\\2 + (-2)&y + 5\\end{pmatrix}\\) = \\(\\begin{pmatrix}x + 3&5\\\\0&y + 5\\end{pmatrix}\\). Compare with \\(\\begin{pmatrix}7&5\\\\0&1\\end{pmatrix}\\). The top-left entries give x + 3 = 7, so \\(x=4\\). The bottom-right entries give y + 5 = 1, so \\(y=-4\\). Therefore \\(x=4\\) and \\(y=-4\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-addition",
+        "matrix-equations"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-07",
+      "prompt": "Compute A + B + C for \\(A=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}\\), \\(B=\\begin{pmatrix}3&-1\\\\0&4\\end{pmatrix}\\), and C = \\(\\begin{pmatrix}-2&5\\\\1&-3\\end{pmatrix}\\).",
+      "answer": "Add corresponding entries across all three matrices. Top-left: 1 + 3 - 2 = 2. Top-right: 0 - 1 + 5 = 4. Bottom-left: 2 + 0 + 1 = 3. Bottom-right: 1 + 4 - 3 = 2. Therefore A + B + C = \\(\\begin{pmatrix}2&4\\\\3&2\\end{pmatrix}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-08",
+      "prompt": "Show with \\(A=\\begin{pmatrix}1&2\\\\0&-1\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}3&-5\\\\4&2\\end{pmatrix}\\) that \\(A+B=B+A\\).",
+      "answer": "Compute A + B entry by entry: \\(\\begin{pmatrix}1 + 3&2 + (-5)\\\\0 + 4&-1 + 2\\end{pmatrix}\\) = \\(\\begin{pmatrix}4&-3\\\\4&1\\end{pmatrix}\\). Compute B + A: \\(\\begin{pmatrix}3 + 1&-5 + 2\\\\4 + 0&2 + (-1)\\end{pmatrix}\\) = \\(\\begin{pmatrix}4&-3\\\\4&1\\end{pmatrix}\\). The results are equal, so this example shows \\(A+B=B+A\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "commutativity",
+        "matrix-addition"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-09",
+      "prompt": "Find B if \\(A+B=C\\), where \\(A=\\begin{pmatrix}2&1\\\\-3&4\\end{pmatrix}\\) and C = \\(\\begin{pmatrix}0&5\\\\7&-2\\end{pmatrix}\\).",
+      "answer": "From \\(A+B=C\\), subtract A from both sides to get \\(B=C\\) - A. Compute entry by entry: \\(B=\\begin{pmatrix}0 - 2&5 - 1\\\\7 - (-3)&-2 - 4\\end{pmatrix}\\) = \\(\\begin{pmatrix}-2&4\\\\10&-6\\end{pmatrix}\\). Therefore \\(B=\\begin{pmatrix}-2&4\\\\10&-6\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-equations"
+      ]
+    },
+    {
+      "id": "linear-algebra-matrix-algebra-matrix-addition-10",
+      "prompt": "A student claims \\(\\begin{pmatrix}1&2&3\\end{pmatrix}\\) + \\(\\begin{pmatrix}4\\\\5\\\\6\\end{pmatrix}\\) = \\(\\begin{pmatrix}5&7&9\\end{pmatrix}\\). Diagnose the error.",
+      "answer": "The first matrix has size \\(1\\times 3\\), while the second matrix has size \\(3\\times 1\\). Matrix addition requires the same size. These matrices do not have the same size, so the sum is not defined. The student incorrectly added entries as if the row matrix and column matrix had compatible shapes.",
+      "rating": "****",
+      "paperTags": [
+        "matrix-algebra",
+        "matrix-addition",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

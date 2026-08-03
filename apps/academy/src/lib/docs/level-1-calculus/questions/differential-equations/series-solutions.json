@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "differential-equations",
+  "topicId": "series-solutions",
+  "topicTitle": "Series Solutions",
+  "paperTags": [
+    "differential-equations",
+    "series-solutions"
+  ],
+  "questions": [
+    {
+      "id": "calculus-differential-equations-series-solutions-01",
+      "prompt": "If \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\), write \\(y'\\) as a power series.",
+      "answer": "Differentiate term by term. The derivative of \\(a_nx^n\\) is \\(na_nx^{n-1}\\), and the \\(n=0\\) term differentiates to zero. Therefore \\(y'=\\sum_{n=1}^{\\infty}na_nx^{n-1}\\). Equivalently, with index shifted, \\(y'=\\sum_{n=0}^{\\infty}(n+1)a_{n+1}x^n\\).",
+      "rating": "*",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "power-series"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-02",
+      "prompt": "If \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\), write \\(y''\\) as a power series in powers of \\(x^n\\).",
+      "answer": "First differentiate once: \\(y'=\\sum_{n=1}^{\\infty}na_nx^{n-1}\\). Differentiate again: \\(y''=\\sum_{n=2}^{\\infty}n(n-1)a_nx^{n-2}\\). To write this in powers of \\(x^n\\), replace \\(n\\) by \\(n+2\\), giving \\(y''=\\sum_{n=0}^{\\infty}(n+2)(n+1)a_{n+2}x^n\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "index-shift"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-03",
+      "prompt": "Find the recurrence relation for a power series solution of \\(y'-y=0\\) about \\(x=0\\), using \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\).",
+      "answer": "Write \\(y'=\\sum_{n=0}^{\\infty}(n+1)a_{n+1}x^n\\) and \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\). Substituting into \\(y'-y=0\\) gives \\(\\sum_{n=0}^{\\infty}[(n+1)a_{n+1}-a_n]x^n=0\\). Equating coefficients gives \\((n+1)a_{n+1}-a_n=0\\). Therefore \\(a_{n+1}=a_n/(n+1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "recurrence-relation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-04",
+      "prompt": "Using the recurrence \\(a_{n+1}=a_n/(n+1)\\), express \\(a_1\\), \\(a_2\\), and \\(a_3\\) in terms of \\(a_0\\).",
+      "answer": "Apply the recurrence step by step. For \\(n=0\\), \\(a_1=a_0/1=a_0\\). For \\(n=1\\), \\(a_2=a_1/2=a_0/2\\). For \\(n=2\\), \\(a_3=a_2/3=a_0/6\\). Therefore \\(a_1=a_0\\), \\(a_2=a_0/2\\), and \\(a_3=a_0/6\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "coefficients"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-05",
+      "prompt": "Find the first four non-zero terms of the power series solution to \\(y'=y\\) with \\(y(0)=1\\).",
+      "answer": "From \\(y'=y\\), the recurrence is \\(a_{n+1}=a_n/(n+1)\\). The initial condition gives \\(a_0=y(0)=1\\). Then \\(a_1=1\\), \\(a_2=1/2\\), and \\(a_3=1/6\\). Therefore the first four non-zero terms are \\(1+x+x^2/2+x^3/6\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "initial-value-problem"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-06",
+      "prompt": "Find the recurrence relation for \\(y''+y=0\\), using \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\).",
+      "answer": "Use \\(y''=\\sum_{n=0}^{\\infty}(n+2)(n+1)a_{n+2}x^n\\) and \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\). Substitution gives \\(\\sum_{n=0}^{\\infty}[(n+2)(n+1)a_{n+2}+a_n]x^n=0\\). Equating coefficients gives \\((n+2)(n+1)a_{n+2}+a_n=0\\). Hence \\(a_{n+2}=-\\frac{a_n}{(n+2)(n+1)}\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "recurrence-relation"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-07",
+      "prompt": "For \\(y''+y=0\\) with \\(y(0)=1\\) and \\(y'(0)=0\\), use the recurrence to find terms through \\(x^4\\).",
+      "answer": "The recurrence is \\(a_{n+2}=-a_n/[(n+2)(n+1)]\\). The conditions give \\(a_0=1\\) and \\(a_1=0\\). Then \\(a_2=-a_0/(2\\cdot1)=-1/2\\), \\(a_3=-a_1/(3\\cdot2)=0\\), and \\(a_4=-a_2/(4\\cdot3)=1/24\\). Thus \\(y=1-x^2/2+x^4/24+\\cdots\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "cosine-series"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-08",
+      "prompt": "For \\(y''+y=0\\), explain why one power series solution contains only even powers when \\(a_1=0\\).",
+      "answer": "The recurrence \\(a_{n+2}=-a_n/[(n+2)(n+1)]\\) connects coefficients two indices apart. Even coefficients depend on \\(a_0\\), while odd coefficients depend on \\(a_1\\). If \\(a_1=0\\), then \\(a_3=0\\), \\(a_5=0\\), and all later odd coefficients are zero. Therefore the resulting series contains only even powers of \\(x\\).",
+      "rating": "**",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "even-odd-series"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-09",
+      "prompt": "Find the first three non-zero terms of the solution to \\(y''-y=0\\) with \\(y(0)=0\\), \\(y'(0)=1\\).",
+      "answer": "Substitution gives the recurrence \\((n+2)(n+1)a_{n+2}-a_n=0\\), so \\(a_{n+2}=a_n/[(n+2)(n+1)]\\). The initial conditions give \\(a_0=0\\) and \\(a_1=1\\). Then \\(a_3=a_1/(3\\cdot2)=1/6\\) and \\(a_5=a_3/(5\\cdot4)=1/120\\). Therefore the first three non-zero terms are \\(x+x^3/6+x^5/120\\).",
+      "rating": "***",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "sinh-series"
+      ]
+    },
+    {
+      "id": "calculus-differential-equations-series-solutions-10",
+      "prompt": "For the differential equation \\(xy''+y'=0\\), substitute \\(y=\\sum_{n=0}^{\\infty}a_nx^n\\) and find the coefficient condition for powers \\(x^n\\) with \\(n\\ge0\\).",
+      "answer": "First, \\(y'=\\sum_{n=0}^{\\infty}(n+1)a_{n+1}x^n\\). Also \\(y''=\\sum_{n=0}^{\\infty}(n+2)(n+1)a_{n+2}x^n\\), so \\(xy''=\\sum_{n=1}^{\\infty}n(n+1)a_{n+1}x^n\\) after reindexing. For \\(n\\ge1\\), the coefficient of \\(x^n\\) is \\(n(n+1)a_{n+1}+(n+1)a_{n+1}=(n+1)^2a_{n+1}\\). The constant term gives \\(a_1=0\\). Thus the coefficient condition is \\((n+1)^2a_{n+1}=0\\) for \\(n\\ge0\\).",
+      "rating": "****",
+      "paperTags": [
+        "differential-equations",
+        "series-solutions",
+        "singular-point"
+      ]
+    }
+  ]
+}

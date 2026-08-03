@@ -1,0 +1,123 @@
+{
+  "courseId": "level-1-calculus",
+  "schemaVersion": 1,
+  "sectionId": "several-variable-calculus",
+  "topicId": "multivariable-chain-rule",
+  "topicTitle": "Multivariable Chain Rule",
+  "paperTags": [
+    "several-variable-calculus",
+    "multivariable-chain-rule"
+  ],
+  "questions": [
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-01",
+      "prompt": "Let \\(z=x^2+y^2\\), where \\(x=t\\) and \\(y=2t\\). Find \\(dz/dt\\).",
+      "answer": "Use the chain rule \\(\\frac{dz}{dt}=z_x\\frac{dx}{dt}+z_y\\frac{dy}{dt}\\). Here \\(z_x=2x\\), \\(z_y=2y\\), \\(dx/dt=1\\), and \\(dy/dt=2\\). Thus \\(dz/dt=2x+4y\\). Substituting \\(x=t\\) and \\(y=2t\\) gives \\(dz/dt=2t+8t=10t\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "single-parameter"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-02",
+      "prompt": "Let \\(z=xy\\), where \\(x=t^2\\) and \\(y=t+1\\). Find \\(dz/dt\\).",
+      "answer": "Using the chain rule, \\(\\frac{dz}{dt}=z_xx'(t)+z_yy'(t)\\). Since \\(z_x=y\\), \\(z_y=x\\), \\(x'=2t\\), and \\(y'=1\\), we get \\(dz/dt=y(2t)+x\\). Substitute \\(x=t^2\\) and \\(y=t+1\\): \\(dz/dt=2t(t+1)+t^2=3t^2+2t\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "single-parameter"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-03",
+      "prompt": "Let \\(z=e^{xy}\\), where \\(x=s+t\\) and \\(y=s-t\\). Find \\(\\partial z/\\partial s\\).",
+      "answer": "Use \\(z_s=z_xx_s+z_yy_s\\). We have \\(z_x=ye^{xy}\\), \\(z_y=xe^{xy}\\), \\(x_s=1\\), and \\(y_s=1\\). Therefore \\(z_s=(y+x)e^{xy}\\). Substituting \\(x=s+t\\) and \\(y=s-t\\), \\(x+y=2s\\) and \\(xy=(s+t)(s-t)=s^2-t^2\\), so \\(z_s=2s e^{s^2-t^2}\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "partial-chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-04",
+      "prompt": "Let \\(z=x^2y\\), where \\(x=r\\cos\\theta\\) and \\(y=r\\sin\\theta\\). Find \\(\\partial z/\\partial r\\).",
+      "answer": "Use \\(z_r=z_xx_r+z_yy_r\\). Here \\(z_x=2xy\\), \\(z_y=x^2\\), \\(x_r=\\cos\\theta\\), and \\(y_r=\\sin\\theta\\). Thus \\(z_r=2xy\\cos\\theta+x^2\\sin\\theta\\). Substituting \\(x=r\\cos\\theta\\) and \\(y=r\\sin\\theta\\) gives \\(z_r=3r^2\\cos^2\\theta\\sin\\theta\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "polar-variables"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-05",
+      "prompt": "Let \\(w=x+y+z\\), where \\(x=t\\), \\(y=t^2\\), and \\(z=t^3\\). Find \\(dw/dt\\).",
+      "answer": "The chain rule gives \\(dw/dt=w_xx'+w_yy'+w_zz'\\). Since \\(w_x=w_y=w_z=1\\), and \\(x'=1\\), \\(y'=2t\\), \\(z'=3t^2\\), we get \\(dw/dt=1+2t+3t^2\\). This matches direct substitution \\(w=t+t^2+t^3\\).",
+      "rating": "*",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "three-variables"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-06",
+      "prompt": "Let \\(z=\\ln(x+y)\\), where \\(x=u^2\\) and \\(y=v^2\\). Find \\(\\partial z/\\partial u\\).",
+      "answer": "Use \\(z_u=z_xx_u+z_yy_u\\). Since \\(y=v^2\\) does not depend on \\(u\\), \\(y_u=0\\). Also \\(z_x=1/(x+y)\\) and \\(x_u=2u\\). Therefore \\(z_u=\\frac{1}{x+y}(2u)+\\frac{1}{x+y}(0)=\\frac{2u}{u^2+v^2}\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "partial-chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-07",
+      "prompt": "Let \\(z=x^2-y^2\\), where \\(x=3t\\) and \\(y=4t\\). Find \\(dz/dt\\) at \\(t=1\\).",
+      "answer": "Using \\(dz/dt=z_xx'+z_yy'\\), we have \\(z_x=2x\\), \\(z_y=-2y\\), \\(x'=3\\), and \\(y'=4\\). So \\(dz/dt=6x-8y\\). At \\(t=1\\), \\(x=3\\) and \\(y=4\\), so \\(dz/dt=6(3)-8(4)=18-32=-14\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-08",
+      "prompt": "Let \\(z=f(x,y)\\), where \\(x=s^2+t\\) and \\(y=st\\). Express \\(\\partial z/\\partial t\\) in terms of \\(f_x\\) and \\(f_y\\).",
+      "answer": "For a composite \\(z=f(x(s,t),y(s,t))\\), the chain rule is \\(z_t=f_xx_t+f_yy_t\\). Here \\(x_t=1\\) and \\(y_t=s\\). Therefore \\(\\partial z/\\partial t=f_x+s f_y\\), with \\(f_x\\) and \\(f_y\\) evaluated at \\((x,y)=(s^2+t,st)\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "symbolic-chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-09",
+      "prompt": "Let \\(z=x^2+y^2\\), where \\(x=u+v\\) and \\(y=u-v\\). Find \\(\\partial z/\\partial v\\).",
+      "answer": "Use \\(z_v=z_xx_v+z_yy_v\\). We have \\(z_x=2x\\), \\(z_y=2y\\), \\(x_v=1\\), and \\(y_v=-1\\). Thus \\(z_v=2x-2y\\). Substituting \\(x=u+v\\) and \\(y=u-v\\) gives \\(z_v=2(u+v)-2(u-v)=4v\\).",
+      "rating": "**",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "partial-chain-rule"
+      ]
+    },
+    {
+      "id": "calculus-several-variable-calculus-multivariable-chain-rule-10",
+      "prompt": "A differentiable function \\(z=f(x,y)\\) has \\(f_x(2,1)=5\\) and \\(f_y(2,1)=-3\\). If \\(x=t^2+1\\) and \\(y=t\\), find \\(dz/dt\\) at \\(t=1\\).",
+      "answer": "At \\(t=1\\), \\(x=1^2+1=2\\) and \\(y=1\\), so the given partial derivatives apply. The chain rule gives \\(dz/dt=f_xx'+f_yy'\\). Here \\(x'=2t\\), so \\(x'(1)=2\\), and \\(y'=1\\). Therefore \\(dz/dt=5(2)+(-3)(1)=7\\).",
+      "rating": "***",
+      "paperTags": [
+        "several-variable-calculus",
+        "multivariable-chain-rule",
+        "evaluation"
+      ]
+    }
+  ]
+}

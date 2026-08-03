@@ -1,0 +1,53 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "vectors-in-rn",
+  "topicId": "three-by-three-systems",
+  "topicTitle": "Three By Three Systems",
+  "paperTags": [
+    "vectors-in-rn"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-vectors-in-rn-three-by-three-systems-01",
+      "prompt": "Solve the system \\(x+y+z=6\\), \\(x-y=0\\), and \\(z=2\\).",
+      "answer": "Use the simplest equation first. From \\(z=2\\). From \\(x-y=0\\), we get \\(x=y\\). Substitute these into \\(x+y+z=6\\):\n\\[\nx+x+2=6.\n\\]\nSo\n\\[\n2x=4,\\qquad x=2.\n\\]\nSince \\(x=y\\), \\(y=2\\). Therefore\n\\[\n(x,y,z)=(2,2,2).\n\\]",
+      "rating": "**",
+      "paperTags": [
+        "vectors-in-rn",
+        "linear-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-three-by-three-systems-02",
+      "prompt": "Solve the system \\(x+2y=5\\), \\(y-z=1\\), and \\(x+z=4\\).",
+      "answer": "From \\(y-z=1\\), get \\(y=z+1\\). From \\(x+z=4\\), get \\(x=4-z\\). Substitute into \\(x+2y=5\\):\n\\[\n(4-z)+2(z+1)=5.\n\\]\nSimplify:\n\\[\n4-z+2z+2=5,\\qquad z+6=5.\n\\]\nThus \\(z=-1\\). Then\n\\[\ny=z+1=0,\\qquad x=4-z=5.\n\\]\nSo the solution is \\((x,y,z)=(5,0,-1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "vectors-in-rn",
+        "linear-systems"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-three-by-three-systems-03",
+      "prompt": "Decide whether the system \\(x+y+z=1\\), \\(2x+2y+2z=3\\), and \\(x-y=0\\) is consistent.",
+      "answer": "Compare the first two equations. If \\(x+y+z=1\\), then multiplying both sides by \\(2\\) gives\n\\[\n2x+2y+2z=2.\n\\]\nBut the second equation requires\n\\[\n2x+2y+2z=3.\n\\]\nThe same left side cannot equal both \\(2\\) and \\(3\\). Therefore the system is inconsistent and has no solution.",
+      "rating": "***",
+      "paperTags": [
+        "vectors-in-rn",
+        "linear-systems",
+        "consistency"
+      ]
+    },
+    {
+      "id": "linear-algebra-vectors-in-rn-three-by-three-systems-04",
+      "prompt": "Solve the system \\(x+y+z=3\\), \\(2x-y+z=4\\), and \\(x+2y-z=0\\).",
+      "answer": "Subtract the first equation from the second:\n\\[\n(2x-y+z)-(x+y+z)=4-3,\n\\]\nso\n\\[\nx-2y=1.\n\\]\nAdd the first and third equations:\n\\[\n(x+y+z)+(x+2y-z)=3+0,\n\\]\nso\n\\[\n2x+3y=3.\n\\]\nFrom \\(x-2y=1\\), get \\(x=1+2y\\). Substitute into \\(2x+3y=3\\):\n\\[\n2(1+2y)+3y=3.\n\\]\nThus\n\\[\n2+7y=3,\\qquad y=\\frac17.\n\\]\nThen\n\\[\nx=1+2\\cdot\\frac17=\\frac97.\n\\]\nUse \\(x+y+z=3\\):\n\\[\n\\frac97+\\frac17+z=3,\\qquad \\frac{10}{7}+z=\\frac{21}{7},\\qquad z=\\frac{11}{7}.\n\\]\nTherefore\n\\[\n(x,y,z)=\\left(\\frac97,\\frac17,\\frac{11}{7}\\right).\n\\]",
+      "rating": "****",
+      "paperTags": [
+        "vectors-in-rn",
+        "linear-systems"
+      ]
+    }
+  ]
+}

@@ -29,6 +29,14 @@ import {
   getLevel1PhysicsExamPaper,
 } from "@/lib/docs/level-1-physics/exams";
 import {
+  getLevel1CalculusExamPaper,
+  level1CalculusExamSets,
+} from "@/lib/docs/level-1-calculus/exams";
+import {
+  getLevel1LinearAlgebraExamPaper,
+  level1LinearAlgebraExamSets,
+} from "@/lib/docs/level-1-linear-algebra/exams";
+import {
   getLevel1MathIPhysicsExamPaper,
   level1MathIPhysicsExamSets,
 } from "@/lib/docs/level-1-math-i-physics/exams";
@@ -96,6 +104,9 @@ const level1MathIIPhysicsPaperTopics = [
   },
 ];
 
+const level1CalculusPaperTopics: typeof level1PhysicsPaperTopics = [];
+const level1LinearAlgebraPaperTopics: typeof level1PhysicsPaperTopics = [];
+
 const examCourseConfigs = {
   "level-1-math-i-physics": {
     getPaper: getLevel1MathIPhysicsExamPaper,
@@ -106,6 +117,16 @@ const examCourseConfigs = {
     getPaper: getLevel1MathIIPhysicsExamPaper,
     paperTopics: level1MathIIPhysicsPaperTopics,
     sets: level1MathIIPhysicsExamSets,
+  },
+  "level-1-calculus": {
+    getPaper: getLevel1CalculusExamPaper,
+    paperTopics: level1CalculusPaperTopics,
+    sets: level1CalculusExamSets,
+  },
+  "level-1-linear-algebra": {
+    getPaper: getLevel1LinearAlgebraExamPaper,
+    paperTopics: level1LinearAlgebraPaperTopics,
+    sets: level1LinearAlgebraExamSets,
   },
   "level-1-physics": {
     getPaper: getLevel1PhysicsExamPaper,

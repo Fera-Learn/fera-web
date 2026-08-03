@@ -1,0 +1,120 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "linear-maps",
+  "topicId": "rank-and-nullity",
+  "topicTitle": "Rank And Nullity",
+  "paperTags": [
+    "linear-maps"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-01",
+      "prompt": "State the rank-nullity theorem for a linear map \\(T:V\\to W\\) where \\(\\dim(V)\\) is finite.",
+      "answer": "The rank-nullity theorem says \\(\\dim(V)=\\operatorname{rank}(T)+\\operatorname{nullity}(T)\\). Here \\(\\operatorname{rank}(T)\\) is the dimension of the image of \\(T\\), and \\(\\operatorname{nullity}(T)\\) is the dimension of the kernel of \\(T\\).",
+      "rating": "*",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-02",
+      "prompt": "A linear map \\(T:\\mathbb R^5 \\to \\mathbb R^3\\) has rank 3. Find its nullity.",
+      "answer": "The domain has dimension 5. By rank-nullity, 5 = \\(\\operatorname{rank}(T)\\) + \\(\\operatorname{nullity}(T)\\). Substitute \\(\\operatorname{rank}(T)\\) = 3 to get 5 = 3 + \\(\\operatorname{nullity}(T)\\). Therefore \\(\\operatorname{nullity}(T)\\) = 2.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-03",
+      "prompt": "A linear map \\(T:\\mathbb R^4 \\to \\mathbb R^6\\) has nullity 1. Find its rank.",
+      "answer": "The domain dimension is 4. Rank-nullity gives 4 = \\(\\operatorname{rank}(T)\\) + \\(\\operatorname{nullity}(T)\\). Substitute \\(\\operatorname{nullity}(T)\\) = 1 to get 4 = \\(\\operatorname{rank}(T)\\) + 1. Therefore \\(\\operatorname{rank}(T)\\) = 3.",
+      "rating": "**",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-04",
+      "prompt": "For a matrix A with 5 columns and 3 pivot columns, find the nullity of x \\(\\to\\) Ax.",
+      "answer": "The number of columns is the domain dimension, so \\(\\dim(\\text{domain})=5\\). The number of pivot columns is the rank, so \\(\\operatorname{rank}=3\\). By rank-nullity, \\(\\operatorname{nullity}=5-3=2\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-05",
+      "prompt": "For \\(D:P_3 \\to P_2\\), \\(D(p)=p'\\), find rank and nullity.",
+      "answer": "The domain \\(P_3\\) has dimension 4. The kernel consists of constant polynomials, so \\(\\operatorname{nullity}(D)=1\\). By rank-nullity, \\(4=\\operatorname{rank}(D)+1\\), so \\(\\operatorname{rank}(D)=3\\). This also matches \\(\\operatorname{im}(D)=P_2\\), which has dimension 3.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-06",
+      "prompt": "For \\(T:\\mathbb R^3 \\to \\mathbb R\\) defined by \\(T(x,y,z)=x+y+z\\), find rank and nullity.",
+      "answer": "The image is all of \\(\\mathbb R\\) because any real number r is \\(T(r,0,0)\\), so \\(\\operatorname{rank}(T)\\) = 1. The domain has dimension 3. By rank-nullity, 3 = 1 + \\(\\operatorname{nullity}(T)\\), so \\(\\operatorname{nullity}(T)\\) = 2.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "image",
+        "kernel"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-07",
+      "prompt": "If \\(T:\\mathbb R^4 \\to \\mathbb R^4\\) is one-to-one, find \\(\\operatorname{rank}(T)\\).",
+      "answer": "If \\(T\\) is one-to-one, then \\(\\ker(T)=\\{0\\}\\), so \\(\\operatorname{nullity}(T)=0\\). By rank-nullity, \\(4=\\operatorname{rank}(T)+0\\). Therefore \\(\\operatorname{rank}(T)=4\\).",
+      "rating": "**+",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "injectivity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-08",
+      "prompt": "If \\(T:\\mathbb R^6 \\to \\mathbb R^2\\) is onto, find \\(\\operatorname{rank}(T)\\) and \\(\\operatorname{nullity}(T)\\).",
+      "answer": "Onto means the image is all of \\(\\mathbb R^2\\), so \\(\\operatorname{rank}(T)\\) = \\(\\dim(V)\\) = 2. The domain has dimension 6. Rank-nullity gives 6 = 2 + \\(\\operatorname{nullity}(T)\\), so \\(\\operatorname{nullity}(T)\\) = 4.",
+      "rating": "***",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "onto"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-09",
+      "prompt": "Can a linear map \\(T:\\mathbb R^3 \\to \\mathbb R^2\\) be one-to-one? Use rank-nullity to explain.",
+      "answer": "No. If \\(T\\) were one-to-one, its nullity would be 0. Rank-nullity would then give \\(\\operatorname{rank}(T)=3\\). But the image lies in \\(\\mathbb R^2\\), so \\(\\operatorname{rank}(T)\\) cannot exceed 2. This contradiction shows \\(T\\) cannot be one-to-one.",
+      "rating": "***+",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "injectivity"
+      ]
+    },
+    {
+      "id": "linear-algebra-linear-maps-rank-and-nullity-10",
+      "prompt": "A learner says nullity is the dimension of the codomain not reached by T. Diagnose the error.",
+      "answer": "Nullity is the dimension of the kernel, which is a subspace of the domain. It counts input directions that collapse to zero. The dimension of the codomain not reached is not called nullity, and it is not generally computed by the same object. The learner confused a domain-side measurement with a codomain-side gap.",
+      "rating": "****",
+      "paperTags": [
+        "linear-maps",
+        "rank-nullity",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

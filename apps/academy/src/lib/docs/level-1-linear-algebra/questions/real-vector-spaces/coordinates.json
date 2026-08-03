@@ -1,0 +1,121 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "real-vector-spaces",
+  "topicId": "coordinates",
+  "topicTitle": "Coordinates",
+  "paperTags": [
+    "real-vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-01",
+      "prompt": "Find the coordinate vector of \\((3, -2)\\) in the standard basis of \\(\\mathbb R^2\\).",
+      "answer": "In the standard basis \\(e_1\\) = \\((1,0)\\), \\(e_2\\) = \\((0,1)\\), we have \\((3, -2)\\) = 3e1 - 2e2. Therefore the coordinate vector is \\((3, -2)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-02",
+      "prompt": "Find the coordinate vector of \\(p(x)=4-x+2x^2\\) in the basis \\(\\{1,x,x^2\\}\\).",
+      "answer": "The coordinate vector in the basis \\(\\{1,x,x^2\\}\\) is the list of coefficients in that order. Since \\(p(x)=4-x+2x^2\\), the coordinates are \\((4, -1, 2)\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-03",
+      "prompt": "Let \\(B=\\big((1,1),(1,-1)\\big)\\). Find the B-coordinates of \\(v=(3,1)\\).",
+      "answer": "We need \\(a(1,1)+b(1,-1)=(3,1)\\). This gives \\((a+b,a-b)=(3,1)\\). Solve \\(a+b=3\\) and \\(a-b=1\\). Adding gives \\(2a=4\\), so \\(a=2\\). Then \\(b=1\\). Therefore \\([v]_B=(2,1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-04",
+      "prompt": "Let \\(B=\\big((2,0),(0,3)\\big)\\). Find the B-coordinates of \\(v=(10,12)\\).",
+      "answer": "We need \\(a(2,0)+b(0,3)=(10,12)\\). This gives \\((2a,3b)=(10,12)\\). Therefore \\(2a=10\\), so \\(a=5\\), and \\(3b=12\\), so \\(b=4\\). Thus \\([v]_B=(5,4)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-05",
+      "prompt": "If \\([v]_B=(2,-1)\\) and \\(B=\\big((1,2),(3,0)\\big)\\), find \\(v\\) in standard coordinates.",
+      "answer": "The coordinate vector means \\(v=2(1,2)+(-1)(3,0)\\). Compute \\(2(1,2)=(2,4)\\) and \\((-1)(3,0)=(-3,0)\\). Add them: \\(v=(2,4)+(-3,0)=(-1,4)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-06",
+      "prompt": "Find the coordinates of \\(p(x)=5+2(x-1)-3(x-1)^2\\) in the basis \\(\\{1,x-1,(x-1)^2\\}\\).",
+      "answer": "The polynomial is already written as a linear combination of the basis vectors in order: \\(5\\cdot1+2(x-1)-3(x-1)^2\\). Therefore its coordinate vector in this basis is \\((5,2,-3)\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-07",
+      "prompt": "Find the standard polynomial for coordinate vector \\((1, -2, 3)\\) in basis \\(\\{1,x,x^2\\}\\).",
+      "answer": "The coordinate vector \\((1,-2,3)\\) means \\(1\\cdot1+(-2)x+3x^2\\). Therefore the polynomial is \\(1-2x+3x^2\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-08",
+      "prompt": "Let \\(B=\\big(1+x,1-x\\big)\\) for \\(P_1\\). Find the B-coordinates of \\(p(x)=3+x\\).",
+      "answer": "We need \\(a(1+x)+b(1-x)=3+x\\). Expanding gives \\((a+b)+(a-b)x=3+x\\). Therefore \\(a+b=3\\) and \\(a-b=1\\). Adding gives \\(2a=4\\), so \\(a=2\\). Then \\(b=1\\). Therefore \\([p]_B=(2,1)\\).",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-09",
+      "prompt": "Explain why coordinates depend on the chosen basis using \\(v=(1,1)\\), the standard basis, and \\(B=\\big((1,1),(1,-1)\\big)\\).",
+      "answer": "In the standard basis, \\(v=1(1,0)+1(0,1)\\), so its coordinates are \\((1,1)\\). In the basis \\(B=\\big((1,1),(1,-1)\\big)\\), the same vector is \\(v=1(1,1)+0(1,-1)\\), so its coordinates are \\((1,0)\\). The vector has not changed, but the coordinate description changes with the basis.",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "bases"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-coordinates-10",
+      "prompt": "A learner says the coordinate vector is the vector itself. Diagnose the error.",
+      "answer": "A coordinate vector records the coefficients of a vector relative to a chosen ordered basis. The same vector can have different coordinate vectors in different bases. For example, \\((1,1)\\) has coordinates \\((1,1)\\) in the standard basis of \\(\\mathbb R^2\\), but coordinates \\((1,0)\\) in the basis (\\((1,1)\\), \\((1,-1)\\)). Therefore coordinates are a representation of the vector, not the vector itself.",
+      "rating": "***+",
+      "paperTags": [
+        "real-vector-spaces",
+        "coordinates",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

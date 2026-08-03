@@ -1,0 +1,112 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "small-determinants",
+  "topicTitle": "Small Determinants",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-small-determinants-01",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}4\\end{pmatrix}\\right)\\).",
+      "answer": "A \\(1\\times 1\\) determinant is the single entry itself. The matrix \\(\\begin{pmatrix}4\\end{pmatrix}\\) has only entry 4. Therefore \\(\\det\\left(\\begin{pmatrix}4\\end{pmatrix}\\right)\\) = 4.",
+      "rating": "*",
+      "paperTags": [
+        "determinants",
+        "one-by-one-determinants"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-02",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&3\\\\5&7\\end{pmatrix}\\right)\\).",
+      "answer": "For \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), the determinant is ad - bc. Here \\(a=2\\), \\(b=3\\), \\(c=5\\), and \\(d=7\\). Compute \\(2\\cdot7\\) - \\(3\\cdot5\\) = 14 - 15 = -1. Therefore the determinant is -1.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "two-by-two-determinants"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-03",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&-4\\\\2&3\\end{pmatrix}\\right)\\).",
+      "answer": "Use ad - bc. Here \\(a=1\\), \\(b=-4\\), \\(c=2\\), and \\(d=3\\). The determinant is \\(1\\cdot3\\) - (-4)*2 = 3 + 8 = 11. Therefore \\(\\det\\left(\\begin{pmatrix}1&-4\\\\2&3\\end{pmatrix}\\right)\\) = 11.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "two-by-two-determinants"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-04",
+      "prompt": "Find all real t such that \\(\\det\\left(\\begin{pmatrix}t&1\\\\3&2\\end{pmatrix}\\right)\\) = 5.",
+      "answer": "Use the \\(2\\times 2\\) determinant formula. \\(\\det\\left(\\begin{pmatrix}t&1\\\\3&2\\end{pmatrix}\\right)\\) = 2t - 3. Set this equal to 5: 2t - 3 = 5. Add 3 to get 2t = 8, so \\(t=4\\). Therefore \\(t=4\\).",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-05",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&0&0\\\\0&2&0\\\\0&0&3\\end{pmatrix}\\right)\\).",
+      "answer": "This matrix is diagonal. The determinant of a triangular or diagonal matrix is the product of its diagonal entries. Therefore the determinant is \\(1\\cdot2\\)*3 = 6.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "diagonal-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-06",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&1&0\\\\0&3&4\\\\0&0&-1\\end{pmatrix}\\right)\\).",
+      "answer": "The matrix is upper triangular because all entries below the main diagonal are zero. The determinant is the product of the diagonal entries: \\(2\\cdot3\\)*(-1) = -6. Therefore the determinant is -6.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "triangular-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-07",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&2&3\\\\0&4&5\\\\0&0&6\\end{pmatrix}\\right)\\).",
+      "answer": "This is an upper triangular matrix, so its determinant is the product of the diagonal entries. The diagonal entries are 1, 4, and 6. Therefore \\(\\\\det=1\\)*\\(4\\cdot6\\) = 24.",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "triangular-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-08",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}1&2&3\\\\0&1&4\\\\5&6&0\\end{pmatrix}\\right)\\) using expansion along the first row.",
+      "answer": "Expand along the first row: \\(\\\\det=1\\)*\\(\\det\\left(\\begin{pmatrix}1&4\\\\6&0\\end{pmatrix}\\right)\\) - \\(2\\cdot \\det\\left(\\begin{pmatrix}0&4\\\\5&0\\end{pmatrix}\\right)\\) + \\(3\\cdot \\det\\left(\\begin{pmatrix}0&1\\\\5&6\\end{pmatrix}\\right)\\). Compute the minors: \\(1\\cdot0\\) - \\(4\\cdot6\\) = -24, \\(0\\cdot0\\) - \\(4\\cdot5\\) = -20, and \\(0\\cdot6\\) - \\(1\\cdot5\\) = -5. Therefore \\(\\\\det=1\\)*(-24) - 2*(-20) + 3*(-5) = -24 + 40 - 15 = 1.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-09",
+      "prompt": "Compute \\(\\det\\left(\\begin{pmatrix}2&0&1\\\\3&0&4\\\\5&1&6\\end{pmatrix}\\right)\\) by expanding along the second column.",
+      "answer": "The second column is \\((0,0,1)\\), so expanding along it is efficient. Only the entry in row 3 column 2 contributes. Its sign is negative because (-1)^(3+2) = -1. The minor is \\(\\begin{pmatrix}2&1\\\\3&4\\end{pmatrix}\\), whose determinant is \\(2\\cdot4\\) - \\(1\\cdot3\\) = 5. Therefore \\(\\\\det=1\\)*(-1)*5 = -5.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "cofactor-expansion"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-small-determinants-10",
+      "prompt": "A learner computes \\(\\det\\left(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\right)\\) as \\(1\\cdot4\\) + \\(2\\cdot3\\) = 10. Diagnose the error and give the correct determinant.",
+      "answer": "The learner added the two diagonal products, but the \\(2\\times 2\\) determinant uses ad - bc, not ad + bc. Here \\(a=1\\), \\(b=2\\), \\(c=3\\), \\(d=4\\). The correct determinant is \\(1\\cdot4\\) - \\(2\\cdot3\\) = 4 - 6 = -2.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

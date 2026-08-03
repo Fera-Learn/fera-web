@@ -1,0 +1,118 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "determinants",
+  "topicId": "adjugate-matrix",
+  "topicTitle": "Adjugate Matrix",
+  "paperTags": [
+    "determinants"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-01",
+      "prompt": "For \\(A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), state adj(A).",
+      "answer": "For a \\(2\\times 2\\) matrix \\(A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), the adjugate swaps the diagonal entries and changes the signs of the off-diagonal entries. Therefore adj(A) = \\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "determinants",
+        "adjugate"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-02",
+      "prompt": "Find adj(\\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\)).",
+      "answer": "Use the \\(2\\times 2\\) adjugate rule. Swap the diagonal entries 1 and 4, and change signs of the off-diagonal entries 2 and 3. Therefore adj(A) = \\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "adjugate"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-03",
+      "prompt": "Use adj(A) to find \\(A^{-1}\\) for \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\).",
+      "answer": "First compute \\(\\det(A)\\) = \\(1\\cdot4\\) - \\(2\\cdot3\\) = -2. The adjugate is \\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\). The inverse formula is \\(A^{-1}\\) = (1/\\(\\det(A)\\)) adj(A). Therefore \\(A^{-1}\\) = (-1/2)\\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\) = \\(\\begin{pmatrix}-2&1\\\\3/2&-1/2\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "inverse-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-04",
+      "prompt": "Find adj(\\(\\begin{pmatrix}2&-1\\\\5&3\\end{pmatrix}\\)).",
+      "answer": "For \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), adj(A) = \\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\). Here \\(a=2\\), \\(b=-1\\), \\(c=5\\), \\(d=3\\). Therefore adj(A) = \\(\\begin{pmatrix}3&1\\\\-5&2\\end{pmatrix}\\).",
+      "rating": "**",
+      "paperTags": [
+        "determinants",
+        "adjugate"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-05",
+      "prompt": "Verify A adj(A) = \\(\\det(A)\\)I for \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\).",
+      "answer": "For \\(A=\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\), \\(\\det(A)\\) = -2 and adj(A) = \\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\). Multiply: A adj(A) = \\(\\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}\\)\\(\\begin{pmatrix}4&-2\\\\-3&1\\end{pmatrix}\\). The entries are top-left 4 - 6 = -2, top-right -2 + 2 = 0, bottom-left 12 - 12 = 0, bottom-right -6 + 4 = -2. Thus A adj(A) = \\(\\begin{pmatrix}-2&0\\\\0&-2\\end{pmatrix}\\) = \\(\\det(A)\\)I.",
+      "rating": "***+",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "verification"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-06",
+      "prompt": "For \\(A=\\begin{pmatrix}3&1\\\\2&1\\end{pmatrix}\\), compute \\(\\det(A)\\), adj(A), and \\(A^{-1}\\).",
+      "answer": "Compute \\(\\det(A)\\) = \\(3\\cdot1\\) - \\(1\\cdot2\\) = 1. The adjugate is \\(\\begin{pmatrix}1&-1\\\\-2&3\\end{pmatrix}\\). Since \\(\\det(A)\\) = 1, \\(A^{-1}\\) = (1/\\(\\det(A)\\))adj(A) = \\(\\begin{pmatrix}1&-1\\\\-2&3\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "inverse-matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-07",
+      "prompt": "Explain why the adjugate formula cannot produce an inverse when \\(\\det(A)\\) = 0.",
+      "answer": "The adjugate inverse formula is \\(A^{-1}\\) = (1/\\(\\det(A)\\))adj(A). If \\(\\det(A)\\) = 0, this formula requires division by zero, which is undefined. This matches the invertibility test: a square matrix with determinant zero has no inverse.",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "invertibility"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-08",
+      "prompt": "Find all t such that \\(A=\\begin{pmatrix}t&1\\\\2&1\\end{pmatrix}\\) has adj(A) = \\(\\begin{pmatrix}1&-1\\\\-2&t\\end{pmatrix}\\).",
+      "answer": "For \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\), adj(A) = \\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\). For \\(A=\\begin{pmatrix}t&1\\\\2&1\\end{pmatrix}\\), this gives adj(A) = \\(\\begin{pmatrix}1&-1\\\\-2&t\\end{pmatrix}\\). This matches the given adjugate for every real t. Therefore all real t work.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "parameters"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-09",
+      "prompt": "For \\(A=\\begin{pmatrix}0&2\\\\5&1\\end{pmatrix}\\), find adj(A) and \\(\\det(A)\\).",
+      "answer": "The determinant is \\(0\\cdot1\\) - \\(2\\cdot5\\) = -10. The adjugate swaps the diagonal entries and negates the off-diagonal entries, so adj(A) = \\(\\begin{pmatrix}1&-2\\\\-5&0\\end{pmatrix}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "determinants",
+        "adjugate"
+      ]
+    },
+    {
+      "id": "linear-algebra-determinants-adjugate-matrix-10",
+      "prompt": "A learner says adj(\\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\)) = \\(\\begin{pmatrix}d&c\\\\b&a\\end{pmatrix}\\). Diagnose the error.",
+      "answer": "The learner swapped the diagonal entries but forgot to change the signs of the off-diagonal entries. The correct formula is adj(\\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\)) = \\(\\begin{pmatrix}d&-b\\\\-c&a\\end{pmatrix}\\). The off-diagonal entries b and c must become -b and -c.",
+      "rating": "***",
+      "paperTags": [
+        "determinants",
+        "adjugate",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}

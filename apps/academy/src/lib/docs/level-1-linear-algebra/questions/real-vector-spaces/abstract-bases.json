@@ -1,0 +1,124 @@
+{
+  "courseId": "level-1-linear-algebra",
+  "schemaVersion": 1,
+  "sectionId": "real-vector-spaces",
+  "topicId": "abstract-bases",
+  "topicTitle": "Abstract Bases",
+  "paperTags": [
+    "real-vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-01",
+      "prompt": "Explain why \\(\\{1,x,x^2\\}\\) is a basis for \\(P_2\\).",
+      "answer": "Every polynomial in \\(P_2\\) has the form \\(a+bx+cx^2\\), so it is a linear combination of 1, x, and \\(x^2\\). Thus the set spans \\(P_2\\). If \\(a+bx+cx^2\\) is the zero polynomial, then all coefficients must be zero: \\(a=b=c=0\\). Thus the set is linearly independent. Therefore \\(\\{1,x,x^2\\}\\) is a basis for \\(P_2\\).",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-02",
+      "prompt": "Is \\(\\{1,x\\}\\) a basis for \\(P_2\\)? Explain.",
+      "answer": "The set \\(\\{1,x\\}\\) does not span \\(P_2\\) because it cannot produce \\(x^2\\). Every linear combination \\(a\\cdot1+b\\cdot x\\) has degree at most 1. Since \\(x^2\\) is in \\(P_2\\) but not in the span of \\(\\{1,x\\}\\), the set is not a basis for \\(P_2\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-03",
+      "prompt": "Is \\(\\{1,x,x^2,1+x\\}\\) a basis for \\(P_2\\)? Explain.",
+      "answer": "The set spans \\(P_2\\) because \\(\\{1,x,x^2\\}\\) already spans \\(P_2\\). However, it is not linearly independent because 1 + x is a linear combination of 1 and x. A basis must be both spanning and linearly independent. Therefore the set is not a basis.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-04",
+      "prompt": "Show that \\(\\{1,x-1,(x-1)^2\\}\\) is a basis for \\(P_2\\).",
+      "answer": "There are three polynomials in \\(P_2\\), and \\(\\dim(P_2)=3\\). It is enough to show linear independence. Suppose \\(a\\cdot1+b(x-1)+c(x-1)^2=0\\). Expanding gives \\(a+bx-b+c(x^2-2x+1)=cx^2+(b-2c)x+(a-b+c)\\). For the zero polynomial, \\(c=0\\), then \\(b-2c=b=0\\), then \\(a-b+c=a=0\\). Therefore the set is linearly independent and hence a basis for \\(P_2\\).",
+      "rating": "****",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-05",
+      "prompt": "Give a standard basis for \\(M_{2,2}(\\mathbb R)\\).",
+      "answer": "A standard basis is the set of matrices with one entry equal to 1 and all other entries 0. For \\(M_{2,2}(\\mathbb R)\\), one such basis is {\\(\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\), \\(\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix}\\), \\(\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix}\\), \\(\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}\\)}. Any \\(2\\times 2\\) matrix \\(\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\) is a linear combination of these four matrices.",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "matrices"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-06",
+      "prompt": "Find coordinates of \\(p(x)=3-2x+5x^2\\) in the basis \\(\\{1,x,x^2\\}\\).",
+      "answer": "In the basis \\(\\{1,x,x^2\\}\\), the coordinates are the coefficients of 1, x, and \\(x^2\\) in that order. Since \\(p(x)=3-2x+5x^2\\), the coordinate vector is \\((3, -2, 5)\\).",
+      "rating": "**",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-07",
+      "prompt": "Find coordinates of \\(A=\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}\\) in the standard basis of \\(M_{2,2}(\\mathbb R)\\) ordered as \\(E_{11},E_{12},E_{21},E_{22}\\).",
+      "answer": "With basis ordered as \\(E_{11},E_{12},E_{21},E_{22}\\), the coordinates are the entries of A in the same order: top-left, top-right, bottom-left, bottom-right. For \\(A=\\begin{pmatrix}2&-1\\\\0&4\\end{pmatrix}\\), the coordinate vector is \\((2,-1,0,4)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "matrices",
+        "coordinates"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-08",
+      "prompt": "Is \\(\\{1+x,1-x\\}\\) a basis for \\(P_1\\)? Explain.",
+      "answer": "\\(P_1\\) has dimension 2, so two linearly independent polynomials form a basis. Suppose \\(a(1+x)+b(1-x)=0\\). Expanding gives \\((a+b)+(a-b)x=0\\). Thus \\(a+b=0\\) and \\(a-b=0\\). Adding the equations gives \\(2a=0\\), so \\(a=0\\), and then \\(b=0\\). The set is linearly independent, so it is a basis for \\(P_1\\).",
+      "rating": "***+",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-09",
+      "prompt": "Find a basis for the subspace of \\(P_2\\) consisting of polynomials p with \\(p(0)\\) = 0.",
+      "answer": "A polynomial in \\(P_2\\) has form \\(a+bx+cx^2\\). The condition \\(p(0)=0\\) gives \\(a=0\\). Therefore \\(p(x)=bx+cx^2\\). The polynomials \\(x\\) and \\(x^2\\) span the subspace and are linearly independent. Therefore a basis is \\(\\{x,x^2\\}\\).",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "subspaces",
+        "polynomials"
+      ]
+    },
+    {
+      "id": "linear-algebra-real-vector-spaces-abstract-bases-10",
+      "prompt": "A learner says \\(\\{1,x,x^2,x^3\\}\\) is a basis for \\(P_2\\) because it contains \\(\\{1,x,x^2\\}\\). Diagnose the error.",
+      "answer": "The polynomial \\(x^3\\) is not in \\(P_2\\), because \\(P_2\\) contains only polynomials of degree at most 2. A basis for a vector space must consist of vectors from that vector space. Therefore \\(\\{1,x,x^2,x^3\\}\\) cannot be a basis for \\(P_2\\).",
+      "rating": "***",
+      "paperTags": [
+        "real-vector-spaces",
+        "bases",
+        "error-diagnosis"
+      ]
+    }
+  ]
+}
