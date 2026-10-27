@@ -38,6 +38,10 @@
     @apply my-4 text-foreground/80;
   }
 
+  .docs-prose > p > mjx-container[display="true"] {
+    @apply my-6 max-w-full overflow-x-auto;
+  }
+
   .docs-prose a {
     @apply text-primary underline decoration-primary/35 underline-offset-4 transition-colors hover:text-foreground;
   }
@@ -169,6 +173,18 @@
 
   .docs-physics-example-panel {
     @apply mt-3 space-y-4 rounded-lg bg-muted/25 px-5 py-5 text-[15px] leading-7 text-foreground/84;
+  }
+
+  .docs-physics-examples-collapsible {
+    @apply max-w-3xl;
+  }
+
+  .docs-physics-examples-heading-trigger {
+    @apply flex w-full items-center justify-between gap-4 text-left outline-none hover:text-primary focus-visible:ring-2 focus-visible:ring-ring/50;
+  }
+
+  .docs-physics-examples-collapsible .docs-physics-examples {
+    @apply mt-4;
   }
 
   .docs-physics-example-text {

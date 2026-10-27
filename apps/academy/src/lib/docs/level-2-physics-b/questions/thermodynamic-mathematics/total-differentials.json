@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "thermodynamic-mathematics",
+  "topicId": "total-differentials",
+  "topicTitle": "Total Differentials",
+  "paperTags": [
+    "thermodynamics",
+    "thermodynamic-mathematics"
+  ],
+  "questions": [
+    {
+      "id": "total-differentials-001",
+      "prompt": "Using the model for Total Differentials, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: An ideal gas is initially at \\(p=1.00\\times10^5\\,\\mathrm{Pa}\\), \\(V=2.00\\times10^{-2}\\,\\mathrm{m^3}\\), and \\(T=300\\,\\mathrm K\\). Estimate \\(dp\\) for small changes \\(dV=+1.00\\times10^{-4}\\,\\mathrm{m^3}\\) and \\(dT=+3.00\\,\\mathrm K\\).",
+      "answer": "Model:\nApply the model for Total Differentials under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse the two contributions in equation \\([5]\\). The volume contribution is \\(-dV/V=-(1.00\\times10^{-4})/(2.00\\times10^{-2})=-0.00500\\), and the temperature contribution is \\(dT/T=3.00/300=0.0100\\). Therefore \\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\] \\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\] The temperature effect is larger, so the net pressure change is positive. Final result: the first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nFinal answer:\nThe first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-002",
+      "prompt": "Using the model for Total Differentials, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Use the ideal-gas total differential to relate infinitesimal volume and temperature changes at constant pressure.",
+      "answer": "Model:\nApply the model for Total Differentials under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nConstant pressure means \\(dp=0\\). Set the left side of equation \\([5]\\) to zero: \\(0=-dV/V+dT/T\\). Adding \\(dV/V\\) to both sides gives \\(dV/V=dT/T\\). Thus equal small fractional increases in temperature and volume preserve pressure for a fixed amount of ideal gas. Final result: at constant pressure, \\(dV/V=dT/T\\).\n\nFinal answer:\nAt constant pressure, \\(dV/V=dT/T\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-003",
+      "prompt": "A proposed solution to the following Total Differentials problem gives The first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: An ideal gas is initially at \\(p=1.00\\times10^5\\,\\mathrm{Pa}\\), \\(V=2.00\\times10^{-2}\\,\\mathrm{m^3}\\), and \\(T=300\\,\\mathrm K\\). Estimate \\(dp\\) for small changes \\(dV=+1.00\\times10^{-4}\\,\\mathrm{m^3}\\) and \\(dT=+3.00\\,\\mathrm K\\).",
+      "answer": "Model:\nUse the model for Total Differentials and the data stated in the problem.\n\nWorking:\nUse the two contributions in equation \\([5]\\). The volume contribution is \\(-dV/V=-(1.00\\times10^{-4})/(2.00\\times10^{-2})=-0.00500\\), and the temperature contribution is \\(dT/T=3.00/300=0.0100\\). Therefore \\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\] \\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\] The temperature effect is larger, so the net pressure change is positive. Final result: the first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nFinal answer:\nThe proposed result is verified: The first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-004",
+      "prompt": "For this problem on Total Differentials, derive the indicated intermediate result before completing the calculation.\nProblem: An ideal gas is initially at \\(p=1.00\\times10^5\\,\\mathrm{Pa}\\), \\(V=2.00\\times10^{-2}\\,\\mathrm{m^3}\\), and \\(T=300\\,\\mathrm K\\). Estimate \\(dp\\) for small changes \\(dV=+1.00\\times10^{-4}\\,\\mathrm{m^3}\\) and \\(dT=+3.00\\,\\mathrm K\\).\nIntermediate result to derive:\n\\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\]",
+      "answer": "Model:\nApply the stated Total Differentials assumptions and preserve all units.\n\nWorking:\nUse the two contributions in equation \\([5]\\). The volume contribution is \\(-dV/V=-(1.00\\times10^{-4})/(2.00\\times10^{-2})=-0.00500\\), and the temperature contribution is \\(dT/T=3.00/300=0.0100\\). Therefore \\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\] \\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\] The temperature effect is larger, so the net pressure change is positive. Final result: the first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nFinal answer:\n\\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\]\n\nCheck:\nThe intermediate result leads to The first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-005",
+      "prompt": "For this problem on Total Differentials, derive the indicated intermediate result before completing the calculation.\nProblem: An ideal gas is initially at \\(p=1.00\\times10^5\\,\\mathrm{Pa}\\), \\(V=2.00\\times10^{-2}\\,\\mathrm{m^3}\\), and \\(T=300\\,\\mathrm K\\). Estimate \\(dp\\) for small changes \\(dV=+1.00\\times10^{-4}\\,\\mathrm{m^3}\\) and \\(dT=+3.00\\,\\mathrm K\\).\nIntermediate result to derive:\n\\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\]",
+      "answer": "Model:\nApply the stated Total Differentials assumptions and preserve all units.\n\nWorking:\nUse the two contributions in equation \\([5]\\). The volume contribution is \\(-dV/V=-(1.00\\times10^{-4})/(2.00\\times10^{-2})=-0.00500\\), and the temperature contribution is \\(dT/T=3.00/300=0.0100\\). Therefore \\[\\frac{dp}{p}=-0.00500+0.0100=0.00500,\\] \\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\] The temperature effect is larger, so the net pressure change is positive. Final result: the first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\).\n\nFinal answer:\n\\[dp=(1.00\\times10^5\\,\\mathrm{Pa})(0.00500)=+5.00\\times10^2\\,\\mathrm{Pa}.\\]\n\nCheck:\nThe intermediate result leads to The first-order pressure change is \\(dp=+5.00\\times10^2\\,\\mathrm{Pa}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-006",
+      "prompt": "A proposed solution to the following Total Differentials problem gives At constant pressure, \\(dV/V=dT/T\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Use the ideal-gas total differential to relate infinitesimal volume and temperature changes at constant pressure.",
+      "answer": "Model:\nUse the model for Total Differentials and the data stated in the problem.\n\nWorking:\nConstant pressure means \\(dp=0\\). Set the left side of equation \\([5]\\) to zero: \\(0=-dV/V+dT/T\\). Adding \\(dV/V\\) to both sides gives \\(dV/V=dT/T\\). Thus equal small fractional increases in temperature and volume preserve pressure for a fixed amount of ideal gas. Final result: at constant pressure, \\(dV/V=dT/T\\).\n\nFinal answer:\nThe proposed result is verified: At constant pressure, \\(dV/V=dT/T\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-007",
+      "prompt": "Starting from the stated model for Total Differentials, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nFor a differentiable state function \\(f=f(x,y)\\), change one independent variable at a time to first order:\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nFor a differentiable state function \\(f=f(x,y)\\), change one independent variable at a time to first order:\n\nApplying the stated definitions and constraint gives\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nFinal answer:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Total Differentials constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-008",
+      "prompt": "Derive the following Total Differentials relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nFor a fixed amount of ideal gas, solve the equation of state for \\(p\\):\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nBegin from the preceding result\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nFor a fixed amount of ideal gas, solve the equation of state for \\(p\\):\n\nApplying the stated definitions and constraint gives\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nFinal answer:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Total Differentials constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-009",
+      "prompt": "Derive the following Total Differentials relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nDifferentiate with respect to each independent variable under its stated constraint:\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nBegin from the preceding result\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nDifferentiate with respect to each independent variable under its stated constraint:\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Total Differentials constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-010",
+      "prompt": "Derive the following Total Differentials relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nSubstitution of [3] into [1] gives\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nSubstitution of [3] into [1] gives\n\nApplying the stated definitions and constraint gives\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nFinal answer:\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Total Differentials constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-011",
+      "prompt": "Derive the following Total Differentials relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nBegin from the preceding result\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nApplying the stated definitions and constraint gives\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nFinal answer:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Total Differentials constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-012",
+      "prompt": "Starting from the first Total Differentials relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nA total differential combines the first-order changes caused by every independent variable. In thermodynamics it converts an equation of state into a local relation among small changes while preserving which variables are held fixed in each coefficient.\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nStart with\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nFor a fixed amount of ideal gas, solve the equation of state for \\(p\\):\n\nTherefore\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-013",
+      "prompt": "Starting from the first Total Differentials relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nA total differential combines the first-order changes caused by every independent variable. In thermodynamics it converts an equation of state into a local relation among small changes while preserving which variables are held fixed in each coefficient.\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nStart with\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nDifferentiate with respect to each independent variable under its stated constraint:\n\nTherefore\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-014",
+      "prompt": "Starting from the first Total Differentials relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nA total differential combines the first-order changes caused by every independent variable. In thermodynamics it converts an equation of state into a local relation among small changes while preserving which variables are held fixed in each coefficient.\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nSubstitution of [3] into [1] gives\n\nTherefore\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-015",
+      "prompt": "Starting from the first Total Differentials relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nA total differential combines the first-order changes caused by every independent variable. In thermodynamics it converts an equation of state into a local relation among small changes while preserving which variables are held fixed in each coefficient.\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nStart with\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nTherefore\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-016",
+      "prompt": "Check the following Total Differentials equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).\n\nInsert those units into\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-017",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Total Differentials. Show the substitution or limiting argument rather than answering in words only.\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Total Differentials.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-018",
+      "prompt": "Check the following Total Differentials equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).\n\nInsert those units into\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Total Differentials. Show the substitution or limiting argument rather than answering in words only.\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Total Differentials.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "total-differentials-020",
+      "prompt": "Reconstruct the complete mathematical chain for Total Differentials, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\nNotation: \\(f,x,y\\) denotes differentiable function and its two independent variables; \\(df,dx,dy\\) denotes exact infinitesimal changes in f, x, and y; \\(p,V,T\\) denotes pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dp,dV,dT\\) denotes infinitesimal changes in pressure, volume, and temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(n,R\\) denotes fixed amount of ideal gas and molar gas constant; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}}\\).",
+      "answer": "Model:\nA total differential combines the first-order changes caused by every independent variable. In thermodynamics it converts an equation of state into a local relation among small changes while preserving which variables are held fixed in each coefficient.\n\nThe differential is a local linear relation. For finite changes, integrate it only when the path and variation of the coefficients are known; substituting large finite changes directly into [5] is generally an approximation.\n\nWorking:\nStep 1:\n\\[\ndf=\n\\left(\\frac{\\partial f}{\\partial x}\\right)_y dx\n+\\left(\\frac{\\partial f}{\\partial y}\\right)_x dy.\n\\tag*{[1]}\n\\]\n\nFor a fixed amount of ideal gas, solve the equation of state for \\(p\\):\n\nStep 2:\n\\[\np(V,T)=\\frac{nRT}{V}.\n\\tag*{[2]}\n\\]\n\nDifferentiate with respect to each independent variable under its stated constraint:\n\nStep 3:\n\\[\n\\left(\\frac{\\partial p}{\\partial V}\\right)_T\n=-\\frac{nRT}{V^2},\n\\qquad\n\\left(\\frac{\\partial p}{\\partial T}\\right)_V\n=\\frac{nR}{V}.\n\\tag*{[3]}\n\\]\n\nSubstitution of [3] into [1] gives\n\nStep 4:\n\\[\ndp=-\\frac{nRT}{V^2}\\,dV+\\frac{nR}{V}\\,dT.\n\\tag*{[4]}\n\\]\n\nUsing \\(p=nRT/V\\) in each coefficient and then dividing by \\(p\\) produces the fractional-change form\n\nStep 5:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\ndp=-\\frac{p}{V}\\,dV+\\frac{p}{T}\\,dT,\n\\qquad\n\\frac{dp}{p}=-\\frac{dV}{V}+\\frac{dT}{T}.\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    }
+  ]
+}

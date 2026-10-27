@@ -1,0 +1,11 @@
+import { PhysicsDiagramFrame, SvgArrowhead, SvgLabel, type PhysicsDiagramDefinition, type PhysicsDiagramProps } from "../../shared/physics-diagram";
+export const metadata={kind:"apparatus",referenceImage:"overall.pdf#page=25-26",slug:"michelson-interferometer",summary:"A beamsplitter sends one input into perpendicular round-trip arms and recombines the returning fields at the output.",tags:["Michelson interferometer","Beamsplitter","Optical path"],title:"Michelson interferometer",topic:"Optics"} as const satisfies Omit<PhysicsDiagramDefinition,"component">;
+export function MichelsonInterferometer({className,showCaption=true,style}:PhysicsDiagramProps){const fg="var(--foreground)",a="var(--chart-1)";return <PhysicsDiagramFrame caption={showCaption?metadata.summary:undefined} className={className} style={{maxWidth:620,...style}} title={metadata.title}><svg aria-label={metadata.title} className="h-auto w-full" role="img" viewBox="0 0 620 430"><rect fill="transparent" height="430" width="620"/>
+ <polygon fill="none" points="300,188 332,220 300,252 268,220" stroke={fg} strokeWidth="2"/>
+ <line stroke={a} strokeWidth="3" x1="55" x2="288" y1="220" y2="220"/><SvgArrowhead angle={0} baseX={288} baseY={220} color={a} halfWidth={5} length={10}/>
+ <line stroke={a} strokeWidth="3" x1="300" x2="300" y1="205" y2="72"/><SvgArrowhead angle={-90} baseX={300} baseY={72} color={a} halfWidth={5} length={10}/><line stroke={a} strokeWidth="3" x1="315" x2="520" y1="220" y2="220"/><SvgArrowhead angle={0} baseX={520} baseY={220} color={a} halfWidth={5} length={10}/>
+ <line stroke={fg} strokeWidth="7" x1="250" x2="350" y1="50" y2="50"/><line stroke={fg} strokeWidth="7" x1="540" x2="540" y1="170" y2="270"/>
+ <line stroke="var(--chart-2)" strokeWidth="3" x1="300" x2="300" y1="235" y2="375"/><SvgArrowhead angle={90} baseX={300} baseY={375} color="var(--chart-2)" halfWidth={5} length={10}/>
+ <SvgLabel fill={fg} x={92} y={202}>Input</SvgLabel><SvgLabel fill={fg} x={300} y={30}>M₁</SvgLabel><SvgLabel fill={fg} x={565} y={225}>M₂</SvgLabel><SvgLabel fill={fg} x={300} y={410}>Output</SvgLabel><SvgLabel fill={fg} x={360} y={190}>beamsplitter</SvgLabel>
+ </svg></PhysicsDiagramFrame>}
+export const diagram={...metadata,component:MichelsonInterferometer} satisfies PhysicsDiagramDefinition;

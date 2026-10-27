@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "thermodynamic-mathematics",
+  "topicId": "path-integrals-state-functions-and-path-functions",
+  "topicTitle": "Path Integrals, State Functions, and Path Functions",
+  "paperTags": [
+    "thermodynamics",
+    "thermodynamic-mathematics"
+  ],
+  "questions": [
+    {
+      "id": "path-integrals-state-functions-and-path-functions-001",
+      "prompt": "Using the model for Path Integrals, State Functions, and Path Functions, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: For the inexact form in equation \\([1]\\), calculate the path integrals from the origin to \\((X,Y)=(2,3)\\) along paths A and B.",
+      "answer": "Model:\nApply the model for Path Integrals, State Functions, and Path Functions under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) gives \\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\] Equation \\([3]\\) gives \\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\] Their difference is \\(8-2=6\\), which also equals \\(XY=(2)(3)=6\\) from equation \\([4]\\). The unequal values provide a direct check of path dependence. Final result: path A gives \\(8\\), while path B gives \\(2\\).\n\nFinal answer:\nPath A gives \\(8\\), while path B gives \\(2\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-002",
+      "prompt": "Using the model for Path Integrals, State Functions, and Path Functions, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A system returns to its initial thermodynamic state after a cycle. Must its net heat and net work each be zero?",
+      "answer": "Model:\nApply the model for Path Integrals, State Functions, and Path Functions under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nNo. Returning to the initial state makes every exact state-function integral vanish, as illustrated by equation \\([5]\\). Heat and work are path functions analogous to equation \\([1]\\), so their closed-path integrals can be nonzero. Energy conservation requires the net heat into the system to equal the net work done by the system over a complete cycle, but does not require either transfer to vanish. Final result: state-function changes vanish over the cycle, while net heat and net work may both be nonzero and equal under the stated sign convention.\n\nFinal answer:\nState-function changes vanish over the cycle, while net heat and net work may both be nonzero and equal under the stated sign convention.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-003",
+      "prompt": "A proposed solution to the following Path Integrals, State Functions, and Path Functions problem gives Path A gives \\(8\\), while path B gives \\(2\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: For the inexact form in equation \\([1]\\), calculate the path integrals from the origin to \\((X,Y)=(2,3)\\) along paths A and B.",
+      "answer": "Model:\nUse the model for Path Integrals, State Functions, and Path Functions and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) gives \\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\] Equation \\([3]\\) gives \\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\] Their difference is \\(8-2=6\\), which also equals \\(XY=(2)(3)=6\\) from equation \\([4]\\). The unequal values provide a direct check of path dependence. Final result: path A gives \\(8\\), while path B gives \\(2\\).\n\nFinal answer:\nThe proposed result is verified: Path A gives \\(8\\), while path B gives \\(2\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-004",
+      "prompt": "For this problem on Path Integrals, State Functions, and Path Functions, derive the indicated intermediate result before completing the calculation.\nProblem: For the inexact form in equation \\([1]\\), calculate the path integrals from the origin to \\((X,Y)=(2,3)\\) along paths A and B.\nIntermediate result to derive:\n\\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\]",
+      "answer": "Model:\nApply the stated Path Integrals, State Functions, and Path Functions assumptions and preserve all units.\n\nWorking:\nEquation \\([2]\\) gives \\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\] Equation \\([3]\\) gives \\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\] Their difference is \\(8-2=6\\), which also equals \\(XY=(2)(3)=6\\) from equation \\([4]\\). The unequal values provide a direct check of path dependence. Final result: path A gives \\(8\\), while path B gives \\(2\\).\n\nFinal answer:\n\\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\]\n\nCheck:\nThe intermediate result leads to Path A gives \\(8\\), while path B gives \\(2\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-005",
+      "prompt": "For this problem on Path Integrals, State Functions, and Path Functions, derive the indicated intermediate result before completing the calculation.\nProblem: For the inexact form in equation \\([1]\\), calculate the path integrals from the origin to \\((X,Y)=(2,3)\\) along paths A and B.\nIntermediate result to derive:\n\\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\]",
+      "answer": "Model:\nApply the stated Path Integrals, State Functions, and Path Functions assumptions and preserve all units.\n\nWorking:\nEquation \\([2]\\) gives \\[\\int_A\\delta F=\\frac{2^2}{2}+(2)(3)=2+6=8.\\] Equation \\([3]\\) gives \\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\] Their difference is \\(8-2=6\\), which also equals \\(XY=(2)(3)=6\\) from equation \\([4]\\). The unequal values provide a direct check of path dependence. Final result: path A gives \\(8\\), while path B gives \\(2\\).\n\nFinal answer:\n\\[\\int_B\\delta F=\\frac{2^2}{2}=2.\\]\n\nCheck:\nThe intermediate result leads to Path A gives \\(8\\), while path B gives \\(2\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-006",
+      "prompt": "A proposed solution to the following Path Integrals, State Functions, and Path Functions problem gives State-function changes vanish over the cycle, while net heat and net work may both be nonzero and equal under the stated sign convention. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A system returns to its initial thermodynamic state after a cycle. Must its net heat and net work each be zero?",
+      "answer": "Model:\nUse the model for Path Integrals, State Functions, and Path Functions and the data stated in the problem.\n\nWorking:\nNo. Returning to the initial state makes every exact state-function integral vanish, as illustrated by equation \\([5]\\). Heat and work are path functions analogous to equation \\([1]\\), so their closed-path integrals can be nonzero. Energy conservation requires the net heat into the system to equal the net work done by the system over a complete cycle, but does not require either transfer to vanish. Final result: state-function changes vanish over the cycle, while net heat and net work may both be nonzero and equal under the stated sign convention.\n\nFinal answer:\nThe proposed result is verified: State-function changes vanish over the cycle, while net heat and net work may both be nonzero and equal under the stated sign convention.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-007",
+      "prompt": "Starting from the stated model for Path Integrals, State Functions, and Path Functions, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nConsider the inexact differential\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nConsider the inexact differential\n\nApplying the stated definitions and constraint gives\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nFinal answer:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Path Integrals, State Functions, and Path Functions constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-008",
+      "prompt": "Derive the following Path Integrals, State Functions, and Path Functions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nBegin from the preceding result\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nFinal answer:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Path Integrals, State Functions, and Path Functions constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-009",
+      "prompt": "Derive the following Path Integrals, State Functions, and Path Functions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nPath B first follows the \\(y\\) axis at \\(x=0\\), then moves horizontally from \\((0,Y)\\) to \\((X,Y)\\). The first segment contributes zero and the second has \\(dy=0\\):\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nFinal answer:\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Path Integrals, State Functions, and Path Functions constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-010",
+      "prompt": "Derive the following Path Integrals, State Functions, and Path Functions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nSubtracting the path values gives\n\nApplying the stated definitions and constraint gives\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nFinal answer:\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Path Integrals, State Functions, and Path Functions constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-011",
+      "prompt": "Derive the following Path Integrals, State Functions, and Path Functions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nBegin from the preceding result\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nApplying the stated definitions and constraint gives\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nalong every path. Thermodynamic heat and work behave like [1], while changes in state functions behave like [5].\n\nFinal answer:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Path Integrals, State Functions, and Path Functions constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-012",
+      "prompt": "Starting from the first Path Integrals, State Functions, and Path Functions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nA path integral accumulates infinitesimal contributions along a specified route through state space. Exact differentials give the same integral for every route between two endpoints, whereas inexact differentials give different values and therefore represent path functions.\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nStart with\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nTherefore\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-013",
+      "prompt": "Starting from the first Path Integrals, State Functions, and Path Functions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nA path integral accumulates infinitesimal contributions along a specified route through state space. Exact differentials give the same integral for every route between two endpoints, whereas inexact differentials give different values and therefore represent path functions.\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nPath B first follows the \\(y\\) axis at \\(x=0\\), then moves horizontally from \\((0,Y)\\) to \\((X,Y)\\). The first segment contributes zero and the second has \\(dy=0\\):\n\nTherefore\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-014",
+      "prompt": "Starting from the first Path Integrals, State Functions, and Path Functions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nA path integral accumulates infinitesimal contributions along a specified route through state space. Exact differentials give the same integral for every route between two endpoints, whereas inexact differentials give different values and therefore represent path functions.\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nSubtracting the path values gives\n\nTherefore\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-015",
+      "prompt": "Starting from the first Path Integrals, State Functions, and Path Functions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nA path integral accumulates infinitesimal contributions along a specified route through state space. Exact differentials give the same integral for every route between two endpoints, whereas inexact differentials give different values and therefore represent path functions.\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nStart with\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nTherefore\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-016",
+      "prompt": "Check the following Path Integrals, State Functions, and Path Functions equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).\n\nInsert those units into\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-017",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Path Integrals, State Functions, and Path Functions. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Path Integrals, State Functions, and Path Functions.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-018",
+      "prompt": "Check the following Path Integrals, State Functions, and Path Functions equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).\n\nInsert those units into\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Path Integrals, State Functions, and Path Functions. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Path Integrals, State Functions, and Path Functions.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    },
+    {
+      "id": "path-integrals-state-functions-and-path-functions-020",
+      "prompt": "Reconstruct the complete mathematical chain for Path Integrals, State Functions, and Path Functions, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\nNotation: \\(x,y\\) denotes dimensionless coordinates in state space; dimensionless; \\(X,Y\\) denotes dimensionless final coordinate values; dimensionless; \\(O,A,B\\) denotes origin and labels for the two paths; \\(F\\) denotes path-dependent accumulated quantity in the model; dimensionless; \\(\\delta F\\) denotes inexact differential form integrated along a path; dimensionless; \\(z,dz\\) denotes state function and its exact differential; dimensionless; \\(Q,W\\) denotes finite heat into a thermodynamic system and work done by it; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,\\delta W\\) denotes inexact infinitesimal heat and work; unit \\(\\mathrm{J, J}\\).",
+      "answer": "Model:\nA path integral accumulates infinitesimal contributions along a specified route through state space. Exact differentials give the same integral for every route between two endpoints, whereas inexact differentials give different values and therefore represent path functions.\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nWorking:\nStep 1:\n\\[\n\\delta F=x\\,dx+x\\,dy,\n\\tag*{[1]}\n\\]\n\nand integrate from \\(O=(0,0)\\) to \\((X,Y)\\). Path A first follows the \\(x\\) axis from \\((0,0)\\) to \\((X,0)\\), then rises at fixed \\(x=X\\). On the first segment \\(dy=0\\); on the second, \\(dx=0\\). Therefore\n\nStep 2:\n\\[\n\\begin{aligned}\n\\int_A\\delta F\n&=\\int_0^X x\\,dx+\\int_0^Y X\\,dy\\\\\n&=\\left[\\frac{x^2}{2}\\right]_0^X+\\left[Xy\\right]_0^Y\\\\\n&=\\frac{X^2}{2}+XY.\n\\end{aligned}\n\\tag*{[2]}\n\\]\n\nPath B first follows the \\(y\\) axis at \\(x=0\\), then moves horizontally from \\((0,Y)\\) to \\((X,Y)\\). The first segment contributes zero and the second has \\(dy=0\\):\n\nStep 3:\n\\[\n\\begin{aligned}\n\\int_B\\delta F\n&=\\int_0^Y 0\\,dy+\\int_0^X x\\,dx\\\\\n&=0+\\left[\\frac{x^2}{2}\\right]_0^X\\\\\n&=\\frac{X^2}{2}.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nSubtracting the path values gives\n\nStep 4:\n\\[\n\\int_A\\delta F-\\int_B\\delta F=XY,\n\\tag*{[4]}\n\\]\n\nwhich proves path dependence whenever \\(XY\\ne0\\). By contrast, for the state function \\(z=x^2+y^2\\),\n\nStep 5:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\ndz=2x\\,dx+2y\\,dy,\n\\qquad\n\\int_O^{(X,Y)}dz=X^2+Y^2\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-mathematics"
+      ]
+    }
+  ]
+}

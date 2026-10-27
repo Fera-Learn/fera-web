@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "thermodynamic-potentials-and-available-work",
+  "topicId": "availability-and-the-dead-state",
+  "topicTitle": "Availability and the Dead State",
+  "paperTags": [
+    "thermodynamics",
+    "thermodynamic-potentials-and-available-work"
+  ],
+  "questions": [
+    {
+      "id": "availability-and-the-dead-state-001",
+      "prompt": "Using the model for Availability and the Dead State, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Relative to a dead state at \\(T_0=300\\,\\mathrm{K}\\) and \\(p_0=100\\,\\mathrm{kPa}\\), a closed system has \\(U-U_0=500\\,\\mathrm{kJ}\\), \\(V-V_0=0.200\\,\\mathrm{m^3}\\), and \\(S-S_0=1.20\\,\\mathrm{kJ\\,K^{-1}}\\). Find its availability.",
+      "answer": "Model:\nApply the model for Availability and the Dead State under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse equation \\([1]\\), noting that \\(1\\,\\mathrm{kPa\\,m^3}=1\\,\\mathrm{kJ}\\): \\[\\mathcal A=500+(100)(0.200)-(300)(1.20)=500+20-360=160\\,\\mathrm{kJ}.\\] This is the reversible useful-work limit as the system reaches the stated dead state. Final result: \\(\\mathcal A=160\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\(\\mathcal A=160\\,\\mathrm{kJ}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-002",
+      "prompt": "Using the model for Availability and the Dead State, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A sealed object has reached \\(T_0\\) and \\(p_0\\), has no macroscopic motion or height difference, and has no permitted chemical imbalance with the environment. Can it deliver further useful work?",
+      "answer": "Model:\nApply the model for Availability and the Dead State under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nIts state matches the reference values in equation \\([1]\\), so every difference is zero and \\(\\mathcal A=0\\). There is no temperature, pressure, mechanical, or allowed chemical gradient left to exploit. Final result: the object is at the dead state and cannot deliver further useful work relative to that environment.\n\nFinal answer:\nThe object is at the dead state and cannot deliver further useful work relative to that environment.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-003",
+      "prompt": "A proposed solution to the following Availability and the Dead State problem gives \\(\\mathcal A=160\\,\\mathrm{kJ}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Relative to a dead state at \\(T_0=300\\,\\mathrm{K}\\) and \\(p_0=100\\,\\mathrm{kPa}\\), a closed system has \\(U-U_0=500\\,\\mathrm{kJ}\\), \\(V-V_0=0.200\\,\\mathrm{m^3}\\), and \\(S-S_0=1.20\\,\\mathrm{kJ\\,K^{-1}}\\). Find its availability.",
+      "answer": "Model:\nUse the model for Availability and the Dead State and the data stated in the problem.\n\nWorking:\nUse equation \\([1]\\), noting that \\(1\\,\\mathrm{kPa\\,m^3}=1\\,\\mathrm{kJ}\\): \\[\\mathcal A=500+(100)(0.200)-(300)(1.20)=500+20-360=160\\,\\mathrm{kJ}.\\] This is the reversible useful-work limit as the system reaches the stated dead state. Final result: \\(\\mathcal A=160\\,\\mathrm{kJ}\\).\n\nFinal answer:\nThe proposed result is verified: \\(\\mathcal A=160\\,\\mathrm{kJ}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-004",
+      "prompt": "For this problem on Availability and the Dead State, derive the indicated intermediate result before completing the calculation.\nProblem: Relative to a dead state at \\(T_0=300\\,\\mathrm{K}\\) and \\(p_0=100\\,\\mathrm{kPa}\\), a closed system has \\(U-U_0=500\\,\\mathrm{kJ}\\), \\(V-V_0=0.200\\,\\mathrm{m^3}\\), and \\(S-S_0=1.20\\,\\mathrm{kJ\\,K^{-1}}\\). Find its availability.\nIntermediate result to derive:\n\\[\\mathcal A=500+(100)(0.200)-(300)(1.20)=500+20-360=160\\,\\mathrm{kJ}.\\]",
+      "answer": "Model:\nApply the stated Availability and the Dead State assumptions and preserve all units.\n\nWorking:\nUse equation \\([1]\\), noting that \\(1\\,\\mathrm{kPa\\,m^3}=1\\,\\mathrm{kJ}\\): \\[\\mathcal A=500+(100)(0.200)-(300)(1.20)=500+20-360=160\\,\\mathrm{kJ}.\\] This is the reversible useful-work limit as the system reaches the stated dead state. Final result: \\(\\mathcal A=160\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\[\\mathcal A=500+(100)(0.200)-(300)(1.20)=500+20-360=160\\,\\mathrm{kJ}.\\]\n\nCheck:\nThe intermediate result leads to \\(\\mathcal A=160\\,\\mathrm{kJ}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-005",
+      "prompt": "A proposed solution to the following Availability and the Dead State problem gives The object is at the dead state and cannot deliver further useful work relative to that environment. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A sealed object has reached \\(T_0\\) and \\(p_0\\), has no macroscopic motion or height difference, and has no permitted chemical imbalance with the environment. Can it deliver further useful work?",
+      "answer": "Model:\nUse the model for Availability and the Dead State and the data stated in the problem.\n\nWorking:\nIts state matches the reference values in equation \\([1]\\), so every difference is zero and \\(\\mathcal A=0\\). There is no temperature, pressure, mechanical, or allowed chemical gradient left to exploit. Final result: the object is at the dead state and cannot deliver further useful work relative to that environment.\n\nFinal answer:\nThe proposed result is verified: The object is at the dead state and cannot deliver further useful work relative to that environment.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-006",
+      "prompt": "Starting from the stated model for Availability and the Dead State, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nFor a closed system with fixed composition and negligible bulk kinetic and gravitational potential energy, define availability relative to the dead state as\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nFor a closed system with fixed composition and negligible bulk kinetic and gravitational potential energy, define availability relative to the dead state as\n\nApplying the stated definitions and constraint gives\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nBecause the environment is fixed,\n\nFinal answer:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Availability and the Dead State constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-007",
+      "prompt": "Derive the following Availability and the Dead State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nBecause the environment is fixed,\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nBegin from the preceding result\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nBecause the environment is fixed,\n\nApplying the stated definitions and constraint gives\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nSeparate the unavoidable ambient displacement work \\(p_0\\,dV\\) from useful work. With work by the system positive,\n\nFinal answer:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Availability and the Dead State constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-008",
+      "prompt": "Derive the following Availability and the Dead State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nSeparate the unavoidable ambient displacement work \\(p_0\\,dV\\) from useful work. With work by the system positive,\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nBegin from the preceding result\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nSeparate the unavoidable ambient displacement work \\(p_0\\,dV\\) from useful work. With work by the system positive,\n\nApplying the stated definitions and constraint gives\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nSubstitution into equation [2] gives the availability balance\n\nFinal answer:\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Availability and the Dead State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-009",
+      "prompt": "Derive the following Availability and the Dead State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nSubstitution into equation [2] gives the availability balance\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nBegin from the preceding result\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nSubstitution into equation [2] gives the availability balance\n\nApplying the stated definitions and constraint gives\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nEquality requires \\(dS_{\\mathrm{gen}}=0\\), so a process from an initial state to the dead state obeys\n\nFinal answer:\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Availability and the Dead State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-010",
+      "prompt": "Derive the following Availability and the Dead State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nEquality requires \\(dS_{\\mathrm{gen}}=0\\), so a process from an initial state to the dead state obeys\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nBegin from the preceding result\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nEquality requires \\(dS_{\\mathrm{gen}}=0\\), so a process from an initial state to the dead state obeys\n\nApplying the stated definitions and constraint gives\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nFinal answer:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Availability and the Dead State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-011",
+      "prompt": "Starting from the first Availability and the Dead State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nAvailability is the maximum useful work obtainable as a system comes reversibly to equilibrium with a specified environment. The dead state has the environment's temperature and pressure and no remaining thermal, mechanical, or chemical work potential relative to that environment.\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nStart with\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nBecause the environment is fixed,\n\nTherefore\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-012",
+      "prompt": "Starting from the first Availability and the Dead State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nAvailability is the maximum useful work obtainable as a system comes reversibly to equilibrium with a specified environment. The dead state has the environment's temperature and pressure and no remaining thermal, mechanical, or chemical work potential relative to that environment.\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nStart with\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nSeparate the unavoidable ambient displacement work \\(p_0\\,dV\\) from useful work. With work by the system positive,\n\nTherefore\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-013",
+      "prompt": "Starting from the first Availability and the Dead State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nAvailability is the maximum useful work obtainable as a system comes reversibly to equilibrium with a specified environment. The dead state has the environment's temperature and pressure and no remaining thermal, mechanical, or chemical work potential relative to that environment.\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nStart with\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nSubstitution into equation [2] gives the availability balance\n\nTherefore\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-014",
+      "prompt": "Starting from the first Availability and the Dead State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nAvailability is the maximum useful work obtainable as a system comes reversibly to equilibrium with a specified environment. The dead state has the environment's temperature and pressure and no remaining thermal, mechanical, or chemical work potential relative to that environment.\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nStart with\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nEquality requires \\(dS_{\\mathrm{gen}}=0\\), so a process from an initial state to the dead state obeys\n\nTherefore\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-015",
+      "prompt": "Check the following Availability and the Dead State equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).\n\nInsert those units into\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Availability and the Dead State. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Availability and the Dead State.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-017",
+      "prompt": "Check the following Availability and the Dead State equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).\n\nInsert those units into\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-018",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Availability and the Dead State. Show the substitution or limiting argument rather than answering in words only.\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Availability and the Dead State.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-019",
+      "prompt": "Check the following Availability and the Dead State equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).\n\nInsert those units into\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "availability-and-the-dead-state-020",
+      "prompt": "Reconstruct the complete mathematical chain for Availability and the Dead State, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\nNotation: \\(\\mathcal A\\) denotes availability relative to the dead state; unit \\(\\mathrm{J}\\); \\(U,V,S\\) denotes system internal energy, total volume, and entropy; unit \\(\\mathrm{J, m^{3}, J K^{-1}}\\); \\(U_0,V_0,S_0,T_0,p_0\\) denotes dead-state properties and fixed environment temperature and pressure; unit \\(\\mathrm{J, m^{3}, J K^{-1}, K, Pa}\\); \\(\\delta W_u,W_{u,\\max}\\) denotes infinitesimal useful work and maximum useful work done by the system; unit \\(\\mathrm{J, J}\\); \\(\\delta Q,dS_{\\mathrm{gen}}\\) denotes infinitesimal heat transferred into the system and entropy generated by irreversibility; unit \\(\\mathrm{J, J K^{-1}}\\).",
+      "answer": "Model:\nAvailability is the maximum useful work obtainable as a system comes reversibly to equilibrium with a specified environment. The dead state has the environment's temperature and pressure and no remaining thermal, mechanical, or chemical work potential relative to that environment.\n\nThe numerical value of availability is therefore environment-dependent. Changing \\(T_0\\), \\(p_0\\), or the allowed chemical exchanges changes the dead state and the useful-work limit.\n\nWorking:\nStep 1:\n\\[\n\\mathcal A=(U-U_0)+p_0(V-V_0)-T_0(S-S_0).\n\\tag*{[1]}\n\\]\n\nBecause the environment is fixed,\n\nStep 2:\n\\[\nd\\mathcal A=dU+p_0\\,dV-T_0\\,dS.\n\\tag*{[2]}\n\\]\n\nSeparate the unavoidable ambient displacement work \\(p_0\\,dV\\) from useful work. With work by the system positive,\n\nStep 3:\n\\[\ndU=\\delta Q-p_0\\,dV-\\delta W_u,\n\\qquad\ndS=\\frac{\\delta Q}{T_0}+dS_{\\mathrm{gen}}.\n\\tag*{[3]}\n\\]\n\nSubstitution into equation [2] gives the availability balance\n\nStep 4:\n\\[\nd\\mathcal A=-\\delta W_u-T_0\\,dS_{\\mathrm{gen}},\n\\qquad\n\\delta W_u\\le-d\\mathcal A.\n\\tag*{[4]}\n\\]\n\nEquality requires \\(dS_{\\mathrm{gen}}=0\\), so a process from an initial state to the dead state obeys\n\nStep 5:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nW_{u,\\max}=\\mathcal A_{\\mathrm{initial}},\n\\qquad\n\\mathcal A_{\\mathrm{dead}}=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    }
+  ]
+}

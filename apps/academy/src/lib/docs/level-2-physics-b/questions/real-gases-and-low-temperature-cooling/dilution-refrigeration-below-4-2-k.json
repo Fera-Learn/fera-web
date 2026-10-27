@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "real-gases-and-low-temperature-cooling",
+  "topicId": "dilution-refrigeration-below-4-2-k",
+  "topicTitle": "Dilution Refrigeration Below 4.2 K",
+  "paperTags": [
+    "thermodynamics",
+    "real-gases-and-low-temperature-cooling"
+  ],
+  "questions": [
+    {
+      "id": "dilution-refrigeration-below-4-2-k-001",
+      "prompt": "Using the model for Dilution Refrigeration Below 4.2 K, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Estimate the ideal cooling power at \\(T=0.10\\,\\mathrm K\\) for \\(\\dot n_3=1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}}\\).",
+      "answer": "Model:\nApply the model for Dilution Refrigeration Below 4.2 K under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse equation \\([3]\\): \\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\] Converting units gives \\(8.4\\times10^{-5}\\,\\mathrm W=84\\,\\mu\\mathrm W\\). Final result: \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nFinal answer:\n\\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-002",
+      "prompt": "Using the model for Dilution Refrigeration Below 4.2 K, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Why does a dilution refrigerator circulate helium-3 instead of allowing the two phases to reach a static equilibrium once?",
+      "answer": "Model:\nApply the model for Dilution Refrigeration Below 4.2 K under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nA finite one-off transfer absorbs only finite heat through equation \\([1]\\). Continuous removal of helium-3 from the dilute phase and return to the concentrated phase maintains \\(\\dot n_3\\gt 0\\), so equation \\([3]\\) provides continuing cooling power. Final result: sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nFinal answer:\nSustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-003",
+      "prompt": "A proposed solution to the following Dilution Refrigeration Below 4.2 K problem gives \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Estimate the ideal cooling power at \\(T=0.10\\,\\mathrm K\\) for \\(\\dot n_3=1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}}\\).",
+      "answer": "Model:\nUse the model for Dilution Refrigeration Below 4.2 K and the data stated in the problem.\n\nWorking:\nUse equation \\([3]\\): \\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\] Converting units gives \\(8.4\\times10^{-5}\\,\\mathrm W=84\\,\\mu\\mathrm W\\). Final result: \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nFinal answer:\nThe proposed result is verified: \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-004",
+      "prompt": "For this problem on Dilution Refrigeration Below 4.2 K, derive the indicated intermediate result before completing the calculation.\nProblem: Estimate the ideal cooling power at \\(T=0.10\\,\\mathrm K\\) for \\(\\dot n_3=1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}}\\).\nIntermediate result to derive:\n\\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\]",
+      "answer": "Model:\nApply the stated Dilution Refrigeration Below 4.2 K assumptions and preserve all units.\n\nWorking:\nUse equation \\([3]\\): \\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\] Converting units gives \\(8.4\\times10^{-5}\\,\\mathrm W=84\\,\\mu\\mathrm W\\). Final result: \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nFinal answer:\n\\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\]\n\nCheck:\nThe intermediate result leads to \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-005",
+      "prompt": "A proposed solution to the following Dilution Refrigeration Below 4.2 K problem gives Sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Why does a dilution refrigerator circulate helium-3 instead of allowing the two phases to reach a static equilibrium once?",
+      "answer": "Model:\nUse the model for Dilution Refrigeration Below 4.2 K and the data stated in the problem.\n\nWorking:\nA finite one-off transfer absorbs only finite heat through equation \\([1]\\). Continuous removal of helium-3 from the dilute phase and return to the concentrated phase maintains \\(\\dot n_3\\gt 0\\), so equation \\([3]\\) provides continuing cooling power. Final result: sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nFinal answer:\nThe proposed result is verified: Sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-006",
+      "prompt": "Starting from the stated model for Dilution Refrigeration Below 4.2 K, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nBelow about \\(0.87\\,\\mathrm K\\), a helium-3/helium-4 mixture separates into a concentrated phase rich in helium-3 and a dilute phase rich in helium-4. Importantly, the dilute phase retains a finite helium-3 concentration even toward very low temperature; it is not pure helium-4.\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nBelow about \\(0.87\\,\\mathrm K\\), a helium-3/helium-4 mixture separates into a concentrated phase rich in helium-3 and a dilute phase rich in helium-4. Importantly, the dilute phase retains a finite helium-3 concentration even toward very low temperature; it is not pure helium-4.\n\nApplying the stated definitions and constraint gives\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Dilution Refrigeration Below 4.2 K constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-007",
+      "prompt": "Derive the following Dilution Refrigeration Below 4.2 K relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nBelow about \\(0.87\\,\\mathrm K\\), a helium-3/helium-4 mixture separates into a concentrated phase rich in helium-3 and a dilute phase rich in helium-4. Importantly, the dilute phase retains a finite helium-3 concentration even toward very low temperature; it is not pure helium-4.\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nBegin from the preceding result\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nAt sufficiently low temperature, both partial molar enthalpies scale approximately as \\(T^2\\), so their difference may be represented by\n\nApplying the stated definitions and constraint gives\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nFinal answer:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Dilution Refrigeration Below 4.2 K constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-008",
+      "prompt": "Derive the following Dilution Refrigeration Below 4.2 K relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nBegin from the preceding result\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nApplying the stated definitions and constraint gives\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Dilution Refrigeration Below 4.2 K constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-009",
+      "prompt": "Starting from the first Dilution Refrigeration Below 4.2 K relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nA helium dilution refrigerator cools by transferring helium-3 quasiparticles from a helium-3-rich concentrated phase into a helium-3-poor dilute phase within a helium-3/helium-4 mixture. The transfer increases their partial molar enthalpy, so heat is absorbed continuously at the phase boundary when helium-3 is circulated.\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nStart with\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nAt sufficiently low temperature, both partial molar enthalpies scale approximately as \\(T^2\\), so their difference may be represented by\n\nTherefore\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-010",
+      "prompt": "Starting from the first Dilution Refrigeration Below 4.2 K relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nA helium dilution refrigerator cools by transferring helium-3 quasiparticles from a helium-3-rich concentrated phase into a helium-3-poor dilute phase within a helium-3/helium-4 mixture. The transfer increases their partial molar enthalpy, so heat is absorbed continuously at the phase boundary when helium-3 is circulated.\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nStart with\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nTherefore\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-011",
+      "prompt": "Check the following Dilution Refrigeration Below 4.2 K equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).\n\nInsert those units into\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-012",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Dilution Refrigeration Below 4.2 K. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Dilution Refrigeration Below 4.2 K.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-013",
+      "prompt": "Check the following Dilution Refrigeration Below 4.2 K equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).\n\nInsert those units into\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-014",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Dilution Refrigeration Below 4.2 K. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Dilution Refrigeration Below 4.2 K.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-015",
+      "prompt": "Check the following Dilution Refrigeration Below 4.2 K equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).\n\nInsert those units into\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Dilution Refrigeration Below 4.2 K. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Dilution Refrigeration Below 4.2 K.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-017",
+      "prompt": "Rework this Dilution Refrigeration Below 4.2 K problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: Estimate the ideal cooling power at \\(T=0.10\\,\\mathrm K\\) for \\(\\dot n_3=1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}}\\).",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nUse equation \\([3]\\): \\[\\dot Q_{\\mathrm{cool}}=(84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}})(1.0\\times10^{-4}\\,\\mathrm{mol\\,s^{-1}})(0.10\\,\\mathrm K)^2=8.4\\times10^{-5}\\,\\mathrm W.\\] Converting units gives \\(8.4\\times10^{-5}\\,\\mathrm W=84\\,\\mu\\mathrm W\\). Final result: \\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nFinal answer:\n\\(\\dot Q_{\\mathrm{cool}}\\simeq84\\,\\mu\\mathrm W\\) ideally.\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-018",
+      "prompt": "Rework this Dilution Refrigeration Below 4.2 K problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: Why does a dilution refrigerator circulate helium-3 instead of allowing the two phases to reach a static equilibrium once?",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nA finite one-off transfer absorbs only finite heat through equation \\([1]\\). Continuous removal of helium-3 from the dilute phase and return to the concentrated phase maintains \\(\\dot n_3\\gt 0\\), so equation \\([3]\\) provides continuing cooling power. Final result: sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nFinal answer:\nSustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-019",
+      "prompt": "Solve the following Dilution Refrigeration Below 4.2 K problem and include an independent substitution, unit, sign, or normalization check: Why does a dilution refrigerator circulate helium-3 instead of allowing the two phases to reach a static equilibrium once?",
+      "answer": "Model:\nUse the model for Dilution Refrigeration Below 4.2 K under the conditions in the problem.\n\nWorking:\nA finite one-off transfer absorbs only finite heat through equation \\([1]\\). Continuous removal of helium-3 from the dilute phase and return to the concentrated phase maintains \\(\\dot n_3\\gt 0\\), so equation \\([3]\\) provides continuing cooling power. Final result: sustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nFinal answer:\nSustained refrigeration requires a maintained helium-3 molar flow across the concentrated-dilute phase boundary.\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "dilution-refrigeration-below-4-2-k-020",
+      "prompt": "Reconstruct the complete mathematical chain for Dilution Refrigeration Below 4.2 K, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\nNotation: \\(T\\) denotes mixing-chamber absolute temperature; unit \\(\\mathrm{K}\\); \\(\\dot n_3\\) denotes molar flow rate of helium-3 across the phase boundary; unit \\(\\mathrm{mol s^{-1}}\\); \\(\\overline H_{3,d},\\overline H_{3,c}\\) denotes partial molar enthalpies of helium-3 in dilute and concentrated phases; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(\\dot Q_{\\mathrm{cool}}\\) denotes cooling power at the mixing chamber; unit \\(\\mathrm{W}\\); \\(K_d\\) denotes low-temperature coefficient for the partial-molar-enthalpy difference; unit \\(\\mathrm{J mol^{-1} K^{-2}}\\).",
+      "answer": "Model:\nA helium dilution refrigerator cools by transferring helium-3 quasiparticles from a helium-3-rich concentrated phase into a helium-3-poor dilute phase within a helium-3/helium-4 mixture. The transfer increases their partial molar enthalpy, so heat is absorbed continuously at the phase boundary when helium-3 is circulated.\n\nThe circulation loop removes helium-3 from the dilute phase, pumps it through warmer stages, condenses and precools it, and returns it to the concentrated phase. Real cooling power is smaller than equation [3] after heat leaks, imperfect precooling, and viscous dissipation are included.\n\nWorking:\nStep 1:\n\\[\n\\dot Q_{\\mathrm{cool}}\n=\\dot n_3\\left(\\overline H_{3,d}-\\overline H_{3,c}\\right).\n\\tag*{[1]}\n\\]\n\nAt sufficiently low temperature, both partial molar enthalpies scale approximately as \\(T^2\\), so their difference may be represented by\n\nStep 2:\n\\[\n\\overline H_{3,d}-\\overline H_{3,c}\\simeq K_dT^2,\n\\qquad K_d\\simeq84\\,\\mathrm{J\\,mol^{-1}\\,K^{-2}}.\n\\tag*{[2]}\n\\]\n\nCombining equations [1] and [2] gives the useful low-temperature estimate\n\nStep 3:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\dot Q_{\\mathrm{cool}}\\simeq K_d\\dot n_3T^2.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    }
+  ]
+}

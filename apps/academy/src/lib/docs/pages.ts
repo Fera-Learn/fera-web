@@ -31,13 +31,34 @@ import {
   level1MathIIPhysicsCourseIntroBody,
   level1MathIIPhysicsCourseIntroHeadings,
 } from "./level-1-math-ii-physics/course-page";
+import {
+  level2PhysicsAModules,
+  level2PhysicsASections,
+} from "./level-2-physics-a/structure";
+import { level2PhysicsATopicBodies } from "./level-2-physics-a/content";
+import { level2PhysicsAExamSets } from "./level-2-physics-a/exams";
+import {
+  level2PhysicsBModules,
+  level2PhysicsBSections,
+} from "./level-2-physics-b/structure";
+import { level2PhysicsBTopicBodies } from "./level-2-physics-b/content";
+import { level2PhysicsBExamSets } from "./level-2-physics-b/exams";
+import {
+  level2MathematicalPhysicsModules,
+  level2MathematicalPhysicsSections,
+} from "./level-2-mathematical-physics/structure";
+import { level2MathematicalPhysicsTopicBodies } from "./level-2-mathematical-physics/content";
+import { level2MathematicalPhysicsExamSets } from "./level-2-mathematical-physics/exams";
 
 export type CourseScope =
   | "level-1-math-i-physics"
   | "level-1-math-ii-physics"
   | "level-1-calculus"
   | "level-1-linear-algebra"
-  | "level-1-physics";
+  | "level-1-physics"
+  | "level-2-physics-a"
+  | "level-2-physics-b"
+  | "level-2-mathematical-physics";
 
 export type CourseMeta = {
   description: string;
@@ -102,6 +123,30 @@ export const academyCourses: CourseMeta[] = [
     slug: ["level-1-physics"],
     description:
       "A calculus-based physics course built around derivations, physical modelling, worked questions, and full exam practice.",
+  },
+  {
+    label: "Level 2 - Physics A",
+    scope: "level-2-physics-a",
+    href: "/level-2-physics-a",
+    slug: ["level-2-physics-a"],
+    description:
+      "A second-year physics course covering electromagnetism and quantum mechanics.",
+  },
+  {
+    label: "Level 2 - Physics B",
+    scope: "level-2-physics-b",
+    href: "/level-2-physics-b",
+    slug: ["level-2-physics-b"],
+    description:
+      "A second-year physics course covering condensed matter physics, optics, and thermodynamics.",
+  },
+  {
+    label: "Level 2 - Mathematical Physics",
+    scope: "level-2-mathematical-physics",
+    href: "/level-2-mathematical-physics",
+    slug: ["level-2-mathematical-physics"],
+    description:
+      "A second-year course in the mathematical structures used across physics, including vector spaces, matrices, linear operators, and spectral methods.",
   },
 ];
 
@@ -1504,6 +1549,27 @@ function getLevel1PhysicsTopicSlug(
   return ["level-1-physics", section.id, slugify(topic.title)];
 }
 
+function getLevel2PhysicsATopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-2-physics-a", section.id, slugify(topic.title)];
+}
+
+function getLevel2PhysicsBTopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-2-physics-b", section.id, slugify(topic.title)];
+}
+
+function getLevel2MathematicalPhysicsTopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-2-mathematical-physics", section.id, slugify(topic.title)];
+}
+
 function getCourseExamPapersSlug(course: CourseMeta) {
   return [...course.slug, "exam-papers"];
 }
@@ -1572,6 +1638,18 @@ function getLevel1PhysicsQuestionsSlug() {
   return ["level-1-physics", "questions"];
 }
 
+function getLevel2PhysicsAQuestionsSlug() {
+  return ["level-2-physics-a", "questions"];
+}
+
+function getLevel2PhysicsBQuestionsSlug() {
+  return ["level-2-physics-b", "questions"];
+}
+
+function getLevel2MathematicalPhysicsQuestionsSlug() {
+  return ["level-2-mathematical-physics", "questions"];
+}
+
 function getLevel1PhysicsEquationSheetSlug() {
   return ["level-1-physics", "equation-sheet"];
 }
@@ -1594,6 +1672,21 @@ function getLevel1CalculusExamPaperSlug(setId: string, paperId: string) {
 
 function getLevel1LinearAlgebraExamPaperSlug(setId: string, paperId: string) {
   return ["level-1-linear-algebra", "exam-papers", setId, paperId];
+}
+
+function getLevel2PhysicsAExamPaperSlug(setId: string, paperId: string) {
+  return ["level-2-physics-a", "exam-papers", setId, paperId];
+}
+
+function getLevel2PhysicsBExamPaperSlug(setId: string, paperId: string) {
+  return ["level-2-physics-b", "exam-papers", setId, paperId];
+}
+
+function getLevel2MathematicalPhysicsExamPaperSlug(
+  setId: string,
+  paperId: string,
+) {
+  return ["level-2-mathematical-physics", "exam-papers", setId, paperId];
 }
 
 export function getCourseExamPapersHref(course: CourseMeta) {
@@ -1622,6 +1715,9 @@ const sectionsByCourseScope = new Map<CourseScope, CourseSection[]>([
   ["level-1-calculus", level1CalculusSections],
   ["level-1-linear-algebra", level1LinearAlgebraSections],
   ["level-1-physics", level1PhysicsSections],
+  ["level-2-physics-a", level2PhysicsASections],
+  ["level-2-physics-b", level2PhysicsBSections],
+  ["level-2-mathematical-physics", level2MathematicalPhysicsSections],
 ]);
 
 export function getCourseQuestionTopicOptions(
@@ -1808,6 +1904,33 @@ const level1PhysicsQuestionsPage = createEditorialPage({
   badges: ["Questions"],
 });
 
+const level2PhysicsAQuestionsPage = createEditorialPage({
+  slug: getLevel2PhysicsAQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 2 - Physics A questions with filters.",
+  category: "Level 2 - Physics A",
+  order: 105,
+  badges: ["Questions"],
+});
+
+const level2PhysicsBQuestionsPage = createEditorialPage({
+  slug: getLevel2PhysicsBQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 2 - Physics B questions with filters.",
+  category: "Level 2 - Physics B",
+  order: 115,
+  badges: ["Questions"],
+});
+
+const level2MathematicalPhysicsQuestionsPage = createEditorialPage({
+  slug: getLevel2MathematicalPhysicsQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 2 - Mathematical Physics questions with filters.",
+  category: "Level 2 - Mathematical Physics",
+  order: 125,
+  badges: ["Questions"],
+});
+
 const level1PhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1PhysicsEquationSheetSlug(),
   title: "Equation Sheet",
@@ -1893,6 +2016,51 @@ const level1LinearAlgebraExamPaperPages = level1LinearAlgebraExamSets.flatMap(
     ),
 );
 
+const level2PhysicsAExamPaperPages = level2PhysicsAExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel2PhysicsAExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 2 - Physics A",
+        order: 4900 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
+
+const level2PhysicsBExamPaperPages = level2PhysicsBExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel2PhysicsBExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 2 - Physics B",
+        order: 4950 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
+
+const level2MathematicalPhysicsExamPaperPages =
+  level2MathematicalPhysicsExamSets.flatMap((set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel2MathematicalPhysicsExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 2 - Mathematical Physics",
+        order: 4975 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+  );
+
 const level1MathIPhysicsTopicPages = level1MathIPhysicsSections.flatMap(
   (section, sectionIndex) =>
     section.topics.map((topic, topicIndex) =>
@@ -1976,6 +2144,54 @@ const level1PhysicsTopicPages = level1PhysicsSections.flatMap(
     ),
 );
 
+const level2PhysicsATopicPages = level2PhysicsASections.flatMap(
+  (section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel2PhysicsATopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 2 - Physics A topic page in ${section.title}.`,
+        category: "Level 2 - Physics A",
+        order: 6000 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level2PhysicsATopicBodies.get(topic.title),
+      }),
+    ),
+);
+
+const level2PhysicsBTopicPages = level2PhysicsBSections.flatMap(
+  (section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel2PhysicsBTopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 2 - Physics B topic page in ${section.title}.`,
+        category: "Level 2 - Physics B",
+        order: 7000 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level2PhysicsBTopicBodies.get(topic.title),
+      }),
+    ),
+);
+
+const level2MathematicalPhysicsTopicPages =
+  level2MathematicalPhysicsSections.flatMap((section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel2MathematicalPhysicsTopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 2 - Mathematical Physics topic page in ${section.title}.`,
+        category: "Level 2 - Mathematical Physics",
+        order: 8000 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level2MathematicalPhysicsTopicBodies.get(topic.title),
+      }),
+    ),
+  );
+
 export const docsPages: DocPage[] = [
   createEditorialPage({
     slug: [],
@@ -1992,6 +2208,9 @@ export const docsPages: DocPage[] = [
   level1CalculusQuestionsPage,
   level1LinearAlgebraQuestionsPage,
   level1PhysicsQuestionsPage,
+  level2PhysicsAQuestionsPage,
+  level2PhysicsBQuestionsPage,
+  level2MathematicalPhysicsQuestionsPage,
   ...courseFlashcardsPages,
   level1MathPhysicsEquationSheetPage,
   level1MathIPhysicsEquationSheetPage,
@@ -2003,11 +2222,17 @@ export const docsPages: DocPage[] = [
   ...level1CalculusExamPaperPages,
   ...level1LinearAlgebraExamPaperPages,
   ...level1PhysicsExamPaperPages,
+  ...level2PhysicsAExamPaperPages,
+  ...level2PhysicsBExamPaperPages,
+  ...level2MathematicalPhysicsExamPaperPages,
   ...level1MathIPhysicsTopicPages,
   ...level1MathIIPhysicsTopicPages,
   ...level1CalculusTopicPages,
   ...level1LinearAlgebraTopicPages,
   ...level1PhysicsTopicPages,
+  ...level2PhysicsATopicPages,
+  ...level2PhysicsBTopicPages,
+  ...level2MathematicalPhysicsTopicPages,
 ];
 
 const academyOverviewSections: DocSectionMeta[] = [
@@ -2180,6 +2405,84 @@ const level1PhysicsSidebarSections: DocSectionMeta[] = [
   },
 ];
 
+const level2PhysicsASidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-2-physics-a-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-2-physics-a"],
+      getCourseExamPapersSlug(getCourseByScope("level-2-physics-a")),
+      getLevel2PhysicsAQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-2-physics-a")),
+    ],
+  },
+  ...level2PhysicsAModules.map((module) => ({
+    id: `level-2-physics-a-${module.id}`,
+    title: module.title,
+    defaultOpen: true,
+    children: module.sections.map((section) => ({
+      id: `level-2-physics-a-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel2PhysicsATopicSlug(section, topic),
+      ),
+    })),
+  })),
+];
+
+const level2PhysicsBSidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-2-physics-b-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-2-physics-b"],
+      getCourseExamPapersSlug(getCourseByScope("level-2-physics-b")),
+      getLevel2PhysicsBQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-2-physics-b")),
+    ],
+  },
+  ...level2PhysicsBModules.map((module) => ({
+    id: `level-2-physics-b-${module.id}`,
+    title: module.title,
+    defaultOpen: true,
+    children: module.sections.map((section) => ({
+      id: `level-2-physics-b-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel2PhysicsBTopicSlug(section, topic),
+      ),
+    })),
+  })),
+];
+
+const level2MathematicalPhysicsSidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-2-mathematical-physics-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-2-mathematical-physics"],
+      getCourseExamPapersSlug(getCourseByScope("level-2-mathematical-physics")),
+      getLevel2MathematicalPhysicsQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-2-mathematical-physics")),
+    ],
+  },
+  ...level2MathematicalPhysicsModules.map((module) => ({
+    id: `level-2-mathematical-physics-${module.id}`,
+    title: module.title,
+    defaultOpen: true,
+    children: module.sections.map((section) => ({
+      id: `level-2-mathematical-physics-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel2MathematicalPhysicsTopicSlug(section, topic),
+      ),
+    })),
+  })),
+];
+
 const level1MathIPhysicsSidebarPages = createCourseSidebarPages(
   "level-1-math-i-physics",
 );
@@ -2191,6 +2494,13 @@ const level1LinearAlgebraSidebarPages = createCourseSidebarPages(
   "level-1-linear-algebra",
 );
 const level1PhysicsSidebarPages = createCourseSidebarPages("level-1-physics");
+const level2PhysicsASidebarPages =
+  createCourseSidebarPages("level-2-physics-a");
+const level2PhysicsBSidebarPages =
+  createCourseSidebarPages("level-2-physics-b");
+const level2MathematicalPhysicsSidebarPages = createCourseSidebarPages(
+  "level-2-mathematical-physics",
+);
 
 const docsTreesByScope: Record<
   "academy" | CourseScope,
@@ -2216,6 +2526,18 @@ const docsTreesByScope: Record<
   "level-1-physics": createDocsTree(
     level1PhysicsSidebarSections,
     level1PhysicsSidebarPages,
+  ),
+  "level-2-physics-a": createDocsTree(
+    level2PhysicsASidebarSections,
+    level2PhysicsASidebarPages,
+  ),
+  "level-2-physics-b": createDocsTree(
+    level2PhysicsBSidebarSections,
+    level2PhysicsBSidebarPages,
+  ),
+  "level-2-mathematical-physics": createDocsTree(
+    level2MathematicalPhysicsSidebarSections,
+    level2MathematicalPhysicsSidebarPages,
   ),
 };
 

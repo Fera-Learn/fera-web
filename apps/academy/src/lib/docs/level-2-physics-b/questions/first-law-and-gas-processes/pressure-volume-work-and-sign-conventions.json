@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "first-law-and-gas-processes",
+  "topicId": "pressure-volume-work-and-sign-conventions",
+  "topicTitle": "Pressure-Volume Work and Sign Conventions",
+  "paperTags": [
+    "thermodynamics",
+    "first-law-and-gas-processes"
+  ],
+  "questions": [
+    {
+      "id": "pressure-volume-work-and-sign-conventions-001",
+      "prompt": "Using the model for Pressure-Volume Work and Sign Conventions, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Argon expands from \\(V_i=10\\,\\mathrm{dm^3}\\) to \\(V_f=30\\,\\mathrm{dm^3}\\) against \\(p_{\\mathrm{ext}}=81260\\,\\mathrm{Pa}\\). Find the work done by the gas.",
+      "answer": "Model:\nApply the model for Pressure-Volume Work and Sign Conventions under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nFirst convert the volumes: \\(V_i=10\\times10^{-3}\\,\\mathrm{m^3}\\) and \\(V_f=30\\times10^{-3}\\,\\mathrm{m^3}\\). Equation \\([3]\\) gives \\[W=(81260\\,\\mathrm{Pa})[(30-10)\\times10^{-3}\\,\\mathrm{m^3}]=1.6252\\times10^3\\,\\mathrm J.\\] The sign is positive because the gas expands and does work on the surroundings. Final result: \\(W=+1.63\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\(W=+1.63\\,\\mathrm{kJ}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-002",
+      "prompt": "Using the model for Pressure-Volume Work and Sign Conventions, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A gas expands into an evacuated chamber, so the moving boundary faces \\(p_{\\mathrm{ext}}=0\\). Is the boundary work nonzero merely because the volume increases?",
+      "answer": "Model:\nApply the model for Pressure-Volume Work and Sign Conventions under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nNo. Equation \\([2]\\) must use the external pressure, not an assumed equilibrium gas pressure: \\[W=\\int_{V_i}^{V_f}0\\,dV=0.\\] A volume change alone does not guarantee pressure-volume work. Final result: free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\).\n\nFinal answer:\nFree expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-003",
+      "prompt": "A proposed solution to the following Pressure-Volume Work and Sign Conventions problem gives \\(W=+1.63\\,\\mathrm{kJ}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Argon expands from \\(V_i=10\\,\\mathrm{dm^3}\\) to \\(V_f=30\\,\\mathrm{dm^3}\\) against \\(p_{\\mathrm{ext}}=81260\\,\\mathrm{Pa}\\). Find the work done by the gas.",
+      "answer": "Model:\nUse the model for Pressure-Volume Work and Sign Conventions and the data stated in the problem.\n\nWorking:\nFirst convert the volumes: \\(V_i=10\\times10^{-3}\\,\\mathrm{m^3}\\) and \\(V_f=30\\times10^{-3}\\,\\mathrm{m^3}\\). Equation \\([3]\\) gives \\[W=(81260\\,\\mathrm{Pa})[(30-10)\\times10^{-3}\\,\\mathrm{m^3}]=1.6252\\times10^3\\,\\mathrm J.\\] The sign is positive because the gas expands and does work on the surroundings. Final result: \\(W=+1.63\\,\\mathrm{kJ}\\).\n\nFinal answer:\nThe proposed result is verified: \\(W=+1.63\\,\\mathrm{kJ}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-004",
+      "prompt": "For this problem on Pressure-Volume Work and Sign Conventions, derive the indicated intermediate result before completing the calculation.\nProblem: Argon expands from \\(V_i=10\\,\\mathrm{dm^3}\\) to \\(V_f=30\\,\\mathrm{dm^3}\\) against \\(p_{\\mathrm{ext}}=81260\\,\\mathrm{Pa}\\). Find the work done by the gas.\nIntermediate result to derive:\n\\[W=(81260\\,\\mathrm{Pa})[(30-10)\\times10^{-3}\\,\\mathrm{m^3}]=1.6252\\times10^3\\,\\mathrm J.\\]",
+      "answer": "Model:\nApply the stated Pressure-Volume Work and Sign Conventions assumptions and preserve all units.\n\nWorking:\nFirst convert the volumes: \\(V_i=10\\times10^{-3}\\,\\mathrm{m^3}\\) and \\(V_f=30\\times10^{-3}\\,\\mathrm{m^3}\\). Equation \\([3]\\) gives \\[W=(81260\\,\\mathrm{Pa})[(30-10)\\times10^{-3}\\,\\mathrm{m^3}]=1.6252\\times10^3\\,\\mathrm J.\\] The sign is positive because the gas expands and does work on the surroundings. Final result: \\(W=+1.63\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\[W=(81260\\,\\mathrm{Pa})[(30-10)\\times10^{-3}\\,\\mathrm{m^3}]=1.6252\\times10^3\\,\\mathrm J.\\]\n\nCheck:\nThe intermediate result leads to \\(W=+1.63\\,\\mathrm{kJ}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-005",
+      "prompt": "A proposed solution to the following Pressure-Volume Work and Sign Conventions problem gives Free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A gas expands into an evacuated chamber, so the moving boundary faces \\(p_{\\mathrm{ext}}=0\\). Is the boundary work nonzero merely because the volume increases?",
+      "answer": "Model:\nUse the model for Pressure-Volume Work and Sign Conventions and the data stated in the problem.\n\nWorking:\nNo. Equation \\([2]\\) must use the external pressure, not an assumed equilibrium gas pressure: \\[W=\\int_{V_i}^{V_f}0\\,dV=0.\\] A volume change alone does not guarantee pressure-volume work. Final result: free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\).\n\nFinal answer:\nThe proposed result is verified: Free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-006",
+      "prompt": "For this problem on Pressure-Volume Work and Sign Conventions, derive the indicated intermediate result before completing the calculation.\nProblem: A gas expands into an evacuated chamber, so the moving boundary faces \\(p_{\\mathrm{ext}}=0\\). Is the boundary work nonzero merely because the volume increases?\nIntermediate result to derive:\n\\[W=\\int_{V_i}^{V_f}0\\,dV=0.\\]",
+      "answer": "Model:\nApply the stated Pressure-Volume Work and Sign Conventions assumptions and preserve all units.\n\nWorking:\nNo. Equation \\([2]\\) must use the external pressure, not an assumed equilibrium gas pressure: \\[W=\\int_{V_i}^{V_f}0\\,dV=0.\\] A volume change alone does not guarantee pressure-volume work. Final result: free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\).\n\nFinal answer:\n\\[W=\\int_{V_i}^{V_f}0\\,dV=0.\\]\n\nCheck:\nThe intermediate result leads to Free expansion into a vacuum has \\(W=0\\), even though \\(V_f\\gt V_i\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-007",
+      "prompt": "Starting from the stated model for Pressure-Volume Work and Sign Conventions, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nAn external pressure on a piston of area \\(A\\) produces an opposing force \\(p_{\\mathrm{ext}}A\\). If the gas moves the piston outward by \\(dx\\), then \\(dV=A\\,dx\\), so\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nAn external pressure on a piston of area \\(A\\) produces an opposing force \\(p_{\\mathrm{ext}}A\\). If the gas moves the piston outward by \\(dx\\), then \\(dV=A\\,dx\\), so\n\nApplying the stated definitions and constraint gives\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nFor constant external pressure,\n\nFinal answer:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Pressure-Volume Work and Sign Conventions constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-008",
+      "prompt": "Derive the following Pressure-Volume Work and Sign Conventions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nAn external pressure on a piston of area \\(A\\) produces an opposing force \\(p_{\\mathrm{ext}}A\\). If the gas moves the piston outward by \\(dx\\), then \\(dV=A\\,dx\\), so\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nBegin from the preceding result\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nThe finite boundary work follows the actual external-pressure path:\n\nApplying the stated definitions and constraint gives\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nFor constant external pressure,\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Pressure-Volume Work and Sign Conventions constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-009",
+      "prompt": "Derive the following Pressure-Volume Work and Sign Conventions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nFor constant external pressure,\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nBegin from the preceding result\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nFor constant external pressure,\n\nApplying the stated definitions and constraint gives\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nEquation \\([3]\\) is positive for expansion, where \\(V_f>V_i\\), and negative for compression, where \\(V_f<V_i\\). If the surroundings do work on the system, that work is \\(W_{\\mathrm{on}}=-W\\).\n\nFinal answer:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Pressure-Volume Work and Sign Conventions constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-010",
+      "prompt": "Derive the following Pressure-Volume Work and Sign Conventions relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nEquation \\([3]\\) is positive for expansion, where \\(V_f>V_i\\), and negative for compression, where \\(V_f<V_i\\). If the surroundings do work on the system, that work is \\(W_{\\mathrm{on}}=-W\\).\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nBegin from the preceding result\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nEquation \\([3]\\) is positive for expansion, where \\(V_f>V_i\\), and negative for compression, where \\(V_f<V_i\\). If the surroundings do work on the system, that work is \\(W_{\\mathrm{on}}=-W\\).\n\nThe system pressure may replace external pressure only in the quasistatic mechanical-equilibrium limit:\n\nApplying the stated definitions and constraint gives\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nFinal answer:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Pressure-Volume Work and Sign Conventions constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-011",
+      "prompt": "Starting from the first Pressure-Volume Work and Sign Conventions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nPressure-volume work is set by the pressure exerted by the surroundings at the moving boundary. With work done by the system defined as positive, expansion against a positive external pressure gives positive work and compression gives negative work.\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nStart with\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nThe finite boundary work follows the actual external-pressure path:\n\nTherefore\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-012",
+      "prompt": "Starting from the first Pressure-Volume Work and Sign Conventions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nPressure-volume work is set by the pressure exerted by the surroundings at the moving boundary. With work done by the system defined as positive, expansion against a positive external pressure gives positive work and compression gives negative work.\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nStart with\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nFor constant external pressure,\n\nTherefore\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-013",
+      "prompt": "Starting from the first Pressure-Volume Work and Sign Conventions relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nPressure-volume work is set by the pressure exerted by the surroundings at the moving boundary. With work done by the system defined as positive, expansion against a positive external pressure gives positive work and compression gives negative work.\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nStart with\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nEquation \\([3]\\) is positive for expansion, where \\(V_f>V_i\\), and negative for compression, where \\(V_f<V_i\\). If the surroundings do work on the system, that work is \\(W_{\\mathrm{on}}=-W\\).\n\nThe system pressure may replace external pressure only in the quasistatic mechanical-equilibrium limit:\n\nTherefore\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-014",
+      "prompt": "Check the following Pressure-Volume Work and Sign Conventions equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-015",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Pressure-Volume Work and Sign Conventions. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Pressure-Volume Work and Sign Conventions.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-016",
+      "prompt": "Check the following Pressure-Volume Work and Sign Conventions equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-017",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Pressure-Volume Work and Sign Conventions. Show the substitution or limiting argument rather than answering in words only.\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Pressure-Volume Work and Sign Conventions.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-018",
+      "prompt": "Check the following Pressure-Volume Work and Sign Conventions equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Pressure-Volume Work and Sign Conventions. Show the substitution or limiting argument rather than answering in words only.\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Pressure-Volume Work and Sign Conventions.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "pressure-volume-work-and-sign-conventions-020",
+      "prompt": "Reconstruct the complete mathematical chain for Pressure-Volume Work and Sign Conventions, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\nNotation: \\(p_{\\mathrm{ext}}\\) denotes external pressure acting on the system boundary; unit \\(\\mathrm{Pa}\\); \\(p\\) denotes equilibrium pressure of the system; unit \\(\\mathrm{Pa}\\); \\(V,V_i,V_f\\) denotes system volume and its initial and final values; unit \\(\\mathrm{m^{3}}\\); \\(A\\) denotes piston cross-sectional area; unit \\(\\mathrm{m^{2}}\\); \\(dx\\) denotes outward infinitesimal piston displacement; unit \\(\\mathrm{m}\\); \\(dV\\) denotes exact infinitesimal volume change; unit \\(\\mathrm{m^{3}}\\); \\(\\delta W,\\delta W_{\\mathrm{qs}},W\\) denotes inexact infinitesimal work, its quasistatic form, and finite work done by the system; unit \\(\\mathrm{J, J, J}\\); \\(W_{\\mathrm{on}}\\) denotes finite work done on the system; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nPressure-volume work is set by the pressure exerted by the surroundings at the moving boundary. With work done by the system defined as positive, expansion against a positive external pressure gives positive work and compression gives negative work.\n\nFor a rapid or otherwise irreversible process, the gas need not possess a uniform boundary pressure equal to \\(p_{\\mathrm{ext}}\\). Using \\(p\\,dV\\) without the quasistatic condition can therefore give the wrong work.\n\nWorking:\nStep 1:\n\\[\n\\delta W=(p_{\\mathrm{ext}}A)dx=p_{\\mathrm{ext}}\\,dV.\n\\tag*{[1]}\n\\]\n\nThe finite boundary work follows the actual external-pressure path:\n\nStep 2:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV.\n\\tag*{[2]}\n\\]\n\nFor constant external pressure,\n\nStep 3:\n\\[\nW=p_{\\mathrm{ext}}(V_f-V_i).\n\\tag*{[3]}\n\\]\n\nEquation \\([3]\\) is positive for expansion, where \\(V_f>V_i\\), and negative for compression, where \\(V_f<V_i\\). If the surroundings do work on the system, that work is \\(W_{\\mathrm{on}}=-W\\).\n\nThe system pressure may replace external pressure only in the quasistatic mechanical-equilibrium limit:\n\nStep 4:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\np_{\\mathrm{ext}}\\to p,\n\\qquad\n\\delta W_{\\mathrm{qs}}=p\\,dV.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    }
+  ]
+}

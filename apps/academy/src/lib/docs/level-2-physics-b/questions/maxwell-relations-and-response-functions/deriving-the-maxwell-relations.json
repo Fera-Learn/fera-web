@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "maxwell-relations-and-response-functions",
+  "topicId": "deriving-the-maxwell-relations",
+  "topicTitle": "Deriving the Maxwell Relations",
+  "paperTags": [
+    "thermodynamics",
+    "maxwell-relations-and-response-functions"
+  ],
+  "questions": [
+    {
+      "id": "deriving-the-maxwell-relations-001",
+      "prompt": "Using the model for Deriving the Maxwell Relations, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Starting from \\(dF=-S\\,dT-p\\,dV\\), derive its Maxwell relation.",
+      "answer": "Model:\nApply the model for Deriving the Maxwell Relations under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nCoefficient matching in equation \\([1]\\) gives \\((\\partial F/\\partial T)_V=-S\\) and \\((\\partial F/\\partial V)_T=-p\\). Differentiate the first with respect to \\(V\\) at fixed \\(T\\), and the second with respect to \\(T\\) at fixed \\(V\\): \\[-\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\frac{\\partial^2F}{\\partial V\\partial T}=\\frac{\\partial^2F}{\\partial T\\partial V}=-\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\\] Cancelling the two minus signs yields equation \\([5]\\). Final result: \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\).\n\nFinal answer:\n\\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-002",
+      "prompt": "Using the model for Deriving the Maxwell Relations, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: For \\(n\\) moles of ideal gas, \\(V=nRT/p\\). Use the Gibbs Maxwell relation to find \\((\\partial S/\\partial p)_T\\).",
+      "answer": "Model:\nApply the model for Deriving the Maxwell Relations under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([6]\\) gives \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Since \\(V=nRT/p\\), \\[(\\partial V/\\partial T)_p=nR/p.\\] Therefore \\((\\partial S/\\partial p)_T=-nR/p\\). Increasing pressure isothermally lowers the entropy, confirming the sign. Final result: \\((\\partial S/\\partial p)_T=-nR/p\\).\n\nFinal answer:\n\\((\\partial S/\\partial p)_T=-nR/p\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-003",
+      "prompt": "A proposed solution to the following Deriving the Maxwell Relations problem gives \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Starting from \\(dF=-S\\,dT-p\\,dV\\), derive its Maxwell relation.",
+      "answer": "Model:\nUse the model for Deriving the Maxwell Relations and the data stated in the problem.\n\nWorking:\nCoefficient matching in equation \\([1]\\) gives \\((\\partial F/\\partial T)_V=-S\\) and \\((\\partial F/\\partial V)_T=-p\\). Differentiate the first with respect to \\(V\\) at fixed \\(T\\), and the second with respect to \\(T\\) at fixed \\(V\\): \\[-\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\frac{\\partial^2F}{\\partial V\\partial T}=\\frac{\\partial^2F}{\\partial T\\partial V}=-\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\\] Cancelling the two minus signs yields equation \\([5]\\). Final result: \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\).\n\nFinal answer:\nThe proposed result is verified: \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-004",
+      "prompt": "For this problem on Deriving the Maxwell Relations, derive the indicated intermediate result before completing the calculation.\nProblem: Starting from \\(dF=-S\\,dT-p\\,dV\\), derive its Maxwell relation.\nIntermediate result to derive:\n\\[-\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\frac{\\partial^2F}{\\partial V\\partial T}=\\frac{\\partial^2F}{\\partial T\\partial V}=-\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\\]",
+      "answer": "Model:\nApply the stated Deriving the Maxwell Relations assumptions and preserve all units.\n\nWorking:\nCoefficient matching in equation \\([1]\\) gives \\((\\partial F/\\partial T)_V=-S\\) and \\((\\partial F/\\partial V)_T=-p\\). Differentiate the first with respect to \\(V\\) at fixed \\(T\\), and the second with respect to \\(T\\) at fixed \\(V\\): \\[-\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\frac{\\partial^2F}{\\partial V\\partial T}=\\frac{\\partial^2F}{\\partial T\\partial V}=-\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\\] Cancelling the two minus signs yields equation \\([5]\\). Final result: \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\).\n\nFinal answer:\n\\[-\\left(\\frac{\\partial S}{\\partial V}\\right)_T=\\frac{\\partial^2F}{\\partial V\\partial T}=\\frac{\\partial^2F}{\\partial T\\partial V}=-\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\\]\n\nCheck:\nThe intermediate result leads to \\((\\partial S/\\partial V)_T=(\\partial p/\\partial T)_V\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-005",
+      "prompt": "A proposed solution to the following Deriving the Maxwell Relations problem gives \\((\\partial S/\\partial p)_T=-nR/p\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: For \\(n\\) moles of ideal gas, \\(V=nRT/p\\). Use the Gibbs Maxwell relation to find \\((\\partial S/\\partial p)_T\\).",
+      "answer": "Model:\nUse the model for Deriving the Maxwell Relations and the data stated in the problem.\n\nWorking:\nEquation \\([6]\\) gives \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Since \\(V=nRT/p\\), \\[(\\partial V/\\partial T)_p=nR/p.\\] Therefore \\((\\partial S/\\partial p)_T=-nR/p\\). Increasing pressure isothermally lowers the entropy, confirming the sign. Final result: \\((\\partial S/\\partial p)_T=-nR/p\\).\n\nFinal answer:\nThe proposed result is verified: \\((\\partial S/\\partial p)_T=-nR/p\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-006",
+      "prompt": "For this problem on Deriving the Maxwell Relations, derive the indicated intermediate result before completing the calculation.\nProblem: For \\(n\\) moles of ideal gas, \\(V=nRT/p\\). Use the Gibbs Maxwell relation to find \\((\\partial S/\\partial p)_T\\).\nIntermediate result to derive:\n\\[(\\partial V/\\partial T)_p=nR/p.\\]",
+      "answer": "Model:\nApply the stated Deriving the Maxwell Relations assumptions and preserve all units.\n\nWorking:\nEquation \\([6]\\) gives \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Since \\(V=nRT/p\\), \\[(\\partial V/\\partial T)_p=nR/p.\\] Therefore \\((\\partial S/\\partial p)_T=-nR/p\\). Increasing pressure isothermally lowers the entropy, confirming the sign. Final result: \\((\\partial S/\\partial p)_T=-nR/p\\).\n\nFinal answer:\n\\[(\\partial V/\\partial T)_p=nR/p.\\]\n\nCheck:\nThe intermediate result leads to \\((\\partial S/\\partial p)_T=-nR/p\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-007",
+      "prompt": "Starting from the stated model for Deriving the Maxwell Relations, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nAt fixed composition, begin with the four exact potential differentials:\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nAt fixed composition, begin with the four exact potential differentials:\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-008",
+      "prompt": "Derive the following Deriving the Maxwell Relations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nApplying the stated definitions and constraint gives\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nApplying equation [2] to \\(U(S,V)\\), where the coefficient of \\(dV\\) is \\(-p\\), gives the crucial minus sign:\n\nFinal answer:\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-009",
+      "prompt": "Derive the following Deriving the Maxwell Relations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nBegin from the preceding result\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nApplying equation [2] to \\(U(S,V)\\), where the coefficient of \\(dV\\) is \\(-p\\), gives the crucial minus sign:\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nApplying the same method to \\(H(S,p)\\) gives\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-010",
+      "prompt": "Derive the following Deriving the Maxwell Relations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nApplying the same method to \\(H(S,p)\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nFrom \\(F(T,V)\\), both coefficients are negative and their signs cancel:\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-011",
+      "prompt": "Derive the following Deriving the Maxwell Relations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nFrom \\(F(T,V)\\), both coefficients are negative and their signs cancel:\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nFinally, \\(G(T,p)\\) gives\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-012",
+      "prompt": "Derive the following Deriving the Maxwell Relations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nFinally, \\(G(T,p)\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nThe relation must be read under the stated model constraints.\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Deriving the Maxwell Relations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-013",
+      "prompt": "Starting from the first Deriving the Maxwell Relations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nTherefore\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-014",
+      "prompt": "Starting from the first Deriving the Maxwell Relations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStart with\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nApplying equation [2] to \\(U(S,V)\\), where the coefficient of \\(dV\\) is \\(-p\\), gives the crucial minus sign:\n\nTherefore\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-015",
+      "prompt": "Starting from the first Deriving the Maxwell Relations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nApplying the same method to \\(H(S,p)\\) gives\n\nTherefore\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-016",
+      "prompt": "Starting from the first Deriving the Maxwell Relations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nFrom \\(F(T,V)\\), both coefficients are negative and their signs cancel:\n\nTherefore\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-017",
+      "prompt": "Starting from the first Deriving the Maxwell Relations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nFinally, \\(G(T,p)\\) gives\n\nTherefore\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-018",
+      "prompt": "Check the following Deriving the Maxwell Relations equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.\n\nInsert those units into\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Deriving the Maxwell Relations. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Deriving the Maxwell Relations.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "deriving-the-maxwell-relations-020",
+      "prompt": "Reconstruct the complete mathematical chain for Deriving the Maxwell Relations, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz energy, and Gibbs energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(x,y,z,A,B\\) denotes generic independent variables, exact state function, and its differential coefficients.",
+      "answer": "Model:\nMaxwell relations follow from exact thermodynamic differentials and equality of mixed second derivatives. Deriving them from the selected potential is safer than using a sign mnemonic.\n\nFinally, \\(G(T,p)\\) gives\n\nWorking:\nStep 1:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV, & dH&=T\\,dS+V\\,dp,\\\\\ndF&=-S\\,dT-p\\,dV, & dG&=-S\\,dT+V\\,dp.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nFor any exact differential \\(dz=A\\,dx+B\\,dy\\), coefficient matching and equality of mixed partials give\n\nStep 2:\n\\[\nA=\\left(\\frac{\\partial z}{\\partial x}\\right)_y,\n\\quad\nB=\\left(\\frac{\\partial z}{\\partial y}\\right)_x,\n\\quad\n\\left(\\frac{\\partial A}{\\partial y}\\right)_x\n=\\left(\\frac{\\partial B}{\\partial x}\\right)_y.\n\\tag*{[2]}\n\\]\n\nApplying equation [2] to \\(U(S,V)\\), where the coefficient of \\(dV\\) is \\(-p\\), gives the crucial minus sign:\n\nStep 3:\n\\[\n\\left(\\frac{\\partial T}{\\partial V}\\right)_S\n=-\\left(\\frac{\\partial p}{\\partial S}\\right)_V.\n\\tag*{[3]}\n\\]\n\nApplying the same method to \\(H(S,p)\\) gives\n\nStep 4:\n\\[\n\\left(\\frac{\\partial T}{\\partial p}\\right)_S\n=\\left(\\frac{\\partial V}{\\partial S}\\right)_p.\n\\tag*{[4]}\n\\]\n\nFrom \\(F(T,V)\\), both coefficients are negative and their signs cancel:\n\nStep 5:\n\\[\n\\left(\\frac{\\partial S}{\\partial V}\\right)_T\n=\\left(\\frac{\\partial p}{\\partial T}\\right)_V.\n\\tag*{[5]}\n\\]\n\nFinally, \\(G(T,p)\\) gives\n\nStep 6:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial S}{\\partial p}\\right)_T\n=-\\left(\\frac{\\partial V}{\\partial T}\\right)_p.\n\\tag*{[6]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    }
+  ]
+}

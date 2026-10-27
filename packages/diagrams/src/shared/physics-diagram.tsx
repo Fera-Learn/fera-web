@@ -1,5 +1,9 @@
 import type { ComponentType, CSSProperties, ReactNode } from "react";
 
+export { SvgArrowhead } from "./svg-arrowhead";
+export { SvgNormalMark, SvgParallelMark } from "./svg-field-component-mark";
+export { SvgLabel } from "./svg-label";
+
 export type PhysicsDiagramKind = "apparatus" | "field" | "graph" | "interaction" | "wave";
 
 export type PhysicsDiagramMetadata = {

@@ -30,6 +30,9 @@ const COURSE_ICONS = {
   "level-1-calculus": SigmaIcon,
   "level-1-linear-algebra": SigmaIcon,
   "level-1-physics": AtomIcon,
+  "level-2-mathematical-physics": SigmaIcon,
+  "level-2-physics-a": AtomIcon,
+  "level-2-physics-b": AtomIcon,
 } satisfies Record<CourseScope, typeof BookOpenIcon>;
 
 function getDestinationPath(scope: CourseScope) {

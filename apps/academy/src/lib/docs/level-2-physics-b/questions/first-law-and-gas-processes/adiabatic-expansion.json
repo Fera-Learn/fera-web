@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "first-law-and-gas-processes",
+  "topicId": "adiabatic-expansion",
+  "topicTitle": "Adiabatic Expansion",
+  "paperTags": [
+    "thermodynamics",
+    "first-law-and-gas-processes"
+  ],
+  "questions": [
+    {
+      "id": "adiabatic-expansion-001",
+      "prompt": "Using the model for Adiabatic Expansion, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A sample of \\(n=0.0200\\,\\mathrm{mol}\\) ideal argon has \\(C_V=12.47\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\). It expands adiabatically from \\(T_i=298.15\\,\\mathrm K\\) to \\(T_f=188.15\\,\\mathrm K\\). Find the work done by the gas.",
+      "answer": "Model:\nApply the model for Adiabatic Expansion under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([4]\\) gives \\[W=(0.0200)(12.47)(298.15-188.15)\\,\\mathrm J=27.434\\,\\mathrm J.\\] The positive sign is required because the expanding gas does work on the surroundings. Final result: \\(W=+27.4\\,\\mathrm J\\) to three significant figures.\n\nFinal answer:\n\\(W=+27.4\\,\\mathrm J\\) to three significant figures.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-002",
+      "prompt": "Using the model for Adiabatic Expansion, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: An ideal gas freely expands into vacuum inside an insulated rigid vessel. Must its temperature fall because its volume increases?",
+      "answer": "Model:\nApply the model for Adiabatic Expansion under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nNo. The vacuum gives \\(p_{\\mathrm{ext}}=0\\), so equation \\([5]\\) gives \\(W=0\\). With \\(Q=0\\), equation \\([2]\\) gives \\(\\Delta U=0\\), and ideal-gas internal energy depends only on temperature. Final result: \\(T_f=T_i\\); this adiabatic expansion does not cool the ideal gas.\n\nFinal answer:\n\\(T_f=T_i\\); this adiabatic expansion does not cool the ideal gas.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-003",
+      "prompt": "A proposed solution to the following Adiabatic Expansion problem gives \\(W=+27.4\\,\\mathrm J\\) to three significant figures. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A sample of \\(n=0.0200\\,\\mathrm{mol}\\) ideal argon has \\(C_V=12.47\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\). It expands adiabatically from \\(T_i=298.15\\,\\mathrm K\\) to \\(T_f=188.15\\,\\mathrm K\\). Find the work done by the gas.",
+      "answer": "Model:\nUse the model for Adiabatic Expansion and the data stated in the problem.\n\nWorking:\nEquation \\([4]\\) gives \\[W=(0.0200)(12.47)(298.15-188.15)\\,\\mathrm J=27.434\\,\\mathrm J.\\] The positive sign is required because the expanding gas does work on the surroundings. Final result: \\(W=+27.4\\,\\mathrm J\\) to three significant figures.\n\nFinal answer:\nThe proposed result is verified: \\(W=+27.4\\,\\mathrm J\\) to three significant figures.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-004",
+      "prompt": "For this problem on Adiabatic Expansion, derive the indicated intermediate result before completing the calculation.\nProblem: A sample of \\(n=0.0200\\,\\mathrm{mol}\\) ideal argon has \\(C_V=12.47\\,\\mathrm{J\\,mol^{-1}\\,K^{-1}}\\). It expands adiabatically from \\(T_i=298.15\\,\\mathrm K\\) to \\(T_f=188.15\\,\\mathrm K\\). Find the work done by the gas.\nIntermediate result to derive:\n\\[W=(0.0200)(12.47)(298.15-188.15)\\,\\mathrm J=27.434\\,\\mathrm J.\\]",
+      "answer": "Model:\nApply the stated Adiabatic Expansion assumptions and preserve all units.\n\nWorking:\nEquation \\([4]\\) gives \\[W=(0.0200)(12.47)(298.15-188.15)\\,\\mathrm J=27.434\\,\\mathrm J.\\] The positive sign is required because the expanding gas does work on the surroundings. Final result: \\(W=+27.4\\,\\mathrm J\\) to three significant figures.\n\nFinal answer:\n\\[W=(0.0200)(12.47)(298.15-188.15)\\,\\mathrm J=27.434\\,\\mathrm J.\\]\n\nCheck:\nThe intermediate result leads to \\(W=+27.4\\,\\mathrm J\\) to three significant figures. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-005",
+      "prompt": "A proposed solution to the following Adiabatic Expansion problem gives \\(T_f=T_i\\); this adiabatic expansion does not cool the ideal gas. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: An ideal gas freely expands into vacuum inside an insulated rigid vessel. Must its temperature fall because its volume increases?",
+      "answer": "Model:\nUse the model for Adiabatic Expansion and the data stated in the problem.\n\nWorking:\nNo. The vacuum gives \\(p_{\\mathrm{ext}}=0\\), so equation \\([5]\\) gives \\(W=0\\). With \\(Q=0\\), equation \\([2]\\) gives \\(\\Delta U=0\\), and ideal-gas internal energy depends only on temperature. Final result: \\(T_f=T_i\\); this adiabatic expansion does not cool the ideal gas.\n\nFinal answer:\nThe proposed result is verified: \\(T_f=T_i\\); this adiabatic expansion does not cool the ideal gas.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-006",
+      "prompt": "Starting from the stated model for Adiabatic Expansion, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic boundary permits no heat transfer, so\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nAn adiabatic boundary permits no heat transfer, so\n\nApplying the stated definitions and constraint gives\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nFinal answer:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Expansion constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-007",
+      "prompt": "Derive the following Adiabatic Expansion relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic boundary permits no heat transfer, so\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nBegin from the preceding result\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nThe finite first-law balance becomes\n\nApplying the stated definitions and constraint gives\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nFinal answer:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Expansion constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-008",
+      "prompt": "Derive the following Adiabatic Expansion relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nBegin from the preceding result\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nApplying the stated definitions and constraint gives\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nAn expansion against \\(p_{\\mathrm{ext}}>0\\) has \\(W>0\\), so equation \\([4]\\) requires \\(T_f<T_i\\) for an ideal gas. This cooling follows from work output, not from expansion alone.\n\nFinal answer:\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Expansion constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-009",
+      "prompt": "Derive the following Adiabatic Expansion relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nBegin from the preceding result\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nCombining equations \\([2]\\) and \\([3]\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nAn expansion against \\(p_{\\mathrm{ext}}>0\\) has \\(W>0\\), so equation \\([4]\\) requires \\(T_f<T_i\\) for an ideal gas. This cooling follows from work output, not from expansion alone.\n\nFinal answer:\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Expansion constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-010",
+      "prompt": "Derive the following Adiabatic Expansion relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nFor adiabatic free expansion into vacuum,\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nBegin from the preceding result\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nAn expansion against \\(p_{\\mathrm{ext}}>0\\) has \\(W>0\\), so equation \\([4]\\) requires \\(T_f<T_i\\) for an ideal gas. This cooling follows from work output, not from expansion alone.\n\nFor adiabatic free expansion into vacuum,\n\nApplying the stated definitions and constraint gives\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Expansion constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-011",
+      "prompt": "Starting from the first Adiabatic Expansion relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic process transfers no heat across the system boundary. During an adiabatic expansion against a positive external pressure, the gas does work at the expense of its internal energy. Adiabatic does not mean reversible: free expansion is adiabatic and irreversible.\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nStart with\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nThe finite first-law balance becomes\n\nTherefore\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-012",
+      "prompt": "Starting from the first Adiabatic Expansion relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic process transfers no heat across the system boundary. During an adiabatic expansion against a positive external pressure, the gas does work at the expense of its internal energy. Adiabatic does not mean reversible: free expansion is adiabatic and irreversible.\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nStart with\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nTherefore\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-013",
+      "prompt": "Starting from the first Adiabatic Expansion relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic process transfers no heat across the system boundary. During an adiabatic expansion against a positive external pressure, the gas does work at the expense of its internal energy. Adiabatic does not mean reversible: free expansion is adiabatic and irreversible.\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nStart with\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nCombining equations \\([2]\\) and \\([3]\\) gives\n\nTherefore\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-014",
+      "prompt": "Starting from the first Adiabatic Expansion relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic process transfers no heat across the system boundary. During an adiabatic expansion against a positive external pressure, the gas does work at the expense of its internal energy. Adiabatic does not mean reversible: free expansion is adiabatic and irreversible.\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nStart with\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nAn expansion against \\(p_{\\mathrm{ext}}>0\\) has \\(W>0\\), so equation \\([4]\\) requires \\(T_f<T_i\\) for an ideal gas. This cooling follows from work output, not from expansion alone.\n\nFor adiabatic free expansion into vacuum,\n\nTherefore\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-015",
+      "prompt": "Check the following Adiabatic Expansion equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).\n\nInsert those units into\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Adiabatic Expansion. Show the substitution or limiting argument rather than answering in words only.\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Adiabatic Expansion.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-017",
+      "prompt": "Check the following Adiabatic Expansion equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).\n\nInsert those units into\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-018",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Adiabatic Expansion. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Adiabatic Expansion.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-019",
+      "prompt": "Check the following Adiabatic Expansion equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).\n\nInsert those units into\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-expansion-020",
+      "prompt": "Reconstruct the complete mathematical chain for Adiabatic Expansion, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\nNotation: \\(Q,W\\) denotes finite heat into the gas and work done by the gas; unit \\(\\mathrm{J}\\); \\(U,\\Delta U\\) denotes internal energy and its finite change; unit \\(\\mathrm{J}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V\\) denotes molar heat capacity at constant volume; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(T_i,T_f\\) denotes initial and final equilibrium temperatures; unit \\(\\mathrm{K}\\); \\(p_{\\mathrm{ext}}\\) denotes external pressure at the moving boundary; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f,dV\\) denotes initial and final gas volumes and exact infinitesimal volume change; unit \\(\\mathrm{m^{3}, m^{3}, m^{3}}\\).",
+      "answer": "Model:\nAn adiabatic process transfers no heat across the system boundary. During an adiabatic expansion against a positive external pressure, the gas does work at the expense of its internal energy. Adiabatic does not mean reversible: free expansion is adiabatic and irreversible.\n\nThus an ideal gas has no temperature change in adiabatic free expansion. A thermally insulating wall, sometimes called an adiathermal wall, enforces \\(Q=0\\) but does not enforce reversibility.\n\nWorking:\nStep 1:\n\\[\nQ=0.\n\\tag*{[1]}\n\\]\n\nThe finite first-law balance becomes\n\nStep 2:\n\\[\n\\Delta U=Q-W=-W.\n\\tag*{[2]}\n\\]\n\nFor a fixed amount of ideal gas with constant molar heat capacity,\n\nStep 3:\n\\[\n\\Delta U=nC_V(T_f-T_i).\n\\tag*{[3]}\n\\]\n\nCombining equations \\([2]\\) and \\([3]\\) gives\n\nStep 4:\n\\[\nW=nC_V(T_i-T_f).\n\\tag*{[4]}\n\\]\n\nAn expansion against \\(p_{\\mathrm{ext}}>0\\) has \\(W>0\\), so equation \\([4]\\) requires \\(T_f<T_i\\) for an ideal gas. This cooling follows from work output, not from expansion alone.\n\nFor adiabatic free expansion into vacuum,\n\nStep 5:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nW=\\int_{V_i}^{V_f}p_{\\mathrm{ext}}\\,dV=0\n\\quad\\Longrightarrow\\quad\n\\Delta U=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    }
+  ]
+}

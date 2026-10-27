@@ -13,6 +13,27 @@ const registryConfigs = [
     sourceRoot: path.join(appRoot, "src", "lib", "docs", "level-1-physics"),
   },
   {
+    courseId: "level-2-physics-a",
+    exportName: "level2PhysicsAQuestionTopics",
+    sourceRoot: path.join(appRoot, "src", "lib", "docs", "level-2-physics-a"),
+  },
+  {
+    courseId: "level-2-physics-b",
+    exportName: "level2PhysicsBQuestionTopics",
+    sourceRoot: path.join(appRoot, "src", "lib", "docs", "level-2-physics-b"),
+  },
+  {
+    courseId: "level-2-mathematical-physics",
+    exportName: "level2MathematicalPhysicsQuestionTopics",
+    sourceRoot: path.join(
+      appRoot,
+      "src",
+      "lib",
+      "docs",
+      "level-2-mathematical-physics",
+    ),
+  },
+  {
     courseId: "level-1-math-i-physics",
     exportName: "level1MathIPhysicsQuestionTopics",
     sourceRoot: path.join(
@@ -37,13 +58,7 @@ const registryConfigs = [
   {
     courseId: "level-1-calculus",
     exportName: "level1CalculusQuestionTopics",
-    sourceRoot: path.join(
-      appRoot,
-      "src",
-      "lib",
-      "docs",
-      "level-1-calculus",
-    ),
+    sourceRoot: path.join(appRoot, "src", "lib", "docs", "level-1-calculus"),
   },
   {
     courseId: "level-1-linear-algebra",

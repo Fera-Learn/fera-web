@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "second-law-and-entropy",
+  "topicId": "carnot-s-theorem",
+  "topicTitle": "Carnot's Theorem",
+  "paperTags": [
+    "thermodynamics",
+    "second-law-and-entropy"
+  ],
+  "questions": [
+    {
+      "id": "carnot-s-theorem-001",
+      "prompt": "Using the model for Carnot's Theorem, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A reversible engine delivers \\(300\\,\\mathrm{J}\\) while absorbing \\(750\\,\\mathrm{J}\\). A claimed engine delivers the same work while absorbing \\(700\\,\\mathrm{J}\\). Find the net reservoir transfers when the claimed engine drives the reversible engine backward.",
+      "answer": "Model:\nApply the model for Carnot's Theorem under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([1]\\) gives \\(Q_C=750\\,\\mathrm{J}-300\\,\\mathrm{J}=450\\,\\mathrm{J}\\) and \\(Q'_C=700\\,\\mathrm{J}-300\\,\\mathrm{J}=400\\,\\mathrm{J}\\). The work transfers cancel. By equation \\([5]\\), the hot reservoir gains \\(750-700=50\\,\\mathrm{J}\\), while the cold reservoir loses \\(450-400=50\\,\\mathrm{J}\\). Final result: the combination transfers \\(50\\,\\mathrm{J}\\) from cold to hot with no work input, so the claimed engine is impossible.\n\nFinal answer:\nThe combination transfers \\(50\\,\\mathrm{J}\\) from cold to hot with no work input, so the claimed engine is impossible.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-002",
+      "prompt": "Using the model for Carnot's Theorem, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Between two fixed reservoirs, a reversible engine has efficiency \\(0.40\\). Can an actual engine absorb \\(1.20\\,\\mathrm{kJ}\\) and deliver \\(0.54\\,\\mathrm{kJ}\\) per cycle?",
+      "answer": "Model:\nApply the model for Carnot's Theorem under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe actual efficiency from equation \\([2]\\) is \\[\\eta_E=\\frac{0.54\\,\\mathrm{kJ}}{1.20\\,\\mathrm{kJ}}=0.45.\\] Carnot's theorem requires \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}=0.40\\). The claimed \\(0.45\\) exceeds that limit; energy conservation alone would not reveal the problem. Final result: the stated engine cannot operate cyclically between those two reservoirs.\n\nFinal answer:\nThe stated engine cannot operate cyclically between those two reservoirs.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-003",
+      "prompt": "A proposed solution to the following Carnot's Theorem problem gives The combination transfers \\(50\\,\\mathrm{J}\\) from cold to hot with no work input, so the claimed engine is impossible. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A reversible engine delivers \\(300\\,\\mathrm{J}\\) while absorbing \\(750\\,\\mathrm{J}\\). A claimed engine delivers the same work while absorbing \\(700\\,\\mathrm{J}\\). Find the net reservoir transfers when the claimed engine drives the reversible engine backward.",
+      "answer": "Model:\nUse the model for Carnot's Theorem and the data stated in the problem.\n\nWorking:\nEquation \\([1]\\) gives \\(Q_C=750\\,\\mathrm{J}-300\\,\\mathrm{J}=450\\,\\mathrm{J}\\) and \\(Q'_C=700\\,\\mathrm{J}-300\\,\\mathrm{J}=400\\,\\mathrm{J}\\). The work transfers cancel. By equation \\([5]\\), the hot reservoir gains \\(750-700=50\\,\\mathrm{J}\\), while the cold reservoir loses \\(450-400=50\\,\\mathrm{J}\\). Final result: the combination transfers \\(50\\,\\mathrm{J}\\) from cold to hot with no work input, so the claimed engine is impossible.\n\nFinal answer:\nThe proposed result is verified: The combination transfers \\(50\\,\\mathrm{J}\\) from cold to hot with no work input, so the claimed engine is impossible.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-004",
+      "prompt": "A proposed solution to the following Carnot's Theorem problem gives The stated engine cannot operate cyclically between those two reservoirs. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Between two fixed reservoirs, a reversible engine has efficiency \\(0.40\\). Can an actual engine absorb \\(1.20\\,\\mathrm{kJ}\\) and deliver \\(0.54\\,\\mathrm{kJ}\\) per cycle?",
+      "answer": "Model:\nUse the model for Carnot's Theorem and the data stated in the problem.\n\nWorking:\nThe actual efficiency from equation \\([2]\\) is \\[\\eta_E=\\frac{0.54\\,\\mathrm{kJ}}{1.20\\,\\mathrm{kJ}}=0.45.\\] Carnot's theorem requires \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}=0.40\\). The claimed \\(0.45\\) exceeds that limit; energy conservation alone would not reveal the problem. Final result: the stated engine cannot operate cyclically between those two reservoirs.\n\nFinal answer:\nThe proposed result is verified: The stated engine cannot operate cyclically between those two reservoirs.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-005",
+      "prompt": "For this problem on Carnot's Theorem, derive the indicated intermediate result before completing the calculation.\nProblem: Between two fixed reservoirs, a reversible engine has efficiency \\(0.40\\). Can an actual engine absorb \\(1.20\\,\\mathrm{kJ}\\) and deliver \\(0.54\\,\\mathrm{kJ}\\) per cycle?\nIntermediate result to derive:\n\\[\\eta_E=\\frac{0.54\\,\\mathrm{kJ}}{1.20\\,\\mathrm{kJ}}=0.45.\\]",
+      "answer": "Model:\nApply the stated Carnot's Theorem assumptions and preserve all units.\n\nWorking:\nThe actual efficiency from equation \\([2]\\) is \\[\\eta_E=\\frac{0.54\\,\\mathrm{kJ}}{1.20\\,\\mathrm{kJ}}=0.45.\\] Carnot's theorem requires \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}=0.40\\). The claimed \\(0.45\\) exceeds that limit; energy conservation alone would not reveal the problem. Final result: the stated engine cannot operate cyclically between those two reservoirs.\n\nFinal answer:\n\\[\\eta_E=\\frac{0.54\\,\\mathrm{kJ}}{1.20\\,\\mathrm{kJ}}=0.45.\\]\n\nCheck:\nThe intermediate result leads to The stated engine cannot operate cyclically between those two reservoirs. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-006",
+      "prompt": "Starting from the stated model for Carnot's Theorem, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nFor each cyclic engine, \\(\\Delta U=0\\). Scale a hypothetical engine \\(E\\) and a reversible engine so that each exchanges the same work magnitude \\(W\\) per cycle:\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nFor each cyclic engine, \\(\\Delta U=0\\). Scale a hypothetical engine \\(E\\) and a reversible engine so that each exchanges the same work magnitude \\(W\\) per cycle:\n\nApplying the stated definitions and constraint gives\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nFinal answer:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Carnot's Theorem constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-007",
+      "prompt": "Derive the following Carnot's Theorem relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nAssume for contradiction that \\(E\\) is more efficient than the reversible engine:\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nBegin from the preceding result\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nAssume for contradiction that \\(E\\) is more efficient than the reversible engine:\n\nApplying the stated definitions and constraint gives\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nFinal answer:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Carnot's Theorem constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-008",
+      "prompt": "Derive the following Carnot's Theorem relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nBegin from the preceding result\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nApplying the stated definitions and constraint gives\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nFinal answer:\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Carnot's Theorem constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-009",
+      "prompt": "Derive the following Carnot's Theorem relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nBegin from the preceding result\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nSubtracting \\(W\\) from both sides and using equation \\([1]\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nFinal answer:\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Carnot's Theorem constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-010",
+      "prompt": "Derive the following Carnot's Theorem relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nBegin from the preceding result\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nApplying the stated definitions and constraint gives\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nFinal answer:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Carnot's Theorem constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-011",
+      "prompt": "Starting from the first Carnot's Theorem relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nCarnot's theorem states that no cyclic heat engine operating between two fixed reservoir temperatures can be more efficient than a reversible engine between those temperatures. It also implies that every reversible engine between the same reservoirs has the same efficiency, independent of working substance.\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nStart with\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nAssume for contradiction that \\(E\\) is more efficient than the reversible engine:\n\nTherefore\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-012",
+      "prompt": "Starting from the first Carnot's Theorem relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nCarnot's theorem states that no cyclic heat engine operating between two fixed reservoir temperatures can be more efficient than a reversible engine between those temperatures. It also implies that every reversible engine between the same reservoirs has the same efficiency, independent of working substance.\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nStart with\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nTherefore\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-013",
+      "prompt": "Starting from the first Carnot's Theorem relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nCarnot's theorem states that no cyclic heat engine operating between two fixed reservoir temperatures can be more efficient than a reversible engine between those temperatures. It also implies that every reversible engine between the same reservoirs has the same efficiency, independent of working substance.\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nStart with\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nSubtracting \\(W\\) from both sides and using equation \\([1]\\) gives\n\nTherefore\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-014",
+      "prompt": "Starting from the first Carnot's Theorem relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nCarnot's theorem states that no cyclic heat engine operating between two fixed reservoir temperatures can be more efficient than a reversible engine between those temperatures. It also implies that every reversible engine between the same reservoirs has the same efficiency, independent of working substance.\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nStart with\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nTherefore\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-015",
+      "prompt": "Check the following Carnot's Theorem equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Carnot's Theorem. Show the substitution or limiting argument rather than answering in words only.\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Carnot's Theorem.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-017",
+      "prompt": "Check the following Carnot's Theorem equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-018",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Carnot's Theorem. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Carnot's Theorem.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-019",
+      "prompt": "Check the following Carnot's Theorem equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).\n\nInsert those units into\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    },
+    {
+      "id": "carnot-s-theorem-020",
+      "prompt": "Reconstruct the complete mathematical chain for Carnot's Theorem, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\nNotation: \\(T_H,T_C\\) denotes fixed hot- and cold-reservoir temperatures, with T_H\\gt T_C; unit \\(\\mathrm{K, K}\\); \\(Q_H,Q_C\\) denotes positive heat magnitudes absorbed and rejected by a reversible engine; unit \\(\\mathrm{J, J}\\); \\(Q'_H,Q'_C\\) denotes positive heat magnitudes absorbed and rejected by a hypothetical engine; unit \\(\\mathrm{J, J}\\); \\(W\\) denotes common positive work magnitude after the devices are scaled; unit \\(\\mathrm{J}\\); \\(\\eta_{\\mathrm{rev}},\\eta_E\\) denotes efficiencies of the reversible and hypothetical engines; unit \\(\\mathrm{1, 1}\\); \\(\\Delta U\\) denotes change in a cyclic device's internal energy; unit \\(\\mathrm{J}\\).",
+      "answer": "Model:\nCarnot's theorem states that no cyclic heat engine operating between two fixed reservoir temperatures can be more efficient than a reversible engine between those temperatures. It also implies that every reversible engine between the same reservoirs has the same efficiency, independent of working substance.\n\nThe sole result would be equal heat transfer from cold to hot, contradicting the Clausius statement. Therefore \\(\\eta_E\\leq\\eta_{\\mathrm{rev}}\\). If two reversible engines had unequal efficiencies, the less efficient one could be reversed in the same argument, so all reversible engines between \\(T_H\\) and \\(T_C\\) have equal efficiency.\n\nWorking:\nStep 1:\n\\[\nW=Q'_H-Q'_C=Q_H-Q_C.\n\\tag*{[1]}\n\\]\n\nAssume for contradiction that \\(E\\) is more efficient than the reversible engine:\n\nStep 2:\n\\[\n\\eta_E=\\frac{W}{Q'_H}\n>\n\\eta_{\\mathrm{rev}}=\\frac{W}{Q_H}.\n\\tag*{[2]}\n\\]\n\nBecause \\(W>0\\), equation \\([2]\\) implies\n\nStep 3:\n\\[\nQ'_H<Q_H.\n\\tag*{[3]}\n\\]\n\nSubtracting \\(W\\) from both sides and using equation \\([1]\\) gives\n\nStep 4:\n\\[\nQ'_C=Q'_H-W<Q_H-W=Q_C.\n\\tag*{[4]}\n\\]\n\nNow use \\(E\\)'s work to run the reversible engine backward as a refrigerator. The work transfers cancel. The cold reservoir loses \\(Q_C\\) to the reversed engine and gains \\(Q'_C\\) from \\(E\\), so its net loss is \\(Q_C-Q'_C>0\\). The hot reservoir gains\n\nStep 5:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\nQ_H-Q'_H\n=(Q_C+W)-(Q'_C+W)\n=Q_C-Q'_C>0.\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ]
+    }
+  ]
+}

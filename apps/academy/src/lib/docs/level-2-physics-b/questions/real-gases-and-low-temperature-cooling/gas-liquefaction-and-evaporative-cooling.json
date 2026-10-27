@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "real-gases-and-low-temperature-cooling",
+  "topicId": "gas-liquefaction-and-evaporative-cooling",
+  "topicTitle": "Gas Liquefaction and Evaporative Cooling",
+  "paperTags": [
+    "thermodynamics",
+    "real-gases-and-low-temperature-cooling"
+  ],
+  "questions": [
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-001",
+      "prompt": "Using the model for Gas Liquefaction and Evaporative Cooling, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A liquid-helium bath evaporates \\(0.50\\,\\mathrm{mol}\\). Taking \\(L_m=83\\,\\mathrm{J\\,mol^{-1}}\\) near its normal boiling point, estimate the heat removed.",
+      "answer": "Model:\nApply the model for Gas Liquefaction and Evaporative Cooling under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse the molar energy balance in equation \\([2]\\): \\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\] The calculation uses molar latent heat with amount in moles; substituting a mass-specific latent heat would require mass instead. Final result: \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nFinal answer:\n\\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-002",
+      "prompt": "Using the model for Gas Liquefaction and Evaporative Cooling, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Explain why a single room-temperature throttle may fail to liquefy a gas even when repeated regenerative throttling succeeds.",
+      "answer": "Model:\nApply the model for Gas Liquefaction and Evaporative Cooling under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nA useful pressure drop requires the inlet state to have \\(\\mu_{JT}\\gt 0\\), and one drop may not reach the coexistence region. In a regenerative arrangement, cold outlet vapour precools the next high-pressure stream before equation \\([1]\\) is applied again. Successive outlet states become colder until part of the flow condenses. Final result: regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nFinal answer:\nRegeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-003",
+      "prompt": "A proposed solution to the following Gas Liquefaction and Evaporative Cooling problem gives \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A liquid-helium bath evaporates \\(0.50\\,\\mathrm{mol}\\). Taking \\(L_m=83\\,\\mathrm{J\\,mol^{-1}}\\) near its normal boiling point, estimate the heat removed.",
+      "answer": "Model:\nUse the model for Gas Liquefaction and Evaporative Cooling and the data stated in the problem.\n\nWorking:\nUse the molar energy balance in equation \\([2]\\): \\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\] The calculation uses molar latent heat with amount in moles; substituting a mass-specific latent heat would require mass instead. Final result: \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nFinal answer:\nThe proposed result is verified: \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-004",
+      "prompt": "For this problem on Gas Liquefaction and Evaporative Cooling, derive the indicated intermediate result before completing the calculation.\nProblem: A liquid-helium bath evaporates \\(0.50\\,\\mathrm{mol}\\). Taking \\(L_m=83\\,\\mathrm{J\\,mol^{-1}}\\) near its normal boiling point, estimate the heat removed.\nIntermediate result to derive:\n\\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\]",
+      "answer": "Model:\nApply the stated Gas Liquefaction and Evaporative Cooling assumptions and preserve all units.\n\nWorking:\nUse the molar energy balance in equation \\([2]\\): \\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\] The calculation uses molar latent heat with amount in moles; substituting a mass-specific latent heat would require mass instead. Final result: \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nFinal answer:\n\\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\]\n\nCheck:\nThe intermediate result leads to \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-005",
+      "prompt": "A proposed solution to the following Gas Liquefaction and Evaporative Cooling problem gives Regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Explain why a single room-temperature throttle may fail to liquefy a gas even when repeated regenerative throttling succeeds.",
+      "answer": "Model:\nUse the model for Gas Liquefaction and Evaporative Cooling and the data stated in the problem.\n\nWorking:\nA useful pressure drop requires the inlet state to have \\(\\mu_{JT}\\gt 0\\), and one drop may not reach the coexistence region. In a regenerative arrangement, cold outlet vapour precools the next high-pressure stream before equation \\([1]\\) is applied again. Successive outlet states become colder until part of the flow condenses. Final result: regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nFinal answer:\nThe proposed result is verified: Regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-006",
+      "prompt": "Starting from the stated model for Gas Liquefaction and Evaporative Cooling, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nIn a Linde-type liquefier, compressed gas first rejects compression heat to the surroundings. A counterflow heat exchanger then cools the incoming high-pressure stream with the returning low-pressure gas. The precooled stream passes through a throttle, for which\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nIn a Linde-type liquefier, compressed gas first rejects compression heat to the surroundings. A counterflow heat exchanger then cools the incoming high-pressure stream with the returning low-pressure gas. The precooled stream passes through a throttle, for which\n\nApplying the stated definitions and constraint gives\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nThe throttle must be entered in a region with \\(\\mu_{JT}>0\\), because \\(dp<0\\) then produces \\(dT<0\\). If the outlet state crosses into the coexistence region, a liquid fraction forms. Returning cold vapour precools the next cycle, so regeneration progressively lowers the inlet temperature.\n\nFinal answer:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Gas Liquefaction and Evaporative Cooling constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-007",
+      "prompt": "Derive the following Gas Liquefaction and Evaporative Cooling relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nFor an evaporating liquid bath, the load supplies the molar latent heat. Neglecting heat leaks and changes in the container,\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nBegin from the preceding result\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nThe throttle must be entered in a region with \\(\\mu_{JT}>0\\), because \\(dp<0\\) then produces \\(dT<0\\). If the outlet state crosses into the coexistence region, a liquid fraction forms. Returning cold vapour precools the next cycle, so regeneration progressively lowers the inlet temperature.\n\nFor an evaporating liquid bath, the load supplies the molar latent heat. Neglecting heat leaks and changes in the container,\n\nApplying the stated definitions and constraint gives\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nPumping away vapour lowers the equilibrium pressure. The molar Clapeyron relation,\n\nFinal answer:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Gas Liquefaction and Evaporative Cooling constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-008",
+      "prompt": "Derive the following Gas Liquefaction and Evaporative Cooling relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nPumping away vapour lowers the equilibrium pressure. The molar Clapeyron relation,\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nBegin from the preceding result\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nPumping away vapour lowers the equilibrium pressure. The molar Clapeyron relation,\n\nApplying the stated definitions and constraint gives\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nFinal answer:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Gas Liquefaction and Evaporative Cooling constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-009",
+      "prompt": "Starting from the first Gas Liquefaction and Evaporative Cooling relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nGas liquefaction combines compression, heat rejection, regenerative precooling, and a final expansion that places part of the stream inside the liquid-vapour coexistence region. Evaporative cooling then removes heat because molecules entering the vapour require molar latent heat; lowering the vapour pressure also lowers the saturation temperature.\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nStart with\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nThe throttle must be entered in a region with \\(\\mu_{JT}>0\\), because \\(dp<0\\) then produces \\(dT<0\\). If the outlet state crosses into the coexistence region, a liquid fraction forms. Returning cold vapour precools the next cycle, so regeneration progressively lowers the inlet temperature.\n\nFor an evaporating liquid bath, the load supplies the molar latent heat. Neglecting heat leaks and changes in the container,\n\nTherefore\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-010",
+      "prompt": "Starting from the first Gas Liquefaction and Evaporative Cooling relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nGas liquefaction combines compression, heat rejection, regenerative precooling, and a final expansion that places part of the stream inside the liquid-vapour coexistence region. Evaporative cooling then removes heat because molecules entering the vapour require molar latent heat; lowering the vapour pressure also lowers the saturation temperature.\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nStart with\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nPumping away vapour lowers the equilibrium pressure. The molar Clapeyron relation,\n\nTherefore\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-011",
+      "prompt": "Check the following Gas Liquefaction and Evaporative Cooling equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).\n\nInsert those units into\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-012",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Gas Liquefaction and Evaporative Cooling. Show the substitution or limiting argument rather than answering in words only.\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Gas Liquefaction and Evaporative Cooling.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-013",
+      "prompt": "Check the following Gas Liquefaction and Evaporative Cooling equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).\n\nInsert those units into\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-014",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Gas Liquefaction and Evaporative Cooling. Show the substitution or limiting argument rather than answering in words only.\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Gas Liquefaction and Evaporative Cooling.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-015",
+      "prompt": "Check the following Gas Liquefaction and Evaporative Cooling equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).\n\nInsert those units into\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Gas Liquefaction and Evaporative Cooling. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Gas Liquefaction and Evaporative Cooling.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-017",
+      "prompt": "Rework this Gas Liquefaction and Evaporative Cooling problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: A liquid-helium bath evaporates \\(0.50\\,\\mathrm{mol}\\). Taking \\(L_m=83\\,\\mathrm{J\\,mol^{-1}}\\) near its normal boiling point, estimate the heat removed.",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nUse the molar energy balance in equation \\([2]\\): \\[Q_{\\mathrm{load}}=(0.50\\,\\mathrm{mol})(83\\,\\mathrm{J\\,mol^{-1}})=41.5\\,\\mathrm J.\\] The calculation uses molar latent heat with amount in moles; substituting a mass-specific latent heat would require mass instead. Final result: \\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nFinal answer:\n\\(Q_{\\mathrm{load}}=41.5\\,\\mathrm J\\).\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-018",
+      "prompt": "Rework this Gas Liquefaction and Evaporative Cooling problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: Explain why a single room-temperature throttle may fail to liquefy a gas even when repeated regenerative throttling succeeds.",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nA useful pressure drop requires the inlet state to have \\(\\mu_{JT}\\gt 0\\), and one drop may not reach the coexistence region. In a regenerative arrangement, cold outlet vapour precools the next high-pressure stream before equation \\([1]\\) is applied again. Successive outlet states become colder until part of the flow condenses. Final result: regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nFinal answer:\nRegeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-019",
+      "prompt": "Solve the following Gas Liquefaction and Evaporative Cooling problem and include an independent substitution, unit, sign, or normalization check: Explain why a single room-temperature throttle may fail to liquefy a gas even when repeated regenerative throttling succeeds.",
+      "answer": "Model:\nUse the model for Gas Liquefaction and Evaporative Cooling under the conditions in the problem.\n\nWorking:\nA useful pressure drop requires the inlet state to have \\(\\mu_{JT}\\gt 0\\), and one drop may not reach the coexistence region. In a regenerative arrangement, cold outlet vapour precools the next high-pressure stream before equation \\([1]\\) is applied again. Successive outlet states become colder until part of the flow condenses. Final result: regeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nFinal answer:\nRegeneration recovers cold from the exhaust and can move the throttled outlet into the liquid-vapour coexistence region.\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    },
+    {
+      "id": "gas-liquefaction-and-evaporative-cooling-020",
+      "prompt": "Reconstruct the complete mathematical chain for Gas Liquefaction and Evaporative Cooling, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(H_m\\) denotes molar enthalpy of a flowing gas or liquid; unit \\(\\mathrm{J mol^{-1}}\\); \\(\\mu_{JT}\\) denotes Joule-Thomson coefficient; unit \\(\\mathrm{K Pa^{-1}}\\); \\(n_{\\mathrm{evap}}\\) denotes amount of liquid evaporated; unit \\(\\mathrm{mol}\\); \\(L_m\\) denotes molar latent heat of vaporisation; unit \\(\\mathrm{J mol^{-1}}\\); \\(Q_{\\mathrm{load}}\\) denotes heat removed from the cooled load; unit \\(\\mathrm{J}\\); \\(\\Delta V_m\\) denotes vapour-minus-liquid molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nGas liquefaction combines compression, heat rejection, regenerative precooling, and a final expansion that places part of the stream inside the liquid-vapour coexistence region. Evaporative cooling then removes heat because molecules entering the vapour require molar latent heat; lowering the vapour pressure also lowers the saturation temperature.\n\nthen shows that a lower saturation pressure corresponds to a lower boiling temperature for ordinary vaporisation, where \\(L_m>0\\) and \\(\\Delta V_m>0\\). Liquefaction by throttling and cooling by evaporation are linked in cryogenic systems but are physically distinct steps.\n\nWorking:\nStep 1:\n\\[\nH_{m,\\mathrm{in}}=H_{m,\\mathrm{out}}.\n\\tag*{[1]}\n\\]\n\nThe throttle must be entered in a region with \\(\\mu_{JT}>0\\), because \\(dp<0\\) then produces \\(dT<0\\). If the outlet state crosses into the coexistence region, a liquid fraction forms. Returning cold vapour precools the next cycle, so regeneration progressively lowers the inlet temperature.\n\nFor an evaporating liquid bath, the load supplies the molar latent heat. Neglecting heat leaks and changes in the container,\n\nStep 2:\n\\[\nQ_{\\mathrm{load}}=n_{\\mathrm{evap}}L_m.\n\\tag*{[2]}\n\\]\n\nPumping away vapour lowers the equilibrium pressure. The molar Clapeyron relation,\n\nStep 3:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\frac{dp}{dT}=\\frac{L_m}{T\\Delta V_m}>0,\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "real-gases-and-low-temperature-cooling"
+      ]
+    }
+  ]
+}

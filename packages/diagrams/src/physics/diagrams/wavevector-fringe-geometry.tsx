@@ -1,0 +1,11 @@
+import { PhysicsDiagramFrame, SvgArrowhead, SvgLabel, type PhysicsDiagramDefinition, type PhysicsDiagramProps } from "../../shared/physics-diagram";
+export const metadata={kind:"wave",referenceImage:"overall.pdf#page=22-23",slug:"wavevector-fringe-geometry",summary:"The mean wavevector follows the bisector while the wavevector difference is perpendicular to the interference fringes.",tags:["Wavevector","Fringes","Relative phase"],title:"Wavevector geometry and fringe direction",topic:"Optics"} as const satisfies Omit<PhysicsDiagramDefinition,"component">;
+export function WavevectorFringeGeometry({className,showCaption=true,style}:PhysicsDiagramProps){const fg="var(--foreground)",a="var(--chart-1)";return <PhysicsDiagramFrame caption={showCaption?metadata.summary:undefined} className={className} style={{maxWidth:700,...style}} title={metadata.title}><svg aria-label={metadata.title} className="h-auto w-full" role="img" viewBox="0 0 700 400"><rect fill="transparent" height="400" width="700"/>
+ {[135,180,225,270,315].map(x=><line key={x} stroke={a} strokeOpacity="0.65" strokeWidth="2" x1={x-70} x2={x+90} y1="330" y2="70"/>)}
+ {[400,445,490,535,580].map(x=><line key={x} stroke="var(--chart-2)" strokeOpacity="0.65" strokeWidth="2" x1={x-90} x2={x+70} y1="70" y2="330"/>)}
+ <line stroke={fg} strokeWidth="3" x1="350" x2="535" y1="300" y2="190"/><SvgArrowhead angle={-31} baseX={535} baseY={190} color={fg} halfWidth={5} length={10}/><SvgLabel fill={fg} x={530} y={174}>k₁</SvgLabel>
+ <line stroke={fg} strokeWidth="3" x1="350" x2="535" y1="300" y2="330"/><SvgArrowhead angle={9} baseX={535} baseY={330} color={fg} halfWidth={5} length={10}/><SvgLabel fill={fg} x={530} y={355}>k₂</SvgLabel>
+ <line stroke={fg} strokeDasharray="6 5" strokeWidth="2.5" x1="350" x2="555" y1="300" y2="260"/><SvgArrowhead angle={-11} baseX={555} baseY={260} color={fg} halfWidth={5} length={10}/><SvgLabel fill={fg} x={555} y={246}>k̄</SvgLabel>
+ <line stroke={fg} strokeWidth="2.5" x1="350" x2="300" y1="300" y2="76"/><SvgArrowhead angle={-103} baseX={300} baseY={76} color={fg} halfWidth={5} length={10}/><SvgLabel fill={fg} x={280} y={68}>Δk</SvgLabel>
+ </svg></PhysicsDiagramFrame>}
+export const diagram={...metadata,component:WavevectorFringeGeometry} satisfies PhysicsDiagramDefinition;

@@ -45,6 +45,18 @@ import {
   level1MathIIPhysicsExamSets,
 } from "@/lib/docs/level-1-math-ii-physics/exams";
 import {
+  getLevel2PhysicsAExamPaper,
+  level2PhysicsAExamSets,
+} from "@/lib/docs/level-2-physics-a/exams";
+import {
+  getLevel2PhysicsBExamPaper,
+  level2PhysicsBExamSets,
+} from "@/lib/docs/level-2-physics-b/exams";
+import {
+  getLevel2MathematicalPhysicsExamPaper,
+  level2MathematicalPhysicsExamSets,
+} from "@/lib/docs/level-2-mathematical-physics/exams";
+import {
   getCourseBySlug,
   getCourseExamPapersHref,
   getCourseQuestionHref,
@@ -106,6 +118,10 @@ const level1MathIIPhysicsPaperTopics = [
 
 const level1CalculusPaperTopics: typeof level1PhysicsPaperTopics = [];
 const level1LinearAlgebraPaperTopics: typeof level1PhysicsPaperTopics = [];
+const level2PhysicsAPaperTopics: typeof level1PhysicsPaperTopics = [];
+const level2PhysicsBPaperTopics: typeof level1PhysicsPaperTopics = [];
+const level2MathematicalPhysicsPaperTopics: typeof level1PhysicsPaperTopics =
+  [];
 
 const examCourseConfigs = {
   "level-1-math-i-physics": {
@@ -132,6 +148,21 @@ const examCourseConfigs = {
     getPaper: getLevel1PhysicsExamPaper,
     paperTopics: level1PhysicsPaperTopics,
     sets: level1PhysicsExamSets,
+  },
+  "level-2-physics-a": {
+    getPaper: getLevel2PhysicsAExamPaper,
+    paperTopics: level2PhysicsAPaperTopics,
+    sets: level2PhysicsAExamSets,
+  },
+  "level-2-physics-b": {
+    getPaper: getLevel2PhysicsBExamPaper,
+    paperTopics: level2PhysicsBPaperTopics,
+    sets: level2PhysicsBExamSets,
+  },
+  "level-2-mathematical-physics": {
+    getPaper: getLevel2MathematicalPhysicsExamPaper,
+    paperTopics: level2MathematicalPhysicsPaperTopics,
+    sets: level2MathematicalPhysicsExamSets,
   },
 };
 

@@ -8,6 +8,7 @@ import type { AxisRange, Padding } from "./types";
 export type CartesianGridProps = {
   caption?: ReactNode;
   children?: ReactNode;
+  className?: string;
   gridLines?: "both" | "none" | "x" | "y";
   height?: number;
   title?: ReactNode;
@@ -41,6 +42,7 @@ function rangeTicks({ min, max, step, ticks }: AxisRange) {
 export function CartesianGrid({
   caption,
   children,
+  className,
   gridLines = "both",
   height = 340,
   title,
@@ -74,7 +76,7 @@ export function CartesianGrid({
   return (
     <figure
       aria-label={typeof title === "string" ? title : undefined}
-      className="my-4 text-foreground"
+      className={["my-4 text-foreground", className].filter(Boolean).join(" ")}
       data-slot="diagram"
     >
       <div className="overflow-visible">

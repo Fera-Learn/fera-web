@@ -1,0 +1,7 @@
+import { PhysicsDiagramFrame, SvgLabel, type PhysicsDiagramDefinition, type PhysicsDiagramProps } from "../../shared/physics-diagram";
+export const metadata={kind:"wave",referenceImage:"overall.pdf#page=41-42",slug:"fresnel-zone-rings",summary:"Concentric half-period zones have equal increments of path phase, so adjacent rings contribute with opposite phase.",tags:["Fresnel zone","Circular aperture","Half-period zone"],title:"Concentric Fresnel zones",topic:"Optics"} as const satisfies Omit<PhysicsDiagramDefinition,"component">;
+export function FresnelZoneRings({className,showCaption=true,style}:PhysicsDiagramProps){return <PhysicsDiagramFrame caption={showCaption?metadata.summary:undefined} className={className} style={{maxWidth:560,...style}} title={metadata.title}><svg aria-label={metadata.title} className="h-auto w-full" role="img" viewBox="0 0 560 430"><rect fill="transparent" height="430" width="560"/>
+ {[160,140,120,100,80,60,40,20].map((r,i)=><circle cx="265" cy="210" fill={i%2?"var(--background)":"var(--chart-1)"} fillOpacity={i%2?1:.22} key={r} r={r} stroke="var(--foreground)" strokeWidth="1.5"/>)}
+ <line stroke="var(--foreground)" strokeWidth="2" x1="265" x2="425" y1="210" y2="210"/><SvgLabel fill="var(--foreground)" x={348} y={198}>ρₘ</SvgLabel><SvgLabel fill="var(--foreground)" x={265} y={405}>successive zones differ in phase by π</SvgLabel>
+ </svg></PhysicsDiagramFrame>}
+export const diagram={...metadata,component:FresnelZoneRings} satisfies PhysicsDiagramDefinition;

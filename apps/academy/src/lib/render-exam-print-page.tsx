@@ -24,6 +24,18 @@ import {
   getLevel1LinearAlgebraExamPaper,
   level1LinearAlgebraExamSets,
 } from "@/lib/docs/level-1-linear-algebra/exams";
+import {
+  getLevel2PhysicsAExamPaper,
+  level2PhysicsAExamSets,
+} from "@/lib/docs/level-2-physics-a/exams";
+import {
+  getLevel2PhysicsBExamPaper,
+  level2PhysicsBExamSets,
+} from "@/lib/docs/level-2-physics-b/exams";
+import {
+  getLevel2MathematicalPhysicsExamPaper,
+  level2MathematicalPhysicsExamSets,
+} from "@/lib/docs/level-2-mathematical-physics/exams";
 
 type ExamPrintPageData = {
   backHref: string;
@@ -62,6 +74,21 @@ const examCourseConfigs = {
     getPaper: getLevel1PhysicsExamPaper,
     label: "Level 1 - Physics",
     sets: level1PhysicsExamSets,
+  },
+  "level-2-physics-a": {
+    getPaper: getLevel2PhysicsAExamPaper,
+    label: "Level 2 - Physics A",
+    sets: level2PhysicsAExamSets,
+  },
+  "level-2-physics-b": {
+    getPaper: getLevel2PhysicsBExamPaper,
+    label: "Level 2 - Physics B",
+    sets: level2PhysicsBExamSets,
+  },
+  "level-2-mathematical-physics": {
+    getPaper: getLevel2MathematicalPhysicsExamPaper,
+    label: "Level 2 - Mathematical Physics",
+    sets: level2MathematicalPhysicsExamSets,
   },
 };
 

@@ -1,11 +1,14 @@
 "use client";
 
+import { useId } from "react";
+
 import { useGridContext } from "./grid-context";
 import type { Point2D } from "./types";
 
 export type CurveProps = {
   color?: string;
   dashed?: boolean;
+  endArrow?: boolean;
   label?: string;
   points: Point2D[];
   smooth?: boolean;
@@ -43,16 +46,41 @@ function curvePath(
   return parts.join(" ");
 }
 
-export function Curve({ color = "var(--chart-1)", dashed, label, points, smooth = false }: CurveProps) {
+export function Curve({
+  color = "var(--chart-1)",
+  dashed,
+  endArrow = false,
+  label,
+  points,
+  smooth = false,
+}: CurveProps) {
   const { toX, toY } = useGridContext();
   const path = curvePath(points, toX, toY, smooth);
   const last = points[points.length - 1];
+  const markerId = `curve-arrow-${useId().replace(/:/g, "")}`;
 
   return (
     <g>
+      {endArrow ? (
+        <defs>
+          <marker
+            id={markerId}
+            markerHeight="8"
+            markerUnits="userSpaceOnUse"
+            markerWidth="8"
+            orient="auto"
+            overflow="visible"
+            refX="0"
+            refY="4"
+          >
+            <path d="M 0 0 L 8 4 L 0 8 Z" fill={color} />
+          </marker>
+        </defs>
+      ) : null}
       <path
         d={path}
         fill="none"
+        markerEnd={endArrow ? `url(#${markerId})` : undefined}
         stroke={color}
         strokeDasharray={dashed ? "6 5" : undefined}
         strokeLinecap="round"

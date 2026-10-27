@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 
 import { Card, CardContent } from "@repo/ui/card";
 import { CartesianGrid, Curve, Annotation, DashedLine, Point } from "@repo/ui/diagrams";
+import { PhysicsDiagram } from "@repo/diagrams/physics";
 
 import type { DocPage } from "../core/types";
 import {
@@ -70,6 +71,7 @@ export async function renderDocBody(
     Annotation,
     DashedLine,
     Point,
+    PhysicsDiagram,
     PhysicsAside: DocsPhysicsAside,
     PhysicsDerivation: DocsPhysicsDerivation,
     PhysicsExamples: DocsPhysicsExamples,

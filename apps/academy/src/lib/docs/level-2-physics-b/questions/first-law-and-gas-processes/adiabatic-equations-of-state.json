@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "first-law-and-gas-processes",
+  "topicId": "adiabatic-equations-of-state",
+  "topicTitle": "Adiabatic Equations of State",
+  "paperTags": [
+    "thermodynamics",
+    "first-law-and-gas-processes"
+  ],
+  "questions": [
+    {
+      "id": "adiabatic-equations-of-state-001",
+      "prompt": "Using the model for Adiabatic Equations of State, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A monatomic ideal gas with \\(\\gamma=5/3\\) expands reversibly and adiabatically from \\(T_i=300\\,\\mathrm K\\) to twice its initial volume. Find \\(T_f\\) and \\(p_f/p_i\\).",
+      "answer": "Model:\nApply the model for Adiabatic Equations of State under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([8]\\) gives \\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\] Equation \\([9]\\) gives \\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\] Final result: \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nFinal answer:\n\\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-002",
+      "prompt": "Using the model for Adiabatic Equations of State, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: At the same point on a \\(p\\)-\\(V\\) diagram, compare the slopes of an ideal-gas reversible adiabat and an isotherm.",
+      "answer": "Model:\nApply the model for Adiabatic Equations of State under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nDifferentiate equation \\([9]\\): \\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\] For an isotherm, \\(pV=\\text{constant}\\), so \\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\] Since \\(\\gamma\\gt 1\\), the adiabatic slope has greater magnitude. Final result: \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nFinal answer:\n\\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-003",
+      "prompt": "A proposed solution to the following Adiabatic Equations of State problem gives \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A monatomic ideal gas with \\(\\gamma=5/3\\) expands reversibly and adiabatically from \\(T_i=300\\,\\mathrm K\\) to twice its initial volume. Find \\(T_f\\) and \\(p_f/p_i\\).",
+      "answer": "Model:\nUse the model for Adiabatic Equations of State and the data stated in the problem.\n\nWorking:\nEquation \\([8]\\) gives \\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\] Equation \\([9]\\) gives \\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\] Final result: \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nFinal answer:\nThe proposed result is verified: \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-004",
+      "prompt": "For this problem on Adiabatic Equations of State, derive the indicated intermediate result before completing the calculation.\nProblem: A monatomic ideal gas with \\(\\gamma=5/3\\) expands reversibly and adiabatically from \\(T_i=300\\,\\mathrm K\\) to twice its initial volume. Find \\(T_f\\) and \\(p_f/p_i\\).\nIntermediate result to derive:\n\\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\]",
+      "answer": "Model:\nApply the stated Adiabatic Equations of State assumptions and preserve all units.\n\nWorking:\nEquation \\([8]\\) gives \\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\] Equation \\([9]\\) gives \\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\] Final result: \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nFinal answer:\n\\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\]\n\nCheck:\nThe intermediate result leads to \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-005",
+      "prompt": "For this problem on Adiabatic Equations of State, derive the indicated intermediate result before completing the calculation.\nProblem: A monatomic ideal gas with \\(\\gamma=5/3\\) expands reversibly and adiabatically from \\(T_i=300\\,\\mathrm K\\) to twice its initial volume. Find \\(T_f\\) and \\(p_f/p_i\\).\nIntermediate result to derive:\n\\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\]",
+      "answer": "Model:\nApply the stated Adiabatic Equations of State assumptions and preserve all units.\n\nWorking:\nEquation \\([8]\\) gives \\[T_f=T_i\\left(\\frac{V_i}{V_f}\\right)^{\\gamma-1}=(300\\,\\mathrm K)\\left(\\frac12\\right)^{2/3}=189\\,\\mathrm K.\\] Equation \\([9]\\) gives \\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\] Final result: \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\).\n\nFinal answer:\n\\[\\frac{p_f}{p_i}=\\left(\\frac{V_i}{V_f}\\right)^\\gamma=\\left(\\frac12\\right)^{5/3}=0.315.\\]\n\nCheck:\nThe intermediate result leads to \\(T_f=189\\,\\mathrm K\\) and \\(p_f=0.315p_i\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-006",
+      "prompt": "A proposed solution to the following Adiabatic Equations of State problem gives \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: At the same point on a \\(p\\)-\\(V\\) diagram, compare the slopes of an ideal-gas reversible adiabat and an isotherm.",
+      "answer": "Model:\nUse the model for Adiabatic Equations of State and the data stated in the problem.\n\nWorking:\nDifferentiate equation \\([9]\\): \\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\] For an isotherm, \\(pV=\\text{constant}\\), so \\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\] Since \\(\\gamma\\gt 1\\), the adiabatic slope has greater magnitude. Final result: \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nFinal answer:\nThe proposed result is verified: \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-007",
+      "prompt": "For this problem on Adiabatic Equations of State, derive the indicated intermediate result before completing the calculation.\nProblem: At the same point on a \\(p\\)-\\(V\\) diagram, compare the slopes of an ideal-gas reversible adiabat and an isotherm.\nIntermediate result to derive:\n\\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\]",
+      "answer": "Model:\nApply the stated Adiabatic Equations of State assumptions and preserve all units.\n\nWorking:\nDifferentiate equation \\([9]\\): \\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\] For an isotherm, \\(pV=\\text{constant}\\), so \\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\] Since \\(\\gamma\\gt 1\\), the adiabatic slope has greater magnitude. Final result: \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nFinal answer:\n\\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\]\n\nCheck:\nThe intermediate result leads to \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-008",
+      "prompt": "For this problem on Adiabatic Equations of State, derive the indicated intermediate result before completing the calculation.\nProblem: At the same point on a \\(p\\)-\\(V\\) diagram, compare the slopes of an ideal-gas reversible adiabat and an isotherm.\nIntermediate result to derive:\n\\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\]",
+      "answer": "Model:\nApply the stated Adiabatic Equations of State assumptions and preserve all units.\n\nWorking:\nDifferentiate equation \\([9]\\): \\[pV^\\gamma=\\text{constant}\\quad\\Longrightarrow\\quad\\left(\\frac{dp}{dV}\\right)_{\\mathrm{ad}}=-\\gamma\\frac{p}{V}.\\] For an isotherm, \\(pV=\\text{constant}\\), so \\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\] Since \\(\\gamma\\gt 1\\), the adiabatic slope has greater magnitude. Final result: \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper.\n\nFinal answer:\n\\[\\left(\\frac{dp}{dV}\\right)_{T}=-\\frac{p}{V}.\\]\n\nCheck:\nThe intermediate result leads to \\(dp/dV=-\\gamma p/V\\) adiabatically versus \\(-p/V\\) isothermally, so the adiabat is steeper. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-009",
+      "prompt": "Starting from the stated model for Adiabatic Equations of State, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nFor a reversible adiabatic change, \\(\\delta Q=0\\) and quasistatic mechanical equilibrium gives \\(\\delta W=p\\,dV\\). The first law is therefore\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nFor a reversible adiabatic change, \\(\\delta Q=0\\) and quasistatic mechanical equilibrium gives \\(\\delta W=p\\,dV\\). The first law is therefore\n\nApplying the stated definitions and constraint gives\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nFor an ideal gas with constant molar \\(C_V\\),\n\nFinal answer:\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-010",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nFor an ideal gas with constant molar \\(C_V\\),\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nFor an ideal gas with constant molar \\(C_V\\),\n\nApplying the stated definitions and constraint gives\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nUsing the ideal-gas equation,\n\nFinal answer:\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-011",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nUsing the ideal-gas equation,\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nUsing the ideal-gas equation,\n\nApplying the stated definitions and constraint gives\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nFinal answer:\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-012",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nC_V\\frac{dT}{T}=-R\\frac{dV}{V}.\n\\tag*{[4]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nUsing the ideal-gas equation,\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nequation \\([2]\\) becomes\n\nApplying the stated definitions and constraint gives\n\\[\nC_V\\frac{dT}{T}=-R\\frac{dV}{V}.\n\\tag*{[4]}\n\\]\n\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nFinal answer:\n\\[\nC_V\\frac{dT}{T}=-R\\frac{dV}{V}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-013",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-R\\ln\\!\\left(\\frac{V_f}{V_i}\\right).\n\\tag*{[5]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nUsing the ideal-gas equation,\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\nC_V\\frac{dT}{T}=-R\\frac{dV}{V}.\n\\tag*{[4]}\n\\]\n\nIntegrating between equilibrium endpoints gives\n\nApplying the stated definitions and constraint gives\n\\[\nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-R\\ln\\!\\left(\\frac{V_f}{V_i}\\right).\n\\tag*{[5]}\n\\]\n\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nFinal answer:\n\\[\nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-R\\ln\\!\\left(\\frac{V_f}{V_i}\\right).\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-014",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\frac{R}{C_V}=\\gamma-1.\n\\tag*{[6]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-R\\ln\\!\\left(\\frac{V_f}{V_i}\\right).\n\\tag*{[5]}\n\\]\n\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nApplying the stated definitions and constraint gives\n\\[\n\\frac{R}{C_V}=\\gamma-1.\n\\tag*{[6]}\n\\]\n\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nFinal answer:\n\\[\n\\frac{R}{C_V}=\\gamma-1.\n\\tag*{[6]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-015",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-(\\gamma-1)\\ln\\!\\left(\\frac{V_f}{V_i}\\right),\n\\qquad\n\\ln\\!\\left[\\frac{T_f}{T_i}\n\\left(\\frac{V_f}{V_i}\\right)^{\\gamma-1}\\right]=0.\n\\tag*{[7]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\n\\frac{R}{C_V}=\\gamma-1.\n\\tag*{[6]}\n\\]\n\nSubstitution of equation \\([6]\\) into equation \\([5]\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\n\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-(\\gamma-1)\\ln\\!\\left(\\frac{V_f}{V_i}\\right),\n\\qquad\n\\ln\\!\\left[\\frac{T_f}{T_i}\n\\left(\\frac{V_f}{V_i}\\right)^{\\gamma-1}\\right]=0.\n\\tag*{[7]}\n\\]\n\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nFinal answer:\n\\[\n\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-(\\gamma-1)\\ln\\!\\left(\\frac{V_f}{V_i}\\right),\n\\qquad\n\\ln\\!\\left[\\frac{T_f}{T_i}\n\\left(\\frac{V_f}{V_i}\\right)^{\\gamma-1}\\right]=0.\n\\tag*{[7]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-016",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nTV^{\\gamma-1}=\\text{constant},\n\\qquad\nT_iV_i^{\\gamma-1}=T_fV_f^{\\gamma-1}.\n\\tag*{[8]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\n\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-(\\gamma-1)\\ln\\!\\left(\\frac{V_f}{V_i}\\right),\n\\qquad\n\\ln\\!\\left[\\frac{T_f}{T_i}\n\\left(\\frac{V_f}{V_i}\\right)^{\\gamma-1}\\right]=0.\n\\tag*{[7]}\n\\]\n\nExponentiating equation \\([7]\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\nTV^{\\gamma-1}=\\text{constant},\n\\qquad\nT_iV_i^{\\gamma-1}=T_fV_f^{\\gamma-1}.\n\\tag*{[8]}\n\\]\n\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nFinal answer:\n\\[\nTV^{\\gamma-1}=\\text{constant},\n\\qquad\nT_iV_i^{\\gamma-1}=T_fV_f^{\\gamma-1}.\n\\tag*{[8]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-017",
+      "prompt": "Derive the following Adiabatic Equations of State relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nBegin from the preceding result\n\\[\nTV^{\\gamma-1}=\\text{constant},\n\\qquad\nT_iV_i^{\\gamma-1}=T_fV_f^{\\gamma-1}.\n\\tag*{[8]}\n\\]\n\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nApplying the stated definitions and constraint gives\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nFinal answer:\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Adiabatic Equations of State constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-018",
+      "prompt": "Starting from the first Adiabatic Equations of State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nFor a reversible adiabatic process in an ideal gas, energy conservation, quasistatic pressure-volume work, and the ideal-gas equation combine to give fixed relations among pressure, volume, and temperature. These relations do not apply to an arbitrary irreversible adiabatic process.\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nStart with\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nFor an ideal gas with constant molar \\(C_V\\),\n\nTherefore\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-019",
+      "prompt": "Starting from the first Adiabatic Equations of State relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nFor a reversible adiabatic process in an ideal gas, energy conservation, quasistatic pressure-volume work, and the ideal-gas equation combine to give fixed relations among pressure, volume, and temperature. These relations do not apply to an arbitrary irreversible adiabatic process.\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nStart with\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nUsing the ideal-gas equation,\n\nTherefore\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    },
+    {
+      "id": "adiabatic-equations-of-state-020",
+      "prompt": "Reconstruct the complete mathematical chain for Adiabatic Equations of State, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\nNotation: \\(p,V,T\\) denotes equilibrium gas pressure, total volume, and absolute temperature; unit \\(\\mathrm{Pa, m^{3}, K}\\); \\(dV,dT\\) denotes exact infinitesimal volume and temperature changes; unit \\(\\mathrm{m^{3}, K}\\); \\(p_i,p_f\\) denotes initial and final equilibrium pressures; unit \\(\\mathrm{Pa}\\); \\(V_i,V_f\\) denotes initial and final volumes; unit \\(\\mathrm{m^{3}}\\); \\(T_i,T_f\\) denotes initial and final absolute temperatures; unit \\(\\mathrm{K}\\); \\(n\\) denotes amount of ideal gas; unit \\(\\mathrm{mol}\\); \\(C_V,C_P\\) denotes constant molar heat capacities at constant volume and pressure; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(\\gamma=C_P/C_V\\) denotes heat-capacity ratio; dimensionless; \\(\\delta Q,\\delta W,dU\\) denotes inexact infinitesimal heat and work, and exact infinitesimal internal-energy change; unit \\(\\mathrm{J, J, J}\\).",
+      "answer": "Model:\nFor a reversible adiabatic process in an ideal gas, energy conservation, quasistatic pressure-volume work, and the ideal-gas equation combine to give fixed relations among pressure, volume, and temperature. These relations do not apply to an arbitrary irreversible adiabatic process.\n\nBoth equations require an ideal gas, reversibility, and heat capacities treated as constant over the temperature range.\n\nWorking:\nStep 1:\n\\[\ndU=-p\\,dV.\n\\tag*{[1]}\n\\]\n\nFor an ideal gas with constant molar \\(C_V\\),\n\nStep 2:\n\\[\nnC_V\\,dT=-p\\,dV.\n\\tag*{[2]}\n\\]\n\nUsing the ideal-gas equation,\n\nStep 3:\n\\[\npV=nRT\n\\quad\\Longrightarrow\\quad\np=\\frac{nRT}{V},\n\\tag*{[3]}\n\\]\n\nequation \\([2]\\) becomes\n\nStep 4:\n\\[\nC_V\\frac{dT}{T}=-R\\frac{dV}{V}.\n\\tag*{[4]}\n\\]\n\nIntegrating between equilibrium endpoints gives\n\nStep 5:\n\\[\nC_V\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-R\\ln\\!\\left(\\frac{V_f}{V_i}\\right).\n\\tag*{[5]}\n\\]\n\nThe Mayer relation \\(C_P-C_V=R\\) and \\(\\gamma=C_P/C_V\\) imply\n\nStep 6:\n\\[\n\\frac{R}{C_V}=\\gamma-1.\n\\tag*{[6]}\n\\]\n\nSubstitution of equation \\([6]\\) into equation \\([5]\\) gives\n\nStep 7:\n\\[\n\\ln\\!\\left(\\frac{T_f}{T_i}\\right)\n=-(\\gamma-1)\\ln\\!\\left(\\frac{V_f}{V_i}\\right),\n\\qquad\n\\ln\\!\\left[\\frac{T_f}{T_i}\n\\left(\\frac{V_f}{V_i}\\right)^{\\gamma-1}\\right]=0.\n\\tag*{[7]}\n\\]\n\nExponentiating equation \\([7]\\) gives\n\nStep 8:\n\\[\nTV^{\\gamma-1}=\\text{constant},\n\\qquad\nT_iV_i^{\\gamma-1}=T_fV_f^{\\gamma-1}.\n\\tag*{[8]}\n\\]\n\nEliminating temperature with equation \\([3]\\) gives the pressure-volume form\n\nStep 9:\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\n\nFinal answer:\n\\[\npV^\\gamma=\\text{constant},\n\\qquad\np_iV_i^\\gamma=p_fV_f^\\gamma.\n\\tag*{[9]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "first-law-and-gas-processes"
+      ]
+    }
+  ]
+}

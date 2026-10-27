@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "maxwell-relations-and-response-functions",
+  "topicId": "thermodynamic-energy-equations",
+  "topicTitle": "Thermodynamic Energy Equations",
+  "paperTags": [
+    "thermodynamics",
+    "maxwell-relations-and-response-functions"
+  ],
+  "questions": [
+    {
+      "id": "thermodynamic-energy-equations-001",
+      "prompt": "Using the model for Thermodynamic Energy Equations, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Show how the coefficient of \\(dp\\) in \\(dU\\) is obtained when \\(U\\) is represented by \\(T,p\\).",
+      "answer": "Model:\nApply the model for Thermodynamic Energy Equations under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nAt fixed \\(T\\), the fundamental relation gives \\[(\\partial U/\\partial p)_T=T(\\partial S/\\partial p)_T-p(\\partial V/\\partial p)_T.\\] The Gibbs Maxwell relation is \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Substitution produces equation \\([4]\\) without changing either sign. Final result: \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\).\n\nFinal answer:\n\\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-002",
+      "prompt": "Using the model for Thermodynamic Energy Equations, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: An ideal gas expands isothermally from \\(V_1\\) to \\(V_2\\). What is its internal-energy change?",
+      "answer": "Model:\nApply the model for Thermodynamic Energy Equations under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([5]\\) shows that \\((\\partial U/\\partial V)_T=0\\) at every point. Therefore \\[\\Delta U=\\int_{V_1}^{V_2}\\left(\\frac{\\partial U}{\\partial V}\\right)_T dV=0.\\] Heat entering during a reversible isothermal expansion is exactly balanced by work output. Final result: \\(\\Delta U=0\\).\n\nFinal answer:\n\\(\\Delta U=0\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-003",
+      "prompt": "A proposed solution to the following Thermodynamic Energy Equations problem gives \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Show how the coefficient of \\(dp\\) in \\(dU\\) is obtained when \\(U\\) is represented by \\(T,p\\).",
+      "answer": "Model:\nUse the model for Thermodynamic Energy Equations and the data stated in the problem.\n\nWorking:\nAt fixed \\(T\\), the fundamental relation gives \\[(\\partial U/\\partial p)_T=T(\\partial S/\\partial p)_T-p(\\partial V/\\partial p)_T.\\] The Gibbs Maxwell relation is \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Substitution produces equation \\([4]\\) without changing either sign. Final result: \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\).\n\nFinal answer:\nThe proposed result is verified: \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-004",
+      "prompt": "For this problem on Thermodynamic Energy Equations, derive the indicated intermediate result before completing the calculation.\nProblem: Show how the coefficient of \\(dp\\) in \\(dU\\) is obtained when \\(U\\) is represented by \\(T,p\\).\nIntermediate result to derive:\n\\[(\\partial U/\\partial p)_T=T(\\partial S/\\partial p)_T-p(\\partial V/\\partial p)_T.\\]",
+      "answer": "Model:\nApply the stated Thermodynamic Energy Equations assumptions and preserve all units.\n\nWorking:\nAt fixed \\(T\\), the fundamental relation gives \\[(\\partial U/\\partial p)_T=T(\\partial S/\\partial p)_T-p(\\partial V/\\partial p)_T.\\] The Gibbs Maxwell relation is \\((\\partial S/\\partial p)_T=-(\\partial V/\\partial T)_p\\). Substitution produces equation \\([4]\\) without changing either sign. Final result: \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\).\n\nFinal answer:\n\\[(\\partial U/\\partial p)_T=T(\\partial S/\\partial p)_T-p(\\partial V/\\partial p)_T.\\]\n\nCheck:\nThe intermediate result leads to \\((\\partial U/\\partial p)_T=-T(\\partial V/\\partial T)_p-p(\\partial V/\\partial p)_T\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-005",
+      "prompt": "A proposed solution to the following Thermodynamic Energy Equations problem gives \\(\\Delta U=0\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: An ideal gas expands isothermally from \\(V_1\\) to \\(V_2\\). What is its internal-energy change?",
+      "answer": "Model:\nUse the model for Thermodynamic Energy Equations and the data stated in the problem.\n\nWorking:\nEquation \\([5]\\) shows that \\((\\partial U/\\partial V)_T=0\\) at every point. Therefore \\[\\Delta U=\\int_{V_1}^{V_2}\\left(\\frac{\\partial U}{\\partial V}\\right)_T dV=0.\\] Heat entering during a reversible isothermal expansion is exactly balanced by work output. Final result: \\(\\Delta U=0\\).\n\nFinal answer:\nThe proposed result is verified: \\(\\Delta U=0\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-006",
+      "prompt": "For this problem on Thermodynamic Energy Equations, derive the indicated intermediate result before completing the calculation.\nProblem: An ideal gas expands isothermally from \\(V_1\\) to \\(V_2\\). What is its internal-energy change?\nIntermediate result to derive:\n\\[\\Delta U=\\int_{V_1}^{V_2}\\left(\\frac{\\partial U}{\\partial V}\\right)_T dV=0.\\]",
+      "answer": "Model:\nApply the stated Thermodynamic Energy Equations assumptions and preserve all units.\n\nWorking:\nEquation \\([5]\\) shows that \\((\\partial U/\\partial V)_T=0\\) at every point. Therefore \\[\\Delta U=\\int_{V_1}^{V_2}\\left(\\frac{\\partial U}{\\partial V}\\right)_T dV=0.\\] Heat entering during a reversible isothermal expansion is exactly balanced by work output. Final result: \\(\\Delta U=0\\).\n\nFinal answer:\n\\[\\Delta U=\\int_{V_1}^{V_2}\\left(\\frac{\\partial U}{\\partial V}\\right)_T dV=0.\\]\n\nCheck:\nThe intermediate result leads to \\(\\Delta U=0\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-007",
+      "prompt": "Starting from the stated model for Thermodynamic Energy Equations, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nInsert the first \\(TdS\\) equation into the fundamental relation:\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nInsert the first \\(TdS\\) equation into the fundamental relation:\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCoefficient matching gives the first energy equation,\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Energy Equations constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-008",
+      "prompt": "Derive the following Thermodynamic Energy Equations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nCoefficient matching gives the first energy equation,\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCoefficient matching gives the first energy equation,\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nThe second energy equation is therefore\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Energy Equations constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-009",
+      "prompt": "Derive the following Thermodynamic Energy Equations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nCoefficient matching gives the first energy equation,\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nTo use \\(T,p\\), substitute the second \\(TdS\\) equation and expand \\(dV=(\\partial V/\\partial T)_p dT+(\\partial V/\\partial p)_T dp\\):\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nThe second energy equation is therefore\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Energy Equations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-010",
+      "prompt": "Derive the following Thermodynamic Energy Equations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThe second energy equation is therefore\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nThe second energy equation is therefore\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Energy Equations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-011",
+      "prompt": "Derive the following Thermodynamic Energy Equations relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThe second energy equation is therefore\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nBegin from the preceding result\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nFor an ideal gas, \\(pV=nRT\\), so equation [2] becomes\n\nApplying the stated definitions and constraint gives\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Energy Equations constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-012",
+      "prompt": "Starting from the first Thermodynamic Energy Equations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThermodynamic energy equations combine the fundamental thermodynamic relation with measurable equation-of-state derivatives. They determine how internal energy responds to isothermal changes in volume or pressure.\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCoefficient matching gives the first energy equation,\n\nTherefore\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-013",
+      "prompt": "Starting from the first Thermodynamic Energy Equations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThermodynamic energy equations combine the fundamental thermodynamic relation with measurable equation-of-state derivatives. They determine how internal energy responds to isothermal changes in volume or pressure.\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nTo use \\(T,p\\), substitute the second \\(TdS\\) equation and expand \\(dV=(\\partial V/\\partial T)_p dT+(\\partial V/\\partial p)_T dp\\):\n\nTherefore\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-014",
+      "prompt": "Starting from the first Thermodynamic Energy Equations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThermodynamic energy equations combine the fundamental thermodynamic relation with measurable equation-of-state derivatives. They determine how internal energy responds to isothermal changes in volume or pressure.\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nThe second energy equation is therefore\n\nTherefore\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-015",
+      "prompt": "Starting from the first Thermodynamic Energy Equations relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThermodynamic energy equations combine the fundamental thermodynamic relation with measurable equation-of-state derivatives. They determine how internal energy responds to isothermal changes in volume or pressure.\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nStart with\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nFor an ideal gas, \\(pV=nRT\\), so equation [2] becomes\n\nTherefore\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-016",
+      "prompt": "Check the following Thermodynamic Energy Equations equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).\n\nInsert those units into\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-017",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Thermodynamic Energy Equations. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Thermodynamic Energy Equations.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-018",
+      "prompt": "Check the following Thermodynamic Energy Equations equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).\n\nInsert those units into\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Thermodynamic Energy Equations. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Thermodynamic Energy Equations.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    },
+    {
+      "id": "thermodynamic-energy-equations-020",
+      "prompt": "Reconstruct the complete mathematical chain for Thermodynamic Energy Equations, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\nNotation: \\(U,S,T,p,V\\) denotes internal energy, entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J, J K^{-1}, K, Pa, m^{3}}\\); \\(n,C_V,C_P\\) denotes amount and molar heat capacities at constant volume and pressure; unit \\(\\mathrm{mol, J mol^{-1} K^{-1}, J mol^{-1} K^{-1}}\\); \\(R\\) denotes molar gas constant; unit \\(\\mathrm{J mol^{-1} K^{-1}}\\); \\(V_1,V_2,\\Delta U\\) denotes initial and final total volume and finite internal-energy change; unit \\(\\mathrm{m^{3}, m^{3}, J}\\).",
+      "answer": "Model:\nThermodynamic energy equations combine the fundamental thermodynamic relation with measurable equation-of-state derivatives. They determine how internal energy responds to isothermal changes in volume or pressure.\n\nThis conclusion follows from the ideal-gas equation of state: ideal-gas internal energy depends on temperature, not volume.\n\nWorking:\nStep 1:\n\\[\n\\begin{aligned}\ndU&=T\\,dS-p\\,dV\\\\\n&=nC_V\\,dT+\\left[T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p\\right]dV.\n\\end{aligned}\n\\tag*{[1]}\n\\]\n\nCoefficient matching gives the first energy equation,\n\nStep 2:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{\\partial p}{\\partial T}\\right)_V-p.\n\\tag*{[2]}\n\\]\n\nTo use \\(T,p\\), substitute the second \\(TdS\\) equation and expand \\(dV=(\\partial V/\\partial T)_p dT+(\\partial V/\\partial p)_T dp\\):\n\nStep 3:\n\\[\n\\begin{aligned}\ndU={}&\\left[nC_P-p\\left(\\frac{\\partial V}{\\partial T}\\right)_p\\right]dT\\\\\n&+\\left[-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T\\right]dp.\n\\end{aligned}\n\\tag*{[3]}\n\\]\n\nThe second energy equation is therefore\n\nStep 4:\n\\[\n\\left(\\frac{\\partial U}{\\partial p}\\right)_T\n=-T\\left(\\frac{\\partial V}{\\partial T}\\right)_p\n-p\\left(\\frac{\\partial V}{\\partial p}\\right)_T.\n\\tag*{[4]}\n\\]\n\nFor an ideal gas, \\(pV=nRT\\), so equation [2] becomes\n\nStep 5:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\n\\left(\\frac{\\partial U}{\\partial V}\\right)_T\n=T\\left(\\frac{nR}{V}\\right)-p=0.\n\\tag*{[5]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "maxwell-relations-and-response-functions"
+      ]
+    }
+  ]
+}

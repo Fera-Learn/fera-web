@@ -3,11 +3,17 @@ import { level1CalculusExamSets } from "@/lib/docs/level-1-calculus/exams";
 import { level1LinearAlgebraExamSets } from "@/lib/docs/level-1-linear-algebra/exams";
 import { level1MathIPhysicsExamSets } from "@/lib/docs/level-1-math-i-physics/exams";
 import { level1MathIIPhysicsExamSets } from "@/lib/docs/level-1-math-ii-physics/exams";
+import { level2PhysicsAExamSets } from "@/lib/docs/level-2-physics-a/exams";
+import { level2PhysicsBExamSets } from "@/lib/docs/level-2-physics-b/exams";
+import { level2MathematicalPhysicsExamSets } from "@/lib/docs/level-2-mathematical-physics/exams";
 import { level1CalculusQuestionTopics } from "@/lib/docs/level-1-calculus/questions.generated";
 import { level1LinearAlgebraQuestionTopics } from "@/lib/docs/level-1-linear-algebra/questions.generated";
 import { level1MathIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-i-physics/questions.generated";
 import { level1MathIIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-ii-physics/questions.generated";
 import { level1PhysicsQuestionTopics } from "@/lib/docs/level-1-physics/questions.generated";
+import { level2PhysicsAQuestionTopics } from "@/lib/docs/level-2-physics-a/questions.generated";
+import { level2PhysicsBQuestionTopics } from "@/lib/docs/level-2-physics-b/questions.generated";
+import { level2MathematicalPhysicsQuestionTopics } from "@/lib/docs/level-2-mathematical-physics/questions.generated";
 import type { Level1PhysicsExamSet } from "@/lib/docs/level-1-physics/exams/types";
 
 type QuestionSource = "exam" | "topic";
@@ -70,6 +76,9 @@ const LEVEL_1_MATH_I_PHYSICS_COURSE_ID = "level-1-math-i-physics";
 const LEVEL_1_MATH_II_PHYSICS_COURSE_ID = "level-1-math-ii-physics";
 const LEVEL_1_CALCULUS_COURSE_ID = "level-1-calculus";
 const LEVEL_1_LINEAR_ALGEBRA_COURSE_ID = "level-1-linear-algebra";
+const LEVEL_2_PHYSICS_A_COURSE_ID = "level-2-physics-a";
+const LEVEL_2_PHYSICS_B_COURSE_ID = "level-2-physics-b";
+const LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID = "level-2-mathematical-physics";
 
 type TopicQuestionData = {
   courseId: string;
@@ -248,6 +257,27 @@ function getLevel1LinearAlgebraTopicQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel2PhysicsATopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_2_PHYSICS_A_COURSE_ID,
+    questionTopics: level2PhysicsAQuestionTopics,
+  });
+}
+
+function getLevel2PhysicsBTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_2_PHYSICS_B_COURSE_ID,
+    questionTopics: level2PhysicsBQuestionTopics,
+  });
+}
+
+function getLevel2MathematicalPhysicsTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID,
+    questionTopics: level2MathematicalPhysicsQuestionTopics,
+  });
+}
+
 function getExamQuestionEntries({
   courseId,
   examSets,
@@ -329,6 +359,27 @@ function getLevel1PhysicsExamQuestionEntries(): QuestionBankEntry[] {
   });
 }
 
+function getLevel2PhysicsAExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_2_PHYSICS_A_COURSE_ID,
+    examSets: level2PhysicsAExamSets,
+  });
+}
+
+function getLevel2PhysicsBExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_2_PHYSICS_B_COURSE_ID,
+    examSets: level2PhysicsBExamSets,
+  });
+}
+
+function getLevel2MathematicalPhysicsExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID,
+    examSets: level2MathematicalPhysicsExamSets,
+  });
+}
+
 function getExamPapers({
   courseId,
   examSets,
@@ -386,6 +437,27 @@ function getLevel1PhysicsPapers(): QuestionBankPaper[] {
   });
 }
 
+function getLevel2PhysicsAPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_2_PHYSICS_A_COURSE_ID,
+    examSets: level2PhysicsAExamSets,
+  });
+}
+
+function getLevel2PhysicsBPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_2_PHYSICS_B_COURSE_ID,
+    examSets: level2PhysicsBExamSets,
+  });
+}
+
+function getLevel2MathematicalPhysicsPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID,
+    examSets: level2MathematicalPhysicsExamSets,
+  });
+}
+
 const COURSE_PROVIDERS: CourseQuestionProvider[] = [
   {
     aliases: [],
@@ -426,6 +498,30 @@ const COURSE_PROVIDERS: CourseQuestionProvider[] = [
     getPapers: getLevel1PhysicsPapers,
     getTopicQuestions: getLevel1PhysicsTopicQuestionEntries,
     label: "Level 1 - Physics",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_2_PHYSICS_A_COURSE_ID,
+    getExamQuestions: getLevel2PhysicsAExamQuestionEntries,
+    getPapers: getLevel2PhysicsAPapers,
+    getTopicQuestions: getLevel2PhysicsATopicQuestionEntries,
+    label: "Level 2 - Physics A",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_2_PHYSICS_B_COURSE_ID,
+    getExamQuestions: getLevel2PhysicsBExamQuestionEntries,
+    getPapers: getLevel2PhysicsBPapers,
+    getTopicQuestions: getLevel2PhysicsBTopicQuestionEntries,
+    label: "Level 2 - Physics B",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID,
+    getExamQuestions: getLevel2MathematicalPhysicsExamQuestionEntries,
+    getPapers: getLevel2MathematicalPhysicsPapers,
+    getTopicQuestions: getLevel2MathematicalPhysicsTopicQuestionEntries,
+    label: "Level 2 - Mathematical Physics",
   },
 ];
 

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "phase-equilibria-and-transitions",
+  "topicId": "chemical-potential-and-phase-coexistence",
+  "topicTitle": "Chemical Potential and Phase Coexistence",
+  "paperTags": [
+    "thermodynamics",
+    "phase-equilibria-and-transitions"
+  ],
+  "questions": [
+    {
+      "id": "chemical-potential-and-phase-coexistence-001",
+      "prompt": "Using the model for Chemical Potential and Phase Coexistence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: At fixed pressure and temperature, \\(\\mu_{m,\\alpha}=12.0\\,\\mathrm{kJ\\,mol^{-1}}\\) and \\(\\mu_{m,\\beta}=11.7\\,\\mathrm{kJ\\,mol^{-1}}\\). Find the Gibbs change when \\(0.20\\,\\mathrm{mol}\\) converts from alpha to beta.",
+      "answer": "Model:\nApply the model for Chemical Potential and Phase Coexistence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse equation \\([3]\\) with \\(dn_\\beta=+0.20\\,\\mathrm{mol}\\): \\[\\Delta G=(11.7-12.0)\\,\\mathrm{kJ\\,mol^{-1}}(0.20\\,\\mathrm{mol})=-0.060\\,\\mathrm{kJ}=-60\\,\\mathrm J.\\] The negative change confirms conversion toward beta. Equation \\([2]\\) simultaneously decreases \\(n_\\alpha\\) by \\(0.20\\,\\mathrm{mol}\\). Final result: \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously.\n\nFinal answer:\n\\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-002",
+      "prompt": "Using the model for Chemical Potential and Phase Coexistence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A closed system contains \\(3.0\\,\\mathrm{mol}\\) in phase alpha and \\(1.0\\,\\mathrm{mol}\\) in phase beta at coexistence. Is this compatible with equilibrium?",
+      "answer": "Model:\nApply the model for Chemical Potential and Phase Coexistence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nYes. Equation \\([4]\\) requires equal molar chemical potentials, not equal phase amounts. Equation \\([2]\\) only requires \\(n_{\\mathrm{tot}}=3.0+1.0=4.0\\,\\mathrm{mol}\\). The amounts can depend on the conserved total energy or volume while the phases share equilibrium pressure and temperature. Final result: the unequal \\(3{:}1\\) phase split is compatible with equilibrium provided \\(\\mu_{m,\\alpha}=\\mu_{m,\\beta}\\).\n\nFinal answer:\nThe unequal \\(3{:}1\\) phase split is compatible with equilibrium provided \\(\\mu_{m,\\alpha}=\\mu_{m,\\beta}\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-003",
+      "prompt": "A proposed solution to the following Chemical Potential and Phase Coexistence problem gives \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: At fixed pressure and temperature, \\(\\mu_{m,\\alpha}=12.0\\,\\mathrm{kJ\\,mol^{-1}}\\) and \\(\\mu_{m,\\beta}=11.7\\,\\mathrm{kJ\\,mol^{-1}}\\). Find the Gibbs change when \\(0.20\\,\\mathrm{mol}\\) converts from alpha to beta.",
+      "answer": "Model:\nUse the model for Chemical Potential and Phase Coexistence and the data stated in the problem.\n\nWorking:\nUse equation \\([3]\\) with \\(dn_\\beta=+0.20\\,\\mathrm{mol}\\): \\[\\Delta G=(11.7-12.0)\\,\\mathrm{kJ\\,mol^{-1}}(0.20\\,\\mathrm{mol})=-0.060\\,\\mathrm{kJ}=-60\\,\\mathrm J.\\] The negative change confirms conversion toward beta. Equation \\([2]\\) simultaneously decreases \\(n_\\alpha\\) by \\(0.20\\,\\mathrm{mol}\\). Final result: \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously.\n\nFinal answer:\nThe proposed result is verified: \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-004",
+      "prompt": "For this problem on Chemical Potential and Phase Coexistence, derive the indicated intermediate result before completing the calculation.\nProblem: At fixed pressure and temperature, \\(\\mu_{m,\\alpha}=12.0\\,\\mathrm{kJ\\,mol^{-1}}\\) and \\(\\mu_{m,\\beta}=11.7\\,\\mathrm{kJ\\,mol^{-1}}\\). Find the Gibbs change when \\(0.20\\,\\mathrm{mol}\\) converts from alpha to beta.\nIntermediate result to derive:\n\\[\\Delta G=(11.7-12.0)\\,\\mathrm{kJ\\,mol^{-1}}(0.20\\,\\mathrm{mol})=-0.060\\,\\mathrm{kJ}=-60\\,\\mathrm J.\\]",
+      "answer": "Model:\nApply the stated Chemical Potential and Phase Coexistence assumptions and preserve all units.\n\nWorking:\nUse equation \\([3]\\) with \\(dn_\\beta=+0.20\\,\\mathrm{mol}\\): \\[\\Delta G=(11.7-12.0)\\,\\mathrm{kJ\\,mol^{-1}}(0.20\\,\\mathrm{mol})=-0.060\\,\\mathrm{kJ}=-60\\,\\mathrm J.\\] The negative change confirms conversion toward beta. Equation \\([2]\\) simultaneously decreases \\(n_\\alpha\\) by \\(0.20\\,\\mathrm{mol}\\). Final result: \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously.\n\nFinal answer:\n\\[\\Delta G=(11.7-12.0)\\,\\mathrm{kJ\\,mol^{-1}}(0.20\\,\\mathrm{mol})=-0.060\\,\\mathrm{kJ}=-60\\,\\mathrm J.\\]\n\nCheck:\nThe intermediate result leads to \\(\\Delta G=-60\\,\\mathrm J\\), so phase beta grows spontaneously. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-005",
+      "prompt": "A proposed solution to the following Chemical Potential and Phase Coexistence problem gives The unequal \\(3{:}1\\) phase split is compatible with equilibrium provided \\(\\mu_{m,\\alpha}=\\mu_{m,\\beta}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A closed system contains \\(3.0\\,\\mathrm{mol}\\) in phase alpha and \\(1.0\\,\\mathrm{mol}\\) in phase beta at coexistence. Is this compatible with equilibrium?",
+      "answer": "Model:\nUse the model for Chemical Potential and Phase Coexistence and the data stated in the problem.\n\nWorking:\nYes. Equation \\([4]\\) requires equal molar chemical potentials, not equal phase amounts. Equation \\([2]\\) only requires \\(n_{\\mathrm{tot}}=3.0+1.0=4.0\\,\\mathrm{mol}\\). The amounts can depend on the conserved total energy or volume while the phases share equilibrium pressure and temperature. Final result: the unequal \\(3{:}1\\) phase split is compatible with equilibrium provided \\(\\mu_{m,\\alpha}=\\mu_{m,\\beta}\\).\n\nFinal answer:\nThe proposed result is verified: The unequal \\(3{:}1\\) phase split is compatible with equilibrium provided \\(\\mu_{m,\\alpha}=\\mu_{m,\\beta}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-006",
+      "prompt": "Starting from the stated model for Chemical Potential and Phase Coexistence, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nFor two homogeneous phases of one component at common \\(p\\) and \\(T\\), extensivity gives\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nFor two homogeneous phases of one component at common \\(p\\) and \\(T\\), extensivity gives\n\nApplying the stated definitions and constraint gives\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nFinal answer:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Chemical Potential and Phase Coexistence constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-007",
+      "prompt": "Derive the following Chemical Potential and Phase Coexistence relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nThe closed system conserves its amount during a phase change:\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nBegin from the preceding result\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nThe closed system conserves its amount during a phase change:\n\nApplying the stated definitions and constraint gives\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nFinal answer:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Chemical Potential and Phase Coexistence constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-008",
+      "prompt": "Derive the following Chemical Potential and Phase Coexistence relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nAt fixed pressure and temperature, transfer of \\(dn_\\beta\\) from \\(\\alpha\\) to \\(\\beta\\) changes the Gibbs free energy by\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nBegin from the preceding result\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nAt fixed pressure and temperature, transfer of \\(dn_\\beta\\) from \\(\\alpha\\) to \\(\\beta\\) changes the Gibbs free energy by\n\nApplying the stated definitions and constraint gives\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nFinal answer:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Chemical Potential and Phase Coexistence constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-009",
+      "prompt": "Derive the following Chemical Potential and Phase Coexistence relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nBegin from the preceding result\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nApplying the stated definitions and constraint gives\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nEquation [4] fixes coexistence, while equation [2] fixes how the available matter is divided. Equality of chemical potentials does not require equal phase amounts.\n\nFinal answer:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Chemical Potential and Phase Coexistence constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-010",
+      "prompt": "Starting from the first Chemical Potential and Phase Coexistence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nFor a pure substance, the molar chemical potential is its molar Gibbs free energy. Matter transfers between phases at fixed temperature and pressure until their molar chemical potentials are equal. The transfer redistributes a conserved total amount; it does not create matter and does not require the two phase amounts to be equal.\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nStart with\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nThe closed system conserves its amount during a phase change:\n\nTherefore\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-011",
+      "prompt": "Starting from the first Chemical Potential and Phase Coexistence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nFor a pure substance, the molar chemical potential is its molar Gibbs free energy. Matter transfers between phases at fixed temperature and pressure until their molar chemical potentials are equal. The transfer redistributes a conserved total amount; it does not create matter and does not require the two phase amounts to be equal.\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nStart with\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nAt fixed pressure and temperature, transfer of \\(dn_\\beta\\) from \\(\\alpha\\) to \\(\\beta\\) changes the Gibbs free energy by\n\nTherefore\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-012",
+      "prompt": "Starting from the first Chemical Potential and Phase Coexistence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nFor a pure substance, the molar chemical potential is its molar Gibbs free energy. Matter transfers between phases at fixed temperature and pressure until their molar chemical potentials are equal. The transfer redistributes a conserved total amount; it does not create matter and does not require the two phase amounts to be equal.\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nStart with\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nTherefore\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-013",
+      "prompt": "Check the following Chemical Potential and Phase Coexistence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).\n\nInsert those units into\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-014",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Chemical Potential and Phase Coexistence. Show the substitution or limiting argument rather than answering in words only.\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Chemical Potential and Phase Coexistence.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-015",
+      "prompt": "Check the following Chemical Potential and Phase Coexistence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).\n\nInsert those units into\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Chemical Potential and Phase Coexistence. Show the substitution or limiting argument rather than answering in words only.\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Chemical Potential and Phase Coexistence.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-017",
+      "prompt": "Check the following Chemical Potential and Phase Coexistence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).\n\nInsert those units into\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-018",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Chemical Potential and Phase Coexistence. Show the substitution or limiting argument rather than answering in words only.\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Chemical Potential and Phase Coexistence.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-019",
+      "prompt": "Check the following Chemical Potential and Phase Coexistence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).\n\nInsert those units into\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "chemical-potential-and-phase-coexistence-020",
+      "prompt": "Reconstruct the complete mathematical chain for Chemical Potential and Phase Coexistence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\nNotation: \\(G,\\Delta G\\) denotes total Gibbs free energy and its finite change; unit \\(\\mathrm{J, J}\\); \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(n_\\alpha,n_\\beta,n_{\\mathrm{tot}}\\) denotes amounts in phases alpha and beta, and conserved total amount; unit \\(\\mathrm{mol, mol, mol}\\); \\(\\mu_{m,\\alpha},\\mu_{m,\\beta}\\) denotes molar chemical potentials of phases alpha and beta; unit \\(\\mathrm{J mol^{-1}, J mol^{-1}}\\); \\(dn_\\beta\\) denotes infinitesimal amount transferred from alpha to beta; unit \\(\\mathrm{mol}\\).",
+      "answer": "Model:\nFor a pure substance, the molar chemical potential is its molar Gibbs free energy. Matter transfers between phases at fixed temperature and pressure until their molar chemical potentials are equal. The transfer redistributes a conserved total amount; it does not create matter and does not require the two phase amounts to be equal.\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nWorking:\nStep 1:\n\\[\nG=n_\\alpha\\mu_{m,\\alpha}+n_\\beta\\mu_{m,\\beta}.\n\\tag*{[1]}\n\\]\n\nThe closed system conserves its amount during a phase change:\n\nStep 2:\n\\[\nn_{\\mathrm{tot}}=n_\\alpha+n_\\beta=\\mathrm{constant},\n\\qquad dn_\\alpha=-dn_\\beta.\n\\tag*{[2]}\n\\]\n\nAt fixed pressure and temperature, transfer of \\(dn_\\beta\\) from \\(\\alpha\\) to \\(\\beta\\) changes the Gibbs free energy by\n\nStep 3:\n\\[\ndG=\\mu_{m,\\alpha}dn_\\alpha+\\mu_{m,\\beta}dn_\\beta\n=\\left(\\mu_{m,\\beta}-\\mu_{m,\\alpha}\\right)dn_\\beta.\n\\tag*{[3]}\n\\]\n\nSpontaneous change at fixed \\(T\\) and \\(p\\) requires \\(dG<0\\). Matter therefore moves toward the phase with lower molar chemical potential. Equilibrium against either transfer direction requires\n\nStep 4:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\mu_{m,\\alpha}=\\mu_{m,\\beta}.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    }
+  ]
+}

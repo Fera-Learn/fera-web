@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "statistical-foundations",
+  "topicId": "boltzmann-and-gibbs-definitions-of-entropy",
+  "topicTitle": "Boltzmann and Gibbs Definitions of Entropy",
+  "paperTags": [
+    "thermodynamics",
+    "statistical-foundations"
+  ],
+  "questions": [
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-001",
+      "prompt": "Using the model for Boltzmann and Gibbs Definitions of Entropy, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A system has three microstates with probabilities \\(1/2\\), \\(1/4\\), and \\(1/4\\). Find its Gibbs entropy.",
+      "answer": "Model:\nApply the model for Boltzmann and Gibbs Definitions of Entropy under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe probabilities sum to one, so equation \\([3]\\) applies. Substitute each microstate probability: \\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\] Since \\(\\ln(1/2)=-\\ln2\\) and \\(\\ln(1/4)=-2\\ln2\\), \\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\] This is below \\(k_{\\mathrm B}\\ln3\\), the entropy of three equal probabilities. Final result: \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nFinal answer:\n\\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-002",
+      "prompt": "Using the model for Boltzmann and Gibbs Definitions of Entropy, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: An isolated equilibrium macrostate contains 100 accessible, equiprobable microstates. Compare its Boltzmann and Gibbs entropies.",
+      "answer": "Model:\nApply the model for Boltzmann and Gibbs Definitions of Entropy under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([1]\\) assigns \\(p_r=1/100\\) to each microstate. Equation \\([2]\\) gives \\(S_{\\mathrm B}=k_{\\mathrm B}\\ln100\\). The calculation in equation \\([4]\\) applies to any equal distribution, so \\(S_{\\mathrm G}=k_{\\mathrm B}\\ln100\\) as well. Numerically, \\(\\ln100=4.605\\). Final result: both definitions give \\(S=4.605k_{\\mathrm B}\\) under the stated microcanonical assumptions.\n\nFinal answer:\nBoth definitions give \\(S=4.605k_{\\mathrm B}\\) under the stated microcanonical assumptions.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-003",
+      "prompt": "A proposed solution to the following Boltzmann and Gibbs Definitions of Entropy problem gives \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A system has three microstates with probabilities \\(1/2\\), \\(1/4\\), and \\(1/4\\). Find its Gibbs entropy.",
+      "answer": "Model:\nUse the model for Boltzmann and Gibbs Definitions of Entropy and the data stated in the problem.\n\nWorking:\nThe probabilities sum to one, so equation \\([3]\\) applies. Substitute each microstate probability: \\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\] Since \\(\\ln(1/2)=-\\ln2\\) and \\(\\ln(1/4)=-2\\ln2\\), \\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\] This is below \\(k_{\\mathrm B}\\ln3\\), the entropy of three equal probabilities. Final result: \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nFinal answer:\nThe proposed result is verified: \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-004",
+      "prompt": "For this problem on Boltzmann and Gibbs Definitions of Entropy, derive the indicated intermediate result before completing the calculation.\nProblem: A system has three microstates with probabilities \\(1/2\\), \\(1/4\\), and \\(1/4\\). Find its Gibbs entropy.\nIntermediate result to derive:\n\\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\]",
+      "answer": "Model:\nApply the stated Boltzmann and Gibbs Definitions of Entropy assumptions and preserve all units.\n\nWorking:\nThe probabilities sum to one, so equation \\([3]\\) applies. Substitute each microstate probability: \\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\] Since \\(\\ln(1/2)=-\\ln2\\) and \\(\\ln(1/4)=-2\\ln2\\), \\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\] This is below \\(k_{\\mathrm B}\\ln3\\), the entropy of three equal probabilities. Final result: \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nFinal answer:\n\\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\]\n\nCheck:\nThe intermediate result leads to \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-005",
+      "prompt": "For this problem on Boltzmann and Gibbs Definitions of Entropy, derive the indicated intermediate result before completing the calculation.\nProblem: A system has three microstates with probabilities \\(1/2\\), \\(1/4\\), and \\(1/4\\). Find its Gibbs entropy.\nIntermediate result to derive:\n\\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\]",
+      "answer": "Model:\nApply the stated Boltzmann and Gibbs Definitions of Entropy assumptions and preserve all units.\n\nWorking:\nThe probabilities sum to one, so equation \\([3]\\) applies. Substitute each microstate probability: \\[S_{\\mathrm G}=-k_{\\mathrm B}\\left[\\frac12\\ln\\frac12+\\frac14\\ln\\frac14+\\frac14\\ln\\frac14\\right].\\] Since \\(\\ln(1/2)=-\\ln2\\) and \\(\\ln(1/4)=-2\\ln2\\), \\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\] This is below \\(k_{\\mathrm B}\\ln3\\), the entropy of three equal probabilities. Final result: \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\).\n\nFinal answer:\n\\[S_{\\mathrm G}=k_{\\mathrm B}\\left(\\frac12+\\frac12+\\frac12\\right)\\ln2=\\frac32k_{\\mathrm B}\\ln2.\\]\n\nCheck:\nThe intermediate result leads to \\(S_{\\mathrm G}=(3/2)k_{\\mathrm B}\\ln2\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-006",
+      "prompt": "A proposed solution to the following Boltzmann and Gibbs Definitions of Entropy problem gives Both definitions give \\(S=4.605k_{\\mathrm B}\\) under the stated microcanonical assumptions. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: An isolated equilibrium macrostate contains 100 accessible, equiprobable microstates. Compare its Boltzmann and Gibbs entropies.",
+      "answer": "Model:\nUse the model for Boltzmann and Gibbs Definitions of Entropy and the data stated in the problem.\n\nWorking:\nEquation \\([1]\\) assigns \\(p_r=1/100\\) to each microstate. Equation \\([2]\\) gives \\(S_{\\mathrm B}=k_{\\mathrm B}\\ln100\\). The calculation in equation \\([4]\\) applies to any equal distribution, so \\(S_{\\mathrm G}=k_{\\mathrm B}\\ln100\\) as well. Numerically, \\(\\ln100=4.605\\). Final result: both definitions give \\(S=4.605k_{\\mathrm B}\\) under the stated microcanonical assumptions.\n\nFinal answer:\nThe proposed result is verified: Both definitions give \\(S=4.605k_{\\mathrm B}\\) under the stated microcanonical assumptions.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-007",
+      "prompt": "Starting from the stated model for Boltzmann and Gibbs Definitions of Entropy, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nFor an equilibrium microcanonical ensemble with \\(\\Omega\\) accessible microstates, the equal-a-priori-probability assumption gives\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nFor an equilibrium microcanonical ensemble with \\(\\Omega\\) accessible microstates, the equal-a-priori-probability assumption gives\n\nApplying the stated definitions and constraint gives\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nFinal answer:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Boltzmann and Gibbs Definitions of Entropy constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-008",
+      "prompt": "Derive the following Boltzmann and Gibbs Definitions of Entropy relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nBoltzmann's entropy of that macrostate is\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nBegin from the preceding result\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nBoltzmann's entropy of that macrostate is\n\nApplying the stated definitions and constraint gives\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nFinal answer:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Boltzmann and Gibbs Definitions of Entropy constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-009",
+      "prompt": "Derive the following Boltzmann and Gibbs Definitions of Entropy relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nFor a normalized distribution over whole-system microstates, Gibbs entropy is\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nBegin from the preceding result\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nFor a normalized distribution over whole-system microstates, Gibbs entropy is\n\nApplying the stated definitions and constraint gives\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nFinal answer:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Boltzmann and Gibbs Definitions of Entropy constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-010",
+      "prompt": "Derive the following Boltzmann and Gibbs Definitions of Entropy relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nSubstituting equation [1] into equation [3] shows the reduction explicitly:\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nBegin from the preceding result\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nSubstituting equation [1] into equation [3] shows the reduction explicitly:\n\nApplying the stated definitions and constraint gives\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nFinal answer:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Boltzmann and Gibbs Definitions of Entropy constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-011",
+      "prompt": "Starting from the first Boltzmann and Gibbs Definitions of Entropy relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nBoltzmann entropy counts equiprobable accessible microstates of a macrostate. Gibbs entropy allows unequal probabilities, but its sum is over mutually exclusive microstates of the whole system. Confusing those microstates with coarse macrostates loses information and generally gives a different entropy.\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nStart with\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nBoltzmann's entropy of that macrostate is\n\nTherefore\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-012",
+      "prompt": "Starting from the first Boltzmann and Gibbs Definitions of Entropy relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nBoltzmann entropy counts equiprobable accessible microstates of a macrostate. Gibbs entropy allows unequal probabilities, but its sum is over mutually exclusive microstates of the whole system. Confusing those microstates with coarse macrostates loses information and generally gives a different entropy.\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nStart with\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nFor a normalized distribution over whole-system microstates, Gibbs entropy is\n\nTherefore\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-013",
+      "prompt": "Starting from the first Boltzmann and Gibbs Definitions of Entropy relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nBoltzmann entropy counts equiprobable accessible microstates of a macrostate. Gibbs entropy allows unequal probabilities, but its sum is over mutually exclusive microstates of the whole system. Confusing those microstates with coarse macrostates loses information and generally gives a different entropy.\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nStart with\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nSubstituting equation [1] into equation [3] shows the reduction explicitly:\n\nTherefore\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-014",
+      "prompt": "Check the following Boltzmann and Gibbs Definitions of Entropy equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.\n\nInsert those units into\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-015",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Boltzmann and Gibbs Definitions of Entropy. Show the substitution or limiting argument rather than answering in words only.\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Boltzmann and Gibbs Definitions of Entropy.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-016",
+      "prompt": "Check the following Boltzmann and Gibbs Definitions of Entropy equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.\n\nInsert those units into\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-017",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Boltzmann and Gibbs Definitions of Entropy. Show the substitution or limiting argument rather than answering in words only.\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Boltzmann and Gibbs Definitions of Entropy.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-018",
+      "prompt": "Check the following Boltzmann and Gibbs Definitions of Entropy equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.\n\nInsert those units into\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Boltzmann and Gibbs Definitions of Entropy. Show the substitution or limiting argument rather than answering in words only.\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Boltzmann and Gibbs Definitions of Entropy.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    },
+    {
+      "id": "boltzmann-and-gibbs-definitions-of-entropy-020",
+      "prompt": "Reconstruct the complete mathematical chain for Boltzmann and Gibbs Definitions of Entropy, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\nNotation: \\(S_{\\mathrm B},S_{\\mathrm G}\\) denotes Boltzmann and Gibbs entropies; unit \\(\\mathrm{J K^{-1}, J K^{-1}}\\); \\(k_{\\mathrm B}\\) denotes Boltzmann constant; unit \\(\\mathrm{J K^{-1}}\\); \\(\\Omega\\) denotes number of accessible microstates in a microcanonical macrostate; dimensionless; \\(r\\) denotes whole-system microstate label; dimensionless; \\(p_r\\) denotes probability of whole-system microstate r; dimensionless; \\(a,P_a\\) denotes coarse macrostate label and its probability; unit \\(\\mathrm{1, 1}\\); \\(\\ln\\) denotes natural logarithm.",
+      "answer": "Model:\nBoltzmann entropy counts equiprobable accessible microstates of a macrostate. Gibbs entropy allows unequal probabilities, but its sum is over mutually exclusive microstates of the whole system. Confusing those microstates with coarse macrostates loses information and generally gives a different entropy.\n\nThe convention \\(0\\ln0=0\\) follows by continuity. If microstates are grouped into macrostates with probabilities \\(P_a\\), the expression \\(-k_{\\mathrm B}\\sum_aP_a\\ln P_a\\) is a coarse-grained entropy and is not automatically the full Gibbs entropy in equation [3].\n\nWorking:\nStep 1:\n\\[\np_r=\\frac{1}{\\Omega},\n\\qquad r=1,2,\\ldots,\\Omega.\n\\tag*{[1]}\n\\]\n\nBoltzmann's entropy of that macrostate is\n\nStep 2:\n\\[\nS_{\\mathrm B}=k_{\\mathrm B}\\ln\\Omega.\n\\tag*{[2]}\n\\]\n\nFor a normalized distribution over whole-system microstates, Gibbs entropy is\n\nStep 3:\n\\[\nS_{\\mathrm G}=-k_{\\mathrm B}\\sum_r p_r\\ln p_r,\n\\qquad \\sum_r p_r=1.\n\\tag*{[3]}\n\\]\n\nSubstituting equation [1] into equation [3] shows the reduction explicitly:\n\nStep 4:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nS_{\\mathrm G}\n=-k_{\\mathrm B}\\sum_{r=1}^{\\Omega}\\frac{1}{\\Omega}\n\\ln\\left(\\frac{1}{\\Omega}\\right)\n=-k_{\\mathrm B}\\ln\\left(\\frac{1}{\\Omega}\\right)\n=k_{\\mathrm B}\\ln\\Omega\n=S_{\\mathrm B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "statistical-foundations"
+      ]
+    }
+  ]
+}

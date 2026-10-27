@@ -2,6 +2,13 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
+import { ChevronRightIcon } from "lucide-react";
+
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@repo/ui/collapsible";
 import { Separator } from "@repo/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@repo/ui/tabs";
 
@@ -32,6 +39,7 @@ type DocsPhysicsExample = {
 };
 
 type DocsPhysicsExamplesProps = {
+  collapsible?: boolean;
   items: DocsPhysicsExample[];
 };
 
@@ -280,7 +288,7 @@ export function DocsPhysicsDerivation({ items }: DocsPhysicsDerivationProps) {
   );
 }
 
-export function DocsPhysicsExamples({ items }: DocsPhysicsExamplesProps) {
+function DocsPhysicsExampleTabs({ items }: { items: DocsPhysicsExample[] }) {
   const defaultValue = items[0]?.title;
   const [value, setValue] = useState(defaultValue ?? "");
   const ref = useMathJaxTypeset(value);
@@ -322,5 +330,30 @@ export function DocsPhysicsExamples({ items }: DocsPhysicsExamplesProps) {
         ))}
       </div>
     </Tabs>
+  );
+}
+
+export function DocsPhysicsExamples({
+  collapsible = false,
+  items,
+}: DocsPhysicsExamplesProps) {
+  if (items.length === 0) return null;
+
+  if (!collapsible) {
+    return <DocsPhysicsExampleTabs items={items} />;
+  }
+
+  return (
+    <Collapsible className="docs-physics-examples-collapsible">
+      <h2 className="docs-physics-examples-heading">
+        <CollapsibleTrigger className="docs-physics-examples-heading-trigger group/examples">
+          <span>Examples</span>
+          <ChevronRightIcon className="size-5 shrink-0 transition-transform group-data-[state=open]/examples:rotate-90" />
+        </CollapsibleTrigger>
+      </h2>
+      <CollapsibleContent className="overflow-hidden data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
+        <DocsPhysicsExampleTabs items={items} />
+      </CollapsibleContent>
+    </Collapsible>
   );
 }

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "thermodynamic-potentials-and-available-work",
+  "topicId": "thermodynamic-potentials-and-natural-variables",
+  "topicTitle": "Thermodynamic Potentials and Natural Variables",
+  "paperTags": [
+    "thermodynamics",
+    "thermodynamic-potentials-and-available-work"
+  ],
+  "questions": [
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-001",
+      "prompt": "Using the model for Thermodynamic Potentials and Natural Variables, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: For a fixed-composition system, \\(F(T,V)=F_0-aT\\ln(V/V_0)\\), where \\(a\\) is constant, find \\(p\\) and \\(S\\).",
+      "answer": "Model:\nApply the model for Thermodynamic Potentials and Natural Variables under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse the coefficients in equation \\([4]\\). At fixed \\(T\\), \\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\] At fixed \\(V\\), \\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\] Differentiating the supplied state function therefore returns both conjugate variables. Final result: \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nFinal answer:\n\\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-002",
+      "prompt": "Using the model for Thermodynamic Potentials and Natural Variables, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A closed system is held at controlled temperature and pressure. Which potential has those natural variables?",
+      "answer": "Model:\nApply the model for Thermodynamic Potentials and Natural Variables under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([5]\\) contains \\(dT\\) and \\(dp\\), so \\(G=G(T,p,N_i)\\). Internal energy instead uses \\(S,V,N_i\\), enthalpy uses \\(S,p,N_i\\), and Helmholtz energy uses \\(T,V,N_i\\). Final result: use Gibbs free energy \\(G\\) when \\(T\\), \\(p\\), and composition are the controlled variables.\n\nFinal answer:\nUse Gibbs free energy \\(G\\) when \\(T\\), \\(p\\), and composition are the controlled variables.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-003",
+      "prompt": "A proposed solution to the following Thermodynamic Potentials and Natural Variables problem gives \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: For a fixed-composition system, \\(F(T,V)=F_0-aT\\ln(V/V_0)\\), where \\(a\\) is constant, find \\(p\\) and \\(S\\).",
+      "answer": "Model:\nUse the model for Thermodynamic Potentials and Natural Variables and the data stated in the problem.\n\nWorking:\nUse the coefficients in equation \\([4]\\). At fixed \\(T\\), \\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\] At fixed \\(V\\), \\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\] Differentiating the supplied state function therefore returns both conjugate variables. Final result: \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nFinal answer:\nThe proposed result is verified: \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-004",
+      "prompt": "For this problem on Thermodynamic Potentials and Natural Variables, derive the indicated intermediate result before completing the calculation.\nProblem: For a fixed-composition system, \\(F(T,V)=F_0-aT\\ln(V/V_0)\\), where \\(a\\) is constant, find \\(p\\) and \\(S\\).\nIntermediate result to derive:\n\\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\]",
+      "answer": "Model:\nApply the stated Thermodynamic Potentials and Natural Variables assumptions and preserve all units.\n\nWorking:\nUse the coefficients in equation \\([4]\\). At fixed \\(T\\), \\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\] At fixed \\(V\\), \\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\] Differentiating the supplied state function therefore returns both conjugate variables. Final result: \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nFinal answer:\n\\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\]\n\nCheck:\nThe intermediate result leads to \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-005",
+      "prompt": "For this problem on Thermodynamic Potentials and Natural Variables, derive the indicated intermediate result before completing the calculation.\nProblem: For a fixed-composition system, \\(F(T,V)=F_0-aT\\ln(V/V_0)\\), where \\(a\\) is constant, find \\(p\\) and \\(S\\).\nIntermediate result to derive:\n\\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\]",
+      "answer": "Model:\nApply the stated Thermodynamic Potentials and Natural Variables assumptions and preserve all units.\n\nWorking:\nUse the coefficients in equation \\([4]\\). At fixed \\(T\\), \\[p=-\\left(\\frac{\\partial F}{\\partial V}\\right)_T=-\\left(-\\frac{aT}{V}\\right)=\\frac{aT}{V}.\\] At fixed \\(V\\), \\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\] Differentiating the supplied state function therefore returns both conjugate variables. Final result: \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\).\n\nFinal answer:\n\\[S=-\\left(\\frac{\\partial F}{\\partial T}\\right)_V=-\\left[-a\\ln\\left(\\frac{V}{V_0}\\right)\\right]=a\\ln\\left(\\frac{V}{V_0}\\right).\\]\n\nCheck:\nThe intermediate result leads to \\(p=aT/V\\) and \\(S=a\\ln(V/V_0)\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-006",
+      "prompt": "A proposed solution to the following Thermodynamic Potentials and Natural Variables problem gives Use Gibbs free energy \\(G\\) when \\(T\\), \\(p\\), and composition are the controlled variables. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A closed system is held at controlled temperature and pressure. Which potential has those natural variables?",
+      "answer": "Model:\nUse the model for Thermodynamic Potentials and Natural Variables and the data stated in the problem.\n\nWorking:\nEquation \\([5]\\) contains \\(dT\\) and \\(dp\\), so \\(G=G(T,p,N_i)\\). Internal energy instead uses \\(S,V,N_i\\), enthalpy uses \\(S,p,N_i\\), and Helmholtz energy uses \\(T,V,N_i\\). Final result: use Gibbs free energy \\(G\\) when \\(T\\), \\(p\\), and composition are the controlled variables.\n\nFinal answer:\nThe proposed result is verified: Use Gibbs free energy \\(G\\) when \\(T\\), \\(p\\), and composition are the controlled variables.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-007",
+      "prompt": "Starting from the stated model for Thermodynamic Potentials and Natural Variables, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nFor a simple compressible system of variable composition, internal energy has natural variables \\(S,V,\\{N_i\\}\\):\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nFor a simple compressible system of variable composition, internal energy has natural variables \\(S,V,\\{N_i\\}\\):\n\nApplying the stated definitions and constraint gives\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nApply the product rule and substitute equation [1]. For enthalpy,\n\nFinal answer:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-008",
+      "prompt": "Derive the following Thermodynamic Potentials and Natural Variables relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nA Legendre transform subtracts a conjugate product to replace an extensive natural variable by its intensive partner. The three transformed potentials are\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nBegin from the preceding result\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nA Legendre transform subtracts a conjugate product to replace an extensive natural variable by its intensive partner. The three transformed potentials are\n\nApplying the stated definitions and constraint gives\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nApply the product rule and substitute equation [1]. For enthalpy,\n\nFinal answer:\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-009",
+      "prompt": "Derive the following Thermodynamic Potentials and Natural Variables relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nApply the product rule and substitute equation [1]. For enthalpy,\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nBegin from the preceding result\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nApply the product rule and substitute equation [1]. For enthalpy,\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nFor Helmholtz free energy,\n\nFinal answer:\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-010",
+      "prompt": "Derive the following Thermodynamic Potentials and Natural Variables relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nFor Helmholtz free energy,\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nFor Helmholtz free energy,\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nFor Gibbs free energy,\n\nFinal answer:\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-011",
+      "prompt": "Derive the following Thermodynamic Potentials and Natural Variables relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nFor Gibbs free energy,\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nFor Gibbs free energy,\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCoefficient matching gives measurable derivatives. For example,\n\nFinal answer:\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-012",
+      "prompt": "Derive the following Thermodynamic Potentials and Natural Variables relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nCoefficient matching gives measurable derivatives. For example,\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nBegin from the preceding result\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCoefficient matching gives measurable derivatives. For example,\n\nApplying the stated definitions and constraint gives\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nFinal answer:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Thermodynamic Potentials and Natural Variables constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-013",
+      "prompt": "Starting from the first Thermodynamic Potentials and Natural Variables relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStart with\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nA Legendre transform subtracts a conjugate product to replace an extensive natural variable by its intensive partner. The three transformed potentials are\n\nTherefore\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-014",
+      "prompt": "Starting from the first Thermodynamic Potentials and Natural Variables relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStart with\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nApply the product rule and substitute equation [1]. For enthalpy,\n\nTherefore\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-015",
+      "prompt": "Starting from the first Thermodynamic Potentials and Natural Variables relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nFor Helmholtz free energy,\n\nTherefore\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-016",
+      "prompt": "Starting from the first Thermodynamic Potentials and Natural Variables relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nTarget:\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nFor Gibbs free energy,\n\nTherefore\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nFinal answer:\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-017",
+      "prompt": "Starting from the first Thermodynamic Potentials and Natural Variables relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nTarget:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStart with\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCoefficient matching gives measurable derivatives. For example,\n\nTherefore\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nFinal answer:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-018",
+      "prompt": "Check the following Thermodynamic Potentials and Natural Variables equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.\n\nInsert those units into\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-019",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Thermodynamic Potentials and Natural Variables. Show the substitution or limiting argument rather than answering in words only.\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Thermodynamic Potentials and Natural Variables.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "thermodynamic-potentials-and-natural-variables-020",
+      "prompt": "Reconstruct the complete mathematical chain for Thermodynamic Potentials and Natural Variables, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\nNotation: \\(U,H,F,G\\) denotes internal energy, enthalpy, Helmholtz free energy, and Gibbs free energy; unit \\(\\mathrm{J}\\); \\(S,T,p,V\\) denotes entropy, absolute temperature, pressure, and total volume; unit \\(\\mathrm{J K^{-1}, K, Pa, m^{3}}\\); \\(N_i,\\mu_i,i,j\\) denotes particle number, particle chemical potential, selected species label, and other species label; unit \\(\\mathrm{1, J, 1, 1}\\); \\(F_0,a,V_0\\) denotes reference Helmholtz energy, constant in the example model, and reference volume; unit \\(\\mathrm{J, J K^{-1}, m^{3}}\\); \\(d\\) denotes exact differential of a state function.",
+      "answer": "Model:\nThermodynamic potentials are Legendre transforms of internal energy. Each transform replaces an inconvenient natural variable by its conjugate, so the differential of the resulting state function identifies the variables that can be controlled directly.\n\nThe held-fixed subscripts are essential: a derivative without its constraints does not identify a thermodynamic property uniquely.\n\nWorking:\nStep 1:\n\\[\ndU=T\\,dS-p\\,dV+\\sum_i\\mu_i\\,dN_i.\n\\tag*{[1]}\n\\]\n\nA Legendre transform subtracts a conjugate product to replace an extensive natural variable by its intensive partner. The three transformed potentials are\n\nStep 2:\n\\[\nH=U+pV,\\qquad F=U-TS,\\qquad G=U+pV-TS.\n\\tag*{[2]}\n\\]\n\nApply the product rule and substitute equation [1]. For enthalpy,\n\nStep 3:\n\\[\n\\begin{aligned}\ndH&=dU+p\\,dV+V\\,dp\\\\\n&=T\\,dS+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad H=H(S,p,\\{N_i\\}).\n\\tag*{[3]}\n\\]\n\nFor Helmholtz free energy,\n\nStep 4:\n\\[\n\\begin{aligned}\ndF&=dU-T\\,dS-S\\,dT\\\\\n&=-S\\,dT-p\\,dV+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad F=F(T,V,\\{N_i\\}).\n\\tag*{[4]}\n\\]\n\nFor Gibbs free energy,\n\nStep 5:\n\\[\n\\begin{aligned}\ndG&=dU+p\\,dV+V\\,dp-T\\,dS-S\\,dT\\\\\n&=-S\\,dT+V\\,dp+\\sum_i\\mu_i\\,dN_i,\n\\end{aligned}\n\\qquad G=G(T,p,\\{N_i\\}).\n\\tag*{[5]}\n\\]\n\nCoefficient matching gives measurable derivatives. For example,\n\nStep 6:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nFinal answer:\n\\[\nT=\\left(\\frac{\\partial U}{\\partial S}\\right)_{V,N_i},\\quad\np=-\\left(\\frac{\\partial F}{\\partial V}\\right)_{T,N_i},\\quad\nS=-\\left(\\frac{\\partial G}{\\partial T}\\right)_{p,N_i},\\quad\n\\mu_i=\\left(\\frac{\\partial G}{\\partial N_i}\\right)_{T,p,N_{j\\ne i}}.\n\\tag*{[6]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    }
+  ]
+}

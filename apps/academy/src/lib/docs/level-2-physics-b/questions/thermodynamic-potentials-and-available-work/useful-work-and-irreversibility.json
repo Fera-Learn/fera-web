@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "thermodynamic-potentials-and-available-work",
+  "topicId": "useful-work-and-irreversibility",
+  "topicTitle": "Useful Work and Irreversibility",
+  "paperTags": [
+    "thermodynamics",
+    "thermodynamic-potentials-and-available-work"
+  ],
+  "questions": [
+    {
+      "id": "useful-work-and-irreversibility-001",
+      "prompt": "Using the model for Useful Work and Irreversibility, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A process at \\(T_0=300\\,\\mathrm{K}\\) has \\(\\Delta\\mathcal A=-500\\,\\mathrm{kJ}\\) and generates \\(0.400\\,\\mathrm{kJ\\,K^{-1}}\\) of entropy. Find the maximum, lost, and actual useful work outputs.",
+      "answer": "Model:\nApply the model for Useful Work and Irreversibility under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) gives \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\). Equation \\([4]\\) gives \\[W_{\\mathrm{lost}}=(300)(0.400)=120\\,\\mathrm{kJ}.\\] Therefore \\(W_u=500-120=380\\,\\mathrm{kJ}\\), which also satisfies equation \\([3]\\). Final result: \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-002",
+      "prompt": "Using the model for Useful Work and Irreversibility, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Two devices undergo the same availability decrease. Device A generates no entropy; device B generates positive entropy. Which delivers more useful work?",
+      "answer": "Model:\nApply the model for Useful Work and Irreversibility under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nFor device A, equation \\([3]\\) reduces to \\(W_u=-\\Delta\\mathcal A\\). Device B loses \\(T_0S_{\\mathrm{gen}}\\gt 0\\) from that output. The devices conserve energy, but only A avoids destroying availability. Final result: device A delivers the maximum useful work, while device B delivers less by \\(T_0S_{\\mathrm{gen}}\\).\n\nFinal answer:\nDevice A delivers the maximum useful work, while device B delivers less by \\(T_0S_{\\mathrm{gen}}\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-003",
+      "prompt": "A proposed solution to the following Useful Work and Irreversibility problem gives \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A process at \\(T_0=300\\,\\mathrm{K}\\) has \\(\\Delta\\mathcal A=-500\\,\\mathrm{kJ}\\) and generates \\(0.400\\,\\mathrm{kJ\\,K^{-1}}\\) of entropy. Find the maximum, lost, and actual useful work outputs.",
+      "answer": "Model:\nUse the model for Useful Work and Irreversibility and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) gives \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\). Equation \\([4]\\) gives \\[W_{\\mathrm{lost}}=(300)(0.400)=120\\,\\mathrm{kJ}.\\] Therefore \\(W_u=500-120=380\\,\\mathrm{kJ}\\), which also satisfies equation \\([3]\\). Final result: \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\).\n\nFinal answer:\nThe proposed result is verified: \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-004",
+      "prompt": "For this problem on Useful Work and Irreversibility, derive the indicated intermediate result before completing the calculation.\nProblem: A process at \\(T_0=300\\,\\mathrm{K}\\) has \\(\\Delta\\mathcal A=-500\\,\\mathrm{kJ}\\) and generates \\(0.400\\,\\mathrm{kJ\\,K^{-1}}\\) of entropy. Find the maximum, lost, and actual useful work outputs.\nIntermediate result to derive:\n\\[W_{\\mathrm{lost}}=(300)(0.400)=120\\,\\mathrm{kJ}.\\]",
+      "answer": "Model:\nApply the stated Useful Work and Irreversibility assumptions and preserve all units.\n\nWorking:\nEquation \\([2]\\) gives \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\). Equation \\([4]\\) gives \\[W_{\\mathrm{lost}}=(300)(0.400)=120\\,\\mathrm{kJ}.\\] Therefore \\(W_u=500-120=380\\,\\mathrm{kJ}\\), which also satisfies equation \\([3]\\). Final result: \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\).\n\nFinal answer:\n\\[W_{\\mathrm{lost}}=(300)(0.400)=120\\,\\mathrm{kJ}.\\]\n\nCheck:\nThe intermediate result leads to \\(W_{u,\\max}=500\\,\\mathrm{kJ}\\), \\(W_{\\mathrm{lost}}=120\\,\\mathrm{kJ}\\), and \\(W_u=380\\,\\mathrm{kJ}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-005",
+      "prompt": "A proposed solution to the following Useful Work and Irreversibility problem gives Device A delivers the maximum useful work, while device B delivers less by \\(T_0S_{\\mathrm{gen}}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Two devices undergo the same availability decrease. Device A generates no entropy; device B generates positive entropy. Which delivers more useful work?",
+      "answer": "Model:\nUse the model for Useful Work and Irreversibility and the data stated in the problem.\n\nWorking:\nFor device A, equation \\([3]\\) reduces to \\(W_u=-\\Delta\\mathcal A\\). Device B loses \\(T_0S_{\\mathrm{gen}}\\gt 0\\) from that output. The devices conserve energy, but only A avoids destroying availability. Final result: device A delivers the maximum useful work, while device B delivers less by \\(T_0S_{\\mathrm{gen}}\\).\n\nFinal answer:\nThe proposed result is verified: Device A delivers the maximum useful work, while device B delivers less by \\(T_0S_{\\mathrm{gen}}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-006",
+      "prompt": "Starting from the stated model for Useful Work and Irreversibility, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nFor a closed system exchanging heat only with an environment at \\(T_0\\), with ambient displacement work excluded from useful work, the finite availability balance is\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nFor a closed system exchanging heat only with an environment at \\(T_0\\), with ambient displacement work excluded from useful work, the finite availability balance is\n\nApplying the stated definitions and constraint gives\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nFinal answer:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Useful Work and Irreversibility constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-007",
+      "prompt": "Derive the following Useful Work and Irreversibility relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nBegin from the preceding result\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nApplying the stated definitions and constraint gives\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nFinal answer:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Useful Work and Irreversibility constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-008",
+      "prompt": "Derive the following Useful Work and Irreversibility relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nBegin from the preceding result\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nFor a real process, rearrange equation [1]:\n\nApplying the stated definitions and constraint gives\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nFinal answer:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Useful Work and Irreversibility constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-009",
+      "prompt": "Derive the following Useful Work and Irreversibility relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nBegin from the preceding result\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nApplying the stated definitions and constraint gives\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nFriction, unrestrained expansion, mixing, electrical resistance, and heat transfer across a finite temperature difference all generate entropy. Energy is conserved in each case, but its capacity to produce useful work falls.\n\nFinal answer:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Useful Work and Irreversibility constraint.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-010",
+      "prompt": "Starting from the first Useful Work and Irreversibility relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nIrreversibility destroys work potential. For a process interacting with a fixed-temperature environment, the useful work lost relative to a reversible process is determined by the environment temperature and the entropy generated.\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nStart with\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nTherefore\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-011",
+      "prompt": "Starting from the first Useful Work and Irreversibility relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nIrreversibility destroys work potential. For a process interacting with a fixed-temperature environment, the useful work lost relative to a reversible process is determined by the environment temperature and the entropy generated.\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nStart with\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nFor a real process, rearrange equation [1]:\n\nTherefore\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-012",
+      "prompt": "Starting from the first Useful Work and Irreversibility relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nIrreversibility destroys work potential. For a process interacting with a fixed-temperature environment, the useful work lost relative to a reversible process is determined by the environment temperature and the entropy generated.\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nStart with\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nTherefore\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-013",
+      "prompt": "Check the following Useful Work and Irreversibility equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).\n\nInsert those units into\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-014",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Useful Work and Irreversibility. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Useful Work and Irreversibility.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-015",
+      "prompt": "Check the following Useful Work and Irreversibility equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).\n\nInsert those units into\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-016",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Useful Work and Irreversibility. Show the substitution or limiting argument rather than answering in words only.\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Useful Work and Irreversibility.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-017",
+      "prompt": "Check the following Useful Work and Irreversibility equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).\n\nInsert those units into\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-018",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Useful Work and Irreversibility. Show the substitution or limiting argument rather than answering in words only.\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Useful Work and Irreversibility.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-019",
+      "prompt": "Check the following Useful Work and Irreversibility equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).\n\nInsert those units into\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    },
+    {
+      "id": "useful-work-and-irreversibility-020",
+      "prompt": "Reconstruct the complete mathematical chain for Useful Work and Irreversibility, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\nNotation: \\(\\mathcal A,\\Delta\\mathcal A\\) denotes availability and its finite change; unit \\(\\mathrm{J, J}\\); \\(W_u,W_{u,\\max},W_{\\mathrm{lost}}\\) denotes actual useful work, reversible maximum useful work, and lost work; unit \\(\\mathrm{J, J, J}\\); \\(T_0\\) denotes fixed environment temperature; unit \\(\\mathrm{K}\\); \\(S_{\\mathrm{gen}}\\) denotes entropy generated by the process; unit \\(\\mathrm{J K^{-1}}\\).",
+      "answer": "Model:\nIrreversibility destroys work potential. For a process interacting with a fixed-temperature environment, the useful work lost relative to a reversible process is determined by the environment temperature and the entropy generated.\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nWorking:\nStep 1:\n\\[\n\\Delta\\mathcal A=-W_u-T_0S_{\\mathrm{gen}}.\n\\tag*{[1]}\n\\]\n\nThe second law requires \\(S_{\\mathrm{gen}}\\ge0\\). A reversible process has \\(S_{\\mathrm{gen}}=0\\), so\n\nStep 2:\n\\[\nW_{u,\\max}=-\\Delta\\mathcal A.\n\\tag*{[2]}\n\\]\n\nFor a real process, rearrange equation [1]:\n\nStep 3:\n\\[\nW_u=-\\Delta\\mathcal A-T_0S_{\\mathrm{gen}}\n\\le-\\Delta\\mathcal A.\n\\tag*{[3]}\n\\]\n\nThe difference between reversible and actual output is the Gouy-Stodola result,\n\nStep 4:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nW_{\\mathrm{lost}}=W_{u,\\max}-W_u=T_0S_{\\mathrm{gen}}\\ge0.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "thermodynamic-potentials-and-available-work"
+      ]
+    }
+  ]
+}

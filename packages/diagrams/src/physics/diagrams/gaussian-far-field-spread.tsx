@@ -1,0 +1,8 @@
+import { PhysicsDiagramFrame, SvgLabel, type PhysicsDiagramDefinition, type PhysicsDiagramProps } from "../../shared/physics-diagram";
+export const metadata={kind:"wave",referenceImage:"overall.pdf#page=55-56",slug:"gaussian-far-field-spread",summary:"A Gaussian waist expands into a Gaussian far-field cone with angular half-width inversely proportional to the waist radius.",tags:["Gaussian beam","Angular spread","Rayleigh range"],title:"Gaussian beam spreading",topic:"Optics"} as const satisfies Omit<PhysicsDiagramDefinition,"component">;
+export function GaussianFarFieldSpread({className,showCaption=true,style}:PhysicsDiagramProps){const fg="var(--foreground)";return <PhysicsDiagramFrame caption={showCaption?metadata.summary:undefined} className={className} style={{maxWidth:720,...style}} title={metadata.title}><svg aria-label={metadata.title} className="h-auto w-full" role="img" viewBox="0 0 720 390"><rect fill="transparent" height="390" width="720"/>
+ <path d="M 75 145 C 210 148 310 135 400 95 C 505 50 600 43 670 42 M 75 245 C 210 242 310 255 400 295 C 505 340 600 347 670 348" fill="none" stroke="var(--chart-1)" strokeWidth="3"/>
+ <line stroke={fg} strokeDasharray="6 5" x1="55" x2="680" y1="195" y2="195"/><line stroke={fg} strokeWidth="2" x1="75" x2="75" y1="145" y2="245"/><SvgLabel fill={fg} x={52} y={151}>w₀</SvgLabel>
+ <line stroke={fg} strokeWidth="1.8" x1="75" x2="490" y1="195" y2="83"/><path d="M 160 195 A 85 85 0 0 0 157 173" fill="none" stroke={fg}/><SvgLabel fill={fg} x={175} y={177}>Δθ</SvgLabel><SvgLabel fill={fg} x={360} y={220}>zᵣ</SvgLabel>
+ </svg></PhysicsDiagramFrame>}
+export const diagram={...metadata,component:GaussianFarFieldSpread} satisfies PhysicsDiagramDefinition;

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "phase-equilibria-and-transitions",
+  "topicId": "single-component-phase-diagrams",
+  "topicTitle": "Single-Component Phase Diagrams",
+  "paperTags": [
+    "thermodynamics",
+    "phase-equilibria-and-transitions"
+  ],
+  "questions": [
+    {
+      "id": "single-component-phase-diagrams-001",
+      "prompt": "Using the model for Single-Component Phase Diagrams, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nApply the model for Single-Component Phase Diagrams under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-002",
+      "prompt": "Using the model for Single-Component Phase Diagrams, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nApply the model for Single-Component Phase Diagrams under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-003",
+      "prompt": "A proposed solution to the following Single-Component Phase Diagrams problem gives The three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams and the data stated in the problem.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe proposed result is verified: The three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-004",
+      "prompt": "A proposed solution to the following Single-Component Phase Diagrams problem gives The equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams and the data stated in the problem.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe proposed result is verified: The equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-005",
+      "prompt": "Starting from the stated model for Single-Component Phase Diagrams, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nFor a non-reacting system, the Gibbs phase rule gives the number of independent intensive variables:\n\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nFor a non-reacting system, the Gibbs phase rule gives the number of independent intensive variables:\n\nApplying the stated definitions and constraint gives\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nFor one component, \\(C=1\\), so a single-phase region has \\(F=2\\): pressure and temperature may be varied independently without changing the number of phases. A two-phase boundary has \\(F=1\\), so choosing its temperature fixes its equilibrium pressure. A triple point has \\(F=0\\), making its pressure and temperature fixed properties of the substance.\n\nFinal answer:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Single-Component Phase Diagrams constraint.",
+      "rating": "*",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-006",
+      "prompt": "Derive the following Single-Component Phase Diagrams relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nAt specified \\(p\\) and \\(T\\), compare the candidate phases through\n\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nBegin from the preceding result\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nFor one component, \\(C=1\\), so a single-phase region has \\(F=2\\): pressure and temperature may be varied independently without changing the number of phases. A two-phase boundary has \\(F=1\\), so choosing its temperature fixes its equilibrium pressure. A triple point has \\(F=0\\), making its pressure and temperature fixed properties of the substance.\n\nAt specified \\(p\\) and \\(T\\), compare the candidate phases through\n\nApplying the stated definitions and constraint gives\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nFinal answer:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Single-Component Phase Diagrams constraint.",
+      "rating": "*+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-007",
+      "prompt": "Starting from the first Single-Component Phase Diagrams relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nA single-component phase diagram maps the equilibrium phase of one chemically independent substance. On a pressure-temperature diagram, each open region contains one stable phase, while a boundary contains two coexisting phases. The stable phase at fixed pressure and temperature is the one with the lowest molar Gibbs free energy, which is the molar chemical potential.\n\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nStart with\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nFor one component, \\(C=1\\), so a single-phase region has \\(F=2\\): pressure and temperature may be varied independently without changing the number of phases. A two-phase boundary has \\(F=1\\), so choosing its temperature fixes its equilibrium pressure. A triple point has \\(F=0\\), making its pressure and temperature fixed properties of the substance.\n\nAt specified \\(p\\) and \\(T\\), compare the candidate phases through\n\nTherefore\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-008",
+      "prompt": "Check the following Single-Component Phase Diagrams equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).\n\nInsert those units into\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-009",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Single-Component Phase Diagrams. Show the substitution or limiting argument rather than answering in words only.\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Single-Component Phase Diagrams.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-010",
+      "prompt": "Check the following Single-Component Phase Diagrams equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nWorking:\nUse these substitutions: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).\n\nInsert those units into\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nFinal answer:\nThe equation is dimensionally homogeneous under the stated definitions.\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.",
+      "rating": "***",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-011",
+      "prompt": "Verify that the following candidate result is consistent with the definitions and constraints of Single-Component Phase Diagrams. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nFinal answer:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Single-Component Phase Diagrams.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-012",
+      "prompt": "Rework this Single-Component Phase Diagrams problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-013",
+      "prompt": "Rework this Single-Component Phase Diagrams problem from a symbolic governing equation before inserting the numerical data or special-case assumptions: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nApply every condition stated in the problem.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nSubstitution back into the symbolic relation reproduces the data and expected physical behaviour.",
+      "rating": "****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-014",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-015",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-016",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-017",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-018",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: Apply the phase rule to a pure substance in a single phase, on a liquid-vapour boundary, and at a solid-liquid-vapour triple point.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nThe substance has one component, so set \\(C=1\\) in equation \\([1]\\). In one phase, \\(P=1\\) and \\(F=1-1+2=2\\). On a two-phase boundary, \\(P=2\\) and \\(F=1\\). At the triple point, \\(P=3\\) and \\(F=0\\). These values match the geometry: an area, a curve, and a point, respectively. Final result: the three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nFinal answer:\nThe three cases have \\(F=2\\), \\(F=1\\), and \\(F=0\\).\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-019",
+      "prompt": "Solve the following Single-Component Phase Diagrams problem and include an independent substitution, unit, sign, or normalization check: A constant-pressure path begins in a solid region, crosses the solid-liquid boundary, and later crosses the liquid-vapour boundary. Interpret the path.",
+      "answer": "Model:\nUse the model for Single-Component Phase Diagrams under the conditions in the problem.\n\nWorking:\nInside each region, equation \\([2]\\) identifies a unique lowest chemical potential. At the first crossing, solid and liquid chemical potentials are equal and melting can occur. The liquid is stable between the crossings. At the second crossing, liquid and vapour chemical potentials are equal and boiling can occur. Final result: the equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nFinal answer:\nThe equilibrium sequence is solid, solid-liquid coexistence, liquid, liquid-vapour coexistence, then vapour.\n\nCheck:\nThe result satisfies the governing equation and the stated physical constraints.",
+      "rating": "****+",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    },
+    {
+      "id": "single-component-phase-diagrams-020",
+      "prompt": "Reconstruct the complete mathematical chain for Single-Component Phase Diagrams, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\nNotation: \\(p,T\\) denotes pressure and absolute temperature; unit \\(\\mathrm{Pa, K}\\); \\(C,P,F\\) denotes numbers of components, coexisting phases, and independent intensive variables; dimensionless; \\(\\mu_m\\) denotes molar chemical potential of a phase; unit \\(\\mathrm{J mol^{-1}}\\); \\(V_m\\) denotes molar volume; unit \\(\\mathrm{m^{3} mol^{-1}}\\).",
+      "answer": "Model:\nA single-component phase diagram maps the equilibrium phase of one chemically independent substance. On a pressure-temperature diagram, each open region contains one stable phase, while a boundary contains two coexisting phases. The stable phase at fixed pressure and temperature is the one with the lowest molar Gibbs free energy, which is the molar chemical potential.\n\nCrossing a boundary changes which chemical potential is smallest. A pressure-volume diagram gives complementary information: a two-phase interval can occupy a range of total volumes because changing the phase amounts changes the mean molar volume, even though the coexistence pressure is fixed at a given temperature.\n\nWorking:\nStep 1:\n\\[\nF=C-P+2.\n\\tag*{[1]}\n\\]\n\nFor one component, \\(C=1\\), so a single-phase region has \\(F=2\\): pressure and temperature may be varied independently without changing the number of phases. A two-phase boundary has \\(F=1\\), so choosing its temperature fixes its equilibrium pressure. A triple point has \\(F=0\\), making its pressure and temperature fixed properties of the substance.\n\nAt specified \\(p\\) and \\(T\\), compare the candidate phases through\n\nStep 2:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\mu_{m,\\mathrm{stable}}(p,T)\n=\\min\\!\\left\\{\\mu_{m,1}(p,T),\\mu_{m,2}(p,T),\\ldots\\right\\}.\n\\tag*{[2]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "thermodynamics",
+        "phase-equilibria-and-transitions"
+      ]
+    }
+  ]
+}
