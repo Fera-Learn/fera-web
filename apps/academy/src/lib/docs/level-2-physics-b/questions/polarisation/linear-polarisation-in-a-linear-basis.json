@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "linear-polarisation-in-a-linear-basis",
+  "topicTitle": "Linear Polarisation in a Linear Basis",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-01",
+      "prompt": "Write the primary governing relation for Linear Polarisation in a Linear Basis and define its applicability.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nLinear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-02",
+      "prompt": "Explain the specific physical principle represented by the primary Linear Polarisation in a Linear Basis relation and identify one condition required for its use.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nLinear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nWorking:\nThe relation applies under this condition:\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nThe mathematical statement is\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Linear Polarisation in a Linear Basis principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Linear Polarisation in a Linear Basis relation.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Linear Polarisation in a Linear Basis definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Linear Polarisation in a Linear Basis relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Linear Polarisation in a Linear Basis relation under the constraint stated in the topic.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nApply the stated constraint to\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Linear Polarisation in a Linear Basis constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-05",
+      "prompt": "Using the model for Linear Polarisation in a Linear Basis, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A normalized state has coefficients \\(a_1=1/2\\) and \\(a_2=\\sqrt3/2\\). Find its polarisation angle.",
+      "answer": "Model:\nApply the model for Linear Polarisation in a Linear Basis under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe coefficients are real and satisfy \\(|a_1|^2+|a_2|^2=1/4+3/4=1\\), so \\([1]\\) applies. Then \\[\\tan\\alpha=\\frac{a_2}{a_1}=\\sqrt3.\\] Both coefficients are positive, placing the direction in the first quadrant. Final result: \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\).\n\nFinal answer:\n\\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-06",
+      "prompt": "Using the model for Linear Polarisation in a Linear Basis, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Classify the normalized state \\((a_1,a_2)=(1/\\sqrt2,-1/\\sqrt2)\\).",
+      "answer": "Model:\nApply the model for Linear Polarisation in a Linear Basis under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe coefficient phases differ by \\(\\pi\\), but both are real after one common phase choice. Comparing with \\([1]\\) gives \\(\\cos\\alpha=1/\\sqrt2\\) and \\(\\sin\\alpha=-1/\\sqrt2\\). Final result: the state is linearly polarised at \\(\\alpha=-\\pi/4\\), not elliptically polarised.\n\nFinal answer:\nThe state is linearly polarised at \\(\\alpha=-\\pi/4\\), not elliptically polarised.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-07",
+      "prompt": "A proposed solution to the following Linear Polarisation in a Linear Basis problem gives \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A normalized state has coefficients \\(a_1=1/2\\) and \\(a_2=\\sqrt3/2\\). Find its polarisation angle.",
+      "answer": "Model:\nUse the model for Linear Polarisation in a Linear Basis and the data stated in the problem.\n\nWorking:\nThe coefficients are real and satisfy \\(|a_1|^2+|a_2|^2=1/4+3/4=1\\), so \\([1]\\) applies. Then \\[\\tan\\alpha=\\frac{a_2}{a_1}=\\sqrt3.\\] Both coefficients are positive, placing the direction in the first quadrant. Final result: \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\).\n\nFinal answer:\nThe proposed result is verified: \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-08",
+      "prompt": "For this problem on Linear Polarisation in a Linear Basis, derive the indicated intermediate result before completing the calculation.\nProblem: A normalized state has coefficients \\(a_1=1/2\\) and \\(a_2=\\sqrt3/2\\). Find its polarisation angle.\nIntermediate result to derive:\n\\[\\tan\\alpha=\\frac{a_2}{a_1}=\\sqrt3.\\]",
+      "answer": "Model:\nApply the stated Linear Polarisation in a Linear Basis assumptions and preserve all units.\n\nWorking:\nThe coefficients are real and satisfy \\(|a_1|^2+|a_2|^2=1/4+3/4=1\\), so \\([1]\\) applies. Then \\[\\tan\\alpha=\\frac{a_2}{a_1}=\\sqrt3.\\] Both coefficients are positive, placing the direction in the first quadrant. Final result: \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\).\n\nFinal answer:\n\\[\\tan\\alpha=\\frac{a_2}{a_1}=\\sqrt3.\\]\n\nCheck:\nThe intermediate result leads to \\(\\alpha=\\pi/3=60^\\circ\\) from \\(+\\hat e_1\\) toward \\(+\\hat e_2\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-09",
+      "prompt": "A proposed solution to the following Linear Polarisation in a Linear Basis problem gives The state is linearly polarised at \\(\\alpha=-\\pi/4\\), not elliptically polarised. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Classify the normalized state \\((a_1,a_2)=(1/\\sqrt2,-1/\\sqrt2)\\).",
+      "answer": "Model:\nUse the model for Linear Polarisation in a Linear Basis and the data stated in the problem.\n\nWorking:\nThe coefficient phases differ by \\(\\pi\\), but both are real after one common phase choice. Comparing with \\([1]\\) gives \\(\\cos\\alpha=1/\\sqrt2\\) and \\(\\sin\\alpha=-1/\\sqrt2\\). Final result: the state is linearly polarised at \\(\\alpha=-\\pi/4\\), not elliptically polarised.\n\nFinal answer:\nThe proposed result is verified: The state is linearly polarised at \\(\\alpha=-\\pi/4\\), not elliptically polarised.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-10",
+      "prompt": "Starting from the stated model for Linear Polarisation in a Linear Basis, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nChoose an irrelevant common phase so that both coefficients are real. Normalisation then permits\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nChoose an irrelevant common phase so that both coefficients are real. Normalisation then permits\n\nApplying the stated definitions and constraint gives\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nFinal answer:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Polarisation in a Linear Basis constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-11",
+      "prompt": "Derive the following Linear Polarisation in a Linear Basis relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nThe complex and physical fields are therefore\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nBegin from the preceding result\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nFinal answer:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Polarisation in a Linear Basis constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-12",
+      "prompt": "Derive the following Linear Polarisation in a Linear Basis relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nBoth components contain the same oscillating factor, hence\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nApplying the stated definitions and constraint gives\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nFinal answer:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Polarisation in a Linear Basis constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-13",
+      "prompt": "Part (a): Starting from the first Linear Polarisation in a Linear Basis relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nStart with\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nTherefore\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-14",
+      "prompt": "Part (a): Starting from the first Linear Polarisation in a Linear Basis relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nTherefore\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-15",
+      "prompt": "Part (a): Check the following Linear Polarisation in a Linear Basis equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-16",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Linear Polarisation in a Linear Basis. Show the substitution or limiting argument rather than answering in words only.\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Linear Polarisation in a Linear Basis.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-17",
+      "prompt": "Part (a): Check the following Linear Polarisation in a Linear Basis equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-18",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Linear Polarisation in a Linear Basis. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Linear Polarisation in a Linear Basis.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-19",
+      "prompt": "Part (a): Check the following Linear Polarisation in a Linear Basis equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-polarisation-in-a-linear-basis-20",
+      "prompt": "Reconstruct the complete mathematical chain for Linear Polarisation in a Linear Basis, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear polarisation occurs when the two orthogonal field components have relative phase zero or \\(\\pi\\), so their real fields always remain in a fixed ratio. Adopt \\(+z\\) propagation, \\(e^{i(kz-\\omega t)}\\), and \\(\\hat e_1\\times\\hat e_2=\\hat z\\).\n\nwhenever the denominator is nonzero. The endpoint can reverse along the same line, but it cannot leave that line. Negative coefficients are handled by the angle quadrant, not by discarding signs.\n\nWorking:\nStep 1:\n\\[\na_1=\\cos\\alpha,\n\\qquad a_2=\\sin\\alpha,\n\\qquad |a_1|^2+|a_2|^2=1.\n\\tag*{[1]}\n\\]\n\nThe complex and physical fields are therefore\n\nStep 2:\n\\[\n\\vec E_0=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2),\n\\qquad\n\\vec E=E_0(\\cos\\alpha\\,\\hat e_1+\\sin\\alpha\\,\\hat e_2)\\cos(kz-\\omega t).\n\\tag*{[2]}\n\\]\n\nBoth components contain the same oscillating factor, hence\n\nStep 3:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\frac{E_2(z,t)}{E_1(z,t)}=\\tan\\alpha\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

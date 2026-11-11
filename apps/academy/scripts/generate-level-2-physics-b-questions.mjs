@@ -16,26 +16,9 @@ const questionRoot = path.join(courseRoot, "questions");
 const courseId = "level-2-physics-b";
 
 const ratings = [
-  "*",
-  "*+",
-  "*",
-  "*",
-  "*",
-  "*+",
-  "**",
-  "**",
-  "**+",
-  "***",
-  "***+",
-  "****",
-  "***+",
-  "****",
-  "**",
-  "***",
-  "****",
-  "****+",
-  "****",
-  "*****",
+  "*", "*", "*+", "*+", "**", "**", "**+", "**+", "***", "***",
+  "***+", "***+", "****", "****", "****+", "****+", "****+",
+  "*****", "*****", "*****",
 ];
 
 function findArrayLiteral(source, declaration) {
@@ -92,8 +75,8 @@ function normalizeRawMarkdown(value) {
   return value
     .replaceAll("\\\\(", "\\(")
     .replaceAll("\\\\)", "\\)")
-    .replaceAll("\\\\[", "\\[")
-    .replaceAll("\\\\]", "\\]")
+    .replace(/^\\\\\[\s*$/gm, "\\[")
+    .replace(/^\\\\\]\s*$/gm, "\\]")
     .trim();
 }
 
@@ -128,7 +111,11 @@ function proseParagraphs(value) {
     .map((paragraph) => paragraph.replace(/^#+\s+.*$/gm, "").trim())
     .filter(Boolean)
     .filter((paragraph) => !paragraph.startsWith("<"))
-    .filter((paragraph) => !/^[{}[\],\s]+$/.test(paragraph));
+    .filter((paragraph) => !/^[{}[\],\s]+$/.test(paragraph))
+    .filter((paragraph) =>
+      paragraph.split("\\(").length === paragraph.split("\\)").length &&
+      paragraph.split("\\[").length === paragraph.split("\\]").length
+    );
 }
 
 function extractDisplays(value) {
@@ -201,18 +188,6 @@ function extractExamples(value) {
   return examples;
 }
 
-function formatNotation(entry) {
-  const unit = entry.unit
-    ? entry.unit === "1"
-      ? "; dimensionless"
-      : `; unit \\(\\mathrm{${entry.unit}}\\)`
-    : "";
-  return `\\(${entry.symbol}\\) denotes ${entry.meaning}${unit}`;
-}
-
-function notationSummary(notation) {
-  return notation.map(formatNotation).join("; ");
-}
 
 function plainText(value) {
   return value.replaceAll("**", "").trim();
@@ -278,7 +253,7 @@ function buildQuestions({ content, sectionId, title, topicId }) {
   const displays = extractDisplays(core);
   const notation = extractNotation(content);
   const examples = extractExamples(content);
-  const tags = ["thermodynamics", sectionId];
+  const tags = ["physics-b", sectionId];
 
   if (notation.length < 3 || displays.length < 2 || examples.length !== 2) {
     throw new Error(
@@ -295,7 +270,6 @@ function buildQuestions({ content, sectionId, title, topicId }) {
         ),
       )
       .at(-1) ?? coreParagraphs.at(-1) ?? principle;
-  const glossary = notationSummary(notation);
   const candidates = [];
 
   function candidate(prompt, fields, rating) {
@@ -356,8 +330,8 @@ function buildQuestions({ content, sectionId, title, topicId }) {
       : context.before;
     candidate(
       index === 0
-        ? `Starting from the stated model for ${title}, write the governing mathematical relation and identify the constraint under which it applies.\n${equation.display}\nNotation: ${glossary}.`
-        : `Derive the following ${title} relation from the preceding result, showing the algebra, calculus, counting, or thermodynamic identity used at each step.\n${equation.display}\nNotation: ${glossary}.`,
+        ? `Starting from the stated model for ${title}, write the governing mathematical relation and identify the constraint under which it applies.\n${equation.display}`
+        : `Derive the following ${title} relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n${equation.display}`,
       {
         model: `${context.before}\n\n${applicability}`,
         working: `${previous ? `Begin from the preceding result\n${previous.display}\n\n` : ""}${transition}\n\nApplying the stated definitions and constraint gives\n${equation.display}\n\n${context.after}`,
@@ -375,7 +349,7 @@ function buildQuestions({ content, sectionId, title, topicId }) {
       proseParagraphs(core.slice(first.end, second.start)).join("\n\n") ||
       "Apply the definitions and constraints of the model.";
     candidate(
-      `Starting from the first ${title} relation, derive the second and show the missing mathematical steps.\nStart:\n${first.display}\n\nTarget:\n${second.display}\nNotation: ${glossary}.`,
+      `Starting from the first ${title} relation, derive the second and show the missing mathematical steps.\nStart:\n${first.display}\n\nTarget:\n${second.display}`,
       {
         model: `${principle}\n\n${applicability}`,
         working: `Start with\n${first.display}\n\n${transition}\n\nTherefore\n${second.display}`,
@@ -388,10 +362,10 @@ function buildQuestions({ content, sectionId, title, topicId }) {
 
   for (const equation of displays) {
     candidate(
-      `Check the following ${title} equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n${equation.display}\nNotation: ${glossary}.`,
+      `Check the following ${title} equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n${equation.display}`,
       {
         model: `Use the units and definitions supplied in the prompt.`,
-        working: `Use these substitutions: ${glossary}.\n\nInsert those units into\n${equation.display}\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.`,
+        working: `Insert the topic's defined units into\n${equation.display}\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.`,
         final: `The equation is dimensionally homogeneous under the stated definitions.`,
         check: `Changing one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.`,
       },
@@ -399,7 +373,7 @@ function buildQuestions({ content, sectionId, title, topicId }) {
     );
 
     candidate(
-      `Verify that the following candidate result is consistent with the definitions and constraints of ${title}. Show the substitution or limiting argument rather than answering in words only.\n${equation.display}\nNotation: ${glossary}.`,
+      `Verify that the following candidate result is consistent with the definitions and constraints of ${title}. Show the substitution or limiting argument rather than answering in words only.\n${equation.display}`,
       {
         model: applicability,
         working: `Substitute the definitions from the prompt into the candidate expression:\n${equation.display}\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.`,
@@ -436,7 +410,7 @@ function buildQuestions({ content, sectionId, title, topicId }) {
     })
     .join("\n\n");
   candidate(
-    `Reconstruct the complete mathematical chain for ${title}, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n${firstEquation.display}\n\nTarget:\n${lastEquation.display}\nNotation: ${glossary}.`,
+    `Reconstruct the complete mathematical chain for ${title}, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n${firstEquation.display}\n\nTarget:\n${lastEquation.display}`,
     {
       model: `${principle}\n\n${applicability}`,
       working: chainWorking,
@@ -462,14 +436,72 @@ function buildQuestions({ content, sectionId, title, topicId }) {
     );
   }
 
-  const selected = candidates.filter((entry) => entry !== synthesis).slice(0, 19);
+  const foundation = [
+    {
+      prompt: `Write the primary governing relation for ${title} and define its applicability.\n${firstEquation.display}`,
+      fields: {
+        model: principle,
+        working: `Under the model conditions, the primary relation is\n${firstEquation.display}`,
+        final: firstEquation.display,
+        check: `The symbols and units agree with the supplied notation and the stated model conditions.`,
+      },
+      rating: "*",
+    },
+    {
+      prompt: `Explain the specific physical principle represented by the primary ${title} relation and identify one condition required for its use.\n${firstEquation.display}`,
+      fields: {
+        model: principle,
+        working: `The relation applies under this condition:\n${applicability}\n\nThe mathematical statement is\n${firstEquation.display}`,
+        final: `The relation expresses the stated ${title} principle under its model constraint.`,
+        check: `Removing the stated constraint would invalidate or change the governing relation.`,
+      },
+      rating: "*",
+    },
+    {
+      prompt: `Check the units and sign or normalization convention in the primary ${title} relation.\n${firstEquation.display}`,
+      fields: {
+        model: `Use the ${title} definitions and units supplied in the prompt.`,
+        working: `Substitute the listed units into\n${firstEquation.display}\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.`,
+        final: `The primary ${title} relation is dimensionally and conventionally consistent.`,
+        check: `An incompatible unit or reversed convention would break the equality or physical prediction.`,
+      },
+      rating: "*+",
+    },
+    {
+      prompt: `Predict the limiting or special-case behaviour of the primary ${title} relation under the constraint stated in the topic.\n${firstEquation.display}`,
+      fields: {
+        model: applicability,
+        working: `Apply the stated constraint to\n${firstEquation.display}\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.`,
+        final: `The limiting behaviour is the one required by the stated ${title} constraint.`,
+        check: `The prediction remains consistent with the equation, dimensions, and physical bounds.`,
+      },
+      rating: "*+",
+    },
+  ];
+  const selected = [
+    ...foundation,
+    ...candidates.filter((entry) => entry !== synthesis),
+  ].slice(0, 19);
+  for (let index = 12; index < selected.length; index += 1) {
+    const entry = selected[index];
+    selected[index] = {
+      prompt: `Part (a): ${entry.prompt}\n\nPart (b): ${synthesis.prompt}`,
+      fields: {
+        model: `${entry.fields.model}\n\nFor the linked derivation, ${synthesis.fields.model}`,
+        working: `Part (a):\n${entry.fields.working}\n\nPart (b):\n${synthesis.fields.working}`,
+        final: `Part (a): ${entry.fields.final}\n\nPart (b): ${synthesis.fields.final}`,
+        check: `${entry.fields.check}\n\n${synthesis.fields.check}`,
+      },
+      rating: ratings[index],
+    };
+  }
   selected.push(synthesis);
 
   return selected.map((entry, index) => ({
-    id: `${topicId}-${String(index + 1).padStart(3, "0")}`,
+    id: `physics-b-${sectionId}-${topicId}-${String(index + 1).padStart(2, "0")}`,
     prompt: plainText(entry.prompt),
     answer: solution(entry.fields),
-    rating: index === 19 ? "*****" : entry.rating ?? ratings[index],
+    rating: ratings[index],
     paperTags: tags,
   }));
 }
@@ -480,16 +512,11 @@ const moduleLiteral = findArrayLiteral(
   "export const level2PhysicsBModules",
 );
 const modules = Function(`"use strict"; return (${moduleLiteral});`)();
-const thermodynamics = modules.find((module) => module.id === "thermodynamics");
-
-if (!thermodynamics) {
-  throw new Error("Thermodynamics module was not found in structure.ts");
-}
-
 let topicCount = 0;
 let questionCount = 0;
 
-for (const section of thermodynamics.sections) {
+for (const courseModule of modules) {
+  for (const section of courseModule.sections) {
   for (const topic of section.topics) {
     const topicId = slugify(topic.title);
     const contentPath = path.join(
@@ -512,7 +539,7 @@ for (const section of thermodynamics.sections) {
       sectionId: section.id,
       topicId,
       topicTitle: topic.title,
-      paperTags: ["thermodynamics", section.id],
+      paperTags: ["physics-b", section.id],
       questions,
     };
 
@@ -520,9 +547,10 @@ for (const section of thermodynamics.sections) {
     await fs.writeFile(outputPath, `${JSON.stringify(data, null, 2)}\n`);
     topicCount += 1;
     questionCount += questions.length;
+    }
   }
 }
 
 console.log(
-  `Generated ${questionCount} questions across ${topicCount} Thermodynamics topics.`,
+  `Generated ${questionCount} questions across ${topicCount} Physics B topics.`,
 );

@@ -49,6 +49,16 @@ import {
 } from "./level-2-mathematical-physics/structure";
 import { level2MathematicalPhysicsTopicBodies } from "./level-2-mathematical-physics/content";
 import { level2MathematicalPhysicsExamSets } from "./level-2-mathematical-physics/exams";
+import {
+  level2GeophysicsModules,
+  level2GeophysicsSections,
+} from "./level-2-geophysics/structure";
+import { level2GeophysicsTopicBodies } from "./level-2-geophysics/content";
+import { level2GeophysicsExamSets } from "./level-2-geophysics/exams";
+import {
+  level2GeophysicsCourseIntroBody,
+  level2GeophysicsCourseIntroHeadings,
+} from "./level-2-geophysics/course-page";
 
 export type CourseScope =
   | "level-1-math-i-physics"
@@ -58,7 +68,8 @@ export type CourseScope =
   | "level-1-physics"
   | "level-2-physics-a"
   | "level-2-physics-b"
-  | "level-2-mathematical-physics";
+  | "level-2-mathematical-physics"
+  | "level-2-geophysics";
 
 export type CourseMeta = {
   description: string;
@@ -147,6 +158,14 @@ export const academyCourses: CourseMeta[] = [
     slug: ["level-2-mathematical-physics"],
     description:
       "A second-year course in the mathematical structures used across physics, including vector spaces, matrices, linear operators, and spectral methods.",
+  },
+  {
+    label: "Level 2 - Geophysics",
+    scope: "level-2-geophysics",
+    href: "/level-2-geophysics",
+    slug: ["level-2-geophysics"],
+    description:
+      "A second-year environmental-geophysics course covering soils, groundwater, near-surface chemistry, and electrical properties.",
   },
 ];
 
@@ -1570,6 +1589,13 @@ function getLevel2MathematicalPhysicsTopicSlug(
   return ["level-2-mathematical-physics", section.id, slugify(topic.title)];
 }
 
+function getLevel2GeophysicsTopicSlug(
+  section: CourseSection,
+  topic: CourseTopic,
+) {
+  return ["level-2-geophysics", section.id, slugify(topic.title)];
+}
+
 function getCourseExamPapersSlug(course: CourseMeta) {
   return [...course.slug, "exam-papers"];
 }
@@ -1650,6 +1676,10 @@ function getLevel2MathematicalPhysicsQuestionsSlug() {
   return ["level-2-mathematical-physics", "questions"];
 }
 
+function getLevel2GeophysicsQuestionsSlug() {
+  return ["level-2-geophysics", "questions"];
+}
+
 function getLevel1PhysicsEquationSheetSlug() {
   return ["level-1-physics", "equation-sheet"];
 }
@@ -1689,6 +1719,10 @@ function getLevel2MathematicalPhysicsExamPaperSlug(
   return ["level-2-mathematical-physics", "exam-papers", setId, paperId];
 }
 
+function getLevel2GeophysicsExamPaperSlug(setId: string, paperId: string) {
+  return ["level-2-geophysics", "exam-papers", setId, paperId];
+}
+
 export function getCourseExamPapersHref(course: CourseMeta) {
   return `/${getCourseExamPapersSlug(course).join("/")}`;
 }
@@ -1718,6 +1752,7 @@ const sectionsByCourseScope = new Map<CourseScope, CourseSection[]>([
   ["level-2-physics-a", level2PhysicsASections],
   ["level-2-physics-b", level2PhysicsBSections],
   ["level-2-mathematical-physics", level2MathematicalPhysicsSections],
+  ["level-2-geophysics", level2GeophysicsSections],
 ]);
 
 export function getCourseQuestionTopicOptions(
@@ -1788,6 +1823,13 @@ const courseIntroContent = new Map<
     {
       body: level1PhysicsCourseIntroBody,
       headings: level1PhysicsCourseIntroHeadings,
+    },
+  ],
+  [
+    "level-2-geophysics",
+    {
+      body: level2GeophysicsCourseIntroBody,
+      headings: level2GeophysicsCourseIntroHeadings,
     },
   ],
 ]);
@@ -1931,6 +1973,15 @@ const level2MathematicalPhysicsQuestionsPage = createEditorialPage({
   badges: ["Questions"],
 });
 
+const level2GeophysicsQuestionsPage = createEditorialPage({
+  slug: getLevel2GeophysicsQuestionsSlug(),
+  title: "Questions",
+  description: "Random Level 2 - Geophysics questions with filters.",
+  category: "Level 2 - Geophysics",
+  order: 135,
+  badges: ["Questions"],
+});
+
 const level1PhysicsEquationSheetPage = createEditorialPage({
   slug: getLevel1PhysicsEquationSheetSlug(),
   title: "Equation Sheet",
@@ -2060,6 +2111,21 @@ const level2MathematicalPhysicsExamPaperPages =
       }),
     ),
   );
+
+const level2GeophysicsExamPaperPages = level2GeophysicsExamSets.flatMap(
+  (set, setIndex) =>
+    set.papers.map((paper, paperIndex) =>
+      createEditorialPage({
+        slug: getLevel2GeophysicsExamPaperSlug(set.id, paper.id),
+        title: `${set.label}: ${paper.label}`,
+        navLabel: paper.label,
+        description: paper.description,
+        category: "Level 2 - Geophysics",
+        order: 4985 + setIndex * 20 + paperIndex,
+        badges: ["Exam Paper", set.label],
+      }),
+    ),
+);
 
 const level1MathIPhysicsTopicPages = level1MathIPhysicsSections.flatMap(
   (section, sectionIndex) =>
@@ -2192,6 +2258,22 @@ const level2MathematicalPhysicsTopicPages =
     ),
   );
 
+const level2GeophysicsTopicPages = level2GeophysicsSections.flatMap(
+  (section, sectionIndex) =>
+    section.topics.map((topic, topicIndex) =>
+      createEditorialPage({
+        slug: getLevel2GeophysicsTopicSlug(section, topic),
+        title: topic.title,
+        navLabel: topic.navLabel ?? topic.title,
+        description: `Level 2 - Geophysics topic page in ${section.title}.`,
+        category: "Level 2 - Geophysics",
+        order: 9000 + sectionIndex * 100 + topicIndex,
+        badges: [section.title],
+        body: level2GeophysicsTopicBodies.get(topic.title),
+      }),
+    ),
+);
+
 export const docsPages: DocPage[] = [
   createEditorialPage({
     slug: [],
@@ -2211,6 +2293,7 @@ export const docsPages: DocPage[] = [
   level2PhysicsAQuestionsPage,
   level2PhysicsBQuestionsPage,
   level2MathematicalPhysicsQuestionsPage,
+  level2GeophysicsQuestionsPage,
   ...courseFlashcardsPages,
   level1MathPhysicsEquationSheetPage,
   level1MathIPhysicsEquationSheetPage,
@@ -2225,6 +2308,7 @@ export const docsPages: DocPage[] = [
   ...level2PhysicsAExamPaperPages,
   ...level2PhysicsBExamPaperPages,
   ...level2MathematicalPhysicsExamPaperPages,
+  ...level2GeophysicsExamPaperPages,
   ...level1MathIPhysicsTopicPages,
   ...level1MathIIPhysicsTopicPages,
   ...level1CalculusTopicPages,
@@ -2233,6 +2317,7 @@ export const docsPages: DocPage[] = [
   ...level2PhysicsATopicPages,
   ...level2PhysicsBTopicPages,
   ...level2MathematicalPhysicsTopicPages,
+  ...level2GeophysicsTopicPages,
 ];
 
 const academyOverviewSections: DocSectionMeta[] = [
@@ -2483,6 +2568,32 @@ const level2MathematicalPhysicsSidebarSections: DocSectionMeta[] = [
   })),
 ];
 
+const level2GeophysicsSidebarSections: DocSectionMeta[] = [
+  {
+    id: "level-2-geophysics-content",
+    title: "Content",
+    defaultOpen: true,
+    slugs: [
+      ["level-2-geophysics"],
+      getCourseExamPapersSlug(getCourseByScope("level-2-geophysics")),
+      getLevel2GeophysicsQuestionsSlug(),
+      getCourseFlashcardsSlug(getCourseByScope("level-2-geophysics")),
+    ],
+  },
+  ...level2GeophysicsModules.map((module) => ({
+    id: `level-2-geophysics-${module.id}`,
+    title: module.title,
+    defaultOpen: true,
+    children: module.sections.map((section) => ({
+      id: `level-2-geophysics-${section.id}`,
+      title: section.navLabel ?? section.title,
+      slugs: section.topics.map((topic) =>
+        getLevel2GeophysicsTopicSlug(section, topic),
+      ),
+    })),
+  })),
+];
+
 const level1MathIPhysicsSidebarPages = createCourseSidebarPages(
   "level-1-math-i-physics",
 );
@@ -2501,6 +2612,8 @@ const level2PhysicsBSidebarPages =
 const level2MathematicalPhysicsSidebarPages = createCourseSidebarPages(
   "level-2-mathematical-physics",
 );
+const level2GeophysicsSidebarPages =
+  createCourseSidebarPages("level-2-geophysics");
 
 const docsTreesByScope: Record<
   "academy" | CourseScope,
@@ -2538,6 +2651,10 @@ const docsTreesByScope: Record<
   "level-2-mathematical-physics": createDocsTree(
     level2MathematicalPhysicsSidebarSections,
     level2MathematicalPhysicsSidebarPages,
+  ),
+  "level-2-geophysics": createDocsTree(
+    level2GeophysicsSidebarSections,
+    level2GeophysicsSidebarPages,
   ),
 };
 

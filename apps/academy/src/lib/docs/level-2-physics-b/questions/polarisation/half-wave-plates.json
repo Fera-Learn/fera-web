@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "half-wave-plates",
+  "topicTitle": "Half-Wave Plates",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-half-wave-plates-01",
+      "prompt": "Write the primary governing relation for Half-Wave Plates and define its applicability.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nA half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-02",
+      "prompt": "Explain the specific physical principle represented by the primary Half-Wave Plates relation and identify one condition required for its use.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nA half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nWorking:\nThe relation applies under this condition:\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nThe mathematical statement is\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Half-Wave Plates principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Half-Wave Plates relation.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Half-Wave Plates definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Half-Wave Plates relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Half-Wave Plates relation under the constraint stated in the topic.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nApply the stated constraint to\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Half-Wave Plates constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-05",
+      "prompt": "Using the model for Half-Wave Plates, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A linear input is at \\(+25.0^\\circ\\) to the fast axis of an ideal half-wave plate. Find the output direction and net rotation.",
+      "answer": "Model:\nApply the model for Half-Wave Plates under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([3]\\) changes the angle from \\(\\alpha\\) to \\(-\\alpha\\). Therefore \\[\\alpha_{\\mathrm{out}}=-25.0^\\circ,\\qquad \\Delta\\alpha=-25.0^\\circ-25.0^\\circ=-50.0^\\circ.\\] Final result: the output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line.\n\nFinal answer:\nThe output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-06",
+      "prompt": "Using the model for Half-Wave Plates, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: What does an ideal half-wave plate do to left-circular input \\((1,i)/\\sqrt2\\) in its fast-slow basis?",
+      "answer": "Model:\nApply the model for Half-Wave Plates under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nApply \\([2]\\): \\[(1,i)/\\sqrt2\\longmapsto(1,-i)/\\sqrt2.\\] The latter is the right-circular coefficient pair in the fixed harmonic and observer convention. Final result: the half-wave plate converts left-circular to right-circular polarisation.\n\nFinal answer:\nThe half-wave plate converts left-circular to right-circular polarisation.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-07",
+      "prompt": "A proposed solution to the following Half-Wave Plates problem gives The output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A linear input is at \\(+25.0^\\circ\\) to the fast axis of an ideal half-wave plate. Find the output direction and net rotation.",
+      "answer": "Model:\nUse the model for Half-Wave Plates and the data stated in the problem.\n\nWorking:\nEquation \\([3]\\) changes the angle from \\(\\alpha\\) to \\(-\\alpha\\). Therefore \\[\\alpha_{\\mathrm{out}}=-25.0^\\circ,\\qquad \\Delta\\alpha=-25.0^\\circ-25.0^\\circ=-50.0^\\circ.\\] Final result: the output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line.\n\nFinal answer:\nThe proposed result is verified: The output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-08",
+      "prompt": "For this problem on Half-Wave Plates, derive the indicated intermediate result before completing the calculation.\nProblem: A linear input is at \\(+25.0^\\circ\\) to the fast axis of an ideal half-wave plate. Find the output direction and net rotation.\nIntermediate result to derive:\n\\[\\alpha_{\\mathrm{out}}=-25.0^\\circ,\\qquad \\Delta\\alpha=-25.0^\\circ-25.0^\\circ=-50.0^\\circ.\\]",
+      "answer": "Model:\nApply the stated Half-Wave Plates assumptions and preserve all units.\n\nWorking:\nEquation \\([3]\\) changes the angle from \\(\\alpha\\) to \\(-\\alpha\\). Therefore \\[\\alpha_{\\mathrm{out}}=-25.0^\\circ,\\qquad \\Delta\\alpha=-25.0^\\circ-25.0^\\circ=-50.0^\\circ.\\] Final result: the output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line.\n\nFinal answer:\n\\[\\alpha_{\\mathrm{out}}=-25.0^\\circ,\\qquad \\Delta\\alpha=-25.0^\\circ-25.0^\\circ=-50.0^\\circ.\\]\n\nCheck:\nThe intermediate result leads to The output lies at \\(-25.0^\\circ\\) to the fast axis, a \\(-50.0^\\circ\\) rotation of the input line. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-09",
+      "prompt": "A proposed solution to the following Half-Wave Plates problem gives The half-wave plate converts left-circular to right-circular polarisation. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: What does an ideal half-wave plate do to left-circular input \\((1,i)/\\sqrt2\\) in its fast-slow basis?",
+      "answer": "Model:\nUse the model for Half-Wave Plates and the data stated in the problem.\n\nWorking:\nApply \\([2]\\): \\[(1,i)/\\sqrt2\\longmapsto(1,-i)/\\sqrt2.\\] The latter is the right-circular coefficient pair in the fixed harmonic and observer convention. Final result: the half-wave plate converts left-circular to right-circular polarisation.\n\nFinal answer:\nThe proposed result is verified: The half-wave plate converts left-circular to right-circular polarisation.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-10",
+      "prompt": "For this problem on Half-Wave Plates, derive the indicated intermediate result before completing the calculation.\nProblem: What does an ideal half-wave plate do to left-circular input \\((1,i)/\\sqrt2\\) in its fast-slow basis?\nIntermediate result to derive:\n\\[(1,i)/\\sqrt2\\longmapsto(1,-i)/\\sqrt2.\\]",
+      "answer": "Model:\nApply the stated Half-Wave Plates assumptions and preserve all units.\n\nWorking:\nApply \\([2]\\): \\[(1,i)/\\sqrt2\\longmapsto(1,-i)/\\sqrt2.\\] The latter is the right-circular coefficient pair in the fixed harmonic and observer convention. Final result: the half-wave plate converts left-circular to right-circular polarisation.\n\nFinal answer:\n\\[(1,i)/\\sqrt2\\longmapsto(1,-i)/\\sqrt2.\\]\n\nCheck:\nThe intermediate result leads to The half-wave plate converts left-circular to right-circular polarisation. and is consistent with the original data.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-11",
+      "prompt": "Starting from the stated model for Half-Wave Plates, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nThe half-wave condition is\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nThe half-wave condition is\n\nApplying the stated definitions and constraint gives\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nFinal answer:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Half-Wave Plates constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-12",
+      "prompt": "Derive the following Half-Wave Plates relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nBegin from the preceding result\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nApplying the stated definitions and constraint gives\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nFinal answer:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Half-Wave Plates constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-13",
+      "prompt": "Part (a): Derive the following Half-Wave Plates relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nFor linear input at angle \\(\\alpha\\),\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nApplying the stated definitions and constraint gives\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Half-Wave Plates constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-14",
+      "prompt": "Part (a): Starting from the first Half-Wave Plates relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nTherefore\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-15",
+      "prompt": "Part (a): Starting from the first Half-Wave Plates relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nTherefore\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-16",
+      "prompt": "Part (a): Check the following Half-Wave Plates equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-17",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Half-Wave Plates. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Half-Wave Plates.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-18",
+      "prompt": "Part (a): Check the following Half-Wave Plates equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-19",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Half-Wave Plates. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nFor the linked derivation, A half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Half-Wave Plates.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-half-wave-plates-20",
+      "prompt": "Reconstruct the complete mathematical chain for Half-Wave Plates, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA half-wave plate is a linear retarder whose slow-axis component gains a relative phase of \\(\\pi\\) modulo \\(2\\pi\\). It reflects a linear polarisation direction across the fast axis and reverses circular handedness, apart from an irrelevant common phase.\n\nThus the output angle is \\(-\\alpha\\) relative to the fast axis, a rotation of \\(-2\\alpha\\). Also \\((\\hat e_f+i\\hat e_s)/\\sqrt2\\mapsto(\\hat e_f-i\\hat e_s)/\\sqrt2\\), so left- and right-circular states interchange.\n\nWorking:\nStep 1:\n\\[\n\\delta=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}=(2m+1)\\pi,\n\\qquad m\\in\\mathbb Z.\n\\tag*{[1]}\n\\]\n\nAfter removing common phase, its Jones action in the fast-slow basis is\n\nStep 2:\n\\[\n\\begin{pmatrix}E_f'\\\\E_s'\\end{pmatrix}\n=\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}\n\\begin{pmatrix}E_f\\\\E_s\\end{pmatrix}.\n\\tag*{[2]}\n\\]\n\nFor linear input at angle \\(\\alpha\\),\n\nStep 3:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\cos\\alpha\\,\\hat e_f+\\sin\\alpha\\,\\hat e_s\n\\longmapsto\n\\cos\\alpha\\,\\hat e_f-\\sin\\alpha\\,\\hat e_s\n=\\cos(-\\alpha)\\hat e_f+\\sin(-\\alpha)\\hat e_s.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

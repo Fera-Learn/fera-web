@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "index-notation-and-vector-projections",
+  "topicId": "summation-convention-and-kronecker-delta",
+  "topicTitle": "Summation Convention and Kronecker Delta",
+  "paperTags": [
+    "mathematical-physics",
+    "index-notation-and-vector-projections"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-01",
+      "prompt": "Expand \\(a_i b_i\\) in three dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe repeated index \\(i\\) runs from \\(1\\) to \\(3\\):\n\\[a_i b_i=a_1b_1+a_2b_2+a_3b_3.\\]\nFinal answer: \\(a_1b_1+a_2b_2+a_3b_3\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-02",
+      "prompt": "Calculate \\(\\delta_{23}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe Kronecker delta is zero when its indices differ:\n\\[\\delta_{23}=0.\\]\nFinal answer: \\(0\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-03",
+      "prompt": "Calculate \\(\\delta_{ii}\\) in four dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nContracting equal indices sums the four diagonal ones:\n\\[\\delta_{ii}=\\delta_{11}+\\delta_{22}+\\delta_{33}+\\delta_{44}=4.\\]\nFinal answer: \\(4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-04",
+      "prompt": "Expand \\(A_{ij}x_j\\) for \\(i=2\\) in three dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nOnly \\(j\\) is summed:\n\\[A_{2j}x_j=A_{21}x_1+A_{22}x_2+A_{23}x_3.\\]\nFinal answer: \\(A_{21}x_1+A_{22}x_2+A_{23}x_3\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-05",
+      "prompt": "Simplify \\(\\delta_{ij}a_j\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe delta selects the component with \\(j=i\\):\n\\[\\delta_{ij}a_j=a_i.\\]\nFinal answer: \\(a_i\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-06",
+      "prompt": "Simplify \\(\\delta_{ij}A_{jk}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nContracting over \\(j\\) replaces \\(j\\) by \\(i\\):\n\\[\\delta_{ij}A_{jk}=A_{ik}.\\]\nFinal answer: \\(A_{ik}\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-07",
+      "prompt": "Simplify \\(\\delta_{ij}\\delta_{jk}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe first contraction gives \\(\\delta_{ik}\\):\n\\[\\delta_{ij}\\delta_{jk}=\\delta_{ik}.\\]\nFinal answer: \\(\\delta_{ik}\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-08",
+      "prompt": "Simplify \\(\\delta_{ij}\\delta_{ji}\\) in \\(n\\) dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nFirst contract one delta, then take the trace:\n\\[\\delta_{ij}\\delta_{ji}=\\delta_{ii}=n.\\]\nFinal answer: \\(n\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-09",
+      "prompt": "Expand \\(A_{ij}B_{ji}\\) for two-dimensional matrices.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nBoth indices are dummy and each runs over \\(1,2\\):\n\\[A_{ij}B_{ji}=A_{11}B_{11}+A_{12}B_{21}+A_{21}B_{12}+A_{22}B_{22}.\\]\nFinal answer: \\(A_{11}B_{11}+A_{12}B_{21}+A_{21}B_{12}+A_{22}B_{22}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-10",
+      "prompt": "Simplify \\(\\delta_{ij}\\delta_{kl}A_{jl}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nContract over \\(j\\) and \\(l\\) successively:\n\\[\\delta_{ij}A_{jl}=A_{il},\\qquad \\delta_{kl}A_{il}=A_{ik}.\\]\nFinal answer: \\(A_{ik}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-11",
+      "prompt": "Simplify \\(\\delta_{ij}A_{ij}\\) and express the result using matrix notation.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe delta forces \\(i=j\\):\n\\[\\delta_{ij}A_{ij}=A_{ii}=\\sum_i A_{ii}=\\operatorname{tr}A.\\]\nFinal answer: \\(\\operatorname{tr}A\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-12",
+      "prompt": "Verify \\(\\delta_{ij}x_i y_j=\\mathbf x\\cdot\\mathbf y\\) in three dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe delta sets \\(j=i\\):\n\\[\\delta_{ij}x_i y_j=x_i y_i=x_1y_1+x_2y_2+x_3y_3=\\mathbf x\\cdot\\mathbf y.\\]\nFinal answer: \\(\\delta_{ij}x_i y_j=\\mathbf x\\cdot\\mathbf y\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-13",
+      "prompt": "Determine the free indices in \\(T_{ij}=A_{ik}B_{kj}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe repeated index \\(k\\) is dummy. The indices appearing once on each side are \\(i,j\\).\nFinal answer: The free indices are \\(i\\) and \\(j\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-14",
+      "prompt": "Test whether \\(a_i=b_i+c_j\\) is a legal indexed equation.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe left side has free index \\(i\\). In \\(c_j\\), the index \\(j\\) appears once and is therefore free, so the right side has inconsistent free indices.\nFinal answer: The equation is illegal because its free indices do not match.",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-15",
+      "prompt": "Simplify \\(\\delta_{ij}\\delta_{jk}\\delta_{kl}a_l\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nContract from right to left:\n\\[\\delta_{kl}a_l=a_k,\\quad \\delta_{jk}a_k=a_j,\\quad \\delta_{ij}a_j=a_i.\\]\nFinal answer: \\(a_i\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-16",
+      "prompt": "Determine \\(c\\) if \\(\\delta_{ij}\\delta_{ij}=c\\) in \\(d\\) dimensions.",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nContract one index:\n\\[\\delta_{ij}\\delta_{ij}=\\delta_{ii}=d.\\]\nFinal answer: \\(c=d\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-17",
+      "prompt": "Simplify \\((\\delta_{ij}\\delta_{kl}-\\delta_{il}\\delta_{kj})A_{jk}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nThe first term is \\(\\delta_{ij}A_{jk}\\delta_{kl}=A_{il}\\). The second is \\(\\delta_{kj}A_{jk}\\delta_{il}=A_{jj}\\delta_{il}=(\\operatorname{tr}A)\\delta_{il}\\).\nFinal answer: \\(A_{il}-(\\operatorname{tr}A)\\delta_{il}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-18",
+      "prompt": "Prove \\(\\delta_{ij}\\delta_{jk}=\\delta_{ik}\\) from the component definition of \\(\\delta\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nFor fixed \\(i,k\\), the sum \\(\\sum_j\\delta_{ij}\\delta_{jk}\\) can be nonzero only at \\(j=i\\) and \\(j=k\\). If \\(i=k\\), one term equals one; if \\(i\\ne k\\), no term survives. Hence the sum equals \\(1\\) for \\(i=k\\) and \\(0\\) otherwise.\nFinal answer: \\(\\delta_{ij}\\delta_{jk}=\\delta_{ik}\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-19",
+      "prompt": "Prove \\(A_{ij}\\delta_{ij}=A_{ji}\\delta_{ij}\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nBoth contractions select diagonal components:\n\\[A_{ij}\\delta_{ij}=A_{ii}=\\operatorname{tr}A,\\qquad A_{ji}\\delta_{ij}=A_{ii}=\\operatorname{tr}A.\\]\nFinal answer: \\(A_{ij}\\delta_{ij}=A_{ji}\\delta_{ij}=\\operatorname{tr}A\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-summation-convention-and-kronecker-delta-20",
+      "prompt": "Prove \\(\\delta_{ij}A_{jk}B_{ki}=\\operatorname{tr}(AB)\\).",
+      "answer": "We need to perform the indicated indexed calculation.\nMethod: Apply the summation convention and Kronecker-delta contraction rules.\nFirst contract \\(j=i\\):\n\\[\\delta_{ij}A_{jk}B_{ki}=A_{ik}B_{ki}.\\]\nThe diagonal entries of \\(AB\\) are \\((AB)_{ii}=A_{ik}B_{ki}\\), so summing over \\(i\\) gives the trace.\nFinal answer: \\(\\delta_{ij}A_{jk}B_{ki}=\\operatorname{tr}(AB)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    }
+  ]
+}

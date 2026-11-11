@@ -57,6 +57,10 @@ import {
   level2MathematicalPhysicsExamSets,
 } from "@/lib/docs/level-2-mathematical-physics/exams";
 import {
+  getLevel2GeophysicsExamPaper,
+  level2GeophysicsExamSets,
+} from "@/lib/docs/level-2-geophysics/exams";
+import {
   getCourseBySlug,
   getCourseExamPapersHref,
   getCourseQuestionHref,
@@ -122,6 +126,7 @@ const level2PhysicsAPaperTopics: typeof level1PhysicsPaperTopics = [];
 const level2PhysicsBPaperTopics: typeof level1PhysicsPaperTopics = [];
 const level2MathematicalPhysicsPaperTopics: typeof level1PhysicsPaperTopics =
   [];
+const level2GeophysicsPaperTopics: typeof level1PhysicsPaperTopics = [];
 
 const examCourseConfigs = {
   "level-1-math-i-physics": {
@@ -163,6 +168,11 @@ const examCourseConfigs = {
     getPaper: getLevel2MathematicalPhysicsExamPaper,
     paperTopics: level2MathematicalPhysicsPaperTopics,
     sets: level2MathematicalPhysicsExamSets,
+  },
+  "level-2-geophysics": {
+    getPaper: getLevel2GeophysicsExamPaper,
+    paperTopics: level2GeophysicsPaperTopics,
+    sets: level2GeophysicsExamSets,
   },
 };
 

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "circular-birefringence",
+  "topicTitle": "Circular Birefringence",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-circular-birefringence-01",
+      "prompt": "Write the primary governing relation for Circular Birefringence and define its applicability.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-02",
+      "prompt": "Explain the specific physical principle represented by the primary Circular Birefringence relation and identify one condition required for its use.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nWorking:\nThe relation applies under this condition:\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nThe mathematical statement is\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Circular Birefringence principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Circular Birefringence relation.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Circular Birefringence definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Circular Birefringence relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Circular Birefringence relation under the constraint stated in the topic.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nApply the stated constraint to\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Circular Birefringence constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-05",
+      "prompt": "Using the model for Circular Birefringence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: At \\(\\lambda_0=600\\,\\mathrm{nm}\\), a medium has \\(n_--n_+=2.0\\times10^{-5}\\) over \\(l=3.00\\,\\mathrm{mm}\\). Find the rotation.",
+      "answer": "Model:\nApply the model for Circular Birefringence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([4]\\) gives \\[\\beta=\\frac{\\pi(2.0\\times10^{-5})(3.00\\times10^{-3})}{600\\times10^{-9}}=0.314\\,\\mathrm{rad}.\\] Converting with \\(180^\\circ/\\pi\\) gives \\(18.0^\\circ\\). Final result: \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention.\n\nFinal answer:\n\\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-06",
+      "prompt": "Using the model for Circular Birefringence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Why does lossless circular birefringence rotate rather than ellipticise an initially linear field?",
+      "answer": "Model:\nApply the model for Circular Birefringence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) changes only the phases of the two circular components. Their equal input magnitudes remain equal because no circular dichroism was included. Equal circular magnitudes always reconstruct a linear state; \\([4]\\) determines its new angle. Final result: pure circular birefringence preserves linearity and rotates the polarisation axis.\n\nFinal answer:\nPure circular birefringence preserves linearity and rotates the polarisation axis.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-07",
+      "prompt": "A proposed solution to the following Circular Birefringence problem gives \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: At \\(\\lambda_0=600\\,\\mathrm{nm}\\), a medium has \\(n_--n_+=2.0\\times10^{-5}\\) over \\(l=3.00\\,\\mathrm{mm}\\). Find the rotation.",
+      "answer": "Model:\nUse the model for Circular Birefringence and the data stated in the problem.\n\nWorking:\nEquation \\([4]\\) gives \\[\\beta=\\frac{\\pi(2.0\\times10^{-5})(3.00\\times10^{-3})}{600\\times10^{-9}}=0.314\\,\\mathrm{rad}.\\] Converting with \\(180^\\circ/\\pi\\) gives \\(18.0^\\circ\\). Final result: \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention.\n\nFinal answer:\nThe proposed result is verified: \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-08",
+      "prompt": "For this problem on Circular Birefringence, derive the indicated intermediate result before completing the calculation.\nProblem: At \\(\\lambda_0=600\\,\\mathrm{nm}\\), a medium has \\(n_--n_+=2.0\\times10^{-5}\\) over \\(l=3.00\\,\\mathrm{mm}\\). Find the rotation.\nIntermediate result to derive:\n\\[\\beta=\\frac{\\pi(2.0\\times10^{-5})(3.00\\times10^{-3})}{600\\times10^{-9}}=0.314\\,\\mathrm{rad}.\\]",
+      "answer": "Model:\nApply the stated Circular Birefringence assumptions and preserve all units.\n\nWorking:\nEquation \\([4]\\) gives \\[\\beta=\\frac{\\pi(2.0\\times10^{-5})(3.00\\times10^{-3})}{600\\times10^{-9}}=0.314\\,\\mathrm{rad}.\\] Converting with \\(180^\\circ/\\pi\\) gives \\(18.0^\\circ\\). Final result: \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention.\n\nFinal answer:\n\\[\\beta=\\frac{\\pi(2.0\\times10^{-5})(3.00\\times10^{-3})}{600\\times10^{-9}}=0.314\\,\\mathrm{rad}.\\]\n\nCheck:\nThe intermediate result leads to \\(\\beta=+0.314\\,\\mathrm{rad}=+18.0^\\circ\\) in the declared convention. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-09",
+      "prompt": "A proposed solution to the following Circular Birefringence problem gives Pure circular birefringence preserves linearity and rotates the polarisation axis. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Why does lossless circular birefringence rotate rather than ellipticise an initially linear field?",
+      "answer": "Model:\nUse the model for Circular Birefringence and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) changes only the phases of the two circular components. Their equal input magnitudes remain equal because no circular dichroism was included. Equal circular magnitudes always reconstruct a linear state; \\([4]\\) determines its new angle. Final result: pure circular birefringence preserves linearity and rotates the polarisation axis.\n\nFinal answer:\nThe proposed result is verified: Pure circular birefringence preserves linearity and rotates the polarisation axis.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-10",
+      "prompt": "Starting from the stated model for Circular Birefringence, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nLinear input along \\(\\hat e_1\\) is the equal circular superposition\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nLinear input along \\(\\hat e_1\\) is the equal circular superposition\n\nApplying the stated definitions and constraint gives\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nFinal answer:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Circular Birefringence constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-11",
+      "prompt": "Derive the following Circular Birefringence relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nAfter propagation through length \\(l\\),\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nBegin from the preceding result\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nFinal answer:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Circular Birefringence constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-12",
+      "prompt": "Derive the following Circular Birefringence relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhere\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nApplying the stated definitions and constraint gives\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nFinal answer:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Circular Birefringence constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-13",
+      "prompt": "Part (a): Derive the following Circular Birefringence relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nApplying the stated definitions and constraint gives\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Circular Birefringence constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-14",
+      "prompt": "Part (a): Starting from the first Circular Birefringence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nTherefore\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-15",
+      "prompt": "Part (a): Starting from the first Circular Birefringence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nTherefore\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-16",
+      "prompt": "Part (a): Starting from the first Circular Birefringence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nTherefore\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-17",
+      "prompt": "Part (a): Check the following Circular Birefringence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-18",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Circular Birefringence. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Circular Birefringence.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-19",
+      "prompt": "Part (a): Check the following Circular Birefringence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Circular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-circular-birefringence-20",
+      "prompt": "Reconstruct the complete mathematical chain for Circular Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nCircular birefringence gives opposite circular eigenstates different phase indices. Their relative phase changes with distance; because a linear state contains equal circular amplitudes, it remains linear but its direction rotates.\n\nThe sign in [4] follows the fixed basis, time, propagation, and viewing conventions. Quoting only \\(|\\beta|\\) avoids sign information needed for return paths and isolators.\n\nWorking:\nStep 1:\n\\[\n\\hat e_1=\\frac{\\hat e_++\\hat e_-}{\\sqrt2}.\n\\tag*{[1]}\n\\]\n\nAfter propagation through length \\(l\\),\n\nStep 2:\n\\[\n\\vec E_0(l)=\\frac{E_0}{\\sqrt2}\n\\left(e^{in_+k_0l}\\hat e_++e^{in_-k_0l}\\hat e_-\\right)\n=\\frac{E_0e^{in_+k_0l}}{\\sqrt2}\n\\left(\\hat e_++e^{i\\delta}\\hat e_-\\right),\n\\tag*{[2]}\n\\]\n\nwhere\n\nStep 3:\n\\[\n\\delta=k_0(n_--n_+)l.\n\\tag*{[3]}\n\\]\n\nEqual circular magnitudes produce linear polarisation, and their relative phase equals twice its angle. Therefore\n\nStep 4:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\beta=\\frac{\\delta}{2}\n=\\frac{\\pi(n_--n_+)l}{\\lambda_0}.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

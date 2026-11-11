@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "wire-grid-polarisers",
+  "topicTitle": "Wire-Grid Polarisers",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-01",
+      "prompt": "Write the primary governing relation for Wire-Grid Polarisers and define its applicability.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nParallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-02",
+      "prompt": "Explain the specific physical principle represented by the primary Wire-Grid Polarisers relation and identify one condition required for its use.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nParallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nWorking:\nThe relation applies under this condition:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nThe mathematical statement is\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Wire-Grid Polarisers principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Wire-Grid Polarisers relation.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Wire-Grid Polarisers definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Wire-Grid Polarisers relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Wire-Grid Polarisers relation under the constraint stated in the topic.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nApply the stated constraint to\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Wire-Grid Polarisers constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-05",
+      "prompt": "Using the model for Wire-Grid Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A field of amplitude \\(E_0=10.0\\,\\mathrm{V\\,m^{-1}}\\) is at \\(30^\\circ\\) to the wires. Find ideal transmitted and rejected amplitudes.",
+      "answer": "Model:\nApply the model for Wire-Grid Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe wire-parallel component is \\(E_w=E_0\\cos30^\\circ=8.66\\,\\mathrm{V\\,m^{-1}}\\). The perpendicular component is \\(E_p=E_0\\sin30^\\circ=5.00\\,\\mathrm{V\\,m^{-1}}\\). Equation \\([3]\\) transmits the latter and rejects the former. Final result: transmitted amplitude \\(5.00\\,\\mathrm{V\\,m^{-1}}\\) perpendicular to the wires; rejected amplitude \\(8.66\\,\\mathrm{V\\,m^{-1}}\\) parallel to them.\n\nFinal answer:\nTransmitted amplitude \\(5.00\\,\\mathrm{V\\,m^{-1}}\\) perpendicular to the wires; rejected amplitude \\(8.66\\,\\mathrm{V\\,m^{-1}}\\) parallel to them.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-06",
+      "prompt": "Using the model for Wire-Grid Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Why does a grid with spacing comparable to the wavelength cease to behave like an ideal homogeneous polariser?",
+      "answer": "Model:\nApply the model for Wire-Grid Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nCondition \\([3]\\) fails when \\(d\\) is not much smaller than \\(\\lambda\\). The wave then resolves the periodic structure, allowing diffraction and more complicated coupling rather than a simple parallel-current response. Final result: wavelength-scale spacing invalidates the ideal projection model and degrades polarisation separation.\n\nFinal answer:\nWavelength-scale spacing invalidates the ideal projection model and degrades polarisation separation.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-07",
+      "prompt": "A proposed solution to the following Wire-Grid Polarisers problem gives Transmitted amplitude \\(5.00\\,\\mathrm{V\\,m^{-1}}\\) perpendicular to the wires; rejected amplitude \\(8.66\\,\\mathrm{V\\,m^{-1}}\\) parallel to them. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A field of amplitude \\(E_0=10.0\\,\\mathrm{V\\,m^{-1}}\\) is at \\(30^\\circ\\) to the wires. Find ideal transmitted and rejected amplitudes.",
+      "answer": "Model:\nUse the model for Wire-Grid Polarisers and the data stated in the problem.\n\nWorking:\nThe wire-parallel component is \\(E_w=E_0\\cos30^\\circ=8.66\\,\\mathrm{V\\,m^{-1}}\\). The perpendicular component is \\(E_p=E_0\\sin30^\\circ=5.00\\,\\mathrm{V\\,m^{-1}}\\). Equation \\([3]\\) transmits the latter and rejects the former. Final result: transmitted amplitude \\(5.00\\,\\mathrm{V\\,m^{-1}}\\) perpendicular to the wires; rejected amplitude \\(8.66\\,\\mathrm{V\\,m^{-1}}\\) parallel to them.\n\nFinal answer:\nThe proposed result is verified: Transmitted amplitude \\(5.00\\,\\mathrm{V\\,m^{-1}}\\) perpendicular to the wires; rejected amplitude \\(8.66\\,\\mathrm{V\\,m^{-1}}\\) parallel to them.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-08",
+      "prompt": "A proposed solution to the following Wire-Grid Polarisers problem gives Wavelength-scale spacing invalidates the ideal projection model and degrades polarisation separation. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Why does a grid with spacing comparable to the wavelength cease to behave like an ideal homogeneous polariser?",
+      "answer": "Model:\nUse the model for Wire-Grid Polarisers and the data stated in the problem.\n\nWorking:\nCondition \\([3]\\) fails when \\(d\\) is not much smaller than \\(\\lambda\\). The wave then resolves the periodic structure, allowing diffraction and more complicated coupling rather than a simple parallel-current response. Final result: wavelength-scale spacing invalidates the ideal projection model and degrades polarisation separation.\n\nFinal answer:\nThe proposed result is verified: Wavelength-scale spacing invalidates the ideal projection model and degrades polarisation separation.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-09",
+      "prompt": "Starting from the stated model for Wire-Grid Polarisers, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nResolve the incident amplitude into grid directions:\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nResolve the incident amplitude into grid directions:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFinal answer:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Wire-Grid Polarisers constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-10",
+      "prompt": "Derive the following Wire-Grid Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFinal answer:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Wire-Grid Polarisers constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-11",
+      "prompt": "Derive the following Wire-Grid Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nApplying the stated definitions and constraint gives\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinite conductivity, non-negligible spacing, and frequency-dependent wire response reduce extinction. The rule \"wires show the polarisation direction\" is therefore wrong for transmission: the passed electric field is perpendicular to the visible wires.\n\nFinal answer:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Wire-Grid Polarisers constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-12",
+      "prompt": "Starting from the first Wire-Grid Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nParallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nStart with\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nTherefore\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nFinal answer:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-13",
+      "prompt": "Part (a): Starting from the first Wire-Grid Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nParallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nTherefore\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-14",
+      "prompt": "Part (a): Check the following Wire-Grid Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-15",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Wire-Grid Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Wire-Grid Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-16",
+      "prompt": "Part (a): Check the following Wire-Grid Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-17",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Wire-Grid Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Wire-Grid Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-18",
+      "prompt": "Part (a): Check the following Wire-Grid Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-19",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Wire-Grid Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nFor the linked derivation, Parallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Wire-Grid Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-wire-grid-polarisers-20",
+      "prompt": "Reconstruct the complete mathematical chain for Wire-Grid Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nParallel conducting wires respond strongly to the electric-field component along the wires: mobile charges move longitudinally and reradiate or dissipate that component. The perpendicular component drives much less current and is transmitted, so the transmission axis is perpendicular to the wires.\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nWorking:\nStep 1:\n\\[\n\\vec E_i=E_w\\hat w+E_p\\hat p,\n\\qquad \\hat w\\cdot\\hat p=0.\n\\tag*{[1]}\n\\]\n\nThe parallel component drives a conducting current density, while the perpendicular component does not have a continuous wire path:\n\nStep 2:\n\\[\n\\vec J_w=\\sigma E_w\\hat w,\n\\qquad\n\\vec J_p\\approx\\vec 0,\n\\tag*{[2]}\n\\]\n\nwhere \\(\\sigma\\) is the conductor's effective conductivity. In the ideal subwavelength-grid limit,\n\nStep 3:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nd\\ll\\lambda,\n\\qquad\n\\vec E_t\\approx E_p\\hat p,\n\\qquad\n\\vec E_r\\approx E_w\\hat w.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

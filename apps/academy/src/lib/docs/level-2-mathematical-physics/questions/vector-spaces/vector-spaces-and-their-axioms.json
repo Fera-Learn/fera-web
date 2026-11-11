@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "vector-spaces-and-their-axioms",
+  "topicTitle": "Vector Spaces and Their Axioms",
+  "paperTags": [
+    "mathematical-physics",
+    "vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-01",
+      "prompt": "Test whether \\(S=\\{(x,y)\\in\\mathbb R^2:y=0\\}\\) is closed under addition.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nTake \\((x_1,0),(x_2,0)\\in S\\). Then\n\\[(x_1,0)+(x_2,0)=(x_1+x_2,0)\\in S.\\]\nFinal answer: \\(S\\) is closed under addition.",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-02",
+      "prompt": "Test whether \\(S=\\{(x,y)\\in\\mathbb R^2:x+y=1\\}\\) contains the zero vector.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor \\((0,0)\\), the defining equation gives \\(0+0=0\\ne1\\).\nFinal answer: \\(\\mathbf0\notin S\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-03",
+      "prompt": "Test whether \\(S=\\{(x,y)\\in\\mathbb R^2:x\\ge0\\}\\) is closed under multiplication by real scalars.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe vector \\((1,0)\\in S\\), but multiplication by \\(-1\\) gives \\((-1,0)\notin S\\).\nFinal answer: \\(S\\) is not closed under scalar multiplication.",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-04",
+      "prompt": "Determine whether \\(S=\\{(x,y,z)\\in\\mathbb R^3:x-2y+z=0\\}\\) is closed under addition.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nIf \\(x_i-2y_i+z_i=0\\) for \\(i=1,2\\), then\n\\[(x_1+x_2)-2(y_1+y_2)+(z_1+z_2)=0+0=0.\\]\nFinal answer: \\(S\\) is closed under addition.",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-05",
+      "prompt": "Determine whether the polynomials of degree exactly \\(2\\), together with the usual operations, form a vector space.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nBoth \\(p(x)=x^2\\) and \\(q(x)=-x^2\\) have degree \\(2\\), but\n\\[p+q=0,\\]\nwhich does not have degree exactly \\(2\\).\nFinal answer: The set is not a vector space.",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-06",
+      "prompt": "Test closure under addition for \\(S=\\{A\\in M_{2}(\\mathbb R):\\operatorname{tr}A=0\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor \\(A,B\\in S\\), linearity of trace gives\n\\[\\operatorname{tr}(A+B)=\\operatorname{tr}A+\\operatorname{tr}B=0.\\]\nFinal answer: \\(S\\) is closed under addition.",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-07",
+      "prompt": "Determine the additive inverse of \\((x,y)\\) under \\((x,y)\\oplus(u,v)=(x+u-1,y+v-2)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFirst find the additive identity \\(\\mathbf0_\\oplus\\):\n\\[(x,y)\\oplus(a,b)=(x,y)\\Rightarrow(a,b)=(1,2).\\]\nFor the inverse \\((u,v)\\), solve\n\\[(x+u-1,y+v-2)=(1,2),\\]\nso \\(u=2-x\\), \\(v=4-y\\).\nFinal answer: The additive inverse is \\((2-x,4-y)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-08",
+      "prompt": "Verify associativity of \\(\\oplus\\) defined by \\(x\\oplus y=x+y+1\\) on \\(\\mathbb R\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\n\\[(x\\oplus y)\\oplus z=(x+y+1)+z+1=x+y+z+2,\\]\n\\[x\\oplus(y\\oplus z)=x+(y+z+1)+1=x+y+z+2.\\]\nFinal answer: \\((x\\oplus y)\\oplus z=x\\oplus(y\\oplus z)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-09",
+      "prompt": "Determine whether \\(S=\\{f\\in C^1(\\mathbb R):f(0)=0\\}\\) is closed under \\(af+bg\\) for arbitrary real \\(a,b\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor \\(f,g\\in S\\),\n\\[(af+bg)(0)=af(0)+bg(0)=0.\\]\nFinal answer: \\(af+bg\\in S\\), so \\(S\\) is closed under linear combinations.",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-10",
+      "prompt": "Test whether \\(S=\\{(x,y)\\in\\mathbb R^2:xy=0\\}\\) is closed under addition.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe vectors \\((1,0),(0,1)\\in S\\), but\n\\[(1,0)+(0,1)=(1,1),\\qquad1\\cdot1\\ne0.\\]\nFinal answer: \\(S\\) is not closed under addition.",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-11",
+      "prompt": "Determine whether the symmetric \\(3\\times3\\) real matrices form a vector space.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor symmetric \\(A,B\\) and real \\(c\\),\n\\[(A+B)^{\\mathsf T}=A^{\\mathsf T}+B^{\\mathsf T}=A+B,\\qquad(cA)^{\\mathsf T}=cA^{\\mathsf T}=cA.\\]\nThe zero matrix is symmetric, and additive inverses remain symmetric.\nFinal answer: The symmetric \\(3\\times3\\) matrices form a vector space.",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-12",
+      "prompt": "Determine whether \\(S=\\{p\\in P_3:p(1)=p'(1)=0\\}\\) is a vector space.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor \\(p,q\\in S\\) and scalars \\(a,b\\),\n\\[(ap+bq)(1)=0,\\qquad(ap+bq)'(1)=ap'(1)+bq'(1)=0.\\]\nAlso the zero polynomial satisfies both conditions.\nFinal answer: \\(S\\) is a vector space.",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-13",
+      "prompt": "Test all scalar distributive axioms for \\(a\\odot(x,y)=(ax,0)\\) with ordinary addition on \\(\\mathbb R^2\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nAlthough \\(a\\odot(\\mathbf u+\\mathbf v)=a\\odot\\mathbf u+a\\odot\\mathbf v\\) and \\((a+b)\\odot\\mathbf u=a\\odot\\mathbf u+b\\odot\\mathbf u\\), the unit axiom fails:\n\\[1\\odot(x,y)=(x,0)\\ne(x,y)\\]\nwhen \\(y\\ne0\\).\nFinal answer: The operation fails the scalar identity axiom and does not define a vector space.",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-14",
+      "prompt": "Determine all real \\(c\\) for which \\(S_c=\\{(x,y):x+y=c\\}\\) is a vector space under ordinary operations.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA vector space must contain \\((0,0)\\), requiring \\(0+0=c\\), so \\(c=0\\). For \\(c=0\\), the equation is homogeneous and is preserved by linear combinations.\nFinal answer: \\(S_c\\) is a vector space exactly when \\(c=0\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-15",
+      "prompt": "Construct a counterexample to closure under addition for the invertible \\(2\\times2\\) real matrices.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nChoose two invertible matrices\n\\[A=I,\\qquad B=-I.\\]\nBoth have nonzero determinant, but\n\\[A+B=0\\]\nis singular.\nFinal answer: \\(I\\) and \\(-I\\) are an explicit counterexample.",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-16",
+      "prompt": "Determine all real \\(k\\) for which \\(S_k=\\{(x,y,z):x+ky+z=0\\}\\) is a vector space.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nFor every real \\(k\\), the defining equation is homogeneous. If \\(L_k(x,y,z)=x+ky+z\\), then\n\\[L_k(a\\mathbf u+b\\mathbf v)=aL_k(\\mathbf u)+bL_k(\\mathbf v)=0.\\]\nFinal answer: Every \\(k\\in\\mathbb R\\) gives a vector space.",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-17",
+      "prompt": "Prove that the intersection \\(U\\cap W\\) of two subspaces of a vector space \\(V\\) is a subspace.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSince \\(\\mathbf0\\in U\\) and \\(\\mathbf0\\in W\\), \\(\\mathbf0\\in U\\cap W\\). If \\(\\mathbf u,\\mathbf v\\in U\\cap W\\) and \\(a,b\\) are scalars, then \\(a\\mathbf u+b\\mathbf v\\in U\\) and \\(a\\mathbf u+b\\mathbf v\\in W\\). Hence it belongs to the intersection.\nFinal answer: \\(U\\cap W\\) is a subspace of \\(V\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-18",
+      "prompt": "Prove that \\(S=\\{\\mathbf x\\in V:T\\mathbf x=\\mathbf0\\}\\) is a vector space when \\(T:V\\to W\\) is linear.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nLinearity gives \\(T\\mathbf0=\\mathbf0\\), so \\(\\mathbf0\\in S\\). For \\(\\mathbf x,\\mathbf y\\in S\\),\n\\[T(a\\mathbf x+b\\mathbf y)=aT\\mathbf x+bT\\mathbf y=\\mathbf0.\\]\nFinal answer: \\(S=\\ker T\\) is a vector space.",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-19",
+      "prompt": "Prove that the union of two subspaces \\(U\\cup W\\) is a subspace if and only if \\(U\\subseteq W\\) or \\(W\\subseteq U\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nIf one subspace contains the other, the union equals the larger subspace. Conversely, suppose neither inclusion holds. Choose \\(\\mathbf u\\in U\\setminus W\\) and \\(\\mathbf w\\in W\\setminus U\\). If \\(\\mathbf u+\\mathbf w\\in U\\), then \\(\\mathbf w=(\\mathbf u+\\mathbf w)-\\mathbf u\\in U\\), a contradiction. If it lies in \\(W\\), then \\(\\mathbf u\\in W\\), also a contradiction. Thus the union is not closed under addition.\nFinal answer: \\(U\\cup W\\) is a subspace exactly when one subspace contains the other.",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-vector-spaces-and-their-axioms-20",
+      "prompt": "Prove that the solution set of \\(A\\mathbf x=\\mathbf b\\) is a vector space exactly when it is nonempty and \\(\\mathbf b=\\mathbf0\\), apart from the degenerate case \\(A=0\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nIf \\(\\mathbf b=\\mathbf0\\), the solution set is \\(\\ker A\\), hence a vector space. Conversely, a vector-space solution set contains \\(\\mathbf0\\), so\n\\[A\\mathbf0=\\mathbf0=\\mathbf b.\\]\nThus \\(\\mathbf b=\\mathbf0\\). If \\(A=0\\) and \\(\\mathbf b\\ne0\\), the set is empty and is not a vector space.\nFinal answer: A nonempty solution set is a vector space if and only if \\(\\mathbf b=\\mathbf0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    }
+  ]
+}

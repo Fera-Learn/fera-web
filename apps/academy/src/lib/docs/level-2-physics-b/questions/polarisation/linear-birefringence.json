@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "linear-birefringence",
+  "topicTitle": "Linear Birefringence",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-linear-birefringence-01",
+      "prompt": "Write the primary governing relation for Linear Birefringence and define its applicability.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nLinear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-02",
+      "prompt": "Explain the specific physical principle represented by the primary Linear Birefringence relation and identify one condition required for its use.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nLinear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nWorking:\nThe relation applies under this condition:\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nThe mathematical statement is\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Linear Birefringence principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Linear Birefringence relation.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Linear Birefringence definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Linear Birefringence relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Linear Birefringence relation under the constraint stated in the topic.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nApply the stated constraint to\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Linear Birefringence constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-05",
+      "prompt": "Using the model for Linear Birefringence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A field \\(E_0(\\hat e_f+\\hat e_s)/\\sqrt2\\) acquires \\(\\delta=3\\pi/2\\). Find its output polarisation after dropping common phase.",
+      "answer": "Model:\nApply the model for Linear Birefringence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) gives \\[\\vec E_0(l)=\\frac{E_0}{\\sqrt2}(\\hat e_f+e^{i3\\pi/2}\\hat e_s)=\\frac{E_0}{\\sqrt2}(\\hat e_f-i\\hat e_s).\\] Relative phase \\(-\\pi/2\\) with equal magnitudes is right-circular under the declared convention. Final result: the output is right-circular.\n\nFinal answer:\nThe output is right-circular.\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-06",
+      "prompt": "Using the model for Linear Birefringence, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Which component accumulates the larger phase in the convention \\(e^{i(nk_0z-\\omega t)}\\)?",
+      "answer": "Model:\nApply the model for Linear Birefringence under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) assigns phases \\(n_fk_0l\\) and \\(n_sk_0l\\). Since \\(n_s\\gt n_f\\), their difference \\([3]\\) is positive. The word slow refers to the lower phase velocity \\(c/n_s\\), not to a negative phasor phase. Final result: the slow-axis component accumulates the larger phase.\n\nFinal answer:\nThe slow-axis component accumulates the larger phase.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-07",
+      "prompt": "A proposed solution to the following Linear Birefringence problem gives The output is right-circular. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A field \\(E_0(\\hat e_f+\\hat e_s)/\\sqrt2\\) acquires \\(\\delta=3\\pi/2\\). Find its output polarisation after dropping common phase.",
+      "answer": "Model:\nUse the model for Linear Birefringence and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) gives \\[\\vec E_0(l)=\\frac{E_0}{\\sqrt2}(\\hat e_f+e^{i3\\pi/2}\\hat e_s)=\\frac{E_0}{\\sqrt2}(\\hat e_f-i\\hat e_s).\\] Relative phase \\(-\\pi/2\\) with equal magnitudes is right-circular under the declared convention. Final result: the output is right-circular.\n\nFinal answer:\nThe proposed result is verified: The output is right-circular.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-08",
+      "prompt": "For this problem on Linear Birefringence, derive the indicated intermediate result before completing the calculation.\nProblem: A field \\(E_0(\\hat e_f+\\hat e_s)/\\sqrt2\\) acquires \\(\\delta=3\\pi/2\\). Find its output polarisation after dropping common phase.\nIntermediate result to derive:\n\\[\\vec E_0(l)=\\frac{E_0}{\\sqrt2}(\\hat e_f+e^{i3\\pi/2}\\hat e_s)=\\frac{E_0}{\\sqrt2}(\\hat e_f-i\\hat e_s).\\]",
+      "answer": "Model:\nApply the stated Linear Birefringence assumptions and preserve all units.\n\nWorking:\nEquation \\([2]\\) gives \\[\\vec E_0(l)=\\frac{E_0}{\\sqrt2}(\\hat e_f+e^{i3\\pi/2}\\hat e_s)=\\frac{E_0}{\\sqrt2}(\\hat e_f-i\\hat e_s).\\] Relative phase \\(-\\pi/2\\) with equal magnitudes is right-circular under the declared convention. Final result: the output is right-circular.\n\nFinal answer:\n\\[\\vec E_0(l)=\\frac{E_0}{\\sqrt2}(\\hat e_f+e^{i3\\pi/2}\\hat e_s)=\\frac{E_0}{\\sqrt2}(\\hat e_f-i\\hat e_s).\\]\n\nCheck:\nThe intermediate result leads to The output is right-circular. and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-09",
+      "prompt": "A proposed solution to the following Linear Birefringence problem gives The slow-axis component accumulates the larger phase. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Which component accumulates the larger phase in the convention \\(e^{i(nk_0z-\\omega t)}\\)?",
+      "answer": "Model:\nUse the model for Linear Birefringence and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) assigns phases \\(n_fk_0l\\) and \\(n_sk_0l\\). Since \\(n_s\\gt n_f\\), their difference \\([3]\\) is positive. The word slow refers to the lower phase velocity \\(c/n_s\\), not to a negative phasor phase. Final result: the slow-axis component accumulates the larger phase.\n\nFinal answer:\nThe proposed result is verified: The slow-axis component accumulates the larger phase.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-10",
+      "prompt": "Starting from the stated model for Linear Birefringence, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nResolve the incident field along the principal axes:\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nResolve the incident field along the principal axes:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFinal answer:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Birefringence constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-11",
+      "prompt": "Derive the following Linear Birefringence relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFinal answer:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Birefringence constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-12",
+      "prompt": "Derive the following Linear Birefringence relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nApplying the stated definitions and constraint gives\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFinal answer:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Linear Birefringence constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-13",
+      "prompt": "Part (a): Starting from the first Linear Birefringence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nTherefore\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-14",
+      "prompt": "Part (a): Starting from the first Linear Birefringence relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nTherefore\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-15",
+      "prompt": "Part (a): Check the following Linear Birefringence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-16",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Linear Birefringence. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Linear Birefringence.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-17",
+      "prompt": "Part (a): Check the following Linear Birefringence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-18",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Linear Birefringence. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Linear Birefringence.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-19",
+      "prompt": "Part (a): Check the following Linear Birefringence equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Linear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-linear-birefringence-20",
+      "prompt": "Reconstruct the complete mathematical chain for Linear Birefringence, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nLinear birefringence has two orthogonal linear eigenaxes. The fast axis has lower phase index and accumulates less phase than the slow axis over the same distance. Use \\(+z\\) propagation and \\(e^{i(kz-\\omega t)}\\).\n\nEqual input components cycle through linear, circular, orthogonal linear, opposite circular, and the original linear state as \\(\\delta\\) advances through \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\). Calling ordinary and extraordinary axes fast and slow without checking their indices can be wrong in a given crystal geometry.\n\nWorking:\nStep 1:\n\\[\n\\vec E_0(0)=A_f\\hat e_f+A_s\\hat e_s.\n\\tag*{[1]}\n\\]\n\nAfter thickness \\(l\\), factor out the common fast-axis phase:\n\nStep 2:\n\\[\n\\vec E_0(l)=A_fe^{in_fk_0l}\\hat e_f+A_se^{in_sk_0l}\\hat e_s\n=e^{in_fk_0l}\\left(A_f\\hat e_f+A_se^{i\\delta}\\hat e_s\\right).\n\\tag*{[2]}\n\\]\n\nSince \\(n_s>n_f\\), the signed retardance in this phasor convention is\n\nStep 3:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\delta=k_0(n_s-n_f)l\n=\\frac{2\\pi(n_s-n_f)l}{\\lambda_0}>0.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

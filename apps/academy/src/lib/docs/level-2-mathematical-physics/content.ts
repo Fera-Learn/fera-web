@@ -13,6 +13,21 @@ import { content as eigenvaluesEigenvectorsContent } from "./eigenvalues-and-dia
 import { content as commutingMatricesSimilarityTransformationsContent } from "./eigenvalues-and-diagonalisation/commuting-matrices-and-similarity-transformations/content";
 import { content as matrixDiagonalisationQuadraticFormsContent } from "./eigenvalues-and-diagonalisation/matrix-diagonalisation-and-quadratic-forms/content";
 import { content as matrixPowersExponentialsContent } from "./eigenvalues-and-diagonalisation/matrix-powers-and-exponentials/content";
+import { content as laplaceTransformDefinitionExistenceContent } from "./laplace-transforms/laplace-transform-definition-and-existence/content";
+import { content as laplaceTransformPropertiesContent } from "./laplace-transforms/laplace-transform-properties/content";
+import { content as inverseLaplaceTransformsConvolutionContent } from "./laplace-transforms/inverse-laplace-transforms-and-convolution/content";
+import { content as solvingOdesLaplaceTransformsContent } from "./laplace-transforms/solving-odes-with-laplace-transforms/content";
+import { content as gradientsLevelSurfacesContent } from "./differential-vector-calculus/gradients-and-level-surfaces/content";
+import { content as divergenceCurlVectorIdentitiesContent } from "./differential-vector-calculus/divergence-curl-and-vector-identities/content";
+import { content as laplacianMaxwellWaveEquationsContent } from "./differential-vector-calculus/laplacian-and-maxwell-wave-equations/content";
+import { content as steepestDescentLinearSystemsContent } from "./steepest-descent/steepest-descent-for-linear-systems/content";
+import { content as parametricCurvesLineIntegralsContent } from "./curves-and-line-integrals/parametric-curves-and-line-integrals/content";
+import { content as conservativeFieldsScalarPotentialsContent } from "./curves-and-line-integrals/conservative-fields-and-scalar-potentials/content";
+import { content as parametricSurfacesSurfaceIntegralsContent } from "./surface-and-volume-integrals/parametric-surfaces-and-surface-integrals/content";
+import { content as volumeIntegralsCoordinateJacobiansContent } from "./surface-and-volume-integrals/volume-integrals-and-coordinate-jacobians/content";
+import { content as divergenceTheoremElectrostaticsContent } from "./integration-theorems-and-vortices/divergence-theorem-and-electrostatics/content";
+import { content as greensTheoremPlaneContent } from "./integration-theorems-and-vortices/green-s-theorem-in-the-plane/content";
+import { content as stokesTheoremRankineVortexContent } from "./integration-theorems-and-vortices/stokes-theorem-and-the-rankine-vortex/content";
 
 export const level2MathematicalPhysicsTopicBodies = new Map<string, string>([
   [
@@ -54,4 +69,46 @@ export const level2MathematicalPhysicsTopicBodies = new Map<string, string>([
     matrixDiagonalisationQuadraticFormsContent,
   ],
   ["Matrix Powers and Exponentials", matrixPowersExponentialsContent],
+  [
+    "Laplace Transform Definition and Existence",
+    laplaceTransformDefinitionExistenceContent,
+  ],
+  ["Laplace Transform Properties", laplaceTransformPropertiesContent],
+  [
+    "Inverse Laplace Transforms and Convolution",
+    inverseLaplaceTransformsConvolutionContent,
+  ],
+  ["Solving ODEs with Laplace Transforms", solvingOdesLaplaceTransformsContent],
+  ["Gradients and Level Surfaces", gradientsLevelSurfacesContent],
+  [
+    "Divergence, Curl, and Vector Identities",
+    divergenceCurlVectorIdentitiesContent,
+  ],
+  [
+    "Laplacian and Maxwell Wave Equations",
+    laplacianMaxwellWaveEquationsContent,
+  ],
+  ["Steepest Descent for Linear Systems", steepestDescentLinearSystemsContent],
+  [
+    "Parametric Curves and Line Integrals",
+    parametricCurvesLineIntegralsContent,
+  ],
+  [
+    "Conservative Fields and Scalar Potentials",
+    conservativeFieldsScalarPotentialsContent,
+  ],
+  [
+    "Parametric Surfaces and Surface Integrals",
+    parametricSurfacesSurfaceIntegralsContent,
+  ],
+  [
+    "Volume Integrals and Coordinate Jacobians",
+    volumeIntegralsCoordinateJacobiansContent,
+  ],
+  [
+    "Divergence Theorem and Electrostatics",
+    divergenceTheoremElectrostaticsContent,
+  ],
+  ["Green's Theorem in the Plane", greensTheoremPlaneContent],
+  ["Stokes' Theorem and the Rankine Vortex", stokesTheoremRankineVortexContent],
 ]);

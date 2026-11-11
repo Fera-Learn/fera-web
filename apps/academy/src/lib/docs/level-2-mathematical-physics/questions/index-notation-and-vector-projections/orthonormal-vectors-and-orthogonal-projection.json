@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "index-notation-and-vector-projections",
+  "topicId": "orthonormal-vectors-and-orthogonal-projection",
+  "topicTitle": "Orthonormal Vectors and Orthogonal Projection",
+  "paperTags": [
+    "mathematical-physics",
+    "index-notation-and-vector-projections"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-01",
+      "prompt": "Calculate \\(\\mathbf e_1\\cdot(3,-2,5)\\), where \\(\\mathbf e_1=(1,0,0)\\).",
+      "answer": "We need the component along the first Cartesian unit vector.\nMethod: Use the Euclidean dot product.\n\\[\\mathbf e_1\\cdot(3,-2,5)=1(3)+0(-2)+0(5)=3.\\]\nFinal answer: \\(3\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-02",
+      "prompt": "Calculate the norm of \\(\\mathbf v=(3,4,0)\\).",
+      "answer": "We need the Euclidean norm of the vector.\nMethod: Take the square root of the self-dot product.\n\\[|\\mathbf v|=\\sqrt{3^2+4^2+0^2}=\\sqrt{25}=5.\\]\nFinal answer: \\(|\\mathbf v|=5\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-03",
+      "prompt": "Construct a unit vector parallel to \\(\\mathbf v=(2,-2,1)\\).",
+      "answer": "We need to normalize the given vector.\nMethod: Divide the vector by its norm.\n\\[|\\mathbf v|=\\sqrt{4+4+1}=3,\\qquad \\hat{\\mathbf v}=\\frac{\\mathbf v}{|\\mathbf v|}=\\left(\\frac23,-\\frac23,\\frac13\\right).\\]\nFinal answer: \\(\\hat{\\mathbf v}=(2/3,-2/3,1/3)\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-04",
+      "prompt": "Test whether \\(\\mathbf a=(1,2,-1)\\) and \\(\\mathbf b=(3,-1,1)\\) are orthogonal.",
+      "answer": "We need to test the orthogonality condition.\nMethod: Compute the dot product and compare it with zero.\n\\[\\mathbf a\\cdot\\mathbf b=1(3)+2(-1)+(-1)(1)=3-2-1=0.\\]\nFinal answer: \\(\\mathbf a\\perp\\mathbf b\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-05",
+      "prompt": "Calculate the projection of \\(\\mathbf b=(4,2)\\) onto \\(\\mathbf a=(1,1)\\).",
+      "answer": "We need the component of (mathbf b) parallel to (mathbf a).\nMethod: Use (operatorname{proj}_{mathbf a}mathbf b=(mathbf acdotmathbf b/|mathbf a|^2)mathbf a).\n\\[\\mathbf a\\cdot\\mathbf b=6,\\quad |\\mathbf a|^2=2,\\quad \\operatorname{proj}_{\\mathbf a}\\mathbf b=\\frac62(1,1)=(3,3).\\]\nFinal answer: \\(\\operatorname{proj}_{\\mathbf a}\\mathbf b=(3,3)\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-06",
+      "prompt": "Calculate the component of \\(\\mathbf b=(4,2)\\) perpendicular to \\(\\mathbf a=(1,1)\\).",
+      "answer": "We need the remainder after removing the parallel projection.\nMethod: Subtract the projection from the original vector.\n\\[\\mathbf b_{\\parallel}=(3,3),\\qquad \\mathbf b_{\\perp}=\\mathbf b-\\mathbf b_{\\parallel}=(4,2)-(3,3)=(1,-1).\\]\nFinal answer: \\(\\mathbf b_{\\perp}=(1,-1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-07",
+      "prompt": "Calculate the components of \\(\\mathbf b=(2,3,4)\\) parallel and perpendicular to \\(\\mathbf a=(0,1,1)\\).",
+      "answer": "We need both orthogonal components of the decomposition.\nMethod: Project onto the non-unit direction and subtract.\n\\[c=\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}=\\frac{7}{2},\\quad \\mathbf b_{\\parallel}=\\left(0,\\frac72,\\frac72\\right),\\quad \\mathbf b_{\\perp}=\\left(2,-\\frac12,\\frac12\\right).\\]\nFinal answer: \\(\\mathbf b_{\\parallel}=(0,7/2,7/2)\\), \\(\\mathbf b_{\\perp}=(2,-1/2,1/2)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-08",
+      "prompt": "Verify the orthogonality of the two components obtained by projecting \\(\\mathbf b=(1,4,2)\\) onto \\(\\mathbf a=(2,0,1)\\).",
+      "answer": "We need the decomposition and its dot-product check.\nMethod: Project, subtract, then calculate the component dot product.\n\\[c=\\frac{4}{5},\\quad \\mathbf b_{\\parallel}=\\left(\\frac85,0,\\frac45\\right),\\quad \\mathbf b_{\\perp}=\\left(-\\frac35,4,\\frac65\\right).\\]\\[\\mathbf b_{\\parallel}\\cdot\\mathbf b_{\\perp}=-\\frac{24}{25}+\\frac{24}{25}=0.\\]\nFinal answer: The components are \\((8/5,0,4/5)\\) and \\((-3/5,4,6/5)\\), with dot product \\(0\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-09",
+      "prompt": "Construct the matrix for orthogonal projection onto the line spanned by \\(\\mathbf a=(1,2)\\).",
+      "answer": "We need the linear map that projects every vector onto the given line.\nMethod: Use (P=mathbf amathbf a^{mathsf T}/(mathbf a^{mathsf T}mathbf a)).\n\\[\\mathbf a\\mathbf a^{\\mathsf T}=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix},\\qquad \\mathbf a^{\\mathsf T}\\mathbf a=5,\\]\\[P=\\frac15\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}.\\]\nFinal answer: \\(P=\\frac15\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-10",
+      "prompt": "Calculate the projection of \\(\\mathbf b=(2,-1,3)\\) onto the plane with unit normal \\(\\mathbf n=(0,0,1)\\).",
+      "answer": "We need the component of the vector lying in the plane.\nMethod: Subtract the normal component ((mathbf ncdotmathbf b)mathbf n).\n\\[\\mathbf b_{\\rm plane}=\\mathbf b-(\\mathbf n\\cdot\\mathbf b)\\mathbf n=(2,-1,3)-3(0,0,1)=(2,-1,0).\\]\nFinal answer: \\(\\mathbf b_{\\rm plane}=(2,-1,0)\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-11",
+      "prompt": "Calculate the projection of \\(\\mathbf v=(2,1,3)\\) onto the subspace spanned by the orthonormal vectors \\(\\mathbf e_1=(1,0,0)\\) and \\(\\mathbf e_2=(0,1/\\sqrt2,1/\\sqrt2)\\).",
+      "answer": "We need the sum of the two orthonormal projections.\nMethod: Use (sum_i(mathbf e_icdotmathbf v)mathbf e_i).\n\\[\\mathbf e_1\\cdot\\mathbf v=2,\\qquad \\mathbf e_2\\cdot\\mathbf v=\\frac4{\\sqrt2}=2\\sqrt2,\\]\\[\\operatorname{proj}\\mathbf v=2\\mathbf e_1+2\\sqrt2\\mathbf e_2=(2,2,2).\\]\nFinal answer: The subspace projection is \\((2,2,2)\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-12",
+      "prompt": "Verify that \\(P=\\frac15\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\) satisfies \\(P^2=P\\).",
+      "answer": "We need to check idempotence of the projection matrix.\nMethod: Multiply the matrix by itself.\n\\[P^2=\\frac1{25}\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}=\\frac1{25}\\begin{pmatrix}5&10\\\\10&20\\end{pmatrix}=\\frac15\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}=P.\\]\nFinal answer: \\(P^2=P\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-13",
+      "prompt": "Determine all real \\(k\\) for which \\((1,k,2)\\) is orthogonal to \\((2,-1,3)\\).",
+      "answer": "We need the parameter values that make the dot product zero.\nMethod: Form and solve the orthogonality equation.\n\\[(1,k,2)\\cdot(2,-1,3)=2-k+6=8-k.\\]\\[8-k=0\\quad\\Longrightarrow\\quad k=8.\\]\nFinal answer: \\(k=8\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-14",
+      "prompt": "Find the distance from \\(\\mathbf p=(3,1)\\) to the line spanned by \\(\\mathbf a=(1,2)\\).",
+      "answer": "We need the norm of the component perpendicular to the line.\nMethod: Project (mathbf p) onto (mathbf a), subtract, and take the norm.\n\\[\\mathbf p_{\\parallel}=\\frac{5}{5}(1,2)=(1,2),\\qquad \\mathbf p_{\\perp}=(2,-1),\\]\\[d=|\\mathbf p_{\\perp}|=\\sqrt{2^2+(-1)^2}=\\sqrt5.\\]\nFinal answer: The distance is \\(\\sqrt5\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-15",
+      "prompt": "Derive the parallel and perpendicular components of \\(\\mathbf b\\) relative to a nonzero vector \\(\\mathbf a\\).",
+      "answer": "We need formulas valid for arbitrary vectors.\nMethod: Write the parallel component as (cmathbf a) and impose perpendicularity on the remainder.\n\\[\\mathbf b_{\\perp}=\\mathbf b-c\\mathbf a,\\qquad 0=\\mathbf a\\cdot\\mathbf b_{\\perp}=\\mathbf a\\cdot\\mathbf b-c|\\mathbf a|^2.\\]\\[c=\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}.\\]\nFinal answer: \\(\\mathbf b_{\\parallel}=\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}\\mathbf a\\) and \\(\\mathbf b_{\\perp}=\\mathbf b-\\mathbf b_{\\parallel}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-16",
+      "prompt": "Determine all real \\(k\\) for which the projection of \\((k,2)\\) onto \\((1,1)\\) equals \\((3,3)\\).",
+      "answer": "We need the parameter that gives the specified projection.\nMethod: Equate the projection coefficient to three.\n\\[\\operatorname{proj}_{(1,1)}(k,2)=\\frac{k+2}{2}(1,1).\\]\\[\\frac{k+2}{2}=3\\quad\\Longrightarrow\\quad k=4.\\]\nFinal answer: \\(k=4\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-17",
+      "prompt": "Construct an orthonormal basis of the plane spanned by \\(\\mathbf v_1=(1,1,0)\\) and \\(\\mathbf v_2=(1,0,1)\\).",
+      "answer": "We need to apply Gram-Schmidt to the two spanning vectors.\nMethod: Normalize the first vector, remove its projection from the second, then normalize.\n\\[\\mathbf e_1=\\frac1{\\sqrt2}(1,1,0).\\]\\[\\mathbf u_2=\\mathbf v_2-(\\mathbf e_1\\cdot\\mathbf v_2)\\mathbf e_1=(1,0,1)-\\frac12(1,1,0)=\\left(\\frac12,-\\frac12,1\\right).\\]\\[|\\mathbf u_2|=\\sqrt{\\frac32},\\qquad \\mathbf e_2=\\frac1{\\sqrt6}(1,-1,2).\\]\nFinal answer: An orthonormal basis is \\(\\{(1,1,0)/\\sqrt2,(1,-1,2)/\\sqrt6\\}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-18",
+      "prompt": "Prove that \\(\\mathbf b-\\operatorname{proj}_{\\mathbf a}\\mathbf b\\) is orthogonal to every nonzero \\(\\mathbf a\\).",
+      "answer": "We need to prove the defining perpendicularity property.\nMethod: Substitute the projection formula and take the dot product with (mathbf a).\n\\[\\mathbf a\\cdot\\left(\\mathbf b-\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}\\mathbf a\\right)=\\mathbf a\\cdot\\mathbf b-\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}|\\mathbf a|^2=0.\\]\nFinal answer: \\(\\mathbf b-\\operatorname{proj}_{\\mathbf a}\\mathbf b\\perp\\mathbf a\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-19",
+      "prompt": "Prove that projection onto a line is unchanged when its spanning vector \\(\\mathbf a\\) is replaced by \\(c\\mathbf a\\), where \\(c\\ne0\\).",
+      "answer": "We need to compare the two projection formulas.\nMethod: Substitute the scaled spanning vector and cancel the scalar factors.\n\\[\\operatorname{proj}_{c\\mathbf a}\\mathbf b=\\frac{(c\\mathbf a)\\cdot\\mathbf b}{|c\\mathbf a|^2}(c\\mathbf a)=\\frac{c(\\mathbf a\\cdot\\mathbf b)}{c^2|\\mathbf a|^2}c\\mathbf a=\\frac{\\mathbf a\\cdot\\mathbf b}{|\\mathbf a|^2}\\mathbf a.\\]\nFinal answer: \\(\\operatorname{proj}_{c\\mathbf a}\\mathbf b=\\operatorname{proj}_{\\mathbf a}\\mathbf b\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-orthonormal-vectors-and-orthogonal-projection-20",
+      "prompt": "Prove that \\(P=\\mathbf a\\mathbf a^{\\mathsf T}/(\\mathbf a^{\\mathsf T}\\mathbf a)\\) is symmetric and idempotent for every nonzero real column vector \\(\\mathbf a\\).",
+      "answer": "We need to verify the two projection-matrix identities.\nMethod: Use transpose rules and associate the scalar middle product.\n\\[P^{\\mathsf T}=\\frac{(\\mathbf a\\mathbf a^{\\mathsf T})^{\\mathsf T}}{\\mathbf a^{\\mathsf T}\\mathbf a}=\\frac{\\mathbf a\\mathbf a^{\\mathsf T}}{\\mathbf a^{\\mathsf T}\\mathbf a}=P.\\]\\[P^2=\\frac{\\mathbf a\\mathbf a^{\\mathsf T}\\mathbf a\\mathbf a^{\\mathsf T}}{(\\mathbf a^{\\mathsf T}\\mathbf a)^2}=\\frac{\\mathbf a(\\mathbf a^{\\mathsf T}\\mathbf a)\\mathbf a^{\\mathsf T}}{(\\mathbf a^{\\mathsf T}\\mathbf a)^2}=P.\\]\nFinal answer: \\(P^{\\mathsf T}=P\\) and \\(P^2=P\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "index-notation-and-vector-projections",
+  "topicId": "levi-civita-symbol-and-vector-products",
+  "topicTitle": "Levi-Civita Symbol and Vector Products",
+  "paperTags": [
+    "mathematical-physics",
+    "index-notation-and-vector-projections"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-01",
+      "prompt": "Calculate \\(\\epsilon_{123}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThe ordered triple \\((1,2,3)\\) is the positive reference permutation, so \\(\\epsilon_{123}=1\\).\nFinal answer: \\(1\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-02",
+      "prompt": "Calculate \\(\\epsilon_{132}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nInterchanging \\(2\\) and \\(3\\) once reverses the sign:\n\\[\\epsilon_{132}=-\\epsilon_{123}=-1.\\]\nFinal answer: \\(-1\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-03",
+      "prompt": "Calculate \\(\\epsilon_{221}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nTwo indices are equal, so the alternating symbol vanishes:\n\\[\\epsilon_{221}=0.\\]\nFinal answer: \\(0\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-04",
+      "prompt": "Determine the sign of \\(\\epsilon_{312}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThe permutation \\((1,2,3)\\mapsto(3,1,2)\\) is a cyclic permutation and therefore even.\nFinal answer: \\(\\epsilon_{312}=1\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-05",
+      "prompt": "Calculate \\((1,2,3)\\times(2,0,-1)\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nUse the determinant formula:\n\\[\\mathbf a\\times\\mathbf b=(2(-1)-3(0),\\;3(2)-1(-1),\\;1(0)-2(2))=(-2,7,-4).\\]\nFinal answer: \\((-2,7,-4)\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-06",
+      "prompt": "Calculate \\(\\epsilon_{ijk}a_jb_k\\) for \\(\\mathbf a=(1,0,2)\\) and \\(\\mathbf b=(0,3,1)\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThe expression is \\(\\mathbf a\\times\\mathbf b\\):\n\\[\\mathbf a\\times\\mathbf b=(0(1)-2(3),\\;2(0)-1(1),\\;1(3)-0(0))=(-6,-1,3).\\]\nFinal answer: \\((-6,-1,3)\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-07",
+      "prompt": "Calculate the scalar triple product \\((1,2,0)\\cdot[(0,1,3)\\times(2,0,1)]\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nFirst calculate\n\\[(0,1,3)\\times(2,0,1)=(1,6,-2).\\]\nThen\n\\[(1,2,0)\\cdot(1,6,-2)=1+12=13.\\]\nFinal answer: \\(13\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-08",
+      "prompt": "Verify that \\((2,-1,1)\\times(1,3,0)\\) is orthogonal to both input vectors.",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThe cross product is\n\\[(-1\\cdot0-1\\cdot3,\\;1\\cdot1-2\\cdot0,\\;2\\cdot3-(-1)\\cdot1)=(-3,1,7).\\]\nChecks:\n\\[(-3,1,7)\\cdot(2,-1,1)=0,\\quad (-3,1,7)\\cdot(1,3,0)=0.\\]\nFinal answer: The cross product is \\((-3,1,7)\\), orthogonal to both vectors.",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-09",
+      "prompt": "Simplify \\(\\epsilon_{ijk}\\epsilon_{imn}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nContracting the first index gives the epsilon-delta identity\n\\[\\epsilon_{ijk}\\epsilon_{imn}=\\delta_{jm}\\delta_{kn}-\\delta_{jn}\\delta_{km}.\\]\nFinal answer: \\(\\delta_{jm}\\delta_{kn}-\\delta_{jn}\\delta_{km}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-10",
+      "prompt": "Simplify \\(\\epsilon_{ijk}\\epsilon_{ijl}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nUse the contraction identity and sum over \\(i,j\\):\n\\[\\epsilon_{ijk}\\epsilon_{ijl}=2\\delta_{kl}.\\]\nFinal answer: \\(2\\delta_{kl}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-11",
+      "prompt": "Simplify \\(\\epsilon_{ijk}\\epsilon_{ijk}\\) in three dimensions.",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThere are \\(3!=6\\) nonzero permutations and each square equals one:\n\\[\\epsilon_{ijk}\\epsilon_{ijk}=6.\\]\nFinal answer: \\(6\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-12",
+      "prompt": "Verify \\(\\mathbf a\\cdot(\\mathbf b\\times\\mathbf c)=\\mathbf b\\cdot(\\mathbf c\\times\\mathbf a)\\) for \\(\\mathbf a=(1,0,1)\\), \\(\\mathbf b=(2,1,0)\\), and \\(\\mathbf c=(0,1,2)\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\n\\[\\mathbf b\\times\\mathbf c=(2,-4,2),\\quad \\mathbf a\\cdot(\\mathbf b\\times\\mathbf c)=4.\\]\\[\\mathbf c\\times\\mathbf a=(1,2,-1),\\quad \\mathbf b\\cdot(\\mathbf c\\times\\mathbf a)=4.\\]\nFinal answer: Both scalar triple products equal \\(4\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-13",
+      "prompt": "Determine all real \\(k\\) for which \\((1,k,2)\\times(2,1,4)=\\mathbf0\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nThe cross product is\n\\[(1,k,2)\\times(2,1,4)=(4k-2,0,1-2k).\\]\nBoth nonzero component equations give \\(k=1/2\\).\nFinal answer: \\(k=1/2\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-14",
+      "prompt": "Calculate the area of the parallelogram spanned by \\((1,2,2)\\) and \\((2,0,1)\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\n\\[\\mathbf a\\times\\mathbf b=(2,3,-4),\\qquad |\\mathbf a\\times\\mathbf b|=\\sqrt{4+9+16}=\\sqrt{29}.\\]\nFinal answer: The area is \\(\\sqrt{29}\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-15",
+      "prompt": "Derive \\(\\mathbf a\\times(\\mathbf b\\times\\mathbf c)\\) using \\(\\epsilon_{ijk}\\epsilon_{klm}\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nIn components,\n\\[[\\mathbf a\\times(\\mathbf b\\times\\mathbf c)]_i=\\epsilon_{ijk}a_j\\epsilon_{klm}b_lc_m.\\]\nUsing \\(\\epsilon_{ijk}\\epsilon_{klm}=\\delta_{il}\\delta_{jm}-\\delta_{im}\\delta_{jl}\\),\n\\[=b_i a_jc_j-c_i a_jb_j.\\]\nFinal answer: \\(\\mathbf a\\times(\\mathbf b\\times\\mathbf c)=\\mathbf b(\\mathbf a\\cdot\\mathbf c)-\\mathbf c(\\mathbf a\\cdot\\mathbf b)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-16",
+      "prompt": "Simplify \\((\\mathbf a\\times\\mathbf b)\\cdot(\\mathbf c\\times\\mathbf d)\\) using delta contractions.",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\n\\[\\epsilon_{ijk}a_jb_k\\epsilon_{ilm}c_ld_m=(\\delta_{jl}\\delta_{km}-\\delta_{jm}\\delta_{kl})a_jb_kc_ld_m.\\]\\[=(\\mathbf a\\cdot\\mathbf c)(\\mathbf b\\cdot\\mathbf d)-(\\mathbf a\\cdot\\mathbf d)(\\mathbf b\\cdot\\mathbf c).\\]\nFinal answer: \\((\\mathbf a\\cdot\\mathbf c)(\\mathbf b\\cdot\\mathbf d)-(\\mathbf a\\cdot\\mathbf d)(\\mathbf b\\cdot\\mathbf c)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-17",
+      "prompt": "Determine \\(\\epsilon_{ijk}\\epsilon_{mjk}\\) in three dimensions.",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nContracting the last two indices leaves\n\\[\\epsilon_{ijk}\\epsilon_{mjk}=2\\delta_{im}.\\]\nFinal answer: \\(2\\delta_{im}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-18",
+      "prompt": "Prove that \\(\\mathbf a\\times\\mathbf a=\\mathbf0\\) using index notation.",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\n\\[(\\mathbf a\\times\\mathbf a)_i=\\epsilon_{ijk}a_ja_k.\\]\nInterchanging dummy indices \\(j,k\\) gives\n\\[\\epsilon_{ikj}a_ka_j=-\\epsilon_{ijk}a_ja_k.\\]\nThe expression equals its negative and must vanish.\nFinal answer: \\(\\mathbf a\\times\\mathbf a=\\mathbf0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-19",
+      "prompt": "Prove the Jacobi identity \\(\\mathbf a\\times(\\mathbf b\\times\\mathbf c)+\\mathbf b\\times(\\mathbf c\\times\\mathbf a)+\\mathbf c\\times(\\mathbf a\\times\\mathbf b)=\\mathbf0\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\nApply BAC-CAB to each term:\n\\[\\mathbf b(\\mathbf a\\cdot\\mathbf c)-\\mathbf c(\\mathbf a\\cdot\\mathbf b)+\\mathbf c(\\mathbf b\\cdot\\mathbf a)-\\mathbf a(\\mathbf b\\cdot\\mathbf c)+\\mathbf a(\\mathbf c\\cdot\\mathbf b)-\\mathbf b(\\mathbf c\\cdot\\mathbf a).\\]\nSymmetry of the dot product cancels the terms pairwise.\nFinal answer: The cyclic sum equals \\(\\mathbf0\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    },
+    {
+      "id": "math-physics-index-notation-and-vector-projections-levi-civita-symbol-and-vector-products-20",
+      "prompt": "Prove Lagrange's identity \\(|\\mathbf a\\times\\mathbf b|^2=|\\mathbf a|^2|\\mathbf b|^2-(\\mathbf a\\cdot\\mathbf b)^2\\).",
+      "answer": "We need to evaluate or prove the stated Levi-Civita/vector expression.\nMethod: Use permutation parity, determinant products, or epsilon-delta contractions as appropriate.\n\\[|\\mathbf a\\times\\mathbf b|^2=\\epsilon_{ijk}a_jb_k\\epsilon_{ilm}a_lb_m.\\]\nContract the epsilon symbols:\n\\[=(\\delta_{jl}\\delta_{km}-\\delta_{jm}\\delta_{kl})a_jb_ka_lb_m=(a_ja_j)(b_kb_k)-(a_jb_j)(a_kb_k).\\]\nFinal answer: \\(|\\mathbf a\\times\\mathbf b|^2=|\\mathbf a|^2|\\mathbf b|^2-(\\mathbf a\\cdot\\mathbf b)^2\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "index-notation-and-vector-projections"
+      ]
+    }
+  ]
+}

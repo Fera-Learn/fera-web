@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "beam-splitting-polarisers",
+  "topicTitle": "Beam-Splitting Polarisers",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-01",
+      "prompt": "Write the primary governing relation for Beam-Splitting Polarisers and define its applicability.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nA beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-02",
+      "prompt": "Explain the specific physical principle represented by the primary Beam-Splitting Polarisers relation and identify one condition required for its use.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nA beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nWorking:\nThe relation applies under this condition:\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nThe mathematical statement is\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Beam-Splitting Polarisers principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Beam-Splitting Polarisers relation.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Beam-Splitting Polarisers definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Beam-Splitting Polarisers relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Beam-Splitting Polarisers relation under the constraint stated in the topic.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nApply the stated constraint to\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Beam-Splitting Polarisers constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-05",
+      "prompt": "Using the model for Beam-Splitting Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A separator receives \\(I_p=6.0\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_s=4.0\\,\\mathrm{W\\,m^{-2}}\\). It has \\(T_p=0.95\\), \\(T_s=0.02\\), \\(R_p=0.05\\), and \\(R_s=0.98\\). Find total power intensity in each output.",
+      "answer": "Model:\nApply the model for Beam-Splitting Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nOrthogonal components contribute additive intensities. The transmitted output is \\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\] The reflected output is \\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\] Their sum is \\(10.0\\,\\mathrm{W\\,m^{-2}}\\), as required by \\([3]\\). Final result: \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\n\\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-06",
+      "prompt": "Using the model for Beam-Splitting Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A device produces two spatially separated beams carrying orthogonal linear polarisations with negligible loss. Is it absorptive?",
+      "answer": "Model:\nApply the model for Beam-Splitting Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nThe rejected component has not been converted mainly to heat; it appears in another propagating port. That is the defining routing action represented by \\([2]\\) and \\([3]\\). Final result: it is a beam-splitting polariser, not an absorptive polariser.\n\nFinal answer:\nIt is a beam-splitting polariser, not an absorptive polariser.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-07",
+      "prompt": "A proposed solution to the following Beam-Splitting Polarisers problem gives \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A separator receives \\(I_p=6.0\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_s=4.0\\,\\mathrm{W\\,m^{-2}}\\). It has \\(T_p=0.95\\), \\(T_s=0.02\\), \\(R_p=0.05\\), and \\(R_s=0.98\\). Find total power intensity in each output.",
+      "answer": "Model:\nUse the model for Beam-Splitting Polarisers and the data stated in the problem.\n\nWorking:\nOrthogonal components contribute additive intensities. The transmitted output is \\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\] The reflected output is \\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\] Their sum is \\(10.0\\,\\mathrm{W\\,m^{-2}}\\), as required by \\([3]\\). Final result: \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\nThe proposed result is verified: \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-08",
+      "prompt": "For this problem on Beam-Splitting Polarisers, derive the indicated intermediate result before completing the calculation.\nProblem: A separator receives \\(I_p=6.0\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_s=4.0\\,\\mathrm{W\\,m^{-2}}\\). It has \\(T_p=0.95\\), \\(T_s=0.02\\), \\(R_p=0.05\\), and \\(R_s=0.98\\). Find total power intensity in each output.\nIntermediate result to derive:\n\\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\]",
+      "answer": "Model:\nApply the stated Beam-Splitting Polarisers assumptions and preserve all units.\n\nWorking:\nOrthogonal components contribute additive intensities. The transmitted output is \\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\] The reflected output is \\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\] Their sum is \\(10.0\\,\\mathrm{W\\,m^{-2}}\\), as required by \\([3]\\). Final result: \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\n\\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\]\n\nCheck:\nThe intermediate result leads to \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-09",
+      "prompt": "For this problem on Beam-Splitting Polarisers, derive the indicated intermediate result before completing the calculation.\nProblem: A separator receives \\(I_p=6.0\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_s=4.0\\,\\mathrm{W\\,m^{-2}}\\). It has \\(T_p=0.95\\), \\(T_s=0.02\\), \\(R_p=0.05\\), and \\(R_s=0.98\\). Find total power intensity in each output.\nIntermediate result to derive:\n\\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\]",
+      "answer": "Model:\nApply the stated Beam-Splitting Polarisers assumptions and preserve all units.\n\nWorking:\nOrthogonal components contribute additive intensities. The transmitted output is \\[I_t=T_pI_p+T_sI_s=0.95(6.0)+0.02(4.0)=5.78\\,\\mathrm{W\\,m^{-2}}.\\] The reflected output is \\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\] Their sum is \\(10.0\\,\\mathrm{W\\,m^{-2}}\\), as required by \\([3]\\). Final result: \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\n\\[I_r=R_pI_p+R_sI_s=0.05(6.0)+0.98(4.0)=4.22\\,\\mathrm{W\\,m^{-2}}.\\]\n\nCheck:\nThe intermediate result leads to \\(I_t=5.78\\,\\mathrm{W\\,m^{-2}}\\) and \\(I_r=4.22\\,\\mathrm{W\\,m^{-2}}\\). and is consistent with the original data.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-10",
+      "prompt": "A proposed solution to the following Beam-Splitting Polarisers problem gives It is a beam-splitting polariser, not an absorptive polariser. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A device produces two spatially separated beams carrying orthogonal linear polarisations with negligible loss. Is it absorptive?",
+      "answer": "Model:\nUse the model for Beam-Splitting Polarisers and the data stated in the problem.\n\nWorking:\nThe rejected component has not been converted mainly to heat; it appears in another propagating port. That is the defining routing action represented by \\([2]\\) and \\([3]\\). Final result: it is a beam-splitting polariser, not an absorptive polariser.\n\nFinal answer:\nThe proposed result is verified: It is a beam-splitting polariser, not an absorptive polariser.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-11",
+      "prompt": "Starting from the stated model for Beam-Splitting Polarisers, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nResolve the incident field in the device eigenpolarisations:\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nResolve the incident field in the device eigenpolarisations:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFinal answer:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Beam-Splitting Polarisers constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-12",
+      "prompt": "Derive the following Beam-Splitting Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFinal answer:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Beam-Splitting Polarisers constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-13",
+      "prompt": "Part (a): Derive the following Beam-Splitting Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nApplying the stated definitions and constraint gives\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Beam-Splitting Polarisers constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-14",
+      "prompt": "Part (a): Starting from the first Beam-Splitting Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nTherefore\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-15",
+      "prompt": "Part (a): Starting from the first Beam-Splitting Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nTherefore\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-16",
+      "prompt": "Part (a): Check the following Beam-Splitting Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-17",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Beam-Splitting Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Beam-Splitting Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-18",
+      "prompt": "Part (a): Check the following Beam-Splitting Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-19",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Beam-Splitting Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nFor the linked derivation, A beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Beam-Splitting Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-beam-splitting-polarisers-20",
+      "prompt": "Reconstruct the complete mathematical chain for Beam-Splitting Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nA beam-splitting polariser sends two orthogonal polarisation components into different output paths instead of deliberately absorbing one. Reflection and birefringent refraction are common mechanisms; the useful output depends on which path is selected.\n\nAn ideal separator approaches \\(R_s=1,T_s=0\\) and \\(R_p=0,T_p=1\\), or the reverse. A birefringent prism instead uses polarisation-dependent refractive indices to create two refracted rays. Calling either physical direction the \"axis\" without specifying the selected output is ambiguous.\n\nWorking:\nStep 1:\n\\[\n\\vec E_i=E_p\\hat p+E_s\\hat s.\n\\tag*{[1]}\n\\]\n\nA lossless interface or polarising beam-splitter coating acts independently on those components:\n\nStep 2:\n\\[\n\\vec E_r=r_pE_p\\hat p_r+r_sE_s\\hat s_r,\n\\qquad\n\\vec E_t=t_pE_p\\hat p_t+t_sE_s\\hat s_t.\n\\tag*{[2]}\n\\]\n\nFor each incident component, energy conservation with correctly normalised power coefficients gives\n\nStep 3:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\nR_j+T_j=1,\n\\qquad j\\in\\{p,s\\}.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

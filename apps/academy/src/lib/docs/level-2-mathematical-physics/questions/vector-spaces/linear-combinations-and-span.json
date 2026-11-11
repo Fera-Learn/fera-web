@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "linear-combinations-and-span",
+  "topicTitle": "Linear Combinations and Span",
+  "paperTags": [
+    "mathematical-physics",
+    "vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-01",
+      "prompt": "Determine whether \\((3,5)\\) lies in \\(\\operatorname{span}\\{(1,1),(1,2)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSolve \\(a+b=3\\), \\(a+2b=5\\). Subtraction gives \\(b=2\\), then \\(a=1\\).\nFinal answer: Yes: \\((3,5)=(1,1)+2(1,2)\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-02",
+      "prompt": "Calculate \\(2(1,-1,0)-3(0,2,1)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\n\\[2(1,-1,0)-3(0,2,1)=(2,-2,0)+(0,-6,-3)=(2,-8,-3).\\]\nFinal answer: \\((2,-8,-3)\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-03",
+      "prompt": "Determine whether \\((1,1,1)\\) lies in \\(\\operatorname{span}\\{(1,0,1),(0,1,1)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA combination is \\((a,b,a+b)\\). Matching the first two components gives \\(a=b=1\\), but then the third is \\(2\\ne1\\).\nFinal answer: \\((1,1,1)\\) is not in the span.",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-04",
+      "prompt": "Find \\(a,b\\) such that \\(a(1,2)+b(2,-1)=(5,0)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSolve \\(a+2b=5\\), \\(2a-b=0\\). Thus \\(b=2a\\), so \\(5a=5\\) and \\((a,b)=(1,2)\\).\nFinal answer: \\(a=1\\), \\(b=2\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-05",
+      "prompt": "Determine the set spanned by \\((2,4)\\) and \\((-1,-2)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSince \\((-1,-2)=-\\frac12(2,4)\\), every combination is a multiple of \\((1,2)\\).\nFinal answer: \\(\\operatorname{span}\\{(2,4),(-1,-2)\\}=\\{t(1,2):t\\in\\mathbb R\\}\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-06",
+      "prompt": "Construct \\(p(x)=2+3x-x^2\\) as a linear combination of \\(1,x,x^2\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nMatching coefficients directly gives\n\\[p(x)=2(1)+3(x)-1(x^2).\\]\nFinal answer: The coefficient vector is \\((2,3,-1)\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-07",
+      "prompt": "Determine whether \\(\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}\\) lies in the span of \\(A=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}\\), \\(B=\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}\\), and \\(C=\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA combination is \\(aA+bB+cC=\\begin{pmatrix}a&b\\\\b&c\\end{pmatrix}\\). Matching entries gives \\((a,b,c)=(1,2,4)\\).\nFinal answer: The matrix equals \\(A+2B+4C\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-08",
+      "prompt": "Find all \\(k\\) for which \\((1,k,1)\\) lies in \\(\\operatorname{span}\\{(1,0,1),(0,1,0)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA combination has form \\((a,b,a)\\). Matching \\((1,k,1)\\) gives \\(a=1\\), \\(b=k\\), with no restriction on \\(k\\).\nFinal answer: Every \\(k\\in\\mathbb R\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-09",
+      "prompt": "Determine whether \\(1+x+x^2\\) lies in \\(\\operatorname{span}\\{1+x,x+x^2\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSet \\(a(1+x)+b(x+x^2)=1+x+x^2\\). Coefficients give \\(a=1\\), \\(b=1\\), but the \\(x\\)-coefficient becomes \\(a+b=2\\ne1\\).\nFinal answer: The polynomial is not in the span.",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-10",
+      "prompt": "Find the equation of the plane spanned by \\((1,0,1)\\) and \\((0,1,1)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA general combination is \\((a,b,a+b)\\). Writing \\((x,y,z)=(a,b,a+b)\\) gives \\(z=x+y\\).\nFinal answer: The plane is \\(z=x+y\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-11",
+      "prompt": "Determine the values of \\(k\\) for which \\((1,2,k)\\) lies in \\(\\operatorname{span}\\{(1,0,1),(0,1,2)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nA combination is \\((a,b,a+2b)\\). Matching gives \\(a=1,b=2\\), hence \\(k=1+4=5\\).\nFinal answer: \\(k=5\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-12",
+      "prompt": "Construct a spanning set for the solutions of \\(x+2y-z=0\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nLet \\(y=s,z=t\\). Then \\(x=-2s+t\\), so\n\\[(x,y,z)=s(-2,1,0)+t(1,0,1).\\]\nFinal answer: A spanning set is \\(\\{(-2,1,0),(1,0,1)\\}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-13",
+      "prompt": "Determine whether \\(\\{(1,0,1),(0,1,1),(1,1,2)\\}\\) spans the plane \\(z=x+y\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe third vector is the sum of the first two. The first two generate every \\((x,y,x+y)\\) as\n\\[x(1,0,1)+y(0,1,1).\\]\nFinal answer: The set spans the plane \\(z=x+y\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-14",
+      "prompt": "Find the span of \\(f_1(x)=\\cos x\\) and \\(f_2(x)=2\\cos x\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSince \\(f_2=2f_1\\), every combination is \\((a+2b)\\cos x\\).\nFinal answer: The span is \\(\\{c\\cos x:c\\in\\mathbb R\\}\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-15",
+      "prompt": "Determine all \\(k\\) for which \\((1,k,3)\\) lies in the span of \\((1,1,1)\\) and \\((1,-1,2)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSet \\(a+b=1\\), \\(a-b=k\\), \\(a+2b=3\\). The first and third give \\(b=2\\), \\(a=-1\\), hence \\(k=-3\\).\nFinal answer: \\(k=-3\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-16",
+      "prompt": "Construct coefficients expressing \\((4,1,7)\\) in the span of \\((1,0,1),(0,1,1),(1,1,0)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSolve \\(a+c=4\\), \\(b+c=1\\), \\(a+b=7\\). Adding the first two and subtracting the third gives \\(2c=-2\\), so \\(c=-1\\), \\(a=5\\), \\(b=2\\).\nFinal answer: \\((4,1,7)=5(1,0,1)+2(0,1,1)-(1,1,0)\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-17",
+      "prompt": "Prove that \\(\\operatorname{span}S\\) is closed under linear combinations.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nLet \\(\\mathbf x=\\sum_i a_i\\mathbf s_i\\) and \\(\\mathbf y=\\sum_i b_i\\mathbf s_i\\). Then\n\\[c\\mathbf x+d\\mathbf y=\\sum_i(ca_i+db_i)\\mathbf s_i,\\]\nwhich is another finite linear combination of elements of \\(S\\).\nFinal answer: \\(c\\mathbf x+d\\mathbf y\\in\\operatorname{span}S\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-18",
+      "prompt": "Prove that \\(\\operatorname{span}(S)\\) is the smallest subspace containing \\(S\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe span is a subspace by closure under linear combinations and contains each \\(\\mathbf s\\in S\\) using coefficient one. If \\(W\\) is any subspace containing \\(S\\), closure forces every finite linear combination of elements of \\(S\\) to lie in \\(W\\). Thus \\(\\operatorname{span}S\\subseteq W\\).\nFinal answer: \\(\\operatorname{span}S\\) is the smallest subspace containing \\(S\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-19",
+      "prompt": "Prove that \\(\\operatorname{span}(S\\cup T)=\\operatorname{span}(\\operatorname{span}S\\cup\\operatorname{span}T)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nEvery element generated from \\(S\\cup T\\) is a sum of an element of \\(\\operatorname{span}S\\) and one of \\(\\operatorname{span}T\\), giving the first inclusion. Conversely, \\(S,T\\subseteq\\operatorname{span}(S\\cup T)\\), so both individual spans, and hence their combined span, lie in \\(\\operatorname{span}(S\\cup T)\\).\nFinal answer: The two spans are equal.",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-linear-combinations-and-span-20",
+      "prompt": "Prove that replacing \\(\\mathbf v_j\\) by \\(\\mathbf v_j+c\\mathbf v_i\\), where \\(i\\ne j\\), does not change the span of a finite set.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe replacement lies in the old span, so the new span is contained in the old one. Conversely,\n\\[\\mathbf v_j=(\\mathbf v_j+c\\mathbf v_i)-c\\mathbf v_i\\]\nlies in the new span, while all other vectors are unchanged.\nFinal answer: The replacement preserves the span.",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    }
+  ]
+}

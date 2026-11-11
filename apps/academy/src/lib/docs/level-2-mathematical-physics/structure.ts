@@ -80,6 +80,68 @@ export const level2MathematicalPhysicsModules: Level2MathematicalPhysicsModule[]
         },
       ],
     },
+    {
+      id: "integral-transforms-and-differential-vector-calculus",
+      title: "Integral Transforms and Differential Vector Calculus",
+      sections: [
+        {
+          id: "laplace-transforms",
+          title: "Laplace Transforms",
+          topics: [
+            { title: "Laplace Transform Definition and Existence" },
+            { title: "Laplace Transform Properties" },
+            { title: "Inverse Laplace Transforms and Convolution" },
+            { title: "Solving ODEs with Laplace Transforms" },
+          ],
+        },
+        {
+          id: "differential-vector-calculus",
+          title: "Differential Vector Calculus",
+          navLabel: "Differential Vector Calculus",
+          topics: [
+            { title: "Gradients and Level Surfaces" },
+            { title: "Divergence, Curl, and Vector Identities" },
+            { title: "Laplacian and Maxwell Wave Equations" },
+          ],
+        },
+        {
+          id: "steepest-descent",
+          title: "Steepest Descent",
+          topics: [{ title: "Steepest Descent for Linear Systems" }],
+        },
+      ],
+    },
+    {
+      id: "vector-integration-and-integral-theorems",
+      title: "Vector Integration and Integral Theorems",
+      sections: [
+        {
+          id: "curves-and-line-integrals",
+          title: "Curves and Line Integrals",
+          topics: [
+            { title: "Parametric Curves and Line Integrals" },
+            { title: "Conservative Fields and Scalar Potentials" },
+          ],
+        },
+        {
+          id: "surface-and-volume-integrals",
+          title: "Surface and Volume Integrals",
+          topics: [
+            { title: "Parametric Surfaces and Surface Integrals" },
+            { title: "Volume Integrals and Coordinate Jacobians" },
+          ],
+        },
+        {
+          id: "integration-theorems-and-vortices",
+          title: "Integration Theorems and Vortices",
+          topics: [
+            { title: "Divergence Theorem and Electrostatics" },
+            { title: "Green's Theorem in the Plane" },
+            { title: "Stokes' Theorem and the Rankine Vortex" },
+          ],
+        },
+      ],
+    },
   ];
 
 export const level2MathematicalPhysicsSections =

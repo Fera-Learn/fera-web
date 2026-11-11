@@ -6,6 +6,7 @@ import { level1MathIIPhysicsExamSets } from "@/lib/docs/level-1-math-ii-physics/
 import { level2PhysicsAExamSets } from "@/lib/docs/level-2-physics-a/exams";
 import { level2PhysicsBExamSets } from "@/lib/docs/level-2-physics-b/exams";
 import { level2MathematicalPhysicsExamSets } from "@/lib/docs/level-2-mathematical-physics/exams";
+import { level2GeophysicsExamSets } from "@/lib/docs/level-2-geophysics/exams";
 import { level1CalculusQuestionTopics } from "@/lib/docs/level-1-calculus/questions.generated";
 import { level1LinearAlgebraQuestionTopics } from "@/lib/docs/level-1-linear-algebra/questions.generated";
 import { level1MathIPhysicsQuestionTopics } from "@/lib/docs/level-1-math-i-physics/questions.generated";
@@ -14,6 +15,7 @@ import { level1PhysicsQuestionTopics } from "@/lib/docs/level-1-physics/question
 import { level2PhysicsAQuestionTopics } from "@/lib/docs/level-2-physics-a/questions.generated";
 import { level2PhysicsBQuestionTopics } from "@/lib/docs/level-2-physics-b/questions.generated";
 import { level2MathematicalPhysicsQuestionTopics } from "@/lib/docs/level-2-mathematical-physics/questions.generated";
+import { level2GeophysicsQuestionTopics } from "@/lib/docs/level-2-geophysics/questions.generated";
 import type { Level1PhysicsExamSet } from "@/lib/docs/level-1-physics/exams/types";
 
 type QuestionSource = "exam" | "topic";
@@ -79,6 +81,7 @@ const LEVEL_1_LINEAR_ALGEBRA_COURSE_ID = "level-1-linear-algebra";
 const LEVEL_2_PHYSICS_A_COURSE_ID = "level-2-physics-a";
 const LEVEL_2_PHYSICS_B_COURSE_ID = "level-2-physics-b";
 const LEVEL_2_MATHEMATICAL_PHYSICS_COURSE_ID = "level-2-mathematical-physics";
+const LEVEL_2_GEOPHYSICS_COURSE_ID = "level-2-geophysics";
 
 type TopicQuestionData = {
   courseId: string;
@@ -278,6 +281,13 @@ function getLevel2MathematicalPhysicsTopicQuestionEntries(): QuestionBankEntry[]
   });
 }
 
+function getLevel2GeophysicsTopicQuestionEntries(): QuestionBankEntry[] {
+  return getTopicQuestionEntries({
+    courseId: LEVEL_2_GEOPHYSICS_COURSE_ID,
+    questionTopics: level2GeophysicsQuestionTopics,
+  });
+}
+
 function getExamQuestionEntries({
   courseId,
   examSets,
@@ -380,6 +390,13 @@ function getLevel2MathematicalPhysicsExamQuestionEntries(): QuestionBankEntry[] 
   });
 }
 
+function getLevel2GeophysicsExamQuestionEntries(): QuestionBankEntry[] {
+  return getExamQuestionEntries({
+    courseId: LEVEL_2_GEOPHYSICS_COURSE_ID,
+    examSets: level2GeophysicsExamSets,
+  });
+}
+
 function getExamPapers({
   courseId,
   examSets,
@@ -458,6 +475,13 @@ function getLevel2MathematicalPhysicsPapers(): QuestionBankPaper[] {
   });
 }
 
+function getLevel2GeophysicsPapers(): QuestionBankPaper[] {
+  return getExamPapers({
+    courseId: LEVEL_2_GEOPHYSICS_COURSE_ID,
+    examSets: level2GeophysicsExamSets,
+  });
+}
+
 const COURSE_PROVIDERS: CourseQuestionProvider[] = [
   {
     aliases: [],
@@ -522,6 +546,14 @@ const COURSE_PROVIDERS: CourseQuestionProvider[] = [
     getPapers: getLevel2MathematicalPhysicsPapers,
     getTopicQuestions: getLevel2MathematicalPhysicsTopicQuestionEntries,
     label: "Level 2 - Mathematical Physics",
+  },
+  {
+    aliases: [],
+    courseId: LEVEL_2_GEOPHYSICS_COURSE_ID,
+    getExamQuestions: getLevel2GeophysicsExamQuestionEntries,
+    getPapers: getLevel2GeophysicsPapers,
+    getTopicQuestions: getLevel2GeophysicsTopicQuestionEntries,
+    label: "Level 2 - Geophysics",
   },
 ];
 

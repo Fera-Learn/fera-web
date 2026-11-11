@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "absorptive-polarisers-and-dichroism",
+  "topicTitle": "Absorptive Polarisers and Dichroism",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-01",
+      "prompt": "Write the primary governing relation for Absorptive Polarisers and Dichroism and define its applicability.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nAn absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-02",
+      "prompt": "Explain the specific physical principle represented by the primary Absorptive Polarisers and Dichroism relation and identify one condition required for its use.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nAn absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nWorking:\nThe relation applies under this condition:\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nThe mathematical statement is\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Absorptive Polarisers and Dichroism principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Absorptive Polarisers and Dichroism relation.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Absorptive Polarisers and Dichroism definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Absorptive Polarisers and Dichroism relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Absorptive Polarisers and Dichroism relation under the constraint stated in the topic.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nApply the stated constraint to\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Absorptive Polarisers and Dichroism constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-05",
+      "prompt": "Using the model for Absorptive Polarisers and Dichroism, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A sheet has \\(\\mu_{\\mathrm{pass}}=20\\,\\mathrm{m^{-1}}\\), \\(\\mu_{\\mathrm{block}}=220\\,\\mathrm{m^{-1}}\\), and \\(l=1.00\\,\\mathrm{cm}\\). Find both transmissions and the extinction ratio.",
+      "answer": "Model:\nApply the model for Absorptive Polarisers and Dichroism under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nConvert the thickness: \\(l=1.00\\times10^{-2}\\,\\mathrm m\\). Equation \\([2]\\) gives \\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\] \\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\] Hence \\([3]\\) gives \\(\\mathcal E=0.819/0.111=7.39\\). Final result: \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nFinal answer:\n\\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-06",
+      "prompt": "Using the model for Absorptive Polarisers and Dichroism, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: A polymer film absorbs electric fields parallel to its vertical molecular chains. State its transmission axis.",
+      "answer": "Model:\nApply the model for Absorptive Polarisers and Dichroism under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nVertical polarisation drives charge motion along the chains and is the blocked component. The orthogonal horizontal component experiences weaker absorption. Final result: the film's transmission axis is horizontal, perpendicular to the molecular chains.\n\nFinal answer:\nThe film's transmission axis is horizontal, perpendicular to the molecular chains.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-07",
+      "prompt": "A proposed solution to the following Absorptive Polarisers and Dichroism problem gives \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A sheet has \\(\\mu_{\\mathrm{pass}}=20\\,\\mathrm{m^{-1}}\\), \\(\\mu_{\\mathrm{block}}=220\\,\\mathrm{m^{-1}}\\), and \\(l=1.00\\,\\mathrm{cm}\\). Find both transmissions and the extinction ratio.",
+      "answer": "Model:\nUse the model for Absorptive Polarisers and Dichroism and the data stated in the problem.\n\nWorking:\nConvert the thickness: \\(l=1.00\\times10^{-2}\\,\\mathrm m\\). Equation \\([2]\\) gives \\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\] \\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\] Hence \\([3]\\) gives \\(\\mathcal E=0.819/0.111=7.39\\). Final result: \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nFinal answer:\nThe proposed result is verified: \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-08",
+      "prompt": "For this problem on Absorptive Polarisers and Dichroism, derive the indicated intermediate result before completing the calculation.\nProblem: A sheet has \\(\\mu_{\\mathrm{pass}}=20\\,\\mathrm{m^{-1}}\\), \\(\\mu_{\\mathrm{block}}=220\\,\\mathrm{m^{-1}}\\), and \\(l=1.00\\,\\mathrm{cm}\\). Find both transmissions and the extinction ratio.\nIntermediate result to derive:\n\\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\]",
+      "answer": "Model:\nApply the stated Absorptive Polarisers and Dichroism assumptions and preserve all units.\n\nWorking:\nConvert the thickness: \\(l=1.00\\times10^{-2}\\,\\mathrm m\\). Equation \\([2]\\) gives \\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\] \\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\] Hence \\([3]\\) gives \\(\\mathcal E=0.819/0.111=7.39\\). Final result: \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nFinal answer:\n\\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\]\n\nCheck:\nThe intermediate result leads to \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-09",
+      "prompt": "For this problem on Absorptive Polarisers and Dichroism, derive the indicated intermediate result before completing the calculation.\nProblem: A sheet has \\(\\mu_{\\mathrm{pass}}=20\\,\\mathrm{m^{-1}}\\), \\(\\mu_{\\mathrm{block}}=220\\,\\mathrm{m^{-1}}\\), and \\(l=1.00\\,\\mathrm{cm}\\). Find both transmissions and the extinction ratio.\nIntermediate result to derive:\n\\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\]",
+      "answer": "Model:\nApply the stated Absorptive Polarisers and Dichroism assumptions and preserve all units.\n\nWorking:\nConvert the thickness: \\(l=1.00\\times10^{-2}\\,\\mathrm m\\). Equation \\([2]\\) gives \\[T_{\\mathrm{pass}}=e^{-20(0.0100)}=e^{-0.2}=0.819,\\] \\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\] Hence \\([3]\\) gives \\(\\mathcal E=0.819/0.111=7.39\\). Final result: \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\).\n\nFinal answer:\n\\[T_{\\mathrm{block}}=e^{-220(0.0100)}=e^{-2.2}=0.111.\\]\n\nCheck:\nThe intermediate result leads to \\(T_{\\mathrm{pass}}=0.819\\), \\(T_{\\mathrm{block}}=0.111\\), and \\(\\mathcal E=7.39\\). and is consistent with the original data.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-10",
+      "prompt": "A proposed solution to the following Absorptive Polarisers and Dichroism problem gives The film's transmission axis is horizontal, perpendicular to the molecular chains. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: A polymer film absorbs electric fields parallel to its vertical molecular chains. State its transmission axis.",
+      "answer": "Model:\nUse the model for Absorptive Polarisers and Dichroism and the data stated in the problem.\n\nWorking:\nVertical polarisation drives charge motion along the chains and is the blocked component. The orthogonal horizontal component experiences weaker absorption. Final result: the film's transmission axis is horizontal, perpendicular to the molecular chains.\n\nFinal answer:\nThe proposed result is verified: The film's transmission axis is horizontal, perpendicular to the molecular chains.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-11",
+      "prompt": "Starting from the stated model for Absorptive Polarisers and Dichroism, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nFor principal absorbing directions, Beer-Lambert attenuation gives\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nFor principal absorbing directions, Beer-Lambert attenuation gives\n\nApplying the stated definitions and constraint gives\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFinal answer:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Absorptive Polarisers and Dichroism constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-12",
+      "prompt": "Derive the following Absorptive Polarisers and Dichroism relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nSeparate variables and integrate through thickness \\(l\\):\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nBegin from the preceding result\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nApplying the stated definitions and constraint gives\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFinal answer:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Absorptive Polarisers and Dichroism constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-13",
+      "prompt": "Part (a): Derive the following Absorptive Polarisers and Dichroism relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nApplying the stated definitions and constraint gives\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Absorptive Polarisers and Dichroism constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-14",
+      "prompt": "Part (a): Starting from the first Absorptive Polarisers and Dichroism relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAn absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nTherefore\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-15",
+      "prompt": "Part (a): Starting from the first Absorptive Polarisers and Dichroism relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAn absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nTherefore\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-16",
+      "prompt": "Part (a): Check the following Absorptive Polarisers and Dichroism equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-17",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Absorptive Polarisers and Dichroism. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Absorptive Polarisers and Dichroism.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-18",
+      "prompt": "Part (a): Check the following Absorptive Polarisers and Dichroism equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-19",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Absorptive Polarisers and Dichroism. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nFor the linked derivation, An absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Absorptive Polarisers and Dichroism.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-absorptive-polarisers-and-dichroism-20",
+      "prompt": "Reconstruct the complete mathematical chain for Absorptive Polarisers and Dichroism, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAn absorptive polariser converts one field component mainly into material excitation and heat while transmitting the orthogonal component. Dichroism is direction-dependent absorption: different linear polarisations have different absorption coefficients.\n\nPolaroid sheets and dichroic crystals such as tourmaline use this mechanism. The passed component can still suffer nonzero absorption, so transmission need not reach unity.\n\nWorking:\nStep 1:\n\\[\n\\frac{dI_j}{dz}=-\\mu_j I_j.\n\\tag*{[1]}\n\\]\n\nSeparate variables and integrate through thickness \\(l\\):\n\nStep 2:\n\\[\n\\int_{I_{j0}}^{I_j}\\frac{dI}{I}=-\\mu_j\\int_0^l dz,\n\\qquad\n\\ln\\!\\left(\\frac{I_j}{I_{j0}}\\right)=-\\mu_jl,\n\\qquad\nT_j=\\frac{I_j}{I_{j0}}=e^{-\\mu_jl}.\n\\tag*{[2]}\n\\]\n\nIf \\(\\mu_\\parallel>\\mu_\\perp\\), the direction parallel to aligned molecular chains is more strongly absorbed and the transmission axis is perpendicular to the chains. A useful ideality measure is\n\nStep 3:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nFinal answer:\n\\[\n\\mathcal E=\\frac{T_{\\mathrm{pass}}}{T_{\\mathrm{block}}}\n=e^{(\\mu_{\\mathrm{block}}-\\mu_{\\mathrm{pass}})l}.\n\\tag*{[3]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

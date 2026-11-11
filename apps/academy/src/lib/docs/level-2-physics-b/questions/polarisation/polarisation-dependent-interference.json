@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "polarisation-dependent-interference",
+  "topicTitle": "Polarisation-Dependent Interference",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-01",
+      "prompt": "Write the primary governing relation for Polarisation-Dependent Interference and define its applicability.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-02",
+      "prompt": "Explain the specific physical principle represented by the primary Polarisation-Dependent Interference relation and identify one condition required for its use.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nWorking:\nThe relation applies under this condition:\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nThe mathematical statement is\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Polarisation-Dependent Interference principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Polarisation-Dependent Interference relation.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Polarisation-Dependent Interference definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Polarisation-Dependent Interference relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Polarisation-Dependent Interference relation under the constraint stated in the topic.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nApply the stated constraint to\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Polarisation-Dependent Interference constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-05",
+      "prompt": "Using the model for Polarisation-Dependent Interference, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Two beams have \\(I_A=9.0\\,\\mathrm{W\\,m^{-2}}\\), \\(I_B=4.0\\,\\mathrm{W\\,m^{-2}}\\), and \\(|\\hat e_A^*\\cdot\\hat e_B|=0.60\\). Find the visibility.",
+      "answer": "Model:\nApply the model for Polarisation-Dependent Interference under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nUse \\([4]\\): \\[\\mathcal V=\\frac{2(0.60)\\sqrt{(9.0)(4.0)}}{9.0+4.0}=\\frac{1.20(6.0)}{13.0}=0.554.\\] The unequal beam intensities and incomplete overlap both reduce contrast. Final result: \\(\\mathcal V=0.554\\).\n\nFinal answer:\n\\(\\mathcal V=0.554\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-06",
+      "prompt": "Using the model for Polarisation-Dependent Interference, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Equal beams polarised along \\(\\hat e_1\\) and \\(\\hat e_2\\) show no fringes. What happens after an ideal analyser at \\(45^\\circ\\)?",
+      "answer": "Model:\nApply the model for Polarisation-Dependent Interference under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nBefore the analyser, \\(\\hat e_1^*\\cdot\\hat e_2=0\\). The analyser projects each field onto \\((\\hat e_1+\\hat e_2)/\\sqrt2\\), giving each the same nonzero polarisation and an amplitude factor \\(1/\\sqrt2\\). Final result: full-visibility fringes are restored in the analysed output, with reduced mean intensity.\n\nFinal answer:\nFull-visibility fringes are restored in the analysed output, with reduced mean intensity.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-07",
+      "prompt": "A proposed solution to the following Polarisation-Dependent Interference problem gives \\(\\mathcal V=0.554\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Two beams have \\(I_A=9.0\\,\\mathrm{W\\,m^{-2}}\\), \\(I_B=4.0\\,\\mathrm{W\\,m^{-2}}\\), and \\(|\\hat e_A^*\\cdot\\hat e_B|=0.60\\). Find the visibility.",
+      "answer": "Model:\nUse the model for Polarisation-Dependent Interference and the data stated in the problem.\n\nWorking:\nUse \\([4]\\): \\[\\mathcal V=\\frac{2(0.60)\\sqrt{(9.0)(4.0)}}{9.0+4.0}=\\frac{1.20(6.0)}{13.0}=0.554.\\] The unequal beam intensities and incomplete overlap both reduce contrast. Final result: \\(\\mathcal V=0.554\\).\n\nFinal answer:\nThe proposed result is verified: \\(\\mathcal V=0.554\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-08",
+      "prompt": "For this problem on Polarisation-Dependent Interference, derive the indicated intermediate result before completing the calculation.\nProblem: Two beams have \\(I_A=9.0\\,\\mathrm{W\\,m^{-2}}\\), \\(I_B=4.0\\,\\mathrm{W\\,m^{-2}}\\), and \\(|\\hat e_A^*\\cdot\\hat e_B|=0.60\\). Find the visibility.\nIntermediate result to derive:\n\\[\\mathcal V=\\frac{2(0.60)\\sqrt{(9.0)(4.0)}}{9.0+4.0}=\\frac{1.20(6.0)}{13.0}=0.554.\\]",
+      "answer": "Model:\nApply the stated Polarisation-Dependent Interference assumptions and preserve all units.\n\nWorking:\nUse \\([4]\\): \\[\\mathcal V=\\frac{2(0.60)\\sqrt{(9.0)(4.0)}}{9.0+4.0}=\\frac{1.20(6.0)}{13.0}=0.554.\\] The unequal beam intensities and incomplete overlap both reduce contrast. Final result: \\(\\mathcal V=0.554\\).\n\nFinal answer:\n\\[\\mathcal V=\\frac{2(0.60)\\sqrt{(9.0)(4.0)}}{9.0+4.0}=\\frac{1.20(6.0)}{13.0}=0.554.\\]\n\nCheck:\nThe intermediate result leads to \\(\\mathcal V=0.554\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-09",
+      "prompt": "A proposed solution to the following Polarisation-Dependent Interference problem gives Full-visibility fringes are restored in the analysed output, with reduced mean intensity. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Equal beams polarised along \\(\\hat e_1\\) and \\(\\hat e_2\\) show no fringes. What happens after an ideal analyser at \\(45^\\circ\\)?",
+      "answer": "Model:\nUse the model for Polarisation-Dependent Interference and the data stated in the problem.\n\nWorking:\nBefore the analyser, \\(\\hat e_1^*\\cdot\\hat e_2=0\\). The analyser projects each field onto \\((\\hat e_1+\\hat e_2)/\\sqrt2\\), giving each the same nonzero polarisation and an amplitude factor \\(1/\\sqrt2\\). Final result: full-visibility fringes are restored in the analysed output, with reduced mean intensity.\n\nFinal answer:\nThe proposed result is verified: Full-visibility fringes are restored in the analysed output, with reduced mean intensity.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-10",
+      "prompt": "Starting from the stated model for Polarisation-Dependent Interference, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nAt one observation point, write\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nAt one observation point, write\n\nApplying the stated definitions and constraint gives\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nHence\n\nFinal answer:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Polarisation-Dependent Interference constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-11",
+      "prompt": "Derive the following Polarisation-Dependent Interference relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nAt one observation point, write\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nBegin from the preceding result\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nApplying the stated definitions and constraint gives\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nHence\n\nFinal answer:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Polarisation-Dependent Interference constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-12",
+      "prompt": "Derive the following Polarisation-Dependent Interference relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nAt one observation point, write\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nBegin from the preceding result\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nApplying the stated definitions and constraint gives\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nFinal answer:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Polarisation-Dependent Interference constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-13",
+      "prompt": "Part (a): Derive the following Polarisation-Dependent Interference relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nHence\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nApplying the stated definitions and constraint gives\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Polarisation-Dependent Interference constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-14",
+      "prompt": "Part (a): Starting from the first Polarisation-Dependent Interference relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nStart with\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nTherefore\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-15",
+      "prompt": "Part (a): Starting from the first Polarisation-Dependent Interference relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nStart with\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nTherefore\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-16",
+      "prompt": "Part (a): Starting from the first Polarisation-Dependent Interference relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nStart with\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nTherefore\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-17",
+      "prompt": "Part (a): Check the following Polarisation-Dependent Interference equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-18",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Polarisation-Dependent Interference. Show the substitution or limiting argument rather than answering in words only.\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Polarisation-Dependent Interference.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-19",
+      "prompt": "Part (a): Check the following Polarisation-Dependent Interference equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Interference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-polarisation-dependent-interference-20",
+      "prompt": "Reconstruct the complete mathematical chain for Polarisation-Dependent Interference, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nInterference is a vector effect. The fringe term is weighted by the complex inner product of the two polarisation vectors: parallel states give full contrast, orthogonal states give no total-intensity fringes, and intermediate overlap gives partial contrast.\n\nOrthogonal polarisations have \\(\\mu=0\\), so a polarisation-insensitive detector sees no cross term. A common analyser can project both fields onto one direction and restore fringes in that selected channel.\n\nWorking:\nStep 1:\n\\[\n\\vec E=E_Ae^{i\\phi_A}\\hat e_A+E_Be^{i\\phi_B}\\hat e_B,\n\\qquad \\Delta\\phi=\\phi_B-\\phi_A.\n\\tag*{[1]}\n\\]\n\nForm the Hermitian norm and retain both cross terms:\n\nStep 2:\n\\[\nI=\\vec E^{\\,*}\\cdot\\vec E\n=I_A+I_B+2\\sqrt{I_AI_B}\\,\n\\operatorname{Re}\\!\\left[(\\hat e_A^{\\,*}\\cdot\\hat e_B)e^{i\\Delta\\phi}\\right].\n\\tag*{[2]}\n\\]\n\nWriting \\(\\hat e_A^{\\,*}\\cdot\\hat e_B=\\mu e^{i\\chi}\\) gives\n\nStep 3:\n\\[\nI=I_A+I_B+2\\mu\\sqrt{I_AI_B}\\cos(\\Delta\\phi+\\chi),\n\\qquad 0\\le\\mu\\le1.\n\\tag*{[3]}\n\\]\n\nHence\n\nStep 4:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\n\\mathcal V=\\frac{I_{\\max}-I_{\\min}}{I_{\\max}+I_{\\min}}\n=\\frac{2\\mu\\sqrt{I_AI_B}}{I_A+I_B}.\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

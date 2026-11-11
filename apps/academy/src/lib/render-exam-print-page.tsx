@@ -36,6 +36,10 @@ import {
   getLevel2MathematicalPhysicsExamPaper,
   level2MathematicalPhysicsExamSets,
 } from "@/lib/docs/level-2-mathematical-physics/exams";
+import {
+  getLevel2GeophysicsExamPaper,
+  level2GeophysicsExamSets,
+} from "@/lib/docs/level-2-geophysics/exams";
 
 type ExamPrintPageData = {
   backHref: string;
@@ -89,6 +93,11 @@ const examCourseConfigs = {
     getPaper: getLevel2MathematicalPhysicsExamPaper,
     label: "Level 2 - Mathematical Physics",
     sets: level2MathematicalPhysicsExamSets,
+  },
+  "level-2-geophysics": {
+    getPaper: getLevel2GeophysicsExamPaper,
+    label: "Level 2 - Geophysics",
+    sets: level2GeophysicsExamSets,
   },
 };
 

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "courseId": "level-2-physics-b",
+  "sectionId": "polarisation",
+  "topicId": "malus-law-and-multiple-polarisers",
+  "topicTitle": "Malus' Law and Multiple Polarisers",
+  "paperTags": [
+    "physics-b",
+    "polarisation"
+  ],
+  "questions": [
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-01",
+      "prompt": "Write the primary governing relation for Malus' Law and Multiple Polarisers and define its applicability.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nWorking:\nUnder the model conditions, the primary relation is\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nFinal answer:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe symbols and units agree with the supplied notation and the stated model conditions.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-02",
+      "prompt": "Explain the specific physical principle represented by the primary Malus' Law and Multiple Polarisers relation and identify one condition required for its use.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nWorking:\nThe relation applies under this condition:\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nThe mathematical statement is\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nFinal answer:\nThe relation expresses the stated Malus' Law and Multiple Polarisers principle under its model constraint.\n\nCheck:\nRemoving the stated constraint would invalidate or change the governing relation.",
+      "rating": "*",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-03",
+      "prompt": "Check the units and sign or normalization convention in the primary Malus' Law and Multiple Polarisers relation.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nUse the Malus' Law and Multiple Polarisers definitions and units supplied in the prompt.\n\nWorking:\nSubstitute the listed units into\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\nTerms connected by equality have matching dimensions, and every sign or normalization follows the stated convention.\n\nFinal answer:\nThe primary Malus' Law and Multiple Polarisers relation is dimensionally and conventionally consistent.\n\nCheck:\nAn incompatible unit or reversed convention would break the equality or physical prediction.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-04",
+      "prompt": "Predict the limiting or special-case behaviour of the primary Malus' Law and Multiple Polarisers relation under the constraint stated in the topic.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nApply the stated constraint to\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\nThe resulting sign, bound, normalization, or limiting value follows directly from the model.\n\nFinal answer:\nThe limiting behaviour is the one required by the stated Malus' Law and Multiple Polarisers constraint.\n\nCheck:\nThe prediction remains consistent with the equation, dimensions, and physical bounds.",
+      "rating": "*+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-05",
+      "prompt": "Using the model for Malus' Law and Multiple Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Unpolarised light of intensity \\(I_u=80.0\\,\\mathrm{W\\,m^{-2}}\\) meets ideal axes at \\(0^\\circ\\), \\(45^\\circ\\), and \\(90^\\circ\\). Find the output intensity.",
+      "answer": "Model:\nApply the model for Malus' Law and Multiple Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([3]\\) gives \\(I_1=80.0/2=40.0\\,\\mathrm{W\\,m^{-2}}\\). Apply \\([4]\\) to the two successive \\(45^\\circ\\) differences: \\[I_3=40.0\\cos^245^\\circ\\cos^245^\\circ=40.0\\left(\\frac12\\right)\\left(\\frac12\\right).\\] Final result: \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\n\\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\).\n\nCheck:\nSubstituting the result back into the defining relation reproduces the stated data to the quoted precision. The final unit follows from the equation, and the qualitative trend agrees with the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-06",
+      "prompt": "Using the model for Malus' Law and Multiple Polarisers, set up the governing equation, inequality, derivative, probability, or phase-rule count and solve the following problem: Already linearly polarised light meets a second ideal polariser whose axis is \\(90^\\circ\\) from its polarisation. What is transmitted?",
+      "answer": "Model:\nApply the model for Malus' Law and Multiple Polarisers under every condition stated in the question; use SI units unless another unit is explicitly supplied.\n\nWorking:\nEquation \\([2]\\) applies directly with \\(\\theta=90^\\circ\\): \\(I=I_0\\cos^290^\\circ=0\\). There is no intermediate projection to rotate the state. Final result: an ideal crossed analyser transmits zero intensity.\n\nFinal answer:\nAn ideal crossed analyser transmits zero intensity.\n\nCheck:\nThe conclusion agrees with both the defining relation and the relevant limiting or qualitative behaviour of the model.",
+      "rating": "**",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-07",
+      "prompt": "A proposed solution to the following Malus' Law and Multiple Polarisers problem gives \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\). Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Unpolarised light of intensity \\(I_u=80.0\\,\\mathrm{W\\,m^{-2}}\\) meets ideal axes at \\(0^\\circ\\), \\(45^\\circ\\), and \\(90^\\circ\\). Find the output intensity.",
+      "answer": "Model:\nUse the model for Malus' Law and Multiple Polarisers and the data stated in the problem.\n\nWorking:\nEquation \\([3]\\) gives \\(I_1=80.0/2=40.0\\,\\mathrm{W\\,m^{-2}}\\). Apply \\([4]\\) to the two successive \\(45^\\circ\\) differences: \\[I_3=40.0\\cos^245^\\circ\\cos^245^\\circ=40.0\\left(\\frac12\\right)\\left(\\frac12\\right).\\] Final result: \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\nThe proposed result is verified: \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\).\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-08",
+      "prompt": "For this problem on Malus' Law and Multiple Polarisers, derive the indicated intermediate result before completing the calculation.\nProblem: Unpolarised light of intensity \\(I_u=80.0\\,\\mathrm{W\\,m^{-2}}\\) meets ideal axes at \\(0^\\circ\\), \\(45^\\circ\\), and \\(90^\\circ\\). Find the output intensity.\nIntermediate result to derive:\n\\[I_3=40.0\\cos^245^\\circ\\cos^245^\\circ=40.0\\left(\\frac12\\right)\\left(\\frac12\\right).\\]",
+      "answer": "Model:\nApply the stated Malus' Law and Multiple Polarisers assumptions and preserve all units.\n\nWorking:\nEquation \\([3]\\) gives \\(I_1=80.0/2=40.0\\,\\mathrm{W\\,m^{-2}}\\). Apply \\([4]\\) to the two successive \\(45^\\circ\\) differences: \\[I_3=40.0\\cos^245^\\circ\\cos^245^\\circ=40.0\\left(\\frac12\\right)\\left(\\frac12\\right).\\] Final result: \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\).\n\nFinal answer:\n\\[I_3=40.0\\cos^245^\\circ\\cos^245^\\circ=40.0\\left(\\frac12\\right)\\left(\\frac12\\right).\\]\n\nCheck:\nThe intermediate result leads to \\(I_3=10.0\\,\\mathrm{W\\,m^{-2}}\\). and is consistent with the original data.",
+      "rating": "**+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-09",
+      "prompt": "A proposed solution to the following Malus' Law and Multiple Polarisers problem gives An ideal crossed analyser transmits zero intensity. Verify or refute the result by repeating the calculation and substituting back into the governing relation. Problem: Already linearly polarised light meets a second ideal polariser whose axis is \\(90^\\circ\\) from its polarisation. What is transmitted?",
+      "answer": "Model:\nUse the model for Malus' Law and Multiple Polarisers and the data stated in the problem.\n\nWorking:\nEquation \\([2]\\) applies directly with \\(\\theta=90^\\circ\\): \\(I=I_0\\cos^290^\\circ=0\\). There is no intermediate projection to rotate the state. Final result: an ideal crossed analyser transmits zero intensity.\n\nFinal answer:\nThe proposed result is verified: An ideal crossed analyser transmits zero intensity.\n\nCheck:\nReverse substitution recovers the original data, and the final unit, sign, normalization, or bound is physically admissible.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-10",
+      "prompt": "Starting from the stated model for Malus' Law and Multiple Polarisers, write the governing mathematical relation and identify the constraint under which it applies.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]",
+      "answer": "Model:\nEach polariser keeps only the field component parallel to its own axis. With several polarisers, apply that projection one plate at a time in propagation order.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nEach polariser keeps only the field component parallel to its own axis. With several polarisers, apply that projection one plate at a time in propagation order.\n\nApplying the stated definitions and constraint gives\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nFinal answer:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Malus' Law and Multiple Polarisers constraint.",
+      "rating": "***",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-11",
+      "prompt": "Derive the following Malus' Law and Multiple Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]",
+      "answer": "Model:\nSince intensity is proportional to squared amplitude,\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nBegin from the preceding result\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nApplying the stated definitions and constraint gives\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFinal answer:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Malus' Law and Multiple Polarisers constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-12",
+      "prompt": "Derive the following Malus' Law and Multiple Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]",
+      "answer": "Model:\nSince intensity is proportional to squared amplitude,\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nBegin from the preceding result\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nApplying the stated definitions and constraint gives\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFinal answer:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Malus' Law and Multiple Polarisers constraint.",
+      "rating": "***+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-13",
+      "prompt": "Part (a): Derive the following Malus' Law and Multiple Polarisers relation from the preceding result, showing the algebra, calculus, counting, or physical identity used at each step.\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nBegin from the preceding result\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nApplying the stated definitions and constraint gives\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCrossed first and last axes do not guarantee zero transmission if intermediate axes rotate the state in smaller steps.\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nThe result uses the supplied notation consistently and obeys the stated Malus' Law and Multiple Polarisers constraint.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-14",
+      "prompt": "Part (a): Starting from the first Malus' Law and Multiple Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nStart with\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nTherefore\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-15",
+      "prompt": "Part (a): Starting from the first Malus' Law and Multiple Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nTarget:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nStart with\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nTherefore\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-16",
+      "prompt": "Part (a): Starting from the first Malus' Law and Multiple Polarisers relation, derive the second and show the missing mathematical steps.\nStart:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nStart with\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nTherefore\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nSubstitution into the starting relation preserves the constraint and gives the target relation.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-17",
+      "prompt": "Part (a): Check the following Malus' Law and Multiple Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "****+",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-18",
+      "prompt": "Part (a): Verify that the following candidate result is consistent with the definitions and constraints of Malus' Law and Multiple Polarisers. Show the substitution or limiting argument rather than answering in words only.\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nSubstitute the definitions from the prompt into the candidate expression:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\nThe algebra retains the stated equality, sign, normalization, or derivative condition under the model constraint.\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): \\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nThe relation agrees with the relevant sign, bound, normalization, units, and limiting behaviour of the model for Malus' Law and Multiple Polarisers.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-19",
+      "prompt": "Part (a): Check the following Malus' Law and Multiple Polarisers equation mathematically. Substitute the stated units, verify every sum and equality is homogeneous, and identify any ratio that must be dimensionless.\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nPart (b): Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nUse the units and definitions supplied in the prompt.\n\nFor the linked derivation, Malus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nPart (a):\nInsert the topic's defined units into\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\nProducts multiply units, quotients divide them, and a derivative has numerator units divided by denominator units. Terms joined by addition or equality reduce to the same unit; logarithm and exponential arguments reduce to dimensionless ratios.\n\nPart (b):\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\nPart (a): The equation is dimensionally homogeneous under the stated definitions.\n\nPart (b): \\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nChanging one factor to an incompatible unit without conversion breaks the equality, confirming that the listed units are required.\n\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    },
+    {
+      "id": "physics-b-polarisation-malus-law-and-multiple-polarisers-20",
+      "prompt": "Reconstruct the complete mathematical chain for Malus' Law and Multiple Polarisers, from the starting relation to the final result. Include every required substitution, derivative, integral, or limiting step.\nStart:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nTarget:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]",
+      "answer": "Model:\nMalus' law follows because an ideal polariser projects field amplitude with one cosine, while intensity is proportional to amplitude squared. In a sequence, each polariser acts on the state produced immediately before it, not on the original direction.\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nWorking:\nStep 1:\n\\[\nE=E_0\\cos\\theta.\n\\tag*{[1]}\n\\]\n\nSince intensity is proportional to squared amplitude,\n\nStep 2:\n\\[\nI=I_0\\frac{|E|^2}{|E_0|^2}=I_0\\cos^2\\theta.\n\\tag*{[2]}\n\\]\n\nFor unpolarised light, average over uniformly distributed input angles:\n\nStep 3:\n\\[\nI_1=I_u\\langle\\cos^2\\theta\\rangle\n=I_u\\frac{1}{\\pi}\\int_0^\\pi\\cos^2\\theta\\,d\\theta\n=\\frac{I_u}{2}.\n\\tag*{[3]}\n\\]\n\nAfter the first polariser, a sequence of ideal polarisers obeys\n\nStep 4:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nFinal answer:\n\\[\nI_N=I_1\\prod_{j=2}^{N}\\cos^2(\\alpha_j-\\alpha_{j-1}).\n\\tag*{[4]}\n\\]\n\nCheck:\nEach step uses the same definitions and constraints, and adjacent equations are dimensionally consistent.",
+      "rating": "*****",
+      "paperTags": [
+        "physics-b",
+        "polarisation"
+      ]
+    }
+  ]
+}

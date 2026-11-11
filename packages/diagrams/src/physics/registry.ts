@@ -21,6 +21,7 @@ import { diagram as electricFluxGaussLawGeometryDiagram } from "./diagrams/elect
 import { diagram as electricFieldSourceSymmetriesDiagram } from "./diagrams/electric-field-source-symmetries";
 import { diagram as electricInterfaceBoundaryGeometryDiagram } from "./diagrams/electric-interface-boundary-geometry";
 import { diagram as electronInterferenceAndWavePacketsDiagram } from "./diagrams/electron-interference-and-wave-packets";
+import { diagram as environmentalGeophysicsWorkflowDiagram } from "./diagrams/environmental-geophysics-workflow";
 import { diagram as finiteWellBoundStateLeakageDiagram } from "./diagrams/finite-well-bound-state-leakage";
 import { diagram as faradayOpticalIsolatorDiagram } from "./diagrams/faraday-optical-isolator";
 import { diagram as fresnelAperturePropagationDiagram } from "./diagrams/fresnel-aperture-propagation";
@@ -123,6 +124,7 @@ export const physicsDiagrams = [
   electricFieldSourceSymmetriesDiagram,
   electricInterfaceBoundaryGeometryDiagram,
   electronInterferenceAndWavePacketsDiagram,
+  environmentalGeophysicsWorkflowDiagram,
   finiteWellBoundStateLeakageDiagram,
   faradayOpticalIsolatorDiagram,
   fresnelAperturePropagationDiagram,

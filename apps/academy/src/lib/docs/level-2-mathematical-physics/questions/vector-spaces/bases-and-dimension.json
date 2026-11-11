@@ -1,0 +1,213 @@
+{
+  "courseId": "level-2-mathematical-physics",
+  "schemaVersion": 1,
+  "sectionId": "vector-spaces",
+  "topicId": "bases-and-dimension",
+  "topicTitle": "Bases and Dimension",
+  "paperTags": [
+    "mathematical-physics",
+    "vector-spaces"
+  ],
+  "questions": [
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-01",
+      "prompt": "Determine whether \\(\\{(1,0),(0,1)\\}\\) is a basis of \\(\\mathbb R^2\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe vectors are independent and every \\((x,y)=x(1,0)+y(0,1)\\).\nFinal answer: The set is a basis of \\(\\mathbb R^2\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-02",
+      "prompt": "Calculate the coordinates of \\((3,-2)\\) in the basis \\(B=\\{(1,0),(1,1)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSet \\(a(1,0)+b(1,1)=(3,-2)\\). Then \\(b=-2\\) and \\(a+b=3\\), so \\(a=5\\).\nFinal answer: \\([(3,-2)]_B=(5,-2)\\).",
+      "rating": "*",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-03",
+      "prompt": "Determine the dimension of \\(P_3\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe monomials \\(1,x,x^2,x^3\\) form a basis, containing four vectors.\nFinal answer: \\(\\dim P_3=4\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-04",
+      "prompt": "Construct a basis for \\(\\{(x,y,z):x+y+z=0\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nLet \\(y=s,z=t\\), giving \\(x=-s-t\\):\n\\[(x,y,z)=s(-1,1,0)+t(-1,0,1).\\]\nFinal answer: A basis is \\(\\{(-1,1,0),(-1,0,1)\\}\\).",
+      "rating": "*+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-05",
+      "prompt": "Determine the dimension of the diagonal \\(3\\times3\\) real matrices.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nEvery diagonal matrix is \\(aE_{11}+bE_{22}+cE_{33}\\), and these three matrices are independent.\nFinal answer: The dimension is \\(3\\).",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-06",
+      "prompt": "Construct a basis for the symmetric \\(2\\times2\\) real matrices.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nEvery symmetric matrix is\n\\[\\begin{pmatrix}a&b\\\\b&c\\end{pmatrix}=a\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix}+b\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}+c\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}.\\]\nFinal answer: The three displayed matrices form a basis.",
+      "rating": "**",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-07",
+      "prompt": "Calculate the coordinates of \\(p(x)=2-x+3x^2\\) in \\(B=\\{1+x,x,x^2\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nSet \\(a(1+x)+bx+cx^2=p\\). Coefficients give \\(a=2\\), \\(a+b=-1\\), \\(c=3\\), hence \\(b=-3\\).\nFinal answer: \\([p]_B=(2,-3,3)\\).",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-08",
+      "prompt": "Determine whether \\(\\{(1,1),(1,-1)\\}\\) is a basis of \\(\\mathbb R^2\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe determinant of the column matrix is \\(-1-1=-2\\ne0\\), so the vectors are independent and span \\(\\mathbb R^2\\).\nFinal answer: The set is a basis.",
+      "rating": "**+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-09",
+      "prompt": "Find the dimension of \\(S=\\{p\\in P_3:p(0)=0\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe condition removes the constant coefficient, so \\(p=ax+bx^2+cx^3\\). A basis is \\(\\{x,x^2,x^3\\}\\).\nFinal answer: \\(\\dim S=3\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-10",
+      "prompt": "Construct a basis for the column space of \\(A=\\begin{pmatrix}1&2&0\\\\0&0&1\\\\1&2&1\\end{pmatrix}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe second column is twice the first. The first and third columns are independent.\nFinal answer: A basis is \\(\\{(1,0,1)^{\\mathsf T},(0,1,1)^{\\mathsf T}\\}\\).",
+      "rating": "***",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-11",
+      "prompt": "Determine a basis and dimension for the null space of \\(A=\\begin{pmatrix}1&2&-1\\\\0&1&1\\end{pmatrix}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe equations give \\(y=-z\\) and \\(x-2z-z=0\\), so \\(x=3z\\). Thus \\(\\mathbf x=z(3,-1,1)\\).\nFinal answer: A basis is \\(\\{(3,-1,1)\\}\\), and the dimension is \\(1\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-12",
+      "prompt": "Construct a basis of \\(\\mathbb R^3\\) by extending \\(\\{(1,1,0),(0,1,1)\\}\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nAdd \\((1,0,0)\\). The determinant\n\\[\\begin{vmatrix}1&0&1\\\\1&1&0\\\\0&1&0\\end{vmatrix}=1\\ne0.\\]\nFinal answer: One extension is \\(\\{(1,1,0),(0,1,1),(1,0,0)\\}\\).",
+      "rating": "***+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-13",
+      "prompt": "Construct a basis for the span of \\(\\{(1,0,1),(0,1,1),(1,1,2),(1,-1,0)\\}\\) by reducing the set.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe third vector is the sum of the first two and the fourth is their difference. The first two are independent.\nFinal answer: A basis is \\(\\{(1,0,1),(0,1,1)\\}\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-14",
+      "prompt": "Determine the dimension of the solution space of \\(x+y+z+w=0\\) in \\(\\mathbb R^4\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThere is one independent homogeneous constraint on four variables. Explicitly,\n\\[(x,y,z,w)=y(-1,1,0,0)+z(-1,0,1,0)+w(-1,0,0,1).\\]\nFinal answer: The dimension is \\(3\\).",
+      "rating": "****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-15",
+      "prompt": "Determine all \\(k\\) for which \\(B_k=\\{(1,0,1),(0,1,1),(1,1,k)\\}\\) is a basis of \\(\\mathbb R^3\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe column determinant is\n\\[\\begin{vmatrix}1&0&1\\\\0&1&1\\\\1&1&k\\end{vmatrix}=k-2.\\]\nA basis requires nonzero determinant.\nFinal answer: \\(B_k\\) is a basis for \\(k\\ne2\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-16",
+      "prompt": "Calculate the change-of-coordinate matrix from \\(B=\\{(1,1),(1,-1)\\}\\) to the standard basis.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nThe columns are the basis vectors written in standard coordinates, so\n\\[P_{E\\leftarrow B}=\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}.\\]\nFinal answer: \\(P_{E\\leftarrow B}=\\begin{pmatrix}1&1\\\\1&-1\\end{pmatrix}\\).",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-17",
+      "prompt": "Prove that every basis of a finite-dimensional vector space has the same number of vectors.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nLet one basis have \\(m\\) vectors and another have \\(n\\). Since the first basis is independent and the second spans, the replacement theorem gives \\(m\\le n\\). Reversing their roles gives \\(n\\le m\\). Therefore \\(m=n\\).\nFinal answer: All bases have the same cardinality.",
+      "rating": "****+",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-18",
+      "prompt": "Prove the rank-nullity formula for a linear map \\(T:V\\to W\\) with finite-dimensional \\(V\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nChoose a basis \\(\\{\\mathbf k_1,\\ldots,\\mathbf k_r\\}\\) for \\(\\ker T\\) and extend it to a basis of \\(V\\) by \\(\\mathbf v_1,\\ldots,\\mathbf v_s\\). The vectors \\(T\\mathbf v_1,\\ldots,T\\mathbf v_s\\) span \\(\\operatorname{im}T\\), and a relation among them would put a nontrivial combination of the \\(\\mathbf v_j\\) in the kernel, contradicting the basis. Thus they form an image basis. Hence \\(\\dim V=r+s\\).\nFinal answer: \\(\\dim V=\\dim\\ker T+\\dim\\operatorname{im}T\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-19",
+      "prompt": "Prove that an independent set of \\(n\\) vectors in an \\(n\\)-dimensional space is a basis.",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nIf the set did not span, choose \\(\\mathbf v\\) outside its span. Adding \\(\\mathbf v\\) would give \\(n+1\\) independent vectors, impossible in an \\(n\\)-dimensional space.\nFinal answer: Every independent \\(n\\)-vector set in an \\(n\\)-dimensional space is a basis.",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    },
+    {
+      "id": "math-physics-vector-spaces-bases-and-dimension-20",
+      "prompt": "Prove the dimension formula \\(\\dim(U+W)=\\dim U+\\dim W-\\dim(U\\cap W)\\).",
+      "answer": "We need to complete the stated vector-space calculation or proof.\nMethod: Apply the relevant vector-space definitions and solve the resulting equations.\nChoose a basis \\(\\{\\mathbf z_1,\\ldots,\\mathbf z_r\\}\\) of \\(U\\cap W\\). Extend it by \\(\\mathbf u_1,\\ldots,\\mathbf u_p\\) to a basis of \\(U\\), and by \\(\\mathbf w_1,\\ldots,\\mathbf w_q\\) to a basis of \\(W\\). The combined list \\(\\mathbf z_i,\\mathbf u_j,\\mathbf w_k\\) is a basis of \\(U+W\\), so\n\\[\\dim(U+W)=r+p+q=(r+p)+(r+q)-r.\\]\nFinal answer: \\(\\dim(U+W)=\\dim U+\\dim W-\\dim(U\\cap W)\\).",
+      "rating": "*****",
+      "paperTags": [
+        "mathematical-physics",
+        "vector-spaces"
+      ]
+    }
+  ]
+}

@@ -14,6 +14,12 @@ const courseRoot = path.join(
   "level-2-physics-b",
 );
 const questionRoot = path.join(courseRoot, "questions");
+const registryPath = path.join(courseRoot, "questions.generated.ts");
+const expectedRatings = [
+  "*", "*", "*+", "*+", "**", "**", "**+", "**+", "***", "***",
+  "***+", "***+", "****", "****", "****+", "****+", "****+",
+  "*****", "*****", "*****",
+];
 const allowedRatings = new Set([
   "*",
   "*+",
@@ -33,6 +39,11 @@ const requiredAnswerSections = [
 ];
 
 async function walk(directory) {
+  try {
+    await fs.access(directory);
+  } catch {
+    return [];
+  }
   const entries = await fs.readdir(directory, { withFileTypes: true });
   const nested = await Promise.all(
     entries.map(async (entry) => {
@@ -56,11 +67,8 @@ function slugify(title) {
     .replace(/^-|-$/g, "");
 }
 
-const thermodynamics = level2PhysicsBModules.find(
-  (module) => module.id === "thermodynamics",
-);
 const expectedTopics = new Map(
-  (thermodynamics?.sections ?? []).flatMap((section) =>
+  level2PhysicsBModules.flatMap((module) => module.sections).flatMap((section) =>
     section.topics.map((topic) => [
       `${section.id}/${slugify(topic.title)}.json`,
       topic.title,
@@ -71,14 +79,16 @@ const expectedTopics = new Map(
 const files = (await walk(questionRoot)).sort();
 const errors = [];
 const ids = new Set();
+const prompts = new Set();
+const answers = new Set();
 let questionCount = 0;
 
-if (files.length !== 92) {
-  errors.push(`Expected 92 topic files; found ${files.length}.`);
+if (files.length !== 174) {
+  errors.push(`Expected 174 topic files; found ${files.length}.`);
 }
-if (expectedTopics.size !== 92) {
+if (expectedTopics.size !== 174) {
   errors.push(
-    `Expected the course structure to contain 92 Thermodynamics topics; found ${expectedTopics.size}.`,
+    `Expected the course structure to contain 174 Physics B topics; found ${expectedTopics.size}.`,
   );
 }
 
@@ -105,18 +115,18 @@ for (const filePath of files) {
   if (data.sectionId !== sectionId) errors.push(`${relative}: wrong sectionId.`);
   if (data.topicId !== topicId) errors.push(`${relative}: wrong topicId.`);
   if (!expectedTopics.has(relative)) {
-    errors.push(`${relative}: not present in the Thermodynamics course structure.`);
+    errors.push(`${relative}: not present in the Physics B course structure.`);
   } else if (data.topicTitle !== expectedTopics.get(relative)) {
     errors.push(`${relative}: topicTitle does not match the course structure.`);
   }
-  if (!Array.isArray(data.paperTags) || !data.paperTags.includes("thermodynamics")) {
-    errors.push(`${relative}: missing Thermodynamics paper tag.`);
+  if (!Array.isArray(data.paperTags) || !data.paperTags.includes("physics-b")) {
+    errors.push(`${relative}: missing Physics B paper tag.`);
   }
   if (!data.paperTags?.includes(sectionId)) {
     errors.push(`${relative}: missing section paper tag.`);
   }
-  if (!Array.isArray(data.questions) || data.questions.length < 20) {
-    errors.push(`${relative}: expected at least 20 questions.`);
+  if (!Array.isArray(data.questions) || data.questions.length !== 20) {
+    errors.push(`${relative}: expected exactly 20 questions.`);
     continue;
   }
 
@@ -125,23 +135,35 @@ for (const filePath of files) {
 
   for (const [index, question] of data.questions.entries()) {
     const label = `${relative} question ${index + 1}`;
-    const expectedId = `${topicId}-${String(index + 1).padStart(3, "0")}`;
+    const expectedId = `physics-b-${sectionId}-${topicId}-${String(index + 1).padStart(2, "0")}`;
     if (question.id !== expectedId) errors.push(`${label}: unstable or malformed id.`);
     if (ids.has(question.id)) errors.push(`${label}: duplicate id ${question.id}.`);
     ids.add(question.id);
     if (typeof question.prompt !== "string" || question.prompt.trim() === "") {
       errors.push(`${label}: missing prompt.`);
     }
+    if (question.prompt?.includes("Notation:")) {
+      errors.push(`${label}: prompt contains a bulk Notation section.`);
+    }
     if (typeof question.answer !== "string" || question.answer.trim() === "") {
       errors.push(`${label}: missing answer.`);
       continue;
     }
+    const normalizedPrompt = question.prompt.replace(/\s+/gu, " ").trim().toLowerCase();
+    const normalizedAnswer = question.answer.replace(/\s+/gu, " ").trim().toLowerCase();
+    if (prompts.has(normalizedPrompt)) errors.push(`${label}: duplicate prompt.`);
+    if (answers.has(normalizedAnswer)) errors.push(`${label}: duplicate answer.`);
+    prompts.add(normalizedPrompt);
+    answers.add(normalizedAnswer);
     if (!allowedRatings.has(question.rating)) errors.push(`${label}: invalid rating.`);
+    if (question.rating !== expectedRatings[index]) {
+      errors.push(`${label}: expected rating ${expectedRatings[index]}.`);
+    }
     topicRatings.add(question.rating);
     if (!Array.isArray(question.paperTags) || question.paperTags.length < 2) {
       errors.push(`${label}: missing relevant paperTags.`);
     } else if (
-      !question.paperTags.includes("thermodynamics") ||
+      !question.paperTags.includes("physics-b") ||
       !question.paperTags.includes(sectionId)
     ) {
       errors.push(`${label}: paperTags do not match the topic section.`);
@@ -155,16 +177,19 @@ for (const filePath of files) {
       errors.push(`${label}: contains unsupported Markdown emphasis markers.`);
     }
     if (
-      !/\b(?:calculate|check|derive|determine|estimate|evaluate|find|reconstruct|rework|show|solve|test|verify|write)\b/i.test(
+      !/\b(?:calculate|check|compare|derive|determine|estimate|evaluate|explain|find|interpret|justify|predict|prove|reconstruct|rework|show|solve|test|verify|write)\b/i.test(
         question.prompt,
       )
     ) {
-      errors.push(`${label}: prompt does not require a mathematical task.`);
+      errors.push(`${label}: prompt lacks an approved physics task verb.`);
     }
     if (/\\n(?![A-Za-z])/u.test(question.answer)) {
       errors.push(`${label}: answer contains a literal backslash-n.`);
     }
-    const combined = `${question.prompt}\n${question.answer}`;
+    const combined = `${question.prompt}\n${question.answer}`.replace(
+      /\\\\\[\d+pt\]/gu,
+      "",
+    );
     if (count(combined, "\\(") !== count(combined, "\\)")) {
       errors.push(`${label}: unbalanced inline-math delimiters.`);
     }
@@ -187,8 +212,21 @@ for (const relative of expectedTopics.keys()) {
   }
 }
 
-if (questionCount < 1840) {
-  errors.push(`Expected at least 1840 questions; found ${questionCount}.`);
+if (questionCount !== 3480) {
+  errors.push(`Expected exactly 3480 questions; found ${questionCount}.`);
+}
+try {
+  const registry = await fs.readFile(registryPath, "utf8");
+  const imports = [...registry.matchAll(/from "\.\/questions\/([^"\n]+\.json)";/gu)].map(
+    ([, value]) => value,
+  );
+  if (imports.length !== 174) errors.push(`Expected 174 registry imports; found ${imports.length}.`);
+  const expected = [...expectedTopics.keys()].sort().join("|");
+  if ([...imports].sort().join("|") !== expected) {
+    errors.push("Generated registry imports do not match the Physics B structure.");
+  }
+} catch (error) {
+  errors.push(`Cannot read generated registry (${error.message}).`);
 }
 
 if (errors.length > 0) {
@@ -197,5 +235,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Validated ${questionCount} questions across ${files.length} Thermodynamics topic files.`,
+  `Validated ${questionCount} questions across ${files.length} Physics B topic files.`,
 );

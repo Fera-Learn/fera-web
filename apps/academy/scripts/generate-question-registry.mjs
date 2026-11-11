@@ -34,6 +34,11 @@ const registryConfigs = [
     ),
   },
   {
+    courseId: "level-2-geophysics",
+    exportName: "level2GeophysicsQuestionTopics",
+    sourceRoot: path.join(appRoot, "src", "lib", "docs", "level-2-geophysics"),
+  },
+  {
     courseId: "level-1-math-i-physics",
     exportName: "level1MathIPhysicsQuestionTopics",
     sourceRoot: path.join(
